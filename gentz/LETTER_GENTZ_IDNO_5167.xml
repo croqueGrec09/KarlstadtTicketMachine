@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc xml:id="LETTER_GENTZ_5167">
+         <titleStmt>
+            <title>Friedrich von Gentz an Friedrich Vieweg, 13. Januar 1798</title>
+            <editor xml:id="edAG">Andreas Gálffy</editor>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <name>Forschungsstelle "Universitätssammlung Friedrich von Gentz"</name>
+               <link target="http://gentz-digital.ub.uni-koeln.de http://www.ub.uni-koeln.de/cdm/singleitem/collection/gentz/id/5166/"/>
+            </publisher>
+            <pubPlace>Cologne</pubPlace>
+            <idno type="Gentz-Edition-Number" n="5167"/>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <country>Germany</country>
+                  <settlement>Wiesbaden</settlement>
+                  <institution>Vieweg-Verlagsarchiv</institution>
+                  <repository>Briefsammlung 311 G, Gentz-Briefe</repository>
+                  <idno>Nr. 78</idno>
+               </msIdentifier>
+               <msContents>
+                  <summary>
+                     Die Bücher und der Brief kommen mit diesem Schreiben bei. Der Brief soll am gleichen Tag zum Abgang befördert 
+                     werden. Auch das Papier soll Vieweg bald schicken. Zudem bittet Gentz noch zwei verschiedene Teile der 
+                     neuesten Ausgabe des Kaufmanns-Lexikons von Ludovici und Schedel.
+                  </summary>
+               </msContents>
+            </msDesc>
+            <listBibl type="defRep">
+               <biblStruct xml:id="p5167-1" corresp="GBk-0035">
+                  <monogr>
+                     <author>
+                        <persName>
+                           <ref target="http://d-nb.info/gnd/117281387"/>
+                           <forename>Carl Günther</forename>
+                           <surname>Ludovici</surname>
+                        </persName>
+                        <persName>
+                           <ref target="http://d-nb.info/gnd/117113433"/>
+                           <forename>Johann Christian</forename>
+                           <surname>Schedel</surname>
+                        </persName>
+                     </author>
+                     <title>Neu eröfnete Academie der Kaufleute, oder encyclopädisches Kaufmannslexicon alles Wissenswerthen und Gemeinnützigen</title>
+                     <imprint>
+                        <publisher>Breitkopf und Härtel</publisher>
+                        <pubPlace>Leipzig</pubPlace>
+                        <date>1797</date>
+                     </imprint>
+                     <biblScope unit="volume" n="1">
+                        Erster Theil
+                     </biblScope>
+                  </monogr>
+                  <ptr target="https://books.google.de/books?id=QW87AAAAcAAJ" />
+               </biblStruct>
+               <biblStruct xml:id="p5167-2" corresp="GBk-0036">
+                  <monogr>
+                     <author>
+                        <persName>
+                           <ref target="http://d-nb.info/gnd/117281387"/>
+                           <forename>Carl Günther</forename>
+                           <surname>Ludovici</surname>
+                        </persName>
+                        <persName>
+                           <ref target="http://d-nb.info/gnd/117113433"/>
+                           <forename>Johann Christian</forename>
+                           <surname>Schedel</surname>
+                        </persName>
+                     </author>
+                     <title>Neu eröfnete Academie der Kaufleute, oder encyclopädisches Kaufmannslexicon alles Wissenswerthen und Gemeinnützigen</title>
+                     <imprint>
+                        <publisher>Breitkopf und Härtel</publisher>
+                        <pubPlace>Leipzig</pubPlace>
+                        <date>1798</date>
+                     </imprint>
+                     <biblScope unit="volume" n="2">
+                        Zweyter Theil
+                     </biblScope>
+                  </monogr>
+                  <ptr target="https://books.google.de/books?id=n287AAAAcAAJ" />
+               </biblStruct>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Masterarbeit zu Matrikelnummer 5584124</p>
+         </projectDesc>
+      </encodingDesc>
+      <profileDesc>
+         <creation>
+            <date when-iso="1798-01-13">13. Januar 1798</date>
+         </creation>
+        <langUsage>
+           <language ident="d">deutsch</language>
+        </langUsage>
+         <textClass>
+            <keywords scheme="internal"><!-- internal: innerhalb des besagten Briefs -->
+               <term>Billet</term>
+               <term>Kaufmanns-Lexikon</term>
+               <term>Papier</term>
+            </keywords>
+            <keywords scheme="categorisation"><!-- Sinnabschnittseinteilung - relevant für den Fahrkartenautomaten! -->
+               <term xml:id="bezbt">Beziehungen zu Berlin - Beamtentätigkeit</term>
+            </keywords>
+         </textClass>
+         <textDesc>
+            <channel>manuscript</channel>
+            <constitution type="single"/>
+            <derivation type="original"/>
+            <domain type="private"/>
+            <factuality type="fact"/>
+            <interaction type="partial"/>
+            <preparedness type="unprepared"/>
+            <purpose type="inform"/>
+         </textDesc>
+         <particDesc>
+            <listPerson>
+               <!-- Sender und Adressat -->
+               <person role="sender" xml:id="Gen">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/118538489"/>
+                     <forename>Friedrich von</forename>
+                     <surname>Gentz</surname>
+                  </persName>
+               </person>
+               <person role="receiver" xml:id="FVW">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/119049546"/>
+                     <forename>Friedrich</forename>
+                     <surname>Vieweg</surname>
+                  </persName>
+               </person>
+               <!-- erwähnte Personen -->
+               <person role="named" xml:id="CGL">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/117281387"/>
+                     <forename>Carl Günther</forename>
+                     <surname>Ludovici</surname>
+                  </persName>
+               </person>
+               <person role="named" xml:id="JCS">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/117113433"/>
+                     <forename>Johann Christian</forename>
+                     <surname>Schedel</surname>
+                  </persName>
+               </person>
+            </listPerson>
+         </particDesc>
+         <settingDesc>
+            <listPlace>
+               <!-- Start- und Zielort -->
+               <place type="sender" xml:id="plBe">
+                  <country>
+                     <ref target="http://d-nb.info/gnd/4047194-9"/>
+                     <placeName>Preußen</placeName>
+                  </country>
+                  <settlement>
+                     <ref target="http://d-nb.info/gnd/4005728-8"/>
+                     <placeName>Berlin</placeName>
+                  </settlement>
+               </place>
+               <!-- erwähnte Orte -->
+            </listPlace>
+         </settingDesc>
+      </profileDesc>
+      <revisionDesc>
+         <change xml:id="init" when-iso="2018-02-28" who="#edAG">Erstauszeichnung und Normierung des Dokumentes im Rahmen der Masterarbeit der Matrikelnummer 5584124</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div n="1" corresp="#bezbt">
+            <p>
+               Ich schicke Ihnen bloß den Brief und die Bücher. Das Uebrige was dabey zu besorgen ist, überlaße ich Ihrer Güte. Nur 
+               das Einzige bitte ich sehr, daß der Brief ja noch heute zum Abgang befördert werde.
+            </p>
+            <p>
+               Außer den gestern bestellten Büchern, erbitte ich mir auch noch
+            </p>
+            <lg>
+               <l>die beiden erschienenen Theile von der <rs type="citation" ref="#p5167-1">Neuen Ausgabe</rs> des</l>
+               <l><rs type="citation" ref="#p5167-2"><emph rend="underlined">Kaufmanns-Lexicons</emph></rs> von <rs type="person" ref="#CGL"><emph rend="underlined">Ludovici</emph></rs></l>
+               <l>und <rs type="person" ref="#JCS"><emph rend="underlined">Schedel</emph></rs>.</l>
+            </lg>
+            <p>
+               Vergessen Sie das <emph rend="underlined">Papier</emph> nicht.
+            </p>
+         </div>
+         <closer>
+            <signed rend="right">Gentz.</signed>
+            <dateline rend="right">den <date when-iso="1798-01-13">13<span rend="sup">ten</span> Jan 98</date></dateline>
+         </closer>
+      </body>
+      <back resp="otherHand">
+         <p>
+            <rs type="place" ref="#plBe">Berlin</rs> <date when-iso="1798-01-13">13. Jan. 1798</date>
+            H. Kr. Rath Gentz
+            expedirt.
+         </p>
+      </back>
+      <note xml:id="r5167-1">S. 2: Präsenz- und Arbeitsvermerk von fremder Hand</note>
+      <note resp="#edAG" xml:id="r5167-2">In Gentz digital ist linksbündig neben der Datumszeile ein "."</note>
+   </text>
+</TEI>

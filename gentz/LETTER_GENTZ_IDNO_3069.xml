@@ -1,0 +1,599 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader type="text">
+      <fileDesc xml:id="LETTER_GENTZ_3069">
+         <titleStmt>
+            <title>Friedrich von Gentz an Elisabeth Graun, 31. Dezember 1785</title>
+            <editor xml:id="edAG">Andreas Gálffy</editor>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <name>Forschungsstelle "Universitätssammlung Friedrich von Gentz"</name>
+               <link target="http://gentz-digital.ub.uni-koeln.de http://www.ub.uni-koeln.de/cdm/singleitem/collection/gentz/id/3068/"/>
+            </publisher>
+            <pubPlace>Cologne</pubPlace>
+            <idno type="Gentz-Edition-Number" n="3069"/>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <country>Poland</country>
+                  <settlement>Cracow</settlement>
+                  <institution>Biblioteka Jagiellońska</institution>
+                  <repository>Handschriftenabtelung</repository>
+                  <collection>Varnhagensammlung der ehemaligen Preußischen Bibliothek</collection>
+                  <idno>Karton 66</idno>
+               </msIdentifier>
+               <msContents>
+                  <summary>
+                     Am letzten tag des Jahres 1785 nahm sich Gentz viel Zeit, um den offensichtlichen Kummer seiner Freundin zu 
+                     begegnen. Umso mehr bereitete es ihm Freude, einen Brief von Frau Graun lesen zu können. Die Abhandlung (wie 
+                     Gentz es am Ende desselben es nennt) ist in zwei Teile unterteilt: er fängt an, allgemein zu beschreiben, wie 
+                     die Gesellschaft funktioniert: oberflächlich, unfähig zu tieferen Beziehungen oder gar Freundschaften, 
+                     machtsüchtig, gierig, einsam. Diese Zustandsbeschreibung erläutert er ausführlich mit einem Gleichnis eines 
+                     Tals, in welchem die Menschen glücklich gewesen waren, bis Leute von außen kamen, die dort Diamanten entdeckten 
+                     und Minen in dem Tal bauten. Die Menschen wurden ausgebeutet und es blieb eine Einöde zurück, in welchem vor 
+                     lauter Diamanten niemand mehr einen Happen Essen zu finden vermochte. Jemand, der dieses Tal für zehn Jahre 
+                     verließ und anschließend dorthin zurückkehrte, starb an Hunger. Am Ende des Gleichnisses zieht er den Vergleich 
+                     zwischen diesem Wanderer, der nach Essen sucht, und den einsamen Seelen in der Gesellschaft, die an ihrer Suche 
+                     nach Gleichgesinnten verzweifeln.
+                     Gentz fährt danach mit einem Kapitel über das Glück des Mutterseins und der Familie fort. Welch Zuflucht eine 
+                     glückliche Familie bedeuten kann!
+                     Anschließend zieht Gentz ein Resumée des vergangenen Jahres: lehrreich; zu Beginn trübe. Aber durch Elisabeth 
+                     Graun haben sich die Aussichten verbessert, versüßt und für das kommende Jahr wünscht sich Gentz nur, dass das 
+                     Glück, das er durch die Beziehung mit Elisabeth Graun erfahren hat, weiter anhalte.
+                     Dies könnte sich in einem dreiwöchigen Aufenthalt in Königsberg gipfeln, den Gentz am Ende des Briefes 
+                     ankündigt.
+                     Im Epigraph stellt Gentz das Ende des Jahres fest.
+                  </summary>
+               </msContents>
+            </msDesc>
+            <listBibl type="preprints">
+               <biblStruct>
+                  <monogr>
+                     <editor>
+                        <persName>
+                           <ref target="http://d-nb.info/gnd/130953075"/>
+                           <forename>Friedrich Carl</forename>
+                           <surname>Wittichen</surname>
+                        </persName>
+                        <persName>
+                           <ref/> <!-- kein GND-Eintrag -->
+                           <forename>Ernst</forename>
+                           <surname>Salzer</surname>
+                        </persName>
+                     </editor>
+                     <title>Briefe von und an Friedrich von Gentz. 4 Bde.</title>
+                     <imprint>
+                        <publisher>Oldenbourg</publisher>
+                        <pubPlace>München, Berlin</pubPlace>
+                        <date>1909-1913</date>
+                     </imprint>
+                     <biblScope unit="volume" n="1">
+                        I
+                     </biblScope>
+                     <biblScope unit="page" from="66" to="74">
+                        Nr. 15
+                     </biblScope>
+                  </monogr>
+               </biblStruct>
+               <biblStruct>
+                  <monogr>
+                      <editor>
+                          <persName>
+                             <ref target="http://d-nb.info/gnd/117325791"/>
+                             <forename>Gustav</forename>
+                             <surname>Schlesier</surname>
+                          </persName>
+                      </editor>
+                      <title>Schriften von Friedrich von Gentz. Ein Denkmal. 5 Bde.</title>
+                      <imprint>
+                          <publisher>Verlag von Heinrich Wolff</publisher>
+                          <pubPlace>Mannheim</pubPlace>
+                          <date>1838-1840</date>
+                      </imprint>
+                      <biblScope unit="volume" n="1">
+                          I
+                      </biblScope>
+                      <biblScope unit="page" from="56" to="66">
+                          Nr. 7
+                      </biblScope>
+                  </monogr>
+               </biblStruct>
+            </listBibl>
+            <listBibl type="letterReferenced">
+               <bibl xml:id="c3069-1" corresp="#LETTER_GENTZ_NNNN">nicht bekannter Brief von Elisabeth Graun an Friedrich von Gentz</bibl>
+               <bibl xml:id="c3069-2" corresp="#LETTER_GENTZ_NNNN">Eintrag in Gentz' Tagebuch vom 1. Januar 1785</bibl>
+               <bibl xml:id="c3069-3" corresp="#LETTER_GENTZ_NNNN">nicht bekannter Brief von Friedrich von Gentz an Fritz, dem Bruder von Elisabeth Graun</bibl>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Masterarbeit zu Matrikelnummer 5584124</p>
+         </projectDesc>
+      </encodingDesc>
+      <profileDesc>
+         <creation>
+            <date when-iso="1785-12-31">31. Dezember 1785</date>
+         </creation>
+        <langUsage>
+           <language ident="d">deutsch</language>
+        </langUsage>
+         <textClass>
+            <keywords scheme="internal"><!-- internal: innerhalb des besagten Briefs -->
+               <term>Brief</term>
+               <term>Graun</term>
+               <term>Berlin</term>
+               <term>Sehnsucht</term>
+               <term>Gesellschaft</term>
+               <term>Liebe</term>
+               <term>Philosophie</term>
+               <term>Regierungsrat Graun</term>
+               <term>Gleichnis</term>
+            </keywords>
+            <keywords scheme="categorisation"><!-- Sinnabschnittseinteilung - relevant für den Fahrkartenautomaten! -->
+               <term xml:id="veg">Verhältnis Elisabeth Graun</term>
+               <term xml:id="philw">Philosophie - Lebenswege</term>
+               <term xml:id="bezkg">Beziehungen zu Königsberg</term>
+            </keywords>
+         </textClass>
+         <textDesc>
+            <channel>manuscript</channel>
+            <constitution type="single"/>
+            <derivation type="original"/>
+            <domain type="private"/>
+            <factuality type="fact"/>
+            <interaction type="partial"/>
+            <preparedness type="prepared"/>
+            <purpose type="inform"/>
+         </textDesc>
+         <particDesc>
+            <listPerson>
+               <!-- Sender und Adressat -->
+               <person role="sender" xml:id="Gen">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/118538489"/>
+                     <forename>Friedrich von</forename>
+                     <surname>Gentz</surname>
+                  </persName>
+               </person>
+               <person role="receiver" xml:id="Gra">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/123518733"/>
+                     <forename>Elisabeth</forename>
+                     <surname>Graun</surname>
+                  </persName>
+               </person>
+               <!-- erwähnte Personen -->
+               <person role="named" xml:id="lno">
+                  <persName>
+                     <ref/>
+                     <forename>David oder Jeremias</forename>
+                     <surname>Le Noble</surname>
+                     <certainty locus="name">
+                        <desc>ist unklar! Entnommen aus: Gause, Fritz. Friedrich Gentz in Königsberg. In: Jahrbuch der Schlesischen Friedrich-Wilhelms-Universität zu Breslau, Band XVIII. 1973. Berlin: Duncker &amp; Humblot. S. 325</desc>
+                     </certainty>
+                  </persName>
+               </person>
+               <person role="named" xml:id="coe">
+                  <persName>
+                     <ref/><!-- kein GND-Eintrag -->
+                     <forename>Coelestine</forename>
+                     <surname>Schwinck</surname>
+                     <roleName type="address">Mademoiselle</roleName>
+                  </persName>
+               </person>
+               <person role="named" xml:id="eyo">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/118635964"/>
+                     <forename>Edward</forename>
+                     <surname>Young</surname>
+                  </persName>
+               </person>
+               <person role="named" xml:id="SWGra">
+                  <persName>
+                     <ref/><!-- kein GND-Eintrag -->
+                     <forename/>
+                     <surname/>
+                     <roleName type="family">Schwester von Elisabeth Graun</roleName>
+                  </persName>
+                  <certainty locus="name">
+                     <desc>Es konnte kein Name gefunden werden.</desc>
+                  </certainty>
+               </person>
+               <person role="named" xml:id="frt">
+                  <persName>
+                     <ref/><!-- kein GND-Eintrag -->
+                     <forename>Fritz</forename>
+                     <surname/>
+                     <roleName type="family">Bruder von Elisabeth Graun</roleName>
+                  </persName>
+                  <certainty locus="name">
+                     <desc>Es konnte kein Name gefunden werden.</desc>
+                  </certainty>
+               </person>
+               <person role="named" xml:id="GGS">
+                  <persName>
+                     <ref/>
+                     <forename>Georg Gotthilf</forename>
+                     <surname>Schwinck</surname>
+                  </persName>
+               </person>
+               <person role="named" xml:id="Mue">
+                  <persName>
+                     <ref/>
+                     <forename/>
+                     <surname>Münzmeister</surname>
+                  </persName>
+               </person>
+               <person role="named" xml:id="Gsw">
+                  <persName>
+                     <ref/>
+                     <forename/>
+                     <surname>Gossow</surname>
+                  </persName>
+               </person>
+               <person role="named" xml:id="ltc">
+                  <persName>
+                     <ref/>
+                     <forename>Lottchen</forename>
+                     <surname/>
+                  </persName>
+               </person>
+               <person role="named" xml:id="RRGra">
+                  <persName>
+                     <ref/><!-- kein GND-Eintrag -->
+                     <forename>Karl Heinrich</forename>
+                     <surname>Graun</surname>
+                     <roleName type="office">Regierungsrat</roleName>
+                  </persName>
+               </person>
+            </listPerson>
+         </particDesc>
+         <settingDesc>
+            <listPlace>
+               <!-- Start- und Zielort -->
+               <place type="sender" xml:id="plBe">
+                  <country>
+                     <ref target="http://d-nb.info/gnd/4047194-9"/>
+                     <placeName>Preußen</placeName>  
+                  </country>
+                  <settlement>
+                     <ref target="http://d-nb.info/gnd/4005728-8"/>
+                     <placeName>Berlin</placeName>
+                  </settlement>
+               </place>
+               <place type="receiver" xml:id="plKo">
+                  <country>
+                     <ref target="http://d-nb.info/gnd/4047194-9"/>
+                     <placeName>Preußen</placeName>  
+                  </country>
+                  <settlement>
+                     <ref target="http://d-nb.info/gnd/4031541-1"/>
+                     <placeName>Königsberg</placeName>
+                  </settlement>
+               </place>
+               <!-- erwähnte Orte -->
+            </listPlace>
+         </settingDesc>
+      </profileDesc>
+      <revisionDesc>
+         <change xml:id="init" when-iso="2018-01-27" who="#edAG">Erstauszeichnung und Normierung des Dokumentes im Rahmen der Masterarbeit der Matrikelnummer 5584124</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div n="1" corresp="#veg">
+            <opener>
+               <salute>Theure Freundinn !</salute>
+            </opener>
+            <p>
+               Ich weis, daß Sie es fühlten, selbst fühlten, als Sie <rs type="citation" ref="#c3069-1">Ihren letzten Brief</rs> 
+               an mich schrieben, wie sehr Sie mich dadurch erfreut, erquickt, beglückt haben, ich weis es; denn eine Seele, die 
+               nur wirklich eine Seele ist, fühlt jede süße Empfindung zuerst, die sie in andern erregt. Es wäre aber eben so 
+               überflüßig, als es ohnmöglich ist, daß ich Ihnen hier beschreibe, wie wol mir zu Muthe war, als ich die 
+               Versicherung, daß Sie so meine Freundinn wären, noch jetzt sind, als ich es wünschte, aus jeder Zeile las, und aus 
+               jedem Worte schloß.
+            </p>
+         </div>
+         <div n="2" corresp="#philw">
+            <p>
+               Liebe Frau ! Je mehr man die Menschen kennen lernt und beobachtet, oder um nur gleich zu sagen, wie ich es 
+               eigentlich meyne, je <emph rend="underlined">mehr</emph> Menschen man kennen lernt, je mehr sieht man - daß nur 
+               <emph rend="underlined">wenige</emph> werth sind, gekannt zu werden. Je mehr man in der Welt herumsucht nach Herzen, 
+               die unser Herz verstehen, je froher wird man, je glücklicher schätzt man sich über die wenigen, die man gefunden 
+               hat. Ach ! sie sind so selten.
+            </p>
+            <p>
+               Der große Haufe der Menschen versteht das Wort, Freundschaft, gar nicht mehr ! Wißen Sie, seit wann ? - Seit dem 
+               Augenblicke, da er aufhörte, das Wort, Liebe, zu verstehen. In unsern großen Städten lacht man über wahre Liebe, 
+               so wie man warme Freundschaft für ein Unding hält. Belustigungen, und Amusemens, sind an die Stelle des Vergnügens 
+               getreten; man quält sich, um nur vor aller Welt glücklich zu <emph rend="underlined">scheinen</emph>, und bringt es 
+               endlich dahin, daß man ganz vergißt, es zu <emph rend="underlined">seyn</emph>. Man tanzt, man spielt man hat 
+               Langeweile auf Bällen und in Gesellschaften, weil man sie nicht mehr besucht, um das Leben zu versüßen, sondern 
+               umgekehrt, weil man blos lebt, um sie zu besuchen.
+            </p>
+            <p>
+               Ich sage Ihnen Nichts Neues: das wollte ich auch gar nicht. Sie wißen, Sie fühlen alles, was ich hierüber weiß und 
+               fühle. Aber eben das ist der Vorzug einer Correspondenz, die nicht Jedermann zu führen im Stande ist, daß wir 
+               einander unsre eignen Gedanken und Gefühle entwickeln, und daß man die seinigen wieder findet, wenn man seinen 
+               Freund sprechen hört.
+            </p>
+            <p>
+               Ist es <add place="above">nicht</add> ausgemacht, daß für Menschen, die den wahren Werth des Lebens zu schätzen 
+               im Stande sind, die den hohen Wert einer einzigen glücklichen Stunde einer <pb/> Reihe fader Tage und abgeschmackter 
+               Zeitvertreibe vorziehen gelernt haben, daß für die alles Klagen und Murren über die Welt, blos darin seinen Grund 
+               hat, daß sie nicht Seelen genung finden, mit denen sie harmoniren, in denen sie sich ihres Ueberflußes sanft 
+               entladen, in denen sie ihre Leeren reichlich ausfüllen können, oder daß sie, wenn sie solche Seelen gefunden haben, 
+               nach ihrem Umgange vergeblich seufzen, oder wol gar nach ihrem Umgange nicht seufzen 
+               <emph rend="underlined">dürfen?</emph> Sagen Sie mir, einige kleine physische Übel abgerechnet, die sich dann wohl 
+               würden ertragen laßen, ist das nicht der Grund aller unsrer Seufzer, und die Quelle aller unsrer mißvergnügten 
+               Tage ? -
+            </p>
+            <p>
+               Nicht wahr ? Der Umgang mit 4 oder 5 vortreflichen Menschen, aber ohne Zwang, ohne Rückhalt, in der ungezwungensten, 
+               glücklichsten Freyheit der Natur, durch keine Hinsicht auf Ceremoniell eingeschränkt, durch keine Furcht vor 
+               Misdeutungen verbittert, allenfalls <del rend="stroked">ohne</del> im ruhigen Schooße der süßen, süßen Natur - wäre 
+               das nicht gerade das Einzige was Menschen, wie wir sind, glücklich machen könnte ? Sagen Sie doch, würden wir mehr 
+               wünschen ? würden wir <add place="above">nicht</add> gern allen eiteln Glanz der Welt den Thoren, alles Geld den 
+               Juden, alle Gelehrsamkeit der Schule überlaßen, und aus unserm kleinen frohen Cirkel hinaus sehen in die große 
+               Welt, und in das stürmische Labyrinth, wo man Freunde <emph rend="underlined">kaufen</emph> will, und nicht sieht, 
+               daß sie nicht zu kaufen sind, würden wir da nicht hinaussehen, wie der Bewohner einer guten stillen, warmen Stube 
+               hinaussieht in die herbstliche Gegend, wo der Abendwind in einem kalten Regen die abgefallnen Blätter ersäuft ? - 
+               Wir brauchten nicht mehr.
+            </p>
+            <p>
+               Und doch sehnen wir uns vergeblich nach diesen reitzenden Gütern, und können nicht begreifen, warum sie uns versagt 
+               sind, da sie doch so simpel, so natürlich, so wenig kostbar (nach der Welt-Sprache) sind, können nicht begreifen, 
+               warum der Schätze-Sammler, der nach Hunderttausenden geitzt, eher seinen unmäßigen Wunsch erfüllt sieht, als wir den 
+               billigen, bescheidnen - den Wunsch nach einem kleinen, kleinen Cirkel von rechter Freundschaft belebt.
+            </p>
+            <p>
+               Hören Sie mich an, liebe Grauninn, ich weis daß eben diese Zweifel oft Ihre Seele bestürmen ich weis daß sie es im 
+               Grunde allein sind, die Sie mit dem Leben unzufrieden machen, daß Sie oft, oft denken: Wie wenig wünsche ich, und 
+               doch wünsche ich vergebens. Hören Sie mich, den eben dieser Kum<pb/>mer oft geplagt, eben dieser Zweifel oft bis - 
+               zu einem weit furchtbarern Zweifel geführt hat. Mir ist er gelöset: wie in den meisten Fällen, wo wir über Uebel in 
+               der Einrichtung der Welt klagen, liegt die Schuld, so wenig und so ungern wir es [auch] uns auch gestehen mögen - 
+               in uns.
+            </p>
+            <p>
+               Denken Sie Sich ein großes fruchtbares Thal zwischen einigen hohen Bergen, die blos dahin gesetzt zu seyn scheinen, 
+               um es mit dem Regen des Himmels zu tränken und gegen das wüthendste Brausen der Nordwinde zu schirmen: denken Sie 
+               Sich dieses Thal mit goldnen Früchten aller Art reichlich gekrönt, und mit jeder wolriechenden Blume ausgeziert, 
+               die die Natur so gern hinwirft, wenn man sie nicht stöhrt, bewohnt von einem friedlichen, glücklichen Völkchen, 
+               das vielleicht um desto glücklicher ist, weil es nie sah, was jenseits seiner Berge vorgeht. - Denken Sie Sich, daß 
+               durch ein sehr natürliches Ungefähr einer der Bewohner, indem er in seinem reichen, fetten, wohlthätigen Boden 
+               gräbt, einen Diamant fände. Was würde geschehen ? - Der glückliche Sohn der Natur würde den Diamant bewundern, 
+               wie einen hellen, wolgeformten Kiesel-Stein, er würde ihn hinlegen, und über den Thoren lachen, der ihm in Ernst 
+               auch nur drey Kornähren für dieses unnütze Cleinod anböte. Alle seine Brüder, gleichweit von dem Narren-Joche der 
+               Meynung und des Vorurtheils befreyt, würden den Stein eben so gleich gültig liegen laßen, und der Besitzer von 
+               einem mogolischen Schatze und <del rend="stroked">fünf</del> 5 Pflaum-Bäumen, wäre ärmer als sein Nachbar der 6 
+               Pflaum-Bäume und keinen Diamanten hätte.
+            </p>
+            <p>
+               Gesetzt aber, es käme durch einen Zufall ein angränzender Fürst in diese seeligen Gefilde; er sähe den Diamanten, 
+               er hörte, daß er aus dieses Landes Erde gegraben wäre, seine verdorbne, befleckte Seele, käme sogleich auf den 
+               barbarischen Gedanken, dies friedliche Land zu unterjochen, und zu seinen gelddürstenden Zwecken zu brauchen. Er 
+               würde es ausführen: er verjagte die Bewohner aus ihrer stillen Stube und schmiße sie in den Ocean der Welt, er 
+               nähme ihnen ihre glücklichen Aecker und gäbe ihnen Geldfäßer in seiner Hauptstadt; er nähme ihnen ihre häuslichen 
+               Freuden, und gäbe ihnen alberne Ehrenstellen an seinem Hofe: Das reiche, wollüstige Thal würde in eine 
+               Diamanten-Grube verwandelt, ausgerottet alle Blümchen der verwaysten Flur, niedergerißen alle Pflanzungen, 
+               umgepflügt alle Getreide-Felder, um Steine hervorzusuchen, und im Zeitraume von einigen Jahren spottete man schon 
+               über die unwißende Nation, die ihr Korn verzehrt hätte, ohne zu ahnden, daß es auf einer Diamanten-Grube wüchse.<pb/>
+            </p>
+            <p>
+               Nach zehn Jahren käme einer von den ehmaligen Einwohnern unsers Thals auf einer Reise unvermuthet in sein ehmaliges 
+               Vaterland. Matt von Hunger, matt von Durst, dächte er mitten im Schooß des üppichsten Reichthums der Natur sein 
+               Labsal und seine Stärkung zu finden. Blos einige rohe, saftige Früchte, die ihn ehmals oft erquickt hatten zur 
+               Nahrung, blos ein Blumen-Bette worauf er sonst so weich gelegen hatte, zum Lager: mehr wünscht er nicht. Und 
+               siehe - es war alles wüste und oede: In der umgewühlten Erde glänzte hin und wieder ein kostbarer Stein, aber keine 
+               reitzende Frucht: für Hunderte von Diamanten hätte er keine Kornähre kaufen können: wo seine Brüder und seine 
+               Schwestern unter Blumen spielten, da seufzen jetzt Sklaven in furchtbaren Bergwerken. Er stirbt vor Hunger unter 
+               den Schätzen, die tausend Fürsten bereichert hätten: keine Blume, keine Frucht, aber Edelsteine ohne Zahl !
+            </p>
+            <p>
+               O ! meine Freundin ! Sie haben die Anwendung schon gemacht. Mich - mich hat sie manche, manche Thräne gekostet. Wir 
+               haben uns die Welt in eine Goldgrube verwandelt, und - unsre Blumen sind verwelkt; wir haben uns in Diamanten arm 
+               gewünscht, und - ach ! - keine Kornähren mehr.
+            </p>
+            <p>
+               Sehn Sie ! Das ist es, was mich - tröstet ? - nein ! aber still, still macht, so oft ich denke: wie geringe sind der 
+               edelsten Menschen Wünsche, und sie werden nicht gehört ! Geringe ? so sage ich denn, geringe ? Blumen zu lesen, in 
+               einer Edelstein-Grube ? Freylich ist Liebe, und Freundschaft, und herzliche Freude, und sanfter, ruhiger 
+               Lebens-Genuß, so wohlfeil, so natürlich, so reichlich ausgestreut, als Veilchen und Trauben, wenn wir der Natur 
+               getreu bleiben. Aber so wie der Mensch jetzt ist, in diesem eisernen Zeit-Alter durch unsre Cultur vergiftet, durch 
+               unsre Vorurtheile umnebelt, durch unsre Leidenschaften in ein Kranken-Haus, durch unsre gesellschaftliche 
+               Verhältniße in etwas noch weit ärgers verwandelt - o ! da sind Liebe und Freundschaft und ein ruhiges Leben in der 
+               Simplicität aller Begierden, und aller Vergnügungen eben so selten, als Blumen und Früchte im Diamanten-Thal: und: 
+               <emph rend="underlined">eine Welt für einen Freund hingeben</emph> fängt an, Gewinn zu werden.
+            </p>
+            <p>
+               Zum Glück - oder zum Unglück - (beydes ist wahr) sind in dem Zeit-Alter worin wir leben, und was ich Ihnen so eben 
+               schilderte, die Menschen so geartet, daß sie über ihren Diamanten, Blumen und Früchte 
+               <emph rend="underlined">vergeßen</emph> haben. Unter Millionen fällt es gewiß selten mehr als Zweyen ein, mitten 
+               im Getümmel des Lebens eine Leere zu fühlen, die aller Rausch der erkünstelten <pb/> Vergnügungen nicht ausfüllen 
+               kan; oder wenn es ihnen einfällt, so wißen sie kein beßres Mittel, als, um einem Abgrunde zu entgehen, sich in einen 
+               noch tiefern zu stürzen; und um nur keinen Ueberrest des Lichts mehr zu sehn löschen sie das Flämmchen vollends aus, 
+               das um sie her zittert.
+            </p>
+            <p>
+               Wir aber - meine Freundinn ! - wir, die wir uns oft sehnen nach Einer frischen Frucht auf diesem trocknen Boden, - 
+               ach ! nach Einem weichen Blumen-Lager in dieser kalten Stein-Grube, deren Schätze uns nicht sättigen - wir wenige - 
+               sollen wir künftighin noch klagen, daß unsre Wünsche, die noch so eng sind nicht erfüllt werden ? - Nein ! laßt uns 
+               vielmehr einsehen, daß nach der törigten Umwühlung unsers Erdbodens, jetzt Diamanten, Staub an den Füßen, und 
+               Feld-Blumen seltner, als Diamanten geworden sind. Laßt uns den glücklichen Schritt preisen, und segnen, der in 
+               dieser <emph rend="underlined">allgemeinen Dürre</emph>, uns an Eine Blume führte und - statt zu klagen, daß wir 
+               nicht mehr wie sonst, auf Rosen-Betten ruhen können, laßt uns die seltnen Blumen die wir fanden, lieber recht 
+               genießen, einziehen ihren ganzen Wohlgeruch, <del rend="stroke">sich</del> <add place="above">uns</add> berauschen 
+               in ihrem wollüstigen Duft, und - wenn sie uns entrißen werden, mit Gelaßenheit denken: die Welt ist zu arm, sie zu 
+               tragen, weil die Tyrannen sie verdarben.
+            </p>
+         </div>
+         <div n="3" corresp="#veg">
+            <p>
+               Ich konnte es nicht laßen, beste Frau, Ihnen diese Idee, mit der ich mich nun schon seit geraumer Zeit als einer 
+               sehr richtigen Vergleichung, die aufs Leben vollkommen paßt herumgetragen habe ausführlich mitzutheilen. Freylich 
+               sieht die ganze Parabel wieder einer kleinen Abhandlung sehr aehnlich: und Sie werden sagen, daß meine meisten 
+               Briefe Predigten sind. Doch das ist ja gar nicht die Frage: was sie sind ? - die Frage ist blos: ob sie Ihnen 
+               gefallen.
+            </p>
+            <p>
+               Weil denn das nun, wie sich Ihr Mann bisweilen auszudrücken pflegte, in der Welt so traurig geht, was bleibt uns 
+               übrig ? - Ich denke doch immer noch: viel, für jeden viel. Was mir z. B. jetzt das Leben herrlich versüßt, das wißen 
+               Sie wol: ich weis aber auch, was es Ihnen versüßen <emph rend="underlined">könnte</emph>. Wollen Sie darüber noch 
+               ein kleines Capitel anhören ? - Wohlan !
+            </p>
+            <p>
+               Ihre Kinder - Nichts ist mir in dem Gewebe Ihrer Schicksale und in dem Systeme Ihrer Empfindungen trauriger, als daß 
+               Sie es über Sich Selbst nicht erlangen können, Ihre lebendigen Kinder eben so zu lieben, als Ihr verstorbnes. Und 
+               doch ist das die einzige Thür, die Ihnen noch zur wahren, und - ich darf es [zu] sagen - zu einer recht hohen 
+               Glückseeligkeit offen steht. <pb/> Erziehung ist Alles. Sagen Sie mir, bey der guten Erziehung, die Sie und die ich 
+               genoßen haben, fällt es uns nicht in manchen Augenblicken, besonders in mancher Stunde des Kummers ein, daß wir noch 
+               weit glücklicher seyn würden, wenn man uns mit noch größrer Sorgfalt erzogen hätte, wenn man unsre schwachen Seiten 
+               noch mit mehr Aufmerksamkeit gestärkt, die rauhen Stellen mehr abgeschliffen, 
+               <emph rend="underlined">die weichen mehr abgehärtet</emph> hätte ? uns gegen weniger - eingebildete - Leiden fühlbar 
+               gemacht, und die unvermeidlichen mit größrer Standhaftigkeit ertragen gelehrt hätte ? - Schon bey einer andern 
+               Gelegenheit habe ich Ihnen einst meinen Grundsatz der Glückseeligkeit mitgetheilt: die Umstände können viel über 
+               uns, aber wir können noch mehr über die Umstände. Die nächste Folge daraus ist, daß es keinen sicherern Leit-Stern 
+               in ein glückliches Leben giebt, als eine gute Erziehung.
+            </p>
+            <p>
+               Welch ein erhabnes Geschäft haben Sie also, so wie jede Mutter und jeder Vater, die ihre Pflicht verstehen, 
+               beständig an Ihrer Seite, so nahe, so gegenwärtig ! Liebe, Liebe Freundinn ! wir wißen ja, was das sagen will: 
+               <emph rend="underlined">ein Mensch, der glücklich ist</emph>. - Sie haben es in Ihrer Hand, glückliche Menschen zu 
+               bilden und zwar nicht auf Augenblicke und Stunden - sondern für das Leben - und für den Tod. Nun weiß ich aber, 
+               wenn wir selbst nicht vollkommen glüklich sind, keine andre Erholung keine andre Zuflucht, als andre vollkommen 
+               glücklich zu machen.
+            </p>
+            <p>
+               Ich schreibe dies am letzten Tage des Jahres 1785. - Was war das für ein Jahr für mich ! Wieviel habe ich in diesem 
+               Jahre <emph rend="underlined">gelernt!</emph> - Am ersten Tage schrieb ich in 
+               <rs type="citation" ref="c3069-2">mein Tage-Buch</rs> folgende Stelle, davon ich Ihnen der Merkwürdigkeit halber 
+               den Anfang hieher setzen will !
+               <cit corresp="#c3069-2">
+                  <quote>
+                     Dunkel sind die Wege der Zukunft immer für den eingeschränkten Blick des kurzsichtigen Menschen, aber noch nie 
+                     hat sich ein Jahr meines Lebens mit so begränzten Aussichten für mich angefangen, als 
+                     <del rend="stroked">das</del> dieses. <emph rend="underlined">Noch nie habe ich so wenig muthmaßen können, in 
+                     welcher Lage ich mich wol am Ende des Jahrs befinden würde, als beym Anfange des jetzigen.</emph>
+                  </quote>
+               </cit>
+            </p>
+            <p>
+               Nun ist es klar ! - O ! Freundinn ! und wir ? wir ? - Durfte ich damals, als ich das schrieb diese Entwicklung 
+               ahnden ? Ach ! ich hatte ja kaum den Muth, sie ganz leise, leise - zu wünschen. Nein ! den hatte ich nicht.<pb/>
+            </p>
+            <p>
+               Unter der unendlichen Reihe meiner Glückseeligkeiten ist es eine der obersten, daß ich gerade damals - von Ihnen 
+               erkannt werden mußte. Erkannt, sage ich, denn gekannt hatten wir uns lange schon. Es war am 3ten Januar, Abends 10 
+               Uhr, als Sie zum ersten Mahle das ehrenvolle Urtheil in Gegenwart Ihrer Mutter und Ihrer Geschwister über mich 
+               aussprachen: daß Sie für die Aufrichtigkeit meiner Gesinnungen und für meine Denkungs Art stehen wollten. O ! welch 
+               eine Quelle von Freude und Trost wurde dieser Ausspruch für mich !
+            </p>
+            <p>
+               Auch mir, auch mir ist jede kleine und große Scene, und jeder kleine Schatten und jede kleine helle Stelle in jeder 
+               Scene, die sich nachher zutrug, so gegenwärtig, so lebendig, als die Stunde in der ich schreibe. Unsre 
+               Morgen-Gespräche, und unser Gespräch, als ich Sie einst um 5 Uhr Abends nach Hause begleitete und bis 8 Uhr mit 
+               Ihnen am Fenster saß, und meine stumme Raserey, als ich mit Ihres Mannes Brief in Ihre Stube trat, und meine 
+               Todten-Bläße, und Ihre sanfte trostreiche Stimme, und der ganze Aufzug, wie Sie halb frisirt, im Puder-Mantel vor 
+               mir standen, und mir den Brief vorlasen - und dann den andern Tag bey der Mama, wie ich um 5 Uhr Abends in die Stube 
+               trat, wo Sie mit Coelestinen am Fenster saßen, wie <add place="above">ich</add> in der natürlichsten Bewegung einer 
+               forschenden Angst mich zuerst auf Sie warf, und wir dann alle drey weinten, und ich halb aus meiner Geliebten halb 
+               aus meiner Busen-Freundinn Munde mein Glück vernahm - o Gott ! was war das für eine Zeit !
+            </p>
+            <p>
+               Sie sind in allen Betrachtungen doch am Ende die einzige Stifterinn meines Glücks gewesen. Glauben Sie mir, liebe 
+               Grauninn ! ich weis das recht gut. Hätte mich <rs type="person" ref="#coe">Coelestine</rs> damals schon so 
+               gekannt, als sie mich jetzt durch eine vertraute und glückliche Correspondenz kennen gelernt hat, so würde sie sich 
+               vielleicht unbedenklich für mich entschieden haben. So ganz und durch und durch kannte sie mich zu der Zeit noch 
+               nicht, und mit unschuldiger Freymüthigkeit sage ich Ihnen das sie liebte mich auch so nicht, als jetzt. Da war es 
+               denn ein unendliches Gewicht, das die Wage für mich niederriß, daß Sie - Sie - mich für werth gehalten hatten, Ihr 
+               Freund zu seyn. Das weis ich: das kan <rs type="person" ref="#coe">Coelestine</rs> nicht läugnen: das wird sie 
+               auch nicht läugnen: es macht ihr eben soviel Ehre, als mir.
+            </p>
+            <p>
+               Die Bitte, daß Sie mir im <date when-iso="1786-00-00">künftigen Jahre</date>, und in allen künftigen eben das 
+               bleiben sollen, was Sie mir in diesem - goldnen, goldnen Jahre gewesen sind, die Bitte ist überflüßig. Die Erfüllung 
+               steht bey mir: so lange ich der bleibe, der ich war können Sie mir Ihre Freundschaft nicht nehmen: dürfen Sie mir 
+               nicht nehmen denn Sie wißen wol: gute Seelen haben das Recht, auf einander zu 
+               <emph rend="underlined">trotzen.</emph><pb/>
+            </p>
+            <lg>
+               <l>Und mein <emph rend="underlined">Wunsch</emph> zum folgenden Jahre ? -</l>
+               <l>Wenig hoffen - Nichts fürchten - <emph rend="underlined">viel</emph> genießen !</l>
+               <l>Des Lebens Augenblick ist nicht werth der Anschläge Dauer</l>
+               <l>So vieler Sorgen und Pein ! -</l>
+            </lg>
+            <p>
+               Wer immer nur zu genießen <emph rend="underlined">hofft</emph>, genießt niemals. Die Summe aller Weisheit ist: 
+               gebrauche das gegenwärtige. In dem Schwarme von Irrtümern, die das menschliche Geschlecht belagern, ist das der 
+               vornehmste: daß alle Menschen immer im <emph rend="underlined">Begriff</emph> sind zu leben. 
+               <rs type="person" ref="eyo">Young</rs> nennt das sehr schön: daß sie immer an der Schwelle der Geburt stehen.
+            </p>
+            <p>
+               Laßt uns leben, leben, und nicht blos existiren; die größte Bürde <del rend="stroked">xxx</del> drückt nicht 
+               beständig: Laßt uns empfinden und froh genießen jeden Augenblick des Nachlaßes, jede ruhige Minute. Das ist mein 
+               Rath !
+            </p>
+            <p>
+               Und <del rend="stroked">noch</del> nun noch meine Ermunterung, für uns beyde, und für alle glückliche und 
+               unglückliche Seelen: "Laßt uns Gutes thun, und nicht müde werden, denn zu seiner Zeit werden wir auch erndten ohne 
+               Aufhören !" -
+            </p>
+         </div>
+         <div n="4" corresp="#bezkg">
+            <p>
+               Jetzt aber will ich Ihnen noch was erzählen: wenn Sie es schon wißen, so hören Sie es noch einmal von mir. Wenn Sie 
+               es noch nicht wißen, so nehmen Sie es als ein Geheimnis auf.
+            </p>
+            <p>
+               Vorigen Dienstag habe ich an <rs type="person" ref="#coe">Coelestine</rs>, 
+               <rs type="person" ref="#Gsw">Gossow</rs>, und den <rs type="person" ref="#Mue">Münzmeister</rs> 
+               geschrieben, und sie um Erlaubniß gebeten, <rs type="person" ref="#GGS">Schwinck</rs>, der jetzt bey uns ist, in 
+               3 Wochen nach <rs type="place" ref="#plKo">Koenigsberg</rs> zu begleiten, und mich da 14 Tage aufzuhalten, um 
+               meine Sache selbst zu führen. Alles ist zu dieser Reise schon richtig, wenn ich den Consens von 
+               <rs type="place" ref="#plKo">Koenigsberg</rs> erhalte. <date when-iso="1786-01-07">Heute über 8 Tage</date> 
+               erwarte ich die Antwort, ist sie so, wie ich sie wünsche, so bin ich im 
+               <date when-iso="1786-02-00">Anfang des Februars</date> dort.
+            </p>
+            <p>
+               Fühlen, fühlen Sie für mich, wie mir bey dieser trocknen, ruhigen Erzählung das Herz schlägt, und das unruhige Blut 
+               wallt, wie ich zittre vor Angst, Freude und Ungeduld. Wenn Sie diesen Brief erhalten, ist es schon entschieden. Und 
+               wenn ich Ursach habe, mich zu freuen, so weiß ich daß Ihnen jetzt gewiß auch froh zu Muthe ist. Himmel ! Himmel ! 
+               was sollte das für ein Fest werden !
+            </p>
+            <p>
+               Noch habe ich nicht recht das Herz, mich zu freuen: denn, wenn es nicht geschähe ! - habe ich erst die Gewißheit: 
+               o ! ihr Götter der Liebe und der Freundschaft, dann will ich Farren auf <del rend="stroked">xxx</del> eurem Altar 
+               opfern !
+            </p>
+         </div>
+         <div n="5" corresp="#veg">
+            <p>
+               Nun leben Sie wol, liebe, liebe, liebe Freundinn ! Wenn wir uns sehen sollten: was werde ich Ihnen da alles zu sagen 
+               haben. Grüßen Sie <rs type="person" ref="#lno">leNoble</rs>, ich bin fast im Ernst böse, daß er mir gar nicht 
+               mehr schreibt. O ! möchte ich ihn doch in eigner Person zur Rede stellen können !
+            </p>
+            <p>
+               <rs type="person" ref="#ltc">Lottchen</rs> hat mich erinnert, daß ich 
+               <rs type="person" ref="#frt">Ihrem guten Bruder Fritz</rs> noch 
+               <rs type="citation" ref="#c3069-3">einen Brief</rs> schuldig wäre; hier ist er; seyn Sie gütig, ihn nächstens 
+               weiter besorgen zu laßen. - Mit <rs type="person" ref="#RRGra">Ihrem Mann</rs> bin ich jetzt wieder gar sehr gut 
+               dran. Sollte mein Projekt dort nicht durchgehen, dann bitte ich Sie um aller Himmel willen, trösten Sie mich durch 
+               Briefe. Und im Glück und Unglück denken Sie oft an
+            </p>
+         </div>
+         <closer>
+            <dateline rend="left"><rs type="place" ref="#plBe">Berlin</rs>, den <date when-iso="1785-12-31">31<span rend="sup">ten</span> Decbr. 1785.</date></dateline>
+            <salute rend="right">
+               Ihren treuen Freund.
+            </salute>
+            <signed rend="right">Gentze.</signed>
+         </closer>
+         <postscript corresp="#veg">
+            <p>Das Jahr 1785 ist vorbey!</p>
+         </postscript>
+      </body>
+   </text>
+</TEI>

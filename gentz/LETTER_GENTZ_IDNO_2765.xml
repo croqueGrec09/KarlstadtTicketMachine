@@ -1,0 +1,983 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc xml:id="LETTER_GENTZ_2765">
+         <titleStmt>
+            <title>Friedrich von Gentz an Christian Garve, 19. April 1791</title>
+            <editor xml:id="edAG">Andreas Gálffy</editor>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <name>Forschungsstelle "Universitätssammlung Friedrich von Gentz"</name>
+               <link target="http://gentz-digital.ub.uni-koeln.de http://www.ub.uni-koeln.de/cdm/singleitem/collection/gentz/id/2764/"/>
+            </publisher>
+            <pubPlace>Cologne</pubPlace>
+            <idno type="Gentz-Edition-Number" n="2765"/>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <settlement>unknown</settlement>
+                  <idno>destroyed</idno><!-- Manuskript wurde durch Kriegseinwirkungen zerstört -->
+               </msIdentifier>
+               <msContents>
+                  <summary>
+                     Die Korrespondenz zu Garve ist in der letzten Zeit ins Stocken geraten und so hat Gentz Einiges nachzuholen. 
+                     Gentz beginnt mit der Bekundung seiner unveränderten Gefühle für Garve und dass er sich in den Tagen des 
+                     heftigen Betriebes sehnsuchtsvoll vermisst. Der Plan, nach Breslau zu gehen, ist wie erwartet schief gegangen 
+                     und stieß zudem nicht auf Garves Einverständnis. Er machte sich zwar stark, aber vergebens. Außerdem nahm er 
+                     die Idee Gentz' nicht ernst, wofür dieser nachdrücklich die Ernsthaftigkeit betont uns mit folgenden Argumenten 
+                     unterstreicht: erstens kann er sich in Berlin nicht voll entfalten, zweitens hätte der Breslauer Posten einen 
+                     Karrieresprung bedeutet. Stattdessen wurde Gentz mit einem Karriereschub abgespeist, der ihm auf ewig in der 
+                     trostlosen Laufbahn bindet. Er nennt auch den Nachteil, dass er jetzt noch mehr Arbeit habe, als vorher, und 
+                     daher noch weniger Zeit für eine eigentliche Leidenschaft. Gentz aber findet Trost und schreibt, dass sich 
+                     selbst in den dunkelsten Situationen unverhoffte Trostgründe finden.
+                     Im Sommer hofft Gentz, durch die häufigen Reisen des Ministers doch etwas Luft zu kriegen. Zu seiner Lust zu 
+                     klagen trägt auch das Verlassen seines Freundes Humboldt. Sehr lange schreibt Gentz seine Eigenschaften und wie 
+                     die Gespräche zwischen ihm, Humboldt und Ancillon verliefen. Humboldt wird als sehr charakterstark und belesen 
+                     beschrieben und Gentz empfand ihn als Ergänzung seiner selbst. Entsprechend tief ist die Lücke, die der Verlust 
+                     hinterlässt. Er geht aus verschiedenerlei Gründen, u.a. einer Heirat wegen, nach Erfurt.
+                     Gentz hat seine alte Freundin Frau von Phul besucht; ihr Zustand habe sich zwar gebessert, weiß aber nicht, 
+                     dass sie zuvor krank gewesen sei.
+                     Der Einstieg Gentz' in der Monatsschrift hat besser geklappt, als erwartet. Biester hat Gentz öffentlich 
+                     gelobt, was ihn sehr verwundert hat. Gentz aber beklagt, dass Biester niemandem mehr an die Korrektur lässt.
+                     Während Gentz den Brief schrieb, ereilte ihn ein zweiter Brief von Garve. Gentz eilt zur Beruhigung, dass er 
+                     nicht vergessen wurde; mehr noch: zwei bestellte Portraits von Spalding und Frau von le Coq kommen bald an. Er 
+                     hat Burkes Reflections erhalten und findet Bewunderung am Werk. Lieber einen Gegner, als seichte Bewunderer, so 
+                     Gentz. Überhaupt sind deutsche Schriftsteller miserabel über die Franösische Revolution. Zu den französischen 
+                     Zeitungen ist nun auch der Moniteur über den Buchhändler Spener gekommen. Gentz betrauert Mirabeaus Tod, der in 
+                     Berlin wenig Aufsehen erregt hat.
+                  </summary>
+               </msContents>
+            </msDesc>
+            <listBibl type="preprints">
+               <biblStruct>
+                  <monogr>
+                     <editor>
+                        <persName>
+                           <ref target="http://d-nb.info/gnd/130953075"/>
+                           <forename>Friedrich Carl</forename>
+                           <surname>Wittichen</surname>
+                        </persName>
+                        <persName>
+                           <ref/> <!-- kein GND-Eintrag -->
+                           <forename>Ernst</forename>
+                           <surname>Salzer</surname>
+                        </persName>
+                     </editor>
+                     <title>Briefe von und an Friedrich von Gentz, 4 Bde.</title>
+                     <imprint>
+                        <publisher>Oldenbourg</publisher>
+                        <pubPlace>München, Berlin</pubPlace>
+                        <date>1909-1913</date>
+                     </imprint>
+                     <biblScope unit="volume" n="1">
+                        I
+                     </biblScope>
+                     <biblScope unit="page" from="194" to="205">
+                        Nr. 43
+                     </biblScope>
+                  </monogr>
+               </biblStruct>
+            </listBibl>
+            <biblStruct>
+               <monogr>
+                  <editor>
+                     <persName>
+                        <forename>Carl G.</forename>
+                        <surname>Schönborn</surname>
+                     </persName>
+                  </editor>
+                  <title>Friedrich von Gentz. Briefe an Christian Garve. (1789-1798.)</title>
+                  <imprint>
+                     <pubPlace>Breslau</pubPlace>
+                     <date>1857</date>
+                  </imprint>
+                  <biblScope unit="page" from="83" to="101">
+                     Nr. IX
+                  </biblScope>
+               </monogr>
+            </biblStruct>
+            <listBibl type="letterReferenced">
+               <bibl xml:id="c2765-1" corresp="#LETTER_GENTZ_4289">Friedrich von Gentz an Christan Garve, 19. Februar 1791</bibl>
+               <bibl xml:id="c2765-2" corresp="#LETTER_GENTZ_NNNN">nicht bekannter Brief von Christian Garve an Friedrich von Gentz</bibl>
+               <bibl xml:id="c2765-3" corresp="#LETTER_GENTZ_NNNN">nicht bekannte Note von Johann Erich Biester</bibl>
+               <bibl xml:id="c2765-4" corresp="#LETTER_GENTZ_NNNN">nicht bekannter Brief von Christian Garve an Friedrich von Gentz</bibl>
+               <bibl xml:id="c2765-5" corresp="#LETTER_GENTZ_NNNN">nicht bekannter Brief von Christian Garve an Johann Joachim Spalding</bibl>
+            </listBibl>
+            <listBibl type="defExpr">
+               <biblStruct xml:id="e2765-1" corresp="UBi-0028">
+                  <monogr>
+                     <editor>
+                        <persName>
+                           <ref target="http://d-nb.info/gnd/116167580"/>
+                           <forename>Johann Erich</forename>
+                           <surname>Biester</surname>
+                        </persName>
+                     </editor>
+                     <title>Berlinische Monatsschrift</title>
+                     <imprint>
+                        <publisher>Haude und Spener</publisher>
+                        <pubPlace>Berlin</pubPlace>
+                        <date>1791</date>
+                     </imprint>
+                  </monogr>
+                  <ptr target="http://ds.ub.uni-bielefeld.de/viewer/toc/2239816/1/LOG_0000/"/>
+               </biblStruct>
+               <biblStruct xml:id="e2765-2" corresp="Grg-0004">
+                  <monogr>
+                     <editor>
+                        <persName>
+                           <ref target="http://d-nb.info/gnd/128894733"/>
+                           <forename>Dominique-Joseph</forename>
+                           <surname>Garat</surname>
+                        </persName>
+                     </editor>
+                     <title>Journal de Paris</title>
+                     <imprint>
+                        <pubPlace>Paris</pubPlace>
+                        <date>1777-1840</date>
+                     </imprint>
+                  </monogr>
+                  <ptr target="http://gazetier-revolutionnaire.gazettes18e.fr/periodique/journal-de-paris-1799"/>
+               </biblStruct>
+               <biblStruct xml:id="e2765-3" corresp="Grg-0000">
+                  <monogr>
+                     <editor>
+                        <persName>
+                           <ref target="http://d-nb.info/gnd/118789422"/>
+                           <forename>Charles Joseph</forename>
+                           <surname>Panckoucke</surname>
+                        </persName>
+                     </editor>
+                     <title>Le Moniteur universel</title>
+                     <imprint>
+                        <pubPlace>Paris</pubPlace>
+                        <date>1789-1901</date>
+                     </imprint>
+                  </monogr>
+                  <ptr target="http://gazetier-revolutionnaire.gazettes18e.fr/periodique/gazette-nationale-ou-moniteur-universel-1789-1799"/>
+               </biblStruct>
+            </listBibl>
+            <listBibl type="defRep">
+               <biblStruct xml:id="p2765-1" corresp="UBi-0019">
+                  <analytic>
+                     <author>
+                        <persName>
+                           <ref target="http://d-nb.info/gnd/118538489"/>
+                           <forename>Friedrich von</forename>
+                           <surname>Gentz</surname>
+                        </persName>
+                     </author>
+                     <title>Ueber den Ursprung und die obersten Prinzipien des Rechts</title>
+                  </analytic>
+                  <monogr>
+                     <editor>
+                        <persName>
+                           <ref target="http://d-nb.info/gnd/116167580"/>
+                           <forename>Johann Erich</forename>
+                           <surname>Biester</surname>
+                        </persName>
+                     </editor>
+                     <title>Berlinische Monatsschrift</title>
+                     <imprint>
+                        <publisher>Haude und Spener</publisher>
+                        <pubPlace>Berlin</pubPlace>
+                        <date>1790</date>
+                     </imprint>
+                     <biblScope unit="volume" n="17">
+                        Siebzehnter Band.
+                        Januar bis Junius 1791.
+                     </biblScope>
+                     <biblScope unit="page" from="370" to="396">
+                        S. 370-396
+                     </biblScope>
+                  </monogr>
+               <ptr target="http://ds.ub.uni-bielefeld.de/viewer/image/2239816_017/403/"/></biblStruct>
+               <biblStruct xml:id="p2765-2" corresp="UBi-0021">
+                  <analytic>
+                     <author>
+                        <persName>
+                           <ref target="http://d-nb.info/gnd/118537636"/>
+                           <forename>Christian</forename>
+                           <surname>Garve</surname>
+                        </persName>
+                     </author>
+                     <title>Fortsetzung der Betrachtungen, veranlaßt durch das Dekret der Französischen Nationalversammlung über die Güter der Geistlichkeit</title>
+                  </analytic>
+                  <monogr>
+                     <editor>
+                        <persName>
+                           <ref target="http://d-nb.info/gnd/116167580"/>
+                           <forename>Johann Erich</forename>
+                           <surname>Biester</surname>
+                        </persName>
+                     </editor>
+                     <title>Berlinische Monatsschrift</title>
+                     <imprint>
+                        <publisher>Haude und Spener</publisher>
+                        <pubPlace>Berlin</pubPlace>
+                        <date>1790</date>
+                     </imprint>
+                     <biblScope unit="volume" n="17">
+                        Siebzehnter Band.
+                        Januar bis Junius 1791.
+                     </biblScope>
+                     <biblScope unit="page" from="429" to="460">
+                        S. 429-460
+                     </biblScope>
+                  </monogr>
+               <ptr target="http://ds.ub.uni-bielefeld.de/viewer/image/2239816_017/432/"/></biblStruct>
+               <biblStruct xml:id="p2765-3" corresp="Arc-0007">
+                  <monogr>
+                     <author>
+                        <persName>
+                           <ref target="http://d-nb.info/gnd/118517708"/>
+                           <forename>Edmund</forename>
+                           <surname>Burke</surname>
+                        </persName>
+                     </author>
+                     <title>Reflections on the revolution in France and on the proceedings in certain societies in London relative to that event</title>
+                     <imprint>
+                        <publisher>J. Dodsley</publisher>
+                        <pubPlace>London</pubPlace>
+                        <date>1790</date>
+                     </imprint>
+                  </monogr>
+               <ptr target="https://archive.org/details/reflectionsonre04burkgoog"/></biblStruct>
+            </listBibl>
+            <listBibl type="edRef">
+               <biblStruct xml:id="f2765-1" corresp="GBk-0025">
+                  <monogr>
+                     <author>
+                        <persName>
+                           <ref target="http://d-nb.info/gnd/118673157"/>
+                           <forename>Ernst</forename>
+                           <surname>Brandes</surname>
+                        </persName>
+                     </author>
+                     <title>Politische Betrachtungen über die französische Revolution</title>
+                     <imprint>
+                        <publisher>Johann Michael Mauke</publisher>
+                        <pubPlace>Jena</pubPlace>
+                        <date>1790</date>
+                     </imprint>
+                  </monogr>
+               <ptr target="https://books.google.de/books?id=krpBAAAAcAAJ"/></biblStruct>
+               <biblStruct xml:id="f2765-2" corresp="BSB-0006">
+                  <monogr>
+                     <author>
+                        <persName>
+                           <ref target="http://d-nb.info/gnd/116647868"/>
+                           <forename>Christoph</forename>
+                           <surname>Girtanner</surname>
+                        </persName>
+                     </author>
+                     <title>Historische Nachrichten und politische Betrachtungen über die französische Revolution</title>
+                     <imprint>
+                        <publisher>Johann Friedrich Unger</publisher>
+                        <pubPlace>Berlin</pubPlace>
+                        <date>1791</date>
+                     </imprint>
+                  </monogr>
+               <ptr target="http://www.mdz-nbn-resolving.de/urn/resolver.pl?urn=urn:nbn:de:bvb:12-bsb10422036-6"/></biblStruct>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Masterarbeit zu Matrikelnummer 5584124</p>
+         </projectDesc>
+      </encodingDesc>
+      <profileDesc>
+         <creation>
+            <date when-iso="1791-04-19">19. April 1791</date>
+         </creation>
+        <langUsage>
+           <language ident="d">deutsch</language>
+        </langUsage>
+         <textClass>
+            <keywords scheme="internal"><!-- internal: innerhalb des besagten Briefs -->
+               <term>Brief</term>
+               <term>Breslau</term>
+               <term>Philosophie</term>
+               <term>Versetzung</term>
+               <term>Biester</term>
+               <term>Monatsschrift</term>
+               <term>Arbeit</term>
+               <term>Studien</term>
+               <term>Literatur</term>
+               <term>französische Revolution</term>
+               <term>Zeitungen</term>
+            </keywords>
+            <keywords scheme="categorisation"><!-- Sinnabschnittseinteilung - relevant für den Fahrkartenautomaten! -->
+               <term xml:id="vcg">Verhältnis Christian Garve</term>
+               <term xml:id="bezbr">Beziehungen zu Breslau</term>
+               <term xml:id="bezbt">Beziehungen zu Berlin - Beamtentätigkeit</term>
+               <term xml:id="philw">Philosophie - Lebenswege</term>
+               <term xml:id="khum">Humboldt</term>
+               <term xml:id="kphul">Phul</term>
+               <term xml:id="mss">Monatsschrift</term>
+               <term xml:id="bezbl">Beziehungen zu Berlin - Leute</term>
+               <term xml:id="kbur">Burke</term>
+               <term xml:id="frv">Französische Revolution</term>
+               <term xml:id="mon">Moniteur</term>
+            </keywords>
+         </textClass>
+         <textDesc>
+            <channel>manuscript</channel>
+            <constitution type="single"/>
+            <derivation type="original"/>
+            <domain type="private"/>
+            <factuality type="fact"/>
+            <interaction type="partial"/>
+            <preparedness type="prepared"/>
+            <purpose type="inform"/>
+         </textDesc>
+         <particDesc>
+            <listPerson>
+               <!-- Sender und Adressat -->
+               <person role="sender" xml:id="Gen">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/118538489"/>
+                     <forename>Friedrich von</forename>
+                     <surname>Gentz</surname>
+                  </persName>
+               </person>
+               <person role="receiver" xml:id="Gar">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/118537636"/>
+                     <forename>Christian</forename>
+                     <surname>Garve</surname>
+                  </persName>
+               </person>
+               <!-- erwähnte Personen -->
+               <person role="named" xml:id="HfW">
+                  <persName>
+                     <ref/>
+                     <forename/>
+                     <surname>Wunster</surname>
+                     <roleName type="office">Hofrat</roleName>
+                  </persName>
+               </person>
+               <person role="named" xml:id="GKK">
+                  <persName>
+                     <ref/>
+                     <forename/>
+                     <surname>Kühnemann</surname>
+                     <roleName type="office">Geheimer Kriegsrat</roleName>
+                  </persName>
+               </person>
+               <person role="named" xml:id="OvV">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/103098291"/>
+                     <forename>Otto</forename>
+                     <surname>von Voß</surname>
+                  </persName>
+               </person>
+               <person role="named" xml:id="Hum">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/118554727"/>
+                     <forename>Wilhelm von</forename>
+                     <surname>Humboldt</surname>
+                  </persName>
+               </person>
+               <person role="named" xml:id="Anc">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/118645110"/>
+                     <forename>Johann Peter Friedrich</forename>
+                     <surname>Ancillon</surname>
+                  </persName>
+               </person>
+               <person role="named" xml:id="CvH">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/118554719"/>
+                     <forename>Caroline von</forename>
+                     <surname>Humboldt</surname>
+                  </persName>
+               </person>
+               <person role="named" xml:id="Sva">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/118757997"/>
+                     <forename>Carl Gottlieb</forename>
+                     <surname>Svarez</surname>
+                  </persName>
+               </person>
+               <person role="named" xml:id="Kce">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/116181869"/>
+                     <forename>Friedrich Leopold von</forename>
+                     <surname>Kircheisen</surname>
+                  </persName>
+               </person>
+               <person role="named" xml:id="Kle">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/116211148"/>
+                     <forename>Ernst Ferdinand</forename>
+                     <surname>Klein</surname>
+                  </persName>
+               </person>
+               <person role="named" xml:id="vPhu">
+                  <persName>
+                     <ref/>
+                     <forename>von</forename>
+                     <surname>Phul</surname>
+                  </persName>
+               </person>
+               <person role="named" xml:id="Phu">
+                  <persName>
+                     <ref/>
+                     <forename/>
+                     <surname>Phul</surname>
+                     <roleName type="family">Ehemann der Frau von Phul</roleName>
+                  </persName>
+               </person>
+               <person role="named" xml:id="Bie">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/116167580"/>
+                     <forename>Johann Erich</forename>
+                     <surname>Biester</surname>
+                  </persName>
+               </person>
+               <person role="named" xml:id="Mat">
+                  <persName>
+                     <ref/>
+                     <forename/>
+                     <surname>Mathis</surname>
+                  </persName>
+               </person>
+               <person role="named" xml:id="JJSpa">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/118751719"/>
+                     <forename>Johann Joachim</forename>
+                     <surname>Spalding</surname>
+                  </persName>
+               </person>
+               <person role="named" xml:id="Grf">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/118697064"/>
+                     <forename>Anton</forename>
+                     <surname>Graff</surname>
+                  </persName>
+               </person>
+               <person role="named" xml:id="LisH">
+                  <persName>
+                     <ref/>
+                     <forename>Hainchelin</forename>
+                     <surname>Lisette</surname>
+                  </persName>
+               </person>
+               <person role="named" xml:id="MClC">
+                  <persName>
+                     <ref/>
+                     <forename>Marie Charlotte von</forename>
+                     <surname>le Coq</surname>
+                  </persName>
+               </person>
+               <person role="named" xml:id="Spa">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/117480088"/>
+                     <forename>Georg Ludwig</forename>
+                     <surname>Spalding</surname>
+                  </persName>
+               </person>
+               <person role="named" xml:id="Zoe">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/104197102"/>
+                     <forename>Johann Friedrich</forename>
+                     <surname>Zöllner</surname>
+                  </persName>
+               </person>
+               <person role="named" xml:id="Eng">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/11868468X"/>
+                     <forename>Johann Jakob</forename>
+                     <surname>Engel</surname>
+                  </persName>
+               </person>
+               <person role="named" xml:id="Bur">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/118517708"/>
+                     <forename>Edmund</forename>
+                     <surname>Burke</surname>
+                  </persName>
+               </person>
+               <person role="named" xml:id="EBr">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/118673157"/>
+                     <forename>Ernst</forename>
+                     <surname>Brandes</surname>
+                  </persName>
+               </person>
+               <person role="named" xml:id="Grt">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/116647868"/>
+                     <forename>Christoph</forename>
+                     <surname>Girtanner</surname>
+                  </persName>
+               </person>
+               <person role="named" xml:id="KVtl">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/118805495"/>
+                     <forename>Aulus</forename>
+                     <surname>Vitellius</surname>
+                     <roleName type="office">Kaiser</roleName>
+                  </persName>
+               </person>
+               <person role="named" xml:id="Spn">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/117492175"/>
+                     <forename>Johann Karl</forename>
+                     <surname>Spener</surname>
+                  </persName>
+               </person>
+               <person role="named" xml:id="Mir">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/118582682"/>
+                     <forename>Honoré-Gabriel de Riquetti</forename>
+                     <surname>de Mirabeau</surname>
+                  </persName>
+               </person>
+            </listPerson>
+         </particDesc>
+         <settingDesc>
+            <listPlace>
+               <!-- Start- und Zielort -->
+               <place type="sender" xml:id="plBe">
+                  <country>
+                     <ref target="http://d-nb.info/gnd/4047194-9"/>
+                     <placeName>Preußen</placeName>
+                  </country>
+                  <settlement>
+                     <ref target="http://d-nb.info/gnd/4005728-8"/>
+                     <placeName>Berlin</placeName>
+                  </settlement>
+               </place>
+               <place type="receiver" xml:id="plBr">
+                  <country>
+                     <ref target="http://d-nb.info/gnd/4047194-9"/>
+                     <placeName>Preußen</placeName>
+                  </country>
+                  <settlement>
+                     <ref target="http://d-nb.info/gnd/4008216-7"/>
+                     <placeName>Breslau</placeName>
+                  </settlement>
+               </place>
+               <!-- erwähnte Orte -->
+               <place type="named" xml:id="plEf">
+                  <country>
+                     <ref target="http://d-nb.info/gnd/4100026-2"/>
+                     <placeName>Erzstift Mainz (Erfurter Staat)</placeName>
+                  </country>
+                  <region>
+                     <ref target="http://d-nb.info/gnd/4015240-6"/>
+                     <placeName>Erfurt</placeName>  
+                  </region>
+               </place>
+               <place type="named" xml:id="plLf">
+                  <country>
+                     <ref target="http://d-nb.info/gnd/4047194-9"/>
+                     <placeName>Preußen</placeName>
+                  </country>
+                  <region>
+                     <ref target="http://d-nb.info/gnd/4526262-7"/>
+                     <placeName>Lichterfelde</placeName>
+                  </region>
+               </place>
+            </listPlace>
+         </settingDesc>
+      </profileDesc>
+      <revisionDesc>
+         <change xml:id="init" when-iso="2018-02-06" who="#edAG">Erstauszeichnung und Normierung des Dokumentes im Rahmen der Masterarbeit der Matrikelnummer 5584124</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>     
+      <body>
+         <opener>
+            <dateline>Den <date when-iso="1791-04-19">19. April 1791</date>.</dateline>
+         </opener>
+         <div n="1" corresp="#vcg">
+            <p>
+               Ich habe Ihnen so viel zu sagen, teuerster Garve, daß ich wirklich nicht weiß, womit ich anfangen soll. Das 
+               wichtigste ist mir indessen doch, Sie zu bitten, daß Sie nur mein langes Stillschweigen eher jeder andern Ursach, 
+               als einer Abnahme meiner unbegrenzten Verehrung gegen Sie, als einer Erkaltung meiner warmen, zärtlichen 
+               Anhänglichkeit zuschreiben sollen. Meine ganze Seele ist Ihnen noch ebenso ergeben, als an dem Tage, da ich Sie in 
+               <rs type="place" ref="#plBr">Breslau</rs> verließ, als an jenem, da ich Sie vor das Tor von 
+               <rs type="place" ref="#plBe">Berlin</rs> begleitete; ich sehne mich nach Ihrer Gegenwart, nach einem einzigen Tage 
+               Ihres Umgangs, wie sonst, und fast mehr als sonst, weil ich seit einiger Zeit fast vergessen habe, daß ich einen Kopf 
+               besitze, und in manchen Augenblicken zweifle, ob mir noch ein Herz geblieben ist.
+            </p>
+            <p>
+               Ich will, um den Hauptgegenständen, über die ich mich mit Ihnen unterhalten will, die natürlichste Ordnung 
+               anzuweisen, so kurz und gedrängt als möglich, Ihnen die Geschichte meiner verfloßnen Monate vortragen, wenn man 
+               anders ein Chaos interessanter, gleichgültiger und unangenehmer Begebenheiten eine Geschichte nennen kann.
+            </p>
+         </div>
+         <div n="2" corresp="#bezbr">
+            <p>
+               Sie haben meinen <ref target="#r2765-1">Plan</ref>, nach <rs type="place" ref="#plBr">Breslau</rs> zu gehen, 
+               vernommen: Sie haben ihn, wie ich mit unbezweifelter Sicherheit vorher berechnen konnte, gemißbilligt: Sie haben 
+               demohnerachtet zu dessen Erfüllung mitgewirkt, und ich erkenne mit dem innigsten Dank, daß Ihre Freundschaft gegen 
+               mich Sie zu dieser Mitwirkung, die für Sie - das weiß ich - von mehreren Seiten eine große Aufopferung war, 
+               bestimmte. Der Erfolg ist übrigens der gewesen, den Sie mir prophezeiten, und dieses Projekt ist mithin schlafen 
+               gegangen zu der Legion unglücklicher Brüder, die ich seit einigen Jahren bald bloß in mir, bald mit andern 
+               ausgesponnen habe.
+            </p>
+            <p>
+               Es würde mir indessen doch leid tun, wenn Sie, wie ich alle Ursach habe zu vermuten, diese Idee so geradehin für ein 
+               flüchtiges, unüberlegtes, leicht aufsteigendes und leicht zerflatterndes Gedankending, mit einem Worte für das, was 
+               man eine Fantaisie nennt, halten wollten. <pb/> Jetzt, da ich kein Interesse dabei haben kann, Sie von der Güte und 
+               Tauglichkeit meines Entwurfs zu überzeugen, da ich nicht die geringste Hoffnung habe, ja sogar, wie Sie bald hören 
+               werden, nicht mehr haben <emph rend="underlined">kann</emph>, je diesen Wunsch erfüllt zu sehen, noch jetzt 
+               versichre ich Sie, daß folgende beide Sätze, das Resultat langer Meditationen sind, die zuletzt mit meinem innigsten 
+               Gefühl genau zusammenstimmten:
+            </p>
+            <p>
+               1. Meine Lage in <rs type="place" ref="#plBe">Berlin</rs> war, und ist zum Teil noch immer so, daß ich für meine 
+               beßre Existenz, sogar aus Pflicht, eine Veränderung derselben, auf alle Weise suchen mußte, und noch muß, und daß 
+               ich, so lange sie fortdauert, mich im höhern Sinn des Worts, ewig für einen <emph rend="underlined">Krüppel</emph> 
+               halten werde. Dies ist nun weder Grille, noch Täuschung, noch leere Unzufriedenheit; es ist die Quintessenz meiner 
+               beständigen Gefühle, und meiner beständigen Gedanken.
+            </p>
+            <p>
+               2. Der Aufenthalt in <rs type="place" ref="#plBr">Breslau</rs> wäre mir in sehr vielen Rücksichten, die ich hier 
+               nicht entwickeln kann, so vorteilhaft gewesen, daß ich, und würde ich in drei Jahren - si Diis placet - Geheimer 
+               Finanzrat, es schlechterdings immerfort, als ein wahres Mißgeschick meines Lebens betrachten werde und betrachten 
+               muß, daß dieser Plan vereitelt wurde.
+            </p>
+            <p>
+               Sie sehen hieraus wenigstens, wie tief die Wurzeln einer Idee, die Sie vielleicht für leichtsinnig gehalten haben, 
+               in mir lagen, und wie ernsthaft mir zumute war, als ich mich an Sie wandte, und Sie um Unterstützung meines 
+               Vorhabens bat. Daß es scheiterte, darüber faßte ich mich. Ich kenne überhaupt nur <emph rend="underlined">ein</emph> 
+               Übel in der Welt, aber es ist gräßlich genung, es ist die <emph rend="underlined">Angst</emph>. Dies ist die wahre 
+               Peinigerin meines Lebens. Sobald etwas Unangenehmes entschieden ist, finde ich mich mit einer Leichtigkeit hinein, 
+               die mich oft selbst in Erstaunen setzt. So ging es mir auch hier. Ich hatte wirklich - Dank sei es den 
+               <rs type="person" ref="#HfW">Wunster</rs>schen Windbeuteleien - große Hoffnungen, daß mein Plan gelingen würde: ich 
+               harrte mit wahrer Bangigkeit der Antwort entgegen: sobald ich sie in Händen hatte, und meine Träume vereitelt sah, 
+               war ich ruhig. Es ist, ich muß es noch einmal sagen, als wenn in solchen Augenblicken eine neue Kraft in der Seele 
+               plötzlich aufsproßte: der simple Gedanke, daß ich lebe und denke, verteilt mit einem Male eine Menge verlorner 
+               Genüsse, und verlöscht eine Menge drückender und bittrer Empfindungen.
+            </p>
+         </div>
+         <div n="3" corresp="#bezbt">
+            <p>
+               Vierzehn Tage nach dem Empfang <rs type="citation" ref="#c2765-2">Ihres Briefes</rs>, legte mir das Schicksal - doch 
+               im Grunde nur in den Augen der andern Personen, die um mein Projekt gewußt hatten, nicht in meinen - eine kleine 
+               <pb/> Schmerzstillung auf meine Wunde. Durch den unerwarteten Tod des ältsten meiner Kollegen, des 
+               <rs type="person" ref="#GKK">Geheimen Kriegsrat Kühnemann</rs>, rückte ich in ein fixes Gehalt von 400 Reichsthaler 
+               ein, so daß ich nun wenigstens über 500 Thaler jährlich diene, und erwarb die unbedeutende Aussicht, nächstens mit 
+               dem Kriegsratstitel geziert zu werden.
+            </p>
+            <p>
+               Von manchen Seiten war mir diese Veränderung freilich angenehm. Sie hat meine Lage unabhängiger und erfreulicher 
+               gemacht, zumal da es sich sonderbarerweise traf, daß grade zur nämlichen Zeit meine Eltern ein andre schönre Wohnung 
+               in einem neuen am Wasser aufgeführten Gebäude bezogen, (wovon Sie schon bei Ihrer Anwesenheit werden reden gehört 
+               haben) und ich einen Teil der alten Wohnung ganz für mich behielt, so daß ich nun die in der Tat unschätzbare 
+               Bequemlichkeit habe, alle Vorteile und Annehmlichkeiten des Alleinwohnens mit allen Vorteilen und Annehmlichkeiten 
+               des Familienlebens zu vereinigen, indem ich doch nur durch zwei Höfe gehen darf, um bei meinen Eltern zu sein, wo 
+               ich denn auch nach wie vor meinen Tisch habe.
+            </p>
+            <p>
+               Alles dies war recht gut. Aber zwei ungeheure Punkte fielen mir bei diesem Avancement zentnerschwer aufs Herz:
+            </p>
+            <p>
+               1. Meine Arbeit, weit entfernt vermindert zu werden, hat vielmehr zugenommen, weil der 
+               <rs type="person" ref="#OvV">Minister</rs> keinen neuen Expedienten in des Verstorbnen Stelle gesetzt hat; und die 
+               durch nichts zu vergütende Beschwerde, jeden Morgen ins Haus des <rs type="person" ref="#OvV">Minister</rs>s zu 
+               wandern, und so einen Tag wie den andern - schelten Sie, wie Sie wollen, aber meine Art, die Dinge zu beurteilen und 
+               zu fühlen, läßt mich nicht anders reden - ungenutzt, und ungenossen, verstreichen zu sehen, diese Beschwerde liegt 
+               immerfort auf mir, und ich sehe sobald kein Ende davon ab.
+            </p>
+            <p>
+               2. Die unbestimmte, aber nie ganz aufgegebne Hoffnung, mein jetziges Verhältnis abzuwerfen, ist durch die 
+               Verbesserung meiner äußern Umstände nun auf immer zerstört. Was ich noch vorher als notgedrungnen Entschluß zu 
+               Erwerbung meines Auskommens in der Welt aufstellen konnte, würde man jetzt als unsinniges Entsagen einer 
+               einträglichen und immer einträglicher werdenden Stelle, allgemein verdammen. Selbst, wenn ich den Kriegsrattitel 
+               erlange, ist er mir bloß eine Barriere mehr: ein Kriegsrat beim Generaldirektorio - was soll der nun für eine andre 
+               Laufbahn beginnen ?
+            </p>
+            <p>
+               Sie mögen nun mit den Ideen, die ich über meine jetzige Lage habe, einig sein oder nicht, so werden Sie doch 
+               eingestehen, daß für <pb/> mich, der ich mich nun einmal von diesen Ideen vor der Hand nicht losmachen kann, dies 
+               Raisonnement über meine Verbesserung gründlich und konsequent war.
+            </p>
+         </div>
+         <div n="4" corresp="#philw">
+            <p>
+               Es würde mir indessen leid tun, wenn Sie, der Sie so offenbar Anteil an meiner Glückseligkeit nehmen, sich mit der 
+               irrigen Furcht quälten, daß ich nun durchaus unzufrieden und elend sei. Von Ihnen, das heißt aus Ihren Büchern, habe 
+               ich, wenigstens so schön und befriedigend, als es sich mir nie zuvor dargestellt hatte, zuerst die Wahrheit gelernt 
+               und mir tief eingedrückt, und nachher durch tausend Erfahrungen bestätigt gefunden: 
+               <quote corresp="#Gar">
+                  daß sich in den unangenehmsten Situationen immer Trostgründe finden, die man nicht erwartet, immer 
+                  Erleichterungsmittel hervortun, auf die man gar nicht gerechnet hatte
+               </quote>
+               und, wie sonderbar es auch mit meinen Klagen kontrastieren mag, so versichre ich Sie doch, 
+               daß ich seit geraumer Zeit den Satz: daß es sehr wenig Übel gibt, von Tage zu Tage mehr in mein Innerstes verwebe, 
+               und schon an Augenblicke gekommen bin, wo ich mir selbst im Gefühl des Schmerzes zurief: es gibt kein Übel in der 
+               Welt.
+            </p>
+            <p>
+               Mit dem herannahenden Sommer kehrt die Hoffnung wieder, daß der <rs type="person" ref="#OvV">Minister</rs> oft 
+               verreiset, und doch oft ohne mich verreiset. Ich bin daher im Sommer weit freier als im Winter. Überdies liebe ich 
+               den Sommer unendlich, ob ich gleich den Winter (an sich) nicht hasse. Das bloße Einatmen der Frühlingsluft ist für 
+               mich ein hoher Lebensgenuß, und der kleinste Wohlgeruch, der mich freundlich erinnert, daß ich bin und daß ich 
+               empfinde, versöhnt mich auf viele Stunden mit den hervorstechendsten Unannehmlichkeiten meiner Lage.
+            </p>
+         </div>
+         <div n="5" corresp="#khum">
+            <p>
+               Viel hat zu dieser festern und glücklichern Stimmung, deren Erhöhung ich mit allen Kräften zu erreichen trachte, ein 
+               vertrauter Umgang mit einem der größten und stärksten Menschen beigetragen, die mir noch irgendwo auf meinem Wege 
+               durchs Leben begegnet sind. Seit drei Wochen habe ich ihn verloren, und dieser Streich allein - ist ewig unheilbar. 
+               Es war <rs type="person" ref="#Hum">Humboldt</rs>.
+            </p>
+            <p>
+               Ich wollte, ich hätte Ihnen ohngefähr vor drei oder vier Monaten, als meine engre Bekanntschaft mit diesem 
+               ausgezeichneten Sterblichen nur so eben an der Grenze der wirklich leidenschaftlichen Freundschaft stand, in welche 
+               sie seitdem übergegangen ist, eine aufrichtige Schilderung von ihm entworfen. Sie würde Ihnen zuverlässig höchst, 
+               höchst interessant gewesen sein. Jetzt wage ich es schlechterdings nicht mehr, ausführlich <pb/> über ihn zu 
+               schreiben: ich zittre sogar, nur einzelne Züge hinzuwerfen: sobald die Vorstellung von ihm in mir lebhaft wird, 
+               ergreift sie mich mit solcher Gewalt, daß ich jeden Augenblick in Gefahr stehe, in der Zügellosigkeit des Ausdrucks 
+               das Seltne fabelhaft, das Große riesenmäßig, folglich alles unwahrscheinlich darzustellen.
+            </p>
+            <p>
+               Sie haben mich zuerst auf diesen merkwürdigen Menschen aufmerksam gemacht, Ihr scharfer Blick - ich erinnre es mich 
+               sehr genau - hatte ihn in einer großen Gesellschaft ausgefunden, und hervorgezogen. Sie drangen recht eigentlich in 
+               mich, daß ich mich ihm nähern sollte. Als ich ihm wirklich näher rückte, fing ich an, seinen Witz, die Gewandtheit 
+               seines Geistes, manchmal eine ganz eigne Größe in seinen Ideen zu bewundern. Das war noch lange nicht 
+               <rs type="person" ref="#Hum">Humboldt</rs>. Als wir tiefer in philosophische Materien hineingingen, als wir gar 
+               planmäßig gewisse Begriffe zu analysieren, gewisse Grundideen zu prüfen und zu läutern begannen - das war die Zeit, 
+               wo noch <rs type="person" ref="#Anc">Ancillon</rs> oft an unsern Unterredungen teilnahm - da entdeckten wir in 
+               diesem Kopf, einen Tiefsinn, der oft unsre Zungen plötzlich lähmte, wenn er ein Fundament, was wir nun für das 
+               allertiefste hielten, zu untergraben anfing, eine Promptitüde und eine Gewandtheit, die unsre Streiche ahndete, 
+               längst ehe wir sie beschlossen hatten, eine Vielseitigkeit, die kein Entwurf befremdete, der es nichts kostete, aus 
+               einem Gesichtspunkt heraus, und in den allerabgelegensten augenblicklich überzugehen, eine unüberwindliche Logik, 
+               die, wenn es auf eigentliches <emph rend="underlined">Streiten</emph> losging, alle Hoffnung auf Blößen ewig 
+               verzweifeln machte, und - was das Schrecklichste war - dabei eine Verachtung dieser Logik als eines elenden 
+               Werkzeuges, und eine rastlose Bemühung, das, was man gewöhnlich Wahrheit nennt, das Objektive 
+               <emph rend="underlined">in</emph> der Erkenntnis, als etwas höchst Unbedeutendes darzustellen, und nichts für 
+               wichtig anzuerkennen, als die Vollkommenheit des Erkennens im Subjekt, diese Vollkommenheit oft in dem, was man 
+               Irrtümer nennt, was die Logik sogar so nennen <emph rend="underlined">muß</emph>, aufzusuchen und zu finden. - Wir 
+               mußten wohl einig werden, daß das ein erstaunlicher Kopf war. Er demütigte uns oft: es gab Augenblicke, wo er uns 
+               wirklich zermalmte - und noch nie habe ich diese Empfindung in dem Grade gehabt - Augenblicke, wo wir ihn haßten: 
+               doch seine Größe drang sich uns um so mächtiger auf. Aber alles das - war noch nicht 
+               <rs type="person" ref="#Hum">Humboldt</rs>.
+            </p>
+            <p>
+               <rs type="person" ref="#Anc">Ancillon</rs> wurde, durch eine Menge von Verhältnissen mit dem Hofe und der 
+               glänzendsten Welt von <rs type="place" ref="#plBe">Berlin</rs>, in die ihn der Ruhm <pb/> seiner Predigten und der 
+               Ruf von seinem reizenden Umgange nach und nach zog, allmählich in unsern Zusammenkünften fremder. Überdies machte 
+               ich bald die heimliche Bemerkung, daß er <rs type="person" ref="#Hum">Humboldt</rs> von Seiten des Kopfs nicht 
+               Genüge leistete. <rs type="person" ref="#Hum">Humboldt</rs> tadelte zweierlei an ihm: 1. daß er nicht genung in die 
+               Idee des andern hineingeht, und sich zu sehr um seine eigne Begriffe dreht; 2. daß seine Gedanken, wie 
+               <rs type="person" ref="#Hum">Humboldt</rs> sich ausdrückte, zu viel <emph rend="underlined">Körper</emph> hätten, 
+               das ist daß er zu wortreich, zu beredt spräche, oft in einer Flut von schönen Worten die Idee verschwemmte, und so 
+               fort. - Kurz <rs type="person" ref="#Hum">Humboldt</rs> und ich fingen an, erst wöchentlich einigemal, am Ende fast 
+               täglich allein zusammenzukommen. Er schmeichelte mir unendlich, zu fühlen und zu merken, daß er mich eigentlich 
+               achtete: und diese Eitelkeit verbunden mit der Lust an einem ewig unterhaltenden Gespräch zog mich näher zu ihm. 
+               Noch war aber unser ganzer Umgang nichts als Übung des Geistes, gemeinschaftliches Erforschen allgemeiner 
+               Wahrheiten, usw. <date when-iso="1791-01-00">Am Ende des Monats Januar</date> brachte eine Unpäßlichkeit, die mir 
+               den Vorwand reichte, fast immer bei ihm zu sein, eine wahre Anhänglichkeit, am Ende eine Liebe hervor, die von 
+               meiner Seite, ob sie gleich durch eine fast lästige Bewunderung gewaltig niedergehalten worden ist, kaum gegen 
+               irgendeinen Menschen so groß gewesen ist. Und jetzt öffnete sich denn vor mir ein Charakter, bei dem ich allen 
+               Tiefsinn und alle Künste des Kopfs vergaß, ein Charakter, dessen unerschütterliche Konsistenz, dessen nie gestörte 
+               Einheit, dessen überwiegende Stärke, nur der, der ihn so studiert hat, wie ich, begreifen und würdigen kann, der dem 
+               Kraftlosesten, wenn er ihn anschaute, Mut geben, der Verzweiflung selbst Heiterkeit zulächeln mußte.
+            </p>
+            <p>
+               In diesem sonderbaren Sterblichen, der durchaus alles kann und alles ist, was er <emph rend="underlined">will</emph>, 
+               ist nun der Grundsatz: daß schlechterdings alles, was Schicksal heißt, ganz gleichgültig ist, und lediglich und 
+               allein: <emph rend="underlined">Kraft</emph> oder <emph rend="underlined">Leere</emph> das Glück oder das Elend 
+               ausmachen und bestimmen, bis zu einer so praktischen Festigkeit gediehen, daß ich ihn wirklich über alle 
+               Begebenheiten erhaben sehe. Diese Kraft in sich und in andern immer aufs höchste zu befördern, und ihr reines und 
+               freies Spiel, in jedem menschlichen Wesen hervorzulocken, und zu fixieren, das ist ihm der letzte Zweck alles 
+               Daseins, und sein kontinuierliches Bestreben, wovon ihn auch weder Schmerzen, noch Verdruß, noch Mißlingen 
+               abschrecken können.
+            </p>
+            <p>
+               Dabei ist er nun der größte und vollendetste Gesellschafter, den es geben kann (nämlich hauptsächlich im Umgange mit 
+               einzelnen). Er lebt <pb/> ewig nur in dem, mit welchem er umgeht. Er belehrt nimmermehr aus sich selbst, und wenn er 
+               noch soviel zu sagen wüßte, er berechtigt nur die Ideen des andern. Er würde einen Einwurf, und wäre er auch so 
+               wichtig, daß er auf der Stelle dem ganzen Streit ein Ende machte, um keinen Preis vertragen, sobald er nicht aus dem 
+               Gange, den der andre genommen hat, hervorwüchse. Wenn man mit ihm redet, so ist es immer, als wenn man mit sich 
+               selbst redete, nur unendlich leichter. Man kennt sich selbst allemal besser, wenn man ihn verläßt. Ob er Launen hat, 
+               läßt sich gar nicht ausmitteln: denn sie zu besiegen ist ihm, der ganz andre Feinde schlagen kann, ein Spielwerk. 
+               Seine Wachsamkeit, seine Aufmerksamkeit und seine Tätigkeit, sind immer da, immer rege, und ermüden auch nie.
+            </p>
+            <p>
+               Denken Sie sich nach dieser Schilderung, daß ich mit dem Gegenstande derselben drei Monate hintereinander in der 
+               engsten, und kontinuierlichsten Verbindung gelebt habe: und Sie werden sich nicht wundern, daß dieser Mensch einen 
+               dauernden, einen unverlöschlichen Eindruck auf mein ganzes Wesen machen mußte. Weil wir beide äußerst viel zu tun 
+               hatten, und dabei wußten, daß wir uns bald, vielleicht auf immer, trennen mußten, entschlossen wir uns kühn, dem 
+               Schlaf in seine Rechte zu greifen. Um 10 Uhr abends kamen wir gewöhnlich zusammen, und der helle Morgen überraschte 
+               uns jedesmal. Und das so oft, - ich fürchte mich, es Ihnen zu erzählen. Und nach allen diesen Zusammenkünften, nach 
+               so vielen wechselseitigen Ergießungen, nachdem alle Gegenstände menschlicher Rede dem Anschein nach hätten erschöpft 
+               sein sollen, war er mir immer neu und wurde mir täglich interessanter. Was ich ehmals an ihm bewundert hatte, seinen 
+               großen und tiefen Kopf, seine Allmacht im Streit, und so fort vergaß ich fast ganz: nur immer die 
+               <emph rend="underlined">reine Kraft</emph> in ihm, war das Objekt meines Staunens; ob er handelte, redete, oder 
+               stillsaß, war mir zuletzt gleichviel.
+            </p>
+            <p>
+               Nachdem er im Justizfach dreiviertel Jahr gedient hat, und in dieser Zeit die Laufbahn, worauf jeder andre fünf bis 
+               sechs Jahre zubringt, durchlaufen hat, mußte er jetzt, aus allerlei wichtigen Gründen, hauptsächlich auch, weil er 
+               eine <rs type="person" ref="#CvH">Fräulein von Dacheröden</rs> in <rs type="place" ref="#PlEf">Erfurt</rs> heiratet, 
+               seinen Abschied nehmen, und verließ <rs type="place" ref="#plBe">Berlin</rs> zum allgemeinen Wehklagen <pb/> aller 
+               einsichtsvollen Geschäftsmänner, die eine wirkliche Verschwörung gestiftet hatten, ihn im Dienst festzuhalten, und 
+               die (wenn sie gleich <rs type="person" ref="#Sva">Suarez</rs>, <rs type="person" ref="#Kce">Kircheisen</rs>, 
+               <rs type="person" ref="#Kle">Klein</rs> hießen) seinen Rat in den wichtigsten Fällen erforderten.
+            </p>
+            <p>
+               Nach allem, was ich Ihnen von ihm - und Sie verzeihen mir vielleicht meine Unerschöpflichkeit über ihn - gesagt habe, 
+               können Sie sich vorstellen, daß seine Abreise eine entsetzliche Lücke in meinem Leben hervorbringen mußte, und eine 
+               Lücke, die um so merklicher wird, da ich wirklich in den magischen Kreis seines Umgangs so verwickelt war, daß ich 
+               während meiner genauen Verbindung mit ihm, alle andre Menschen, selbst <rs type="person" ref="#Anc">Ancillon</rs>, 
+               vernachlässigt habe. Nicht, daß meine herzliche und ewige Liebe gegen Ancillon dabei verloren gegangen wäre: er ist 
+               und bleibt der Trost meiner unzufriednen Stunden, und wird oft die Würze der bessern sein: aber ich hatte auch ihn, 
+               weil meine ganze Seele nötig war, um den bewundernswürdigen Menschen, der mich bezaubert hatte, nur erst ganz zu 
+               fassen, sowie alle andre Gegenstände und Menschen eine zeitlang aus dem Auge gelassen.
+            </p>
+         </div>
+         <div n="6" corresp="#kphul">
+            <p>
+               Wenn ich in <rs type="person" ref="#Hum">Humboldt</rs> die Menschheit anbetete, so zwang mich ein andres, gar 
+               heterogenes Verhältnis, sie eine zeitlang in ihrer größten Erniedrigung zu beweinen. Ich habe drei Wochen in 
+               <rs type="place" ref="#plLf">Lichterfelde</rs>, <emph rend="underlined">ganz allein</emph>, in traurigem Wetter, bei 
+               der wahnsinnigen <rs type="person" ref="#vPhu">Frau von Phull</rs> zugebracht, und die Freundin meiner besten Tage 
+               in einem Zustande gesehen, dem der Tod auf jede Bedingung, selbst von der Vernichtung begleitet, vorzuziehen war. 
+               Ich will mir nicht anmaßen, selbst zu ihrer Besserung etwas beigetragen zu haben: soviel kann ich Ihnen aber sagen, 
+               daß sie auf eine höchst unerwartete Weise ihrer gänzlichen Wiederherstellung schon so nahe gekommen ist, daß sie 
+               wieder alle äußerliche Kennzeichen eines zerrütteten Gehirns spüren läßt, nach und nach wieder unter Menschen kömmt, 
+               und völlig zusammenhängend spricht und schreibt. 
+               <emph rend="underlined">Sie weiß und glaubt es nicht, daß sie wahnsinnig gewesensei.</emph> Von 
+               <rs type="person" ref="#Phu">ihrem Mann</rs> ist sie, nicht förmlich, aber doch wohl für immer getrennt, und lebt 
+               jetzt wieder im Hause ihrer Mutter. -
+            </p>
+         </div>
+         <div n="7" corresp="#mss">
+            <p>
+               <rs type="citation" ref="#p2765-1">Meinen Aufsatz in der Berliner Monatschrift</rs> werden Sie nun wohl gelesen 
+               haben: und ich bin höchst begierig auf Ihr Urteil darüber. Da <pb/> mich, wie Sie gesehen haben werden, 
+               <rs type="person" ref="#Bie">Herr Biester</rs> (mir höchst unerwartet und sogar recht befremdend !) öffentlich 
+               gelobt hat, und Sie wissen, wie sehr er in <rs type="place" ref="#plBe">Berlin</rs> den Ton angibt, so können Sie 
+               leicht glauben, daß man diesen Aufsatz hier gut aufgenommen hat; und ich kann wohl sagen, daß ich, insofern als Ehre 
+               der Lohn der Schriftstellerei ist, alle Ursach habe, mit meiner ersten Erscheinung in der literarischen Welt 
+               zufrieden zu sein. Ich schreibe Ihnen dies, weil ich weiß, daß es Ihnen Freude macht, weil Ihr großes und liebes 
+               Herz sich für mich interessiert, und weil ich recht innig überzeugt bin, daß wenig Menschen an meinem Glück und an 
+               meiner Zufriedenheit, und an jedem Zunehmen irgendeines Guten in mir so reinen und wahren Anteil nehmen, als Sie.
+            </p>
+            <p>
+               Das alles indessen ist nur äußerlich. Was Sie vom innern Wert der Abhandlung, vom Ideengange, von den Grundsätzen, 
+               und von ihrer Anwendung halten, das ist mir am Ende wichtiger als das Lob, was ich hier einerntete, und was sich 
+               ohnehin größtenteils (wie es zumal bei einer Schrift über einen höchst abstrakten Gegenstand wohl ganz natürlich war) 
+               doch bloß auf das Urteil in der <rs type="person" ref="#Bie">Biester</rs>schen 
+               <rs type="citation" ref="#c2765-3">Note</rs> gründet, der ich eigentlich mein Glück zu verdanken habe.
+            </p>
+            <p>
+               Wenn in Ihrer im <rs type="citation" ref="#p2765-2">künftigen Stück erscheinenden Abhandlung</rs> Druckfehler sein 
+               sollten, so muß ich mich von aller Verantwortung deshalb lossagen. Seitdem <rs type="person" ref="#Bie">Biester</rs> 
+               die <rs type="citation" ref="#e2765-1">Monatsschrift</rs> <ref target="#r2765-2">allein herausgibt</ref>, überläßt 
+               er keinem Menschen mehr die Korrektur, wie er sie mir denn auch in meinem eignen Aufsatze nicht überlassen hat, 
+               dafür sich denn auch einige unangenehme Druckfehler darin finden; besonders ein dem Anschein nach unbedeutender und 
+               doch dem Sinn einer Stelle sehr nachteiliger, wo statt <emph rend="underlined">alte</emph> Krankheiten, 
+               <emph rend="underlined">alle</emph> Krankheiten steht. Ich habe das Stück nicht hier, um es genauer zu bezeichnen.
+            </p>
+         </div>
+         <div n="8" corresp="#vcg">
+            <p>
+               So weit war ich schon, als ich <rs type="citation" ref="#c2765-4">Ihren Brief</rs> durch 
+               <rs type="person" ref="#Mat">Mathis</rs> erhielt. Er freut, rührt, und schmerzt mich zugleich. Gott ! welch eine 
+               Hypochondrie <pb/> muß es sein, die - <emph rend="underlined">Ihnen</emph> die Besorgnis, verlassen zu werden, 
+               eingeben kann. Nein ! dazu kann keine Krankheit, keine äußre Lage, diejenigen verleiten, die Ihnen jemals näher 
+               gerückt sind. Wie süß, wie süß wäre es mir, wenn ich Sie besser als mit Worten von der Wahrheit dieser Behauptung 
+               überführen könnte ! Wie gern möchte ich Ihnen nur von jedem Tage einige Stunden widmen, die ja doch immer reiner 
+               Gewinn <emph rend="underlined">für mich</emph> wären ! Ich sollte es nicht in 
+               <rs type="place" ref="#plBr">Breslau</rs>: vielleicht ist es mir noch vergönnt, es in 
+               <rs type="place" ref="#plBe">Berlin</rs> auszuüben. Denn mit Ihnen noch einst wieder vereinigt zu sein, ist eine 
+               von den Hoffnungen, die in mir schlechterdings nicht aussterben.
+            </p>
+            <p>
+               Und damit Sie sehen, daß es mehrere außer mir in <rs type="place" ref="#plBe">Berlin</rs> gibt, in denen das 
+               Andenken an Sie lebt, so werde ich Ihnen eine recht angenehme Nachricht ankündigen, daß nämlich Ihre beide hier 
+               bestellte Portraits nächstens bei Ihnen sein werden. Das eine, <rs type="person" ref="#JJSpa">der alte Spalding</rs>, 
+               ist ganz fertig, und - die Bewunderung aller, die es sehen, vom <rs type="person" ref="#Grf">Graff</rs>schen 
+               Original kaum zu unterscheiden. Diesem können Sie mit jedem fahrenden Posttage entgegensehen, und 
+               <rs type="person" ref="#LisH">die gute Hainchelin</rs> freut sich nicht wenig über das Gelingen ihrer Arbeit für 
+               Sie. Das Porträt der <rs type="person" ref="#MClC">Frau von le Coq</rs> ist der Vollendung sehr nahe, und wird dem 
+               andern unverzüglich folgen.
+            </p>
+            <p>
+               <rs type="citation" ref="#c2765-5">Ihren Brief</rs> an <rs type="person" ref="#JJSpa">Herrn Spalding</rs> habe ich 
+               abgegeben. <rs type="person" ref="#Spa">Spalding junior</rs> hat seit vier Wochen schlimme Augen. Ich habe ihn 
+               diesen Winter, zumal ehe mein genauerer Umgang mit <rs type="person" ref="#Hum">Humboldt</rs>, den 
+               <rs type="person" ref="#Spa">Spalding</rs> aber auch bis zur Anbetung verehrt, anging, oft gesehen: wie ich denn 
+               auch <rs type="person" ref="#Zoe">Zöllner</rs>, <rs type="person" ref="#Bie">Biester</rs>, und was man so die 
+               <emph rend="underlined">Gelehrten</emph> nennt, mehr wie sonst gesehen habe. Nur mit 
+               <rs type="person" ref="#Eng">Engel</rs> habe ich aller Mühe ohngeachtet nicht näher zusammenrücken können, ob er 
+               gleich die wenigen Male, daß ich ihn gesehen habe, viel Aufmerksamkeit und Achtung gegen mich bezeigt hat, welches 
+               mich natürlich noch mehr anspornte, ihn zu suchen.
+            </p>
+         </div>
+         <div n="9" corresp="#kbur">
+            <p>
+               <rs type="person" ref="#Bur">Burkes</rs> <rs type="citation" ref="#p2765-3">Reflections</rs> habe ich durch einen 
+               Zufall <ref target="#r2765-3">erst seit einigen Tagen in Händen</ref>. Die Übersetzungen mochte ich nicht. 
+               Allerdings ver<pb/>dient dieser Mann gehört zu werden, wie man es denn wohl immer verdient, wenn man so meisterhaft 
+               <emph rend="underlined">spricht</emph>. Ich lese dieses Buch, so sehr ich auch gegen die Grundsätze und gegen die 
+               Resultate desselben bin (ich habe es aber noch nicht ganz zu Ende), mit ungleich größerem Vergnügen, als hundert 
+               seichte Lobreden der Revolution, wie ich denn überhaupt den Gegner meiner Lieblingsmeinungen, wenn er an sich nur 
+               etwas wert ist, immer lieber höre, als den Verteidiger derselben. - 
+            </p>
+         </div>
+         <div n="10" corresp="#frv">
+            <p>
+               Unsre deutsche Schriftsteller darüber haben Sie wohl gelesen ? 
+               <rs type="person" ref="#EBr"><emph rend="underlined">Brandes</emph></rs> ist 
+               <rs type="citation" ref="#f2765-1">doch nichts Ganzes</rs>, und leistet mir kein Genüge; 
+               <rs type="person" ref="#Grt"><emph rend="underlined">Girtanner</emph></rs> hat mich durch seine elende Prahlereien, 
+               durch die unglaublich schlechte Ökonomie in <rs type="citation" ref="#f2765-2">seinem Buch</rs>, durch seine 
+               jämmerliche politische Raisonnements, durch die empörende Ungleichheit seines Stils, besonders aber durch die 
+               abgeschmackte Bemühung, der französischen Revolution auch nicht einmal die Ehre, daß sie eine große, neue, 
+               unerhörte Begebenheit war, zu lassen, und sie mit einer gewissen <ref target="#r2765-4">obskuren Rebellion</ref> 
+               unter dem <rs type="person" ref="#KVtl">Kaiser Vitellius</rs> zu vergleichen, sehr gegen sich aufgebracht. Wie man 
+               sich nicht schämt, solche Bücher zu schreiben, oder so ein Geschreibsel <emph rend="underlined">ein Buch</emph> zu 
+               nennen !
+            </p>
+         </div>
+         <div n="11" corresp="#mon">
+            <p>
+               Jetzt sollten Sie besser mit französischen Neuigkeiten versorgt sein, wenn Sie hier wären, als damals. Ich halte 
+               jetzt zwei der besten Zeitschriften: das <rs type="citation" ref="#e2765-2">Journal de Paris</rs>, und den 
+               <rs type="citation" ref="#e2765-3">Moniteur</rs>, den letztern durch <rs type="person" ref="#Anc">Ancillon</rs>, 
+               den erstern durch Gefälligkeit des <rs type="person" ref="#Spn">Buchhändlers Spener</rs>. - 
+            </p>
+         </div>
+         <div n="12" corresp="#frv">
+            <p>
+               <rs type="person" ref="#Mir">Mirabeau</rs>s <ref target="#r2765-5">Tod</ref> hat hier keine Sensation gemacht: 
+               schlechte Ehre für <rs type="place" ref="#plBe">Berlin</rs>. Ich habe ihn tief betrauert ! Das Ausscheiden eines 
+               großen <pb/> Geistes ist immer ein Verlust, den jeder gebildete Mensch fühlen und beherzigen sollte. Wenn auch die 
+               französische Revolution scheiterte, bliebe <rs type="person" ref="#Mir">Mirabeau</rs> doch ein Wohltäter der 
+               Menschheit.
+            </p>
+         </div>
+         <div n="13" corresp="#vcg">
+            <p>
+               Himmel ! was werden Sie zu diesem Briefe sagen ? Er ist fürchterlich. Ich setze nun nichts hinzu als die bekannte 
+               Versicherung meiner unbegrenzten Verehrung und Liebe.
+            </p>
+         </div>
+         <closer>
+            <signed rend="right">Gentz.</signed>
+         </closer>
+      </body>
+      <note resp="#edAG" xml:id="r2765-1">Vgl. <rs type="citation" ref="#c2765-1">den Brief an Garve vom 19. Februar 1791</rs></note>
+      <note resp="#edAG" xml:id="r2765-2">Friedrich Gedike trat 1791 von der Redaktion der Monatsschrift zurück</note>
+      <note resp="#edAG" xml:id="r2765-3">Dies ist die erste Erwähnung von Burke's Reflections, des Werkes, das Gentz' Haltung zur Revolution nachhaltig verändern sollte</note>
+      <note resp="#edAG" xml:id="r2765-4">Möglicherweise meint Gentz den Aufstand, der nach diesem von Gaius Iulius Vindex in ausgebrochen war</note>
+      <note resp="#edAG" xml:id="r2765-5">Der Tod Mirabeaus trat am 2. April 1791 unter sehr mysteriösen Umständen ein</note>
+   </text>
+</TEI>

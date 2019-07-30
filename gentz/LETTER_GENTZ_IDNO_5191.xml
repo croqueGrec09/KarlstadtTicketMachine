@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc xml:id="LETTER_GENTZ_5191">
+         <titleStmt>
+            <title>Friedrich von Gentz an Karl August Böttiger, 21. August 1797</title>
+            <editor xml:id="edAG">Andreas Gálffy</editor>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <name>Forschungsstelle "Universitätssammlung Friedrich von Gentz"</name>
+               <link target="http://gentz-digital.ub.uni-koeln.de http://www.ub.uni-koeln.de/cdm/singleitem/collection/gentz/id/5190/"/>
+            </publisher>
+            <pubPlace>Cologne</pubPlace>
+            <idno type="Gentz-Edition-Number" n="5191"/>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <country>Germany</country>
+                  <settlement>Dresden</settlement>
+                  <institution>Sächsische Landesbibliothek</institution>
+                  <repository>Handschriftensammlung, Nachlaß Böttiger</repository>
+                  <collection>Mscr. Dresd. h 37, Bd. 54 (4°)</collection>
+                  <idno>Nr. 11</idno>
+               </msIdentifier>
+               <msContents>
+                  <summary>
+                     Böttiger wird am folgenden Tag durch Schöneberg reisen und Gentz möchte ihn dann auf eine Stunde sehen.
+                  </summary>
+               </msContents>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Masterarbeit zu Matrikelnummer 5584124</p>
+         </projectDesc>
+      </encodingDesc>
+      <profileDesc>
+         <creation>
+            <date when-iso="1797-08-21">21. August 1797</date>
+         </creation>
+        <langUsage>
+           <language ident="d">deutsch</language>
+        </langUsage>
+         <textClass>
+            <keywords scheme="internal"><!-- internal: innerhalb des besagten Briefs -->
+               <term>Billet</term>
+               <term>Treffen</term>
+               <term>Schöneberg</term>
+            </keywords>
+            <keywords scheme="categorisation"><!-- Sinnabschnittseinteilung - relevant für den Fahrkartenautomaten! -->
+               <term xml:id="vkab">Verhältnis Karl August Böttiger</term>
+            </keywords>
+         </textClass>
+         <textDesc>
+            <channel>manuscript</channel>
+            <constitution type="single"/>
+            <derivation type="original"/>
+            <domain type="private"/>
+            <factuality type="fact"/>
+            <interaction type="partial"/>
+            <preparedness type="unprepared"/>
+            <purpose type="inform"/>
+         </textDesc>
+         <particDesc>
+            <listPerson>
+               <!-- Sender und Adressat -->
+               <person role="sender" xml:id="Gen">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/118538489"/>
+                     <forename>Friedrich von</forename>
+                     <surname>Gentz</surname>
+                  </persName>
+               </person>
+               <person role="receiver" xml:id="KAB">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/118824775"/>
+                     <forename>Carl August</forename>
+                     <surname>Böttiger</surname>
+                  </persName>
+               </person>
+               <!-- erwähnte Personen -->
+            </listPerson>
+         </particDesc>
+         <settingDesc>
+            <listPlace>
+               <!-- Start- und Zielort -->
+               <place type="sender" xml:id="plSb">
+                  <country>
+                     <ref target="http://d-nb.info/gnd/4047194-9"/>
+                     <placeName>Preußen</placeName>
+                  </country>
+                  <settlement>
+                     <ref target="http://d-nb.info/gnd/116944-0"/>
+                     <placeName>Schöneberg</placeName>
+                  </settlement>
+               </place>
+               <place type="receiver" xml:id="plBe">
+                  <country>
+                     <ref target="http://d-nb.info/gnd/4047194-9"/>
+                     <placeName>Preußen</placeName>
+                  </country>
+                  <settlement>
+                     <ref target="http://d-nb.info/gnd/4005728-8"/>
+                     <placeName>Berlin</placeName>
+                  </settlement>
+               </place>
+               <!-- erwähnte Orte -->
+               <place type="named" xml:id="plPo">
+                  <country>
+                     <ref target="http://d-nb.info/gnd/4047194-9"/>
+                     <placeName>Preußen</placeName>
+                  </country>
+                  <settlement>
+                     <ref target="http://d-nb.info/gnd/4046948-7"/>
+                     <placeName>Potsdam</placeName>
+                  </settlement>
+               </place>
+            </listPlace>
+         </settingDesc>
+      </profileDesc>
+      <revisionDesc>
+         <change xml:id="init" when-iso="2018-02-26" who="#edAG">Erstauszeichnung und Normierung des Dokumentes im Rahmen der Masterarbeit der Matrikelnummer 5584124</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div n="1" corresp="#vkab">
+            <p>
+               Sie fahren <date when-iso="1797-08-22">Morgen</date> durch <rs type="place" ref="#plSb">Schöneberg</rs>, wenn Sie 
+               nach <rs type="place" ref="#plPt">Potsdam</rs> <add place="above">reisen</add>, und Sie 
+               <emph rend="underlined">bleiben</emph>, wie ich nach Ihren Aeußerungen wegen des Antiken-Tempels schließen muß, noch 
+               den <date when-iso="1797-08-23">Mittwoch</date> über in <rs type="place" ref="#plPt">Potsdam</rs>. Es wird Ihnen also 
+               leicht seyn, mir noch <emph rend="underlined">eine Stunde</emph> in <rs type="place" ref="#plSb">Schöneberg</rs> zu 
+               schenken, und ich bitte Sie angelegentlich darum. Sollte es sich aber <add place="above">schlechterdings nicht</add> 
+               thun laßen, so steigen Sie doch wenigstens im Vorbeyfahren auf einige Minuten bey mir ab. - 
+               <emph rend="underlined">Darum</emph> nahm ich heute nicht Abschied von Ihnen: ich rechne sicher auf die Erfüllung 
+               meiner Bitte
+            </p>
+         </div>
+         <closer>
+            <signed rend="right">Gentz.</signed>
+            <dateline rend="left">den <date when-iso="1797-08-21">21 Aug. 97</date>.</dateline>
+         </closer>
+      </body>
+   </text>
+</TEI>

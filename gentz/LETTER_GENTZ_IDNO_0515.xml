@@ -1,0 +1,336 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc xml:id="LETTER_GENTZ_0515">
+         <titleStmt>
+            <title>Friedrich von Gentz an Karl Gustav von Brinckmann, 15. Dezember 1801</title>
+            <editor xml:id="edAG">Andreas Gálffy</editor>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <name>Forschungsstelle "Universitätssammlung Friedrich von Gentz"</name>
+               <link target="http://gentz-digital.ub.uni-koeln.de http://www.ub.uni-koeln.de/cdm/singleitem/collection/gentz/id/514/"/>
+            </publisher>
+            <pubPlace>Cologne</pubPlace>
+            <idno type="Gentz-Edition-Number" n="0515"/>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <country>Sweden</country>
+                  <settlement>Trolle-Ljungby</settlement>
+                  <institution>Archiv des Grafen Wachtmeister</institution>
+                  <repository>Nachlaß Brinckmann, Ausländ. Briefwechsel, Gentz an von Brinckmann</repository>
+                  <idno>G 3</idno>
+               </msIdentifier>
+               <msContents>
+                  <summary>
+                     Die Daten über Bonaparte, die im zweiten Postscript sind, musste Gentz mühsam zusammensuchen. Der Abend ist 
+                     durchgeplant. Vor einem Besuch bei Moser, zu dem die Frau von Gentz unbedingt gebeten wurde, geht er in das 
+                     Theater - in die Johanna von Orléans. Den Theaterbesuch musste er aber aufgeben, um zu Brinckmann zu gehen und 
+                     die Einladung der Gräfin wahrzunehmen. Im ersten Postscript kommt der erschwerende Umstand hinzu, dass Gentz 
+                     seine Frau selbst bei Moser einführen muss.
+                  </summary>
+               </msContents>
+            </msDesc>
+            <listBibl type="preprints">
+               <biblStruct>
+                  <monogr>
+                     <editor>
+                        <persName>
+                           <ref target="http://d-nb.info/gnd/130953075"/>
+                           <forename>Friedrich Carl</forename>
+                           <surname>Wittichen</surname>
+                        </persName>
+                        <persName>
+                           <ref /> <!-- kein GND-Eintrag -->
+                           <forename>Ernst</forename>
+                           <surname>Salzer</surname>
+                        </persName>
+                     </editor>
+                     <title>Briefe von und an Friedrich von Gentz, 4 Bde.</title>
+                     <imprint>
+                        <publisher>Oldenbourg</publisher>
+                        <pubPlace>München, Berlin</pubPlace>
+                        <date>1909-1913</date>
+                     </imprint>
+                     <biblScope unit="volume" n="2">
+                        II
+                     </biblScope>
+                     <biblScope unit="page" from="80" to="81">
+                        Nr. 91 (teilweise)
+                     </biblScope>
+                  </monogr>
+               </biblStruct>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Masterarbeit zu Matrikelnummer 5584124</p>
+         </projectDesc>
+      </encodingDesc>
+      <profileDesc>
+         <creation>
+            <date when-iso="1801-12-15">15. Dezember 1801</date>
+         </creation>
+        <langUsage>
+           <language ident="d">deutsch</language>
+        </langUsage>
+         <textClass>
+            <keywords scheme="internal"><!-- internal: innerhalb des besagten Briefs -->
+               <term>Billet</term>
+               <term>Napoleon</term>
+               <term>Treffen</term>
+               <term>Johanna von Orléans</term>
+            </keywords>
+            <keywords scheme="categorisation"><!-- Sinnabschnittseinteilung - relevant für den Fahrkartenautomaten! -->
+               <term xml:id="napinv">Napoleonische Invasion</term>
+               <term xml:id="gfvs">Gräfin Voss</term>
+               <term xml:id="bezbl">Beziehungen zu Berlin - Leute</term>
+            </keywords>
+         </textClass>
+         <textDesc>
+            <channel>manuscript</channel>
+            <constitution type="single"/>
+            <derivation type="original"/>
+            <domain type="private"/>
+            <factuality type="fact"/>
+            <interaction type="partial"/>
+            <preparedness type="prepared"/>
+            <purpose type="inform"/>
+         </textDesc>
+         <particDesc>
+            <listPerson>
+               <!-- Sender und Adressat -->
+               <person role="sender" xml:id="Gen">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/118538489"/>
+                     <forename>Friedrich von</forename>
+                     <surname>Gentz</surname>
+                  </persName>
+               </person>
+               <person role="receiver" xml:id="KGvB">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/116519770"/>
+                     <forename>Carl Gustav von</forename>
+                     <surname>Brinckmann</surname>
+                  </persName>
+               </person>
+               <!-- erwähnte Personen -->
+               <person role="named" xml:id="NBon">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/118586408"/>
+                     <forename>Napoleon I.</forename>
+                     <surname/>
+                     <roleName type="office">Kaiser</roleName>
+                  </persName>
+               </person>
+               <person role="named" xml:id="Msr">
+                  <persName>
+                     <ref />
+                     <forename/>
+                     <surname>Moser</surname>
+                  </persName>
+               </person>
+               <person role="named" xml:id="LvV">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/117746185" />
+                     <forename>Luise von</forename>
+                     <surname>Voss</surname>
+                  </persName>
+               </person>
+               <person role="named" xml:id="Min">
+                  <persName>
+                     <ref/>
+                     <forename>Wilhelmine</forename>
+                     <surname>Gilly</surname>
+                  </persName>
+               </person>
+            </listPerson>
+         </particDesc>
+         <settingDesc>
+            <listPlace>
+               <!-- Start- und Zielort -->
+               <place type="sender" xml:id="plBe">
+                  <country>
+                     <ref target="http://d-nb.info/gnd/4047194-9"/>
+                     <placeName>Preußen</placeName>
+                  </country>
+                  <settlement>
+                     <ref target="http://d-nb.info/gnd/4005728-8"/>
+                     <placeName>Berlin</placeName>
+                  </settlement>
+               </place>
+               <!-- erwähnte Orte -->
+               <place type="named" xml:id="plPa">
+                  <country>
+                     <ref target="http://d-nb.info/gnd/4018145-5"/>
+                     <placeName>Frankreich</placeName>  
+                  </country>
+                  <settlement>
+                     <ref target="http://d-nb.info/gnd/4044660-8"/>
+                     <placeName>Paris</placeName>
+                  </settlement>
+               </place>
+               <place type="named" xml:id="plMtn">
+                  <country>
+                     <ref target="http://d-nb.info/gnd/4046039-3"/>
+                     <placeName>Piemontesische Republik</placeName>  
+                  </country>
+                  <settlement>
+                     <ref target="http://d-nb.info/gnd/4280347-0"/>
+                     <placeName>Cairo Montenotte</placeName>
+                  </settlement>
+               </place>
+               <place type="named" xml:id="plLd">
+                  <country>
+                     <ref target="http://d-nb.info/gnd/4482801-9"/>
+                     <placeName>Cisalpinische Republik</placeName>  
+                  </country>
+                  <settlement>
+                     <ref target="http://d-nb.info/gnd/4127843-4"/>
+                     <placeName>Lodi</placeName>
+                  </settlement>
+               </place>
+               <place type="named" xml:id="plLeb">
+                  <country>
+                     <ref target="http://d-nb.info/gnd/4075601-4"/>
+                     <placeName>Erzherzogtum Österreich</placeName>  
+                  </country>
+                  <settlement>
+                     <ref target="http://d-nb.info/gnd/4035360-6"/>
+                     <placeName>Leoben</placeName>
+                  </settlement>
+               </place>
+               <place type="named" xml:id="plAx">
+                  <country>
+                     <ref target="http://d-nb.info/gnd/4075720-1"/>
+                     <placeName>Osmanisches Reich</placeName>
+                  </country>
+                  <settlement>
+                     <ref target="http://d-nb.info/gnd/4001138-0"/>
+                     <placeName>Alexandria</placeName>
+                  </settlement>
+               </place>
+               <place type="named" xml:id="plAeg">
+                  <country>
+                     <ref target="http://d-nb.info/gnd/4482801-9"/>
+                     <placeName>Ägypten</placeName>  
+                  </country>
+               </place>
+               <place type="named" xml:id="plFrj">
+                  <country>
+                     <ref target="http://d-nb.info/gnd/4018145-5"/>
+                     <placeName>Frankreich</placeName>  
+                  </country>
+                  <settlement>
+                     <ref target="http://d-nb.info/gnd/4018400-6"/>
+                     <placeName>Fréjus</placeName>
+                  </settlement>
+               </place>
+               <place type="named" xml:id="plMrn">
+                  <country>
+                     <ref target="http://d-nb.info/gnd/4046039-3" />
+                     <placeName>Piemontesische Republik</placeName>
+                  </country>
+                  <settlement>
+                     <ref target="http://d-nb.info/gnd/4114991-9" />
+                     <placeName>Marengo</placeName>
+                  </settlement>
+               </place>
+               <place type="named" xml:id="plLnv">
+                  <country>
+                     <ref target="http://d-nb.info/gnd/4018145-5"/>
+                     <placeName>Frankreich</placeName>  
+                  </country>
+                  <settlement>
+                     <ref target="http://d-nb.info/gnd/4111432-2"/>
+                     <placeName>Lunéville</placeName>
+                  </settlement>
+               </place>
+            </listPlace>
+         </settingDesc>
+      </profileDesc>
+      <revisionDesc>
+         <change xml:id="init" when-iso="2018-03-09" who="#edAG">Erstauszeichnung und Normierung des Dokumentes im Rahmen der Masterarbeit der Matrikelnummer 5584124</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <opener resp="#KGvB">
+            <dateline rend="right"><date when-iso="1801-12-15">15. Decembr 1801</date>.</dateline>
+         </opener>
+         <div n="1" corresp="#bibl">
+            <p>
+               Ich hatte die verlangten Data über <rs type="person" ref="#NBon">Bonaparte</rs> nicht bei der Hand, und habe sie 
+               daher mühsam in mehrern Büchern zusammen suchen müßen. Dies sage ich Ihnen nur, damit Sie solche gehörig zu schätzen 
+               wißen.
+            </p>
+         </div>
+         <div n="2" corresp="#gfvs">
+            <p>
+               Mein heutiger Abend war, als ich Ihre mir so liebe Einladung zu der <rs type="person" ref="#LvV">Gräfin</rs> erhielt, 
+               schon vollständig organisirt; und zwar folgendermaßen: Ich bin erstlich zu einem Thee gebeten, den ein gewisser 
+               <rs type="person" ref="#Msr">Moser</rs> der Levi-Arnsteinschen Familie giebt, und auf welchen ich (unter andern 
+               Ursachen) auch deshalb nothwendig gehen muß, weil nur unter dieser Bedingung <pb/> 
+               <rs type="person" ref="#Min">meine Frau</rs> sich entschließen will, auch hin zu gehen, welches der gedachte 
+               <rs type="person" ref="#Msr">Moser</rs> sehr wünscht.
+            </p>
+            <p>
+               Nun wollte ich dies aber erst um 8 Uhr thun, und vorher - nicht in die 
+               <emph rend="underlined">Schwestern von Lesbos</emph>, wie Sie sehr fein anmerken, doch - in die 
+               <emph rend="underlined">Jungfrau von Orleans</emph> gehen, die zu sehen ich wirklich vor Neugier brenne. - Indessen, 
+               eine Einladung zu der <rs type="person" ref="#LvV">Gräfin</rs> <gap><desc>...................</desc></gap> 
+               <del rend="stroked">ist</del> von der Hand zu weisen, scheint mir eine Art von Frevelthat zu seyn; und ob ich nun 
+               gleich von dem <rs type="person" ref="#Msr">Moser</rs>schen Thee mich auf keine Weise loszumachen vermag, so <pb/> 
+               opfre ich doch die Johanna auf, und komme. Leider aber kan ich nicht länger als bis 8 Uhr bleiben; und, wenn Sie mir 
+               daher die Erlaubniß, etwas früh (d. h. um 6 Uhr) zu kommen auswirken, auch selbst Sich so einrichten könnten, daß Sie 
+               früh da wären, so würde ich dies als eine besondre Gefälligkeit von Ihnen betrachten.
+            </p>
+            <p>
+               Und somit <span xml:lang="lat">vale</span>
+            </p>
+         </div>
+         <closer>
+            <signed rend="right">Gentz</signed>
+            <dateline rend="right">d <date when-iso="1801-12-15">15 Xbr</date>.</dateline>
+         </closer>
+         <postscript corresp="#bezbl">
+            <p>
+               P.S. Alles oben geschriebne gilt nichts, weil <rs type="person" ref="#Min">meine Frau</rs> mir eben erklärt, daß sie 
+               unter keiner andern Bedingung zu <rs type="person" ref="#Msr">Moser</rs> und unter <pb/> die Juden geht, als, 
+               <emph rend="underlined">wenn ichh sie daselbst einführe</emph>. Ich muß also schon in diesen sauren Apfel beißen, und 
+               gegen 7 Uhr zu <rs type="person" ref="#Msr">Moser</rs> gehen. Dann aber bleibe ich bei dem mehrgedachten 
+               <rs type="person" ref="#Msr">Moser</rs> nicht länger als <emph rend="underlined">bis halb 8 Uhr</emph>. Wenn Sie es 
+               also nicht zu spät finden, <emph rend="underlined">dann</emph> zu der <rs type="person" ref="#LvV">Gräfin</rs> zu 
+               kommen, so sehen Sie mich sicher bei ihr. Erhalte ich von Ihnen keinen weitern Bescheid so bleibt es bei dieser 
+               Abrede.
+            </p>
+         </postscript>
+         <postscript corresp="#napinv">
+            <lg>
+               <l><rs type="person" ref="#NBon">Napoleon Bonaparte</rs></l>
+               <l>Ist geboren.....................1769. (den Tag kan ich nirgends finden)</l>
+               <l>den <date when-iso="1795-10-13">6<span rend="sup">ten</span> Oktober 1795</date> (<date when-iso="1795-10-13">13<span rend="sup">ten</span> Vendemiaire</date>) installirt er das <emph rend="underlined">Direktorium</emph> und die <emph rend="underlined">Con</emph>-</l>
+               <l><emph rend="underlined">stitution des Jahres III</emph>, indem er die rebellischen Sadianer von <rs type="place" ref="#plPa">Paris</rs>, mit</l>
+               <l>Kartätschen zur Ordnung bringt.</l>
+               <l>den <date when-iso="1796-04-12">12 April. 1796</date>. Sein erster Sieg bei <rs type="place" ref="#plMtn">Montenotte</rs>.</l>
+               <l>den <date when-iso="1796-05-10">10 Mai. 1796</date>. Die Schlacht bei <rs type="place" ref="#plLd">Lodi</rs> (weil doch diese nun einmal berühmt seyn soll)</l>
+               <l>den <date when-iso="1797-04-18">18<span rend="sup">ten</span> April 1797</date>. Friedens-Präliminarien von <rs type="place" ref="#plLeb">Leoben</rs>.</l>
+               <l>den <date when-iso="1797-10-17">17 Oktober 1797</date>. Unterzeichnung des Traktats von Campo Formio.</l>
+               <l>den <date when-iso="1798-07-01">1<span rend="sup">ten</span> July. 1798</date>. Landung zu <rs type="place" ref="#plAx">Alexandria</rs> in <rs type="place" ref="#plAeg">Aegypten</rs>.</l>
+               <l>den <date when-iso="1799-10-09">9<span rend="sup">ten</span> Oktober 1799</date>. Rückkehr aus <rs type="place" ref="#plAeg">Aegypten</rs> im Hafen zu <rs type="place" ref="#plFrj">Frejus</rs>.</l> <pb/>
+               <l>den <date when-iso="1799-11-09">9<span rend="sup">ten</span> November. 1799</date> (<date when-iso="1799-11-09">18 Brumaire</date>) Zerstörung der Constitution des Jahres III, und Er-</l>
+               <l>reichung des Provisorischen Consulats.</l>
+               <l>den <date when-iso="1799-12-25">25<span rend="sup">ten</span> December. 1799</date>. Anfang des constitutionellen Ober-Consulats.</l>
+               <l>den <date when-iso="1800-06-14">14<span rend="sup">ten</span> Juny. 1800</date>. Schlacht bei <rs type="place" ref="#plMrn">Marengo</rs>.</l>
+               <l>den <date when-iso="1801-02-09">9 Februar. 1801</date>. Unterzeichnung des Friedens von <rs type="place" ref="#plLnv">Luneville</rs>.</l>
+            </lg>
+         </postscript>
+      </body>
+   </text>
+</TEI>

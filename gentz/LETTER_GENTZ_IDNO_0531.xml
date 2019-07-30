@@ -1,0 +1,269 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader type="text">
+      <fileDesc xml:id="LETTER_GENTZ_0531">
+         <titleStmt>
+            <title>Friedrich von Gentz an Karl Gustav von Brinckmann, 5. November 1792</title>
+            <editor xml:id="edAG">Andreas Gálffy</editor>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <name>Forschungsstelle "Universitätssammlung Friedrich von Gentz"</name>
+               <link target="http://gentz-digital.ub.uni-koeln.de http://www.ub.uni-koeln.de/cdm/singleitem/collection/gentz/id/530/"/>
+            </publisher>
+            <pubPlace>Cologne</pubPlace>
+            <idno type="Gentz-Edition-Number" n="0531"/>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <country>Sweden</country>
+                  <settlement>Trolle-Ljungby</settlement>
+                  <institution>Archiv des Grafen Wachtmeister</institution>
+                  <repository>Nachlaß Brinckmann, Ausländ. Briefwechsel, Gentz an Brinckmann</repository>
+                  <idno>G 3</idno>
+               </msIdentifier>
+               <msContents>
+                  <summary>
+                     Ein Buchhandel fand statt, im Zuge dessen Gentz lauter zweibändige Werke erheilt, die ihm eine angenehme 
+                     Lektüre bescherten.
+                  </summary>
+               </msContents>
+            </msDesc>
+            <listBibl type="alludedWorks">
+               <bibl xml:id="a0531-1" corresp="#LETTER_GENTZ_NNNN">Ein Werk "On Scollars" von William Robertson</bibl>
+               <bibl xml:id="a0531-2" corresp="#LETTER_GENTZ_NNNN">Ein Werk "On India" von William Robertson</bibl>
+               <bibl xml:id="a0531-3" corresp="#LETTER_GENTZ_NNNN">Modern poems eines nicht näher bestimmten Dichters</bibl>
+            </listBibl>
+            <listBibl type="defExpr">
+               <biblStruct xml:id="e0531-1" corresp="GBk-0021">
+                  <monogr>
+                     <author>
+                        <persName>
+                           <ref target="http://d-nb.info/gnd/118604945"/>
+                           <forename>Henri</forename>
+                           <surname>Bernardin de Saint-Pierre</surname>
+                        </persName>
+                     </author>
+                     <title>Études de la Nature</title>
+                     <imprint>
+                        <publisher>De l'imprimerie de Monsieur</publisher>
+                        <pubPlace>Paris</pubPlace>
+                        <date>1787</date>
+                     </imprint>
+                  </monogr>
+               <ptr target="https://books.google.de/books?id=VjULbJTyuOcC"/></biblStruct>
+               <biblStruct xml:id="e0531-2" corresp="GBk-0013">
+                  <analytic>
+                     <author>
+                        <persName>
+                           <ref target="http://d-nb.info/gnd/118517708"/>
+                           <forename>Edmund</forename>
+                           <surname>Burke</surname>
+                        </persName>
+                     </author>
+                     <title>An essay on the sublime and beautiful</title>
+                     <date>1756</date>
+                  </analytic>
+                  <monogr>
+                     <editor>
+                        <persName>
+                           <ref/>
+                           <forename>James</forename>
+                           <surname>Prior</surname>
+                        </persName>
+                     </editor>
+                     <title>The works of the Right Honourable Edmund Burke</title>
+                     <imprint>
+                        <publisher>George Bell &amp; Sons</publisher>
+                        <pubPlace>London</pubPlace>
+                        <date>1889</date>
+                     </imprint>
+                     <biblScope unit="volume" n="1">
+                        Volume I.
+                     </biblScope>
+                     <biblScope unit="page" from="49" to="181">
+                        S. 49-181
+                     </biblScope>
+                  </monogr>
+               <ptr target="https://books.google.de/books?id=H6o1AAAAMAAJ"/></biblStruct>
+               <biblStruct xml:id="e0531-3" corresp="GBk-0007">
+                  <monogr>
+                     <author>
+                        <persName>
+                           <ref target="http://d-nb.info/gnd/134006283"/>
+                           <forename>Robert</forename>
+                           <surname>Watson</surname>
+                        </persName>
+                     </author>
+                     <title>History of the Reign of Philipp II</title>
+                     <imprint>
+                        <pubPlace>Basil</pubPlace>
+                        <publisher>J. J. Tourneisen</publisher>
+                        <date>1792</date>
+                     </imprint>
+                  </monogr>
+               <ptr target="https://books.google.de/books?id=ASpOAAAAcAAJ"/></biblStruct>
+               <biblStruct xml:id="e0531-4" corresp="GBk-0014">
+                  <monogr>
+                     <author>
+                        <persName>
+                           <ref target="http://d-nb.info/gnd/134006283"/>
+                           <forename>Robert</forename>
+                           <surname>Watson</surname>
+                        </persName>
+                     </author>
+                     <title>History of the Reign of Philipp III., King of Spain</title>
+                     <imprint>
+                        <pubPlace>Basil</pubPlace>
+                        <publisher>J. J. Tourneisen</publisher>
+                        <date>1792</date>
+                     </imprint>
+                  </monogr>
+               <ptr target="https://books.google.de/books?id=HipOAAAAcAAJ"/></biblStruct>
+               <biblStruct xml:id="e0531-5" corresp="GBk-0015">
+                  <monogr>
+                     <author>
+                        <persName>
+                           <ref target="http://d-nb.info/gnd/118600346"/>
+                           <forename>Samuel</forename>
+                           <surname>Richardson</surname>
+                        </persName>
+                     </author>
+                     <title>The History of Clarissa Harlowe, in a series of letters</title>
+                     <imprint>
+                        <pubPlace>Basil</pubPlace>
+                        <publisher>J. L. Legrand</publisher>
+                        <date>1792</date>
+                     </imprint>
+                  </monogr>
+               <ptr target="https://books.google.de/books?id=xGk8AAAAcAAJ"/></biblStruct>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Masterarbeit zu Matrikelnummer 5584124</p>
+         </projectDesc>
+      </encodingDesc>
+      <profileDesc>
+         <creation>
+            <date when-iso="1792-11-05">5. November 1792</date>
+         </creation>
+        <langUsage>
+           <language ident="d">deutsch</language>
+        </langUsage>
+         <textClass>
+            <keywords scheme="internal"><!-- internal: innerhalb des besagten Briefs -->
+               <term>Billet</term>
+               <term>Bibliothek</term>
+               <term>Zweibrücker</term>
+               <term>Literatur</term>
+            </keywords>
+            <keywords scheme="categorisation"><!-- Sinnabschnittseinteilung - relevant für den Fahrkartenautomaten! -->
+               <term xml:id="bibl">Bibliothek</term>
+            </keywords>
+         </textClass>
+         <textDesc>
+            <channel>manuscript</channel>
+            <constitution type="single"/>
+            <derivation type="original"/>
+            <domain type="private"/>
+            <factuality type="fact"/>
+            <interaction type="partial"/>
+            <preparedness type="unprepared"/>
+            <purpose type="inform"/>
+         </textDesc>
+         <particDesc>
+            <listPerson>
+               <!-- Sender und Adressat -->
+               <person role="sender" xml:id="Gen">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/118538489"/>
+                     <forename>Friedrich von</forename>
+                     <surname>Gentz</surname>
+                  </persName>
+               </person>
+               <person role="receiver" xml:id="KGvB">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/116519770"/>
+                     <forename>Carl Gustav von</forename>
+                     <surname>Brinckmann</surname>
+                  </persName>
+               </person>
+               <!-- erwähnte Personen -->
+               <person role="named" xml:id="Bur">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/118517708"/>
+                     <forename>Edmund</forename>
+                     <surname>Burke</surname>
+                  </persName>
+               </person>
+               <person role="named" xml:id="Rob">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/118834541"/>
+                     <forename>William</forename>
+                     <surname>Robertson</surname>
+                  </persName>
+               </person>
+               <person role="named" xml:id="Wat">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/134006283"/>
+                     <forename>Robert</forename>
+                     <surname>Watson</surname>
+                  </persName>
+               </person>
+            </listPerson>
+         </particDesc>
+         <settingDesc>
+            <listPlace>
+               <!-- Start- und Zielort -->
+               <place type="sender" xml:id="plBe">
+                  <country>
+                     <ref target="http://d-nb.info/gnd/4047194-9"/>
+                     <placeName>Preußen</placeName>
+                  </country>
+                  <settlement>
+                     <ref target="http://d-nb.info/gnd/4005728-8"/>
+                     <placeName>Berlin</placeName>
+                  </settlement>
+               </place>
+               <!-- erwähnte Orte -->
+            </listPlace>
+         </settingDesc>
+      </profileDesc>
+      <revisionDesc>
+         <change xml:id="init" when-iso="2018-02-07" who="#edAG">Erstauszeichnung und Normierung des Dokumentes im Rahmen der Masterarbeit der Matrikelnummer 5584124</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>     
+      <body>
+         <opener resp="#KGvB">
+            <dateline rend="right">den <date when-iso="1792-11-05">5. Novbr 1792</date>.</dateline>
+         </opener>
+         <div n="1" corresp="#bibl">
+            <p>
+               Ich schicke Ihnen hier, lieber Brinkmann die <rs type="citation" ref="#e0531-1">Etudes de la Nature</rs> welche Sie 
+               durch mich bestellt haben - Dieselbe Ladung welche sie führte, hat mir -
+            </p>
+            <list>
+               <item><rs type="citation" ref="#e0531-2">on the Sublime</rs></item>
+               <item><rs type="citation" ref="#a0531-1">Robertson on Scollars</rs></item>
+               <item><rs type="citation" ref="#a0531-2">" on India</rs></item>
+               <item><rs type="citation" ref="#e0531-3">History of Philipp II</rs></item>
+               <item><rs type="citation" ref="#e0531-4">" " " III</rs></item>
+               <item><rs type="citation" ref="#e0531-5">Clarissa 2 Volumes</rs>,</item>
+            </list>
+            <p>
+               mitgebracht: freylich lauter <emph rend="underlined">Zweybrücker</emph>: aber doch gute Bücher, die mich noch manche 
+               Stunde vergnügen werden, wenn ich von allen Unruhen des Lebens ausgespannt seyn werde. Die 
+               <rs type="citation" ref="#a0531-3">Modern poems</rs> habe ich jetzt auch. Es steht wirklich 
+               <emph rend="underlined">alles</emph> drin. Vale
+            </p>
+         </div>
+         <closer>
+            <signed rend="right">Gentz</signed>
+         </closer>
+      </body>
+   </text>
+</TEI>

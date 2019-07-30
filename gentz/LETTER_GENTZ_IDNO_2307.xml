@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc xml:id="LETTER_GENTZ_2307">
+         <titleStmt>
+            <title>Friedrich von Gentz an Karl Gustav von Brinckmann, 14. Juni 1797</title>
+            <editor xml:id="edAG">Andreas Gálffy</editor>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <name>Forschungsstelle "Universitätssammlung Friedrich von Gentz"</name>
+               <link target="http://gentz-digital.ub.uni-koeln.de http://www.ub.uni-koeln.de/cdm/singleitem/collection/gentz/id/2306/"/>
+            </publisher>
+            <pubPlace>Cologne</pubPlace>
+            <idno type="Gentz-Edition-Number" n="2307"/>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <country>Sweden</country>
+                  <settlement>Trolle-Ljungby</settlement>
+                  <institution>Archiv des Grafen Wachtmeister</institution>
+                  <repository>Nachlaß Brinckmann, Ausländ. Briefwechsel, Gentz an Brinckmann</repository>
+                  <idno>G 3</idno>
+               </msIdentifier>
+               <msContents>
+                  <summary>
+                     Brinckmanns Bedienter musste doppelt ausgehen, weil er von Gentz keine Quittung erhielt. Gentz spricht den 
+                     Bedienten von aller Schuld los, schickt den verlangten Bertrand und ein Tuch und hofft, dass seine Unmut nicht 
+                     Folge einer Unannehmlichkeit oder Krankheit ist.
+                  </summary>
+               </msContents>
+            </msDesc>
+            <listBibl type="alludedWorks">
+               <bibl xml:id="a2307-1" corresp="#LETTER_GENTZ_NNNN">nicht näher benanntes Werk von Élie Bertrand</bibl>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Masterarbeit zu Matrikelnummer 5584124</p>
+         </projectDesc>
+      </encodingDesc>
+      <profileDesc>
+         <creation>
+            <date when-iso="1797-06-14">14. Juni 1797</date>
+         </creation>
+        <langUsage>
+           <language ident="d">deutsch</language>
+        </langUsage>
+         <textClass>
+            <keywords scheme="internal"><!-- internal: innerhalb des besagten Briefs -->
+               <term>Billet</term>
+               <term>Maria Stuart</term>
+               <term>Vieweg</term>
+            </keywords>
+            <keywords scheme="categorisation"><!-- Sinnabschnittseinteilung - relevant für den Fahrkartenautomaten! -->
+               <term xml:id="bibl">Bibliothek</term>
+               <term xml:id="vkgvb">Verhältnis Karl Gustav von Brinckmann</term>
+            </keywords>
+         </textClass>
+         <textDesc>
+            <channel>manuscript</channel>
+            <constitution type="single"/>
+            <derivation type="original"/>
+            <domain type="private"/>
+            <factuality type="fact"/>
+            <interaction type="partial"/>
+            <preparedness type="unprepared"/>
+            <purpose type="inform"/>
+         </textDesc>
+         <particDesc>
+            <listPerson>
+               <!-- Sender und Adressat -->
+               <person role="sender" xml:id="Gen">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/118538489"/>
+                     <forename>Friedrich von</forename>
+                     <surname>Gentz</surname>
+                  </persName>
+               </person>
+               <person role="receiver" xml:id="KGvB">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/116519770"/>
+                     <forename>Carl Gustav von</forename>
+                     <surname>Brinckmann</surname>
+                  </persName>
+               </person>
+               <!-- erwähnte Personen -->
+               <person role="named" xml:id="Btr">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/132748827"/>
+                     <forename>Élie</forename>
+                     <surname>Bertrand</surname>
+                  </persName>
+               </person>
+            </listPerson>
+         </particDesc>
+         <settingDesc>
+            <listPlace>
+               <!-- Start- und Zielort -->
+               <place type="sender" xml:id="plSb">
+                  <country>
+                     <ref target="http://d-nb.info/gnd/4047194-9"/>
+                     <placeName>Preußen</placeName>
+                  </country>
+                  <settlement>
+                     <ref target="http://d-nb.info/gnd/116944-0"/>
+                     <placeName>Schöneberg</placeName>
+                  </settlement>
+               </place>
+               <place type="receiver" xml:id="plBe">
+                  <country>
+                     <ref target="http://d-nb.info/gnd/4047194-9"/>
+                     <placeName>Preußen</placeName>
+                  </country>
+                  <settlement>
+                     <ref target="http://d-nb.info/gnd/4005728-8"/>
+                     <placeName>Berlin</placeName>
+                  </settlement>
+               </place>
+               <!-- erwähnte Orte -->
+            </listPlace>
+         </settingDesc>
+      </profileDesc>
+      <revisionDesc>
+         <change xml:id="init" when-iso="2018-02-26" who="#edAG">Erstauszeichnung und Normierung des Dokumentes im Rahmen der Masterarbeit der Matrikelnummer 5584124</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div n="1" corresp="#bibl">
+            <p>
+               Ich habe das Geld richtig erhalten; und es thut mir doppelt leid, daß Ihr Bedienter deshalb herausgehen mußte, da 
+               wirklich <emph rend="underlined">meine</emph> Unlust, die Quittung zu schreiben, allein dran Schuld war, daß er keine 
+               erhielt. Denn bestellt hat er sehr regelmäßig, daß Sie eine verlangten. - Ich schicke Ihnen auch den 
+               <rs type="citation" ref="#a2307-1">verlangten</rs> <rs type="person" ref="#Btr">Bertrand</rs> und Ihr Tuch.
+            </p>
+         </div>
+         <div n="2" corresp="#vkgvb">
+            <p>
+               Uebrigens wünsche ich herzlich, daß die böse Laune, worin Sie heute zu seyn <emph rend="underlined">scheinen</emph>, 
+               nicht Folge einer Krankheit, oder sonstigen reellen Unannehmlichkeit seyn möge, und empfehle mich zum fernern 
+               geneigten Andenken.
+            </p>
+         </div>
+         <closer>
+            <signed rend="right">Gentz.</signed>
+            <dateline rend="left"><rs type="person" ref="#plSb">Schöneberg.</rs> <date when-iso="1797-06-14">14<span rend="sup">ten</span> Juny 97</date>.</dateline>
+         </closer>
+      </body>
+   </text>
+</TEI>

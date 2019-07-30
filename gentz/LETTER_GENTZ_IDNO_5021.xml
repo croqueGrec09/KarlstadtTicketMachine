@@ -1,0 +1,272 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc xml:id="LETTER_GENTZ_5021">
+         <titleStmt>
+            <title>Friedrich von Gentz an Karl Gustav von Brinckmann, 16. Juli 1801</title>
+            <editor xml:id="edAG">Andreas Gálffy</editor>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <name>Forschungsstelle "Universitätssammlung Friedrich von Gentz"</name>
+               <link target="http://gentz-digital.ub.uni-koeln.de http://www.ub.uni-koeln.de/cdm/singleitem/collection/gentz/id/5020/"/>
+            </publisher>
+            <pubPlace>Cologne</pubPlace>
+            <idno type="Gentz-Edition-Number" n="5021"/>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <country>Sweden</country>
+                  <settlement>Trolle-Ljungby</settlement>
+                  <institution>Archiv des Grafen Wachtmeister</institution>
+                  <repository>Nachlaß Brinckmann, Ausländ. Briefwechsel, Gentz an Brinckmann</repository>
+                  <idno>G 3</idno>
+               </msIdentifier>
+               <msContents>
+                  <summary>
+                     Ein Wagen wird bei Brinckmann zu einer noch zu bestimmenden Uhrzeit vorfahren. Brinckmann hat leider keine 
+                     positive Rückmeldung gegeben und Gentz muss jetzt definitiv zu Krüdener. Er verflucht den Moment, an dem er 
+                     Frau von Voss traf. Im Postscript überbringt Gentz eine Besuchsankündigung Burkes, sofern Brinckmann das Dîner 
+                     verschiebt.
+                  </summary>
+               </msContents>
+            </msDesc>
+            <listBibl type="preprints">
+               <biblStruct>
+                  <monogr>
+                     <editor>
+                        <persName>
+                           <ref target="http://d-nb.info/gnd/130953075"/>
+                           <forename>Friedrich Carl</forename>
+                           <surname>Wittichen</surname>
+                        </persName>
+                        <persName>
+                           <ref /> <!-- kein GND-Eintrag -->
+                           <forename>Ernst</forename>
+                           <surname>Salzer</surname>
+                        </persName>
+                     </editor>
+                     <title>Briefe von und an Friedrich von Gentz, 4 Bde.</title>
+                     <imprint>
+                        <publisher>Oldenbourg</publisher>
+                        <pubPlace>München, Berlin</pubPlace>
+                        <date>1909-1913</date>
+                     </imprint>
+                     <biblScope unit="volume" n="2">
+                        II
+                     </biblScope>
+                     <biblScope unit="page" from="75" to="75">
+                        Nr. 83 (teilweise)
+                     </biblScope>
+                  </monogr>
+               </biblStruct>
+            </listBibl>
+            <listBibl type="letterReferenced">
+               <bibl xml:id="c5021-1" corresp="#LETTER_GENTZ_1699">Friedrich von Gentz an Karl Gustav von Brinckmann, 15. Juli 1801</bibl>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Masterarbeit zu Matrikelnummer 5584124</p>
+         </projectDesc>
+      </encodingDesc>
+      <profileDesc>
+         <creation>
+            <date when-iso="1801-07-16">16. Juli 1801</date>
+         </creation>
+        <langUsage>
+           <language ident="f">französisch</language>
+        </langUsage>
+         <textClass>
+            <keywords scheme="internal"><!-- internal: innerhalb des besagten Briefs -->
+               <term>Brief</term>
+               <term>von Berg</term>
+               <term>Treffen</term>
+               <term>Krüdener</term>
+               <term>Burke</term>
+            </keywords>
+            <keywords scheme="categorisation"><!-- Sinnabschnittseinteilung - relevant für den Fahrkartenautomaten! -->
+               <term xml:id="vkgvb">Verhältnis Karl Gustav von Brinckmann</term>
+               <term xml:id="bezbl">Beziehungen zu Berlin - Leute</term>
+               <term xml:id="kbur">Burke</term>
+            </keywords>
+         </textClass>
+         <textDesc>
+            <channel>manuscript</channel>
+            <constitution type="single"/>
+            <derivation type="original"/>
+            <domain type="private"/>
+            <factuality type="fact"/>
+            <interaction type="partial"/>
+            <preparedness type="prepared"/>
+            <purpose type="inform"/>
+         </textDesc>
+         <particDesc>
+            <listPerson>
+               <!-- Sender und Adressat -->
+               <person role="sender" xml:id="Gen">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/118538489"/>
+                     <forename>Friedrich von</forename>
+                     <surname>Gentz</surname>
+                  </persName>
+               </person>
+               <person role="receiver" xml:id="KGvB">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/116519770"/>
+                     <forename>Carl Gustav von</forename>
+                     <surname>Brinckmann</surname>
+                  </persName>
+               </person>
+               <!-- erwähnte Personen -->
+               <person role="named" xml:id="JPvS">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/118752413"/>
+                     <forename>Johann Philipp von</forename>
+                     <surname>Stadion</surname>
+                  </persName>
+               </person>
+               <person role="named" xml:id="BvK">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/136535526"/>
+                     <forename>Burchard von</forename>
+                     <surname>Krüdener</surname>
+                  </persName>
+               </person>
+               <person role="named" xml:id="HNls">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/118586939"/>
+                     <forename>Horatio</forename>
+                     <surname>Nelson</surname>
+                  </persName>
+               </person>
+               <person role="named" xml:id="CFrvB">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/116129654"/>
+                     <forename>Caroline Friederike von</forename>
+                     <surname>Berg</surname>
+                  </persName>
+               </person>
+               <person role="named" xml:id="AvKtz">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/118565796"/>
+                     <forename>August von</forename>
+                     <surname>Kotzebue</surname>
+                  </persName>
+               </person>
+               <person role="named" xml:id="LvV">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/117746185"/>
+                     <forename>Luise von</forename>
+                     <surname>Voss</surname>
+                  </persName>
+               </person>
+               <person role="named" xml:id="Krl">
+                  <persName>
+                     <ref />
+                     <forename></forename>
+                     <surname>Kerrlen</surname>
+                  </persName>
+               </person>
+               <person role="named" xml:id="Bur">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/118517708"/>
+                     <forename>Edmund</forename>
+                     <surname>Burke</surname>
+                  </persName>
+               </person>
+            </listPerson>
+         </particDesc>
+         <settingDesc>
+            <listPlace>
+               <!-- Start- und Zielort -->
+               <place type="sender" xml:id="plSb">
+                  <country>
+                     <ref target="http://d-nb.info/gnd/4047194-9"/>
+                     <placeName>Preußen</placeName>
+                  </country>
+                  <settlement>
+                     <ref target="http://d-nb.info/gnd/116944-0"/>
+                     <placeName>Schöneberg</placeName>
+                  </settlement>
+               </place>
+               <place type="receiver" xml:id="plBe">
+                  <country>
+                     <ref target="http://d-nb.info/gnd/4047194-9"/>
+                     <placeName>Preußen</placeName>
+                  </country>
+                  <settlement>
+                     <ref target="http://d-nb.info/gnd/4005728-8"/>
+                     <placeName>Berlin</placeName>
+                  </settlement>
+               </place>
+               <!-- erwähnte Orte -->
+               <place type="named" xml:id="plPe">
+                  <country>
+                     <ref target="http://d-nb.info/gnd/4076899-5"/>
+                     <placeName>Russland</placeName>
+                  </country>
+                  <settlement>
+                     <ref target="http://d-nb.info/gnd/4267026-3"/>
+                     <placeName>Petersburg</placeName>
+                  </settlement>
+               </place>
+            </listPlace>
+         </settingDesc>
+      </profileDesc>
+      <revisionDesc>
+         <change xml:id="init" when-iso="2018-03-08" who="#edAG">Erstauszeichnung und Normierung des Dokumentes im Rahmen der Masterarbeit der Matrikelnummer 5584124</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div n="1" corresp="#vgkvb">
+            <p>
+               Comme il est très-vraisemblable que Vous êtes moins lié que moi avec les cochers de louage de 
+               <rs type="place" ref="#plBe">Berlin</rs>, je prendrai soin, cher Brinkmann, d'en commander un pour aujourd'hui; et je 
+               vous prie seulement, de vouloir bien dire au porteur de ceci, à quelle heure la voiture doit se trouver devant votre 
+               porte.
+            </p>
+         </div>
+         <div n="2" corresp="#bezbl">
+            <p>
+               Mon désespoir par rapport à demain a considérablement augmenté depuis que je Vous ai 
+               <rs type="citation" ref="#c5021-1">écrit</rs>. D'abord, parce-que Vous ne m'avez pas fait dire de réponse positive; 
+               et puis, parceque j'ai diné hier chez le <rs type="person" ref="#JPvS">Comte Stadion</rs> avec 
+               <rs type="person" ref="#BvK">Monsieur de Krüdener</rs> et que là j'ai été obligé de fortifier encore cet engagement 
+               affreux, qui m'enlève le premier diner de l'univers. - Je le dis toujours, mon ami, les demi-mesures ne valent pas 
+               le diable. "Je ne suis point sanguinaire"; mais si <rs type="person" ref="#HNls">Nelson</rs> avoit brûlé 
+               <rs type="place" ref="#plPe">Petersburg</rs>, quel grand mal y auroit-il eu ? Et quel avantage immense pour moi, qui 
+               aurois pu aller tout-à-mon-aise chez <rs type="person" ref="#CFrvB">Madame de Berg</rs> sans être tracassé par un 
+               diner, dont <rs type="person" ref="#AvKtz"><emph rend="underlined">Kotzebue</emph></rs> - 
+               <span xml:lang="lat">horresco referens</span> - sera le héros ! <pb/>
+            </p>
+            <p>
+               Ah ! si je possédois la moitié seulement de Vos bons mots, que je m'en vengerois ! - Ou, parce qu'il n'y a pas moyen 
+               de s'élever à cette hauteur, que mes regrets seroient moins amers, si je n'avois pas vu 
+               <rs type="person" ref="#LvV">Madame de Voss</rs> <date when-iso="1801-07-14">Mardi</date> chez 
+               <rs type="person" ref="#Krl">Kerrlen</rs> ! Mais je me perds en vaines paroles. Apportez-moi quelque consolation à 
+               <rs type="place" ref="#plSb">Schöneberg</rs>; et Vous serez encore mieux reçu, que Vous l'auriez été sans cela par
+            </p>
+         </div>
+         <closer>
+            <salute rend="right">Votre serviteur et ami</salute>
+            <dateline rend="left"><rs type="place" ref="#plSb">Schöneberg</rs> <date when-iso="1801-07-16">16 Juillet 1801</date>.</dateline>
+            <signed rend="right">Gentz.</signed>
+         </closer>
+         <postscript corresp="#kbur">
+            <p>
+               NB. A propos ! <rs type="person" ref="#Bur">Burke</rs> vous présente ses hommages respectueux, et il vous fait dire, 
+               que si vous trouvez le moyen d'ajourner le diner de <date when-iso="1801-07-17">demain</date>, il vous fera une 
+               première visite, visite de cérémonie, et de complimens préalables, il est vrai, mais qui 
+               <emph rend="underlined">pourroit</emph> entrainer une liaison plus étroite. Adieu !
+            </p>
+         </postscript>
+      </body>
+   </text>
+</TEI>

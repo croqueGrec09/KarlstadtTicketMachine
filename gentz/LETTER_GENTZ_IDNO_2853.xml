@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc xml:id="LETTER_GENTZ_2853">
+         <titleStmt>
+            <title>Friedrich von Gentz an Heinrich Frölich, 13. November 1801</title>
+            <editor xml:id="edAG">Andreas Gálffy</editor>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <name>Forschungsstelle "Universitätssammlung Friedrich von Gentz"</name>
+               <link target="http://gentz-digital.ub.uni-koeln.de http://www.ub.uni-koeln.de/cdm/singleitem/collection/gentz/id/2852/"/>
+            </publisher>
+            <pubPlace>Cologne</pubPlace>
+            <idno type="Gentz-Edition-Number" n="2853"/>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <country>Germany</country>
+                  <settlement>Berlin</settlement>
+                  <institution>Geheimes Staatsarchiv Preußischer Kulturbesitz</institution>
+                  <repository>I. HA Rep 94: Kleine Erwerbungen</repository>
+                  <collection>IV.N.b.2</collection>
+                  <idno>Bl. 26-26v., 43-43v</idno>
+               </msIdentifier>
+               <msContents>
+                  <summary>
+                     Die kommende Reise nach Weimar soll schicksalsweisend sein für Gentz. Aber die Pflichten gegenüber Frölich 
+                     werden erfüllt und er sucht obendrein, die Freundschaft mit Frölich zu erhalten. In der Zensurfrage hat 
+                     Gentz zu dessen Vorteil geantwortet.
+                  </summary>
+               </msContents>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Masterarbeit zu Matrikelnummer 5584124</p>
+         </projectDesc>
+      </encodingDesc>
+      <profileDesc>
+         <creation>
+            <date when-iso="1801-11-13">13. November 1801</date>
+         </creation>
+        <langUsage>
+           <language ident="d">deutsch</language>
+        </langUsage>
+         <textClass>
+            <keywords scheme="internal"><!-- internal: innerhalb des besagten Briefs -->
+               <term>Brief</term>
+               <term>Besuch</term>
+               <term>Zensur</term>
+            </keywords>
+            <keywords scheme="categorisation"><!-- Sinnabschnittseinteilung - relevant für den Fahrkartenautomaten! -->
+               <term xml:id="brb">Bruch mit Berlin</term>
+               <term xml:id="vhf">Verhältnis Heinrich Frölich</term>
+               <term xml:id="zns">Zensur</term>
+            </keywords>
+         </textClass>
+         <textDesc>
+            <channel>manuscript</channel>
+            <constitution type="single"/>
+            <derivation type="original"/>
+            <domain type="private"/>
+            <factuality type="fact"/>
+            <interaction type="partial"/>
+            <preparedness type="prepared"/>
+            <purpose type="inform"/>
+         </textDesc>
+         <particDesc>
+            <listPerson>
+               <!-- Sender und Adressat -->
+               <person role="sender" xml:id="Gen">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/118538489"/>
+                     <forename>Friedrich von</forename>
+                     <surname>Gentz</surname>
+                  </persName>
+               </person>
+               <person role="receiver" xml:id="Fro">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/1073351068"/>
+                     <forename>Heinrich</forename>
+                     <surname>Frölich</surname>
+                  </persName>
+               </person>
+               <!-- erwähnte Personen -->
+               <person role="named" xml:id="HGen">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/11900738X"/>
+                     <forename>Heinrich</forename>
+                     <surname>Gentz</surname>
+                  </persName>
+               </person>
+            </listPerson>
+         </particDesc>
+         <settingDesc>
+            <listPlace>
+               <!-- Start- und Zielort -->
+               <place type="sender" xml:id="plBe">
+                  <country>
+                     <ref target="http://d-nb.info/gnd/4047194-9"/>
+                     <placeName>Preußen</placeName>
+                  </country>
+                  <settlement>
+                     <ref target="http://d-nb.info/gnd/4005728-8"/>
+                     <placeName>Berlin</placeName>
+                  </settlement>
+               </place>
+               <!-- erwähnte Orte -->
+               <place type="named" xml:id="plWe">
+                  <country>
+                     <ref target="http://d-nb.info/gnd/4051194-7"/>
+                     <placeName>Sachsen-Weimar-Eisenach</placeName>
+                  </country>
+                  <settlement>
+                     <ref target="http://d-nb.info/gnd/4065105-8"/>
+                     <placeName>Weimar</placeName>
+                  </settlement>
+               </place>
+            </listPlace>
+         </settingDesc>
+      </profileDesc>
+      <revisionDesc>
+         <change xml:id="init" when-iso="2018-03-09" who="#edAG">Erstauszeichnung und Normierung des Dokumentes im Rahmen der Masterarbeit der Matrikelnummer 5584124</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div n="1" corresp="#brb">
+            <p>
+               Ich mache eine Reise von 10 bis 12 Tagen. Daß ich mit <rs type="person" ref="#HGen">meinem Bruder</rs> nach 
+               <rs type="place" ref="#plWe">Weimar</rs> gehe, ist nur ein Vorwand, unter welchem ich einen größern und 
+               wesentlichern Zweck verberge; ich glaube, daß diese Reise über mein künftiges Schicksal mehr oder weniger 
+               entscheiden wird. - - 
+            </p>
+         </div>
+         <div n="2" corresp="#vhf">
+            <p>
+               Sobald ich zurück komme, werde ich Sie von allem benachrichtigen. Auf eine oder die andre Weise sollen Sie bald 
+               wißen, was Sie von mir ferner zu erwarten haben; auf eine oder die andre Weise entledige ich mich unverzüglich 
+               meiner sämmtlichen Verbindlichkeiten gegen Sie. Ich werde Sie überzeugen, daß nicht böser Wille oder Leichtsinn, 
+               sondern bloß meine höchst fatale Lage an der bisherigen Stockung in unsern Verhältnissen Schuld war. Was ich mir 
+               am härtsten vorwerfe, ist, daß ich Sie, trotz meines ernsten Vorsatzes, es zu thun, noch nicht in Ihrer 
+               Einsamkeit besucht habe. Aber auch dies werde ich nach meiner Zurückkunft nachholen, und Sie sollen in kurzer 
+               Zeit von allen Seiten mit mir zufrieden seyn.
+            </p>
+         </div>
+         <div n="3" corresp="#zns">
+            <p>
+               Ueber die Censur-Geschichte bin ich vernommen worden, und habe, was sich von selbst versteht, meine Aussage so 
+               eingerichtet, daß sie durchaus zu Ihrem Vortheil gereichen muß. Ich hoffe, diese Sache wird keine weitre Folgen 
+               haben.
+            </p>
+         </div>
+         <div n="4" corresp="#vhf">
+            <p>
+               Ich wünsche von ganzem Herzen, daß bald frohere Tage, als die jetzigen sind über Ihnen aufgehen mögen, und daß 
+               Ihr künftiges Leben Ihnen reichlichen Ersatz für Ihre jetzigen Widerwärtigkeiten darbieten. Erhalten Sie mir Ihre 
+               Freundschaft: ich werde sie unter allen Umständen zu verdienen suchen.
+            </p>
+         </div>
+         <closer>
+            <signed rend="right">Gentz</signed>
+            <dateline rend="right">den <date when-iso="1801-11-13">13<span rend="sup">ten</span> Novbre 1801</date></dateline>
+         </closer>
+      </body>
+      <back>
+         <p>
+            An
+            Herrn Buchhändler Frölich
+            Wohlgebohren.
+         </p>
+      </back>
+      <note xml:id="r2853-1">Adresse auf Seite 4; 2 Siegelreste</note>
+   </text>
+</TEI>

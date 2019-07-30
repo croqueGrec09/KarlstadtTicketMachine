@@ -1,0 +1,224 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc xml:id="LETTER_GENTZ_0573">
+         <titleStmt>
+            <title>Friedrich von Gentz an Karl Gustav von Brinckmann, 1. Januar 1802</title>
+            <editor xml:id="edAG">Andreas Gálffy</editor>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <name>Forschungsstelle "Universitätssammlung Friedrich von Gentz"</name>
+               <link target="http://gentz-digital.ub.uni-koeln.de http://www.ub.uni-koeln.de/cdm/singleitem/collection/gentz/id/572/"/>
+            </publisher>
+            <pubPlace>Cologne</pubPlace>
+            <idno type="Gentz-Edition-Number" n="0573"/>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <country>Sweden</country>
+                  <settlement>Trolle-Ljungby</settlement>
+                  <institution>Archiv des Grafen Wachtmeister</institution>
+                  <repository>Nachlaß Brinckmann, Ausländ. Briefwechsel, Gentz an von Brinckmann</repository>
+                  <idno>G 4</idno>
+               </msIdentifier>
+               <msContents>
+                  <summary>
+                     Man reißt aus allen Kräften nach der famösen Parallele, die Gentz von Brinckmann mit diesem Schreiben schickt. 
+                     Zudem hat sich die Art des Treffens verwandelt. Man isst jetzt anderswo. Humboldt kann nicht verstehen, warum 
+                     Gentz nach einer Revolution einen gewissen Huren nicht mehr besuchen will.
+                  </summary>
+               </msContents>
+            </msDesc>
+            <listBibl type="preprints">
+               <biblStruct>
+                  <monogr>
+                     <editor>
+                        <persName>
+                           <ref target="http://d-nb.info/gnd/130953075"/>
+                           <forename>Friedrich Carl</forename>
+                           <surname>Wittichen</surname>
+                        </persName>
+                        <persName>
+                           <ref /> <!-- kein GND-Eintrag -->
+                           <forename>Ernst</forename>
+                           <surname>Salzer</surname>
+                        </persName>
+                     </editor>
+                     <title>Briefe von und an Friedrich von Gentz, 4 Bde.</title>
+                     <imprint>
+                        <publisher>Oldenbourg</publisher>
+                        <pubPlace>München, Berlin</pubPlace>
+                        <date>1909-1913</date>
+                     </imprint>
+                     <biblScope unit="volume" n="2">
+                        II
+                     </biblScope>
+                     <biblScope unit="page" from="84" to="84">
+                        Nr. 97
+                     </biblScope>
+                  </monogr>
+               </biblStruct>
+            </listBibl>
+            <listBibl type="alludedWorks">
+               <bibl xml:id="a0573-1" corresp="#LETTER_GENTZ_NNNN">nicht näher benannte Parallele</bibl>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Masterarbeit zu Matrikelnummer 5584124</p>
+         </projectDesc>
+      </encodingDesc>
+      <profileDesc>
+         <creation>
+            <date when-iso="1802-01-01">1. Januar 1802</date>
+         </creation>
+        <langUsage>
+           <language ident="d">deutsch</language>
+        </langUsage>
+         <textClass>
+            <keywords scheme="internal"><!-- internal: innerhalb des besagten Briefs -->
+               <term>Billet</term>
+               <term>Treffen</term>
+               <term>Souper</term>
+               <term>Parallele</term>
+            </keywords>
+            <keywords scheme="categorisation"><!-- Sinnabschnittseinteilung - relevant für den Fahrkartenautomaten! -->
+               <term xml:id="bibl">Bibliothek</term>
+               <term xml:id="bezbl">Beziehungen zu Berlin - Leute</term>
+               <term xml:id="khum">Humboldt</term>
+            </keywords>
+         </textClass>
+         <textDesc>
+            <channel>manuscript</channel>
+            <constitution type="single"/>
+            <derivation type="original"/>
+            <domain type="private"/>
+            <factuality type="fact"/>
+            <interaction type="partial"/>
+            <preparedness type="unprepared"/>
+            <purpose type="inform"/>
+         </textDesc>
+         <particDesc>
+            <listPerson>
+               <!-- Sender und Adressat -->
+               <person role="sender" xml:id="Gen">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/118538489"/>
+                     <forename>Friedrich von</forename>
+                     <surname>Gentz</surname>
+                  </persName>
+               </person>
+               <person role="receiver" xml:id="KGvB">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/116519770"/>
+                     <forename>Carl Gustav von</forename>
+                     <surname>Brinckmann</surname>
+                  </persName>
+               </person>
+               <!-- erwähnte Personen -->
+               <person role="named" xml:id="VHgn">
+                  <persName>
+                     <ref />
+                     <forename>von</forename>
+                     <surname>Hagen</surname>
+                  </persName>
+               </person>
+               <person role="named" xml:id="FvA">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/118504347" />
+                     <forename>Fanny von</forename>
+                     <surname>Arnstein</surname>
+                  </persName>
+               </person>
+               <person role="named" xml:id="Hum">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/118554727"/>
+                     <forename>Wilhelm von</forename>
+                     <surname>Humboldt</surname>
+                  </persName>
+               </person>
+               <person role="named" xml:id="BvK">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/136535526"/>
+                     <forename>Burchard von</forename>
+                     <surname>Krüdener</surname>
+                  </persName>
+               </person>
+               <person role="named" xml:id="JDS">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/11892737X" />
+                     <forename>Johann Daniel</forename>
+                     <surname>Sander</surname>
+                  </persName>
+               </person>
+               <person role="named" xml:id="Hur">
+                  <persName>
+                     <ref />
+                     <forename/>
+                     <surname>Huren</surname>
+                  </persName>
+               </person>
+            </listPerson>
+         </particDesc>
+         <settingDesc>
+            <listPlace>
+               <!-- Start- und Zielort -->
+               <place type="sender" xml:id="plBe">
+                  <country>
+                     <ref target="http://d-nb.info/gnd/4047194-9"/>
+                     <placeName>Preußen</placeName>
+                  </country>
+                  <settlement>
+                     <ref target="http://d-nb.info/gnd/4005728-8"/>
+                     <placeName>Berlin</placeName>
+                  </settlement>
+               </place>
+               <!-- erwähnte Orte -->
+            </listPlace>
+         </settingDesc>
+      </profileDesc>
+      <revisionDesc>
+         <change xml:id="init" when-iso="2018-03-10" who="#edAG">Erstauszeichnung und Normierung des Dokumentes im Rahmen der Masterarbeit der Matrikelnummer 5584124</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div n="1" corresp="#bibl">
+            <p>
+               Ich schicke Ihnen hier die <rs type="citation" ref="#a0573-1">famöse Parallele</rs>. Aber nicht lange kan ich sie 
+               entbehren, weil man sich aus allen Kräften darum reißt. - Also erbitte ich <add place="above">sie mir</add> 
+               wenigstens morgen früh wieder zurück.
+            </p>
+         </div>
+         <div n="2" corresp="#bezbl">
+            <p>
+               Sie sind mir noch die Erklärung über <date when-iso="1802-01-02">Morgen</date> schuldig. Wie hat sich denn das 
+               <rs type="person" ref="#VHgn">Hagen</rs>sche Souper auf einmal in ein 
+               <rs type="person" ref="#FvA">Arnstein</rs>sches verwandelt ? Und bin ich denn bei diesem letzten ? Oder wie steht das 
+               alles <add place="above">?</add>
+            </p>
+         </div>
+         <div n="3" corresp="#khum">
+            <p>
+               <rs type="person" ref="#Hum">Humboldt</rs> kam <date when-iso="1801-12-31">gestern</date> noch spät zu 
+               <rs type="person" ref="#BvK">Krüdener</rs>, wo es etwas brillanter war, als es, wie ich höre, bei 
+               <rs type="person" ref="#JDS">Sander</rs> gewesen ist. <rs type="person" ref="#Hum">Humboldt</rs> kan noch immer gar 
+               nicht begreifen, wie und warum ich <pb/> denn, nach der Revolution, gar nicht mehr zu 
+               <rs type="person" ref="#Hur">Huren</rs> gehen will. Das, meint er, müßte doch immer bleiben, und wäre das eigentliche 
+               Fundament des Ganzen.
+            </p>
+         </div>
+         <closer>
+            <salute rend="right">Adieu</salute>
+            <signed rend="right">Gentz.</signed>
+            <dateline rend="right"><date when-iso="1802-01-01">1 Januar 1802</date></dateline>
+         </closer>
+      </body>
+   </text>
+</TEI>

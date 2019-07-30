@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc xml:id="LETTER_GENTZ_3327">
+         <titleStmt>
+            <title>Friedrich von Gentz an Friedrich Vieweg, 29. Dezember 1798</title>
+            <editor xml:id="edAG">Andreas Gálffy</editor>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <name>Forschungsstelle "Universitätssammlung Friedrich von Gentz"</name>
+               <link target="http://gentz-digital.ub.uni-koeln.de http://www.ub.uni-koeln.de/cdm/singleitem/collection/gentz/id/3327/"/>
+            </publisher>
+            <pubPlace>Cologne</pubPlace>
+            <idno type="Gentz-Edition-Number" n="3327"/>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <country>Germany</country>
+                  <settlement>Wiesbaden</settlement>
+                  <institution>Vieweg-Verlagsarchiv</institution>
+                  <repository>Briefsammlung 311 G: Gentz-Briefe</repository>
+                  <idno>Nr. 90</idno>
+               </msIdentifier>
+               <msContents>
+                  <summary>
+                     Ein nicht näher beschriebener Gegenstand soll bis zum kommenden Vormittag an Hüttel geschickt werden. Daher 
+                     braucht es Gentz sofort.
+                  </summary>
+               </msContents>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Masterarbeit zu Matrikelnummer 5584124</p>
+         </projectDesc>
+      </encodingDesc>
+      <profileDesc>
+         <creation>
+            <date when-iso="1798-12-29">29. Dezember 1798</date>
+         </creation>
+        <langUsage>
+           <language ident="d">deutsch</language>
+        </langUsage>
+         <textClass>
+            <keywords scheme="internal"><!-- internal: innerhalb des besagten Briefs -->
+               <term>Billet</term>
+               <term>Hüttel</term>
+            </keywords>
+            <keywords scheme="categorisation"><!-- Sinnabschnittseinteilung - relevant für den Fahrkartenautomaten! -->
+               <term xml:id="vwf">Vieweg - Freundschaft</term>
+            </keywords>
+         </textClass>
+         <textDesc>
+            <channel>manuscript</channel>
+            <constitution type="single"/>
+            <derivation type="original"/>
+            <domain type="private"/>
+            <factuality type="fact"/>
+            <interaction type="partial"/>
+            <preparedness type="unprepared"/>
+            <purpose type="inform"/>
+         </textDesc>
+         <particDesc>
+            <listPerson>
+               <!-- Sender und Adressat -->
+               <person role="sender" xml:id="Gen">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/118538489"/>
+                     <forename>Friedrich von</forename>
+                     <surname>Gentz</surname>
+                  </persName>
+               </person>
+               <person role="receiver" xml:id="FVW">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/119049546"/>
+                     <forename>Friedrich</forename>
+                     <surname>Vieweg</surname>
+                  </persName>
+               </person>
+               <!-- erwähnte Personen -->
+               <person role="named" xml:id="HvH">
+                  <persName>
+                     <ref />
+                     <forename>von</forename>
+                     <surname>Hüttel</surname>
+                  </persName>
+               </person>
+            </listPerson>
+         </particDesc>
+         <settingDesc>
+            <listPlace>
+               <!-- Start- und Zielort -->
+               <place type="sender" xml:id="plBe">
+                  <country>
+                     <ref target="http://d-nb.info/gnd/4047194-9"/>
+                     <placeName>Preußen</placeName>
+                  </country>
+                  <settlement>
+                     <ref target="http://d-nb.info/gnd/4005728-8"/>
+                     <placeName>Berlin</placeName>
+                  </settlement>
+               </place>
+               <!-- erwähnte Orte -->
+            </listPlace>
+         </settingDesc>
+      </profileDesc>
+      <revisionDesc>
+         <change xml:id="init" when-iso="2018-03-02" who="#edAG">Erstauszeichnung und Normierung des Dokumentes im Rahmen der Masterarbeit der Matrikelnummer 5584124</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div n="1" corresp="#vwf">
+            <p>
+               Aus der Beylage werden Sie ersehen, was der <rs type="person" ref="#HvH">Herr von Hüttel</rs> von mir verlangt. 
+               Allerdings ist die Zumuthung, ihm die Piece bis <date when-iso="1798-12-30">Morgen Vormittag</date> zu schaffen, da 
+               <date when-iso="1798-12-30">Morgen</date> Sonntag ist, hart; da uns indessen an der Freundschaft dieses Mannes beiden 
+               gelegen seyn muß, so wünschte ich doch außerordentlich, daß Sie es möglich machen könnten, das Ding entweder in 
+               natura herbei zu zaubern, und mir schleunigst zu übersenden, oder mir wenigstens über dessen eigentliche 
+               Beschaffenheit einige Auskunft zu geben.
+            </p>
+         </div>
+         <closer>
+            <signed rend="right">Gentz.</signed>
+         </closer>
+      </body>
+      <back>
+         <p resp="#FVW">
+            <rs type="place" ref="#plBe">Berlin</rs> d <date when-iso="1798-12-30">30 December 98</date>
+            H. Kr. Rth. Gentz.
+         </p>
+      </back>
+      <note xml:id="r3327-1">Seite 2, Präsenzvermerk von Vieweg</note>
+   </text>
+</TEI>

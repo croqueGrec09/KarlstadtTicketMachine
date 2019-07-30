@@ -1,0 +1,220 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader type="text">
+      <fileDesc xml:id="LETTER_GENTZ_3427">
+         <titleStmt>
+            <title>Friedrich von Gentz an Karl Gustav von Brinckmann, 30. September 1793</title>
+            <editor xml:id="edAG">Andreas Gálffy</editor>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <name>Forschungsstelle "Universitätssammlung Friedrich von Gentz"</name>
+               <link target="http://gentz-digital.ub.uni-koeln.de http://www.ub.uni-koeln.de/cdm/singleitem/collection/gentz/id/3426/"/>
+            </publisher>
+            <pubPlace>Cologne</pubPlace>
+            <idno type="Gentz-Edition-Number" n="3427"/>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <country>Sweden</country>
+                  <settlement>Trolle-Ljungby</settlement>
+                  <institution>Archiv des Grafen Wachtmeister</institution>
+                  <repository>Nachlaß Brinckmann, Ausländ. Briefwechsel, Gentz an Brinckmann</repository>
+                  <idno>G 3</idno>
+               </msIdentifier>
+               <msContents>
+                  <summary>
+                     Der Mercure de France ist für Gentz das bestgeschriebene französische Blatt. Es ärgert ihn, dass Brinckmann 
+                     nicht den notwendigen Respekt erweist. Daher legt er eine Rezension des Mounier vor. Darin heißt es: Unter 
+                     zahlreichen Zeitungen habe der Mercure stets die wahren Prinzipien der freien Monarchie unterstützt. Im Stile 
+                     Tacitus', so weiter, habe er die Ereignisse beschrieben und dabei die Waage zwischen den Parteien gehalten.
+                  </summary>
+               </msContents>
+            </msDesc>
+            <listBibl type="preprints">
+               <biblStruct>
+                  <monogr>
+                     <editor>
+                        <persName>
+                           <ref target="http://d-nb.info/gnd/130953075"/>
+                           <forename>Friedrich Carl</forename>
+                           <surname>Wittichen</surname>
+                        </persName>
+                        <persName>
+                           <ref/> <!-- kein GND-Eintrag -->
+                           <forename>Ernst</forename>
+                           <surname>Salzer</surname>
+                        </persName>
+                     </editor>
+                     <title>Briefe von und an Friedrich von Gentz, 4 Bde.</title>
+                     <imprint>
+                        <publisher>Oldenbourg</publisher>
+                        <pubPlace>München, Berlin</pubPlace>
+                        <date>1909-1913</date>
+                     </imprint>
+                     <biblScope unit="volume" n="2">
+                        II
+                     </biblScope>
+                     <biblScope unit="page" from="40" to="40">
+                        Nr. 33
+                     </biblScope>
+                  </monogr>
+               </biblStruct>
+            </listBibl>
+            <listBibl type="defExpr">
+               <biblStruct xml:id="e3427-1" corresp="Grg-0005">
+                  <monogr>
+                     <editor>
+                        <persName>
+                           <ref target="http://d-nb.info/gnd/119483947"/>
+                           <forename>Jacques</forename>
+                           <surname>Mallet du Pan</surname>
+                        </persName>
+                     </editor>
+                     <title>Mercure français</title>
+                     <imprint>
+                        <pubPlace>Paris</pubPlace>
+                        <date>1792-1796</date>
+                     </imprint>
+                  </monogr>
+               <ptr target="http://gazetier-revolutionnaire.gazettes18e.fr/periodique/mercure-francais-1792-1796"/></biblStruct>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Masterarbeit zu Matrikelnummer 5584124</p>
+         </projectDesc>
+      </encodingDesc>
+      <profileDesc>
+         <creation>
+            <date when-iso="1793-09-30">30. September 1793</date>
+         </creation>
+        <langUsage>
+           <language ident="d">deutsch</language>
+        </langUsage>
+         <textClass>
+            <keywords scheme="internal"><!-- internal: innerhalb des besagten Briefs -->
+               <term>Billet</term>
+               <term>Mercure de France</term>
+               <term>Mounier</term>
+               <term>französische Zeitungen</term>
+            </keywords>
+            <keywords scheme="categorisation"><!-- Sinnabschnittseinteilung - relevant für den Fahrkartenautomaten! -->
+               <term xml:id="fzg">französische Zeitungen</term>
+            </keywords>
+         </textClass>
+         <textDesc>
+            <channel>manuscript</channel>
+            <constitution type="single"/>
+            <derivation type="original"/>
+            <domain type="private"/>
+            <factuality type="fact"/>
+            <interaction type="partial"/>
+            <preparedness type="unprepared"/>
+            <purpose type="inform"/>
+         </textDesc>
+         <particDesc>
+            <listPerson>
+               <!-- Sender und Adressat -->
+               <person role="sender" xml:id="Gen">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/118538489"/>
+                     <forename>Friedrich von</forename>
+                     <surname>Gentz</surname>
+                  </persName>
+               </person>
+               <person role="receiver" xml:id="KGvB">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/116519770"/>
+                     <forename>Carl Gustav von</forename>
+                     <surname>Brinckmann</surname>
+                  </persName>
+               </person>
+               <!-- erwähnte Personen -->
+               <person role="named" xml:id="Vol">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/118627813"/>
+                     <forename>Voltaire</forename>
+                     <surname/>
+                  </persName>
+               </person>
+               <person role="named" xml:id="Mou">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/11878515X"/>
+                     <forename>Jean-Joseph</forename>
+                     <surname>Mounier</surname>
+                  </persName>
+               </person>
+               <person role="named" xml:id="Tac">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/118620452"/>
+                     <forename>Cornelius</forename>
+                     <surname>Tacitus</surname>
+                  </persName>
+               </person>
+            </listPerson>
+         </particDesc>
+         <settingDesc>
+            <listPlace>
+               <!-- Start- und Zielort -->
+               <place type="sender" xml:id="plBe">
+                  <country>
+                     <ref target="http://d-nb.info/gnd/4047194-9"/>
+                     <placeName>Preußen</placeName>
+                  </country>
+                  <settlement>
+                     <ref target="http://d-nb.info/gnd/4005728-8"/>
+                     <placeName>Berlin</placeName>
+                  </settlement>
+               </place>
+               <!-- erwähnte Orte -->
+               <place type="named" xml:id="plEu">
+                  <geogName type="continent">
+                     <ref target="http://d-nb.info/gnd/4015701-5"/>
+                     <placeName>Europa</placeName>
+                  </geogName>
+               </place>
+            </listPlace>
+         </settingDesc>
+      </profileDesc>
+      <revisionDesc>
+         <change xml:id="init" when-iso="2018-02-13" who="#edAG">Erstauszeichnung und Normierung des Dokumentes im Rahmen der Masterarbeit der Matrikelnummer 5584124</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>     
+      <body>
+         <opener resp="#KGvB">
+            <dateline rend="right"><date when-iso="1793-09-30">30 Septbr. 1793</date>.</dateline>
+         </opener>
+         <div n="1" corresp="#fzg">
+            <p>
+               Sie haben mich durch Ihre verachtungsvolle Gleichgültigkeit gegen den 
+               <rs type="citation" ref="#e3427-1"><emph rend="underlined">Mercure de France</emph></rs> (den ich immer für das 
+               <emph rend="underlined">erste</emph> meiner französischen Bücher erklärte, und in Ewigkeit hin für das beste aller 
+               seit <rs type="person" ref="#Vol">Voltaire</rs>s <ref target="#r3427-1">Tode</ref> geschriebnen erklären werde) zu 
+               oft geärgert, als daß ich umhin könnte, Ihnen folgende Note des <rs type="person" ref="#Mou">Mounier</rs>, der doch 
+               eben kein übler Richter über den Werth eines Buchs ist, mitzutheilen:
+            </p>
+            <p xml:lang="fr">
+               <quote corresp="#Mou">
+                  Dans le nombre des auteurs d'ecrits periodiques - - - il en est un qui, en combattant les factieux, en livrant 
+                  nos prétendus philosophes au mépris de <rs type="place" ref="#plEu">l'Europe entière</rs>, a toujours soutenu les 
+                  vrais principes de la <emph rend="underlined">monarchie libre</emph>. Il a tenu la balance entre les déclamateurs 
+                  forcenés du parti republicain, et les defenseurs enthousiastes de la représentation en trois ordres, ou de 
+                  l'ancien régime. Dans le style mâle de <rs type="person" ref="#Tac">Tacite</rs>, il a jugé, il a décrit les 
+                  événemens de ces temps malheureux, comme les jugera <pb/> comme les décrira l'histoire. 
+                  <emph rend="underlined">Il ne lui apres que rien réservé</emph>: et les historiens, en le prenant pour guide dans 
+                  la plupart des faits, 
+                  <emph rend="underlined">seront forcés de s'abstenir des réflexions, ou de copier les siennes</emph>. Ceux dont il 
+                  a bravé la haîne, m'accuseroient d'avoir outré son éloge, si je nommois ici ce respectable écrivain. Mais je 
+                  trouve un moyen bien simple de prouver la vérité de mon jugement; c'est - de taire son nom, et même ses ennemis 
+                  <add resp="#Gen">(ich setze hinzu: et ceux qui le méprisent)</add> reconnôitront celui dont je viens de parler.
+               </quote>
+            </p>
+         </div>
+         <note resp="#edAG" xml:id="r3427-1">Voltaire starb am 30. Mai 1778</note>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader type="text">
+      <fileDesc xml:id="LETTER_GENTZ_1719">
+         <titleStmt>
+            <title>Johann Gottfried Herder an Friedrich von Gentz, 17. Dezember 1794</title>
+            <editor xml:id="edAG">Andreas Gálffy</editor>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <name>Forschungsstelle "Universitätssammlung Friedrich von Gentz"</name>
+               <link target="http://gentz-digital.ub.uni-koeln.de http://www.ub.uni-koeln.de/cdm/singleitem/collection/gentz/id/1718/"/>
+            </publisher>
+            <pubPlace>Cologne</pubPlace>
+            <idno type="Gentz-Edition-Number" n="1719"/>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <country>Germany</country>
+                  <settlement>Düsseldorf</settlement>
+                  <institution>Goethe-Museum. Anton- und Katharina-Kippenberg-Stiftung</institution>
+               </msIdentifier>
+               <msContents>
+                  <summary>
+                     Herder dankt für die Übersendung des Mounier und der Deutschen Monatsschrift und liefert seinerseits 
+                     Manuskript von Humboldt für Hartknoch und einige Beiträge für die Neue Deutsche Monatsschrift.
+                  </summary>
+               </msContents>
+            </msDesc>
+            <listBibl type="alludedWorks">
+               <bibl xml:id="a1719-1" corresp="#LETTER_GENTZ_NNNN">nicht näher benannte Übersetzung einer nicht benannten Schrift von Jean-Joseph Mounier</bibl>
+               <bibl xml:id="a1719-2" corresp="#LETTER_GENTZ_NNNN">Manuskripta zu einem nicht näher bei Hartknoch erscheinenden Werk Humboldts</bibl>
+            </listBibl>
+            <listBibl type="defRep">
+               <biblStruct xml:id="p1719-1" corresp="UBi-0001">
+                  <monogr>
+                     <title>Deutsche Monatsschrift</title>
+                     <imprint>
+                        <pubPlace>Berlin</pubPlace>
+                        <publisher>Friedrich Vieweg der Ältere</publisher>
+                        <date>1794</date>
+                     </imprint>
+                     <biblScope unit="volume" n="3">
+                        Dritter Band.
+                     </biblScope>
+                  </monogr>
+               <ptr target="http://ds.ub.uni-bielefeld.de/viewer/image/1921388_015/4/"/></biblStruct>
+               <biblStruct xml:id="p1719-2" corresp="UBi-0004">
+                  <monogr>
+                     <author>
+                        <persName>
+                           <ref target="http://d-nb.info/gnd/118538489"/>
+                           <forename>Friedrich von</forename>
+                           <surname>Gentz</surname>
+                        </persName>
+                     </author>
+                     <title>Neue Deutsche Monatsschrift</title>
+                     <imprint>
+                        <pubPlace>Berlin</pubPlace>
+                        <publisher>Friedrich Vieweg der Ältere</publisher>
+                        <date>1795</date>
+                     </imprint>
+                     <biblScope unit="volume" n="1">
+                        Erster Band.
+                     </biblScope>
+                  </monogr>
+               <ptr target="http://ds.ub.uni-bielefeld.de/viewer/image/1938308_001/350/LOG_0031/"/></biblStruct>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Masterarbeit zu Matrikelnummer 5584124</p>
+         </projectDesc>
+      </encodingDesc>
+      <profileDesc>
+         <creation>
+            <date when-iso="1794-12-17">17. Dezember 1794</date>
+         </creation>
+        <langUsage>
+           <language ident="d">deutsch</language>
+        </langUsage>
+         <textClass>
+            <keywords scheme="internal"><!-- internal: innerhalb des besagten Briefs -->
+               <term>Billet</term>
+               <term>Lieferung</term>
+               <term>Mounier</term>
+               <term>Humboldt</term>
+               <term>Manuskript</term>
+               <term>Neue Deutsche Monatsschrift</term>
+            </keywords>
+            <keywords scheme="categorisation"><!-- Sinnabschnittseinteilung - relevant für den Fahrkartenautomaten! -->
+               <term xml:id="kmou">Mounier</term>
+               <term xml:id="bibl">Bibliothek</term>
+               <term xml:id="mss">Monatsschrift</term>
+            </keywords>
+         </textClass>
+         <textDesc>
+            <channel>manuscript</channel>
+            <constitution type="single"/>
+            <derivation type="original"/>
+            <domain type="private"/>
+            <factuality type="fact"/>
+            <interaction type="partial"/>
+            <preparedness type="unprepared"/>
+            <purpose type="inform"/>
+         </textDesc>
+         <particDesc>
+            <listPerson>
+               <!-- Sender und Adressat -->
+               <person role="sender" xml:id="JGH">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/118549553"/>
+                     <forename>Johann Gottfried von</forename>
+                     <surname>Herder</surname>
+                  </persName>
+               </person>
+               <person role="receiver" xml:id="Gen">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/118538489"/>
+                     <forename>Friedrich von</forename>
+                     <surname>Gentz</surname>
+                  </persName>
+               </person>
+               <!-- erwähnte Personen -->
+               <person role="named" xml:id="Mou">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/11878515X"/>
+                     <forename>Jean-Joseph</forename>
+                     <surname>Mounier</surname>
+                  </persName>
+               </person>
+               <person role="named" xml:id="Hum">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/118554727"/>
+                     <forename>Wilhelm von</forename>
+                     <surname>Humboldt</surname>
+                  </persName>
+               </person>
+               <person role="named" xml:id="Htk">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/124244300"/>
+                     <forename>Johann Friedrich</forename>
+                     <surname>Hartknoch</surname>
+                     <roleName type="family">der Ältere</roleName>
+                  </persName>
+               </person>
+            </listPerson>
+         </particDesc>
+         <settingDesc>
+            <listPlace>
+               <!-- Start- und Zielort -->
+               <place type="sender" xml:id="plWe">
+                  <country>
+                     <ref target="http://d-nb.info/gnd/4051194-7"/>
+                     <placeName>Sachsen-Weimar-Eisenach</placeName>
+                  </country>
+                  <settlement>
+                     <ref target="http://d-nb.info/gnd/4065105-8"/>
+                     <placeName>Weimar</placeName>
+                  </settlement>
+               </place>
+               <place type="receiver" xml:id="plBe">
+                  <country>
+                     <ref target="http://d-nb.info/gnd/4047194-9"/>
+                     <placeName>Preußen</placeName>
+                  </country>
+                  <settlement>
+                     <ref target="http://d-nb.info/gnd/4005728-8"/>
+                     <placeName>Berlin</placeName>
+                  </settlement>
+               </place>
+               <!-- erwähnte Orte -->
+            </listPlace>
+         </settingDesc>
+      </profileDesc>
+      <revisionDesc>
+         <change xml:id="init" when-iso="2018-02-15" who="#edAG">Erstauszeichnung und Normierung des Dokumentes im Rahmen der Masterarbeit der Matrikelnummer 5584124</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div n="1" corresp="#kmou">
+            <p>
+               Aufs schönste danke ich Ihnen, H. H. u. Freund, für den übersandten 
+               <rs type="citation" ref="#a1719-1"><emph rend="underlined">Mounier</emph></rs> u. die Fortsetzungen der 
+               <rs type="citation" ref="#p1719-1">D. Monatsschrift</rs>.
+            </p>
+         </div>
+         <div n="2" corresp="#bibl">
+            <p>
+               Mit nächster Post schicke ich Ihnen <rs type="citation" ref="#a1719-2">einen Theil Mscr.</rs> zum 5.ten Theil der 
+               Br. der <rs type="person" ref="#Hum">Hum</rs>. für <rs type="person" ref="#Htk">Hartknoch</rs>, von denen der 5. u. 
+               6.te Th. auf Ostern erscheint.
+            </p>
+         </div>
+         <div n="3" corresp="#mss">
+            <p>
+               Zugleich auch einige Beiträge für <rs type="citation" ref="#p1719-2">Ihr Journal</rs>. Und werde sodann ein mehreres 
+               melden.
+            </p>
+            <p>
+               Hochachtungs- u. Dankvoll beharrend
+            </p>
+         </div>
+         <closer>
+            <salute rend="right">Herder</salute>
+            <dateline rend="left"><rs type="place" ref="#plWe">Weimar</rs>, den <date when-iso="1794-12-17">17. Dec. 94</date></dateline>
+            <salute rend="right">In größter Eil</salute>
+         </closer>
+      </body>
+   </text>
+</TEI>

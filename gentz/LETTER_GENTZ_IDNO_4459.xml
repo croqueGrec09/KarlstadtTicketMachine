@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc xml:id="LETTER_GENTZ_4459">
+         <titleStmt>
+            <title>Friedrich von Gentz an Friedrich Schiller, 1. Dezember 1801</title>
+            <editor xml:id="edAG">Andreas Gálffy</editor>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <name>Forschungsstelle "Universitätssammlung Friedrich von Gentz"</name>
+               <link target="http://gentz-digital.ub.uni-koeln.de http://www.ub.uni-koeln.de/cdm/singleitem/collection/gentz/id/4458/"/>
+            </publisher>
+            <pubPlace>Cologne</pubPlace>
+            <idno type="Gentz-Edition-Number" n="4459"/>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <country>Germany</country>
+                  <settlement>Berlin</settlement>
+                  <institution>Staatsbibliothek Preußischer Kulturbesitz, Haus 2</institution>
+                  <repository>Handschriftenabteilung</repository>
+                  <collection>Sammlung Härtel</collection>
+               </msIdentifier>
+               <msContents>
+                  <summary>
+                     Ein Besuch beim Herzog ist dazwischen gekommen, sodass Gentz um einen späteren Besuch bei Schiller fragt.
+                  </summary>
+               </msContents>
+            </msDesc>
+            <listBibl type="preprints">
+               <biblStruct>
+                  <monogr>
+                     <editor>
+                        <persName>
+                           <ref />
+                           <forename>Stefan</forename>
+                           <surname>Ormanns</surname>
+                        </persName>
+                     </editor>
+                     <title>Schillers Werke, Nationalausgabe</title>
+                     <imprint>
+                        <pubPlace>Weimar</pubPlace>
+                        <date>1988</date>
+                     </imprint>
+                     <biblScope unit="volume" n="37">
+                        39. Bd. Teil I. Briefwechsel. Briefe an Schiller 1.1.1801-31.12.1802 
+                     </biblScope>
+                     <biblScope unit="page" from="139" to="139">
+                        Nr. 150, 139
+                     </biblScope>
+                  </monogr>
+               </biblStruct>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Masterarbeit zu Matrikelnummer 5584124</p>
+         </projectDesc>
+      </encodingDesc>
+      <profileDesc>
+         <creation>
+            <date when-iso="1801-12-01">1. Dezember 1801</date>
+         </creation>
+        <langUsage>
+           <language ident="d">deutsch</language>
+        </langUsage>
+         <textClass>
+            <keywords scheme="internal"><!-- internal: innerhalb des besagten Briefs -->
+               <term>Brief</term>
+               <term>Audienz</term>
+               <term>Treffen</term>
+               <term>Herzog</term>
+            </keywords>
+            <keywords scheme="categorisation"><!-- Sinnabschnittseinteilung - relevant für den Fahrkartenautomaten! -->
+               <term xml:id="vfs">Verhältnis Friedrich Schiller</term>
+            </keywords>
+         </textClass>
+         <textDesc>
+            <channel>manuscript</channel>
+            <constitution type="single"/>
+            <derivation type="original"/>
+            <domain type="private"/>
+            <factuality type="fact"/>
+            <interaction type="partial"/>
+            <preparedness type="unprepared"/>
+            <purpose type="inform"/>
+         </textDesc>
+         <particDesc>
+            <listPerson>
+               <!-- Sender und Adressat -->
+               <person role="sender" xml:id="Gen">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/118538489"/>
+                     <forename>Friedrich von</forename>
+                     <surname>Gentz</surname>
+                  </persName>
+               </person>
+               <person role="receiver" xml:id="Sch">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/118607626"/>
+                     <forename>Friedrich</forename>
+                     <surname>Schiller</surname>
+                  </persName>
+               </person>
+               <!-- erwähnte Personen -->
+               <person role="named" xml:id="KASWE">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/11856014X"/>
+                     <forename>Karl August</forename>
+                     <surname>Sachsen-Weimar-Eisenach</surname>
+                     <roleName type="address">Großherzog</roleName>
+                  </persName>
+               </person>
+            </listPerson>
+         </particDesc>
+         <settingDesc>
+            <listPlace>
+               <!-- Start- und Zielort -->
+               <place type="sender" xml:id="plWe">
+                  <country>
+                     <ref target="http://d-nb.info/gnd/4051194-7"/>
+                     <placeName>Sachsen-Weimar-Eisenach</placeName>
+                  </country>
+                  <settlement>
+                     <ref target="http://d-nb.info/gnd/4065105-8"/>
+                     <placeName>Weimar</placeName>
+                  </settlement>
+               </place>
+               <!-- erwähnte Orte -->
+            </listPlace>
+         </settingDesc>
+      </profileDesc>
+      <revisionDesc>
+         <change xml:id="init" when-iso="2018-03-09" who="#edAG">Erstauszeichnung und Normierung des Dokumentes im Rahmen der Masterarbeit der Matrikelnummer 5584124</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div n="1" corresp="#vfs">
+            <p>
+               Ich wollte mir eben die Freude machen, Sie noch zu besuchen, als zu meinem Verdruß der 
+               <rs type="person" ref="#KASWE">Herzog</rs> noch nach mir schickt. Von <rs type="place" ref="#plWe">Weimar</rs> zu 
+               gehen, ohne <emph rend="underlined">Sie</emph> noch einige Augenblicke gesehen zu haben, ist mir unmöglich. Ich 
+               bitte Sie also angelegentlichst, mir zu erlauben, daß ich Ihnen nach meiner Audienz beim 
+               <rs type="person" ref="#KASWE">Herzoge</rs><span rend="sup">2</span>, sollte es auch gegen 8 Uhr erst seyn, einen 
+               kurzen Besuch abstatte<span rend="sup">3</span>.
+            </p>
+         </div>
+         <closer>
+            <signed rend="right">Gentz</signed>
+            <dateline rend="right">den <date when-iso="1801-12-01">1 Xbre 1801</date>.</dateline>
+         </closer>
+      </body>
+      <note resp="#edAG" xml:id="r4459-1">Die Fußnoten 2 und 3 sind in "Gentz digital" nicht aufgeschlüsselt</note>
+   </text>
+</TEI>

@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc xml:id="LETTER_GENTZ_1501">
+         <titleStmt>
+            <title>Friedrich von Gentz an Karl Gustav von Brinckmann, 30. April 1802</title>
+            <editor xml:id="edAG">Andreas Gálffy</editor>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <name>Forschungsstelle "Universitätssammlung Friedrich von Gentz"</name>
+               <link target="http://gentz-digital.ub.uni-koeln.de http://www.ub.uni-koeln.de/cdm/singleitem/collection/gentz/id/1500/"/>
+            </publisher>
+            <pubPlace>Cologne</pubPlace>
+            <idno type="Gentz-Edition-Number" n="1501"/>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <country>Sweden</country>
+                  <settlement>Trolle-Ljungby</settlement>
+                  <institution>Archiv des Grafen Wachtmeister</institution>
+                  <repository>Nachlaß Brinckmann, Ausländ. Briefwechsel, Gentz an von Brinckmann</repository>
+                  <idno>G 4</idno>
+               </msIdentifier>
+               <msContents>
+                  <summary>
+                     Gentz lässzt sich bei Engeströms entschuldigen. Dann verkauft er seinen Moniteur für den Preis von 30 
+                     Reichstaler, obwohl 40 schon günstig seien und Gentz bezahlte im letzten Jahrhundert noch 60 Reichstaler pro 
+                     Band.
+                  </summary>
+               </msContents>
+            </msDesc>
+            <listBibl type="preprints">
+               <biblStruct>
+                  <monogr>
+                     <editor>
+                        <persName>
+                           <ref target="http://d-nb.info/gnd/130953075"/>
+                           <forename>Friedrich Carl</forename>
+                           <surname>Wittichen</surname>
+                        </persName>
+                        <persName>
+                           <ref /> <!-- kein GND-Eintrag -->
+                           <forename>Ernst</forename>
+                           <surname>Salzer</surname>
+                        </persName>
+                     </editor>
+                     <title>Briefe von und an Friedrich von Gentz, 4 Bde.</title>
+                     <imprint>
+                        <publisher>Oldenbourg</publisher>
+                        <pubPlace>München, Berlin</pubPlace>
+                        <date>1909-1913</date>
+                     </imprint>
+                     <biblScope unit="volume" n="2">
+                        II
+                     </biblScope>
+                     <biblScope unit="page" from="93" to="93">
+                        Nr. 116
+                     </biblScope>
+                  </monogr>
+               </biblStruct>
+            </listBibl>
+            <listBibl type="defExpr">
+               <biblStruct xml:id="e1501-1" corresp="Grg-0000">
+                  <monogr>
+                     <editor>
+                        <persName>
+                           <ref target="http://d-nb.info/gnd/118789422"/>
+                           <forename>Charles Joseph</forename>
+                           <surname>Panckoucke</surname>
+                        </persName>
+                     </editor>
+                     <title>Le Moniteur universel</title>
+                     <imprint>
+                        <pubPlace>Paris</pubPlace>
+                        <date>1789-1901</date>
+                     </imprint>
+                  </monogr>
+                  <ptr target="http://gazetier-revolutionnaire.gazettes18e.fr/periodique/gazette-nationale-ou-moniteur-universel-1789-1799"/>
+               </biblStruct>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Masterarbeit zu Matrikelnummer 5584124</p>
+         </projectDesc>
+      </encodingDesc>
+      <profileDesc>
+         <creation>
+            <date when-iso="1802-04-30">30. April 1802</date>
+         </creation>
+        <langUsage>
+           <language ident="d">deutsch</language>
+        </langUsage>
+         <textClass>
+            <keywords scheme="internal"><!-- internal: innerhalb des besagten Briefs -->
+               <term>Billet</term>
+               <term>Engeström</term>
+               <term>Moniteur</term>
+            </keywords>
+            <keywords scheme="categorisation"><!-- Sinnabschnittseinteilung - relevant für den Fahrkartenautomaten! -->
+               <term xml:id="kengs">Engeström</term>
+               <term xml:id="mon">Moniteur</term>
+            </keywords>
+         </textClass>
+         <textDesc>
+            <channel>manuscript</channel>
+            <constitution type="single"/>
+            <derivation type="original"/>
+            <domain type="private"/>
+            <factuality type="fact"/>
+            <interaction type="partial"/>
+            <preparedness type="unprepared"/>
+            <purpose type="inform"/>
+         </textDesc>
+         <particDesc>
+            <listPerson>
+               <!-- Sender und Adressat -->
+               <person role="sender" xml:id="Gen">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/118538489"/>
+                     <forename>Friedrich von</forename>
+                     <surname>Gentz</surname>
+                  </persName>
+               </person>
+               <person role="receiver" xml:id="KGvB">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/116519770"/>
+                     <forename>Carl Gustav von</forename>
+                     <surname>Brinckmann</surname>
+                  </persName>
+               </person>
+               <!-- erwähnte Personen -->
+               <person role="named" xml:id="RDCh">
+                  <persName>
+                     <ref />
+                     <forename>Rozalia</forename>
+                     <surname>Drya-Chlapowska</surname>
+                  </persName>
+               </person>
+            </listPerson>
+         </particDesc>
+         <settingDesc>
+            <listPlace>
+               <!-- Start- und Zielort -->
+               <place type="sender" xml:id="plBe">
+                  <country>
+                     <ref target="http://d-nb.info/gnd/4047194-9"/>
+                     <placeName>Preußen</placeName>
+                  </country>
+                  <settlement>
+                     <ref target="http://d-nb.info/gnd/4005728-8"/>
+                     <placeName>Berlin</placeName>
+                  </settlement>
+               </place>
+               <!-- erwähnte Orte -->
+            </listPlace>
+         </settingDesc>
+      </profileDesc>
+      <revisionDesc>
+         <change xml:id="init" when-iso="2018-03-10" who="#edAG">Erstauszeichnung und Normierung des Dokumentes im Rahmen der Masterarbeit der Matrikelnummer 5584124</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <opener resp="#KGvB">
+            <dateline rend="right"><date when-iso="1802-04-30">30. April 1802</date>.</dateline>
+         </opener>
+         <div n="1" corresp="#kengs">
+            <p>
+               Bitten Sie <rs type="person" ref="#RDCh">Frau von Engeström</rs> tausend und tausendmal um Verzeihung, daß ich 
+               <emph rend="underlined">heute</emph> Mittag nicht kommen kan. Ich habe eine Engagement, von dem ich mich nicht 
+               lossagen darf. Will sie mich aber <date when-iso="1802-05-01"><emph rend="underlined">Morgen</emph> Mittag</date> bei 
+               Sich sehen, so werde ich mit großem Vergnügen erscheinen.
+            </p>
+         </div>
+         <div n="2" corresp="#mon">
+            <p>
+               <emph rend="underlined">Wohlfeil</emph> nenne ich denjenigen <rs type="citation" ref="#e1501-1">Moniteur</rs>, den man, so 
+               wie den meinigen bestellt, für 40 Louis dor kauft. So viel kosteten mir die Bände bis 97 <add place="above">exclusiv</add> 
+               allein; dann gab ich noch jährlich 60 Reichsthaler um ihn bis 1800 fortzuführen; dann gab ich wieder 60 für den ersten 
+               <emph rend="underlined">Band</emph>, Introduction pp. - Und kurz - so wohlfeil dieser 
+               <rs type="citation" ref="#e1501-1">Moniteur</rs> für 40 Louis dor auch seyn mögte, so laße ich doch den meinen - für 30. 
+               Solche Offerten werden nur in Zeiten schwerer Total-Revolutionen gethan. Adieu
+            </p>
+         </div>
+         <closer>
+            <signed rend="right">Gentz.</signed>
+         </closer>
+      </body>
+   </text>
+</TEI>

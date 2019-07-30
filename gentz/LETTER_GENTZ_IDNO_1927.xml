@@ -1,0 +1,225 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc xml:id="LETTER_GENTZ_1927">
+         <titleStmt>
+            <title>Friedrich von Gentz an Friedrich Wilhelm Graf von Reden, 22. August 1797</title>
+            <editor xml:id="edAG">Andreas Gálffy</editor>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <name>Forschungsstelle "Universitätssammlung Friedrich von Gentz"</name>
+               <link target="http://gentz-digital.ub.uni-koeln.de http://www.ub.uni-koeln.de/cdm/singleitem/collection/gentz/id/1926/"/>
+            </publisher>
+            <pubPlace>Cologne</pubPlace>
+            <idno type="Gentz-Edition-Number" n="1927"/>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <country>unknown</country>
+                  <idno>not retraced</idno>
+               </msIdentifier>
+               <msContents>
+                  <summary>
+                     Gentz schreibt ausführlich seine Eindrücke, die er auf dem Besitz von Reden erlebt hat. Zuerst nennt er seine 
+                     Abneigung gegen den Protz - es sei nur ein Streben nach dem Größeren. Es fehle der Geschmack am Gegenwärtigen, 
+                     am Vollendeten. In diesem Sinne ist die Natur ein solches Objekt und Buchwald ganz besonders. Es gäbe keine 
+                     Linie in der Anlage, die nicht nach allen Gesetzen der Schönheit liefe und nichts stört die Harmonie. Daher 
+                     dankt Gentz herzlich für die auf dem Gut verlebte Zeit.
+                  </summary>
+               </msContents>
+            </msDesc>
+            <listBibl type="preprints">
+               <biblStruct>
+                  <monogr>
+                     <author>
+                        <persName>
+                           <ref target="http://d-nb.info/gnd/116453591"/>
+                           <forename>Eleonore von</forename>
+                           <surname>Reuß</surname>
+                        </persName>
+                     </author>
+                     <title>Friederike Gräfin von Reden geb. Freiin Riedesel zu Eisenbach. Ein Lebensbild nach Briefen und Tagebüchern, 2 Bde</title>
+                     <imprint>
+                        <pubPlace>Berlin</pubPlace>
+                        <publisher>Hertz</publisher>
+                        <date>1888</date>
+                     </imprint>
+                     <biblScope unit="volume" n="0">
+                        Bd. x
+                     </biblScope>
+                     <biblScope unit="page" from="153" to="154">
+                        Nr. 153-154
+                     </biblScope>
+                  </monogr>
+               </biblStruct>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Masterarbeit zu Matrikelnummer 5584124</p>
+         </projectDesc>
+      </encodingDesc>
+      <profileDesc>
+         <creation>
+            <date when-iso="1797-08-22">22. August 1797</date>
+         </creation>
+        <langUsage>
+           <language ident="d">deutsch</language>
+        </langUsage>
+         <textClass>
+            <keywords scheme="internal"><!-- internal: innerhalb des besagten Briefs -->
+               <term>Brief</term>
+               <term>Natur</term>
+               <term>Buchwald</term>
+            </keywords>
+            <keywords scheme="categorisation"><!-- Sinnabschnittseinteilung - relevant für den Fahrkartenautomaten! -->
+               <term xml:id="phish">Philosophie - Schönheit</term>
+            </keywords>
+         </textClass>
+         <textDesc>
+            <channel>manuscript</channel>
+            <constitution type="single"/>
+            <derivation type="original"/>
+            <domain type="private"/>
+            <factuality type="fact"/>
+            <interaction type="partial"/>
+            <preparedness type="prepared"/>
+            <purpose type="inform"/>
+         </textDesc>
+         <particDesc>
+            <listPerson>
+               <!-- Sender und Adressat -->
+               <person role="sender" xml:id="Gen">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/118538489"/>
+                     <forename>Friedrich von</forename>
+                     <surname>Gentz</surname>
+                  </persName>
+               </person>
+               <person role="receiver" xml:id="FWvR">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/128770201"/>
+                     <forename>Friedrich Wilhelm von</forename>
+                     <surname>Reden</surname>
+                  </persName>
+               </person>
+               <!-- erwähnte Personen -->
+            </listPerson>
+         </particDesc>
+         <settingDesc>
+            <listPlace>
+               <!-- Start- und Zielort -->
+               <place type="sender" xml:id="plBe">
+                  <country>
+                     <ref target="http://d-nb.info/gnd/4047194-9"/>
+                     <placeName>Preußen</placeName>
+                  </country>
+                  <settlement>
+                     <ref target="http://d-nb.info/gnd/4005728-8"/>
+                     <placeName>Berlin</placeName>
+                  </settlement>
+               </place>
+               <place type="receiver" xml:id="plBc">
+                  <country>
+                     <ref target="http://d-nb.info/gnd/4047194-9"/>
+                     <placeName>Preußen</placeName>
+                  </country>
+                  <settlement>
+                     <ref target="http://d-nb.info/gnd/7758852-6"/>
+                     <placeName>Buchwald</placeName>
+                  </settlement>
+               </place>
+               <!-- erwähnte Orte -->
+               <place type="named" xml:id="plSc">
+                  <country>
+                     <ref target="http://d-nb.info/gnd/4047194-9"/>
+                     <placeName>Preußen</placeName>
+                  </country>
+                  <region>
+                     <ref target="http://d-nb.info/gnd/4052678-1"/>
+                     <placeName>Schlesien</placeName>
+                  </region>
+               </place>
+            </listPlace>
+         </settingDesc>
+      </profileDesc>
+      <revisionDesc>
+         <change xml:id="init" when-iso="2018-02-26" who="#edAG">Erstauszeichnung und Normierung des Dokumentes im Rahmen der Masterarbeit der Matrikelnummer 5584124</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div n="1" corresp="#phish">
+            <p>
+               Ich schreibe diese Zeilen bloß, um dem glücklichen Besitzer von <rs type="place" ref="#plBc">Buchwald</rs> den 
+               Eindruck zu schildern, den dieser bezaubernde Ort auf mich gemacht hat. Vergeben Sie, Herr Graf, wenn ich in dieser 
+               Hinsicht, mit Weglassung alles Ceremoniells, auf einige Augenblicke nur den Eingebungen meines Herzens folge.
+            </p>
+            <p>
+               Die meisten Dinge in der Welt sind eines Mehr oder Minder fähig, und haben gewöhnlich ihren Werth nur in ihrem Grade. 
+               Wenn ich Gold und Silber in Massen verschwendet sehe, darf ich mir nur hundertmal größere denken, um den Eindruck 
+               jener auszulöschen. Mit allem, was Pracht, Luxus, Reichthum, Gewalt, leider sogar mit allem, was Verstand, Kenntniß 
+               und Tiefsinn heißt, verhält es sich eben so. Die bloße Vorstellung eines Größern stört das Vergnügen am 
+               gegenwärtigen. Nur ein einziges unter allen menschlichen Dingen, unter allen menschlichen Fähigkeiten nur eine, hat 
+               ihre Vollendung in sich selbst, und schließt alle Idee der Grade aus - es ist der 
+               <emph rend="underlined">Geschmack</emph>. Ein Werk, welches der Geschmack gewirkt oder geleitet hat, befriedigt durch 
+               sich selbst und läßt im ganzen Umfange der Dinge nichts im eigentlichen Verstande größeres suchen oder erwarten. Ein 
+               wahres Kunstwerk ist der vollendetste oder vielmehr der einzige vollendete Gegenstand des menschlichen Genusses.
+            </p>
+            <p>
+               Nun giebt es aber, meines Erachtens, unter allen Objekten, welche der Geschmack bearbeiten kann, keins, das seine 
+               Bemühungen so sehr verdient und so sehr belohnt, als 
+               <emph rend="underlined">eine an und für sich schöne Natur</emph>, ein Objekt, welches schon vor der Bearbeitung die 
+               Sehnsucht des Menschen nach dem Vollendeten und Unendlichen in so hohem Grade befriedigt. Der reinste Geschmack auf 
+               die schönsten Natur-Szenen angewendet - muß also das edelste aller von Menschen gemachten Produkte geben. So 
+               entstand die jetzige Anlage von <rs type="place" ref="#plBc">Buchwald</rs>.
+            </p>
+            <p>
+               Ich würde die Schönheit dieser Anlage herabzusetzen glauben, wenn ich sie bloß durch Vergleichung mit andern heben 
+               wollte. Es versteht sich zwar von selbst, daß jede andre davor schwinden würde, denn 
+               <rs type="place" ref="#plBc">Buchwald</rs> ist ohne allen Streit und selbst für den gemeinen Maßstab der schönste 
+               Ort in <rs type="place" ref="#plSc">Schlesien</rs> und einer der schönsten der Welt. Aber es ist eben das 
+               eigenthümliche einer wahren Geschmacksschöpfung, daß man nicht über sie hinausgehen darf und muß, um ihr 
+               Gerechtigkeit widerfahren zu lassen. In <rs type="place" ref="#plBc">Buchwald</rs> ist keine Linie, gewiß keine 
+               Haupt-Linie gezogen, die nicht nach allen Gesetzen der Schönheit liefe, keine Parthie gezeichnet, die nicht ihre 
+               Rechtfertigung in ihrem unfehlbaren Effekt fände, kein einzelner Theil geordnet, der nicht in die Harmonie des 
+               Ganzen stimmte. Dabei waltet allenthalben der edle Grundsatz vor, daß auf einem Theater, wie das, welches die Natur 
+               dort aufstellte, ein geschicktes Wegräumen der Hindernisse das erste, eigner Zusatz, auch des Ideenreichsten und 
+               Geschmackvollsten Kopfes nur das zweyte seyn sollte. Dabei ist alles, was bloße Menschenkunst liefern mußte, die 
+               Architektur im weitesten Umfange, in einem Style gearbeitet, dessen Correktheit und Würde gewiß jeden Kunstkenner 
+               befriedigen wird. Wenn dereinst der ganze Plan, mit dem Sie umgehn, ausgeführt ist - und ungefähr so, als wäre er 
+               schon ausgeführt, muß man sich <rs type="place" ref="#plBc">Buchwald</rs> immer denken -, so mögte wohl für den, 
+               welcher die Erhabenheit der Natur zu schätzen und die Grenzen der Kunst zu beurtheilen weiß, so mögte wohl für die 
+               Kritik so wenig als für den Genuß etwas zu wünschen übrig bleiben.
+            </p>
+            <p>
+               So würde ich <rs type="place" ref="plBc">Buchwald</rs> schildern, wenn ich es bloß gesehen hätte. Daß ich es 
+               eigentlich genoß, ist für den Werth dieses elysischen Aufenthalts Nebensache: - aber es sey mir erlaubt, Ihnen, Herr 
+               Graf, für zwey reitzende und unvergeßliche Tage zu danken, die ich dort, durch die Berufung auf Ihre Protection 
+               eingeführt, verlebt habe. Was diese Tage gewesen wären, wenn mir das Glück so wohl gewollt hätte, auch dem Geiste, 
+               der alle diese Schöpfungen belebt, meine persönliche Huldigung darbringen zu lassen, das habe ich mir wohl in 
+               manchen Augenblicken gedacht, glaube aber nicht, daß Bescheidenheit und Ehrfurcht gestatten, es auszudrücken.
+            </p>
+            <p>
+               Ich habe nicht den tausendsten Theil von dem, was ich sagen wollte, gesagt. Der Stoff ist zu reich, und ich erinnere 
+               mich eben, daß Sie mehr, weit mehr noch als der Besitzer von <rs type="place" ref="plBc">Buchwald</rs> sind. 
+               Vielleicht ist es mir einmal vergönnt, meine Empfindungen von dem Orte, wo sie einheimisch sind, und in Ihrer 
+               Gegenwart laut werden zu lassen. Vergönnen Sie mir diese angenehme Aussicht und erlauben Sie, daß ich mich 
+               unterdessen in Ihr gnädiges Wohlwollen mit jener wahren und innigen Verehrung empfehle, die unablässig begeistert
+            </p>
+         </div>
+         <closer>
+            <salute rend="right">Ihren gehorsamsten und ergebensten</salute>
+            <salute rend="right">Diener</salute>
+            <dateline rend="left"><rs type="place" ref="#plBe">Berlin</rs> d. <date when-iso="1797-08-22">22<span rend="sup">t</span> Aug. 97</date>.</dateline>
+            <signed rend="right">Gentz.</signed>
+         </closer>
+      </body>
+   </text>
+</TEI>

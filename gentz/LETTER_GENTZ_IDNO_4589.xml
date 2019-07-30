@@ -1,0 +1,417 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc xml:id="LETTER_GENTZ_4589">
+         <titleStmt>
+            <title>Friedrich von Gentz an Karl August Böttiger, 13. März 1798</title>
+            <editor xml:id="edAG">Andreas Gálffy</editor>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <name>Forschungsstelle "Universitätssammlung Friedrich von Gentz"</name>
+               <link target="http://gentz-digital.ub.uni-koeln.de http://www.ub.uni-koeln.de/cdm/singleitem/collection/gentz/id/4588/"/>
+            </publisher>
+            <pubPlace>Cologne</pubPlace>
+            <idno type="Gentz-Edition-Number" n="4589"/>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <country>Germany</country>
+                  <settlement>Dresden</settlement>
+                  <institution>Sächsische Landesbibliothek</institution>
+                  <repository>Handschriftensammlung, Nachlaß Böttiger</repository>
+                  <collection>Mscr. Dresd. h 37, Bd. 54 (4°)</collection>
+                  <idno>Nr. 19</idno>
+               </msIdentifier>
+               <msContents>
+                  <summary>
+                     Das Gespräch von Wieland in der letzten Ausgabe des Merkur hat bis zu dem Punkt Diktaturen Gentz' Beifall erregt. 
+                     Mit Diktaturen ist Gentz wahrlich nicht einverstanden. Gentz bestellt, den Merkur regelmäßig zu erhalten. Er hat 
+                     aber auch viel Arbeit erhalten; bei einer Kommission zur Revision des Finanzwesens soll Gentz den abwesenden 
+                     Minister Hoym vertreten. Über eine weitere Instruktion, lesbar in den Hamburger Zeitungen sowie von Kabinettsrat 
+                     Beyme äußert er sich nur beiläufig. Die Minister wechseln in rasendem Tempo. Die Gräfin Lichtenau bekommt ihr 
+                     Vermögen konfisziert, aber eine hohe Pension bezahlt. Ein Engländer hat Böttiger gezüchtigt und Gentz möchte 
+                     dessen Namen erfahren. Er freut sich auch, dass Böttiger seine Anmerkung verwenden konnte und bittet die 
+                     Aktenstücke unter der Rubrik "Drucksachen" zurück. Am Rand der ersten beiden Seiten ist ein französischer 
+                     Gesandter namens Caillard beschrieben, die Amtsbezeichnung sagt laut Gentz schon alles aus.
+                  </summary>
+               </msContents>
+            </msDesc>
+            <listBibl type="preprints">
+               <biblStruct>
+                  <monogr>
+                     <editor>
+                        <persName>
+                           <ref target="http://d-nb.info/gnd/130953075"/>
+                           <forename>Friedrich Carl</forename>
+                           <surname>Wittichen</surname>
+                        </persName>
+                        <persName>
+                           <ref/> <!-- kein GND-Eintrag -->
+                           <forename>Ernst</forename>
+                           <surname>Salzer</surname>
+                        </persName>
+                     </editor>
+                     <title>Briefe von und an Friedrich von Gentz, 4 Bde.</title>
+                     <imprint>
+                        <publisher>Oldenbourg</publisher>
+                        <pubPlace>München, Berlin</pubPlace>
+                        <date>1909-1913</date>
+                     </imprint>
+                     <biblScope unit="volume" n="1">
+                        I
+                     </biblScope>
+                     <biblScope unit="page" from="251" to="253">
+                        Nr. 61
+                     </biblScope>
+                  </monogr>
+               </biblStruct>
+            </listBibl>
+            <listBibl type="letterReferenced">
+               <bibl xml:id="c4589-1" corresp="#LETTER_GENTZ_NNNN">nicht bekannter Brief von Friedrich von Gentz an Karl August Böttiger</bibl>
+            </listBibl>
+            <listBibl type="alludedWorks">
+               <bibl xml:id="a4589-1" corresp="#LETTER_GENTZ_NNNN">nicht näher benannte Ausgabe einer Hamburger Zeitung</bibl>
+            </listBibl>
+            <listBibl type="defExpr">
+               <biblStruct xml:id="e4589-1" corresp="UBi-0029">
+                  <monogr>
+                     <editor>
+                        <persName>
+                           <ref target="http://d-nb.info/gnd/118632477"/>
+                           <forename>Christian Martin</forename>
+                           <surname>Wieland</surname>
+                        </persName>
+                     </editor>
+                     <title>Der Neue Teutsche Merkur</title>
+                     <imprint>
+                        <date>1790-1810</date>
+                     </imprint>
+                  </monogr>
+                  <ptr target="http://ds.ub.uni-bielefeld.de/viewer/image/2238508_025/3/"/>
+               </biblStruct>
+            </listBibl>
+            <listBibl type="defRep">
+               <biblStruct xml:id="p4589-1" corresp="UBi-0030">
+                  <analytic>
+                     <author>
+                        <persName>
+                           <ref target="http://d-nb.info/gnd/118632477"/>
+                           <forename>Christian Martin</forename>
+                           <surname>Wieland</surname>
+                        </persName>
+                     </author>
+                     <title>Gespräche unter vier Augen. Zweytes Gespräch, über den neufränkischen Staatseid "Daß dem Königthum!"</title>
+                  </analytic>
+                  <monogr>
+                     <editor>
+                        <persName>
+                           <ref target="http://d-nb.info/gnd/118632477"/>
+                           <forename>Christian Martin</forename>
+                           <surname>Wieland</surname>
+                        </persName>
+                     </editor>
+                     <title>Der Neue Teutsche Merkur</title>
+                     <imprint>
+                        <date>1798</date>
+                     </imprint>
+                  </monogr>
+                  <ptr target="http://ds.ub.uni-bielefeld.de/viewer/image/2238508_025/227/"/>
+               </biblStruct>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Masterarbeit zu Matrikelnummer 5584124</p>
+         </projectDesc>
+      </encodingDesc>
+      <profileDesc>
+         <creation>
+            <date when-iso="1798-03-17">17. März 1798</date>
+         </creation>
+        <langUsage>
+           <language ident="d">deutsch</language>
+        </langUsage>
+         <textClass>
+            <keywords scheme="internal"><!-- internal: innerhalb des besagten Briefs -->
+               <term>Brief</term>
+               <term>Caillard</term>
+               <term>Minister</term>
+               <term>Finanzreform</term>
+               <term>Lichtenau</term>
+            </keywords>
+            <keywords scheme="categorisation"><!-- Sinnabschnittseinteilung - relevant für den Fahrkartenautomaten! -->
+               <term xml:id="frv">Französische Revolution</term>
+               <term xml:id="kmrk">Merkur</term>
+               <term xml:id="bezbt">Beziehungen zu Berlin - Beamtentätigkeit</term>
+               <term xml:id="vkab">Verhältnis Karl August Böttiger</term>
+               <term xml:id="kcai">Caillard</term>
+            </keywords>
+         </textClass>
+         <textDesc>
+            <channel>manuscript</channel>
+            <constitution type="single"/>
+            <derivation type="original"/>
+            <domain type="private"/>
+            <factuality type="fact"/>
+            <interaction type="partial"/>
+            <preparedness type="unprepared"/>
+            <purpose type="inform"/>
+         </textDesc>
+         <particDesc>
+            <listPerson>
+               <!-- Sender und Adressat -->
+               <person role="sender" xml:id="Gen">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/118538489"/>
+                     <forename>Friedrich von</forename>
+                     <surname>Gentz</surname>
+                  </persName>
+               </person>
+               <person role="receiver" xml:id="KAB">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/118824775"/>
+                     <forename>Carl August</forename>
+                     <surname>Böttiger</surname>
+                  </persName>
+               </person>
+               <!-- erwähnte Personen -->
+               <person role="named" xml:id="CMW">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/118632477"/>
+                     <forename>Christian Martin</forename>
+                     <surname>Wieland</surname>
+                  </persName>
+               </person>
+               <person role="named" xml:id="Tbs">
+                  <persName>
+                     <ref />
+                     <forename/>
+                     <surname>Trübensee</surname>
+                     <roleName type="office">Postsekretär</roleName>
+                  </persName>
+               </person>
+               <person role="named" xml:id="KFWIII">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/118535986"/>
+                     <forename>Friedrich Wilhelm III.</forename>
+                     <surname>von Preußen</surname>
+                     <roleName type="office">König</roleName>
+                  </persName>
+               </person>
+               <person role="named" xml:id="EFWPvR">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/117598623"/>
+                     <forename>Ernst Friedrich Wilhelm Philipp von</forename>
+                     <surname>Rüchel</surname>
+                  </persName>
+               </person>
+               <person role="named" xml:id="Hoy">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/117028568"/>
+                     <forename>Karl Georg Heinrich von</forename>
+                     <surname>Hoym</surname>
+                  </persName>
+               </person>
+               <person role="named" xml:id="OZs">
+                  <persName>
+                     <ref />
+                     <forename>von</forename>
+                     <surname>Zastrow</surname>
+                     <roleName type="office">Obrist</roleName>
+                  </persName>
+               </person>
+               <person role="named" xml:id="FWvdSK">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/118611275"/>
+                     <forename>Friedrich Wilhelm von der</forename>
+                     <surname>Schulenburg-Kehnert</surname>
+                  </persName>
+               </person>
+               <person role="named" xml:id="Bey">
+                  <persName>
+                     <ref />
+                     <forename/>
+                     <surname>Beyme</surname>
+                     <roleName type="office">Kammergerichtsrat</roleName>
+                  </persName>
+               </person>
+               <person role="named" xml:id="Mck">
+                  <persName>
+                     <ref />
+                     <forename/>
+                     <surname>Mencke</surname>
+                  </persName>
+               </person>
+               <person role="named" xml:id="JCvW">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/117453773"/>
+                     <forename>Johann Christoph</forename>
+                     <surname>von Woellner</surname>
+                  </persName>
+               </person>
+               <person role="named" xml:id="JCvB">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/116209356"/>
+                     <forename>Joachim Christian von</forename>
+                     <surname>Blumenthal</surname>
+                  </persName>
+               </person>
+               <person role="named" xml:id="Bch">
+                  <persName>
+                     <ref />
+                     <forename/>
+                     <surname>Buchholtz</surname>
+                  </persName>
+               </person>
+               <person role="named" xml:id="WvL">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/118926217"/>
+                     <forename>Wilhelmine von</forename>
+                     <surname>Lichtenau</surname>
+                  </persName>
+               </person>
+               <person role="named" xml:id="Cai">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/1116292998"/>
+                     <forename>Antoine Bernard</forename>
+                     <surname>Caillard</surname>
+                  </persName>
+               </person>
+            </listPerson>
+         </particDesc>
+         <settingDesc>
+            <listPlace>
+               <!-- Start- und Zielort -->
+               <place type="sender" xml:id="plBe">
+                  <country>
+                     <ref target="http://d-nb.info/gnd/4047194-9"/>
+                     <placeName>Preußen</placeName>
+                  </country>
+                  <settlement>
+                     <ref target="http://d-nb.info/gnd/4005728-8"/>
+                     <placeName>Berlin</placeName>
+                  </settlement>
+               </place>
+               <place type="receiver" xml:id="plWe">
+                  <country>
+                     <ref target="http://d-nb.info/gnd/4051194-7"/>
+                     <placeName>Sachsen-Weimar-Eisenach</placeName>
+                  </country>
+                  <settlement>
+                     <ref target="http://d-nb.info/gnd/4065105-8"/>
+                     <placeName>Weimar</placeName>
+                  </settlement>
+               </place>
+               <!-- erwähnte Orte -->
+               <place type="named" xml:id="plFr">
+                  <country>
+                     <ref target="http://d-nb.info/gnd/4018145-5"/>
+                     <placeName>Frankreich</placeName>  
+                  </country>
+               </place>
+               <place type="named" xml:id="plGl">
+                  <country>
+                     <ref target="http://d-nb.info/gnd/4047194-9"/>
+                     <placeName>Preußen</placeName>
+                  </country>
+                  <settlement>
+                     <ref target="http://d-nb.info/gnd/126204-X"/>
+                     <placeName>Groß-Glogau</placeName>
+                  </settlement>
+               </place>
+            </listPlace>
+         </settingDesc>
+      </profileDesc>
+      <revisionDesc>
+         <change xml:id="init" when-iso="2018-03-02" who="#edAG">Erstauszeichnung und Normierung des Dokumentes im Rahmen der Masterarbeit der Matrikelnummer 5584124</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <opener>
+            <dateline rend="right"><rs type="place" ref="#plBe">Berlin</rs> den <date when-iso="1798-03-17">17<span rend="sup">ten</span> Märtz 98</date>.</dateline>
+         </opener>
+         <div n="1" corresp="#kcjo">
+            <p>
+               Das Gespräch von <rs type="person" ref="#CMW">Wieland</rs> im <rs type="citation" ref="#p4589-1">neusten Stücke des Merkur</rs>, ist ein wahres 
+               Meisterstück, d. h. die ganze erste größre Hälfte desselben, bis auf die Stelle, wo er anfängt von der <emph rend="underlined">Diktatur</emph> 
+               zu sprechen. Hier trenne ich mich von ihm 1, weil ich alle Diktaturen hasse. 2, weil ich gar nicht absehe, auf welchem Wege 
+               <rs type="place" ref="#plFr">Frankreich</rs>s von der Diktatur - wenn sie nicht eine <span xml:lang="fr">perpetua</span> seyn soll - 
+               <del rend="stroked">auf</del> zu einer regelmäßigen Staatsverfassung gelangen soll. 3, weil ich überzeugt bin, daß nur eine regelmäßige 
+               Verfassung - wäre es auch die Constitution von 1795 mit einigen Verbesserungen - <rs type="place" ref="#plFr">Frankreich</rs> retten kann. 4, 
+               weil ich endlich, wenn es denn nun schlechterdings Diktatur gelten müßte, nie den bluttriefenden Schöpfer der Italienischen - daß sich Gott 
+               erbarme - Republiken, zu diesem Posten erheben würde. Der erste Theil des Gespräches ist entzückend schön. Seite 283 steht durch einen 
+               Druckfehler der <date when-iso="1797-08-14"><emph rend="underlined">14</emph><span rend="sup">ten</span> August</date>. <pb/>
+            </p>
+         </div>
+         <div n="2" rend="margin-left" corresp="#kcai">
+            <p>
+               <rs type="person" ref="#Cai"><emph rend="underlined">Caillard</emph></rs> ist ein verschlossner Politiker, der so wie es 
+               <emph rend="underlined">scheint</emph>, ein sehr eifriger Directorial-Republikaner ist. Er hat große Kenntnisse in der alten Litteratur. 
+               - Da haben Sie alles, was ich von ihm weiß. Wie können Sie auch verlangen, daß man einen 
+               <emph rend="underlined">Französischen Gesandten</emph> persönlich charakterisiren soll. Er ist ein 
+               <emph rend="underlined">Französischer Gesandter</emph> ! schließt denn dies Wort nicht alles in sich ? - Es war einst nahe daran, daß ich 
+               mit ihm bekannt werden sollte: aber - wir besannen uns beide eines Andern.
+            </p>
+         </div>
+         <div n="3" corresp="#kmrk">
+            <p>
+               A propos ! Können Sie es nicht so einrichten, daß ich den <rs type="citation" ref="#e4589-1">Merkur</rs> durch Sie, jeden Monat promt und 
+               regelmäßig erhalte ? Ich will hier bei dem <rs type="person" ref="#Tbs">Post-Secretaire Trübensee</rs> die Bezahlung leisten, wenn Sie nur 
+               besorgen, daß die Stücke sogleich bei ihrer Erscheinung an diesen gesendet werden. Ich erhalte dies Journal jetzt gar zu unregelmäßig.
+            </p>
+         </div>
+         <div n="4" corresp="#bezbt">
+            <p>
+               Ich bin von neuem in eine ungeheure Arbeit vertieft. Der <rs type="person" ref="#KFWIII">König</rs> hat eine Commission zur Revision 
+               <emph rend="underlined">des gesammten Finanz-Wesens</emph> ernannt, für welche der 
+               <rs type="person" ref="#EFWPvR"><emph rend="underlined">General</emph> von Rüchel</rs> die Instruction entworfen hat. (Sie ist nicht, 
+               wie die vom <date when-iso="1797-01-01">1<span rend="sup">ten</span> Januar 97</date>) Bey dieser Commission bin ich der Repräsentant 
+               des <del rend="stroked">xxx</del> abwesenden <rs type="person" ref="#Hoy">Minister Hoym</rs>, der eigentlich das 
+               <span xml:lang="lat">Factotum</span> dabei seyn <pb/> sollte. Dies ist genug gesagt. - Eine andre Instruction, die der 
+               <rs type="person" ref="#OZs"><emph rend="underlined">Obrist</emph> von Zastrow</rs>, für den neuen General-Controlleur, 
+               <rs type="person" ref="#FWvdSK"><emph rend="underlined">General-Lieutenant</emph> von Schulenburg</rs> entworfen hat, werden Sie in 
+               den <rs type="citation" ref="#a4589-1">Hamburger Zeitungen</rs> gelesen haben - Ich mag heute über alle diese Sachen nicht urtheilen.
+            </p>
+            <p>
+               Sie fragen mich wer <rs type="person" ref="#Bey"><emph rend="underlined">Beyme</emph></rs> ist ? - Er war ein guter 
+               Kammergerichts-Rath, den <emph rend="underlined">nicht</emph> <rs type="person" ref="#Mck">Mencken</rs>, sondern der 
+               <rs type="person" ref="#FWvdSK"><emph rend="underlined">General-Lieutenant</emph> Graf von der Schulenburg</rs> zum 
+               Kabinets-Rath vorgeschlagen hat. Hieran möge Ihnen genügen !
+            </p>
+            <p>
+               Die Minister fallen hier, wie die Fliegen; <rs type="person" ref="#JCvW">Wöllner</rs>, <rs type="person" ref="#JCvB">Blumenthal</rs>, 
+               <rs type="person" ref="#Bch">Buchholtz</rs> an einem Tage. Der Proceß der <rs type="person" ref="#WvL">Lichtenau</rs> ist geendigt. Sie 
+               <del rend="stroked">kömmt</del> wird nach <rs type="place" ref="#plGl">Glogau</rs> <emph rend="underlined">nicht</emph> ins Gefängniß 
+               gebracht, erhält 4000 Reichsthaler Jahrgehalt, und 2000 Reichsthaler Reisegeld. - Die Denkenden fragen: Wenn sie eine 
+               <emph rend="underlined">Verbrecherin</emph> war, warum behandelt man sie, wie einen <pb/> pensionirten Minister ? Wenn sie es nicht war, 
+               warum confiszirt man ihr Vermögen ? - Vielleicht reiset nächstens wieder ein Freund nach <rs type="place" ref="#plWe">Weimar</rs>, daß 
+               ich Ihnen über alles, was ich heute nur andeuten konnte, ausführlich schreibe.
+            </p>
+         </div>
+         <div n="5" corresp="#vkab">
+            <p>
+               Sagen Sie mir doch: Wer ist denn der trefliche Engländer, der Sie so treffend, und so hochverdient gezüchtiget hat ? - Ihre edelmüthige 
+               Geneigtheit zur <del rend="stroked">Sache</del> guten Sache zurückzukehren würde mir Verehrung und Liebe gegen Sie einflößen, wenn 
+               nicht diese Gefühle längst in meinem Herzen lägen. Ich freue mich, daß Sie von einer Stelle 
+               <rs type="citation" ref="#c4589-1">meines Briefes</rs> einen so passenden Gebrauch in Ihrer sehr schönen Anmerkung machen konnten.
+            </p>
+            <p>
+               Und nun, mein verehrter Freund, noch Eins: Ich brauche die Aktenstücke, die ich Ihnen geschickt habe, höchst nötig, und bitte Sie daher, 
+               mir solche unter der Rubrick: <emph rend="underlined">Drucksachen</emph>, mit <emph rend="underlined">umgehender</emph> Post, unfehlbar 
+               zurück zu senden. Bleiben Sie mit Liebe und Freundschaft zugethan
+            </p>
+         </div>
+         <closer>
+            <salute rend="right">Ihrem sehr ergebnen</salute>
+            <signed rend="right">Gentz.</signed>
+         </closer>
+      </body>
+   </text>
+</TEI>

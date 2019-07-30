@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader type="text">
+      <fileDesc xml:id="LETTER_GENTZ_4461">
+         <titleStmt>
+            <title>Friedrich von Gentz an Otto von Voß, 21. Mai 1799</title>
+            <editor xml:id="edAG">Andreas Gálffy</editor>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <name>Forschungsstelle "Universitätssammlung Friedrich von Gentz"</name>
+               <link target="http://gentz-digital.ub.uni-koeln.de http://www.ub.uni-koeln.de/cdm/singleitem/collection/gentz/id/4460/"/>
+            </publisher>
+            <pubPlace>Cologne</pubPlace>
+            <idno type="Gentz-Edition-Number" n="4461"/>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <country>Germany</country>
+                  <settlement>Berlin</settlement>
+                  <institution>Geheimes Staatsarchiv Preußsischer Kulturbesitz</institution>
+                  <repository>II. HA, Generaldirektorium, Südpreußen</repository>
+                  <collection>Abt. I, Lit E, Nr. 370</collection>
+                  <idno>Bl. 72</idno>
+               </msIdentifier>
+               <msContents>
+                  <summary>
+                     Zu einer Kur von einer viermonatigen Gicht bittet Gentz einen vierwöchigen Urlaub im Juni 1799.
+                  </summary>
+               </msContents>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Masterarbeit zu Matrikelnummer 5584124</p>
+         </projectDesc>
+      </encodingDesc>
+      <profileDesc>
+         <creation>
+            <date when-iso="1799-05-21">21. Mai 1799</date>
+         </creation>
+        <langUsage>
+           <language ident="d">deutsch</language>
+        </langUsage>
+         <textClass>
+            <keywords scheme="internal"><!-- internal: innerhalb des besagten Briefs -->
+               <term>Brief</term>
+               <term>Bittschreiben</term>
+               <term>Kur</term>
+            </keywords>
+            <keywords scheme="categorisation"><!-- Sinnabschnittseinteilung - relevant für den Fahrkartenautomaten! -->
+               <term xml:id="gg">Gentz - Gesundheit</term>
+            </keywords>
+         </textClass>
+         <textDesc>
+            <channel>manuscript</channel>
+            <constitution type="single"/>
+            <derivation type="original"/>
+            <domain type="private"/>
+            <factuality type="fact"/>
+            <interaction type="partial"/>
+            <preparedness type="prepared"/>
+            <purpose type="inform"/>
+         </textDesc>
+         <particDesc>
+            <listPerson>
+               <!-- Sender und Adressat -->
+               <person role="sender" xml:id="Gen">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/118538489"/>
+                     <forename>Friedrich von</forename>
+                     <surname>Gentz</surname>
+                  </persName>
+               </person>
+               <person role="receiver" xml:id="OvV">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/103098291"/>
+                     <forename>Otto</forename>
+                     <surname>von Voß</surname>
+                  </persName>
+               </person>
+               <!-- erwähnte Personen -->
+            </listPerson>
+         </particDesc>
+         <settingDesc>
+            <listPlace>
+               <!-- Start- und Zielort -->
+               <place type="sender" xml:id="plBe">
+                  <country>
+                     <ref target="http://d-nb.info/gnd/4047194-9"/>
+                     <placeName>Preußen</placeName>
+                  </country>
+                  <settlement>
+                     <ref target="http://d-nb.info/gnd/4005728-8"/>
+                     <placeName>Berlin</placeName>
+                  </settlement>
+               </place>
+               <!-- erwähnte Orte -->
+               <place type="named" xml:id="plBf">
+                  <country>
+                     <ref target="http://d-nb.info/gnd/4047194-9"/>
+                     <placeName>Preußen</placeName>
+                  </country>
+                  <settlement>
+                     <ref target="http://d-nb.info/gnd/4018298-8"/>
+                     <placeName>Bad Freienwalde (Oder)</placeName>
+                  </settlement>
+               </place>
+            </listPlace>
+         </settingDesc>
+      </profileDesc>
+      <revisionDesc>
+         <change xml:id="init" when-iso="2018-03-03" who="#edAG">Erstauszeichnung und Normierung des Dokumentes im Rahmen der Masterarbeit der Matrikelnummer 5584124</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <figure rend="left">
+         <desc>Stempel</desc>
+      </figure>
+      <figure rend="right">
+         <desc>Stempel</desc>
+      </figure>
+      <body>
+         <opener>
+            <salute rend="left">HochWürdiger HochWohlgebohrner Freyherr !</salute>
+            <salute rend="left">Hochgebietender Herr Geheimer Staats-Minister !</salute>
+            <salute rend="left">Gnädiger Herr !</salute>
+         </opener>
+         <div n="1" corresp="#gg">
+            <p>
+               Zur Wiederherstellung meiner durch eine viermonatliche Gicht zerrütteten Gesundheit hält mein Arzt es für 
+               unumgänglich nötig, daß ich mich einige Wochen des <rs type="place" ref="#plBf">Freyenwalder Bades</rs> bediene, und 
+               ich wünsche, wenn EwrHochfreyherrliche Excellentz mir dazu die Genehmigung ertheilen, den 
+               <date when-iso="1799-06-00">Monat Juny</date> dieser Cur zu widmen. Ewr. Hochfreyherrliche Excellentz unterstehe ich 
+               mich daher, untertänigst zu bitten,
+            </p>
+            <lg>
+               <l>mir einen Urlaub auf 4 Wochen huldreichst zu bewilligen, und in</l>
+               <l>Gnaden zu gestatten, daß ich diesen Urlaub mit dem <date when-iso="1799-06-01">1<span rend="sup">ten</span></date> kommen-</l>
+               <l>den Monats antrete.</l>
+            </lg>
+            <p>
+               Ich verharre in tiefster Devotion
+            </p>
+         </div>
+         <closer>
+            <salute rend="right">Ewr. Hochfreyherrlichen Excellentz</salute>
+            <salute rend="right">untertänigster treu-gehorsamster</salute>
+            <dateline rend="left"><rs type="place" ref="#plBe">Berlin</rs> den <date when-iso="1799-05-21">21<span rend="sup">ten</span> May 1799</date>.</dateline>
+            <signed rend="right">Gentz.</signed>
+         </closer>
+      </body>
+   </text>
+</TEI>

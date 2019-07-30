@@ -1,0 +1,271 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc xml:id="LETTER_GENTZ_0701">
+         <titleStmt>
+            <title>Friedrich von Gentz an Girolamo Lucchesini, 18. August 1800</title>
+            <editor xml:id="edAG">Andreas Gálffy</editor>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <name>Forschungsstelle "Universitätssammlung Friedrich von Gentz"</name>
+               <link target="http://gentz-digital.ub.uni-koeln.de http://www.ub.uni-koeln.de/cdm/singleitem/collection/gentz/id/700/"/>
+            </publisher>
+            <pubPlace>Cologne</pubPlace>
+            <idno type="Gentz-Edition-Number" n="0701"/>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <country>Germany</country>
+                  <settlement>Berlin</settlement>
+                  <institution>Geheimes Staatsarchiv Preußischer Kulturbesitz</institution>
+                  <repository>I. HA, Rep 92</repository>
+                  <collection>Nachlaß Lucchesini, Nr. 27</collection>
+                  <idno>Bl. 38-38v</idno>
+               </msIdentifier>
+               <msContents>
+                  <summary>
+                     Gentz übermittelt das Journal mit einem Brief aus Frankfurt vom 20 Thermidor VIII (8. August 1800). In diesem 
+                     befinden sich Gerüchte von englisch-französischen Friedensverhandlungen. Er meint, dass das Interesse 
+                     Frankreichs, mit England keinen Frieden zu machen, zu groß sei unter den derzeitigen Umständen. Im letzten 
+                     Abschnitt wird von Herrn St. Julien berichtet, der sich nicht in Wien eingefunden habe.
+                  </summary>
+               </msContents>
+            </msDesc>
+            <listBibl type="defRep">
+               <bibl xml:id="p0701-1" corresp="#LETTER_GENTZ_NNNN">"Le Publiciste" vom 8. August 1800, keine Leseprobe</bibl>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Masterarbeit zu Matrikelnummer 5584124</p>
+         </projectDesc>
+      </encodingDesc>
+      <profileDesc>
+         <creation>
+            <date when-iso="1800-08-18">18. August 1800</date>
+         </creation>
+        <langUsage>
+           <language ident="f">französisch</language>
+        </langUsage>
+         <textClass>
+            <keywords scheme="internal"><!-- internal: innerhalb des besagten Briefs -->
+               <term>Brief</term>
+               <term>Lagebericht</term>
+               <term>Frieden</term>
+               <term>Napoleon</term>
+               <term>Verhandlungen</term>
+            </keywords>
+            <keywords scheme="categorisation"><!-- Sinnabschnittseinteilung - relevant für den Fahrkartenautomaten! -->
+               <term xml:id="fvlv">Frieden von Lunéville</term>
+               <term xml:id="bezw">Beziehungen zu Wien</term>
+               <term xml:id="vgl">Verhältnis Girolamo Lucchesini</term>
+            </keywords>
+         </textClass>
+         <textDesc>
+            <channel>manuscript</channel>
+            <constitution type="single"/>
+            <derivation type="original"/>
+            <domain type="private"/>
+            <factuality type="fact"/>
+            <interaction type="partial"/>
+            <preparedness type="prepared"/>
+            <purpose type="inform"/>
+         </textDesc>
+         <particDesc>
+            <listPerson>
+               <!-- Sender und Adressat -->
+               <person role="sender" xml:id="Gen">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/118538489"/>
+                     <forename>Friedrich von</forename>
+                     <surname>Gentz</surname>
+                  </persName>
+               </person>
+               <person role="receiver" xml:id="GirL">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/118780670"/>
+                     <forename>Girolamo</forename>
+                     <surname>Lucchesini</surname>
+                  </persName>
+               </person>
+               <!-- erwähnte Personen -->
+               <person role="named" xml:id="NBon">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/118586408"/>
+                     <forename>Napoleon I.</forename>
+                     <surname/>
+                     <roleName type="office">Kaiser</roleName>
+                  </persName>
+               </person>
+               <person role="named" xml:id="CMdTP">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/118620606" />
+                     <forename>Charles-Maurice de</forename>
+                     <surname>Talleyrand-Périgord</surname>
+                  </persName>
+               </person>
+               <person role="named" xml:id="FXvSJ">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/1139659405" />
+                     <forename>Franz Xaver von</forename>
+                     <surname>Saint-Julien</surname>
+                  </persName>
+               </person>
+               <person role="named" xml:id="GCMD">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/116256729"/>
+                     <forename>Gerard Christophe Michel</forename>
+                     <surname>Duroc</surname>
+                  </persName>
+               </person>
+               <person role="named" xml:id="CvT">
+                  <persName>
+                     <ref />
+                     <forename>Charlotte von</forename>
+                     <surname>Tarrach</surname>
+                  </persName>
+               </person>
+               <person role="named" xml:id="FLuc">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/117260258" />
+                     <forename>François</forename>
+                     <surname>Lucchesini</surname>
+                  </persName>
+               </person>
+               <person role="named" xml:id="MLuc">
+                  <persName>
+                     <ref />
+                     <forename>Maurice</forename>
+                     <surname>Lucchesini</surname>
+                  </persName>
+               </person>
+            </listPerson>
+         </particDesc>
+         <settingDesc>
+            <listPlace>
+               <!-- Start- und Zielort -->
+               <place type="sender" xml:id="plBe">
+                  <country>
+                     <ref target="http://d-nb.info/gnd/4047194-9"/>
+                     <placeName>Preußen</placeName>
+                  </country>
+                  <settlement>
+                     <ref target="http://d-nb.info/gnd/4005728-8"/>
+                     <placeName>Berlin</placeName>
+                  </settlement>
+               </place>
+               <place type="receiver" xml:id="plMs">
+                  <country>
+                     <ref target="http://d-nb.info/gnd/4047194-9"/>
+                     <placeName>Preußen</placeName>
+                  </country>
+                  <region>
+                     <ref target="http://d-nb.info/gnd/4399096-4"/>
+                     <placeName>Kreis Meseritz</placeName>
+                  </region>
+               </place>
+               <!-- erwähnte Orte -->
+               <place type="named" xml:id="plEn">
+                  <country>
+                     <ref target="http://d-nb.info/gnd/4022153-2"/>
+                     <placeName>England</placeName>
+                  </country>
+               </place>
+               <place type="named" xml:id="plFr">
+                  <country>
+                     <ref target="http://d-nb.info/gnd/4018145-5"/>
+                     <placeName>Frankreich</placeName>  
+                  </country>
+               </place>
+               <place type="named" xml:id="plWi">
+                  <country>
+                     <ref target="http://d-nb.info/gnd/4075601-4"/>
+                     <placeName>Erzherzogtum Österreich</placeName>  
+                  </country>
+                  <settlement>
+                     <ref target="http://d-nb.info/gnd/4066009-6"/>
+                     <placeName>Wien</placeName>
+                  </settlement>
+               </place>
+               <place type="named" xml:id="plFfm">
+                  <country>
+                     <ref target="http://d-nb.info/gnd/4018118-2"/>
+                     <placeName>Frankfurt</placeName>
+                  </country>
+                  <settlement>
+                     <ref target="http://d-nb.info/gnd/4018118-2"/>
+                     <placeName>Frankfurt</placeName>
+                  </settlement>
+               </place>
+               <place type="named" xml:id="plAu">
+                  <country>
+                     <ref target="http://d-nb.info/gnd/4005044-0"/>
+                     <placeName>Bayern</placeName>
+                  </country>
+                  <settlement>
+                     <ref target="http://d-nb.info/gnd/4003614-5"/>
+                     <placeName>Augsburg</placeName>
+                  </settlement>
+               </place>
+            </listPlace>
+         </settingDesc>
+      </profileDesc>
+      <revisionDesc>
+         <change xml:id="init" when-iso="2018-03-06" who="#edAG">Erstauszeichnung und Normierung des Dokumentes im Rahmen der Masterarbeit der Matrikelnummer 5584124</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <opener>
+            <salute rend="left">Monsieur le Marquis !</salute>
+         </opener>
+         <div n="1" corresp="#fvlv">
+            <p>
+               J'ai l'honneur d'envoyer à Votre Excellence les journaux François de hier. Le morceau le plus remarquable à mon avis 
+               qu'ils contiennent, est la prétendue lettre de Francfort dans <rs type="citation" ref="#p0701-1">le publiciste</rs> 
+               du <date when-iso="1800-08-08">20 Thermidor</date>. Les principes que ce morceau nous <del rend="stroked">xxx</del> 
+               devoile, relativement <del rend="strokef">xxx</del> aux difficultés de la paix entre 
+               <rs type="place" ref="#plEn">l'angleterre</rs> et <rs type="place" ref="#plFr">la France</rs> n'étoient pas nouveaux 
+               pour moi; je les ai pressentis depuis longtems et je n'ai jamais cru un moment, que 
+               <rs type="place" ref="#plEn">l'angleterre</rs> seroit admise dans les négociations entre 
+               <rs type="person" ref="#NBon">Bonaparte</rs> et la Cour de <rs type="place" ref="#plWi">Vienne</rs>. L'intérèt du 
+               gouvernement françois de ne pas faire la paix avec <rs type="place" ref="#plEn">l'Angleterre</rs> étant trop grand 
+               dans les malheureuses circonstances où nous nous trouvons. J'ai senti tout cela; je l'ai très-souvent exposé à 
+               d'autres: et cependant j'ai frémi en <pb/> lisant ce morceau, et en me rapellant que les lettres que le Publiciste se 
+               fait écrire de <rs type="place" ref="#plFfm">Francfort</rs> ont toujours été violemment soupçonnées d'etre sorties du 
+               bureau de <rs type="person" ref="#CMdTP">Talleyrand</rs>.
+            </p>
+         </div>
+         <div n="2" corresp="#bezw">
+            <p>
+               Les lettres particulières de <rs type="place" ref="#plWi">Vienne</rs> rectifient la nouvelle de l'arrivée de 
+               <rs type="person" ref="#FXvSJ">Monsieur de St. Julien</rs> avec le <rs type="person" ref="#GCMD">C. Duroc</rs>. Ce 
+               dernier ne s'est point rendu à <rs type="place" ref="#plWi">Vienne</rs>; mais après avoir passé 
+               <rs type="place" ref="#plAu">Augsburg</rs>, il s'est arrété aux avant-postes François, pour attendre là le premier 
+               effet de sa mission.
+            </p>
+         </div>
+         <div n="3" corresp="#vgl">
+            <p>
+               En présentant mes très-humbles hommages à <rs type="person" ref="#CvT">Madame la Marquise</rs>, et 
+               <add place="above">à</add> Messieurs <rs type="person" ref="#FLuc">François</rs> et 
+               <rs type="person" ref="#MLuc">Maurice</rs>, je renouvelle à Votre Excellence l'expression du dévouement inviolable 
+               avec lequel je suis
+            </p>
+         </div>
+         <closer>
+            <salute rend="right">De Votre Excellence</salute>
+            <salute rend="right">le très-humble et très-</salute>
+            <salute rend="right">fidèle serviteur</salute>
+            <dateline rend="left"><rs type="place" ref="#plBe">Berlin</rs> <date when-iso="1800-08-18">18 Aout 1800</date>.</dateline>
+            <signed rend="right">Gentz</signed>
+         </closer>
+      </body>
+   </text>
+</TEI>

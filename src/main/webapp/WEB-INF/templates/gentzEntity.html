@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+
+<html xmlns:th="http://www.thymeleaf.org">
+
+<head>
+
+<!-- JQuery -->
+<script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+<!-- Bootstrap CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" />
+<!-- Bootstrap JavaScript -->
+<script type="text/javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+<!-- DataTables CSS -->
+<link rel="stylesheet" href="https://cdn.datatables.net/v/bs4/dt-1.10.16/datatables.min.css" />
+<!-- DataTables JavaScript -->
+<script type="text/javascript" src="https://cdn.datatables.net/v/bs4/dt-1.10.16/datatables.min.js"></script>
+<script type="text/javascript" src="/js/gentzList.js"></script>
+<link rel="stylesheet" href="/css/gentzStyle.css" />
+<title>Werksansicht</title>
+
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+
+
+</head>
+<body>
+	<nav th:include="gentzNav :: gentzNav">...</nav>
+	<div class="container">
+		<div class="row">
+			<!-- person -->
+			<div class="col-md-12" th:if="${person != null}">
+				<h1 th:text="${person.getFullName(true)}">Name der Person</h1>
+				<h3 th:if="${person.roleName != null}" th:text="${person.roleName}">Bezeichnung</h3>
+				<h3 th:if="${person.gndKey != null}"><a th:href="${person.gndKey}" th:text="GND-Link">GND-Link zur Person</a></h3>
+			</div>
+			<!-- place -->
+			<div class="col-md-12" th:if="${place != null}">
+				<h1 th:text="${place.placeName}">Name des Ortes</h1>
+				<h3 th:text="${place.printPlaceType('ger')}"></h3>
+				<a th:href="${place.gndKey}" th:text="GND-Link">GND-Link des Ortes</a>
+				<h3 th:if="${place.country != null}">
+					<span th:text="${'gehörte zur spätesten Briefnennung zu '+place.country.placeName}">Landeszugehörigkeit</span>
+					<a th:href="${place.country.gndKey}" th:text="${'(GND-Link des Landes)'}">GND-Link des Landes</a>
+				</h3>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-md-12">
+				<h2>Erwähnung in Briefen:</h2>
+				<table id="letterListTable">
+					<thead>
+						<tr>
+							<th>
+								Sender
+							</th>
+							<th>
+								Empfänger
+							</th>
+							<th>
+								Datum
+							</th>
+							<th>
+								Zusammenfassung
+							</th>
+						</tr>
+					</thead>
+					<tbody>
+						<tr th:each="letter: ${letters}" th:id="${letter.id}" th:include="letterListTableFragment :: letterListTable">
+							...
+						</tr>
+					</tbody>
+				</table>
+			</div>
+		</div>
+	</div>
+</body>
+</html>

@@ -1,0 +1,219 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc xml:id="LETTER_GENTZ_4039">
+         <titleStmt>
+            <title>Friedrich von Gentz an Karl Gustav von Brinckmann, 20. September 1801</title>
+            <editor xml:id="edAG">Andreas Gálffy</editor>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <name>Forschungsstelle "Universitätssammlung Friedrich von Gentz"</name>
+               <link target="http://gentz-digital.ub.uni-koeln.de http://www.ub.uni-koeln.de/cdm/singleitem/collection/gentz/id/4038/"/>
+            </publisher>
+            <pubPlace>Cologne</pubPlace>
+            <idno type="Gentz-Edition-Number" n="4039"/>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <country>Sweden</country>
+                  <settlement>Trolle-Ljungby</settlement>
+                  <institution>Archiv des Grafen Wachtmeister</institution>
+                  <repository>Nachlaß Brinckmann, Ausländ. Briefwechsel, Gentz an Brinckmann</repository>
+                  <idno>G 3</idno>
+               </msIdentifier>
+               <msContents>
+                  <summary>
+                     Neuerdings schreibt Gentz auf verzeirtes Papier, um Brinckmann von seiner Vornehmheit zu überzeugen. Er freut 
+                     sich, endlich zur Gräfin Voss gehen zu können. Es wird ein Déjeuner statt einem Souper bei Castell-Alfer 
+                     stattfinden. Gentz ist erstes Mitglied einer neu eingerichteten Zensurkommission über alle Juden.
+                  </summary>
+               </msContents>
+            </msDesc>
+            <listBibl type="preprints">
+               <biblStruct>
+                  <monogr>
+                     <editor>
+                        <persName>
+                           <ref target="http://d-nb.info/gnd/130953075"/>
+                           <forename>Friedrich Carl</forename>
+                           <surname>Wittichen</surname>
+                        </persName>
+                        <persName>
+                           <ref /> <!-- kein GND-Eintrag -->
+                           <forename>Ernst</forename>
+                           <surname>Salzer</surname>
+                        </persName>
+                     </editor>
+                     <title>Briefe von und an Friedrich von Gentz, 4 Bde.</title>
+                     <imprint>
+                        <publisher>Oldenbourg</publisher>
+                        <pubPlace>München, Berlin</pubPlace>
+                        <date>1909-1913</date>
+                     </imprint>
+                     <biblScope unit="volume" n="2">
+                        II
+                     </biblScope>
+                     <biblScope unit="page" from="79" to="79">
+                        Nr. 88 (teilweise)
+                     </biblScope>
+                  </monogr>
+               </biblStruct>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Masterarbeit zu Matrikelnummer 5584124</p>
+         </projectDesc>
+      </encodingDesc>
+      <profileDesc>
+         <creation>
+            <date when-iso="1801-09-20">20. September 1801</date>
+         </creation>
+        <langUsage>
+           <language ident="d">deutsch</language>
+        </langUsage>
+         <textClass>
+            <keywords scheme="internal"><!-- internal: innerhalb des besagten Briefs -->
+               <term>Billet</term>
+               <term>Treffen</term>
+               <term>Castell-Alfer</term>
+               <term>Humboldt</term>
+            </keywords>
+            <keywords scheme="categorisation"><!-- Sinnabschnittseinteilung - relevant für den Fahrkartenautomaten! -->
+               <term xml:id="vkgvb">Verhältnis Karl Gustav von Brinckmann</term>
+               <term xml:id="gfvs">Gräfin Voss</term>
+               <term xml:id="bezbl">Beziehungen zu Berlin - Leute</term>
+            </keywords>
+         </textClass>
+         <textDesc>
+            <channel>manuscript</channel>
+            <constitution type="single"/>
+            <derivation type="original"/>
+            <domain type="private"/>
+            <factuality type="fact"/>
+            <interaction type="partial"/>
+            <preparedness type="prepared"/>
+            <purpose type="inform"/>
+         </textDesc>
+         <particDesc>
+            <listPerson>
+               <!-- Sender und Adressat -->
+               <person role="sender" xml:id="Gen">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/118538489"/>
+                     <forename>Friedrich von</forename>
+                     <surname>Gentz</surname>
+                  </persName>
+               </person>
+               <person role="receiver" xml:id="KGvB">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/116519770"/>
+                     <forename>Carl Gustav von</forename>
+                     <surname>Brinckmann</surname>
+                  </persName>
+               </person>
+               <!-- erwähnte Personen -->
+               <person role="named" xml:id="LvV">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/117746185" />
+                     <forename>Luise von</forename>
+                     <surname>Voss</surname>
+                  </persName>
+               </person>
+               <person role="named" xml:id="CsAl">
+                  <persName>
+                     <ref />
+                     <forename/>
+                     <surname>Castell-Alfer</surname>
+                  </persName>
+               </person>
+               <person role="named" xml:id="GOFyH">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/1020345195"/>
+                     <forename>Gonzalo</forename>
+                     <surname>O'Farrill y Herrera</surname>
+                  </persName>
+               </person>
+               <person role="named" xml:id="Hum">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/118554727"/>
+                     <forename>Wilhelm von</forename>
+                     <surname>Humboldt</surname>
+                  </persName>
+               </person>
+            </listPerson>
+         </particDesc>
+         <settingDesc>
+            <listPlace>
+               <!-- Start- und Zielort -->
+               <place type="sender" xml:id="plSb">
+                  <country>
+                     <ref target="http://d-nb.info/gnd/4047194-9"/>
+                     <placeName>Preußen</placeName>
+                  </country>
+                  <settlement>
+                     <ref target="http://d-nb.info/gnd/116944-0"/>
+                     <placeName>Schöneberg</placeName>
+                  </settlement>
+               </place>
+               <place type="receiver" xml:id="plBe">
+                  <country>
+                     <ref target="http://d-nb.info/gnd/4047194-9"/>
+                     <placeName>Preußen</placeName>
+                  </country>
+                  <settlement>
+                     <ref target="http://d-nb.info/gnd/4005728-8"/>
+                     <placeName>Berlin</placeName>
+                  </settlement>
+               </place>
+               <!-- erwähnte Orte -->
+            </listPlace>
+         </settingDesc>
+      </profileDesc>
+      <revisionDesc>
+         <change xml:id="init" when-iso="2018-03-08" who="#edAG">Erstauszeichnung und Normierung des Dokumentes im Rahmen der Masterarbeit der Matrikelnummer 5584124</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div n="1" corresp="#vkgvb">
+            <p>
+               Um Sie immer mehr und mehr von meiner <emph rend="underlined">Vornehmheit</emph> zu überzeugen, schreibe ich jetzt 
+               auf kein schlechtres Papier mehr als das gegenwärtige. - Uebersehen Sie die 
+               <ref target="#r4039-1">Seiten-Devisen nicht !</ref>
+            </p>
+         </div>
+         <div n="2" corresp="#gfvs">
+            <p>
+               Ich danke Ihnen herzlich für alle Ihre Nachrichten, am meisten für die, welche mich autorisirt, mit Ihnen heute zur 
+               <rs type="person" ref="#LvV">Gräfin Voss</rs> zu gehen. Ich werde Sie um 7, oder eine Viertelstunde vor 7 abholen 
+               kommen.
+            </p>
+         </div>
+         <div n="3" corresp="#bezbl">
+            <p>
+               Ein Souper ist bei <rs type="person" ref="#CsAl">Castell-Alfer</rs> nicht, wohl aber ein Déjeuner wozu ich gebeten 
+               war; vermuthlich sind wir auf den Abend bei <rs type="person" ref="#GOFyH">O'Farill</rs> zusammen, doch das wird sich 
+               noch näher ergeben.
+            </p>
+            <p>
+               Die neuen Juden die Sie erwarten, können <emph rend="underlined">Sie</emph> nicht viel schlechter machen, als Sie 
+               schon sind, da man doch eigentlich - wie auch <rs type="person" ref="#Hum">Humboldt</rs> attestirt - mit Ihnen gar 
+               nichts mehr anfangen kan. - Vielleicht wißen Sie nicht, daß <emph rend="underlined">ich</emph> erstes Mitglied der 
+               neu-etablirten Censur-Commission über alle Juden geworden bin. Die Arnsteiner sollen meine Hand schon fühlen.
+            </p>
+         </div>
+         <closer>
+            <signed rend="right">Gentz.</signed>
+            <dateline rend="right"><rs type="place" ref="#plSb">Schöneberg</rs> <date when-iso="1801-09-20">20 Septbr 1801</date></dateline>
+         </closer>
+      </body>
+      <note xml:id="r4039-1">Das verwendete Papier hat einen blauen Grundton und eine Zierleiste auf allen vier Seiten des Blattes, die mit lateinischen Sprüchen beschriftet ist.</note>
+   </text>
+</TEI>

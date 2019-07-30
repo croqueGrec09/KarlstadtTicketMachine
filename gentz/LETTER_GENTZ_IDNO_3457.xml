@@ -1,0 +1,225 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader type="text">
+      <fileDesc xml:id="LETTER_GENTZ_3457">
+         <titleStmt>
+            <title>Friedrich von Gentz an Karl Gustav von Brinckmann, 2. September 1792</title>
+            <editor xml:id="edAG">Andreas Gálffy</editor>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <name>Forschungsstelle "Universitätssammlung Friedrich von Gentz"</name>
+               <link target="http://gentz-digital.ub.uni-koeln.de http://www.ub.uni-koeln.de/cdm/singleitem/collection/gentz/id/3456/"/>
+            </publisher>
+            <pubPlace>Cologne</pubPlace>
+            <idno type="Gentz-Edition-Number" n="3457"/>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <country>Sweden</country>
+                  <settlement>Trolle-Ljungby</settlement>
+                  <institution>Archiv des Grafen Wachtmeister</institution>
+                  <repository>Nachlaß Brinckmann, Ausländ. Briefwechsel, Gentz an Brinckmann</repository>
+                  <idno>G 3</idno>
+               </msIdentifier>
+               <msContents>
+                  <summary>
+                     Gentz war früh dran am Vorabend. Der Wächter und der Gedanke an Brinckmanns Bibliothek hielten ihn von einem 
+                     Treffen ab. Dafür aber bahnt sich ein Austausch an: gegen den ganzen Büffon, das English Theatre, den 
+                     vollständigen Swift und die englischen Dichter, die Gentz noch fehlen, schickt er Hume, Sheridan und den Brief 
+                     von Payne.
+                  </summary>
+               </msContents>
+            </msDesc>
+            <listBibl type="preprints">
+               <biblStruct>
+                  <monogr>
+                     <editor>
+                        <persName>
+                           <ref target="http://d-nb.info/gnd/130953075"/>
+                           <forename>Friedrich Carl</forename>
+                           <surname>Wittichen</surname>
+                        </persName>
+                        <persName>
+                           <ref/> <!-- kein GND-Eintrag -->
+                           <forename>Ernst</forename>
+                           <surname>Salzer</surname>
+                        </persName>
+                     </editor>
+                     <title>Briefe von und an Friedrich von Gentz. 4 Bde.</title>
+                     <imprint>
+                        <publisher>Oldenbourg</publisher>
+                        <pubPlace>München, Berlin</pubPlace>
+                        <date>1909-1913</date>
+                     </imprint>
+                     <biblScope unit="volume" n="2">
+                        II
+                     </biblScope>
+                     <biblScope unit="page" from="19" to="19">
+                        Nr. 6
+                     </biblScope>
+                  </monogr>
+               </biblStruct>
+            </listBibl>
+            <listBibl type="letterReferenced">
+               <bibl xml:id="c3457-1" corresp="#LETTER_GENTZ_NNNN">nicht bekannter Brief von Thomas Paine an unbekannt</bibl>
+            </listBibl>
+            <listBibl type="alludedWorks">
+               <bibl xml:id="a3457-1" corresp="#LETTER_GENTZ_NNNN">nicht näher benanntes Werk Buffons; wahrscheinlich ist Georges Louis Le Clerc de Buffon, Naturforscher, gemeint.</bibl>
+               <bibl xml:id="a3457-2" corresp="#LETTER_GENTZ_NNNN">nicht näher benanntes Werk von (vermutlich) Jonthan Swift</bibl>
+               <bibl xml:id="a3457-3" corresp="#LETTER_GENTZ_NNNN">nicht näher benanntes Werk von Thomas oder Charles Francis Sheridan</bibl>
+            </listBibl>
+            <listBibl type="defExpr">
+               <biblStruct xml:id="e3457-1" corresp="GBk-0029">
+                  <monogr>
+                     <title>The New English Theatre: Containing the Most Valuable Plays which Have Been Acted on the London Stage</title>
+                     <imprint>
+                        <pubPlace>London</pubPlace>
+                        <publisher>J. Rivington</publisher>
+                        <date>1776-1785</date>
+                     </imprint>
+                  </monogr>
+               <ptr target="https://books.google.de/books?id=x_yeAQAACAAJ"/></biblStruct>
+            </listBibl>
+            <listBibl type="defRep">
+               <biblStruct xml:id="p3457-1" corresp="Arc-0002">
+                  <monogr>
+                     <author>
+                        <persName>
+                           <ref target="http://d-nb.info/gnd/118554735"/>
+                           <forename>David</forename>
+                           <surname>Hume</surname>
+                        </persName>
+                     </author>
+                     <title>The History of England</title>
+                     <imprint>
+                        <pubPlace>Dublin</pubPlace>
+                        <publisher>The United Company of Booksellers</publisher>
+                        <date>1775</date>
+                     </imprint>
+                  </monogr>
+               <ptr target="https://archive.org/details/in.ernet.dli.2015.181294"/></biblStruct>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Masterarbeit zu Matrikelnummer 5584124</p>
+         </projectDesc>
+      </encodingDesc>
+      <profileDesc>
+         <creation>
+            <date when-iso="1792-09-02">2. September 1792</date>
+         </creation>
+        <langUsage>
+           <language ident="d">deutsch</language>
+        </langUsage>
+         <textClass>
+            <keywords scheme="internal"><!-- internal: innerhalb des besagten Briefs -->
+               <term>Billet</term>
+               <term>Hume</term>
+               <term>Bibliothek</term>
+            </keywords>
+            <keywords scheme="categorisation"><!-- Sinnabschnittseinteilung - relevant für den Fahrkartenautomaten! -->
+               <term xml:id="vkgvb">Verhältnis Karl Gustav von Brinckmann</term>
+               <term xml:id="bibl">Bibliothek</term>
+            </keywords>
+         </textClass>
+         <textDesc>
+            <channel>manuscript</channel>
+            <constitution type="single"/>
+            <derivation type="original"/>
+            <domain type="private"/>
+            <factuality type="fact"/>
+            <interaction type="partial"/>
+            <preparedness type="unprepared"/>
+            <purpose type="inform"/>
+         </textDesc>
+         <particDesc>
+            <listPerson>
+               <!-- Sender und Adressat -->
+               <person role="sender" xml:id="Gen">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/118538489"/>
+                     <forename>Friedrich von</forename>
+                     <surname>Gentz</surname>
+                  </persName>
+               </person>
+               <person role="receiver" xml:id="KGvB">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/116519770"/>
+                     <forename>Carl Gustav von</forename>
+                     <surname>Brinckmann</surname>
+                  </persName>
+               </person>
+               <!-- erwähnte Personen -->
+               <person role="named" xml:id="Hume">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/118554735"/>
+                     <forename>David</forename>
+                     <surname>Hume</surname>
+                  </persName>
+               </person>
+               <person role="named" xml:id="TPai">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/118591215"/>
+                     <forename>Thomas</forename>
+                     <surname>Paine</surname>
+                  </persName>
+               </person>
+            </listPerson>
+         </particDesc>
+         <settingDesc>
+            <listPlace>
+               <!-- Start- und Zielort -->
+               <place type="sender" xml:id="plBe">
+                  <country>
+                     <ref target="http://d-nb.info/gnd/4047194-9"/>
+                     <placeName>Preußen</placeName>
+                  </country>
+                  <settlement>
+                     <ref target="http://d-nb.info/gnd/4005728-8"/>
+                     <placeName>Berlin</placeName>
+                  </settlement>
+               </place>
+               <!-- erwähnte Orte -->
+            </listPlace>
+         </settingDesc>
+      </profileDesc>
+      <revisionDesc>
+         <change xml:id="init" when-iso="2018-02-06" who="#edAG">Erstauszeichnung und Normierung des Dokumentes im Rahmen der Masterarbeit der Matrikelnummer 5584124</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>     
+      <body>
+         <opener resp="#KGvB">
+            <dateline rend="right">den <date when-iso="1792-09-02">2. Sept. 1792</date>.</dateline>
+         </opener>
+         <div n="1" corresp="#vkgvb">
+            <p>
+               Ich war gestern Abend im Begriff noch zu Ihnen zu kommen: dann als ich auf die Straße trat, ward ich gewahr, daß es 
+               noch scheußlich früh war, indem der Wächter zu meinem Schrecken nur Einmahl <emph rend="underlined">tot</emph> 
+               (imperfectum von <emph rend="underlined">tüten</emph>) - Indessen hielt mich der Gedanke ab, daß ich dann zum 
+               erstenmahle Ihre Bibliothek sehen, und also entweder gar nicht schlafen gehen, oder wenn es ja so weit käme, eine 
+               unruhige Nacht haben würde. 
+            </p>
+         </div>
+         <div n="2" corresp="#bibl">
+            <p>
+               Ich entschloß mich also, nach Hause zu gehen, und Sie aus Dankbarkeit gegen Ihre gestrigen 4 Anträge zu bitten, mir 
+               1) den <rs type="citation" ref="#a3457-1">ganzen Büffon</rs>, 
+               2) <rs type="citation" ref="#e3457-1">das English theatre</rs>, <pb/> 
+               3) den <rs type="citation" ref="#a3457-2">vollständigen Swift</rs>, 4) diejenigen Englischen Dichter, die mir noch 
+               fehlen, - durch Ueberbringer dieses, der sich zu dem Ende mit einem Karren versehen wird, zu schicken. Ich erwarte 
+               sie also unfehlbar. Unterdessen erhalten Sie hier den <rs type="citation" ref="#p3457-1">Hume</rs>, den 
+               <rs type="citation" ref="#a3457-3">Sheridan</rs> und den <rs type="citation" ref="#c3457-1">Brief</rs> von 
+               <rs type="person" ref="#TPai">Paine</rs> zurück. Adieu
+            </p>
+         </div>
+         <closer>
+            <signed rend="right">Gentz</signed>
+         </closer>
+      </body>
+   </text>
+</TEI>

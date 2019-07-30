@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader type="text">
+      <fileDesc xml:id="LETTER_GENTZ_0843">
+         <titleStmt>
+            <title>Friedrich von Gentz an Elisabeth Graun, etwa Ende Februar 1785</title>
+            <editor xml:id="edAG">Andreas Gálffy</editor>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <name>Forschungsstelle "Universitätssammlung Friedrich von Gentz"</name>
+               <link target="http://gentz-digital.ub.uni-koeln.de http://www.ub.uni-koeln.de/cdm/singleitem/collection/gentz/id/842/"/>
+            </publisher>
+            <pubPlace>Cologne</pubPlace>
+            <idno type="Gentz-Edition-Number" n="0843"/>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <country>Poland</country>
+                  <settlement>Cracow</settlement>
+                  <institution>Biblioteka Jagiellońska</institution>
+                  <repository>Handschriftenabtelung</repository>
+                  <collection>Varnhagensammlung der ehemaligen Preußischen Bibliothek</collection>
+                  <idno>Karton 66</idno>
+               </msIdentifier>
+               <msContents>
+                  <summary>
+                     Das Dasein Elisabeth Grauns mutet Gentz ziemlich trist an; deshalb möchte er ihr etwas zur Ablenkung schicken 
+                     und hofft, dass sie zumindest etwas Gefallen da dran finden wird. Der Vergleich mit Anderen, so Gentz am 
+                     Schluss, sei manchmal die einzige Glückseligkeit.
+                  </summary>
+               </msContents>
+            </msDesc>
+            <listBibl type="preprints">
+               <biblStruct>
+                  <monogr>
+                     <editor>
+                        <persName>
+                           <ref target="http://d-nb.info/gnd/117325791"/>
+                           <forename>Gustav</forename>
+                           <surname>Schlesier</surname>
+                        </persName>
+                     </editor>
+                     <title>Schriften von Friedrich von Gentz. Ein Denkmal. 5 Bde.</title>
+                     <imprint>
+                        <publisher>Verlag von Heinrich Wolff</publisher>
+                        <pubPlace>Mannheim</pubPlace>
+                        <date>1838-1840</date>
+                     </imprint>
+                     <biblScope unit="volume" n="1">
+                        I
+                     </biblScope>
+                     <biblScope unit="page" from="26" to="26">
+                        Nr. 3
+                     </biblScope>
+                  </monogr>
+               </biblStruct>
+               <biblStruct>
+                  <monogr>
+                     <editor>
+                        <persName>
+                           <ref target="http://d-nb.info/gnd/130953075"/>
+                           <forename>Friedrich Carl</forename>
+                           <surname>Wittichen</surname>
+                        </persName>
+                        <persName>
+                           <ref/> <!-- kein GND-Eintrag -->
+                           <forename>Ernst</forename>
+                           <surname>Salzer</surname>
+                        </persName>
+                     </editor>
+                     <title>Briefe von und an Friedrich von Gentz. 4 Bde.</title>
+                     <imprint>
+                        <publisher>Oldenbourg</publisher>
+                        <pubPlace>München, Berlin</pubPlace>
+                        <date>1909-1913</date>
+                     </imprint>
+                     <biblScope unit="volume" n="1">
+                        I
+                     </biblScope>
+                     <biblScope unit="page" from="26" to="26">
+                        Nr. 3
+                     </biblScope>
+                  </monogr>
+               </biblStruct>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Masterarbeit zu Matrikelnummer 5584124</p>
+         </projectDesc>
+      </encodingDesc>
+      <profileDesc>
+         <creation>
+            <date when-iso="1785-02-00">etwa Ende Februar 1785</date>
+         </creation>
+        <langUsage>
+           <language ident="d">deutsch</language>
+        </langUsage>
+         <textClass>
+            <keywords scheme="internal"><!-- internal: innerhalb des besagten Briefs -->
+               <term>Brief</term>
+               <term>Graun</term>
+               <term>Glückseligkeit</term>
+               <term>Philosophie</term>
+            </keywords>
+            <keywords scheme="categorisation"><!-- Sinnabschnittseinteilung - relevant für den Fahrkartenautomaten! -->
+               <term xml:id="veg">Verhältnis Elisabeth Graun</term>
+            </keywords>
+         </textClass>
+         <textDesc>
+            <channel>manuscript</channel>
+            <constitution type="single"/>
+            <derivation type="original"/>
+            <domain type="private"/>
+            <factuality type="fact"/>
+            <interaction type="partial"/>
+            <preparedness type="prepared"/>
+            <purpose type="inform"/>
+         </textDesc>
+         <particDesc>
+            <listPerson>
+               <!-- Sender und Adressat -->
+               <person role="sender" xml:id="Gen">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/118538489"/>
+                     <forename>Friedrich von</forename>
+                     <surname>Gentz</surname>
+                  </persName>
+               </person>
+               <person role="receiver" xml:id="Gra">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/123518733"/>
+                     <forename>Elisabeth</forename>
+                     <surname>Graun</surname>
+                  </persName>
+               </person>
+               <!-- erwähnte Personen -->
+            </listPerson>
+         </particDesc>
+         <settingDesc>
+            <listPlace>
+               <!-- Start- und Zielort -->
+               <place type="sender" xml:id="plKo">
+                  <country>
+                     <ref target="http://d-nb.info/gnd/4047194-9"/>
+                     <placeName>Preußen</placeName>  
+                  </country>
+                  <settlement>
+                     <ref target="http://d-nb.info/gnd/4031541-1"/>
+                     <placeName>Königsberg</placeName>
+                  </settlement>
+               </place>
+            </listPlace>
+         </settingDesc>
+      </profileDesc>
+      <revisionDesc>
+         <change xml:id="init" when-iso="2018-01-27" who="#edAG">Erstauszeichnung und Normierung des Dokumentes im Rahmen der Masterarbeit der Matrikelnummer 5584124</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <front>
+         <p>
+            Der Frau RegierungsRath.
+            Graun Wohlgebohren.
+         </p>
+         <figure>
+            <desc>Siegelrest</desc>
+         </figure>
+      </front>
+      <body>
+         <div n="1" corresp="#veg">
+            <p>
+               Ich wollte das Vergnügen haben, Ihnen diese Charaktere selbst vorzulesen; aber der Spatziergang mit den beyden 
+               <emph rend="underlined">Thieren</emph> hat mich zu lange aufgehalten; <del rend="stroked">als</del> indeßen wollte 
+               ich Ihnen, beste Frau Regierungs-Räthin, doch in Ihrem Witwen-Stande gern oft Unterhaltung verschaffen, und daher 
+               schike ich sie Ihnen, um Sich heute Abend, oder Morgen früh damit zu divertiren. Untersuchen Sie nicht, wer sie 
+               gemacht hat; genung, wenn Sie Einiges darrin getroffen finden. Die Veranlaßung, die Sie hervorbrachte, werde ich 
+               Ihnen selbst erzählen. Möchte die Kleinigkeit doch Etwas zur Unterhaltung und Beruhigung Ihrer Seele beytragen. 
+               Es ist manchmal die einzige Glükseeligkeit, die uns übrig bleibt, daß wir uns mit Andern vergleichen.
+            </p>
+         </div>
+         <closer>
+            <signed rend="right">Gentze.</signed>
+         </closer>
+      </body>
+   </text>
+</TEI>

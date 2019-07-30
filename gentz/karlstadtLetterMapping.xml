@@ -1,0 +1,1266 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- 
+    This is the map file, where the letter categories are assigned to their respective 
+    stations. For the ticket machine, this mapping is done also in reverse order.
+-->
+<documentMapping xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="documentMapping.xsd" idPrefix="ka">
+    <termRef key="abf">
+        <!-- 
+            Amerikanische Briefe - maps to: 
+            9 (Monatsschrift)
+            18 (Böttigerweg)
+        -->
+        <value>9</value>
+        <value>18</value>
+    </termRef>
+    <termRef key="alar">
+        <!-- 
+            Alarkos - maps to: 
+            10 (Munizipialbibliothek)
+            13 (Brinckmannstraße)
+        -->
+        <value>10</value>
+        <value>13</value>
+    </termRef>
+    <termRef key="allgz">
+        <!-- 
+            Allgemeine Zeitung - maps to:
+            16 (Zeitungsvietel)
+            18 (Böttigerweg)
+            28 (Müllerstraße)
+        -->
+        <value>16</value>
+        <value>18</value>
+        <value>28</value>
+    </termRef>
+    <termRef key="ank">
+        <!-- 
+            Ankündigung - maps to:
+            7 (Werksviertel)
+            10 (Munizipialbibliothek)
+        -->
+        <value>7</value>
+        <value>10</value>
+    </termRef>
+    <termRef key="bewoest">
+        <!-- 
+            Bewegung der österreichischen Armee - maps to:
+            14 (Napoleonische Akademie)
+            22 (König-Kaiser-Platz)
+            23 (Cobentzl-Saurau-Weg)
+            27 (Wiener Platz)
+        -->
+        <value>14</value>
+        <value>22</value>
+        <value>23</value>
+        <value>27</value>
+    </termRef>
+    <termRef key="bewrus">
+        <!-- 
+            Bewegung der russischen Armee - maps to: 
+            14 (Napoleonische Akademie)
+            22 (König-Kaiser-Platz)
+            23 (Cobentzl-Saurau-Weg)
+            27 (Wiener Platz)
+        -->
+        <value>14</value>
+        <value>22</value>
+        <value>23</value>
+        <value>27</value>
+    </termRef>
+    <termRef key="bezbl">
+        <!-- 
+            Beziehungen zu Berlin - Leute - maps to: 
+            6 (Schlegelweg)
+            11 (Humboldtstraße)
+            13 (Brinckmannstraße)
+            17 (Berliner Platz)
+        -->
+        <value>6</value>
+        <value>11</value>
+        <value>13</value>
+        <value>17</value>
+    </termRef>
+    <termRef key="bezbr">
+        <!-- 
+            Beziehungen zu Breslau - maps to: 
+            3 (Magdaleneum)
+            4 (Garveplatz)
+            12 (Kantstraße)
+            20 (Beamtenplatz)
+            21 (Hoymweg)
+        -->
+        <value>3</value>
+        <value>4</value>
+        <value>12</value>
+        <value>20</value>
+        <value>21</value>
+    </termRef>
+    <termRef key="bezbt">
+        <!-- 
+            Beziehungen zu Berlin - Beamtentätigkeit - maps to: 
+            13 (Brinckmannstraße)
+            19 (Voßstraße)
+            20 (Beamtenplatz)
+            21 (Hoymweg)
+        -->
+        <value>13</value>
+        <value>19</value>
+        <value>20</value>
+        <value>21</value>
+    </termRef>
+    <termRef key="bezkg">
+        <!-- 
+            Beziehungen zu Königsberg - maps to:
+            1 (Karlstadt Hauptbahnhof)
+            2 (Graunplatz)
+            3 (Magdaleneum)
+        -->
+        <value>1</value>
+        <value>2</value>
+        <value>3</value>
+    </termRef>
+    <termRef key="bezl">
+        <!-- 
+            Beziehungen zu London - maps to: 
+            23 (Cobentzl-Saurau-Weg)
+            24 (Pittstraße)
+            25 (Londoner Platz)
+        -->
+        <value>23</value>
+        <value>24</value>
+        <value>25</value>
+    </termRef>
+    <termRef key="bezp">
+        <!--
+            Beziehungen zu Paris - maps to:
+            8 (Pariser Platz)
+        -->
+        <value>8</value>
+    </termRef>
+    <termRef key="bezw">
+        <!-- 
+            Beziehungen zu Wien - maps to:
+            23 (Cobentzl-Saurau-Weg)
+            27 (Wiener Platz)
+        -->
+        <value>23</value>
+        <value>27</value>
+    </termRef>
+    <termRef key="bibl">
+        <!-- 
+            Bibliothek - maps to:
+            10 (Munizipialbibliothek)
+            13 (Brinckmannstraße)
+        -->
+        <value>10</value>
+        <value>13</value>
+    </termRef>
+    <termRef key="brb">
+        <!-- 
+            Bruch mit Berlin - maps to:
+            19 (Voßstraße)
+            20 (Beamtenplatz)
+            27 (Wiener Platz)
+        -->
+        <value>19</value>
+        <value>20</value>
+        <value>27</value>
+    </termRef>
+    <termRef key="budcff">
+        <!-- 
+            Betrachtungen über den Ursprung, den Fortgang und den Charakter des 
+            Französischen Revolutions-Krieges - maps to:
+            7 (Werksviertel)
+            8 (Pariser Platz)
+            10 (Munizipialbibliothek)
+            14 (Napoleonische Academie)
+            15 (Historisches Journal)
+        -->
+        <value>7</value>
+        <value>8</value>
+        <value>10</value>
+        <value>14</value>
+        <value>15</value>
+    </termRef>
+    <termRef key="cba">
+        <!-- 
+            Charlottenburger Angelegenheit - maps to:
+            13 (Brinckmannstraße)
+            17 (Berliner Platz)
+        -->
+        <value>13</value>
+        <value>17</value>
+    </termRef>
+    <termRef key="efgb">
+        <!-- 
+            Essay über die Finanzen Großbritanniens - maps to:
+            7 (Werksviertel)
+            10 (Munizipialbibliothek)
+            24 (Pittstraße)
+            25 (Londoner Platz)
+        -->
+        <value>7</value>
+        <value>10</value>
+        <value>24</value>
+        <value>25</value>
+    </termRef>
+    <termRef key="ehdl">
+        <!-- 
+            englischer Handel - maps to:
+            24 (Pittstraße)
+            25 (Londoner Platz)
+        -->
+        <value>24</value>
+        <value>25</value>
+    </termRef>
+    <termRef key="ekb">
+        <!-- 
+            englisches Kabinett - maps to:
+            24 (Pittstraße)
+        -->
+        <value>24</value>
+    </termRef>
+    <termRef key="ekg">
+        <!-- 
+            englischer Katalog - maps to:
+            10 (Munizipialbibliothek)
+            13 (Brinckmannstraße)
+        -->
+        <value>10</value>
+        <value>13</value>
+    </termRef>
+    <termRef key="eleg">
+        <!-- 
+            Elegien - maps to: 
+            10 (Munizipialbibliothek)
+        -->
+        <value>10</value>
+    </termRef>
+    <termRef key="engspa">
+        <!-- 
+            England-Spanien - maps to:
+            22 (König-Kaiser-Platz)
+            25 (Londoner Platz)
+        -->
+        <value>22</value>
+        <value>25</value>
+    </termRef>
+    <termRef key="ezg">
+        <!-- 
+            englische Zeitungen - maps to:
+            16 (Zeitungsviertel)
+            25 (Londoner Platz)
+        -->
+        <value>16</value>
+        <value>25</value>
+    </termRef>
+    <termRef key="frf">
+        <!-- 
+            französische Finanzen - maps to: 
+            8 (Pariser Platz)
+        -->
+        <value>8</value>
+    </termRef>
+    <termRef key="frv">
+        <!-- 
+            Französische Revolution - maps to: 
+            8 (Pariser Platz)
+            14 (Napoleonische Academie)
+            25 (Londoner Platz)
+        -->
+        <value>8</value>
+        <value>14</value>
+        <value>25</value>
+    </termRef>
+    <termRef key="frz">
+        <!-- 
+            französische Zeitungen - maps to: 
+            8 (Pariser Platz)
+            16 (Zeitungsviertel)
+        -->
+        <value>8</value>
+        <value>16</value>
+    </termRef>
+    <termRef key="fvam">
+        <!-- 
+            Friede von Amiens - maps to: 
+            14 (Napoleonische Academie)
+            22 (König-Kaiser-Platz)
+            25 (Londoner Platz)
+        -->
+        <value>14</value>
+        <value>22</value>
+        <value>25</value>
+    </termRef>
+    <termRef key="fvlv">
+        <!-- 
+            Friede von Amiens - maps to: 
+            14 (Napoleonische Academie)
+            22 (König-Kaiser-Platz)
+            25 (Londoner Platz)
+        -->
+        <value>14</value>
+        <value>22</value>
+        <value>25</value>
+    </termRef>
+    <termRef key="geh">
+        <!-- 
+            Gentz' Ehe - maps to:
+            2 (Graunplatz)
+        -->
+        <value>2</value>
+    </termRef>
+    <termRef key="genf">
+        <!-- 
+            Gentz - Familie - maps to:
+            2 (Graunplatz)
+            3 (Magdaleneum)
+        -->
+        <value>2</value>
+        <value>3</value>
+    </termRef>
+    <termRef key="gfrv">
+        <!-- 
+            Geschichte der französische Revolution von ihrem Ausbruch bis zur Auflösung 
+            der Ersten Nationalversammlung - maps to: 
+            7 (Werksviertel)
+            8 (Pariser Platz)
+            14 (Napoleonische Academie)
+            15 (Historisches Journal)
+        -->
+        <value>7</value>
+        <value>8</value>
+        <value>14</value>
+        <value>15</value>
+    </termRef>
+    <termRef key="gfvs">
+        <!-- 
+            Gräfin Voss - maps to: 
+            6 (Schlegelweg)
+            13 (Brinckmannstraße)
+            17 (Berliner Platz)
+        -->
+        <value>6</value>
+        <value>13</value>
+        <value>17</value>
+    </termRef>
+    <termRef key="gg">
+        <!-- 
+            Gentz - Gesundheit - maps to: 
+            1 (Karlstadt Hauptbahnhof)
+            3 (Magdaleneum)
+        -->
+        <value>1</value>
+        <value>3</value>
+    </termRef>
+    <termRef key="gprl">
+        <!-- 
+            Gentz - p(r)ekuniäre Lage - maps to: 
+            17 (Berliner Platz)
+            20 (Beamtenplatz)
+            26 (Armfelt-Chaussée)
+        -->
+        <value>17</value>
+        <value>20</value>
+        <value>26</value>
+    </termRef>
+    <termRef key="jrnh">
+        <!-- 
+            Historisches Journal - maps to:
+            15 (Historisches Journal)
+            16 (Zeitungsviertel)
+            22 (König-Kaiser-Platz)
+            27 (Wiener Platz)
+            28 (Müllerstraße)
+        -->
+        <value>15</value>
+        <value>16</value>
+        <value>22</value>
+        <value>27</value>
+        <value>28</value>
+    </termRef>
+    <termRef key="kads">
+        <!-- 
+            Adam Smith - maps to: 
+            5 (Garveplatz)
+            7 (Werksviertel)
+            10 (Munizipialbibliothek)
+            25 (Londoner Platz)
+        -->
+        <value>5</value>
+        <value>7</value>
+        <value>10</value>
+        <value>25</value>
+    </termRef>
+    <termRef key="kant">
+        <!-- 
+            Kant - maps to:
+            3 (Magdaleneum)
+            4 (Breslauer Platz)
+            7 (Werksviertel)
+            10 (Munizipialbibliothek)
+            12 (Kantstraße)
+        -->
+        <value>3</value>
+        <value>4</value>
+        <value>7</value>
+        <value>10</value>
+        <value>12</value>
+    </termRef>
+    <termRef key="karn">
+        <!-- 
+            Arnstein - maps to: 
+            6 (Schlegelweg)
+            13 (Brinckmannstraße)
+            17 (Berliner Platz)
+        -->
+        <value>6</value>
+        <value>13</value>
+        <value>17</value>
+    </termRef>
+    <termRef key="kbay">
+        <!-- 
+            Bayle - maps to: 
+            7 (Werksviertel)
+            10 (Munizipialbibliothek)
+            13 (Brinckmannstraße)
+        -->
+        <value>7</value>
+        <value>10</value>
+        <value>13</value>
+    </termRef>
+    <termRef key="kbur">
+        <!-- 
+            Burke - maps to: 
+            7 (Werksviertel)
+            8 (Pariser Platz)
+            22 (König-Kaiser-Platz)
+            25 (Londoner Platz)
+        -->
+        <value>7</value>
+        <value>8</value>
+        <value>22</value>
+        <value>25</value>
+    </termRef>
+    <termRef key="kcai">
+        <!-- 
+            Caillard - maps to: 
+            8 (Pariser Platz)
+            14 (Napoleonische Academie)
+        -->
+        <value>8</value>
+        <value>14</value>
+    </termRef>
+    <termRef key="kcjo">
+        <!-- 
+            Camille Jordan - maps to: 
+            8 (Pariser Platz)
+        -->
+        <value>8</value>
+    </termRef>
+    <termRef key="kcoe">
+        <!-- 
+            Coelestinen - maps to: 
+            2 (Graunplatz)
+        -->
+        <value>2</value>
+    </termRef>
+    <termRef key="kdgl">
+        <!-- 
+            Dengel - maps to: 
+            2 (Graunplatz)
+        -->
+        <value>2</value>
+    </termRef>
+    <termRef key="keng">
+        <!-- 
+            England - maps to: 
+            14 (Napoleonische Academie)
+            24 (Pittstraße)
+            25 (Londoner Platz)
+        -->
+        <value>14</value>
+        <value>24</value>
+        <value>25</value>
+    </termRef>
+    <termRef key="kengs">
+        <!-- 
+            Engeström - maps to: 
+            6 (Schlegelweg)
+            13 (Brinckmannstraße)
+        -->
+        <value>6</value>
+        <value>13</value>
+    </termRef>
+    <termRef key="kgil">
+        <!-- 
+            Gilly - maps to: 
+            2 (Graunplatz)
+            17 (Berliner Platz)
+        -->
+        <value>2</value>
+        <value>17</value>
+    </termRef>
+    <termRef key="kgor">
+        <!-- 
+            Gordon - maps to: 
+            7 (Werksviertel)
+            10 (Munizipialbibliothek)
+        -->
+        <value>7</value>
+        <value>10</value>
+    </termRef>
+    <termRef key="khum">
+        <!-- 
+            Humboldt - maps to:
+            5 (Garveplatz)
+            6 (Schlegelweg)
+            11 (Humboldtstraße)
+            12 (Kantstraße)
+            13 (Brinckmannstraße)
+            17 (Berliner Platz)
+        -->
+        <value>5</value>
+        <value>6</value>
+        <value>11</value>
+        <value>12</value>
+        <value>13</value>
+        <value>17</value>
+    </termRef>
+    <termRef key="kjeh">
+        <!-- 
+            Jehnisch - maps to: 
+            6 (Schlegelweg)
+            7 (Werksviertel)
+            13 (Brinckmannstraße)
+            17 (Berliner Platz)
+        -->
+        <value>6</value>
+        <value>7</value>
+        <value>13</value>
+        <value>17</value>
+    </termRef>
+    <termRef key="klno">
+        <!-- 
+            Le Noble - maps to: 
+            2 (Graunplatz)
+        -->
+        <value>2</value>
+    </termRef>
+    <termRef key="kmou">
+        <!-- 
+            Mounier - maps to: 
+            8 (Pariser Platz)
+            16 (Zeitungsviertel)
+        -->
+        <value>8</value>
+        <value>16</value>
+    </termRef>
+    <termRef key="kmrk">
+        <!-- 
+            Merkur - maps to: 
+            16 (Zeitungsviertel)
+        -->
+        <value>16</value>
+    </termRef>
+    <termRef key="kmrn">
+        <!-- 
+            Marnesia - maps to: 
+            7 (Werksviertel)
+        -->
+        <value>7</value>
+    </termRef>
+    <termRef key="kost">
+        <!-- 
+            Österreich - maps to: 
+            14 (Napoleonische Academie)
+            23 (Cobentzl-Saurau-Weg)
+            27 (Wiener Platz)
+            28 (Müllerstraße)
+        -->
+        <value>14</value>
+        <value>23</value>
+        <value>27</value>
+        <value>28</value>
+    </termRef>
+    <termRef key="kpd">
+        <!-- 
+            Briefspuren - Polizey Karlstadt - maps to: 
+            1 (Karlstadt Hauptbahnhof)
+        -->
+        <value>1</value>
+    </termRef>
+    <termRef key="kphul">
+        <!-- 
+            Phul - maps to: 
+            5 (Garveplatz)
+        -->
+        <value>5</value>
+    </termRef>
+    <termRef key="kpos">
+        <!-- 
+            Posselt - maps to:
+            5 (Garveplatz)
+            8 (Pariser Platz)
+            16 (Zeitungsviertel)
+            17 (Berliner Platz)
+        -->
+        <value>5</value>
+        <value>8</value>
+        <value>16</value>
+        <value>17</value>
+    </termRef>
+    <termRef key="kpr">
+        <!-- 
+            Preußen - maps to: 
+            20 (Beamtenplatz)
+            22 (König-Kaiser-Platz)
+            27 (Wiener Platz)
+        -->
+        <value>20</value>
+        <value>22</value>
+        <value>27</value>
+    </termRef>
+    <termRef key="kram">
+        <!-- 
+            Rammler - maps to: 
+            10 (Munizipialbibliothek)
+        -->
+        <value>10</value>
+    </termRef>
+    <termRef key="krou">
+        <!-- 
+            Rousseau - maps to:
+            7 (Werksviertel)
+            10 (Munizipialbibliothek)
+        -->
+        <value>7</value>
+        <value>10</value>
+    </termRef>
+    <termRef key="krrg">
+        <!-- 
+            Regierungsrat Graun - maps to: 
+            2 (Graunplatz)
+        -->
+        <value>2</value>
+    </termRef>
+    <termRef key="kru">
+        <!-- 
+            Russland - maps to: 
+            14 (Napoleonische Academie)
+            25 (Londoner Platz)
+            27 (Wiener Platz)
+        -->
+        <value>14</value>
+        <value>25</value>
+        <value>27</value>
+    </termRef>
+    <termRef key="kschl">
+        <!-- 
+            Schlegel - maps to: 
+            6 (Schlegelweg)
+            17 (Berliner Platz)
+        -->
+        <value>6</value>
+        <value>17</value>
+    </termRef>
+    <termRef key="kschw">
+        <!-- 
+            Schwink - maps to: 
+            2 (Graunplatz)
+        -->
+        <value>2</value>
+    </termRef>
+    <termRef key="kvmp">
+        <!-- 
+            Über die Verbindung der Moral mit der Politik - maps to: 
+            7 (Werksviertel)
+            9 (Monatsschrift)
+            10 (Munizipialbibliothek)
+        -->
+        <value>7</value>
+        <value>9</value>
+        <value>10</value>
+    </termRef>
+    <termRef key="ldgd">
+        <!-- 
+            Land-Geld - maps to: 
+            13 (Brinckmannstraße)
+        -->
+        <value>13</value>
+    </termRef>
+    <termRef key="lvm">
+        <!-- 
+            Literatur vermischt - maps to: 
+            7 (Werksviertel)
+            13 (Brinckmannstraße)
+        -->
+        <value>7</value>
+        <value>13</value>
+    </termRef>
+    <termRef key="meu">
+        <!-- 
+            Meubles - maps to:
+            13 (Brinckmannstraße)
+            17 (Berliner Platz)
+        -->
+        <value>13</value>
+        <value>17</value>
+    </termRef>
+    <termRef key="mnp">
+        <!-- 
+            Mercier Nouveau Paris - maps to: 
+            7 (Werksviertel)
+            10 (Munizipialbibliothek)
+            17 (Berliner Platz)
+        -->
+        <value>7</value>
+        <value>10</value>
+        <value>17</value>
+    </termRef>
+    <termRef key="mon">
+        <!-- 
+            Moniteur - maps to: 
+            8 (Pariser Platz)
+            14 (Napoleonische Academie)
+            16 (Zeitungsviertel)
+        -->
+        <value>8</value>
+        <value>14</value>
+        <value>16</value>
+    </termRef>
+    <termRef key="mss">
+        <!-- 
+            Monatsschrift - maps to: 
+            9 (Monatsschrift)
+            16 (Zeitungsviertel)
+        -->
+        <value>9</value>
+        <value>16</value>
+    </termRef>
+    <termRef key="mstr">
+        <!-- 
+            Meister - maps to: 
+            10 (Munizipialbibliothek)
+        -->
+        <value>10</value>
+    </termRef>
+    <termRef key="napinv">
+        <!-- 
+            Napoleonische Invasion - maps to: 
+            8 (Pariser Platz)
+            14 (Napoleonische Academie)
+            15 (Historisches Journal)
+            16 (Zeitungsviertel)
+            22 (König-Kaiser-Platz)
+            25 (Londoner Platz)
+            28 (Müllerstraße)
+        -->
+        <value>8</value>
+        <value>14</value>
+        <value>15</value>
+        <value>16</value>
+        <value>22</value>
+        <value>25</value>
+        <value>28</value>
+    </termRef>
+    <termRef key="noop">
+        <!-- 
+            Neuordnung Ostpreußens - maps to: 
+            20 (Beamtenplatz)
+        -->
+        <value>20</value>
+    </termRef>
+    <termRef key="oesteng">
+        <!-- 
+            Österreich - England - maps to: 
+            14 (Napoleonische Academie)
+            23 (Cobentzl-Saurau-Weg)
+            25 (Londoner Platz)
+        -->
+        <value>14</value>
+        <value>23</value>
+        <value>25</value>
+    </termRef>
+    <termRef key="oestrus">
+        <!-- 
+            Österreich - Russland - maps to: 
+            14 (Napoleonische Academie)
+            23 (Cobentzl-Saurau-Weg)
+            25 (Londoner Platz)
+        -->
+        <value>14</value>
+        <value>23</value>
+        <value>25</value>
+    </termRef>
+    <termRef key="philw">
+        <!-- 
+            Philosophie - Lebenswege - maps to: 
+            2 (Graunplatz)
+            5 (Garveplatz)
+        -->
+        <value>2</value>
+        <value>5</value>
+    </termRef>
+    <termRef key="phipf">
+        <!-- 
+            Philosophie - Pflicht - maps to: 
+            5 (Garveplatz)
+        -->
+        <value>5</value>
+    </termRef>
+    <termRef key="phish">
+        <!-- 
+            Philosophie - Schönheit - maps to: 
+            2 (Graunplatz)
+            5 (Garveplatz)
+        -->
+        <value>2</value>
+        <value>5</value>
+    </termRef>
+    <termRef key="phisnr">
+        <!-- 
+            Philosophie - Stand der Natur bei Regenten - maps to: 
+            5 (Garveplatz)
+        -->
+        <value>5</value>
+    </termRef>
+    <termRef key="prr">
+        <!-- 
+            preußische Regierung - maps to: 
+            20 (Beamtenplatz)
+            22 (König-Kaiser-Platz)
+        -->
+        <value>20</value>
+        <value>22</value>
+    </termRef>
+    <termRef key="prrus">
+        <!-- 
+            Preußen - Russland - maps to: 
+            14 (Napoleonische Academie)
+            20 (Beamtenplatz)
+            22 (König-Kaiser-Platz)
+        -->
+        <value>14</value>
+        <value>20</value>
+        <value>22</value>
+    </termRef>
+    <termRef key="rmr">
+        <!-- 
+            Reise nach Meseritz - maps to: 
+            26 (Armfelt-Chaussée)
+        -->
+        <value>26</value>
+    </termRef>
+    <termRef key="rs">
+        <!-- 
+            Reise von 1802 - maps to: 
+            19 (Voßstraße)
+            20 (Beamtenplatz)
+            23 (Cobentzl-Saurau-Weg)
+            24 (Pittstraße)
+            25 (Londoner Platz)
+            26 (Armfeltchaussée)
+            27 (Wiener Platz)
+        -->
+        <value>19</value>
+        <value>20</value>
+        <value>23</value>
+        <value>24</value>
+        <value>25</value>
+        <value>26</value>
+        <value>27</value>
+    </termRef>
+    <termRef key="swvl">
+        <!-- 
+            Schwestern von Lesbos - maps to: 
+            10 (Munizipialbibliothek)
+            18 (Böttigerweg)
+        -->
+        <value>10</value>
+        <value>18</value>
+    </termRef>
+    <termRef key="tbk">
+        <!-- 
+            Tabakadministration - maps to: 
+            20 (Beamtenplatz)
+        -->
+        <value>20</value>
+    </termRef>
+    <termRef key="tee">
+        <!-- 
+            Tee - maps to:
+            13 (Brinckmannstraße)
+        -->
+        <value>13</value>
+    </termRef>
+    <termRef key="uedef">
+        <!-- 
+            Ueber den ewigen Frieden - maps to: 
+            7 (Werksviertel)
+            10 (Munizipialbibliothek)
+            15 (Historisches Journal)
+        -->
+        <value>7</value>
+        <value>10</value>
+        <value>15</value>
+    </termRef>
+    <termRef key="unan">
+        <!-- 
+            Unger'sche Annalen - maps to: 
+            16 (Zeitungsviertel)
+        -->
+        <value>16</value>
+    </termRef>
+    <termRef key="vah">
+        <!-- 
+            Verhältnis August Hennings - maps to: 
+            15 (Historisches Journal)
+            16 (Zeitungsviertel)
+        -->
+        <value>15</value>
+        <value>16</value>
+    </termRef>
+    <termRef key="vai">
+        <!-- 
+            Verhältnis Amalie von Imhof - maps to: 
+            18 (Böttigerweg)
+        -->
+        <value>18</value>
+    </termRef>
+    <termRef key="vam">
+        <!-- 
+            Verhältnis Adam Müller - maps to: 
+            18 (Böttigerweg)
+            28 (Müllerstraße)
+        -->
+        <value>18</value>
+        <value>28</value>
+    </termRef>
+    <termRef key="vbvp">
+        <!-- 
+            Verhältnis Bernhard von Pelser - maps to: 
+            26 (Armfeltschaussée)
+        -->
+        <value>26</value>
+    </termRef>
+    <termRef key="vcfv">
+        <!-- 
+            Verhältnis Christian Friedrich Voß - maps to: 
+            16 (Zeitungsviertel)
+        -->
+        <value>16</value>
+    </termRef>
+    <termRef key="vcg">
+        <!-- 
+            Verhältnis Christian Garve - maps to: 
+            4 (Breslauer Platz)
+            5 (Garveplatz)
+            12 (Kantstraße)
+        -->
+        <value>4</value>
+        <value>5</value>
+        <value>12</value>
+    </termRef>
+    <termRef key="vdjf">
+        <!-- 
+            Verhältnis David Joseph Fraenkel - maps to: 
+            17 (Berliner Platz)
+        -->
+        <value>17</value>
+    </termRef>
+    <termRef key="veg">
+        <!-- 
+            Verhältnis Elisabeth Graun - maps to: 
+            2 (Graunplatz)
+        -->
+        <value>2</value>
+    </termRef>
+    <termRef key="vege">
+        <!-- 
+            Verhältnis Elisabeth Graun - Schwiegermutter - maps to: 
+            2 (Graunplatz)
+        -->
+        <value>2</value>
+    </termRef>
+    <termRef key="vegg">
+        <!-- 
+            Verhältnis Elisabeth Graun - Gemälde - maps to: 
+            2 (Graunplatz)
+        -->
+        <value>2</value>
+    </termRef>
+    <termRef key="vfa">
+        <!-- 
+            Verhältnis Friedrich Ancillon - maps to: 
+            6 (Schlegelweg)
+            11 (Humboldtstraße)
+            17 (Berliner Platz)
+        -->
+        <value>6</value>
+        <value>11</value>
+        <value>17</value>
+    </termRef>
+    <termRef key="vfdi">
+        <!-- 
+            Verhältnis François d'Ivernois - maps to: 
+            14 (Napoleonische Academie)
+            25 (Londoner Platz)
+        -->
+        <value>14</value>
+        <value>25</value>
+    </termRef>
+    <termRef key="vfpr">
+        <!-- 
+            Verhältnis Friedrich Philipp Rosenstiel - maps to: 
+            16 (Zeitungsviertel)
+        -->
+        <value>16</value>
+    </termRef>
+    <termRef key="vfs">
+        <!-- 
+            Verhältnis Friedrich Schiller - maps to: 
+            18 (Böttigerweg)
+        -->
+        <value>18</value>
+    </termRef>
+    <termRef key="vggs">
+        <!-- 
+            Verhältnis Georg Gotthilf Schwinck - maps to: 
+            2 (Graunplatz)
+        -->
+        <value>2</value>
+    </termRef>
+    <termRef key="vgjg">
+        <!-- 
+            Verhältnis Georg Joachim Göschen - maps to: 
+            15 (Historisches Journal)
+        -->
+        <value>15</value>
+    </termRef>
+    <termRef key="vgl">
+        <!-- 
+            Verhältnis Girolamo Lucchesini - maps to: 
+            26 (Armfelt-Chaussée)
+        -->
+        <value>26</value>
+    </termRef>
+    <termRef key="vglheda">
+        <!-- 
+            Verhältnis Georg Louis Henri Emmanuel d'Antraigues - maps to: 
+            13 (Brinckmannstraße)
+            17 (Berliner Platz)
+            26 (Armfelt-Chaussée)
+        -->
+        <value>13</value>
+        <value>17</value>
+        <value>26</value>
+    </termRef>
+    <termRef key="vhe">
+        <!-- 
+            Verhältnis Hugh Elliot - maps to: 
+            26 (Armfelt-Chaussée)
+        -->
+        <value>26</value>
+    </termRef>
+    <termRef key="vhf">
+        <!-- 
+            Verhältnis Heinrich Frölich - maps to: 
+            15 (Historisches Journal)
+            17 (Berliner Platz)
+        -->
+        <value>15</value>
+        <value>17</value>
+    </termRef>
+    <termRef key="vhgd">
+        <!-- 
+            Verhältnis Herzogin Georgina von Devonshire - maps to: 
+            26 (Armfelt-Chaussée)
+        -->
+        <value>26</value>
+    </termRef>
+    <termRef key="vhvb">
+        <!-- 
+            Verhältnis Heinrich von Beguelin - maps to: 
+            6 (Schlegelweg)
+            17 (Berliner Platz)
+        -->
+        <value>6</value>
+        <value>17</value>
+    </termRef>
+    <termRef key="vjdlg">
+        <!-- 
+            Verhältnis Jean de la Garde - maps to: 
+            15 (Historisches Journal)
+        -->
+        <value>15</value>
+    </termRef>
+    <termRef key="vjgh">
+        <!-- 
+            Verhältnis Johann Gottfried Herder - maps to: 
+            18 (Böttigerweg)
+        -->
+        <value>18</value>
+    </termRef>
+    <termRef key="vjjp">
+        <!-- 
+            Verhältnis John Joshua Proby - maps to: 
+            15 (Historisches Journal)
+            24 (Pittstraße)
+            25 (Londoner Platz)
+        -->
+        <value>15</value>
+        <value>24</value>
+        <value>25</value>
+    </termRef>
+    <termRef key="vjmdp">
+        <!-- 
+            Verhältnis Jacques Mallet du Pan - maps to: 
+            14 (Napoleonische Academie)
+            15 (Historisches Journal)
+            25 (Londoner Platz)
+        -->
+        <value>14</value>
+        <value>15</value>
+        <value>25</value>
+    </termRef>
+    <termRef key="vjmvf">
+        <!-- 
+            Verhältnis Johann Matthias von Faßbender - maps to: 
+            26 (Armfelt-Chaussée)
+            27 (Wiener Platz)
+        -->
+        <value>26</value>
+        <value>27</value>
+    </termRef>
+    <termRef key="vjvm">
+        <!-- 
+            Verhältnis Johannes von Müller - maps to:
+            15 (Historisches Journal)
+            28 (Müllerstraße)
+        -->
+        <value>15</value>
+        <value>28</value>
+    </termRef>
+    <termRef key="vjwvg">
+        <!-- 
+            Verhältnis Johann Wolfgang von Goethe - maps to: 
+            18 (Böttigerweg)
+            28 (Müllerstraße)
+        -->
+        <value>18</value>
+        <value>28</value>
+    </termRef>
+    <termRef key="vkab">
+        <!-- 
+            Verhältnis Karl August Böttiger - maps to:
+            17 (Berliner Platz)
+            18 (Böttigerweg)
+        -->
+        <value>17</value>
+        <value>18</value>
+    </termRef>
+    <termRef key="vkgvb">
+        <!-- 
+            Verhältnis Karl Gustav von Brinckmann - maps to:
+            13 (Brinckmannstraße)
+            17 (Berliner Platz)
+        -->
+        <value>13</value>
+        <value>17</value>
+    </termRef>
+    <termRef key="vlpddo">
+        <!-- 
+            Verhältnis Louis Philippe Herzog von Orléans - maps to: 
+            25 (Londoner Platz)
+        -->
+        <value>25</value>
+    </termRef>
+    <termRef key="vme">
+        <!-- 
+            Verhältnis Madame Elliot - maps to: 
+            26 (Armfelt-Chaussée)
+        -->
+        <value>26</value>
+    </termRef>
+    <termRef key="vpze">
+        <!-- 
+            Von dem politischen Zustande von Europa vor und nach der 
+            Französischen Revolution - maps to: 
+            7 (Werksviertel)
+            10 (Munizipialbibliothek)
+            25 (Londoner Platz)
+        -->
+        <value>7</value>
+        <value>10</value>
+        <value>25</value>
+    </termRef>
+    <termRef key="vwf">
+        <!-- 
+            Vieweg - Freundschaft - maps to: 
+            9 (Monatsschrift)
+            15 (Historisches Journal)
+            17 (Berliner Platz)
+        -->
+        <value>9</value>
+        <value>15</value>
+        <value>17</value>
+    </termRef>
+    <termRef key="vwfe">
+        <!-- 
+            Vieweg - Feindschaft - maps to: 
+            9 (Monatsschrift)
+            15 (Historisches Journal)
+            17 (Berliner Platz)
+        -->
+        <value>9</value>
+        <value>15</value>
+        <value>17</value>
+    </termRef>
+    <termRef key="vwg">
+        <!-- 
+            Verhältnis Wilhelmine Gentz - maps to:
+            2 (Graunplatz)
+            17 (Berliner Platz)
+        -->
+        <value>2</value>
+        <value>17</value>
+    </termRef>
+    <termRef key="vwkms">
+        <!-- 
+            Vieweg - Kalender / Maria Stuart - maps to: 
+            7 (Werksviertel)
+            10 (Munizipialbibliothek)
+            16 (Zeitungsviertel)
+        -->
+        <value>7</value>
+        <value>10</value>
+        <value>16</value>
+    </termRef>
+    <termRef key="vwwg">
+        <!-- 
+            Verhältnis William Wyndham Lord Grenville - maps to: 
+            24 (Pittstraße)
+            25 (Londoner Platz)
+        -->
+        <value>24</value>
+        <value>25</value>
+    </termRef>
+    <termRef key="wdf">
+        <!-- 
+            Woodfall - maps to: 
+            10 (Munizipialbibliothek)
+        -->
+        <value>10</value>
+    </termRef>
+    <termRef key="zns">
+        <!-- 
+            Zensur - maps to: 
+            15 (Historische Journal)
+            20 (Beamtenplatz)
+        -->
+        <value>15</value>
+        <value>20</value>
+    </termRef>
+</documentMapping>

@@ -1,0 +1,370 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc xml:id="LETTER_GENTZ_2895">
+         <titleStmt>
+            <title>Friedrich von Gentz an Karl August Böttiger, 23. Mai 1797</title>
+            <editor xml:id="edAG">Andreas Gálffy</editor>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <name>Forschungsstelle "Universitätssammlung Friedrich von Gentz"</name>
+               <link target="http://gentz-digital.ub.uni-koeln.de http://www.ub.uni-koeln.de/cdm/singleitem/collection/gentz/id/2894/"/>
+            </publisher>
+            <pubPlace>Cologne</pubPlace>
+            <idno type="Gentz-Edition-Number" n="2895"/>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <country>Germany</country>
+                  <settlement>Dresden</settlement>
+                  <institution>Sächsiche Landesbibliothek</institution>
+                  <repository>Handschriftensammlung, Nachlaß Böttiger</repository>
+                  <collection>Mscr. Dresd. h 37, Bd. 54 (4°)</collection>
+                  <idno>Nr. 9</idno>
+               </msIdentifier>
+               <msContents>
+                  <summary>
+                     Nun schickt Gentz sein soeben fertig gestelltes Werk. Gentz kritisiert an d'Ivernois, dass er durch seinen Hass 
+                     gegen die derzeitige französische Verfassung parteiisch ist. Dann bewirbt er sein neues Werk, das eine Vorrede 
+                     zu einer jährlichen Übersicht der Finanzadministration ist. Er denkt, dass sie zweckmäßiger ist, als die von 
+                     d'Ivernois. Gentz hat soeben die Memoires des ehemaligen Staatsministers Bertrand de Moleville gelesen. Er 
+                     schreibt darüber, dass kaum ein anderes Buch lehhreicher über den Charakter des Königs Ludwig XVI. ist. Gentz 
+                     möchte eine Rezension dazu in der Allgemeinen Literaturzeitung bringen. Böttiger Antwort auf den letzten Brief 
+                     steht noch aus.
+                  </summary>
+               </msContents>
+            </msDesc>
+            <listBibl type="preprints">
+               <biblStruct>
+                  <monogr>
+                     <editor>
+                        <persName>
+                           <ref target="http://d-nb.info/gnd/130953075"/>
+                           <forename>Friedrich Carl</forename>
+                           <surname>Wittichen</surname>
+                        </persName>
+                        <persName>
+                           <ref/> <!-- kein GND-Eintrag -->
+                           <forename>Ernst</forename>
+                           <surname>Salzer</surname>
+                        </persName>
+                     </editor>
+                     <title>Briefe von und an Friedrich von Gentz, 4 Bde.</title>
+                     <imprint>
+                        <publisher>Oldenbourg</publisher>
+                        <pubPlace>München, Berlin</pubPlace>
+                        <date>1909-1913</date>
+                     </imprint>
+                     <biblScope unit="volume" n="1">
+                        I
+                     </biblScope>
+                     <biblScope unit="page" from="228" to="229">
+                        Nr. 54
+                     </biblScope>
+                  </monogr>
+               </biblStruct>
+            </listBibl>
+            <listBibl type="letterReferenced">
+               <bibl xml:id="c2895-1" corresp="#LETTER_GENTZ_4831">Friedrich von Gentz an Karl August Böttiger, 13. Mai 1797</bibl>
+            </listBibl>
+            <listBibl type="defExpr">
+               <biblStruct xml:id="e2895-1" corresp="UJn-0002">
+                  <monogr>
+                     <title>Allgemeine Literatur-Zeitung</title>
+                     <imprint>
+                        <pubPlace>Jena</pubPlace>
+                        <date>1785-1849</date>
+                     </imprint>
+                  </monogr>
+                  <ptr target="http://zs.thulb.uni-jena.de/receive/jportal_jpjournal_00000005?XSL.vol.start=0"/>
+               </biblStruct>
+            </listBibl>
+            <listBibl type="defRep">
+               <biblStruct xml:id="p2985-1" corresp="GBk-0031">
+                  <monogr>
+                     <author>
+                        <persName>
+                           <ref target="http://d-nb.info/gnd/100297676"/>
+                           <forename>Francis d'</forename>
+                           <surname>Ivernois</surname>
+                        </persName>
+                     </author>
+                     <editor resp="translator">
+                        <persName>
+                           <ref target="http://d-nb.info/gnd/118538489"/>
+                           <forename>Friedrich von</forename>
+                           <surname>Gentz</surname>
+                        </persName>
+                     </editor>
+                     <title>Geschichte der französischen Finanz-Administration im Jahre 1796</title>
+                     <imprint>
+                        <pubPlace>Berlin</pubPlace>
+                        <publisher>Friedrich Vieweg der Ältere</publisher>
+                        <date>1797</date>
+                     </imprint>
+                  </monogr>
+                  <ptr target="https://books.google.de/books?id=rNVBAAAAcAAJ"/>
+               </biblStruct>
+               <biblStruct xml:id="p2895-2" corresp="GBk-0032">
+                  <monogr>
+                     <author>
+                        <persName>
+                           <ref target="http://d-nb.info/gnd/100297676"/>
+                           <forename>Francis d'</forename>
+                           <surname>Ivernois</surname>
+                        </persName>
+                     </author>
+                     <title>Histoire de l'administration des finances de la république française, pendant l'année 1796.</title>
+                     <imprint>
+                        <pubPlace>Hamburg</pubPlace>
+                        <publisher>P. F. Fauche</publisher>
+                        <date>1797</date>
+                     </imprint>
+                  </monogr>
+                  <ptr target="https://books.google.de/books?id=mVsPAAAAQAAJ"/>
+               </biblStruct>
+               <biblStruct xml:id="p2895-3" corresp="GBk-0033">
+                  <monogr>
+                     <author>
+                        <persName>
+                           <ref target="http://d-nb.info/gnd/123642868"/>
+                           <forename>Antoine-François de</forename>
+                           <surname>Bertrand de Moleville</surname>
+                        </persName>
+                     </author>
+                     <title>Mémoires secrets pour servir à l'histoire de la dernière année du règne de Louis XVI, roi de France</title>
+                     <imprint>
+                        <pubPlace>London</pubPlace>
+                        <publisher>Strahan et Cadell</publisher>
+                        <date>1797</date>
+                     </imprint>
+                  </monogr>
+                  <ptr target="https://books.google.de/books?id=UmhOAAAAcAAJ"/>
+               </biblStruct>
+               <biblStruct xml:id="p2895-4" corresp="BSB-0011">
+                  <monogr>
+                     <author>
+                        <persName>
+                           <ref target="http://d-nb.info/gnd/11878580X"/>
+                           <forename>Jacques</forename>
+                           <surname>Necker</surname>
+                        </persName>
+                     </author>
+                     <title>De la Révolution française</title>
+                     <imprint>
+                        <pubPlace>Paris</pubPlace>
+                        <publisher>Dufart</publisher>
+                        <date>1797</date>
+                     </imprint>
+                  </monogr>
+                  <ptr target="http://www.mdz-nbn-resolving.de/urn/resolver.pl?urn=urn:nbn:de:bvb:12-bsb10719599-2"/>
+               </biblStruct>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Masterarbeit zu Matrikelnummer 5584124</p>
+         </projectDesc>
+      </encodingDesc>
+      <profileDesc>
+         <creation>
+            <date when-iso="1797-05-23">23. Mai 1797</date>
+         </creation>
+        <langUsage>
+           <language ident="d">deutsch</language>
+        </langUsage>
+         <textClass>
+            <keywords scheme="internal"><!-- internal: innerhalb des besagten Briefs -->
+               <term>Brief</term>
+               <term>Literatur</term>
+               <term>d'Ivernois</term>
+               <term>französische Finanzen</term>
+               <term>Französische Revolution</term>
+            </keywords>
+            <keywords scheme="categorisation"><!-- Sinnabschnittseinteilung - relevant für den Fahrkartenautomaten! -->
+               <term xml:id="frf">französische Finanzen</term>
+               <term xml:id="vfdi">Verhältnis François d'Ivernois</term>
+               <term xml:id="frv">Französische Revolution</term>
+               <term xml:id="vkab">Verhältnis Karl August Böttiger</term>
+            </keywords>
+         </textClass>
+         <textDesc>
+            <channel>manuscript</channel>
+            <constitution type="single"/>
+            <derivation type="original"/>
+            <domain type="private"/>
+            <factuality type="fact"/>
+            <interaction type="partial"/>
+            <preparedness type="prepared"/>
+            <purpose type="inform"/>
+         </textDesc>
+         <particDesc>
+            <listPerson>
+               <!-- Sender und Adressat -->
+               <person role="sender" xml:id="Gen">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/118538489"/>
+                     <forename>Friedrich von</forename>
+                     <surname>Gentz</surname>
+                  </persName>
+               </person>
+               <person role="receiver" xml:id="KAB">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/118824775"/>
+                     <forename>Carl August</forename>
+                     <surname>Böttiger</surname>
+                  </persName>
+               </person>
+               <!-- erwähnte Personen -->
+               <person role="named" xml:id="FdI">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/100297676"/>
+                     <forename>Francis d'</forename>
+                     <surname>Ivernois</surname>
+                  </persName>
+               </person>
+               <person role="named" xml:id="BdM">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/123642868"/>
+                     <forename>Antoine-François de</forename>
+                     <surname>Bertrand de Moleville</surname>
+                  </persName>
+               </person>
+               <person role="named" xml:id="LXVI">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/118574949"/>
+                     <forename>Ludwig XVI.</forename>
+                     <surname>Frankreich</surname>
+                     <roleName type="office">König</roleName>
+                  </persName>
+               </person>
+               <person role="named" xml:id="Nck">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/11878580X"/>
+                     <forename>Jacques</forename>
+                     <surname>Necker</surname>
+                  </persName>
+               </person>
+            </listPerson>
+         </particDesc>
+         <settingDesc>
+            <listPlace>
+               <!-- Start- und Zielort -->
+               <place type="sender" xml:id="plBe">
+                  <country>
+                     <ref target="http://d-nb.info/gnd/4047194-9"/>
+                     <placeName>Preußen</placeName>
+                  </country>
+                  <settlement>
+                     <ref target="http://d-nb.info/gnd/4005728-8"/>
+                     <placeName>Berlin</placeName>
+                  </settlement>
+               </place>
+               <place type="receiver" xml:id="plWe">
+                  <country>
+                     <ref target="http://d-nb.info/gnd/4051194-7"/>
+                     <placeName>Sachsen-Weimar-Eisenach</placeName>
+                  </country>
+                  <settlement>
+                     <ref target="http://d-nb.info/gnd/4065105-8"/>
+                     <placeName>Weimar</placeName>
+                  </settlement>
+               </place>
+               <!-- erwähnte Orte -->
+               <place type="named" xml:id="plFr">
+                  <country>
+                     <ref target="http://d-nb.info/gnd/4018145-5"/>
+                     <placeName>Frankreich</placeName>  
+                  </country>
+               </place>
+               <place type="named" xml:id="plLo">
+                  <country>
+                     <ref target="http://d-nb.info/gnd/4022153-2"/>
+                     <placeName>Vereinigtes Königreich</placeName>                
+                  </country>
+                  <settlement>
+                     <ref target="http://d-nb.info/gnd/4074335-4"/>
+                     <placeName>London</placeName>
+                  </settlement>
+               </place>
+            </listPlace>
+         </settingDesc>
+      </profileDesc>
+      <revisionDesc>
+         <change xml:id="init" when-iso="2018-02-26" who="#edAG">Erstauszeichnung und Normierung des Dokumentes im Rahmen der Masterarbeit der Matrikelnummer 5584124</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <opener>
+            <dateline rend="right"><rs type="place" ref="#plBe">Berlin</rs> den <date when-iso="1797-05-23">23<span rend="sup">ten</span> May 1797</date>:</dateline>
+         </opener>
+         <div n="1" corresp="#frf">
+            <p>
+               Ich sende Ihnen, verehrungswürdiger Freund, ein <rs type="citation" ref="#p2985-1">so eben vollendetes Werk</rs>, das 
+               vielleicht Ihrer Aufmerksamkeit nicht ganz unwerth ist, und das ich Ihnen mit um so größerm Vertrauen übergebe, da 
+               ich weiß, daß Sie meine Arbeiten mit einiger Vorliebe und mit freundschaftlicher Gunst beurtheilen.
+            </p>
+         </div>
+         <div n="2" corresp="#vfdi">
+            <p>
+               <rs type="person" ref="#FdI"><emph rend="underlined">D'Ivernois</emph></rs> ist unstreitig einer der talentvollsten 
+               unter den neuern politischen Schriftstellern; aber es läßt sich nicht leugnen, daß ihn sein Haß gegen die jetzige 
+               französische Verfassung oft parteyisch macht, und daß er den Verdacht, im Solde des Englischen Ministeriums zu 
+               stehen, durch seine Heftigkeit zuweilen begünstigt. Da ich mit seiner Politik für diesmal nichts zu schaffen hatte, 
+               so hielt ich es für nöthig in der Vorrede ausdrücklich gegen alle Gemeinschaft mit seinen politischen Aeußerungen zu 
+               protestiren.
+            </p>
+         </div>
+         <div n="3" corresp="#frf">
+            <p>
+               Was die Abschnitte, die von mir herrühren, betrift, so hoffe ich wohl, daß sie Ihren Beifall <pb/> finden werden. Ich 
+               habe sie mit großer Sorgfalt ausgearbeitet, und ich glaube mir nicht zu viel einzubilden, wenn ich meine, daß von 
+               manchen Theilen der jetzigen Französischen Finanz-Administration, so correkte und befriedigende Darstellungen als die 
+               meinigen, noch in keiner deutschen Schrift, und nur in wenig französischen zu finden waren.
+            </p>
+            <p>
+               Von jetzt an soll mich keine Neben-Arbeit von der Vollendung meines größern historischen Werkes abhalten. Die 
+               <del rend="stroked">Ueber</del> jährliche Uebersicht der Finanz-Administration die ich in der Vorrede zu dem 
+               gegenwärtigen ankündige, wird mich, nach meinem Plan nicht länger als 6 Wochen in jedem Jahre beschäftigen. Ich 
+               hoffe, sie soll im Ganzen zweckmäßiger ausfallen als die <emph rend="underlined">d'Ivernois</emph>sche, 
+               <del rend="stroked">xxx</del> wenigstens werde ich an die Stelle mancher müßigen Declamation, Bemerkungen über die 
+               wichtigsten Gegenstände der Staats-<pb/>Oekonomie und Finanz-Wissenschaft zu setzen suchen, wozu die jetzige Lage 
+               <rs type="place" ref="#plFr">Frankreich</rs>s und die Regeneration die den Finanzen dieses Landes bevorsteht, manche 
+               trefliche Gelegenheit darbieten.
+            </p>
+         </div>
+         <div n="4" corresp="#frv">
+            <p>
+               Ich komme eben von der Lectüre eines wichtigen Werkes über die Geschichte der Revolution. Dies sind die 
+               <rs type="citation" ref="#p2895-3">Memoires</rs> des gewesnen Staats-Ministers 
+               <rs type="person" ref="#BdM">Bertrand de Moleville</rs>, die <del rend="stroked">xxx</del> 
+               <add place="above">ganz neuerlich</add> zu <rs type="place" ref="#plLo">London</rs> (und zwar Englisch, ehe noch das 
+               Original gedruckt ward) in drey Bänden erschienen sind. Wenige Bücher geben so viel glaubwürdige und lehrreiche 
+               Beiträge zur Kenntniß des Charakters <rs type="person" ref="#LXVI">Ludwig des XVI</rs>, 
+               <del rend="stroked">dem</del> mit dem jener Minister in den vertrautsten Verbindungen stand. Wenn es mich nicht zu 
+               sehr aufhält, so mögte ich, wohl eine Rezension dieser <rs type="citation" ref="#p2895-3">Memoires</rs> und zu 
+               gleicher Zeit des <rs type="citation" ref="#p2895-4">neusten Werkes</rs> von 
+               <rs type="person" ref="#Nck">Nekker</rs>, für die <add place="above">Allgemeine</add> 
+               <rs type="citation" ref="#e2895-1">Literatur-Zeitung</rs> verfertigen.
+            </p>
+         </div>
+         <div n="5" corresp="#vkab">
+            <p>
+               Uebrigens erwarte ich mit Verlangen Ihre Antwort auf meinen letzten <pb/> 
+               <rs type="citation" ref="#c2895-1">Brief</rs>, und verharre mit den Ihnen bekannten Gesinnungen
+            </p>
+         </div>
+         <closer>
+            <salute rend="right">Ganz der Ihrige</salute>
+            <signed rend="right">Gentz.</signed>
+         </closer>
+      </body>
+   </text>
+</TEI>

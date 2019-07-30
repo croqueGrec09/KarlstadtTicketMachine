@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+<TEI
+  xmlns:xi="http://www.w3.org/2001/XInclude"
+  xmlns:svg="http://www.w3.org/2000/svg"
+  xmlns:math="http://www.w3.org/1998/Math/MathML"
+  xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc xml:id="LETTER_GENTZ_FI_HEL_KAN_ArmI_24">
+      <titleStmt>
+        <title>Friedrich von Gentz an Gustav Mauritz Armfelt, 25. August 1806</title>
+        <editor xml:id="edAG">Andreas Gálffy</editor>
+        <editor xml:id="edMS">Max Supplieth</editor>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>Team der neuen Gentz-Edition</publisher>
+        <pubPlace>Cologne</pubPlace>
+        <distributor>University of Cologne</distributor>
+        <idno type="Gentz-Edition-Number" n="0000" />
+        <availability>
+          <licence>CC-BY-SA</licence>
+        </availability>
+        <date when-iso="2013-11-13">13. November 2013</date>
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier>
+            <country>Finland</country>
+            <settlement>Helsinki</settlement>
+            <institution>Kansallisarkisto</institution>
+            <repository>Nachlaß Armfelt</repository>
+            <idno>I/24</idno>
+          </msIdentifier>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p change="#init">Erschaffung einer digitalen Edition zu Friedrich von Gentz</p>
+        <p change="#karlstadt">Erschaffung des KVAG-Fahrkartenautomaten</p>
+      </projectDesc>
+    </encodingDesc>
+    <profileDesc>
+      <creation>
+        <date when-iso="1806-08-25">25. August 1806</date>
+      </creation>
+      <langUsage>
+        <language ident="f">französisch</language>
+      </langUsage>
+      <textClass>
+        <keywords scheme="">
+          <term>inquiétudes</term>
+          <term>silence</term>
+          <term>amie</term>
+          <term>revers</term>
+        </keywords>
+      </textClass>
+      <textDesc>
+        <channel mode="w">manuscript</channel>
+        <constitution type="single"/>
+        <derivation type="original"/>
+        <domain type="public"/> 
+        <factuality type="fact"/> 
+        <interaction type="partial"/> 
+        <preparedness type="prepared"/>  
+        <purpose type="inform"/> 
+      </textDesc>
+      <particDesc>
+        <listPerson>
+          <!-- Sender und Adressat -->
+          <person role="sender" xml:id="Gen">
+            <persName>
+              <ref target="http://d-nb.info/gnd/118538489">
+                <forename>Friedrich von</forename>
+                <surname>Gentz</surname>
+              </ref>
+            </persName>             
+          </person>
+          <person role="receiver" xml:id="Arm">
+            <persName>
+              <ref target="http://d-nb.info/gnd/116341254">
+                <forename>Gustav Mauritz von</forename>
+                <surname>Armfeldt</surname>
+              </ref>
+            </persName>
+          </person>
+          <!-- Im Brief erwähnte Personen -->
+          <person role="named" xml:id="Lan">
+            <persName>
+              <ref>
+                <forename></forename>
+                <surname>Lanckoronska</surname>
+              </ref>
+            </persName>
+          </person>
+        </listPerson>
+      </particDesc>
+      <settingDesc>
+        <listPlace>
+          <!-- Start- und Zielort -->
+          <place type="sender" xml:id="plDd">
+            <country>
+              <placeName>
+                <ref target="http://d-nb.info/gnd/4051176-5">
+                  Sachsen
+                </ref>
+              </placeName>  
+            </country>
+            <settlement>
+              <placeName>
+                <ref target="http://d-nb.info/gnd/4012995-0">
+                  Dresden
+                </ref>
+              </placeName>
+            </settlement>
+          </place>
+        </listPlace>
+      </settingDesc>
+    </profileDesc>
+    <revisionDesc>
+      <change when-iso="2013-12-10" who="#edAG" status="unfinished">Ergänzung der TEI-relevanten Informationen (soweit möglich)</change>
+      <change when-iso="2016-07-06" who="#edAG #edMS">Normierung und weitere Auszeichnung des Dokumentes im Rahmen der Übung "WebApps und Textmining" im Hinblick auf die 
+        zukünftige Masterarbeit von Matrikelnummer 5584124</change>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div>
+        <p>
+          Voici encore, mon <rs type="person" ref="#Arm">Général</rs>,<lb/>
+          une lettre dont on me charge <lb/>
+          pour Vous, malgré les inquiétudes<lb/>
+          qui nous donne Votre silence pro-<lb/>
+          longé. Tout en consolant l'excellente<lb/>
+          <rs type="person" ref="#Lan">amie</rs>, dont la présence est un<lb/>
+          <choice><orig>beaume</orig><reg>baume</reg></choice> pour mon <choice><orig>ame</orig><reg>âme</reg></choice>, déchirée<lb/>
+          de tant de malheurs, je me livre<lb/>
+          un peu moi-même à la crainte que<lb/>
+          quelque revers n'ait dérangé<lb/>
+          notre correspondance. C'est pour<lb/>
+          cela aussi, que je ne veux rien<lb/>
+          ajouter à ces lignes; Vous <choice><orig>connoissez</orig><reg>connaissez</reg></choice><lb/>
+          les sentiments invariables de
+        </p>
+      </div>
+      <closer>
+        <salute rend="right">Votre fidèle serviteur</salute>
+        <dateline rend="left"><rs type="place" ref="#plDd">Dresde</rs> <date when-iso="1806-08-25">Ce 25 Août</date></dateline>
+        <signed rend="right">G.</signed>
+      </closer>
+      <epigraph>
+        <p>
+          NB. Mes deux dernières Lettres <choice><orig>étoient</orig><reg>étaient</reg></choice> du 10 et du 18. -
+        </p>
+      </epigraph>
+    </body>
+  </text>
+</TEI>

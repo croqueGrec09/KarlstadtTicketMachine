@@ -1,0 +1,809 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc xml:id="LETTER_GENTZ_3713">
+         <titleStmt>
+            <title>Friedrich von Gentz an Christian Garve, 18. September 1790</title>
+            <editor xml:id="edAG">Andreas Gálffy</editor>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <name>Forschungsstelle "Universitätssammlung Friedrich von Gentz"</name>
+               <link target="http://gentz-digital.ub.uni-koeln.de http://www.ub.uni-koeln.de/cdm/singleitem/collection/gentz/id/3712/"/>
+            </publisher>
+            <pubPlace>Cologne</pubPlace>
+            <idno type="Gentz-Edition-Number" n="3713"/>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <settlement>unknown</settlement>
+                  <idno>destroyed</idno><!-- Manuskript wurde durch Kriegseinwirkungen zerstört -->
+               </msIdentifier>
+               <msContents>
+                  <summary>
+                     Endlich konnte sich Gentz etwas Luft verschaffen in seinen Amtsgeschäften, sodass er nach mehrmaligen Versuchen 
+                     nun an Garve schreiben konnte. Getz bedauert sehr, dass er kaum Umgang mit Garve hat, Es tröstet ihn aber, dass 
+                     letzterer eine hohe Meinung von ihm hat. Etwas Nähe empfindet Gentz auch durch seine Lektorentätigkeit für 
+                     Garve, obwohl das den persönlichen Umgang nicht ersetzt. Umso mehr beunruhigen ihn Briefe zu Garves 
+                     Unwohlsein ... Gentz macht sich große Sorgen um ihn.
+                     Er wagt seinen ersten öffentlichen Schritt, indem er Biester eine Abhandlung übergibt. In dessen Monatsschrift 
+                     ist eine ihn empörende Kritik an den Rechten des Menschen erschienen. Gentz möchte, von Ancillon dazu gebracht, 
+                     diese Abhandlung entgegensetzen.
+                     Trotz seiner mangelnden Freizeit berichtet Gentz von einem angenehmen Treffen mit Professor Engel, das zwei 
+                     Stunden gedauert hat. Über die Ereignisse im Ausland weiß er wenig Neues, lediglich die Geschichten des 
+                     Monsieur de la Tude, der 35 Jahre im Gefängnis zugebracht habe. Diese Mémoiren über den Schluss des Ancien 
+                     Régime empfiehlt Gentz wärmstens.
+                     Von Phul schreibt er eine Serie trauriger Ereignisse. In Bad Pyrmont soll ihr eine Kur schlecht bekommen haben. 
+                     Seither sei sie, so Gentz, dem Wahnsinn verfallen und glaubt, sie selbst sei Christus, ihr Mann Gott und Gentz 
+                     der Heilige Geist. Nun hat ein gewisser Selle die Kur übernommen. Gentz will sie am folgenden Tag besuchen.
+                     Eine gewisse Schrift Garves ist zu früh in den öffentlichen Umlauf geraten. Gentz beteuert seine Unschuld und 
+                     versichert, dass er diese Schrift zu den günstigsten Konditionen an einen Buchhändler übergeben will. Dabei 
+                     erwähnt Gentz auch, dass es einige Korrekturen vorgenommen hat und diese korrigierte Fassung zurücksenden 
+                     wolle.
+                     Gentz übermittelt zum Schluss noch, dass Hainchelins und Merians sich nach Garve erkundigten und Spalding 
+                     selbst geschrieben hat. Heinrich Gentz reist nach Italien und Frankreich.
+                  </summary>
+               </msContents>
+            </msDesc>
+            <listBibl type="preprints">
+               <biblStruct>
+                  <monogr>
+                     <editor>
+                        <persName>
+                           <ref target="http://d-nb.info/gnd/130953075"/>
+                           <forename>Friedrich Carl</forename>
+                           <surname>Wittichen</surname>
+                        </persName>
+                        <persName>
+                           <ref/> <!-- kein GND-Eintrag -->
+                           <forename>Ernst</forename>
+                           <surname>Salzer</surname>
+                        </persName>
+                     </editor>
+                     <title>Briefe von und an Friedrich von Gentz, 4 Bde.</title>
+                     <imprint>
+                        <publisher>Oldenbourg</publisher>
+                        <pubPlace>München, Berlin</pubPlace>
+                        <date>1909-1913</date>
+                     </imprint>
+                     <biblScope unit="volume" n="1">
+                        I
+                     </biblScope>
+                     <biblScope unit="page" from="171" to="176">
+                        Nr. 40
+                     </biblScope>
+                  </monogr>
+               </biblStruct>
+            </listBibl>
+            <biblStruct>
+               <monogr>
+                  <editor>
+                     <persName>
+                        <forename>Carl G.</forename>
+                        <surname>Schönborn</surname>
+                     </persName>
+                  </editor>
+                  <title>Friedrich von Gentz. Briefe an Christian Garve. (1789-1798.)</title>
+                  <imprint>
+                     <pubPlace>Breslau</pubPlace>
+                     <date>1857</date>
+                  </imprint>
+                  <biblScope unit="page" from="47" to="55">
+                     Nr. VI
+                  </biblScope>
+               </monogr>
+            </biblStruct>
+            <listBibl type="letterReferenced">
+               <bibl xml:id="c3713-1" corresp="#LETTER_GENTZ_NNNN">nicht bekannter Brief von Christian Garve an Friedrich von Gentz</bibl>
+               <bibl xml:id="c3713-2" corresp="#LETTER_GENTZ_4301">Friedrich von Gentz an Christian Garve, 24. April 1790</bibl>
+               <bibl xml:id="c3713-3" corresp="#LETTER_GENTZ_3943">Friedrich von Gentz an Christian Garve, Ende April 1790</bibl>
+               <bibl xml:id="c3713-4" corresp="#LETTER_GENTZ_NNNN">nicht bekannter Brief von Johann Joachim Spalding an Christian Garve</bibl>
+            </listBibl>
+            <listBibl type="alludedWorks">
+               <biblStruct xml:id="a3713-1" corresp="UBi-0018">
+                  <analytic>
+                     <author>
+                        <persName>
+                           <ref target="http://d-nb.info/gnd/118537636"/>
+                           <forename>Christian</forename>
+                           <surname>Garve</surname>
+                        </persName>
+                     </author>
+                     <title>Einige Betrachtungen veranlaßt durch das Dekret der Nationalversammlung in Frankreich über die Güter der Geistlichkeit</title>
+                  </analytic>
+                  <monogr>
+                     <editor>
+                        <persName>
+                           <ref target="http://d-nb.info/gnd/116478799"/>
+                           <forename>Friedrich</forename>
+                           <surname>Gedike</surname>
+                        </persName>
+                        <persName>
+                           <ref target="http://d-nb.info/gnd/116167580"/>
+                           <forename>Johann Erich</forename>
+                           <surname>Biester</surname>
+                        </persName>
+                     </editor>
+                     <title>Berlinische Monatsschrift</title>
+                     <imprint>
+                        <publisher>Haude und Spener</publisher>
+                        <pubPlace>Berlin</pubPlace>
+                        <date>1790</date>
+                     </imprint>
+                     <biblScope unit="volume" n="16">
+                        Sechszehnter Band.
+                        Julius bis Dezember 1790.
+                     </biblScope>
+                     <biblScope unit="page" from="388" to="414">
+                        S. 388-414
+                     </biblScope>
+                  </monogr>
+                  <ptr target="http://ds.ub.uni-bielefeld.de/viewer/image/2239816_016/396/"/>
+               </biblStruct>
+               <bibl xml:id="a3713-2" corresp="#LETTER_GENTZ_NNNN">Reisen durch Spanien von Chevalier Bourgoyne</bibl>
+               <bibl xml:id="a3713-3" corresp="#LETTER_GENTZ_NNNN">Dupont Théorie du luxe</bibl>
+               <biblStruct xml:id="a3713-4" corresp="Dnb-0001">
+                  <monogr>
+                     <author>
+                        <persName>
+                           <ref target="http://d-nb.info/gnd/118623796"/>
+                           <forename>Friedrich</forename>
+                           <surname>Trenck</surname>
+                           <roleName type="office">Freiherr von der</roleName>
+                        </persName>
+                     </author>
+                     <title>Des Friedrich Freiherrn von der Trenck merkwürdige Lebensgeschichte : Memoiren u. Historie</title>
+                     <imprint>
+                        <pubPlace>Berlin</pubPlace>
+                        <publisher>Contumax GmbH &amp; Co. KG</publisher>
+                        <date>2011</date>
+                     </imprint>
+                  </monogr>
+                  <ptr target="http://d-nb.info/1014912164"/>
+               </biblStruct>
+               <bibl xml:id="a3713-5" corresp="#LETTER_GENTZ_NNNN">nicht näher benannte Schrift Garves</bibl>
+            </listBibl>
+            <listBibl type="defExpr">
+               <biblStruct xml:id="e3713-1" corresp="BnF-0004">
+                  <monogr>
+                     <author>
+                        <persName>
+                           <ref target="http://d-nb.info/gnd/118578677"/>
+                           <forename>Henri Masers de</forename>
+                           <surname>Latude</surname>
+                        </persName>
+                     </author>
+                     <editor>
+                        <persName>
+                           <ref/><!-- kein GND-Eintrag -->
+                           <forename>Arthème</forename>
+                           <surname>Fayard</surname>
+                        </persName>
+                     </editor>
+                     <title>Mémoires authentiques de Latude : écrits par lui au donjon de Vincennes et à Charenton</title>
+                     <imprint>
+                        <pubPlace>Paris</pubPlace>
+                        <date>1790</date>
+                     </imprint>
+                  </monogr>
+               <ptr target="http://gallica.bnf.fr/ark:/12148/bpt6k747218"/></biblStruct>
+            </listBibl>
+            <listBibl type="defRep">
+               <biblStruct xml:id="p3713-1" corresp="UBi-0016">
+                  <monogr>
+                     <editor>
+                        <persName>
+                           <ref target="http://d-nb.info/gnd/116478799"/>
+                           <forename>Friedrich</forename>
+                           <surname>Gedike</surname>
+                        </persName>
+                        <persName>
+                           <ref target="http://d-nb.info/gnd/116167580"/>
+                           <forename>Johann Erich</forename>
+                           <surname>Biester</surname>
+                        </persName>
+                     </editor>
+                     <title>Berlinische Monatsschrift</title>
+                     <imprint>
+                        <publisher>Haude und Spener</publisher>
+                        <pubPlace>Berlin</pubPlace>
+                        <date>1790</date>
+                     </imprint>
+                     <biblScope unit="volume" n="15">
+                        Fünfzehnter Band.
+                        Januar bis Junius 1790.
+                     </biblScope>
+                  </monogr>
+               <ptr target="http://ds.ub.uni-bielefeld.de/viewer/image/2239816_015/2/"/></biblStruct>
+            </listBibl>
+            <listBibl type="edRef">
+               <biblStruct xml:id="f3713-1" corresp="UBi-0017">
+                  <analytic>
+                     <author>
+                        <persName>
+                           <ref target="http://d-nb.info/gnd/11858314X"/>
+                           <forename>Justus</forename>
+                           <surname>Möser</surname>
+                        </persName>
+                     </author>
+                     <title>Ueber das Recht der Menschheit, als den Grund der neuen Französischen Konstitution</title>
+                  </analytic>
+                  <monogr>
+                     <editor>
+                        <persName>
+                           <ref target="http://d-nb.info/gnd/116478799"/>
+                           <forename>Friedrich</forename>
+                           <surname>Gedike</surname>
+                        </persName>
+                        <persName>
+                           <ref target="http://d-nb.info/gnd/116167580"/>
+                           <forename>Johann Erich</forename>
+                           <surname>Biester</surname>
+                        </persName>
+                     </editor>
+                     <title>Berlinische Monatsschrift</title>
+                     <imprint>
+                        <publisher>Haude und Spener</publisher>
+                        <pubPlace>Berlin</pubPlace>
+                        <date>1790</date>
+                     </imprint>
+                     <biblScope unit="volume" n="15">
+                        Fünfzehnter Band.
+                        Januar bis Junius 1790.
+                     </biblScope>
+                     <biblScope unit="page" from="499" to="506">
+                        S. 499-506
+                     </biblScope>
+                  </monogr>
+               <ptr target="http://ds.ub.uni-bielefeld.de/viewer/image/2239816_015/506/"/></biblStruct>
+               <biblStruct xml:id="f3713-2" corresp="UBi-0020">
+                  <analytic>
+                     <author>
+                        <persName>
+                           <ref target="http://d-nb.info/gnd/118538489"/>
+                           <forename>Friedrich von</forename>
+                           <surname>Gentz</surname>
+                        </persName>
+                     </author>
+                     <title>Ueber den Ursprung und die obersten Prinzipien des Rechts</title>
+                  </analytic>
+                  <monogr>
+                     <editor>
+                        <persName>
+                           <ref target="http://d-nb.info/gnd/116167580"/>
+                           <forename>Johann Erich</forename>
+                           <surname>Biester</surname>
+                        </persName>
+                     </editor>
+                     <title>Berlinische Monatsschrift</title>
+                     <imprint>
+                        <publisher>Haude und Spener</publisher>
+                        <pubPlace>Berlin</pubPlace>
+                        <date>1791</date>
+                     </imprint>
+                     <biblScope unit="volume" n="17">
+                        Siebzehnter Band.
+                        Januar bis Junius 1791.
+                     </biblScope>
+                     <biblScope unit="page" from="370" to="396">
+                        S. 370-396
+                     </biblScope>
+                  </monogr>
+               <ptr target="http://ds.ub.uni-bielefeld.de/viewer/image/2239816_017/403/"/></biblStruct>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Masterarbeit zu Matrikelnummer 5584124</p>
+         </projectDesc>
+      </encodingDesc>
+      <profileDesc>
+         <creation>
+            <date when-iso="1790-09-18">18. September 1790</date>
+         </creation>
+        <langUsage>
+           <language ident="d">deutsch</language>
+        </langUsage>
+         <textClass>
+            <keywords scheme="internal"><!-- internal: innerhalb des besagten Briefs -->
+               <term>Brief</term>
+               <term>Recht</term>
+               <term>Philosophie</term>
+               <term>Werke</term>
+               <term>Biester</term>
+               <term>Monatsschrift</term>
+               <term>Phul</term>
+               <term>französische Revolution</term>
+            </keywords>
+            <keywords scheme="categorisation"><!-- Sinnabschnittseinteilung - relevant für den Fahrkartenautomaten! -->
+               <term xml:id="bezbt">Beziehungen zu Berlin - Beamtentätigkeit</term>
+               <term xml:id="vcg">Verhältnis Christian Garve</term>
+               <term xml:id="mss">Monatsschrift</term>
+               <term xml:id="vfa">Verhältnis Friedrich Ancillon</term>
+               <term xml:id="bezbl">Beziehungen zu Berlin - Leute</term>
+               <term xml:id="frv">Französische Revolution</term>
+               <term xml:id="kphul">Phul</term>
+            </keywords>
+         </textClass>
+         <textDesc>
+            <channel>manuscript</channel>
+            <constitution type="single"/>
+            <derivation type="original"/>
+            <domain type="private"/>
+            <factuality type="fact"/>
+            <interaction type="partial"/>
+            <preparedness type="prepared"/>
+            <purpose type="inform"/>
+         </textDesc>
+         <particDesc>
+            <listPerson>
+               <!-- Sender und Adressat -->
+               <person role="sender" xml:id="Gen">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/118538489"/>
+                     <forename>Friedrich von</forename>
+                     <surname>Gentz</surname>
+                  </persName>
+               </person>
+               <person role="receiver" xml:id="Gar">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/118537636"/>
+                     <forename>Christian</forename>
+                     <surname>Garve</surname>
+                  </persName>
+               </person>
+               <!-- erwähnte Personen -->
+               <person role="named" xml:id="OvV">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/103098291"/>
+                     <forename>Otto</forename>
+                     <surname>von Voß</surname>
+                  </persName>
+               </person>
+               <person role="named" xml:id="Bie">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/116167580"/>
+                     <forename>Johann Erich</forename>
+                     <surname>Biester</surname>
+                  </persName>
+               </person>
+               <person role="named" xml:id="Moe">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/11858314X"/>
+                     <forename>Justus</forename>
+                     <surname>Möser</surname>
+                  </persName>
+               </person>
+               <person role="named" xml:id="Anc">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/118645110"/>
+                     <forename>Johann Peter Friedrich</forename>
+                     <surname>Ancillon</surname>
+                  </persName>
+               </person>
+               <person role="named" xml:id="Mat">
+                  <persName>
+                     <ref/>
+                     <forename/>
+                     <surname>Mathis</surname>
+                  </persName>
+               </person>
+               <person role="named" xml:id="Eng">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/11868468X"/>
+                     <forename>Johann Jakob</forename>
+                     <surname>Engel</surname>
+                  </persName>
+               </person>
+               <person role="named" xml:id="DlT">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/118578677"/>
+                     <forename>Henri Masers de</forename>
+                     <surname>Latude</surname>
+                  </persName>
+               </person>
+               <person role="named" xml:id="Trk">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/118623796"/>
+                     <forename>Friedrich</forename>
+                     <surname>Trenck</surname>
+                     <roleName type="office">Freiherr von der</roleName>
+                  </persName>
+               </person>
+               <person role="named" xml:id="vPhu">
+                  <persName>
+                     <ref/>
+                     <forename>von</forename>
+                     <surname>Phul</surname>
+                  </persName>
+               </person>
+               <person role="named" xml:id="DMkr">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/116759135"/>
+                     <forename>Heinrich Matthias</forename>
+                     <surname>Marcard</surname>
+                  </persName>
+               </person>
+               <person role="named" xml:id="Sel">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/117474460"/>
+                     <forename>Christian Gottlieb</forename>
+                     <surname>Selle</surname>
+                  </persName>
+               </person>
+               <person role="named" xml:id="Phu">
+                  <persName>
+                     <ref/>
+                     <forename/>
+                     <surname>Phul</surname>
+                     <roleName type="family">Ehemann der Frau von Phul</roleName>
+                  </persName>
+               </person>
+               <person role="named" xml:id="Bit">
+                  <persName>
+                     <ref/><!-- kein GND-Eintrag -->
+                     <forename>Paul Jérémie</forename>
+                     <surname>Bitaubé</surname>
+                  </persName>
+               </person>
+               <person role="named" xml:id="Spa">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/117480088"/>
+                     <forename>Georg Ludwig</forename>
+                     <surname>Spalding</surname>
+                  </persName>
+               </person>
+               <person role="named" xml:id="Beg">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/118068296"/>
+                     <forename>Heinrich von</forename>
+                     <surname>Beguelin</surname>
+                  </persName>
+               </person>
+               <person role="named" xml:id="Ritz">
+                  <persName>
+                     <ref/>
+                     <forename/>
+                     <surname>Ritz</surname>
+                  </persName>
+               </person>
+               <person role="named" xml:id="HGen">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/11900738X"/>
+                     <forename>Heinrich</forename>
+                     <surname>Gentz</surname>
+                  </persName>
+               </person>
+               <person role="named" xml:id="JCvW">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/117453773"/>
+                     <forename>Johann Christoph</forename>
+                     <surname>von Woellner</surname>
+                  </persName>
+               </person>
+               <person role="named" xml:id="Hnz">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/118550756"/>
+                     <forename>Friedrich Anton von</forename>
+                     <surname>Heinitz</surname>
+                  </persName>
+               </person>
+            </listPerson>
+         </particDesc>
+         <settingDesc>
+            <listPlace>
+               <!-- Start- und Zielort -->
+               <place type="sender" xml:id="plBe">
+                  <country>
+                     <ref target="http://d-nb.info/gnd/4047194-9"/>
+                     <placeName>Preußen</placeName>
+                  </country>
+                  <settlement>
+                     <ref target="http://d-nb.info/gnd/4005728-8"/>
+                     <placeName>Berlin</placeName>
+                  </settlement>
+               </place>
+               <place type="receiver" xml:id="plBr">
+                  <country>
+                     <ref target="http://d-nb.info/gnd/4047194-9"/>
+                     <placeName>Preußen</placeName>
+                  </country>
+                  <settlement>
+                     <ref target="http://d-nb.info/gnd/4008216-7"/>
+                     <placeName>Breslau</placeName>
+                  </settlement>
+               </place>
+               <!-- erwähnte Orte -->
+               <place type="named" xml:id="plBb">
+                  <country>
+                     <ref target="http://d-nb.info/gnd/4047194-9"/>
+                     <placeName>Preußen</placeName>
+                  </country>
+                  <region>
+                     <ref target="http://d-nb.info/gnd/4007955-7"/>
+                     <placeName>Brandenburg</placeName>  
+                  </region>
+               </place>
+               <place type="named" xml:id="plKh">
+                  <country>
+                     <ref target="http://d-nb.info/gnd/4047194-9"/>
+                     <placeName>Preußen</placeName>
+                  </country>
+                  <settlement>
+                     <ref target="http://d-nb.info/gnd/7737660-2"/>
+                     <placeName>Königshorst</placeName>
+                  </settlement>
+               </place>
+               <place type="named" xml:id="plSh">
+                  <country>
+                     <ref target="http://d-nb.info/gnd/4047194-9"/>
+                     <placeName>Preußen</placeName>
+                  </country>
+                  <region>
+                     <ref target="http://d-nb.info/gnd/4052678-1"/>
+                     <placeName>Schlesien</placeName>
+                  </region>
+               </place>
+               <place type="named" xml:id="plPy">
+                  <country>
+                     <ref target="http://d-nb.info/gnd/4064376-1"/>
+                     <placeName>Staat Waldeck</placeName>  
+                  </country>
+                  <settlement>
+                     <ref target="http://d-nb.info/gnd/4047920-1"/>
+                     <placeName>Bad Pyrmont</placeName>
+                  </settlement>
+               </place>
+               <place type="named" xml:id="plLf">
+                  <country>
+                     <ref target="http://d-nb.info/gnd/4047194-9"/>
+                     <placeName>Preußen</placeName>
+                  </country>
+                  <region>
+                     <ref target="http://d-nb.info/gnd/4526262-7"/>
+                     <placeName>Lichterfelde</placeName>
+                  </region>
+               </place>
+               <place type="named" xml:id="plFr">
+                  <country>
+                     <ref target="http://d-nb.info/gnd/4018145-5"/>
+                     <placeName>Frankreich</placeName>  
+                  </country>
+               </place>
+               <place type="named" xml:id="plIt">
+                  <country>
+                     <ref target="http://d-nb.info/gnd/4027833-5"/>
+                     <placeName>Italien</placeName>
+                  </country>
+               </place>
+               <place type="named" xml:id="plFf">
+                  <country>
+                     <ref target="http://d-nb.info/gnd/4047194-9"/>
+                     <placeName>Preußen</placeName>
+                  </country>
+                  <region>
+                     <ref target="http://d-nb.info/gnd/4394762-1"/>
+                     <placeName>Friedrichsfelde</placeName>
+                  </region>
+               </place>
+            </listPlace>
+         </settingDesc>
+      </profileDesc>
+      <revisionDesc>
+         <change xml:id="init" when-iso="2018-02-04" who="#edAG">Erstauszeichnung und Normierung des Dokumentes im Rahmen der Masterarbeit der Matrikelnummer 5584124</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>     
+      <body>
+         <opener>
+            <dateline><rs type="place" ref="#plBe">Berlin</rs>, den <date when-iso="1790-09-18">18. September 1790</date>.</dateline>
+         </opener>
+         <div n="1" corresp="#bezbt">
+            <p>
+               Ich mache mir endlich Luft durch alles, was mich so lange von Ihnen weggedrängt hat, und fange einen Brief an, den 
+               ich hoffentlich endigen werde, nachdem schon fünf oder sechs andre unvollendet liegengeblieben sind. Seitdem Sie 
+               <rs type="place" ref="#plBe">Berlin</rs> verlassen haben, bin ich fast keine Stunde mein Herr gewesen. Fünf Wochen 
+               dieser Zeit sind auf Reisen mit dem <rs type="person" ref="#OvV">Minister Voß</rs> nach 
+               <rs type="place" ref="#plBb">Brandenburg</rs>, <rs type="place" ref="#plKh">Königshorst</rs> etc. hingegangen; die 
+               wenige Zwischenzeit habe ich entweder in Buch, oder im Arbeiten zugebracht, und erst heute, da mein hoher Gebieter 
+               eine Reise in eignen Angelegenheiten mit 6-wöchentlichem Urlaub angetreten hat, kann ich in der angenehmen 
+               Sicherheit, daß mich nichts vom Schreiben wegreißen soll, meinen Gedanken freien Lauf geben, und mich der süßen 
+               Erinnerung an Sie ungestört überlassen.
+            </p>
+         </div>
+         <div n="2" corresp="#vcg">
+            <p>
+               <rs type="citation" ref="#c3713-1">Ihr gütiger Brief</rs>, teuerster Herr Professor, hat mir die angenehmsten 
+               Augenblicke verschafft, die ich seit <ref target="#r3713-2">Ihrer Entfernung</ref> von 
+               <rs type="place" ref="#plBe">Berlin</rs> genossen habe. Die frohe Überzeugung, daß ich in Ihrem Andenken an diesen 
+               Ort eine ehrenvolle Stelle einnehme, ist das einzige, was mich für den Verlust Ihres Umgangs einigermaßen 
+               entschädigen kann. Und doch fühle ich diesen Verlust sehr, sehr lebhaft. Ob ich gleich Ihre Anwesenheit lange nicht 
+               so habe benutzen können, als ich es gewünscht und auch wohl geträumt hatte, so war dennoch die Leere, die ich 
+               empfand, als ich Sie so weit weg wußte, sehr empfindlich, und vielleicht eben darum noch empfindlicher, weil ich 
+               nicht befriedigt war. Während daß ich mich mit dem Abschreiben 
+               <rs type="citation" ref="#a3713-1">Ihrer Abhandlung</rs> beschäftigte, oder die Bücher las, die Sie mir 
+               zurückgelassen haben, fühlte ich mich Ihnen zwar wieder etwas näher; aber der Schriftsteller ist doch nicht der 
+               Mann, und diesen liebe ich, nach diesem sehne ich mich, wenn ich jenen bewundert habe.
+            </p>
+            <p>
+               Verzeihen Sie meinem Herzen, diese weitschweifige Darstellung meiner Empfindungen. Nur für diesen ersten Brief 
+               verzeihen Sie mir. Und <pb/> lassen Sie mich nur schnell noch hinzusetzen, daß ich 
+               <ref target="#r3713-2">Ihren Aufenthalt</ref> in <rs type="place" corresp="#plBe">Berlin</rs> schon in der 
+               einzigen Rücksicht, daß ich Ihnen bekannter, und doch nicht gleichgültiger geworden bin, unter die erfreulichsten 
+               Begebenheiten meines Lebens rechne.
+            </p>
+            <p>
+               Was mich bei allen den Hindernissen, die mich abhielten, an Sie zu schreiben, am schrecklichsten ängstigte, war, daß 
+               ich um so länger auf Nachrichten von Ihrem Befinden Verzicht tun mußte. 
+               <rs type="citation" ref="#c3713-1">Ihr Brief</rs> hatte meine gute Hoffnungen begünstigt. Wollte doch Gott, Ihr 
+               nächster bestärkte mich darin. Wenn der Herbst in <rs type="place" ref="#plSh">Schlesien</rs> so schön ist, als bei 
+               uns, so wird dies Jahr gewiß in der Heilung Ihres Übels Epoche machen.
+            </p>
+            <p>
+               <rs type="citation" ref="#a3713-1">Ihre Abhandlung</rs> habe ich an <rs type="person" ref="#Bie">Herrn Biester</rs> 
+               abgeliefert, der sie mit großem Vergnügen empfangen und gelesen hat, Ihnen dafür verbindlichst dankt, und sie 
+               <ref target="#r3713-4">nächstens</ref> abdrucken lassen wird.
+            </p>
+         </div>
+         <div n="3" corresp="#mss">
+            <p>
+               Die überhäuften Geschäfte, die mich seit einiger Zeit gedrückt haben, haben mich fast ganz von literärischen 
+               Beschäftigungen entfernt. Jetzt, da ich eine sechswöchentliche vollkommne Freiheit vor mir sehe, will ich gewiß 
+               keine Stunde verschwenden, die ich diesen Lieblingsbeschäftigungen widmen kann. Ich habe besonders seit einiger 
+               Zeit, empört durch <ref target="#r3713-3">einige Abhandlungen</ref> in der 
+               <rs type="citation" ref="#p3713-1">Monatsschrift</rs>, von <rs type="person" ref="#Moe">Möser</rs> und 
+               <rs type="person" ref="#Bie">Biester</rs>, worin über die natürlichen Rechte des Menschen in einem unerträglich 
+               gleichgültigen Tone gezweifelt und gespaßt wird, die Idee im Kopf, eine Deduktion des Naturrechts nach strikten und 
+               unleugbaren Prinzipien aufzusetzen. Bringe ich es zustande, und kann ich es in die Grenzen eines mäßigen Aufsatzes 
+               zwingen, so wäre ich nicht abgeneigt, es <rs type="person" ref="#Bie">Herrn Biester</rs> selbst für seine 
+               <rs type="citation" ref="#p3713-1">Monatsschrift</rs> zu <ref target="#r3713-5">übergeben</ref>. Ich zittre 
+               indessen vor einem ersten öffentlichen Versuch meiner Kräfte, und komme ich zum Entschluß, so ist es nur 
+               <rs type="person" ref="#Anc">Ancillon</rs>, der ihn hervorgestoßen hat.
+            </p>
+         </div>
+         <div n="4" corresp="#vfa">
+            <p>
+               Dieser liebenswürdige Freund hat den Eindruck, den Ihre Bekanntschaft auf ihn gemacht hat, so lebhaft konserviert, 
+               daß er zuver<pb/>läßig, bloß um Sie zu sehen, mit <rs type="person" ref="#Mat">Mathis</rs> nach 
+               <rs type="place" ref="#plBr">Breslau</rs> gereiset wäre, wenn ihn sein Amt nicht zurückgehalten hätte. Wir 
+               unterhalten uns oft von Ihnen, und ergötzen uns an dem Gedanken, wie schön es wäre, wenn Sie unter uns 
+               wohnen könnten.
+            </p>
+         </div>
+         <div n="5" corresp="#bezbl">
+            <p>
+               Gleich den Tag nach Ihrer Abreise, habe ich meinen Besuch bei <rs type="person" ref="#Eng">Herrn Professor Engel</rs> 
+               gemacht, und wie froh bin ich, daß ich es tat, ehe meine beschwerliche Reisen mir Zeit und Lust dazu raubten. Ich 
+               habe zwei sehr angenehme Stunden bei ihm zugebracht und bin, wie ich es vorher geglaubt habe, von seiner 
+               Unterhaltung aufs neue recht bezaubert gewesen. Ich werde die Erlaubnis, die er mir gab, ihn oft zu besuchen, gewiß 
+               benutzen, und danke Ihnen herzlich, daß Sie mir auch diese Quelle manches schätzbaren Genusses wieder eröffnet haben.
+            </p>
+         </div>
+         <div n="6" corresp="#frv">
+            <p>
+               Da ich selbst seit Ihrer Abwesenheit wenig gelesen habe und sogar wenig in <rs type="place" ref="#plBe">Berlin</rs> 
+               gewesen bin, so weiß ich auch von Neuigkeiten aus der gelehrten Welt äußerst wenig. Die beiden neusten französischen 
+               Bücher, die ich gestern bei <rs type="person" ref="#Anc">Ancillon</rs> gesehen habe, sind 
+               <rs type="citation" ref="#a3713-2">die interessanten Reisen durch Spanien vom Chevalier Bourgoyne</rs> und 
+               <rs type="citation" ref="#a3713-3">Dupont Théorie du luxe</rs>. In dem hiesigen französischen Journalgeschäft 
+               zirkulieren jetzt die <rs type="citation" ref="#e3713-1">Mémoires</rs> des 
+               <rs type="person" ref="#DlT">Herrn de la Tude</rs>, der 35 Jahr ohne Verbrechen in den Staatsgefängnissen 
+               geschmachtet hat: ein schauervolles Buch, wogegen die <rs type="person" ref="#Trk">Trenk</rs>sche 
+               <rs type="citation" ref="#a3713-4">Geschichte</rs> ein Kinderspiel ist. Vielleicht gibt es kein Beispiel größern 
+               menschlichen Elends in den Annalen der Welt, und keine verhaßtre Schandtat der Ministerial- und Favoritentyrannei. 
+               Sobald dies Buch hier zu haben sein wird, werde ich es Ihnen überschicken; denn da es eine Lektüre für jeden ist, 
+               der auch nur überhaupt das Wunderbare liebt, so werden Sie nicht in die Verlegenheit kommen, es auf dem Halse zu 
+               behalten, und bald einen Abnehmer finden.
+            </p>
+         </div>
+         <div n="7" corresp="#kphul">
+            <p>
+               Möchte ich Ihnen doch, da ich Ihnen doch auch andre Neuigkeiten mitteilen wollte, erfreulichere zu erzählen haben, 
+               als die folgende, die unsre arme, unglückliche Freundin, die <rs type="person" ref="#vPhu">Frau von Phul</rs>, 
+               betrifft. Sie wissen, daß sie nach <rs type="place" ref="#plPy">Pyrmont</rs> gereiset war, um den Brunnen zu trinken. 
+               Durch einen Quacksalber mit einem berühmten Namen, den <rs type="person" ref="#DMkr">Doktor Markard</rs>, ließ sie 
+               sich verleiten, Brunnen und Bad zugleich zu gebrauchen, welches offenbar ihre Kräfte überstieg. Die traurige Folge 
+               dieser unvorsichtigen Kur ist die gewesen, daß sie erst in die heftigsten Krämpfe, und zuletzt in eine völlige 
+               Sinnlosigkeit verfallen ist, in der sie sich noch jetzt befindet. Seit sechs Wochen ist sie in einem beständigen 
+               Wahnsinn, hat ein ganzes System ausschweifender Gedanken, auf die Idee gebaut, sie sei Christus, 
+               <rs type="person" ref="#Phu">ihr Mann</rs>, Gott der Vater, und ich, der heilige Geist, schläft nicht, ißt nicht, 
+               und nimmt zusehends ab. <rs type="person" ref="#Phu">Phul</rs>, der aus <rs type="place" ref="#plSh">Schlesien</rs> 
+               nach <rs type="place" ref="#plPy">Pyrmont</rs> geeilt ist, um sie, womöglich, zur Vernunft zurück zu bringen, hat 
+               alles vergeblich versucht, und sich endlich entschließen müssen, mit ihr nach 
+               <rs type="place" ref="#plBe">Berlin</rs> zurückzureisen.
+            </p>
+            <p>
+               <date when-iso="1790-09-16">Vorgestern</date> ist sie nun in dem nämlichen Zustande einer völligen Verrückung in 
+               <rs type="place" ref="#plLf">Lichterfelde</rs> angekommen, und <date when-iso="1790-09-19">morgen</date> steht mir 
+               das traurige Geschäft bevor, sie zu besuchen. Auf ausdrückliches Verlangen ihrer Mutter und Familie, die in einem 
+               vielleicht übertriebnen Vertrauen auf meinen Einfluß auf ihren Kopf und ihr Herz sich schmeicheln, daß ich ihr 
+               Vorteil stiften könnte, muß ich diesen Besuch, wobei sich wahrhaftig mein Innerstes bewegt, unternehmen. Wie gern 
+               wollte ich mich indessen dieser sauren Pflicht unterziehen, wenn meine Gegenwart wirklich etwas fruchten könnte, 
+               woran ich aber nach allem, was ich gehört habe, sehr zweifle. <rs type="person" ref="#Sel">Selle</rs> hat ihre Kur 
+               übernommen: und das einzige, worauf er und andre die Hoffnung ihrer Besserung gründen, ist, daß das Übel sich mit 
+               dem unnatürlichen Ausbleiben einer gewissen periodischen Ausleerung eingefunden hat, daß diese Ausleerung noch 
+               nicht wieder ein<pb/>getreten ist, und daß man daher, wenn man Mittel findet, sie zu bewirken, auch vermuten darf, 
+               ihren Kopf zu befreien.
+            </p>
+            <p>
+               Erinnern Sie sich noch, was für Schwierigkeiten gegen diese Reise stritten ? in welcher Angst und Verlegenheit sie 
+               einige Tage vorher war, als sie abends bei uns speisete - daß man sie daran hindern würde ? Das ist es nun, was sie 
+               erkämpft hat - Gott ! was ist der Mensch !
+            </p>
+         </div>
+         <div n="8" corresp="#vcg">
+            <p>
+               Ich trete von diesem traurigen Gegenstande zurück, um mich noch auf einen Augenblick von etwas, was Sie näher 
+               angeht, mit Ihnen zu unterhalten. Dies ist Ihr vorläufiger Auftrag wegen 
+               <rs type="citation" ref="#a3713-5">einer gewissen Schrift</rs>, von der, jedoch, wie ich nochmals feierlichst 
+               protestiere, ohne meine Schuld, schon verschiedentlich in Berlin geredet wird, und nach der mancher Buchhändler 
+               schon seine Angel aushängt: ich erzähle Ihnen dies bloß, um Ihren Vorsatz, an diese Schrift unverzüglich die letzte 
+               Hand zu legen, zu befestigen, und Sie bei dieser Gelegenheit nochmals zu versichern, daß ich es mir zur heiligsten 
+               Pflicht machen werde, mit der ängstlichsten Genauigkeit für die vorteilhaftste, richtigste und nettste Erscheinung 
+               derselben im Publikum, und zugleich für die besten Bedingungen des Verlegers zu sorgen.
+            </p>
+            <p>
+               Ich werde dies um so eher tun können, da ich jetzt wirklich einer Periode entgegensehe, wo ich viel mehr Ruhe und 
+               Muße haben werde, als bisher. Wenn die sechs Wochen Ferien vorbei sind, so ist der Winter da, und da vermindern sich 
+               unsre Geschäfte beträchtlich, und überdies wird sich vielleicht selbst in meinem Verhältnis verschiednes ändern, 
+               wodurch meine persönliche Abhängigkeit vom <rs type="person" ref="#OvV">Minister</rs> abnehmen wird.
+            </p>
+            <p>
+               Alles, was ich alsdann Ihnen von meiner Zeit widmen kann, werde ich für klaren Gewinnst ansehen. Ich werde auch, wie 
+               ich Ihnen versprochen habe, oft, und ohne auf Ihre Antwort zu warten, an Sie schreiben. 
+               <rs type="person" ref="#Anc">Ancillon</rs> soll und wird ein Gleiches tun.
+            </p>
+            <p>
+               Ich muß noch bemerken, daß ich mir beim Abschreiben <rs type="citation" ref="#a3713-1">Ihres Aufsatzes</rs> 
+               verschiedne kleine Änderungen erlaubt habe, zu denen Sie mich selbst berechtigt haben. Das letzte Stück des 
+               Aufsatzes füge ich diesem Briefe bei, weil ich mit <rs type="person" ref="#Bie">Herrn Biester</rs> wünsche, daß Sie 
+               die zweite Hauptfrage ebenfalls bearbeiteten. Die ersten Bogen werde ich Ihnen mit der nächsten Gelegenheit 
+               zurücksenden.
+            </p>
+         </div>
+         <div n="9" corresp="#bezbl">
+            <p>
+               Unter manchen Personen, die sich nach Ihrem Befinden erkundigt, und mir Empfehlungen für Sie zu bestellen gegeben 
+               haben, ist vorzüglich <pb/> das Hainchelinsche und das Meriansche Haus. <rs type="person" ref="#Spa">Spalding</rs> 
+               hat <rs type="citation" ref="#c3713-4">selbst an Sie geschrieben</rs>, wie er mir gesagt hat. 
+               <rs type="person" ref="#Beg">Beguelin</rs> ist mit <rs type="person" ref="#Ritz">Madame Ritz</rs>, die ihre 
+               <emph rend="underlined">große</emph> Reise mit <rs type="place" ref="#plPy">Pyrmont</rs> angefangen und beschlossen 
+               hat (wie ich, und ich allein es sogleich prophezeite), längst wieder zurück. In unserm Hause trägt sich folgendes 
+               zu: mein zweiter Bruder, der Architekt (<rs type="person" ref="#HGen">Heinrich</rs>), reiset in drei Tagen 
+               größtenteils auf königliche Kosten, wozu ihm <rs type="person" ref="#JCvW">Herr von Wöllner</rs> und 
+               <rs type="person" ref="#Hnz">Herr von Heinitz</rs> gemeinschaftlich verhelfen, nach 
+               <rs type="place" ref="#plIt">Italien</rs>, <rs type="place" ref="#plFr">Frankreich</rs> und so fort, wozu für jetzt 
+               ein Zeitraum von zwei Jahren bestimmt ist. Ich sitze manchmal - Sie kennen meine unruhige Lebhaftigkeit über diesen 
+               Punkt - und stampfe mit meinen Füßen, wenn ich bedenke, wie mich, der ich doch zu so mannigfaltigem Genuß 
+               ausgerüstet bin, die Einförmigkeit meines Schicksals nie aus dem engen Kreise einer geschäftslosen Geschäftigkeit 
+               herausläßt, und wie ich die Welt, in der so viel zu sehen ist, nur durch ein Dachfenster ansehen darf.
+            </p>
+         </div>
+         <div n="10" corresp="#vcg">
+            <p>
+               Alle meine Angehörigen empfehlen sich Ihnen, und sehnen sich nach guten Nachrichten von Ihrer Gesundheit. Mich 
+               ergreift, indem ich diesen Brief schließen soll, das Andenken an Sie mit solcher Wärme, daß es mir ist, als wenn ich 
+               mich erst eben auf dem einsamen, traurigen Wege von <rs type="place" ref="#plBe">Berlin</rs> nach 
+               <rs type="place" ref="#plFf">Friedrichsfelde</rs> von Ihrer Seite risse.
+            </p>
+            <p>
+               Nehmen Sie, vortrefflicher Mann, den ich meinen Freund nennen darf, auch bei dieser Gelegenheit die Versicherung 
+               meiner bekannten Hochachtung, Verehrung und Liebe an.
+            </p>
+         </div>
+         <closer>
+            <signed rend="right">Gentz.</signed>
+         </closer>
+      </body>
+      <note resp="#edAG" xml:id="r3713-1">Im Text wird sie nicht näher benannt, aufgrund der zeitlichen Nähe aber wahrscheinlich</note>
+      <note resp="#edAG" xml:id="r3713-2">Vgl. den <rs type="citation" corresp="#c3713-2">Brief vom 24. April</rs> und den <rs type="citation" corresp="#c3713-3">Brief von Ende April 1790</rs></note>
+      <note resp="#edAG" xml:id="r3713-3"><rs type="citation" ref="#p3713-1">In Band 15 der Monatsschrift</rs> von 1790 ist die Abhandlung <rs type="citation" ref="#f3713-1">Ueber das Recht der Menschheit, als den Grund der neuen Französischen Konstitution</rs> <rs type="person" ref="#Moe">Möser</rs>s erschienen</note>
+      <note resp="#edAG" xml:id="r3713-4">Sie erschien im November 1790 in der Berlinischen Monatsschrift</note>
+      <note resp="#edAG" xml:id="r3713-5">Dieser entgegengesetzte Aufsatz erschien im April 1791 in der Monatsschrift, wie es auf <rs type="citation" ref="#f3713-2">Seite 394 des Bandes 17</rs> ersichtlich wird</note>
+   </text>
+</TEI>

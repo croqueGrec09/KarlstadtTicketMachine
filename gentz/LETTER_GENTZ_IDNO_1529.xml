@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader type="text">
+      <fileDesc xml:id="LETTER_GENTZ_1529">
+         <titleStmt>
+            <title>Friedrich von Gentz an Friedrich Vieweg, 25. [?] März 1795</title>
+            <editor xml:id="edAG">Andreas Gálffy</editor>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <name>Forschungsstelle "Universitätssammlung Friedrich von Gentz"</name>
+               <link target="http://gentz-digital.ub.uni-koeln.de http://www.ub.uni-koeln.de/cdm/singleitem/collection/gentz/id/1528/"/>
+            </publisher>
+            <pubPlace>Cologne</pubPlace>
+            <idno type="Gentz-Edition-Number" n="1529"/>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <country>Germany</country>
+                  <settlement>Wiesbaden</settlement>
+                  <institution>Vieweg-Verlagsarchiv</institution>
+                  <repository>Briefsammlung 311 G, Gentz-Briefe</repository>
+                  <idno>Nr. 25</idno>
+               </msIdentifier>
+               <msContents>
+                  <summary>
+                     Dieses Schreiben hat Gentz zur weiteren Rechtfertigung seiner Bitte verfasst; zudem möchte er klare 
+                     Verhältnisse und sicherstellen, dass Gentz weiterhin mit dem gleichen Respekt für Vieweg ist, wie bisher.
+                  </summary>
+               </msContents>
+            </msDesc>
+            <listBibl type="letterReferenced">
+               <bibl xml:id="c1529-1" corresp="#LETTER_GENTZ_5195">Friedrich von Gentz an Friedrich Vieweg, 24. März 1795</bibl>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Masterarbeit zu Matrikelnummer 5584124</p>
+         </projectDesc>
+      </encodingDesc>
+      <profileDesc>
+         <creation>
+            <date when-iso="1795-03-25">25. März 1795</date>
+         </creation>
+        <langUsage>
+           <language ident="d">deutsch</language>
+        </langUsage>
+         <textClass>
+            <keywords scheme="internal"><!-- internal: innerhalb des besagten Briefs -->
+               <term>Brief</term>
+               <term>Verlegenheit</term>
+               <term>Geld</term>
+            </keywords>
+            <keywords scheme="categorisation"><!-- Sinnabschnittseinteilung - relevant für den Fahrkartenautomaten! -->
+               <term xml:id="gprl">Gentz - p(r)ekuniäre Lage</term>
+               <term xml:id="vwf">Vieweg - Freundschaft</term>
+            </keywords>
+         </textClass>
+         <textDesc>
+            <channel>manuscript</channel>
+            <constitution type="single"/>
+            <derivation type="original"/>
+            <domain type="private"/>
+            <factuality type="fact"/>
+            <interaction type="partial"/>
+            <preparedness type="prepared"/>
+            <purpose type="inform"/>
+         </textDesc>
+         <particDesc>
+            <listPerson>
+               <!-- Sender und Adressat -->
+               <person role="sender" xml:id="Gen">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/118538489"/>
+                     <forename>Friedrich von</forename>
+                     <surname>Gentz</surname>
+                  </persName>
+               </person>
+               <person role="receiver" xml:id="FVW">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/119049546"/>
+                     <forename>Friedrich</forename>
+                     <surname>Vieweg</surname>
+                  </persName>
+               </person>
+               <!-- erwähnte Personen -->
+               <person role="named" xml:id="HGen">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/11900738X"/>
+                     <forename>Heinrich</forename>
+                     <surname>Gentz</surname>
+                  </persName>
+               </person>
+            </listPerson>
+         </particDesc>
+         <settingDesc>
+            <listPlace>
+               <!-- Start- und Zielort -->
+               <place type="sender" xml:id="plBe">
+                  <country>
+                     <ref target="http://d-nb.info/gnd/4047194-9"/>
+                     <placeName>Preußen</placeName>
+                  </country>
+                  <settlement>
+                     <ref target="http://d-nb.info/gnd/4005728-8"/>
+                     <placeName>Berlin</placeName>
+                  </settlement>
+               </place>
+               <!-- erwähnte Orte -->
+            </listPlace>
+         </settingDesc>
+      </profileDesc>
+      <revisionDesc>
+         <change xml:id="init" when-iso="2018-02-16" who="#edAG">Erstauszeichnung und Normierung des Dokumentes im Rahmen der Masterarbeit der Matrikelnummer 5584124</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>     
+      <body>
+         <div n="1" corresp="#gprl">
+            <p>
+               Ich habe, gleich als ich heute von Ihnen ging, weil es mich tief kränkte und noch kränkt Sie durch einen 
+               <ref target="#r1529-1">unzeitigen Aufruf in der Noth</ref> beunruhigt und <add place="above">in</add> Verlegenheit 
+               gesetzt zu haben, einen Versuch gemacht, meine eigne Schuld zu prolongiren, und die 30 Friedrichsdor für 
+               <rs type="person" ref="#HGen">meinen Bruder</rs> auf einem andern Wege <del rend="stroked">zu</del> anzuschaffen. 
+               Das <del rend="stroked">erste</del> letzte ist mir noch nicht gelungen, das erste, ob ich gleich entschlossen war, 
+               <del rend="stroked">lieber</del> 10 Friedrichsdor daran zu wenden, wenn ich mir die Beruhigung erwerben konnte, Sie 
+               noch heute von aller weitern Sorge zu dispensiren, gänzlich mislungen. Denn da der Inhaber des Wechsels sah, daß ich 
+               in Verlegenheit war, so wollte er lieber 30 als 10 Friedrichsdor verdienen, und bestand also auf dem Anerbieten, 
+               <rs type="person" ref="#HGen">meines Bruders</rs> Wechsel mit meiner Garantie für 350 Reichsthaler (statt 500) 
+               anzunehmen, ein Vorschlag, den ich mir, wäre es auch nur um <rs type="person" ref="#HGen">meines Bruders</rs> und 
+               meiner Ehre willen, nicht gefallen lassen konnte; ich bin also davon gegangen - jeder Gefahr bloß gestellt.
+            </p>
+         </div>
+         <div n="2" corresp="#vwf">
+            <p>
+               Ich melde Ihnen dies nur in der einzigen Rücksicht, mein lieber Vieweg, damit Sie nicht etwa auf die Vermuthung 
+               gerathen, daß nicht wahre Noth, sondern Bequemlichkeit oder irgend ein andrer geringfügiger Bewegungsgrund mich 
+               <pb/> zu dem Schritte, den ich gegen Sie that, verleitete. Ich sage nichts weiter, um Sie für mich zu gewinnen: Ihr 
+               Herz ist bereits für mich gewonnen: nur soviel muß ich, weil Wahrheit und innres Gefühl mich treibt, Ihnen erklären, 
+               daß Sie vielleicht, so lange Sie leben und Gutes wirken, noch nie einem Ihrer Freunde, so wesentlich, so ernsthaft 
+               und so entscheidend gedient haben, als Sie es thun, wenn Sie unter irgend einer Gestalt, und unter irgend einer 
+               Bedingung meine Bitte erfüllen. Und dies ist Ihnen genug. <span xml:lang="lat">Vale ergo</span>.
+            </p>
+         </div>
+         <closer>
+            <signed rend="right">Gentz.</signed>
+         </closer>
+         <postscript corresp="#vwf">
+            <p>
+               Ich für mein Theil habe in meinem Leben, ohne viel darüber zu klagen, schon manchen Kummer gehabt, und bin schon in 
+               mancher Verlegenheit mancherley Art gewesen. Diese aber, ob es gleich hier nur auf Monate ankömmt, und ich in der 
+               Sache selbst gedeckt bin, ist die allerempfindlichste in der ich mich je befand. Auch dies soll, bey Gott, keine 
+               <span xml:lang="lat">captatio benevolentiae</span> seyn: ich halte es aber für Pflicht gegen sich selbst und andre, 
+               dem, welchem man eine Noth entdeckt, auch die wahre Größe und den wahren Grad derselben nie zu verhehlen, oder 
+               lieber ganz zu schweigen.
+            </p>
+         </postscript>
+      </body>
+      <note resp="#edAG" xml:id="r1529-1">Vgl. den <rs type="citation" ref="#c1529-1">Brief vom 24. März 1795</rs>.</note>
+   </text>
+</TEI>

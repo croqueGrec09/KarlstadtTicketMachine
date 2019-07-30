@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader type="text">
+      <fileDesc xml:id="LETTER_GENTZ_2679">
+         <titleStmt>
+            <title>Friedrich von Gentz an Friedrich Vieweg, Mai 1794</title>
+            <editor xml:id="edAG">Andreas Gálffy</editor>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <name>Forschungsstelle "Universitätssammlung Friedrich von Gentz"</name>
+               <link target="http://gentz-digital.ub.uni-koeln.de http://www.ub.uni-koeln.de/cdm/singleitem/collection/gentz/id/2678/"/>
+            </publisher>
+            <pubPlace>Cologne</pubPlace>
+            <idno type="Gentz-Edition-Number" n="2679"/>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <country>Germany</country>
+                  <settlement>Wiesbaden</settlement>
+                  <institution>Vieweg-Verlagsarchiv</institution>
+                  <repository>Briefsammlung 311 G: Gentz-Briefe</repository>
+                  <idno>Nr. 7</idno>
+               </msIdentifier>
+               <msContents>
+                  <summary>
+                     20 Friedrichsd'or sind eingegangen. Gentz dankt Vieweg, dass er die Bitte erfüllt hat und hofft, ihn in 
+                     Friedrichsfelde zu sehen.
+                  </summary>
+               </msContents>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Masterarbeit zu Matrikelnummer 5584124</p>
+         </projectDesc>
+      </encodingDesc>
+      <profileDesc>
+         <creation>
+            <date when-iso="1794-05-00">Mai 1794</date>
+         </creation>
+        <langUsage>
+           <language ident="d">deutsch</language>
+        </langUsage>
+         <textClass>
+            <keywords scheme="internal"><!-- internal: innerhalb des besagten Briefs -->
+               <term>Billet</term>
+               <term>Geld</term>
+               <term>Besuch</term>
+               <term>Friedrichsfelde</term>
+            </keywords>
+            <keywords scheme="categorisation"><!-- Sinnabschnittseinteilung - relevant für den Fahrkartenautomaten! -->
+               <term xml:id="gprl">Gentz - p(r)ekuniäre Lage</term>
+               <term xml:id="vwf">Vieweg - Freundschaft</term>
+            </keywords>
+         </textClass>
+         <textDesc>
+            <channel>manuscript</channel>
+            <constitution type="single"/>
+            <derivation type="original"/>
+            <domain type="private"/>
+            <factuality type="fact"/>
+            <interaction type="partial"/>
+            <preparedness type="unprepared"/>
+            <purpose type="inform"/>
+         </textDesc>
+         <particDesc>
+            <listPerson>
+               <!-- Sender und Adressat -->
+               <person role="sender" xml:id="Gen">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/118538489"/>
+                     <forename>Friedrich von</forename>
+                     <surname>Gentz</surname>
+                  </persName>
+               </person>
+               <person role="receiver" xml:id="FVW">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/119049546"/>
+                     <forename>Friedrich</forename>
+                     <surname>Vieweg</surname>
+                  </persName>
+               </person>
+               <!-- erwähnte Personen -->
+            </listPerson>
+         </particDesc>
+         <settingDesc>
+            <listPlace>
+               <!-- Start- und Zielort -->
+               <place type="sender" xml:id="plBe">
+                  <country>
+                     <ref target="http://d-nb.info/gnd/4047194-9"/>
+                     <placeName>Preußen</placeName>
+                  </country>
+                  <settlement>
+                     <ref target="http://d-nb.info/gnd/4005728-8"/>
+                     <placeName>Berlin</placeName>
+                  </settlement>
+               </place>
+               <!-- erwähnte Orte -->
+               <place type="named" xml:id="plFf">
+                  <country>
+                     <ref target="http://d-nb.info/gnd/4047194-9"/>
+                     <placeName>Preußen</placeName>
+                  </country>
+                  <region>
+                     <ref target="http://d-nb.info/gnd/4394762-1"/>
+                     <placeName>Friedrichsfelde</placeName>
+                  </region>
+               </place>
+            </listPlace>
+         </settingDesc>
+      </profileDesc>
+      <revisionDesc>
+         <change xml:id="init" when-iso="2018-02-14" who="#edAG">Erstauszeichnung und Normierung des Dokumentes im Rahmen der Masterarbeit der Matrikelnummer 5584124</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>     
+      <body>
+         <div n="1" corresp="#gprl">
+            <p>
+               Accepi 20 Friedrichs dor.
+            </p>
+            <p>
+               Und danke Ihnen recht herzlich, daß Sie die Güte haben wollten, diese meine Bitte Statt finden zu lassen.
+            </p>
+         </div>
+         <div n="2" corresp="#vwf">
+            <p>
+               Vielleicht sehe ich Sie heute noch einen Augenblick und wiederhole die Bitte, daß Sie Sich doch in 
+               <rs type="place" ref="#plFf">Friedrichfelde</rs> wo es jetzt keine Gewitter mehr giebt, sehen lassen möchten
+            </p>
+         </div>
+         <closer>
+            <signed rend="left">Gentz.</signed>
+         </closer>
+      </body>
+      <back>
+         <p>
+            Des
+            Herrn F. Vieweg
+            Wohlgebohren.
+         </p>
+         <p resp="#FVW">
+            <rs type="place" ref="#plBe">Berlin</rs> d <date when-iso="1794-07-10">10 Jul. 1794</date>
+            H KrRth Gentz
+            No
+            <emph rend="underlined">notirt</emph>
+         </p>
+      </back>
+   </text>
+</TEI>

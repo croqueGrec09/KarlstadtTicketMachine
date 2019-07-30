@@ -1,0 +1,243 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader type="text">
+      <fileDesc xml:id="LETTER_GENTZ_2431">
+         <titleStmt>
+            <title>Friedrich von Gentz an Elisabeth Graun, 10. März 1785</title>
+            <editor xml:id="edAG">Andreas Gálffy</editor>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <name>Forschungsstelle "Universitätssammlung Friedrich von Gentz"</name>
+               <link target="http://gentz-digital.ub.uni-koeln.de http://www.ub.uni-koeln.de/cdm/singleitem/collection/gentz/id/2430/"/>
+            </publisher>
+            <pubPlace>Cologne</pubPlace>
+            <idno type="Gentz-Edition-Number" n="2431"/>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <country>Poland</country>
+                  <settlement>Cracow</settlement>
+                  <institution>Biblioteka Jagiellońska</institution>
+                  <repository>Handschriftenabtelung</repository>
+                  <collection>Varnhagensammlung der ehemaligen Preußischen Bibliothek</collection>
+                  <idno>Karton 66</idno>
+               </msIdentifier>
+               <msContents>
+                  <summary>
+                     Gentz hat mit Frau Dengel gesprochen und eine Diskussion für sich entschieden. Dabei hat er ein Treffen 
+                     zwischen Graun und Dengels arrangiert, das Frau Graun jederzeit wahrnehmen könne. Es soll ein Dîner bei 
+                     Fahrenheit stattfinden, zu welchem Frau Graun nicht geladen worden wäre. Man macht sich über Fahrenheits wohl 
+                     ziemlich hochnäsige Gesellschaft lustig. Über das Treffen bei Dengels bittet Gentz Antwort und bekundet seine 
+                     aufrichtige Treue zu Frau Graun.
+                  </summary>
+               </msContents>
+            </msDesc>
+            <listBibl type="preprints">
+               <biblStruct>
+                  <monogr>
+                     <editor>
+                        <persName>
+                           <ref target="http://d-nb.info/gnd/130953075"/>
+                           <forename>Friedrich Carl</forename>
+                           <surname>Wittichen</surname>
+                        </persName>
+                        <persName>
+                           <ref/> <!-- kein GND-Eintrag -->
+                           <forename>Ernst</forename>
+                           <surname>Salzer</surname>
+                        </persName>
+                     </editor>
+                     <title>Briefe von und an Friedrich von Gentz. 4 Bde.</title>
+                     <imprint>
+                        <publisher>Oldenbourg</publisher>
+                        <pubPlace>München, Berlin</pubPlace>
+                        <date>1909-1913</date>
+                     </imprint>
+                     <biblScope unit="volume" n="1">
+                        I
+                     </biblScope>
+                     <biblScope unit="page" from="16" to="18">
+                        Nr. 4
+                     </biblScope>
+                  </monogr>
+               </biblStruct>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Masterarbeit zu Matrikelnummer 5584124</p>
+         </projectDesc>
+      </encodingDesc>
+      <profileDesc>
+         <creation>
+            <date when-iso="1785-03-10">10. März 1785</date>
+         </creation>
+        <langUsage>
+           <language ident="d">deutsch</language>
+        </langUsage>
+         <textClass>
+            <keywords scheme="internal"><!-- internal: innerhalb des besagten Briefs -->
+               <term>Brief</term>
+               <term>Graun</term>
+               <term>Treffen</term>
+               <term>Dengel</term>
+               <term>Fahrenheit</term>
+            </keywords>
+            <keywords scheme="categorisation"><!-- Sinnabschnittseinteilung - relevant für den Fahrkartenautomaten! -->
+               <term xml:id="kdgl">Dengel</term>
+               <term xml:id="bezkg">Beziehungen zu Königsberg</term>
+               <term xml:id="veg">Verhältnis Elisabeth Graun</term>
+            </keywords>
+         </textClass>
+         <textDesc>
+            <channel>manuscript</channel>
+            <constitution type="single"/>
+            <derivation type="original"/>
+            <domain type="private"/>
+            <factuality type="fact"/>
+            <interaction type="partial"/>
+            <preparedness type="prepared"/>
+            <purpose type="inform"/>
+         </textDesc>
+         <particDesc>
+            <listPerson>
+               <!-- Sender und Adressat -->
+               <person role="sender" xml:id="Gen">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/118538489"/>
+                     <forename>Friedrich von</forename>
+                     <surname>Gentz</surname>
+                  </persName>
+               </person>
+               <person role="receiver" xml:id="Gra">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/123518733"/>
+                     <forename>Elisabeth</forename>
+                     <surname>Graun</surname>
+                  </persName>
+               </person>
+               <!-- erwähnte Personen -->
+               <person role="named" xml:id="den">
+                  <persName>
+                     <ref/>
+                     <forename/>
+                     <surname>Dengel</surname>
+                  </persName>
+               </person>
+               <person role="named" xml:id="fah">
+                  <persName>
+                     <ref/>
+                     <forename/>
+                     <surname>Fahrenheit</surname>
+                  </persName>
+               </person>
+               <person role="named" xml:id="lno">
+                  <persName>
+                     <ref/>
+                     <forename>David oder Jeremias</forename>
+                     <surname>Le Noble</surname>
+                     <certainty locus="name">
+                        <desc>ist unklar! Entnommen aus: Gause, Fritz. Friedrich Gentz in Königsberg. In: Jahrbuch der Schlesischen Friedrich-Wilhelms-Universität zu Breslau, Band XVIII. 1973. Berlin: Duncker &amp; Humblot. S. 325</desc>
+                     </certainty>
+                  </persName>
+               </person>
+            </listPerson>
+         </particDesc>
+         <settingDesc>
+            <listPlace>
+               <!-- Start- und Zielort -->
+               <place type="sender" xml:id="plKo">
+                  <country>
+                     <ref target="http://d-nb.info/gnd/4047194-9"/>
+                     <placeName>Preußen</placeName>  
+                  </country>
+                  <settlement>
+                     <ref target="http://d-nb.info/gnd/4031541-1"/>
+                     <placeName>Königsberg</placeName>
+                  </settlement>
+               </place>
+            </listPlace>
+         </settingDesc>
+      </profileDesc>
+      <revisionDesc>
+         <change xml:id="init" when-iso="2018-01-27" who="#edAG">Erstauszeichnung und Normierung des Dokumentes im Rahmen der Masterarbeit der Matrikelnummer 5584124</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <front>
+         <p>
+            <emph rend="underlined">An die Frau Regierungs-Räthinn</emph>
+            <emph rend="underlined">Graun</emph>
+         </p>
+         <figure>
+            <desc>Seite 3: Siegelrest</desc>
+         </figure>
+         <figure>
+            <desc>Blatt 2: Siegelausriß</desc>
+         </figure>
+      </front>
+      <body>
+         <div n="1" corresp="#kdgl">
+            <p>
+               Meinem Vorsatz und Versprechen gemäß ist mein erster Gedanke beym heutigen Erwachen, an Sie, liebe, beste Frau 
+               Regierungs Räthinn, gerichtet gewesen; und daher will ich mir auch gleich das Vergnügen machen, Ihnen nach 
+               herzlicher Anerwünschung eines guten Morgens, das Resultat meiner gestrigen Advocatur zu übersenden.
+            </p>
+            <p>
+               Ich hoffe, daß ich <rs type="person" ref="#den">Madame Dengel</rs> völlig von dem überzeugt habe, was sie 
+               meiner Absicht und Ihrem Wunsche zufolge glauben sollte. Ueber eine Stunde habe ich von der unglüklichen Geschichte 
+               gesprochen. Dengel, der aber gestern ganz besonders eigensinnig war, hat noch einige Skrupel, die ich darum nicht 
+               widerlegen konnte, weil er für Gut fand, sie für sich zu behalten. Alle die Gründe, von Ihrer ersten Abneigung, von 
+               Ihrer jetzigen Unzufriedenheit, von Fahrenheits Besuch, vom Porzellain, alles das habe ich angeführt, und ob ich 
+               Ihre Parthie gut und tapfer verfochten habe, das wird Ihnen Madame Dengel am besten sagen können.
+            </p>
+            <p>
+               Die angenehmste Nachricht, die ich Ihnen jetzt auftischen kan, ist die, daß Sie 
+               <date when-iso="1785-03-10">heute Vormittage</date>, um welche Zeit Sie wollen, zu Dengels gehen und die Dengeln 
+               sprechen können. Sie ist bis Mittag zu Hause, und wird Sie erwarten.
+            </p>
+         </div>
+         <div n="2" corresp="#bezkg">
+            <p>
+               Gestern kam unter Andern zwischen mir und Dengel eine sonderbare Betrachtung aufs Tapet; es ward erzählt, daß 
+               heute <add place="above">bey Fahrenheit</add> ein großes Diné wäre; und da entstand denn - aber blos unter uns 
+               beyden - die Frage, wie es denn wol käme, daß Fahrenheit, der um Sie nur auf dem Ball zu sehen, sich soviel Mühe 
+               gäbe, Sie nicht zu sich bitten ließe, und Sie überhaupt während der ganzen Abwesenheit Ihres Mannes nicht gebeten 
+               hätte ? Die Erklärung fiel denn ziemlich dahin aus, daß dem Kriegs Rath vermuthlich an Ihrer Gesellschaft noch 
+               unendlich viel mehr gelegen seyn müße, als der Frau Kriegs Räthinn. Neuer Wink allenfalls in der dornichten 
+               Untersuchung, die Ihnen heute noch das Herz beklemmen wird: Gehst du, wo M et P et S et K et G et et deiner warten ?
+               Oder sitzest du in der ruhigen Hinterstube, wo du statt der <pb/> Angloisen und Quadrillen nur die Musik von 
+               Ferdinand und Georgchen hörst, statt der adlichen Damen nur die liebe, vortrefliche Dengeln siehst, und statt aller 
+               jener <emph rend="underlined">ets</emph> mit <rs type="person" ref="#den">Dengel</rs>, 
+               <rs type="person" ref="#lno">le Noble</rs> und <rs type="person" ref="#Gen">Gentze</rs> zufrieden seyn mußt ?
+               - Doch - diesmal wird denn wol die Höflichkeit Alles andre unterdrücken müßen.
+            </p>
+         </div>
+         <div n="3" corresp="#veg">
+            <p>
+               Wenn Sie Zeit, Ruhe, Gelegenheit, und vor allen Dingen <emph rend="underlined">Lust</emph> haben, mir nur einige 
+               Zeilen zu antworten, so melden Sie mir doch gütigst, um welche Zeit Sie zu Dengels gehen wollten, und ob ich heute 
+               das Vergnügen Sie zu sprechen, oder Ihnen meinen Besuch abzustatten, erwarten darf. Münzmeisters haben für heute 
+               absagen laßen. Auch von diesem Gange sind Sie also auf heute dispensirt, und ich stehe nunmehr den ganzen Tag zu 
+               Ihren Befehlen -
+            </p>
+            <p>
+               Befehlen Sie nicht bald Etwas ? O befehlen Sie doch ! Wenn ich eine Frau hätte wollte ich sagen, sie legte sich 
+               Ihnen zu Füßen, (das soll sie gewiß einst, und wäre sie des Mogols Tochter) so aber kan ich weiter keine Empfehlung 
+               machen als von
+            </p>
+         </div>
+         <closer>
+            <salute rend="right">
+               Ihrem gehorsamsten Diener
+               und aufrichtigstem Freunde
+            </salute>
+            <dateline rend="left">den <date when-iso="1785-03-10">10t Märtz. 1785.</date></dateline>
+            <signed rend="right">Gentze.</signed>
+         </closer>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc xml:id="LETTER_GENTZ_0009">
+         <titleStmt>
+            <title>Friedrich von Gentz an Friedrich Vieweg, 28. Juni 1796</title>
+            <editor xml:id="edAG">Andreas Gálffy</editor>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <name>Forschungsstelle "Universitätssammlung Friedrich von Gentz"</name>
+               <link target="http://gentz-digital.ub.uni-koeln.de http://www.ub.uni-koeln.de/cdm/singleitem/collection/gentz/id/8/"/>
+            </publisher>
+            <pubPlace>Cologne</pubPlace>
+            <idno type="Gentz-Edition-Number" n="0009"/>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <country>Germany</country>
+                  <settlement>Wiesbaden</settlement>
+                  <institution>Vieweg-Verlagsarchiv</institution>
+                  <repository>Briefsammlung 311 G: Gentz-Briefe</repository>
+                  <idno>Nr. 42</idno>
+               </msIdentifier>
+               <msContents>
+                  <summary>
+                     Ein Rest eines Wechsels von 700 Reichstalern ist demnächstz zu entrichten an Jacob Marcuse. Vieweg vermerkt im 
+                     Postscript, wie im Hauptteil gebeten, das Datum der Zahlung von 300 Reichstaler, den 4. Juli 1796, mit Datum 
+                     29. Juni 1796.
+                  </summary>
+               </msContents>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Masterarbeit zu Matrikelnummer 5584124</p>
+         </projectDesc>
+      </encodingDesc>
+      <profileDesc>
+         <creation>
+            <date when-iso="1796-06-28">28. Juni 1796</date>
+         </creation>
+        <langUsage>
+           <language ident="d">deutsch</language>
+        </langUsage>
+         <textClass>
+            <keywords scheme="internal"><!-- internal: innerhalb des besagten Briefs -->
+               <term>Schuldschein</term>
+               <term>Marcuse</term>
+            </keywords>
+            <keywords scheme="categorisation"><!-- Sinnabschnittseinteilung - relevant für den Fahrkartenautomaten! -->
+               <term xml:id="gprl">Gentz - p(r)ekuniäre Lage</term>
+            </keywords>
+         </textClass>
+         <textDesc>
+            <channel>manuscript</channel>
+            <constitution type="single"/>
+            <derivation type="original"/>
+            <domain type="private"/>
+            <factuality type="fact"/>
+            <interaction type="partial"/>
+            <preparedness type="prepared"/>
+            <purpose type="inform"/>
+         </textDesc>
+         <particDesc>
+            <listPerson>
+               <!-- Sender und Adressat -->
+               <person role="sender" xml:id="Gen">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/118538489"/>
+                     <forename>Friedrich von</forename>
+                     <surname>Gentz</surname>
+                  </persName>
+               </person>
+               <person role="receiver" xml:id="FVW">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/119049546"/>
+                     <forename>Friedrich</forename>
+                     <surname>Vieweg</surname>
+                  </persName>
+               </person>
+               <!-- erwähnte Personen -->
+               <person role="named" xml:id="JMk">
+                  <persName>
+                     <ref/>
+                     <forename>Jakob</forename>
+                     <surname>Markuse</surname>
+                  </persName>
+               </person>
+            </listPerson>
+         </particDesc>
+         <settingDesc>
+            <listPlace>
+               <!-- Start- und Zielort -->
+               <place type="sender" xml:id="plBe">
+                  <country>
+                     <ref target="http://d-nb.info/gnd/4047194-9"/>
+                     <placeName>Preußen</placeName>
+                  </country>
+                  <settlement>
+                     <ref target="http://d-nb.info/gnd/4005728-8"/>
+                     <placeName>Berlin</placeName>
+                  </settlement>
+               </place>
+               <!-- erwähnte Orte -->
+            </listPlace>
+         </settingDesc>
+      </profileDesc>
+      <revisionDesc>
+         <change xml:id="init" when-iso="2018-02-18" who="#edAG">Erstauszeichnung und Normierung des Dokumentes im Rahmen der Masterarbeit der Matrikelnummer 5584124</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>     
+      <body>
+         <div n="1" corresp="#gprl">
+            <p>
+               Des Herrn Buchhändler Vieweg Wohlgebohren ersuche ich ergebenst, in Gemäßheit unsrer Verabredung und dero gütigen 
+               Versprechens, an den <rs type="person" ref="#JMk">Herrn Jacob Marcuse</rs> oder dessen Ordre dreyhundert Reichstaler 
+               in Friedrichsdor als den auf einen Wechsel von 700 Reichstaler noch rückständigen Rest, gegen Extradition dieses 
+               Wechsels zu bezahlen, und hierunter gefälligst zu notiren, an welchem Tage die Zahlung erfolgen soll.
+            </p>
+            <signed rend="right">Gentz</signed>
+            <dateline rend="right"><rs type="place" ref="#plBe">Berlin</rs> d: <date when-iso="1796-06-28">28<span rend="sup">ten</span> Juny 1796</date></dateline>
+         </div>
+         <div n="2" corresp="#gprl" resp="#FVW">
+            <p>
+               <date when-iso="1796-07-04">Nächsten Montag den 4ten July</date> zahle ich für Rechnung des Herrn Kriegsrath Gentz 
+               Dreyhundert Reichstaler Friedrichs d'or.
+            </p>
+            <dateline rend="left"><rs type="place" ref="#plBe">Berlin</rs> am <date when-iso="1796-06-29">29<span rend="sup">ten</span> Juny 1796</date></dateline>
+            <signed rend="right">Friedrich Vieweg</signed>
+            <signed rend="right">der ältere</signed><pb/>
+         </div>
+      </body>
+   </text>
+</TEI>

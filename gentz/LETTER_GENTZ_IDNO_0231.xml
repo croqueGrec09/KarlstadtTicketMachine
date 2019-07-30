@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc xml:id="LETTER_GENTZ_0231">
+         <titleStmt>
+            <title>Friedrich von Gentz an David Joseph Fraenkel, 31. März 1799</title>
+            <editor xml:id="edAG">Andreas Gálffy</editor>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <name>Forschungsstelle "Universitätssammlung Friedrich von Gentz"</name>
+               <link target="http://gentz-digital.ub.uni-koeln.de http://www.ub.uni-koeln.de/cdm/singleitem/collection/gentz/id/230/"/>
+            </publisher>
+            <pubPlace>Cologne</pubPlace>
+            <idno type="Gentz-Edition-Number" n="0231"/>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <country>Germany</country>
+                  <settlement>Berlin</settlement>
+                  <institution>Geheimes Staatsarchiv preußischer Kulturbesitz</institution>
+                  <repository>III. HA, Min. d. Ausw. Ang.</repository>
+                  <collection>III, Nr. 9872</collection>
+                  <idno>Bl. 31</idno>
+               </msIdentifier>
+               <msContents>
+                  <summary>
+                     Gentz wird am nächsten Morgen um sieben Uhr bei Fraenkel sein; er soll keinesfalls vorher ausgehen.
+                  </summary>
+               </msContents>
+            </msDesc>
+            <listBibl type="letterReferenced">
+               <bibl xml:id="c0231-1" corresp="#LETTER_GENTZ_1269">Friedrich von Gentz an David Joseph Fraenkel, 31. März 1801</bibl>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Masterarbeit zu Matrikelnummer 5584124</p>
+         </projectDesc>
+      </encodingDesc>
+      <profileDesc>
+         <creation>
+            <date when-iso="1799-03-31">31. März 1799</date>
+         </creation>
+        <langUsage>
+           <language ident="d">deutsch</language>
+        </langUsage>
+         <textClass>
+            <keywords scheme="internal"><!-- internal: innerhalb des besagten Briefs -->
+               <term>Billet</term>
+               <term>Treffen</term>
+            </keywords>
+            <keywords scheme="categorisation"><!-- Sinnabschnittseinteilung - relevant für den Fahrkartenautomaten! -->
+               <term xml:id="vdjf">Verhältnis David Joseph Fraenkel</term>
+            </keywords>
+         </textClass>
+         <textDesc>
+            <channel>manuscript</channel>
+            <constitution type="single"/>
+            <derivation type="original"/>
+            <domain type="private"/>
+            <factuality type="fact"/>
+            <interaction type="partial"/>
+            <preparedness type="unprepared"/>
+            <purpose type="inform"/>
+         </textDesc>
+         <particDesc>
+            <listPerson>
+               <!-- Sender und Adressat -->
+               <person role="sender" xml:id="Gen">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/118538489"/>
+                     <forename>Friedrich von</forename>
+                     <surname>Gentz</surname>
+                  </persName>
+               </person>
+               <person role="receiver" xml:id="DJF">
+                  <persName>
+                     <ref/>
+                     <forename>David Joseph</forename>
+                     <surname>Fraenkel</surname>
+                  </persName>
+               </person>
+               <!-- erwähnte Personen -->
+            </listPerson>
+         </particDesc>
+         <settingDesc>
+            <listPlace>
+               <!-- Start- und Zielort -->
+               <place type="sender" xml:id="plBe">
+                  <country>
+                     <ref target="http://d-nb.info/gnd/4047194-9"/>
+                     <placeName>Preußen</placeName>
+                  </country>
+                  <settlement>
+                     <ref target="http://d-nb.info/gnd/4005728-8"/>
+                     <placeName>Berlin</placeName>
+                  </settlement>
+               </place>
+               <!-- erwähnte Orte -->
+            </listPlace>
+         </settingDesc>
+      </profileDesc>
+      <revisionDesc>
+         <change xml:id="init" when-iso="2018-03-03" who="#edAG">Erstauszeichnung und Normierung des Dokumentes im Rahmen der Masterarbeit der Matrikelnummer 5584124</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <opener>
+            <salute rend="left">Ewr. Wohlgebohren</salute>
+         </opener>
+         <div n="1" corresp="#vdjf">
+            <p>
+               Ich werde <date when-iso="1799-04-01">Morgen</date> früh <emph rend="underlined">um 7. Uhr</emph> bei Ihnen sein, 
+               lieber Fraenkel; verlaßen Sie sich ganz auf die Rechtligkeit meiner Gesinnungen und auf meine wahre Freundschaft 
+               gegen Sie
+            </p>
+         </div>
+         <closer>
+            <signed rend="right">Gentz</signed>
+            <dateline rend="right"><date when-iso="1799-03-31">Sonntag den 31 Maerz</date></dateline>
+         </closer>
+         <postscript corresp="#vdjf">
+            <p>
+               Gehen Sie auf keinen Fall ehr aus, als bis ich bei Ihnen gewesen bin.
+            </p>
+         </postscript>
+      </body>
+      <note xml:id="r0231-1">Abschrift</note>
+      <note resp="#edAG" xml:id="r0231-2">Es gibt einen gleichlautenden <rs type="citation" ref="#c0231-1">Brief, der auf 1801 datiert ist</rs></note>
+   </text>
+</TEI>

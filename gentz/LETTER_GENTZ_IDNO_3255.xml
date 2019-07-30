@@ -1,0 +1,222 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc xml:id="LETTER_GENTZ_3255">
+         <titleStmt>
+            <title>Friedrich von Gentz an Heinrich Frölich, 13. Oktober 1801</title>
+            <editor xml:id="edAG">Andreas Gálffy</editor>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <name>Forschungsstelle "Universitätssammlung Friedrich von Gentz"</name>
+               <link target="http://gentz-digital.ub.uni-koeln.de http://www.ub.uni-koeln.de/cdm/singleitem/collection/gentz/id/3254/"/>
+            </publisher>
+            <pubPlace>Cologne</pubPlace>
+            <idno type="Gentz-Edition-Number" n="3255"/>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <country>Germany</country>
+                  <settlement>Berlin</settlement>
+                  <institution>Geheimes Staatsarchiv Preußischer Kulturbesitz</institution>
+                  <repository>I. HA Rep 94: Kleine Erwerbungen</repository>
+                  <collection>IV.N.b.2</collection>
+                  <idno>Bl. 27-30v</idno>
+               </msIdentifier>
+               <msContents>
+                  <summary>
+                     Die Antwort blieb aus, da Gentz den zu beantwortenden Brief zur Seite gelegt hat und in nicht findet. Gentz 
+                     trägt sich mit dem Gedanken, Berlin zu verlassen, hängt sein Vorhaben aber nicht an die große Glocke. Die 
+                     erste Sorge Gentz' ist aber Frölich und die Erfüllung der Aufträge und beendet in diesem Sinne ein 
+                     angefangenes Werk. Gentz bedauert den Zustand Frölichs und den Umstand, dass er nicht mehr, als 2000 
+                     Exemplare des Werkes über den Zustand von Europa vor und nach der Revolution drucken ließ.
+                  </summary>
+               </msContents>
+            </msDesc>
+            <listBibl type="letterReferenced">
+               <bibl xml:id="c3255-1" corresp="#LETTER_GENTZ_NNNN">nicht bekannter Brief von Heinrich Frölich an Friedrich von Gentz</bibl>
+            </listBibl>
+            <listBibl type="defRep">
+               <biblStruct xml:id="p3255-1" corresp="BSB-0017">
+                  <monogr>
+                     <author>
+                        <persName>
+                           <ref target="http://d-nb.info/gnd/118538489"/>
+                           <forename>Friedrich von</forename>
+                           <surname>Gentz</surname>
+                        </persName>
+                     </author>
+                     <title>Von dem Politischen Zustande von Europa vor und nach der Französischen Revolution</title>
+                     <imprint>
+                        <pubPlace>Berlin</pubPlace>
+                        <publisher>Heinrich Frölich</publisher>
+                        <date>1801</date>
+                     </imprint>
+                  </monogr>
+                  <ptr target="http://www.mdz-nbn-resolving.de/urn/resolver.pl?urn=urn:nbn:de:bvb:12-bsb10556396-8"/>
+               </biblStruct>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Masterarbeit zu Matrikelnummer 5584124</p>
+         </projectDesc>
+      </encodingDesc>
+      <profileDesc>
+         <creation>
+            <date when-iso="1801-10-13">13. Oktober 1801</date>
+         </creation>
+        <langUsage>
+           <language ident="d">deutsch</language>
+        </langUsage>
+         <textClass>
+            <keywords scheme="internal"><!-- internal: innerhalb des besagten Briefs -->
+               <term>Brief</term>
+               <term>Bruch</term>
+               <term>Veränderung</term>
+               <term>Arbeitsverhältnis</term>
+            </keywords>
+            <keywords scheme="categorisation"><!-- Sinnabschnittseinteilung - relevant für den Fahrkartenautomaten! -->
+               <term xml:id="vhf">Verhältnis Heinrich Frölich</term>
+               <term xml:id="brb">Bruch mit Berlin</term>
+               <term xml:id="vpze">Von dem Politischen Zustande von Europa vor und nach der Französischen Revolution</term>
+            </keywords>
+         </textClass>
+         <textDesc>
+            <channel>manuscript</channel>
+            <constitution type="single"/>
+            <derivation type="original"/>
+            <domain type="private"/>
+            <factuality type="fact"/>
+            <interaction type="partial"/>
+            <preparedness type="prepared"/>
+            <purpose type="inform"/>
+         </textDesc>
+         <particDesc>
+            <listPerson>
+               <!-- Sender und Adressat -->
+               <person role="sender" xml:id="Gen">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/118538489"/>
+                     <forename>Friedrich von</forename>
+                     <surname>Gentz</surname>
+                  </persName>
+               </person>
+               <person role="receiver" xml:id="Fro">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/1073351068"/>
+                     <forename>Heinrich</forename>
+                     <surname>Frölich</surname>
+                  </persName>
+               </person>
+               <!-- erwähnte Personen -->
+            </listPerson>
+         </particDesc>
+         <settingDesc>
+            <listPlace>
+               <!-- Start- und Zielort -->
+               <place type="sender" xml:id="plBe">
+                  <country>
+                     <ref target="http://d-nb.info/gnd/4047194-9"/>
+                     <placeName>Preußen</placeName>
+                  </country>
+                  <settlement>
+                     <ref target="http://d-nb.info/gnd/4005728-8"/>
+                     <placeName>Berlin</placeName>
+                  </settlement>
+               </place>
+               <!-- erwähnte Orte -->
+            </listPlace>
+         </settingDesc>
+      </profileDesc>
+      <revisionDesc>
+         <change xml:id="init" when-iso="2018-03-09" who="#edAG">Erstauszeichnung und Normierung des Dokumentes im Rahmen der Masterarbeit der Matrikelnummer 5584124</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div n="1" corresp="#vhf">
+            <p>
+               Die nächste Ursach meines langen Stillschweigens ist eine, die ich mich schämen muß, Ihnen zu gestehen, ob ich 
+               Ihnen gleich auf Ehre und Pflicht versichre, daß sie, mehr als alles andre, mich abhielt, Ihnen zu antworten. Ich 
+               habe das Unglück gehabt, <rs type="citation" ref="#c3255-1">Ihren Brief</rs>, nicht zu verlieren, aber dergestalt 
+               zu verlegen, daß ich ihn bis jetzt schlechterdings nicht wieder finden kan. Sobald es nun auf Propositionen 
+               ankömmt, die in Zahlen ausgedrückt werden müßen, ist mir <rs type="citation" ref="#c3255-1">dieser Brief</rs> 
+               unentbehrlich; ich gebe es auch keinesweges auf ihn wieder zu finden; aber ich will meine Antwort, um keinen 
+               Verdacht bei Ihnen zu erregen, <pb/> keinen Augenblick länger aufschieben, um so weniger, da ich das, was ich 
+               jetzt zu antworten vermag, auch ohne Summen und Zahlen ausdrücken kan.
+            </p>
+         </div>
+         <div n="2" corresp="#brb">
+            <p>
+               Ich muß Ihnen kurz sagen wie meine Lage gegenwärtig beschaffen ist. Ich habe dem Plan aus 
+               <rs type="place" ref="#plBe">Berlin</rs> zu gehen, <emph rend="underlined">nicht</emph> entsagt, ob ich gleich 
+               sehr gern das Publikum und alle meine Bekannten in der Meinung laßen mag, <emph rend="underlined">daß</emph> ich 
+               diesem Plane entsagt hätte. Ich will und muß ihn ausführen, und ich glaube, daß ich ihn ausführen werde. Die 
+               Sache entscheidet sich aber erst mit dem Ende dieses Jahres.
+            </p>
+            <p>
+               Bei diesen Umständen wäre es lächerlich, vielleicht auch gewissen<pb/>los wenn ich mich in irgend ein bestimmtes 
+               Engagement mit Ihnen einließe. Ich kan über die Zukunft nur hypothetisch sprechen; alle meine Verhältnisse müßen 
+               den Charakter meines Haupt-Verhältnisses annehmen. Ich kan nur sagen: Dies und jenes will ich thun, 
+               <emph rend="underlined">wenn</emph> dies und jenes eintritt oder fehlschlägt.
+            </p>
+            <p>
+               So ist also auch alles, was ich jetzt gegen Sie zu erklären habe, in eine Alternative gebannt. Gehe ich zu Ende 
+               dieses Jahres von <rs type="place" ref="#plBe">Berlin</rs>, so kan ich keine Arbeit übernehmen; in diesem Falle 
+               aber ist es <emph rend="underlined">die erste meiner Sorgen</emph>, <del rend="stroked">xxx</del> mich mit Ihnen 
+               rein auseinander zu setzen. Gehe ich nicht aus <rs type="place" ref="#plBe">Berlin</rs>, oder bleibe ich auch nur 
+               überhaupt in einer <pb/> Lage wo ich schriftstellerische Arbeiten fortsetzen kan, 
+               <emph rend="underlined">so sind alle meine Kräfte zunächst Ihnen gewidmet</emph>.
+            </p>
+            <p>
+               Eher als bis diese große Crisis entschieden ist, kan ich mich zu nichts auf eine bestimmte Weise verbindlich 
+               machen. <emph rend="underlined">Deshalb</emph> bat ich Sie um einen Aufschub von einigen Monaten, 
+               <emph rend="underlined">deshalb</emph> muß ich auch jetzt diese Bitte, und kan nur diese allein an Sie richten. 
+               Gehen Sie mit stürmender Hand auf mich los, so können Sie mich zwar etwas schneller zu extremen Schritten 
+               verleiten; aber daß Sie nichts dadurch erhalten werden, das muß ich Ihnen <pb/> weil ich Sie auf keine Weise 
+               weiter täuschen will, mit Gewißheit voraussagen.
+            </p>
+         </div>
+         <div n="3" corresp="#vhf">
+            <p>
+               Ich endige jetzt das angefangne Werk. Ueber dieser Arbeit wird der Termin heran rücken, in welchem sich mein 
+               Schicksal entscheiden muß. Kan ich Sie dann nicht gleich bezahlen, dann ist es Zeit dasjenige Arrangement zu 
+               treffen, welches Sie mir jetzt vorschlagen. Soll ich Ihnen aber in der Zwischenzeit über den Betrag meiner Schuld 
+               <add place="above">noch</add> irgend ein besondres Dokument, von welcher Art es auch sey, ausstellen, so bin ich 
+               zu allem bereit. Ich werde, unterdeß Sie mir auf diesen Brief <pb/> antworten, den Ihrigen mit möglichstem Fleiße 
+               aufsuchen; fände ich ihn nicht, so wäre dann weiter nichts darauf, als daß Sie mir die Spezifikation, die er 
+               enthielt, noch einmal zukommen ließen.
+            </p>
+            <p>
+               Ich habe mich jetzt gegen Sie, wie ein ehrlicher Mann erklärt; Ihrem Antrage Genüge zu leisten, wäre kürzer und 
+               leichter, aber unredlich gewesen. Ich erwarte mit Ruhe, was Sie beschließen werden.
+            </p>
+         </div>
+         <div n="4" corresp="#vpze">
+            <p>
+               Daß Sie von dem <rs type="citation" ref="#p3255-1"><emph rend="underlined">Zustande von Europa</emph></rs> nicht 
+               wenigstens 2000 Exemplare gedruckt, dadurch haben <pb/> Sie Sich sicher Schaden gethan. Ich bin überzeugt, daß 
+               dieses Buch äußerst gut gehen wird. Vielleicht kömmt es indessen zu einer neuen Auflage.
+            </p>
+         </div>
+         <div n="5" corresp="#vhf">
+            <p>
+               Ich nehme den lebhaftesten Antheil an den Widerwärtigkeiten Ihrer jetzigen Lage, und habe mit inniger Wehmuth 
+               gelesen, was Sie mir in Ihren Briefen darüber schrieben. Wenn ich nur wüste, daß es Ihnen nicht auf eine oder die 
+               andre Weise unangenehm wäre, so besuchte ich Sie ganz gewiß; und, wenn Sie mir schreiben, daß es angeht, so komme 
+               ich recht bald zu Ihnen.
+            </p>
+         </div>
+         <closer>
+            <signed rend="right">Gentz.</signed>
+            <dateline rend="right">den <date when-iso="1801-10-13">13 Oktober 1801</date></dateline>
+         </closer>
+      </body>
+   </text>
+</TEI>

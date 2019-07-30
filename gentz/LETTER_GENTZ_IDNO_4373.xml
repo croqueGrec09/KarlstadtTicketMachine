@@ -1,0 +1,259 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader type="text">
+      <fileDesc xml:id="LETTER_GENTZ_4373">
+         <titleStmt>
+            <title>Friedrich von Gentz an Karl Gustav von Brinckmann, 12. Oktober 1792</title>
+            <editor xml:id="edAG">Andreas Gálffy</editor>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <name>Forschungsstelle "Universitätssammlung Friedrich von Gentz"</name>
+               <link target="http://gentz-digital.ub.uni-koeln.de http://www.ub.uni-koeln.de/cdm/singleitem/collection/gentz/id/4372/"/>
+            </publisher>
+            <pubPlace>Cologne</pubPlace>
+            <idno type="Gentz-Edition-Number" n="4373"/>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <country>Sweden</country>
+                  <settlement>Trolle-Ljungby</settlement>
+                  <institution>Archiv des Grafen Wachtmeister</institution>
+                  <repository>Nachlaß Brinckmann, Ausländ. Briefwechsel, Gentz an Brinckmann</repository>
+                  <idno>G 3</idno>
+               </msIdentifier>
+               <msContents>
+                  <summary>
+                     Jehnisch hat Gentz unverhofft besucht und ihm endlos lange Vorträge gehalten. Gentz gibt Jehnischs Klage 
+                     weiter, dass ihn keiner hören wollte.
+                  </summary>
+               </msContents>
+            </msDesc>
+            <listBibl type="preprints">
+               <biblStruct>
+                  <monogr>
+                     <editor>
+                        <persName>
+                           <ref target="http://d-nb.info/gnd/130953075"/>
+                           <forename>Friedrich Carl</forename>
+                           <surname>Wittichen</surname>
+                        </persName>
+                        <persName>
+                           <ref/> <!-- kein GND-Eintrag -->
+                           <forename>Ernst</forename>
+                           <surname>Salzer</surname>
+                        </persName>
+                     </editor>
+                     <title>Briefe von und an Friedrich von Gentz. 4 Bde.</title>
+                     <imprint>
+                        <publisher>Oldenbourg</publisher>
+                        <pubPlace>München, Berlin</pubPlace>
+                        <date>1909-1913</date>
+                     </imprint>
+                     <biblScope unit="volume" n="2">
+                        II
+                     </biblScope>
+                     <biblScope unit="page" from="27" to="27">
+                        Nr. 14
+                     </biblScope>
+                  </monogr>
+               </biblStruct>
+            </listBibl>
+            <listBibl type="letterReferenced">
+               <bibl xml:id="c4373-1" corresp="#LETTER_GENTZ_3319">Friedrich von Gentz an Karl Gustav von Brinckmann, 21. September 1792</bibl>
+            </listBibl>
+            <listBibl type="defRep">
+               <biblStruct xml:id="p4373-1" corresp="GBk-0022">
+                  <analytic>
+                     <author>
+                        <persName>
+                           <ref target="http://d-nb.info/gnd/100790100"/>
+                           <forename>Daniel</forename>
+                           <surname>Jehnisch</surname>
+                        </persName>
+                     </author>
+                     <title>Borussias, oder der siebenjährige Krieg in acht Gesängen</title>
+                  </analytic>
+                  <monogr>
+                     <author>
+                        <persName>
+                           <ref target="http://d-nb.info/gnd/118632477"/>
+                           <forename>Christoph Martin</forename>
+                           <surname>Wieland</surname>
+                        </persName>
+                     </author>
+                     <title>Der neue teutsche Merkur vom Jahre 1790</title>
+                     <imprint>
+                        <pubPlace>Weimar</pubPlace>
+                        <date>1790</date>
+                     </imprint>
+                     <biblScope unit="volume" n="2">
+                        Zweiter Band
+                     </biblScope>
+                     <biblScope unit="page" from="276" to="298">
+                        S. 276-298
+                     </biblScope>
+                  </monogr>
+               <ptr target="https://books.google.de/books?id=YJ3NAAAAMAAJ"/></biblStruct>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Masterarbeit zu Matrikelnummer 5584124</p>
+         </projectDesc>
+      </encodingDesc>
+      <profileDesc>
+         <creation>
+            <date when-iso="1792-10-12">12. Oktober 1792</date>
+         </creation>
+        <langUsage>
+           <language ident="d">deutsch</language>
+        </langUsage>
+         <textClass>
+            <keywords scheme="internal"><!-- internal: innerhalb des besagten Briefs -->
+               <term>Billet</term>
+               <term>Jehnisch</term>
+               <term>Borussias</term>
+            </keywords>
+            <keywords scheme="categorisation"><!-- Sinnabschnittseinteilung - relevant für den Fahrkartenautomaten! -->
+               <term xml:id="kjeh">Jehnisch</term>
+            </keywords>
+         </textClass>
+         <textDesc>
+            <channel>manuscript</channel>
+            <constitution type="single"/>
+            <derivation type="original"/>
+            <domain type="private"/>
+            <factuality type="fact"/>
+            <interaction type="partial"/>
+            <preparedness type="unprepared"/>
+            <purpose type="inform"/>
+         </textDesc>
+         <particDesc>
+            <listPerson>
+               <!-- Sender und Adressat -->
+               <person role="sender" xml:id="Gen">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/118538489"/>
+                     <forename>Friedrich von</forename>
+                     <surname>Gentz</surname>
+                  </persName>
+               </person>
+               <person role="receiver" xml:id="KGvB">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/116519770"/>
+                     <forename>Carl Gustav von</forename>
+                     <surname>Brinckmann</surname>
+                  </persName>
+               </person>
+               <!-- erwähnte Personen -->
+               <person role="named" xml:id="Jeh">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/100790100"/>
+                     <forename>Daniel</forename>
+                     <surname>Jehnisch</surname>
+                  </persName>
+               </person>
+               <person role="named" xml:id="HBh">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/118660829"/>
+                     <forename>Hermann</forename>
+                     <surname>Boerhaave</surname>
+                  </persName>
+               </person>
+               <person role="named" xml:id="Buf">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/118517252"/>
+                     <forename>Georges Louis Le Clerc de</forename>
+                     <surname>Buffon</surname>
+                  </persName>
+               </person>
+               <person role="named" xml:id="MHz">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/118933876"/>
+                     <forename>Markus</forename>
+                     <surname>Herz</surname>
+                  </persName>
+               </person>
+               <person role="named" xml:id="Hal">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/118701061"/>
+                     <forename>Carl Ludwig von</forename>
+                     <surname>Haller</surname>
+                     <certainty locus="name">
+                        <desc>möglicherweise ist dieser Haller gemeint. Ist aber unklar.</desc>
+                     </certainty>
+                  </persName>
+               </person>
+               <person role="named" xml:id="New">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/118866257"/>
+                     <forename>John</forename>
+                     <surname>Newton</surname>
+                     <certainty locus="name">
+                        <desc>möglicherweise ist dieser Newton gemeint. Ist aber unklar.</desc>
+                     </certainty>
+                  </persName>
+               </person>
+            </listPerson>
+         </particDesc>
+         <settingDesc>
+            <listPlace>
+               <!-- Start- und Zielort -->
+               <place type="sender" xml:id="plBe">
+                  <country>
+                     <ref target="http://d-nb.info/gnd/4047194-9"/>
+                     <placeName>Preußen</placeName>
+                  </country>
+                  <settlement>
+                     <ref target="http://d-nb.info/gnd/4005728-8"/>
+                     <placeName>Berlin</placeName>
+                  </settlement>
+               </place>
+               <!-- erwähnte Orte -->
+            </listPlace>
+         </settingDesc>
+      </profileDesc>
+      <revisionDesc>
+         <change xml:id="init" when-iso="2018-02-07" who="#edAG">Erstauszeichnung und Normierung des Dokumentes im Rahmen der Masterarbeit der Matrikelnummer 5584124</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>     
+      <body>
+         <opener resp="#KGvB">
+            <dateline rend="right">Den <date when-iso="1792-10-12">12<span rend="sup">ten</span> Octbr 1792</date>.</dateline>
+         </opener>
+         <div n="1" corresp="#kjeh">
+            <p>
+               Jeden Sterblichen ereilt <emph rend="underlined">sein Tag</emph> - <date when-iso="1792-10-12">Heute</date> - es 
+               hatte eben 11 geschlagen - keine leise Ahndung, kein wohlthätiger Geist verkündete mir mein Schicksal - Man klopft ! 
+               - <rs type="person" ref="#Jeh"><emph rend="underlined">Jähnisch</emph></rs><add type="hrt"><span rend="sup">p</span></add>
+               tritt herein, bleibt bis <emph rend="underlined">¾ auf 2 Uhr</emph>, trägt mir 
+               <rs type="citation" ref="#p4373-1">die ganze Borussias</rs>, und die ganze <emph rend="underlined">Dunciade</emph> 
+               vor - Verzweiflung, Höllenangst, wüthende Lachbegierde, Bosheit, scheusliche Langeweile - nein ! was das für Stunden 
+               waren, das glaubt keiner als Sie, Sie, der es erfuhr.
+            </p>
+            <p>
+               Beym Weggehen klagte er, daß Niemand so ganze Gesänge von seiner 
+               Epopoie<add type="hrt"><span rend="sup">4</span></add> anhören wollte -
+            </p>
+            <p>
+               Uebrigens heißt es jetzt:
+            </p>
+            <p>
+               Ihr, <rs type="person" ref="#HBh">Bröhave</rs><add type="hrt"><span rend="sup">p</span></add>, 
+               und <rs type="person" ref="#Buf">Büffon</rs><add type="hrt"><span rend="sup">p</span></add>, 
+               und <rs type="person" ref="#MHz">Herz</rs><add type="hrt"><span rend="sup">p</span></add>, 
+               und <rs type="person" ref="#Hal">Haller</rs><add type="hrt"><span rend="sup">p</span></add>, 
+               und <rs type="person" ref="#New"><emph rend="underlined">Newton</emph></rs><add type="hrt"><span rend="sup">p</span></add> ! -
+            </p>
+         </div>
+         <closer>
+            <signed rend="right">G.</signed>
+         </closer>
+         <note resp="#edAG">Schon allein diese Auflistung der Namen, aber vor allem im Zusammenhang mit der stets gleichen Fußnote (nicht in Gentz digital vorhanden) ist ein Vergleich mit <rs type="citation" ref="#c4373-1">dem Brief vom 21. September 1792</rs> interessant.</note>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader type="text">
+      <fileDesc xml:id="LETTER_GENTZ_1075">
+         <titleStmt>
+            <title>Friedrich von Gentz an Karl Gustav von Brinckmann, 9. November 1792</title>
+            <editor xml:id="edAG">Andreas Gálffy</editor>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <name>Forschungsstelle "Universitätssammlung Friedrich von Gentz"</name>
+               <link target="http://gentz-digital.ub.uni-koeln.de http://www.ub.uni-koeln.de/cdm/singleitem/collection/gentz/id/1074/"/>
+            </publisher>
+            <pubPlace>Cologne</pubPlace>
+            <idno type="Gentz-Edition-Number" n="1075"/>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <country>Sweden</country>
+                  <settlement>Trolle-Ljungby</settlement>
+                  <institution>Archiv des Grafen Wachtmeister</institution>
+                  <repository>Nachlaß Brinckmann, Ausländ. Briefwechsel, Gentz an Brinckmann</repository>
+                  <idno>G 3</idno>
+               </msIdentifier>
+               <msContents>
+                  <summary>
+                     Der Hutcheson wird jetzt zurückgegeben, der Harrington steht zum Verkauf. Gentz dankt allgemein für Nachrichten 
+                     und Anweisungen.
+                  </summary>
+               </msContents>
+            </msDesc>
+            <listBibl type="letterReferenced">
+               <bibl xml:id="c1075-1" corresp="#LETTER_GENTZ_3529">Friedrich von Gentz an Karl Gustav von Brinckmann, 26. Oktober 1792</bibl>
+            </listBibl>
+            <listBibl type="alludedWorks">
+               <bibl xml:id="a1075-1" corresp="#LETTER_GENTZ_NNNN">nicht näher benanntes Werk von Francis Hutcheson</bibl>
+               <bibl xml:id="a1075-2" corresp="#LETTER_GENTZ_NNNN">nicht näher benanntes Werk von Robert Harrington</bibl>
+            </listBibl>
+            <listBibl type="defExpr">
+               <biblStruct xml:id="e1075-1" corresp="GBk-0024">
+                  <monogr>
+                     <author>
+                        <persName>
+                           <ref target="http://d-nb.info/gnd/123943817"/>
+                           <forename>Arrigo Caterino</forename>
+                           <surname>Davila</surname>
+                        </persName>
+                     </author>
+                     <title>Historia delle guerre civili di Francia</title>
+                     <imprint>
+                        <pubPlace>Paris</pubPlace>
+                        <publisher>Stamperia Reale</publisher>
+                        <date>1644</date>
+                     </imprint>
+                  </monogr>
+               <ptr target="https://books.google.de/books?id=hyj5puEWFM0C"/></biblStruct>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Masterarbeit zu Matrikelnummer 5584124</p>
+         </projectDesc>
+      </encodingDesc>
+      <profileDesc>
+         <creation>
+            <date when-iso="1792-11-09">9. November 1792</date>
+         </creation>
+        <langUsage>
+           <language ident="d">deutsch</language>
+        </langUsage>
+         <textClass>
+            <keywords scheme="internal"><!-- internal: innerhalb des besagten Briefs -->
+               <term>Billet</term>
+               <term>Harrington</term>
+               <term>Davila</term>
+               <term>Hutcheson</term>
+            </keywords>
+            <keywords scheme="categorisation"><!-- Sinnabschnittseinteilung - relevant für den Fahrkartenautomaten! -->
+               <term xml:id="bibl">Bibliothek</term>
+            </keywords>
+         </textClass>
+         <textDesc>
+            <channel>manuscript</channel>
+            <constitution type="single"/>
+            <derivation type="original"/>
+            <domain type="private"/>
+            <factuality type="fact"/>
+            <interaction type="partial"/>
+            <preparedness type="unprepared"/>
+            <purpose type="inform"/>
+         </textDesc>
+         <particDesc>
+            <listPerson>
+               <!-- Sender und Adressat -->
+               <person role="sender" xml:id="Gen">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/118538489"/>
+                     <forename>Friedrich von</forename>
+                     <surname>Gentz</surname>
+                  </persName>
+               </person>
+               <person role="receiver" xml:id="KGvB">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/116519770"/>
+                     <forename>Carl Gustav von</forename>
+                     <surname>Brinckmann</surname>
+                  </persName>
+               </person>
+               <!-- erwähnte Personen -->
+            </listPerson>
+         </particDesc>
+         <settingDesc>
+            <listPlace>
+               <!-- Start- und Zielort -->
+               <place type="sender" xml:id="plBe">
+                  <country>
+                     <ref target="http://d-nb.info/gnd/4047194-9"/>
+                     <placeName>Preußen</placeName>
+                  </country>
+                  <settlement>
+                     <ref target="http://d-nb.info/gnd/4005728-8"/>
+                     <placeName>Berlin</placeName>
+                  </settlement>
+               </place>
+               <!-- erwähnte Orte -->
+            </listPlace>
+         </settingDesc>
+      </profileDesc>
+      <revisionDesc>
+         <change xml:id="init" when-iso="2018-02-12" who="#edAG">Erstauszeichnung und Normierung des Dokumentes im Rahmen der Masterarbeit der Matrikelnummer 5584124</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>     
+      <body>
+         <opener resp="#KGvB">
+            <dateline rend="right">den <date when-iso="1792-11-09">9. Novbr 1792</date>.</dateline>
+         </opener>
+         <div n="1" corresp="#bibl">
+            <p>
+               Hier <ref target="#r1075-1">erfolgt</ref> der <rs type="citation" ref="#a1075-1">Hutcheson</rs>. Wegen des zu 
+               verkaufenden <rs type="citation" ref="#a1075-2">Harrington</rs> will ich mich doch noch besinnen. Ich habe jetzt auch 
+               den <rs type="citation" ref="#e1075-1">italienischen Davila</rs>. Ich danke sehr für alle Ihre guten Nachrichten und 
+               Instruktionen <del rend="stroked">xxx</del>, und werde davon zu profitiren suchen.
+            </p>
+         </div>
+         <closer>
+            <signed rend="right">Gentz</signed>
+         </closer>
+         <note resp="#edAG" xml:id="r1075-1">Vgl. den <rs type="citation" ref="#c1075-1">Brief vom 26. Oktober 1792</rs>.</note>
+      </body>
+   </text>
+</TEI>

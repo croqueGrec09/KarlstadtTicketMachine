@@ -1,0 +1,293 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc xml:id="LETTER_GENTZ_2479">
+         <titleStmt>
+            <title>Friedrich von Gentz an August Hennings, 16. Februar 1799</title>
+            <editor xml:id="edAG">Andreas Gálffy</editor>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <name>Forschungsstelle "Universitätssammlung Friedrich von Gentz"</name>
+               <link target="http://gentz-digital.ub.uni-koeln.de http://www.ub.uni-koeln.de/cdm/singleitem/collection/gentz/id/2478/"/>
+            </publisher>
+            <pubPlace>Cologne</pubPlace>
+            <idno type="Gentz-Edition-Number" n="2479"/>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <country>Germany</country>
+                  <settlement>Hamburg</settlement>
+                  <institution>Staats- und Universitätsbibliothek</institution>
+               </msIdentifier>
+               <msContents>
+                  <summary>
+                     In der Februarausgabe des Genius der Zeit ist ein Artikel über das Historische Journal erschienen, das sich 
+                     sehr abfällig über selbiges geäußert hat. Gentz hasst aber Schriftstellerstreitigkeiten und wendet sich daher 
+                     persönlich an Hennings. Er beteuert, dass er seinem Journal stets Respekt gezollt hat. Auch Hennings selbst hat 
+                     er für seinen Charakter respektiert. Daher hält Gentz es für respektlos, eine Kritik einer ganzen Zeitung zu 
+                     bringen, wovon lediglich die Einleitung erschienen ist und offensichtlich nicht zu Ende gelesen wurde.
+                  </summary>
+               </msContents>
+            </msDesc>
+            <listBibl type="preprints">
+               <biblStruct>
+                  <analytic>
+                     <author>
+                        <persName>
+                           <ref target="http://d-nb.info/gnd/116881100"/>
+                           <forename>Mendelssohn-Bartholdy</forename>
+                           <surname>Carl</surname>
+                        </persName>
+                     </author>
+                     <title>Friedrich Gentz. Vornehmlich in seinem Verhältniß zu Preußen</title>
+                  </analytic>
+                  <monogr>
+                     <title>Zeitschrift für Preußische Geschichte und Landeskunde</title>
+                     <imprint>
+                        <date>1868</date>
+                     </imprint>
+                     <biblScope unit="volume" n="5">
+                        5
+                     </biblScope>
+                     <biblScope unit="page" from="290" to="292">
+                        S. 290-292
+                     </biblScope>
+                  </monogr>
+               </biblStruct>
+               <biblStruct>
+                  <monogr>
+                     <editor>
+                        <persName>
+                           <ref target="http://d-nb.info/gnd/130953075"/>
+                           <forename>Friedrich Carl</forename>
+                           <surname>Wittichen</surname>
+                        </persName>
+                        <persName>
+                           <ref /> <!-- kein GND-Eintrag -->
+                           <forename>Ernst</forename>
+                           <surname>Salzer</surname>
+                        </persName>
+                     </editor>
+                     <title>Briefe von und an Friedrich von Gentz, 4 Bde.</title>
+                     <imprint>
+                        <publisher>Oldenbourg</publisher>
+                        <pubPlace>München, Berlin</pubPlace>
+                        <date>1909-1913</date>
+                     </imprint>
+                     <biblScope unit="volume" n="1">
+                        I
+                     </biblScope>
+                     <biblScope unit="page" from="317" to="319">
+                        Nr. 108
+                     </biblScope>
+                  </monogr>
+               </biblStruct>
+            </listBibl>
+            <listBibl type="defRep">
+               <biblStruct xml:id="p2479-1" corresp="GBk-0044">
+                  <analytic>
+                     <author>
+                        <persName>
+                           <ref target="http://d-nb.info/gnd/118549235"/>
+                           <forename>August</forename>
+                           <surname>Hennings</surname>
+                        </persName>
+                     </author>
+                     <title>Bücher-Genius</title>
+                  </analytic>
+                  <monogr>
+                     <editor>
+                        <persName>
+                           <ref target="http://d-nb.info/gnd/118549235"/>
+                           <forename>August</forename>
+                           <surname>Hennings</surname>
+                        </persName>
+                     </editor>
+                     <title>Genius der Zeit</title>
+                     <imprint>
+                        <publisher>J. F. Hammerich</publisher>
+                        <pubPlace>Altona</pubPlace>
+                        <date>1799</date>
+                     </imprint>
+                     <biblScope unit="volume" n="16">
+                        Sechszehnter Band. Januar bis April 1799
+                     </biblScope>
+                     <biblScope unit="page" from="201" to="206">
+                        S. 201-206
+                     </biblScope>
+                  </monogr>
+                  <ptr target="https://books.google.de/books?id=YHVlAAAAcAAJ"/>
+               </biblStruct>
+               <biblStruct xml:id="p2479-2" corresp="GBk-0042">
+                  <monogr>
+                     <editor>
+                        <persName>
+                           <ref target="http://d-nb.info/gnd/118538489"/>
+                           <forename>Friedrich von</forename>
+                           <surname>Gentz</surname>
+                        </persName>
+                     </editor>
+                     <title>Historisches Journal</title>
+                     <imprint>
+                        <publisher>Friedrich Vieweg dem ältern</publisher>
+                        <pubPlace>Berlin</pubPlace>
+                        <date>1799</date>
+                     </imprint>
+                  </monogr>
+                  <ptr target="https://books.google.de/books?id=YU5BAAAAcAAJ"/>
+               </biblStruct>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Masterarbeit zu Matrikelnummer 5584124</p>
+         </projectDesc>
+      </encodingDesc>
+      <profileDesc>
+         <creation>
+            <date when-iso="1799-02-16">16. Februar 1799</date>
+         </creation>
+        <langUsage>
+           <language ident="d">deutsch</language>
+        </langUsage>
+         <textClass>
+            <keywords scheme="internal"><!-- internal: innerhalb des besagten Briefs -->
+               <term>Brief</term>
+               <term>Journal historique</term>
+               <term>Rezension</term>
+            </keywords>
+            <keywords scheme="categorisation"><!-- Sinnabschnittseinteilung - relevant für den Fahrkartenautomaten! -->
+               <term xml:id="jrnh">Historisches Journal</term>
+               <term xml:id="vah">Verhältnis August Hennings</term>
+            </keywords>
+         </textClass>
+         <textDesc>
+            <channel>manuscript</channel>
+            <constitution type="single"/>
+            <derivation type="original"/>
+            <domain type="private"/>
+            <factuality type="fact"/>
+            <interaction type="partial"/>
+            <preparedness type="unprepared"/>
+            <purpose type="inform"/>
+         </textDesc>
+         <particDesc>
+            <listPerson>
+               <!-- Sender und Adressat -->
+               <person role="sender" xml:id="Gen">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/118538489"/>
+                     <forename>Friedrich von</forename>
+                     <surname>Gentz</surname>
+                  </persName>
+               </person>
+               <person role="receiver" xml:id="AHn">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/118549235"/>
+                     <forename>August</forename>
+                     <surname>Hennings</surname>
+                  </persName>
+               </person>
+               <!-- erwähnte Personen -->
+            </listPerson>
+         </particDesc>
+         <settingDesc>
+            <listPlace>
+               <!-- Start- und Zielort -->
+               <place type="sender" xml:id="plBe">
+                  <country>
+                     <ref target="http://d-nb.info/gnd/4047194-9"/>
+                     <placeName>Preußen</placeName>
+                  </country>
+                  <settlement>
+                     <ref target="http://d-nb.info/gnd/4005728-8"/>
+                     <placeName>Berlin</placeName>
+                  </settlement>
+               </place>
+               <!-- erwähnte Orte -->
+            </listPlace>
+         </settingDesc>
+      </profileDesc>
+      <revisionDesc>
+         <change xml:id="init" when-iso="2018-03-03" who="#edAG">Erstauszeichnung und Normierung des Dokumentes im Rahmen der Masterarbeit der Matrikelnummer 5584124</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <opener>
+            <salute rend="left">Hochwohlgeborener Herr !</salute>
+            <salute rend="left">Insonders Hochzuehrender Herr Kammerherr !</salute>
+         </opener>
+         <div n="1" corresp="#jrnh">
+            <p>
+               Ich erhielt vorgestern das <rs type="citation" ref="#p2479-1">Februar-Stück</rs> des 
+               <emph rend="underlined">Genius der Zeit</emph> und war über die unerwartete Art und Weise in welcher in diesem Stück 
+               über den ersten Aufsatz des ersten Hefts meines <rs type="citation" ref="#p2479-1">Historischen Journals</rs> 
+               gesprochen wird, so betroffen, daß ich mir vorgenommen hatte in dem nächsten Stücke dieses Journals eine kleine Rüge 
+               dieser seltsamen Rezension erscheinen zu laßen. Ich haße aber Schriftsteller-Streitigkeiten in so hohem Grade, und 
+               genau betrachtet, ist der Gegenstand, den ich hier angreifen müste, einer ernsthaften Behandlung so wenig werth, daß 
+               ich es zugleich zweckmäßiger und anständiger finde, mich gegen Erw. Hochwohlgebohren persönlich zu erklären.
+            </p>
+            <p>
+               Daß unsere Grundsätze über Staatswißenschaftliche Gegenstände, und über die neuesten Weltbegebenheiten sehr von 
+               einander abweichen, wird Ihnen so bekannt seyn, als mir. Dieser Umstand kann aber, meines Erachtens, das Urtheil über 
+               den Werth schriftstellerischer Producte, oder über die Verdienste ihrer Verfaßer nicht alteriren. Vielleicht ist in 
+               der Geschichte der letzten zehn Jahre, die ich <emph rend="underlined">auch</emph> mit einigem Fleiß studirt zu haben 
+               <pb/> glaube, kein Faktum, welches ich aus eben dem Gesichtspuncte ansehe, als Sie: gleichwohl hat mich das nie 
+               gehindert, Ihrem Charakter und Ihren Schriften volle Gerechtigkeit widerfahren zu laßen: ich habe Sie stets als einen 
+               Mann von edler, freimüthiger, selbständiger Denkungsart, von großer Humanität, von warmem Eifer für das Beste der 
+               Menschheit und für das, was er als Wahrheit erkannte, von reiner Liebe zum Guten, und von einer Festigkeit der 
+               Grundsätze, die der Huldigung, jedes Denkenden würdig ist, geehrt. Der Gedanke, über irgend eine Ihrer Schriften, 
+               selbst über das, was ich absolut darin mißbilligte, in einem wegwerfenden Tone zu sprechen, wäre für mich ein 
+               empörender Gedanke gewesen, und ich würde mich geschämt haben, irgend Jemanden, der mit mir in einer und derselben 
+               Unternehmung arbeitete, über den flüchtigsten Ihrer Aufsätze so urtheilen zu laßen, wie in 
+               <rs type="citation" ref="#p2479-1">Ihrem Journal</rs> über mich geurtheilt worden ist.
+            </p>
+            <p>
+               Sie werden leicht begreifen, daß mich eine Kritik, die sich lediglich darauf einschränkt, den ersten Paragraphen 
+               meiner Schrift mit einem faden Bonmot abzufertigen, nicht sonderlich kränken kann, und daß ich davon keine sehr 
+               furchtbare Folgen in der Meinung des Publikums besorge. Ich denke nicht einmal an das, was mich hiebei persönlich 
+               angeht. <pb/> Aber das Unternehmen selbst, einen Aufsatz, dem doch wenigstens jeder unterrichtete Leser ansehen 
+               mußte, daß er das Resultat eines reifen Nachdenkens war, einen Aufsatz, von dem nur erst die Einleitung erschien, 
+               den Sie ganz füglich unangezeigt laßen konnten, und über den ein nachdenkender Richter entweder geschwiegen, oder 
+               dissertirt haben würde, einen solchen Aufsatz, wie das Produkt des ersten besten unbedeutenden Tages-Skribenten mit 
+               drei Zeilen zu Boden schlagen zu wollen, scheint mir in solchem Grade illiberal, und der Achtung welche die 
+               Schriftsteller beßerer Art, zu welcher Parthei sie auch gehören mögen, einander schuldig sind, so wenig angemeßen, 
+               daß ich Ihnen wenigstens mein Erstaunen darüber nicht verbergen konnte.
+            </p>
+         </div>
+         <div n="2" corresp="#vah">
+            <p>
+               Sie werden diesen Schritt nicht misverstehen. Ich beabsichte dabey nichts, was mich intereßiren könnte. Ich verlange, 
+               und erwarte weder Ehrenerklärung noch Milderung, noch irgend eine weitere Erwähnung meines Nahmens. Ich vermeide 
+               sogar öffentlich über die Sache zu sprechen, damit nicht der entfernteste Verdacht einer beleidigten Eigenliebe auf 
+               mich falle. Bloß im Nahmen und zum Besten der algemeinen Sache der Schriftstellerei hielt ich es für Pflicht, Sie 
+               aufmerksam auf das, was mir ein Misbrauch der Kritik scheint, zu machen, laßen Sie meine Raisonnements widerlegen, 
+               zertrümmern, selbst - wenn Ihre Mitarbeiter die Lust dazu anwandelt - persifliren: nur gestatten Sie wenigstens, daß 
+               man sie zugleich lese und räumen Sie mir als einsichtsvoller und liebender Schriftsteller ein, daß ich den Grad der 
+               Verachtung nicht verdiene, mit welchem Ihr Rezensent mich, vielleicht ohne mich gelesen, 
+               <emph rend="underlined">gewiß</emph> ohne mich verstanden zu haben (wie schon das entschiedene Mißverständniß meiner 
+               sechs ersten Zeilen beweiset) zu Boden schlägt.
+            </p>
+            <p>
+               Seyn Sie übrigens versichert, daß dieser Vorfall keinen weiteren Einfluß auf Gefühl und Ueberzeugung gegründeter 
+               Hochachtung haben wird, womit ich stets beharre
+            </p>
+         </div>
+         <closer>
+            <salute rend="right">Ew. Hochwohlgeboren</salute>
+            <dateline rend="left"><rs type="place" ref="#plBe">Berlin</rs> den <date when-iso="1799-02-16">16. Febr.</date>.</dateline>
+            <salute rend="right">ganz gehorsamster Diener</salute>
+            <dateline rend="left"><date when-iso="1799-02-16">1799</date>.</dateline>
+            <signed rend="right">Gentz</signed>
+         </closer>
+      </body>
+      <note xml:id="r2479-1">Abschrift</note>
+   </text>
+</TEI>

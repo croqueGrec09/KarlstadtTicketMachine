@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc xml:id="LETTER_GENTZ_2387">
+         <titleStmt>
+            <title>Friedrich von Gentz an Friedrich Vieweg, Januar 1799</title>
+            <editor xml:id="edAG">Andreas Gálffy</editor>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <name>Forschungsstelle "Universitätssammlung Friedrich von Gentz"</name>
+               <link target="http://gentz-digital.ub.uni-koeln.de http://www.ub.uni-koeln.de/cdm/singleitem/collection/gentz/id/2386/"/>
+            </publisher>
+            <pubPlace>Cologne</pubPlace>
+            <idno type="Gentz-Edition-Number" n="2387"/>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <country>Germany</country>
+                  <settlement>Bonn</settlement>
+                  <institution>Universitätsbibliothek</institution>
+                  <repository>Handschriftenabteilung</repository>
+                  <collection>Autographensammlung</collection>
+               </msIdentifier>
+               <msContents>
+                  <summary>
+                     Schulenburg hat das Honorar noch nicht entrichtet, weshalb Gentz einen Vorschuss von hundert Reichstaler nicht 
+                     tilgen konnte. Sobald er das Geld hat, wird der Vorschuss getilgt. Das Manuskript soll bald geliefert werden, 
+                     andererseits möchte Gentz den Kalender nach England schicken und die Zeitungen erhalten.
+                  </summary>
+               </msContents>
+            </msDesc>
+            <listBibl type="preprints">
+               <biblStruct>
+                  <monogr>
+                     <title>Sammlung historisch berühmter Autographen oder Facsimile's von Handschriften berühmter Personen alter und neuer Zeit</title>
+                     <imprint>
+                        <publisher>Ad. Becher</publisher>
+                        <pubPlace>Stuttgart</pubPlace>
+                        <date>1846</date>
+                     </imprint>
+                  </monogr>
+               </biblStruct>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Masterarbeit zu Matrikelnummer 5584124</p>
+         </projectDesc>
+      </encodingDesc>
+      <profileDesc>
+         <creation>
+            <date when-iso="1799-01-00">Januar 1799</date>
+         </creation>
+        <langUsage>
+           <language ident="d">deutsch</language>
+        </langUsage>
+         <textClass>
+            <keywords scheme="internal"><!-- internal: innerhalb des besagten Briefs -->
+               <term>Brief</term>
+               <term>Schulden</term>
+               <term>Manuskript</term>
+               <term>Kalender</term>
+            </keywords>
+            <keywords scheme="categorisation"><!-- Sinnabschnittseinteilung - relevant für den Fahrkartenautomaten! -->
+               <term xml:id="gprl">Gentz - p(r)ekuniäre Lage</term>
+               <term xml:id="vwf">Vieweg - Freundschaft</term>
+               <term xml:id="vwkms">Vieweg - Kalender / Maria Stuart</term>
+               <term xml:id="bibl">Bibliothek</term>
+            </keywords>
+         </textClass>
+         <textDesc>
+            <channel>manuscript</channel>
+            <constitution type="single"/>
+            <derivation type="original"/>
+            <domain type="private"/>
+            <factuality type="fact"/>
+            <interaction type="partial"/>
+            <preparedness type="unprepared"/>
+            <purpose type="inform"/>
+         </textDesc>
+         <particDesc>
+            <listPerson>
+               <!-- Sender und Adressat -->
+               <person role="sender" xml:id="Gen">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/118538489"/>
+                     <forename>Friedrich von</forename>
+                     <surname>Gentz</surname>
+                  </persName>
+               </person>
+               <person role="receiver" xml:id="FVW">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/119049546"/>
+                     <forename>Friedrich</forename>
+                     <surname>Vieweg</surname>
+                  </persName>
+               </person>
+               <!-- erwähnte Personen -->
+               <person role="named" xml:id="FWvdSK">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/118611275"/>
+                     <forename>Friedrich Wilhelm von der</forename>
+                     <surname>Schulenburg-Kehnert</surname>
+                  </persName>
+               </person>
+               <person role="named" xml:id="KFWIII">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/118535986"/>
+                     <forename>Friedrich Wilhelm III.</forename>
+                     <surname>von Preußen</surname>
+                     <roleName type="office">König</roleName>
+                  </persName>
+               </person>
+            </listPerson>
+         </particDesc>
+         <settingDesc>
+            <listPlace>
+               <!-- Start- und Zielort -->
+               <place type="sender" xml:id="plBe">
+                  <country>
+                     <ref target="http://d-nb.info/gnd/4047194-9"/>
+                     <placeName>Preußen</placeName>
+                  </country>
+                  <settlement>
+                     <ref target="http://d-nb.info/gnd/4005728-8"/>
+                     <placeName>Berlin</placeName>
+                  </settlement>
+               </place>
+               <!-- erwähnte Orte -->
+            </listPlace>
+         </settingDesc>
+      </profileDesc>
+      <revisionDesc>
+         <change xml:id="init" when-iso="2018-03-02" who="#edAG">Erstauszeichnung und Normierung des Dokumentes im Rahmen der Masterarbeit der Matrikelnummer 5584124</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div n="1" corresp="#bezbt">
+            <p>
+               Ich kan Ihnen nur noch einmal auf das heiligste versichern, daß ich die 100 Reichsthaler nicht vergessen habe, und 
+               nicht vergessen werde. <rs type="person" ref="#FWvdSK">Schulenburg</rs> hat mich gestern zu sich rufen laßen, um mir 
+               von freien Stücken seine, und des <rs type="person" ref="#KFWIII">Monarchen</rs> Zufriedenheit mit meiner Arbeit in 
+               schmeichelhaften Ausdrücken anzukündigen, und bei dieser Gelegenheit hat er mir ipsissimis verbis gesagt:
+               <quote corresp="#FWvdSK">
+                  Wundern Sie sich nicht, daß Sie Ihr Honorar noch nicht erhielten: es soll aus einem
+                  meiner speziellen Disposition anvertrauten Fondi erfolgen, und Sie werden es aus
+                  meinen Händen bekommen; Sie müßen Sich aber noch ein<add place="above">mal</add> 8 Tage gedulden,
+                  weil diese Gelder mir nicht in den gewöhnlichen Quarthal Terminen sondern in
+                  außerordentlichen Zahlungen zufließen.
+               </quote>
+               Ich habe also dies Geld noch nicht erhalten, und <pb/> werde, <emph rend="underlined">wenn</emph> ich es erhalte, 
+               sofort diesen Vorschuß tilgen. Dies verspreche ich Ihnen wiederholentlich und feierlich, und es thut mir weh zu 
+               sehen, daß ich mir ohne meine Schuld Ihre Unzufriedenheit hierüber zugezogen habe.
+            </p>
+         </div>
+         <div n="2" corresp="#vwf">
+            <p>
+               Mit dem Manuscript werde ich Sie in keine Verlegenheit setzen; ich liefre es Ihnen zum Dienstag gewiß.
+            </p>
+         </div>
+         <div n="3" corresp="#vwkms">
+            <p>
+               Weil Morgen mein Packet nach England abgeht, so wünschte ich wohl daß Sie die Güte hätten, mir den Kalender, den ich, 
+               wie Sie wißen, mit einlegen will, zukommen zu laßen. - 
+            </p>
+         </div>
+         <div n="4" corresp="#bibl">
+            <p>
+               Dürfte ich auch bei dieser Gelegenheit an die Zeitungen erinnern.
+            </p>
+         </div>
+         <closer>
+            <signed rend="right">Gentz.0</signed>
+         </closer>
+      </body>
+   </text>
+</TEI>

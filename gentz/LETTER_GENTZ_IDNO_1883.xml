@@ -1,0 +1,319 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc xml:id="LETTER_GENTZ_1883">
+         <titleStmt>
+            <title>Friedrich von Gentz an Karl Gustav von Brinckmann, 21. August 1801</title>
+            <editor xml:id="edAG">Andreas Gálffy</editor>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <name>Forschungsstelle "Universitätssammlung Friedrich von Gentz"</name>
+               <link target="http://gentz-digital.ub.uni-koeln.de http://www.ub.uni-koeln.de/cdm/singleitem/collection/gentz/id/1882/"/>
+            </publisher>
+            <pubPlace>Cologne</pubPlace>
+            <idno type="Gentz-Edition-Number" n="1883"/>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <country>Sweden</country>
+                  <settlement>Trolle-Ljungby</settlement>
+                  <institution>Archiv des Grafen Wachtmeister</institution>
+                  <repository>Nachlaß Brinckmann, Ausländ. Briefwechsel, Gentz an Brinckmann</repository>
+                  <idno>G 3</idno>
+               </msIdentifier>
+               <msContents>
+                  <summary>
+                     Für zehn Friedrichsd'or möchte Gentz den Comines, den ersten Teil des Boyd, die zwei Teile von Belsham's 
+                     history of Great Britain und die Bände des Annual Register von 1758 und 1780 an Brinckmann überlassen. Gentz 
+                     ist erleichtert, dass Humboldt nicht kommt. Im Postscript kündigt Gentz sich zum Mittagessen an und so der 
+                     Bediente die Comines nicht mitgenommen hat, Brinckmann diesen von sonstwoher kenne.
+                  </summary>
+               </msContents>
+            </msDesc>
+            <listBibl type="preprints">
+               <biblStruct>
+                  <monogr>
+                     <editor>
+                        <persName>
+                           <ref target="http://d-nb.info/gnd/130953075"/>
+                           <forename>Friedrich Carl</forename>
+                           <surname>Wittichen</surname>
+                        </persName>
+                        <persName>
+                           <ref /> <!-- kein GND-Eintrag -->
+                           <forename>Ernst</forename>
+                           <surname>Salzer</surname>
+                        </persName>
+                     </editor>
+                     <title>Briefe von und an Friedrich von Gentz, 4 Bde.</title>
+                     <imprint>
+                        <publisher>Oldenbourg</publisher>
+                        <pubPlace>München, Berlin</pubPlace>
+                        <date>1909-1913</date>
+                     </imprint>
+                     <biblScope unit="volume" n="2">
+                        II
+                     </biblScope>
+                     <biblScope unit="page" from="76" to="76">
+                        Nr. 85 (teilweise)
+                     </biblScope>
+                  </monogr>
+               </biblStruct>
+            </listBibl>
+            <listBibl type="alludedWorks">
+               <bibl xml:id="a1883-1" corresp="#LETTER_GENTZ_NNNN">nicht näher benanntes, mehrbändiges Werk von Walter[?] Boyd</bibl>
+            </listBibl>
+            <listBibl type="defExpr">
+               <biblStruct xml:id="e1883-1" corresp="BnF-0002">
+                  <monogr>
+                     <author>
+                        <persName>
+                           <ref target="http://d-nb.info/gnd/118521721"/>
+                           <forename>Philippe de</forename>
+                           <surname>Commynes</surname>
+                        </persName>
+                     </author>
+                     <title>Memoires de Messire Philippe de Comines, Seigneur d’Argenton</title>
+                     <imprint>
+                        <pubPlace>Londres, Paris</pubPlace>
+                        <publisher>Rollin, fils</publisher>
+                        <date>1747</date>
+                     </imprint>
+                  </monogr>
+                  <ptr target="http://gallica.bnf.fr/ark:/12148/bpt6k6447326q"/>
+               </biblStruct>
+               <biblStruct xml:id="e1883-2" corresp="HtT-0003">
+                  <monogr>
+                     <author>
+                        <persName>
+                           <ref target="http://d-nb.info/gnd/128936797"/>
+                           <forename>Edmund</forename>
+                           <surname>Burke</surname>
+                        </persName>
+                     </author>
+                     <title>The annual register or a view of the history, politics and literature for the year 1758</title>
+                     <imprint>
+                        <pubPlace>London</pubPlace>
+                        <publisher>J. Dodsley</publisher>
+                        <date>1791</date>
+                     </imprint>
+                  </monogr>
+                  <ptr target="https://hdl.handle.net/2027/njp.32101076875317"/>
+               </biblStruct>
+            </listBibl>
+            <listBibl type="defRep">
+               <biblStruct xml:id="p1883-1" corresp="Arc-0012">
+                  <monogr>
+                     <author>
+                        <persName>
+                           <ref target="http://d-nb.info/gnd/128936797"/>
+                           <forename>William</forename>
+                           <surname>Belsham</surname>
+                        </persName>
+                     </author>
+                     <title>History of Great Britain: from the revolution to the accession of the House of Hanover</title>
+                     <imprint>
+                        <pubPlace>London</pubPlace>
+                        <publisher>G. G. and J. Robinson</publisher>
+                        <date>1798</date>
+                     </imprint>
+                  </monogr>
+                  <ptr target="https://archive.org/details/historyofgreatbr01bels"/>
+               </biblStruct>
+               <biblStruct xml:id="p1883-2" corresp="GBk-0067">
+                  <monogr>
+                     <author>
+                        <persName>
+                           <ref target="http://d-nb.info/gnd/128936797"/>
+                           <forename>Edmund</forename>
+                           <surname>Burke</surname>
+                        </persName>
+                     </author>
+                     <title>The annual register or a view of the history, politics and literature for the year 1780</title>
+                     <imprint>
+                        <pubPlace>London</pubPlace>
+                        <publisher>J. Dodsley</publisher>
+                        <date>1781</date>
+                     </imprint>
+                  </monogr>
+                  <ptr target="https://books.google.de/books?id=BscLAAAAYAAJ"/>
+               </biblStruct>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Masterarbeit zu Matrikelnummer 5584124</p>
+         </projectDesc>
+      </encodingDesc>
+      <profileDesc>
+         <creation>
+            <date when-iso="1801-08-21">21. August 1801</date>
+         </creation>
+        <langUsage>
+           <language ident="d">deutsch</language>
+        </langUsage>
+         <textClass>
+            <keywords scheme="internal"><!-- internal: innerhalb des besagten Briefs -->
+               <term>Brief</term>
+               <term>Treffen</term>
+               <term>Krüdener</term>
+            </keywords>
+            <keywords scheme="categorisation"><!-- Sinnabschnittseinteilung - relevant für den Fahrkartenautomaten! -->
+               <term xml:id="bibl">Bibliothek</term>
+               <term xml:id="khum">Humboldt</term>
+               <term xml:id="vkgvb">Verhältnis Karl Gustav von Brinckmann</term>
+            </keywords>
+         </textClass>
+         <textDesc>
+            <channel>manuscript</channel>
+            <constitution type="single"/>
+            <derivation type="original"/>
+            <domain type="private"/>
+            <factuality type="fact"/>
+            <interaction type="partial"/>
+            <preparedness type="prepared"/>
+            <purpose type="inform"/>
+         </textDesc>
+         <particDesc>
+            <listPerson>
+               <!-- Sender und Adressat -->
+               <person role="sender" xml:id="Gen">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/118538489"/>
+                     <forename>Friedrich von</forename>
+                     <surname>Gentz</surname>
+                  </persName>
+               </person>
+               <person role="receiver" xml:id="KGvB">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/116519770"/>
+                     <forename>Carl Gustav von</forename>
+                     <surname>Brinckmann</surname>
+                  </persName>
+               </person>
+               <!-- erwähnte Personen -->
+               <person role="named" xml:id="WBlsh">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/128936797"/>
+                     <forename>William</forename>
+                     <surname>Belsham</surname>
+                  </persName>
+               </person>
+               <person role="named" xml:id="LIgn">
+                  <persName>
+                     <ref />
+                     <forename>Louise</forename>
+                     <surname>Ignee</surname>
+                  </persName>
+               </person>
+               <person role="named" xml:id="Hum">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/118554727"/>
+                     <forename>Wilhelm von</forename>
+                     <surname>Humboldt</surname>
+                  </persName>
+               </person>
+               <person role="named" xml:id="Bgdf">
+                  <persName>
+                     <ref/>
+                     <forename/>
+                     <surname>Burgsdorff</surname>
+                  </persName>
+               </person>
+            </listPerson>
+         </particDesc>
+         <settingDesc>
+            <listPlace>
+               <!-- Start- und Zielort -->
+               <place type="sender" xml:id="plSb">
+                  <country>
+                     <ref target="http://d-nb.info/gnd/4047194-9"/>
+                     <placeName>Preußen</placeName>
+                  </country>
+                  <settlement>
+                     <ref target="http://d-nb.info/gnd/116944-0"/>
+                     <placeName>Schöneberg</placeName>
+                  </settlement>
+               </place>
+               <place type="receiver" xml:id="plBe">
+                  <country>
+                     <ref target="http://d-nb.info/gnd/4047194-9"/>
+                     <placeName>Preußen</placeName>
+                  </country>
+                  <settlement>
+                     <ref target="http://d-nb.info/gnd/4005728-8"/>
+                     <placeName>Berlin</placeName>
+                  </settlement>
+               </place>
+               <!-- erwähnte Orte -->
+               <place type="named" xml:id="plGu">
+                  <country>
+                     <ref target="http://d-nb.info/gnd/4047194-9"/>
+                     <placeName>Preußen</placeName>
+                  </country>
+                  <region>
+                     <ref target="http://d-nb.info/gnd/4393530-8"/>
+                     <placeName>Gusow</placeName>  
+                  </region>
+               </place>
+            </listPlace>
+         </settingDesc>
+      </profileDesc>
+      <revisionDesc>
+         <change xml:id="init" when-iso="2018-03-08" who="#edAG">Erstauszeichnung und Normierung des Dokumentes im Rahmen der Masterarbeit der Matrikelnummer 5584124</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <opener resp="#KGvB">
+            <dateline rend="right"><date when-iso="1801-08-21">21. Aug. 1801</date>.</dateline>
+         </opener>
+         <div n="1" corresp="#bibl">
+            <p>
+               Wenn Sie mir (inclusive der noch rückständigen 5 Friedrichs dor) 10 Friedrichs dor geben wollen, jedoch so, daß ich 
+               sie binnen 24 Stunden gebrauchen kan, - weil ich wahrscheinlich morgen nach <rs type="place" ref="#plGu">Gusow</rs> 
+               reise - so sollen Sie haben:
+            </p>
+            <lg>
+               <l>1, Den hiebei erfolgenden prachtvollen <rs type="citation" ref="#e1883-1">Comines</rs></l>
+               <l>2, <rs type="citation" ref="#a1883-1">Die Werke von Boyd</rs>, wovon hier der 1<span rend="sup">te</span> Theil</l>
+               <l>3, <rs type="person" ref="#WBlsh">Belsham</rs>'s <rs type="citation" ref="#p1883-1">history of Great Britain</rs> 2 Theile</l>
+               <l>4, Die beiden <emph rend="underlined">wichtigsten</emph> Bände der Annual register, den von <rs type="citation" ref="#e1883-2">1758</rs> und den von <rs type="citation" ref="#p1883-2">1780</rs>.</l>
+            </lg>
+            <p>
+               Ueber diese für Sie nur zu vortheilhafte Proposition, erbitte ich mir sofort eine gefällige Erklärung. Die 
+               <rs type="person" ref="#WBlsh">Belsham</rs>s sind in den Händen der 
+               <rs type="person" ref="#LIgn">Wittwe Haussmann</rs> wo sie jederzeit inspizirt und abgeholt werden können.
+            </p>
+         </div>
+         <div n="2" corresp="#khum">
+            <p>
+               <rs type="person" ref="#Hum">Humboldt</rs> kömmt ja, Gottlob, noch nicht. Mit 
+               <rs type="person" ref="#Bgdf">Burgsdorff</rs> habe ich neulich eine sehr interessante Unterredung gehabt.
+            </p>
+         </div>
+         <closer>
+            <signed rend="right">Gentz.</signed>
+            <dateline rend="right"><date when-iso="1801-08-21">21 Aug</date>.</dateline>
+         </closer>
+         <postscript corresp="#vkgvb">
+            <p>
+               Wenn Sie glauben, daß man es bestimmt gern sehen würde, so komme ich heute Mittag zum Essen. Schreiben Sie mir 
+               hierüber ein Wort; (die Antwort schicken Sie auf das <emph rend="underlined">Casino</emph>)
+            </p>
+         </postscript>
+         <postscript corresp="#bibl">
+            <p>
+               NB. Sollte mein Bedienter etwa den <rs type="citation" ref="#e1883-1">Comines</rs> nicht mit genommen haben, so 
+               kennen Sie ihn ja von sonsther.
+            </p>
+         </postscript>
+      </body>
+   </text>
+</TEI>

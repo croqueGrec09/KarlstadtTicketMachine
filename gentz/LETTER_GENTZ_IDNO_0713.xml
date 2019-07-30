@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader type="text">
+      <fileDesc xml:id="LETTER_GENTZ_0713">
+         <titleStmt>
+            <title>Friedrich von Gentz an Friedrich Vieweg, 24. August 1796</title>
+            <editor xml:id="edAG">Andreas Gálffy</editor>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <name>Forschungsstelle "Universitätssammlung Friedrich von Gentz"</name>
+               <link target="http://gentz-digital.ub.uni-koeln.de http://www.ub.uni-koeln.de/cdm/singleitem/collection/gentz/id/712/"/>
+            </publisher>
+            <pubPlace>Cologne</pubPlace>
+            <idno type="Gentz-Edition-Number" n="0713"/>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <country>Germany</country>
+                  <settlement>Wiesbaden</settlement>
+                  <institution>Vieweg-Verlagsarchiv</institution>
+                  <repository>Briefsammlung 311 G: Gentz-Briefe</repository>
+                  <idno>Nr. 10</idno>
+               </msIdentifier>
+               <msContents>
+                  <summary>
+                     Vieweg soll schnell ein Exemplar des neuen Burke auf gutem Papier schicken. Eine bewusste Sache soll nur am 
+                     Nachmittag vorgenommen werden.
+                  </summary>
+               </msContents>
+            </msDesc>
+            <listBibl type="defRep">
+               <biblStruct xml:id="p0713-1" corresp="GBk-0023">
+                  <monogr>
+                     <author>
+                        <persName>
+                           <ref target="http://d-nb.info/gnd/118517708"/>
+                           <forename>Edmund</forename>
+                           <surname>Burke</surname>
+                        </persName>
+                     </author>
+                     <title>Thoughts on the Prospect of a Regicide Peace,: In a Series of Letters</title>
+                     <imprint>
+                        <pubPlace>London</pubPlace>
+                        <publisher>J. Owen</publisher>
+                        <date>1796</date>
+                     </imprint>
+                  </monogr>
+               <ptr target="https://books.google.de/books?id=fXpbAAAAQAAJ"/></biblStruct>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Masterarbeit zu Matrikelnummer 5584124</p>
+         </projectDesc>
+      </encodingDesc>
+      <profileDesc>
+         <creation>
+            <date when-iso="1796-08-24">24. August 1796</date>
+         </creation>
+        <langUsage>
+           <language ident="d">deutsch</language>
+        </langUsage>
+         <textClass>
+            <keywords scheme="internal"><!-- internal: innerhalb des besagten Briefs -->
+               <term>Billet</term>
+               <term>Burke</term>
+               <term>Sache</term>
+            </keywords>
+            <keywords scheme="categorisation"><!-- Sinnabschnittseinteilung - relevant für den Fahrkartenautomaten! -->
+               <term xml:id="kbur">Burke</term>
+            </keywords>
+         </textClass>
+         <textDesc>
+            <channel>manuscript</channel>
+            <constitution type="single"/>
+            <derivation type="original"/>
+            <domain type="private"/>
+            <factuality type="fact"/>
+            <interaction type="partial"/>
+            <preparedness type="unprepared"/>
+            <purpose type="inform"/>
+         </textDesc>
+         <particDesc>
+            <listPerson>
+               <!-- Sender und Adressat -->
+               <person role="sender" xml:id="Gen">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/118538489"/>
+                     <forename>Friedrich von</forename>
+                     <surname>Gentz</surname>
+                  </persName>
+               </person>
+               <person role="receiver" xml:id="FVW">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/119049546"/>
+                     <forename>Friedrich</forename>
+                     <surname>Vieweg</surname>
+                  </persName>
+               </person>
+               <!-- erwähnte Personen -->
+               <person role="named" xml:id="Bur">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/118517708"/>
+                     <forename>Edmund</forename>
+                     <surname>Burke</surname>
+                  </persName>
+               </person>
+            </listPerson>
+         </particDesc>
+         <settingDesc>
+            <listPlace>
+               <!-- Start- und Zielort -->
+               <place type="sender" xml:id="plBe">
+                  <country>
+                     <ref target="http://d-nb.info/gnd/4047194-9"/>
+                     <placeName>Preußen</placeName>
+                  </country>
+                  <settlement>
+                     <ref target="http://d-nb.info/gnd/4005728-8"/>
+                     <placeName>Berlin</placeName>
+                  </settlement>
+               </place>
+               <!-- erwähnte Orte -->
+            </listPlace>
+         </settingDesc>
+      </profileDesc>
+      <revisionDesc>
+         <change xml:id="init" when-iso="2018-02-19" who="#edAG">Erstauszeichnung und Normierung des Dokumentes im Rahmen der Masterarbeit der Matrikelnummer 5584124</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div n="1" corresp="#kbur">
+            <p>
+               Schicken Sie mir doch recht geschwind ein Exemplar und wo möglich eins auf gutem Papier von dem 
+               <rs type="citation" ref="#p0713-1">neuen</rs> 
+               <rs type="citation" ref="#Bur"><emph rend="underlined">Burke</emph></rs>. Es gehört mit zur 
+               <emph rend="underlined">Sache</emph>, die, weil der bewuste Mann nicht <emph rend="underlined">allein</emph> war, 
+               erst Nachmittag vorgenommen werden kan.
+            </p>
+         </div>
+      </body>
+   </text>
+</TEI>

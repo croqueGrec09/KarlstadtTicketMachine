@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader type="text">
+      <fileDesc xml:id="LETTER_GENTZ_4061">
+         <titleStmt>
+            <title>Friedrich von Gentz an Jakob Markuse, 3. Februar 1794 [24. Juni 1795]</title>
+            <editor xml:id="edAG">Andreas Gálffy</editor>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <name>Forschungsstelle "Universitätssammlung Friedrich von Gentz"</name>
+               <link target="http://gentz-digital.ub.uni-koeln.de http://www.ub.uni-koeln.de/cdm/singleitem/collection/gentz/id/4060/"/>
+            </publisher>
+            <pubPlace>Cologne</pubPlace>
+            <idno type="Gentz-Edition-Number" n="4061"/>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <country>Germany</country>
+                  <settlement>Wiesbaden</settlement>
+                  <institution>Vieweg-Verlagsarchiv</institution>
+                  <repository>Gentz-Materialien</repository>
+                  <idno>I, 2</idno>
+               </msIdentifier>
+               <msContents>
+                  <summary>
+                     Ein Schuldschein zu 700 Reichstaler nebst sechs Prozent Zinsen, fällig am 1.6.1794. 
+                     Am 24.6.1795 sind davon 350 Reichstaler bezahlt, der Rest soll in sechs Wochen gezahlt werden.
+                  </summary>
+               </msContents>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Masterarbeit zu Matrikelnummer 5584124</p>
+         </projectDesc>
+      </encodingDesc>
+      <profileDesc>
+         <creation>
+            <date when-iso="1794-02-03">3. Februar 1794</date>
+         </creation>
+        <langUsage>
+           <language ident="d">deutsch</language>
+        </langUsage>
+         <textClass>
+            <keywords scheme="internal"><!-- internal: innerhalb des besagten Briefs -->
+               <term>Schuldschein</term>
+               <term>Jacob Markuse</term>
+            </keywords>
+            <keywords scheme="categorisation"><!-- Sinnabschnittseinteilung - relevant für den Fahrkartenautomaten! -->
+               <term xml:id="gprl">Gentz - p(r)ekuniäre Lage</term>
+            </keywords>
+         </textClass>
+         <textDesc>
+            <channel>manuscript</channel>
+            <constitution type="single"/>
+            <derivation type="original"/>
+            <domain type="private"/>
+            <factuality type="fact"/>
+            <interaction type="partial"/>
+            <preparedness type="unprepared"/>
+            <purpose type="inform"/>
+         </textDesc>
+         <particDesc>
+            <listPerson>
+               <!-- Sender und Adressat -->
+               <person role="sender" xml:id="Gen">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/118538489"/>
+                     <forename>Friedrich von</forename>
+                     <surname>Gentz</surname>
+                  </persName>
+               </person>
+               <person role="receiver" xml:id="JMk">
+                  <persName>
+                     <ref/>
+                     <forename>Jakob</forename>
+                     <surname>Markuse</surname>
+                  </persName>
+               </person>
+               <!-- erwähnte Personen -->
+            </listPerson>
+         </particDesc>
+         <settingDesc>
+            <listPlace>
+               <!-- Start- und Zielort -->
+               <place type="sender" xml:id="plBe">
+                  <country>
+                     <ref target="http://d-nb.info/gnd/4047194-9"/>
+                     <placeName>Preußen</placeName>
+                  </country>
+                  <settlement>
+                     <ref target="http://d-nb.info/gnd/4005728-8"/>
+                     <placeName>Berlin</placeName>
+                  </settlement>
+               </place>
+               <!-- erwähnte Orte -->
+            </listPlace>
+         </settingDesc>
+      </profileDesc>
+      <revisionDesc>
+         <change xml:id="init" when-iso="2018-02-14" who="#edAG">Erstauszeichnung und Normierung des Dokumentes im Rahmen der Masterarbeit der Matrikelnummer 5584124</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>     
+      <body>
+         <opener>
+            <add resp="otherHand">Stempel Reserwirt.</add>
+            <dateline rend="right"><rs type="place" ref="#plBe">Berlin</rs> den <date when-iso="1794-02-03">3<span rend="sup">ten</span> Februar 1794</date></dateline>
+         </opener>
+         <head>700 Reichsthaler in Friedrichs d'or à 5 Reichsthaler das Stück.</head>
+         <div n="1" corresp="#gprl">
+            <p>
+               A dato den <date when-iso="1794-06-01">1<span rend="sup">ten</span> Juny 1794</date> zahle ich Endes-Unterschriebner 
+               gegen diesen meinen Sola-Wechsel an den <rs type="person" ref="#JMk">Herrn Jakob Markuse</rs> oder dessen Ordre die 
+               Summe von Sieben Hundert Reichsthaler in Friedrichsdor nebst 6 pro Cent Zinsen. Valuta habe ich von demselben baar 
+               und richtig erhalten und leiste daher zur Verfallzeit promtt Zahlung nach Wechselrecht.
+            </p>
+            <lg type="signatureBox">
+               <l rend="left">Auf mich selbst</l><l rend="right">Friedrich Gentz</l>
+               <l rend="left">aller Orten wo ich</l><l rend="right">Königlicher Krieges-Rath</l>
+               <l rend="left">anzutreffen, zahlbar.</l><l rend="right">bey dem General-Directorio</l>
+               <l rend="left">Friedrich Gentz.</l>
+            </lg>
+         </div>
+         <div n="2" corresp="#gprl">
+            <p>
+               Auf diesen Wechsel sind dato 350 Reichstaler Friedrichs d'or nebst Zinsen für die ganze Summe bezahlt. Der Ueberrest 
+               von 350 Reichstaler Friedrichs d'or soll a dato binnen 6 Wochen gezahlt werden.
+            </p>
+            <dateline rend="right"><rs type="place" ref="#plBe">Berlin</rs> den <date when-iso="1795-06-24">24<span rend="sup">ten</span> Juny 1795</date></dateline>
+            <signed rend="right">Friedrich Gentz.</signed>
+         </div>
+      </body>
+   </text>
+</TEI>

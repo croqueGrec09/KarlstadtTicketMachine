@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc xml:id="LETTER_GENTZ_2211">
+         <titleStmt>
+            <title>Friedrich von Gentz an Friedrich Vieweg, 11. Juni 1798</title>
+            <editor xml:id="edAG">Andreas Gálffy</editor>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <name>Forschungsstelle "Universitätssammlung Friedrich von Gentz"</name>
+               <link target="http://gentz-digital.ub.uni-koeln.de http://www.ub.uni-koeln.de/cdm/singleitem/collection/gentz/id/2210/"/>
+            </publisher>
+            <pubPlace>Cologne</pubPlace>
+            <idno type="Gentz-Edition-Number" n="2211"/>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <country>Germany</country>
+                  <settlement>Wiesbaden</settlement>
+                  <institution>Vieweg-Verlagsarchiv</institution>
+                  <repository>Briefsammlung 311 G: Gentz-Briefe</repository>
+                  <idno>Nr. 80</idno>
+               </msIdentifier>
+               <msContents>
+                  <summary>
+                     Es werden 102 Reichstaler 10 Groschen aus verschiedenen Posten quittiert.
+                  </summary>
+               </msContents>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Masterarbeit zu Matrikelnummer 5584124</p>
+         </projectDesc>
+      </encodingDesc>
+      <profileDesc>
+         <creation>
+            <date when-iso="1798-06-11">11. Juni 1798</date>
+         </creation>
+        <langUsage>
+           <language ident="d">deutsch</language>
+        </langUsage>
+         <textClass>
+            <keywords scheme="internal"><!-- internal: innerhalb des besagten Briefs -->
+               <term>Schuldschein</term>
+               <term>Zusammenfassung</term>
+            </keywords>
+            <keywords scheme="categorisation"><!-- Sinnabschnittseinteilung - relevant für den Fahrkartenautomaten! -->
+               <term xml:id="gprl">Gentz - p(r)ekuniäre Lage</term>
+            </keywords>
+         </textClass>
+         <textDesc>
+            <channel>manuscript</channel>
+            <constitution type="single"/>
+            <derivation type="original"/>
+            <domain type="private"/>
+            <factuality type="fact"/>
+            <interaction type="partial"/>
+            <preparedness type="prepared"/>
+            <purpose type="inform"/>
+         </textDesc>
+         <particDesc>
+            <listPerson>
+               <!-- Sender und Adressat -->
+               <person role="sender" xml:id="Gen">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/118538489"/>
+                     <forename>Friedrich von</forename>
+                     <surname>Gentz</surname>
+                  </persName>
+               </person>
+               <person role="receiver" xml:id="FVW">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/119049546"/>
+                     <forename>Friedrich</forename>
+                     <surname>Vieweg</surname>
+                  </persName>
+               </person>
+               <!-- erwähnte Personen -->
+               <person role="named" xml:id="LeZ">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/1069520616"/>
+                     <forename>Leonhard</forename>
+                     <surname>Ziegler</surname>
+                  </persName>
+               </person>
+               <person role="named" xml:id="WGK">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/136422896"/>
+                     <forename>Wilhelm Gottlieb</forename>
+                     <surname>Korn</surname>
+                  </persName>
+               </person>
+            </listPerson>
+         </particDesc>
+         <settingDesc>
+            <listPlace>
+               <!-- Start- und Zielort -->
+               <place type="sender" xml:id="plBe">
+                  <country>
+                     <ref target="http://d-nb.info/gnd/4047194-9"/>
+                     <placeName>Preußen</placeName>
+                  </country>
+                  <settlement>
+                     <ref target="http://d-nb.info/gnd/4005728-8"/>
+                     <placeName>Berlin</placeName>
+                  </settlement>
+               </place>
+               <!-- erwähnte Orte -->
+               <place type="named" xml:id="plZh">
+                  <country>
+                     <ref target="http://d-nb.info/gnd/4411191-5"/>
+                     <placeName>Helvetische Republik</placeName>
+                  </country>
+                  <settlement>
+                     <ref target="http://d-nb.info/gnd/4068038-1"/>
+                     <placeName>Zürich</placeName>
+                  </settlement>
+               </place>
+               <place type="named" xml:id="plBr">
+                  <country>
+                     <ref target="http://d-nb.info/gnd/4047194-9"/>
+                     <placeName>Preußen</placeName>
+                  </country>
+                  <settlement>
+                     <ref target="http://d-nb.info/gnd/4008216-7"/>
+                     <placeName>Breslau</placeName>
+                  </settlement>
+               </place>
+            </listPlace>
+         </settingDesc>
+      </profileDesc>
+      <revisionDesc>
+         <change xml:id="init" when-iso="2018-03-02" who="#edAG">Erstauszeichnung und Normierung des Dokumentes im Rahmen der Masterarbeit der Matrikelnummer 5584124</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>     
+      <body>
+         <div n="1" corresp="#gprl">
+            <p>
+               Folgende von dem Herrn Buchhändler Vieweg Wohlgebohren für mich geleistete Zahlungen, nehmlich
+            </p>
+            <lg>
+               <l>An <rs type="person" ref="#LeZ">Ziegler</rs> und Söhne in <rs type="place" ref="#plZh">Zürch</rs> 46 Reichsthaler</l>
+               <l>Fracht und Spesen für die Kiste aus <rs type="place" ref="#plZh">Zürch</rs> 10 Reichsthaler 20 Groschen</l>
+               <l>An <rs type="person" ref="#WGK">W. G. Korn</rs> in <rs type="place" ref="#plBr">Breslau</rs> 45 Reichsthaler 14 Groschen</l>
+               <l>Summa 102 Reichsthaler 10 Groschen</l>
+            </lg>
+            <p>
+               habe ich auf dessen Verlangen hiedurch als richtig geschehen, attestiren wollen.
+            </p>
+         </div>
+         <closer>
+            <dateline rend="right"><rs type="place" ref="#plBe">Berlin</rs> den <date when-iso="1798-06-11">11<span rend="sup">ten</span> Juny 1798</date>.</dateline>
+            <signed rend="right">Gentz.</signed>
+         </closer>
+      </body>
+   </text>
+</TEI>

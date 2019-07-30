@@ -1,0 +1,220 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader type="text">
+      <fileDesc xml:id="LETTER_GENTZ_0295">
+         <titleStmt>
+            <title>Friedrich von Gentz an Karl Gustav von Brinckmann, 14. Februar 1793</title>
+            <editor xml:id="edAG">Andreas Gálffy</editor>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <name>Forschungsstelle "Universitätssammlung Friedrich von Gentz"</name>
+               <link target="http://gentz-digital.ub.uni-koeln.de http://www.ub.uni-koeln.de/cdm/singleitem/collection/gentz/id/294/"/>
+            </publisher>
+            <pubPlace>Cologne</pubPlace>
+            <idno type="Gentz-Edition-Number" n="0295"/>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <country>Sweden</country>
+                  <settlement>Trolle-Ljungby</settlement>
+                  <institution>Archiv des Grafen Wachtmeister</institution>
+                  <repository>Nachlaß Brinckmann, Ausländ. Briefwechsel, Gentz an von Brinckmann</repository>
+                  <idno>G 3</idno>
+               </msIdentifier>
+               <msContents>
+                  <summary>
+                     Bei diesem Handel ergehen an Brinckmann der ganze Raynal und die Geschichte der Päbste und der Dio Cassius 
+                     sowie zwölf Groschen. Gentz lobt die Verse von Brinckmann.
+                  </summary>
+               </msContents>
+            </msDesc>
+            <listBibl type="alludedWorks">
+               <bibl xml:id="a0295-1" corresp="#LETTER_GENTZ_NNNN">nicht näher benanntes Werk von Guillaume Thomas François Raynal</bibl>
+               <bibl xml:id="a0295-2" corresp="#LETTER_GENTZ_NNNN">nicht näher benanntes Gedicht von Karl Gustav von Brinckmann</bibl>
+            </listBibl>
+            <listBibl type="defExpr">
+               <biblStruct xml:id="e0295-1" corresp="GBk-0026">
+                  <monogr>
+                     <author>
+                        <persName>
+                           <ref target="http://d-nb.info/gnd/104355034"/>
+                           <forename>Leopold Alois</forename>
+                           <surname>Hoffmann</surname>
+                        </persName>
+                     </author>
+                     <title>Geschichte der Päbste von Petrus bis Pius VI.</title>
+                     <imprint>
+                        <publisher>Sebastian Hartl</publisher>
+                        <pubPlace>Leipzig und Wien</pubPlace>
+                        <date>1786</date>
+                     </imprint>
+                  </monogr>
+               <ptr target="https://books.google.de/books?id=qLkAAAAAcAAJ"/></biblStruct>
+               <biblStruct xml:id="e0295-2" corresp="GBk-0006">
+                  <analytic>
+                     <author>
+                        <persName>
+                           <ref target="http://d-nb.info/gnd/118525824"/>
+                           <forename>Dio</forename>
+                           <surname>Cassius</surname>
+                        </persName>
+                     </author>
+                     <editor resp="translator">
+                        <persName>
+                           <ref target="http://d-nb.info/gnd/104136316"/>
+                           <forename>Johann Augustin</forename>
+                           <surname>Wagner</surname>
+                        </persName>
+                     </editor>
+                     <title>Römische Geschichte</title>
+                     <date>1783</date>
+                  </analytic>
+                  <monogr>
+                     <author>
+                        <persName>
+                           <ref target="http://d-nb.info/gnd/118525824"/>
+                           <forename>Dio</forename>
+                           <surname>Cassius</surname>
+                        </persName>
+                     </author>
+                     <editor>
+                        <persName>
+                           <ref target="http://d-nb.info/gnd/104353090"/>
+                           <forename>Friedrich Andreas</forename>
+                           <surname>Stroth</surname>
+                        </persName>
+                     </editor>
+                     <title>Sammlung der neuesten Uebersetzungen der griechischen prosaischen Schriftsteller</title>
+                     <imprint>
+                        <publisher>Johann Christian Hermann</publisher>
+                        <pubPlace>Frankfurt am Main</pubPlace>
+                        <date>1783</date>
+                     </imprint>
+                     <biblScope unit="volume" n="1">Erster Band</biblScope>
+                  </monogr>
+               <ptr target="https://books.google.de/books?id=4flDAAAAYAAJ"/></biblStruct>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Masterarbeit zu Matrikelnummer 5584124</p>
+         </projectDesc>
+      </encodingDesc>
+      <profileDesc>
+         <creation>
+            <date when-iso="1793-02-14">14. Februar 1793</date>
+         </creation>
+        <langUsage>
+           <language ident="d">deutsch</language>
+        </langUsage>
+         <textClass>
+            <keywords scheme="internal"><!-- internal: innerhalb des besagten Briefs -->
+               <term>Billet</term>
+               <term>Bibliothek</term>
+               <term>Gedichte</term>
+               <term>Literatur</term>
+            </keywords>
+            <keywords scheme="categorisation"><!-- Sinnabschnittseinteilung - relevant für den Fahrkartenautomaten! -->
+               <term xml:id="bibl">Bibliothek</term>
+               <term xml:id="vkgvb">Verhältnis Karl Gustav von Brinckmann</term>
+            </keywords>
+         </textClass>
+         <textDesc>
+            <channel>manuscript</channel>
+            <constitution type="single"/>
+            <derivation type="original"/>
+            <domain type="private"/>
+            <factuality type="fact"/>
+            <interaction type="partial"/>
+            <preparedness type="unprepared"/>
+            <purpose type="inform"/>
+         </textDesc>
+         <particDesc>
+            <listPerson>
+               <!-- Sender und Adressat -->
+               <person role="sender" xml:id="Gen">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/118538489"/>
+                     <forename>Friedrich von</forename>
+                     <surname>Gentz</surname>
+                  </persName>
+               </person>
+               <person role="receiver" xml:id="KGvB">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/116519770"/>
+                     <forename>Carl Gustav von</forename>
+                     <surname>Brinckmann</surname>
+                  </persName>
+               </person>
+               <!-- erwähnte Personen -->
+               <person role="named" xml:id="Ray">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/118969420"/>
+                     <forename>Guillaume Thomas François</forename>
+                     <surname>Raynal</surname>
+                  </persName>
+               </person>
+            </listPerson>
+         </particDesc>
+         <settingDesc>
+            <listPlace>
+               <!-- Start- und Zielort -->
+               <place type="sender" xml:id="plBe">
+                  <country>
+                     <ref target="http://d-nb.info/gnd/4047194-9"/>
+                     <placeName>Preußen</placeName>
+                  </country>
+                  <settlement>
+                     <ref target="http://d-nb.info/gnd/4005728-8"/>
+                     <placeName>Berlin</placeName>
+                  </settlement>
+               </place>
+               <!-- erwähnte Orte -->
+            </listPlace>
+         </settingDesc>
+      </profileDesc>
+      <revisionDesc>
+         <change xml:id="init" when-iso="2018-02-13" who="#edAG">Erstauszeichnung und Normierung des Dokumentes im Rahmen der Masterarbeit der Matrikelnummer 5584124</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>     
+      <body>
+         <opener resp="#KGvB">
+            <dateline rend="right"><date when-iso="1793-02-14">14. Febr. 1793</date></dateline>
+         </opener>
+         <div n="1" corresp="#bibl">
+            <p>
+               Hieneben erhalten <rs type="person" ref="#KGvB">Ewr. Herrlichkeit</rs> den 
+               <rs type="citation" ref="#a0295-1">ganzen</rs> <rs type="person" ref="#Ray">Raynal</rs>, aber auf Cavalier-Parole, 
+               <del rend="stroked">xxx</del> unter deren Sanction ich auch das Nicht-Ausschneiden einzelner Stücke hiemit stelle.
+            </p>
+            <p>
+               Zugleich erfolgt:
+            </p>
+            <lg>
+               <l><rs type="citation" ref="#e0295-1"><emph rend="underlined">Die Geschichte der Päbste</emph></rs> und der <rs type="citation" ref="#e0295-2"><emph rend="underlined">Dio Cassius</emph></rs></l>
+            </lg>
+            <p>
+               Für diese Bücher haben wir uns mit Einschluß des <rs type="person" ref="#Ray">Raynal</rs> auf 2 Reichsthaler 
+               verstanden. Sie erhalten also von mir noch beykommende 12 Groschen. -
+            </p>
+         </div>
+         <div n="2" corresp="#vkgvb">
+            <p>
+               Ihre Verse, sowohl die ernsthaften <pb/> als comischen, sind vortreflich, die letztern schreckhaft-schön. Was ich in 
+               diesen besonders groß finde ist:
+               <cit corresp="#a0295-2">
+                  <quote>Der Mauschel <emph rend="underlined">selber</emph> im Gegensatz der <emph rend="underlined">Läuse</emph></quote>
+               </cit>
+               - praeclare !
+            </p>
+         </div>
+         <closer>
+            <signed rend="right">Gentz</signed>
+         </closer>
+      </body>
+   </text>
+</TEI>

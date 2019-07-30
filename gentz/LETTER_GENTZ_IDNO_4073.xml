@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc xml:id="LETTER_GENTZ_4073">
+         <titleStmt>
+            <title>Friedrich von Gentz an Heinrich Frölich, 1. November 1799</title>
+            <editor xml:id="edAG">Andreas Gálffy</editor>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <name>Forschungsstelle "Universitätssammlung Friedrich von Gentz"</name>
+               <link target="http://gentz-digital.ub.uni-koeln.de http://www.ub.uni-koeln.de/cdm/singleitem/collection/gentz/id/4072/"/>
+            </publisher>
+            <pubPlace>Cologne</pubPlace>
+            <idno type="Gentz-Edition-Number" n="4073"/>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <country>Germany</country>
+                  <settlement>Dortmund</settlement>
+                  <institution>Stadt- und Landesbibliothek</institution>
+                  <repository>Handschriftenabteilung</repository>
+                  <idno>Atg 7523</idno>
+               </msIdentifier>
+               <msContents>
+                  <summary>
+                     Ein Vertragsentwurf, der den Verlag des Historischen Journals regeln soll. Er soll zunächst für das Jahr 1800 
+                     gelten, wird aber verlägert, wenn spätestens am 1. Oktober 1800 keine anderweitige Entscheidung getroffen wird. 
+                     Vier Friedrichsd'or soll Gentz pro Bogen erhalten, wobei ein Manuskript nicht länger, als 90 Druckbogen 
+                     umfassen soll. Ein etwaiger Gewinn, der abfällt, wenn mehr, als 2000 Exemplare abgesetzt werden, wird spontan 
+                     verteilt. Bei Unterzeichnung sollen sofort 1500 Reichstaler bezahlt werden, der Rest zur Ostermesse.
+                  </summary>
+               </msContents>
+            </msDesc>
+            <listBibl type="defExpr">
+               <biblStruct xml:id="e4073-1" corresp="GBk-0059">
+                  <monogr>
+                     <editor>
+                        <persName>
+                           <ref target="http://d-nb.info/gnd/118538489"/>
+                           <forename>Friedrich von</forename>
+                           <surname>Gentz</surname>
+                        </persName>
+                     </editor>
+                     <title>Historisches Journal</title>
+                     <imprint>
+                        <pubPlace>Berlin</pubPlace>
+                        <publisher>Heinrich Frölich</publisher>
+                        <date>1800</date>
+                     </imprint>
+                     <biblScope unit="volume" n="1">
+                        Erster Band. Januar bis April.
+                     </biblScope>
+                  </monogr>
+                  <ptr target="https://books.google.de/books?id=PcAtZUZGTlcC"/>
+               </biblStruct>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Masterarbeit zu Matrikelnummer 5584124</p>
+         </projectDesc>
+      </encodingDesc>
+      <profileDesc>
+         <creation>
+            <date when-iso="1799-11-01">1. November 1799</date>
+         </creation>
+        <langUsage>
+           <language ident="d">deutsch</language>
+        </langUsage>
+         <textClass>
+            <keywords scheme="internal"><!-- internal: innerhalb des besagten Briefs -->
+               <term>Vertrag</term>
+               <term>Verlag</term>
+               <term>Historisches Journal</term>
+            </keywords>
+            <keywords scheme="categorisation"><!-- Sinnabschnittseinteilung - relevant für den Fahrkartenautomaten! -->
+               <term xml:id="jrnh">Historisches Journal</term>
+            </keywords>
+         </textClass>
+         <textDesc>
+            <channel>manuscript</channel>
+            <constitution type="single"/>
+            <derivation type="original"/>
+            <domain type="private"/>
+            <factuality type="fact"/>
+            <interaction type="partial"/>
+            <preparedness type="prepared"/>
+            <purpose type="inform"/>
+         </textDesc>
+         <particDesc>
+            <listPerson>
+               <!-- Sender und Adressat -->
+               <person role="sender" xml:id="Gen">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/118538489"/>
+                     <forename>Friedrich von</forename>
+                     <surname>Gentz</surname>
+                  </persName>
+               </person>
+               <person role="receiver" xml:id="Fro">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/1073351068"/>
+                     <forename>Heinrich</forename>
+                     <surname>Frölich</surname>
+                  </persName>
+               </person>
+               <!-- erwähnte Personen -->
+            </listPerson>
+         </particDesc>
+         <settingDesc>
+            <listPlace>
+               <!-- Start- und Zielort -->
+               <place type="sender" xml:id="plBe">
+                  <country>
+                     <ref target="http://d-nb.info/gnd/4047194-9"/>
+                     <placeName>Preußen</placeName>
+                  </country>
+                  <settlement>
+                     <ref target="http://d-nb.info/gnd/4005728-8"/>
+                     <placeName>Berlin</placeName>
+                  </settlement>
+               </place>
+               <!-- erwähnte Orte -->
+            </listPlace>
+         </settingDesc>
+      </profileDesc>
+      <revisionDesc>
+         <change xml:id="init" when-iso="2018-03-04" who="#edAG">Erstauszeichnung und Normierung des Dokumentes im Rahmen der Masterarbeit der Matrikelnummer 5584124</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div n="1" corresp="#jrnh">
+            <p>
+               Zwischen dem Krieges Rath Friedrich Gentz als Verfasser des 
+               <rs type="citation" ref="#e4073-1">Historischen Journals</rs> und dem Buchhändler Heinrich Frölich ist wegen des 
+               künftigen Verlages dieses Journals folgender Contract wohlbedächtig verabredet und geschlossen worden:
+            </p>
+            <p>
+               1.
+            </p>
+            <p>
+               Der Buchhändler Frölich übernimmt den Verlag für das Jahr 1800, und zahlt dem Krieges-Rath Gentz ein Honorar von Vier 
+               Friedrichsdor pro Bogen, mit Beibehaltung des bisherigen Formats und der bisherigen Schrift.
+            </p>
+            <p>
+               2.
+            </p>
+            <p>
+               Der Krieges-Rath Gentz macht sich anheischig das Manuskript so einzurichten, daß der ganze Jahrgang nicht über 90 
+               Druck-Bogen<span rend="sup">2</span> stark wird.
+            </p>
+            <p>
+               3.
+            </p>
+            <p>
+               Sollte sich der Absatz im folgenden Jahre beträchtlich vermehren, und nahmentlich die bis jetzt gedruckte Anzahl von 
+               2000 Exemplaren übersteigen<span rend="sup">3</span>, so bleibt dem Verfasser noch eine besondre, nach Verhältniß des 
+               Gewinns durch beiderseitige freie Uebereinkunft billig zu bestimmende Vergütung vorbehalten.
+            </p>
+            <p>
+               4.
+            </p>
+            <p>
+               Von dem Honorar werden gleich nach Unterzeichnung dieses Contracts 1500 Reichsthaler und der Ueberrest in der 
+               nächstfolgenden Ostermesse bezahlt. Gold und Courant werden nach dem jedesmaligen Wechsel-Cours berechnet. <pb/>
+            </p>
+            <p>
+               5.
+            </p>
+            <p>
+               Gegenwärtiger Contract gilt zwar zunächst nur auf Ein Jahr; jedoch erklärt der p Gentz im voraus daß der Herr 
+               Frölich, wenn die Bedingungen erfüllt werden, und das Unternehmen in dessen Händen glücklichen Fortgang gewinnt, für 
+               die Zukunft den Vorzug vor jedem andern Verleger zu erwarten haben soll. Den 
+               <date when-iso="1800-10-01">1<span rend="sup">ten</span> Oktober 1800</date> soll spätstens die Verabredung über 
+               Verlängerung des Contracts getroffen werden; wird bis zu diesem Termin nichts weiter bestimmt, so gilt der Contract 
+               ipso facto auch für das Jahr 1801.
+            </p>
+            <p>
+               Beide Theile begeben sich aller diesem Contrakt zuwider laufenden Einwendungen, sie mögen Nahmen haben wie sie 
+               wollen, und verpflichten sich wechselseitig zur pünktlichsten Beobachtung und Aufrechthaltung desselben. 
+               So Geschehen <rs type="place" ref="#plBe">Berlin</rs> den 
+               <date when-iso="1799-11-01">1<span rend="sup">ten</span> November 1799</date>:
+            </p>
+         </div>
+         <closer>
+            <signed rend="right">Friedrich Gentz</signed>
+            <signed rend="right">Krieges-Rath bey dem</signed>
+            <signed rend="right">Königlichen General-Directorio.</signed>
+         </closer>
+         <note xml:id="r4073-1">Vorschlag für einen Verlagsvertrag zwischen Friedrich Gentz und Heinrich Frölich wegen des künftigen Verlages des Historischen Journals.</note>
+         <note resp="#edAG" xml:id="r4073-2">Die Fußnoten "2" und "3" sind in Gentz digital nicht aufgeschlüsselt</note>
+      </body>
+   </text>
+</TEI>

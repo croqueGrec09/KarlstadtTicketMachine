@@ -1,0 +1,243 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader type="text">
+      <fileDesc xml:id="LETTER_GENTZ_4943">
+         <titleStmt>
+            <title>Friedrich von Gentz an Karl Gustav von Brinckmann, 25. November 1793</title>
+            <editor xml:id="edAG">Andreas Gálffy</editor>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <name>Forschungsstelle "Universitätssammlung Friedrich von Gentz"</name>
+               <link target="http://gentz-digital.ub.uni-koeln.de http://www.ub.uni-koeln.de/cdm/singleitem/collection/gentz/id/4942/"/>
+            </publisher>
+            <pubPlace>Cologne</pubPlace>
+            <idno type="Gentz-Edition-Number" n="4943"/>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <country>Sweden</country>
+                  <settlement>Trolle-Ljungby</settlement>
+                  <institution>Archiv des Grafen Wachtmeister</institution>
+                  <repository>Nachlaß Brinckmann, Ausländ. Briefwechsel, Gentz an von Brinckmann</repository>
+                  <idno>G 3</idno>
+               </msIdentifier>
+               <msContents>
+                  <summary>
+                     Die Burkiana kommen, mit dem Auftrag einer baldigen Weiterbeförderung. Gentz verlässt sich auf Brinckmann und 
+                     stellt ihm ein günstiges Angebot über sein Exemplat der works in Aussicht.
+                  </summary>
+               </msContents>
+            </msDesc>
+            <listBibl type="preprints">
+               <biblStruct>
+                  <monogr>
+                     <editor>
+                        <persName>
+                           <ref target="http://d-nb.info/gnd/130953075"/>
+                           <forename>Friedrich Carl</forename>
+                           <surname>Wittichen</surname>
+                        </persName>
+                        <persName>
+                           <ref/> <!-- kein GND-Eintrag -->
+                           <forename>Ernst</forename>
+                           <surname>Salzer</surname>
+                        </persName>
+                     </editor>
+                     <title>Briefe von und an Friedrich von Gentz, 4 Bde.</title>
+                     <imprint>
+                        <publisher>Oldenbourg</publisher>
+                        <pubPlace>München, Berlin</pubPlace>
+                        <date>1909-1913</date>
+                     </imprint>
+                     <biblScope unit="volume" n="2">
+                        II
+                     </biblScope>
+                     <biblScope unit="page" from="43" to="43">
+                        Nr. 40 (tlw.)
+                     </biblScope>
+                  </monogr>
+               </biblStruct>
+            </listBibl>
+            <listBibl type="letterReferenced">
+               <bibl xml:id="c4943-1" corresp="#LETTER_GENTZ_2139">Friedrich von Gentz an Karl Gustav von Brinckmann, 1. März 1793</bibl>
+               <bibl xml:id="c4943-2" corresp="#LETTER_GENTZ_5143">Friedrich von Gentz an Edmund Burke, 8. Februar 1793</bibl>
+            </listBibl>
+            <listBibl type="defExpr">
+               <biblStruct xml:id="e4943-1" corresp="Arc-0008">
+                  <analytic>
+                     <author>
+                        <persName>
+                           <ref target="http://d-nb.info/gnd/118517708"/>
+                           <forename>Edmund</forename>
+                           <surname>Burke</surname>
+                        </persName>
+                     </author>
+                     <title>Thoughts on French Affairs</title>
+                     <date>1791</date>
+                  </analytic>
+                  <monogr>
+                     <author>
+                        <persName>
+                           <ref target="http://d-nb.info/gnd/118517708"/>
+                           <forename>Edmund</forename>
+                           <surname>Burke</surname>
+                        </persName>
+                     </author>
+                     <title>Reflections on the French Revolution</title>
+                     <imprint>
+                        <publisher>J. M. Dent &amp; Sons Ltd.</publisher>
+                        <pubPlace>London</pubPlace>
+                        <date>1910</date>
+                     </imprint>
+                     <biblScope unit="page" from="285" to="331">
+                        S. 285-331
+                     </biblScope>
+                  </monogr>
+               <ptr target="https://archive.org/details/reflectionsonthe005907mbp"/></biblStruct>
+               <biblStruct xml:id="e4943-2" corresp="GBk-0002">
+                  <monogr>
+                     <author>
+                        <persName>
+                           <ref target="http://d-nb.info/gnd/118517708"/>
+                           <forename>Edmund</forename>
+                           <surname>Burke</surname>
+                        </persName>
+                     </author>
+                     <title>An appeal from the new to the old whigs</title>
+                     <imprint>
+                        <publisher>J. Dodsley</publisher>
+                        <pubPlace>London</pubPlace>
+                        <date>1791</date>
+                     </imprint>
+                  </monogr>
+               <ptr target="https://books.google.de/books?id=0r5VAAAAYAAJ"/></biblStruct>
+            </listBibl>
+            <listBibl type="defRep">
+               <biblStruct xml:id="p4943-1" corresp="GBk-0020">
+                  <monogr>
+                     <author>
+                        <persName>
+                           <ref target="http://d-nb.info/gnd/118517708"/>
+                           <forename>Edmund</forename>
+                           <surname>Burke</surname>
+                        </persName>
+                     </author>
+                     <title>The works of the Right Honourable Edmund Burke</title>
+                     <imprint>
+                        <publisher>J. Dodsley</publisher>
+                        <pubPlace>London</pubPlace>
+                        <date>1792</date>
+                     </imprint>
+                  </monogr>
+               <ptr target="https://books.google.de/books?id=U08OAAAAQAAJ"/></biblStruct>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Masterarbeit zu Matrikelnummer 5584124</p>
+         </projectDesc>
+      </encodingDesc>
+      <profileDesc>
+         <creation>
+            <date when-iso="1793-11-25">25. November 1793</date>
+         </creation>
+        <langUsage>
+           <language ident="d">deutsch</language>
+        </langUsage>
+         <textClass>
+            <keywords scheme="internal"><!-- internal: innerhalb des besagten Briefs -->
+               <term>Billet</term>
+               <term>Sendschreiben</term>
+               <term>Paket</term>
+               <term>Burke</term>
+            </keywords>
+            <keywords scheme="categorisation"><!-- Sinnabschnittseinteilung - relevant für den Fahrkartenautomaten! -->
+               <term xml:id="kbur">Burke</term>
+            </keywords>
+         </textClass>
+         <textDesc>
+            <channel>manuscript</channel>
+            <constitution type="single"/>
+            <derivation type="original"/>
+            <domain type="private"/>
+            <factuality type="fact"/>
+            <interaction type="partial"/>
+            <preparedness type="unprepared"/>
+            <purpose type="inform"/>
+         </textDesc>
+         <particDesc>
+            <listPerson>
+               <!-- Sender und Adressat -->
+               <person role="sender" xml:id="Gen">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/118538489"/>
+                     <forename>Friedrich von</forename>
+                     <surname>Gentz</surname>
+                  </persName>
+               </person>
+               <person role="receiver" xml:id="KGvB">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/116519770"/>
+                     <forename>Carl Gustav von</forename>
+                     <surname>Brinckmann</surname>
+                  </persName>
+               </person>
+               <!-- erwähnte Personen -->
+               <person role="named" xml:id="Bur">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/118517708"/>
+                     <forename>Edmund</forename>
+                     <surname>Burke</surname>
+                  </persName>
+               </person>
+            </listPerson>
+         </particDesc>
+         <settingDesc>
+            <listPlace>
+               <!-- Start- und Zielort -->
+               <place type="sender" xml:id="plBe">
+                  <country>
+                     <ref target="http://d-nb.info/gnd/4047194-9"/>
+                     <placeName>Preußen</placeName>
+                  </country>
+                  <settlement>
+                     <ref target="http://d-nb.info/gnd/4005728-8"/>
+                     <placeName>Berlin</placeName>
+                  </settlement>
+               </place>
+               <!-- erwähnte Orte -->
+            </listPlace>
+         </settingDesc>
+      </profileDesc>
+      <revisionDesc>
+         <change xml:id="init" when-iso="2018-02-13" who="#edAG">Erstauszeichnung und Normierung des Dokumentes im Rahmen der Masterarbeit der Matrikelnummer 5584124</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <opener resp="#KGvB">
+            <dateline><date when-iso="1793-11-25">25. Novbr 1793</date>.</dateline>
+         </opener>
+         <div n="1" corresp="#kbur">
+            <p>
+               Ich schicke Ihnen hier <rs type="citation" ref="#e4943-1">die</rs> <rs type="citation" ref="#e4943-2">Burkiana</rs>, 
+               und empfehle sie <ref target="#r4943-1">Ihrer weitern Fürsorge</ref>, und einer baldigen Beförderung. Dünner konnten 
+               die Pakete nicht werden, wenn <add place="above">ich</add> nicht die schönen Bände einer zu großen Gefahr aussetzen 
+               wollte. Ich verlaße mich nunmehr ganz auf Sie: mein Dank bleibt Ihnen auf jeden Fall sicher; sollte aber 
+               <rs type="person" ref="#Bur">Burke</rs> so honnett seyn, mir seine 
+               <rs type="citation" ref="#p4943-1"><emph rend="underlined">works</emph></rs> zu 
+               <rs type="citation" ref="#r4943-2">schenken</rs>, so haben Sie noch obendrein die Aussicht auf eine 
+               <emph rend="underlined">sehr</emph> wohlfeile Erwerbung meines Exemplars. Vale
+            </p>
+         </div>
+         <closer>
+            <signed rend="right">Gentz.</signed>
+         </closer>
+         <note resp="#edAG" xml:id="r4943-1">Vgl. den <rs type="citation" ref="#c4943-1">Brief vom 1. März 1793</rs>.</note>
+         <note resp="#edAG" xml:id="r4943-2">Vgl. den <rs type="citation" ref="#c4943-2">Brief vom 8. Februar 1793</rs>. Gentz kann durchaus Anlass gehabt haben, ein persönliches Exemplar von Burke zu erhalten.</note>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc xml:id="LETTER_GENTZ_5173">
+         <titleStmt>
+            <title>Friedrich von Gentz an Friedrich Vieweg, Ende Februar/Anfang März 1799</title>
+            <editor xml:id="edAG">Andreas Gálffy</editor>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <name>Forschungsstelle "Universitätssammlung Friedrich von Gentz"</name>
+               <link target="http://gentz-digital.ub.uni-koeln.de http://www.ub.uni-koeln.de/cdm/singleitem/collection/gentz/id/5172/"/>
+            </publisher>
+            <pubPlace>Cologne</pubPlace>
+            <idno type="Gentz-Edition-Number" n="5173"/>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <country>Switzerland</country>
+                  <settlement>Basel</settlement>
+                  <institution>Universitätsbibliothek</institution>
+                  <repository>Autographen-Sammlung Geigy-Hagenbach</repository>
+                  <idno>Nr. 2772</idno>
+               </msIdentifier>
+               <msContents>
+                  <summary>
+                     Das Manuskript fällt zu lang aus, daher schlägt Gentz vor, den Artikel über die Cisalpinische Republik gegen 
+                     einen namens Varia auszutauschen. Da Gentz frühestens am Abend wird liefern können, will er sofort von Viewegs 
+                     Entscheid wissen.
+                  </summary>
+               </msContents>
+            </msDesc>
+            <listBibl type="defRep">
+               <biblStruct xml:id="p5173-1" corresp="GBk-0046">
+                  <analytic>
+                     <title>Italien. Schicksale und Revoluzionen der Cisalpinischen Republik</title>
+                  </analytic>
+                  <monogr>
+                     <editor>
+                        <persName>
+                           <ref target="http://d-nb.info/gnd/118538489"/>
+                           <forename>Friedrich von</forename>
+                           <surname>Gentz</surname>
+                        </persName>
+                     </editor>
+                     <title>Historisches Journal</title>
+                     <imprint>
+                        <publisher>Friedrich Vieweg dem ältern</publisher>
+                        <pubPlace>Berlin</pubPlace>
+                        <date>1799</date>
+                     </imprint>
+                  </monogr>
+                  <ptr target="https://books.google.de/books?id=YU5BAAAAcAAJ"/>
+               </biblStruct>
+               <biblStruct xml:id="p5173-2" corresp="GBk-0045">
+                  <analytic>
+                     <title>Vermischte Nachrichten und Bemerkungen.</title>
+                  </analytic>
+                  <monogr>
+                     <editor>
+                        <persName>
+                           <ref target="http://d-nb.info/gnd/118538489"/>
+                           <forename>Friedrich von</forename>
+                           <surname>Gentz</surname>
+                        </persName>
+                     </editor>
+                     <title>Historisches Journal</title>
+                     <imprint>
+                        <publisher>Friedrich Vieweg dem ältern</publisher>
+                        <pubPlace>Berlin</pubPlace>
+                        <date>1799</date>
+                     </imprint>
+                  </monogr>
+                  <ptr target="https://books.google.de/books?id=YU5BAAAAcAAJ"/>
+               </biblStruct>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Masterarbeit zu Matrikelnummer 5584124</p>
+         </projectDesc>
+      </encodingDesc>
+      <profileDesc>
+         <creation>
+            <date when-iso="1799-02-00">Ende Februar/Anfang März 1799</date>
+         </creation>
+        <langUsage>
+           <language ident="d">deutsch</language>
+        </langUsage>
+         <textClass>
+            <keywords scheme="internal"><!-- internal: innerhalb des besagten Briefs -->
+               <term>Billet</term>
+               <term>Journal historique</term>
+               <term>Aufsätze</term>
+            </keywords>
+            <keywords scheme="categorisation"><!-- Sinnabschnittseinteilung - relevant für den Fahrkartenautomaten! -->
+               <term xml:id="jrnh">Historisches Journal</term>
+            </keywords>
+         </textClass>
+         <textDesc>
+            <channel>manuscript</channel>
+            <constitution type="single"/>
+            <derivation type="original"/>
+            <domain type="private"/>
+            <factuality type="fact"/>
+            <interaction type="partial"/>
+            <preparedness type="unprepared"/>
+            <purpose type="inform"/>
+         </textDesc>
+         <particDesc>
+            <listPerson>
+               <!-- Sender und Adressat -->
+               <person role="sender" xml:id="Gen">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/118538489"/>
+                     <forename>Friedrich von</forename>
+                     <surname>Gentz</surname>
+                  </persName>
+               </person>
+               <person role="receiver" xml:id="FVW">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/119049546"/>
+                     <forename>Friedrich</forename>
+                     <surname>Vieweg</surname>
+                  </persName>
+               </person>
+               <!-- erwähnte Personen -->
+            </listPerson>
+         </particDesc>
+         <settingDesc>
+            <listPlace>
+               <!-- Start- und Zielort -->
+               <place type="sender" xml:id="plBe">
+                  <country>
+                     <ref target="http://d-nb.info/gnd/4047194-9"/>
+                     <placeName>Preußen</placeName>
+                  </country>
+                  <settlement>
+                     <ref target="http://d-nb.info/gnd/4005728-8"/>
+                     <placeName>Berlin</placeName>
+                  </settlement>
+               </place>
+               <!-- erwähnte Orte -->
+            </listPlace>
+         </settingDesc>
+      </profileDesc>
+      <revisionDesc>
+         <change xml:id="init" when-iso="2018-03-03" who="#edAG">Erstauszeichnung und Normierung des Dokumentes im Rahmen der Masterarbeit der Matrikelnummer 5584124</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div n="1" corresp="#jrnh">
+            <p>
+               Ich bekomme eben jetzt erst die Correktur des dritten Bogens, und werde dabei gewahr, daß das Manuscript welches ich 
+               in die Druckerei geschickt, gewiß wieder sehr weit hinaus gehen wird. Bestätigt sich diese Vermuthung und finden Sie, 
+               daß das Stück zu stark werden würde, so schlage ich vor, den ganzen Aufsatz über die 
+               <rs type="citation" ref="#p5173-1"><emph rend="underlined">Cisalpinische Republik</emph></rs> diesmal wegzulaßen, und 
+               statt dessen, um den 4<span rend="sup">ten</span> Bogen zu füllen, einen Artikel: 
+               <rs type="citation" ref="#p5173-2"><emph rend="underlined">Varia</emph></rs>, so wie ich es Ihnen neulich sagte, 
+               aufzunehmen. Diesen Artikel könnte ich aber nicht eher, als Morgen ganz früh, höchstens heute Abend liefern, <pb/> 
+               und müßte auf jeden Fall <emph rend="underlined">jetzt gleich</emph> von Ihrem Entschluß unterrichtet werden. Ich 
+               käme selbst zu Ihnen: aber ich bin seit einigen Tagen so krank, daß ich kein Glied zu rühren im Stande bin. Laßen 
+               Sie mich also Ihre Meinung wißen.
+            </p>
+         </div>
+         <closer>
+            <signed rend="right">Gentz</signed>
+         </closer>
+      </body>
+   </text>
+</TEI>

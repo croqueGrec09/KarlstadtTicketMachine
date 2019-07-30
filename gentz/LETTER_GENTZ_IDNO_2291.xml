@@ -1,0 +1,237 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader type="text">
+      <fileDesc xml:id="LETTER_GENTZ_2291">
+         <titleStmt>
+            <title>Friedrich von Gentz an Karl Gustav von Brinckmann, 18. September 1792</title>
+            <editor xml:id="edAG">Andreas Gálffy</editor>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <name>Forschungsstelle "Universitätssammlung Friedrich von Gentz"</name>
+               <link target="http://gentz-digital.ub.uni-koeln.de http://www.ub.uni-koeln.de/cdm/singleitem/collection/gentz/id/2290/"/>
+            </publisher>
+            <pubPlace>Cologne</pubPlace>
+            <idno type="Gentz-Edition-Number" n="2291"/>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <country>Sweden</country>
+                  <settlement>Trolle-Ljungby</settlement>
+                  <institution>Archiv des Grafen Wachtmeister</institution>
+                  <repository>Nachlaß Brinckmann, Ausländ. Briefwechsel, Gentz an Brinckmann</repository>
+                  <idno>G 3</idno>
+               </msIdentifier>
+               <msContents>
+                  <summary>
+                     Der vorige Abend ist gründlich daneben gegangen und Gentz bittet um nachsicht für sein Verhalten. Alle waren 
+                     schlecht gelaunt. Gentz' Schwiegermutter nötigte Gentz indirekt, Brinckmann zu empfangen, obwohl dieser sich 
+                     mit seiner Frau Minna einen schönen Abend machen wollte. Er sah sich in einer prekären Lage und wollte zu 
+                     niemandem unhöflich sein. Daher schreibt Gentz auch, wie sehr er Minna liebt.
+                  </summary>
+               </msContents>
+            </msDesc>
+            <listBibl type="preprints">
+               <biblStruct>
+                  <monogr>
+                     <editor>
+                        <persName>
+                           <ref target="http://d-nb.info/gnd/130953075"/>
+                           <forename>Friedrich Carl</forename>
+                           <surname>Wittichen</surname>
+                        </persName>
+                        <persName>
+                           <ref/> <!-- kein GND-Eintrag -->
+                           <forename>Ernst</forename>
+                           <surname>Salzer</surname>
+                        </persName>
+                     </editor>
+                     <title>Briefe von und an Friedrich von Gentz. 4 Bde.</title>
+                     <imprint>
+                        <publisher>Oldenbourg</publisher>
+                        <pubPlace>München, Berlin</pubPlace>
+                        <date>1909-1913</date>
+                     </imprint>
+                     <biblScope unit="volume" n="2">
+                        II
+                     </biblScope>
+                     <biblScope unit="page" from="20" to="22">
+                        Nr. 9
+                     </biblScope>
+                  </monogr>
+               </biblStruct>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Masterarbeit zu Matrikelnummer 5584124</p>
+         </projectDesc>
+      </encodingDesc>
+      <profileDesc>
+         <creation>
+            <date when-iso="1792-09-18">18. September 1792</date>
+         </creation>
+        <langUsage>
+           <language ident="d">deutsch</language>
+        </langUsage>
+         <textClass>
+            <keywords scheme="internal"><!-- internal: innerhalb des besagten Briefs -->
+               <term>Billet</term>
+               <term>Minna</term>
+               <term>Treffen</term>
+            </keywords>
+            <keywords scheme="categorisation"><!-- Sinnabschnittseinteilung - relevant für den Fahrkartenautomaten! -->
+               <term xml:id="vkgvb">Verhältnis Karl Gustav von Brinckmann</term>
+               <term xml:id="vwg">Verhältnis Wilhelmine Gentz</term>
+            </keywords>
+         </textClass>
+         <textDesc>
+            <channel>manuscript</channel>
+            <constitution type="single"/>
+            <derivation type="original"/>
+            <domain type="private"/>
+            <factuality type="fact"/>
+            <interaction type="partial"/>
+            <preparedness type="unprepared"/>
+            <purpose type="inform"/>
+         </textDesc>
+         <particDesc>
+            <listPerson>
+               <!-- Sender und Adressat -->
+               <person role="sender" xml:id="Gen">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/118538489"/>
+                     <forename>Friedrich von</forename>
+                     <surname>Gentz</surname>
+                  </persName>
+               </person>
+               <person role="receiver" xml:id="KGvB">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/116519770"/>
+                     <forename>Carl Gustav von</forename>
+                     <surname>Brinckmann</surname>
+                  </persName>
+               </person>
+               <!-- erwähnte Personen -->
+               <person role="named" xml:id="Min">
+                  <persName>
+                     <ref/>
+                     <forename>Wilhelmine</forename>
+                     <surname>Gilly</surname>
+                  </persName>
+               </person>
+               <person role="named" xml:id="Zig">
+                  <persName>
+                     <ref/>
+                     <forename>Friederike</forename>
+                     <surname>Ziegenspeck</surname>
+                  </persName>
+               </person>
+            </listPerson>
+         </particDesc>
+         <settingDesc>
+            <listPlace>
+               <!-- Start- und Zielort -->
+               <place type="sender" xml:id="plBe">
+                  <country>
+                     <ref target="http://d-nb.info/gnd/4047194-9"/>
+                     <placeName>Preußen</placeName>
+                  </country>
+                  <settlement>
+                     <ref target="http://d-nb.info/gnd/4005728-8"/>
+                     <placeName>Berlin</placeName>
+                  </settlement>
+               </place>
+               <!-- erwähnte Orte -->
+            </listPlace>
+         </settingDesc>
+      </profileDesc>
+      <revisionDesc>
+         <change xml:id="init" when-iso="2018-02-07" who="#edAG">Erstauszeichnung und Normierung des Dokumentes im Rahmen der Masterarbeit der Matrikelnummer 5584124</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>     
+      <body>
+         <opener resp="#KGvB">
+            <dateline rend="right">Den <date when-iso="1792-09-18">18. Septbr 1792</date>.</dateline>
+         </opener>
+         <div n="1" corresp="#vkgvb">
+            <p>
+               Ich war <date when-iso="1792-09-17">gestern</date> so falsch, schlecht und grob, daß ich Ihnen durchaus eine 
+               Erklärung dieses Abends geben muß, weil Sie Sich sonst, der Himmel weiß was, davon einbilden können. Wenigstens, so 
+               liberal ich mir auch zu seyn schmeichle, mich würde ein solches Betragen, als das meinige, wenn ich mich in Ihre 
+               Stelle versetze, geängstiget haben. Sie werden bald sehen, mit welcher Aufrichtigkeit ich in dieser Erklärung zu 
+               Werke gehe, indem Sie Selbst eine Haupt-Figur darin sind: dafür hoffe ich aber auch, daß Sie mich nirgends 
+               misverstehen, daß Sie mich als Freund, und als Brinkmann, anhören werden.
+            </p>
+         </div>
+         <div n="2" corresp="#vwg">
+            <p>
+               Ich hatte mit <rs type="person" ref="#Min">Minna</rs> den Plan zu einer <emph rend="underlined">einsamen</emph> 
+               halben Stunde auf den <date when-iso="1792-09-17">gestrigen Abend</date> entworfen. Wenn Sie unser Verhältniß in 
+               dieser Rücksicht je beobachtet haben, oder wenn Sie es Sich in diesem Augenblick lebhaft vor Augen stellen, so müßen 
+               Sie durchaus bemerken oder bemerkt haben, <emph rend="underlined">daß wir schlechterdings nie allein sind.</emph> Daß 
+               dies bey einer Liebe, wie die <pb/> unsrige ein wirklich grausamer Umstand ist, das werden Sie begreifen. Ich liebe 
+               die Unabhängigkeit, ich hasse die Langeweile, und die meisten Menschen verursachen mir sie: die einzige Person, mit 
+               welcher ich in jedem Augenblick gern bin, kan ich, ohne besondre Vorkehrungen zu treffen nie anders als 
+               <del rend="stroked">mit</del> von andern Leuten umringt sehen, die mir zwar an und für sich recht lieb sind, aber 
+               doch das nicht ersetzen können, was ich verliehre, dadurch daß sie da sind. Dies ist der einzige unangenehme Zug im 
+               Charakter meines ganzen jetzigen Verhältnisses.
+            </p>
+            <p>
+               Gestern war ein feiner Plan ausgesponnen. Wir waren - denken Sie das - blos darum in die verfluchte Comödie gegangen, 
+               um uns eine einsame halbe Stunde zu erkaufen. Es gelang. Und im Moment, da ich in 
+               <rs type="person" ref="#Min">Minna</rs>'s Stube trete, heißt es unten: Brinkmann ist da.
+            </p>
+         </div>
+         <div n="3" corresp="#vkgvb">
+            <p>
+               Ich gestehe, daß es mich nieder donnerte. Nicht, daß Sie da waren: denn, Gottlob, ich stehe ja mit Ihnen in dem 
+               Verhältniß, wo man einander nicht lästig <pb/> seyn <emph rend="underlined">kan</emph>, weil wir einander sagen : 
+               Komm ! oder Geh ! Sie wißen einmal, daß ich Sie liebe, daß Sie der einzige Mensch in 
+               <rs type="place" ref="#plBe">Berlin</rs> sind, dem ich gern manchmal bey mir sehe. Also hätte ich Ihnen sagen laßen: 
+               Heute ginge es nicht ! und damit war's aus.
+            </p>
+            <p>
+               Aber <rs type="person" ref="#Zig">meine Schwiegermutter</rs> hat keine Idee von einem solchen Verhältniß. Sie 
+               schlägt allen Umgang mit Menschen über einen und denselben trivialen Leisten einer gewissen allgemeinen Höflichkeit, 
+               und würde es mir nie verziehen haben, wenn ich Sie hätte weggehen heißen. <emph rend="underlined">Dieser</emph> 
+               Zwang, der mich nun gerade in einem so fatalen Augenblick traf, verdroß mich; er verdroß 
+               <rs type="person" ref="#Min">Minna</rs>. Aus einer Art von kindischer Tücke beschlossen wir (nicht Ihnen zum Trotz - 
+               denn was wußten Sie davon - sondern ihrer <rs type="person" ref="#Zig">Mutter</rs> zum Trotz, weil wir schon wußten, 
+               was uns nun bevorstand) noch eine ganze Weile oben zu bleiben. Endlich ging ich, und ward von der 
+               <rs type="person" ref="#Zig">Geheime Räthin</rs>, die im Grunde froh war eine so gute Gelegenheit <pb/> zu finden, 
+               uns für das <emph rend="underlined">Obenseyn</emph> (welches sie eigentlich aus 
+               <emph rend="underlined">andern</emph>, gar nicht ungegründeten Ursachen entsetzlich scheut, obgleich die fünf Sinne 
+               sie belehren sollten, daß gegen <emph rend="underlined">diese</emph> Gefahren ihre Sorgsamkeit bey zwey ihr so 
+               unendlich überlegnen Menschen, als <rs type="person" ref="#Min">Minna</rs> und ich, nichts fruchten kan) zu 
+               züchtigen - zum erstenmahle, seitdem ich sie kenne, unhöflich behandelt, welches ich denn natürlich soviel es der 
+               Wohlstand erlaubte, erwiederte. <rs type="person" ref="#Min">Minna</rs>, die Arme, traf nun der ganze Hagel, der vor 
+               mir noch vorüber zog. Sie müssen die Grobheiten, die sie ihr anthat noch bemerkt haben. Ich 
+               <del rend="stroked">kan</del> war zu aufgebracht, um mich zu verstellen, und wollte es im Grunde auch nicht, weil 
+               ich die <rs type="person" ref="#Zig">Geheime Räthin</rs> dadurch daß ich Ihnen (nach 
+               <emph rend="underlined">ihrer</emph> Idee) grob begegnete, einigermaßen strafte, indem ich sie schreklich ängstigte. 
+               Nachdem Sie fort waren, brach denn ein zweystündiger Streit aus, worin ich umsonst ihr eine Idee von dem <pb/> 
+               Verhältniß zwischen Ihnen und mir beyzubringen suchte, sie umsonst bey ihren allgemeinen Maximen blieb, bis die 
+               Ermüdung das beste Mittel alle Händel zu schlichten uns ohne einander bekehrt zu haben trennte; und so war der Abend 
+               und die Hoffnung verlohren.
+            </p>
+         </div>
+         <div n="4" corresp="#vwg">
+            <p>
+               Jetzt werden Sie mich über mein, sonst unverzeihliches Betragen - denn das war es wirklich - entschuldigen. Denken 
+               Sie Sich die ganze Lage. Denken Sie, daß es mir wirklich kein Scherz ist, wenn ich sage, daß ich 
+               <rs type="person" ref="#Min">Minna</rs> <emph rend="underlined">liebe</emph>, denken Sie Sich, was Liebe ist, was 
+               der Genuß einer Vierthelstunde in dieser flachen und jämmerlichen Welt sagen will - nehmen Sie die Umstände die auch 
+               in einer andern Lage verdrüßlich machen können, dazu, und Sie werden mich begreifen, den wahren Gesichtspunkt fassen, 
+               und mich lieben wie zuvor. Adieu.
+            </p>
+         </div>
+         <closer>
+            <signed rend="right">Gentz</signed>
+         </closer>
+      </body>
+   </text>
+</TEI>

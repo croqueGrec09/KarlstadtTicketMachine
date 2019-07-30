@@ -1,0 +1,313 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader type="text">
+      <fileDesc xml:id="LETTER_GENTZ_1793">
+         <titleStmt>
+            <title>Friedrich von Gentz an Karl August Böttiger, 2. Juli 1796</title>
+            <editor xml:id="edAG">Andreas Gálffy</editor>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <name>Forschungsstelle "Universitätssammlung Friedrich von Gentz"</name>
+               <link target="http://gentz-digital.ub.uni-koeln.de http://www.ub.uni-koeln.de/cdm/singleitem/collection/gentz/id/1792/"/>
+            </publisher>
+            <pubPlace>Cologne</pubPlace>
+            <idno type="Gentz-Edition-Number" n="1793"/>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <country>Germany</country>
+                  <settlement>Dresden</settlement>
+                  <institution>Sächsiche Landesbibliothek</institution>
+                  <repository>Handschriftensammlung, Nachlaß Böttiger</repository>
+                  <collection>Mscr. Dresd. h 37, Bd. 54 (4°)</collection>
+                  <idno>Nr. 4</idno>
+               </msIdentifier>
+               <msContents>
+                  <summary>
+                     Wieder einmal haben der Fieber und die Amtsgeschäfte Gentz vereinnahmt, sodass er sich erst jetzt für den 
+                     Weimarschen Katalog bedankt. Dieser ist Gentz allerdings nicht sehr behilflich. Gentz schickt Böttiger eine 
+                     kleine Arbeit und kündigt eine Abhandlung über die Geschichte der französischen Revolution an. Noch im selben 
+                     Jahr sollen zwei Bände fertig werden. Gentz möchte Böttigers nähere Bekanntschaft machen und hofft, im 
+                     kommenden Frühjahr nach Weimar zu kommen. Für einen Freund möchte Gentz erfahren, ob an einer Übersetzung von 
+                     Stuart's Antiquities of Athens gearbeitet wird. Bezüglich der Monatsschrift verweist Gentz Böttiger im 
+                     Postscript an Vieweg.
+                  </summary>
+               </msContents>
+            </msDesc>
+            <listBibl type="preprints">
+               <biblStruct>
+                  <monogr>
+                     <editor>
+                        <persName>
+                           <ref target="http://d-nb.info/gnd/130953075"/>
+                           <forename>Friedrich Carl</forename>
+                           <surname>Wittichen</surname>
+                        </persName>
+                        <persName>
+                           <ref/> <!-- kein GND-Eintrag -->
+                           <forename>Ernst</forename>
+                           <surname>Salzer</surname>
+                        </persName>
+                     </editor>
+                     <title>Briefe von und an Friedrich von Gentz, 4 Bde.</title>
+                     <imprint>
+                        <publisher>Oldenbourg</publisher>
+                        <pubPlace>München, Berlin</pubPlace>
+                        <date>1909-1913</date>
+                     </imprint>
+                     <biblScope unit="volume" n="1">
+                        I
+                     </biblScope>
+                     <biblScope unit="page" from="222" to="223">
+                        Nr. 49
+                     </biblScope>
+                  </monogr>
+               </biblStruct>
+            </listBibl>
+            <listBibl type="letterReferenced">
+               <bibl xml:id="c1793-1" corresp="#LETTER_GENTZ_1099">Friedrich von Gentz an Karl August Böttiger, 19. Dezember 1795</bibl>
+               <bibl xml:id="c1793-2" corresp="#LETTER_GENTZ_3853">Friedrich von Gentz an Friedrich Vieweg, 19. November 1795</bibl>
+            </listBibl>
+            <listBibl type="defExpr">
+               <biblStruct xml:id="e1793-1" corresp="UBi-0025">
+                  <monogr>
+                     <author>
+                        <persName>
+                           <ref target="http://d-nb.info/gnd/118538489"/>
+                           <forename>Friedrich von</forename>
+                           <surname>Gentz</surname>
+                        </persName>
+                     </author>
+                     <title>Neue Deutsche Monatsschrift</title>
+                     <imprint>
+                        <pubPlace>Berlin</pubPlace>
+                        <publisher>Friedrich Vieweg der Ältere</publisher>
+                        <date>1795</date>
+                     </imprint>
+                  </monogr>
+               <ptr target="http://ds.ub.uni-bielefeld.de/viewer/toc/1938308/1/"/></biblStruct>
+            </listBibl>
+            <listBibl type="defRep">
+               <biblStruct xml:id="p1793-1" corresp="Arc-0000">
+                  <monogr>
+                     <author>
+                        <persName>
+                           <ref target="http://d-nb.info/gnd/124156126"/>
+                           <forename>James</forename>
+                           <surname>Stuart</surname>
+                        </persName>
+                        <persName>
+                           <ref target="http://d-nb.info/gnd/124810225"/>
+                           <forename>Nicholas</forename>
+                           <surname>Revett</surname>
+                        </persName>
+                     </author>
+                     <title>The Antiqvities of Athens</title>
+                     <imprint>
+                        <pubPlace>London</pubPlace>
+                        <publisher>John Haberkorn</publisher>
+                        <date>1762</date>
+                     </imprint>
+                  </monogr>
+               <ptr target="https://archive.org/details/antiqvitiesAthe1Stua"/></biblStruct>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Masterarbeit zu Matrikelnummer 5584124</p>
+         </projectDesc>
+      </encodingDesc>
+      <profileDesc>
+         <creation>
+            <date when-iso="1796-07-02">2. July 1796</date>
+         </creation>
+        <langUsage>
+           <language ident="d">deutsch</language>
+        </langUsage>
+         <textClass>
+            <keywords scheme="internal"><!-- internal: innerhalb des besagten Briefs -->
+               <term>Brief</term>
+               <term>Literatur</term>
+               <term>Bibliothek</term>
+               <term>Französische Revolution</term>
+            </keywords>
+            <keywords scheme="categorisation"><!-- Sinnabschnittseinteilung - relevant für den Fahrkartenautomaten! -->
+               <term xml:id="bezbt">Beziehungen zu Berlin - Beamtentätigkeit</term>
+               <term xml:id="vkab">Verhältnis Karl August Böttiger</term>
+               <term xml:id="budcff">Betrachtungen über den Ursprung, den Charakter und den Fortgang der Französischen Revolution</term>
+               <term xml:id="lvm">Literatur vermischt</term>
+               <term xml:id="mss">Monatsschrift</term>
+            </keywords>
+         </textClass>
+         <textDesc>
+            <channel>manuscript</channel>
+            <constitution type="single"/>
+            <derivation type="original"/>
+            <domain type="private"/>
+            <factuality type="fact"/>
+            <interaction type="partial"/>
+            <preparedness type="prepared"/>
+            <purpose type="inform"/>
+         </textDesc>
+         <particDesc>
+            <listPerson>
+               <!-- Sender und Adressat -->
+               <person role="sender" xml:id="Gen">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/118538489"/>
+                     <forename>Friedrich von</forename>
+                     <surname>Gentz</surname>
+                  </persName>
+               </person>
+               <person role="receiver" xml:id="KAB">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/118824775"/>
+                     <forename>Carl August</forename>
+                     <surname>Böttiger</surname>
+                  </persName>
+               </person>
+               <!-- erwähnte Personen -->
+               <person role="named" xml:id="Gil">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/118539337"/>
+                     <forename>David</forename>
+                     <surname>Gilly</surname>
+                  </persName>
+               </person>
+               <person role="named" xml:id="JSt">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/124156126"/>
+                     <forename>James</forename>
+                     <surname>Stuart</surname>
+                  </persName>
+               </person>
+               <person role="named" xml:id="FVW">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/119049546"/>
+                     <forename>Friedrich</forename>
+                     <surname>Vieweg</surname>
+                  </persName>
+               </person>
+            </listPerson>
+         </particDesc>
+         <settingDesc>
+            <listPlace>
+               <!-- Start- und Zielort -->
+               <place type="sender" xml:id="plBe">
+                  <country>
+                     <ref target="http://d-nb.info/gnd/4047194-9"/>
+                     <placeName>Preußen</placeName>
+                  </country>
+                  <settlement>
+                     <ref target="http://d-nb.info/gnd/4005728-8"/>
+                     <placeName>Berlin</placeName>
+                  </settlement>
+               </place>
+               <place type="receiver" xml:id="plWe">
+                  <country>
+                     <ref target="http://d-nb.info/gnd/4051194-7"/>
+                     <placeName>Sachsen-Weimar-Eisenach</placeName>
+                  </country>
+                  <settlement>
+                     <ref target="http://d-nb.info/gnd/4065105-8"/>
+                     <placeName>Weimar</placeName>
+                  </settlement>
+               </place>
+               <!-- erwähnte Orte -->
+               <place type="named" xml:id="plLp">
+                  <country>
+                     <ref target="http://d-nb.info/gnd/4051176-5"/>
+                     <placeName>Sachsen</placeName>
+                  </country>
+                  <settlement>
+                     <ref target="http://d-nb.info/gnd/4035206-7"/>
+                     <placeName>Leipzig</placeName>
+                  </settlement>
+               </place>
+            </listPlace>
+         </settingDesc>
+      </profileDesc>
+      <revisionDesc>
+         <change xml:id="init" when-iso="2018-02-18" who="#edAG">Erstauszeichnung und Normierung des Dokumentes im Rahmen der Masterarbeit der Matrikelnummer 5584124</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <opener>
+            <dateline rend="right"><rs type="place" ref="#plBe">Berlin</rs> den <date when-iso="1796-07-02">2<span rend="sup">ten</span> July 1796</date>.</dateline>
+         </opener>
+         <div n="1" corresp="#bezbt">
+            <p>
+               Ich bin Ihnen den Dank für die gütige Uebersendung des <rs type="place" ref="#plWe">Weimar</rs>schen 
+               <ref target="#r1793-1">Catalogs</ref> recht lange schuldig geblieben. Mannichfaltige und zum Theil lästige Geschäfte, 
+               das Arrangement <del rend="stroked">in</del> einer ländlichen Wohnung in einem von 
+               <rs type="person" ref="#Gil">meinem Schwiegervater</rs> ganz neu erbauten Hause, vor allem aber ein 
+               sechswöchentliches dreitägiges Fieber, das noch jetzt, nachdem es mich schrecklich abgemattet hat, alle Tage mit 
+               einer furchtbaren Wiederkehr droht - diese Umstände haben mich eine Zeitlang von allen mir werthen Beschäftigungen 
+               zurückgehalten.
+            </p>
+         </div>
+         <div n="2" corresp="#vkab">
+            <p>
+               Daß mir der weimarsche Vorrath keine <emph rend="underlined">große</emph> Hülfe leisten wird, so viel habe ich nun 
+               wohl bei einer flüchtigen Durchsicht des Catalogs schon gesehen. Hier ist aber auch wenig schon von Wichtigkeit. Und 
+               auf jeden Fall bin ich Ihnen für Ihre bereitwillige Güte, und für die schmeichelhaften Aeußerungen, womit Sie den 
+               <del rend="stroked">xxx</del> mir geleisteten Dienst begleiteten, unendlich verbunden.
+            </p>
+         </div>
+         <div n="3" corresp="#budcff">
+            <p>
+               Ich nehme mir die Freiheit, Ihnen hier eine kleine Arbeit zu überschicken, die Sie vielleicht <pb/> auf eine Stunde 
+               unterhalten kan. Ich denke bald mit etwas größerm hervorzutreten, zumal, da ich diesen Sommer die angenehme 
+               Perspective einer größern Muße und Ruhe, als mir seit sehr langer Zeit zu Theile geworden ist, vor mir habe. Wenn 
+               mir alles nach Wunsche geht, so hoffe ich von meiner Geschichte der Revolution, 
+               <emph rend="underlined">fürs erste</emph>, aber nur in Form eines chronologischen Abrisses, in welchem das 
+               Raisonnement <emph rend="underlined">durchaus</emph> von den Faktis getrennt ist, noch in diesem Jahre 2 Bände zu 
+               liefern. Erschrecken Sie nicht über einen Plan, der in mehrern Bänden doch nur eine 
+               <emph rend="underlined">vorläufige</emph> Arbeit liefern soll. Ich werde mich, wenn ich mehr Zeit habe, hierüber 
+               ausführlicher erklären, und Ihr guter Rath wird mir dereinst äußerst willkommen seyn.
+            </p>
+         </div>
+         <div n="4" corresp="#vkab">
+            <p>
+               Vielleicht kan ich es so einrichten, daß ich im künftigen Frühjahr eine Reise nach 
+               <rs type="place" ref="#plLp">Leypzig</rs> mache; als dann hoffe ich, Ihre persönliche Bekannt<pb/>schaft nicht zu 
+               verfehlen, zumal, da ich <del rend="stroked">gewiß</del> alsdann gewiß von <rs type="place" ref="#plLp">Leipzig</rs> 
+               noch weitre Excursionen vornehmen würde, wobey dann <rs type="place" ref="#plWe">Weimar</rs>, wie sich von selbst 
+               versteht, ein Haupt-Augenmerk seyn würde.
+            </p>
+         </div>
+         <div n="5" corresp="#lvm">
+            <p>
+               Können Sie mir nicht eine <emph rend="underlined">sichre</emph> Nachricht darüber geben, ob das dortige 
+               Industrie-Comtoir an einer Uebersetzung von <rs type="person" ref="#JSt">Stuart</rs>'s 
+               <rs type="citation" ref="#p1793-1">Antiquities of Athens</rs>, oder an einem Auszuge aus diesem Werke arbeiten läßt. 
+               Ein Mann, der sich in jeder Rücksicht zu einem solchen Unternehmen qualifizirt, ging seit langer Zeit damit um, hat 
+               schon große Fortschritte darin gemacht, und auch bereits mit einem hiesigen Buchhändler eine Verabredung darüber 
+               getroffen, als er vor einigen Wochen durch einen andern Buchhändler erfuhr, daß in 
+               <rs type="place" ref="#plWe">Weimar</rs> an eben diesem Werke gearbeitet werde. Es interessirt mich daher sehr, 
+               hierüber eine Gewißheit zu erlangen, die ich meinem Freunde mittheilen könnte, um ihn entweder, wenn es ein falsches 
+               Gerücht war, zu beruhigen, oder, <pb/> wenn eine solche Concurrenz wirklich Statt findet, in den Stand zu setzen, 
+               noch zur rechten Zeit abzubrechen.
+            </p>
+         </div>
+         <closer>
+            <salute rend="right">Ihren ganz gehorsamster</salute>
+            <signed rend="right">Gentz.</signed>
+         </closer>
+         <postscript corresp="#mss">
+            <p>
+               Alles was von Manuscripten zur <ref target="#r1793-2">ehmaligen</ref> 
+               <rs type="citation" ref="#e1793-1">Neuen Deutschen Monats-Schrift</rs> an mich gelangt ist, befindet sich in 
+               <rs type="person" ref="#FVW">Vieweg</rs>s Händen. Wenn Sie also noch etwas zurückzufordern haben, so muß ich bitten, 
+               Sich lediglich an ihn zu wenden.
+            </p>
+         </postscript>
+      </body>
+      <note resp="#edAG" xml:id="r1793-1">Vgl. den <rs type="citation" ref="#c1793-1">Brief vom 16. Januar 1796</rs></note>
+      <note resp="#edAG" xml:id="r1793-2">Die Redaktion Gentz' der Neuen Deutschen Monatsschrift endete 1795, vgl. den <rs type="citation" ref="#c1793-2">Brief vom 19. November 1795</rs> an Friedrich Vieweg</note>
+   </text>
+</TEI>

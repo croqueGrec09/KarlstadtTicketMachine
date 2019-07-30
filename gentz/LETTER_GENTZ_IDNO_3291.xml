@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader type="text">
+      <fileDesc xml:id="LETTER_GENTZ_3291">
+         <titleStmt>
+            <title>Friedrich von Gentz an Karl Gustav von Brinckmann, 3. Oktober 1792</title>
+            <editor xml:id="edAG">Andreas Gálffy</editor>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <name>Forschungsstelle "Universitätssammlung Friedrich von Gentz"</name>
+               <link target="http://gentz-digital.ub.uni-koeln.de http://www.ub.uni-koeln.de/cdm/singleitem/collection/gentz/id/3290/"/>
+            </publisher>
+            <pubPlace>Cologne</pubPlace>
+            <idno type="Gentz-Edition-Number" n="3291"/>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <country>Sweden</country>
+                  <settlement>Trolle-Ljungby</settlement>
+                  <institution>Archiv des Grafen Wachtmeister</institution>
+                  <repository>Nachlaß Brinckmann, Ausländ. Briefwechsel, Gentz an Brinckmann</repository>
+                  <idno>G 3</idno>
+               </msIdentifier>
+               <msContents>
+                  <summary>
+                     Ein Ausdruck auf Englisch bereitet Gentz Kopfzerbrechen. Aber er rechnet auch auf Brinckmanns Hilfe nicht, um 
+                     die er bittet. Der Satz "Cedern-Sand" steht ohne Zusammenhang da.
+                  </summary>
+               </msContents>
+            </msDesc>
+            <listBibl type="alludedWorks">
+               <bibl xml:id="a3291-1" corresp="#LETTER_GENTZ_NNNN">ein grünes Buch ohne genannten Titel</bibl>
+            </listBibl>
+            <listBibl type="defExpr">
+               <biblStruct xml:id="e3291-1" corresp="GBk-0029">
+                  <monogr>
+                     <title>The New English Theatre: Containing the Most Valuable Plays which Have Been Acted on the London Stage</title>
+                     <imprint>
+                        <pubPlace>London</pubPlace>
+                        <publisher>J. Rivington</publisher>
+                        <date>1776-1785</date>
+                     </imprint>
+                  </monogr>
+               <ptr target="https://books.google.de/books?id=x_yeAQAACAAJ"/></biblStruct>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Masterarbeit zu Matrikelnummer 5584124</p>
+         </projectDesc>
+      </encodingDesc>
+      <profileDesc>
+         <creation>
+            <date when-iso="1792-10-03">3. Oktober 1792</date>
+         </creation>
+        <langUsage>
+           <language ident="d">deutsch</language>
+        </langUsage>
+         <textClass>
+            <keywords scheme="internal"><!-- internal: innerhalb des besagten Briefs -->
+               <term>Billet</term>
+               <term>englisches Theater</term>
+               <term>Cedern-Sand</term>
+            </keywords>
+            <keywords scheme="categorisation"><!-- Sinnabschnittseinteilung - relevant für den Fahrkartenautomaten! -->
+               <term xml:id="lvm">Literatur vermischt</term>
+            </keywords>
+         </textClass>
+         <textDesc>
+            <channel>manuscript</channel>
+            <constitution type="single"/>
+            <derivation type="original"/>
+            <domain type="private"/>
+            <factuality type="fact"/>
+            <interaction type="partial"/>
+            <preparedness type="unprepared"/>
+            <purpose type="inform"/>
+         </textDesc>
+         <particDesc>
+            <listPerson>
+               <!-- Sender und Adressat -->
+               <person role="sender" xml:id="Gen">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/118538489"/>
+                     <forename>Friedrich von</forename>
+                     <surname>Gentz</surname>
+                  </persName>
+               </person>
+               <person role="receiver" xml:id="KGvB">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/116519770"/>
+                     <forename>Carl Gustav von</forename>
+                     <surname>Brinckmann</surname>
+                  </persName>
+               </person>
+               <!-- erwähnte Personen -->
+            </listPerson>
+         </particDesc>
+         <settingDesc>
+            <listPlace>
+               <!-- Start- und Zielort -->
+               <place type="sender" xml:id="plBe">
+                  <country>
+                     <ref target="http://d-nb.info/gnd/4047194-9"/>
+                     <placeName>Preußen</placeName>
+                  </country>
+                  <settlement>
+                     <ref target="http://d-nb.info/gnd/4005728-8"/>
+                     <placeName>Berlin</placeName>
+                  </settlement>
+               </place>
+               <!-- erwähnte Orte -->
+            </listPlace>
+         </settingDesc>
+      </profileDesc>
+      <revisionDesc>
+         <change xml:id="init" when-iso="2018-02-07" who="#edAG">Erstauszeichnung und Normierung des Dokumentes im Rahmen der Masterarbeit der Matrikelnummer 5584124</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>     
+      <body>
+         <opener resp="#KGvB">
+            <dateline rend="right">den <date when-iso="1792-10-03">3. Octbr 1792</date>.</dateline>
+         </opener>
+         <div n="1" corresp="#bibl">
+            <p>
+               Weil Sie doch vieles wissen, was auch nicht im <rs type="citation" ref="#a3291-1">grünen Buch</rs> steht, 
+               <rs type="citation" ref="#e3291-1">das Englische Theater</rs> besitzen, so können Sie mir vielleicht sagen, was der 
+               (satyrische) Ausdruck,
+            </p>
+            <lg>
+               <l><span xml:lang="eng"><emph rend="underlined">John Doe</emph> is to become security for <emph rend="underlined">Richard Roe</emph></span></l>
+            </lg>
+            <p>
+               bedeutete. Es ist von nichts als Bankerutt die Rede. Dies möchte ich <emph rend="underlined">sehr gern</emph> wissen. 
+               Ich vermuthe aber im Grunde nicht, daß Sie mir werden helfen können. Denn dies sieht mir gerade so aus, als ob es 
+               <emph rend="underlined">Niemand</emph> wissen würde
+            </p>
+         </div>
+         <closer>
+            <signed rend="right">Gentz</signed>
+         </closer>
+         <postscript corresp="#lvm">
+            <lg>
+               <l><emph rend="underlined">Cedern-Sand !!</emph></l>
+            </lg>
+         </postscript>
+      </body>
+   </text>
+</TEI>

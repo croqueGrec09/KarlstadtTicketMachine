@@ -1,0 +1,246 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc xml:id="LETTER_GENTZ_1653">
+         <titleStmt>
+            <title>Friedrich von Gentz an König Friedrich Wilhelm III von Preußen, 15. Oktober 1797</title>
+            <editor xml:id="edAG">Andreas Gálffy</editor>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <name>Forschungsstelle "Universitätssammlung Friedrich von Gentz"</name>
+               <link target="http://gentz-digital.ub.uni-koeln.de http://www.ub.uni-koeln.de/cdm/singleitem/collection/gentz/id/1652/"/>
+            </publisher>
+            <pubPlace>Cologne</pubPlace>
+            <idno type="Gentz-Edition-Number" n="1653"/>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <country>United Kingdom</country>
+                  <settlement>London</settlement>
+                  <institution>Public Record Office</institution>
+                  <idno>F. O. 95.6</idno>
+               </msIdentifier>
+               <msContents>
+                  <summary>
+                     Dieser Bericht handelt von einem Friedensvorschlag und den Rückzug von Truppen hinter die Lech. Es sei 
+                     unbegreiflich, wie ein französischer General Interesse an einem Prinzen finden kann, der an England verkauft 
+                     worden sei. Für Österreich wäre dies eine Anleihe, kein Verkauf - worauf der französische General entgegnete, 
+                     dass Österreich die Zinsen bezahlen würde.
+                  </summary>
+               </msContents>
+            </msDesc>
+            <listBibl type="preprints">
+               <biblStruct>
+                  <monogr>
+                     <author>
+                        <persName>
+                           <ref target="http://d-nb.info/gnd/123959586"/>
+                           <forename>Maurice-Henri</forename>
+                           <surname>Weil</surname>
+                        </persName>
+                     </author>
+                     <title>Un agent inconnu de la coalition. Le Général de Stamford d'après sa correspondance inédite (1793-1806)</title>
+                     <imprint>
+                        <pubPlace>Paris</pubPlace>
+                        <date>1923</date>
+                     </imprint>
+                     <biblScope unit="page" from="382" to="383">
+                        Nr. CXII
+                     </biblScope>
+                  </monogr>
+               </biblStruct>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Masterarbeit zu Matrikelnummer 5584124</p>
+         </projectDesc>
+      </encodingDesc>
+      <profileDesc>
+         <creation>
+            <date when-iso="1800-10-15">15. Oktober 1800</date>
+         </creation>
+        <langUsage>
+           <language ident="f">französisch</language>
+        </langUsage>
+         <textClass>
+            <keywords scheme="internal"><!-- internal: innerhalb des besagten Briefs -->
+               <term>Brief</term>
+               <term>Frieden</term>
+               <term>Verhandlungen</term>
+            </keywords>
+            <keywords scheme="categorisation"><!-- Sinnabschnittseinteilung - relevant für den Fahrkartenautomaten! -->
+               <term xml:id="fvlv">Frieden von Lunéville</term>
+            </keywords>
+         </textClass>
+         <textDesc>
+            <channel>manuscript</channel>
+            <constitution type="single"/>
+            <derivation type="original"/>
+            <domain type="private"/>
+            <factuality type="fact"/>
+            <interaction type="partial"/>
+            <preparedness type="prepared"/>
+            <purpose type="inform"/>
+         </textDesc>
+         <particDesc>
+            <listPerson>
+               <!-- Sender und Adressat -->
+               <person role="sender" xml:id="Gen">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/118538489"/>
+                     <forename>Friedrich von</forename>
+                     <surname>Gentz</surname>
+                  </persName>
+               </person>
+               <person role="receiver" xml:id="KFWIII">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/118535986"/>
+                     <forename>Friedrich Wilhelm III.</forename>
+                     <surname>von Preußen</surname>
+                     <roleName type="office">König</roleName>
+                  </persName>
+               </person>
+               <!-- erwähnte Personen -->
+               <person role="named" xml:id="CJdL">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/1017569665"/>
+                     <forename>Camille Joseph</forename>
+                     <surname>Lamberti</surname>
+                  </persName>
+               </person>
+               <person role="named" xml:id="JVMM">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/118784811"/>
+                     <forename>Jean Victor Marie</forename>
+                     <surname>Moreau</surname>
+                  </persName>
+               </person>
+               <person role="named" xml:id="VCAFdL">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/1058716204"/>
+                     <forename>Victor-Claude-Alexandre Fanneau de</forename>
+                     <surname>Lahorie</surname>
+                  </persName>
+               </person>
+               <person role="named" xml:id="KvBMJI">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/118579428"/>
+                     <forename>Maximilian Joseph I.</forename>
+                     <surname/>
+                     <roleName type="office">Kurfürst von Bayern und der Pfalz</roleName>
+                  </persName>
+               </person>
+            </listPerson>
+         </particDesc>
+         <settingDesc>
+            <listPlace>
+               <!-- Start- und Zielort -->
+               <place type="sender" xml:id="plBe">
+                  <country>
+                     <ref target="http://d-nb.info/gnd/4047194-9"/>
+                     <placeName>Preußen</placeName>
+                  </country>
+                  <settlement>
+                     <ref target="http://d-nb.info/gnd/4005728-8"/>
+                     <placeName>Berlin</placeName>
+                  </settlement>
+               </place>
+               <!-- erwähnte Orte -->
+               <place type="named" xml:id="plEn">
+                  <country>
+                     <ref target="http://d-nb.info/gnd/4022153-2"/>
+                     <placeName>England</placeName>
+                  </country>
+               </place>
+               <place type="named" xml:id="plOe">
+                  <country>
+                     <ref target="http://d-nb.info/gnd/4075601-4"/>
+                     <placeName>Erzherzogtum Österreich</placeName>  
+                  </country>
+               </place>
+               <place type="named" xml:id="plBy">
+                  <country>
+                     <ref target="http://d-nb.info/gnd/4005044-0"/>
+                     <placeName>Bayern</placeName>
+                  </country>
+               </place>
+               <place type="named" xml:id="plLe">
+                  <country>
+                     <ref target="http://d-nb.info/gnd/4005044-0"/>
+                     <placeName>Bayern</placeName>
+                  </country>
+                  <geogName type="river">
+                     <ref target="http://d-nb.info/gnd/4034953-6"/>
+                     <placeName>Lech</placeName>
+                  </geogName>
+               </place>
+               <place type="named" xml:id="plInn">
+                  <country>
+                     <ref target="http://d-nb.info/gnd/4075601-4"/>
+                     <placeName>Erzherzogtum Österreich</placeName>  
+                  </country>
+                  <geogName type="river">
+                     <ref target="http://d-nb.info/gnd/4027046-4"/>
+                     <placeName>Inn</placeName>
+                  </geogName>
+               </place>
+               <place type="named" xml:id="plIs">
+                  <country>
+                     <ref target="http://d-nb.info/gnd/4005044-0"/>
+                     <placeName>Bayern</placeName>
+                  </country>
+                  <geogName type="river">
+                     <ref target="http://d-nb.info/gnd/4027707-0"/>
+                     <placeName>Isar</placeName>
+                  </geogName>
+               </place>
+            </listPlace>
+         </settingDesc>
+      </profileDesc>
+      <revisionDesc>
+         <change xml:id="init" when-iso="2018-03-07" who="#edAG">Erstauszeichnung und Normierung des Dokumentes im Rahmen der Masterarbeit der Matrikelnummer 5584124</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <opener>
+            <dateline rend="right"><rs type="place" ref="#plBe">Berlin</rs>, <date when-iso="1800-10-15">15 octobre 1800</date>.</dateline>
+         </opener>
+         <div n="1" corresp="#fvlv">
+            <p>
+               Des circonstances particulières, que je viens d'apprendre, fournissent des graves justifications de ce que j'ai osé 
+               dire dans mon humble rapport d'aujourd'hui sur le <rs type="person" ref="#CJdL">comte de Lamberti</rs> et le danger 
+               de lui avoir confié la négociation de la paix. Le <rs type="person" ref="#JVMM">général Moreau</rs> avait fait offrir 
+               de retirer son armée hors de <rs type="place" ref="#plBy">la Bavière</rs>, derrière 
+               <rs type="place" ref="#plLe">le Lech</rs>, si l'armée autrichienne serait également retirée dans les Etats 
+               héréditaires. Cette proposition fut rejetée par le <rs type="person" ref="#CJdL">comte de Lamberti</rs>. 
+               <rs type="person" ref="#JVMM">Le général en chef français</rs> fit faire la seconde: Que le district entre 
+               <rs type="place" ref="#plInn">l'Inn</rs> et <rs type="place" ref="#plIs">l'Isar</rs> serait abandonné par les deux 
+               armées belligérantes et occupé par les Bavaro-Palatins, mais eut même sort. 
+               <rs type="person" ref="#CJdL">Le comte de Lamberti</rs> se permettait de dire au 
+               <rs type="person" ref="#VCAFdL">général français Lahorie</rs> qu'il ne comprenait pas l'intérèt que le général 
+               français prenait à un prince soldé et vendu à <rs type="place" ref="#plEn">l'Angleterre</rs>. A quoi le général 
+               français répondit avec indignation: Que, lorsqu'une grande Puissance, comme 
+               <rs type="place" ref="#plOe">l'Autriche</rs>, acceptait les subsides de 
+               <rs type="place" ref="#plEn">l'Angleterre</rs>, on pouvait bien en passer à 
+               <rs type="person" ref="#KvBMJI">l'Electeur Palatin</rs>. Et le <rs type="person" ref="#CJdL">comte de Lamberti</rs> 
+               voulant faire entendre que, pour <rs type="place" ref="#plOe">l'Autriche</rs>, ce n'étaient pas des subsides, mais 
+               des emprunts, <rs type="person" ref="#JVMM">le général français</rs> répliqua vivement: 
+               <quote corresp="#JVMM">
+                  Oui, mais dont <rs type="place" ref="#plOe">l'Autriche</rs> paye les intérêts en bonds et enjambées.
+               </quote>
+            </p>
+         </div>
+         <closer>
+            <signed rend="right">Gentz.</signed>
+         </closer>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,264 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc xml:id="LETTER_GENTZ_0943">
+         <titleStmt>
+            <title>Friedrich von Gentz an Karl Gustav von Brinckmann, 13. Februar 1802</title>
+            <editor xml:id="edAG">Andreas Gálffy</editor>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <name>Forschungsstelle "Universitätssammlung Friedrich von Gentz"</name>
+               <link target="http://gentz-digital.ub.uni-koeln.de http://www.ub.uni-koeln.de/cdm/singleitem/collection/gentz/id/942/"/>
+            </publisher>
+            <pubPlace>Cologne</pubPlace>
+            <idno type="Gentz-Edition-Number" n="0943"/>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <country>Sweden</country>
+                  <settlement>Trolle-Ljungby</settlement>
+                  <institution>Archiv des Grafen Wachtmeister</institution>
+                  <repository>Nachlaß Brinckmann, Ausländ. Briefwechsel, Gentz an von Brinckmann</repository>
+                  <idno>G 4</idno>
+               </msIdentifier>
+               <msContents>
+                  <summary>
+                     In Gentz' Leben ging zu viel gegenrevolutionäre Bewegung vor; nichtsdestotrotz ist sie unsterblich. Brinckmann 
+                     möchte seine Ansicht nicht auf eine von Gentz anwenden. Gentz schickt die Gedichte zurück, die viel Rührung bei 
+                     ihm ausgelöst haben; der Meister aber wird nach wie vor von Gentz' Frau gelesen. Dann werden Umstände eines 
+                     nächsten Treffens besprochen, noch immer soll die Gräfin Voss angenähert werden.
+                  </summary>
+               </msContents>
+            </msDesc>
+            <listBibl type="preprints">
+               <biblStruct>
+                  <monogr>
+                     <editor>
+                        <persName>
+                           <ref target="http://d-nb.info/gnd/130953075"/>
+                           <forename>Friedrich Carl</forename>
+                           <surname>Wittichen</surname>
+                        </persName>
+                        <persName>
+                           <ref /> <!-- kein GND-Eintrag -->
+                           <forename>Ernst</forename>
+                           <surname>Salzer</surname>
+                        </persName>
+                     </editor>
+                     <title>Briefe von und an Friedrich von Gentz, 4 Bde.</title>
+                     <imprint>
+                        <publisher>Oldenbourg</publisher>
+                        <pubPlace>München, Berlin</pubPlace>
+                        <date>1909-1913</date>
+                     </imprint>
+                     <biblScope unit="volume" n="2">
+                        II
+                     </biblScope>
+                     <biblScope unit="page" from="87" to="87">
+                        Nr. 104
+                     </biblScope>
+                  </monogr>
+               </biblStruct>
+            </listBibl>
+            <listBibl type="alludedWorks">
+               <bibl xml:id="a0943-1" corresp="#LETTER_GENTZ_NNNN">nicht näher benanntes Werk von Somerville</bibl>
+            </listBibl>
+            <listBibl type="defExpr">
+               <biblStruct xml:id="e0943-1" corresp="Gtb-0003">
+                  <monogr>
+                     <author>
+                        <persName>
+                           <ref target="https://d-nb.info/gnd/118540238"/>
+                           <forename>Johann Wolfgang von</forename>
+                           <surname>Goethe</surname>
+                        </persName>
+                     </author>
+                     <title>Wilhelm Meisters Lehrjahre</title>
+                     <imprint>
+                        <pubPlace>Berlin</pubPlace>
+                        <publisher>Johann Friedrich Unger</publisher>
+                        <date>1795/96</date>
+                     </imprint>
+                  </monogr>
+                  <ptr target="http://gutenberg.spiegel.de/buch/wilhelm-meisters-lehrjahre-3669/1"/>
+               </biblStruct>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Masterarbeit zu Matrikelnummer 5584124</p>
+         </projectDesc>
+      </encodingDesc>
+      <profileDesc>
+         <creation>
+            <date when-iso="1802-02-13">13. Februar 1802</date>
+         </creation>
+        <langUsage>
+           <language ident="d">deutsch</language>
+        </langUsage>
+         <textClass>
+            <keywords scheme="internal"><!-- internal: innerhalb des besagten Briefs -->
+               <term>Billet</term>
+               <term>Treffen</term>
+               <term>Meister</term>
+               <term>Gedichte</term>
+            </keywords>
+            <keywords scheme="categorisation"><!-- Sinnabschnittseinteilung - relevant für den Fahrkartenautomaten! -->
+               <term xml:id="frv">Französische Revolution</term>
+               <term xml:id="vkgvb">Verhältnis Karl Gustav von Brinckmann</term>
+               <term xml:id="mstr">Meister</term>
+               <term xml:id="bezbt">Beziehungen zu Berlin - Beamtentätigkeit</term>
+            </keywords>
+         </textClass>
+         <textDesc>
+            <channel>manuscript</channel>
+            <constitution type="single"/>
+            <derivation type="original"/>
+            <domain type="private"/>
+            <factuality type="fact"/>
+            <interaction type="partial"/>
+            <preparedness type="unprepared"/>
+            <purpose type="inform"/>
+         </textDesc>
+         <particDesc>
+            <listPerson>
+               <!-- Sender und Adressat -->
+               <person role="sender" xml:id="Gen">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/118538489"/>
+                     <forename>Friedrich von</forename>
+                     <surname>Gentz</surname>
+                  </persName>
+               </person>
+               <person role="receiver" xml:id="KGvB">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/116519770"/>
+                     <forename>Carl Gustav von</forename>
+                     <surname>Brinckmann</surname>
+                  </persName>
+               </person>
+               <!-- erwähnte Personen -->
+               <person role="named" xml:id="JPvS">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/118752413"/>
+                     <forename>Johann Philipp von</forename>
+                     <surname>Stadion</surname>
+                  </persName>
+               </person>
+               <person role="named" xml:id="Min">
+                  <persName>
+                     <ref/>
+                     <forename>Wilhelmine</forename>
+                     <surname>Gilly</surname>
+                  </persName>
+               </person>
+               <person role="named" xml:id="RDCh">
+                  <persName>
+                     <ref />
+                     <forename>Rozalia</forename>
+                     <surname>Drya-Chlapowska</surname>
+                  </persName>
+               </person>
+               <person role="named" xml:id="WJMvRr">
+                  <persName>
+                     <ref />
+                     <forename>Wilhelm Jakob Moritz von</forename>
+                     <surname>Redern</surname>
+                  </persName>
+               </person>
+               <person role="named" xml:id="LvV">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/117746185"/>
+                     <forename>Luise von</forename>
+                     <surname>Voss</surname>
+                  </persName>
+               </person>
+               <person role="named" xml:id="OvV">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/103098291"/>
+                     <forename>Otto</forename>
+                     <surname>von Voß</surname>
+                  </persName>
+               </person>
+            </listPerson>
+         </particDesc>
+         <settingDesc>
+            <listPlace>
+               <!-- Start- und Zielort -->
+               <place type="sender" xml:id="plBe">
+                  <country>
+                     <ref target="http://d-nb.info/gnd/4047194-9"/>
+                     <placeName>Preußen</placeName>
+                  </country>
+                  <settlement>
+                     <ref target="http://d-nb.info/gnd/4005728-8"/>
+                     <placeName>Berlin</placeName>
+                  </settlement>
+               </place>
+               <!-- erwähnte Orte -->
+            </listPlace>
+         </settingDesc>
+      </profileDesc>
+      <revisionDesc>
+         <change xml:id="init" when-iso="2018-03-10" who="#edAG">Erstauszeichnung und Normierung des Dokumentes im Rahmen der Masterarbeit der Matrikelnummer 5584124</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div n="1" corresp="#frv">
+            <p>
+               Sie scheinen die Haupt-Ansicht der politischen Revoluzionen wovon Sie öfters mit mir gesprochen haben, auf die 
+               meinige nicht übertragen zu wollen. Daß die Französische Revolution <emph rend="underlined">wirklich geschehen</emph> 
+               ist, das war Ihnen, und mit Recht, immer das wichtigste daran. So sollte es auch mit der meinigen seyn. "Sie ist 
+               <emph rend="underlined">unsterblich</emph>: denn - <emph rend="underlined">sie ist</emph>." Nichts auf Erden kan sie 
+               ungeschehen machen. Ueberdies ging sie in einer Tiefe meines Wesens vor - ich spreche jetzt im Ernst davon - wohin 
+               kein <rs type="person" ref="#JPvS">Stadion</rs>, und keine Redoute reicht. Es war freilich nur zu viel 
+               contre-revoluzionäre Bewegung in den letzten vier Wochen meines Lebens: aber die Revoluzion besteht, und nichts kan 
+               sie wieder vertilgen.
+            </p>
+         </div>
+         <div n="2" corresp="#vkgvb">
+            <p>
+               Ihrer Gedichte werde ich mich ewig mit Dank und Rührung erinnern; sie haben sehr wohlthätig auf mich gewirkt, und 
+               bald, und oft kehre ich zu ihnen zurück.
+            </p>
+         </div>
+         <div n="3" corresp="#mstr">
+            <p>
+               Den <rs type="citation" ref="#e0943-1"><emph rend="underlined">Meister</emph></rs> hält 
+               <rs type="person" ref="#Min">meine Frau</rs> so lange auf. Sie sollen ihn unverzüglich zurück haben.
+            </p>
+         </div>
+         <div n="4" corresp="#vkgvb">
+            <p>
+               Ich bin diese Woche zweimal bei Ihnen gewesen; es hieß aber, Sie wären nicht zu Hause. Nachher erfuhr ich von 
+               <rs type="person" ref="#RDCh">Frau von Engeström</rs>, daß Sie krank <pb/> waren. Dieselbe bot mir gestern an, heute 
+               bei ihr zu essen; ich war aber schon - und zwar bei dem <rs type="person" ref="#WJMvRr">Graf Redern</rs> !! - 
+               engagirt. Schreiben Sie mir doch, ob Sie etwa <date when-iso="1802-02-14">morgen Abend</date> Gesellschaft haben, 
+               damit ich mich, als ein für allemal gebetner, einfinden kan. Ist dies nicht, so könnten wir, wenn Sie anders wohl 
+               genug sind, allenfalls einen Versuch machen, uns der <rs type="person" ref="#LvV">Gräfin</rs> zu nähern. Sehen muß 
+               ich Sie morgen, oder auch heute. Ich komme vielleicht um 5 Uhr bei Ihnen heran.
+            </p>
+         </div>
+         <div n="5" corresp="#bezbt">
+            <p>
+               Finks habe ich noch nicht gesehen; ich gehe aber in diesen Tagen hin, weil der Präsident den Wunsch geäußert hat, 
+               mich zu sehen. <rs type="person" ref="#OvV">Der schreckliche Voss</rs> hält mich nur immer zurück.
+            </p>
+            <p>
+               Ich habe Ihnen noch viel zu sagen; aber jetzt reicht die Zeit nicht hin.
+            </p>
+         </div>
+         <closer>
+            <signed rend="right">Gentz</signed>
+            <dateline rend="right">d <date when-iso="1802-02-13">13 Febr 1802</date></dateline>
+         </closer>
+      </body>
+   </text>
+</TEI>

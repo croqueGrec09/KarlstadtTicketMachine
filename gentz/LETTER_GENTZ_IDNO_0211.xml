@@ -1,0 +1,230 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc xml:id="LETTER_GENTZ_0211">
+         <titleStmt>
+            <title>Friedrich von Gentz an Franz von Thugut, 4. März 1799</title>
+            <editor xml:id="edAG">Andreas Gálffy</editor>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <name>Forschungsstelle "Universitätssammlung Friedrich von Gentz"</name>
+               <link target="http://gentz-digital.ub.uni-koeln.de http://www.ub.uni-koeln.de/cdm/singleitem/collection/gentz/id/210/"/>
+            </publisher>
+            <pubPlace>Cologne</pubPlace>
+            <idno type="Gentz-Edition-Number" n="0211"/>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <country>Austria</country>
+                  <settlement>Vienna</settlement>
+                  <institution>Haus-, Hof- und Staatsbibliothek</institution>
+                  <repository>Staatskanzlei, Interiora</repository>
+                  <collection>Karton 78, Fasz.: "Gentz: Kaiser Franz, Thugut, Saurau, Cobenzl Ludwig, 1793-1805"</collection>
+                  <idno>Bl. 3-3v</idno>
+               </msIdentifier>
+               <msContents>
+                  <summary>
+                     Für eine positive Rückmeldung zum Historischen Journal dankt Gentz aufrichtig und er bekundet seine Ehre, die 
+                     ihm durch die Beugtachtung seiner Werke zuteil wurde.
+                  </summary>
+               </msContents>
+            </msDesc>
+            <listBibl type="preprints">
+               <biblStruct>
+                  <monogr>
+                     <editor>
+                        <persName>
+                           <ref target="http://d-nb.info/gnd/102256691"/>
+                           <forename>Clemens von</forename>
+                           <surname>Klinkowström</surname>
+                        </persName>
+                     </editor>
+                     <title>Aus der alten Registratur der Staatskanzlei. Briefe politischen Inhalts von und an Friedrich von Gentz aus den Jahren 1799-1827</title>
+                     <imprint>
+                        <pubPlace>Wien</pubPlace>
+                        <date>1870</date>
+                     </imprint>
+                     <biblScope unit="page" from="1" to="2">
+                        Nr. I
+                     </biblScope>
+                  </monogr>
+               </biblStruct>
+            </listBibl>
+            <listBibl type="defRep">
+               <biblStruct xml:id="p0211-1" corresp="GBk-0042">
+                  <monogr>
+                     <editor>
+                        <persName>
+                           <ref target="http://d-nb.info/gnd/118538489"/>
+                           <forename>Friedrich von</forename>
+                           <surname>Gentz</surname>
+                        </persName>
+                     </editor>
+                     <title>Historisches Journal</title>
+                     <imprint>
+                        <publisher>Friedrich Vieweg dem ältern</publisher>
+                        <pubPlace>Berlin</pubPlace>
+                        <date>1799</date>
+                     </imprint>
+                  </monogr>
+                  <ptr target="https://books.google.de/books?id=YU5BAAAAcAAJ"/>
+               </biblStruct>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Masterarbeit zu Matrikelnummer 5584124</p>
+         </projectDesc>
+      </encodingDesc>
+      <profileDesc>
+         <creation>
+            <date when-iso="1799-03-04">4. März 1799</date>
+         </creation>
+        <langUsage>
+           <language ident="d">deutsch</language>
+        </langUsage>
+         <textClass>
+            <keywords scheme="internal"><!-- internal: innerhalb des besagten Briefs -->
+               <term>Brief</term>
+               <term>Journal historique</term>
+            </keywords>
+            <keywords scheme="categorisation"><!-- Sinnabschnittseinteilung - relevant für den Fahrkartenautomaten! -->
+               <term xml:id="jrnh">Historisches Journal</term>
+            </keywords>
+         </textClass>
+         <textDesc>
+            <channel>manuscript</channel>
+            <constitution type="single"/>
+            <derivation type="original"/>
+            <domain type="private"/>
+            <factuality type="fact"/>
+            <interaction type="partial"/>
+            <preparedness type="prepared"/>
+            <purpose type="inform"/>
+         </textDesc>
+         <particDesc>
+            <listPerson>
+               <!-- Sender und Adressat -->
+               <person role="sender" xml:id="Gen">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/118538489"/>
+                     <forename>Friedrich von</forename>
+                     <surname>Gentz</surname>
+                  </persName>
+               </person>
+               <person role="receiver" xml:id="JAFdPvT">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/118622390"/>
+                     <forename>Johann Amadeus Franz de Paula von</forename>
+                     <surname>Thugut</surname>
+                  </persName>
+               </person>
+               <!-- erwähnte Personen -->
+               <person role="named" xml:id="HXV">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/1089499000"/>
+                     <forename>Heinrich XV</forename>
+                     <surname/>
+                     <roleName type="office">Fürst von Reuss-Greiz</roleName>
+                  </persName>
+               </person>
+               <person role="named" xml:id="Fr">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/118534955"/>
+                     <forename>Franz II.</forename>
+                     <surname>Heiliges Römisches Reich</surname>
+                     <roleName type="office">Kaiser</roleName>
+                  </persName>
+               </person>
+            </listPerson>
+         </particDesc>
+         <settingDesc>
+            <listPlace>
+               <!-- Start- und Zielort -->
+               <place type="sender" xml:id="plBe">
+                  <country>
+                     <ref target="http://d-nb.info/gnd/4047194-9"/>
+                     <placeName>Preußen</placeName>
+                  </country>
+                  <settlement>
+                     <ref target="http://d-nb.info/gnd/4005728-8"/>
+                     <placeName>Berlin</placeName>
+                  </settlement>
+               </place>
+               <place type="receiver" xml:id="plWi">
+                  <country>
+                     <ref target="http://d-nb.info/gnd/4075601-4"/>
+                     <placeName>Erzherzogtum Österreich</placeName>
+                  </country>
+                  <settlement>
+                     <ref target="http://d-nb.info/gnd/4066009-6"/>
+                     <placeName>Wien</placeName>
+                  </settlement>
+               </place>
+               <!-- erwähnte Orte -->
+               <place type="named" xml:id="plEu">
+                  <geogName type="continent">
+                     <ref target="http://d-nb.info/gnd/4015701-5"/>
+                     <placeName>Europa</placeName>
+                  </geogName>
+               </place>
+            </listPlace>
+         </settingDesc>
+      </profileDesc>
+      <revisionDesc>
+         <change xml:id="init" when-iso="2018-03-03" who="#edAG">Erstauszeichnung und Normierung des Dokumentes im Rahmen der Masterarbeit der Matrikelnummer 5584124</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <opener>
+            <salute rend="left">Hochwürdiger Hochgebohrner Freyherr !</salute>
+            <salute rend="left">Hochgebietender Herr Geheimer Staats- und Conferentz-Minister !</salute>
+            <salute rend="left">Gnädiger Herr !</salute>
+         </opener>
+         <div n="1" corresp="#jrnh">
+            <p>
+               Ewr. Hochfreyherrliche Excellentz auch nur einen Augenblick in den größten Geschäften, die je das Loos eines erhabnen 
+               Staatsmannes waren, zu unterbrechen, dazu konnte mich nur eine unwiderstehliche Veranlaßung auffordern. Die Gnade, 
+               mit welcher Ewr. Excellentz <rs type="citation" ref="#p0211-1">die ersten Hefte einer Zeitschrift</rs>, die 
+               Hochdenselben noch der für die Wünsche aller Gutdenkenden viel zu früh entschlafne 
+               <rs type="person" ref="#HXV">Herr Fürst von Reuss</rs> überreicht hat, aufzunehmen, und die huldreiche Erlaubniß zum 
+               Eingang in die Staaten <rs type="person" ref="#Fr">Seiner Kayserlich Königlichen Majestät</rs>, welche EwrExcellentz 
+               <rs type="citation" ref="#p0211-1">dieser Zeitschrift</rs> zu ertheilen geruht haben, macht es mir zur unerläßlichen 
+               Pflicht, meinen tiefsten, und ehrfurchtsvollsten Dank abzustatten. Unerschütterlich in den geheiligten Grundsätzen, 
+               welche das wankende Fundament der bürgerlichen Ordnung aufrecht halten, werde ich nie meine Feder durch eine Zeile 
+               beflecken, die mich EwrExcellentz hohen Protection <pb/> unwürdig machen könnte. Und dürfte ich gar den 
+               schmeichelhaften, den stolzen Gedanken nähren, daß der erste Staatsmann von <rs type="place" ref="#plEu">Europa</rs>, 
+               daß der große Geist, dessen Weisheit und Festigkeit ich längst und oft im Stillen gehuldigt habe, in einer Stunde der 
+               Ruhe zuweilen einen Blick des Beifalls auf meine unvollkommnen Produkte werfen mögte, so hätte ich eine Belohnung 
+               erreicht, die mich auf jede andre Verzicht leisten, und das Urtheil der übrigen Welt vergessen und verachten lehren 
+               würde.
+            </p>
+            <p>
+               Es ist die tiefste, und zugleich die ungeheucheltste Ehrfurcht, in der ich ersterbe
+            </p>
+         </div>
+         <closer>
+            <salute rend="right">HochWürdiger Hochgebohrner Freiherr !</salute>
+            <salute rend="right">Ewr. Hochfreiherrlichen Excellentz</salute>
+            <salute rend="right">untertänigster treu gehorsamster</salute>
+            <salute rend="right">Knecht</salute>
+            <dateline rend="left"><rs type="place" ref="#plBe">Berlin</rs> den <date when-iso="1799-03-04">4<span rend="sup">ten</span> März 1799</date>.</dateline>
+            <signed rend="right">Gentz.</signed>
+         </closer>
+      </body>
+      <back resp="otherHand">
+         <p>
+            an B. Thugut. Gentz <rs type="place" ref="#plBe">Berlin</rs> d <date when-iso="1799-03-04">4 Martii 1799</date>. Danksagung für die Erlaubnis des Verkehrs 
+            seiner Zeitschrift in den k. k. Staaten.
+         </p>
+      </back>
+      <note xml:id="r0211-1">Seite 4: Von unbekannter Hand</note>
+   </text>
+</TEI>

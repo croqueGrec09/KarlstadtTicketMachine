@@ -1,0 +1,263 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc xml:id="LETTER_GENTZ_1005">
+         <titleStmt>
+            <title>Friedrich von Gentz an Girolamo Lucchesini, 12. September 1800</title>
+            <editor xml:id="edAG">Andreas Gálffy</editor>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <name>Forschungsstelle "Universitätssammlung Friedrich von Gentz"</name>
+               <link target="http://gentz-digital.ub.uni-koeln.de http://www.ub.uni-koeln.de/cdm/singleitem/collection/gentz/id/1004/"/>
+            </publisher>
+            <pubPlace>Cologne</pubPlace>
+            <idno type="Gentz-Edition-Number" n="1005"/>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <country>Germany</country>
+                  <settlement>Berlin</settlement>
+                  <institution>Geheimes Staatsarchiv Preußischer Kulturbesitz</institution>
+                  <repository>I. HA, Rep 92</repository>
+                  <collection>Nachlaß Lucchesini, Nr. 27</collection>
+                  <idno>Bl. 54-55</idno>
+               </msIdentifier>
+               <msContents>
+                  <summary>
+                     Am vorigen Abend, den 11. September 1800, ist Gentz aus Quilitz zurückgekehrt und meldet, dass er noch nicht 
+                     dazu gekommen ist, das Begleitschreiben zum letzten Paket zu lesen. Die Gerüchte eines Friedens haben sich in 
+                     Luft aufgelöst; es ist nicht anzuzweifeln, dass der Krieg weitergehen wird. Über diesen Bruch schweigt die 
+                     französische Regierung. Im letzten Abschnitt wird über ein glückliches Treffen mit Herrn von Pannwitz aus 
+                     Meseritz berichtet.
+                  </summary>
+               </msContents>
+            </msDesc>
+            <listBibl type="letterReferenced">
+               <bibl xml:id="c1005-1" corresp="#LETTER_GENTZ_NNNN">nicht bekannter Brief von Garlike an Friedrich von Gentz</bibl>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Masterarbeit zu Matrikelnummer 5584124</p>
+         </projectDesc>
+      </encodingDesc>
+      <profileDesc>
+         <creation>
+            <date when-iso="1800-09-12">12. September 1800</date>
+         </creation>
+        <langUsage>
+           <language ident="f">französisch</language>
+        </langUsage>
+         <textClass>
+            <keywords scheme="internal"><!-- internal: innerhalb des besagten Briefs -->
+               <term>Brief</term>
+               <term>Quilitz</term>
+               <term>Meseritz</term>
+               <term>Vogelsdorff</term>
+            </keywords>
+            <keywords scheme="categorisation"><!-- Sinnabschnittseinteilung - relevant für den Fahrkartenautomaten! -->
+               <term xml:id="vgl">Verhältnis Girolamo Lucchesini</term>
+               <term xml:id="fvlv">Frieden von Lunéville</term>
+            </keywords>
+         </textClass>
+         <textDesc>
+            <channel>manuscript</channel>
+            <constitution type="single"/>
+            <derivation type="original"/>
+            <domain type="private"/>
+            <factuality type="fact"/>
+            <interaction type="partial"/>
+            <preparedness type="prepared"/>
+            <purpose type="inform"/>
+         </textDesc>
+         <particDesc>
+            <listPerson>
+               <!-- Sender und Adressat -->
+               <person role="sender" xml:id="Gen">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/118538489"/>
+                     <forename>Friedrich von</forename>
+                     <surname>Gentz</surname>
+                  </persName>
+               </person>
+               <person role="receiver" xml:id="GirL">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/118780670"/>
+                     <forename>Girolamo</forename>
+                     <surname>Lucchesini</surname>
+                  </persName>
+               </person>
+               <!-- erwähnte Personen -->
+               <person role="named" xml:id="Glk">
+                  <persName>
+                     <ref />
+                     <forename/>
+                     <surname>Garlike</surname>
+                  </persName>
+               </person>
+               <person role="named" xml:id="KEvO">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/118723049"/>
+                     <forename>Karl</forename>
+                     <surname/>
+                     <roleName type="office">Erzherzog von Österreich</roleName>
+                  </persName>
+               </person>
+               <person role="named" xml:id="PvKr">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/13644783X"/>
+                     <forename>Paul von</forename>
+                     <surname>Kray</surname>
+                  </persName>
+               </person>
+               <person role="named" xml:id="LBon">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/118896156"/>
+                     <forename>Louis</forename>
+                     <surname>Bonaparte</surname>
+                  </persName>
+               </person>
+               <person role="named" xml:id="NBon">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/118586408"/>
+                     <forename>Napoleon I.</forename>
+                     <surname/>
+                     <roleName type="office">Kaiser</roleName>
+                  </persName>
+               </person>
+               <person role="named" xml:id="KWvP">
+                  <persName>
+                     <ref />
+                     <forename>Karl Wilhelm von</forename>
+                     <surname>Pannwitz</surname>
+                  </persName>
+               </person>
+            </listPerson>
+         </particDesc>
+         <settingDesc>
+            <listPlace>
+               <!-- Start- und Zielort -->
+               <place type="sender" xml:id="plBe">
+                  <country>
+                     <ref target="http://d-nb.info/gnd/4047194-9"/>
+                     <placeName>Preußen</placeName>
+                  </country>
+                  <settlement>
+                     <ref target="http://d-nb.info/gnd/4005728-8"/>
+                     <placeName>Berlin</placeName>
+                  </settlement>
+               </place>
+               <!-- erwähnte Orte -->
+               <place type="named" xml:id="plQl">
+                  <country>
+                     <ref target="http://d-nb.info/gnd/4047194-9"/>
+                     <placeName>Preußen</placeName>
+                  </country>
+                  <region>
+                     <ref target="http://d-nb.info/gnd/4310658-4"/>
+                     <placeName>Quilitz</placeName>
+                  </region>
+               </place>
+               <place type="named" xml:id="plGu">
+                  <country>
+                     <ref target="http://d-nb.info/gnd/4047194-9"/>
+                     <placeName>Preußen</placeName>
+                  </country>
+                  <region>
+                     <ref target="http://d-nb.info/gnd/4393530-8"/>
+                     <placeName>Gusow</placeName>  
+                  </region>
+               </place>
+               <place type="named" xml:id="plPo">
+                  <country>
+                     <ref target="http://d-nb.info/gnd/4047194-9"/>
+                     <placeName>Preußen</placeName>
+                  </country>
+                  <region>
+                     <ref target="http://d-nb.info/gnd/4046948-7"/>
+                     <placeName>Potsdam</placeName>  
+                  </region>
+               </place>
+               <place type="named" xml:id="plMs">
+                  <country>
+                     <ref target="http://d-nb.info/gnd/4047194-9"/>
+                     <placeName>Preußen</placeName>
+                  </country>
+                  <region>
+                     <ref target="http://d-nb.info/gnd/4399096-4"/>
+                     <placeName>Kreis Meseritz</placeName>
+                  </region>
+               </place>
+               <place type="named" xml:id="plVg">
+                  <country>
+                     <ref target="http://d-nb.info/gnd/4047194-9"/>
+                     <placeName>Preußen</placeName>
+                  </country>
+                  <settlement>
+                     <ref target="http://d-nb.info/gnd/10010211-6"/>
+                     <placeName>Vogelsdorf (Strausberg)</placeName>
+                  </settlement>
+               </place>
+            </listPlace>
+         </settingDesc>
+      </profileDesc>
+      <revisionDesc>
+         <change xml:id="init" when-iso="2018-03-06" who="#edAG">Erstauszeichnung und Normierung des Dokumentes im Rahmen der Masterarbeit der Matrikelnummer 5584124</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <opener>
+            <salute rend="left">Monsieur le Marquis !</salute>
+         </opener>
+         <div n="1" corresp="#vgl">
+            <p>
+               Je suis revenu de <rs type="place" ref="plQl">Quilitz</rs> hier au soir, et j'ai trouvé deux paquets de gazettes que 
+               Votre Excellence a bien voulu me renvoyer. La lettre qui accompagnoit ces paquets, <del rend="stroked">xxx</del> a 
+               été envoyée à <rs type="place" ref="plQl">Quilitz</rs>, par une faute des domestiques, le jour avant celui de mon 
+               retour. Je n'ai donc pas encore eu le plaisir de la lire.
+            </p>
+         </div>
+         <div n="2" corresp="#efgb">
+            <p>
+               Je ne sais rien de positif sur les affaires publiques, n'ayant encore vu personne de bien instruit. Mais d'après tout 
+               ce que j'ai entendu <date when-iso="1800-09-10">avant-hier</date> à <rs type="place" ref="#plGu">Gusow</rs>, et la 
+               <rs type="citation" ref="#c1005-1">derniere lettre</rs> que j'ai reçue de <rs type="person" ref="#Glk">Garlike</rs>, 
+               il n'est plus douteux que la guerre va recommencer. On fera l'impossible pour remettre 
+               <rs type="person" ref="#KEvO">l'Archiduc</rs> à la tête de l'armée; <rs type="person" ref="#PvKr">Kray</rs> est 
+               ignominieusement renvoyé. - <rs type="person" ref="#LBon">Louis Bonaparte</rs>, <del rend="stroked">xxx</del> le plus 
+               jeune des frères du <rs type="person" ref="#NBon">Consul</rs>, viendra <pb/> à 
+               <rs type="place" ref="#plBe">Berlin</rs> pour assister aux manoeuvres de <rs type="place" ref="#plPo">Potsdam</rs>.
+            </p>
+         </div>
+         <div n="3" corresp="#vgl">
+            <p>
+               Votre Excellence verra par les feuilles ci-jointes que le gouvernement francois garde toujours un profond silence sur 
+               la rupture. J'espère, que par le Courier de <date when-iso="1800-09-15">Lundi</date> je pourrai présenter à Votre 
+               Excellence quelque chose de plus intéressant que ces lignes écrites à la hâte.
+            </p>
+            <p>
+               Par un hazard aussi singulier qu'agréable, j'ai rencontré hier en revenant de 
+               <rs type="place" ref="#plQl">Quilitz</rs>, <rs type="person" ref="#KWvP">Monsieur de Pannwitz</rs> de 
+               <rs type="place" ref="#plMs">Meseritz</rs> au relais de <rs type="place" ref="#plVg">Vogelsdorff</rs>. Il m'a dit que 
+               Votre Excellence ne reviendroit pas avant la fin de ce mois. Je continuerai donc toujours mes petites dépêches, et, 
+               je <pb/> prie Votre Excellence de me conserver ses bonnes graces, en acceptant avec bonté l'hommage du dévouement 
+               aussi profond qu'inviolable avec le quel je suis
+            </p>
+         </div>
+         <closer>
+            <salute rend="right">De Votre Excellence</salute>
+            <salute rend="right">le très humble et</salute>
+            <salute rend="right">très fidèle serviteur</salute>
+            <dateline rend="left"><rs type="place" ref="#plBe">Berlin</rs> <date when-iso="1800-09-12">12 Septembre 1800</date>.</dateline>
+            <signed rend="right">Gentz.</signed>
+         </closer>
+      </body>
+   </text>
+</TEI>

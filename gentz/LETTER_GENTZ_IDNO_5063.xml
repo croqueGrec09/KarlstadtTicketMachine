@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc xml:id="LETTER_GENTZ_5063">
+         <titleStmt>
+            <title>Friedrich von Gentz an Karl Gustav von Brinckmann, 11. April 1802</title>
+            <editor xml:id="edAG">Andreas Gálffy</editor>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <name>Forschungsstelle "Universitätssammlung Friedrich von Gentz"</name>
+               <link target="http://gentz-digital.ub.uni-koeln.de http://www.ub.uni-koeln.de/cdm/singleitem/collection/gentz/id/5062/"/>
+            </publisher>
+            <pubPlace>Cologne</pubPlace>
+            <idno type="Gentz-Edition-Number" n="5063"/>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <country>Sweden</country>
+                  <settlement>Trolle-Ljungby</settlement>
+                  <institution>Archiv des Grafen Wachtmeister</institution>
+                  <repository>Nachlaß Brinckmann, Ausländ. Briefwechsel, Gentz an von Brinckmann</repository>
+                  <idno>G 4</idno>
+               </msIdentifier>
+               <msContents>
+                  <summary>
+                     Gentz hat sich bei Engeströms für sein Engagement unbeliebt gemacht, will aber einen Krankenbesuch abstatten. 
+                     Er schickt auch endlich die Elegien zurück, mit der Empfehlung, diese groß heraus zu bringen. Des Weiteren 
+                     schickt er demnächst den Woodfall und beklagt seinen Mangel an Ispiration.
+                  </summary>
+               </msContents>
+            </msDesc>
+            <listBibl type="preprints">
+               <biblStruct>
+                  <monogr>
+                     <editor>
+                        <persName>
+                           <ref target="http://d-nb.info/gnd/130953075"/>
+                           <forename>Friedrich Carl</forename>
+                           <surname>Wittichen</surname>
+                        </persName>
+                        <persName>
+                           <ref /> <!-- kein GND-Eintrag -->
+                           <forename>Ernst</forename>
+                           <surname>Salzer</surname>
+                        </persName>
+                     </editor>
+                     <title>Briefe von und an Friedrich von Gentz, 4 Bde.</title>
+                     <imprint>
+                        <publisher>Oldenbourg</publisher>
+                        <pubPlace>München, Berlin</pubPlace>
+                        <date>1909-1913</date>
+                     </imprint>
+                     <biblScope unit="volume" n="2">
+                        II
+                     </biblScope>
+                     <biblScope unit="page" from="92" to="93">
+                        Nr. 115
+                     </biblScope>
+                  </monogr>
+               </biblStruct>
+            </listBibl>
+            <listBibl type="alludedWorks">
+               <bibl xml:id="a5063-1" corresp="#LETTER_GENTZ_NNNN">nicht näher benanntes Werk von Woodfall</bibl>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Masterarbeit zu Matrikelnummer 5584124</p>
+         </projectDesc>
+      </encodingDesc>
+      <profileDesc>
+         <creation>
+            <date when-iso="1802-04-11">11. April 1802</date>
+         </creation>
+        <langUsage>
+           <language ident="d">deutsch</language>
+        </langUsage>
+         <textClass>
+            <keywords scheme="internal"><!-- internal: innerhalb des besagten Briefs -->
+               <term>Billet</term>
+               <term>Woodfall</term>
+               <term>Elegien</term>
+               <term>Engeström</term>
+            </keywords>
+            <keywords scheme="categorisation"><!-- Sinnabschnittseinteilung - relevant für den Fahrkartenautomaten! -->
+               <term xml:id="kengs">Engeström</term>
+               <term xml:id="wdf">Woodfall</term>
+               <term xml:id="eleg">Elegien</term>
+               <term xml:id="frv">Französische Revolution</term>
+            </keywords>
+         </textClass>
+         <textDesc>
+            <channel>manuscript</channel>
+            <constitution type="single"/>
+            <derivation type="original"/>
+            <domain type="private"/>
+            <factuality type="fact"/>
+            <interaction type="partial"/>
+            <preparedness type="unprepared"/>
+            <purpose type="inform"/>
+         </textDesc>
+         <particDesc>
+            <listPerson>
+               <!-- Sender und Adressat -->
+               <person role="sender" xml:id="Gen">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/118538489"/>
+                     <forename>Friedrich von</forename>
+                     <surname>Gentz</surname>
+                  </persName>
+               </person>
+               <person role="receiver" xml:id="KGvB">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/116519770"/>
+                     <forename>Carl Gustav von</forename>
+                     <surname>Brinckmann</surname>
+                  </persName>
+               </person>
+               <!-- erwähnte Personen -->
+               <person role="named" xml:id="RDCh">
+                  <persName>
+                     <ref />
+                     <forename>Rozalia</forename>
+                     <surname>Drya-Chlapowska</surname>
+                  </persName>
+               </person>
+               <person role="named" xml:id="LvEng">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/116504021"/>
+                     <forename>Lars von</forename>
+                     <surname>Engeström</surname>
+                  </persName>
+               </person>
+            </listPerson>
+         </particDesc>
+         <settingDesc>
+            <listPlace>
+               <!-- Start- und Zielort -->
+               <place type="sender" xml:id="plBe">
+                  <country>
+                     <ref target="http://d-nb.info/gnd/4047194-9"/>
+                     <placeName>Preußen</placeName>
+                  </country>
+                  <settlement>
+                     <ref target="http://d-nb.info/gnd/4005728-8"/>
+                     <placeName>Berlin</placeName>
+                  </settlement>
+               </place>
+               <!-- erwähnte Orte -->
+            </listPlace>
+         </settingDesc>
+      </profileDesc>
+      <revisionDesc>
+         <change xml:id="init" when-iso="2018-03-10" who="#edAG">Erstauszeichnung und Normierung des Dokumentes im Rahmen der Masterarbeit der Matrikelnummer 5584124</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div n="1" corresp="#kengs">
+            <p>
+               Die Ungnade bei Engeströms datirte sich, nach meiner Vorstellung davon, von einem Tage, wo auf dem Casino über das 
+               Gesetz <emph rend="underlined">wegen der Unmündigen</emph> ballotirt wurde. Sie wißen wahrscheinlich daß über dies 
+               Gesetz sich ein großer Streit erhob; <del rend="stroked">nun</del> ich <del rend="stroked">xxx</del> erklärte mich 
+               sehr bestimmt <emph rend="underlined">für</emph> die Unmündigen, und ich glaube, Engström nahm es mir hoch übel. 
+               Gewiß ist es wenigstens, daß ich von diesem Tage an nie wieder bei Ihnen eingeladen wurde, da doch außer den 
+               Sonntagen, fast täglich kleine Diners waren. - So stand die Sache. Ich werde aber, wie dem auch sey, 
+               <date when-iso="1802-04-12">morgen</date> gewiß eine Visite bei <rs type="person" ref="#RDCh">Frau von Engeström</rs> 
+               machen. <date when-iso="1802-04-10">Gestern</date> wollte ich es nicht thun, theils weil es nicht so aussehen sollte, 
+               als geschähe es in Bezug auf das Sonntags-Souper, theils auch, weil ich hörte 
+               <rs type="person" ref="#LvEng">Herr von Engeström</rs> wäre krank.
+            </p>
+         </div>
+         <div n="2" corresp="#eleg">
+            <p>
+               Um allen Verdacht von mir abzuwälzen, schicke ich Ihnen hier Ihre Elegien zurück. Sie haben wir manche glückliche 
+               Viertelstunde geschenkt, <pb/> und ich habe sie gewiß mit dem innigsten Wohlgefallen gelesen und genossen. Wenn ich 
+               die Wahrheit sagen soll, so kan unter diesen Gedichten - wenigstens für mich - von Auswahl und Vorrang gar nicht die 
+               Rede seyn. Sie sind alle vortreflich; und nur in einzelnen <emph rend="underlined">Stellen</emph> kan ich ein Mehr 
+               oder Weniger von Schönheit der Gedanken oder Vollendung des Ausdrucks anerkennen. Diese Elegien müßen Ihren Ruhm 
+               gründen, und ich verdächte es Ihnen ganz außerordentlich wenn Sie sie fernerhin in Allmanachen pp vereinzelten, und 
+               nicht vielmehr auf einmal, und in einem unzertrennten Bunde, ans Licht brächten. Das ist 
+               <emph rend="underlined">mein</emph> Rath.
+            </p>
+         </div>
+         <div n="3" corresp="#wdf">
+            <p>
+               Hienächst schicke ich Ihnen auch den <rs type="citation" ref="#a5063-1">Woodfall</rs>, da Sie ihn doch einmal 
+               wünschen, und ich meiner Seits nicht mehr befugt bin, Schwierigkeiten zu machen, weil die Bücher-Mania längst bei mir 
+               <pb/> vorüber ist. - 
+            </p>
+         </div>
+         <div n="4" corresp="#frv">
+            <p>
+               Das Parlament interessirt mich auch nicht mehr sehr. Es ist ein Unglück, in der Französischen Revoluzion politischer 
+               Schriftsteller gewesen zu seyn. Jetzt kömmt mir alles in der Welt höchst insipide, und ich selbst komme mir, wie ein 
+               ausgebrannter Vulkan vor. - Adieu ! Es ist auch noch in andern Rücksichten so !
+            </p>
+         </div>
+         <closer>
+            <signed rend="right">Gentz</signed>
+            <dateline rend="right">den <date when-iso="1802-04-11">11 April 1802</date>.</dateline>
+         </closer>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc xml:id="LETTER_GENTZ_1087">
+         <titleStmt>
+            <title>Friedrich von Gentz an Karl Gustav von Brinckmann, 8. Januar 1802</title>
+            <editor xml:id="edAG">Andreas Gálffy</editor>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <name>Forschungsstelle "Universitätssammlung Friedrich von Gentz"</name>
+               <link target="http://gentz-digital.ub.uni-koeln.de http://www.ub.uni-koeln.de/cdm/singleitem/collection/gentz/id/1086/"/>
+            </publisher>
+            <pubPlace>Cologne</pubPlace>
+            <idno type="Gentz-Edition-Number" n="1087"/>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <country>Sweden</country>
+                  <settlement>Trolle-Ljungby</settlement>
+                  <institution>Archiv des Grafen Wachtmeister</institution>
+                  <repository>Nachlaß Brinckmann, Ausländ. Briefwechsel, Gentz an von Brinckmann</repository>
+                  <idno>G 4</idno>
+               </msIdentifier>
+               <msContents>
+                  <summary>
+                     Mit viel Empressement hat Gentz um die Erlaubnis bei Arnstein gebeten, bei ihr zu essen, aber da sie auch 
+                     Kotzebue zum Essen gebeten hat, mit welchem er sich nicht gut versteht, bleibt er fern. Er bittet um die 
+                     Parallele zwischen Hagen und seinem Sohn und kündigt ein Billet von selbigem im Postscript an.
+                  </summary>
+               </msContents>
+            </msDesc>
+            <listBibl type="letterReferenced">
+               <bibl xml:id="c1087-1" corresp="#LETTER_GENTZ_NNNN">nicht bekannter Brief von Hagen an Friedrich von Gentz</bibl>
+            </listBibl>
+            <listBibl type="alludedWorks">
+               <bibl xml:id="a1087-1" corresp="#LETTER_GENTZ_NNNN">nicht näher benannte Parallele zwischen Hagen und seinem Sohn</bibl>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Masterarbeit zu Matrikelnummer 5584124</p>
+         </projectDesc>
+      </encodingDesc>
+      <profileDesc>
+         <creation>
+            <date when-iso="1802-01-08">8. Januar 1802</date>
+         </creation>
+        <langUsage>
+           <language ident="d">deutsch</language>
+        </langUsage>
+         <textClass>
+            <keywords scheme="internal"><!-- internal: innerhalb des besagten Briefs -->
+               <term>Billet</term>
+               <term>Treffen</term>
+               <term>Arnstein</term>
+               <term>Hagen</term>
+            </keywords>
+            <keywords scheme="categorisation"><!-- Sinnabschnittseinteilung - relevant für den Fahrkartenautomaten! -->
+               <term xml:id="karn">Arnstein</term>
+               <term xml:id="bezbl">Beziehungen zu Berlin - Leute</term>
+            </keywords>
+         </textClass>
+         <textDesc>
+            <channel>manuscript</channel>
+            <constitution type="single"/>
+            <derivation type="original"/>
+            <domain type="private"/>
+            <factuality type="fact"/>
+            <interaction type="partial"/>
+            <preparedness type="unprepared"/>
+            <purpose type="inform"/>
+         </textDesc>
+         <particDesc>
+            <listPerson>
+               <!-- Sender und Adressat -->
+               <person role="sender" xml:id="Gen">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/118538489"/>
+                     <forename>Friedrich von</forename>
+                     <surname>Gentz</surname>
+                  </persName>
+               </person>
+               <person role="receiver" xml:id="KGvB">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/116519770"/>
+                     <forename>Carl Gustav von</forename>
+                     <surname>Brinckmann</surname>
+                  </persName>
+               </person>
+               <!-- erwähnte Personen -->
+               <person role="named" xml:id="FvA">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/118504347" />
+                     <forename>Fanny von</forename>
+                     <surname>Arnstein</surname>
+                  </persName>
+               </person>
+               <person role="named" xml:id="AvKtz">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/118565796"/>
+                     <forename>August von</forename>
+                     <surname>Kotzebue</surname>
+                  </persName>
+               </person>
+               <person role="named" xml:id="Hgn">
+                  <persName>
+                     <ref />
+                     <forename/>
+                     <surname>Hagen</surname>
+                  </persName>
+               </person>
+            </listPerson>
+         </particDesc>
+         <settingDesc>
+            <listPlace>
+               <!-- Start- und Zielort -->
+               <place type="sender" xml:id="plBe">
+                  <country>
+                     <ref target="http://d-nb.info/gnd/4047194-9"/>
+                     <placeName>Preußen</placeName>
+                  </country>
+                  <settlement>
+                     <ref target="http://d-nb.info/gnd/4005728-8"/>
+                     <placeName>Berlin</placeName>
+                  </settlement>
+               </place>
+               <!-- erwähnte Orte -->
+            </listPlace>
+         </settingDesc>
+      </profileDesc>
+      <revisionDesc>
+         <change xml:id="init" when-iso="2018-03-10" who="#edAG">Erstauszeichnung und Normierung des Dokumentes im Rahmen der Masterarbeit der Matrikelnummer 5584124</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <opener>
+            <dateline rend="right">d <date when-iso="1802-01-08">8 Januar 1802</date>.</dateline>
+         </opener>
+         <div n="1" corresp="#karn">
+            <p>
+               Ich werde zwar nachdem was Sie mir <date when-iso="1802-01-07">gestern</date> gesagt haben, nicht zum Dejeuner der 
+               <rs type="person" ref="#FvA">Frau Arnstein</rs> gehen, ob ich gleich recht gern dabei gewesen wäre. Aber ich muß Sie 
+               auch bitten, lieber Brinkman ihr zu sagen, <emph rend="underlined">warum</emph> ich nicht komme, weil ich sie 
+               wirklich mit zu viel Empressement um die Erlaubniß gebeten, und sie mir mit zu viel Bereitwilligkeit und 
+               Freundlichkeit diese Erlaubniß ertheilt hatte, als daß ich nun <del rend="stroked">auf</del> ohne weitre Erklärung 
+               wegbleiben könnte. Böse bin ich nun doch einmal und muß es seyn, wenn ich bedenke, daß sie 
+               <rs type="person" ref="#AvKtz">Kotzebue</rs> ausdrücklich, und dringend <emph rend="underlined">eingeladen</emph> 
+               hat, und mich nicht haben will da ich mich <emph rend="underlined">so anbiete</emph>; aber ich will wenigstens von 
+               meiner Seite mir nichts vorzuwerfen haben; und deshalb fordre ich von Ihrer Güte jene Explication.
+            </p>
+         </div>
+         <div n="2" corresp="#bezbl">
+            <p>
+               Wenn die <rs type="citation" ref="#a1087-1">Parallele</rs> zwischen <rs type="person" ref="#Hgn">Hagen</rs> und 
+               seinem Sohne fertig ist, so bitte ich drum. Heute gehe ich ins Collegium, weil ich nicht beim Gegner seyn soll.
+            </p>
+         </div>
+         <closer>
+            <signed rend="right">Gentz</signed>
+         </closer>
+         <postscript corresp="#bezbl">
+            <p>
+               Ich erhalte eben ein <rs type="citation" ref="#c1087-1">Göttliches Billet</rs> von 
+               <rs type="person" ref="#Hgn">Hagen</rs>, welches ich Ihnen, nach abgemachter Sache, mittheilen werde.
+            </p>
+         </postscript>
+      </body>
+   </text>
+</TEI>

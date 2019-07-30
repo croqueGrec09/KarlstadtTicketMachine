@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+
+<html xmlns:th="http://www.thymeleaf.org">
+
+<head>
+<title th:text="${letter.title}">Titel</title>
+<!-- JQuery -->
+<script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+<!-- Bootstrap CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" />
+<!-- Bootstrap JavaScript -->
+<script type="text/javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+
+<script type="text/javascript" src="/js/singleLetter.js"></script>
+
+<link rel="stylesheet" href="/css/gentzStyle.css" />
+
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+
+</head>
+<body>
+	<!-- @agalffy: Einbinden der Navigationsleiste. Dieses Fragment ist in nav.html definiert. -->
+	<nav th:include="gentzNav :: gentzNav">...</nav>
+	<div class="container">
+		<div class="row">
+			<div class="col-md-12" id="metadata">
+				<div class="row">
+					<div class="col-md-12">
+						<h1 th:text="${letter.title}">...</h1>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-md-4">
+						Forschungsstelle Gentz idno: <span th:text="${letter.idnoGentzUB}"></span>
+					</div>
+					<div class="col-md-8">
+						link to original transcription: <a th:href="${letter.originalCitationLink}">to Forschungsstelle Gentz</a>
+					</div>
+				</div>
+				<div class="row">
+					<h2>manuscript identifier metadata</h2>
+					<div class="col-md-2">
+						country: <span th:text="${letter.country}"></span>
+					</div>
+					<div class="col-md-2">
+						settlement: <span th:text="${letter.settlement}"></span>
+					</div>
+					<div class="col-md-2">
+						institution: <span th:text="${letter.institution}"></span>
+					</div>
+					<div class="col-md-2">
+						repository: <span th:text="${letter.repository}"></span>
+					</div>
+					<div class="col-md-2">
+						collection: <span th:text="${letter.collection}"></span>
+					</div>
+					<div class="col-md-2">
+						idno of manuscript: <span th:text="${letter.msIdno}"></span>
+					</div>
+				</div>
+				<div class="row" th:if="${!letter.preprints.isEmpty()}">
+					<h2>printing places</h2>
+					<ul>
+						<li th:each="preprint: ${letter.preprints}" th:text="${preprint.toString()}">
+							
+						</li>
+					</ul>
+				</div>
+				<div class="row" th:if="${!letter.letterReferenced.isEmpty() or !letter.alludedWorks.isEmpty() or !letter.defExpr.isEmpty() or !letter.defRep.isEmpty() or !letter.edRef.isEmpty()}">
+					<h2>further lecture references</h2>
+					<ul th:if="${!letter.letterReferenced.isEmpty()}">
+						<h3>references in the letter:</h3>
+						<li th:each="referenced: ${letter.letterReferenced}" th:switch="${referenced.id}">
+							<span th:case="'no link'" th:text="${referenced.toString()}"></span>
+							<a th:case="*" th:href="@{/KtM/letter/{id}(id=${referenced.id})}" th:text="${referenced.toString()}"></a>
+						</li>
+					</ul>
+					<ul th:if="${!letter.alludedWorks.isEmpty()}">
+						<h3>works alluded in the letter:</h3>
+						<li th:each="alluded: ${letter.alludedWorks}" th:switch="${alluded.id}">
+							<span th:case="'no link'" th:text="${alluded.toString()}"></span>
+							<a th:case="*" th:href="@{/KtM/fetchWork/{id}(id=${alluded.id})}" th:text="${alluded.toString()}"></a>
+						</li>
+					</ul>
+					<ul th:if="${!letter.defExpr.isEmpty()}">
+						<h3>works or journals named in the letter:</h3>
+						<li th:each="expression: ${letter.defExpr}" th:switch="${expression.id}">
+							<span th:case="'no link'" th:text="${expression.toString()}"></span>
+							<a th:case="*" th:href="@{/KtM/fetchWork/{id}(id=${expression.id})}" th:text="${expression.toString()}"></a>
+						</li>
+					</ul>
+					<ul th:if="${!letter.defRep.isEmpty()}">
+						<h3>books or editions named in the letter:</h3>
+						<li th:each="representation: ${letter.defRep}" th:switch="${representation.id}">
+							<span th:case="'no link'" th:text="${representation.toString()}"></span>
+							<a th:case="*" th:href="@{/KtM/fetchWork/{id}(id=${representation.id})}" th:text="${representation.toString()}"></a>
+						</li>
+					</ul>
+					<ul th:if="${!letter.edRef.isEmpty()}">
+						<h3>further lectures given by an editor:</h3>
+						<li th:each="editorial: ${letter.edRef}" th:switch="${editorial.id}">
+							<span th:case="'no link'" th:text="${editorial.toString()}"></span>
+							<a th:case="*" th:href="@{/KtM/fetchWork/{id}(id=${editorial.id})}" th:text="${editorial.toString()}"></a>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+		<!-- markup generation will be done on demand! -->
+		<div class="row" th:utext="${content}">
+
+		</div>
+		<div class="row">
+			<div id="notes" class="col-md-12" th:utext="${notes}">
+			
+			</div>
+		</div>
+	</div>
+</body>
+</html>

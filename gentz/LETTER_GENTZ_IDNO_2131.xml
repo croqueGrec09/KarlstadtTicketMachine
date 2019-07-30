@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader type="text">
+      <fileDesc xml:id="LETTER_GENTZ_2131">
+         <titleStmt>
+            <title>Friedrich von Gentz an Kronprinz Friedrich Wilhelm (III.) von Preußen, 31. Dezember 1792</title>
+            <editor xml:id="edAG">Andreas Gálffy</editor>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <name>Forschungsstelle "Universitätssammlung Friedrich von Gentz"</name>
+               <link target="http://gentz-digital.ub.uni-koeln.de http://www.ub.uni-koeln.de/cdm/singleitem/collection/gentz/id/2130/"/>
+            </publisher>
+            <pubPlace>Cologne</pubPlace>
+            <idno type="Gentz-Edition-Number" n="2131"/>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <country>Germany</country>
+                  <settlement>Berlin</settlement>
+                  <institution>Geheimes Staatsarchiv Preußsischer Kulturbesitz</institution>
+                  <repository>I. HA Rep. 36: Hofverwaltung</repository>
+                  <collection>Nr. 2771: Überreichung und Dedikation von Büchern und wissenschaflichen Werken an Kronprinzen Friedrich Wilhelm (III.)</collection>
+                  <idno>Bl. 76.</idno>
+               </msIdentifier>
+               <msContents>
+                  <summary>
+                     Gentz legt seine Übersetzung des Burke dem kronprinzen vor und beschreibt das so entstandene Werk samt Adresse 
+                     an den Kronprinzen.
+                  </summary>
+               </msContents>
+            </msDesc>
+            <listBibl type="letterReferenced">
+               <bibl xml:id="c2131-1" corresp="#LETTER_GENTZ_2765">Friedrich von Gentz an Christian Garve, 19. April 1791</bibl>
+            </listBibl>
+            <listBibl type="defRep">
+               <biblStruct xml:id="p2131-1" corresp="DBUH-0000">
+                  <monogr>
+                     <author>
+                        <persName>
+                           <ref target="http://d-nb.info/gnd/118538489"/>
+                           <forename>Friedrich von</forename>
+                           <surname>Gentz</surname>
+                        </persName>
+                     </author>
+                     <title>Betrachtungen über die französische Revolution. Nach dem Englischen des Herrn Burke neu-bearbeitet mit einer Einleitung, Anmerkungen, politischen Abhandlungen und einem critischen Verzeichniß der in England über diese Revolution erschienenen Schriften, Zwei Theile</title>
+                     <imprint>
+                        <publisher>Friedrich Vieweg der Ältere</publisher>
+                        <pubPlace>Berlin</pubPlace>
+                        <date>1793</date>
+                     </imprint>
+                  </monogr>
+               <ptr target="http://digitale.bibliothek.uni-halle.de/vd18/id/9148833"/></biblStruct>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Masterarbeit zu Matrikelnummer 5584124</p>
+         </projectDesc>
+      </encodingDesc>
+      <profileDesc>
+         <creation>
+            <date when-iso="1792-12-31">31. Dezember 1792</date>
+         </creation>
+        <langUsage>
+           <language ident="d">deutsch</language>
+        </langUsage>
+         <textClass>
+            <keywords scheme="internal"><!-- internal: innerhalb des besagten Briefs -->
+               <term>Brief</term>
+               <term>Begleitschreiben</term>
+               <term>Burke</term>
+            </keywords>
+            <keywords scheme="categorisation"><!-- Sinnabschnittseinteilung - relevant für den Fahrkartenautomaten! -->
+               <term xml:id="kbur">Burke</term>
+            </keywords>
+         </textClass>
+         <textDesc>
+            <channel>manuscript</channel>
+            <constitution type="single"/>
+            <derivation type="original"/>
+            <domain type="private"/>
+            <factuality type="fact"/>
+            <interaction type="partial"/>
+            <preparedness type="unprepared"/>
+            <purpose type="inform"/>
+         </textDesc>
+         <particDesc>
+            <listPerson>
+               <!-- Sender und Adressat -->
+               <person role="sender" xml:id="Gen">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/118538489"/>
+                     <forename>Friedrich von</forename>
+                     <surname>Gentz</surname>
+                  </persName>
+               </person>
+               <person role="receiver" xml:id="KFWIII">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/118535986"/>
+                     <forename>Friedrich Wilhelm III.</forename>
+                     <surname>von Preußen</surname>
+                     <roleName type="office">Kronprinz</roleName>
+                  </persName>
+               </person>
+               <!-- erwähnte Personen -->
+               <person role="named" xml:id="KFWII">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/11869362X"/>
+                     <forename>Friedrich Wilhelm II.</forename>
+                     <surname>von Preußen</surname>
+                     <roleName type="office">König von Preußen</roleName>
+                  </persName>
+               </person>
+               <person role="named" xml:id="JFG">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/136428983"/>
+                     <forename>Johann Friedrich</forename>
+                     <surname>Gentze</surname>
+                  </persName>
+               </person>
+            </listPerson>
+         </particDesc>
+         <settingDesc>
+            <listPlace>
+               <!-- Start- und Zielort -->
+               <place type="sender" xml:id="plBe">
+                  <country>
+                     <ref target="http://d-nb.info/gnd/4047194-9"/>
+                     <placeName>Preußen</placeName>
+                  </country>
+                  <settlement>
+                     <ref target="http://d-nb.info/gnd/4005728-8"/>
+                     <placeName>Berlin</placeName>
+                  </settlement>
+               </place>
+               <!-- erwähnte Orte -->
+            </listPlace>
+         </settingDesc>
+      </profileDesc>
+      <revisionDesc>
+         <change xml:id="init" when-iso="2018-02-12" who="#edAG">Erstauszeichnung und Normierung des Dokumentes im Rahmen der Masterarbeit der Matrikelnummer 5584124</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <opener>
+            <salute rend="left">Durchlauchtigster Kron-Prinz!</salute>
+            <salute rend="left">Gnädigster König und Herr !</salute>
+         </opener>
+         <div n="1" corresp="#kbur">
+            <p>
+               In einem Augenblick wo die Französische Revolution das Gespräch und das Augenmerk von ganz Europa geworden ist, und 
+               wo <rs type="person" ref="#KFWIII">Ewr. Königliche Hoheit</rs> Sich Selbst mit an die Spitze der Armee befinden, von 
+               denen unser Deutsches Vaterland seine Sicherheit gegen die Fortschritte dieser Revolution erwartet, ist es vielleicht 
+               ein verzeihliches Unternehmen, Höchstdenselben <rs type="citation" ref="#p2131-1">ein Buch</rs> zu überreichen, 
+               welches die Prinzipien, auf welchen das neue Französische System beruht, aus philosophischen und politischen Gründen 
+               zu erörtern, und in ihrer Blöße darzustellen versucht.
+            </p>
+            <p>
+               Durch diese Betrachtung aufgemuntert, erkühne ich mich, <rs type="person" ref="#KFWIII">Ewr. Königlichen Hoheit</rs> 
+               eine Arbeit der ich <rs type="citation" ref="#c2131-1">beynahe zwey Jahre</rs> gewidmet habe, in Unterthänigkeit 
+               vorzulegen, würde mich unendlich glücklich preisen, wenn sie <rs type="person" ref="#KFWIII">Höchstdero</rs> Beyfall 
+               finden könnte, und verharre in tiefster Ehrfurcht,
+            </p>
+         </div>
+         <closer>
+            <salute rend="right">Ewr. Königlichen Hoheit</salute>
+            <salute rend="right">unterthänigster</salute>
+            <dateline rend="left"><rs type="place" ref="#plBe">Berlin</rs> den <date when-iso="1792-12-31">31<span rend="sup">ten</span> December</date></dateline>
+            <signed rend="right">Gentz</signed>
+            <dateline rend="left"><date when-iso="1792-12-31">1792:</date></dateline>
+            <signed rend="right">Geheimer Secretaire bey dem</signed>
+            <signed rend="right">General-Directorio.</signed>
+         </closer>
+         <note resp="#edAG" xml:id="r2131-1">Vgl. den <rs type="citation" ref="#c2131-1">Brief vom 19. April 1791</rs>.</note>
+      </body>
+   </text>
+</TEI>

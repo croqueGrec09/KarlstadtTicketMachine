@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc xml:id="LETTER_GENTZ_1709">
+         <titleStmt>
+            <title>Friedrich von Gentz an Karl Gustav von Brinckmann, 25. Mai 1797</title>
+            <editor xml:id="edAG">Andreas Gálffy</editor>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <name>Forschungsstelle "Universitätssammlung Friedrich von Gentz"</name>
+               <link target="http://gentz-digital.ub.uni-koeln.de http://www.ub.uni-koeln.de/cdm/singleitem/collection/gentz/id/1708/"/>
+            </publisher>
+            <pubPlace>Cologne</pubPlace>
+            <idno type="Gentz-Edition-Number" n="1709"/>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <country>Sweden</country>
+                  <settlement>Trolle-Ljungby</settlement>
+                  <institution>Archiv des Grafen Wachtmeister</institution>
+                  <repository>Nachlaß Brinckmann, Ausländ. Briefwechsel, Gentz an Brinckmann</repository>
+                  <idno>G 5</idno>
+               </msIdentifier>
+               <msContents>
+                  <summary>
+                     Da Gentz Geld gebrauchen kann, möchte er den ganzen Rapin und Tindal, Miltons Works und Bouglant histoire etc. 
+                     für zehn Friedrichsd'or an Brinckmann überlassen.
+                  </summary>
+               </msContents>
+            </msDesc>
+            <listBibl type="defExpr">
+               <biblStruct xml:id="e1709-1" corresp="BnF-0006">
+                  <monogr>
+                     <author>
+                        <persName>
+                           <ref target="http://d-nb.info/gnd/118582607"/>
+                           <forename>John</forename>
+                           <surname>Milton</surname>
+                        </persName>
+                     </author>
+                     <title>Mémoires complets et authentiques du duc de Saint-Simon sur le siècle de Louis XVI. et la régence</title>
+                     <imprint>
+                        <pubPlace>Paris</pubPlace>
+                        <publisher>Librairie de L. Hachette et Cie</publisher>
+                        <date>1856</date>
+                     </imprint>
+                  </monogr>
+                  <ptr target="http://gallica.bnf.fr/ark:/12148/bpt6k70363"/>
+               </biblStruct>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Masterarbeit zu Matrikelnummer 5584124</p>
+         </projectDesc>
+      </encodingDesc>
+      <profileDesc>
+         <creation>
+            <date when-iso="1797-05-25">25. Mai 1797</date>
+         </creation>
+        <langUsage>
+           <language ident="d">deutsch</language>
+        </langUsage>
+         <textClass>
+            <keywords scheme="internal"><!-- internal: innerhalb des besagten Briefs -->
+               <term>Billet</term>
+               <term>Rapin</term>
+               <term>Bibliothek</term>
+            </keywords>
+            <keywords scheme="categorisation"><!-- Sinnabschnittseinteilung - relevant für den Fahrkartenautomaten! -->
+               <term xml:id="bibl">Bibliothek</term>
+            </keywords>
+         </textClass>
+         <textDesc>
+            <channel>manuscript</channel>
+            <constitution type="single"/>
+            <derivation type="original"/>
+            <domain type="private"/>
+            <factuality type="fact"/>
+            <interaction type="partial"/>
+            <preparedness type="unprepared"/>
+            <purpose type="inform"/>
+         </textDesc>
+         <particDesc>
+            <listPerson>
+               <!-- Sender und Adressat -->
+               <person role="sender" xml:id="Gen">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/118538489"/>
+                     <forename>Friedrich von</forename>
+                     <surname>Gentz</surname>
+                  </persName>
+               </person>
+               <person role="receiver" xml:id="KGvB">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/116519770"/>
+                     <forename>Carl Gustav von</forename>
+                     <surname>Brinckmann</surname>
+                  </persName>
+               </person>
+               <!-- erwähnte Personen -->
+               <person role="named" xml:id="LRdStS">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/118642138"/>
+                     <forename>Louis de Rouvroy de</forename>
+                     <surname>Saint-Simon</surname>
+                  </persName>
+               </person>
+            </listPerson>
+         </particDesc>
+         <settingDesc>
+            <listPlace>
+               <!-- Start- und Zielort -->
+               <place type="sender" xml:id="plBe">
+                  <country>
+                     <ref target="http://d-nb.info/gnd/4047194-9"/>
+                     <placeName>Preußen</placeName>
+                  </country>
+                  <settlement>
+                     <ref target="http://d-nb.info/gnd/4005728-8"/>
+                     <placeName>Berlin</placeName>
+                  </settlement>
+               </place>
+               <!-- erwähnte Orte -->
+            </listPlace>
+         </settingDesc>
+      </profileDesc>
+      <revisionDesc>
+         <change xml:id="init" when-iso="2018-02-26" who="#edAG">Erstauszeichnung und Normierung des Dokumentes im Rahmen der Masterarbeit der Matrikelnummer 5584124</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>     
+      <body>
+         <div n="1" corresp="#bibl">
+            <p>
+               Theurester Brinkman ! Schlagen Sie mir die harte Bitte nicht ab, mir auf wenige Tage die 
+               <rs type="citation" ref="#e1709-1">Memoires</rs>, oder Oeuvres de <rs type="person" ref="#LRdStS">St. Simon</rs> zu 
+               leihen. Ich brauche sie <emph rend="underlined">nöthig</emph>, und gebe sie unbeschädigt zurück, und 
+               <emph rend="underlined">sehr</emph> bald. Auch Ihre <gap><desc>[Lücke in Gentz digital]</desc></gap>. Wenn der 
+               Ueberbringer dieses Sie nicht fände, so haben Sie die einzige Gnade, jenes Buch nur 
+               <emph rend="underlined">vor 3 Uhr</emph> in mein Haus zu schicken.
+            </p>
+         </div>
+         <closer>
+            <signed rend="right">Gentz.</signed>
+            <dateline rend="left">den <date when-iso="1797-05-25">25 May</date></dateline>
+         </closer>
+      </body>
+   </text>
+</TEI>

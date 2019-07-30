@@ -1,0 +1,242 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader type="text">
+      <fileDesc xml:id="LETTER_GENTZ_4189">
+         <titleStmt>
+            <title>Friedrich von Gentz an Karl Gustav von Brinckmann, 15. Juli 1792</title>
+            <editor xml:id="edAG">Andreas Gálffy</editor>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <name>Forschungsstelle "Universitätssammlung Friedrich von Gentz"</name>
+               <link target="http://gentz-digital.ub.uni-koeln.de http://www.ub.uni-koeln.de/cdm/singleitem/collection/gentz/id/4188/"/>
+            </publisher>
+            <pubPlace>Cologne</pubPlace>
+            <idno type="Gentz-Edition-Number" n="4189"/>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <country>Sweden</country>
+                  <settlement>Trolle-Ljungby</settlement>
+                  <institution>Archiv des Grafen Wachtmeister</institution>
+                  <repository>Nachlaß Brinckmann, Ausländ. Briefwechsel, Gentz an Brinckmann</repository>
+                  <idno>G 3</idno>
+               </msIdentifier>
+               <msContents>
+                  <summary>
+                     Das letzte treffen mit Brinckmann hat Gentz sehr beeindruckt. Er dürstet nach solchen Eindrücken. Gentz klagt 
+                     über eine Einsamkeit und eine drückende Entfernung zu seiner Frau Wilhelmine; damit will er den Eindruck 
+                     Brinckmanns berichtigen, er würde nur für die Liebe leben. 
+                     Das Gedicht versetzt Gentz in eine peinliche Lage, da er nicht weiß, wie er es präsentieren soll. 
+                     Die ganze Familie Gillys ist in Köpenick und nächste Woche kommt er selbst zurück. Im Epigraph übermittelt 
+                     Gentz Grüße von Humboldt.
+                  </summary>
+               </msContents>
+            </msDesc>
+            <listBibl type="preprints">
+               <biblStruct>
+                  <monogr>
+                     <editor>
+                        <persName>
+                           <ref target="http://d-nb.info/gnd/130953075"/>
+                           <forename>Friedrich Carl</forename>
+                           <surname>Wittichen</surname>
+                        </persName>
+                        <persName>
+                           <ref/> <!-- kein GND-Eintrag -->
+                           <forename>Ernst</forename>
+                           <surname>Salzer</surname>
+                        </persName>
+                     </editor>
+                     <title>Briefe von und an Friedrich von Gentz. 4 Bde.</title>
+                     <imprint>
+                        <publisher>Oldenbourg</publisher>
+                        <pubPlace>München, Berlin</pubPlace>
+                        <date>1909-1913</date>
+                     </imprint>
+                     <biblScope unit="volume" n="2">
+                        II
+                     </biblScope>
+                     <biblScope unit="page" from="18" to="19">
+                        Nr. 4
+                     </biblScope>
+                  </monogr>
+               </biblStruct>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Masterarbeit zu Matrikelnummer 5584124</p>
+         </projectDesc>
+      </encodingDesc>
+      <profileDesc>
+         <creation>
+            <date when-iso="1792-07-15">15. Juli 1792</date>
+         </creation>
+        <langUsage>
+           <language ident="d">deutsch</language>
+        </langUsage>
+         <textClass>
+            <keywords scheme="internal"><!-- internal: innerhalb des besagten Briefs -->
+               <term>Billet</term>
+               <term>Treffen</term>
+               <term>Gilly</term>
+               <term>Minna</term>
+               <term>Köpenick</term>
+               <term>Gedicht</term>
+            </keywords>
+            <keywords scheme="categorisation"><!-- Sinnabschnittseinteilung - relevant für den Fahrkartenautomaten! -->
+               <term xml:id="vkgvb">Verhältnis Karl Gustav von Brinckmann</term>
+               <term xml:id="bezbt">Beziehungen zu Berlin - Beamtentätigkeit</term>
+               <term xml:id="lvm">Literatur vermischt</term>
+               <term xml:id="bezbl">Beziehungen zu Berlin - Leute</term>
+               <term xml:id="khum">Humboldt</term>
+            </keywords>
+         </textClass>
+         <textDesc>
+            <channel>manuscript</channel>
+            <constitution type="single"/>
+            <derivation type="original"/>
+            <domain type="private"/>
+            <factuality type="fact"/>
+            <interaction type="partial"/>
+            <preparedness type="unprepared"/>
+            <purpose type="inform"/>
+         </textDesc>
+         <particDesc>
+            <listPerson>
+               <!-- Sender und Adressat -->
+               <person role="sender" xml:id="Gen">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/118538489"/>
+                     <forename>Friedrich von</forename>
+                     <surname>Gentz</surname>
+                  </persName>
+               </person>
+               <person role="receiver" xml:id="KGvB">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/116519770"/>
+                     <forename>Carl Gustav von</forename>
+                     <surname>Brinckmann</surname>
+                  </persName>
+               </person>
+               <!-- erwähnte Personen -->
+               <person role="named" xml:id="Min">
+                  <persName>
+                     <ref/>
+                     <forename>Wilhelmine</forename>
+                     <surname>Gilly</surname>
+                  </persName>
+               </person>
+               <person role="named" xml:id="Her">
+                  <persName>
+                     <ref/>
+                     <forename/>
+                     <surname>Herold</surname>
+                     <roleName type="office">Stadt-Musikus</roleName>
+                  </persName>
+               </person>
+               <person role="named" xml:id="Hum">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/118554727"/>
+                     <forename>Wilhelm von</forename>
+                     <surname>Humboldt</surname>
+                  </persName>
+               </person>
+            </listPerson>
+         </particDesc>
+         <settingDesc>
+            <listPlace>
+               <!-- Start- und Zielort -->
+               <place type="sender" xml:id="plBe">
+                  <country>
+                     <ref target="http://d-nb.info/gnd/4047194-9"/>
+                     <placeName>Preußen</placeName>
+                  </country>
+                  <settlement>
+                     <ref target="http://d-nb.info/gnd/4005728-8"/>
+                     <placeName>Berlin</placeName>
+                  </settlement>
+               </place>
+               <!-- erwähnte Orte -->
+               <place type="named" xml:id="plKp">
+                  <country>
+                     <ref target="http://d-nb.info/gnd/4047194-9"/>
+                     <placeName>Preußen</placeName>
+                  </country>
+                  <settlement>
+                     <ref target="http://d-nb.info/gnd/4098667-6"/>
+                     <placeName>Köpenick</placeName>
+                  </settlement>
+               </place>
+               <place type="named" xml:id="plJe">
+                  <country>
+                     <ref target="http://d-nb.info/gnd/4051194-7"/>
+                     <placeName>Sachsen-Weimar-Eisenach</placeName>
+                  </country>
+                  <settlement>
+                     <ref target="http://d-nb.info/gnd/4028557-1"/>
+                     <placeName>Jena</placeName>
+                  </settlement>
+               </place>
+            </listPlace>
+         </settingDesc>
+      </profileDesc>
+      <revisionDesc>
+         <change xml:id="init" when-iso="2018-02-06" who="#edAG">Erstauszeichnung und Normierung des Dokumentes im Rahmen der Masterarbeit der Matrikelnummer 5584124</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>     
+      <body>
+         <opener>
+            <dateline rend="right"><date when-iso="1792-07-15">15. Juli 1792</date>.</dateline>
+         </opener>
+         <div n="1" corresp="#vkgvb">
+            <p>
+               Sie haben mir eine sehr vergnügte Stunde gemacht, lieber Brinckmann. - Wenn dies hinreichte, Sie für ein 
+               <emph rend="underlined">solches</emph> Produkt zu belohnen, so wollte ich nichts thun als klagen und stöhnen, damit 
+               Sie oft gereitzt würden, angenehme Empfindungen von der Art, wie die gestrigen waren, in mir zu schaffen.
+            </p>
+         </div>
+         <div n="2" corresp="#bezbt">
+            <p>
+               Sie irren Sich, lieber Freund, wenn Sie glauben, daß ich hier eigentlich der Liebe lebe. Ich bin von 
+               <rs type="person" ref="#Min">Minna</rs> eine gute Meile entfernt, und sehe sie nur Abends um 7 Uhr, von da an ich 
+               sie denn freylich oft bis 12 oder 1 Uhr zu sehen fortfahre, um nachher durch einen Gespenster- und Räuber-vollen 
+               Wald allein, nicht ohne Höllenangst, und Todesschauer, zurück zu reiten. Den Tag über bin ich in der vollständigsten 
+               Einsamkeit, die es nur geben kan, und arbeite sehr viel. Ich habe überhaupt seit 8 Tagen gelebt.
+            </p>
+         </div>
+         <div n="3" corresp="#lvm">
+            <p>
+               Ihr Gedicht setzt mich in eine nicht geringe Verlegenheit. Es ist voll von Witz und Eleganz. Es ist aber so rasend 
+               schmeichelhaft für mich, daß ich nicht <pb/> recht weis, wie ich es anfangen soll, um es andern auf eine anständige 
+               Art zu präsentiren, wozu ich denn doch große Lust habe, und vielleicht noch größre haben werde, wenn die stinkende 
+               Atmosphäre, worin F......und die 5000 athmen eine gewiße Rückkehr von Menschlichkeit, und Toleranz, die ich hier 
+               spühre, wieder fruchtlos machen wird. Mein künftiges Leben soll mir indeßen nicht ganz unwillkommen seyn, wenn es 
+               mir das Räthsel lösen hilft, weshalb Brinkmann - immer noch an den 5000 klebt, da er doch nun endlich mit 
+               Sonnenklarheit eingesehen haben muß, daß ein langweiliger Jude, was man auch sagen mag, tausendmahl schrecklicher 
+               ist, als ein langweiliger Christ.
+            </p>
+         </div>
+         <div n="4" corresp="#bezbl">
+            <p>
+               Zu Ende der künftigen Woche komme ich zurück. Heute ist meine ganze, und die Gillysche Familie mit mir in 
+               <rs type="place" ref="#plKp">Cöpenick</rs>, beym <rs type="person" ref="#Her">Stadt-Musikus Herold</rs>. Es sind nur 
+               2 ganz kleine Meilen. ? Adieu.
+            </p>
+         </div>
+         <closer>
+            <signed rend="right">Gentz</signed>
+         </closer>
+         <postscript corresp="#khum">
+            <p>
+               Der kleine <rs type="person" ref="#Hum">Humboldt</rs> läßt grüßen aus <rs type="place" ref="#plJe">Jena</rs>.
+            </p>
+         </postscript>
+         <note xml:id="r4189-1">Datumsvermerk von Brinckmann: (ein Wort unleserlich) den 15. Juli 1792.</note>
+      </body>
+   </text>
+</TEI>

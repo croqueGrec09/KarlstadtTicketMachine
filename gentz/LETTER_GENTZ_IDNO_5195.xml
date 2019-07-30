@@ -1,0 +1,273 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader type="text">
+      <fileDesc xml:id="LETTER_GENTZ_5195">
+         <titleStmt>
+            <title>Friedrich von Gentz an Friedrich Vieweg, 24. März 1795</title>
+            <editor xml:id="edAG">Andreas Gálffy</editor>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <name>Forschungsstelle "Universitätssammlung Friedrich von Gentz"</name>
+               <link target="http://gentz-digital.ub.uni-koeln.de http://www.ub.uni-koeln.de/cdm/singleitem/collection/gentz/id/5194/"/>
+            </publisher>
+            <pubPlace>Cologne</pubPlace>
+            <idno type="Gentz-Edition-Number" n="5195"/>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <country>Germany</country>
+                  <settlement>Wiesbaden</settlement>
+                  <institution>Vieweg-Verlagsarchiv</institution>
+                  <repository>Briefsammlung 311 G, Gentz-Briefe</repository>
+                  <idno>Nr. 14</idno>
+               </msIdentifier>
+               <msContents>
+                  <summary>
+                     Äußere Umstände veranlassten Gentz auf sehr abenteuerlichem Wege dazu, 90 Friedrichsd'or Schulden zu machen, um 
+                     seinem Bruder unangenehme Forderungen zu ersparen. Zudem möchte er seinen Vater nicht noch in Unmut versetzen. 
+                     Mit vielen Worten beschreibt Gentz die missliche Lage als solche und seine Angst beziehungsweise Scham, den 
+                     Brief zu schreiben. Er versichert, dass er zu jeder gegenfprderung bereit ist, um die Schuld zu begleichen.
+                  </summary>
+               </msContents>
+            </msDesc>
+            <listBibl type="letterReferenced">
+               <bibl xml:id="c5195-1" corresp="#LETTER_GENTZ_NNNN">nicht bekannter Brief von Heinrich Gentz an Friedrich von Gentz, Dezember 1794</bibl>
+               <bibl xml:id="c5195-2" corresp="#LETTER_GENTZ_NNNN">nicht bekannter Brief von Heinrich Gentz an Friedrich von Gentz, Anfang 1795</bibl>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Masterarbeit zu Matrikelnummer 5584124</p>
+         </projectDesc>
+      </encodingDesc>
+      <profileDesc>
+         <creation>
+            <date when-iso="1795-03-24">24. März 1795</date>
+         </creation>
+        <langUsage>
+           <language ident="d">deutsch</language>
+        </langUsage>
+         <textClass>
+            <keywords scheme="internal"><!-- internal: innerhalb des besagten Briefs -->
+               <term>Brief</term>
+               <term>Schulden</term>
+               <term>Geld</term>
+            </keywords>
+            <keywords scheme="categorisation"><!-- Sinnabschnittseinteilung - relevant für den Fahrkartenautomaten! -->
+               <term xml:id="vwf">Vieweg - Freundschaft</term>
+               <term xml:id="gprl">Gentz - p(r)ekuniäre Lage</term>
+            </keywords>
+         </textClass>
+         <textDesc>
+            <channel>manuscript</channel>
+            <constitution type="single"/>
+            <derivation type="original"/>
+            <domain type="private"/>
+            <factuality type="fact"/>
+            <interaction type="partial"/>
+            <preparedness type="prepared"/>
+            <purpose type="inform"/>
+         </textDesc>
+         <particDesc>
+            <listPerson>
+               <!-- Sender und Adressat -->
+               <person role="sender" xml:id="Gen">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/118538489"/>
+                     <forename>Friedrich von</forename>
+                     <surname>Gentz</surname>
+                  </persName>
+               </person>
+               <person role="receiver" xml:id="FVW">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/119049546"/>
+                     <forename>Friedrich</forename>
+                     <surname>Vieweg</surname>
+                  </persName>
+               </person>
+               <!-- erwähnte Personen -->
+               <person role="named" xml:id="HGen">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/11900738X"/>
+                     <forename>Heinrich</forename>
+                     <surname>Gentz</surname>
+                  </persName>
+               </person>
+               <person role="named" xml:id="JFG">
+                  <persName>
+                     <ref/>
+                     <forename>Johann Friedrich</forename>
+                     <surname>Gentze</surname>
+                  </persName>
+               </person>
+            </listPerson>
+         </particDesc>
+         <settingDesc>
+            <listPlace>
+               <!-- Start- und Zielort -->
+               <place type="sender" xml:id="plBe">
+                  <country>
+                     <ref target="http://d-nb.info/gnd/4047194-9"/>
+                     <placeName>Preußen</placeName>
+                  </country>
+                  <settlement>
+                     <ref target="http://d-nb.info/gnd/4005728-8"/>
+                     <placeName>Berlin</placeName>
+                  </settlement>
+               </place>
+               <!-- erwähnte Orte -->
+               <place type="named" xml:id="plMu">
+                  <country>
+                     <ref target="http://d-nb.info/gnd/4005044-0"/>
+                     <placeName>Bayern</placeName>
+                  </country>
+                  <settlement>
+                     <ref target="http://d-nb.info/gnd/4127793-4"/>
+                     <placeName>München</placeName>
+                  </settlement>
+               </place>
+               <place type="named" xml:id="plLo">
+                  <country>
+                     <ref target="http://d-nb.info/gnd/4022153-2"/>
+                     <placeName>Vereinigtes Königreich</placeName>                
+                  </country>
+                  <settlement>
+                     <ref target="http://d-nb.info/gnd/4074335-4"/>
+                     <placeName>London</placeName>
+                  </settlement>
+               </place>
+               <place type="named" xml:id="plHo">
+                  <country>
+                     <ref target="http://d-nb.info/gnd/5245326-1"/>
+                     <placeName>Holland</placeName>
+                  </country>
+               </place>
+               <place type="named" xml:id="plJe">
+                  <country>
+                     <ref target="http://d-nb.info/gnd/4051194-7"/>
+                     <placeName>Sachsen-Weimar-Eisenach</placeName>
+                  </country>
+                  <settlement>
+                     <ref target="http://d-nb.info/gnd/4028557-1"/>
+                     <placeName>Jena</placeName>
+                  </settlement>
+               </place>
+            </listPlace>
+         </settingDesc>
+      </profileDesc>
+      <revisionDesc>
+         <change xml:id="init" when-iso="2018-02-15" who="#edAG">Erstauszeichnung und Normierung des Dokumentes im Rahmen der Masterarbeit der Matrikelnummer 5584124</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>     
+      <body>
+         <div n="1" corresp="#vwf">
+            <p>
+               Ich habe noch nie in meinem Leben einen Brief mit so außerordentlicher Bangigkeit, und so wahrer Seelenangst 
+               angefangen, als diesen. Es ist hier nicht bloß die Erfüllung oder Nicht-Erfüllung der Bitte, es ist die Bitte selbst, 
+               und die bittre Nothwendigkeit diese Bitte <emph rend="underlined">an Sie</emph>, mein redlicher und gütiger Freund, 
+               zu richten, was mich peinigt und schmerzt. Ich fürchte nur allzu sehr, daß ich mit meinen öftern Forderungen und 
+               Gesuchen an Sie das Maaß, das in allen menschlichen Verhältnissen seyn muß, schon überschritten habe. Sie sind 
+               indessen meine einzige Zuflucht, und, was auch daraus erfolgen mag, ich muß es wagen, Ihre Freundschaft noch einmal 
+               aufzufordern.
+            </p>
+         </div>
+         <div n="2" corresp="#gprl">
+            <p>
+               Folgendes ist die <emph rend="underlined">Sache</emph>: Schon vor Jahr und Tag schickte ich meinem 
+               <rs>reisenden Bruder</rs> 30 Friedrichsdor nach <rs type="place" ref="#plMu">München</rs>, 
+               weil er, trotz seiner <del rend="stroked">gut</del> wirklich guten Wirthschaft, mit dem was ihm 
+               <rs type="person" ref="#JFG">mein Vater</rs> schickte, nicht reichte, und doch keine außerordentliche Forderungen 
+               machen wollte, um nicht <rs type="person" ref="#JFG">meinem Vater</rs> die weitre Fortsetzung der Reise zu sehr zu 
+               verleiden. Sobald er nach <rs type="place" ref="#plLo">London</rs> gekommen war bat er mich aufs neue, ihm etwas zur 
+               Hülfe zu senden; da ich es aber nicht sogleich möglich machen konnte, er auch die Sache nicht so pressant darstellte, 
+               schrieb ich ihm, er sollte mir einen <pb/> Wechsel über 100 Friedrichsdor zukommen lassen, auf welchen ich ihm das 
+               Geld hier, so gut es gehen würde, aufnehmen wollte. Darauf erhielt ich im <date when-iso="1794-12-00">Dezember</date> 
+               den <rs type="citation" ref="#c5195-1">beyliegenden Brief</rs>. Sie werden bald sehen, daß der damit verbundne 
+               Wechsel, wenn gleich unter ehrlichen Leuten und Bekannten vielleicht nichts dagegen zu erinnern ist, nicht ganz so 
+               beschaffen seyn mag, daß ein fremder Geldwucherer ihn für hinlänglich gültig erkennen möchte. Weil der Mensch, auf 
+               den ich in diesem Geschäft gerechnet hatte, mir Ausstellungen dagegen machte, und auf diese Ausstellungen, besonders 
+               auf die Entfernung <rs type="person" ref="#HGen">meines Bruders</rs>, exorbitante Forderungen gründete, so nahm ich 
+               gegen ein Douceur, das ich ihm sogleich bezahlte 60 Friedrichsdor gegen meinen eignen Wechsel, und zwar damals à 3 
+               Monat auf, mit der Bedingung, daß es ihm nach Ablauf dieser Frist noch frey bleiben sollte, 
+               <rs type="person" ref="#HGen">meines Bruders</rs> Wechsel anzunehmen, wenn wir uns über die 
+               <del rend="stroked">xxx</del> Conditionen vereinigen könnten. Mittlerweile 
+               schrieb <rs type="person" ref="#HGen">mein Bruder</rs>, der von diesen Schwierigkeiten nichts wuste, abermals einen 
+               (durch die Stockung der Communication mit <rs type="place" ref="#plHo">Holland</rs> 6 Wochen zurückgehaltnen) 
+               <rs type="citation" ref="#c5195-2">Brief</rs>, worin er mich dringend noch um 30 Friedrichsdor bat, die ich ihm mit 
+               rückgehender Post sogleich versprach, theils weil ich das Geschäft für ihn, sollte es auch mit einigem Verlust seyn, 
+               nun doch einmal arrangiren <pb/> muste, theils weil ich im Nothfall auf das Geld aus 
+               <rs type="place" ref="#plJe">Jena</rs> rechnete - Alle diese Plane wurden aber zu Wasser; und als mein eigner 
+               Wechsel fällig war, wollte der bübische Innhaber desselben den von <rs type="person" ref="#HGen">meinem Bruder</rs> 
+               nicht anders als mit einem Verlust von 30 Friedrichs d'or, Schreibe <emph rend="underlined">Dreyßig</emph> 
+               Friedrichsdor annehmen, weil er ihn eigentlich nicht als Wechsel, sondern nur als Schuldschein brauchen könnte, als 
+               wenn dies ein Grund zu einer solchen Prellerey wäre. Nun stand und stehe ich zwischen zwey Feuern. Auf der einen 
+               Seite habe ich meinen eignen Wechsel zu bezahlen, wozu ich mir, da ich natürlich die Cession des andern gegen jene 
+               rasende Bedingung glatt abschlug, 8 Tage Frist aus bedang, die leider schon Sonntag abgelaufen war. Auf der andern 
+               Seite wartet <rs type="person" ref="#HGen">mein Bruder</rs> in Angst und Schmerzen von einer Minute zur andern auf 
+               das, was ich ihm versprach, und kan vielleicht nicht eher aus <rs type="place" ref="#plLo">London</rs>, als bis er 
+               das Geld hat. - Aus tausend wichtigen, für mich und <rs type="person" ref="#HGen">meinen Bruder</rs> wichtigen 
+               Ursachen, darf ich <rs>meinem Vater</rs>, wenn ich es auch sonst völlig entschlossen wäre, 
+               <add place="above">weder</add> den beiliegenden und noch viel weniger den 
+               <rs type="citation" ref="#c5195-1">ersten Brief</rs>, worauf dieser sich bezieht, zeigen. Ich muß es also 
+               <rs type="person" ref="#HGen">meinem Bruder</rs> völlig überlassen, nach seiner Rückkehr für meine Bedriedigung zu 
+               sorgen, und er hat dazu so viel Mittel in Händen, daß ich in dieser Rücksicht schlechterdings ohne allen Kummer seyn 
+               kan.
+            </p>
+            <p>
+               Bloß also meine <emph rend="underlined">gegenwärtige</emph> Noth, die wirklich eine der dringendsten in ihrer Art 
+               ist, zwingt mich, zu Ihrer Hülfe zu recurriren. Was Sie jetzt bey Sich denken mögen, sage ich mir alles. Ich bin 
+               Ihnen außer einem ansehnlichen Rückstande in Ihren Büchern eine Summe von 100 Friedrichsdor schuldig: ich verlange 
+               jetzt abermals 90 Friedrichsd'or von Ihnen - wo soll dies ein Ende nehmen ? etc. etc.
+            </p>
+            <p>
+               Ich weiß sehr wohl, daß ich durch alles mein Arbeiten und Schreiben, so ganz und uneingeschränkt ich mich auch jetzt 
+               Ihnen gewidmet habe, sobald nicht im Stande seyn würde, eine so ansehnliche Schuld abzutragen. Dies ist aber bey der 
+               jetzigen Bitte, auch wahrlich die Idee nicht. Hier ist die Frage nur <del rend="stroked">dies</del> die: ob Sie aus 
+               persönlichem Vertrauen zu mir, und um mir und <rs type="person" ref="#HGen">meinem Bruder</rs> 150 Reichsthaler zu 
+               sparen, mir jene 90 Friedrichsdor gegen Deponirung seines Wechsels, und gegen Entrichtung der Zinsen, die sie Ihnen 
+               selbst kosten würden, so lange bis <rs type="person" ref="#HGen">Heinrich</rs> zurück ist, und seine Sache 
+               berichtigen kan, also doch immer nur auf einige Monate anvertrauen wollen ?
+            </p>
+         </div>
+         <div n="3" corresp="#vwf">
+            <p>
+               Ich bin zu klug, und sage es mir zu oft, um es nicht endlich zu wissen, daß dergleichen häufige und wiederholte 
+               Anträge auf Liebesdienste dieser Art, den standhaftsten und edelsten Freund ermüden: und ich schwöre Ihnen daher bey 
+               dem heiligsten im Menschen, daß der Gedanke, durch diesen Schritt etwas in unserm Verhältniß zu stören und an Ihrer 
+               Freundschaft und Achtung zu verlieren, mir schrecklicher als jeder andre Einfluß ist, den die Verlegenheit, in der 
+               ich mich wegen dieser Sache befinde, auf mein Gemüth haben kan. <pb/>
+            </p>
+            <p>
+               Ist es Ihnen aber möglich - und vielleicht sehen Sie die Sache von einer weniger ungünstigen Seite an, als ich es 
+               besorge - nicht allein meine Bitte zu erfüllen und bald zu erfüllen, sondern auch mit voller Ueberzeugung versichern 
+               zu können, daß ich nichts dadurch bey Ihnen verlor, so sprechen Sie dies Wort des Trostes und des Friedens über mich 
+               aus. Ich glaube, daß die Umstände, welche diese Verlegenheit erzeugten, einigermaßen für mich sprechen. Ich bin auch 
+               wie von meiner Existenz überzeugt, daß weder <rs type="person" ref="#HGen">mein Bruder</rs> noch 
+               <rs type="person" ref="#JFG">mein Vater</rs> mich für das, was ich in dieser Sache that, strafen, oder je darin 
+               verlassen werden. Ich konnte mich also wenigstens mit dem besten Gewissen an Sie wenden, und hoffe zu Gott, nun doch 
+               sobald nicht wieder in den Fall einer solchen Bitte zu gerathen.
+            </p>
+            <p>
+               Ich bin indem ich diesen Brief schließe etwas ruhiger als ich war, da ich ihn anfing. Ich fühle im Grunde, daß ich 
+               soviel Ursach nicht habe, zu verzagen, wenn von dem Verhältniß zwischen Ihnen und mir die Rede ist. Sie haben mir 
+               Proben einer seltnen Freundschaft gegeben. Im Grunde verlange ich diesmal etwas geringres als Sie mir schon 
+               leisteten. Könnte doch nur die Wiedervergeltung Ihrer Dienste so promt seyn, als die Sehnsucht danach in meinem 
+               Herzen, groß, wahr und lebendig ist. <pb/>Ich füge nun noch eine Kleinigkeit hinzu. Wenn Sie den Entschluß fassen, 
+               mich zu erhören, so besorgen Sie doch, falls es Ihnen irgend möglich ist, die Sache sogleich. Da ich Sie mit den 
+               Umständen genau und ausführlich bekannt gemacht habe, werden Sie diesen Zusatz gewiß entschuldigen.
+            </p>
+            <p>
+               Leben Sie wohl ! Werden Sie meiner nicht müde; und, wenn Sie können, lieben Sie mich ferner.
+            </p>
+         </div>
+         <closer>
+            <signed rend="right">Gentz</signed>
+            <dateline>den <date when-iso="1795-03-24">24<span rend="sup">ten</span> März</date>.</dateline>
+         </closer>
+      </body>
+   </text>
+</TEI>

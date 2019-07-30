@@ -1,0 +1,268 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader type="text">
+      <fileDesc xml:id="LETTER_GENTZ_2205">
+         <titleStmt>
+            <title>Friedrich von Gentz an Elisabeth Graun, 12. Februar 1785</title>
+            <editor xml:id="edAG">Andreas Gálffy</editor>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <name>Forschungsstelle "Universitätssammlung Friedrich von Gentz"</name>
+               <link target="http://gentz-digital.ub.uni-koeln.de http://www.ub.uni-koeln.de/cdm/singleitem/collection/gentz/id/2204/"/>
+            </publisher>
+            <pubPlace>Cologne</pubPlace>
+            <idno type="Gentz-Edition-Number" n="2205"/>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <country>Poland</country>
+                  <settlement>Cracow</settlement>
+                  <institution>Biblioteka Jagiellońska</institution>
+                  <repository>Handschriftenabtelung</repository>
+                  <collection>Varnhagensammlung der ehemaligen Preußischen Bibliothek</collection>
+                  <idno>Karton 66</idno>
+               </msIdentifier>
+               <msContents>
+                  <summary>
+                     Gentz hat Probleme mit seinen Augen, sodass er den Vorrat Augen-Gläser in Anspruch nehmen will, den der 
+                     Ehemann von Elisabeth Graun hinterlassen hat. Gentz schwärmt für Elisabeth Graun, freut sich, dass sie 
+                     glücklich ist und ist es (deshalb?) selbst. Er beschreibt seinen derzeitigen Zustand mit der Metapher 
+                     eines Schiffes zur See - und das Glück wie einen geistigen Wind.
+                     Am nächsten Tag wird Gentz Elisabeth Graun treffen; zusammen mit Le Noble und den Schwinks.
+                     Elisabeth Graun geht an diesem Tag in ein Konzert, wozu Gentz ihr viel Spaß wünscht. Er selber geht auf 
+                     einen Ball, worauf er sich nicht sonderlich freut. Als Beilage findet sich eine Korrekturlektüre Gentz'.
+                     Er korrigiert eine Schrift Grauns, die Gentz für sehr schön und reizvoll hält. Gentz merkt ausführlich 
+                     grammatische Fehler an und meint, dass diese Schrift in ihrer Schönheit entstellten.
+                  </summary>
+               </msContents>
+            </msDesc>
+            <listBibl type="preprints">
+               <biblStruct>
+                  <monogr>
+                     <editor>
+                        <persName>
+                           <ref target="http://d-nb.info/gnd/130953075"/>
+                           <forename>Friedrich Carl</forename>
+                           <surname>Wittichen</surname>
+                        </persName>
+                        <persName>
+                           <ref/> <!-- kein GND-Eintrag -->
+                           <forename>Ernst</forename>
+                           <surname>Salzer</surname>
+                        </persName>
+                     </editor>
+                     <title>Briefe von und an Friedrich von Gentz. 4 Bde.</title>
+                     <imprint>
+                        <publisher>Oldenbourg</publisher>
+                        <pubPlace>München, Berlin</pubPlace>
+                        <date>1909-1913</date>
+                     </imprint>
+                     <biblScope unit="volume" n="1">
+                        I
+                     </biblScope>
+                     <biblScope unit="page" from="14" to="15">
+                        Nr. 1 (teilweise)
+                     </biblScope>
+                  </monogr>
+               </biblStruct>
+               <biblStruct>
+                  <monogr>
+                     <editor>
+                        <persName>
+                           <ref target="http://d-nb.info/gnd/117325791"/>
+                           <forename>Gustav</forename>
+                           <surname>Schlesier</surname>
+                        </persName>
+                     </editor>
+                     <title>Schriften von Friedrich von Gentz. Ein Denkmal. 5 Bde.</title>
+                     <imprint>
+                        <publisher>Verlag von Heinrich Wolff</publisher>
+                        <pubPlace>Mannheim</pubPlace>
+                        <date>1838-1840</date>
+                     </imprint>
+                     <biblScope unit="volume" n="1">
+                        I
+                     </biblScope>
+                     <biblScope unit="page" from="24" to="25">
+                        Nr. 1 (teilweise)
+                     </biblScope>
+                  </monogr>
+               </biblStruct>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Masterarbeit zu Matrikelnummer 5584124</p>
+         </projectDesc>
+      </encodingDesc>
+      <profileDesc>
+         <creation>
+            <date when-iso="1785-02-12">12. Februar 1785</date>
+         </creation>
+        <langUsage>
+           <language ident="d">deutsch</language>
+        </langUsage>
+         <textClass>
+            <keywords scheme="internal"><!-- internal: innerhalb des besagten Briefs -->
+               <term>Brief</term>
+               <term>Ehrbrief</term>
+               <term>Graun</term>
+               <term>Literatur</term>
+               <term>Philosophie</term>
+            </keywords>
+            <keywords scheme="categorisation"><!-- Sinnabschnittseinteilung - relevant für den Fahrkartenautomaten! -->
+               <term xml:id="gg">Gentz - Gesundheit</term>
+               <term xml:id="veg">Verhältnis Elisabeth Graun</term>
+               <term xml:id="lvm">Literatur vermischt</term>
+            </keywords>
+         </textClass>
+         <textDesc>
+            <channel>manuscript</channel>
+            <constitution type="single"/>
+            <derivation type="original"/>
+            <domain type="private"/>
+            <factuality type="fact"/>
+            <interaction type="partial"/>
+            <preparedness type="prepared"/>
+            <purpose type="inform"/>
+         </textDesc>
+         <particDesc>
+            <listPerson>
+               <!-- Sender und Adressat -->
+               <person role="sender" xml:id="Gen">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/118538489"/>
+                     <forename>Friedrich von</forename>
+                     <surname>Gentz</surname>
+                  </persName>
+               </person>
+               <person role="receiver" xml:id="Gra">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/123518733"/>
+                     <forename>Elisabeth</forename>
+                     <surname>Graun</surname>
+                  </persName>
+               </person>
+               <!-- erwähnte Personen -->
+               <person role="named" xml:id="RRGra">
+                  <persName>
+                     <ref/><!-- kein GND-Eintrag -->
+                     <forename>Karl Heinrich</forename>
+                     <surname>Graun</surname>
+                     <roleName type="office">Regierungsrat</roleName>
+                  </persName>
+               </person>
+               <person role="named" xml:id="lno">
+                  <persName>
+                     <ref/>
+                     <forename>David oder Jeremias</forename>
+                     <surname>Le Noble</surname>
+                     <certainty locus="name">
+                        <desc>ist unklar! Entnommen aus: Gause, Fritz. Friedrich Gentz in Königsberg. In: Jahrbuch der Schlesischen Friedrich-Wilhelms-Universität zu Breslau, Band XVIII. 1973. Berlin: Duncker &amp; Humblot. S. 325</desc>
+                     </certainty>
+                  </persName>
+               </person>
+            </listPerson>
+         </particDesc>
+         <settingDesc>
+            <listPlace>
+               <!-- Start- und Zielort -->
+               <place type="sender" xml:id="plKo">
+                  <country>
+                     <ref target="http://d-nb.info/gnd/4047194-9"/>
+                     <placeName>Preußen</placeName>  
+                  </country>
+                  <settlement>
+                     <ref target="http://d-nb.info/gnd/4031541-1"/>
+                     <placeName>Königsberg</placeName>
+                  </settlement>
+               </place>
+            </listPlace>
+         </settingDesc>
+      </profileDesc>
+      <revisionDesc>
+         <change xml:id="init" when-iso="2018-01-26" who="#edAG">Erstauszeichnung und Normierung des Dokumentes im Rahmen der Masterarbeit der Matrikelnummer 5584124</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>     
+      <body>
+         <div n="1" corresp="#gg">
+            <p>
+               Wollten Sie wol die Gütigkeit haben, beste <rs type="person" ref="#Gra">Frau Regierungs-Räthin</rs>, mir den ganzen 
+               Vorrath von <emph rend="underlined">Augen-Gläsern</emph>, den Ihr <rs type="person" ref="#RRGra">Herr Gemahl</rs> hier 
+               gelaßen hat, zu schicken ? Ich werde mir mit Ihrer Erlaubniß nur Eine davon aussuchen und Ihnen die übrigen 
+               sogleich zurücksenden.
+            </p>
+            <p>
+               Ich kan diese Welt nicht länger mit bloßen Augen ansehen. Sie wird gar zu bizarr, gar zu fürchterlich-sonderbar. 
+               Vielleicht wird sie sich durch ein Glas beßer ausnehmen. Ich wünschte vor einiger Zeit, noch blinder zu werden, 
+               als ich war. Was wünscht man nicht Alles, wenn man noch ein Herz hat. Jetzt ist dieses Herz so voll, so beklommen, 
+               so unruhig, daß ich es nun endlich dahin gebracht habe, gar nicht mehr auf sein Toben zu hören, sondern blos der 
+               sanftern Stimme der Vernunft folge, die mir heute das zuruft, was gestern Ihr Mund so oft wiederholte: 
+               <emph rend="underlined">"Es wird sich Alles finden"</emph>.
+            </p>
+         </div>
+         <div n="2" corresp="#veg">
+            <p>
+               Ich bin jetzt so glüklich, und was noch mehr ist, <emph rend="underlined">auch Sie sind es</emph>, wie der Schiffer, 
+               deßen Schiff im heftigsten Sturm still und ruhig steht, blos darum weil die Winde aus allen Himmels-Gegenden 
+               <emph rend="underlined">zugleich</emph> darauf loswüthen, so daß kein einziger es nach einer Seite schmeißen kan. Aber 
+               Weh uns, wenn Einer dieser Winde aufhört, und dann der gegenüberstehende uns nicht vorbereitet findet, und mit 
+               aller Macht unsre Seegel zerreißt, und unsre Masten zerbricht ! Ich denke, Sie verstehen das ganze Gleichniß ? - 
+               O ! laßt uns den Hafen suchen, oder wenigstens unser Schiff so befestigen, daß es über den Orkan selbst lachen kan !
+            </p>
+            <p>
+               Morgen nach der Kirche sehen Sie mich bey sich. Ich bringe <rs type="person" ref="#lno">le Noble</rs> mit, wenn er 
+               Muth genung hatte Ihre Gegenwart und die Gegenwart der Schwinken zugleich aus zu halten. Ich hätte ihn nicht. 
+               Morgen wenigstens noch nicht. Dafür bin ich mir aber auch recht gut bewußt, daß ich einer der schwächsten 
+               Sterblichen bin.
+            </p>
+            <p>
+               Mich Ihrer gütigen Freundschaft empfehlend wünsche ich Ihnen viel Vergnügen im Gerlachschen Concert. Ich werde es 
+               auf dem Ball suchen - und nicht finden.
+            </p>
+         </div>
+         <closer>
+            <dateline rend="left">den <date when-iso="1785-02-12">12t. Febr. 1785.</date></dateline>
+            <signed rend="right">Gentze.</signed>
+         </closer>
+         <postscript corresp="#lvm">
+            <p>
+               <title>Drukfehler einer Schrift, die keine Druckfehler verdient.</title>
+               In ihr<emph rend="underlined">en</emph> Arm<emph rend="underlined">en</emph> sich wünschten - lege - 
+               in ih<emph rend="underlined">r e</emph> Arm<emph rend="underlined">e</emph>. - Sonst müßte <emph rend="underlined">seyn</emph> 
+               oder <emph rend="underlined">zusagen</emph> dabey stehen.
+               Weg ! Unterm Tisch <emph rend="underlined">im</emph> staubicht et. lege - Unter<emph rend="underlined">n</emph> Tisch, 
+               <emph rend="underlined">in</emph> etc. - Bewegung nach Etwas regiert <emph rend="underlined">ohne Ausnahme</emph> den 
+               Accusativ. Laße Mich erzählen - lege - laße <emph rend="underlined">Mir</emph> erzählen - cui narratur ? Von dem 
+               Gedanken an <emph rend="underlined">Ihr</emph> lege - an <emph rend="underlined">Sie</emph>. - ebenfalls der Accusativ der 
+               Bewegung, obgleich einer metaphorischer.
+               Auf Ihnen (oder auf Sie ?) Antwort; auf Sie - Ach ! Aber die herrliche Verbindung, in welcher diese Frage vorkömmt - 
+               Sie hätte so schwer seyn können daß ich bis Brandenburg hätte fahren oder laufen müßen, um sie aufzulösen, und doch 
+               würde ich mit derselben herzlichen Freude, das Wort <emph rend="underlined">auf Sie</emph> geschrieben haben, mit der 
+               ich es eben jetzt vorhersetzte.
+               Ich kenne <emph rend="underlined">mir</emph> keine - lege: Ich kenne oder finde keine <emph rend="underlined">an mir</emph>. - 
+               Das erste wäre ein unerlaubter Gallicisme. Wen ich <emph rend="underlined">mich</emph> verschaffen soll lege. Wenn ich 
+               <emph rend="underlined">mir</emph> verschaffen soll. Und ist ebenfalls, nach einer Regel ohne Ausnahme; es ist der bekannte Dativus 
+               Commodi. Wer bürgt <emph rend="underlined">ihn</emph>, bürgt <emph rend="underlined">mich</emph> lege, <emph>ihm</emph> und 
+               <emph rend="underlined">mir</emph>. Die Frage ist hier cui bono ? es ist gl. wieder der Dativus commodi.
+            </p>
+            <p>
+               Glüklicher Sterblicher ! wenn deine guten und liebenswürdigen Eigenschaften, die Fehler die du in deinem Leben 
+               begehen wirst, immer eben so bedecken, als das Edle und Vortrefliche deiner Gesinnungen, und der Reitz deiner 
+               seelenvollen Ausdrücke, selbst vor meinem, in diesem Fache, so scharfen und critischen Auge, [nach] diese 
+               Sprachfehler verhüllte. Erst als ich den ganzen Brief zum dritten Mahle las, sah ich, dem sonst die Flecken dieser 
+               Art auf den ersten flüchtigen Blick nicht entwischen können, daß dieser meisterhafte Brief 8 Sprachfehler enthalte. 
+               Zweymal hatte ich ihn verschlungen ehe ich einen Andern, als den 4ten bemerkte, weil der - ich weis nicht recht 
+               woher - mir der auffallendste ist.
+            </p>
+         </postscript>
+         <closer>
+            <signed rend="right">G.</signed>
+         </closer>
+      </body>
+   </text>
+</TEI>

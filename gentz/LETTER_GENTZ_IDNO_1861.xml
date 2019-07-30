@@ -1,0 +1,267 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc xml:id="LETTER_GENTZ_1861">
+         <titleStmt>
+            <title>Friedrich von Gentz an Karl Gustav von Brinckmann, Anfang 1798</title>
+            <editor xml:id="edAG">Andreas Gálffy</editor>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <name>Forschungsstelle "Universitätssammlung Friedrich von Gentz"</name>
+               <link target="http://gentz-digital.ub.uni-koeln.de http://www.ub.uni-koeln.de/cdm/singleitem/collection/gentz/id/1860/"/>
+            </publisher>
+            <pubPlace>Cologne</pubPlace>
+            <idno type="Gentz-Edition-Number" n="1861"/>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <country>Sweden</country>
+                  <settlement>Trolle-Ljungby</settlement>
+                  <institution>Archiv des Grafen Wachtmeister</institution>
+                  <repository>Nachlaß Brinckmann, Ausländ. Briefwechsel</repository>
+                  <idno>G 5</idno>
+               </msIdentifier>
+               <msContents>
+                  <summary>
+                     Der Bücherhandel geht weiter. Gentz scheltet über den Kauf von Vortag, zweitens dass er das dreibändige Werk 
+                     "Ondini Scriptores etc." nicht mitgekauft hat. Gentz möchte es für drei Reichstaler überlassen und kündigt ein 
+                     Ende des Verkaufs an, da er seine Bibliothek beisammen halten will. Der Hudibras ist für fünf Reichstaler zu 
+                     haben. Brinckmann soll in den kommenden Tagen Geld an Gentz zahlen. Gilly hat Fränkel und einige andere 
+                     Bekannte in Paris gesehen. Die Fränkel würde sich bei dem fehlenden Umgang sehr langweilen. Gentz schickt einen 
+                     Zettel an Bolt.
+                  </summary>
+               </msContents>
+            </msDesc>
+            <listBibl type="preprints">
+               <biblStruct>
+                  <monogr>
+                     <editor>
+                        <persName>
+                           <ref target="http://d-nb.info/gnd/130953075"/>
+                           <forename>Friedrich Carl</forename>
+                           <surname>Wittichen</surname>
+                        </persName>
+                        <persName>
+                           <ref /> <!-- kein GND-Eintrag -->
+                           <forename>Ernst</forename>
+                           <surname>Salzer</surname>
+                        </persName>
+                     </editor>
+                     <title>Briefe von und an Friedrich von Gentz, 4 Bde.</title>
+                     <imprint>
+                        <publisher>Oldenbourg</publisher>
+                        <pubPlace>München, Berlin</pubPlace>
+                        <date>1909-1913</date>
+                     </imprint>
+                     <biblScope unit="volume" n="2">
+                        II
+                     </biblScope>
+                     <biblScope unit="page" from="63" to="63">
+                        Nr. 72 (tlw.)
+                     </biblScope>
+                  </monogr>
+               </biblStruct>
+            </listBibl>
+            <listBibl type="alludedWorks">
+               <bibl xml:id="a1861-1" corresp="#LETTER_GENTZ_NNNN">dreibändiges Werk namens "Ondini Scriptores etc." eines nicht näher benannten Autors</bibl>
+               <bibl xml:id="a1861-2" corresp="#LETTER_GENTZ_NNNN">nicht näher benanntes Werk von Hudibras</bibl>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Masterarbeit zu Matrikelnummer 5584124</p>
+         </projectDesc>
+      </encodingDesc>
+      <profileDesc>
+         <creation>
+            <date when-iso="1798-00-00">Anfang 1798</date>
+         </creation>
+        <langUsage>
+           <language ident="d">deutsch</language>
+        </langUsage>
+         <textClass>
+            <keywords scheme="internal"><!-- internal: innerhalb des besagten Briefs -->
+               <term>Brief</term>
+               <term>Bibliothek</term>
+               <term>Hudibras</term>
+               <term>Fränkel</term>
+               <term>Humboldt</term>
+               <term>Paris</term>
+            </keywords>
+            <keywords scheme="categorisation"><!-- Sinnabschnittseinteilung - relevant für den Fahrkartenautomaten! -->
+               <term xml:id="bibl">Bibliothek</term>
+               <term xml:id="gprl">Gentz - p(r)ekuniäre Lage</term>
+               <term xml:id="kgil">Gilly</term>
+               <term xml:id="vkgvb">Verhältnis Karl Gustav von Brinckmann</term>
+            </keywords>
+         </textClass>
+         <textDesc>
+            <channel>manuscript</channel>
+            <constitution type="single"/>
+            <derivation type="original"/>
+            <domain type="private"/>
+            <factuality type="fact"/>
+            <interaction type="partial"/>
+            <preparedness type="prepared"/>
+            <purpose type="inform"/>
+         </textDesc>
+         <particDesc>
+            <listPerson>
+               <!-- Sender und Adressat -->
+               <person role="sender" xml:id="Gen">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/118538489"/>
+                     <forename>Friedrich von</forename>
+                     <surname>Gentz</surname>
+                  </persName>
+               </person>
+               <person role="receiver" xml:id="KGvB">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/116519770"/>
+                     <forename>Carl Gustav von</forename>
+                     <surname>Brinckmann</surname>
+                  </persName>
+               </person>
+               <!-- erwähnte Personen -->
+               <person role="named" xml:id="FVW">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/119049546"/>
+                     <forename>Friedrich</forename>
+                     <surname>Vieweg</surname>
+                  </persName>
+               </person>
+               <person role="named" xml:id="DJF">
+                  <persName>
+                     <ref/>
+                     <forename>David Joseph</forename>
+                     <surname>Fraenkel</surname>
+                  </persName>
+               </person>
+               <person role="named" xml:id="FrF">
+                  <persName>
+                     <ref/>
+                     <forename/>
+                     <surname>Fraenkel</surname>
+                     <roleName type="family">Frau von David Joseph Fraenkel</roleName>
+                  </persName>
+               </person>
+               <person role="named" xml:id="FGil">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/118539345"/>
+                     <forename>Friedrich</forename>
+                     <surname>Gilly</surname>
+                  </persName>
+               </person>
+               <person role="named" xml:id="JMd">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/116877227"/>
+                     <forename>Joseph</forename>
+                     <surname>Mendelssohn</surname>
+                  </persName>
+               </person>
+               <person role="named" xml:id="DrV">
+                  <persName>
+                     <ref/>
+                     <forename/>
+                     <surname>Veit</surname>
+                  </persName>
+               </person>
+               <person role="named" xml:id="Bol">
+                  <persName>
+                     <ref/>
+                     <forename/>
+                     <surname>Bolt</surname>
+                  </persName>
+               </person>
+            </listPerson>
+         </particDesc>
+         <settingDesc>
+            <listPlace>
+               <!-- Start- und Zielort -->
+               <place type="sender" xml:id="plBe">
+                  <country>
+                     <ref target="http://d-nb.info/gnd/4047194-9"/>
+                     <placeName>Preußen</placeName>
+                  </country>
+                  <settlement>
+                     <ref target="http://d-nb.info/gnd/4005728-8"/>
+                     <placeName>Berlin</placeName>
+                  </settlement>
+               </place>
+               <!-- erwähnte Orte -->
+               <place type="named" xml:id="plPa">
+                  <country>
+                     <ref target="http://d-nb.info/gnd/4018145-5"/>
+                     <placeName>Frankreich</placeName>  
+                  </country>
+                  <settlement>
+                     <ref target="http://d-nb.info/gnd/4044660-8"/>
+                     <placeName>Paris</placeName>
+                  </settlement>
+               </place>
+            </listPlace>
+         </settingDesc>
+      </profileDesc>
+      <revisionDesc>
+         <change xml:id="init" when-iso="2018-02-28" who="#edAG">Erstauszeichnung und Normierung des Dokumentes im Rahmen der Masterarbeit der Matrikelnummer 5584124</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div n="1" corresp="#bibl">
+            <p>
+               Sie haben ganz entsetzlich Unrecht wenn Sie über den gestrigen Kauf klagen: aber freilich hätten Sie, um sich von dem 
+               wahren Werthe der erstandnen Artikel aufs lebhafteste zu überzeugen, auch noch folgendes höchst wichtige 
+               <emph rend="underlined">litterärische</emph> Werk:
+            </p>
+            <lg>
+               <l><rs type="citation" ref="#a1861-1">Ondini Scriptores etc.</rs></l>
+            </lg>
+            <p>
+               In 3 Foliobänden, <emph rend="underlined">Pergament</emph> mit grün und rothem Titel, 
+               <emph rend="underlined">sehr gut</emph> gehalten worin <emph rend="underlined">alles</emph>, also auch das Lob jener 
+               Werke zu finden ist, mit kaufen sollen. Für 3 Reichsthaler laße ich es Ihnen nach. Es ist die höchste Zeit. Bald 
+               werden keine Bücher mehr verkauft. Ich habe gestern beim Anordnen entdeckt, daß ich doch im Grunde noch unendlich 
+               reich bin, und es also der Mühe werth ist, den Rest zusammen zu halten. <pb/>
+            </p>
+            <p>
+               Den <rs type="citation" ref="#a1861-2">Hudibras</rs> laße ich Ihnen für 5 Reichsthaler ob ich gleich Ihr Gebot 
+               unerwartet niedrig finde, Sie auch Selbst recht gut wissen, daß es ein schlechtes Gebot war. Aber ich muß mir denn 
+               doch Ihre Kundschaft nicht verschlagen.
+            </p>
+         </div>
+         <div n="2" corresp="#gprl">
+            <p>
+               Nun noch eine Bitte. Ich weiß, daß es Ihnen, wenn <rs type="person" ref="#DJF">Fränkel</rs> einmal hier ist, völlig 
+               gleich gilt, ob Sie mir das Geld einige Tage früher oder später zahlen. Sie thäten mir einen sehr großen Gefallen, 
+               wenn Sie bewirken könnten, daß ich es noch dieser Tage, und vor Ausgang dieser Woche erhielte.
+            </p>
+         </div>
+         <div n="3" corresp="kgil">
+            <p>
+               Wissen Sie denn, daß die <rs type="person" ref="#FrF">Fränkel</rs> in <rs type="place" ref="#plPa">Paris</rs> ist ? 
+               - <rs type="person" ref="#FGil">Mein Schwager</rs> <pb/> Gilly hat sie gesehn und gesprochen, so wie auch den 
+               <rs type="person" ref="#JMd">Mendelssohn</rs> und den 
+               <rs type="person" ref="#DrV"><emph rend="underlined">Veit</emph></rs> (Ist dies mon David ?) Er schreibt mir, sie 
+               sähe erbärmlich aus, und würde sich sehr ennujiren weil sie keine Bekanntschaften, außer Leuchsenrings, die weniger 
+               als keine wäre, zu haben schiene.
+            </p>
+         </div>
+         <div n="4" corresp="#vkgvb">
+            <p>
+               Der Zettel an <rs type="person" ref="#Bol">Bolt</rs> erfolgt hiebey. Ihr Bedienter soll benachrichtigt werden wo er 
+               wohnt.
+            </p>
+         </div>
+         <closer>
+            <salute rend="right">Gentz.</salute>
+         </closer>
+      </body>
+   </text>
+</TEI>

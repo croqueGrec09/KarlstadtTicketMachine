@@ -1,0 +1,216 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc xml:id="LETTER_GENTZ_4473">
+         <titleStmt>
+            <title>Friedrich von Gentz an William Wyndham Lord Grenville, 2. Juni 1800</title>
+            <editor xml:id="edAG">Andreas Gálffy</editor>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <name>Forschungsstelle "Universitätssammlung Friedrich von Gentz"</name>
+               <link target="http://gentz-digital.ub.uni-koeln.de http://www.ub.uni-koeln.de/cdm/singleitem/collection/gentz/id/4472/"/>
+            </publisher>
+            <pubPlace>Cologne</pubPlace>
+            <idno type="Gentz-Edition-Number" n="4473"/>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <country>Germany</country>
+                  <settlement>Berlin</settlement>
+                  <institution>Geheimes Staatsarchiv Preußischer Kulturbesitz</institution>
+                  <repository>I. HA, Rep 92</repository>
+                  <collection>Nachlaß Wittichen/Salzer</collection>
+               </msIdentifier>
+               <msContents>
+                  <summary>
+                     Gentz beschreibt den Moment, in welchem er die Schreiben erhielt, als einen der schönsten seines Lebens. Es war 
+                     für ihn ein Höhepunkt, dass eines der Menschen; für die er am meisten Bewunderung empfindet, sein Werk 
+                     bewundere, und noch dazu der König ebenfalls eine so hohe Meinung dazu hat. Im Postscript gibt es einen Zusatz 
+                     Garlikes, der seinerseits seine Hochachtung und Ehre ausdrückt, mit welcher er Gentz dienen durfte.
+                  </summary>
+               </msContents>
+            </msDesc>
+            <listBibl type="defRep">
+               <biblStruct xml:id="p4473-1" corresp="GBk-0060">
+                  <monogr>
+                     <author>
+                        <persName>
+                           <ref target="http://d-nb.info/gnd/118538489"/>
+                           <forename>Friedrich von</forename>
+                           <surname>Gentz</surname>
+                        </persName>
+                     </author>
+                     <title>Essai sur l'etat actuel de l'administration des finances et de la richesse nationale de la Grande Bretagne</title>
+                     <imprint>
+                        <pubPlace>London</pubPlace>
+                        <publisher>J. Debrett</publisher>
+                        <date>1800</date>
+                     </imprint>
+                  </monogr>
+                  <ptr target="https://books.google.de/books?id=R_bXZfXXWVoC"/>
+               </biblStruct>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Masterarbeit zu Matrikelnummer 5584124</p>
+         </projectDesc>
+      </encodingDesc>
+      <profileDesc>
+         <creation>
+            <date when-iso="1800-06-02">2. Juni 1800</date>
+         </creation>
+        <langUsage>
+           <language ident="f">französisch</language>
+        </langUsage>
+         <textClass>
+            <keywords scheme="internal"><!-- internal: innerhalb des besagten Briefs -->
+               <term>Brief</term>
+               <term>Grenville</term>
+               <term>Dankschreiben</term>
+               <term>Finanzen</term>
+            </keywords>
+            <keywords scheme="categorisation"><!-- Sinnabschnittseinteilung - relevant für den Fahrkartenautomaten! -->
+               <term xml:id="efgb">Essay über die Finanzen Großbritanniens</term>
+            </keywords>
+         </textClass>
+         <textDesc>
+            <channel>manuscript</channel>
+            <constitution type="single"/>
+            <derivation type="original"/>
+            <domain type="private"/>
+            <factuality type="fact"/>
+            <interaction type="partial"/>
+            <preparedness type="prepared"/>
+            <purpose type="inform"/>
+         </textDesc>
+         <particDesc>
+            <listPerson>
+               <!-- Sender und Adressat -->
+               <person role="sender" xml:id="Gen">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/118538489"/>
+                     <forename>Friedrich von</forename>
+                     <surname>Gentz</surname>
+                  </persName>
+               </person>
+               <person role="receiver" xml:id="WWG">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/119098903"/>
+                     <forename>William Wyndham</forename>
+                     <surname>Grenville</surname>
+                  </persName>
+               </person>
+               <!-- erwähnte Personen -->
+               <person role="named" xml:id="Glk">
+                  <persName>
+                     <ref />
+                     <forename/>
+                     <surname>Garlike</surname>
+                  </persName>
+               </person>
+               <person role="named" xml:id="KGeIII">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/118716913"/>
+                     <forename>Georg III.</forename>
+                     <surname/>
+                     <roleName type="office">König von England</roleName>
+                  </persName>
+               </person>
+            </listPerson>
+         </particDesc>
+         <settingDesc>
+            <listPlace>
+               <!-- Start- und Zielort -->
+               <place type="sender" xml:id="plBe">
+                  <country>
+                     <ref target="http://d-nb.info/gnd/4047194-9"/>
+                     <placeName>Preußen</placeName>
+                  </country>
+                  <settlement>
+                     <ref target="http://d-nb.info/gnd/4005728-8"/>
+                     <placeName>Berlin</placeName>
+                  </settlement>
+               </place>
+               <place type="receiver" xml:id="plLo">
+                  <country>
+                     <ref target="http://d-nb.info/gnd/4022153-2"/>
+                     <placeName>Vereinigtes Königreich</placeName>                
+                  </country>
+                  <settlement>
+                     <ref target="http://d-nb.info/gnd/4074335-4"/>
+                     <placeName>London</placeName>
+                  </settlement>
+               </place>
+               <!-- erwähnte Orte -->
+               <place type="named" xml:id="plEu">
+                  <geogName type="continent">
+                     <ref target="http://d-nb.info/gnd/4015701-5"/>
+                     <placeName>Europa</placeName>
+                  </geogName>
+               </place>
+            </listPlace>
+         </settingDesc>
+      </profileDesc>
+      <revisionDesc>
+         <change xml:id="init" when-iso="2018-03-05" who="#edAG">Erstauszeichnung und Normierung des Dokumentes im Rahmen der Masterarbeit der Matrikelnummer 5584124</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <opener>
+            <dateline rend="right"><rs type="place" ref="#plBe">Berlin</rs> Ce <date when-iso="1800-06-02">2 Juin 1800</date></dateline>
+            <salute rend="left">My Lord !</salute>
+         </opener>
+         <div n="1" corresp="#efgb">
+            <p>
+               Le moment où <rs type="person" ref="#Glk">Monsieur Garlike</rs> m'a remis la lettre dont Vous avez eu la grâce de 
+               m'honorer, a été pour moi un des plus doux de ma vie. Le suffrage d'un des premiers hommes de 
+               <rs type="place" ref="#plEu">l'Europe</rs>, d'un ministre dont j'avais tant de fois admiré dans le silence le génie 
+               et les hautes qualités, était un succès infiniment plus brillant, que je ne l'aurais jamais osé promettre à mon 
+               <rs type="citation" ref="#p4473-1">faible essai</rs>, un succès qui ne laisse plus rien à désirer à l'écrivain assez 
+               heureux pour en avoir gouté le charme.
+            </p>
+            <p>
+               Et cependant Vous avez su encore ajouter quelque chose à ce hauteur, My Lord, en m'annonçant le gracieux accueil que 
+               <rs type="person" ref="#KGeIII">le Roi</rs> a daigné accorder à <rs type="citation" ref="#p4473-1">mon ouvrage</rs>, 
+               et la sublime générosité avec laquelle <rs type="person" ref="#KGeIII">Sa Majesté</rs> a bien voulu recompenser un 
+               zêle qui était déja plus que recompensé en <pb/> ne lui déplaisant pas. Les expressions me manquent absolument pour 
+               pouvoir vous peindre les sentiments que cette grâce aussi inattendue que grande et touchante a éveillé dans mon âme.
+            </p>
+            <p>
+               S'il m'était permis, My Lord, d'espérer, que Vous voudriez bien dans cette circonstance si heureuse, si honorable 
+               pour moi, être l'interprête d'un faible individu, je Vous supplierais de mettre aux pieds de 
+               <rs type="person" ref="#KGeIII">Sa Majesté</rs> l'hommage d'une reconnaissance sans bornes, d'une reconnaissance qui 
+               m'attacherai éternellement à un souverain, dont j'ai toujours adoré les vertus, la bonté et la sagesse et à un pays 
+               que j'ai toujours regardé comme le dernier espoir de l'humanité, comme le dernier rempart contre tous les maux qui la 
+               menacent, et comme la base de tous les lieus qui lui restent.
+            </p>
+            <p>
+               Pénétré jusqu'au fond de mon coeur la prix que je dois attacher à Votre protection gracieuse, je Vous prie en <pb/> 
+               même temps d'agréer avec bienveillance l'expression du dévouement inviolable et du profond respect avec lequel je 
+               serai pour la vie
+            </p>
+         </div>
+         <closer>
+            <salute rend="right">My Lord !</salute>
+            <salute rend="right">Votre très humble très obéissant</salute>
+            <salute rend="right">et très dévoué serviteur</salute>
+            <signed rend="right">Gentz.</signed>
+         </closer>
+         <postscript resp="#Glk" xml:lang="en" corresp="#efgb">
+            <p>
+               I beg leave to assure you of the sincere pleasure which I had in acquitting myself of this commission in favour of so 
+               deserving a man, and so warm a friend to the good cause as I have reason to believe Mister Gentz to be.
+            </p>
+         </postscript>
+      </body>
+      <note xml:id="r1051-1">Abschrift</note>
+   </text>
+</TEI>

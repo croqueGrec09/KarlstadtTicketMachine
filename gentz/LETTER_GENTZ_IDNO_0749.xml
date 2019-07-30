@@ -1,0 +1,383 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc xml:id="LETTER_GENTZ_0749">
+         <titleStmt>
+            <title>Friedrich von Gentz an Elisabeth Graun, 20. Januar 1787</title>
+            <editor xml:id="edAG">Andreas Gálffy</editor>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <name>Forschungsstelle "Universitätssammlung Friedrich von Gentz"</name>
+               <link target="http://gentz-digital.ub.uni-koeln.de http://www.ub.uni-koeln.de/cdm/singleitem/collection/gentz/id/0748/"/>
+            </publisher>
+            <pubPlace>Cologne</pubPlace>
+            <idno type="Gentz-Edition-Number" n="0749"/>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <country>Poland</country>
+                  <settlement>Cracow</settlement>
+                  <institution>Biblioteka Jagiellońska</institution>
+                  <repository>Handschriftenabtelung</repository>
+                  <collection>Varnhagensammlung der ehemaligen Preußischen Bibliothek</collection>
+                  <idno>Karton 66</idno>
+               </msIdentifier>
+               <msContents>
+                  <summary>
+                     Die Geschäfte in Berlin nehmen Gentz zunehmend ein und entsprechend ist auch die Kommunikation zwischen ihm 
+                     und Elisabeth Graun abgeebbt. Gentz bekräftigt daraufhin die Ewigkeit und Unauflöslichkeit ihres Bundes. Er 
+                     erinnert sie daran, dass er sie nicht vergessen hat und vergessen kann. Gentz beklagt die Umstände in Berlin, 
+                     in denen er sich befindet: eintöniger Alltag und jämmerliche - vergängliche - Belustigungen. Er will kein 
+                     Alltagsmensch werden. Inmitten seinen Klagen denkt Gentz auch, dass er kein guter Trostspender sein könne. 
+                     Auch könne er Frau Graun keinen Vorwurf machen wegen der ausbleibenden Briefe - er selbst sei so tief in den 
+                     Geschäften, dass er kaum zu etwas Anderem käme. Und dennoch sehnt er sich nach Elisabeth Graun, kaum ein Moment 
+                     vergeht, in welchem er nicht an sie dächte. Nichtsdestotrotz schildert er seine Lage in Berlin als glücklich; 
+                     die beruflichen Aussichten seien glänzend und Gentz könne in einem halben Jahr Kriegsrat sein. Dennoch ist 
+                     Berlin für ihn trist, weil er keine ausfüllende Beschäftigung hat und daher seinen kulturellen Ansprüchen nicht 
+                     Genüge tun kann. Und auch diese kulturelle Leere - die Gentz mit seinen sinnlosen Beschäftigungen nicht 
+                     ausfüllen könne - trägt zur Sehnsucht Gentz' nach Frau Graun bei. Gentz erfährt von der Schwiegermutter, dass 
+                     Frau Graun erneut Mutter werde; möglicherweise ist das ein Grund, dass die Briefe ihrerseits ausbleiben. Gentz 
+                     sieht sich als sehr krank und in den Briefen der Frau Graun ein Heilmittel.
+                  </summary>
+               </msContents>
+            </msDesc>
+            <listBibl type="preprints">
+               <biblStruct>
+                  <monogr>
+                     <editor>
+                        <persName>
+                           <ref target="http://d-nb.info/gnd/130953075"/>
+                           <forename>Friedrich Carl</forename>
+                           <surname>Wittichen</surname>
+                        </persName>
+                        <persName>
+                           <ref/> <!-- kein GND-Eintrag -->
+                           <forename>Ernst</forename>
+                           <surname>Salzer</surname>
+                        </persName>
+                     </editor>
+                     <title>Briefe von und an Friedrich von Gentz. 4 Bde.</title>
+                     <imprint>
+                        <publisher>Oldenbourg</publisher>
+                        <pubPlace>München, Berlin</pubPlace>
+                        <date>1909-1913</date>
+                     </imprint>
+                     <biblScope unit="volume" n="1">
+                        I
+                     </biblScope>
+                     <biblScope unit="page" from="97" to="100">
+                        Nr. 22
+                     </biblScope>
+                  </monogr>
+               </biblStruct>
+               <biblStruct>
+                  <monogr>
+                      <editor>
+                          <persName>
+                              <ref target="http://d-nb.info/gnd/117325791"/>
+                              <forename>Gustav</forename>
+                              <surname>Schlesier</surname>
+                          </persName>
+                      </editor>
+                      <title>Schriften von Friedrich von Gentz. Ein Denkmal. 5 Bde.</title>
+                      <imprint>
+                          <publisher>Verlag von Heinrich Wolff</publisher>
+                          <pubPlace>Mannheim</pubPlace>
+                          <date>1838-1840</date>
+                      </imprint>
+                      <biblScope unit="volume" n="1">
+                          I
+                      </biblScope>
+                      <biblScope unit="page" from="83" to="86">
+                          Nr. 10
+                      </biblScope>
+                  </monogr>
+               </biblStruct>
+               <biblStruct>
+                  <monogr>
+                     <author>
+                        <persName>
+                           <ref target="http://d-nb.info/gnd/117121150"/>
+                           <forename>Margarete</forename>
+                           <surname>von Olfers</surname>
+                        </persName>
+                     </author>
+                     <title>Elisabeth v. Staegemann. Lebensbild einer deutschen Frau 1761-1835</title>
+                     <imprint>
+                        <publisher>Koehler &amp; Amelang</publisher>
+                        <pubPlace>Leipzig</pubPlace>
+                        <date>1939</date>
+                     </imprint>
+                     <biblScope unit="page" from="66" to="69">
+                        66-69 (teilweise)
+                     </biblScope>
+                  </monogr>
+               </biblStruct>
+            </listBibl>
+            <listBibl type="letterReferenced">
+               <bibl xml:id="c0483-1" corresp="#LETTER_GENTZ_NNNN">Friedrich von Gentz an Elisabeth Graun, Dezember 1785</bibl>
+               <bibl xml:id="c0483-2" corresp="#LETTER_GENTZ_NNNN">nicht bekannter Brief von Friedrich von Gentz an Regierungsrat Karl Heinrich Graun</bibl>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Masterarbeit zu Matrikelnummer 5584124</p>
+         </projectDesc>
+      </encodingDesc>
+      <profileDesc>
+         <creation>
+            <date when-iso="1787-01-20">20. Januar 1787</date>
+         </creation>
+        <langUsage>
+           <language ident="d">deutsch</language>
+        </langUsage>
+         <textClass>
+            <keywords scheme="internal"><!-- internal: innerhalb des besagten Briefs -->
+               <term>Brief</term>
+               <term>Graun</term>
+               <term>Sehnsucht</term>
+               <term>Liebe</term>
+               <term>Beamtentätigkeit</term>
+               <term>Regierungsrat Graun</term>
+            </keywords>
+            <keywords scheme="categorisation"><!-- Sinnabschnittseinteilung - relevant für den Fahrkartenautomaten! -->
+               <term xml:id="veg">Verhältnis Elisabeth Graun</term>
+               <term xml:id="bezbt">Beziehungen zu Berlin - Beamtentätigkeit</term>
+               <term xml:id="bezbl">Beziehungen zu Berlin - Leute</term>
+            </keywords>
+         </textClass>
+         <textDesc>
+            <channel>manuscript</channel>
+            <constitution type="single"/>
+            <derivation type="original"/>
+            <domain type="private"/>
+            <factuality type="fact"/>
+            <interaction type="partial"/>
+            <preparedness type="prepared"/>
+            <purpose type="inform"/>
+         </textDesc>
+         <particDesc>
+            <listPerson>
+               <!-- Sender und Adressat -->
+               <person role="sender" xml:id="Gen">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/118538489"/>
+                     <forename>Friedrich von</forename>
+                     <surname>Gentz</surname>
+                  </persName>
+               </person>
+               <person role="receiver" xml:id="Gra">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/123518733"/>
+                     <forename>Elisabeth</forename>
+                     <surname>Graun</surname>
+                  </persName>
+               </person>
+               <!-- erwähnte Personen -->
+               <person role="named" xml:id="Mue">
+                  <persName>
+                     <ref/>
+                     <forename/>
+                     <surname>Münzmeister</surname>
+                  </persName>
+               </person>
+               <person role="named" xml:id="Geo">
+                  <persName>
+                     <ref/>
+                     <forename/>
+                     <surname>George</surname>
+                  </persName>
+               </person>
+               <person role="named" xml:id="Hgr">
+                  <persName>
+                     <ref/>
+                     <forename>Hannchen</forename>
+                     <surname>Graun</surname>
+                     <roleName type="family">Schwiegermutter der Elisabeth Graun</roleName>
+                  </persName>
+               </person>
+               <person role="named" xml:id="Gsw">
+                  <persName>
+                     <ref/>
+                     <forename/>
+                     <surname>Gossow</surname>
+                  </persName>
+               </person>
+            </listPerson>
+         </particDesc>
+         <settingDesc>
+            <listPlace>
+               <!-- Start- und Zielort -->
+               <place type="sender" xml:id="plBe">
+                  <country>
+                     <ref target="http://d-nb.info/gnd/4047194-9"/>
+                     <placeName>Preußen</placeName>  
+                  </country>
+                  <settlement>
+                     <ref target="http://d-nb.info/gnd/4005728-8"/>
+                     <placeName>Berlin</placeName>
+                  </settlement>
+               </place>
+               <place type="receiver" xml:id="plKo">
+                  <country>
+                     <ref target="http://d-nb.info/gnd/4047194-9"/>
+                     <placeName>Preußen</placeName>  
+                  </country>
+                  <settlement>
+                     <ref target="http://d-nb.info/gnd/4031541-1"/>
+                     <placeName>Königsberg</placeName>
+                  </settlement>
+               </place>
+               <!-- erwähnte Orte -->
+            </listPlace>
+         </settingDesc>
+      </profileDesc>
+      <revisionDesc>
+         <change xml:id="init" when-iso="2018-01-28" who="#edAG">Erstauszeichnung und Normierung des Dokumentes im Rahmen der Masterarbeit der Matrikelnummer 5584124</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <opener>
+            <dateline><rs type="place" ref="#plBe">Berlin</rs> den <date when-iso="1787-01-20">20<span rend="sup">ten</span> Januar. 1787.</date></dateline>
+         </opener>
+         <div n="1" corresp="#veg">
+            <p>
+               Aus dieser großen, furchtbaren Einöde der Welt, hebe ich mein Haupt und meine Stimme endlich einmal zu Ihnen auf, 
+               theure, erste, einzige, unvergeßliche Freundinn, und sehe - ach ! mit Thränen, die mich fast vom Schreiben hindern, 
+               auf den - unermeßlichen - Zwischenraum, der uns trennt.
+            </p>
+            <p>
+               <emph rend="underlined">Uns ? - Uns ?</emph> - Nein ! <emph rend="underlined">Uns</emph> trennt Nichts. Unsre Seelen 
+               hängen zusammen, und keine Ewigkeit zerreißt dies himmlische Band: aber die Maße von Staub mit der sie verbunden 
+               wurden, und die Umstände, in die sie geworfen - oft geschleudert sind, o ! meine Graunin ! - die sind mächtiger, 
+               scheinen mächtiger zu seyn, als wir. <emph rend="underlined">Als wir ?</emph> - Sollte das seyn ?
+            </p>
+            <p>
+               Glauben Sie nicht - o ! bey dem Schimmer von Glückseeligkeit worauf Sie vielleicht noch hoffen - glauben Sie nicht 
+               etwan in einer unglückseeligen Stunde der Verblendung, daß ich Sie vergeße, und daß ich glücklich bin. Ich bin es 
+               nicht. Ich werde es nicht seyn. Ohne Sie glücklich seyn - ich würde roth werden vor Scham, wenn der alberne Gedanke 
+               mich ergriffe. Ich konnte und sollte nur mit Ihnen glücklich seyn. - Ich werde nie glücklich werden.
+            </p>
+         </div>
+         <div n="2" corresp="#bezbt">
+            <p>
+               Aber in diesem unaufhörlichen kraftlosen Streben nach einem Schattenbild von Glückseeligkeit, das mich täuscht, 
+               verirrt sich mein elender, zerrütteter Geist, in tausend Labyrinthe, elender, geschmackloser Beschäftigungen, und 
+               falscher, jämmerlicher Freuden. Meine schönen Gefühle werden stumpf: meine kostbaren Ideale verfliegen, meine 
+               herrlichen Thränen vertrocknen: ich soll, ich soll ein Alltags-Mensch werden; aber der Uebergang zu dieser elenden 
+               Verwandlung, ist mit Wehen verknüpft, die bey der Auflösung meines Wesens oft nicht schmerzhafter seyn könnten, und 
+               ich bin in Gefahr, das einzige Gut <add place="above">zu verliehren</add>, was mir noch aus der schönen Welt, die 
+               ich verlaßen soll, mitzunehmen erlaubt ward, - den Verstand, den die wohlthätige Natur mir gab. <pb/>
+            </p>
+            <p>
+               Wundern Sie Sich noch, daß ich Ihnen so lange nicht schrieb ? Was sollte ich Ihnen schreiben ? Sind Sie glücklich ? 
+               - Fort ! Sie schicken Sich nicht für mich ! - Sind Sie unglücklich ? Bey mir wächst kein Trost für Ihre Wunden: ich 
+               habe mit Akten und mit Berlinschen Narrheiten zu thun. Wo könnte ich Zeit für meine Freunde haben ?
+            </p>
+         </div>
+         <div n="3" corresp="#veg">
+            <p>
+               Angebetete, göttliche Frau ! Sie allein, Sie, Sie hätten der Schutz-Engel meines Lebens seyn müßen. War es mir 
+               vergönnt, mit Ihnen - abscheulicher Gedanke <emph rend="underlined">jetzt !</emph> - nein ! nur 
+               <emph rend="underlined">bey</emph> Ihnen, nur unter Ihren Augen meine Tage hinfließen zu sehen, ich weiß es, ich 
+               weiß es: dann wäre ich glücklich gewesen. Meine köstlichsten Gefühle nähren und stärken, meine moralischen Ideen 
+               realisiren, meine herzliche Liebe zur Tugend <emph rend="underlined">beleben</emph> und halten, das konnten nur
+               Sie ! - Ich werde nie glücklich seyn.
+            </p>
+            <p>
+               Es vergeht kein Tag, keine Stunde keines Tages, wo ich nicht an Sie, vortreflichste Freundinn, mit Wärme und 
+               Lebhaftigkeit dächte. Aber was hilfts ? Ich sehe, ich höre Sie nicht: ich weiß nicht einmal, wie Ihr Schiksal mit 
+               Ihnen umgeht. Wenn sie todt wären, wäre ich nicht unglüklicher.
+            </p>
+            <p>
+               Nicht unglücklicher ? - Das fehlte noch, um meine Verirrung, meine Raserey vollständig zu machen. Nicht 
+               unglücklicher, wenn der letzte Strahl von Hoffnung, der letzte, chimärische Funke von Licht in der Ferne, 
+               ausgegangen wäre, wie die letzte Lampe im dunkeln Kerker ? Nicht unglücklicher, wenn ich auch nicht den trocknen, 
+               matten, traurigen Trost mehr hätte: zu denken, daß ich mit Ihnen in Einer Welt lebe ? - Erhabne Vorsicht ! rechne 
+               mir unter meinen andern Thorheiten auch diese, gnädig, nicht zu, daß ich glaubte, ich könnte nicht 
+               <emph rend="underlined">unglücklicher</emph> werden !
+            </p>
+            <p>
+               Was schließen Sie aus dem, was Sie bisher lasen ? Was Sie wollen, alles, was Sie wollen, nur nicht, daß ich Ihrer 
+               nicht werth wäre. Nein ! wer Sie so verehrt, wie ich, verdiente - ja ! - einen der ersten Plätze in Ihrem Herzen. 
+               Ich habe ihn, ich weis es, ich habe ihn, und ich will ihn nicht verliehren, so lange ich mich selbst noch nicht ganz 
+               verlohren habe. <pb/>
+            </p>
+         </div>
+         <div n="4" corresp="#bezbl">
+            <p>
+               Auch den Schluß sollen Sie nicht aus meinen bittern Klagen ziehen, daß ich unter dem Druck äußerlicher Umstände oder 
+               Unglücksfälle litte, noch weniger, daß meine tiefe, entsetzliche Unzufriedenheit die Strafe des Gewißens für 
+               begangne Sünden wäre. Nein ! Meine Lage ist glücklich - wie etwa <rs type="person" ref="#Gsw">Gossow</rs>, der 
+               <rs type="person" ref="#Mue">Münzmeister</rs> <del rend="stroked">xxx</del> das Wort nehmen - meine Aussichten 
+               sind so glänzend daß ich vielleicht in einem halben Jahre KriegsRath seyn werde - und mein Gewißen ist rein, weil 
+               ich, wenn gleich nicht nach strenger Moralität, doch auch nie so handle, daß ich mich mit großen Vorwürfen beladen 
+               sollte.
+            </p>
+            <p>
+               Aber mein unaufhörlicher Kummer, und mein unabläßiger Vorwurf ist das: daß ich den Geschmack an wahren Vergnügungen, 
+               weil ich ihn nicht cultiviren kan, verliehre, daß ich hier kein Herz, daß ich in der ganzen Welt kein Herz finden 
+               kan, was so mit mir harmonirt, als das Ihrige: daß ich oft die Freude suche, wo ich sie nicht finde, bey jedem 
+               fehlgeschlagnen Versuch muthloser werde, daß ich nicht Kraft genung habe, blos mir zu leben, nicht 
+               <emph rend="underlined">lebendige</emph> Ueberzeugung genung, daß ich die Glückseeligkeit, die nicht in mir liegt 
+               nirgends anders antreffen werde, und daß ich mich daher oft in einem Wirbel falscher Freuden, zweckloser 
+               Beschäftigungen, und grundleerer Hoffnungen verstricken laße, woraus mich Nichts ziehen könnte, als ein Gespräch von 
+               einigen Stunden mit Ihnen.
+            </p>
+         </div>
+         <div n="5" corresp="#veg">
+            <p>
+               Daß ich glücklich seyn <emph rend="underlined">kan</emph>, daß mein Sehnen nach Glückseeligkeit nicht etwa leere, 
+               hypochondrische Grille eines nimmersatten Herzens ist, das mitten im gewünschten Genuß nach Veränderung seufzte, das 
+               habe ich bewiesen, weil ich bey Ihnen glücklich gewesen bin, weil ich Nichts zu begehren übrig hatte, als ich bey 
+               Ihrer Herzens-Ergießung in dem stillen Hause Ihrer Mutter, bey dem freundlichen Frühstück, durch Ihre Hand bereitet 
+               und geheiligt, bey so manchen [glatte] herrlichen Stunden, durch Ihre bloße Gegenwart geheiligt, fühlte, daß ich 
+               <emph rend="underlined">dazu</emph> gebohren wäre, weil ich jetzt mit herzlicher Wollust daran zurückdenke. Ich 
+               konnte also glücklich seyn. Ich werde nie glücklich werden.
+            </p>
+            <p>
+               Wären Sie immer bey mir gewesen - ehmals, eh ich Sie kannte - so hätte ich mir die Dehmüthigung erspart, ein Mädchen 
+               <pb/> zu lieben, die nicht werth war, daß ich ihr Freund war, weit unter mir in allen wahren Vorzügen, die mich 
+               elend gemacht hat, da sie nicht einmal verdiente, mich glücklich zu machen. Wären Sie jetzt bey mir, so würde ich 
+               nicht so oft meines Rangs in der Schöpfung vergeßen, und aus Verzweiflung meine Freundschaft - und Gott gebe nur 
+               nicht meine Liebe - verschleudern, weil ich sie nicht nach Würden verschenken kan.
+            </p>
+            <p>
+               Ich habe seit dem Augenblick unsrer letzten Trennung nur einen einzigen Brief von Ihnen gesehen. Er war 5 Wochen 
+               alt. Laval brachte mir ihn. Verantworten Sie Sich darüber, warum Sie mich so lange schmachten ließen. Gute Frau ! 
+               wie kan <emph rend="underlined">ich</emph> das verlangen, da ich es selbst nicht im Stande bin. Aber aus Großmuth, 
+               aus Freundschaft: Schreiben Sie bald an mich !
+            </p>
+            <p>
+               Ich höre von <rs type="person" ref="#Hgr">Ihrer Schwiegermutter</rs>, daß Sie bald aufs Neue Mutter seyn werden. 
+               Wenn das vielleicht die Ursach ist, warum Sie so lange nicht an mich schrieben, so ist Ihre Entschuldigung ehrwürdig, 
+               aber vollkommen gültig ist sie doch nicht.
+            </p>
+            <p>
+               Sehen Sie, theure liebe Frau, diesen Ausbruch starker und drückender Empfindungen nicht etwa für den Brief an, den 
+               ich Ihnen schuldig bin. Nein ! er ist blos die Einleitung dazu. Ich werde ihn nächstens anfangen und dann auch in 
+               einem Strich vollenden. Ich habe das gegenwärtige Blatt durch <rs type="person" ref="#Geo">George</rs> bestellen 
+               laßen, weil ich hoffe, daß er seinen Auftrag prompt und gut erfüllen wird. Das kan er ja wol recht gern thun, um 
+               sich ein klein Verdienst bey einer Person zu erwerben, die er anbetet.
+            </p>
+            <p>
+               Leben Sie wol, einzige Freundinn ! Ihr Freund ist sehr krank, und wer weis, wenn Sie und der Himmel ihn nicht 
+               retten, ob er je wieder genesen wird. Aber gesund, krank oder todt, für Sie wird er immer leben, und wenn alle 
+               Bilder der Welt schon vor seinen Augen verschwinden, so wird ihn das Ihrige nicht verlaßen, das seine Freude und 
+               sein Trost in der Welt war.
+            </p>
+         </div>
+         <closer>
+            <salute rend="right">Ihr ewig ergebenster</salute>
+            <signed rend="right">Gentze.</signed>
+         </closer>
+      </body>
+   </text>
+</TEI>

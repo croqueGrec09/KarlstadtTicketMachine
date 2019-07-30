@@ -1,0 +1,224 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader type="text">
+      <fileDesc xml:id="LETTER_GENTZ_3765">
+         <titleStmt>
+            <title>Friedrich von Gentz an Elisabeth Graun, 14. Februar 1785</title>
+            <editor xml:id="edAG">Andreas Gálffy</editor>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <name>Forschungsstelle "Universitätssammlung Friedrich von Gentz"</name>
+               <link target="http://gentz-digital.ub.uni-koeln.de http://www.ub.uni-koeln.de/cdm/singleitem/collection/gentz/id/3764/"/>
+            </publisher>
+            <pubPlace>Cologne</pubPlace>
+            <idno type="Gentz-Edition-Number" n="3765"/>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <country>Poland</country>
+                  <settlement>Cracow</settlement>
+                  <institution>Biblioteka Jagiellońska</institution>
+                  <repository>Handschriftenabtelung</repository>
+                  <collection>Varnhagensammlung der ehemaligen Preußischen Bibliothek</collection>
+                  <idno>Karton 66</idno>
+               </msIdentifier>
+               <msContents>
+                  <summary>
+                     Gentz hat vor, viele Leute zu sehen: Ma(de)m(oi)selle Schwink, Elisabeth Graun, Coelestinen, Dengels ... Am 
+                     Ende wird sich alles finden, so zitiert Gentz Elisabeth Graun. Eine große Ansammlung wird sich am besagten 
+                     Abend zusammenfinden, wo Le Noble um Coelestinen werben wird.
+                  </summary>
+               </msContents>
+            </msDesc>
+            <listBibl type="preprints">
+               <biblStruct>
+                  <monogr>
+                     <editor>
+                        <persName>
+                           <ref target="http://d-nb.info/gnd/130953075"/>
+                           <forename>Friedrich Carl</forename>
+                           <surname>Wittichen</surname>
+                        </persName>
+                        <persName>
+                           <ref/> <!-- kein GND-Eintrag -->
+                           <forename>Ernst</forename>
+                           <surname>Salzer</surname>
+                        </persName>
+                     </editor>
+                     <title>Briefe von und an Friedrich von Gentz. 4 Bde.</title>
+                     <imprint>
+                        <publisher>Oldenbourg</publisher>
+                        <pubPlace>München, Berlin</pubPlace>
+                        <date>1909-1913</date>
+                     </imprint>
+                     <biblScope unit="volume" n="1">
+                        I
+                     </biblScope>
+                     <biblScope unit="page" from="15" to="16">
+                        Nr. 2
+                     </biblScope>
+                  </monogr>
+               </biblStruct>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Masterarbeit zu Matrikelnummer 5584124</p>
+         </projectDesc>
+      </encodingDesc>
+      <profileDesc>
+         <creation>
+            <date when-iso="1785-02-14">14. Februar 1785</date>
+         </creation>
+        <langUsage>
+           <language ident="d">deutsch</language>
+        </langUsage>
+         <textClass>
+            <keywords scheme="internal"><!-- internal: innerhalb des besagten Briefs -->
+               <term>Brief</term>
+               <term>Graun</term>
+               <term>Treffen</term>
+            </keywords>
+            <keywords scheme="categorisation"><!-- Sinnabschnittseinteilung - relevant für den Fahrkartenautomaten! -->
+               <term xml:id="bezkg">Beziehungen zu Königsberg</term>
+               <term xml:id="kschw">Schwink</term>
+               <term xml:id="kdgl">Dengel</term>
+               <term xml:id="kcoe">Coelestinen</term>
+            </keywords>
+         </textClass>
+         <textDesc>
+            <channel>manuscript</channel>
+            <constitution type="single"/>
+            <derivation type="original"/>
+            <domain type="private"/>
+            <factuality type="fact"/>
+            <interaction type="partial"/>
+            <preparedness type="prepared"/>
+            <purpose type="inform"/>
+         </textDesc>
+         <particDesc>
+            <listPerson>
+               <!-- Sender und Adressat -->
+               <person role="sender" xml:id="Gen">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/118538489"/>
+                     <forename>Friedrich von</forename>
+                     <surname>Gentz</surname>
+                  </persName>
+               </person>
+               <person role="receiver" xml:id="Gra">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/123518733"/>
+                     <forename>Elisabeth</forename>
+                     <surname>Graun</surname>
+                  </persName>
+               </person>
+               <!-- erwähnte Personen -->
+               <person role="named" xml:id="coe">
+                  <persName>
+                     <ref/><!-- kein GND-Eintrag -->
+                     <forename>Coelestine</forename>
+                     <surname>Schwinck</surname>
+                     <roleName type="address">Mademoiselle</roleName>
+                  </persName>
+               </person>
+               <person role="named" xml:id="den">
+                  <persName>
+                     <ref/>
+                     <forename/>
+                     <surname>Dengel</surname>
+                  </persName>
+               </person>
+               <person role="named" xml:id="lnt">
+                  <persName>
+                     <ref/>
+                     <forename/>
+                     <surname>Le Notre</surname>
+                  </persName>
+                  <certainty locus="name">
+                     <desc>Es ist unklar, ob es sich hier um einen Verschreiber handelt und eigentlich Le Noble gemeint war.</desc>
+                  </certainty>
+                  <alt type="persName" corresp="#lno"/>
+               </person>
+            </listPerson>
+         </particDesc>
+         <settingDesc>
+            <listPlace>
+               <!-- Start- und Zielort -->
+               <place type="sender" xml:id="plKo">
+                  <country>
+                     <ref target="http://d-nb.info/gnd/4047194-9"/>
+                     <placeName>Preußen</placeName>  
+                  </country>
+                  <settlement>
+                     <ref target="http://d-nb.info/gnd/4031541-1"/>
+                     <placeName>Königsberg</placeName>
+                  </settlement>
+               </place>
+            </listPlace>
+         </settingDesc>
+      </profileDesc>
+      <revisionDesc>
+         <change xml:id="init" when-iso="2018-01-26" who="#edAG">Erstauszeichnung und Normierung des Dokumentes im Rahmen der Masterarbeit der Matrikelnummer 5584124</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <front>
+         <p>
+            Der Frau RegierungsRath.
+            Graun Wohlgebohren.
+         </p>
+         <figure>
+            <desc>Siegelrest</desc>
+         </figure>
+      </front>
+      <body>
+         <div n="1" corresp="#bezkg">
+            <p>
+              <rs type="person" ref="#coe">Mamsell Schwink</rs> hat mir gerade nicht gesagt, daß sie allein bey Ihnen seyn 
+               wollte; ich weis blos daß sie mir beym Weggehen sagte: "Machen Sie doch daß wir <date when-iso="1785-02-15">Morgen</date>
+               da seyn können, und Sie kommen doch dann auch ?" Sie können also in so fern getrost Dengels bitten laßen, ich will 
+               auch <rs type="person" ref="#lnt">le Notre</rs> mitbringen. Aber - Ach ! was war das für ein Aber ! was meynen 
+               Sie wol, wie sich diese Gesellschaft zusammen divertiren wird ? Werden Sie es auch vertragen, mit Ruhe und 
+               Gleichmüthigkeit ansehen können, wenn <rs type="person" ref="#lnt">le Notre</rs> seine erste persönliche 
+               Bewerbung bey <rs type="person" ref="#coe">Coelestinen</rs> anbringen wird ? Und das wird denn doch 
+               wahrscheinlicher Weise geschehen ! Heute geschehen !
+            </p>
+         </div>
+         <div n="2" corresp="#kschw">
+            <p>
+               Sonst habe ich keine Einwendungen dagegen. Die <rs type="person" ref="#coe">Schwinken</rs> muß ihn doch jetzt 
+               einmal sprechen, und was liegt daran ob das heute oder <date when-iso="1785-02-15">Morgen</date> oder 
+               <date when-iso="1785-02-22">in 8 Tagen</date> geschieht; vielleicht wird es dem guten Mädchen selbst leichter es in 
+               der Gegenwart ihrer besten Freunde zu thun. Wenn Sie also nicht für Sich selbst Skrupel haben, so dächte ich, Sie 
+               richteten es so ein wie Sie mir geschrieben haben.
+            </p>
+         </div>
+         <div n="3" corresp="#kdgl">
+            <p>
+               Muth ! Muth ! - das sey unsre Loosung ! O ! ich brauche ihn, wie Sie, vielleicht noch mehr. Ich bin nahe, sehr nahe 
+               dem Versinken. Ich habe seit 8 Tagen <emph rend="underlined">viel</emph> gethan. Aber nun bin ich auch müde, müd bis 
+               zum Sterben. Doch - wir wollen heute Abend vergnügt seyn, und alle Melancholie fortschicken. Nicht wahr ? - 
+               <rs type="person" ref="#den">Dengel</rs> wird mir heute - im guten Verstande - furchtbar seyn. Doch die 
+               Beruhigung, gut gehandelt zu haben sichert uns gegen Alles, und - 
+               <emph rend="underlined">es wird sich am Ende Alles finden.</emph>
+            </p>
+         </div>
+         <div n="4" corresp="#kcoe">
+            <p>
+               Es ist schönes Wetter, ich werde Sie <date when-iso="1785-02-14">heute</date> sprechen, ich werde 
+               <rs type="person" ref="#coe">Coelestinen</rs> <date when-iso="1785-02-14">heute</date> sprechen; ich bin gesund. 
+               Mein Gott ! und ich sollte noch misvergnügt seyn ? Nein ! Ich will dem gottlosen Gram entsagen, und es für kein 
+               Unglük halten ein Mensch zu seyn; wer es dafür hält wird nie ein Gott werden.
+            </p>
+         </div>
+         <closer>
+            <dateline rend="left">Den <date when-iso="1785-02-14">14t Febr. 1785.</date></dateline>
+            <signed rend="right">Gentze.</signed>
+         </closer>
+      </body>
+   </text>
+</TEI>

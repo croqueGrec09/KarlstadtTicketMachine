@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader type="text">
+      <fileDesc xml:id="LETTER_GENTZ_2229">
+         <titleStmt>
+            <title>Friedrich von Gentz an Wulff Strelitz, 4./5 Dezember 1795</title>
+            <editor xml:id="edAG">Andreas Gálffy</editor>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <name>Forschungsstelle "Universitätssammlung Friedrich von Gentz"</name>
+               <link target="http://gentz-digital.ub.uni-koeln.de http://www.ub.uni-koeln.de/cdm/singleitem/collection/gentz/id/2228/"/>
+            </publisher>
+            <pubPlace>Cologne</pubPlace>
+            <idno type="Gentz-Edition-Number" n="2229"/>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <country>Germany</country>
+                  <settlement>Wiesbaden</settlement>
+                  <institution>Vieweg-Verlagsarchiv</institution>
+                  <repository>Gentz-Materialien</repository>
+                  <idno>I, 9</idno>
+               </msIdentifier>
+               <msContents>
+                  <summary>
+                     Ein Wechsel über 500 Reichstaler in Friedrichsd'or à fünf Reichstaler zu sechs Prozent Zinsen, fällig am 
+                     4. April 1796. Als Sicherheit ist ein Wechsel über 500 Reichstaler (gleichlautender Wechsel) von Heinrich Gentz 
+                     am 28. November 1795 ausgestellt.
+                  </summary>
+               </msContents>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Masterarbeit zu Matrikelnummer 5584124</p>
+         </projectDesc>
+      </encodingDesc>
+      <profileDesc>
+         <creation>
+            <date when-iso="1795-12-04">4./5. Dezember 1795</date>
+         </creation>
+        <langUsage>
+           <language ident="d">deutsch</language>
+        </langUsage>
+         <textClass>
+            <keywords scheme="internal"><!-- internal: innerhalb des besagten Briefs -->
+               <term>Wechsel</term>
+               <term>Wulff Strelitz</term>
+               <term>Schulden</term>
+            </keywords>
+            <keywords scheme="categorisation"><!-- Sinnabschnittseinteilung - relevant für den Fahrkartenautomaten! -->
+               <term xml:id="gprl">Gentz - p(r)ekuniäre Lage</term>
+            </keywords>
+         </textClass>
+         <textDesc>
+            <channel>manuscript</channel>
+            <constitution type="single"/>
+            <derivation type="original"/>
+            <domain type="private"/>
+            <factuality type="fact"/>
+            <interaction type="partial"/>
+            <preparedness type="unprepared"/>
+            <purpose type="inform"/>
+         </textDesc>
+         <particDesc>
+            <listPerson>
+               <!-- Sender und Adressat -->
+               <person role="sender" xml:id="Gen">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/118538489"/>
+                     <forename>Friedrich von</forename>
+                     <surname>Gentz</surname>
+                  </persName>
+               </person>
+               <person role="receiver" xml:id="WSt">
+                  <persName>
+                     <ref/>
+                     <forename>Wulff</forename>
+                     <surname>Strelitz</surname>
+                  </persName>
+               </person>
+               <!-- erwähnte Personen -->
+               <person role="named" xml:id="HGen">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/11900738X"/>
+                     <forename>Heinrich</forename>
+                     <surname>Gentz</surname>
+                  </persName>
+               </person>
+            </listPerson>
+         </particDesc>
+         <settingDesc>
+            <listPlace>
+               <!-- Start- und Zielort -->
+               <place type="sender" xml:id="plBe">
+                  <country>
+                     <ref target="http://d-nb.info/gnd/4047194-9"/>
+                     <placeName>Preußen</placeName>
+                  </country>
+                  <settlement>
+                     <ref target="http://d-nb.info/gnd/4005728-8"/>
+                     <placeName>Berlin</placeName>
+                  </settlement>
+               </place>
+               <!-- erwähnte Orte -->
+            </listPlace>
+         </settingDesc>
+      </profileDesc>
+      <revisionDesc>
+         <change xml:id="init" when-iso="2018-02-18" who="#edAG">Erstauszeichnung und Normierung des Dokumentes im Rahmen der Masterarbeit der Matrikelnummer 5584124</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <figure rend="left">
+         <desc>Stempel</desc>
+      </figure>
+      <figure rend="right">
+         <desc>Stempel</desc>
+      </figure>
+      <body>
+         <opener>
+            <dateline rend="right"><rs type="place" ref="#plBe">Berlin</rs> d <date when-iso="1795-12-04">4<span rend="sup">ten</span> Decembr 1795</date>.</dateline>
+         </opener>
+         <div n="1" corresp="#gprl">
+            <head resp="#WSt">500 Reichsthaler in Friedrichs dor nebst 6 proC<span rend="sup">ns</span> Jährlicher zinsen</head>
+            <p>
+               <date when-iso="1796-04-04">A dato Vier Monath</date> zahle ich Endes unterschriebener gegen diesen meinen Sola 
+               Wechsel an <rs type="person" ref="#WSt">Herrn Wulff Strelitz</rs> oder deßen Ordre, die Summa von Fünf Hunderth 
+               Reichsthaller in Friedrichsdor à 5 Reichsthaler. Valuta habe ich vondemselben Baar erhalten. leiste zur gehörige 
+               Zeit promte Zahlunng nach Wechselrecht. Wobei zumehrer Sicherheit dieses Wechsels des 
+               <rs type="person" ref="#WSt">Herrn Wulff Strelitz</rs> oder deßen Inhaber eine, von meinem Bruder 
+               <rs type="person" ref="#HGen">Heinrich Gentz</rs> außgestelten Wechsel unterm 
+               <date when-iso="1795-11-28">28ten Novembr vorigen Monath</date> über die nemliche Summa à Fünf Hundert Reichsthaler 
+               in Friedrichs dor demselben unter Pfändlich Deponiret und Eventualiter Cediret, um in vorstehenden Zahlung sich 
+               daraus bezahlt zu machen. Dennoch ohne Beschädigung dieses Wechselrecht.
+            </p>
+            <lg type="signatureBox">
+               <l rend="left" resp="#WSt">Auf mich aller Orten</l><l rend="right">Friedrich Gentz.</l>
+               <l rend="left" resp="#WSt">zahlbahr</l><l rend="right">Krieges-Rath bey</l>
+               <l rend="left">Friedrich Gentz.</l><l rend="right">dem General-Directorio</l>
+            </lg>
+         </div>
+         <postscript corresp="#gprl">
+            <p>
+               Ich agnoscire obigen Wechsel für richtig und Valuta baar erhalten
+            </p>
+            <closer>
+               <dateline rend="right"><rs type="place" ref="#plBe">Berlin</rs> den <date when-iso="1795-12-05">5<span rend="sup">ten</span> Decbr 1795</date></dateline>
+               <signed rend="right">Friedrich Gentz.</signed>
+            </closer>
+         </postscript>
+      </body>
+   </text>
+</TEI>

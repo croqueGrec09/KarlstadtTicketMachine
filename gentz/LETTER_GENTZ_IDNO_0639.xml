@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc xml:id="LETTER_GENTZ_0639">
+         <titleStmt>
+            <title>Friedrich von Gentz an Adam Müller, 22. Juli 1800</title>
+            <editor xml:id="edAG">Andreas Gálffy</editor>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <name>Forschungsstelle "Universitätssammlung Friedrich von Gentz"</name>
+               <link target="http://gentz-digital.ub.uni-koeln.de http://www.ub.uni-koeln.de/cdm/singleitem/collection/gentz/id/638/"/>
+            </publisher>
+            <pubPlace>Cologne</pubPlace>
+            <idno type="Gentz-Edition-Number" n="0639"/>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <country>Germany</country>
+                  <settlement>Marbach am Neckar</settlement>
+                  <institution>Schiller-Nationalmuseum / Deutsches Literaturarchiv</institution>
+                  <repository>Nachlaß Hauff-Kölle</repository>
+                  <collection>Kasten 124, Mappe I, Nr. 31</collection>
+                  <idno>Nr. 34724</idno>
+               </msIdentifier>
+               <msContents>
+                  <summary>
+                     In diesem Brief bittet Gentz Adam Müller, sich das Werk "Beiträge zur Kenntniß der Englischen Landwirtschaft" 
+                     von Thaer, 2. Abtheilung zu besorgen, das Information über die Teuerung von Getreide in England enthalten soll. 
+                  </summary>
+               </msContents>
+            </msDesc>
+            <listBibl type="letterReferenced">
+               <bibl xml:id="c0639-1" corresp="#LETTER_GENTZ_0779">Friedrich von Gentz an Adam Müller, 22. Juli 1801</bibl>
+            </listBibl>
+            <listBibl type="defRep">
+               <biblStruct xml:id="p0639-1" corresp="GBk-0061">
+                  <monogr>
+                     <author>
+                        <persName>
+                           <ref target="http://d-nb.info/gnd/118621513"/>
+                           <forename>Albrecht Daniel</forename>
+                           <surname>Thaer</surname>
+                        </persName>
+                     </author>
+                     <title>Beyträge zur Kenntniß der englischen Landwirtschaft und ihrer neueren practischen und theoretischen Fortschritte in Rücksicht auf Vervollkommnung deutscher Landwirtschaft für denkende Landwirthe und Cameralisten. Zweyte Abtheilung, Nachträge zu den ersten Capiteln des ersten Bandes enthaldend</title>
+                     <imprint>
+                        <pubPlace>Hannover</pubPlace>
+                        <publisher>Gebrüder Hahn</publisher>
+                        <date>1801</date>
+                     </imprint>
+                  </monogr>
+                  <ptr target="https://books.google.de/books?id=CnlYAAAAcAAJ"/>
+               </biblStruct>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Masterarbeit zu Matrikelnummer 5584124</p>
+         </projectDesc>
+      </encodingDesc>
+      <profileDesc>
+         <creation>
+            <date when-iso="1800-07-22">22. Juli 1800</date>
+         </creation>
+        <langUsage>
+           <language ident="d">deutsch</language>
+        </langUsage>
+         <textClass>
+            <keywords scheme="internal"><!-- internal: innerhalb des besagten Briefs -->
+               <term>Billet</term>
+               <term>Getreide-Polizei</term>
+               <term>Thaer</term>
+            </keywords>
+            <keywords scheme="categorisation"><!-- Sinnabschnittseinteilung - relevant für den Fahrkartenautomaten! -->
+               <term xml:id="bibl">Bibliothek</term>
+            </keywords>
+         </textClass>
+         <textDesc>
+            <channel>manuscript</channel>
+            <constitution type="single"/>
+            <derivation type="original"/>
+            <domain type="private"/>
+            <factuality type="fact"/>
+            <interaction type="partial"/>
+            <preparedness type="unprepared"/>
+            <purpose type="inform"/>
+         </textDesc>
+         <particDesc>
+            <listPerson>
+               <!-- Sender und Adressat -->
+               <person role="sender" xml:id="Gen">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/118538489"/>
+                     <forename>Friedrich von</forename>
+                     <surname>Gentz</surname>
+                  </persName>
+               </person>
+               <person role="receiver" xml:id="AHM">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/118584790"/>
+                     <forename>Adam Heinrich</forename>
+                     <surname>Müller</surname>
+                  </persName>
+               </person>
+               <!-- erwähnte Personen -->
+               <person role="named" xml:id="Prt">
+                  <persName>
+                     <ref />
+                     <forename/>
+                     <surname>Prittwitz</surname>
+                  </persName>
+               </person>
+            </listPerson>
+         </particDesc>
+         <settingDesc>
+            <listPlace>
+               <!-- Start- und Zielort -->
+               <place type="sender" xml:id="plBe">
+                  <country>
+                     <ref target="http://d-nb.info/gnd/4047194-9"/>
+                     <placeName>Preußen</placeName>
+                  </country>
+                  <settlement>
+                     <ref target="http://d-nb.info/gnd/4005728-8"/>
+                     <placeName>Berlin</placeName>
+                  </settlement>
+               </place>
+               <!-- erwähnte Orte -->
+            </listPlace>
+         </settingDesc>
+      </profileDesc>
+      <revisionDesc>
+         <change xml:id="init" when-iso="2018-03-05" who="#edAG">Erstauszeichnung und Normierung des Dokumentes im Rahmen der Masterarbeit der Matrikelnummer 5584124</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div n="1" corresp="#bibl">
+            <p>
+               Laßen Sie Sich sobald als möglich,
+            </p>
+            <p>
+               <rs type="citation" ref="#p0639-1">Beiträge zur Kenntniß der Englischen Landwirtschaft</rs> von <emph rend="underlined">Thaer</emph>. 2<span rend="sup">te</span> Abtheilung
+            </p>
+            <p>
+               holen. Es ist der neuste, so eben erschienene Band seines bekannten Werkes, und ich vermuthe wohl, daß irgend ein 
+               Buchhändler ihn <ref target="#r0639-2">abgesondert</ref> verkaufen wird. Er enthält äußerst interessante Nachrichten 
+               über die Getreide-Polizei in <rs type="place" ref="#plEn">England</rs>, und die Ursachen der letzten Theurung. Ich 
+               habe ihn auf kurze Zeit in Händen gehabt; aber <rs type="person" ref="#Prt">Prittwitz</rs>, dem er gehört, ist so 
+               gierig darauf, daß er sich keinen Tag davon trennen will. - Adieu. Heute ist doch wohl alles sicher ?
+            </p>
+         </div>
+         <closer>
+            <signed rend="right">Gentz.</signed>
+            <dateline rend="right">den <date when-iso="1800-07-22">22 July</date></dateline>
+         </closer>
+      </body>
+      <back>
+         <p>
+            An
+            Herrn Müller
+         </p>
+      </back>
+      <note xml:id="r0639-1">Seite 2: Adr.</note>
+      <note resp="#edAG" xml:id="r0639-2">... das Werk ist nämlich Teil eines Bandes "Einführung zur Kenntniss der englischen Landwirtschaft". Es ist zu bemerken, dass in Gentz digital einen <rs type="citation" ref="#c0639-1">absolut gleichlautenden Brief</rs> gibt, der auf den Tag genau ein Jahr später, nämlich auf den 22. Juli 1801. Angesichts der Tatsache, dass der Nachtrag 1801 erschienen ist, erscheint auch die Datierung auf 1801 wahrscheinlicher.</note>
+   </text>
+</TEI>

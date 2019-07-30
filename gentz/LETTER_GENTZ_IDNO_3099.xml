@@ -1,0 +1,483 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc xml:id="LETTER_GENTZ_3099">
+         <titleStmt>
+            <title>Friedrich von Gentz an August Hennings, 9. März 1799</title>
+            <editor xml:id="edAG">Andreas Gálffy</editor>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <name>Forschungsstelle "Universitätssammlung Friedrich von Gentz"</name>
+               <link target="http://gentz-digital.ub.uni-koeln.de http://www.ub.uni-koeln.de/cdm/singleitem/collection/gentz/id/3098/"/>
+            </publisher>
+            <pubPlace>Cologne</pubPlace>
+            <idno type="Gentz-Edition-Number" n="3099"/>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <country>Germany</country>
+                  <settlement>Hamburg</settlement>
+                  <institution>Staats- und Universitätsbibliothek</institution>
+               </msIdentifier>
+               <msContents>
+                  <summary>
+                     Hennings hat seine Kritik am Historischen Journal offen dargelegt und entsprechend ausführlich antwortet ihm 
+                     nun Gentz. Hennings gesteht ein, dass er das Journal habe abschaffen wollen. Das hält Gentz für intolerant und 
+                     wirft Hennings Inkonsequenz vor, da dieser ja für die Pressefreiheit stehe. Der höhere Zweck, der Hennings 
+                     geleitet haben soll, ist für Gentz zweideutig und nur eine Floskel. Gentz geht weiter auf die Tatsache ein, 
+                     dass die Kritik nur auf einen Aufsatz fußt und Hennings hätte die Zeitung genauer studieren sollen, bevor er 
+                     sie abzuschaffen versucht. Der Grund sei, das Historische Journal würde den Krieg propagieren. Erstens sei das 
+                     überhaupt nicht der Fall, weil Gentz das mit keinem Wort tut. Er hasst den Krieg. Zweitens sind lediglich 
+                     Aufzeichnungen über den Verlauf der Revolution angeführt. Auch hat er durch eine bloße Feststellung der 
+                     Kriegsfrage den König von Neapel für seinen Entschluss niemals gerechtfertigt. Der Druck des Aufsatzes würde 
+                     Gentz nur soweit in Verlegenheit setzen, dass er sich dagegen wehren müsste. Zum Schluss merkt Gentz an, dass 
+                     gerade Hennings die Meinungen anderer respektieren sollte - schließlich tut es Gentz ebenso.
+                  </summary>
+               </msContents>
+            </msDesc>
+            <listBibl type="preprints">
+               <biblStruct>
+                  <analytic>
+                     <author>
+                        <persName>
+                           <ref target="http://d-nb.info/gnd/116881100"/>
+                           <forename>Mendelssohn-Bartholdy</forename>
+                           <surname>Carl</surname>
+                        </persName>
+                     </author>
+                     <title>Friedrich Gentz. Vornehmlich in seinem Verhältniß zu Preußen</title>
+                  </analytic>
+                  <monogr>
+                     <title>Zeitschrift für Preußische Geschichte und Landeskunde</title>
+                     <imprint>
+                        <date>1868</date>
+                     </imprint>
+                     <biblScope unit="volume" n="5">
+                        5
+                     </biblScope>
+                     <biblScope unit="page" from="292" to="297">
+                        S. 292-297
+                     </biblScope>
+                  </monogr>
+               </biblStruct>
+               <biblStruct>
+                  <monogr>
+                     <editor>
+                        <persName>
+                           <ref target="http://d-nb.info/gnd/130953075"/>
+                           <forename>Friedrich Carl</forename>
+                           <surname>Wittichen</surname>
+                        </persName>
+                        <persName>
+                           <ref /> <!-- kein GND-Eintrag -->
+                           <forename>Ernst</forename>
+                           <surname>Salzer</surname>
+                        </persName>
+                     </editor>
+                     <title>Briefe von und an Friedrich von Gentz, 4 Bde.</title>
+                     <imprint>
+                        <publisher>Oldenbourg</publisher>
+                        <pubPlace>München, Berlin</pubPlace>
+                        <date>1909-1913</date>
+                     </imprint>
+                     <biblScope unit="volume" n="1">
+                        I
+                     </biblScope>
+                     <biblScope unit="page" from="320" to="326">
+                        Nr. 109
+                     </biblScope>
+                  </monogr>
+               </biblStruct>
+            </listBibl>
+            <listBibl type="letterReferenced">
+               <bibl xml:id="c3099-1" corresp="#LETTER_GENTZ_2479">Friedrich von Gentz an August Hennings, 16. Februar 1799</bibl>
+               <bibl xml:id="c3099-2" corresp="#LETTER_GENTZ_NNNN">nicht bekannter Brief von August Hennings an Friedrich von Gentz</bibl>
+            </listBibl>
+            <listBibl type="defRep">
+               <biblStruct xml:id="p3099-1" corresp="GBk-0042">
+                  <monogr>
+                     <editor>
+                        <persName>
+                           <ref target="http://d-nb.info/gnd/118538489"/>
+                           <forename>Friedrich von</forename>
+                           <surname>Gentz</surname>
+                        </persName>
+                     </editor>
+                     <title>Historisches Journal</title>
+                     <imprint>
+                        <publisher>Friedrich Vieweg dem ältern</publisher>
+                        <pubPlace>Berlin</pubPlace>
+                        <date>1799</date>
+                     </imprint>
+                  </monogr>
+                  <ptr target="https://books.google.de/books?id=YU5BAAAAcAAJ"/>
+               </biblStruct>
+               <biblStruct xml:id="p3099-2" corresp="GBk-0044">
+                  <analytic>
+                     <author>
+                        <persName>
+                           <ref target="http://d-nb.info/gnd/118549235"/>
+                           <forename>August</forename>
+                           <surname>Hennings</surname>
+                        </persName>
+                     </author>
+                     <title>Bücher-Genius</title>
+                  </analytic>
+                  <monogr>
+                     <editor>
+                        <persName>
+                           <ref target="http://d-nb.info/gnd/118549235"/>
+                           <forename>August</forename>
+                           <surname>Hennings</surname>
+                        </persName>
+                     </editor>
+                     <title>Genius der Zeit</title>
+                     <imprint>
+                        <publisher>J. F. Hammerich</publisher>
+                        <pubPlace>Altona</pubPlace>
+                        <date>1799</date>
+                     </imprint>
+                     <biblScope unit="volume" n="16">
+                        Sechszehnter Band. Januar bis April 1799
+                     </biblScope>
+                     <biblScope unit="page" from="201" to="206">
+                        S. 201-206
+                     </biblScope>
+                  </monogr>
+                  <ptr target="https://books.google.de/books?id=YHVlAAAAcAAJ"/>
+               </biblStruct>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Masterarbeit zu Matrikelnummer 5584124</p>
+         </projectDesc>
+      </encodingDesc>
+      <profileDesc>
+         <creation>
+            <date when-iso="1799-02-16">16. Februar 1799</date>
+         </creation>
+        <langUsage>
+           <language ident="d">deutsch</language>
+        </langUsage>
+         <textClass>
+            <keywords scheme="internal"><!-- internal: innerhalb des besagten Briefs -->
+               <term>Brief</term>
+               <term>Journal historique</term>
+               <term>Rezension</term>
+            </keywords>
+            <keywords scheme="categorisation"><!-- Sinnabschnittseinteilung - relevant für den Fahrkartenautomaten! -->
+               <term xml:id="vah">Verhältnis August Hennings</term>
+               <term xml:id="jrnh">Historisches Journal</term>
+               <term xml:id="frv">Französische Revolution</term>
+            </keywords>
+         </textClass>
+         <textDesc>
+            <channel>manuscript</channel>
+            <constitution type="single"/>
+            <derivation type="original"/>
+            <domain type="private"/>
+            <factuality type="fact"/>
+            <interaction type="partial"/>
+            <preparedness type="unprepared"/>
+            <purpose type="inform"/>
+         </textDesc>
+         <particDesc>
+            <listPerson>
+               <!-- Sender und Adressat -->
+               <person role="sender" xml:id="Gen">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/118538489"/>
+                     <forename>Friedrich von</forename>
+                     <surname>Gentz</surname>
+                  </persName>
+               </person>
+               <person role="receiver" xml:id="AHn">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/118549235"/>
+                     <forename>August</forename>
+                     <surname>Hennings</surname>
+                  </persName>
+               </person>
+               <!-- erwähnte Personen -->
+               <person role="named" xml:id="KFIVN">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/11895363X"/>
+                     <forename>Ferdinand IV.</forename>
+                     <surname/>
+                     <roleName type="office">König von Neapel</roleName>
+                  </persName>
+               </person>
+               <person role="named" xml:id="Pos">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/104314699"/>
+                     <forename>Ernst Ludwig</forename>
+                     <surname>Posselt</surname>
+                  </persName>
+               </person>
+               <person role="named" xml:id="LFH">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/118554077"/>
+                     <forename>Ludwig Ferdinand</forename>
+                     <surname>Huber</surname>
+                  </persName>
+               </person>
+            </listPerson>
+         </particDesc>
+         <settingDesc>
+            <listPlace>
+               <!-- Start- und Zielort -->
+               <place type="sender" xml:id="plBe">
+                  <country>
+                     <ref target="http://d-nb.info/gnd/4047194-9"/>
+                     <placeName>Preußen</placeName>
+                  </country>
+                  <settlement>
+                     <ref target="http://d-nb.info/gnd/4005728-8"/>
+                     <placeName>Berlin</placeName>
+                  </settlement>
+               </place>
+               <!-- erwähnte Orte -->
+               <place type="named" xml:id="plNa">
+                  <country>
+                     <ref target="http://d-nb.info/gnd/4018145-5"/>
+                     <placeName>Frankreich</placeName>  
+                  </country>
+                  <settlement>
+                     <ref target="http://d-nb.info/gnd/4041476-0"/>
+                     <placeName>Neapel</placeName>
+                  </settlement>
+               </place>
+            </listPlace>
+         </settingDesc>
+      </profileDesc>
+      <revisionDesc>
+         <change xml:id="init" when-iso="2018-03-03" who="#edAG">Erstauszeichnung und Normierung des Dokumentes im Rahmen der Masterarbeit der Matrikelnummer 5584124</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <opener>
+            <dateline rend="left"><rs type="place" ref="#plBe">Berlin</rs> den <date when-iso="1799-03-09">9. März 1799</date>.</dateline>
+         </opener>
+         <div n="1" corresp="#vah">
+            <p>
+               Ich danke Ihnen verbindlichst für die Mühe die Sie sich gegeben haben, mir Ihr Urtheil über den Werth 
+               <rs type="citation" ref="#p3099-1">meines Journals</rs>, besonders aber über das was Sie die Tendenz deßelben nennen, 
+               ausführlich vorzulegen. Da Sie würklich bei diesem Geschäfte ohne Schonung, die ich auch nicht verlangte, zu Werke 
+               gegangen sind, so wird es mir erlaubt seyn, Ihnen eben so freimüthig zu antworten.
+            </p>
+            <p>
+               Vor allen Dingen muß ich das bemerken, daß ich <ref target="#c3099-1">meinen ersten Brief</ref> nie geschrieben haben 
+               würde, wenn ich Sie auch nur entfernt für den Ver<pb/>faßer der 
+               <rs type="citation" ref="#p3099-2">kurzen Anzeige</rs> gehalten hätte. Es war keine Affektazion, sondern ehrlich 
+               gemeinte Voraussetzung, daß Ihnen ein anderer diesen Artikel mitgetheilt habe. Da Sie Sich dazu bekennen, so kann ich 
+               nun auch nicht umhin, Ihnen die Reflexionen mitzutheilen, die sich mir beim Lesen 
+               <rs type="citation" ref="#c3099-2">Ihres Briefes</rs> sogleich aufgedrängt haben.
+            </p>
+         </div>
+         <div n="2" corresp="#jrnh">
+            <p>
+               Sie gestehen förmlich ein, Sie hätten durch <rs type="citation" ref="#p3099-2">jene Anzeige</rs> das ganze 
+               <rs type="citation" ref="#p3099-1">Journal</rs> <emph rend="underlined">beseitigen</emph> wollen ? Aber ist denn das 
+               wohl erlaubt ? Ist es denn eine gute und rechtmäßige Maxime, die Stimme deßen, den man für schädlich 
+               <emph rend="underlined">hält</emph>, zu unterdrücken ? Sollte man denn nicht erst doch alle Theile hören ? Wie kommen 
+               Sie ewiger Vertheidiger, der Toleranz, der Preßfreiheit etc. dazu sich einer so schmählichen Inconsequenz schuldig zu 
+               machen ? Da Sie als Schriftsteller eine ganze Zeitschrift auf einmal beseitigen wollen, so würden Sie sie natürlich 
+               als Machthaber <emph rend="underlined">verbieten</emph>. Beides hat, moralisch betrachtet einen und denselben Werth.
+            </p>
+            <p>
+               Jedoch Sie sagen ein höherer Zweck <pb/> als Schriftstellerische Rücksicht habe Sie dabey geleitet. Dies ist nun nach 
+               meinen Grundsätzen überhaupt ein schwaches Motiv, weil mir alle die <emph rend="underlined">höheren Zwecke</emph> 
+               wovon man uns jetzt bis zum Eckel unterhält schon an und für sich, ihrer Unbestimtheit ihrer Zweydeutigkeit, ihrer 
+               Willkührlichkeit wegen verdächtig, sobald sie aber mit der Gerechtigkeit in Krieg gerathen, mehr als anstößig sind. 
+               Der höchste aller menschlichen Zwecke ist in meinen Augen - jedem <emph rend="underlined">sein Recht</emph> 
+               widerfahren <add place="above">zu</add> laßen: Der höchste aller Gesichtspuncte - der der 
+               <emph rend="underlined">Rechtmäßigkeit</emph> freier Handlungen. Wenn dieser berichtigt ist, 
+               <del rend="stroked">dann</del> dann mag man es mit dem Wohlwollen und der süßen Humainität, und dem alles umfaßenden 
+               Cosmopoliten-Geiste, und allen Menschen beglückenden Redensarten halten wie man will.
+            </p>
+            <p>
+               Ich gehe aber noch weiter. Ich setze mich einen Augenblick in eins der seichten philosophischen Systeme hinein, wo 
+               die "höheren Zwecke" ihre Rolle spielen, ich forsche nach <emph rend="underlined">Ihrem</emph> <pb/> höheren Zwecke. 
+               Es ist folgender: 
+               <quote corresp="#AHn">
+                  Das <rs type="citation" ref="#p3099-1">Historische Journal</rs> predigt den Krieg: das Wohl der Menschheit 
+                  verlangt, daß man alles thue, um ein solches Journal gleich in der Geburt zu ersticken.
+               </quote>
+            </p>
+            <p>
+               Ich werde die Beschuldigung selbst nachher beantworten. Jetzt bleibe ich immer noch strenge bei Ihrer 
+               <rs type="citation" ref="#p3099-2"><emph rend="underlined">Anzeige</emph></rs> stehen. Sie handelt offenbar nur vom 
+               ersten Aufsatze des ersten Stücks. Nun frage ich Sie auf Pflicht und Gewißen: Was enthält dieser mit Ruhe und freiem 
+               Blick geschriebene, von keinem Parteigeist gefärbte, bloß philosophirende Aufsatz, dem selbst heftige Gegner meines 
+               <emph rend="underlined">politischen</emph> Systems Gerechtigkeit wiederfahren ließen und in welchem große Köpfe eine 
+               ganz neue Ansicht der Revoluzion <del rend="stroked">xxx</del> fanden - was enthält 
+               <emph rend="underlined">dieser</emph>, das den Krieg predigte ? Wahrlich eine solche Ungerechtigkeit würde mich 
+               kränken, wenn ich sie mir nicht dadurch erklärte und erläuterte, daß Sie den ganzen Aufsatz mit vorgefaßtem 
+               Widerwillen, und daher ohne alle Aufmerksamkeit gelesen haben. Das zeigen denn doch <pb/> wahrlich die Worte Ihrer 
+               Kritik. Ich habe mehr als dreißig Leser <rs type="citation" ref="#p3099-1">meines Journals</rs> gefragt, ob es auch 
+               nur <emph rend="underlined">möglich</emph> wäre, die ersten Zeilen anders zu verstehen, als so: 
+               <cit corresp="#p3099-1">
+                  <quote>
+                     Wenn der <emph rend="underlined">Zuschauer</emph>, der <emph rend="underlined">Beobachter</emph> oder 
+                     <emph rend="underlined">Zeitgenoße</emph> einen langen und gefährlichen Weg zurück gelegt hat etc.
+                  </quote>
+               </cit>
+               Alle haben mir einstimmig versichert, daß ihnen nicht einmal ein Zweifel über den Sinn derselben aufgestoßen sey. Sie 
+               allein erklären diese Worte anders, beziehen Sie auf Gott weis welche pracktische Unternehmung und geben mir die 
+               Lehre: Beßer wäre es, sich <emph rend="underlined">vorher</emph> zu orientiren: - also, 
+               <emph rend="underlined">ehe</emph> die Begebenheiten, über die wir urtheilen wollen geschehen sind.
+            </p>
+            <p>
+               Im gegenwärtigen Falle ist das flüchtige lesen, das solche Kritiken hervorbringt, dem Kritiker selbst am 
+               nachtheiligsten. Es giebt andre, wo es zu strafbaren Ungerechtigkeiten gegen den Schriftsteller führen kann. Hier ein 
+               Beyspiel davon:
+            </p>
+            <p>
+               Sie citiren die Stelle meiner Ankündigung wo ich gegen <emph rend="underlined">Unparteilichkeit</emph> und <pb/> 
+               <emph rend="underlined">Neutralität</emph> spreche, und setzen hinzu: 
+               <quote corresp="#AHn">
+                  Wie hat sich der Verfasser <emph rend="underlined">unterstehen</emph> dürfen, als Unthertan eines unpartheiischen 
+                  und neutralen Staates so zu reden ?
+               </quote>
+               - Darauf gebührte nun eigentlich folgende Antwort: Wie hat sich der leidenschaftliche oder flüchtige Rezensent 
+               unterstehen dürfen, einen Schriftsteller, der sich doch so deutlich ausdrückt, so unverantwortlich zu mißdeuten, und 
+               ihn auf diese Mißdeutung hin, sogar, mit <emph rend="underlined">seinem Staate</emph> zu compromittiren ? - Was sagt 
+               denn die Stelle der Ankündigung: 
+               <quote corresp="#p3099-1">
+                  <emph rend="underlined">Das, was gewiße Schriftsteller</emph> Unparteilichkeit und Neutralität nennen ppp
+               </quote>, und nun eine solche nähere Bestimmung <emph rend="underlined">dieser</emph> Art von Neutralität, daß 
+               Niemand sich vergreifen konnte ! Wer in Gottes weiter Welt, kann denn hier ein Urtheil, über 
+               <emph rend="underlined">politische</emph> Neutralität finden ? Ich rede ja von 
+               <emph rend="underlined">Schriftstellern</emph>, von <emph rend="underlined">Gewißen</emph> Schriftstellern, von einer 
+               <emph rend="underlined">schriftstellerischen</emph> Neutralität, und von einer gewißen 
+               <emph rend="underlined">Art</emph> derselben. Und das soll, wie Sie sich mit vieler Undelikateße ausdrücken - 
+               <emph rend="underlined">im Lande selbst</emph> Mißtrauen gegen die 
+               <emph rend="underlined">Re</emph><pb/><emph rend="underlined">gierung</emph> bewirken ? Was hat die Regierung mit der 
+               <emph rend="underlined">falschen Neutralität</emph> einiger <emph rend="underlined">Schriftsteller</emph> zu thun, 
+               von deren Existenz <add place="above">sie</add> kaum unterrichtet ist ? Ist es 
+               <emph rend="underlined">erlaubt</emph>, so zu interpretiren, und so zu richten ?
+            </p>
+            <p>
+               Ich kenne <emph rend="underlined">auch</emph>, und ehre und liebe <emph rend="underlined">auch</emph> 
+               Unparteilichkeit und Neutralität. Ich wollte nur sagen, daß das was einige seichte oder hirnlose Schwätzer so nennen, 
+               nicht die meinige wäre.
+            </p>
+            <p>
+               Nur einige Worte über den Aufsatz, der, wie Sie meinen, die <emph rend="underlined">förmliche Prüfung</emph> des 
+               <rs type="citation" ref="#p3099-1">Journals</rs> enthalten soll. Ich übergehe alle einzelnen Punkte, worüber ich 
+               viel, viel sagen könnte (z. B. daß ein beurtheilender philosophirender Schriftsteller 
+               <emph rend="underlined">kein System</emph> haben, sondern bloß 
+               "<emph rend="underlined">die große einzige Göttin</emph>" anbeten soll, da doch gerade diese Göttin keinen bessern 
+               Dienst als den des richtig geordneten Denkens kennt) und bleibe nur bey folgenden Hauptbemerkungen stehen:
+            </p>
+            <p>
+               1. Diese Anzeige ist abermals im höchsten <pb/> Grade ungerecht, da sie das 
+               <rs type="citation" ref="#p3099-1">ganze Journal</rs> nach <emph rend="underlined">einem einzigen</emph> Aufsatze 
+               abfertigt, den ich vielleicht gerade für den unbedeutendsten halte. Warum sprechen Sie nicht über den ersten Aufsatz 
+               im ersten Stück, und seine Fortsetzungen ? Dieser ist der Hauptzweck meines 
+               <rs type="citation" ref="#p3099-1">Journals</rs>: er enthält, was Sie auch fernerhin über meine Präsumtion sagen 
+               werden, nichts als wichtige Fakta, Ideen über die Revoluzion, die man nicht in allen Zeitungen findet, und wer seine 
+               Tendenz anders, als rechtlich und friedlich findet, versteht keine Zeile davon.
+            </p>
+         </div>
+         <div n="3" corresp="#frv">
+            <p>
+               2. In dieser Anzeige beschuldigen Sie mich bestimmt, und ausdrücklich, 
+               <emph rend="underlined">den Krieg zu predigen</emph>. Und um diese Beschuldigung drehen sich alle andre Ausfälle 
+               gegen meine Schrift. Laßen Sie uns diese Beschuldigung doch näher beleuchten.
+            </p>
+            <p>
+               Fürs erste versichre ich Ihnen nun, <emph rend="underlined">als Thatsache</emph>, was alle die mich kennen über und 
+               über attestiren werden, daß ich den Krieg überhaupt hasse, und daß ich unter den jetzigen Umständen vielleicht der 
+               letzte im Preußischen <pb/> Staate wäre, der zum Kriege riethe. Ich bin nicht Minister und habe also keinen 
+               unmittelbaren Antheil an den grossen Staatsgeschäften: aber es giebt denn doch Gelegenheiten, wo man seine Meinung zu 
+               äußern hat: die meinige ist seit dem Jahr 94.- standhaft und unverrückt für den Frieden gewesen.
+            </p>
+            <p>
+               Fürs zweite aber, und was unsern Gegenstand näher trift, fordre ich Sie recht höflich auf, mir doch 
+               <emph rend="underlined">eine Zeile</emph> gefälligst anzugeben, in der ich nahe oder von fern den Rath zum Kriege 
+               ertheilt, oder auch nur den Wunsch nach Krieg geäußert hätte. In einem so incendiarischen Journal, das man gleich in 
+               der Geburt <span xml:lang="lat">per fas et nefas</span> tödten muß - 
+               <emph rend="underlined">nur eine einzige Zeile</emph>: das ist doch wenig verlangt. Ich erwarte dies wenige. Vermögen 
+               Sie es nicht, so sagen Sie Selbst: was wird aus allen den harten Vorwürfen die Sie mir mit so vieler Bitterkeit, 
+               auftischen ?
+            </p>
+            <p>
+               Nein ! Sie vermögen es nicht; und Ihre ganze Beschuldigung gründet sich auf folgenden Schluß: Er <pb/> spricht mit 
+               Lebhaftigkeit und Wärme von den Gründen der französischen Republik - ergo räth er zum Kriege mit derselben. Dies ist 
+               gerade so, als wenn ich von Ihnen sagen wollte: Er redet mit Schonung und Gleichgültigkeit von den Gründen der 
+               französischen Republik: ergo: ist er ein geheimer Anhänger derselben. <span xml:lang="fr">L'un vaut l'autre</span>.
+            </p>
+            <p>
+               3. Sie gehen in Ihrer Hitze gegen den einzigen Aufsatz, den Sie einer Prüfung würdigen, so weit, daß Sie mir Vorwürfe 
+               über Dinge machen, worüber Sie mich, nach Ihren Grundsätzen vielmehr loben sollten. So spotten Sie lang und breit 
+               darüber, daß ich dem <rs type="person" ref="#KFIVN">Könige von Neapel</rs> ein Betragen kurz vor der Kriegeserklärung 
+               beylegte, welches weit entfernt, ihn zu rechtfertigen, ihn vielmehr offenbar inculpirte. Ja ! Sie mögten ganz recht 
+               haben, zu spotten, wenn ich nur irgendwo die Absicht geäußert hätte, eine <emph rend="underlined">Apologie</emph> des 
+               <rs type="person" ref="#KFIVN">Königs von Neapel</rs> zu schreiben. Diese Absicht 
+               <emph rend="underlined">leihen</emph> Sie mir, sowie das <emph rend="underlined">Krieg-Predigen</emph>, die 
+               <emph rend="underlined">Mißbilligung der politischen Neutralität</emph> und andre Gespenster dieser Art, die Sie <pb/> 
+               auf meine Kosten creiren, um sie auf meine Kosten zu bekämpfen. Ich weiß sehr wohl, vielleicht bestimmter als Sie 
+               glauben, daß die französische Regierung - ihrem System, dem schändlichsten das je menschliche Verruchtheit ersann, 
+               und verworfne Heuchelei mit schönen Nahmen bemäntelte, getreu - die einzige Anfängerin des Krieges mit 
+               <rs type="place" ref="#plNa">Neapel</rs> war: aber darum rechtfertige ich den 
+               <rs type="person" ref="#KFIVN">König von Neapel</rs> <emph rend="underlined">doch</emph> nicht, und habe es auch in 
+               jenem Ihnen so anstößigen Aufsatz nicht <emph rend="underlined">gewollt</emph>.
+            </p>
+         </div>
+         <div n="4" corresp="#vah">
+            <p>
+               Nach allem was ich Ihnen jetzt gesagt habe, werden Sie wohl einsehen, daß es nicht 
+               <emph rend="underlined">Furcht</emph> seyn kann, was mich bey dem durchlesen Ihrer neuen Kritik, die ich Ihnen hier 
+               mit ergebenstem Dank zurück sende, ergriffen hat. Ich <emph rend="underlined">hasse</emph> zwar schriftstellerische 
+               Fehden sehr, aber niemand kann sie im Grunde weniger <emph rend="underlined">fürchten</emph>, als ich. Ich bin mir 
+               bewußt, daß wenige Schriftsteller mit solcher Gewissenhaftigkeit, mit solcher Achtung für das Publikum, mit solcher 
+               Sorgfalt im Zusammenstellen und Ausarbeiten zu Werke gehen; wenige widmen ihren Arbeiten so viel Zeit und <pb/> Mühe 
+               (ein Grund mehr, mich nicht wegwerfend zu behandeln). Daher bin ich auch auf jeden Angriff gefaßt und weiß mich zu 
+               vertheidigen.
+            </p>
+            <p>
+               Gleichwohl will ich Ihnen nicht leugnen, daß mir der Abdruck Ihres Aufsatzes, so wie er jetzt ist, unangenehm seyn 
+               würde, und das aus einem einzigen Grunde. Ihre - ich muß es wiederhohlen - würklich undelikaten Aeußerungen über den 
+               vermeinten Contrast meiner Grundsätze mit den Grundsätzen meiner Regierung, würden mich zu einer Rechtfertigung 
+               zwingen, die mir zwar, da Ihr ganzer Vorwurf sich auf eine leere Hypothese gründet sehr leicht seyn könnte, die mich 
+               aber in gewiße Erklärungen über Gleichheit oder Ungleichheit meiner Grundsätze mit denen meiner Regierung ziehen 
+               würde, denen ich herzlich gern ausweiche. Ich sollte auch denken, ich hätte Ihnen die Ungültigkeit Ihrer 
+               Haupt-Vorwürfe so evident dargethan, daß wirklich nur Sehnsucht nach Streitigkeiten, Sie noch bewegen könnte, mit 
+               diesen Vorwürfen öffentlich aufzutreten. Doch überlaße <pb/> ich Ihnen gänzlich, was Sie beschließen wollen. Finden 
+               Sie es nöthig, das Stück drucken zu laßen, so werde ich mich vertheidigen.
+            </p>
+            <p>
+               Ich kann eine Bemerkung nicht unterdrücken ehe ich schließe. Sie als erklärter <add place="above">Eklektiker</add> 
+               und Eudämonist, sollten das Gute schätzen, wo Sie es finden: und doch geht aus jeder Zeile 
+               <rs type="citation" ref="#c3099-2">Ihres Briefes</rs> und Aufsatzes eine so entschiedne Abneigung gegen alles, was 
+               ein Anders denkender, wie ich, produzirte hervor, daß Sie schlechterdings <emph rend="underlined">nichts</emph> gut 
+               finden mögen. Ich ein strenger Systematiker, der die französische Revoluzion nicht etwa ihrer zufälligen Greuel 
+               wegen, sondern bloß aus tiefer Ueberzeugung von der <emph rend="underlined">Unrechtmäßigkeit</emph> ihrer ersten 
+               Grundsätze verabscheut, mußte von Rechtswegen alles verwerfen, was meine Linie überschreitet: und doch lese ich mit 
+               Wohlgefallen, beurtheile mit Gerechtigkeit und Billigkeit, und ehre nach Gebühr jeden guten Gedanken, den ich 
+               <add place="above">in</add> Ihren, <rs type="person" ref="#Pos"><emph rend="underlined">Poselt</emph></rs>'s, 
+               <emph rend="underlined"><rs type="person" ref="#LFH">Huber</rs>s</emph> und andrer von mir abweichender 
+               Schriftsteller Werken finde. Ich wiederhohle <pb/> es noch einmal: nie hätte ich etwas, das aus Ihrer Feder gefloßen 
+               wäre, so schnöde behandelt, als Sie bei der jetzigen Gelegenheit mich und mein 
+               <rs type="citation" ref="#p3099-1">Journal</rs> behandelt haben.
+            </p>
+            <p>
+               Und nun genug über diesen Gegenstand, und - wenn es seyn könnte ! - auf immer. Mit ganz vorzüglicher Hochachtung 
+               verharre ich
+            </p>
+         </div>
+         <closer>
+            <signed rend="right">Gentz</signed>
+         </closer>
+      </body>
+   </text>
+</TEI>

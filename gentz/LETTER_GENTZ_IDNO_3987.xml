@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader type="text">
+      <fileDesc xml:id="LETTER_GENTZ_3987">
+         <titleStmt>
+            <title>Friedrich von Gentz an Friedrich Vieweg, 8. August 1796</title>
+            <editor xml:id="edAG">Andreas Gálffy</editor>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <name>Forschungsstelle "Universitätssammlung Friedrich von Gentz"</name>
+               <link target="http://gentz-digital.ub.uni-koeln.de http://www.ub.uni-koeln.de/cdm/singleitem/collection/gentz/id/3986/"/>
+            </publisher>
+            <pubPlace>Cologne</pubPlace>
+            <idno type="Gentz-Edition-Number" n="3987"/>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <country>Germany</country>
+                  <settlement>Wiesbaden</settlement>
+                  <institution>Vieweg-Verlagsarchiv</institution>
+                  <repository>Briefsammlung 311 G: Gentz-Briefe</repository>
+                  <idno>Nr. 17</idno>
+               </msIdentifier>
+               <msContents>
+                  <summary>
+                     Die Sache mit Sadewasser soll am folgenden Tag geklärt werden. Vieweg soll das von Gentz' Schwiegervater 
+                     erhaltene Geld nicht eher einsetzen, als die Prioritätenfrage geklärt wurde. Gentz schickt bald einen Brief an
+                     Ancillon ab. Er hält es für unverzeihlich, dass Vieweg ihn nicht besucht hat.
+                  </summary>
+               </msContents>
+            </msDesc>
+            <listBibl type="letterReferenced">
+               <bibl xml:id="c3987-1" corresp="#LETTER_GENTZ_NNNN">nicht bekannter Brief von Friedrich von Gentz an Friedrich Ancillon, 8. August 1796</bibl>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Masterarbeit zu Matrikelnummer 5584124</p>
+         </projectDesc>
+      </encodingDesc>
+      <profileDesc>
+         <creation>
+            <date when-iso="1796-08-08">8. August 1796</date>
+         </creation>
+        <langUsage>
+           <language ident="d">deutsch</language>
+        </langUsage>
+         <textClass>
+            <keywords scheme="internal"><!-- internal: innerhalb des besagten Briefs -->
+               <term>Billet</term>
+               <term>Sadewasser</term>
+               <term>Schulden</term>
+               <term>Gilly</term>
+               <term>Ancillon</term>
+            </keywords>
+            <keywords scheme="categorisation"><!-- Sinnabschnittseinteilung - relevant für den Fahrkartenautomaten! -->
+               <term xml:id="vwf">Vieweg - Freundschaft</term>
+               <term xml:id="gprl">Gentz - p(r)ekuniäre Lage</term>
+               <term xml:id="vfa">Verhältnis Friedrich Ancillon</term>
+               <term xml:id="vwfe">Vieweg - Feindschaft</term>
+            </keywords>
+         </textClass>
+         <textDesc>
+            <channel>manuscript</channel>
+            <constitution type="single"/>
+            <derivation type="original"/>
+            <domain type="private"/>
+            <factuality type="fact"/>
+            <interaction type="partial"/>
+            <preparedness type="unprepared"/>
+            <purpose type="inform"/>
+         </textDesc>
+         <particDesc>
+            <listPerson>
+               <!-- Sender und Adressat -->
+               <person role="sender" xml:id="Gen">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/118538489"/>
+                     <forename>Friedrich von</forename>
+                     <surname>Gentz</surname>
+                  </persName>
+               </person>
+               <person role="receiver" xml:id="FVW">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/119049546"/>
+                     <forename>Friedrich</forename>
+                     <surname>Vieweg</surname>
+                  </persName>
+               </person>
+               <!-- erwähnte Personen -->
+               <person role="named" xml:id="Sad">
+                  <persName>
+                     <ref/>
+                     <forename/>
+                     <surname>Sadewasser</surname>
+                  </persName>
+               </person>
+               <person role="named" xml:id="Gil">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/118539337"/>
+                     <forename>David</forename>
+                     <surname>Gilly</surname>
+                  </persName>
+               </person>
+               <person role="named" xml:id="Anc">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/118645110"/>
+                     <forename>Johann Peter Friedrich</forename>
+                     <surname>Ancillon</surname>
+                  </persName>
+               </person>
+            </listPerson>
+         </particDesc>
+         <settingDesc>
+            <listPlace>
+               <!-- Start- und Zielort -->
+               <place type="sender" xml:id="plBe">
+                  <country>
+                     <ref target="http://d-nb.info/gnd/4047194-9"/>
+                     <placeName>Preußen</placeName>
+                  </country>
+                  <settlement>
+                     <ref target="http://d-nb.info/gnd/4005728-8"/>
+                     <placeName>Berlin</placeName>
+                  </settlement>
+               </place>
+               <!-- erwähnte Orte -->
+               <place type="named" xml:id="plSb">
+                  <country>
+                     <ref target="http://d-nb.info/gnd/4047194-9"/>
+                     <placeName>Preußen</placeName>
+                  </country>
+                  <settlement>
+                     <ref target="http://d-nb.info/gnd/116944-0"/>
+                     <placeName>Schöneberg</placeName>
+                  </settlement>
+               </place>
+            </listPlace>
+         </settingDesc>
+      </profileDesc>
+      <revisionDesc>
+         <change xml:id="init" when-iso="2018-02-19" who="#edAG">Erstauszeichnung und Normierung des Dokumentes im Rahmen der Masterarbeit der Matrikelnummer 5584124</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div n="1" corresp="#vwf">
+            <p>
+               Wenn es Ihnen gefällig ist, lieber Vieweg, die Sache mit <rs type="person" ref="#Sad">Sadewasser</rs> 
+               <date when-iso="1796-08-09">Morgen</date> abzumachen, so werde ich mich um 8 Uhr zu diesem Ende bei Ihnen einfinden, 
+               wenn Sie mir nicht eine Gegen-Ordre schicken. Allenfalls haben Sie ja wohl die Güte, uns heute schon bey ihm melden 
+               zu laßen.
+            </p>
+         </div>
+         <div n="2" corresp="#gprl">
+            <p>
+               Ich höre daß Sie nunmehr das Geld von <rs type="person" ref="#Gil">meinem Schwiegervater</rs> erhalten haben, bitte 
+               Sie aber gehorsamst, keine Zahlung davon eher zu leisten, als bis wir uns gemeinschaftlich über die Prioritäts-Frage 
+               vereinigt haben. Nach den Maßregeln die ich genommen hatte, hoffe ich daß Sie in der letzten Zeit keinen Ueberlauf 
+               gehabt haben.
+            </p>
+         </div>
+         <div n="3" corresp="#vfa">
+            <p>
+               Ich schicke diesen Augenblick <rs type="citation" ref="#c3987-1">einen langen Brief</rs> an 
+               <rs type="person" ref="#Anc">Ancillon</rs> ab, den ich seit der bewußten Crisis nicht gesehen hatte, und den ich 
+               jetzt von Seiten gefasst zu haben glaube, von denen er mir nicht <emph rend="underlined">leicht</emph> entgehen kan. 
+               Der Ausgang wird lehren, wozu dieser Schritt <pb/> auf den ich eine große Hoffnung gebaut habe, führen wird.
+            </p>
+         </div>
+         <div n="4" corresp="#vwfe">
+            <p>
+               Gott segne Sie ! Daß Sie nie nach <rs type="place" ref="#plSb">Schöneberg</rs> kamen, habe ich Ihnen vergeben. Daß 
+               Sie aber sogar <emph rend="underlined">in</emph> <rs type="place" ref="#plSb">Schöneberg</rs> waren, und es über 
+               Sich erhalten konnten, dies Haus nicht zu besuchen, hat mir weh gethan, und mag Ihnen der Himmel vergeben. Mündlich 
+               ein Mehreres !
+            </p>
+         </div>
+         <closer>
+            <signed rend="right">Gentz.</signed>
+            <dateline rend="right">den <date when-iso="1796-08-08">8<span rend="sup">ten</span> August 1796</date></dateline>
+         </closer>
+      </body>
+      <back>
+         <p>
+            Herrn
+            Buchhändler Vieweg
+            Wohlgebohren.
+         </p>
+      </back>
+      <note xml:id="r3987-1">Seite 4: Adresse</note>
+   </text>
+</TEI>

@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader type="text">
+      <fileDesc xml:id="LETTER_GENTZ_5009">
+         <titleStmt>
+            <title>Friedrich von Gentz an Friedrich Vieweg, 24. Dezember 1795</title>
+            <editor xml:id="edAG">Andreas Gálffy</editor>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <name>Forschungsstelle "Universitätssammlung Friedrich von Gentz"</name>
+               <link target="http://gentz-digital.ub.uni-koeln.de http://www.ub.uni-koeln.de/cdm/singleitem/collection/gentz/id/5008/"/>
+            </publisher>
+            <pubPlace>Cologne</pubPlace>
+            <idno type="Gentz-Edition-Number" n="5009"/>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <country>Germany</country>
+                  <settlement>Wiesbaden</settlement>
+                  <institution>Vieweg-Verlagsarchiv</institution>
+                  <repository>Briefsammlung 311 G, Gentz-Briefe</repository>
+                  <idno>Nr. 27</idno>
+               </msIdentifier>
+               <msContents>
+                  <summary>
+                     Eine außerordentliche Ausgabe veranlasste Gentz dazu, nochmal um 60 Reichstaler zu fragen. Zudem bittet Gentz Vieweg darum, eine Konferenz 
+                     anzuberaumen, in der die Zukunft besprochen wird.
+                  </summary>
+               </msContents>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Masterarbeit zu Matrikelnummer 5584124</p>
+         </projectDesc>
+      </encodingDesc>
+      <profileDesc>
+         <creation>
+            <date when-iso="1795-12-24">24. Dezember 1795</date>
+         </creation>
+        <langUsage>
+           <language ident="d">deutsch</language>
+        </langUsage>
+         <textClass>
+            <keywords scheme="internal"><!-- internal: innerhalb des besagten Briefs -->
+               <term>Billet</term>
+               <term>Schulden</term>
+               <term>Weihnachtsgrüße</term>
+            </keywords>
+            <keywords scheme="categorisation"><!-- Sinnabschnittseinteilung - relevant für den Fahrkartenautomaten! -->
+               <term xml:id="gprl">Gentz - p(r)ekuniäre Lage</term>
+               <term xml:id="vwf">Vieweg - Freundschaft</term>
+            </keywords>
+         </textClass>
+         <textDesc>
+            <channel>manuscript</channel>
+            <constitution type="single"/>
+            <derivation type="original"/>
+            <domain type="private"/>
+            <factuality type="fact"/>
+            <interaction type="partial"/>
+            <preparedness type="unprepared"/>
+            <purpose type="inform"/>
+         </textDesc>
+         <particDesc>
+            <listPerson>
+               <!-- Sender und Adressat -->
+               <person role="sender" xml:id="Gen">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/118538489"/>
+                     <forename>Friedrich von</forename>
+                     <surname>Gentz</surname>
+                  </persName>
+               </person>
+               <person role="receiver" xml:id="FVW">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/119049546"/>
+                     <forename>Friedrich</forename>
+                     <surname>Vieweg</surname>
+                  </persName>
+               </person>
+               <!-- erwähnte Personen -->
+            </listPerson>
+         </particDesc>
+         <settingDesc>
+            <listPlace>
+               <!-- Start- und Zielort -->
+               <place type="sender" xml:id="plBe">
+                  <country>
+                     <ref target="http://d-nb.info/gnd/4047194-9"/>
+                     <placeName>Preußen</placeName>
+                  </country>
+                  <settlement>
+                     <ref target="http://d-nb.info/gnd/4005728-8"/>
+                     <placeName>Berlin</placeName>
+                  </settlement>
+               </place>
+               <!-- erwähnte Orte -->
+            </listPlace>
+         </settingDesc>
+      </profileDesc>
+      <revisionDesc>
+         <change xml:id="init" when-iso="2018-02-18" who="#edAG">Erstauszeichnung und Normierung des Dokumentes im Rahmen der Masterarbeit der Matrikelnummer 5584124</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div n="1" corresp="#gprl">
+            <p>
+               Ich weiß sehr wohl, bester Freund, wie die Balanz zwischen uns steht, und wie tief 
+               <emph rend="underlined">unter</emph> Zero meine Forderungen an Sie gefallen sind. Ich weiß aber auch, daß Sie die 
+               Bitte die ich thun will, unter keinen Umständen abschlagen werden, und nur in dieser einzigen Rücksicht sey es mir 
+               vergönnt, mir von Ihrer freundschaftlichen Güte, zu Bestreitung so mancher außerordentlichen Ausgabe die mich in 
+               diesen Tagen trift, 60 Reichstaler zu erbitten.
+            </p>
+         </div>
+         <div n="2" corresp="#vwf">
+            <p>
+               Ich füge <del rend="stroked">es</del> dieser Bitte einen damit verwandten Antrag bey: den nehmlich, daß es Ihnen doch 
+               gefällig seyn mögte den eigentlichen <span xml:lang="lat">Statum causae</span> zwischen uns baldmöglichst vollständig 
+               zu <del rend="stroked">entferne</del> entwerfen, und mir alsdann einen recht nahen Termin anzusetzen, wo wir über die 
+               Mittel und Wege einer künftigen guten Verfassung und Ordnung eine freundschaftliche Conferenz halten können, nach der 
+               ich mich recht herzlich sehne, theils um <emph rend="underlined">mich</emph> zu beruhigen, theils aber und 
+               hauptsächlich, um <emph rend="underlined">Sie</emph>, so viel es in meinen Kräften ist, für die Zukunft sicher zu 
+               stellen.
+            </p>
+            <p>
+               Viel Glück zum Weihnachtsfest ! Gute Freundschaft !
+            </p>
+         </div>
+         <closer>
+            <signed rend="right">Gentz.</signed>
+         </closer>
+      </body>
+      <back>
+         <p>
+            Herrn
+            Buchhändler Vieweg
+            Wohlgebohren.
+         </p>
+         <p resp="#FVW">
+            <rs type="place" ref="#plBe">Berlin</rs> d <date when-iso="1795-12-24">24<span rend="sup">ten</span> Dec. 1795</date>.
+            H K. R. Gentz
+         </p>
+      </back>
+      <note xml:id="r5009-1">Seite 4 Adresse</note>
+      <note xml:id="r5009-2">Seite 4 Präsenz- und Bearbeitungsvermerk</note>
+   </text>
+</TEI>

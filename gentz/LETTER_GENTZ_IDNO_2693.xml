@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc xml:id="LETTER_GENTZ_2693">
+         <titleStmt>
+            <title>Friedrich von Gentz an Friedrich Vieweg, 11. Januar 1800</title>
+            <editor xml:id="edAG">Andreas Gálffy</editor>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <name>Forschungsstelle "Universitätssammlung Friedrich von Gentz"</name>
+               <link target="http://gentz-digital.ub.uni-koeln.de http://www.ub.uni-koeln.de/cdm/singleitem/collection/gentz/id/2693/"/>
+            </publisher>
+            <pubPlace>Cologne</pubPlace>
+            <idno type="Gentz-Edition-Number" n="2693"/>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <country>Germany</country>
+                  <settlement>Wiesbaden</settlement>
+                  <institution>Vieweg-Verlagsarchiv</institution>
+                  <repository>Briefsammlung G 311: Gentz-Brief</repository>
+                  <idno>Nr. 96</idno>
+               </msIdentifier>
+               <msContents>
+                  <summary>
+                     Gentz beklagt - die letzten Briefe von 1799 fortführend - die Nichtbeantwortung einer Aufforderung von 400 
+                     Reichstalern. Inzwischen ist Gentz sehr verbittert; er schreibt vom "letzten Brief", sodass er hofft, Vieweg 
+                     nicht mehr belästigen zu müssen. Er ist verzweifelt und hofft, bald eine positive Antwort zu erhalten.
+                  </summary>
+               </msContents>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Masterarbeit zu Matrikelnummer 5584124</p>
+         </projectDesc>
+      </encodingDesc>
+      <profileDesc>
+         <creation>
+            <date when-iso="1800-01-11">11. Januar 1800</date>
+         </creation>
+        <langUsage>
+           <language ident="d">deutsch</language>
+        </langUsage>
+         <textClass>
+            <keywords scheme="internal"><!-- internal: innerhalb des besagten Briefs -->
+               <term>Brief</term>
+               <term>Bettelbrief</term>
+               <term>Verlag</term>
+               <term>Streit</term>
+            </keywords>
+            <keywords scheme="categorisation"><!-- Sinnabschnittseinteilung - relevant für den Fahrkartenautomaten! -->
+               <term xml:id="gprl">Gentz - p(r)ekuniäre Lage</term>
+            </keywords>
+         </textClass>
+         <textDesc>
+            <channel>manuscript</channel>
+            <constitution type="single"/>
+            <derivation type="original"/>
+            <domain type="private"/>
+            <factuality type="fact"/>
+            <interaction type="partial"/>
+            <preparedness type="unprepared"/>
+            <purpose type="inform"/>
+         </textDesc>
+         <particDesc>
+            <listPerson>
+               <!-- Sender und Adressat -->
+               <person role="sender" xml:id="Gen">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/118538489"/>
+                     <forename>Friedrich von</forename>
+                     <surname>Gentz</surname>
+                  </persName>
+               </person>
+               <person role="receiver" xml:id="FVW">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/119049546"/>
+                     <forename>Friedrich</forename>
+                     <surname>Vieweg</surname>
+                  </persName>
+               </person>
+               <!-- erwähnte Personen -->
+            </listPerson>
+         </particDesc>
+         <settingDesc>
+            <listPlace>
+               <!-- Start- und Zielort -->
+               <place type="sender" xml:id="plBe">
+                  <country>
+                     <ref target="http://d-nb.info/gnd/4047194-9"/>
+                     <placeName>Preußen</placeName>
+                  </country>
+                  <settlement>
+                     <ref target="http://d-nb.info/gnd/4005728-8"/>
+                     <placeName>Berlin</placeName>
+                  </settlement>
+               </place>
+               <place type="receiver" xml:id="plBs">
+                  <country>
+                     <ref target="http://d-nb.info/gnd/4089993-7"/>
+                     <placeName>Staat Wolfenbüttel</placeName>
+                  </country>
+                  <settlement>
+                     <ref target="http://d-nb.info/gnd/4008065-1"/>
+                     <placeName>Braunschweig</placeName>
+                  </settlement>
+               </place>
+               <!-- erwähnte Orte -->
+            </listPlace>
+         </settingDesc>
+      </profileDesc>
+      <revisionDesc>
+         <change xml:id="init" when-iso="2018-03-05" who="#edAG">Erstauszeichnung und Normierung des Dokumentes im Rahmen der Masterarbeit der Matrikelnummer 5584124</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div n="1" corresp="#gprl">
+            <p>
+               Daß ich in einer hohen Noth seyn muß, lehrt Ihnen schon das bloße Faktum - daß ich noch schreibe. Denn wie mächtig 
+               müßte mir sonst, Ihr unverschuldetes, kränkendes Stillschweigen, ein ewiges gebieten !
+            </p>
+            <p>
+               Daß Sie nicht schreiben, wenn Sie einmal beschlossen haben, mir nicht zu helfen, begreife ich endlich: denn womit 
+               sollten Sie Ihren grausamen Entschluß rechtfertigen ? Habe ich es Ihnen nicht so leicht als möglich gemacht ? Was in 
+               aller Welt könnte Sie abhalten, mir eine Anweisung über 400 Reichsthaler zu geben, wovon 
+               <emph rend="underlined">ich</emph> den Ausfall von Disconto, Zinsen und Kosten tragen will ? Ist es möglich, daß man 
+               um einer solchen Bitte willen, sich vor Ihnen demüthigen muß ?
+            </p>
+            <p>
+               Wenn ich nicht in unbeschreiblicher Verlegenheit wäre, so kündigte ich Ihnen dies als meinen letzten Brief an: und 
+               mögte doch nur endlich der Himmel Ihr Herz dahin lenken, daß er es seyn <emph rend="underlined">könnte</emph>: aber 
+               leider <emph rend="underlined">muß</emph> ich fortfahren, Sie zu bestürmen, und werde Ihnen wenigstens gewiß nicht 
+               eher Ruhe laßen, als bis Sie mich erhört haben. Mein Verlangen ist billig, und alle die Eigenschaften, die ich sonst 
+               in Ihnen schätzte, können nicht auf immer verschwunden seyn. Von Posttag zu Posttag, vertröste ich die, welche mich 
+               martern auf Ihre Antwort: laßen Sie doch nur einmal die Stunde der Erlösung schlagen
+            </p>
+         </div>
+         <closer>
+            <signed rend="right">Gentz</signed>
+            <dateline rend="right">den <date when-iso="1800-01-11">11 Januar 1800</date>.</dateline>
+         </closer>
+      </body>
+      <back>
+         <p>
+            An
+            des Herrn Buchhändler Vieweg
+            Wohlgebohren
+            <emph rend="underlined"><rs type="place" ref="#plBs">Braunschweig</rs> Franco</emph>
+         </p>
+      </back>
+      <note xml:id="r2693-1">Seite 4 von fremder Hand</note>
+      <note xml:id="r2693-2">Seite 4: Siegelreste</note>
+   </text>
+</TEI>

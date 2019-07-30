@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader type="text">
+      <fileDesc xml:id="LETTER_GENTZ_4549">
+         <titleStmt>
+            <title>Friedrich von Gentz an Heinrich von Beguelin, Dezember 1790</title>
+            <editor xml:id="edAG">Andreas Gálffy</editor>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <name>Forschungsstelle "Universitätssammlung Friedrich von Gentz"</name>
+               <link target="http://gentz-digital.ub.uni-koeln.de http://www.ub.uni-koeln.de/cdm/singleitem/collection/gentz/id/4548/"/>
+            </publisher>
+            <pubPlace>Cologne</pubPlace>
+            <idno type="Gentz-Edition-Number" n="4549"/>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <country>Poland</country>
+                  <settlement>Cracow</settlement>
+                  <institution>Biblioteka Jagiellońska</institution>
+                  <repository>Handschriftenabtelung</repository>
+                  <collection>Varnhagensammlung der ehemaligen Preußischen Bibliothek</collection>
+                  <idno>Karton 66</idno>
+               </msIdentifier>
+               <msContents>
+                  <summary>
+                     Ein neuer Lebensabschnitt steht Herrn von Beguelin bevor und hierfür wünscht Gentz ihm alles Gute. Er wünscht 
+                     ihm zudem, dass sein Geist ihm erhalten bliebe und dass das Verhältnis zwischen ihnen beiden unverändert 
+                     fortdauert. Vermutlich war es von Beguelin selbst, der am Kopf des Briefes den Anlass desselben nennt: seine 
+                     Reise als Attaché zur preußischen Gesandtschaft nach London. Gentz wünscht ihm daher eine ruhige Reise.
+                  </summary>
+               </msContents>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Masterarbeit zu Matrikelnummer 5584124</p>
+         </projectDesc>
+      </encodingDesc>
+      <profileDesc>
+         <creation>
+            <date when-iso="1790-12-00">Dezember 1790</date>
+         </creation>
+        <langUsage>
+           <language ident="d">deutsch</language>
+        </langUsage>
+         <textClass>
+            <keywords scheme="internal"><!-- internal: innerhalb des besagten Briefs -->
+               <term>Billet</term>
+               <term>Reise</term>
+               <term>Beguelin</term>
+               <term>Attaché</term>
+               <term>London</term>
+            </keywords>
+            <keywords scheme="categorisation"><!-- Sinnabschnittseinteilung - relevant für den Fahrkartenautomaten! -->
+               <term xml:id="vhvb">Verhältnis Heinrich von Beguelin</term>
+            </keywords>
+         </textClass>
+         <textDesc>
+            <channel>manuscript</channel>
+            <constitution type="single"/>
+            <derivation type="original"/>
+            <domain type="private"/>
+            <factuality type="fact"/>
+            <interaction type="partial"/>
+            <preparedness type="unprepared"/>
+            <purpose type="inform"/>
+         </textDesc>
+         <particDesc>
+            <listPerson>
+               <!-- Sender und Adressat -->
+               <person role="sender" xml:id="Gen">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/118538489"/>
+                     <forename>Friedrich von</forename>
+                     <surname>Gentz</surname>
+                  </persName>
+               </person>
+               <person role="receiver" xml:id="Beg">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/118068296"/>
+                     <forename>Heinrich von</forename>
+                     <surname>Beguelin</surname>
+                  </persName>
+               </person>
+               <!-- zusätzliche Hände -->
+               <person role="addHand" xml:id="Var">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/118626167"/>
+                     <forename>Karl August</forename>
+                     <surname>Varnhagen von Ense</surname>
+                  </persName>
+               </person>
+               <!-- erwähnte Personen -->
+            </listPerson>
+         </particDesc>
+         <settingDesc>
+            <listPlace>
+               <!-- Start- und Zielort -->
+               <place type="sender" xml:id="plBe">
+                  <country>
+                     <ref target="http://d-nb.info/gnd/4047194-9"/>
+                     <placeName>Preußen</placeName>
+                  </country>
+                  <settlement>
+                     <ref target="http://d-nb.info/gnd/4005728-8"/>
+                     <placeName>Berlin</placeName>
+                  </settlement>
+               </place>
+               <!-- erwähnte Orte -->
+               <place type="named" xml:id="plLo">
+                  <country>
+                     <ref target="http://d-nb.info/gnd/4022153-2"/>
+                     <placeName>Vereinigtes Königreich</placeName>                
+                  </country>
+                  <settlement>
+                     <ref target="http://d-nb.info/gnd/4074335-4"/>
+                     <placeName>London</placeName>
+                  </settlement>
+               </place>
+            </listPlace>
+         </settingDesc>
+      </profileDesc>
+      <revisionDesc>
+         <change xml:id="init" when-iso="2018-02-04" who="#edAG">Erstauszeichnung und Normierung des Dokumentes im Rahmen der Masterarbeit der Matrikelnummer 5584124</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>     
+      <body>
+         <div n="1" corresp="#bezbl">
+            <p>
+               <add resp="#Beg" place="top">
+                  <ref target="#r4549-1">Vom <date when-iso="1790-12-00">December 1790</date> als ich als Attaché zur preuß. Gesandschaft nach <rs type="place" ref="#plLo">London</rs> abreisete.</ref>
+               </add>
+            </p>
+            <p>
+               Die Zeit wird mir zu kurz, mein theurer Freund, um noch in Person bey Ihnen zu erscheinen: nehmen Sie meinen 
+               herzlichen und zärtlichsten Glückwunsch in diesen Zeilen an.
+            </p>
+            <p>
+               Sie gehen in eine der angenehmsten Lebens-Perioden ein, die es nur je für Sie geben kan. Nach allen äußerlichen 
+               Umständen müßen Sie glücklich seyn. Der Himmel verleihe Ihnen, Gesundheit, gute Laune, innre Zufriedenheit, und 
+               einen ruhigen Beobachtungs-Geist. Nach meiner Art, die Schicksale zu schätzen, wird das Ihrige dann eins der 
+               beneidenswürdigsten seyn.
+            </p>
+            <p>
+               Bleiben Sie Ihren Freunden hold und zugethan: und erlauben Sie mir, daß ich <add place="above">mich</add> immer zu 
+               dieser Claße rechnen darf. Mir, der ich mich für alles, was Ihren Nahmen führt, so lange noch ein letzter Rest von 
+               Gefühl in meiner Seele bleibt, intereßiren werde, kan das, was Sie trift, nie gleichgültig seyn. Ich werde warmen 
+               Theil an den Nachrichten nehmen, die von Ihnen kommen: ich werde mich freuen, so oft die Ihrigen sich über Ihr Glück 
+               freuen werden: ich würde Ihren Schmerz mitempfinden, wenn Sie nicht immer so zufrieden wären, als Sie es seyn sollen, 
+               und gewiß seyn werden.
+            </p>
+            <p>
+               Reisen Sie sicher und glücklich. Vergeben Sie, daß ich in dem beyliegenden Zettel, durch eine Menge schrecklicher 
+               Commißionen mein Gedächtniß bey Ihnen zu erhalten suche. Schreiben Sie mir bald, und glauben Sie, daß ich Sie nie 
+               vergeßen werde.
+            </p>
+            <p>
+               <add resp="#Var" place="end">
+                  <ref target="#r4549-2">An <rs type="person" ref="#Beg">Hrn von Beguelin</rs>.</ref>
+               </add>
+               <add resp="#Var" place="end">
+                  <rs type="person" ref="#Gen">Gentz</rs> an <rs type="person" ref="#Beg">Hrn von Beguelin</rs>. <rs type="place" ref="#plBe">Berlin</rs>, <date when-iso="1790-12-00">December 1790</date>.
+               </add>
+            </p>
+         </div>
+         <closer>
+            <signed rend="right">Gentz.</signed>
+         </closer>
+         <note xml:id="r4549-1">Am Kopf des Briefes spätere Anmerkung vermutlich von der Hand Beguelins</note>
+         <note xml:id="r4549-2">auf der vierten Seite des Briefes, mit Bleistift</note>
+      </body>
+   </text>
+</TEI>

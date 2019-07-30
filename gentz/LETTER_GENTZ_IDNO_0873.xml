@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader type="text">
+      <fileDesc xml:id="LETTER_GENTZ_0873">
+         <titleStmt>
+            <title>Friedrich von Gentz an Wulff Strelitz, 3./4. Dezember 1795</title>
+            <editor xml:id="edAG">Andreas Gálffy</editor>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <name>Forschungsstelle "Universitätssammlung Friedrich von Gentz"</name>
+               <link target="http://gentz-digital.ub.uni-koeln.de http://www.ub.uni-koeln.de/cdm/singleitem/collection/gentz/id/872/"/>
+            </publisher>
+            <pubPlace>Cologne</pubPlace>
+            <idno type="Gentz-Edition-Number" n="0873"/>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <country>Germany</country>
+                  <settlement>Wiesbaden</settlement>
+                  <institution>Vieweg-Verlagsarchiv</institution>
+                  <repository>Gentz-Materialien</repository>
+                  <idno>I, 8</idno>
+               </msIdentifier>
+               <msContents>
+                  <summary>
+                     Ein Wechsel über 250 Reichstaler in Friedrichsd'or à fünf Reichstaler zu sechs Prozent Zinsen, fällig am 3. 
+                     Juni 1796. Als Sicherheit ist ein gleichlautender Wechsel von heinrich Gentz ausgestellt. Im Postscript erkennt 
+                     Gentz den Wechsel an.
+                  </summary>
+               </msContents>
+            </msDesc>
+            <listBibl type="letterReferenced">
+               <bibl xml:id="c0873-1" corresp="#LETTER_GENTZ_4369">Friedrich von Gentz an Liebman Natan, 1. Dezember 1795</bibl>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Masterarbeit zu Matrikelnummer 5584124</p>
+         </projectDesc>
+      </encodingDesc>
+      <profileDesc>
+         <creation>
+            <date when-iso="1795-12-03">3./4. Dezember 1795</date>
+         </creation>
+        <langUsage>
+           <language ident="d">deutsch</language>
+        </langUsage>
+         <textClass>
+            <keywords scheme="internal"><!-- internal: innerhalb des besagten Briefs -->
+               <term>Wechsel</term>
+               <term>Wulff Strelitz</term>
+               <term>Schulden</term>
+            </keywords>
+            <keywords scheme="categorisation"><!-- Sinnabschnittseinteilung - relevant für den Fahrkartenautomaten! -->
+               <term xml:id="gprl">Gentz - p(r)ekuniäre Lage</term>
+            </keywords>
+         </textClass>
+         <textDesc>
+            <channel>manuscript</channel>
+            <constitution type="single"/>
+            <derivation type="original"/>
+            <domain type="private"/>
+            <factuality type="fact"/>
+            <interaction type="partial"/>
+            <preparedness type="prepared"/>
+            <purpose type="inform"/>
+         </textDesc>
+         <particDesc>
+            <listPerson>
+               <!-- Sender und Adressat -->
+               <person role="sender" xml:id="Gen">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/118538489"/>
+                     <forename>Friedrich von</forename>
+                     <surname>Gentz</surname>
+                  </persName>
+               </person>
+               <person role="receiver" xml:id="WSt">
+                  <persName>
+                     <ref/>
+                     <forename>Wulff</forename>
+                     <surname>Strelitz</surname>
+                  </persName>
+               </person>
+               <!-- erwähnte Personen -->
+               <person role="named" xml:id="HGen">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/11900738X"/>
+                     <forename>Heinrich</forename>
+                     <surname>Gentz</surname>
+                  </persName>
+               </person>
+               <person role="named" xml:id="FVW">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/119049546"/>
+                     <forename>Friedrich</forename>
+                     <surname>Vieweg</surname>
+                  </persName>
+               </person>
+            </listPerson>
+         </particDesc>
+         <settingDesc>
+            <listPlace>
+               <!-- Start- und Zielort -->
+               <place type="sender" xml:id="plBe">
+                  <country>
+                     <ref target="http://d-nb.info/gnd/4047194-9"/>
+                     <placeName>Preußen</placeName>
+                  </country>
+                  <settlement>
+                     <ref target="http://d-nb.info/gnd/4005728-8"/>
+                     <placeName>Berlin</placeName>
+                  </settlement>
+               </place>
+               <!-- erwähnte Orte -->
+            </listPlace>
+         </settingDesc>
+      </profileDesc>
+      <revisionDesc>
+         <change xml:id="init" when-iso="2018-02-18" who="#edAG">Erstauszeichnung und Normierung des Dokumentes im Rahmen der Masterarbeit der Matrikelnummer 5584124</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <figure rend="left">
+         <desc>Stempel</desc>
+      </figure>
+      <figure rend="right">
+         <desc>Stempel</desc>
+      </figure>
+      <body>
+         <opener>
+            <dateline rend="right"><rs type="place" ref="#plBe">Berlin</rs> den <date when-iso="1795-12-03">3<span rend="sup">ten</span> December 1795</date>:</dateline>
+         </opener>
+         <div n="1" corresp="#gprl">
+            <head>250 Reichsthaler Friedrichs dor nebst 6 proCent jährlichen Zinsen</head>
+            <p>
+               <date when-iso="1796-06-03">A dato Sechs Monat</date> zahle ich Endes unterschriebner gegen diesen meinen 
+               Sola-Wechsel an den <rs type="person" ref="#WSt">Herrn Wulff Strelitz</rs> oder dessen Ordre die Summa von Zwey 
+               Hundert Fünfzig Reichsthaler in Friedrichs dor à 5 Reichsthaler Valuta habe ich von demselben baar erhalten, leiste 
+               zur Verfallzeit promte Zahlung nach Wechsel-Recht. Wobey zu mehrerer Sicherheit dieses Wechsels dem 
+               <rs type="person" ref="#WSt">Herrn Wulff Strelitz</rs> oder dessen Inhaber einen von meinem Bruder 
+               <rs type="person" ref="#HGen">Heinrich Gentz</rs> <ref target="#r0873-2">ausgestellten Wechsel</ref> vom 
+               <date when-iso="1795-12-01">1ten d. M.</date> über die nehmliche Summa à Zwey Hundert Fünfzig Reichsthaler in 
+               Friedrichsdor unterpfändlich deponiret und eventualiter cediret, um in entstehender Zahlung sich daraus bezahlt zu 
+               machen, jedoch ohne Beschädigung dieses Wechsels.
+            </p>
+            <lg type="signatureBox">
+               <l rend="left">Auf mich aller</l><l rend="right">Friedrich Gentz</l>
+               <l rend="left">Orten zahlbar</l><l rend="right">Kriegs-Rath bey dem</l>
+               <l rend="left">Friedrich Gentz</l><l rend="right">General-Directorio</l>
+            </lg>
+         </div>
+         <postscript corresp="#gprl">
+            <p>
+               Ich agnoscire obigen Wechsel für richtig <del rend="stroked">.</del> Valuta habe ich baar erhalten
+            </p>
+            <closer>
+               <dateline rend="right"><rs type="place" ref="#plBe">Berlin</rs> den <date when-iso="1795-12-04">4<span rend="sup">ten</span> December 1795</date></dateline>
+               <signed rend="right">Friedrich Gentz</signed>
+            </closer>
+         </postscript>
+      </body>
+      <back resp="#FVW">
+         <p>
+            <date when-iso="1796-07-08">1796. July 8.</date>
+            <rs type="person" ref="#WSt">Wolff Strelitz</rs>
+            pro 260 Reichsthaler Friedrichs d'or.
+         </p>
+      </back>
+      <note xml:id="r0873-1">Seite 4 von der Hand Viewegs</note>
+      <note resp="#edAG" xml:id="r0873-2">Vgl. den Sola-Wechsel vom <rs type="citation" ref="#c0873-1">1. Dezember 1795</rs>.</note>
+   </text>
+</TEI>

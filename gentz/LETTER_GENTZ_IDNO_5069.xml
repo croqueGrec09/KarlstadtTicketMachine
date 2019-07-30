@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc xml:id="LETTER_GENTZ_5069">
+         <titleStmt>
+            <title>Friedrich von Gentz an Karl Gustav von Brinckmann, 21. August 1797</title>
+            <editor xml:id="edAG">Andreas Gálffy</editor>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <name>Forschungsstelle "Universitätssammlung Friedrich von Gentz"</name>
+               <link target="http://gentz-digital.ub.uni-koeln.de http://www.ub.uni-koeln.de/cdm/singleitem/collection/gentz/id/5068/"/>
+            </publisher>
+            <pubPlace>Cologne</pubPlace>
+            <idno type="Gentz-Edition-Number" n="5069"/>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <country>Sweden</country>
+                  <settlement>Trolle-Ljungby</settlement>
+                  <institution>Archiv des Grafen Wachtmeister</institution>
+                  <repository>Nachlaß Brinckmann, Ausländ. Briefwechsel, Gentz an Brinckmann</repository>
+                  <idno>G 3</idno>
+               </msIdentifier>
+               <msContents>
+                  <summary>
+                     Brinckmann soll dringend die Ausgaben des Moniteurs ab dem 1. April 1797 schicken. Der Mirabeau kommt zurück 
+                     und Gentz bietet den Bouquet und den Rymer sehr günstig an.
+                  </summary>
+               </msContents>
+            </msDesc>
+            <listBibl type="alludedWorks">
+               <bibl xml:id="a5069-1" corresp="#LETTER_GENTZ_NNNN">nicht näher benanntes Werk von Bouquet</bibl>
+               <bibl xml:id="a5069-2" corresp="#LETTER_GENTZ_NNNN">nicht näher benanntes Werk von Thomas Rymer</bibl>
+            </listBibl>
+            <listBibl type="defExpr">
+               <biblStruct xml:id="e5069-1" corresp="Grg-0000">
+                  <monogr>
+                     <editor>
+                        <persName>
+                           <ref target="http://d-nb.info/gnd/118789422"/>
+                           <forename>Charles Joseph</forename>
+                           <surname>Panckoucke</surname>
+                        </persName>
+                     </editor>
+                     <title>Le Moniteur universel</title>
+                     <imprint>
+                        <pubPlace>Paris</pubPlace>
+                        <date>1789-1901</date>
+                     </imprint>
+                  </monogr>
+                  <ptr target="http://gazetier-revolutionnaire.gazettes18e.fr/periodique/gazette-nationale-ou-moniteur-universel-1789-1799"/>
+               </biblStruct>
+               <biblStruct xml:id="e5069-2" corresp="Grg-0012">
+                  <monogr>
+                     <title>Quotidienne</title>
+                     <imprint>
+                        <pubPlace>Paris</pubPlace>
+                        <date>1792-1799</date>
+                     </imprint>
+                  </monogr>
+                  <ptr target="http://gazetier-revolutionnaire.gazettes18e.fr/periodique/quotidienne-1792-1799"/>
+               </biblStruct>
+               <biblStruct xml:id="e5069-3" corresp="Grg-0009">
+                  <monogr>
+                     <author>
+                        <persName>
+                           <ref target="http://d-nb.info/gnd/118582682"/>
+                           <forename>Honoré-Gabriel de Riquetti</forename>
+                           <surname>de Mirabeau</surname>
+                        </persName>
+                     </author>
+                     <title>Lettres du comte de Mirabeau à ses commettants</title>
+                     <imprint>
+                        <pubPlace>Paris</pubPlace>
+                        <date>1789</date>
+                     </imprint>
+                  </monogr>
+                  <ptr target="http://gazetier-universel.gazettes18e.fr/periodique/lettres-du-comte-de-mirabeau-ses-commettants-1789"/>
+               </biblStruct>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Masterarbeit zu Matrikelnummer 5584124</p>
+         </projectDesc>
+      </encodingDesc>
+      <profileDesc>
+         <creation>
+            <date when-iso="1797-08-21">21. August 1797</date>
+         </creation>
+        <langUsage>
+           <language ident="d">deutsch</language>
+        </langUsage>
+         <textClass>
+            <keywords scheme="internal"><!-- internal: innerhalb des besagten Briefs -->
+               <term>Billet</term>
+               <term>Moniteur</term>
+               <term>Quotidienne</term>
+            </keywords>
+            <keywords scheme="categorisation"><!-- Sinnabschnittseinteilung - relevant für den Fahrkartenautomaten! -->
+               <term xml:id="mon">Moniteur</term>
+               <term xml:id="bibl">Bibliothek</term>
+            </keywords>
+         </textClass>
+         <textDesc>
+            <channel>manuscript</channel>
+            <constitution type="single"/>
+            <derivation type="original"/>
+            <domain type="private"/>
+            <factuality type="fact"/>
+            <interaction type="partial"/>
+            <preparedness type="unprepared"/>
+            <purpose type="inform"/>
+         </textDesc>
+         <particDesc>
+            <listPerson>
+               <!-- Sender und Adressat -->
+               <person role="sender" xml:id="Gen">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/118538489"/>
+                     <forename>Friedrich von</forename>
+                     <surname>Gentz</surname>
+                  </persName>
+               </person>
+               <person role="receiver" xml:id="KGvB">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/116519770"/>
+                     <forename>Carl Gustav von</forename>
+                     <surname>Brinckmann</surname>
+                  </persName>
+               </person>
+               <!-- erwähnte Personen -->
+            </listPerson>
+         </particDesc>
+         <settingDesc>
+            <listPlace>
+               <!-- Start- und Zielort -->
+               <place type="sender" xml:id="plBe">
+                  <country>
+                     <ref target="http://d-nb.info/gnd/4047194-9"/>
+                     <placeName>Preußen</placeName>
+                  </country>
+                  <settlement>
+                     <ref target="http://d-nb.info/gnd/4005728-8"/>
+                     <placeName>Berlin</placeName>
+                  </settlement>
+               </place>
+               <!-- erwähnte Orte -->
+            </listPlace>
+         </settingDesc>
+      </profileDesc>
+      <revisionDesc>
+         <change xml:id="init" when-iso="2018-02-26" who="#edAG">Erstauszeichnung und Normierung des Dokumentes im Rahmen der Masterarbeit der Matrikelnummer 5584124</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div n="1" corresp="#mon">
+            <p>
+               Das Bedürfniß die rückständigen Stücke des 
+               <rs type="citation" ref="#e5069-1"><emph rend="underlined">Moniteur</emph></rs> und der 
+               <rs type="citation" ref="#e5069-2"><emph rend="underlined">Quotidienne</emph></rs> habhaft zu werden, ist jetzt so 
+               dringend bey mir, daß ich Sie inständigst und angelegentlichst bitten muß, theuerster Freund, es doch baldmöglichst 
+               durch Ihre gütige Vermittlung zu befriedigen. Ich erbitte mir beide Journale 
+               <emph rend="underlined">vom <date when-iso="1797-04-01">1<span rend="sup">ten</span> April an courant</date></emph> 
+               an so weit - als es die Umstände erlauben. Haben Sie nur die Güte, selbige, wenn sie errungen sind, zu mir ins Haus 
+               zu schicken, oder auch meinen Bedienten anzuweisen, daß er sich zu irgend einer Zeit bey Ihnen wieder einfinde.
+            </p>
+         </div>
+         <div n="2" corresp="#bibl">
+            <p>
+                - Die <rs type="person" ref="#e5069-3">Mirabeauschen Schriften</rs> <pb/> erfolgen anbey zurück - Wollen Sie denn 
+               <emph rend="underlined">gar</emph> nicht mehr auf Bücher handeln ?? Ich laße Ihnen den 
+               <rs type="citation" ref="#a5069-1">Bouquet</rs> und <rs type="citation" ref="#a5069-2">Rymer</rs> 
+               <emph rend="underlined">sehr</emph> wohlfeil. Bieten Sie nur !
+            </p>
+         </div>
+         <closer>
+            <signed rend="right">Gentz.</signed>
+            <dateline rend="right"><rs type="place" ref="#plBe">Berl.</rs> den <date when-iso="1797-08-21">21<span rend="sup">ten</span> Aug. 97</date></dateline>
+         </closer>
+      </body>
+   </text>
+</TEI>

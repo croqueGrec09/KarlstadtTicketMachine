@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc xml:id="LETTER_GENTZ_3721">
+         <titleStmt>
+            <title>Friedrich von Gentz an Karl August Böttiger, 23. November 1801</title>
+            <editor xml:id="edAG">Andreas Gálffy</editor>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <name>Forschungsstelle "Universitätssammlung Friedrich von Gentz"</name>
+               <link target="http://gentz-digital.ub.uni-koeln.de http://www.ub.uni-koeln.de/cdm/singleitem/collection/gentz/id/3720/"/>
+            </publisher>
+            <pubPlace>Cologne</pubPlace>
+            <idno type="Gentz-Edition-Number" n="3721"/>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <country>Germany</country>
+                  <settlement>Nuremberg</settlement>
+                  <institution>Germanisches Nationalmuseum</institution>
+                  <repository>Handschriftenabteilung, Sammlung Böttiger</repository>
+                  <collection>Kapsel 8</collection>
+                  <idno>Nr. 7</idno>
+               </msIdentifier>
+               <msContents>
+                  <summary>
+                     Gentz wiederholt seine Bitte nach den englischen Zeitungen und der Allgemeinen Zeitung.
+                  </summary>
+               </msContents>
+            </msDesc>
+            <listBibl type="alludedWorks">
+               <bibl xml:id="a3721-1">nicht näher benannte Ausgabe der "Hamburgischen Zeitung", keine Leseprobe</bibl>
+            </listBibl>
+            <listBibl type="defExpr">
+               <biblStruct xml:id="e3721-1" corresp="GBk-0071">
+                  <monogr>
+                     <author>
+                        <persName>
+                           <ref target="http://d-nb.info/gnd/11852240X"/>
+                           <forename>Johann Friedrich von</forename>
+                           <surname>Cotta</surname>
+                        </persName>
+                     </author>
+                     <title>Allgemeine Zeitung</title>
+                     <imprint>
+                        <pubPlace>München</pubPlace>
+                        <publisher>Allgemeine Zeitung</publisher>
+                        <date>1801</date>
+                     </imprint>
+                  </monogr>
+                  <ptr target="https://books.google.de/books?id=8ORDAAAAcAAJ"/>
+               </biblStruct>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Masterarbeit zu Matrikelnummer 5584124</p>
+         </projectDesc>
+      </encodingDesc>
+      <profileDesc>
+         <creation>
+            <date when-iso="1801-11-23">23. November 1801</date>
+         </creation>
+        <langUsage>
+           <language ident="d">deutsch</language>
+        </langUsage>
+         <textClass>
+            <keywords scheme="internal"><!-- internal: innerhalb des besagten Briefs -->
+               <term>Billet</term>
+               <term>Zeitungen</term>
+            </keywords>
+            <keywords scheme="categorisation"><!-- Sinnabschnittseinteilung - relevant für den Fahrkartenautomaten! -->
+               <term xml:id="ezg">englische Zeitungen</term>
+               <term xml:id="allgz">Allgemeine Zeitung</term>
+            </keywords>
+         </textClass>
+         <textDesc>
+            <channel>manuscript</channel>
+            <constitution type="single"/>
+            <derivation type="original"/>
+            <domain type="private"/>
+            <factuality type="fact"/>
+            <interaction type="partial"/>
+            <preparedness type="prepared"/>
+            <purpose type="inform"/>
+         </textDesc>
+         <particDesc>
+            <listPerson>
+               <!-- Sender und Adressat -->
+               <person role="sender" xml:id="Gen">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/118538489"/>
+                     <forename>Friedrich von</forename>
+                     <surname>Gentz</surname>
+                  </persName>
+               </person>
+               <person role="receiver" xml:id="KAB">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/118824775"/>
+                     <forename>Carl August</forename>
+                     <surname>Böttiger</surname>
+                  </persName>
+               </person>
+               <!-- erwähnte Personen -->
+               <person role="named" xml:id="ChGr">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/122782259"/>
+                     <forename>Charles</forename>
+                     <surname>Gore</surname>
+                  </persName>
+               </person>
+            </listPerson>
+         </particDesc>
+         <settingDesc>
+            <listPlace>
+               <!-- Start- und Zielort -->
+               <place type="sender" xml:id="plWe">
+                  <country>
+                     <ref target="http://d-nb.info/gnd/4051194-7"/>
+                     <placeName>Sachsen-Weimar-Eisenach</placeName>
+                  </country>
+                  <settlement>
+                     <ref target="http://d-nb.info/gnd/4065105-8"/>
+                     <placeName>Weimar</placeName>
+                  </settlement>
+               </place>
+               <!-- erwähnte Orte -->
+               <place type="named" xml:id="plLo">
+                  <country>
+                     <ref target="http://d-nb.info/gnd/4022153-2"/>
+                     <placeName>Vereinigtes Königreich</placeName>                
+                  </country>
+                  <settlement>
+                     <ref target="http://d-nb.info/gnd/4074335-4"/>
+                     <placeName>London</placeName>
+                  </settlement>
+               </place>
+            </listPlace>
+         </settingDesc>
+      </profileDesc>
+      <revisionDesc>
+         <change xml:id="init" when-iso="2018-03-09" who="#edAG">Erstauszeichnung und Normierung des Dokumentes im Rahmen der Masterarbeit der Matrikelnummer 5584124</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div n="1" corresp="#ezg">
+            <p>
+               Die Nachrichten vom <date when-iso="1801-11-03">3<span rend="sup">ten</span></date> aus 
+               <rs type="place" ref="#plLo">London</rs> sind in der 
+               <rs type="citation" ref="#a3721-1">Hamburgischen Zeitung</rs>; folglich sind auch Englische Zeitungen in den 
+               Händen des <rs type="person" ref="#ChGr">Herrn Gore</rs>. Vorausgesetzt, daß er 
+               <date when-iso="1801-11-22">gestern</date> nicht völlig alle Verbindung mit mir abgesagt hat, bitte ich 
+               <emph rend="underlined">angelegentlichst</emph>, mir diese Zeitungen sogleich, und ehe er sie fortschickt, zu 
+               verschaffen; ich behalte sie nur eine Stunde.
+            </p>
+         </div>
+         <div n="2" corresp="#allgz">
+            <p>
+               Auch bringe ich Ihnen meine Bitte wegen der 
+               <rs type="citation" ref="#e3721-1"><emph rend="underlined">Allgemeinen Zeitung</emph></rs> die Sie Selbst 
+               besitzen, ergebenst in Erinnerung.
+            </p>
+         </div>
+         <closer>
+            <signed rend="right">Gentz</signed>
+         </closer>
+      </body>
+   </text>
+</TEI>

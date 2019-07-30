@@ -1,0 +1,348 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader type="text">
+      <fileDesc xml:id="LETTER_GENTZ_2097">
+         <titleStmt>
+            <title>Friedrich von Gentz an Elisabeth Graun, 4. August 1787</title>
+            <editor xml:id="edAG">Andreas Gálffy</editor>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <name>Forschungsstelle "Universitätssammlung Friedrich von Gentz"</name>
+               <link target="http://gentz-digital.ub.uni-koeln.de http://www.ub.uni-koeln.de/cdm/singleitem/collection/gentz/id/2096/"/>
+            </publisher>
+            <pubPlace>Cologne</pubPlace>
+            <idno type="Gentz-Edition-Number" n="2097"/>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <country>Poland</country>
+                  <settlement>Cracow</settlement>
+                  <institution>Biblioteka Jagiellońska</institution>
+                  <repository>Handschriftenabtelung</repository>
+                  <collection>Varnhagensammlung der ehemaligen Preußischen Bibliothek</collection>
+                  <idno>Karton 66</idno>
+               </msIdentifier>
+               <msContents>
+                  <summary>
+                     Die Freude über das mögliche Kommen Frau Grauns ist grenzenlos. Umfangreich und sehr lebhaft schildert Gentz 
+                     seine Bewegung über den Brief des Regierungsrates Graun. Ein neues Leben ist in Gentz durch den Gedanken 
+                     eingehaucht, dass er und Elisabeth Graun wieder zusammenkommen. Sein Dasein in Berlin war zuweilen trist. 
+                     Er befürchtet, dass die Umgebung sogar ihre Beziehung abkühlen könnte. Daher bedeutet es sehr viel für Gentz, 
+                     sie glücklich zu sehen. 
+                     Er möchte aber auch dem Regierungsrat Graun zur Versetzung gratulieren und kündigt an, dass man sich über seine 
+                     Ankunft freue. Gentz wünscht sich nichts mehr, als eine bestätigende Zeile.
+                  </summary>
+               </msContents>
+            </msDesc>
+            <listBibl type="preprints">
+               <biblStruct>
+                  <monogr>
+                     <editor>
+                        <persName>
+                           <ref target="http://d-nb.info/gnd/130953075"/>
+                           <forename>Friedrich Carl</forename>
+                           <surname>Wittichen</surname>
+                        </persName>
+                        <persName>
+                           <ref/> <!-- kein GND-Eintrag -->
+                           <forename>Ernst</forename>
+                           <surname>Salzer</surname>
+                        </persName>
+                     </editor>
+                     <title>Briefe von und an Friedrich von Gentz. 4 Bde.</title>
+                     <imprint>
+                        <publisher>Oldenbourg</publisher>
+                        <pubPlace>München, Berlin</pubPlace>
+                        <date>1909-1913</date>
+                     </imprint>
+                     <biblScope unit="volume" n="1">
+                        I
+                     </biblScope>
+                     <biblScope unit="page" from="105" to="108">
+                        Nr. 25
+                     </biblScope>
+                  </monogr>
+               </biblStruct>
+            </listBibl>
+            <listBibl type="letterReferenced">
+               <bibl xml:id="c2097-1" corresp="#LETTER_GENTZ_NNNN">nicht bekannter Brief von Hannchen Graun an Friedrich von Gentz</bibl>
+               <bibl xml:id="c2097-2" corresp="#LETTER_GENTZ_NNNN">nicht bekannter Brief von Regierungsrat Karl Heinrich Graun an Heinrich Gentz</bibl>
+               <bibl xml:id="c2097-3" corresp="#LETTER_GENTZ_NNNN">nicht bekannter Brief von Friedrich von Gentz an Regierungsrat Karl Heinrich Graun</bibl>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Masterarbeit zu Matrikelnummer 5584124</p>
+         </projectDesc>
+      </encodingDesc>
+      <profileDesc>
+         <creation>
+            <date when-iso="1787-08-04">4. August 1787</date>
+         </creation>
+        <langUsage>
+           <language ident="d">deutsch</language>
+        </langUsage>
+         <textClass>
+            <keywords scheme="internal"><!-- internal: innerhalb des besagten Briefs -->
+               <term>Brief</term>
+               <term>Graun</term>
+               <term>Sehnsucht</term>
+               <term>Berufung</term>
+               <term>Regierungsrat Graun</term>
+            </keywords>
+            <keywords scheme="categorisation"><!-- Sinnabschnittseinteilung - relevant für den Fahrkartenautomaten! -->
+               <term xml:id="veg">Verhältnis Elisabeth Graun</term>
+               <term xml:id="krrg">Regierungsrat Graun</term>
+            </keywords>
+         </textClass>
+         <textDesc>
+            <channel>manuscript</channel>
+            <constitution type="single"/>
+            <derivation type="original"/>
+            <domain type="private"/>
+            <factuality type="fact"/>
+            <interaction type="partial"/>
+            <preparedness type="prepared"/>
+            <purpose type="inform"/>
+         </textDesc>
+         <particDesc>
+            <listPerson>
+               <!-- Sender und Adressat -->
+               <person role="sender" xml:id="Gen">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/118538489"/>
+                     <forename>Friedrich von</forename>
+                     <surname>Gentz</surname>
+                  </persName>
+               </person>
+               <person role="receiver" xml:id="Gra">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/123518733"/>
+                     <forename>Elisabeth</forename>
+                     <surname>Graun</surname>
+                  </persName>
+               </person>
+               <!-- erwähnte Personen -->
+               <person role="named" xml:id="Geo">
+                  <persName>
+                     <ref/>
+                     <forename/>
+                     <surname>George</surname>
+                  </persName>
+               </person>
+               <person role="named" xml:id="RHa">
+                  <persName>
+                     <ref/>
+                     <forename>Regina</forename>
+                     <surname>geb. Hartung</surname>
+                  </persName>
+               </person>
+               <person role="named" xml:id="Hgr">
+                  <persName>
+                     <ref/>
+                     <forename>Hannchen</forename>
+                     <surname>Graun</surname>
+                     <roleName type="family">Schwiegermutter der Elisabeth Graun</roleName>
+                  </persName>
+               </person>
+               <person role="named" xml:id="RRGra">
+                  <persName>
+                     <ref/><!-- kein GND-Eintrag -->
+                     <forename>Karl Heinrich</forename>
+                     <surname>Graun</surname>
+                     <roleName type="office">Regierungsrat</roleName>
+                  </persName>
+               </person>
+               <person role="named" xml:id="SWGra">
+                  <persName>
+                     <ref/><!-- kein GND-Eintrag -->
+                     <forename/>
+                     <surname/>
+                     <roleName type="family">Schwester von Elisabeth Graun</roleName>
+                  </persName>
+                  <certainty locus="name">
+                     <desc>Es konnte kein Name gefunden werden.</desc>
+                  </certainty>
+               </person>
+            </listPerson>
+         </particDesc>
+         <settingDesc>
+            <listPlace>
+               <!-- Start- und Zielort -->
+               <place type="sender" xml:id="plBe">
+                  <country>
+                     <ref target="http://d-nb.info/gnd/4047194-9"/>
+                     <placeName>Preußen</placeName>  
+                  </country>
+                  <settlement>
+                     <ref target="http://d-nb.info/gnd/4005728-8"/>
+                     <placeName>Berlin</placeName>
+                  </settlement>
+               </place>
+               <place type="receiver" xml:id="plKo">
+                  <country>
+                     <ref target="http://d-nb.info/gnd/4047194-9"/>
+                     <placeName>Preußen</placeName>  
+                  </country>
+                  <settlement>
+                     <ref target="http://d-nb.info/gnd/4031541-1"/>
+                     <placeName>Königsberg</placeName>
+                  </settlement>
+               </place>
+               <!-- erwähnte Orte -->
+            </listPlace>
+         </settingDesc>
+      </profileDesc>
+      <revisionDesc>
+         <change xml:id="init" when-iso="2018-01-28" who="#edAG">Erstauszeichnung und Normierung des Dokumentes im Rahmen der Masterarbeit der Matrikelnummer 5584124</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div n="1" corresp="#veg">
+            <p>
+               Noch halb taumelnd vor Freude, theure, einzige, göttliche Freundinn, halb rasend, möchte ich sagen, ergreife ich 
+               diese Feder, und schreibe, schreibe, was mir mein erhitzter Kopf, mein volles Herz eingeben wollen, was keine Worte 
+               eigentlich ausdrüken könnten ! O ! wie werde ich diesen Brief endigen !
+            </p>
+            <p>
+               <rs type="person" ref="#RRGra">Ihr Mann</rs> kömmt nach <rs type="place" ref="#plBe">Berlin</rs>. Und Sie - 
+               eine <rs type="citation" ref="#c2097-1">Nachricht</rs> 
+               <rs type="person" ref="#Hgr">Ihrer Schwiegermutter</rs>, 
+               <rs type="citation" ref="#c2097-2">ein eigner Brief</rs> <rs type="person" ref="#RRGra">Ihres Mannes</rs> an 
+               <rs type="person" ref="#">meinen Bruder</rs>, sagt, daß auch Sie vermuthlich - vermuthlich ? - Nein das sagte 
+               meine kindisch furchtsame Freude - so gut als <emph rend="underlined">gewiß</emph>; nach 
+               <rs type="place" ref="#plBe">Berlin</rs> kämen, und zwar 
+               <date notAfter-iso="1787-08-31">in Zeit von 4 Wochen</date> nach <rs type="place" ref="#plBe">Berlin</rs> kämen.
+            </p>
+            <p>
+               Sie kennen mich. Mein ganzes Wesen wurde aufgeschüttelt bey dieser ungeheuren Neuigkeit, die ich gestern in einer 
+               großen Gesellschaft von <rs type="person" ref="#RHa">Ihrer Mutter</rs> vernahm. Noch jetzt bin ich in einer 
+               gewaltigen Bewegung; ich weis nicht wohin ich zuerst den Strom meiner Gedanken leiten soll: meine Empfindungen laßen 
+               kaum einem einzelnen Ausbruch Luft.
+            </p>
+            <p>
+               Gott gebe nur, daß <rs type="person" ref="#RRGra">Ihres Mannes</rs> 
+               <rs type="citation" ref="#c2097-2">Brief</rs>, da er mit seinem ehmaligen Plan nicht übereinstimmt, nicht etwa 
+               ein bloßes Kunststück war, um <rs type="person" ref="#Hgr">seine Mutter</rs> auszuhorchen ! Dieser einzige 
+               Gedanke martert mich noch. Sonst ist es alles so wahrscheinlich. 
+               <cit corresp="#c2097-2">
+                  <quote>
+                     Er schreibt sogar, daß <pb/> er seine Wohnung schon aufgesagt, seinen Bedienten schon abgedankt hätte, daß er 
+                     mit Ihnen und seinen drey Kindern, <date notAfter-iso="1787-09-00">spätstens im Anfang des September</date> 
+                     in <rs type="place" ref="#plBe">Berlin</rs> zu seyn dächte. 
+                  </quote>
+               </cit>
+               Nein ! wäre das Täuschung, Sie wären nicht so unmenschlich grausam gewesen, mich nicht durch zwey Worte davon zu 
+               benachrichtigen, daß ich ihr auswich. Das hätten Sie sicherlich gethan. Also ist es wahr.
+            </p>
+            <p>
+               Es ist wahr ? - Guter Himmel ! war das nicht der höchste Wunsch meines Lebens ? - Ich habe ihn erreicht. Ich werde 
+               jetzt - oder nie glücklich seyn.
+            </p>
+            <p>
+               Daß ich Ihnen lange nicht geschrieben habe, und warum nicht - das sind jetzt nur Kleinigkeiten. Alles, wovon die 
+               Oberfläche meines Herzens bisher bedeckt gewesen seyn mag, es heiße Geschäft, Vergnügen, Thorheit oder Weisheit, 
+               alles, soll weichen: ich will jetzt nichts wißen, nichts fühlen, als das: Ich soll wieder 
+               <emph rend="underlined">mit</emph> Ihnen, <emph rend="underlined">für</emph> Sie und durch Sie leben. Ist das nicht 
+               genung ?
+            </p>
+            <p>
+               In dem Augenblicke, da ich die Neuigkeit hörte, war es, als wenn tausend verschloßne oder verstopfte Canäle in 
+               meiner Seele wieder aufsprangen. Das ist die natürlichste Beschreibung meines gestrigen Zustandes. Meine Kräfte 
+               finngen an, wie von Neuem zu würken. Ich fühlte wieder Thränen in meinen Augen, die mir lange fremde gewesen waren. 
+               Es war ein sehr glücklicher Zustand. <pb/>
+            </p>
+            <p>
+               Wenn ich mir vorher zuweilen den Gedanken, Sie in <rs type="place" ref="#plBe">Berlin</rs> zu sehen, lebhaft 
+               dachte - und Gott weis es, der meine Seele richtet, ich habe noch keinen so unglücklichen Tag gehabt, der mir ganz 
+               ohne den Gedanken an Sie vorüber gewandelt wäre - so entstanden in meiner kleinmüthigen Seele, neben den Ausbrüchen 
+               der frohsten Vorempfindungen, doch allerley schwarze Besorgniße. - Wird dieses mein Ideal weiblicher Vollkommenheit 
+               in Berlin nicht von seinem Glanze einbüßen ? Oder wird Ihr hiesiger Aufenthalt nicht durch die Zerstreuungen des 
+               großen Orts, durch die tausend kleinen Eitelkeiten, die hier auch am Weisesten und Besten zupfen, unsre 
+               Freundschaft - <emph rend="underlined">abkühlen</emph> - das heißt: <emph rend="underlined">aufheben ?</emph> 
+               Wird nicht vielleicht, wenn wir Jahre und Jahre zusammen sind, Ihr Mann, oder die Welt, aus unserm 
+               <emph rend="underlined">engelreinen Bunde</emph>, giftigen Verdacht schöpfen ? - So zog mein unglückseelger 
+               Scharfsinn mich aus einem Labyrinth ins andre.
+            </p>
+            <p>
+               Alles das verschwindet jetzt vor dem Gedanken, der nahen, nahen Wiedervereinigung. Nein ! meine Graunin ! Sie 
+               dürfen, Sie können, mich aus Ihrem Herzen nicht vertreiben. Ich kan Sie nicht verliehren. Das wäre das letzte, bey 
+               Gott, das letzte, was ich verlöhre. Ich habe gar nichts verlohren, so lange ich Ihre Freundschaft besitze. Und Sie - 
+               Sie kommen nach <rs type="place" ref="#plBe">Berlin</rs> !
+            </p>
+            <p>
+               Es fängt - glauben Sie mir dies - es fängt mit dieser Begebenheit eine neue wichtige Periode meines Lebens an; 
+               meines Daseyns eigentlich; denn ich kan das nicht: <emph rend="underlined">leben</emph> <pb/> nennen, wenn man nicht 
+               fühlt, daß man lebt. Seitdem ich von Ihnen bin, habe ich in der Welt geschwebt, aber nicht das Leben genoßen. Kommen 
+               Sie, kommen Sie, um es mir wieder theuer zu machen !
+            </p>
+            <p>
+               Ihre Anwesenheit in <rs type="place" ref="#plBe">Berlin</rs>, wird meinen Beschäftigungen eine neue Richtung, 
+               meinen Vergnügungen ein würdiges und schönes Ziel, meinem Bestreben nach Tugend und Weisheit eine Aufmunterung ohne 
+               Gleichen, meinem Leben einen wahren Werth geben. Es ist hohe Zeit, daß ich anfange, glücklich zu seyn, die Chimären 
+               der Welt hätten mich von dieser friedlichen Straße beynahe ganz abgezogen. Mein Verhängniß tritt zu und sendet mir 
+               meinen Schutz-Engel wieder. Ich trotze allen Gefahren mit Ihnen. Meine tugendhafte Verehrung, Liebe, Freundschaft 
+               gegen Sie, soll die Quelle meiner Weisheit und meiner Glückseeligkeit seyn.
+            </p>
+            <p>
+               Diesen Brief erhalten Sie durch <rs type="place" ref="#Geo">George</rs> spätstens 
+               <date when-iso="1787-08-07">künftigen Donnerstag</date>. <date when-iso="1787-08-08">Freytag</date> geht eine Post 
+               nach <rs type="place" ref="#plBe">Berlin</rs>. Ich verlange keinen Brief: denn die Unruhe in der Sie Sich 
+               befinden kan ich mir denken. Aber schreiben Sie mir, wenn es auch nur 
+               <emph rend="underlined">eine einzige</emph> Zeile ist: ob die Nachricht gegründet ist, und zu welcher Zeit Sie hier 
+               anzukommen gedenken. Mehr verlange ich nicht. Aber darum laßen Sie mich auch, um Gottes und unsrer Freundschaft 
+               willen nicht umsonst gebeten haben. Und diese eine Zeile muß <rs type="place" ref="#Geo">George</rs> mir 
+               ohnfehlbar mit der Freytags-Post schicken. Merken Sie hiebey noch, daß <pb/> ich eine Reise auf 14 Tage, die ich 
+               vorhabe, und wozu der Tag der Abreise auf <date when-iso="1787-08-06">übermorgen</date> festgesetzt war, blos um 
+               Ihre Antwort abzuwarten, noch <date when-iso="1787-08-16">10 Tage aufgeschoben</date> habe.
+            </p>
+            <p>
+               Gott vergebe es Ihnen, wenn Sie vielleicht in der Zeit meines langen Stillschweigens oft an mir mögen verzweifelt 
+               haben. Vielleicht glaubten Sie, daß meine Freundschaft erkaltet war. Nein ! Sie lebt, und wird leben, bis mein 
+               eignes Leben aus ist. So würde mein Herz nicht gestern geklopft haben, wenn ich kälter geworden wäre. 
+               <rs type="place" ref="#plBe">Berlin</rs> selbst fängt mir an theuer zu werden. - O Gott - aber was werden Ihre 
+               armen <rs type="place" ref="#plKo">Königsberger</rs>, was wird <rs type="person" ref="#RHa">Ihre Mutter</rs>, 
+               <rs type="person" ref="#SWGra">Ihre gute Schwester</rs> sagen ! Der Gedanke thut mir im Innersten weh. Ich fühle 
+               was das heißen muß, Sie verliehren. Ich fühle ja was das heißt, Sie gewinnen.
+            </p>
+            <p>
+               Die Geheimeräthinn Graun in <rs type="place" ref="#plBe">Berlin</rs> ! - Ich kan den Gedanken noch gar nicht 
+               faßen. Er ist zu schön ! Aber - meine Freundinn Graun <emph rend="underlined">glücklich</emph> in 
+               <rs type="place" ref="#plBe">Berlin</rs> ! Der Gedanke ist noch schöner ! O möchte er wahr werden !
+            </p>
+         </div>
+         <div n="2" corresp="#krrg">
+            <p>
+               Ich <rs type="citation" ref="#c2097-3">schreibe mit heutiger Post</rs> auch an 
+               <rs type="person" ref="#RRGra">Ihren Mann</rs>, theils um ihm Glück zu wünschen, theils um ihn über verschiedne 
+               Umstände, wegen seiner Anherkunft zu befragen, und ihm meine uneingeschränkten Dienste anzutragen. Alle die ihn 
+               kennen, freuen sich sehr über seine Versetzung. <pb/> Daß man sich auf <emph rend="underlined">Ihre</emph> 
+               Bekanntschaft nicht sehr freut, können Sie leicht denken, da in Gentzen Ihr geschworner Widersacher hier lebt -
+            </p>
+            <p>
+               Ich schließe, wie ich angefangen habe. Mein Kopf ist ganz verwirrt. Ich hatte mich in dieser matten trocknen 
+               langweiligen Lebens-Zeit, auf dies Glück nicht gefaßt gemacht. Noch ist es mir zu fremde. Ich ertrage es noch nicht.
+            </p>
+            <p>
+               Vergeßen Sie nur um Gottes willen nicht, daß ich <date when-iso="1787-08-12">Dienstag über 8 Tage</date> durchaus 
+               die bewußte <emph rend="underlined">eine Zeile</emph> von Ihnen haben muß. Ich verlange im Ernst nicht mehr. Aber um 
+               dies zu erfüllen, muß sie <date when-iso="1787-08-08">Freytag früh</date> abgehen. Täuschen Sie meine Hoffnungen um 
+               des Himmels willen nicht. Die Gewißheit, daß Sie nach <rs type="place" ref="#plBe">Berlin</rs> kommen, von Ihrer 
+               Hand geschrieben, zu lesen - das fehlt jetzt nur noch zu meinem Glück.
+            </p>
+            <p>
+               Leben Sie wol theure Freundinn ! So leicht, so wol ist mir lange nicht am Schluße eines Briefes gewesen. Bald werde 
+               ich Ihnen nicht <add place="above">mehr</add> schreiben dürfen. O ! wenn doch die Zeit Flügel hätte.
+            </p>
+         </div>
+         <closer>
+            <dateline rend="left"><rs type="place" ref="#plBe">Berlin</rs> den <date when-iso="1787-08-04">4<span rend="sup">ten</span> Aug. 1787.</date></dateline>
+            <signed rend="right">Gentze.</signed>
+         </closer>
+      </body>
+   </text>
+</TEI>

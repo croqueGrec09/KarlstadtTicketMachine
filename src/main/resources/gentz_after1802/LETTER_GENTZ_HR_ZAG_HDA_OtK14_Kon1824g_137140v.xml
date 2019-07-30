@@ -1,0 +1,486 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+      <fileDesc xml:id="LETTER_GENTZ_18241217">
+         <titleStmt>
+            <title>Nr. 000 An Franz von Ottenfels-Gschwind in Konstantinopel</title>
+            <editor xml:id="edVE">Verena Essmann</editor>
+            <editor xml:id="edAG">Andreas Gálffy</editor>
+            <editor xml:id="edMS">Max Supplieth</editor>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Team der neuen Gentz-Edition</publisher>
+            <pubPlace>Cologne</pubPlace>
+            <distributor>University of Cologne</distributor>
+            <idno type="Gentz-Edition-Number" n="0000"/>
+            <availability>
+               <licence>CC-BY-SA</licence>
+            </availability>
+            <date when="2013-11-13">13. November 2013</date>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier xml:lang="en">
+                  <country key="GND_4022153-2">Croatia</country>
+                  <settlement>Zagreb</settlement>
+                  <repository>HDA</repository>
+                  <collection>FA Ottenfels</collection>
+                  <idno>box 14, convolute 1824.g., leaves 137-140v.</idno>
+               </msIdentifier>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+     <profileDesc>
+        <creation>
+           <date when-iso="1824-12-17">17. Dezember 1824</date>
+        </creation>
+        <langUsage>
+           <language ident="d">deutsch</language>
+        </langUsage>
+        <textClass>
+           <keywords scheme="">
+              <term>Brief</term>
+              <term>Besorgnis</term>
+              <term>Türkei</term>
+              <term>Emanzipation</term>
+              <term>Griechen</term>
+              <term>Niederlage</term>
+              <term>Intervention</term>
+              <term>Kongress</term>
+              <term>St. Petersburg</term>
+              <term>Bedeutung</term>
+           </keywords>
+        </textClass>
+        <textDesc>
+           <channel mode="w">manuscript</channel>
+           <constitution type="single"/>
+           <derivation type="original"/>
+           <domain type="private"/>
+           <factuality type="fact"/>
+           <interaction type="partial"/>
+           <preparedness type="unprepared"/>
+           <purpose type="inform"/>
+        </textDesc>
+        <settingDesc>
+           <listPlace>
+              <!-- Start- und Zielort -->
+              <place type="sender" xml:id="plWi">
+                 <placeName>
+                    <country>Österreich-Ungarn</country>
+                    <settlement>Wien</settlement>
+                 </placeName>
+              </place>
+              <place type="receiver" xml:id="plKo">
+                 <placeName>
+                    <country>Osmanisches Reich</country>
+                    <settlement>Konstantinopel</settlement>
+                 </placeName>
+              </place>
+              <!-- erwähnte Orte -->
+              <place type="named" xml:id="plRu">
+                 <country>
+                    <placeName>
+                       <ref target="http://d-nb.info/gnd/4076899-5">
+                          Russland
+                       </ref>
+                    </placeName>
+                 </country>
+              </place>
+              <place type="named" xml:id="plPe">
+                 <country>
+                    <placeName>
+                       <ref target="http://d-nb.info/gnd/4076899-5">
+                          Russland
+                       </ref>
+                    </placeName>
+                 </country>
+                 <settlement>
+                    <placeName>
+                       <ref target="http://d-nb.info/gnd/4267026-3">
+                          Sankt Petersburg
+                       </ref>
+                    </placeName>
+                 </settlement>
+              </place>
+              <place type="named" xml:id="plLo">
+                 <country>
+                    <placeName>
+                       <ref target="http://d-nb.info/gnd/4014770-8">
+                          England
+                       </ref>
+                    </placeName>
+                 </country>
+                 <settlement>
+                    <placeName>
+                       <ref target="http://d-nb.info/gnd/4074335-4">
+                          London
+                       </ref>
+                    </placeName>
+                 </settlement>
+              </place>
+              <place type="named" xml:id="plBu">
+                 <country>
+                    <placeName>
+                       <ref target="http://d-nb.info/gnd/4050939-4">
+                          Rumänien
+                       </ref>
+                    </placeName>
+                 </country>
+                 <settlement>
+                    <placeName>
+                       <ref target="http://d-nb.info/gnd/4008858-3">
+                          Bukarest
+                       </ref>
+                    </placeName>
+                 </settlement>
+              </place>
+           </listPlace>
+        </settingDesc>
+        <particDesc>
+           <listPerson>
+              <!-- Sender und Adressat -->
+              <person role="sender" xml:id="Ge">
+                 <persName>
+                    <ref target="http://d-nb.info/gnd/118538489">
+                       <forename>Friedrich von</forename>
+                       <surname>Gentz</surname>
+                    </ref>
+                 </persName>
+              </person>
+              <person role="receiver" xml:id="Ot">
+                 <persName>
+                    <ref target="http://d-nb.info/gnd/117170615">
+                       <forename>Franz Xaver von</forename>
+                       <surname>Ottenfels-Gschwind</surname>
+                    </ref>
+                 </persName>
+              </person>
+              <!-- im Brief erwähnte Personen -->
+              <person role="named" xml:id="Su">
+                 <persName>
+                    <ref target="http://d-nb.info/gnd/124530877">
+                       <forename>Mahmud</forename>
+                       <surname>II.</surname>
+                    </ref>
+                 </persName>
+              </person>
+              <person role="named" xml:id="Str">
+                 <persName>
+                    <ref target="http://d-nb.info/gnd/100782639">
+                       <forename>Percy Clinton Sydney Smythe</forename>
+                       <surname>Strangford</surname>
+                    </ref>
+                 </persName>
+              </person>
+              <!-- kein GND-Eintrag! Dragoner und Erster Übersetzer an der britischen Botschaft in Konstantinopel, aktiv von 1821-1831 -->
+              <person role="named" xml:id="Ch">
+                 <persName>
+                    <ref target="http://socialarchive.iath.virginia.edu/ark:/99166/w6zm6502">
+                       <forename>Francis</forename>
+                       <surname>Chabert</surname>
+                    </ref>
+                 </persName>
+              </person>
+              <person role="named" xml:id="Ca">
+                 <persName>
+                    <ref target="http://d-nb.info/gnd/117672181">
+                       <forename>Stratford</forename>
+                       <surname>Canning</surname>
+                    </ref>
+                 </persName>
+              </person>
+              <person role="named" xml:id="Ga">
+                 <persName>
+                    <ref target="http://d-nb.info/gnd/130146870">
+                       <forename>Nikolaus Esterházy von</forename>
+                       <surname>Galantha</surname>
+                    </ref>
+                 </persName>
+              </person>
+              <!-- Geheimrat, vermutlich kein GND-Eintrag -->
+              <person role="named" xml:id="Min">
+                 <persName>
+                    <ref>
+                       <forename> </forename>
+                       <surname>Minciacki</surname>
+                    </ref>
+                 </persName>
+              </person>
+              <person role="named" xml:id="Za">
+                 <persName>
+                    <ref target="http://d-nb.info/gnd/118501852">
+                       <forename>Alexander I. Pawlowitsch</forename>
+                       <surname>Romanow</surname>
+                    </ref>
+                 </persName>
+              </person>
+              <!-- Tatischeff, Geheimrat im russischen Kabinett, verm. kein GND-Eintrag -->
+              <person role="named" xml:id="Tat">
+                 <persName>
+                    <ref>
+                       <forename> </forename>
+                       <surname>Tatischeff</surname>
+                    </ref>
+                 </persName>
+              </person>
+              <person role="named" xml:id="Me">
+                 <persName>
+                    <ref target="http://d-nb.info/gnd/118581465">
+                       <forename>Klemens Wenzel Nepomuk Lothar von</forename>
+                       <surname>Metternich</surname>
+                    </ref>
+                 </persName>
+              </person>
+              <person role="named" xml:id="Gu">
+                 <persName>
+                    <ref target="http://d-nb.info/gnd/116921900">
+                       <forename>Armand Charles</forename>
+                       <surname>Guilleminot</surname>
+                    </ref>
+                 </persName>
+              </person>
+              <!-- kein GND-Eintrag vorliegend -->
+              <person role="named" xml:id="Car">
+                 <persName>
+                    <ref>
+                       <forename>François Joseph Philippe de</forename>
+                       <surname>Riquet</surname>
+                    </ref>
+                 </persName>
+              </person>
+              <person role="named" xml:id="Fr">
+                 <persName>
+                    <ref target="http://d-nb.info/gnd/118534955">
+                       <forename>Franz II.</forename>
+                       <addName>Heiliges Römisches Reich, Kaiser</addName>
+                    </ref>
+                 </persName>
+              </person>
+              <!-- Berichterstatter von Metternich, verm. kein GND-Eintrag -->
+              <person role="named" xml:id="Ha">
+                 <persName>
+                    <ref>
+                       <forename> </forename>
+                       <surname>Hackenau</surname>
+                    </ref>
+                 </persName>
+              </person>
+              <!-- Herrscher über die Walachei (*1755 +1834), kein GND-Eintrag -->
+              <person role="named" xml:id="Gh">
+                 <persName>
+                    <ref>
+                       <forename>Grigore Dimitrie</forename>
+                       <surname>Ghica</surname>
+                    </ref>
+                 </persName>
+              </person>
+              <!-- keinerlei Aufzeichnungen vorhanden -->
+              <person role="named" xml:id="Hu">
+                 <persName>
+                    <ref>
+                       <forename> </forename>
+                       <surname>Hugot</surname>
+                    </ref>
+                 </persName>
+              </person>
+           </listPerson>
+        </particDesc>
+     </profileDesc>
+     <revisionDesc>
+        <change when-iso="2016-08-07" who="#edAG #edMS">Normierung und weitere Auszeichnung des Dokumentes im Rahmen der Übung "WebApps und Textmining" im Hinblick auf die 
+           zukünftige Masterarbeit von Matrikelnummer 5584124</change>
+     </revisionDesc>
+  </teiHeader>
+   <facsimile>
+      <graphic url="00000081.jpg" xml:id="seite1"/>
+      <graphic url="00000082.jpg" xml:id="seite2"/>
+      <graphic url="00000083.jpg" xml:id="seite3"/>
+      <graphic url="00000084.jpg" xml:id="seite4"/>
+      <graphic url="00000085.jpg" xml:id="seite5"/>
+      <!-- 00000086.jpg ist die Seite 6 in schlechterer Belichtung -->
+      <graphic url="00000087.jpg" xml:id="seite6"/>
+      <graphic url="00000088.jpg" xml:id="seite7"/>
+   </facsimile>
+  <text>
+      <body>
+         <div>
+            <pb facs="#seite1"/>
+            <opener>Wien den <dateline><date when-iso="1824-12-17">17 December 1824</date></dateline></opener>
+            <p>
+               Ihr Schreiben vom <date when-iso="1824-11-26">26. v. M.</date> <rs type="person" ref="#Ot">Mein <choice><orig>Theuerster</orig><reg>Teuerster</reg></choice> <lb/>
+               Freund</rs>, hat einen sehr trüben Eindruck auf mich <lb/>
+               gemacht. Nichts desto weniger <choice><orig>kan</orig><reg>kann</reg></choice> ich Ihnen <lb/>
+               nicht genug danken, <choice><orig>daß</orig><reg>dass</reg></choice> Sie die Lage der <lb/>
+               Dinge so schildern, wie sie ist. Ich <choice><orig>laße</orig><reg>lasse</reg></choice> mich <lb/>
+               nicht leicht durch augenblickliche Symptome, und <lb/>
+               vorübergehende Unfälle schrecken. Wenn es aber so <lb/>
+               steht, wie Sie sagen, - wenn aller menschlichen <lb/>
+               Wahrscheinlichkeit nach in der Geschichte des diesjährigen <lb/>
+               Feldzuges das Schicksal aller folgenden sich abspiegelt <lb/>
+               - wenn von einer Seite die äußerste Schlaffheit, <lb/>
+               und <choice><orig>Unthätigkeit</orig><reg>Untätigkeit</reg></choice>, von der andern der blindeste Starrsinn <lb/>
+               am Ruder sitzen, - wenn man weder zu schlagen, <lb/>
+               noch zu <choice><orig>kapituliren</orig><reg>kapitulieren</reg></choice> versteht, - und wenn der <rs type="person" ref="#Su">Sultan</rs> <lb/>
+               alle Fehler, die zum Sturz der Reiche führen, in <lb/>
+               sich vereinigt, - was haben wir weiter zu erwarten ?
+            </p>
+            <p>
+               Der endliche Sieg der Griechen wird für <lb/>
+               mich, mehr noch in moralischer als politischer Hinsicht, eine <lb/>
+               der schmerzhaftesten Begebenheiten unsrer Zeit <choice><orig>seyn</orig><reg>sein</reg></choice>. <lb/>
+               In keiner Revolution hat sich das Urteil und die <lb/>
+               Gesinung der <emph rend="underlined">Völker</emph>, in der Sprache ihrer Schriftsteller, <lb/>
+               so bestimmt, und so allgemein durch ganz Europa, <pb facs="#seite2"/>
+               gegen die Grundsätze und Wünsche der <emph rend="underlined">Regierungen</emph> <lb/>
+               erklärt <add place="above">und <emph rend="underlined">empört</emph></add>, als in dieser. Der Triumph dieser Sache wäre <lb/>
+               der entscheidendste, welchen die verderbte öffentliche <lb/>
+               <choice><orig>Meynung</orig><reg>Meinung</reg></choice> über die Weisheit der <choice><orig>Cabinette</orig><reg>Kabinette</reg></choice> je davon <lb/>
+               getragen hätte. Und wenn man bedenkt, <choice><orig>daß</orig><reg>dass</reg></choice> der wütende <lb/>
+               Enthusiasmus für die Griechen, eben so sehr das Werk <lb/>
+               der <choice><orig>crassesten</orig><reg>krassesten</reg></choice> <emph rend="underlined">Unwissenheit</emph> war, als der eingewurzelten <lb/>
+               Liebe zu Revolutionen, die sich hier für alle auf andern <lb/>
+               Punkten <choice><orig>erlittne</orig><reg>erlittene</reg></choice> Niederlagen zu entschädigen hofft - wenn <lb/>
+               man ferner die ungeheuren Folgen bedenkt, welche die <lb/>
+               Emanzipation der Griechen unvermeidlich nach sich ziehen <lb/>
+               wird - so erschrickt man vor der Zukunft. Und doch <lb/>
+               sehe ich kaum mehr ab, wie wir der Vollendung <lb/>
+               dieses Unglücks entgehen werden. Denn <emph rend="underlined">von selbst</emph> <lb/>
+               stirbt <emph rend="underlined">keine</emph> Revolution; auch die schlechteste, nicht; <lb/>
+               und hier ist <choice><orig>Niemand</orig><reg>niemand</reg></choice>, der sie <choice><orig>todt</orig><reg>tot</reg></choice> schlagen könnte <lb/>
+               oder wollte. 
+            </p>
+            <p>
+               Indessen, so groß auch das <choice><orig>Uebel</orig><reg>Übel</reg></choice> <choice><orig>seyn</orig><reg>sein</reg></choice> <lb/>
+               mag, bleibt immer das, was ich am <emph rend="underlined">meisten</emph> fürchte, <lb/>
+               die Intervention der Höfe, weil ich die feste <choice><orig>Ueber</orig><reg>Über</reg></choice>-<lb/>
+               zeugung habe, <choice><orig>daß</orig><reg>dass</reg></choice> sie nichts zur Auflösung der <lb/>
+               Schwierigkeiten <choice><orig>beytragen</orig><reg>beitragen</reg></choice>, wohl aber neue und schwere <lb/>
+               Verwicklungen <choice><orig>herbey führen</orig><reg>herbeiführen</reg></choice> <choice><orig>kan</orig><corr>kann</corr></choice>, und weil im Hinter<lb/>
+               grunde immer die <choice><orig>Besorgniß</orig><reg>Besorgnis</reg></choice> irgend eines coup de tete <pb facs="#seite3"/>
+               von Seiten <rs type="place" ref="#plRu"><choice><orig>Rußlands</orig><reg>Russlands</reg></choice></rs> stehen bleibt. Diese <choice><orig>Besorgniß</orig><reg>Besorgnis</reg></choice> ist <lb/>
+               <choice><orig>bey</orig><reg>bei</reg></choice> mir, <choice><orig>freylich</orig><reg>freilich</reg></choice>, in der letzten Zeit sehr gemildert <lb/>
+               worden; und alles <choice><orig>conspirirt</orig><reg>konspiriert</reg></choice> heute, sie zu entfernen. <lb/>
+               Wer <del rend="stroked"><choice><orig>kan</orig><corr>kann</corr></choice></del> mag aber berechnen, was Türkischer Wahnsinn <lb/>
+               für Unheil stiften <choice><orig>kan</orig><corr>kann</corr></choice> ! Wenn die Pforte sich den <lb/>
+               Anträgen der <choice><orig>Alliirten</orig><reg>Alliierten</reg></choice>, mit Ungestüm, mit Härte, <lb/>
+               mit Grobheit widersetzt - und nun alle böse <choice><orig>Rath</orig><reg>Rat</reg></choice>-<lb/>
+               geber in Europa munter werden, und Lärm blasen, <lb/>
+               - wer haftete für einen augenblicklichen Bruch ? Wenn <lb/>
+               Sie mir die Garantie geben wollten, <choice><orig>daß</orig><reg>dass</reg></choice> - ungeachtet <lb/>
+               der <choice><orig>Raserey</orig><reg>Raserei</reg></choice> des <rs type="person" ref="#Su">Sultans</rs> - die Türkischen Minister <emph rend="underlined">den</emph> <lb/>
+               Weg einschlagen werden, den <rs type="person" ref="#Str">Strangford</rs> in der Ihnen mit-<lb/>
+               getheilten Depesche an <rs type="person" ref="#Ch">Chabert</rs> vorgezeichnet hat; dann, <lb/>
+               lieber Freund, wollte ich mich wenigstens von dieser <lb/>
+               Seite beruhigen.
+            </p>
+            <p>
+               Die <choice><orig>Conferenzen</orig><reg>Konferenzen</reg></choice> in <rs type="place" ref="#plPe">Petersburg</rs> werden <lb/>
+               ein seltsames Schauspiel darbieten. Das Russische <lb/><!-- hier vielleicht ein Verweis auf die Zusammensetzung des russischen Kabinettes -->
+               <choice><orig>Cabinet</orig><reg>Kabinett</reg></choice> erwartet <rs type="person" ref="#Ca">Stratford Canning</rs> mit solcher Un-<lb/>
+               geduld, <choice><orig>daß</orig><reg>dass</reg></choice> sie einen Feldjäger hieher geschickt haben, <lb/>
+               der von seiner Ankunft in <rs type="place" ref="#plWi">Wien</rs> gleich Nachricht <lb/>
+               bringen soll. Man konnte in <rs type="place" ref="#plPe">Petersburg</rs> am <date when-iso="1824-11-28">28ten <lb/>
+               November</date> (von welchem Tage unsre letzten Depeschen <lb/>
+               sind), noch nicht wissen, was zwischen den <date when-iso="1824-11-15">15</date> und <date when-iso="1824-11-19">19ten</date> <pb facs="#seite4"/>
+               in der Griechischen Sache zu <rs type="place" ref="#plLo">London</rs> vorgegangen <lb/>
+               war, und schmeichelte sich also <choice><orig>vermuthlich</orig><reg>vermutlich</reg></choice> noch, <lb/>
+               <choice><orig>daß</orig><reg>dass</reg></choice> <rs type="person" ref="#Ca">Stratford</rs>, Gott weiß welche Aufschlüsse oder <lb/>
+               <choice><orig>Rathschläge</orig><reg>Ratschläge</reg></choice> auskramen würde. Er ist, wie es heißt, <lb/>
+               am <date when-iso="1824-12-14">4ten</date> von <rs type="place" ref="#plLo">London</rs> <choice><orig>abgereiset</orig><reg>abgereist</reg></choice>; wir <choice><orig>müßen</orig><reg>müssen</reg></choice> ihn folglich <lb/>
+               sehr bald hier sehen. Ich habe einige schlimme Notizen über <choice><orig>gewiße</orig><reg>gewisse</reg></choice> <foreign xml:lang="fr">antécédens</foreign> in seinem Leben; dagegen <lb/>
+               schreibt mir <rs type="person" ref="#Ga">Esterhazy</rs>, er werde sich gegen <choice><orig>Niemanden</orig><reg>niemanden</reg></choice> <lb/>
+               in <rs type="place" ref="#plWi">Wien</rs> mit so unbedingtem Vertrauen <choice><orig>herauslaßen</orig><reg>herauslassen</reg></choice> <lb/>
+               als gegen mich. <foreign xml:lang="fr">Nous verrons</foreign>.
+            </p>
+            <p>
+               Die <del rend="stroked"><unclear>xxx</unclear></del> Umstände, welche uns <lb/>
+               in den vergangnen Monaten so oft <choice><orig>geängstiget</orig><reg>verängstigt</reg></choice> hatten <lb/>
+               - die <choice><orig>Verzögerte</orig><reg>verzögerte</reg></choice> Räumung der Moldau - die Nicht-<lb/>
+               <choice><orig>Uebergabe</orig><reg>Übergabe</reg></choice> der <rs type="person" ref="#Min"><choice><abbr>Min.</abbr><expan>Minciacki</expan></choice></rs>-<choice><orig>Creditive</orig><reg>Kreditive</reg></choice> - die Hinrichtung des <lb/>
+               Kir-Serder (so, <choice><orig>müßen</orig><reg>müssen</reg></choice> Sie wissen, nennen die <emph rend="underlined">Russen</emph> <lb/>
+               ihn fortdauernd, und erklären alles was über dies <lb/>
+               <choice><orig>Factum</orig><reg>Faktum</reg></choice> von Lippa <!-- zu recherchieren, heute (15.11.'16) kein Bock --> geschrieben worden, für rein erdichtet) <lb/>
+               - alle diese Umstände, sage ich, haben in <rs type="place" ref="#plPe">Petersburg</rs> geringe <lb/>
+               Sensation gemacht. Der <!-- nicht sicher! --><rs type="person" ref="#Za"><choice><orig>Kayser</orig><reg>Kaiser</reg></choice></rs> wünscht nichts anders <lb/>
+               als <choice><orig>daß</orig><reg>dass</reg></choice> <rs type="person" ref="#Min">Minciacki</rs> nur vorwärts gehe, und von mo-<lb/>
+               mentanen Hindernissen gar keine Notiz mehr nehme. <lb/>
+               <rs type="person" ref="#Min">Minciacki</rs> selbst scheint mir hingegen nichts weniger <pb facs="#seite5"/>
+               als dieser <choice><orig>Meynung</orig><reg>Meinung</reg></choice> zu <choice><orig>seyn</orig><reg>sein</reg></choice>. Was er Ihnen sagte, <lb/>
+               stimmt durchaus nicht mit der Sprache, die er gegen <lb/>
+               <rs type="person" ref="#Tat">Tatischeff</rs> führt. Nach den Briefen, die dieser von ihm <lb/>
+               empfängt, ist er höchst <choice><orig>unmuthig</orig><reg>unmutig</reg></choice>, argwöhnisch, erbittert, <lb/>
+               <choice><orig>daß</orig><reg>dass</reg></choice> die Pforte so wenig <choice><orig>Werth</orig><reg>Wert</reg></choice> auf die Wiederherstellung <lb/>
+               einer Russischen Mission legt (worin sie vollkommen <lb/>
+               Recht hat) und von dem bösen Geist, der in allen Russischen <lb/>
+               <del rend="stroked">Ag</del> Agenten steckt, wo nicht bereits ergriffen, doch <lb/>
+               bedroht. Nichts desto weniger will ich ihn heute noch <lb/>
+               gern für den besten aller Russen erkennen.
+            </p>
+            <p>
+               Was Ihnen heute über das Benehmen <lb/>
+               der <choice><orig>Jonischen</orig><reg>Ionischen</reg></choice> Regierung, und <choice><orig>unsre</orig><reg>unsere</reg></choice> Erklärungen darüber <lb/>
+               <choice><orig>mitgetheilt</orig><reg>mitgeteilt</reg></choice> wird, ist von der Art, <choice><orig>daß</orig><reg>dass</reg></choice> Ihnen vielleicht <lb/>
+               manche meiner <choice><orig>frühern</orig><reg>früheren</reg></choice> <choice><orig>Prophezeyungen</orig><reg>Prophezeiungen</reg></choice> wieder einfallen <lb/>
+               werden. Ich hoffe, der <rs type="person" ref="#Me">Fürst</rs> wird die <choice><orig>Schlußstelle</orig><reg>Schlussstelle</reg></choice> <lb/>
+               in meiner Depesche <add place="above">(an Sie)</add>, wo von Verstärkung unsrer See-<lb/>
+               macht die Rede ist, nicht gestrichen haben. Dieser Gegen-<lb/>
+               stand <choice><orig>interessirt</orig><reg>interessiert</reg></choice> mich im hohen Grade, und ich werde <lb/>
+               alles aufbieten, um den <rs type="person" ref="#Me">Fürsten</rs> dafür in Bewegung <lb/>
+               zu setzen. Leider stehe ich in dergleichen Dingen ganz allein; <lb/>
+               und was <emph rend="underlined">ich</emph> nicht aufs Tapet bringe, spricht kein Andrer <lb/>
+               je aus. Die <choice><orig>Unthätigkeit</orig><reg>Untätigkeit</reg></choice> und Sorglosigkeit, die über <pb facs="#seite6"/>
+               dergleichen Dinge in der <choice><orig>Staatskanzley</orig><reg>Staatskanzlei</reg></choice> herrscht, ist eine <lb/>
+               wahrhaft <emph rend="underlined">Türkische</emph>. Ich bemerke dies <foreign xml:lang="lat">sine ira et studio</foreign>; <lb/>
+               denn ich bin mit den <choice><orig>beyden</orig><reg>beiden</reg></choice> Herren<!-- diese beiden Herren könnten auch ausfindig gemacht werden ... bloß ist das Departement unklar! -->, die <choice><orig>ehmals</orig><reg>ehemals</reg></choice> dies <lb/>
+               Departement führten, oder führen sollten, in den besten <lb/>
+               Verhältnissen. Mit dem <rs type="person" ref="#Me">Fürsten</rs> komme ich recht gut <lb/>
+               fort, so lange es Dinge gilt, wo ich unmittelbar <lb/>
+               eingreifen <choice><orig>kan</orig><corr>kann</corr></choice>; sobald es sich aber um Fragen handelt, <lb/>
+               <choice><orig>wobey</orig><reg>wobei</reg></choice> andre Departements <choice><orig>concurriren</orig><reg>zusammenlaufen</reg></choice>, oder gar <lb/>
+               um Maßregeln, die Geld-Anweisungen erfordern - <lb/>
+               bin ich aufs Haupt geschlagen. Mit unsern See-<lb/>
+               <choice><orig>Krieges</orig><reg>Kriegs</reg></choice>-Mitteln <emph rend="underlined"><choice><orig>muß</orig><reg>muss</reg></choice></emph> aber etwas geschehen, wenn nicht <lb/>
+               die schlimmsten Folgen entstehen sollen. Ich sehe <lb/>
+               aus einem recht guten Memoire über die Lage der <lb/>
+               Dinge in Griechenland, welches <rs type="person" ref="#Gu"><choice><abbr>Guill.</abbr><expan>Guilleminot</expan></choice></rs> an <rs type="person" ref="#Car">Caraman</rs> <lb/>
+               geschickt hat, <choice><orig>daß</orig><reg>dass</reg></choice> die Griechen unsern Schiffen ganz <lb/>
+               besonders den Tod geschworen haben. Ich bin fest <lb/>
+               versichert, <choice><orig>daß</orig><reg>dass</reg></choice> der <rs type="person" ref="#Fr">Kayser</rs>, der diese Sache wirklich <lb/>
+               zu Herzen nimmt, sehr bereit <choice><orig>seyn</orig><reg>sein</reg></choice> würde, etwas <lb/>
+               <sic>erklekliches</sic> zu beschließen; - wenn aber <lb/>
+               <choice><orig>Niemand</orig><reg>niemand</reg></choice> redet, <choice><orig>Niemand</orig><reg>niemand</reg></choice> eine Feder ansetzen will !
+            </p>
+            <p>
+               Ich bin heute zu verdrießlich <lb/>
+               um mehr zu schreiben; alles würde die Farbe meines <pb facs="#seite7"/>
+               <choice><orig>Gemüthes</orig><reg>Gemütes</reg></choice> annehmen. Ich will lieber mit einem guten, <lb/>
+               frohen, und treuen Neujahrswunsch schließen, und <lb/>
+               Sie, <rs type="person" ref="#Ot">Mein <choice><orig>Vortreflichster</orig><reg>Vortrefflichster</reg></choice> Freund</rs>, von ganzem Herzen <lb/>
+               versichern, <choice><orig>daß</orig><reg>dass</reg></choice> Sie auf mich fortdauernd, in Leben <lb/>
+               und Tod, rechnen können, so wie ich ebenfalls <lb/>
+               auf Ihre Freundschaft mit unbedingtem Vertrauen <lb/>zähle.
+            </p>
+            <closer><signed rend="right"><rs type="person" ref="#Ge">Gentz</rs></signed></closer>
+            <epigraph>
+               <p>
+                  NB. Hackenau hat mit den Aufsatz mitgetheilt <lb/>
+                  worin er den <rs type="person" ref="#Gh">Fürsten Ghika</rs> gegen die <lb/>
+                  schändlichen Denunziationen des Preußen gerecht-<lb/>
+                  fertigt hat. Es <choice><orig>giebt</orig><reg>gibt</reg></choice> noch einen ähnlichen <choice><orig>Hallunken</orig><reg>Halunken</reg></choice> <lb/>
+                  in <rs type="place" ref="#plBu"><choice><orig>Bucarest</orig><reg>Bukarest</reg></choice></rs>, Nahmens <rs type="person" ref="#Hu">Hugot</rs>, über dessen <lb/>
+                  Berichte ich mich oft gewaltig <choice><orig>ärgre</orig><reg>ärgere</reg></choice>. - Sie <lb/>
+                  könnten mir kein erwünschteres Neujahrs-<lb/>
+                  Geschenk machen, als durch ein Postscript, worin Sie <lb/>
+                  <emph rend="underlined">Ihre</emph> gute <choice><orig>Meynung</orig><reg>Meinung</reg></choice> über <rs type="person" ref="#Gh">Ghika</rs> <lb/>
+                  äußerten. Dies wäre mir lieber, als alle <lb/>
+                  <choice><orig>Spezereyen</orig><reg>Spezereien</reg></choice> Arabiens, weil es mir wahrhaft <lb/>
+                  <emph rend="underlined">nützlich</emph> <choice><orig>seyn</orig><reg>sein</reg></choice> würde. <foreign xml:lang="fr">Pensez y, je Vous prie.</foreign>
+               </p>
+            </epigraph>
+         </div>
+      </body>
+  </text>
+</TEI>

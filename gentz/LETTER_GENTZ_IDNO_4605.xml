@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc xml:id="LETTER_GENTZ_4605">
+         <titleStmt>
+            <title>Friedrich von Gentz an Heinrich Frölich, 12. März 1799</title>
+            <editor xml:id="edAG">Andreas Gálffy</editor>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <name>Forschungsstelle "Universitätssammlung Friedrich von Gentz"</name>
+               <link target="http://gentz-digital.ub.uni-koeln.de http://www.ub.uni-koeln.de/cdm/singleitem/collection/gentz/id/4604/"/>
+            </publisher>
+            <pubPlace>Cologne</pubPlace>
+            <idno type="Gentz-Edition-Number" n="4605"/>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <country>Germany</country>
+                  <settlement>Berlin</settlement>
+                  <institution>Geheimes Staatsarchiv preußischer Kulturbesitz</institution>
+                  <repository>I. HA Rep 94: Kleine Erwerbungen</repository>
+                  <collection>IV.N.b.2</collection>
+                  <idno>Bl. 1-1v</idno>
+               </msIdentifier>
+               <msContents>
+                  <summary>
+                     Das Angebot, ein Werk über die englische Staatsverfassung zu schreiben, gefällt Gentz sehr, er sieht jedoch 
+                     Schwierigkeiten, die er in einem persönlichen Gespräch zu klären sucht.
+                  </summary>
+               </msContents>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Masterarbeit zu Matrikelnummer 5584124</p>
+         </projectDesc>
+      </encodingDesc>
+      <profileDesc>
+         <creation>
+            <date when-iso="1799-03-12">12. März 1799</date>
+         </creation>
+        <langUsage>
+           <language ident="d">deutsch</language>
+        </langUsage>
+         <textClass>
+            <keywords scheme="internal"><!-- internal: innerhalb des besagten Briefs -->
+               <term>Billet</term>
+               <term>englische Staatsverfassung</term>
+               <term>Aufsatz</term>
+            </keywords>
+            <keywords scheme="categorisation"><!-- Sinnabschnittseinteilung - relevant für den Fahrkartenautomaten! -->
+               <term xml:id="vhf">Verhältnis Heinrich Frölich</term>
+            </keywords>
+         </textClass>
+         <textDesc>
+            <channel>manuscript</channel>
+            <constitution type="single"/>
+            <derivation type="original"/>
+            <domain type="private"/>
+            <factuality type="fact"/>
+            <interaction type="partial"/>
+            <preparedness type="unprepared"/>
+            <purpose type="inform"/>
+         </textDesc>
+         <particDesc>
+            <listPerson>
+               <!-- Sender und Adressat -->
+               <person role="sender" xml:id="Gen">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/118538489"/>
+                     <forename>Friedrich von</forename>
+                     <surname>Gentz</surname>
+                  </persName>
+               </person>
+               <person role="receiver" xml:id="Fro">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/1073351068"/>
+                     <forename>Heinrich</forename>
+                     <surname>Frölich</surname>
+                  </persName>
+               </person>
+               <!-- erwähnte Personen -->
+            </listPerson>
+         </particDesc>
+         <settingDesc>
+            <listPlace>
+               <!-- Start- und Zielort -->
+               <place type="sender" xml:id="plBe">
+                  <country>
+                     <ref target="http://d-nb.info/gnd/4047194-9"/>
+                     <placeName>Preußen</placeName>
+                  </country>
+                  <settlement>
+                     <ref target="http://d-nb.info/gnd/4005728-8"/>
+                     <placeName>Berlin</placeName>
+                  </settlement>
+               </place>
+               <!-- erwähnte Orte -->
+            </listPlace>
+         </settingDesc>
+      </profileDesc>
+      <revisionDesc>
+         <change xml:id="init" when-iso="2018-03-03" who="#edAG">Erstauszeichnung und Normierung des Dokumentes im Rahmen der Masterarbeit der Matrikelnummer 5584124</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <opener>
+            <salute rend="left">Ewr. Wohlgebohren</salute>
+         </opener>
+         <div n="1" corresp="#vhf">
+            <p>
+               mir gefälligst mitgetheilte Idee finde ich um so glücklicher da man mit völliger Präzision sagen kan, daß noch kein 
+               Buch existirt, welches eine vollständige Belehrung über die Englische Staatsverfassung gäbe. Ihr Wunsch, diese Idee 
+               durch mich ausgeführt zu sehen, ist mir nicht allein sehr schmeichelhaft, sondern hat auch, des Gegenstandes wegen, 
+               einen Reitz für mich, dem ich nur ungern widerstehen würde. Indessen sind auf der andern Seite Schwierigkeiten, die 
+               ich nicht zu heben weiß. Vielleicht ist es Ew. Wohlgebohren nicht unangenehm, Sich mit mir über die Sache näher zu 
+               unterhalten: wollen Sie mir zu dem Ende, entweder diesen Nachmittag um 4 Uhr, oder 
+               <date when-iso="1799-03-13">Morgen Vormittag</date> zu welcher Stunde es Ihnen beliebt, die Ehre Ihres Besuchs 
+               gönnen, so wird es mir zugleich ein großes Vergnügen seyn, Ihre persönliche Bekanntschaft zu machen.
+            </p>
+         </div>
+         <closer>
+            <signed rend="right">Gentz.</signed>
+            <dateline rend="right">den <date when-iso="1799-03-12">12<span rend="sup">ten</span> März 99</date>.</dateline>
+         </closer>
+      </body>
+      <back resp="#Fro">
+         <p>
+            <date when-iso="1799-03-12">1799. den 12 Merz</date>
+            Genz.
+         </p>
+      </back>
+      <note xml:id="r4605-1">Empfangsvermerk von der Hand Frölichs auf Seite 2</note>
+   </text>
+</TEI>

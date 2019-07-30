@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader type="text">
+      <fileDesc xml:id="LETTER_GENTZ_2073">
+         <titleStmt>
+            <title>Friedrich von Gentz an Levi David Fraenkel, 10. Juni 1795</title>
+            <editor xml:id="edAG">Andreas Gálffy</editor>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <name>Forschungsstelle "Universitätssammlung Friedrich von Gentz"</name>
+               <link target="http://gentz-digital.ub.uni-koeln.de http://www.ub.uni-koeln.de/cdm/singleitem/collection/gentz/id/2072/"/>
+            </publisher>
+            <pubPlace>Cologne</pubPlace>
+            <idno type="Gentz-Edition-Number" n="2073"/>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <country>Germany</country>
+                  <settlement>Wiesbaden</settlement>
+                  <institution>Vieweg-Verlagsarchiv</institution>
+                  <repository>Gentz-Materialien</repository>
+                  <idno>I, 6</idno>
+               </msIdentifier>
+               <msContents>
+                  <summary>
+                     Ein Wechsel über 200 Reichstaler in Friedrichsd'or à fünf Reichstaler zu sechs Prozent Zinsen, fällig am 10. 
+                     Dezember 1795.
+                  </summary>
+               </msContents>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Masterarbeit zu Matrikelnummer 5584124</p>
+         </projectDesc>
+      </encodingDesc>
+      <profileDesc>
+         <creation>
+            <date when-iso="1795-06-10">10. Juni 1795</date>
+         </creation>
+        <langUsage>
+           <language ident="d">deutsch</language>
+        </langUsage>
+         <textClass>
+            <keywords scheme="internal"><!-- internal: innerhalb des besagten Briefs -->
+               <term>Wechsel</term>
+               <term>Fraenkel</term>
+               <term>Schulden</term>
+            </keywords>
+            <keywords scheme="categorisation"><!-- Sinnabschnittseinteilung - relevant für den Fahrkartenautomaten! -->
+               <term xml:id="gprl">Gentz - p(r)ekuniäre Lage</term>
+            </keywords>
+         </textClass>
+         <textDesc>
+            <channel>manuscript</channel>
+            <constitution type="single"/>
+            <derivation type="original"/>
+            <domain type="private"/>
+            <factuality type="fact"/>
+            <interaction type="partial"/>
+            <preparedness type="prepared"/>
+            <purpose type="inform"/>
+         </textDesc>
+         <particDesc>
+            <listPerson>
+               <!-- Sender und Adressat -->
+               <person role="sender" xml:id="Gen">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/118538489"/>
+                     <forename>Friedrich von</forename>
+                     <surname>Gentz</surname>
+                  </persName>
+               </person>
+               <person role="receiver" xml:id="LDF">
+                  <persName>
+                     <ref/>
+                     <forename>Levi David</forename>
+                     <surname>Fraenkel</surname>
+                  </persName>
+               </person>
+               <!-- erwähnte Personen -->
+            </listPerson>
+         </particDesc>
+         <settingDesc>
+            <listPlace>
+               <!-- Start- und Zielort -->
+               <place type="sender" xml:id="plBe">
+                  <country>
+                     <ref target="http://d-nb.info/gnd/4047194-9"/>
+                     <placeName>Preußen</placeName>
+                  </country>
+                  <settlement>
+                     <ref target="http://d-nb.info/gnd/4005728-8"/>
+                     <placeName>Berlin</placeName>
+                  </settlement>
+               </place>
+               <!-- erwähnte Orte -->
+            </listPlace>
+         </settingDesc>
+      </profileDesc>
+      <revisionDesc>
+         <change xml:id="init" when-iso="2018-02-16" who="#edAG">Erstauszeichnung und Normierung des Dokumentes im Rahmen der Masterarbeit der Matrikelnummer 5584124</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <opener>
+            <dateline rend="right"><rs type="place" ref="#plBe">Berlin</rs> den <date when-iso="1795-06-10">10<span rend="sup">ten</span> Juny 1795</date>:</dateline>
+         </opener>
+         <div n="1" corresp="#gprl">
+            <head>200 Reichsthaler in Friedrichs dor à 5 Reichsthaler das Stück nebst 6 proCent Zinsen.</head>
+            <p>
+               <date when-iso="1795-12-10">A dato über Sechs Monat</date> zahle ich Endes-Unterschriebner gegen diesen meinen 
+               Sola-Wechsel an den <rs type="person" ref="#LDF">Herrn Levi David Fränkel</rs> oder dessen Ordre die Summe von Zwey 
+               Hundert Reichsthaler in Friedrichsdor à 5 Reichsthaler nebst 6 pro Cent Zinsen. Valuta habe ich von demselben baar 
+               erhalten, und leiste zur Verfallzeit promte Zahlung nach Wechselrecht.
+            </p>
+            <lg type="signatureBox">
+               <l rend="left">Auf mich selbst.</l><l rend="right">Friedrich Gentz</l>
+               <l rend="right">Krieges-Rath beym</l>
+               <l rend="left">Friedrich Gentz.</l><l rend="right">General-Directorio</l>
+            </lg>
+         </div>
+      </body>
+   </text>
+</TEI>

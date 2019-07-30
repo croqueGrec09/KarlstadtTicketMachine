@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc xml:id="LETTER_GENTZ_3659">
+         <titleStmt>
+            <title>Friedrich von Gentz an Karl August Böttiger, 29. Juni 1797</title>
+            <editor xml:id="edAG">Andreas Gálffy</editor>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <name>Forschungsstelle "Universitätssammlung Friedrich von Gentz"</name>
+               <link target="http://gentz-digital.ub.uni-koeln.de http://www.ub.uni-koeln.de/cdm/singleitem/collection/gentz/id/3658/"/>
+            </publisher>
+            <pubPlace>Cologne</pubPlace>
+            <idno type="Gentz-Edition-Number" n="3659"/>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <country>Germany</country>
+                  <settlement>Dresden</settlement>
+                  <institution>Sächsische Landesbibliothek</institution>
+                  <repository>Handschriftensammlung, Nachlaß Böttiger</repository>
+                  <collection>Mscr. Dresd. h 37, Bd. 54 (4°)</collection>
+                  <idno>Nr. 10</idno>
+               </msIdentifier>
+               <msContents>
+                  <summary>
+                     Von den zurückgegebenen Büchern möchte Gentz das Memoire à consulter pour Msr. d'Orleans weiter verwenden und 
+                     bittet Böttiger, Vorkehrungen dazu zu treffen. Gentz wünscht, Böttiger zu Diensten zu stehen und bittet ihn, 
+                     auch weiter zu schreiben, da Gentz alle Briefe nachgeschickt werden.
+                  </summary>
+               </msContents>
+            </msDesc>
+            <listBibl type="preprints">
+               <biblStruct>
+                  <monogr>
+                     <editor>
+                        <persName>
+                           <ref target="http://d-nb.info/gnd/130953075"/>
+                           <forename>Friedrich Carl</forename>
+                           <surname>Wittichen</surname>
+                        </persName>
+                        <persName>
+                           <ref/> <!-- kein GND-Eintrag -->
+                           <forename>Ernst</forename>
+                           <surname>Salzer</surname>
+                        </persName>
+                     </editor>
+                     <title>Briefe von und an Friedrich von Gentz, 4 Bde.</title>
+                     <imprint>
+                        <publisher>Oldenbourg</publisher>
+                        <pubPlace>München, Berlin</pubPlace>
+                        <date>1909-1913</date>
+                     </imprint>
+                     <biblScope unit="volume" n="1">
+                        I
+                     </biblScope>
+                     <biblScope unit="page" from="232" to="232">
+                        Nr. 56
+                     </biblScope>
+                  </monogr>
+               </biblStruct>
+            </listBibl>
+            <listBibl type="letterReferenced">
+               <bibl xml:id="c3659-1" corresp="#LETTER_GENTZ_1757">Friedrich von Gentz an Karl August Böttiger, 20. Juni 1797</bibl>
+            </listBibl>
+            <listBibl type="alludedWorks">
+               <bibl xml:id="a3659-1" corresp="#LETTER_GENTZ_NNNN">nicht näher benanntes Memoire über einen Msr. d'orleans, Signatur Aa. 6. 438 nro 6.</bibl>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Masterarbeit zu Matrikelnummer 5584124</p>
+         </projectDesc>
+      </encodingDesc>
+      <profileDesc>
+         <creation>
+            <date when-iso="1797-06-29">29. Juni 1797</date>
+         </creation>
+        <langUsage>
+           <language ident="d">deutsch</language>
+        </langUsage>
+         <textClass>
+            <keywords scheme="internal"><!-- internal: innerhalb des besagten Briefs -->
+               <term>Billet</term>
+               <term>Begleitschreiben</term>
+               <term>Bibliothek</term>
+            </keywords>
+            <keywords scheme="categorisation"><!-- Sinnabschnittseinteilung - relevant für den Fahrkartenautomaten! -->
+               <term xml:id="bibl">Bibliothek</term>
+               <term xml:id="vkab">Verhältnis Karl August Böttiger</term>
+            </keywords>
+         </textClass>
+         <textDesc>
+            <channel>manuscript</channel>
+            <constitution type="single"/>
+            <derivation type="original"/>
+            <domain type="private"/>
+            <factuality type="fact"/>
+            <interaction type="partial"/>
+            <preparedness type="prepared"/>
+            <purpose type="inform"/>
+         </textDesc>
+         <particDesc>
+            <listPerson>
+               <!-- Sender und Adressat -->
+               <person role="sender" xml:id="Gen">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/118538489"/>
+                     <forename>Friedrich von</forename>
+                     <surname>Gentz</surname>
+                  </persName>
+               </person>
+               <person role="receiver" xml:id="KAB">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/118824775"/>
+                     <forename>Carl August</forename>
+                     <surname>Böttiger</surname>
+                  </persName>
+               </person>
+               <!-- erwähnte Personen -->
+            </listPerson>
+         </particDesc>
+         <settingDesc>
+            <listPlace>
+               <!-- Start- und Zielort -->
+               <place type="sender" xml:id="plBe">
+                  <country>
+                     <ref target="http://d-nb.info/gnd/4047194-9"/>
+                     <placeName>Preußen</placeName>
+                  </country>
+                  <settlement>
+                     <ref target="http://d-nb.info/gnd/4005728-8"/>
+                     <placeName>Berlin</placeName>
+                  </settlement>
+               </place>
+               <place type="receiver" xml:id="plWe">
+                  <country>
+                     <ref target="http://d-nb.info/gnd/4051194-7"/>
+                     <placeName>Sachsen-Weimar-Eisenach</placeName>
+                  </country>
+                  <settlement>
+                     <ref target="http://d-nb.info/gnd/4065105-8"/>
+                     <placeName>Weimar</placeName>
+                  </settlement>
+               </place>
+               <!-- erwähnte Orte -->
+               <place type="named" xml:id="plBr">
+                  <country>
+                     <ref target="http://d-nb.info/gnd/4047194-9"/>
+                     <placeName>Preußen</placeName>
+                  </country>
+                  <settlement>
+                     <ref target="http://d-nb.info/gnd/4008216-7"/>
+                     <placeName>Breslau</placeName>
+                  </settlement>
+               </place>
+            </listPlace>
+         </settingDesc>
+      </profileDesc>
+      <revisionDesc>
+         <change xml:id="init" when-iso="2018-02-26" who="#edAG">Erstauszeichnung und Normierung des Dokumentes im Rahmen der Masterarbeit der Matrikelnummer 5584124</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div n="1" corresp="#bibl">
+            <p>
+               Ich schicke Ihnen hier mit unendlichem Danke die mir anvertrauten Bücher sämmtlich zurück. Ich habe sie alle so 
+               benutzt, wie ich es wünschte: Nur ein einziges ist darunter, 
+               <rs type="citation" ref="#a3659-1">Memoire à consulter pour Msr. d'orleans</rs> bezeichnet mit Aa. 6. 438 nro. 6. - 
+               welches ich wohl zu andrer Zeit und um es genau mit andern in meinen Händen befindlichen Piecen zu confrontiren 
+               wieder zu haben wünschte ! Könnten Sie nicht gleich zum Voraus eine entfernte Veranstaltung treffen, daß dieser 
+               Wunsch realisirt würde ? <pb/>
+            </p>
+         </div>
+         <div n="2" corresp="#vkab">
+            <p>
+               Ich hoffe, Sie werden die in meinem vorigen Briefe enthaltne Bitten mit freundschaftlicher Güte aufgenommen haben, 
+               und wünsche jetzt nichts sehnlicher, als daß sich doch nur irgend eine Gelegenheit ergeben mögte wo auch ich im 
+               Stande wäre, Ihnen meine Freundschaft durch wesentliche Dienste an den Tag zu legen.
+            </p>
+            <p>
+               Ich reise zwar <date when-iso="1797-07-30">Morgen</date> auf einige Wochen nach 
+               <rs type="place" ref="#plBr">Breßlau</rs> bitte Sie aber, dadurch unsre Correspondenz nicht stören zu laßen, indem 
+               mir alle Briefe nachgeschickt werden.
+            </p>
+         </div>
+         <closer>
+            <salute rend="right">Ihr herzlich ergebner</salute>
+            <dateline rend="left"><rs type="place" ref="#plBe">Berlin</rs> den <date when-iso="1797-06-29">20<span rend="sup">ten</span> Juny 97</date>.</dateline>
+            <signed rend="right">Gentz.</signed>
+         </closer>
+      </body>
+   </text>
+</TEI>

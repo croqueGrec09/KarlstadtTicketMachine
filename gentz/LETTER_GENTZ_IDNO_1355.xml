@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc xml:id="LETTER_GENTZ_1355">
+         <titleStmt>
+            <title>Louis Philippe Herzog von Orléans an Friedrich von Gentz, 4. November 1802</title>
+            <editor xml:id="edAG">Andreas Gálffy</editor>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <name>Forschungsstelle "Universitätssammlung Friedrich von Gentz"</name>
+               <link target="http://gentz-digital.ub.uni-koeln.de http://www.ub.uni-koeln.de/cdm/singleitem/collection/gentz/id/1354/"/>
+            </publisher>
+            <pubPlace>Cologne</pubPlace>
+            <idno type="Gentz-Edition-Number" n="1355"/>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <country>unknown</country>
+                  <idno>not retraced</idno>
+               </msIdentifier>
+               <msContents>
+                  <summary>
+                     Louis Philippe Herzog von Orléans hat soeben erfahren, dass Gentz nach London gekommen ist und wünscht ihm 
+                     einen erlebnisreichen Aufenthalt. Er wünscht obendrein, Gentz nach Empfehlungen von Froberg kennenzulernen und 
+                     sieht hierfür in acht bis zehn Tagen Möglichkeit.
+                  </summary>
+               </msContents>
+            </msDesc>
+            <listBibl type="preprints">
+               <biblStruct>
+                  <monogr>
+                     <author>
+                        <persName>
+                           <ref />
+                           <forename>Franz</forename>
+                           <surname>Gräffer</surname>
+                        </persName>
+                     </author>
+                     <title>Kleine Wiener Memoiren: Historische Novellen, Genrescenen, Fresken, Skizzen, Persönlichkeiten und Sächlichkeiten, Anecdoten und Curiosa, Visionen und Notizen zur Geschichte und Characteristik Wien's und der Wiener, in älterer und neuerer Zeit</title>
+                     <imprint>
+                        <pubPlace>Wien</pubPlace>
+                        <date>1845</date>
+                     </imprint>
+                     <biblScope unit="part" n="3">
+                        Dritter Theil
+                     </biblScope>
+                     <biblScope unit="page" n="79">
+                        S. 79
+                     </biblScope>
+                  </monogr>
+               </biblStruct>
+            </listBibl>
+            <listBibl type="citation">
+               <bibl xml:id="c1355-1" corresp="#LETTER_GENTZ_NNNN">nicht bekannter Brief von Graf Montjoie-Froberg an Friedrich von Gentz</bibl>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Masterarbeit zu Matrikelnummer 5584124</p>
+         </projectDesc>
+      </encodingDesc>
+      <profileDesc>
+         <creation>
+            <date when-iso="1802-11-04">4. November 1802</date>
+         </creation>
+        <langUsage>
+           <language ident="f">französisch</language>
+        </langUsage>
+         <textClass>
+            <keywords scheme="internal"><!-- internal: innerhalb des besagten Briefs -->
+               <term>Brief</term>
+               <term>Reise</term>
+               <term>London</term>
+               <term>Ankunft</term>
+            </keywords>
+            <keywords scheme="categorisation"><!-- Sinnabschnittseinteilung - relevant für den Fahrkartenautomaten! -->
+               <term xml:id="vlpddo">Verhältnis Louis Philippe Herzog von Orléans</term>
+            </keywords>
+         </textClass>
+         <textDesc>
+            <channel>manuscript</channel>
+            <constitution type="single"/>
+            <derivation type="original"/>
+            <domain type="private"/>
+            <factuality type="fact"/>
+            <interaction type="partial"/>
+            <preparedness type="prepared"/>
+            <purpose type="inform"/>
+         </textDesc>
+         <particDesc>
+            <listPerson>
+               <!-- Sender und Adressat -->
+               <person role="sender" xml:id="LPDdO">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/11864064X"/>
+                     <forename>Louis Philippe Herzog von</forename>
+                     <surname>Orléans</surname>
+                  </persName>
+               </person>
+               <person role="receiver" xml:id="Gen">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/118538489"/>
+                     <forename>Friedrich von</forename>
+                     <surname>Gentz</surname>
+                  </persName>
+               </person>
+               <!-- erwähnte Personen -->
+               <person role="named" xml:id="Mtj">
+                  <persName>
+                     <ref />
+                     <forename/>
+                     <surname>Montjoie-Froberg</surname>
+                     <roleName type="office">Graf</roleName>
+                  </persName>
+               </person>
+            </listPerson>
+         </particDesc>
+         <settingDesc>
+            <listPlace>
+               <!-- Start- und Zielort -->
+               <place type="sender" xml:id="plDng">
+                  <country>
+                     <ref target="http://d-nb.info/gnd/4022153-2"/>
+                     <placeName>Vereinigtes Königreich</placeName>                
+                  </country>
+                  <settlement>
+                     <ref target="http://d-nb.info/gnd/10159491-4"/>
+                     <placeName>Donington</placeName>
+                  </settlement>
+               </place>
+               <place type="receiver" xml:id="plLo">
+                  <country>
+                     <ref target="http://d-nb.info/gnd/4022153-2"/>
+                     <placeName>Vereinigtes Königreich</placeName>                
+                  </country>
+                  <settlement>
+                     <ref target="http://d-nb.info/gnd/4074335-4"/>
+                     <placeName>London</placeName>
+                  </settlement>
+               </place>
+               <!-- erwähnte Orte -->
+            </listPlace>
+         </settingDesc>
+      </profileDesc>
+      <revisionDesc>
+         <change xml:id="init" when-iso="2018-03-11" who="#edAG">Erstauszeichnung und Normierung des Dokumentes im Rahmen der Masterarbeit der Matrikelnummer 5584124</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <opener>
+            <dateline rend="right"><rs type="place" ref="#plDng">Donington</rs>, <date when-iso="1802-11-04">le 4 Nov. 1802</date>. Leicester Shire.</dateline>
+         </opener>
+         <div n="1" corresp="#vlpddo">
+            <p>
+               J'apprends, Monsieur, que vous venés, d'arriver à <rs type="place" ref="#plLo">Londres</rs>, et je m'empresse de vous 
+               adresser <rs type="citation" ref="#c1355-1">une lettre de mon ami</rs> le 
+               <rs type="person" ref="#Mtj">Comte de Froberg</rs> que j'ai reçu, il y a quelque tems. J'en profite avec plaisir pour 
+               vous témoigner, combien je serais aise de faire votre connaissance. Il y a longtems que vos ouvrages m'en ont donné 
+               le desir, et tout ce que me mande le <rs type="person" ref="#Mtj">Comte de Froberg</rs> l'a encore fortifié. Je 
+               regrette de ne pas me trouver à <rs type="place" ref="#plLo">Londres</rs> dans ce moment ci, car je sais que vous ne 
+               devès pas y rester longtems, et j'attache beaucoup de prix à mettre à profit le court séjour que vous comptés faire 
+               dans ce pays ci. Je compte ètre de retour à <rs type="place" ref="#plLo">Londres</rs> et dans le voisinage dans huit 
+               ou dix jours au plutard, et je me flatte qu'alors vous voudrés bien me dedommager de ce que je perds maintenant. Je 
+               saisis avec empressement, Monsieur, cette occasion, de vous assurer de ma parfaite consideration.
+            </p>
+         </div>
+         <closer>
+            <signed rend="right">L. P. D'Orleans.</signed>
+         </closer>
+      </body>
+   </text>
+</TEI>

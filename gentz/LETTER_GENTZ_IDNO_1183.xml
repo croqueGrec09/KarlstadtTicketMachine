@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader type="text">
+      <fileDesc xml:id="LETTER_GENTZ_1183">
+         <titleStmt>
+            <title>Cehlnirizky an Friedrich von Gentz, 18. Juli 1796</title>
+            <editor xml:id="edAG">Andreas Gálffy</editor>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <name>Forschungsstelle "Universitätssammlung Friedrich von Gentz"</name>
+               <link target="http://gentz-digital.ub.uni-koeln.de http://www.ub.uni-koeln.de/cdm/singleitem/collection/gentz/id/1182/"/>
+            </publisher>
+            <pubPlace>Cologne</pubPlace>
+            <idno type="Gentz-Edition-Number" n="1183"/>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <country>Germany</country>
+                  <settlement>Wiesbaden</settlement>
+                  <institution>Vieweg-Verlagsarchiv</institution>
+                  <repository>Gentz-Materialien</repository>
+                  <idno>IV, 2</idno>
+               </msIdentifier>
+               <msContents>
+                  <summary>
+                     Die Schulden vom 30. August 1795 über 120 Reichstaler Courant sind auch nach dem Zahlungsbefehl vom 13. Juni 
+                     1796 nicht bezahlt worden, weshalb die Exekution gegen Gentz verhängt wurde und er in acht Tagen 
+                     (26. Juli 1796) die Restschuld zu tilgen hat.
+                  </summary>
+               </msContents>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Masterarbeit zu Matrikelnummer 5584124</p>
+         </projectDesc>
+      </encodingDesc>
+      <profileDesc>
+         <creation>
+            <date when-iso="1796-07-18">18. Juli 1796</date>
+         </creation>
+        <langUsage>
+           <language ident="d">deutsch</language>
+        </langUsage>
+         <textClass>
+            <keywords scheme="internal"><!-- internal: innerhalb des besagten Briefs -->
+               <term>Brief</term>
+               <term>Exekution</term>
+               <term>Zahlungsbefehl</term>
+               <term>Abraham Joachim</term>
+            </keywords>
+            <keywords scheme="categorisation"><!-- Sinnabschnittseinteilung - relevant für den Fahrkartenautomaten! -->
+               <term xml:id="gprl">Gentz - p(r)ekuniäre Lage</term>
+            </keywords>
+         </textClass>
+         <textDesc>
+            <channel>manuscript</channel>
+            <constitution type="single"/>
+            <derivation type="original"/>
+            <domain type="private"/>
+            <factuality type="fact"/>
+            <interaction type="partial"/>
+            <preparedness type="prepared"/>
+            <purpose type="inform"/>
+         </textDesc>
+         <particDesc>
+            <listPerson>
+               <!-- Sender und Adressat -->
+               <person role="sender" xml:id="Ceh">
+                  <persName>
+                     <ref/>
+                     <forename/>
+                     <surname>Cehlnirizky</surname>
+                  </persName>
+               </person>
+               <person role="receiver" xml:id="Gen">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/118538489"/>
+                     <forename>Friedrich von</forename>
+                     <surname>Gentz</surname>
+                  </persName>
+               </person>
+               <!-- erwähnte Personen -->
+               <person role="named" xml:id="KFWII">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/11869362X"/>
+                     <forename>Friedrich Wilhelm II.</forename>
+                     <surname>von Preußen</surname>
+                     <roleName type="office">König von Preußen</roleName>
+                  </persName>
+               </person>
+               <person role="named" xml:id="AJo">
+                  <persName>
+                     <ref/>
+                     <forename>Abraham</forename>
+                     <surname>Joachim</surname>
+                  </persName>
+               </person>
+               <person role="named" xml:id="LrS">
+                  <persName>
+                     <ref/>
+                     <forename/>
+                     <surname>Scherff</surname>
+                  </persName>
+               </person>
+            </listPerson>
+         </particDesc>
+         <settingDesc>
+            <listPlace>
+               <!-- Start- und Zielort -->
+               <place type="sender" xml:id="plBe">
+                  <country>
+                     <ref target="http://d-nb.info/gnd/4047194-9"/>
+                     <placeName>Preußen</placeName>
+                  </country>
+                  <settlement>
+                     <ref target="http://d-nb.info/gnd/4005728-8"/>
+                     <placeName>Berlin</placeName>
+                  </settlement>
+               </place>
+               <!-- erwähnte Orte -->
+            </listPlace>
+         </settingDesc>
+      </profileDesc>
+      <revisionDesc>
+         <change xml:id="init" when-iso="2018-02-19" who="#edAG">Erstauszeichnung und Normierung des Dokumentes im Rahmen der Masterarbeit der Matrikelnummer 5584124</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <figure rend="left">
+         <desc>Stempel</desc>
+      </figure>
+      <figure rend="right">
+         <desc>Stempel</desc>
+      </figure>
+      <body>
+         <div n="1" corresp="#gprl">
+            <p>
+               Von Gottes Gnaden <rs type="person" ref="#KFWII">Friedrich Wilhelm König von Preußens</rs> Unsern gnädigen Gruß 
+               zuvor; Hochgelahrter Rath, lieber Getreuer !, Weil Ihr dem an Euch erlaßenen Befehl Unsers Kammergerichts vom 
+               <date when-iso="1796-06-13">13<span rend="sup">ten</span> v. M.</date> Keine Folge geleistet, und Eurem Gegner dem 
+               Schutz-Juden <rs type="person" ref="#AJo">Abraham Joachim</rs> allhier die 120 Reichsthaler in Kurant an Kapital und 
+               Zinsen a 6 proCent von gleicher Münzsorte seit dem 
+               <date when-iso="1795-08-30">30<span rend="sup">ten</span> August 95</date> 
+               <gap><desc>zwei Zeilen gestrichen</desc></gap><add place="margin">Sind bezahlt</add>aus dem Schuldscheine vom 
+               <date when-iso="1795-06-20">20<span rend="sup">ten</span> Juny</date> und 
+               <date when-iso="1795-09-27">27<span rend="sup">ten</span> September 95</date>. und dem rechtskräftigen Bescheide vom 
+               <date when-iso="1796-05-12">12<span rend="sup">ten</span> May d. J.</date> in Güte nicht bezahlt habt; so haben wir 
+               auf deßen bey Uns am <date when-iso="1796-07-16">16<span rend="sup">ten</span> July des Jahres</date> eingekommenes 
+               ferneres Ansuchen vom <date when-iso="1796-07-07">7<span rend="sup">ten</span> des Monats ejusd</date>: nunmehro die 
+               Execution wider Euch verordnet. Wir machen Euch dieses also mit der Anweisung hiermit bekannt, annoch binnen 
+               <date when-iso="1796-07-26">acht Tagen</date> denselben durch baare an ihn allein, und selbst zu leistende Zahlung 
+               vollständig zu befriedigen, und wie solches geschehen, innerhalb dieser Frist gegen den 
+               <rs type="person" ref="#LrS">Landreuter Scherff</rs> allhier durch Vorzeigung der Quittung gehörig nachzuweisen, 
+               oder Ihr habt in Entstehung deßen die würkliche Vollstreckung der Execution ohnfehlbar zu gewärtigen. Sind Euch mit 
+               Gnaden gewogen. Gegeben <rs type="place" ref="#plBe">Berlin</rs> den 
+               <date when-iso="1796-07-18">18<span rend="sup">ten</span> July 1796</date>.
+            </p>
+         </div>
+         <closer>
+            <signed rend="right">Cehlninizky</signed>
+         </closer>
+         <postscript corresp="#gprl">
+            <p>
+               An
+               den Kriegsrath Gentz no 1580<span rend="sup">b</span>
+            </p>
+         </postscript>
+      </body>
+      <back>
+         <p>
+            Dem Hochgelahrten Unserm lieben Getreuen
+            dem Kriegsrath Genz.
+         </p>
+      </back>
+      <note xml:id="r1183-1">Seite 4: Adresse</note>
+      <note xml:id="r1183-2">Seite 4: Registernummer: Nr. 1580</note>
+      <note xml:id="r1183-3">Seite 4: 2 Siegelreste</note>
+   </text>
+</TEI>

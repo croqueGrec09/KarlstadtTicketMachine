@@ -1,0 +1,304 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc xml:id="LETTER_GENTZ_2433">
+         <titleStmt>
+            <title>Friedrich von Gentz an Karl August Böttiger, 13. Oktober 1802</title>
+            <editor xml:id="edAG">Andreas Gálffy</editor>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <name>Forschungsstelle "Universitätssammlung Friedrich von Gentz"</name>
+               <link target="http://gentz-digital.ub.uni-koeln.de http://www.ub.uni-koeln.de/cdm/singleitem/collection/gentz/id/2432/"/>
+            </publisher>
+            <pubPlace>Cologne</pubPlace>
+            <idno type="Gentz-Edition-Number" n="2433"/>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <country>Germany</country>
+                  <settlement>Dresden</settlement>
+                  <institution>Sächsische Landesbibliothek</institution>
+                  <repository>Handschriftensammlung, Nachlaß Böttiger</repository>
+                  <collection>Mscr. Dresd. h 37, Bd. 54 (4°)</collection>
+                  <idno>Nr. 23</idno>
+               </msIdentifier>
+               <msContents>
+                  <summary>
+                     Gentz erstattet einen Bericht über den weiteren Verlauf der Reise und bittet Böttiger, den Freunden, Bekannten 
+                     und dem Herzog Grüße zu überbringen. Im Postscript überbringt Gentz seinerseits Grüße von Elliot.
+                  </summary>
+               </msContents>
+            </msDesc>
+            <listBibl type="preprints">
+               <biblStruct>
+                  <monogr>
+                     <editor>
+                        <persName>
+                           <ref target="http://d-nb.info/gnd/130953075"/>
+                           <forename>Friedrich Carl</forename>
+                           <surname>Wittichen</surname>
+                        </persName>
+                        <persName>
+                           <ref/> <!-- kein GND-Eintrag -->
+                           <forename>Ernst</forename>
+                           <surname>Salzer</surname>
+                        </persName>
+                     </editor>
+                     <title>Briefe von und an Friedrich von Gentz, 4 Bde.</title>
+                     <imprint>
+                        <publisher>Oldenbourg</publisher>
+                        <pubPlace>München, Berlin</pubPlace>
+                        <date>1909-1913</date>
+                     </imprint>
+                     <biblScope unit="volume" n="1">
+                        I
+                     </biblScope>
+                     <biblScope unit="page" from="263" to="264">
+                        Nr. 74
+                     </biblScope>
+                  </monogr>
+               </biblStruct>
+            </listBibl>
+            <listBibl type="letterReferenced">
+               <bibl xml:id="c2433-1" corresp="#LETTER_GENTZ_NNNN">nicht bekannter Brief an Amalie von Imhof</bibl>
+            </listBibl>
+            <listBibl type="alludedWorks">
+               <bibl xml:id="a2433-1" corresp="#LETTER_GENTZ_NNNN">nicht näher benannte Broschüre von Jordan</bibl>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Masterarbeit zu Matrikelnummer 5584124</p>
+         </projectDesc>
+      </encodingDesc>
+      <profileDesc>
+         <creation>
+            <date when-iso="1802-10-13">13. Oktober 1802</date>
+         </creation>
+        <langUsage>
+           <language ident="d">deutsch</language>
+        </langUsage>
+         <textClass>
+            <keywords scheme="internal"><!-- internal: innerhalb des besagten Briefs -->
+               <term>Brief</term>
+               <term>Bericht</term>
+               <term>Reise</term>
+               <term>Grüße</term>
+            </keywords>
+            <keywords scheme="categorisation"><!-- Sinnabschnittseinteilung - relevant für den Fahrkartenautomaten! -->
+               <term xml:id="rs">Reise von 1802</term>
+               <term xml:id="bibl">Bibliothek</term>
+               <term xml:id="vai">Verhältnis Amalie von Imhof</term>
+               <term xml:id="vkab">Verhältnis Karl August Böttiger</term>
+            </keywords>
+         </textClass>
+         <textDesc>
+            <channel>manuscript</channel>
+            <constitution type="single"/>
+            <derivation type="original"/>
+            <domain type="private"/>
+            <factuality type="fact"/>
+            <interaction type="partial"/>
+            <preparedness type="prepared"/>
+            <purpose type="inform"/>
+         </textDesc>
+         <particDesc>
+            <listPerson>
+               <!-- Sender und Adressat -->
+               <person role="sender" xml:id="Gen">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/118538489"/>
+                     <forename>Friedrich von</forename>
+                     <surname>Gentz</surname>
+                  </persName>
+               </person>
+               <person role="receiver" xml:id="KAB">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/118824775"/>
+                     <forename>Carl August</forename>
+                     <surname>Böttiger</surname>
+                  </persName>
+               </person>
+               <!-- erwähnte Personen -->
+               <person role="named" xml:id="HEl">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/1075473756"/>
+                     <forename>Hugh</forename>
+                     <surname>Elliot</surname>
+                  </persName>
+               </person>
+               <person role="named" xml:id="AvHv">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/118549006"/>
+                     <forename>Amalie von</forename>
+                     <surname>Helvig</surname>
+                  </persName>
+               </person>
+               <person role="named" xml:id="KASWE">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/11856014X"/>
+                     <forename>Karl August</forename>
+                     <surname>Sachsen-Weimar-Eisenach</surname>
+                     <roleName type="address">Großherzog</roleName>
+                  </persName>
+               </person>
+               <person role="named" xml:id="HGen">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/11900738X"/>
+                     <forename>Heinrich</forename>
+                     <surname>Gentz</surname>
+                  </persName>
+               </person>
+            </listPerson>
+         </particDesc>
+         <settingDesc>
+            <listPlace>
+               <!-- Start- und Zielort -->
+               <place type="sender" xml:id="plFfm">
+                  <country>
+                     <ref target="http://d-nb.info/gnd/4018118-2"/>
+                     <placeName>Frankfurt</placeName>
+                  </country>
+                  <settlement>
+                     <ref target="http://d-nb.info/gnd/4018118-2"/>
+                     <placeName>Frankfurt</placeName>
+                  </settlement>
+               </place>
+               <place type="receiver" xml:id="plWe">
+                  <country>
+                     <ref target="http://d-nb.info/gnd/4051194-7"/>
+                     <placeName>Sachsen-Weimar-Eisenach</placeName>
+                  </country>
+                  <settlement>
+                     <ref target="http://d-nb.info/gnd/4065105-8"/>
+                     <placeName>Weimar</placeName>
+                  </settlement>
+               </place>
+               <!-- erwähnte Orte -->
+               <place type="named" xml:id="plWisz">
+                  <country>
+                     <ref target="http://d-nb.info/gnd/4272284-6"/>
+                     <placeName>Nassau-Usingen</placeName>
+                  </country>
+                  <settlement>
+                     <ref target="http://d-nb.info/gnd/4066043-6"/>
+                     <placeName>Wiesbaden</placeName>
+                  </settlement>
+               </place>
+               <place type="named" xml:id="plKob">
+                  <country>
+                     <ref target="http://d-nb.info/gnd/4018145-5" />
+                     <placeName>Frankreich</placeName>
+                  </country>
+                  <settlement>
+                     <ref target="http://d-nb.info/gnd/4031410-8" />
+                     <placeName>Koblenz</placeName>
+                  </settlement>
+               </place>
+               <place type="named" xml:id="plKoe">
+                  <country>
+                     <ref target="http://d-nb.info/gnd/4018145-5" />
+                     <placeName>Frankreich</placeName>
+                  </country>
+                  <settlement>
+                     <ref target="http://d-nb.info/gnd/4031483-2" />
+                     <placeName>Köln</placeName>
+                  </settlement>
+               </place>
+               <place type="named" xml:id="plBrs">
+                  <country>
+                     <ref target="http://d-nb.info/gnd/4018145-5" />
+                     <placeName>Frankreich</placeName>
+                  </country>
+                  <settlement>
+                     <ref target="http://d-nb.info/gnd/4008460-7" />
+                     <placeName>Brüssel</placeName>
+                  </settlement>
+               </place>
+               <place type="named" xml:id="plOst">
+                  <country>
+                     <ref target="http://d-nb.info/gnd/4018145-5" />
+                     <placeName>Frankreich</placeName>
+                  </country>
+                  <settlement>
+                     <ref target="http://d-nb.info/gnd/4116805-7" />
+                     <placeName>Ostende</placeName>
+                  </settlement>
+               </place>
+               <place type="named" xml:id="plCl">
+                  <country>
+                     <ref target="http://d-nb.info/gnd/4018145-5" />
+                     <placeName>Frankreich</placeName>
+                  </country>
+                  <settlement>
+                     <ref target="http://d-nb.info/gnd/4229218-9" />
+                     <placeName>Calais</placeName>
+                  </settlement>
+               </place>
+            </listPlace>
+         </settingDesc>
+      </profileDesc>
+      <revisionDesc>
+         <change xml:id="init" when-iso="2018-03-11" who="#edAG">Erstauszeichnung und Normierung des Dokumentes im Rahmen der Masterarbeit der Matrikelnummer 5584124</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <opener>
+            <dateline rend="right"><rs type="place" ref="#plFfm">Frankfurt</rs> d <date when-iso="1802-10-13">13 Oktober</date>.</dateline>
+         </opener>
+         <div n="1" corresp="#rs">
+            <p>
+               Wir sind <date when-iso="1802-10-10">Sonntag</date> hier wohlbehalten angekommen, und setzen nun unsre Reise 
+               <date when-iso="1802-10-14">Morgen</date> weiter fort. Die Wasser-Fahrten sind alle aufgegeben; wir reisen zu Lande 
+               über <rs type="place" ref="#plWisz">Wißbaden</rs> pp nach <rs type="place" ref="#plKob">Coblenz</rs>, dann auf dem 
+               linken Rheinufer nach <rs type="place" ref="#plKoe">Cölln</rs>, von da nach 
+               <rs type="place" ref="#plBrs">Brüssel</rs>, und, wie <rs type="person" ref="#HEl">Herr Elliot</rs> meint, nach 
+               <rs type="place" ref="#plOst"><emph rend="underlined">Ostende</emph></rs>, wie <emph rend="underlined">ich</emph> 
+               aber meine (und bisher hat <emph rend="underlined">meine</emph> Meynung noch immer obgesiegt) nach 
+               <rs type="place" ref="#plCl"><emph rend="underlined">Calais</emph></rs>. - Unterdessen habe ich in 3 Tagen die 
+               <rs type="place" ref="#plFfm">Reichsstadt Frankfurt</rs>, mit allen ihren Herrlichkeiten, Zirkeln, Assembléen, Diners, 
+               Soupers, Patriziern, Corps diplomatique, Theater, Buchläden pp von außen und innen kennen gelernt. -
+            </p>
+         </div>
+         <div n="2" corresp="#bibl">
+            <p>
+               Ich sende Ihnen, mit gröstem Danke Ihren <rs type="citation" ref="#a2433-1">Jordan</rs> zurück, der uns unterwegens 
+               großes Vergnügen gemacht hat.
+            </p>
+         </div>
+         <div n="3" corresp="#vai">
+            <p>
+               Auch bin ich so frei, Sie <pb/> zu bitten, das <rs type="citation" ref="#c2433-1">beiliegende Paket</rs> baldigst an 
+               <rs type="person" ref="#AvHv">Fräulein Imhof</rs> zu besorgen.
+            </p>
+         </div>
+         <div n="4" corresp="#vkab">
+            <p>
+               Ich füge dieser Bitte noch eine andre hinzu. Es ist die, daß Sie mich 
+               <rs type="person" ref="#KASWE">Seiner Durchlaucht dem Herzoge</rs>, wenn Sie ihn sehen, zur Gnade, 
+               <rs type="person" ref="#HGen">meinem Bruder</rs>, den liebenswürdigen Demoisel<emph rend="underlined">les</emph> 
+               Jagemann (von denen beiden ich mehr als je eingenommen bin) und allen dortigen Freunden, die sich meiner erinnern, 
+               zum Andenken empfehlen sollen. Ich freue mich sehr, bei meiner Zurückkunft <rs type="place" ref="#plWe">Weimar</rs> 
+               wieder zu berühren, und Ihnen, mein sehr Hochgeschätzter Freund, die Versicherung meiner unveränderten und 
+               unbegränzten Ergebenheit zu erneuern.
+            </p>
+         </div>
+         <closer>
+            <signed rend="right">Gentz</signed>
+         </closer>
+         <postscript corresp="#vkab">
+            <p>
+               <rs type="person" ref="#HEl">Herr Elliot</rs> trägt mir eben ausdrücklich auf, Sie freundschaftlichst von ihm zu 
+               grüßen.
+            </p>
+         </postscript>
+      </body>
+   </text>
+</TEI>

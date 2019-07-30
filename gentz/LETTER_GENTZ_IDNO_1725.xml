@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader type="text">
+      <fileDesc xml:id="LETTER_GENTZ_1725">
+         <titleStmt>
+            <title>Friedrich von Gentz an Friedrich Vieweg, 21. Dezember 1796</title>
+            <editor xml:id="edAG">Andreas Gálffy</editor>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <name>Forschungsstelle "Universitätssammlung Friedrich von Gentz"</name>
+               <link target="http://gentz-digital.ub.uni-koeln.de http://www.ub.uni-koeln.de/cdm/singleitem/collection/gentz/id/1724/"/>
+            </publisher>
+            <pubPlace>Cologne</pubPlace>
+            <idno type="Gentz-Edition-Number" n="1725"/>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <country>Germany</country>
+                  <settlement>Wiesbaden</settlement>
+                  <institution>Vieweg-Verlagsarchiv</institution>
+                  <repository>Briefsammlung 311 G, Gentz-Briefe</repository>
+                  <idno>Nr. 72</idno>
+               </msIdentifier>
+               <msContents>
+                  <summary>
+                     Beguelin hat gentz angezeigt. Am Kammergericht hat Gentz einen verständnisvollen Mann gefunden, der die Lage 
+                     entschärft hat. Gentz hat seinen vollständigen Katalog übergeben - woraufhin der Beamte sogar die Verantwortung 
+                     für einen vorsätzlichen Bruch eines Urteils auf sich nehmen will. Dieses Urteil lautet, dass Gentz aus der 
+                     Beguelinschen Bibliothek nichts entnehmen darf. Gentz dankt für Viewegs Freundschaft und Liebe. 
+                     Im Postscript meint Gentz, Beguelin überspitze die Sache maßlos - er verlor doch "nur eine Stecknadel".
+                  </summary>
+               </msContents>
+            </msDesc>
+            <listBibl type="letterReferenced">
+               <bibl xml:id="c1725-1" corresp="#LETTER_GENTZ_NNNN">nicht bekannter Brief von Heinrich von Beguelin an Friedrich von Gentz, Dezember 1796</bibl>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Masterarbeit zu Matrikelnummer 5584124</p>
+         </projectDesc>
+      </encodingDesc>
+      <profileDesc>
+         <creation>
+            <date when-iso="1796-12-21">21. Dezember 1796</date>
+         </creation>
+        <langUsage>
+           <language ident="d">deutsch</language>
+        </langUsage>
+         <textClass>
+            <keywords scheme="internal"><!-- internal: innerhalb des besagten Briefs -->
+               <term>Brief</term>
+               <term>Schulden</term>
+               <term>Beguelin</term>
+               <term>Bibliothek</term>
+            </keywords>
+            <keywords scheme="categorisation"><!-- Sinnabschnittseinteilung - relevant für den Fahrkartenautomaten! -->
+               <term xml:id="vhvb">Verhältnis Heinrich von Beguelin</term>
+            </keywords>
+         </textClass>
+         <textDesc>
+            <channel>manuscript</channel>
+            <constitution type="single"/>
+            <derivation type="original"/>
+            <domain type="private"/>
+            <factuality type="fact"/>
+            <interaction type="partial"/>
+            <preparedness type="prepared"/>
+            <purpose type="inform"/>
+         </textDesc>
+         <particDesc>
+            <listPerson>
+               <!-- Sender und Adressat -->
+               <person role="sender" xml:id="Gen">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/118538489"/>
+                     <forename>Friedrich von</forename>
+                     <surname>Gentz</surname>
+                  </persName>
+               </person>
+               <person role="receiver" xml:id="FVW">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/119049546"/>
+                     <forename>Friedrich</forename>
+                     <surname>Vieweg</surname>
+                  </persName>
+               </person>
+               <!-- erwähnte Personen -->
+               <person role="named" xml:id="Beg">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/118068296"/>
+                     <forename>Heinrich von</forename>
+                     <surname>Beguelin</surname>
+                  </persName>
+               </person>
+               <person role="named" xml:id="Corm">
+                  <persName>
+                     <ref/>
+                     <forename/>
+                     <surname>Cormar</surname>
+                  </persName>
+               </person>
+               <person role="named" xml:id="Schmu">
+                  <persName>
+                     <ref/>
+                     <forename/>
+                     <surname>Schmucker</surname>
+                  </persName>
+               </person>
+            </listPerson>
+         </particDesc>
+         <settingDesc>
+            <listPlace>
+               <!-- Start- und Zielort -->
+               <place type="sender" xml:id="plBe">
+                  <country>
+                     <ref target="http://d-nb.info/gnd/4047194-9"/>
+                     <placeName>Preußen</placeName>
+                  </country>
+                  <settlement>
+                     <ref target="http://d-nb.info/gnd/4005728-8"/>
+                     <placeName>Berlin</placeName>
+                  </settlement>
+               </place>
+               <!-- erwähnte Orte -->
+            </listPlace>
+         </settingDesc>
+      </profileDesc>
+      <revisionDesc>
+         <change xml:id="init" when-iso="2018-02-19" who="#edAG">Erstauszeichnung und Normierung des Dokumentes im Rahmen der Masterarbeit der Matrikelnummer 5584124</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div n="1" corresp="#vhvb">
+            <p>
+               Damit Sie im Verlauf der Sache bleiben, schicke ich Ihnen die <rs type="citation" ref="#c1725-1">letzte Antwort</rs> 
+               des <rs type="person" ref="#Beg">Herrn von Beguelin</rs> die ich <date when-iso="1796-12-21">heute früh</date> 
+               erhielt. Sie sehen <del rend="stroked">es</del>, daß es an meinem edeln Freunde nicht liegt, wenn meine Verlegenheit 
+               nicht noch eben dieselbe ist, die sie <date when-iso="1796-12-20">gestern</date> war.
+            </p>
+            <p>
+               Glücklicherweise habe ich an dem Commissarius des Cammer-Gerichts einen vernünftigen, billigen und willfährigen Mann 
+               gefunden, der die Lage der Sache richtig und zugleich menschlich beurtheilte. Er hat heute ein Protokoll aufgenommen, 
+               worin er, ohne alle weitre Anfrage bey <rs type="person" ref="#Beg">Beguelin</rs> oder 
+               <rs type="person" ref="#Corm">Cormar</rs> angezeigt hat, "daß bey den obwaltenden Umständen der Gebrauch meiner 
+               Bibliothek mir nicht genommen werden <emph rend="underlined">könne</emph>, und daß es völlig hinreichend sey, wenn 
+               ich, wie ich wirklich gethan, an Eides statt versicherte, bis zu ausgemachter Sache kein Buch aus dieser Bibliothek 
+               zu entfernen - Ich habe ihm hierauf meinen vollständigen Catalogue <pb/> übergeben, und ihn durch eine ganz einfache 
+               Darstellung meiner Lage so für mich gewonnen, daß er selbst die Verantwortung, die aus einem vorsätzlichen Bruche 
+               meines Versprechens entstehen kan, übernehmen will.
+            </p>
+            <p>
+               Ich brauche also dem <rs type="person" ref="#Beg">Herrn von Beguelin</rs> kein Gut Wort weiter zu geben, habe mir 
+               aber auf <rs type="person" ref="#Schmu">Schmucker</rs>s ausdrückliches Verlangen, und durch seine sehr triftige 
+               Gründe bewogen, <ref target="#r1725-1"><emph rend="underlined">im Pro-okoll</emph></ref> vorbehalten, mithin dem 
+               Cammer-Gericht anzeigen laßen,
+            </p>
+            <lg>
+               <l>daß ich mir reservirte, wegen der groben und injuriösen</l>
+               <l>Beschuldigung worauf sich die Vorstellung gründet,</l>
+               <l>Rechtfertigung und Genugthuung zu suchen.</l>
+            </lg>
+            <p>
+               Ihnen bin ich deshalb für Ihre gestrige Liebe und Freundschaft nicht weniger Dank schuldig. <pb/> Es thut mir aber 
+               jetzt sehr leid, daß ich mich <add place="above">gegen</add> den 
+               <rs type="person" ref="#Beg">Herrn von Beguelin</rs> <del rend="stroked">habe</del> abermals vergeblich gedehmüthigt 
+               habe, ob ich mich gleich von einer andern Seite freue, daß ich nun doch den ganzen Umfang seiner liebenswürdigen 
+               Gesinung gegen mich kennen lernte.
+            </p>
+         </div>
+         <closer>
+            <signed rend="right">Gentz.</signed>
+            <dateline rend="right">den <date when-iso="1796-12-21">21 Decbr 1796</date></dateline>
+         </closer>
+         <postscript>
+            <p>
+               Heben Sie mir ja das <rs type="citation" ref="#c1725-1">Billet</rs> von <rs type="person" ref="#Beg">Beguelin</rs> 
+               auf. Es ist ein wichtiges Aktenstück zur Geschichte meines Umganges mit Menschen. Sollte man nicht glauben, daß der 
+               Mann durch mich sein halbes Vermögen eingebüßt hätte, da er doch nur eine Stecknadel verlor ?
+            </p>
+         </postscript>
+      </body>
+      <note resp="#edAG" xml:id="r1725-1">Dieser Verschreiber wurde so aus Gentz digital übernommen</note>
+   </text>
+</TEI>

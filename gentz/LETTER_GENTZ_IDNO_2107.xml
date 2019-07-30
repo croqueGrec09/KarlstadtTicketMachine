@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader type="text">
+      <fileDesc xml:id="LETTER_GENTZ_2107">
+         <titleStmt>
+            <title>Friedrich von Gentz an Karl Gustav von Brinckmann, 2. November 1792</title>
+            <editor xml:id="edAG">Andreas Gálffy</editor>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <name>Forschungsstelle "Universitätssammlung Friedrich von Gentz"</name>
+               <link target="http://gentz-digital.ub.uni-koeln.de http://www.ub.uni-koeln.de/cdm/singleitem/collection/gentz/id/2106/"/>
+            </publisher>
+            <pubPlace>Cologne</pubPlace>
+            <idno type="Gentz-Edition-Number" n="2107"/>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <country>Sweden</country>
+                  <settlement>Trolle-Ljungby</settlement>
+                  <institution>Archiv des Grafen Wachtmeister</institution>
+                  <repository>Nachlaß Brinckmann, Ausländ. Briefwechsel, Gentz an Brinckmann</repository>
+                  <idno>G 3</idno>
+               </msIdentifier>
+               <msContents>
+                  <summary>
+                     Brinckmann wurde nach Charlottenburg geschickt und in bezug auf den Auftrag von Gentz getäuscht. Darauf 
+                     erfolgte eine heftige Kritik Brinckmanns an Gentz' Person, die er aber mit einer Rechtfertigung beantwortet. 
+                     Nichtsdestotrotz ist Gentz Brinckmann Dankbar für die Besorgung der Angelegenheit.
+                  </summary>
+               </msContents>
+            </msDesc>
+            <listBibl type="preprints">
+               <biblStruct>
+                  <monogr>
+                     <editor>
+                        <persName>
+                           <ref target="http://d-nb.info/gnd/130953075"/>
+                           <forename>Friedrich Carl</forename>
+                           <surname>Wittichen</surname>
+                        </persName>
+                        <persName>
+                           <ref/> <!-- kein GND-Eintrag -->
+                           <forename>Ernst</forename>
+                           <surname>Salzer</surname>
+                        </persName>
+                     </editor>
+                     <title>Briefe von und an Friedrich von Gentz. 4 Bde.</title>
+                     <imprint>
+                        <publisher>Oldenbourg</publisher>
+                        <pubPlace>München, Berlin</pubPlace>
+                        <date>1909-1913</date>
+                     </imprint>
+                     <biblScope unit="volume" n="2">
+                        II
+                     </biblScope>
+                     <biblScope unit="page" from="30" to="31">
+                        Nr. 18
+                     </biblScope>
+                  </monogr>
+               </biblStruct>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Masterarbeit zu Matrikelnummer 5584124</p>
+         </projectDesc>
+      </encodingDesc>
+      <profileDesc>
+         <creation>
+            <date when-iso="1792-11-02">2. November 1792</date>
+         </creation>
+        <langUsage>
+           <language ident="d">deutsch</language>
+        </langUsage>
+         <textClass>
+            <keywords scheme="internal"><!-- internal: innerhalb des besagten Briefs -->
+               <term>Brief</term>
+               <term>Charlottenburg</term>
+               <term>Peinlichkeit</term>
+            </keywords>
+            <keywords scheme="categorisation"><!-- Sinnabschnittseinteilung - relevant für den Fahrkartenautomaten! -->
+               <term xml:id="cba">Charlottenburger Angelegenheit</term>
+            </keywords>
+         </textClass>
+         <textDesc>
+            <channel>manuscript</channel>
+            <constitution type="single"/>
+            <derivation type="original"/>
+            <domain type="private"/>
+            <factuality type="fact"/>
+            <interaction type="partial"/>
+            <preparedness type="unprepared"/>
+            <purpose type="inform"/>
+         </textDesc>
+         <particDesc>
+            <listPerson>
+               <!-- Sender und Adressat -->
+               <person role="sender" xml:id="Gen">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/118538489"/>
+                     <forename>Friedrich von</forename>
+                     <surname>Gentz</surname>
+                  </persName>
+               </person>
+               <person role="receiver" xml:id="KGvB">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/116519770"/>
+                     <forename>Carl Gustav von</forename>
+                     <surname>Brinckmann</surname>
+                  </persName>
+               </person>
+               <!-- erwähnte Personen -->
+            </listPerson>
+         </particDesc>
+         <settingDesc>
+            <listPlace>
+               <!-- Start- und Zielort -->
+               <place type="sender" xml:id="plBe">
+                  <country>
+                     <ref target="http://d-nb.info/gnd/4047194-9"/>
+                     <placeName>Preußen</placeName>
+                  </country>
+                  <settlement>
+                     <ref target="http://d-nb.info/gnd/4005728-8"/>
+                     <placeName>Berlin</placeName>
+                  </settlement>
+               </place>
+               <!-- erwähnte Orte -->
+               <place type="named" xml:id="plCb">
+                  <country>
+                     <ref target="http://d-nb.info/gnd/4047194-9"/>
+                     <placeName>Preußen</placeName>
+                  </country>
+                  <settlement>
+                     <ref target="http://d-nb.info/gnd/4065382-1"/>
+                     <placeName>Charlottenburg</placeName>
+                  </settlement>
+               </place>
+            </listPlace>
+         </settingDesc>
+      </profileDesc>
+      <revisionDesc>
+         <change xml:id="init" when-iso="2018-02-07" who="#edAG">Erstauszeichnung und Normierung des Dokumentes im Rahmen der Masterarbeit der Matrikelnummer 5584124</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>     
+      <body>
+         <opener resp="#KGvB">
+            <dateline rend="right">den <date when-iso="1792-11-02">2. Novbr. 1792</date>. N°. 2.</dateline>
+         </opener>
+         <div n="1" corresp="#cba">
+            <p>
+               Da ich aus hundert Ursachen Ihren Brief <del rend="stroked">nicht</del> weitläuftig zu beantworten nicht im Stande 
+               bin, so will ich Ihnen nur folgendes darauf sagen: Ich bin weit von der Tollheit entfernt, zu glauben, daß eine 
+               <emph rend="underlined">böse Absicht</emph> Sie nach <rs type="place" ref="#plCb">Charlottenburg</rs> führte. Wie 
+               lächerlich wäre der Gedanke ! - Aber daß es - wie nun auch immer die Umstände gewesen seyn mögen - äußerst 
+               <emph rend="underlined">undelikat</emph> war und immer bleiben wird, daß Sie, und noch dazu ohne mich zu fragen oder 
+               zu benachrichtigen, diesen Schritt thaten, das ist meine Meynung.
+            </p>
+            <p>
+               Ich hatte gute, vernünftige und höchst verzeihliche Gründe, daß ich Sie in dieser Sache täuschte. Ich konnte keine 
+               einzige unfreundschaftliche Absicht haben, indem ich <pb/> das that. Ueberlegen Sie es selbst ! - 
+               <emph rend="underlined">Sie</emph> mußten also, ehe Sie den Vorhang aufhoben, forschen und fragen, 
+               <emph rend="underlined">warum</emph> ich ihn vorgezogen hatte. Dies war ein unnachläßlicher Präliminar-Artikel. 
+               Vielleicht wären Sie <emph rend="underlined">nicht</emph> nach <rs type="place" ref="#plCb">Charlottenburg</rs> 
+               gegangen, wenn Sie ihn beobachtet hätten. Wäre es demohnerachtet geschehen, so wären Sie 
+               <emph rend="underlined">anders</emph> hingegangen, und <emph rend="underlined">anders</emph> zurück gekommen.
+            </p>
+            <p>
+               Jetzt habe ich weder Lust Ihre Urtheile zu berichtigen noch Drang, mich ihnen zu ergeben, mithin 
+               <span xml:lang="lat">pater peccavi</span> gegen Sie zu sagen. Die Beobachtungen die Sie über meinen Charakter 
+               angestellt haben, bleiben alle in ihrer Würde, ob <emph rend="underlined">ich</emph> sie critisire oder nicht. 
+               Soviel muß ich <del rend="stroked">Ihnen</del> indessen doch noch hinzu setzen: Wenn Sie <pb/> mich unmoralischer 
+               Handlungen fähig glauben, werden Sie doch den <emph rend="underlined">Maßstab</emph> für die Moralität in mir nicht 
+               ganz zerbrochen wähnen. Daher muß es Sie doch wenigstens aufmerksam machen, wenn ich Ihnen sehr ernsthaft, und bey 
+               dem letzten Ueberrest von Ehre, den <emph rend="underlined">Sie</emph> in mir statuiren versichre, daß ich mein 
+               Betragen <del rend="stroked">gegen</del> in der bewusten Sache durchaus so strafbar nicht finde, und in allen 
+               Ewigkeiten Folge nicht finden <emph rend="underlined">werde</emph>, als Sie mit der übrigen Welt jetzt anzunehmen 
+               belieben. Ich schweige. Aber ich <del rend="stroked">weis</del> würde mich doch wundern, wenn eine leise Ahndung von 
+               der Möglichkeit einer solchen Gemüthsstimmung in mir Ihnen nicht durch den Kopf geflogen wäre, als Sie auf einmahl - 
+               <emph rend="underlined">Sich</emph> zum Richter in dieser fremden Sache gemacht, <emph rend="underlined">Sich</emph> 
+               neben die Partheygänger gestellt sahen, <pb/> als Sie die hiebey interessirten Menschen reden hörten, und als Sie 
+               den Rückweg von <rs type="place" ref="#plCb">Charlottenburg</rs> nach <rs type="place" ref="#plBe">Berlin</rs> 
+               anstellten.
+            </p>
+            <p>
+               Der <emph rend="underlined">Dank</emph>, den ich Ihnen in dieser Angelegenheit schuldig bin, bleibt Ihnen gut bey 
+               mir. An Ihrer Freundschaft habe ich keinen Moment gezweifelt, noch weniger Ihnen die meinige aufgesagt. Aber mein 
+               Urtheil über Ihr Benehmen wird unverändert stehen, was auch der letzte Ausgang dieser verhaßten Sache seyn mag, dem 
+               ich - <emph rend="underlined">weil ich meine Leute kenne</emph> - mit weit größrer Ruhe entgegen sehe, als Sie 
+               glauben mögen
+            </p>
+         </div>
+         <closer>
+            <signed rend="right">Gentz</signed>
+         </closer>
+      </body>
+   </text>
+</TEI>

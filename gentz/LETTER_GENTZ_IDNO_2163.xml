@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc xml:id="LETTER_GENTZ_2163">
+         <titleStmt>
+            <title>Friedrich von Gentz an Karl August Böttiger, 13. März 1798</title>
+            <editor xml:id="edAG">Andreas Gálffy</editor>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <name>Forschungsstelle "Universitätssammlung Friedrich von Gentz"</name>
+               <link target="http://gentz-digital.ub.uni-koeln.de http://www.ub.uni-koeln.de/cdm/singleitem/collection/gentz/id/2162/"/>
+            </publisher>
+            <pubPlace>Cologne</pubPlace>
+            <idno type="Gentz-Edition-Number" n="2163"/>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <country>Germany</country>
+                  <settlement>Dresden</settlement>
+                  <institution>Sächsische Landesbibliothek</institution>
+                  <repository>Handschriftensammlung, Nachlaß Böttiger</repository>
+                  <collection>Mscr. Dresd. h 37, Bd. 54 (4°)</collection>
+                  <idno>Nr. 18</idno>
+               </msIdentifier>
+               <msContents>
+                  <summary>
+                     In der Eile meldet Gentz, dass er die Übersetzung und Kommentierung des Camille Jordan nicht vornimmt und 
+                     Böttiger diese Meldung zurücknehmen kann. Im Postscript bemerkt Gentz, dass sich die Briefe gekreuzt haben.
+                  </summary>
+               </msContents>
+            </msDesc>
+            <listBibl type="preprints">
+               <biblStruct>
+                  <monogr>
+                     <editor>
+                        <persName>
+                           <ref target="http://d-nb.info/gnd/130953075"/>
+                           <forename>Friedrich Carl</forename>
+                           <surname>Wittichen</surname>
+                        </persName>
+                        <persName>
+                           <ref/> <!-- kein GND-Eintrag -->
+                           <forename>Ernst</forename>
+                           <surname>Salzer</surname>
+                        </persName>
+                     </editor>
+                     <title>Briefe von und an Friedrich von Gentz, 4 Bde.</title>
+                     <imprint>
+                        <publisher>Oldenbourg</publisher>
+                        <pubPlace>München, Berlin</pubPlace>
+                        <date>1909-1913</date>
+                     </imprint>
+                     <biblScope unit="volume" n="1">
+                        I
+                     </biblScope>
+                     <biblScope unit="page" from="251" to="251">
+                        Nr. 62
+                     </biblScope>
+                  </monogr>
+               </biblStruct>
+            </listBibl>
+            <listBibl type="letterReferenced">
+               <bibl xml:id="c2163-1" corresp="#LETTER_GENTZ_NNNN">nicht bekannter Brief von Karl August Böttiger an Friedrich von Gentz</bibl>
+               <bibl xml:id="c2163-2" corresp="#LETTER_GENTZ_3727">Friedrich von Gentz an Karl August Böttiger, 1. Februar 1798</bibl>
+            </listBibl>
+            <listBibl type="alludedWorks">
+               <bibl xml:id="a2163-1" corresp="#LETTER_GENTZ_NNNN">nicht näher benanntes Werk von Camille Jordan</bibl>
+            </listBibl>
+            <listBibl type="defExpr">
+               <biblStruct xml:id="e2163-1" corresp="UBi-0029">
+                  <monogr>
+                     <editor>
+                        <persName>
+                           <ref target="http://d-nb.info/gnd/118632477"/>
+                           <forename>Christian Martin</forename>
+                           <surname>Wieland</surname>
+                        </persName>
+                     </editor>
+                     <title>Der Neue Teuzsche Merkur</title>
+                     <imprint>
+                        <date>1790-1810</date>
+                     </imprint>
+                  </monogr>
+                  <ptr target="http://ds.ub.uni-bielefeld.de/viewer/image/2238508_025/3/"/>
+               </biblStruct>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Masterarbeit zu Matrikelnummer 5584124</p>
+         </projectDesc>
+      </encodingDesc>
+      <profileDesc>
+         <creation>
+            <date when-iso="1798-03-13">13. März 1798</date>
+         </creation>
+        <langUsage>
+           <language ident="d">deutsch</language>
+        </langUsage>
+         <textClass>
+            <keywords scheme="internal"><!-- internal: innerhalb des besagten Briefs -->
+               <term>Brief</term>
+               <term>Camille Jordan</term>
+               <term>Übersetzung</term>
+            </keywords>
+            <keywords scheme="categorisation"><!-- Sinnabschnittseinteilung - relevant für den Fahrkartenautomaten! -->
+               <term xml:id="kcjo">Camille Jordan</term>
+               <term xml:id="vkab">Verhältnis Karl August Böttiger</term>
+            </keywords>
+         </textClass>
+         <textDesc>
+            <channel>manuscript</channel>
+            <constitution type="single"/>
+            <derivation type="original"/>
+            <domain type="private"/>
+            <factuality type="fact"/>
+            <interaction type="partial"/>
+            <preparedness type="unprepared"/>
+            <purpose type="inform"/>
+         </textDesc>
+         <particDesc>
+            <listPerson>
+               <!-- Sender und Adressat -->
+               <person role="sender" xml:id="Gen">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/118538489"/>
+                     <forename>Friedrich von</forename>
+                     <surname>Gentz</surname>
+                  </persName>
+               </person>
+               <person role="receiver" xml:id="KAB">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/118824775"/>
+                     <forename>Carl August</forename>
+                     <surname>Böttiger</surname>
+                  </persName>
+               </person>
+               <!-- erwähnte Personen -->
+               <person role="named" xml:id="Mou">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/11878515X"/>
+                     <forename>Jean-Joseph</forename>
+                     <surname>Mounier</surname>
+                  </persName>
+               </person>
+            </listPerson>
+         </particDesc>
+         <settingDesc>
+            <listPlace>
+               <!-- Start- und Zielort -->
+               <place type="sender" xml:id="plBe">
+                  <country>
+                     <ref target="http://d-nb.info/gnd/4047194-9"/>
+                     <placeName>Preußen</placeName>
+                  </country>
+                  <settlement>
+                     <ref target="http://d-nb.info/gnd/4005728-8"/>
+                     <placeName>Berlin</placeName>
+                  </settlement>
+               </place>
+               <place type="receiver" xml:id="plWe">
+                  <country>
+                     <ref target="http://d-nb.info/gnd/4051194-7"/>
+                     <placeName>Sachsen-Weimar-Eisenach</placeName>
+                  </country>
+                  <settlement>
+                     <ref target="http://d-nb.info/gnd/4065105-8"/>
+                     <placeName>Weimar</placeName>
+                  </settlement>
+               </place>
+               <!-- erwähnte Orte -->
+            </listPlace>
+         </settingDesc>
+      </profileDesc>
+      <revisionDesc>
+         <change xml:id="init" when-iso="2018-02-28" who="#edAG">Erstauszeichnung und Normierung des Dokumentes im Rahmen der Masterarbeit der Matrikelnummer 5584124</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div n="1" corresp="#kcjo">
+            <p>
+               <rs type="citation" ref="#c2163-1">Ihr Brief</rs>, theuerster Freund, hat mir, wie alles was von Ihnen kömmt, viel 
+               Vergnügen gemacht. Ich kan heute nicht so darauf antworten, als es sich gebührt, und muß dies bis auf einen andern 
+               Tag aussetzen: aber was ich Ihnen nicht geschwind genug melden kan, ist, daß ich den 
+               <rs type="citation" ref="#a2163-1">Camille Jordan</rs> <emph rend="underlined">nicht</emph> übersetze, und 
+               <emph rend="underlined">nicht</emph> commentire. Wenn Sie also das, was Sie darüber im 
+               <rs type="citation" ref="#e2163-1">Merkur</rs> sagen wollten, noch zurücknehmen können, so thun Sie es nur. Ich werde 
+               Ihnen künftig sagen, warum ich das Unternehmen wieder aufgegeben habe. Für heute nur die Versicherung meiner 
+               herzlichen Theilnahme an dem häuslichen Unglück, welches Sie betraf, und meiner unbegränzten Hochachtung und 
+               Freundschaft.
+            </p>
+         </div>
+         <closer>
+            <signed rend="right">Gentz.</signed>
+            <dateline rend="left"><rs type="place" ref="#plBe">Berlin</rs> den <date when-iso="1798-03-13">13<span rend="sup">ten</span> Märtz 98</date>.</dateline>
+         </closer>
+         <postscript corresp="#vkab">
+            <p>
+               Unsre Briefe haben sich gekreutzt. Denn wahrscheinlich werden Sie heute 
+               <rs type="citation" ref="#c2163-2">den mit dem Paket</rs> für <rs type="person" ref="#Mou">Mounier</rs> erhalten 
+               haben.
+            </p>
+         </postscript>
+      </body>
+   </text>
+</TEI>

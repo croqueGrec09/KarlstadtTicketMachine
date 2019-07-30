@@ -1,0 +1,277 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader type="text">
+      <fileDesc xml:id="LETTER_GENTZ_1495">
+         <titleStmt>
+            <title>Friedrich von Gentz an Georg Gotthilf Schwinck, 18. Mai 1787</title>
+            <editor xml:id="edAG">Andreas Gálffy</editor>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <name>Forschungsstelle "Universitätssammlung Friedrich von Gentz"</name>
+               <link target="http://gentz-digital.ub.uni-koeln.de http://www.ub.uni-koeln.de/cdm/singleitem/collection/gentz/id/1494/"/>
+            </publisher>
+            <pubPlace>Cologne</pubPlace>
+            <idno type="Gentz-Edition-Number" n="1495"/>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <country>Germany</country>
+                  <settlement>Frankfurt am Main</settlement>
+                  <institution>Freies Deutsches Hochstift</institution>
+                  <idno>Handschrift Nr. 3460</idno>
+               </msIdentifier>
+               <msContents>
+                  <summary>
+                     Dieser Brief ist eine Nachlese zur missglückten Hochzeit. Gentz schreibt, dass er keinen Groll mehr hegt; die 
+                     Geschichte sei ihm eine Lehre gewesen und er wünscht, dass es der gesamten Familie gut geht. Die alte 
+                     Freundschaft solle durch die Leiden nicht weiter belastet werden. Umso mehr freut Gentz der Brief, den er von 
+                     Herrn Schwinck erhalten hat, und dass sich Herr Schwinck über seinen Werdegang erfreut zeigt. Gentz beschreibt 
+                     seine Lage und schickt das Stammbuch den Brief begleitend zurück. Mit dem Wunsch, die Freundschaft weiter zu 
+                     erhalten, schließt Gentz den Brief.
+                  </summary>
+               </msContents>
+            </msDesc>
+            <listBibl type="preprints">
+               <biblStruct>
+                  <monogr>
+                     <editor>
+                        <persName>
+                           <ref target="http://d-nb.info/gnd/130953075"/>
+                           <forename>Friedrich Carl</forename>
+                           <surname>Wittichen</surname>
+                        </persName>
+                        <persName>
+                           <ref/> <!-- kein GND-Eintrag -->
+                           <forename>Ernst</forename>
+                           <surname>Salzer</surname>
+                        </persName>
+                     </editor>
+                     <title>Briefe von und an Friedrich von Gentz. 4 Bde.</title>
+                     <imprint>
+                        <publisher>Oldenbourg</publisher>
+                        <pubPlace>München, Berlin</pubPlace>
+                        <date>1909-1913</date>
+                     </imprint>
+                     <biblScope unit="volume" n="1">
+                        I
+                     </biblScope>
+                     <biblScope unit="page" from="103" to="105">
+                        Nr. 24
+                     </biblScope>
+                  </monogr>
+               </biblStruct>
+               <biblStruct>
+                  <monogr>
+                     <author>
+                        <persName>
+                           <ref target="http://d-nb.info/gnd/116187913"/>
+                           <forename>Wilhelm</forename>
+                           <surname>Dorow</surname>
+                        </persName>
+                     </author>
+                     <title>Denkschriften und Briefe zur Charakteristik der Welt und Litteratur</title>
+                     <imprint>
+                        <pubPlace>Berlin</pubPlace>
+                        <date>1838</date>
+                     </imprint>
+                     <biblScope unit="volume" n="1">
+                        II
+                     </biblScope>
+                     <biblScope unit="page" from="130" to="133">
+                        130-133
+                     </biblScope>
+                  </monogr>
+               </biblStruct>
+            </listBibl>
+            <listBibl type="letterReferenced">
+               <bibl xml:id="c1495-1" corresp="#LETTER_GENTZ_NNNN">nicht bekannter Brief von Georg Gotthilf Schwinck an Friedrich von Gentz</bibl>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Masterarbeit zu Matrikelnummer 5584124</p>
+         </projectDesc>
+      </encodingDesc>
+      <profileDesc>
+         <creation>
+            <date when-iso="1787-05-18">18. Mai 1787</date>
+         </creation>
+        <langUsage>
+           <language ident="d">deutsch</language>
+        </langUsage>
+         <textClass>
+            <keywords scheme="internal"><!-- internal: innerhalb des besagten Briefs -->
+               <term>Brief</term>
+               <term>Schwinck</term>
+               <term>Coelestinen</term>
+               <term>Hochzeit</term>
+            </keywords>
+            <keywords scheme="categorisation"><!-- Sinnabschnittseinteilung - relevant für den Fahrkartenautomaten! -->
+               <term xml:id="vggs">Verhältnis Georg Gotthilf Schwinck</term>
+               <term xml:id="geh">Gentz' Ehe</term>
+               <term xml:id="bezbt">Beziehungen zu Berlin - Beamtentätigkeit</term>
+            </keywords>
+         </textClass>
+         <textDesc>
+            <channel>manuscript</channel>
+            <constitution type="single"/>
+            <derivation type="original"/>
+            <domain type="private"/>
+            <factuality type="fact"/>
+            <interaction type="partial"/>
+            <preparedness type="prepared"/>
+            <purpose type="inform"/>
+         </textDesc>
+         <particDesc>
+            <listPerson>
+               <!-- Sender und Adressat -->
+               <person role="sender" xml:id="Gen">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/118538489"/>
+                     <forename>Friedrich von</forename>
+                     <surname>Gentz</surname>
+                  </persName>
+               </person>
+               <person role="receiver" xml:id="GGS">
+                  <persName>
+                     <ref/>
+                     <forename>Georg Gotthilf</forename>
+                     <surname>Schwinck</surname>
+                  </persName>
+               </person>
+               <!-- erwähnte Personen -->
+               <person role="named" xml:id="HGen">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/11900738X"/>
+                     <forename>Heinrich</forename>
+                     <surname>Gentz</surname>
+                  </persName>
+               </person>
+               <person role="named" xml:id="BGGS">
+                  <persName>
+                     <ref/>
+                     <forename/>
+                     <surname>Schwinck</surname>
+                     <roleName type="family">Bruder des Georg Gotthilf Schwinck</roleName>
+                  </persName>
+               </person>
+            </listPerson>
+         </particDesc>
+         <settingDesc>
+            <listPlace>
+               <!-- Start- und Zielort -->
+               <place type="sender" xml:id="plBe">
+                  <country>
+                     <ref target="http://d-nb.info/gnd/4047194-9"/>
+                     <placeName>Preußen</placeName>  
+                  </country>
+                  <settlement>
+                     <ref target="http://d-nb.info/gnd/4005728-8"/>
+                     <placeName>Berlin</placeName>
+                  </settlement>
+               </place>
+               <place type="receiver" xml:id="plKo">
+                  <country>
+                     <ref target="http://d-nb.info/gnd/4047194-9"/>
+                     <placeName>Preußen</placeName>  
+                  </country>
+                  <settlement>
+                     <ref target="http://d-nb.info/gnd/4031541-1"/>
+                     <placeName>Königsberg</placeName>
+                  </settlement>
+               </place>
+               <!-- erwähnte Orte -->
+            </listPlace>
+         </settingDesc>
+      </profileDesc>
+      <revisionDesc>
+         <change xml:id="init" when-iso="2018-01-28" who="#edAG">Erstauszeichnung und Normierung des Dokumentes im Rahmen der Masterarbeit der Matrikelnummer 5584124</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <opener>
+            <dateline><rs type="place" ref="#plBe">Berlin</rs> den <date when-iso="1787-05-18">18<span rend="sup">ten</span> May 1787</date></dateline>
+         </opener>
+         <div n="1" corresp="#vggs">
+            <p>
+               Ich habe mich herzlich gefreut, <rs type="person" ref="#GGS">mein lieber Schwinck</rs>, aus 
+               <rs type="citation" ref="#c1495-1">Ihrem neulich erhaltnen Briefe</rs> zu sehen, daß Sie mich noch nicht ganz 
+               vergeßen haben; und zugleich haben Sie mir durch <rs type="citation" ref="#c1495-1">diesen Brief</rs> die 
+               angenehmste Veranlaßung gegeben, Ihnen einmal wieder zu versichern, daß ich noch nicht aufgehört habe, Ihr Freund 
+               zu seyn.
+            </p>
+            <p>
+               Was Ihre Familie that, thaten Sie nicht. Sie haben keinen Tropfen in den Wermuth-Becher gemischt, den ich da 
+               austrinken mußte, wo ich das letzte Ziel aller menschlichen Glückseeligkeit zu erreichen hoffte. Im Gegentheil bin 
+               ich überzeugt, daß Sie es immer gut mit mir gemeynt, und bis ans Ende für mein Bestes gearbeitet haben.
+            </p>
+         </div>
+         <div n="2" corresp="#geh">
+            <p>
+               Ueberdies mein lieber Schwinck, ist alle Bitterkeit, die diese unglückliche Geschichte etwa noch in meiner Seele 
+               zurückgelaßen haben mochte, unter der wohlthätigen Hand der Zeit, jetzt völlig verraucht. Ich sehe alle vergangne 
+               Begebenheiten nunmehr in ihrem wahren Lichte, ohne Verblendung und ohne Leidenschaft, und das Spiel menschlicher 
+               Schwachheit in ihnen, ohne Groll und ohne Unmuth. Meine Seele ist ruhig: die bösen Tage, die ich erlebt habe, 
+               erscheinen mir jetzt blos von ihrer wohlthätigen Seite, als Schule der Erfahrung und der Lebens-Weisheit für die 
+               Zukunft, als dunkle Stellen in unsrer Laufbahn, die den Werth der folgenden Krankheit herausheben und erhöhen, als 
+               wahre Wegweiser zu einer <pb/> wesentlichen und unzerstöhrbaren Glückseeligkeit, deren Keim und Wurzel nirgends als 
+               in unsrem eignen Selbst zu finden ist und die man nie eifriger schätzt, als wenn man vorher gelitten hat.
+            </p>
+            <p>
+               Auch ist mein herzlichster Wunsch, daß es nicht nur Ihnen, sondern auch allen andern Mitgliedern Ihrer Familie recht 
+               wohl gehen mag. Ich habe gegen keinen einzigen Haß oder heimliche Erbitterung behalten: könnte ich Jedem von Ihnen 
+               Dienste leisten, und wären sie mit den beträchtlichsten Aufopferungen verbunden, so würde ich bereit und willig dazu 
+               seyn. Nach meiner Denkungs-Art können Beleidigungen uns für die Zeit, in denen wir sie unverschuldet erdulden, 
+               verwunden und schmerzen, aber sie müßen nie das Andenken an empfangne Freundschafts-Dienste und an ehmalige 
+               glückliche Zeiten ganz zu verwischen im Stande seyn.
+            </p>
+            <p>
+               Sie werden Sich verdient um mich machen, wenn Sie Ihren Verwandten, die mich vielleicht jetzt alle sehr unrichtig 
+               beurtheilen mögen, besonders aber Ihrer Schwester und Ihrem Bruder bey Gelegenheit, diese meine Aeußerungen 
+               allenfalls wörtlich mittheilen. Daß sie aufrichtig und ungeheuchelt sind, wird man um desto eher glauben, da ich 
+               keine eigennützige Absichten, selbst nicht die entferntesten mehr haben kan, da ich alle diese mir sonst so werthe 
+               Personen, sammt dem Lande worin sie leben, und worin auch ich einst recht glücklich war, allem menschlichen 
+               Vermuthen nach, nie wieder sehen werde.
+            </p>
+         </div>
+         <div n="3" corresp="#bezbt">
+            <p>
+               Daß Sie vergnügt und zufrieden freut mich. Gottlob ! auch ich bin es. Meine ganze Lage gefällt mir, <pb/> meine 
+               Geschäfte auf dem General-Directorio, wo ich jetzt allein arbeite, gefallen mir: ich behalte Zeit genung zu meiner 
+               eigenen Disposition, zum Umgang mit meinen Freunden, zu dem Genuß der hiesigen Vergnügungen, und zum Lesen, welches 
+               immer noch eine meiner Lieblings-Beschäftigungen ist.
+            </p>
+         </div>
+         <div n="4" corresp="#vggs">
+            <p>
+               Wenn Sie einst wieder nach <rs type="place" ref="#plBe">Berlin</rs> kommen sollten, so gehen Sie nicht vor 
+               meinen Hause vorüber. Ich werde es mir zur Pflicht machen, Ihnen soviel in meinen Kräften steht, Ihren Aufenthalt 
+               recht angenehm zu machen. Das nähmliche können Sie in meinem Nahmen 
+               <rs type="person" ref="#BGGS">Ihrem Bruder</rs> sagen. Käme er heute nach 
+               <rs type="place" ref="#plBe">Berlin</rs>, so wollte ich ihm heute noch zeigen, daß mein Herz zum Lieben, aber 
+               nicht zum Haßen geschaffen ist, daß ich zürnen, aber auch unumschränkt vergeben kan.
+            </p>
+            <p>
+               Ihr Stammbuch erfolgt hiebey. Den gröste Theil der Schuld, daß es sich hier so lange herumgetrieben hat, und daß Sie 
+               es jetzt demohnerachtet so wieder zu sehen bekommen, als Sie es verlaßen haben, fällt 
+               <rs type="person" ref="#HGen">meinem Bruder</rs> und seiner bekannten Faulheit zur Last. Verantworten kan er es 
+               nicht; aber empfehlen läßt er sich Ihnen bestens.
+            </p>
+            <p>
+               Jetzt kan ich nichts weiter hinzusetzen, als meinen wahren und herzlichen Wunsch, daß Sie immer glücklich, vergnügt 
+               und mein Freund seyn und bleiben mögen. Der Himmel führe Sie einst nach <rs type="place" ref="#plBe">Berlin</rs> 
+               und Sie sollen sehen, daß ich noch eben so wie von jeher bin und seyn werde.
+            </p>
+         </div>
+         <closer>
+            <salute rend="right">Ihr aufrichtig ergebenster</salute>
+            <salute rend="right">Freund und Diener</salute>
+            <signed rend="right">Gentze.</signed>
+         </closer>
+      </body>
+   </text>
+</TEI>

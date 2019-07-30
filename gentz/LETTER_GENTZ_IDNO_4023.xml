@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc xml:id="LETTER_GENTZ_4023">
+         <titleStmt>
+            <title>Friedrich von Gentz an Otto von Voß, 21. Januar 1799</title>
+            <editor xml:id="edAG">Andreas Gálffy</editor>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <name>Forschungsstelle "Universitätssammlung Friedrich von Gentz"</name>
+               <link target="http://gentz-digital.ub.uni-koeln.de http://www.ub.uni-koeln.de/cdm/singleitem/collection/gentz/id/4022/"/>
+            </publisher>
+            <pubPlace>Cologne</pubPlace>
+            <idno type="Gentz-Edition-Number" n="4023"/>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <country>Germany</country>
+                  <settlement>Berlin</settlement>
+                  <institution>Geheimes Staatsarchiv Preußsischer Kulturbesitz</institution>
+                  <repository>II. HA, Generaldirektorium, Südpreußen</repository>
+                  <collection>Abt. I, Lit E, Nr. 370</collection>
+                  <idno>Bl. 55-55v</idno>
+               </msIdentifier>
+               <msContents>
+                  <summary>
+                     Unter Verzicht von 300 Reichstaler von seinem Gehalt erbittet Gentz schriftlich eine Verminderung seines 
+                     Pensums.
+                  </summary>
+               </msContents>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Masterarbeit zu Matrikelnummer 5584124</p>
+         </projectDesc>
+      </encodingDesc>
+      <profileDesc>
+         <creation>
+            <date when-iso="1799-01-21">21. Januar 1799</date>
+         </creation>
+        <langUsage>
+           <language ident="d">deutsch</language>
+        </langUsage>
+         <textClass>
+            <keywords scheme="internal"><!-- internal: innerhalb des besagten Briefs -->
+               <term>Brief</term>
+               <term>Bittschreiben</term>
+               <term>Arbeitspensum</term>
+            </keywords>
+            <keywords scheme="categorisation"><!-- Sinnabschnittseinteilung - relevant für den Fahrkartenautomaten! -->
+               <term xml:id="bezbt">Beziehungen zu Berlin - Beamtentätigkeit</term>
+            </keywords>
+         </textClass>
+         <textDesc>
+            <channel>manuscript</channel>
+            <constitution type="single"/>
+            <derivation type="original"/>
+            <domain type="private"/>
+            <factuality type="fact"/>
+            <interaction type="partial"/>
+            <preparedness type="prepared"/>
+            <purpose type="inform"/>
+         </textDesc>
+         <particDesc>
+            <listPerson>
+               <!-- Sender und Adressat -->
+               <person role="sender" xml:id="Gen">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/118538489"/>
+                     <forename>Friedrich von</forename>
+                     <surname>Gentz</surname>
+                  </persName>
+               </person>
+               <person role="receiver" xml:id="OvV">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/103098291"/>
+                     <forename>Otto</forename>
+                     <surname>von Voß</surname>
+                  </persName>
+               </person>
+               <!-- erwähnte Personen -->
+            </listPerson>
+         </particDesc>
+         <settingDesc>
+            <listPlace>
+               <!-- Start- und Zielort -->
+               <place type="sender" xml:id="plBe">
+                  <country>
+                     <ref target="http://d-nb.info/gnd/4047194-9"/>
+                     <placeName>Preußen</placeName>
+                  </country>
+                  <settlement>
+                     <ref target="http://d-nb.info/gnd/4005728-8"/>
+                     <placeName>Berlin</placeName>
+                  </settlement>
+               </place>
+               <!-- erwähnte Orte -->
+            </listPlace>
+         </settingDesc>
+      </profileDesc>
+      <revisionDesc>
+         <change xml:id="init" when-iso="2018-03-03" who="#edAG">Erstauszeichnung und Normierung des Dokumentes im Rahmen der Masterarbeit der Matrikelnummer 5584124</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <opener>
+            <salute rend="left">HochWürdiger HochWohlgebohrner Freyherr !</salute>
+            <salute rend="left">Hochgebietender Herr Geheimer Staats-Minister !</salute>
+         </opener>
+         <div n="1" corresp="#bezbt">
+            <p>
+               Ich habe bereits mündlich die Gnade gehabt, Ewr. Hochfreyherrlichen Excellentz die Gründe untertänigst vorzutragen, 
+               welche mich vor der Hand eine Verminderung meiner Arbeiten bey dem Hohen Südpreußischen Departement wünschen laßen, 
+               und EwrExcellentz sind so gnädig gewesen, die Nothwendigkeit, mich, so lange die Hochdenselben bekannte 
+               außerordentliche Geschäfte dauern werden, von einem Theil dieser Arbeiten zu dispensiren, huldreichst anzuerkennen.
+            </p>
+            <p>
+               Indem ich hier die bereits gethane Bitte schriftlich wiederhole, füge ich derselben die Erklärung bei, daß ich es 
+               billig finde, demjenigen, den Ewr. Excellentz mit den mir abzunehmenden Geschäften zu chargiren geruhen werden, 
+               einen Theil meines Gehalts auf die Zeit, während welcher die Dispensation Statt haben wird, abzutreten. Ich erbiete 
+               mich daher untertänigst, jährlich 300 Reichsthaler von diesem Gehalt abzugeben, und stelle tiefgehorsamst anheim, ob 
+               EwrExcellentz dieses Arrangement zu bestätigen geruhen wollen. <pb/>
+            </p>
+            <p>
+               Ich kan indessen nicht unterlaßen, EwrExcellentz dasjenige, was ich mit Hochdero Erlaubniß schon mündlich habe 
+               anführen dürfen, auch hier von neuem zu erklären: daß ich mich nehmlich unendlich glücklich schätzen werde, wenn Ewr 
+               Excellentz fernerhin geruhen wollen, mich mit jedem Auftrage, den Hochdieselben meinen geringen Fähigkeiten 
+               angemessen finden, zu begnadigen.
+            </p>
+            <p>
+               Ich verharre in größter Submission
+            </p>
+         </div>
+         <closer>
+            <salute rend="right">EwrHochfreyherrlichen Excellentz</salute>
+            <salute rend="right">untertänigster treu gehorsamster</salute>
+            <dateline rend="left"><rs type="place" ref="#plBe">Berlin</rs> den <date when-iso="1799-01-21">21<span rend="sup">ten</span> Januar 1799</date>.</dateline>
+            <signed rend="right">Gentz.</signed>
+         </closer>
+      </body>
+   </text>
+</TEI>

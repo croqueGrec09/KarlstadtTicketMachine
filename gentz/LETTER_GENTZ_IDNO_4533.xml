@@ -1,0 +1,220 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader type="text">
+      <fileDesc xml:id="LETTER_GENTZ_4533">
+         <titleStmt>
+            <title>Friedrich von Gentz an Elisabeth Graun, etwa Ende März 1785</title>
+            <editor xml:id="edAG">Andreas Gálffy</editor>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <name>Forschungsstelle "Universitätssammlung Friedrich von Gentz"</name>
+               <link target="http://gentz-digital.ub.uni-koeln.de http://www.ub.uni-koeln.de/cdm/singleitem/collection/gentz/id/4532/"/>
+            </publisher>
+            <pubPlace>Cologne</pubPlace>
+            <idno type="Gentz-Edition-Number" n="4533"/>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <country>Poland</country>
+                  <settlement>Cracow</settlement>
+                  <institution>Biblioteka Jagiellońska</institution>
+                  <repository>Handschriftenabtelung</repository>
+                  <collection>Varnhagensammlung der ehemaligen Preußischen Bibliothek</collection>
+               </msIdentifier>
+               <msContents>
+                  <summary>
+                     Das Zusammensein Gentz' mit Frau Graun endet jäh. Er beschreibt die Umstände ihres Kennenlernens durch die 
+                     Metapher zweier Kinder, die sich erst finden, wenn es fast schon zu spät ist. Das macht Gentz traurig.
+                  </summary>
+               </msContents>
+            </msDesc>
+            <listBibl type="preprints">
+               <biblStruct>
+                  <monogr>
+                     <editor>
+                        <persName>
+                           <ref target="http://d-nb.info/gnd/130953075"/>
+                           <forename>Friedrich Carl</forename>
+                           <surname>Wittichen</surname>
+                        </persName>
+                        <persName>
+                           <ref/> <!-- kein GND-Eintrag -->
+                           <forename>Ernst</forename>
+                           <surname>Salzer</surname>
+                        </persName>
+                     </editor>
+                     <title>Briefe von und an Friedrich von Gentz. 4 Bde.</title>
+                     <imprint>
+                        <publisher>Oldenbourg</publisher>
+                        <pubPlace>München, Berlin</pubPlace>
+                        <date>1909-1913</date>
+                     </imprint>
+                     <biblScope unit="volume" n="1">
+                        I
+                     </biblScope>
+                     <biblScope unit="page" from="19" to="19">
+                        Nr. 6
+                     </biblScope>
+                  </monogr>
+               </biblStruct>
+               <biblStruct>
+                  <monogr>
+                      <editor>
+                          <persName>
+                             <ref target="http://d-nb.info/gnd/117325791"/>
+                             <forename>Gustav</forename>
+                             <surname>Schlesier</surname>
+                          </persName>
+                      </editor>
+                      <title>Schriften von Friedrich von Gentz. Ein Denkmal. 5 Bde.</title>
+                      <imprint>
+                          <publisher>Verlag von Heinrich Wolff</publisher>
+                          <pubPlace>Mannheim</pubPlace>
+                          <date>1838-1840</date>
+                      </imprint>
+                      <biblScope unit="volume" n="1">
+                          I
+                      </biblScope>
+                      <biblScope unit="page" from="25" to="26">
+                          Nr. 2
+                      </biblScope>
+                  </monogr>
+              </biblStruct>
+              <biblStruct>
+                  <monogr>
+                     <author>
+                        <persName>
+                           <ref target="http://d-nb.info/gnd/117121150"/>
+                           <forename>Margarete</forename>
+                           <surname>von Olfers</surname>
+                        </persName>
+                     </author>
+                     <title>Elisabeth v. Staegemann. Lebensbild einer deutschen Frau 1761-1835</title>
+                     <imprint>
+                        <publisher>Koehler &amp; Amelang</publisher>
+                        <pubPlace>Leipzig</pubPlace>
+                        <date>1939</date>
+                     </imprint>
+                     <biblScope unit="page" from="56" to="56">
+                        56 (teilweise)
+                     </biblScope>
+                  </monogr>
+               </biblStruct>
+            </listBibl>
+            <listBibl type="letterReferenced">
+               <bibl xml:id="c4533-1" corresp="#LETTER_GENTZ_NNNN">nicht bekannter Brief von N.N. an Elisabeth Graun</bibl>
+               <bibl xml:id="c4533-2" corresp="#LETTER_GENTZ_NNNN">nicht bekannter Brief von Johann Friedrich Genntze an Friedrich von Gentz</bibl>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Masterarbeit zu Matrikelnummer 5584124</p>
+         </projectDesc>
+      </encodingDesc>
+      <profileDesc>
+         <creation>
+            <date when-iso="1785-03-00">etwa Ende März 1785</date>
+         </creation>
+        <langUsage>
+           <language ident="d">deutsch</language>
+        </langUsage>
+         <textClass>
+            <keywords scheme="internal"><!-- internal: innerhalb des besagten Briefs -->
+               <term>Brief</term>
+               <term>Graun</term>
+               <term>Treffen</term>
+               <term>Philosophie</term>
+               <term>Gleichnis</term>
+               <term>Reise</term>
+            </keywords>
+            <keywords scheme="categorisation"><!-- Sinnabschnittseinteilung - relevant für den Fahrkartenautomaten! -->
+               <term xml:id="veg">Verhältnis Elisabeth Graun</term>
+            </keywords>
+         </textClass>
+         <textDesc>
+            <channel>manuscript</channel>
+            <constitution type="single"/>
+            <derivation type="original"/>
+            <domain type="private"/>
+            <factuality type="fact"/>
+            <interaction type="partial"/>
+            <preparedness type="unprepared"/>
+            <purpose type="inform"/>
+         </textDesc>
+         <particDesc>
+            <listPerson>
+               <!-- Sender und Adressat -->
+               <person role="sender" xml:id="Gen">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/118538489"/>
+                     <forename>Friedrich von</forename>
+                     <surname>Gentz</surname>
+                  </persName>
+               </person>
+               <person role="receiver" xml:id="Gra">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/123518733"/>
+                     <forename>Elisabeth</forename>
+                     <surname>Graun</surname>
+                  </persName>
+               </person>
+               <!-- erwähnte Personen -->
+               <person role="named" xml:id="JFG">
+                  <persName>
+                     <ref/>
+                     <forename>Johann Friedrich</forename>
+                     <surname>Gentze</surname>
+                  </persName>
+               </person>
+            </listPerson>
+         </particDesc>
+         <settingDesc>
+            <listPlace>
+               <!-- Start- und Zielort -->
+               <place type="sender" xml:id="plKo">
+                  <country>
+                     <ref target="http://d-nb.info/gnd/4047194-9"/>
+                     <placeName>Preußen</placeName>  
+                  </country>
+                  <settlement>
+                     <ref target="http://d-nb.info/gnd/4031541-1"/>
+                     <placeName>Königsberg</placeName>
+                  </settlement>
+               </place>
+            </listPlace>
+         </settingDesc>
+      </profileDesc>
+      <revisionDesc>
+         <change xml:id="init" when-iso="2018-01-27" who="#edAG">Erstauszeichnung und Normierung des Dokumentes im Rahmen der Masterarbeit der Matrikelnummer 5584124</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div n="1" corresp="#veg">
+            <p>
+               Um mich dafür, daß Sie mir gestern <rs type="citation" ref="#c4533-1">den Brief, den Sie erhalten hatten</rs>, 
+               nicht zeigen wollten, recht großmüthig zu rächen, schike ich Ihnen hier ohne weitres bedenken einen 
+               <rs type="citation" ref="#c4533-2">Brief von meinem Vater, den ich diesen Augenblik erhalten habe</rs>, weil er 
+               Manches enthält, was Sie interessiren wird.
+            </p>
+            <p>
+               Das Schlechtste was darin steht, ist der Reise-Termin, der es denn wol dahin bringen wird, daß ich nicht mehr 
+               länger als 4 Wochen das Vergnügen Ihres nähern Umgangs genießen werde, den mir das dumme Schiksal gerade jetzt erst 
+               so aeußerst angenehm machen mußte, um ja bey meiner Trennung von Königsberg mir keine Bitterkeit ungeschmekt zu 
+               laßen. - Aber die Menschen sind wie die Kinder; wenn sie zuerst zusammen kommen, geht das Eine in Einen Winkel, das 
+               Andre in einen Andern, schielen sich von der Seite an, trauen sich nicht, fürchten sich vor einander, bis es so 
+               gegen 8 Uhr Abends ankömmt; alsdann kriechen sie nach und nach zusammen, fangen an zu spielen, und wenn es bis zum 
+               Gastmahl oder bis zur kleinen Hochzeit gekommen ist, dann ruft Mama: Dorchen, Fritzchen, wir gehen - Sie stehen da, 
+               sehen sich an - und weinen. Ich finde diese Vergleichung so außerordentlich richtig - so paßend - daß - ich selbst 
+               darüber anfange zu weinen. Und darum sey es genung.
+            </p>
+         </div>
+         <closer>
+            <signed rend="right">Gentze.</signed>
+         </closer>
+      </body>
+   </text>
+</TEI>

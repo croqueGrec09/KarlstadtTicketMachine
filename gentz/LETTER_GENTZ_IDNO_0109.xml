@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc xml:id="LETTER_GENTZ_0109">
+         <titleStmt>
+            <title>Friedrich von Gentz an Friedrich Vieweg, 5. August 1799</title>
+            <editor xml:id="edAG">Andreas Gálffy</editor>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <name>Forschungsstelle "Universitätssammlung Friedrich von Gentz"</name>
+               <link target="http://gentz-digital.ub.uni-koeln.de http://www.ub.uni-koeln.de/cdm/singleitem/collection/gentz/id/108/"/>
+            </publisher>
+            <pubPlace>Cologne</pubPlace>
+            <idno type="Gentz-Edition-Number" n="0109"/>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <country>Germany</country>
+                  <settlement>Wolfenbüttel</settlement>
+                  <institution>Herzog-August-Bibliothek</institution>
+                  <repository>Sammlung Vieweg</repository>
+                  <idno>Nr. 525</idno>
+               </msIdentifier>
+               <msContents>
+                  <summary>
+                     Das Manuskript kommt sehr früh, so muss auch Vieweg schnell in einer Sache entscheiden, die er nicht 
+                     stiefväterlich behandeln soll. Über das Journal wird verhandelt, wenn Vieweg zurück ist, worüber sich Gentz 
+                     sehr freut.
+                  </summary>
+               </msContents>
+            </msDesc>
+            <listBibl type="defRep">
+               <biblStruct xml:id="p0109-1" corresp="GBk-0048">
+                  <monogr>
+                     <editor>
+                        <persName>
+                           <ref target="http://d-nb.info/gnd/118538489"/>
+                           <forename>Friedrich von</forename>
+                           <surname>Gentz</surname>
+                        </persName>
+                     </editor>
+                     <title>Historisches Journal</title>
+                     <imprint>
+                        <publisher>Friedrich Vieweg dem ältern</publisher>
+                        <pubPlace>Berlin</pubPlace>
+                        <date>1799</date>
+                     </imprint>
+                  </monogr>
+                  <ptr target="https://books.google.de/books?id=Zk5BAAAAcAAJ"/>
+               </biblStruct>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Masterarbeit zu Matrikelnummer 5584124</p>
+         </projectDesc>
+      </encodingDesc>
+      <profileDesc>
+         <creation>
+            <date when-iso="1799-08-05">5. August 1799</date>
+         </creation>
+        <langUsage>
+           <language ident="d">deutsch</language>
+        </langUsage>
+         <textClass>
+            <keywords scheme="internal"><!-- internal: innerhalb des besagten Briefs -->
+               <term>Billet</term>
+               <term>Journal historique</term>
+               <term>Verhandlung</term>
+            </keywords>
+            <keywords scheme="categorisation"><!-- Sinnabschnittseinteilung - relevant für den Fahrkartenautomaten! -->
+               <term xml:id="vwf">Vieweg - Freundschaft</term>
+            </keywords>
+         </textClass>
+         <textDesc>
+            <channel>manuscript</channel>
+            <constitution type="single"/>
+            <derivation type="original"/>
+            <domain type="private"/>
+            <factuality type="fact"/>
+            <interaction type="partial"/>
+            <preparedness type="unprepared"/>
+            <purpose type="inform"/>
+         </textDesc>
+         <particDesc>
+            <listPerson>
+               <!-- Sender und Adressat -->
+               <person role="sender" xml:id="Gen">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/118538489"/>
+                     <forename>Friedrich von</forename>
+                     <surname>Gentz</surname>
+                  </persName>
+               </person>
+               <person role="receiver" xml:id="FVW">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/119049546"/>
+                     <forename>Friedrich</forename>
+                     <surname>Vieweg</surname>
+                  </persName>
+               </person>
+               <!-- erwähnte Personen -->
+               <person role="named" xml:id="CCm">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/136187250"/>
+                     <forename>Charlotte</forename>
+                     <surname>Campe</surname>
+                  </persName>
+               </person>
+            </listPerson>
+         </particDesc>
+         <settingDesc>
+            <listPlace>
+               <!-- Start- und Zielort -->
+               <place type="sender" xml:id="plBe">
+                  <country>
+                     <ref target="http://d-nb.info/gnd/4047194-9"/>
+                     <placeName>Preußen</placeName>
+                  </country>
+                  <settlement>
+                     <ref target="http://d-nb.info/gnd/4005728-8"/>
+                     <placeName>Berlin</placeName>
+                  </settlement>
+               </place>
+               <place type="receiver" xml:id="plBs">
+                  <country>
+                     <ref target="http://d-nb.info/gnd/4089993-7"/>
+                     <placeName>Staat Wolfenbüttel</placeName>
+                  </country>
+                  <settlement>
+                     <ref target="http://d-nb.info/gnd/4008065-1"/>
+                     <placeName>Braunschweig</placeName>
+                  </settlement>
+               </place>
+               <!-- erwähnte Orte -->
+            </listPlace>
+         </settingDesc>
+      </profileDesc>
+      <revisionDesc>
+         <change xml:id="init" when-iso="2018-03-04" who="#edAG">Erstauszeichnung und Normierung des Dokumentes im Rahmen der Masterarbeit der Matrikelnummer 5584124</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div n="1" corresp="#vwf">
+            <p>
+               Nehmen Sie Sich unsers Kindes als ein <emph rend="underlined">rechter</emph> Vater an, und behandeln Sie es, von 
+               einer neuen Generazion umgeben die Ihre nie-rastende Zeugungskraft, sollte es auch aus Steinen seyn, erweckte, jetzt 
+               nicht stiefväterlich. Was Sie aber hierunter verordnen wollen, das geschehe ohne Verzug; denn ich werde diesen Monat 
+               das Manuskript <emph rend="underlined">sehr früh</emph> liefern.
+            </p>
+            <p>
+               Was ich sonst noch mit Ihnen über <rs type="citation" ref="#p0109-1">dieses Journal</rs> abhandeln mögte, das 
+               verspare ich bis auf die Zeit, wo ich so glücklich seyn werde, Sie hier zu sehen. Darauf freue ich mich so innig, wie 
+               irgend einer Ihrer Freunde es nur thun kan, besonders, da ich mir schmeichle daß man Sie bei Ihrer Anwesenheit mehr 
+               als sonst je genießen wird, weil Sie denn doch weder das Comtoir noch die Baustelle mit nach 
+               <rs type="place" ref="#plBe">Berlin</rs> bringen können.
+            </p>
+            <p>
+               Leben Sie wohl, empfehlen Sie mich <rs type="person" ref="#CCm">Ihrer treflichen Frau</rs> aufs verbindlichste, und 
+               erfreuen Sie bald mit einigen freundschaftlichen Zeilen
+            </p>
+         </div>
+         <closer>
+            <salute rend="right">Ihren sehr ergebnen</salute>
+            <dateline rend="left">den <date when-iso="1799-08-05">5<span rend="sup">ten</span> Aug. 1799</date></dateline>
+            <signed rend="right">Gentz.</signed>
+         </closer>
+      </body>
+   </text>
+</TEI>

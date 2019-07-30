@@ -1,0 +1,250 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc xml:id="LETTER_GENTZ_2823">
+         <titleStmt>
+            <title>Friedrich von Gentz an Adam Müller, 7. Mai 1801</title>
+            <editor xml:id="edAG">Andreas Gálffy</editor>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <name>Forschungsstelle "Universitätssammlung Friedrich von Gentz"</name>
+               <link target="http://gentz-digital.ub.uni-koeln.de http://www.ub.uni-koeln.de/cdm/singleitem/collection/gentz/id/2822/"/>
+            </publisher>
+            <pubPlace>Cologne</pubPlace>
+            <idno type="Gentz-Edition-Number" n="2823"/>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <country>unknown</country>
+                  <idno>not retraced</idno>
+               </msIdentifier>
+               <msContents>
+                  <summary>
+                     Müller hat Gentz im Stich gelassen. Dabei hätte er ihm heute von dem Erfolg der Expedition in Alexandria erzählt, ebenso, dass General 
+                     Abercrombie am 30. März 1801 seinen Wunden erlegen ist. Am Vortag war Gentz bei einen Versöhnungsfest, wo verschiedene Nationen sich die 
+                     Hände reichten. Er meint, das hätte Napoleon entsetzt.
+                  </summary>
+               </msContents>
+            </msDesc>
+            <listBibl type="preprints">
+               <biblStruct>
+                  <monogr>
+                     <editor>
+                        <persName>
+                           <ref />
+                           <forename>Cäcilie von</forename>
+                           <surname>Endlicher</surname>
+                        </persName>
+                     </editor>
+                     <title>Briefwechsel zwischen Friedrich Gentz und Adam Heinrich Müller. 1800-1829</title>
+                     <imprint>
+                        <pubPlace>Stuttgart</pubPlace>
+                        <date>1857</date>
+                     </imprint>
+                     <biblScope unit="page" from="1" to="1">
+                        Nr. 1
+                     </biblScope>
+                  </monogr>
+               </biblStruct>
+               <biblStruct>
+                  <monogr>
+                     <editor>
+                        <persName>
+                           <ref target="http://d-nb.info/gnd/11609673X"/>
+                           <forename>Jakob</forename>
+                           <surname>Baxa</surname>
+                        </persName>
+                     </editor>
+                     <title>Adam Müllers Lebenszeugnisse. 2 Bde.</title>
+                     <imprint>
+                        <pubPlace>München u.a.</pubPlace>
+                        <date>1966</date>
+                     </imprint>
+                     <biblScope unit="volume" n="2">
+                        II
+                     </biblScope>
+                     <biblScope unit="page" from="15" to="18">
+                        Nr. 8
+                     </biblScope>
+                  </monogr>
+               </biblStruct>
+            </listBibl>
+            <listBibl type="letterReferenced">
+               <bibl xml:id="c2823-1" corresp="#LETTER_GENTZ_NNNN">nicht bekannter Brief von Lord Minto an N. N.</bibl>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Masterarbeit zu Matrikelnummer 5584124</p>
+         </projectDesc>
+      </encodingDesc>
+      <profileDesc>
+         <creation>
+            <date when-iso="1801-05-07">7. Mai 1801</date>
+         </creation>
+        <langUsage>
+           <language ident="d">deutsch</language>
+        </langUsage>
+         <textClass>
+            <keywords scheme="internal"><!-- internal: innerhalb des besagten Briefs -->
+               <term>Billet</term>
+               <term>Napoleon</term>
+               <term>Abercrombie</term>
+               <term>Mehrnationentreffen</term>
+            </keywords>
+            <keywords scheme="categorisation"><!-- Sinnabschnittseinteilung - relevant für den Fahrkartenautomaten! -->
+               <term xml:id="vam">Verhältnis Adam Müller</term>
+               <term xml:id="napinv">Napoleonische Invasion</term>
+            </keywords>
+         </textClass>
+         <textDesc>
+            <channel>manuscript</channel>
+            <constitution type="single"/>
+            <derivation type="original"/>
+            <domain type="private"/>
+            <factuality type="fact"/>
+            <interaction type="partial"/>
+            <preparedness type="prepared"/>
+            <purpose type="inform"/>
+         </textDesc>
+         <particDesc>
+            <listPerson>
+               <!-- Sender und Adressat -->
+               <person role="sender" xml:id="Gen">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/118538489"/>
+                     <forename>Friedrich von</forename>
+                     <surname>Gentz</surname>
+                  </persName>
+               </person>
+               <person role="receiver" xml:id="AHM">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/118584790"/>
+                     <forename>Adam Heinrich</forename>
+                     <surname>Müller</surname>
+                  </persName>
+               </person>
+               <!-- erwähnte Personen -->
+               <person role="named" xml:id="RAbcr">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/119229293" />
+                     <forename>Ralph</forename>
+                     <surname>Abercrombie</surname>
+                  </persName>
+               </person>
+               <person role="named" xml:id="JHlH">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/157410188"/>
+                     <forename>John</forename>
+                     <surname>Hely-Hutchinson</surname>
+                  </persName>
+               </person>
+               <person role="named" xml:id="HJAG">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/1092226753"/>
+                     <forename>Honoré Joseph Antoine</forename>
+                     <surname>Ganteaume</surname>
+                  </persName>
+               </person>
+               <person role="named" xml:id="Mto">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/119079186"/>
+                     <forename>Gilbert E.</forename>
+                     <surname>Minto</surname>
+                  </persName>
+               </person>
+               <person role="named" xml:id="JJPLC">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/159696496"/>
+                     <forename>John Joshua Proby</forename>
+                     <surname>Carysfort</surname>
+                  </persName>
+               </person>
+               <person role="named" xml:id="CHCvH">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/116527080"/>
+                     <forename>Christian Heinrich Curt von</forename>
+                     <surname>Haugwitz</surname>
+                  </persName>
+               </person>
+               <person role="named" xml:id="NBon">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/118586408"/>
+                     <forename>Napoleon I.</forename>
+                     <surname/>
+                     <roleName type="office">Kaiser</roleName>
+                  </persName>
+               </person>
+            </listPerson>
+         </particDesc>
+         <settingDesc>
+            <listPlace>
+               <!-- Start- und Zielort -->
+               <place type="sender" xml:id="plBe">
+                  <country>
+                     <ref target="http://d-nb.info/gnd/4047194-9"/>
+                     <placeName>Preußen</placeName>
+                  </country>
+                  <settlement>
+                     <ref target="http://d-nb.info/gnd/4005728-8"/>
+                     <placeName>Berlin</placeName>
+                  </settlement>
+               </place>
+               <!-- erwähnte Orte -->
+               <place type="named" xml:id="plAx">
+                  <country>
+                     <ref target="http://d-nb.info/gnd/4075720-1"/>
+                     <placeName>Osmanisches Reich</placeName>
+                  </country>
+                  <settlement>
+                     <ref target="http://d-nb.info/gnd/4001138-0"/>
+                     <placeName>Alexandria</placeName>
+                  </settlement>
+               </place>
+            </listPlace>
+         </settingDesc>
+      </profileDesc>
+      <revisionDesc>
+         <change xml:id="init" when-iso="2018-03-08" who="#edAG">Erstauszeichnung und Normierung des Dokumentes im Rahmen der Masterarbeit der Matrikelnummer 5584124</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div n="1" corresp="#vam">
+            <p>
+               Heute haben Sie mich im Stich gelassen. Vermuthlich das Vorspiel von dem Aufenthalt auf dem Weidendamme. Oder hat etwa der Schreck über den 
+               gestrigen <emph rend="underlined">elektrischen</emph> Orkan Sie getödtet ?
+            </p>
+            <p>
+               Ich hätte Ihnen heute erzählt, daß <rs type="person" ref="#RAbcr">General Abercrombie</rs> am <date when-iso="1801-03-30">30. März</date> an 
+               seinen den <date when-iso="1801-03-24">24.</date> erhaltenen Wunden gestorben ist. <rs type="parson" ref="#JHlH">General Hutchinson</rs> hat das 
+               Commando übernommen. <rs type="place" ref="#plAx">Alexandrien</rs> war am <date when-iso="1801-03-30">30.</date> noch in den Händen der 
+               Franzosen; sie haben aber von der Landung bis zum <date when-iso="1801-03-30">30.</date> 4500 Mann verloren, und rechneten mächtig auf 
+               <rs type="person" ref="#HJAG">Gantheaume</rs>'s Hülfe. Es ist, nach dem <rs type="citation" ref="#c2823-1">Briefe</rs> des <rs>Lord Minto</rs>, 
+               kaum mehr zweifelhaft, daß die Expedition vollständig gelingt.
+            </p>
+         </div>
+         <div n="2" corresp="#napinv">
+            <p>
+               <date when-iso="1801-07-06">Gestern Abend</date> habe ich einem <emph rend="underlined">Versöhnungsfeste</emph> beigewohnt, einem prächtigen 
+               Souper bei <rs type="person" ref="#JJPLC">Carysfort</rs>, wo alle <emph rend="underlined">Russen</emph>, <emph rend="underlined">Dänen</emph> 
+               und sogar <emph rend="underlined">Schweden</emph> mit den <emph rend="underlined">Engländern</emph> fraternisirten, und der 
+               <rs type="person" ref="#CHCvH">Graf Haugwitz</rs> mitten unter ihnen ! Wenn <rs type="person" ref="#NBon">Bonaparte</rs> dies Souper gesehen 
+               hätte, keine Ausrufungszeichen hätten zugereicht, um sein Erstaunen und seine Wuth auszudrücken. Mir machte das Ganze eine außerordentliche 
+               Freude.
+            </p>
+         </div>
+         <closer>
+            <salute rend="right">Adieu</salute>
+            <dateline rend="left"><date when-iso="1801-05-07">7. Mai 1801</date>.</dateline>
+            <signed rend="right">Gentz.</signed>
+         </closer>
+      </body>
+   </text>
+</TEI>

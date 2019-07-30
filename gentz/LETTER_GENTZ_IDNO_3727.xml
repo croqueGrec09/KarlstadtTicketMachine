@@ -1,0 +1,807 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc xml:id="LETTER_GENTZ_3727">
+         <titleStmt>
+            <title>Friedrich von Gentz an Karl August Böttiger, 1. Februar 1798</title>
+            <editor xml:id="edAG">Andreas Gálffy</editor>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <name>Forschungsstelle "Universitätssammlung Friedrich von Gentz"</name>
+               <link target="http://gentz-digital.ub.uni-koeln.de http://www.ub.uni-koeln.de/cdm/singleitem/collection/gentz/id/3726/"/>
+            </publisher>
+            <pubPlace>Cologne</pubPlace>
+            <idno type="Gentz-Edition-Number" n="3727"/>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <country>Germany</country>
+                  <settlement>Dresden</settlement>
+                  <institution>Sächsische Landesbibliothek</institution>
+                  <repository>Handschriftensammlung, Nachlaß Böttiger</repository>
+                  <collection>Mscr. Dresd. h 37, Bd. 54 (4°)</collection>
+                  <idno>Nr. 15</idno>
+               </msIdentifier>
+               <msContents>
+                  <summary>
+                     Sehr unerwartet tritt Brinckmann seine neue Laufbahn an. Der Weggang schmerzt Gentz sehr, da er sehr intensiven 
+                     Umgang mit ihm hatte. Er nennt seine umfangreichen Talente und auch seine Bücherei. Von Böttiger erbittet 
+                     Gentz, dass dieser ihn mit der gleichen Liebe behandele, wie ihn. Gentz schickt mit diesem Brief zwei 
+                     Aktenstücke, die über die Organisation Südpreußens handeln. Zum Einen eine von Mencke ausgestellte Instruktion 
+                     zur Eröffnung der Kommission und eine von Gentz verfasster Abschlussbericht. Nach sieben Wochen von Kabalen 
+                     wandte sich der König an Gentz und trug ihm auf, diesen Abschlussbericht nach eigenem Ermessen zu verfassen. 
+                     Es entstand ein bloßes Geplapper. So beschreibt Gentz auch den Verlauf der Konferenz. Laut Gentz haben viele 
+                     Leute noch die Meinung, dass die Konferenz noch weiter laufen würde. Mencke hätte dies noch erwirken können, er 
+                     sah aber ein, dass tiefergreifende Änderungen notwendig sind. Dies führte Gentz als Vorwort zu den Akten an, 
+                     die er mitschickt. Gentz fährt mit einigen Worten über den König fort. Er sieht Böttigers Enthusiasmus ein, 
+                     aber warnt zugleich vor Vorschusslorbeeren. Mencke wird bei seinem Betrieb nicht mehr lange leben, vermutet 
+                     Gentz, und er spart sich jedes Urtel über die Regierung bis dahin auf. Zumal, da früher Mencke nicht 
+                     wahrgenommen wurde, jetzt aber jeder seiner Schriften gepriesen wird. Mencke hat deshalb so viel Betrieb, weil 
+                     er alle Zivilgeschäfte leitet. Gentz würde dieser Posten stark reizen, aber er widerspricht der Verführung, da 
+                     er selbst nicht die nötige Ruhe zu dieser Tätigkeit hat. Zudem müsste er alle seine literarischen Tätigkeiten 
+                     einstellen. Gentz schrieb die vorigen Seiten unter Vertrauen an Böttiger; diese Vertraulichkeit setzt er bei 
+                     ihm voraus, nimmt es aber nicht übel, wenn er Wieland von manchen Punkten erzählen würde. Über sein Wekr über 
+                     die französische Revolution schreibt Gentz, dass er mit großem Eifer die Sache verfolgt, sich aber fragt, wie 
+                     man in diesem stürmischen Zeitalter überhaupt unparteiisch sein soll und ob sein Werk, sollte er es jemals 
+                     veröffentlichen, unter neuerungssüchtigen und oberflächlichen Leuten überhaupt Anklang findet. Johannes Müller 
+                     regt Gentz in diesem Zusammenhang auf. Sein widersprüchliches Verhalten kann er nicht erklären, noch weniger 
+                     sein Einverständnis mit den Franzosen. Dennoch - oder gerade deshalb - erkennt Gentz den Status Müllers als 
+                     einen wahrhaft großen Schriftsteller an. In ähnlichem Ton äußert sich Gentz über Posselt, dessen Zeitung er 
+                     über alle Verhältnisse preist. Auch seine Zuneigung zu Frankreich lehnt Gentz ab. Ganz besonders seine 
+                     Ansicht über den Handel Englands greift er scharf an. Ebenso seine Sicht über die Revolution des 18. Fructidor. 
+                     Für verschiedene Dinge - einen Brief von Wieland, die Ankündigung einer Übersetzung von Mounier - dankt Gentz 
+                     Böttiger recht herzlich. Er bewundert ihn für seine Belesenheit und fragt nach Vieweg. Im Postscript hat Gentz 
+                     geschrieben, als er soeben die Übersetzung erhielt. Er ist sehr angetan von Mouniers Arbeit und fragt, wo er so 
+                     gut Deutsch gelernt habe. Noch mehr fragt er über einen Ausdruck Böttigers, Mounier sei Republikaner geworden, 
+                     wie das passieren konnte. Ein Exemplar des Camille Jordan leitet Gentz an Mounier weiter und fragt nach dem 
+                     Autor einer Rezension über Fichte in der Allgemeinen Literatur-Zeitung.
+                  </summary>
+               </msContents>
+            </msDesc>
+            <listBibl type="preprints">
+               <biblStruct>
+                  <monogr>
+                     <editor>
+                        <persName>
+                           <ref target="http://d-nb.info/gnd/130953075"/>
+                           <forename>Friedrich Carl</forename>
+                           <surname>Wittichen</surname>
+                        </persName>
+                        <persName>
+                           <ref/> <!-- kein GND-Eintrag -->
+                           <forename>Ernst</forename>
+                           <surname>Salzer</surname>
+                        </persName>
+                     </editor>
+                     <title>Briefe von und an Friedrich von Gentz, 4 Bde.</title>
+                     <imprint>
+                        <publisher>Oldenbourg</publisher>
+                        <pubPlace>München, Berlin</pubPlace>
+                        <date>1909-1913</date>
+                     </imprint>
+                     <biblScope unit="volume" n="1">
+                        I
+                     </biblScope>
+                     <biblScope unit="page" from="239" to="249">
+                        Nr. 60
+                     </biblScope>
+                  </monogr>
+               </biblStruct>
+            </listBibl>
+            <listBibl type="letterReferenced">
+               <bibl xml:id="c3727-1" corresp="#LETTER_GENTZ_NNNN">nicht bekannter Brief von Christian Martin Wieland an Karl August Böttiger</bibl>
+               <bibl xml:id="c3727-2" corresp="#LETTER_GENTZ_NNNN">nicht bekannter Brief von Jean-Joseph Mounier an Friedrich von Gentz</bibl>
+            </listBibl>
+            <listBibl type="alludedWorks">
+               <bibl xml:id="a3727-1" corresp="#LETTER_GENTZ_NNNN">nicht näher benanntes Werk von Camille Jordan</bibl>
+            </listBibl>
+            <listBibl type="defExpr">
+               <biblStruct xml:id="e3727-1" corresp="UJn-0003">
+                  <monogr>
+                     <title>Allgemeine Literatur-Zeitung</title>
+                     <imprint>
+                        <pubPlace>Jena</pubPlace>
+                        <date>1785-1849</date>
+                     </imprint>
+                  </monogr>
+                  <ptr target="http://zs.thulb.uni-jena.de/receive/jportal_jpvolume_00002139?XSL.referer=jportal_jpvolume_00002140"/>
+               </biblStruct>
+            </listBibl>
+            <listBibl type="defRep">
+               <biblStruct xml:id="p3727-1" corresp="GBk-0037">
+                  <monogr>
+                     <title>Jahrbücher der preußischen Monarchie unter der Regierung Friedrich Wilhelms des Dritten.</title>
+                     <imprint>
+                        <pubPlace>Berlin</pubPlace>
+                        <publisher>Johann Friedrich Unger</publisher>
+                        <date>1798</date>
+                     </imprint>
+                     <biblScope unit="volume" n="1">
+                        Erster Band. Januar. Februar. März. April.
+                     </biblScope>
+                  </monogr>
+                  <ptr target="https://books.google.de/books?id=I7wpAAAAYAAJ"/>
+               </biblStruct>
+               <biblStruct xml:id="p3727-2" corresp="GBk-0038">
+                  <monogr>
+                     <author>
+                        <persName>
+                           <ref target="http://d-nb.info/gnd/104314699"/>
+                           <forename>Ernst Ludwig</forename>
+                           <surname>Posselt</surname>
+                        </persName>
+                     </author>
+                     <title>Europäische Annalen</title>
+                     <imprint>
+                        <publisher>Cotta</publisher>
+                        <pubPlace>Tübingen</pubPlace>
+                        <date>1798</date>
+                     </imprint>
+                  </monogr>
+                  <ptr target="https://books.google.de/books?id=-tBJAAAAcAAJ" />
+               </biblStruct>
+               <biblStruct xml:id="p3727-3" corresp="GBk-0034">
+                  <monogr>
+                     <author>
+                        <persName>
+                           <ref target="http://d-nb.info/gnd/118538489"/>
+                           <forename>Friedrich von</forename>
+                           <surname>Gentz</surname>
+                        </persName>
+                     </author>
+                     <title>Sendschreiben</title>
+                     <imprint>
+                        <publisher>Friedrich Vieweg der Ältere</publisher>
+                        <pubPlace>Berlin</pubPlace>
+                        <date>1797</date>
+                     </imprint>
+                  </monogr>
+                  <ptr target="https://books.google.de/books?id=QLdhAAAAcAAJ" />
+               </biblStruct>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Masterarbeit zu Matrikelnummer 5584124</p>
+         </projectDesc>
+      </encodingDesc>
+      <profileDesc>
+         <creation>
+            <date when-iso="1798-02-01">1. Februar 1798</date>
+         </creation>
+        <langUsage>
+           <language ident="d">deutsch</language>
+        </langUsage>
+         <textClass>
+            <keywords scheme="internal"><!-- internal: innerhalb des besagten Briefs -->
+               <term>Brief</term>
+               <term>Brinckmann</term>
+               <term>Versetzung</term>
+               <term>Regierung</term>
+               <term>Südpreußen</term>
+               <term>Mencke</term>
+               <term>französische Revolution</term>
+               <term>Müller</term>
+               <term>Posselt</term>
+               <term>Wieland</term>
+               <term>Camille Jordan</term>
+               <term>Fichte</term>
+            </keywords>
+            <keywords scheme="categorisation"><!-- Sinnabschnittseinteilung - relevant für den Fahrkartenautomaten! -->
+               <term xml:id="vkgvb">Verhältnis Karl Gustav von Brinckmann</term>
+               <term xml:id="prg">preußische Regierung</term>
+               <term xml:id="bezbt">Beziehungen zu Berlin - Beamtentätigkeit</term>
+               <term xml:id="vkab">Verhältnis Karl August Böttiger</term>
+               <term xml:id="frv">Französische Revolution</term>
+               <term xml:id="vjvm">Verhältnis Johannes von Müller</term>
+               <term xml:id="kpos">Posselt</term>
+               <term xml:id="ehdl">englischer Handel</term>
+               <term xml:id="vwf">Vieweg - Freundschaft</term>
+               <term xml:id="kmou">Mounier</term>
+               <term xml:id="lvm">Literatur vermischt</term>
+               <term xml:id="kcjo">Camille Jordan</term>
+            </keywords>
+         </textClass>
+         <textDesc>
+            <channel>manuscript</channel>
+            <constitution type="single"/>
+            <derivation type="original"/>
+            <domain type="private"/>
+            <factuality type="fact"/>
+            <interaction type="partial"/>
+            <preparedness type="unprepared"/>
+            <purpose type="inform"/>
+         </textDesc>
+         <particDesc>
+            <listPerson>
+               <!-- Sender und Adressat -->
+               <person role="sender" xml:id="Gen">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/118538489"/>
+                     <forename>Friedrich von</forename>
+                     <surname>Gentz</surname>
+                  </persName>
+               </person>
+               <person role="receiver" xml:id="KAB">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/118824775"/>
+                     <forename>Carl August</forename>
+                     <surname>Böttiger</surname>
+                  </persName>
+               </person>
+               <!-- erwähnte Personen -->
+               <person role="named" xml:id="KGvB">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/116519770"/>
+                     <forename>Carl Gustav von</forename>
+                     <surname>Brinckmann</surname>
+                  </persName>
+               </person>
+               <person role="named" xml:id="Mck">
+                  <persName>
+                     <ref />
+                     <forename/>
+                     <surname>Mencke</surname>
+                  </persName>
+               </person>
+               <person role="named" xml:id="KFWII">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/11869362X"/>
+                     <forename>Friedrich Wilhelm II.</forename>
+                     <surname>von Preußen</surname>
+                     <roleName type="office">König von Preußen</roleName>
+                  </persName>
+               </person>
+               <person role="named" xml:id="KFWIII">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/118535986"/>
+                     <forename>Friedrich Wilhelm III.</forename>
+                     <surname>von Preußen</surname>
+                     <roleName type="office">König</roleName>
+                  </persName>
+               </person>
+               <person role="named" xml:id="CMW">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/118632477"/>
+                     <forename>Christoph Martin</forename>
+                     <surname>Wieland</surname>
+                  </persName>
+               </person>
+               <person role="named" xml:id="JCvW">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/117453773"/>
+                     <forename>Johann Christoph</forename>
+                     <surname>von Woellner</surname>
+                  </persName>
+               </person>
+               <person role="named" xml:id="Hrm">
+                  <persName>
+                     <ref />
+                     <forename/>
+                     <surname>Hermes</surname>
+                  </persName>
+               </person>
+               <person role="named" xml:id="JFGU">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/11729327X"/>
+                     <forename>Johann Friedrich Gottlieb</forename>
+                     <surname>Unger</surname>
+                  </persName>
+               </person>
+               <person role="named" xml:id="JvM">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/118585045"/>
+                     <forename>Johannes von</forename>
+                     <surname>Müller</surname>
+                  </persName>
+               </person>
+               <person role="named" xml:id="Pos">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/104314699"/>
+                     <forename>Ernst Ludwig</forename>
+                     <surname>Posselt</surname>
+                  </persName>
+               </person>
+               <person role="named" xml:id="Rbl">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/119515601"/>
+                     <forename>Jean-François</forename>
+                     <surname>Reubell</surname>
+                  </persName>
+               </person>
+               <person role="named" xml:id="PdB">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/118652648"/>
+                     <forename>Paul de</forename>
+                     <surname>Barras</surname>
+                  </persName>
+               </person>
+               <person role="named" xml:id="PAM">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/11944495X"/>
+                     <forename>Philippe Antoine</forename>
+                     <surname>Merlin</surname>
+                  </persName>
+               </person>
+               <person role="named" xml:id="Pgru">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/122170849"/>
+                     <forename>Charles</forename>
+                     <surname>Pichegru</surname>
+                  </persName>
+               </person>
+               <person role="named" xml:id="Mou">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/11878515X"/>
+                     <forename>Jean-Joseph</forename>
+                     <surname>Mounier</surname>
+                  </persName>
+               </person>
+               <person role="named" xml:id="HGen">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/11900738X"/>
+                     <forename>Heinrich</forename>
+                     <surname>Gentz</surname>
+                  </persName>
+               </person>
+               <person role="named" xml:id="FVW">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/119049546"/>
+                     <forename>Friedrich</forename>
+                     <surname>Vieweg</surname>
+                  </persName>
+               </person>
+               <person role="named" xml:id="Fic">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/118532847"/>
+                     <forename>Johann Gottlieb</forename>
+                     <surname>Fichte</surname>
+                  </persName>
+               </person>
+               <person role="named" xml:id="CJo">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/117177040"/>
+                     <forename>Camille de</forename>
+                     <surname>Jordan</surname>
+                  </persName>
+               </person>
+            </listPerson>
+         </particDesc>
+         <settingDesc>
+            <listPlace>
+               <!-- Start- und Zielort -->
+               <place type="sender" xml:id="plBe">
+                  <country>
+                     <ref target="http://d-nb.info/gnd/4047194-9"/>
+                     <placeName>Preußen</placeName>
+                  </country>
+                  <settlement>
+                     <ref target="http://d-nb.info/gnd/4005728-8"/>
+                     <placeName>Berlin</placeName>
+                  </settlement>
+               </place>
+               <place type="receiver" xml:id="plWe">
+                  <country>
+                     <ref target="http://d-nb.info/gnd/4051194-7"/>
+                     <placeName>Sachsen-Weimar-Eisenach</placeName>
+                  </country>
+                  <settlement>
+                     <ref target="http://d-nb.info/gnd/4065105-8"/>
+                     <placeName>Weimar</placeName>
+                  </settlement>
+               </place>
+               <!-- erwähnte Orte -->
+               <place type="named" xml:id="plSd">
+                  <country>
+                     <ref target="http://d-nb.info/gnd/4047194-9"/>
+                     <placeName>Preußen</placeName>
+                  </country>
+                  <region>
+                     <ref target="http://d-nb.info/gnd/4058452-5"/>
+                     <placeName>Südpreußen</placeName>
+                  </region>
+               </place>
+               <place type="named" xml:id="plEu">
+                  <geogName type="continent">
+                     <ref target="http://d-nb.info/gnd/4015701-5"/>
+                     <placeName>Europa</placeName>
+                  </geogName>
+               </place>
+               <place type="named" xml:id="plDe">
+                  <country>
+                     <ref target="http://d-nb.info/gnd/2035457-5"/>
+                     <placeName>Deutschland</placeName>  
+                  </country>
+               </place>
+               <place type="named" xml:id="plFr">
+                  <country>
+                     <ref target="http://d-nb.info/gnd/4018145-5"/>
+                     <placeName>Frankreich</placeName>  
+                  </country>
+               </place>
+               <place type="named" xml:id="plEn">
+                  <country>
+                     <ref target="http://d-nb.info/gnd/4022153-2"/>
+                     <placeName>England</placeName>
+                  </country>
+               </place>
+               <place type="named" xml:id="plHo">
+                  <country>
+                     <ref target="http://d-nb.info/gnd/5245326-1"/>
+                     <placeName>Holland</placeName>
+                  </country>
+               </place>
+               <place type="named" xml:id="plPa">
+                  <country>
+                     <ref target="http://d-nb.info/gnd/4018145-5"/>
+                     <placeName>Frankreich</placeName>  
+                  </country>
+                  <settlement>
+                     <ref target="http://d-nb.info/gnd/4044660-8"/>
+                     <placeName>Paris</placeName>
+                  </settlement>
+               </place>
+            </listPlace>
+         </settingDesc>
+      </profileDesc>
+      <revisionDesc>
+         <change xml:id="init" when-iso="2018-02-28" who="#edAG">Erstauszeichnung und Normierung des Dokumentes im Rahmen der Masterarbeit der Matrikelnummer 5584124</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div n="1" corresp="#vkgvb">
+            <p>
+               Sie erhalten diesen Brief, theuerster Freund, durch den <rs type="person" ref="#KGvB">Hauptmann von Brinkmann</rs>, 
+               bis hieher Schwedischer Legations-Secretaire an unserm Hofe, der diese Station verläßt, um eine neue im jetzigen 
+               Zeitpunkt sehr wichtige Laufbahn anzutreten. Der Verlust ist für <rs type="place" ref="#plBe">Berlin</rs> 
+               allgemein-schmerzhaft: für mich ist er beinahe unersetzlich. Er war einer der Wenigen, die ich fast täglich sah, und 
+               die mir, wenn ich auch noch so tief in Geschäften steckte, nie zur Unzeit kamen. Mit einem zuverläßigen Charakter, 
+               mit Feinheit im Beobachten und Festigkeit im Handeln, mit einer seltnen Liberalität des Urtheils und der Gesinnungen, 
+               verbindet er eine Menge entschiedner Talente, einen außerordentlichen Vorrath von Kenntnissen aller Art, und eine 
+               Belesenheit, die ihn in jeder wissenschaftlichen Sphäre einheimisch macht. Dabei besaß er eine der kostbarsten, und 
+               unstreitig die ausgesuchteste aller <ref target="#r3727-1">Büchersammlungen</ref> in 
+               <rs type="place" ref="#plBe">Berlin</rs>, die ich, bei meinem vieljährigen vertrauten Umgange mit ihm, fast wie die 
+               meinige anzusehen gewohnt war. Alle diese Verhältnisse plötzlich - nach vierzehntägiger Ankündigung - abgebrochen, 
+               und vielleicht auf immer zerrissen zu <pb/> sehen, ist doch wirklich kein ganz unbedeutendes Ereigniß im Privatleben 
+               eines auf sehr wenig vertrauten Umgang eingeschränkten Menschen.
+            </p>
+            <p>
+               <rs type="person" ref="#KGvB">Herr von Brinkmann</rs> wird wahrscheinlich einige Tage in 
+               <rs type="place" ref="#plWe">Weimar</rs> zubringen, und hofft durch Ihre gütige Anleitung einige der merkwürdigen 
+               Männer kennen zu lernen, die dieser Ort in sich schließt. Jeden Liebes-Dienst, den Sie ihm erweisen, werde ich im 
+               eigentlichsten Verstande so ansehen, als wäre er mir selbst geschehen. Eines Mehrern bedarf es nicht, um Ihnen 
+               meinen Freund zu empfehlen.
+            </p>
+         </div>
+         <div n="2" corresp="#prg">
+            <p>
+               Ich ergreife diese Gelegenheit, um mich über verschiedne in Ihren letzten Briefen angeregte Punkte etwas 
+               ausführlicher zu erklären.
+            </p>
+            <p>
+               Ich habe diesem Briefe die beiden wichtigsten auf die Organisation von <rs type="place" ref="#plSd">Südpreußen</rs> 
+               Bezug habenden Aktenstücke beigefügt: die <emph rend="underlined">Instruction</emph>, welche die Commission eröfnete, 
+               und den <emph rend="underlined">Bericht</emph>, welcher sie schloß. Jene ist von 
+               <rs type="person" ref="#Mck">Mencke</rs>, dieser ist von mir abgefaßt. Der Zwischenraum, der von der Erscheinung der 
+               Instruction, bis zum Entwerfen des Berichts - den ich in 24 schlaflosen Stunden niederschrieb - verfloß <pb/>war 
+               einer der merkwürdigsten Zeitpunkte meines Lebens. Noch nie hatte ich so klar gesehen, 
+               <span xml:lang="lat">quam parva sapientia regitur mundus</span>, als bei den Verhandlungen, welche diese 
+               <emph rend="underlined">Geheime</emph> Commission (der von Anfang bis zu Ende Niemand als ich beigewohnt hat) 
+               beschäftigten - und charakterisirten. Es wäre viel zu weitläuftig und vielleicht nicht einmal interessant für Sie, 
+               wenn ich Sie ins Innre dieser verwickelten Cabalen einweihen wollte. Nur das letzte Resultat will ich Ihnen 
+               mittheilen: Nachdem 7 Wochen alles versucht worden war, die Instruction - zur Ausführung zu bringen ? denken Sie - 
+               Nein ! zu vernichten, bis auf die letzte Spur ihres Andenkens aus der Welt zu vertilgen - ließ 
+               <rs type="person" ref="#KFWII">der verstorbne König</rs>, der nicht immer für das Gute blind und todt war, und der 
+               sich bei dieser ganzen Angelegenheit, wie ein treflicher König gezeigt hat, einen Blitzstrahl hinein fahren: und 
+               urplötzlich erhielt <emph rend="underlined">ich</emph> den Auftrag <add place="above">(von der Commission)</add>, 
+               einen Bericht, <emph rend="underlined">sowie ich ihn für gut hielte</emph> (nach 7 wöchentlichen Deliberationen !!) 
+               zu entwerfen, der das Echo der Instruction seyn sollte. Hierauf schmiedete ich - fest überzeugt, daß die welche mein 
+               Werk unterschrieben, und mit dem Munde bewunderten, es im Herzen verabscheuten - diesen Bericht, ein bloßes 
+               Geplapper, von allgemeinen Worten zusammengeflickt, weil <pb/> ich am besten wußte, wie es mit der praktischen 
+               Ausführung, wie es selbst mit dem Willen dazu, beschaffen war ! Der <rs type="person" ref="#KFWIII">König</rs> war 
+               zufrieden: wir wurden gelobt, beschenkt: - Die Commission ging aus einander: jeder Minister (selbst den nicht 
+               ausgenommen, dessen Nahmen Ihnen vielleicht schon mehr als einmal befremdend aufstieß, als Sie diese kurze Relation 
+               lasen) jeder war froh, einer großen Gefahr entgangen zu seyn. Die Comödie war zu Ende.
+            </p>
+            <p>
+               So wie ich aus verschiednen Ihrer Aeußerungen, noch mehr aber aus den Worten des verehrungswürdigen 
+               <rs type="person" ref="#CMW">Wieland</rs> schließe, sind Sie beide <del rend="stroked">noch</del> der ganz irrigen 
+               Meinung daß dieses große Organisations-Geschäft noch jetzt seinen Fortgang habe: keinesweges ! Die Instruction, die 
+               Verhandlungen, der Bericht - alles das war ein Meteor von 7 Wochen: Der Glanz verschwand, und die Finsterniß der 
+               Polar-Nächte kehrte wieder ein. - Freilich würde es <rs type="person" ref="#Mck">Mencke</rs> 
+               <emph rend="underlined">jetzt</emph>, im Zeitpunkte seiner Macht, leicht dahin bringen können, daß die Verhandlungen 
+               wieder angeknüpft würden; aber zwei Motive halten ihn davon ab: 1, da er selbst der Verfasser jener Instruction war, 
+               so fürchtet er, es mögte nach persönlichem Ehrgeitz schmecken, wenn er die Sache von <pb/> neuem aufweckte; 2, er 
+               ist mit mir, und gröstentheils durch mich, völlig überzeugt, daß auf dem vorhin betretnen Wege 
+               <emph rend="underlined">nie</emph> etwas auszurichten seyn wird: einen andern aber einzuschlagen, das erfordert 
+               Veränderungen in unsrer ganzen Finanz-Administration, die nur langsam, vorsichtig, und mit gereiftem Nachdenken, 
+               realisirt werden können. So lange muß man nun schon alles auf persönliche Einsichten, und persönliche Integrität der 
+               Minister ankommen laßen - hängt doch in dieser Welt fast alles mehr von den Menschen als von den Formen ab, so 
+               wichtig auch diese einem Ordnung-liebenden, systematischen Geiste, so wichtig sie auch für die Ruhe und Wohlfahrth 
+               aller großen Gesellschaften seyn mögen !
+            </p>
+            <p>
+               Ohne diese kleine Notiz konnte ich Ihnen die Aktenstücke nicht übergeben, die ich mir übrigens, da ich keine weitre 
+               Abschrift davon habe, sobald Sie sie nicht mehr brauchen, zurück erbitte.
+            </p>
+            <p>
+               Von diesem Gegenstande ist der Uebergang zu unsrer jetzigen Regierung natürlich. Ich habe Zeit und Lust zu schreiben. 
+               Die Güte mit der Sie Sich für mein Vaterland, und für mich interessiren, die Ueberzeugung, daß Sie ein Mann sind, 
+               gegen den <pb/> man ohne Gefahr sein Herz ausschütten kan, endlich die Gewißheit, daß diesem Briefe kein Unfall 
+               widerfahren wird, fordern mich auf, einmal so zu Ihnen zu reden, wie ich es nur selten thun mögte, und auch nur 
+               selten thun dürfte.
+            </p>
+            <p>
+               Sie sind für <rs type="person" ref="#KFWIII">unsern neuen König</rs> enthusiastisch eingenommen, theurer Freund, und 
+               ich ehre die Quelle dieses Enthusiasmus, so wie ich die Gültigkeit der Veranlaßung desselben gewiß keines weges 
+               bezweifle. Ich selbst bin froh, weit über meine Erwartung froh, wenn ich die ersten Monate dieser Regierung 
+               betrachte. Aber - laßen Sie uns nicht zu früh triumphiren ! Sie, und die Welt kennen bis jetzt nur 
+               <emph rend="underlined">eine</emph> Seite dieses goldnen Schauspiels. Die Vernunft, die Weisheit, die Sachkenntniß 
+               eines einzigen Mannes hat dies glänzende Gewand, woran sich jetzt Deutschland zu ergötzen scheint, um die ersten 
+               Tage unsrer neuen Aera geschlagen. Immer genug gewonnen, immer Verdienst genug, daß man diesen Mann auf diesen Posten 
+               stellte ! Aber das ist nur ein einzelner Sieg: das böse Prinzip kämpft in unserm Staate noch mächtig mit dem Guten: 
+               und wenn <emph rend="underlined">Oromasis</emph> <pb/> auch für jetzt überwunden hat, so ist 
+               <emph rend="underlined">Arimanes</emph> nicht <emph rend="underlined">vernichtet</emph>. Eine 
+               <emph rend="underlined">militärische Cabale</emph> - mir furchtbarer als alle 
+               <rs type="person" ref="#JCvW">Wöllner</rs>, und <rs type="person" ref="#Hrm">Hermes</rs> der alten Regierung - strebt 
+               unabläßig nach dem Zepter, und <emph rend="underlined">kan</emph> ihren Zweck erreichen. 
+               <rs type="person" ref="#Mck">Mencke</rs> ist nicht bloß sterblich, er ist in einem Zustande, mit dem ein langes Leben 
+               sich gar nicht vereinigen läßt: ich wette nicht auf ein Jahr für das seinige. - Was als dann geschehen wird, das, 
+               mein Freund, wird über den Charakter dieser Regierung, wird über unser, und vielleicht über 
+               <rs type="place" ref="#plEu">Europa</rs>'s Schicksal - denn wieviel darf denn in die zitternde Wage noch fallen ! - 
+               entscheiden. Diesen Zeitpunkt laßen Sie uns in Ruhe erwarten. Ich bin kein Unglücks-Prophet: ich sage nicht einmal, 
+               daß ich <emph rend="underlined">vermuthete</emph>, es werde dann schlecht gehen; aber ich kenne das Innre unsers 
+               Staates zu genau, ich weiß zu gut was ich von der glänzenden Außenseite einer Regierung zu halten habe, ich weiß zu 
+               gut, worauf sich alle unsre Hoffnungen stützen, um nicht zu verlangen - was ja ohnehin die Weisheit in jedem Falle 
+               vorschreibt - daß unser Urtheil noch suspendirt werde. Deshalb werde ich im Einzelnen gern und willig loben, was des 
+               Lobes werth ist; ob ich es gleich (mit dem <rs type="person" ref="#KFWIII">König</rs>e selbst) höchst eckelhaft 
+               finde, daß man diesen Fürsten mit faden Schmeicheleyen wirklich erstickt; daß elende Journale, wie die 
+               <rs type="citation" ref="#p3727-1">Annalen</rs> von <rs type="person" ref="#JFGU">Unger</rs> (die doch gewiß <pb/> 
+               auswärts einen Nahmen haben, auch ungeheuren Absatz finden) es recht darauf anlegen, die lumpichsten Anekdoten als 
+               historische Denkwürdigkeiten, und jede Zeile die <rs type="person" ref="#Mck">Mencke</rs> schreibt (von dem man vor 
+               drei, vor zwei Jahren, vor 8 Monaten, wo er immer eben so gut, und manchmal weit besser schrieb als heute, durchaus 
+               keine Notiz nehmen <emph rend="underlined">wollte</emph>, weil er nicht <span xml:lang="fr">à l'ordre du jour</span> 
+               war) als einen Götterspruch darzustellen.
+            </p>
+         </div>
+         <div n="3" corresp="#bezbt">
+            <p>
+               Da ich einmal so offenherzig gewesen bin, so glaube ich auch, fest versichert von Ihnen nicht mißverstanden zu 
+               werden, noch einen Schritt weiter gehen zu können. Männer, deren Beifall mir unendlich-kostbar ist, deren Urtheil ich 
+               verehre, haben hin und wieder den Wunsch geäußert, daß ich selbst einen Antheil an der Führung der Kabinets-Geschäfte 
+               erhalten mögte: auch hier ist hin und wieder davon gesprochen worden. Darüber will ich mich ernsthaft gegen Sie 
+               erklären. Im Anfange der Regierung stand es bei mir, mich von <rs type="person" ref="#Mck">Mencke</rs> zu seinem 
+               Gehülfen vorschlagen zu laßen, und vielleicht wird noch mehr als eine, vielleicht traurige, Gelegenheit vorkommen, wo 
+               ich dies ohne alle Schwierigkeit und Kabale bewirken könnte. Da <rs type="person" ref="#Mck">Mencke</rs> jetzt 
+               <emph rend="underlined">alle</emph> Civil-Geschäfte dirigirt, da er äußerst hinfällig ist, und uns gewiß nur 
+               allzufrüh entrissen wird, so <pb/> sehen Sie leicht ein, was in einer solchen Laufbahn für ein thätiges, 
+               ehrgeitziges, seiner Kräfte sich bewustes Gemüth, verführerisches liegt. Auch müßte ich Sie hintergehen, wenn ich 
+               Ihnen nicht gestände, daß es viele Augenblicke gegeben hat, wo ich den Reitz, der jene Aussicht umschwebt, lebhaft 
+               fühlte, andre, wo mich die Idee, es sey <emph rend="underlined">pflichtmäßig</emph>, eine solche Lage zu benutzen, 
+               begeisterte. - Aber die Vernunft, aber die kaltblütige Ueberlegung, aber die unbestechliche Selbstkenntniß, aber die 
+               allmächtige Furcht, meine Freiheit für einen falschen Genuß zu verkaufen, meine wahre Bestimmung mit einer 
+               scheinbaren zu verwechseln: alles das trug den Sieg davon, und wird ihn, mit Gott, immer davon tragen. Ich 
+               <emph rend="underlined">tauge</emph> zu diesem schweren Posten nicht: mag ich doch eben so viel Kenntnisse als 
+               <rs type="person" ref="#Mck">Mencke</rs> und vielleicht mehr Talente haben, als er: mir fehlt die unerschütterliche, 
+               die ewige, die göttliche Ruhe seines Charakters: mir fehlt sein Heldenmuth, seine Standhaftigkeit, seine 
+               Gleichgültigkeit gegen alle Unternehmungen des Feindes, und die Kunst, seine unerhörte Festigkeit und Kraft, in eine 
+               sanfte, heitre, süß-täuschende äußre Form zu verstecken. Ich bin nicht dazu gemacht, mich 
+               <emph rend="underlined">auf die Länge</emph> mit Kabalen <pb/> herumzuschlagen, habe vor dem Militär eine nicht zu 
+               besiegende Furcht, und ginge zuverläßig, wenn der <rs type="person" ref="#KFWIII">König</rs> mich heute mit seinem 
+               ganzen Vertrauen erhöbe, in weniger als einem halben Jahre zu Grunde.
+            </p>
+            <p>
+               Nehmen Sie nun hinzu, daß ich mich in eine bodenlose Sklaverei (denn von dem Leben, was 
+               <rs type="person" ref="#Mck">Mencke</rs> führt, können Sie Sich kaum eine Vorstellung machen, und doch mögte ich den 
+               Posten nur so, oder gar nicht, verwalten) stürzen, daß ich meine litterarischen Beschäftigungen, meine litterärischen 
+               Plane für immer aufgeben, daß ich - was weit wichtiger ist: denn jenes wäre, bei Gott, eins der geringsten Uebel - 
+               selbst der fernern Cultur meines Geistes, d. h. der einzigen für mich behaglichen Existenz, der einzigen, mit welcher 
+               das Leben wahren Werth für mich hat, entsagen müßte: und urtheilen Sie, ob ich nicht mehr als unweise handelte, wenn 
+               ich mich je durch irgend ein rühmliches oder kleinliches Motiv bewegen ließe, aus meiner jetzigen Sphäre zu gehen.
+            </p>
+         </div>
+         <div n="4" corresp="#vkab">
+            <p>
+               Daß ich Ihnen alles, was dieser Brief bis hieher enthält im grösten Vertrauen schreibe, versteht sich von selbst: ob 
+               ich gleich den behutsamen Gebrauch davon, den ich Ihnen empfehlen <add place="above">muß</add>, aber auch schon mit 
+               <pb/> gröster Zuverläßigkeit erwarten kan, nicht so pedantisch beschränken will, daß ich es z. B. ungern sehen würde, 
+               wenn Sie einem Manne, wie <rs type="person" ref="#CMW"><emph rend="underlined">Wieland</emph></rs>, den ich, als 
+               einen der Schutzgeister alles Wahren und Guten in der Welt, verehre, in so fern er sich für mich, oder den 
+               Preußischen Staat überhaupt interessirt, eins und das Andre mittheilten.
+            </p>
+         </div>
+         <div n="5" corresp="#frv">
+            <p>
+               Sie fragen mich nach meinem großen Werke über die Geschichte der Revolution. Auch hierüber will ich einmal recht 
+               aufrichtig mit Ihnen sprechen. An und für sich kan der Eifer, an einem Werke dem ich soviel Zeit und Kräfte schon 
+               aufgeopfert habe zu <del rend="stroked">xxx</del> arbeiten, nie erkalten. Aber ob ich es in 3, 5, 10 Jahren, ob ich 
+               es jemals vor das Publikum bringen werde - das ist eine andre Frage. Sollte ein Mann, wie Sie, Sich über diese 
+               Aeußerung wundern ? Ja, wenn ich mir ein Feld gewählt hätte, wo man, sobald man sich des Fleißes, der Gründlichkeit, 
+               und einiger Talente bewußt ist, die Menschen <emph rend="underlined">zwingen</emph> kan, einem Gerechtigkeit 
+               widerfahren zu laßen (Mathematik, Physik, Chemie, Philologie ppp) so wollte ich über den Erfolg ganz ruhig seyn. Aber 
+               in diesem stürmischen Zeitalter, auf diesem Erdbeben und unterirdischen Feuern durchwühlten Boden, in dieser Periode 
+               der heftigsten Gährungen des menschlichen Geistes - <del rend="stroked">xxx</del> jetzt in der Darstellung der <pb/> 
+               grösten politischen Begebenheit aller Zeiten, eben der Begebenheit, welche die Veranlaßung aller dieser Stürme und 
+               Ungewitter gewesen ist, ein <gap><desc>griechisches Zitat</desc></gap> zu suchen, auf Beifall, nur auf Billigkeit zu 
+               rechnen - welch ein Unternehmen ! Zumal wenn man, obgleich mit wahrer Unparteilichkeit, deren ich mir wirklich im 
+               hohen Grade bewußt bin, doch lebhaft fühlt, daß man - da, wo vollkommne Neutralität nur einen Schaafskopf zieren 
+               könnte - immer mehr noch zur alten, als zur neuen Schule, immer mehr noch zu der Partey gehört, gegen welche sich die 
+               ungeheure Masse aller oberflächlichen, aller unruhigen, aller neuerungssüchtigen Menschen, gegen welche sich mehrere 
+               der vorzüglichsten Köpfe, die Majorität der Schriftsteller in allen Sprachen, der Geist der Zeit, das Glück, alle 
+               Thorheiten und Fehler der Regierungen, und unerhörte Siege, verschworen haben. Ueberlegen Sie das alles, und tadeln 
+               Sie mich, wenn Sie können, über meine Zähheit und Verdrossenheit, einer Sache, die ich für verloren halten müßte, 
+               wenn ich nicht zu fest überzeugt wäre, daß sie, so wie <emph rend="underlined">ich</emph> sie verstehe die gute Sache 
+               ist, und deshalb einst wieder triumphiren muß, öffentlich das Wort zu reden, und für ein Publikum zu schreiben, 
+               welches mich schon jetzt - was wird es erst in einigen Jahren werden ! - weder belohnen, noch verstehen würde. <pb/>
+            </p>
+            <p>
+               Sie werden mir vielleicht einwenden: Seyn Sie Geschichtschreiber, und kehren Sie Sich an das Uebrige nicht. Aber 
+               erwägen Sie nur selbst, was es heißt, Geschichtschreiber der französischen Revolution zu seyn: wie wäre es wohl 
+               möglich, Begebenheiten, die großentheils im Raisonnement empfangen und gebohren sind, die man aus Raisonnements 
+               hervorsuchen muß, die sich immer um Raisonnement drehen - ohne alles Raisonnement darzustellen !
+            </p>
+         </div>
+         <div n="6" corresp="#vjvm">
+            <p>
+               Und, wenn man denn nun täglich sieht, wie es mit den besten Köpfen um uns her geht ! - Was soll ich von 
+               <rs type="person" ref="#JvM"><emph rend="underlined">Johannes Müller</emph></rs> sagen ! Daß er sich für eine 
+               Revolution in seinem Vaterlande erklärt, ist immer schon auffallend, immer schon paradox genug: Aber - warum denn 
+               solche Briefe schreiben, als der, von welchem Auszüge in allen Deutschen und Französischen Zeitungen prangen, und von 
+               dessen Aechtheit ich nur gar zu überzeugt bin. Ein Mann, wie 
+               <emph rend="underlined"><rs type="person" ref="#JvM">Müller</rs>, drohen</emph> - daß er Philippische Reden schreiben 
+               wollte !! - Ein Mann wie <rs type="person" ref="#JvM"><emph rend="underlined">Müller</emph></rs>, in einem Tone, der 
+               es zweifelhaft läßt, ob man die kindische Albernheit, oder die arrogante Großsprecherei vorzugsweise tadeln soll, der 
+               Welt, wie eine große Entdeckung, erzählen: "<emph rend="underlined">Er</emph> sey 
+               <emph rend="underlined">jetzt</emph> (wahrscheinlich seit dem 4<span rend="sup">ten</span> September ???) 
+               <emph rend="underlined">mit den Franzosen ganz zu frieden</emph>!! - Und das ist einer unsrer Mächtigsten, unsrer 
+               wahrhaft großen Schriftsteller ! <pb/>
+            </p>
+         </div>
+         <div n="7" corresp="#kpos">
+            <p>
+               Und was soll ich von <rs type="person" ref="#Pos"><emph rend="underlined">Posselt</emph></rs> sagen ? - Wer kan 
+               seinen Geist, seine Kenntnisse, seinen eisernen Fleiß, seine Genauigkeit, alle seine unschätzbaren Verdienste höher 
+               anschlagen, als ich ! <rs type="citation" ref="#p3727-2">Seine Zeitung</rs> ist ein Produkt, wie wir in 
+               <rs type="place" ref="#plDe">Deutschland</rs> noch keines hatten, eine Lectüre für Männer, ein wahres Repertorium für 
+               die Geschichte ! Aber - welcher Ton, worin von 
+               <rs type="place" ref="#plFr"><emph rend="underlined">Frankreich</emph></rs> gesprochen wird ! Welcher 
+               <emph rend="underlined">verdoppelte</emph> Schwulst (denn Schwulst ist nun einmal der unglückliche, in dieser 
+               <rs type="citation" ref="#p3727-2">Zeitung</rs> mehr als in seinen andern Schriften hervorstechende Fehler dieses 
+               sonst treflichen Schriftstellers) so oft er von den Thaten und den künftigen Bestimmungen der 
+               <emph rend="underlined">großen Nation</emph> redet !
+            </p>
+         </div>
+         <div n="8" corresp="#ehdl">
+            <p>
+               Welche sichtbare Abneigung gegen <rs type="place" ref="#plEn">England</rs> ! Wie ganz ins Geschrei des Tages 
+               eingestimmt, sobald es auf das <emph rend="underlined">Monopol</emph> des Englischen Handels ankömmt: als wenn die 
+               Wahl zwischen <emph rend="underlined">Monopol</emph> und <emph rend="underlined">Nicht-Monopol</emph>, und nicht 
+               vielmehr (zum Unglück einer verblendeten Welt) zwischen <emph rend="underlined">Monopol</emph>, und 
+               <emph rend="underlined">Zerstörung des Mittelpunktes aller Welt-Industrie</emph> wäre, als wenn das Wort 
+               <emph rend="underlined">Monopol</emph>, von einer <emph rend="underlined">Nation</emph> gebraucht, im höhern 
+               kosmopolitisch-merkantilischen Sinne, nicht eine ganz andre Bedeutung als die <emph rend="underlined">gemeine</emph> 
+               hätte, <pb/> als wenn der wahre Reichthum der Nationen pp - doch, vergeben Sie mir, theurer Freund, daß ich ins 
+               Predigen verfalle. Ich wollte ja hier nicht meine eignen Grundsätze aufstellen, sondern nur ein kurzes Urtheil über 
+               die Aeßerungen eines andern niederlegen.
+            </p>
+         </div>
+         <div n="9" corresp="#kpos">
+            <p>
+               Also nur noch Ein Wort ! Wie kann <rs type="person" ref="#Pos"><emph rend="underlined">Posselt</emph></rs> in seiner 
+               Ehrfurcht vor der <emph rend="underlined">großen Republik</emph> so weit gehen, daß er ihren jetzigen 
+               <emph rend="underlined">unwürdigen</emph> Regenten - Ja ! das sind sie, und die Geschichte wird dereinst schon den 
+               Ton treffen in welchem sie geschildert werden müßen - daß er den 
+               <rs type="person" ref="#Rbl"><emph rend="underlined">Reubell's</emph></rs>, den 
+               <rs type="person" ref="#PdB"><emph rend="underlined">Barras</emph></rs>, den 
+               <rs type="person" ref="#PAM"><emph rend="underlined">Merlin</emph></rs> - - einen Mann wie 
+               <rs type="person" ref="#Pgru"><emph rend="underlined">Pichegru</emph></rs> schlachten konnte ! Wozu die hämische 
+               Enthüllung der <span xml:lang="fr">soi-disanten</span> <emph rend="underlined">neuen Thatsache</emph>, daß 
+               <rs type="person" ref="#Pgru"><emph rend="underlined">Pichegru</emph></rs> 
+               "<emph rend="underlined">wider seinen Willen</emph>" <rs type="place" ref="#plHo">Holland</rs> erobert habe. Also 
+               herrschen wohl über die Revolution vom <date when-iso="1797-09-04">18<span rend="sup">ten</span> Fructidor</date> 
+               noch nicht verkehrte Begriffe genug in der Welt ! Also soll man einem Manne für dessen republikanische Redlichkeit 
+               ich heute mein Leben laße, der das Opfer der verruchtesten Cabale, der schamlosesten Bösewichter wurde, den man mit 
+               der Elite von <rs type="place" ref="#plFr">Frankreich</rs>s besten Köpfen in wilde Regionen schleudert, für den sich 
+               - ein entsetzliches Zeichen der Zeiten worin wir leben - fast kein Mensch mehr interessirt, <pb/> indeß die 
+               <emph rend="underlined">Macht</emph> - und immer nur die <emph rend="underlined">Macht</emph> - der jetzigen 
+               Regierung das Erstaunen, die Bewunderung aller Menschen beschäftigt - einem solchen Mann soll man noch einen 
+               tödtlichen Stoß in der öffentlichen Meinung versetzen, und - anstatt die Begebenheit von der er das Opfer wurde, 
+               näher zu beleuchten - in seinem frühern, mit dieser Begebenheit gar nicht connexen Betragen, umherwühlen, um nur dem 
+               <emph rend="underlined">Directorium</emph> einen neuen Stoff zu leeren Declamationen zu liefern. - Diese einzige Note 
+               hat mich gegen <rs type="person" ref="#Pos"><emph rend="underlined">Posselt</emph></rs> - ich sage es Ihnen im 
+               unverdeckten Ausbruch einer freundschaftlichen Mittheilung - <emph rend="underlined">empört</emph>. Die Weltkunde 
+               bleibt übrigens, was sie ist: ich bin selbst aufgefordert, Beiträge dazu zu geben: und ich halte es für Pflicht eine 
+               Unternehmung zu befördern, die <rs type="place" ref="#plDe">Deutschland</rs> Ehre macht.
+            </p>
+         </div>
+         <div n="10" corresp="#vkab">
+            <p>
+               Nun aber fühle ich, daß ich schließen muß. Sie <emph rend="underlined">wollten</emph> einen langen Brief ! Wenn ich 
+               Sie nur nicht für dieses Verlangen schwer gestraft habe !
+            </p>
+            <p>
+               Meinen herzlichsten Dank für Ihre vielfache Güte und Freundschaft gegen mich, für den Antheil den Sie an meinem 
+               litterärischen guten Rufe nehmen, für die Mittheilung des herrlichen, mir so unendlich-Werthen 
+               <rs type="citation" ref="#c3727-1">Briefes</rs> von <rs type="person" ref="#CMW">Wieland</rs> (den ich als ein 
+               köstliches Geschenk <pb/> von Ihnen annehme) für die Ankündigung der von 
+               <rs type="person" ref="#Mou"><emph rend="underlined">Mounier</emph></rs> intendirten Uebersetzung, und alles was Sie 
+               thaten, um den würdigen Mann bei seinem Vorhaben zu stärken. - Kan ich Ihnen je wesentlich dienen, so gebieten Sie 
+               uneingeschränkt über mich - Daß ich Ihnen die Zeichnung, die <rs type="person" ref="#HGen">mein Bruder</rs> für Sie 
+               ganz besonders entwirft, heute noch nicht schicken kan, darüber müßen Sie <emph rend="underlined">seine</emph> 
+               Trägheit anklagen: aber verloren ist sie keinesweges für Sie !
+            </p>
+         </div>
+         <div n="11" corresp="#vwf">
+            <p>
+               Sie haben doch wohl unstreitig <rs type="person" ref="#FVW"><emph rend="underlined">Vieweg</emph></rs> in 
+               <rs type="place" ref="#plWe">Weimar</rs> gesehen ? Was dünkt Ihnen von seiner Reise nach 
+               <rs type="place" ref="#plPa">Paris</rs> ? - 
+            </p>
+         </div>
+         <div n="12" corresp="#vkab">
+            <p>
+               Sagen Sie mir nur, wie Sie es anfangen, um beständig so reichen Stoff, zu Ihren Uebersichten der fremden Litteratur 
+               zu sammeln. Ich versichre <del rend="stroked">ich</del> Sie, daß ich keine derselben - es wäre zu wenig gesagt, ohne 
+               Belehrung und Ergötzung, sondern - ohne wahre Bewunderung lese. Welch ein vastes Repertorium muß in Ihrem Kopfe 
+               seyn !
+            </p>
+            <p>
+               Ich höre auf, und das in allem Ernste ! schreiben Sie mir bald und viel. Ich kan Ihnen nie stark genug ausdrücken, 
+               mit welcher Wahrheit und Innigkeit ich mich nenne
+            </p>
+         </div>
+         <closer>
+            <salute rend="right">Ihren herzlich ergebnen</salute>
+            <dateline rend="left"><rs type="place" ref="#plBe">Berlin</rs> den <date when-iso="1798-02-01">1<span rend="sup">ten</span> Februar 98</date>.</dateline>
+            <signed rend="right">Gentz.<pb/></signed>
+         </closer>
+         <postscript corresp="#kmou">
+            <p>
+               N.S. Ich hatte diesen Brief schon zugemacht und abgeschickt, als ich den 
+               <rs type="citation" ref="#c3727-2">Brief</rs> des treflichen <rs type="person" ref="#Mou">Mounier</rs> und seine 
+               Uebersetzung <rs type="citation" ref="#p3727-3">meiner Schrift</rs> erhalte. Es ist mir <del rend="stroked">zu</del> 
+               nicht möglich, ihm jetzt noch zu schreiben: aber ich bitte Sie, daß Sie ihn vorläufig meiner innigsten Dankbarkeit 
+               versichern. Sagen Sie mir, wie, wo, und seit wann hat der Mann unsre Sprache so erlernt, daß ihm eine solche Arbeit 
+               möglich wurde ? Lieset er überhaupt deutsche Bücher ? Hat er wohl je meine Bearbeitung seines herrlichen Werkes über 
+               die Revolution, und mein Zusätze zu diesem Werke gelesen ?
+            </p>
+            <p>
+               Was mich aber noch mehr als alles dies interessirt: Geben Sie mir doch einen nähern Aufschluß über eine Stelle in 
+               einem Ihrer Briefe ! Sie sagen 
+               <quote corresp="#KAB">er sey, vielleicht ohne es sich selbst zu gestehen, ein <emph rend="underlined">reiner Republikaner</emph> geworden.</quote> 
+               Was verstehen Sie unter diesem Ausdrucke ? Worauf gründen Sie diese Bemerkung ? Und durch welche seltsame 
+               Revolutionen kan aus einem Manne, der nie aus Fanatismus, sondern aus raisonnirter Ueberzeugung die Monarchie liebte, 
+               zu einer Zeit, wo man den Republiken alles eher, als Liebenswürdigkeit zugestehen kan, ein Republikaner geworden 
+               seyn ?
+            </p>
+         </postscript>
+         <postscript corresp="#lvm">
+            <p>
+               Verzeihen Sie, theuerster Freund, daß ich einen ohnehin langen Brief noch durch diese mir interessante Fragen 
+               verlängerte.
+            </p>
+            <p>
+               Und noch Eins ! Von wem ist die tiefsinnige, lehrreiche, trefliche Rezension der 
+               <rs type="person" ref="#Fic"><emph rend="underlined">Fichte</emph></rs>' schen Schriften in der 
+               <rs type="citation" ref="#e3727-1">Allgemeinen Literatur-Zeitung</rs> ?
+            </p>
+         </postscript>
+         <postscript corresp="#kcjo">
+            <p>
+               <rs type="person" ref="#KGvB">Brinkmann</rs> wird Ihnen die 
+               <rs type="citation" ref="#a3727-1">höchst interessante Schrift</rs> von 
+               <rs type="person" ref="#CJo"><emph rend="underlined">Camille Jordan</emph></rs> zustellen. Geben Sie doch das 
+               Exemplar in meinem Nahmen an <rs type="person" ref="#Mou">Mounier</rs>, wenn er sie noch nicht kannte.
+            </p>
+         </postscript>
+      </body>
+      <note resp="#edAG" xml:id="r3727-1">Vgl. die Sinnabschnittskategorie "Bibliothek"</note>
+   </text>
+</TEI>

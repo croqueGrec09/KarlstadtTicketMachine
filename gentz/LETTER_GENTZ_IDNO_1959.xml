@@ -1,0 +1,255 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc xml:id="LETTER_GENTZ_1959">
+         <titleStmt>
+            <title>Friedrich von Gentz an William Wyndham Lord Grenville, 11. November 1802</title>
+            <editor xml:id="edAG">Andreas Gálffy</editor>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <name>Forschungsstelle "Universitätssammlung Friedrich von Gentz"</name>
+               <link target="http://gentz-digital.ub.uni-koeln.de http://www.ub.uni-koeln.de/cdm/singleitem/collection/gentz/id/1958/"/>
+            </publisher>
+            <pubPlace>Cologne</pubPlace>
+            <idno type="Gentz-Edition-Number" n="1959"/>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <country>United Kingdom</country>
+                  <settlement>London</settlement>
+                  <institution>British Library</institution>
+                  <repository>Manuscript Department</repository>
+                  <collection>Windham Papers, Add. 37869</collection>
+               </msIdentifier>
+               <msContents>
+                  <summary>
+                     Eine Lobeshymne zu Lord Grenville. Gentz beschreibt England als eine der letzten Orte des Widerstandes gegen 
+                     Napoleon und Lord Grenville als mehr als würdigen Nachfolger für den verstorbenen Burke. Er bringt den  
+                     Vergleich mit dem alten Rom. Lord Grenville sei eines der einzigen noch verbliebenen Aufgeklärten in einem 
+                     Jahrhundert, das noch mehr Verderben bringen wird, als Tiberius oder Nero. Gentz lobt weiter seine Reden und 
+                     wünscht sich, inmitten von Ehrbekundungen, zumindest eine Viertelstunde des Austausches und des Gespräches.
+                  </summary>
+               </msContents>
+            </msDesc>
+            <listBibl type="preprints">
+               <biblStruct>
+                  <monogr>
+                     <author>
+                        <persName>
+                           <ref />
+                           <forename>Alexander von</forename>
+                           <surname>Haase</surname>
+                        </persName>
+                     </author>
+                     <title>Friedrich (von) Gentz: Von dem politischen Zustande von Europa vor und nach der Französischen Revolution (1801) (Analyse und Interpretation), phil. Diss.</title>
+                     <imprint>
+                        <pubPlace>Erlangen-Nürnberg</pubPlace>
+                        <date>1968</date>
+                     </imprint>
+                     <biblScope unit="page" from="128" to="130">
+                        S. 128-130 (mit zahlreichen Fehlern und Lücken).
+                     </biblScope>
+                  </monogr>
+               </biblStruct>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Masterarbeit zu Matrikelnummer 5584124</p>
+         </projectDesc>
+      </encodingDesc>
+      <profileDesc>
+         <creation>
+            <date when-iso="1802-11-11">11. November 1802</date>
+         </creation>
+        <langUsage>
+           <language ident="f">französisch</language>
+        </langUsage>
+         <textClass>
+            <keywords scheme="internal"><!-- internal: innerhalb des besagten Briefs -->
+               <term>Brief</term>
+               <term>Grenville</term>
+               <term>Dankschreiben</term>
+               <term>Finanzen</term>
+            </keywords>
+            <keywords scheme="categorisation"><!-- Sinnabschnittseinteilung - relevant für den Fahrkartenautomaten! -->
+               <term xml:id="keng">England</term>
+               <term xml:id="vwwg">Verhältnis William Wyndham Lord Grenville</term>
+            </keywords>
+         </textClass>
+         <textDesc>
+            <channel>manuscript</channel>
+            <constitution type="single"/>
+            <derivation type="original"/>
+            <domain type="private"/>
+            <factuality type="fact"/>
+            <interaction type="partial"/>
+            <preparedness type="prepared"/>
+            <purpose type="inform"/>
+         </textDesc>
+         <particDesc>
+            <listPerson>
+               <!-- Sender und Adressat -->
+               <person role="sender" xml:id="Gen">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/118538489"/>
+                     <forename>Friedrich von</forename>
+                     <surname>Gentz</surname>
+                  </persName>
+               </person>
+               <person role="receiver" xml:id="WWG">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/119098903"/>
+                     <forename>William Wyndham</forename>
+                     <surname>Grenville</surname>
+                  </persName>
+               </person>
+               <!-- erwähnte Personen -->
+               <person role="named" xml:id="WWi">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/135866219"/>
+                     <forename>William</forename>
+                     <surname>Windham</surname>
+                  </persName>
+               </person>
+               <person role="named" xml:id="Bur">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/118517708"/>
+                     <forename>Edmund</forename>
+                     <surname>Burke</surname>
+                  </persName>
+               </person>
+               <person role="named" xml:id="Tib">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/118622501"/>
+                     <forename>Tiberius</forename>
+                     <surname/>
+                     <roleName type="office">Kaiser des Römischen Reiches</roleName>
+                  </persName>
+               </person>
+               <person role="named" xml:id="Nero">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/118586998"/>
+                     <forename>Nero</forename>
+                     <surname/>
+                     <roleName type="office">Kaiser des Römischen Reiches</roleName>
+                  </persName>
+               </person>
+            </listPerson>
+         </particDesc>
+         <settingDesc>
+            <listPlace>
+               <!-- Start- und Zielort -->
+               <place type="sender" xml:id="plLo">
+                  <country>
+                     <ref target="http://d-nb.info/gnd/4022153-2"/>
+                     <placeName>Vereinigtes Königreich</placeName>                
+                  </country>
+                  <settlement>
+                     <ref target="http://d-nb.info/gnd/4074335-4"/>
+                     <placeName>London</placeName>
+                  </settlement>
+               </place>
+               <!-- erwähnte Orte -->
+               <place type="named" xml:id="plEu">
+                  <geogName type="continent">
+                     <ref target="http://d-nb.info/gnd/4015701-5"/>
+                     <placeName>Europa</placeName>
+                  </geogName>
+               </place>
+               <place type="named" xml:id="plEn">
+                  <country>
+                     <ref target="http://d-nb.info/gnd/4022153-2"/>
+                     <placeName>England</placeName>
+                  </country>
+               </place>
+               <place type="named" xml:id="plFr">
+                  <country>
+                     <ref target="http://d-nb.info/gnd/4018145-5" />
+                     <placeName>Frankreich</placeName>
+                  </country>
+               </place>
+            </listPlace>
+         </settingDesc>
+      </profileDesc>
+      <revisionDesc>
+         <change xml:id="init" when-iso="2018-03-11" who="#edAG">Erstauszeichnung und Normierung des Dokumentes im Rahmen der Masterarbeit der Matrikelnummer 5584124</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <opener>
+            <dateline rend="right"><rs type="place" ref="#plLo">Londres</rs>. ce <date when-iso="1802-11-11">11 Novembre 1802</date></dateline>
+            <salute rend="left">Monsieur !</salute>
+         </opener>
+         <div n="1" corresp="#keng">
+            <p>
+               Une heureuse étoile m'a conduit a la fin dans ce pays qui a été depuis longtems pour moi le dernier terme de tout ce 
+               que l'art social a pu produire parmi les hommes, et le dernier espoir qui reste à l'humanité dans ce déluge de maux 
+               que la <rs type="place" ref="#plFr">France</rs> a vomi et continue de vomir sur 
+               l'<rs type="place" ref="#plEu">Europe</rs>. Pardonnez, Monsieur, pardonnez au mouvement - peut-être indiscret - mais 
+               absolument invincible qui m'entraine vers Vous dans ce moment. L'admiration d'un foible individu, comme moi, ne 
+               sauroit que foiblement intéresser un homme qui doit être accoutumé aux hommages de ce qu'il y a de plus grand dans sa 
+               nation, et qui doit sentir, quelle place il occupera un jour dans l'histoire de nos tems désastreux.
+            </p>
+         </div>
+         <div n="2" corresp="#vwwg">
+            <p>
+               Ce n'est pas, Monsieur, pour Vous ennuyer par mes très-inutiles éloges, c'est pour me soulager moi-même que j'ose 
+               Vous adresser ces lignes. Depuis la mort de <rs type="person" ref="#Bur">Monsieur Burke</rs>, cet homme unique dont 
+               les immortelles leçons m'ont sauvé du naufrage dans lequel l'immense majorité des meilleurs esprits du continent est 
+               allé se perdre, je n'ai connu que <rs type="person" ref="#WWi">Monsieur Windham</rs> qui ait pu devenir l'objet du 
+               culte que je rendois dans mon <pb/> coeur au défenseur de la raison, de la justice, et de l'ordre public, et qui je 
+               ne cesserai jamais de rendre a sa mémoire. Mais c'est surtout depuis le 
+               <date when-iso="1802-10-01">1 Octobre 1802</date>, depuis cette époque à jamais déplorable dans les fastes du genre 
+               humain, que j'ai vu dans le successeur de <rs type="person" ref="#Bur">Monsieur Burke</rs>, si non le seul du moins 
+               un des derniers hommes d'état au milieu d'un aveuglement général, si non le seul du moins un des derniers amis 
+               éclairés de sa patrie dans ce débordement d'égoisme et de petitesse, enfin - le dernier des Romains dans un siècle 
+               qui nous prépare de tout-autres calamités que celles des <rs type="person" ref="#Tib">Tibères</rs> et des 
+               <rs type="person" ref="#Nero">Nérons</rs>. Je ne me suis pas seulement instruit dans Vos discours; j'ai fait bien 
+               plus que cela: je m'y suis nourri, échauffé, ranimé, pénétré de courage et d'ardeur, lorsque tout ce qui m'entouroit 
+               n'a conspiré qu'à etouffer dans mon ame les derniers germes de la résistance que j'avois quelquefois opposé aux 
+               principes atroces des oppresseurs de l'<rs type="place" ref="#plEu">Europe</rs> et à la lâche doctrine de leurs 
+               esclaves. Permettez-donc, Monsieur, que je Vous exprime une foible partie de ma profonde reconnoissance; permettez 
+               <pb/> que je me livre un instant au délicieux sentiment qui m'anime depuis que je puis me dire, que du moins la mer 
+               ne me sépare plus de Vous et que je respire l'air du pays, qui Vous possède et qui - livrons-nous encore à cette 
+               douce espérance - ne sera pas indigne de Vous posséder.
+            </p>
+            <p>
+               Après m'être avancé aussi loin, je ne suis plus assez fort pour me retenir à moitié chemin. Permettez moi de faire un 
+               pas de plus, et de Vous demander, lorsque Vous serez de retour en ville, un seul quart-d'heure de conversation. Je 
+               sais que nous approchons d'un moment très grave, peut-être très-décisif, que l'ouverture du parlement Vous présentera 
+               une foule d'objets qui absorberont Votre tems et Votre attention, et certes je ne voudrois pas me rendre coupable 
+               d'une indiscrétion, qui priveroit l'<rs type="place" ref="#plEn">angleterre</rs> et 
+               l'<rs type="place" ref="#plEu">Europe</rs> de la plus petite partie des droits qu'ils ont acquis sur un homme qui 
+               n'appartient plus aux individus: mais, quoiqu'il en soit, je ne puis pas quitter 
+               l'<rs type="place" ref="#plEn">Angleterre</rs> sans avoir joui du bonheur que je Vous demande; et comme la durée de 
+               mon séjour est très-incertaine, que très-probablement et très-malheureusement il ne pourra pas même se prolonger au 
+               delà d'un mois, j'ai cru ne pouvoir trop me hâter à Vous présenter le voeu que je viens d'exprimer. <pb/>
+            </p>
+            <p>
+               J'attendrai Vos ordres Monsieur, avec une impatience égale à la force des sentimens qui m'ont dicté ces lignes, 
+               égale, si rien au monde pouvoit l'égaler, à l'admiration respectueuse, profonde, et inaltérable, avec laquelle j'ai 
+               l'honneur d'être,
+            </p>
+         </div>
+         <closer>
+            <salute rend="right">Monsieur !</salute>
+            <salute rend="right">Votre très-humble très</salute>
+            <salute rend="right">obéissant serviteur</salute>
+            <signed rend="right">Gentz</signed>
+         </closer>
+         <postscript corresp="#vwwg">
+            <p>
+               New Bondstreet. Nro. 129.
+            </p>
+         </postscript>
+      </body>
+   </text>
+</TEI>

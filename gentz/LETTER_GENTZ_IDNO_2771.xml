@@ -1,0 +1,220 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc xml:id="LETTER_GENTZ_2771">
+         <titleStmt>
+            <title>Friedrich von Gentz an Karl Gustav von Brinckmann, 11. Januar 1802</title>
+            <editor xml:id="edAG">Andreas Gálffy</editor>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <name>Forschungsstelle "Universitätssammlung Friedrich von Gentz"</name>
+               <link target="http://gentz-digital.ub.uni-koeln.de http://www.ub.uni-koeln.de/cdm/singleitem/collection/gentz/id/2770/"/>
+            </publisher>
+            <pubPlace>Cologne</pubPlace>
+            <idno type="Gentz-Edition-Number" n="2771"/>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <country>Sweden</country>
+                  <settlement>Trolle-Ljungby</settlement>
+                  <institution>Archiv des Grafen Wachtmeister</institution>
+                  <repository>Nachlaß Brinckmann, Ausländ. Briefwechsel, Gentz an von Brinckmann</repository>
+                  <idno>G 4</idno>
+               </msIdentifier>
+               <msContents>
+                  <summary>
+                     Ein grobes Billet veranlasst Gentz dazu, sich in diesem Antwortbillet zu rechtfertigen; er hat ein Treffen 
+                     versäumt, weil ein Essen bei Levi bis 3:30 in der Nach dauerte. Das Verhältnis hat eine Trübung erfahren und 
+                     zusammen mit den letzten Teilen des Werkes von Meister bittet Gentz generell um Frieden.
+                  </summary>
+               </msContents>
+            </msDesc>
+            <listBibl type="preprints">
+               <biblStruct>
+                  <monogr>
+                     <editor>
+                        <persName>
+                           <ref target="http://d-nb.info/gnd/130953075"/>
+                           <forename>Friedrich Carl</forename>
+                           <surname>Wittichen</surname>
+                        </persName>
+                        <persName>
+                           <ref /> <!-- kein GND-Eintrag -->
+                           <forename>Ernst</forename>
+                           <surname>Salzer</surname>
+                        </persName>
+                     </editor>
+                     <title>Briefe von und an Friedrich von Gentz, 4 Bde.</title>
+                     <imprint>
+                        <publisher>Oldenbourg</publisher>
+                        <pubPlace>München, Berlin</pubPlace>
+                        <date>1909-1913</date>
+                     </imprint>
+                     <biblScope unit="volume" n="2">
+                        II
+                     </biblScope>
+                     <biblScope unit="page" from="85" to="85">
+                        Nr. 100
+                     </biblScope>
+                  </monogr>
+               </biblStruct>
+            </listBibl>
+            <listBibl type="defExpr">
+               <biblStruct xml:id="e2771-1" corresp="Gtb-0003">
+                  <monogr>
+                     <author>
+                        <persName>
+                           <ref target="https://d-nb.info/gnd/118540238"/>
+                           <forename>Johann Wolfgang von</forename>
+                           <surname>Goethe</surname>
+                        </persName>
+                     </author>
+                     <title>Wilhelm Meisters Lehrjahre</title>
+                     <imprint>
+                        <pubPlace>Berlin</pubPlace>
+                        <publisher>Johann Friedrich Unger</publisher>
+                        <date>1795/96</date>
+                     </imprint>
+                  </monogr>
+                  <ptr target="http://gutenberg.spiegel.de/buch/wilhelm-meisters-lehrjahre-3669/1"/>
+               </biblStruct>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Masterarbeit zu Matrikelnummer 5584124</p>
+         </projectDesc>
+      </encodingDesc>
+      <profileDesc>
+         <creation>
+            <date when-iso="1802-01-11">11. Januar 1802</date>
+         </creation>
+        <langUsage>
+           <language ident="d">deutsch</language>
+        </langUsage>
+         <textClass>
+            <keywords scheme="internal"><!-- internal: innerhalb des besagten Briefs -->
+               <term>Billet</term>
+               <term>Treffen</term>
+               <term>Meister</term>
+               <term>Frieden</term>
+            </keywords>
+            <keywords scheme="categorisation"><!-- Sinnabschnittseinteilung - relevant für den Fahrkartenautomaten! -->
+               <term xml:id="vkgvb">Verhältnis Karl Gustav von Brinckmann</term>
+               <term xml:id="kschl">Schlegel</term>
+               <term xml:id="mstr">Meister</term>
+            </keywords>
+         </textClass>
+         <textDesc>
+            <channel>manuscript</channel>
+            <constitution type="single"/>
+            <derivation type="original"/>
+            <domain type="private"/>
+            <factuality type="fact"/>
+            <interaction type="partial"/>
+            <preparedness type="unprepared"/>
+            <purpose type="inform"/>
+         </textDesc>
+         <particDesc>
+            <listPerson>
+               <!-- Sender und Adressat -->
+               <person role="sender" xml:id="Gen">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/118538489"/>
+                     <forename>Friedrich von</forename>
+                     <surname>Gentz</surname>
+                  </persName>
+               </person>
+               <person role="receiver" xml:id="KGvB">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/116519770"/>
+                     <forename>Carl Gustav von</forename>
+                     <surname>Brinckmann</surname>
+                  </persName>
+               </person>
+               <!-- erwähnte Personen -->
+               <person role="named" xml:id="RVh">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/118626175"/>
+                     <forename>Rahel</forename>
+                     <surname>Varnhagen</surname>
+                  </persName>
+               </person>
+               <person role="named" xml:id="AFP">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/117505471"/>
+                     <forename>August Ferdinand</forename>
+                     <surname/>
+                     <roleName type="office">Prinz</roleName>
+                  </persName>
+               </person>
+               <person role="named" xml:id="FSchl">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/118607987" />
+                     <forename>Friedrich von</forename>
+                     <surname>Schlegel</surname>
+                  </persName>
+               </person>
+            </listPerson>
+         </particDesc>
+         <settingDesc>
+            <listPlace>
+               <!-- Start- und Zielort -->
+               <place type="sender" xml:id="plBe">
+                  <country>
+                     <ref target="http://d-nb.info/gnd/4047194-9"/>
+                     <placeName>Preußen</placeName>
+                  </country>
+                  <settlement>
+                     <ref target="http://d-nb.info/gnd/4005728-8"/>
+                     <placeName>Berlin</placeName>
+                  </settlement>
+               </place>
+               <!-- erwähnte Orte -->
+            </listPlace>
+         </settingDesc>
+      </profileDesc>
+      <revisionDesc>
+         <change xml:id="init" when-iso="2018-03-10" who="#edAG">Erstauszeichnung und Normierung des Dokumentes im Rahmen der Masterarbeit der Matrikelnummer 5584124</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div n="1" corresp="#vkgvb">
+            <p>
+               Ich versichre Ihnen, liebster Freund, daß ich eine solche Epistel nicht verdiente. Denn in meinem Ausbleiben war 
+               weder Grobheit, noch böser Wille. Das Souper bei der kleinen <rs type="person" ref="#RVh">Levi</rs> - sie macht sich 
+               übrigens die tödtlichsten Vorwürfe daß sie Sie dazu einzuladen vergaß - dauerte bis 3 ½ Uhr Morgens. Ich stand also 
+               gestern erst gegen 10 Uhr auf.
+            </p>
+         </div>
+         <div n="2" corresp="#kschl">
+            <p>
+               Unmittelbar nachher schickte <rs type="person" ref="#AFP">Prinz August</rs> zu mir, und ließ mich bitten, mit ihm um 
+               12 Uhr zu <rs type="person" ref="#FSchl">Schlegel</rs> zu gehen. Ich kan nicht leugnen daß ich selbst große Lust 
+               hatte, diese Stunde nicht zu versäumen; und ich wünsche mir jetzt Glück, daß ich sie nicht versäumt habe. Aber ich 
+               <emph rend="underlined">hätte</emph> sie dem Dejeuner aufgeopfert, wenn jene Aufforderung nicht an mich ergangen 
+               wäre. Beides zu combiniren war unmöglich; es blieb also nichts übrig, als einer Einladung zu entsagen, die ich unter 
+               jeden andern Umständen, gewiß nicht vernachläßigt haben würde. <pb/>
+            </p>
+         </div>
+         <div n="3" corresp="#mstr">
+            <p>
+               Bei dieser Lage der Sache werden Sie doch hoffentlich nicht länger säumen, und die beiden letzten Theile des 
+               <rs type="citation" ref="#e2771-1">Wilhelm Meister</rs> zu schicken, auch sonst wieder Friede und Freundschaft mit 
+               mir zu schließen ?
+            </p>
+         </div>
+         <closer>
+            <signed rend="right">Gentz.</signed>
+            <dateline rend="right">den <date when-iso="1802-01-11">11 Januar 1802</date>.</dateline>
+         </closer>
+      </body>
+   </text>
+</TEI>

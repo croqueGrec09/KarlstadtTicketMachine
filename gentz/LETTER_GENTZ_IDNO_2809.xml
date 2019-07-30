@@ -1,0 +1,273 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc xml:id="LETTER_GENTZ_2809">
+         <titleStmt>
+            <title>Friedrich von Gentz an Bernhard von Pelser, 28. Dezember 1802</title>
+            <editor xml:id="edAG">Andreas Gálffy</editor>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <name>Forschungsstelle "Universitätssammlung Friedrich von Gentz"</name>
+               <link target="http://gentz-digital.ub.uni-koeln.de http://www.ub.uni-koeln.de/cdm/singleitem/collection/gentz/id/2808/"/>
+            </publisher>
+            <pubPlace>Cologne</pubPlace>
+            <idno type="Gentz-Edition-Number" n="2809"/>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <country>Austria</country>
+                  <settlement>Vienna</settlement>
+                  <institution>Wiener Stadt- und Landesbibliothek</institution>
+                  <repository>Handschriftensammlung</repository>
+                  <idno>6579</idno>
+               </msIdentifier>
+               <msContents>
+                  <summary>
+                     Der Fluch von Pelsers habe Gentz getroffen, als dieser nach vier Tagen endlich so günstige Winde bekommen hat, 
+                     dass er nach Calais übersetzen konnte. Er ist seekrank geworden. Glücklicherweise haben ihm die Franzosen keine 
+                     Schwierigkeiten bereitet und er hofft, Pelser aus Brüssel demnächst zu schreiben.
+                  </summary>
+               </msContents>
+            </msDesc>
+            <listBibl type="letterReferenced">
+               <bibl xml:id="c2809-1" corresp="#LETTER_GENTZ_2949">Friedrich von Gentz an Bernard von Pelser, 26. Dezember 1802</bibl>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Masterarbeit zu Matrikelnummer 5584124</p>
+         </projectDesc>
+      </encodingDesc>
+      <profileDesc>
+         <creation>
+            <date when-iso="1802-12-28">28. Dezember 1802</date>
+         </creation>
+        <langUsage>
+           <language ident="f">französisch</language>
+        </langUsage>
+         <textClass>
+            <keywords scheme="internal"><!-- internal: innerhalb des besagten Briefs -->
+               <term>Brief</term>
+               <term>Reise</term>
+               <term>Calais</term>
+               <term>Abfahrt</term>
+               <term>Schwierigkeiten</term>
+            </keywords>
+            <keywords scheme="categorisation"><!-- Sinnabschnittseinteilung - relevant für den Fahrkartenautomaten! -->
+               <term xml:id="rs">Reise von 1802</term>
+               <term xml:id="vbvp">Verhältnis Bernard von Pelser</term>
+            </keywords>
+         </textClass>
+         <textDesc>
+            <channel>manuscript</channel>
+            <constitution type="single"/>
+            <derivation type="original"/>
+            <domain type="private"/>
+            <factuality type="fact"/>
+            <interaction type="partial"/>
+            <preparedness type="prepared"/>
+            <purpose type="inform"/>
+         </textDesc>
+         <particDesc>
+            <listPerson>
+               <!-- Sender und Adressat -->
+               <person role="sender" xml:id="Gen">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/118538489"/>
+                     <forename>Friedrich von</forename>
+                     <surname>Gentz</surname>
+                  </persName>
+               </person>
+               <person role="receiver" xml:id="BvPl">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/1024855864"/>
+                     <forename>Bernhard von</forename>
+                     <surname>Pelser</surname>
+                  </persName>
+               </person>
+               <!-- erwähnte Personen -->
+               <person role="named" xml:id="Cbt">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/118669591"/>
+                     <forename>William</forename>
+                     <surname>Cobbett</surname>
+                  </persName>
+               </person>
+               <person role="named" xml:id="Andr">
+                  <persName>
+                     <ref />
+                     <forename/>
+                     <surname>Andréossi</surname>
+                  </persName>
+               </person>
+               <person role="named" xml:id="BRgf">
+                  <persName>
+                     <ref />
+                     <forename>von</forename>
+                     <surname>Reigersfeld</surname>
+                     <roleName type="office">Baron</roleName>
+                  </persName>
+               </person>
+               <person role="named" xml:id="LvSt">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/117216542"/>
+                     <forename>Ludwig von</forename>
+                     <surname>Starhemberg</surname>
+                  </persName>
+               </person>
+            </listPerson>
+         </particDesc>
+         <settingDesc>
+            <listPlace>
+               <!-- Start- und Zielort -->
+               <place type="sender" xml:id="plCl">
+                  <country>
+                     <ref target="http://d-nb.info/gnd/4018145-5" />
+                     <placeName>Frankreich</placeName>
+                  </country>
+                  <settlement>
+                     <ref target="http://d-nb.info/gnd/4229218-9" />
+                     <placeName>Calais</placeName>
+                  </settlement>
+               </place>
+               <place type="receiver" xml:id="plLo">
+                  <country>
+                     <ref target="http://d-nb.info/gnd/4022153-2"/>
+                     <placeName>Vereinigtes Königreich</placeName>                
+                  </country>
+                  <settlement>
+                     <ref target="http://d-nb.info/gnd/4074335-4"/>
+                     <placeName>London</placeName>
+                  </settlement>
+               </place>
+               <!-- erwähnte Orte -->
+               <place type="named" xml:id="plDv">
+                  <country>
+                     <ref target="http://d-nb.info/gnd/4022153-2"/>
+                     <placeName>Vereinigtes Königreich</placeName>                
+                  </country>
+                  <settlement>
+                     <ref target="http://d-nb.info/gnd/4085482-6"/>
+                     <placeName>Dover</placeName>
+                  </settlement>
+               </place>
+               <place type="named" xml:id="plEn">
+                  <country>
+                     <ref target="http://d-nb.info/gnd/4022153-2"/>
+                     <placeName>England</placeName>
+                  </country>
+               </place>
+               <place type="named" xml:id="plBrs">
+                  <country>
+                     <ref target="http://d-nb.info/gnd/4018145-5" />
+                     <placeName>Frankreich</placeName>
+                  </country>
+                  <settlement>
+                     <ref target="http://d-nb.info/gnd/4008460-7" />
+                     <placeName>Brüssel</placeName>
+                  </settlement>
+               </place>
+               <place type="named" xml:id="plSto">
+                  <country>
+                     <ref target="http://d-nb.info/gnd/4018145-5" />
+                     <placeName>Frankreich</placeName>
+                  </country>
+                  <settlement>
+                     <ref target="http://d-nb.info/gnd/4118261-3" />
+                     <placeName>St. Omer</placeName>
+                  </settlement>
+               </place>
+               <place type="named" xml:id="plFfm">
+                  <country>
+                     <ref target="http://d-nb.info/gnd/4018118-2"/>
+                     <placeName>Frankfurt</placeName>
+                  </country>
+                  <settlement>
+                     <ref target="http://d-nb.info/gnd/4018118-2"/>
+                     <placeName>Frankfurt</placeName>
+                  </settlement>
+               </place>
+            </listPlace>
+         </settingDesc>
+      </profileDesc>
+      <revisionDesc>
+         <change xml:id="init" when-iso="2018-03-11" who="#edAG">Erstauszeichnung und Normierung des Dokumentes im Rahmen der Masterarbeit der Matrikelnummer 5584124</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <opener>
+            <dateline rend="right"><rs type="place" ref="#plCl">Calais</rs>. <date when-iso="1802-12-28">28 Decembre. 1802</date>.</dateline>
+         </opener>
+         <div n="1" corresp="#rs">
+            <p>
+               Je n'en ai plus aucune doute, mon cher Pelser; c'est Votre courroux, ce sont les voeux perfides que Vous avez 
+               adressées aux puissances de l'Enfer, qui m'ont persécuté. <emph rend="underlined">Quatre jours</emph> perdus, pour 
+               arriver de <rs type="place" ref="#plDv">Dovres</rs> à <rs type="place" ref="#plCl">Calais</rs>. Et perdus de quelle 
+               manière. Je Vous ai <rs type="citation" ref="#c2809-1">écrit</rs> <date when-iso="1802-12-26">Dimanche matin</date>. 
+               J'avois agrèablement passé la journée de <date when-iso="1802-12-25">Samedi</date>. 
+               <date when-iso="1802-12-26">Dimanche</date> je fus invité avec les Payne chez les banquiers ministeriels (vous les 
+               connoissez par <rs type="person" ref="#Cbt">Cobbet</rs>) <emph rend="underlined">Fector</emph>; là je me suis déjà 
+               mortellement ennuyé; en retournant chez moi le soir, le <del rend="stroked">xxx</del> vent étoit tout aussi fatal 
+               qu'il l'avoit été depuis trois jours. Nous ne partimes donc point à 2 heures après minuit. Mais 
+               <date when-iso="1802-12-27">hier (Lundi) matin</date> on vint m'avertir que les Capitaine trouvoit le vent assez bon 
+               pour partir entre 9 et 10. Quoique voyant le contraire de mes ieux, et bien persuadé que le vent n'avoit pas changé 
+               d'un quart de dégré, je m'abandonnai aveuglement à la décision du Capitaine. J'entrai sur les 9 heures nous partimes 
+               à 10, et nous arrivames à <rs type="place" ref="#plCl">Calais</rs> - - - - à 2 heures, je dis 
+               <emph rend="underlined">Deux Heures après minuit</emph>. Voilà donc Seize bonnes heures que j'ai passées en mer, 
+               <pb/> malade comme un chien, couché sur un de ces tristes grabats sans pouvoir le quitter une minute, et me disant 
+               quelquefois - lorsque l'excès du mal me porta jusques aux <emph rend="underlined">blasphêmes</emph> - que le sejour 
+               de <rs type="place" ref="#plEn">l'Angleterre</rs> étoit presque <del rend="stroked">xxx</del> payé trop cher au prix 
+               ce ces souffrances. - Enfin nous arrivames; je pris un bon repas à <rs type="place" ref="#plCl">Calais</rs> et je me 
+               <del rend="stroked">xxx</del> couchai à 3 heures du matin, non pas sans inquiétude sur ce que le lendemain ameneroit 
+               de nouveaux désagrémens.
+            </p>
+            <p>
+               Mais les François cette fois-ci ont été moins cruels envers moi que les élémens. Moyennant quelques pièces d'argent 
+               toutes mes malles avec l'immense variété d'objets qu'elles contiennent ont heureusement passées; et j'espère que les 
+               passeports (quoique <emph rend="underlined">non-visés</emph> par 
+               <rs type="person" ref="#Andr"><emph rend="underlined">Andréossi</emph></rs>, faute très-grave de ma part, et de celle 
+               de mes protecteurs et amis, et <rs type="place" ref="#plLo">Londres</rs> qui auroient du me rappeller cette 
+               circonstance essentielle; surtout <rs type="person" ref="#BRgf">le Baron de Reigersfeld</rs>) ne trouveront pas de 
+               difficultés non plus.
+            </p>
+            <p>
+               Si tout va bien je compte partir à 2 heures d'ici pour arriver encore à <rs type="place" ref="#plSto">St. Omer</rs> 
+               ce soir. Vous aurez de mes nouvelles de <rs type="place" ref="#plBrs">Bruxelles</rs>.
+            </p>
+         </div>
+         <div n="2" corresp="#vbvp">
+            <p>
+               Je Vous <pb/> prie de présenter mes respects à toute la maison du 
+               <rs type="person" ref="#LvSt">Comte Stahremberg</rs>; et je Vous réitère la prière que Vous aurez déjà trouvée dans 
+               <rs type="citation" ref="#c2809-1">ma lettre</rs> de <rs type="place" ref="#plDv">Dovres</rs> - de m'écrire à 
+               <rs type="citation" ref="#plFfm">Francfort</rs>.
+            </p>
+            <p>
+               Adieu ! <del rend="stroked">Pensez</del> J'espère que toutes mes souffrances auront un peu adouci Votre coeur, et que 
+               Votre lettre à <emph rend="underlined">Monsieur Editor</emph>, traitera pauvre Professor Gentz un peu moins durement 
+               que Vous aviez intention de le faire. Pensez quelquefois à celui qui sera toujours
+            </p>
+         </div>
+         <closer>
+            <salute rend="right">Tout à Vous</salute>
+            <signed rend="right">G.</signed>
+         </closer>
+      </body>
+      <back>
+         <p>
+            Mr. de Pelser
+            Eduard Street. Cavendist sq.
+            Corrier of Ridinghouselane
+            <rs type="place" ref="#plLo"><emph rend="underlined">London</emph></rs>
+         </p>
+      </back>
+      <note xml:id="r2809-1">Seite 4: Adresse, Siegelrest, zwei Stempel</note>
+   </text>
+</TEI>

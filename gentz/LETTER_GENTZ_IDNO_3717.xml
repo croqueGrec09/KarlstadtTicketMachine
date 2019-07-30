@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader type="text">
+      <fileDesc xml:id="LETTER_GENTZ_3717">
+         <titleStmt>
+            <title>Friedrich von Gentz an Friedrich Vieweg, 12. März 1796</title>
+            <editor xml:id="edAG">Andreas Gálffy</editor>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <name>Forschungsstelle "Universitätssammlung Friedrich von Gentz"</name>
+               <link target="http://gentz-digital.ub.uni-koeln.de http://www.ub.uni-koeln.de/cdm/singleitem/collection/gentz/id/3716/"/>
+            </publisher>
+            <pubPlace>Cologne</pubPlace>
+            <idno type="Gentz-Edition-Number" n="3717"/>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <country>Germany</country>
+                  <settlement>Wiesbaden</settlement>
+                  <institution>Vieweg-Verlagsarchiv</institution>
+                  <repository>Briefsammlung 311 G, Gentz-Briefe</repository>
+                  <idno>Nr. 29</idno>
+               </msIdentifier>
+               <msContents>
+                  <summary>
+                     Das Verhältnis zwischen den beiden ist belastet. Gentz erklärt, warum er Vieweg um ein Darlehen von 300 
+                     Reichstalern bat und versichert ihm, dass er es zuverlässig wiederbekommen wird. Er schreibt, dass er durch die 
+                     Unzufriedenheit Viewegs leide und dass er hofft, durch künftige Bemühungen die alten Verhältnisse 
+                     wiederherzustellen.
+                  </summary>
+               </msContents>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Masterarbeit zu Matrikelnummer 5584124</p>
+         </projectDesc>
+      </encodingDesc>
+      <profileDesc>
+         <creation>
+            <date when-iso="1796-03-12">12. März 1796</date>
+         </creation>
+        <langUsage>
+           <language ident="d">deutsch</language>
+        </langUsage>
+         <textClass>
+            <keywords scheme="internal"><!-- internal: innerhalb des besagten Briefs -->
+               <term>Brief</term>
+               <term>Schulden</term>
+               <term>Verhältnis</term>
+            </keywords>
+            <keywords scheme="categorisation"><!-- Sinnabschnittseinteilung - relevant für den Fahrkartenautomaten! -->
+               <term xml:id="gprl">Gentz - p(r)ekuniäre Lage</term>
+               <term xml:id="vwf">Vieweg - Freundschaft</term>
+            </keywords>
+         </textClass>
+         <textDesc>
+            <channel>manuscript</channel>
+            <constitution type="single"/>
+            <derivation type="original"/>
+            <domain type="private"/>
+            <factuality type="fact"/>
+            <interaction type="partial"/>
+            <preparedness type="prepared"/>
+            <purpose type="inform"/>
+         </textDesc>
+         <particDesc>
+            <listPerson>
+               <!-- Sender und Adressat -->
+               <person role="sender" xml:id="Gen">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/118538489"/>
+                     <forename>Friedrich von</forename>
+                     <surname>Gentz</surname>
+                  </persName>
+               </person>
+               <person role="receiver" xml:id="FVW">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/119049546"/>
+                     <forename>Friedrich</forename>
+                     <surname>Vieweg</surname>
+                  </persName>
+               </person>
+               <!-- erwähnte Personen -->
+               <person role="named" xml:id="JFG">
+                  <persName>
+                     <ref/>
+                     <forename>Johann Friedrich</forename>
+                     <surname>Gentze</surname>
+                  </persName>
+               </person>
+               <person role="named" xml:id="HGen">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/11900738X"/>
+                     <forename>Heinrich</forename>
+                     <surname>Gentz</surname>
+                  </persName>
+               </person>
+               <person role="named" xml:id="Gil">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/118539337"/>
+                     <forename>David</forename>
+                     <surname>Gilly</surname>
+                  </persName>
+               </person>
+               <person role="named" xml:id="Min">
+                  <persName>
+                     <ref/>
+                     <forename>Wilhelmine</forename>
+                     <surname>Gilly</surname>
+                  </persName>
+               </person>
+            </listPerson>
+         </particDesc>
+         <settingDesc>
+            <listPlace>
+               <!-- Start- und Zielort -->
+               <place type="sender" xml:id="plBe">
+                  <country>
+                     <ref target="http://d-nb.info/gnd/4047194-9"/>
+                     <placeName>Preußen</placeName>
+                  </country>
+                  <settlement>
+                     <ref target="http://d-nb.info/gnd/4005728-8"/>
+                     <placeName>Berlin</placeName>
+                  </settlement>
+               </place>
+               <!-- erwähnte Orte -->
+            </listPlace>
+         </settingDesc>
+      </profileDesc>
+      <revisionDesc>
+         <change xml:id="init" when-iso="2018-02-18" who="#edAG">Erstauszeichnung und Normierung des Dokumentes im Rahmen der Masterarbeit der Matrikelnummer 5584124</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div n="1" corresp="#gprl">
+            <p>
+               Die Art und Weise, wie ich Sie zu einer Gefälligkeit, die Ihnen schwer zu werden schien, aufforderte, und die 
+               Zudringlichkeit deren ich mich bey dieser Gelegenheit, (zum erstenmale in meinem Leben in einem Verhältniß wie das 
+               unsrige, und nicht ohne das tiefste Seelenleiden) schuldig machte, konnten Ihnen, mein theurer Freund, viel 
+               deutlicher als meine Worte zeigen, daß das einzige bereite Mittel, meiner Verlegenheit auf einem 
+               <emph rend="underlined">andern</emph> Wege abzuhelfen, nehmlich die Zuflucht zu 
+               <rs type="person" ref="#JFG">meinem Vater</rs>, mir härter und unangenehmer als alles in der Welt seyn muste. Ich 
+               versprach Ihnen, im äußersten Fall auch zu diesem Mittel zu greifen, um <emph rend="underlined">Sie</emph> nicht in 
+               Verlegenheit zu lassen, und es hängt von Ihnen ab, die Realisirung dieses Versprechens zu verlangen. Da mir indessen 
+               diese Realisirung sauer wird, so glaube ich Sie fragen zu dürfen, ob es Ihnen unmöglich ist mich davon zu 
+               dispensiren, und mir bis zur Rückkunft <rs type="person" ref="#HGen">meines Bruders</rs> Frist zu geben ? So äußerst 
+               unbescheiden diese <pb/> Frage auch seyn mag, so ist sie doch nur eine natürliche Folge einer frühern 
+               Unbescheidenheit, die ich nicht mehr ungeschehen machen kan, und die ich schwer büße.
+            </p>
+            <p>
+               Uebrigens habe ich noch eine andre Aussicht, diese 300 Reichsthaler vor der Messe zu bezahlen: sie ist aber nichts 
+               weniger als untrüglich. <rs type="person" ref="#Gil">Mein Schwiegervater</rs> hat mir gerade so viel zu der Reise, 
+               die ich mit <rs type="person" ref="#Min">meiner Frau</rs> vornehmen soll, versprochen, und ich suchte schon vor 14 
+               Tagen die Sache so einzuleiten, daß er sie mir gleich, das heißt, sobald er selbst ihrer habhaft werden würde, 
+               zustellen möchte. Ich war fest entschlossen, die Reise, da <rs type="person" ref="#Min">meine Frau</rs> ohnedies 
+               jetzt <del rend="stroked">ehe</del> (wenigstens auf eine Zeitlang) wieder besser ist, unter einem geschickten 
+               Vorwand aufzugeben. Und diesen Entschluß (der sich ohnedies auf mehrere Ursachen gründet) habe ich noch. Kan ich nun, 
+               wie ich hoffe, das Geld von <rs type="person" ref="#Gil">meinem Schwiegervater</rs> noch ehe Sie reisen, erhalten, so 
+               ist es sofort in Ihren Händen. Kan ich dies nicht - nur auf <emph rend="underlined">diesen</emph> Fall sollen Sie 
+               entscheiden, ob Sie mir den Recurs an <rs type="person" ref="#JFG">meinen Vater</rs> für jetzt erlassen können. Jene 
+               300 Reichsthaler bleiben auf jeden Fall für Sie bestimmt. <pb/>
+            </p>
+         </div>
+         <div n="2" corresp="#vwf">
+            <p>
+               Uebrigens habe ich nur allzu deutlich eintreffen gesehen, was ich mit Bangigkeit ahndete, als ich von der ersten 
+               Unterredung <add place="above">mit Ihnen</add> über diesen Gegenstand zurück kehrte. Das nehmlich, daß diese fatale 
+               und unerwünschte Sache, so wenig ich es <emph rend="underlined">vorher</emph> erwartet hätte, unser glückliches 
+               Verhältniß einigermaßen stören würde. Wenn ich auch der schlechtste aller Beobachter wäre, könnte es mir nicht 
+               entgehen, daß ich richtig ahndete; ich glaube, so richtig, daß Sie mich nicht einmal werden widerlegen 
+               <emph rend="underlined">wollen</emph>. Es schmerzt mich unendlich: denn ich rechnete auf Sie, wie ich noch auf wenige 
+               Menschen gerechnet habe: ich fühlte den Drang in mir, mich Ihnen unbegränzt zu ergeben: ich glaubte mehr wagen zu 
+               dürfen als man nach der gewöhnlichen Regel wagen darf, weil ich mein Innres in Rücksicht auf Sie sehr über die 
+               gewöhnliche Regel erhaben fand. Dies sage ich Ihnen freimüthig, ohne daß es mir einfiele, Ihnen einen Vorwurf zu 
+               machen, zu dem nichts in der Welt mich berechtigt, als das, was in keine Rechtfertigung gehört. Im Gegentheil, es 
+               ist hier eins von den sonderbaren Verhältnissen, wo man entweder <emph rend="underlined">ganz</emph> recht oder 
+               <emph rend="underlined">ganz</emph> unrecht haben muß. Sobald es entschieden ist, daß ich irrte, haben Sie die 
+               allervollkommenste Befugniß, <del rend="stroked">mir</del> die härtsten Vorwürfe an mich zu richten. <pb/>
+            </p>
+            <p>
+               Diese unangenehme Crise wird indessen vorübergehen: ich werde nie eine ähnliche veranlassen, solange Gott und meine 
+               letzte Kraft mich nicht verläßt. Denn ich versichre Ihnen, daß ich bey der Art, wie Sie seit 4 Wochen mit mir 
+               umgehen, und bey der offenbaren Unzufriedenheit, die ich auf einem Gesicht, das sonst nur heitre Empfindungen für 
+               mich auszusprechen hatte, lese, nicht wenig leide. <del rend="stroked">xxx</del> Mein einziger Trost ist der Gedanke, 
+               daß ich Sie vielleicht durch künftige Bemühungen, Ihnen einen unwandelbaren Eifer für Sie zu zeigen, gegen den 
+               Verdruß, den ich Ihnen jetzt bereitet habe, entschädigen werde: wenigstens ist dies der sehnlichste aller meiner 
+               Wünsche. Die Zeit, und Ihre Freundschaft (denn ich bin nicht thörigt genug, sie darum für ganz verloren zu halten) 
+               mag das übrige thun. Ich wünschte mir wohl den Fall, Ihnen große Opfer bringen zu können, wenn es nur nicht 
+               voraussetzte, daß Sie derselben bedürfen müsten. <span xml:lang="lat">Vale</span>.
+            </p>
+         </div>
+         <closer>
+            <signed rend="right">Gentz.</signed>
+         </closer>
+      </body>
+      <back>
+         <p resp="#FVW">
+            <rs type="place" ref="#plBe">Berlin</rs> am <date when-iso="1796-03-12">12<span rend="sup">ten</span> Merz 1796</date>
+            H K. R. Gentz eod
+         </p>
+      </back>
+      <note xml:id="r3717-1">Seite 4 Präsenz-Vermerk von Viewegs Hand</note>
+   </text>
+</TEI>

@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc xml:id="LETTER_GENTZ_0551">
+         <titleStmt>
+            <title>Friedrich von Gentz an Friedrich Vieweg, 20. Juni 1800</title>
+            <editor xml:id="edAG">Andreas Gálffy</editor>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <name>Forschungsstelle "Universitätssammlung Friedrich von Gentz"</name>
+               <link target="http://gentz-digital.ub.uni-koeln.de http://www.ub.uni-koeln.de/cdm/singleitem/collection/gentz/id/550/"/>
+            </publisher>
+            <pubPlace>Cologne</pubPlace>
+            <idno type="Gentz-Edition-Number" n="0551"/>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <country>Germany</country>
+                  <settlement>Wiesbaden</settlement>
+                  <institution>Vieweg-Verlagsarchiv</institution>
+                  <repository>Briefsammlung G 311: Gentz-Brief</repository>
+                  <idno>Nr. 101</idno>
+               </msIdentifier>
+               <msContents>
+                  <summary>
+                     Gentz beklagt sich, dass Vieweg ihn ignoriert und im Stich gelassen habe. Er wünscht sich für seine Arbeiten 
+                     zumindest ein kleines Honorar, nicht zuletzt, weil er für seine angedachte Reise nach Meseritz Geld braucht. 
+                     Trotz alledem sichert Gentz nach wie vor seine anhaltende Freundschaft aus.
+                  </summary>
+               </msContents>
+            </msDesc>
+            <listBibl type="letterReferenced">
+               <bibl xml:id="c0551-1" corresp="#LETTER_GENTZ_3015">Friedrich von Gentz an Friedrich Vieweg, 13. Mai 1800</bibl>
+            </listBibl>
+            <listBibl type="alludedWorks">
+               <bibl xml:id="a0551-1" corresp="#LETTER_GENTZ_NNNN">Taschenkalender für 1800. Keine Leseprobe</bibl>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Masterarbeit zu Matrikelnummer 5584124</p>
+         </projectDesc>
+      </encodingDesc>
+      <profileDesc>
+         <creation>
+            <date when-iso="1800-06-20">20. Juni 1800</date>
+         </creation>
+        <langUsage>
+           <language ident="d">deutsch</language>
+        </langUsage>
+         <textClass>
+            <keywords scheme="internal"><!-- internal: innerhalb des besagten Briefs -->
+               <term>Brief</term>
+               <term>Bettelbrief</term>
+               <term>alte Freundschaft</term>
+               <term>Reise</term>
+            </keywords>
+            <keywords scheme="categorisation"><!-- Sinnabschnittseinteilung - relevant für den Fahrkartenautomaten! -->
+               <term xml:id="vwfe">Vieweg - Feindschaft</term>
+               <term xml:id="rmr">Reise nach Meseritz</term>
+            </keywords>
+         </textClass>
+         <textDesc>
+            <channel>manuscript</channel>
+            <constitution type="single"/>
+            <derivation type="original"/>
+            <domain type="private"/>
+            <factuality type="fact"/>
+            <interaction type="partial"/>
+            <preparedness type="prepared"/>
+            <purpose type="inform"/>
+         </textDesc>
+         <particDesc>
+            <listPerson>
+               <!-- Sender und Adressat -->
+               <person role="sender" xml:id="Gen">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/118538489"/>
+                     <forename>Friedrich von</forename>
+                     <surname>Gentz</surname>
+                  </persName>
+               </person>
+               <person role="receiver" xml:id="FVW">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/119049546"/>
+                     <forename>Friedrich</forename>
+                     <surname>Vieweg</surname>
+                  </persName>
+               </person>
+               <!-- erwähnte Personen -->
+               <person role="named" xml:id="GirL">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/118780670"/>
+                     <forename>Girolamo</forename>
+                     <surname>Lucchesini</surname>
+                  </persName>
+               </person>
+            </listPerson>
+         </particDesc>
+         <settingDesc>
+            <listPlace>
+               <!-- Start- und Zielort -->
+               <place type="sender" xml:id="plBe">
+                  <country>
+                     <ref target="http://d-nb.info/gnd/4047194-9"/>
+                     <placeName>Preußen</placeName>
+                  </country>
+                  <settlement>
+                     <ref target="http://d-nb.info/gnd/4005728-8"/>
+                     <placeName>Berlin</placeName>
+                  </settlement>
+               </place>
+               <place type="receiver" xml:id="plBs">
+                  <country>
+                     <ref target="http://d-nb.info/gnd/4089993-7"/>
+                     <placeName>Staat Wolfenbüttel</placeName>
+                  </country>
+                  <settlement>
+                     <ref target="http://d-nb.info/gnd/4008065-1"/>
+                     <placeName>Braunschweig</placeName>
+                  </settlement>
+               </place>
+               <!-- erwähnte Orte -->
+            </listPlace>
+         </settingDesc>
+      </profileDesc>
+      <revisionDesc>
+         <change xml:id="init" when-iso="2018-03-05" who="#edAG">Erstauszeichnung und Normierung des Dokumentes im Rahmen der Masterarbeit der Matrikelnummer 5584124</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div n="1" corresp="#vwfe">
+            <p>
+               Sie haben auch meine <rs type="citation" ref="#c0551-1">letzten Briefe</rs> unbeantwortet, auch meine letzten Bitten 
+               unerfüllt gelaßen, keine meiner Anweisungen, auch nicht die kleinste, honorirt, und in den Augen derer, welchen ich 
+               sie nothgedrungen hatte geben müßen, mich nicht einmal mit Schonung behandelt.
+            </p>
+            <p>
+               Ich mache Ihnen über dies alles keinen Vorwurf. Aber endlich werden Sie mir doch den Wunsch vergeben, die vorjährige 
+               Rechnung abgeschlossen zu sehen. Noch kan ich mich dem Gedanken nicht überlaßen, daß ich wirklich gar nichts mehr von 
+               Ihnen erhalten, bei einer Unternehmung, von der Sie einen so leichten und so ansehnlichen Vortheil gezogen haben, 
+               nicht wenigstens am Schluß doch noch eine mäßige Einnahme zu erwarten haben sollte. Sie sey so geringe, als sie 
+               wolle, versagen Sie mir sie wenigstens nicht länger.
+            </p>
+            <p>
+               Eben so habe ich doch wenigstens auf ein kleines Honorar - denn ich mache keine übertriebne Ansprüche - wegen der zum 
+               <rs type="citation" ref="#a0551-1">Kalender</rs> gelieferten Arbeit <del rend="stroked">xxx</del>, die mir ohnehin 
+               weil sie in einen für mich sehr drückenden Zeitpunkt fiel, so sauer geworden ist, zu hoffen. Wollten Sie mir auch 
+               dieses länger vorenthalten ?
+            </p>
+         </div>
+         <div n="2" corresp="#rmr">
+            <p>
+               Ich muß auf den <date when-iso="1800-07-06">6<span rend="sup">ten</span> July</date> eine Reise mit dem 
+               <rs type="person" ref="#GirL">Marquis Lucchesini</rs> machen, die für mich nicht unwichtig ist, und zu der ich 
+               dringend einiges Geld gebrauche. Bis dahin sind noch volle 14 Tage. Gewähren Sie mir wenigstens die letzte Bitte, mir 
+               das, was Sie mir noch zugedacht haben, es sey nun auch wie viel es wolle, vor dieser Reise auszahlen zu laßen. Es ist 
+               eine so unbedeutende Gefälligkeit die ich von Ihnen verlange; ich behandle ja die Sache mit einer Bescheidenheit, mit 
+               einer Billigkeit, der Sie Selbst Ihren Beifall nicht versagen können.
+            </p>
+            <p>
+               Ich rechne mit Zuversicht auf eine unmittelbare Antwort, und auf die Erfüllung eines mir so am Herzen liegenden 
+               Wunsches. Ich hörte nie auf, und werde nie aufhören, mich zu betrachten, als
+            </p>
+         </div>
+         <closer>
+            <salute rend="right">Ihren wahren Freund</salute>
+            <salute rend="right">und Diener</salute>
+            <dateline rend="left"><rs type="place" ref="#plBe">Berlin</rs> den <date when-iso="1800-06-20">20<span rend="sup">ten</span> Juny 1800</date></dateline>
+            <signed rend="right">Gentz.</signed>
+         </closer>
+      </body>
+      <back resp="otherHand">
+         <p>
+            An
+            des Herrn Buchhändler Vieweg
+            Wohlgebohren
+            <rs type="place" ref="#plBs"><emph rend="underlined">Braunschweig</emph></rs>
+            <emph rend="underlined">Frey</emph>.
+         </p>
+      </back>
+      <note xml:id="r0551-1">Seite 4: Siegelreste</note>
+   </text>
+</TEI>

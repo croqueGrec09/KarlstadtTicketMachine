@@ -1,0 +1,273 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader type="text">
+      <fileDesc xml:id="LETTER_GENTZ_0223">
+         <titleStmt>
+            <title>Friedrich von Gentz an Elisabeth Graun, vermutlich Ende 1789 oder Anfang 1790</title>
+            <editor xml:id="edAG">Andreas Gálffy</editor>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <name>Forschungsstelle "Universitätssammlung Friedrich von Gentz"</name>
+               <link target="http://gentz-digital.ub.uni-koeln.de http://www.ub.uni-koeln.de/cdm/singleitem/collection/gentz/id/0222/"/>
+            </publisher>
+            <pubPlace>Cologne</pubPlace>
+            <idno type="Gentz-Edition-Number" n="0223"/>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <country>Poland</country>
+                  <settlement>Cracow</settlement>
+                  <institution>Biblioteka Jagiellońska</institution>
+                  <repository>Handschriftenabtelung</repository>
+                  <collection>Varnhagensammlung der ehemaligen Preußischen Bibliothek</collection>
+                  <idno>Karton 66</idno>
+               </msIdentifier>
+               <msContents>
+                  <summary>
+                     Die Verbidnung zu Frau Graun hat stark gelitten. Gentz weiß praktisch nichts mehr über seine Freundin, ja nicht 
+                     einmal, ob sie jemals noch an ihn denkt. Er sieht keinen anderen Weg, als erneut zu bekunden, dass seine 
+                     Gefühle zu ihr keineswegs erkaltet sind, im Gegenteil, ihm unglaublich viel bedeuten. Dementsprechend unwürdig 
+                     kam er sich selbst und ihr gegenüber vor, als er es schaffte, diesen Umgang zu vernachlässigen. Stattdessen 
+                     rutschte er in die vergänglichen Glücksmomente ab. Aber während einer Krankheit scheint Gentz sich besonnen zu 
+                     haben. Er schreibt von einem plötzlichen Sinneswandel, der ihn zu den Wissenschaften zurücktrieb. Diese 
+                     Krankheit schien notwendig, um ihn aus der Schlaffheit seiner selbst völlig zu entreißen und ihn wieder 
+                     ernsthaften Tätigkeiten zuwenden zu lassen. Hier bricht der Brief ab, dessen Rest verschollen ist.
+                  </summary>
+               </msContents>
+            </msDesc>
+            <listBibl type="preprints">
+               <biblStruct>
+                  <monogr>
+                     <editor>
+                        <persName>
+                           <ref target="http://d-nb.info/gnd/130953075"/>
+                           <forename>Friedrich Carl</forename>
+                           <surname>Wittichen</surname>
+                        </persName>
+                        <persName>
+                           <ref/> <!-- kein GND-Eintrag -->
+                           <forename>Ernst</forename>
+                           <surname>Salzer</surname>
+                        </persName>
+                     </editor>
+                     <title>Briefe von und an Friedrich von Gentz. 4 Bde.</title>
+                     <imprint>
+                        <publisher>Oldenbourg</publisher>
+                        <pubPlace>München, Berlin</pubPlace>
+                        <date>1909-1913</date>
+                     </imprint>
+                     <biblScope unit="volume" n="1">
+                        I
+                     </biblScope>
+                     <biblScope unit="page" from="110" to="112">
+                        Nr. 27
+                     </biblScope>
+                  </monogr>
+               </biblStruct>
+               <biblStruct>
+                  <monogr>
+                      <editor>
+                         <persName>
+                           <ref target="http://d-nb.info/gnd/117325791"/>
+                           <forename>Gustav</forename>
+                           <surname>Schlesier</surname>
+                         </persName>
+                      </editor>
+                      <title>Schriften von Friedrich von Gentz. Ein Denkmal. 5 Bde.</title>
+                      <imprint>
+                          <publisher>Verlag von Heinrich Wolff</publisher>
+                          <pubPlace>Mannheim</pubPlace>
+                          <date>1838-1840</date>
+                      </imprint>
+                      <biblScope unit="volume" n="1">
+                          I
+                      </biblScope>
+                      <biblScope unit="page" from="87" to="89">
+                          Nr. 11
+                      </biblScope>
+                  </monogr>
+               </biblStruct>
+               <biblStruct>
+                  <monogr>
+                     <author>
+                        <persName>
+                           <ref target="http://d-nb.info/gnd/117121150"/>
+                           <forename>Margarete</forename>
+                           <surname>von Olfers</surname>
+                        </persName>
+                     </author>
+                     <title>Elisabeth v. Staegemann. Lebensbild einer deutschen Frau 1761-1835</title>
+                     <imprint>
+                        <publisher>Koehler &amp; Amelang</publisher>
+                        <pubPlace>Leipzig</pubPlace>
+                        <date>1939</date>
+                     </imprint>
+                     <biblScope unit="page" from="71" to="73">
+                        71-73 (teilweise)
+                     </biblScope>
+                  </monogr>
+               </biblStruct>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Masterarbeit zu Matrikelnummer 5584124</p>
+         </projectDesc>
+      </encodingDesc>
+      <profileDesc>
+         <creation>
+            <date notBefore-iso="1789-01-01" notAfter-iso="1790-03-31">vermutlich Ende 1789 oder Anfang 1790</date>
+         </creation>
+        <langUsage>
+           <language ident="d">deutsch</language>
+        </langUsage>
+         <textClass>
+            <keywords scheme="internal"><!-- internal: innerhalb des besagten Briefs -->
+               <term>Brief</term>
+               <term>Graun</term>
+               <term>Sehnsucht</term>
+               <term>Freundschaft</term>
+            </keywords>
+            <keywords scheme="categorisation"><!-- Sinnabschnittseinteilung - relevant für den Fahrkartenautomaten! -->
+               <term xml:id="veg">Verhältnis Elisabeth Graun</term>
+               <term xml:id="bezbl">Beziehungen zu Berlin - Leute</term>
+               <term xml:id="gg">Gentz - Gesundheit</term>
+            </keywords>
+         </textClass>
+         <textDesc>
+            <channel>manuscript</channel>
+            <constitution type="frags"/>
+            <derivation type="original"/>
+            <domain type="private"/>
+            <factuality type="fact"/>
+            <interaction type="partial"/>
+            <preparedness type="unprepared"/>
+            <purpose type="inform"/>
+         </textDesc>
+         <particDesc>
+            <listPerson>
+               <!-- Sender und Adressat -->
+               <person role="sender" xml:id="Gen">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/118538489"/>
+                     <forename>Friedrich von</forename>
+                     <surname>Gentz</surname>
+                  </persName>
+               </person>
+               <person role="receiver" xml:id="Gra">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/123518733"/>
+                     <forename>Elisabeth</forename>
+                     <surname>Graun</surname>
+                  </persName>
+               </person>
+               <!-- erwähnte Personen -->
+            </listPerson>
+         </particDesc>
+         <settingDesc>
+            <listPlace>
+               <!-- Start- und Zielort -->
+               <place type="sender" xml:id="plBe">
+                  <country>
+                     <ref target="http://d-nb.info/gnd/4047194-9"/>
+                     <placeName>Preußen</placeName>
+                  </country>
+                  <settlement>
+                     <ref target="http://d-nb.info/gnd/4005728-8"/>
+                     <placeName>Berlin</placeName>
+                  </settlement>
+               </place>
+               <place type="receiver" xml:id="plBr">
+                  <country>
+                     <ref target="http://d-nb.info/gnd/4047194-9"/>
+                     <placeName>Preußen</placeName>
+                  </country>
+                  <settlement>
+                     <ref target="http://d-nb.info/gnd/4008216-7"/>
+                     <placeName>Breslau</placeName>
+                  </settlement>
+               </place>
+               <!-- erwähnte Orte -->
+            </listPlace>
+         </settingDesc>
+      </profileDesc>
+      <revisionDesc>
+         <change xml:id="init" when-iso="2018-01-28" who="#edAG">Erstauszeichnung und Normierung des Dokumentes im Rahmen der Masterarbeit der Matrikelnummer 5584124</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div n="1" corresp="#veg">
+            <p>
+               Ich lebe noch, theure, einzige Freundinn, ich athme noch, und - Gottlob ! - in derselbigen Welt, in der Sie leben, 
+               obgleich ein fürchterliches Geschick, uns seit einer undenklichen Zeit so getrennt hat, als wenn einer von uns ins 
+               Reich der Schatten gewandelt wäre. Gott im Himmel ! hätte ich eine solche Trennung für möglich gehalten ? -
+            </p>
+            <p>
+               Ich weis nicht, ob Sie noch je an mich denken, ob ich nicht zur Strafe meiner mannichfaltigen Verirrungen den Platz, 
+               den ich sonst in Ihrem Herzen einnahm, verlohren habe. Nein ! Diese Strafe wäre zu schrecklich ! Ich müßte 
+               untergehen, theure Freundinn; schon seit einer langen Weile erwacht aus einem abgeschmackten - bösen Traume, habe 
+               ich mich wieder gefunden mit allen meinen ehmaligen Zügen, mit meinem warmen Herzen, mit meiner unaussprechlichen 
+               Freundschaft, mit meiner hohen, verehrungsvollen Liebe zu Ihnen, mit meinen melancholischen Seufzern, und mit meinen 
+               alten Thränen. -
+            </p>
+            <p>
+               Da ich gar nicht mehr weis, was Sie denken, <pb/> fühlen, begehren, fürchten, in was für einer Situation oder 
+               Seelenstimmung Sie sind, so kan ich diesen Brief durch nichts einigermaßen intereßant machen, als dadurch, daß ich 
+               Ihnen sage, was <emph rend="underlined">ich</emph> bin, mit so wenig Worten, als möglich, aber mit einer solchen 
+               Wahrhaftigkeit, als wenn ich vor dem Throne der Unschuld und der Wahrheit stünde. Mögen Sie doch sagen und meynen, 
+               was Sie wollen: ich will lieber verdammt von Ihnen, als gerühmt und seelig gesprochen seyn, von der ganzen 
+               übrigen Welt.
+            </p>
+         </div>
+         <div n="2" corresp="#bezbl">
+            <p>
+               O ! meine Freundinn ! Wer war ich, als ich Sie das letztemal verließ ? Zu welchem gefühlvollen, glücklichen, fast 
+               möchte ich in gotteslästerlicher Verehrung Ihrer Vollkommenheiten sagen, <emph rend="underlined">heiligen</emph> 
+               Menschen zu welchem glückseeligen Geschöpf hatte mich Ihre Gegenwart, Ihr Umgang, in einer der rauhsten und 
+               dornichtsten Epochen meines Lebens gebildet ! Und was ist aus diesem Geschöpf geworden ! Was bin ich - Gott ! - 
+               was bin ich eine Zeitlang gewesen ! Wie unwürdig Ihrer ! Wie unwürdig meiner ! In einer schändlichen Vergeßenheit 
+               meiner schönsten Empfindungen, in einer unverzeihlichen Vernachläßigung meiner schönsten Talente, in einer 
+               gänzlichen Verwirrung aller <pb/> meiner Sinne, im Todesschlafe aller <emph rend="underlined">thätigen</emph> 
+               Seelenkräfte, bin ich beynahe ein Jahr lang durch alle Thorheiten, dieser abscheulichen Welt hindurch getaumelt, 
+               habe mich in allen ihren abschmeckigten Freuden herumgewälzt, habe mit Aufopferung meiner ganzen Zufriedenheit, den 
+               Genuß voll Unruhe, und die Foltern der Rückerinnerung auf hundert klippen-vollen Wegen aufgesucht, mich mit mir 
+               selbst bis zum gänzlichen Fremdwerden verunreinigt, und am Ende nach hundert vergeblichen Versuchen, nach 
+               Tausendfachem <del rend="stroked">ernstlich</del> aengstlichen Ringen, mir nur auf einen Tag Glückseeligkeit zu 
+               verschaffen, auf einmal in einer entsetzlichen - aber göttlichen Stunde, die alte Wahrheit, die ich längst gekannt 
+               hatte, wieder gefunden, daß alles Streben nach Glück umsonst ist, ohne Tugend, Zufriedenheit des Gewißens und Friede 
+               und Beruhigung im Herzen.
+            </p>
+            <p>
+               Daß ich bereits seit geraumer Zeit auf der ganz entgegengesetzten Bahn gehe, sehen Sie theils aus der 
+               Aufrichtigkeit, mit der ich Ihnen meine vorigen Fehler bekenne, teils aus dem tiefen Abscheu gegen mein voriges 
+               Leben der aus jedem meiner Worte eben so hervorleuchten muß, als er jeden Winkel meines Herzens durchdringt. <pb/>
+            </p>
+         </div>
+         <div n="3" corresp="#gg">
+            <p>
+               Durch welche sonderbare Vorfälle eine plötzliche, eine fast augenblickliche Sinnes-Aenderung in mir bewirkt ward, 
+               das denke ich Ihnen dereinst mündlich zu erzählen. Nur das will ich Ihnen jetzt sagen, wodurch diese merkwürdige 
+               Sinnes-Aenderung in mir so sehr befestigt worden ist. Nachdem ich mich schon eine geraume Zeit von dem beständigen 
+               Geräusch der Welt zurückgezogen hatte, überfiel mich ein Fieber, welches ich mir durch eine Ueberladung des Magens 
+               bey einer Mahlzeit in unserm eignen Hause zugezogen hatte. Dieses Fieber zwang mich, 5 Wochen lang, fast nicht aus 
+               meiner Stube zu gehen. So viel brauchte es nicht, um meinen abgerißnen Umgang mit mir selbst wieder anzufangen. Ich 
+               fand ein neues, und brennendes Vergnügen in den Wißenschaften, meinen alten Gespielinnen; und jetzt, da diese 
+               Krankheit beynahe schon wieder seit 6 Wochen vorüber ist, bin ich noch eben so einheimisch, eben so einsam, eben so 
+               geitzig mit meiner Zeit als damals.
+            </p>
+            <p>
+                Nichts gleicht der, mir selbst unerklärbaren Erschlaffung meines ganzen Selbsts, während jener, unglücklichen 
+                Periode, als die Kraft, und die Kühnheit, mit der ich in wenig Tagen alle die Feßeln zerriß, die mich seit langer 
+                Zeit an die Welt gebunden
+            </p>
+         </div>
+         <div n="fragMark">
+            <p>(Rest des Manuskripts verschollen)</p>
+         </div>
+      </body>
+   </text>
+</TEI>

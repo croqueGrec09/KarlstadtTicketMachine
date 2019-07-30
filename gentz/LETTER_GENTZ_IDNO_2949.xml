@@ -1,0 +1,325 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc xml:id="LETTER_GENTZ_2949">
+         <titleStmt>
+            <title>Friedrich von Gentz an Bernhard von Pelser, 26. Dezember 1802</title>
+            <editor xml:id="edAG">Andreas Gálffy</editor>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <name>Forschungsstelle "Universitätssammlung Friedrich von Gentz"</name>
+               <link target="http://gentz-digital.ub.uni-koeln.de http://www.ub.uni-koeln.de/cdm/singleitem/collection/gentz/id/2948/"/>
+            </publisher>
+            <pubPlace>Cologne</pubPlace>
+            <idno type="Gentz-Edition-Number" n="2949"/>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <country>Austria</country>
+                  <settlement>Vienna</settlement>
+                  <institution>Wiener Stadt- und Landesbibliothek</institution>
+                  <repository>Handschriftensammlung</repository>
+                  <idno>6578</idno>
+               </msIdentifier>
+               <msContents>
+                  <summary>
+                     Gentz hat seine Rückreise angetreten und befindet sich jetzt in Dover, wohin er ohne Schwierigkeiten schnell 
+                     durchgekommen ist. Allerdings sind die Winde ungünstig. Glücklicherweise wurde er von Mr. Elliot für Mr. / Mrs. 
+                     Payne empfohlen und fand bei ihnen glückliche Aufnahme. Er lobt England, das noch erhalten ist vor Korruption 
+                     und Hinterlist. Das Gepäck soll Gentz bald folgen. Pitt hat Rückmeldung zum Essay von 1800 gegeben, es soll 
+                     eine Neuauflage erscheinen. Diese Auflistung soll die beste überhaupt sein. Bernhard von Pelser wird sehr 
+                     gelobt. Er soll, im Postscript gebeten, Zeitungen schicken.
+                  </summary>
+               </msContents>
+            </msDesc>
+            <listBibl type="alludedWorks">
+               <bibl xml:id="a2949-1" corresp="#LETTER_GENTZ_NNNN">nicht näher benannte Ausgabe der Zeitung "Morning Post", ohne Leseprobe</bibl>
+            </listBibl>
+            <listBibl type="defRep">
+               <biblStruct xml:id="p2949-1" corresp="GBk-0060">
+                  <monogr>
+                     <author>
+                        <persName>
+                           <ref target="http://d-nb.info/gnd/118538489"/>
+                           <forename>Friedrich von</forename>
+                           <surname>Gentz</surname>
+                        </persName>
+                     </author>
+                     <title>Essai sur l'etat actuel de l'administration des finances et de la richesse nationale de la Grande Bretagne</title>
+                     <imprint>
+                        <pubPlace>London</pubPlace>
+                        <publisher>J. Debrett</publisher>
+                        <date>1800</date>
+                     </imprint>
+                  </monogr>
+                  <ptr target="https://books.google.de/books?id=R_bXZfXXWVoC"/>
+               </biblStruct>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Masterarbeit zu Matrikelnummer 5584124</p>
+         </projectDesc>
+      </encodingDesc>
+      <profileDesc>
+         <creation>
+            <date when-iso="1802-12-26">26. Dezember 1802</date>
+         </creation>
+        <langUsage>
+           <language ident="f">französisch</language>
+        </langUsage>
+         <textClass>
+            <keywords scheme="internal"><!-- internal: innerhalb des besagten Briefs -->
+               <term>Brief</term>
+               <term>Reise</term>
+               <term>Dover</term>
+               <term>Abfahrt</term>
+               <term>Schwierigkeiten</term>
+            </keywords>
+            <keywords scheme="categorisation"><!-- Sinnabschnittseinteilung - relevant für den Fahrkartenautomaten! -->
+               <term xml:id="rs">Reise von 1802</term>
+               <term xml:id="keng">England</term>
+               <term xml:id="efgb">Essay über die Finanzen Großbritanniens</term>
+               <term xml:id="vbvp">Verhältnis Bernard von Pelser</term>
+            </keywords>
+         </textClass>
+         <textDesc>
+            <channel>manuscript</channel>
+            <constitution type="single"/>
+            <derivation type="original"/>
+            <domain type="private"/>
+            <factuality type="fact"/>
+            <interaction type="partial"/>
+            <preparedness type="prepared"/>
+            <purpose type="inform"/>
+         </textDesc>
+         <particDesc>
+            <listPerson>
+               <!-- Sender und Adressat -->
+               <person role="sender" xml:id="Gen">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/118538489"/>
+                     <forename>Friedrich von</forename>
+                     <surname>Gentz</surname>
+                  </persName>
+               </person>
+               <person role="receiver" xml:id="BvPl">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/1024855864"/>
+                     <forename>Bernhard von</forename>
+                     <surname>Pelser</surname>
+                  </persName>
+               </person>
+               <!-- erwähnte Personen -->
+               <person role="named" xml:id="CSut">
+                  <persName>
+                     <ref />
+                     <forename/>
+                     <surname>Sutton</surname>
+                     <roleName type="office">Captain</roleName>
+                  </persName>
+               </person>
+               <person role="named" xml:id="HEl">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/1075473756"/>
+                     <forename>Hugh</forename>
+                     <surname>Elliot</surname>
+                  </persName>
+               </person>
+               <person role="named" xml:id="Pyn">
+                  <persName>
+                     <ref />
+                     <forename/>
+                     <surname>Payne</surname>
+                  </persName>
+               </person>
+               <person role="named" xml:id="MmePyn">
+                  <persName>
+                     <ref />
+                     <forename/>
+                     <surname>Payne</surname>
+                     <roleName type="address">Madame</roleName>
+                  </persName>
+               </person>
+               <person role="named" xml:id="Fctr">
+                  <persName>
+                     <ref />
+                     <forename/>
+                     <surname>Fector</surname>
+                  </persName>
+               </person>
+               <person role="named" xml:id="NVBx">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/116159022" />
+                     <forename>Nicholas Vansittart</forename>
+                     <surname>Bexley</surname>
+                  </persName>
+               </person>
+               <person role="named" xml:id="JChH">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/159705665" />
+                     <forename>John Charles</forename>
+                     <surname>Herries</surname>
+                  </persName>
+               </person>
+               <person role="named" xml:id="Pitt">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/118792393"/>
+                     <forename>William</forename>
+                     <surname>Pitt</surname>
+                  </persName>
+               </person>
+               <person role="named" xml:id="LvSt">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/117216542"/>
+                     <forename>Ludwig von</forename>
+                     <surname>Starhemberg</surname>
+                  </persName>
+               </person>
+               <person role="named" xml:id="JvSchw">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/119118807"/>
+                     <forename>Joachim von</forename>
+                     <surname>Schwarzkopf</surname>
+                  </persName>
+               </person>
+            </listPerson>
+         </particDesc>
+         <settingDesc>
+            <listPlace>
+               <!-- Start- und Zielort -->
+               <place type="sender" xml:id="plDv">
+                  <country>
+                     <ref target="http://d-nb.info/gnd/4022153-2"/>
+                     <placeName>Vereinigtes Königreich</placeName>                
+                  </country>
+                  <settlement>
+                     <ref target="http://d-nb.info/gnd/4085482-6"/>
+                     <placeName>Dover</placeName>
+                  </settlement>
+               </place>
+               <place type="receiver" xml:id="plLo">
+                  <country>
+                     <ref target="http://d-nb.info/gnd/4022153-2"/>
+                     <placeName>Vereinigtes Königreich</placeName>                
+                  </country>
+                  <settlement>
+                     <ref target="http://d-nb.info/gnd/4074335-4"/>
+                     <placeName>London</placeName>
+                  </settlement>
+               </place>
+               <!-- erwähnte Orte -->
+               <place type="named" xml:id="plEn">
+                  <country>
+                     <ref target="http://d-nb.info/gnd/4022153-2"/>
+                     <placeName>England</placeName>
+                  </country>
+               </place>
+               <place type="named" xml:id="plFfm">
+                  <country>
+                     <ref target="http://d-nb.info/gnd/4018118-2"/>
+                     <placeName>Frankfurt</placeName>
+                  </country>
+                  <settlement>
+                     <ref target="http://d-nb.info/gnd/4018118-2"/>
+                     <placeName>Frankfurt</placeName>
+                  </settlement>
+               </place>
+            </listPlace>
+         </settingDesc>
+      </profileDesc>
+      <revisionDesc>
+         <change xml:id="init" when-iso="2018-03-11" who="#edAG">Erstauszeichnung und Normierung des Dokumentes im Rahmen der Masterarbeit der Matrikelnummer 5584124</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div n="1" corresp="#rs">
+            <p>
+               Je suis allé, cher ami, sans m'arrêter, et sans être arrêté par les voleurs, à 
+               <rs type="place" ref="#plDv"><emph rend="underlined">Dovres</emph></rs> où je suis arrivé 
+               <date when-iso="1802-12-24">Vendredi soir</date> à 10 heures; mais, helas ! je n'en suis pas encore parti dans ce 
+               moment (<date when-iso="1802-12-26">Dimanche</date> 4 heures du soir). Le vent a été défavorable pendant toute la 
+               journée d'hier, et si décidemment défavorable, qu'aucun batiment quelconque n'a pu quitter le port. Aujourd'hui je me 
+               suis flatté de pouvoir partir à 10 heures, mais tout-à-coup le vent est devenu si fort, que 
+               <rs type="person" ref="#CSut">Captain Sutton</rs> m'a annoncé qu'il n'y avoit pas moyen de sortir. Deux personnes 
+               arrivées <date when-iso="1802-12-25">hier au soir</date>, qui, ayant voulu forcer la chose, étoient parti ce matin 
+               dans une petite barque, ont été obligés de retourner vers midi. A présent toutes mes espérances sont dirigées vers la 
+               marée de la nuit, <rs type="person" ref="#CSut">Captain Sutton</rs> partira à 2 heures du matin, pour peu que le 
+               <pb/> vent ait changé, et je ne manquerai pas cette occasion. - Dans ce contretems facheux c'étoit un véritable 
+               bonheur pour moi que <rs type="person" ref="#HEl">Elliot</rs> m'avoit donné une lettre pour 
+               <rs type="person" ref="#Pyn">Monsieur Payne</rs>, qui m'a extrêmement bien reçu, m'a logé dans sa maison de campagne, 
+               et m'a fait beaucoup de politesses. <rs type="person" ref="#MmePyn">Madame Payne</rs> est une charmante personne, qui 
+               avec tout autant d'esprit que son père, a beaucoup plus de jugement, de suite, et de caractère. J'ai passé la journée 
+               de hier très-agréablement avec eux, et nous dinerons encore aujourd'hui chez 
+               <rs type="person" ref="#Fctr">Monsieur Fector</rs>. Mais malgré cela je n'ai pas un instant de repos, et je soupire 
+               après le moment de mon départ.
+            </p>
+         </div>
+         <div n="2" corresp="#keng">
+            <p>
+               En attendant j'ai tout le loisir qu'il me faut pour me livrer aux idées tristes que la séparation d'un pays comme 
+               <rs type="place" ref="#plEn">l'Angleterre</rs>, doit faire naitre dans une ame, qui a senti jusqu'à un certain <pb/> 
+               point ce que c'est que ce pays. - Le continent, avec ses raffinemens et sa corruption, avec ses jouissances et ses 
+               crimes, avec ses formes et sa lâcheté, doit nécessairement paroitre un exil <del rend="stroked">pour</del> 
+               <add place="above">à</add> celui qui a pénétré le caractère d'une nation - d'un pays, où la moralité, simplicité et 
+               la solidité sont tout; où l'ennui même devient instructif, où la mauvaise-chère est précieuse parce qu'on la fait 
+               dans la société la plus éclairée de la terre, et où (j'en conviens maintenant) c'est un devoir sacré de supporter les 
+               <emph rend="underlined">voleurs</emph> - parce qu'heureusement on ne les trouve que sur les grands chemins. -
+            </p>
+         </div>
+         <div n="3" corresp="#efgb">
+            <p>
+               Je Vous supplie, Cher Pelser, de faire tout ce qui est possible pour que ma malle me suive bientôt. Le dernier jour 
+               que j'ai passé à <rs type="place" ref="#plLo">Londres</rs>, <rs type="person" ref="#NVBx">Vansittart</rs> et 
+               <rs type="person" ref="#JChH">Herries</rs> m'ont vivement pressé de publier une nouvelle edition de mon 
+               <rs type="citation" ref="#p2949-1">essai sur les Finances d'Angleterre</rs>, que 
+               <rs type="person" ref="#JChH">Herries</rs> traduiroit incessamment; ils m'ont assuré entr'autres que 
+               <rs type="person" ref="#Pitt"><emph rend="underlined">Pitt</emph></rs> avoit dit plus d'une fois, que cet ouvrage 
+               étoit le meilleur <emph rend="underlined">tableau général</emph> des finances de ce pays qui existat. - <pb/> Vous 
+               sentez, combien pour cette entreprise j'aurai besoin des trésors que mes malles renferment.
+            </p>
+         </div>
+         <div n="4" corresp="#vbvp">
+            <p>
+               Adieu ! Homme d'<emph rend="underlined">or pur</emph> ! 
+               <span xml:lang="en">Man of <emph rend="underlined">Sterling-Worth</emph></span>; j'épuiserois toutes les langues sans 
+               trouver de terme qui pût exprimer avec assez de force l'estime sans bornes que Vous m'avez inspirée et l'attachement 
+               que je Vous porte. -
+            </p>
+            <p>
+               Si Vous dites chez les <rs type="person" ref="#LvSt">Stahremberg</rs> que je Vous ai écrit, je Vous prie d'y 
+               présenter mes respects. -
+            </p>
+         </div>
+         <closer>
+            <salute rend="right">Tout-à-Vous</salute>
+            <dateline rend="left"><rs type="place" ref="#plDv">Douvres</rs>. <date when-iso="1802-12-26">26 Decbre. 1802</date>.</dateline>
+            <signed rend="right">Gentz.</signed>
+         </closer>
+         <postscript corresp="#vbvp">
+            <p>
+               P.S. Il m'est impossible, (et plus que j'y pense, plus je le sens) d'être privé tout-à-coup des gazettes angloises. 
+               Permettez-donc, cher ami, que je Vous fasse une proposition. Commandez (à mes frais) le 
+               <rs type="citation" ref="#a2949-1"><emph rend="underlined">Morning Post</emph></rs>, <del rend="stroked">du jo</del> 
+               à commencer du jour même de mon départ; faites Vous l'apporter par le <span xml:lang="en">News-Man</span> chaque 
+               jour, et après l'avoir lu, coupez-en 1, le leading article, et tous ceux qui sont imprimés en Italiques. 2, ce qui 
+               dans le reste de la feuille Vous paroitra intéressant. Comme toutes ces coupures ne formeront jamais un gros paquet, 
+               Vous trouverez certainement l'occasion de me les faire parvenir, si non tous les quinze jours, du moins 
+               <emph rend="underlined">une fois par mois</emph>. Je ne saurois Vous dire quel service Vous me rendriez en Vous 
+               prétant à cette proposition. - Ecrivez-moi à 
+               <rs type="place" ref="#plFfm"><emph rend="underlined">Francfort</emph></rs> poste restante, ou (ce qui vaut mieux) 
+               sous couvert de 
+               <rs type="person" ref="#JvSchw"><emph rend="underlined">Monsieur de Schwarzkopf</emph>, Ministre du Roi d'Angleterre Electeur d'Hannovre</rs>. 
+               - Quel plaisir pour moi que d'y trouver une lettre de Votre main.
+            </p>
+         </postscript>
+      </body>
+   </text>
+</TEI>

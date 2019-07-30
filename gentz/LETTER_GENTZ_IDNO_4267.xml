@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc xml:id="LETTER_GENTZ_4267">
+         <titleStmt>
+            <title>Friedrich von Gentz an Hugh Elliot, 26. Dezember 1802</title>
+            <editor xml:id="edAG">Andreas Gálffy</editor>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <name>Forschungsstelle "Universitätssammlung Friedrich von Gentz"</name>
+               <link target="http://gentz-digital.ub.uni-koeln.de http://www.ub.uni-koeln.de/cdm/singleitem/collection/gentz/id/4266/"/>
+            </publisher>
+            <pubPlace>Cologne</pubPlace>
+            <idno type="Gentz-Edition-Number" n="4266"/>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <country>United Kingdom</country>
+                  <settlement>Edinburgh</settlement>
+                  <institution>The National Library of Scotland</institution>
+                  <repository>Manuscript Division</repository>
+                  <collection>M. S. 12998</collection>
+                  <idno>Bl. 9-10</idno>
+               </msIdentifier>
+               <msContents>
+                  <summary>
+                     Gentz bedankt sich für das Empfehlungsschreiben Paynes und beschreibt die äußerst willkommene Gastfreundschaft. 
+                     Er drückt auch seine Freude über die Erlebnisse und seinen Dank an Elliot aus und lobt ihn für seinen 
+                     Charakter.
+                  </summary>
+               </msContents>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Masterarbeit zu Matrikelnummer 5584124</p>
+         </projectDesc>
+      </encodingDesc>
+      <profileDesc>
+         <creation>
+            <date when-iso="1802-12-26">26. Dezember 1802</date>
+         </creation>
+        <langUsage>
+           <language ident="f">französisch</language>
+        </langUsage>
+         <textClass>
+            <keywords scheme="internal"><!-- internal: innerhalb des besagten Briefs -->
+               <term>Brief</term>
+               <term>Dankesschreiben</term>
+               <term>London</term>
+               <term>Abreise</term>
+            </keywords>
+            <keywords scheme="categorisation"><!-- Sinnabschnittseinteilung - relevant für den Fahrkartenautomaten! -->
+               <term xml:id="rs">Reise von 1802</term>
+               <term xml:id="vhe">Verhältnis Hugh Elliot</term>
+            </keywords>
+         </textClass>
+         <textDesc>
+            <channel>manuscript</channel>
+            <constitution type="single"/>
+            <derivation type="original"/>
+            <domain type="private"/>
+            <factuality type="fact"/>
+            <interaction type="partial"/>
+            <preparedness type="prepared"/>
+            <purpose type="inform"/>
+         </textDesc>
+         <particDesc>
+            <listPerson>
+               <!-- Sender und Adressat -->
+               <person role="sender" xml:id="Gen">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/118538489"/>
+                     <forename>Friedrich von</forename>
+                     <surname>Gentz</surname>
+                  </persName>
+               </person>
+               <person role="receiver" xml:id="HEl">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/1075473756"/>
+                     <forename>Hugh</forename>
+                     <surname>Elliot</surname>
+                  </persName>
+               </person>
+               <!-- erwähnte Personen -->
+               <person role="named" xml:id="Pyn">
+                  <persName>
+                     <ref />
+                     <forename/>
+                     <surname>Payne</surname>
+                  </persName>
+               </person>
+               <person role="named" xml:id="MmePyn">
+                  <persName>
+                     <ref />
+                     <forename/>
+                     <surname>Payne</surname>
+                     <roleName type="address">Madame</roleName>
+                  </persName>
+               </person>
+            </listPerson>
+         </particDesc>
+         <settingDesc>
+            <listPlace>
+               <!-- Start- und Zielort -->
+               <place type="sender" xml:id="plDv">
+                  <country>
+                     <ref target="http://d-nb.info/gnd/4022153-2"/>
+                     <placeName>Vereinigtes Königreich</placeName>                
+                  </country>
+                  <settlement>
+                     <ref target="http://d-nb.info/gnd/4085482-6"/>
+                     <placeName>Dover</placeName>
+                  </settlement>
+               </place>
+               <place type="receiver" xml:id="plLo">
+                  <country>
+                     <ref target="http://d-nb.info/gnd/4022153-2"/>
+                     <placeName>Vereinigtes Königreich</placeName>                
+                  </country>
+                  <settlement>
+                     <ref target="http://d-nb.info/gnd/4074335-4"/>
+                     <placeName>London</placeName>
+                  </settlement>
+               </place>
+               <!-- erwähnte Orte -->
+               <place type="named" xml:id="plEn">
+                  <country>
+                     <ref target="http://d-nb.info/gnd/4022153-2"/>
+                     <placeName>England</placeName>
+                  </country>
+               </place>
+            </listPlace>
+         </settingDesc>
+      </profileDesc>
+      <revisionDesc>
+         <change xml:id="init" when-iso="2018-03-11" who="#edAG">Erstauszeichnung und Normierung des Dokumentes im Rahmen der Masterarbeit der Matrikelnummer 5584124</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div n="1" corresp="#rs">
+            <p>
+               Je ne saurois assez Vous remercier, cher Monsieur Elliot, de la bontè que Vous avez eue, et du bien que Vous m'avez 
+               fait en me recommandant à <rs type="person" ref="#Pyn">Monsieur Payne</rs>. Arrivé à 
+               <rs type="place" ref="#plDv">Dovres</rs> le jour même que j'etois parti de <rs type="place" ref="#plLo">Londres</rs>, 
+               j'y ai appris que le vent ètoit absolument contraire; et il est restè tel pendant toute la journée 
+               <date when-iso="1802-12-25">d'hier</date> et pendant toute celle d'aujourd'hui, au point que pas un batiment n'a pu 
+               sortir du port. On se flatte qu'il y aura un changement ce soir, et dans ce cas là je partirai avec la marée de la 
+               nuit, à 2 heures du matin. - En attendant, Vous pouvez Vous imaginer combien le séjour de 
+               <rs type="place" ref="#plDv">Dovres</rs> auroit été triste pour moi, si je n'avois pas eu l'avantage précieux de 
+               passer mon tems avec <rs type="person" ref="#Pyn">Monsieur</rs> et <rs type="person" ref="#MmePyn">Madame Payne</rs>, 
+               qui m'ont reçu et logè même dans leur charmante maison, et comblé de politesses de tout genre. - Vous savez 
+               d'ailleurs quelle bonne opinion je m'étois formée sur <rs type="person" ref="#MmePyn">Madame Payne</rs> dès la <pb/> 
+               première fois que je l'avois vue: eh bien ! je n'ai pas passè deux jours avec elle pour changer cette opinion; c'est 
+               ici, au contraire, que je me suis trouvé en état d'apprécier son esprit, son jugement, son caractère, les charmes de 
+               sa conversation, dans toute leur étendue; et je crois m'exprimer avec beaucoup de mesure et de modération, quand je 
+               dis que <rs type="person" ref="#MmePyn">Madame Payne</rs> est une des plus aimables femmes de 
+               <rs type="place" ref="#plEn">l'Angleterre</rs>. J'ai été de même extrêmement content de Monsieur Votre gendre; c'est 
+               un homme parfaitement instruit, connoissant tout ce qu'une excellente éducation Vous met dans le cas de connoitre, et 
+               réunissant une conversation très-solide avec le ton et les manières de la meilleure société.
+            </p>
+         </div>
+         <div n="2" corresp="#vhe">
+            <p>
+               C'est ainsi, Monsieur Elliot, que Vous avez fini l'ouvrage, si heureusement commencé sous Vos auspices, c'est ainsi 
+               <pb/> que Vous avez su répandre des agrémens inattendus sur les derniers momens qui me restent à passer un pays, que 
+               je n'aurois pas abordé sans Votre amitié, sans Votre protection, et sans Vos conseils. Il arrive peut-être rarement à 
+               un homme de rendre à un autre un service aussi grand que celui que Vous m'avez rendu; soyez sûr que je vivrois un 
+               siècle sans que le souvenir pourroit s'en effacer dans mon ame; et que rien ne pourra jamais affoiblir la 
+               reconnoissance profonde qui convient à un si grand bienfait; et que cette reconnoissance a consommé et consolidé 
+               l'attachement sincère que je Vous partois depuis longtems, et avec lequel je ne cesserai d'être
+            </p>
+         </div>
+         <closer>
+            <salute rend="right">Votre trés-humble et</salute>
+            <salute rend="right">très-obéissant serviteur</salute>
+            <dateline rend="right"><rs type="place" ref="#plDv">Dovres</rs> ce <date when-iso="1802-12-26">26 Decbre. 1802</date>.</dateline>
+            <signed rend="right">Gentz.</signed>
+         </closer>
+      </body>
+   </text>
+</TEI>

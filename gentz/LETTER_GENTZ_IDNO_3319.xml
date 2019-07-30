@@ -1,0 +1,272 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc xml:id="LETTER_GENTZ_3319">
+         <titleStmt>
+            <title>Friedrich von Gentz an Karl Gustav von Brinckmann, 21. September 1792</title>
+            <editor xml:id="edAG">Andreas Gálffy</editor>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <name>Forschungsstelle "Universitätssammlung Friedrich von Gentz"</name>
+               <link target="http://gentz-digital.ub.uni-koeln.de http://www.ub.uni-koeln.de/cdm/singleitem/collection/gentz/id/3318/"/>
+            </publisher>
+            <pubPlace>Cologne</pubPlace>
+            <idno type="Gentz-Edition-Number" n="3319"/>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <country>Sweden</country>
+                  <settlement>Trolle-Ljungby</settlement>
+                  <institution>Archiv des Grafen Wachtmeister</institution>
+                  <repository>Nachlaß Brinckmann, Ausländ. Briefwechsel, Gentz an Brinckmann</repository>
+                  <idno>G 3</idno>
+               </msIdentifier>
+               <msContents>
+                  <summary>
+                     Gentz war seit dem Vorabend in einen Lachkrampf verfallen über Brinckmanns Tirade. Indess unternahm er selbst 
+                     eine Gedichtspersiflage - eines Gesprächs zwischen Urim und Eloa. Mit dieser heftigen Satire zieht er über 
+                     einen Jehnisch her, den er zutiefst missachtet. Im Epigraph kündigt er eine Fortsetzung an, in welcher über 
+                     alle Juden hergezogen werden wird.
+                  </summary>
+               </msContents>
+            </msDesc>
+            <listBibl type="preprints">
+               <biblStruct>
+                  <monogr>
+                     <editor>
+                        <persName>
+                           <ref target="http://d-nb.info/gnd/130953075"/>
+                           <forename>Friedrich Carl</forename>
+                           <surname>Wittichen</surname>
+                        </persName>
+                        <persName>
+                           <ref/> <!-- kein GND-Eintrag -->
+                           <forename>Ernst</forename>
+                           <surname>Salzer</surname>
+                        </persName>
+                     </editor>
+                     <title>Briefe von und an Friedrich von Gentz. 4 Bde.</title>
+                     <imprint>
+                        <publisher>Oldenbourg</publisher>
+                        <pubPlace>München, Berlin</pubPlace>
+                        <date>1909-1913</date>
+                     </imprint>
+                     <biblScope unit="volume" n="2">
+                        II
+                     </biblScope>
+                     <biblScope unit="page" from="25" to="26">
+                        Nr. 12
+                     </biblScope>
+                  </monogr>
+               </biblStruct>
+            </listBibl>
+            <listBibl type="defRep">
+               <biblStruct xml:id="p3319-1" corresp="GBk-0022">
+                  <analytic>
+                     <author>
+                        <persName>
+                           <ref target="http://d-nb.info/gnd/100790100"/>
+                           <forename>Daniel</forename>
+                           <surname>Jehnisch</surname>
+                        </persName>
+                     </author>
+                     <title>Borussias, oder der siebenjährige Krieg in acht Gesängen</title>
+                  </analytic>
+                  <monogr>
+                     <author>
+                        <persName>
+                           <ref target="http://d-nb.info/gnd/118632477"/>
+                           <forename>Christoph Martin</forename>
+                           <surname>Wieland</surname>
+                        </persName>
+                     </author>
+                     <title>Der neue teutsche Merkur vom Jahre 1790</title>
+                     <imprint>
+                        <pubPlace>Weimar</pubPlace>
+                        <date>1790</date>
+                     </imprint>
+                     <biblScope unit="volume" n="2">
+                        Zweiter Band
+                     </biblScope>
+                     <biblScope unit="page" from="276" to="298">
+                        S. 276-298
+                     </biblScope>
+                  </monogr>
+                  <ptr target="https://books.google.de/books?id=YJ3NAAAAMAAJ"/>
+               </biblStruct>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Masterarbeit zu Matrikelnummer 5584124</p>
+         </projectDesc>
+      </encodingDesc>
+      <profileDesc>
+         <creation>
+            <date when-iso="1792-09-21">21. September 1792</date>
+         </creation>
+        <langUsage>
+           <language ident="d">deutsch</language>
+        </langUsage>
+         <textClass>
+            <keywords scheme="internal"><!-- internal: innerhalb des besagten Briefs -->
+               <term>Billet</term>
+               <term>Jehnisch</term>
+               <term>Persiflage</term>
+            </keywords>
+            <keywords scheme="categorisation"><!-- Sinnabschnittseinteilung - relevant für den Fahrkartenautomaten! -->
+               <term xml:id="kjeh">Jehnisch</term>
+               <term xml:id="lvm">Literatur vermischt</term>
+            </keywords>
+         </textClass>
+         <textDesc>
+            <channel>manuscript</channel>
+            <constitution type="single"/>
+            <derivation type="original"/>
+            <domain type="private"/>
+            <factuality type="fact"/>
+            <interaction type="partial"/>
+            <preparedness type="unprepared"/>
+            <purpose type="inform"/>
+         </textDesc>
+         <particDesc>
+            <listPerson>
+               <!-- Sender und Adressat -->
+               <person role="sender" xml:id="Gen">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/118538489"/>
+                     <forename>Friedrich von</forename>
+                     <surname>Gentz</surname>
+                  </persName>
+               </person>
+               <person role="receiver" xml:id="KGvB">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/116519770"/>
+                     <forename>Carl Gustav von</forename>
+                     <surname>Brinckmann</surname>
+                  </persName>
+               </person>
+               <!-- erwähnte Personen -->
+               <person role="named" xml:id="Jeh">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/100790100"/>
+                     <forename>Daniel</forename>
+                     <surname>Jehnisch</surname>
+                  </persName>
+               </person>
+               <person role="named" xml:id="HBh">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/118660829"/>
+                     <forename>Hermann</forename>
+                     <surname>Boerhaave</surname>
+                  </persName>
+               </person>
+               <person role="named" xml:id="Buf">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/118517252"/>
+                     <forename>Georges Louis Le Clerc de</forename>
+                     <surname>Buffon</surname>
+                  </persName>
+               </person>
+            </listPerson>
+         </particDesc>
+         <settingDesc>
+            <listPlace>
+               <!-- Start- und Zielort -->
+               <place type="sender" xml:id="plBe">
+                  <country>
+                     <ref target="http://d-nb.info/gnd/4047194-9"/>
+                     <placeName>Preußen</placeName>
+                  </country>
+                  <settlement>
+                     <ref target="http://d-nb.info/gnd/4005728-8"/>
+                     <placeName>Berlin</placeName>
+                  </settlement>
+               </place>
+               <!-- erwähnte Orte -->
+            </listPlace>
+         </settingDesc>
+      </profileDesc>
+      <revisionDesc>
+         <change xml:id="init" when-iso="2018-02-07" who="#edAG">Erstauszeichnung und Normierung des Dokumentes im Rahmen der Masterarbeit der Matrikelnummer 5584124</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>     
+      <body>
+         <opener resp="#KGvB">
+            <dateline rend="right">den <date when-iso="1792-09-21">21. Septbr 1792</date>.</dateline>
+         </opener>
+         <div n="1" corresp="#kjeh">
+            <p>
+               Großen Dank für Ihre göttliche Tirade ! Ich versichre Sie, daß ich mich seit 
+               <date when-iso="1792-09-20">gestern Abend</date> von dem schrecklichsten Lachen so wenig habe erholen können, daß 
+               ich mir heute auf der Straße ein Schnupftuch vorhalten mußte, um nicht ein öffentlich Scandal zu geben, oder für 
+               toll gehalten zu werden.
+            </p>
+            <p>
+               Um indessen mit meinem schwachen Dichter-Genius doch nicht ganz zurück zu bleiben, und 
+               <emph rend="underlined">in einer so schönen Sache</emph>, auch einige Lorbeern zu erringen, habe ich es gewagt ein 
+               Gespräch zwischen <emph rend="underlined">Urim</emph> und <emph rend="underlined">Eloa</emph>, welches bey mir 
+               folgender Gestalt lautet:
+            </p>
+            <lg>
+               <l>. . . . . . Die Welten, sprach Urim,</l>
+               <l>Aller Engel gekrönte Thaten, die Freuden der Engel</l>
+               <l>Sind uns zählbar; allein die Folgen der großen Erlösung</l>
+               <l>Gottes Erbarmungen nicht. Eloa sprach weiter: Ich sehe</l>
+               <l>Seinen Gerichtsstuhl ! Wie schrecklich bist du, Weltrichter, Messias,</l>
+               <l>Schau das Antlitz des großen Gerichts-stuhls ! Er tödtet von ferne ! <pb/></l>
+               <l>Und die zur Rache gerüstete Glut ! Ein lebender Sturmwind</l>
+               <l>Hebt ihn in donnernden Wolken empor. Ach schone, Messias,</l>
+               <l>Schone, Weltrichter, mit deinem Verderben von ferne bewaffnet !</l>
+            </lg>
+            <p>
+               nachzuahmen, und will dieses Probestück Ihrer Critik unterwerfen. Was mir einigermaßen für seine Verwandschaft mit 
+               Ihren Meisterwerken bürgt, ist, daß ich es jetzt vor Lachen kaum niederschreiben kan.
+            </p>
+            <lg>
+               <l><emph rend="underlined">Urim = Fischer Eloa = Herz</emph></l>
+               <l>- - Die Hunde bey Deiner Freytags-Tafel, sprach <emph rend="underlined">Fischer</emph>,</l>
+               <l><emph rend="underlined">Aller</emph> Juden <emph rend="underlined">gekrönte Scheitel</emph>, die Worte der <emph rend="underlined">Kiese-</emph></l>
+               <l><emph rend="underlined">wetter</emph> sind zählbar: allein die Folgen der großen Verhöhnung,</l>
+               <l><emph rend="underlined">Jenischens</emph> Schand-Thaten nicht. Und <emph rend="underlined">Herz</emph> sprach weiter: Ich sehe</l>
+               <l>Seinen Scheiß-Stuhl ! Wie schrecklich bist du, <emph rend="underlined">vers-scheissender Jehnisch !</emph></l>
+               <l>Schau die Brille des dichtrischen Scheiß-Stuhls ! Er ludert von ferne !</l>
+               <l>Und <del rend="stroked">das</del> <add place="above">die</add> zum Kläffen gerüstete Schnautze ! Ein tödtender Sturmwind</l>
+               <l>Braust draus in polternden Versen hervor ! Ach schone doch, Jehnisch !</l>
+               <l>Schone, Welt-Rakker, mit Knoblauch und grausen Citaten bewaffnet ! </l><pb/>
+            </lg>
+            <p>
+               Ganz schlecht ist dieser Versuch gewiß nicht gerathen. Wenigstens kan man den 
+               <emph rend="underlined">gekrönten</emph> Scheiteln <emph rend="underlined">aller</emph> Juden, dem 
+               <emph rend="underlined">Vers-scheissenden</emph>, der kühnen Wortfügung <emph rend="underlined">Welt-Rakker</emph>, 
+               und der Onomatopoiie in dem Verse: <emph rend="underlined">Braust draus</emph> etc. ihre Verdienste nicht 
+               ganz absprechen.
+            </p>
+            <lg>
+               <l>Und nun - <span xml:lang="lat">Si tu quid novisti rectius istis</span></l>
+               <l><span xml:lang="lat">Candidus imperti !</span></l>
+            </lg>
+         </div>
+         <closer>
+            <signed rend="right">Gentz</signed>
+         </closer>
+         <postscript corresp="#lvm">
+            <p>
+               Es ist nun entschieden, daß ich ein <emph rend="underlined">Buch</emph> <del rend="stroked">gern</del> über die 
+               <rs type="citation" ref="#p3319-1"><emph rend="underlined">Borussias</emph></rs> schreibe, und darin zugleich alle 
+               unsre Feinde, wie auch sämmtliche Juden ein für allemahl in den Koth trete. Denn, sagen Sie mir was würde draus, 
+               wenn es einreißen sollte den Eloa-Herz, zwischen 
+               <rs type="person" ref="#HBh"><emph rend="underlined">Börhave</emph></rs> und 
+               <rs type="person" ref="#Buf"><emph rend="underlined">Büffon</emph></rs> !! zu stellen !
+            </p>
+         </postscript>
+      </body>
+   </text>
+</TEI>

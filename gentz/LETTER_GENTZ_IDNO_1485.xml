@@ -1,0 +1,230 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+      <fileDesc xml:id="LETTER_GENTZ_1485">
+         <titleStmt>
+            <title>Friedrich von Gentz an Gustav Mauritz Armfelt, 30. September 1802</title>
+            <editor xml:id="edMG">M. Groh</editor><!-- Vorname von Herrn Groh nicht auffindbar -->
+            <editor xml:id="edAG">Andreas Gálffy</editor>
+            <editor xml:id="edMS">Max Supplieth</editor>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <name>Forschungsstelle "Universitätssammlung Friedrich von Gentz"</name>
+               <link target="http://gentz-digital.ub.uni-koeln.de http://www.ub.uni-koeln.de/cdm/singleitem/collection/gentz/id/1484/"/>
+            </publisher>
+            <pubPlace>Cologne</pubPlace>
+            <idno type="Gentz-Edition-Number" n="1485"/>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <country>Finland</country>
+                  <settlement>Helsinki</settlement>
+                  <institution>Kansallisarkisto</institution>
+                  <repository>Nachlaß Armfelt</repository>
+                  <idno>I/22</idno>
+               </msIdentifier>
+               <msContents>
+                  <summary>
+                     Anlässlich seiner Reise nach London bittet Gentz Armfelt um finanzielle Unterstützung. Er soll einen Wechsel 
+                     von 40 Pfund Sterling ausstellen, da Gentz nicht so schnell an das ihm hinterlegte Geld herankomme. Dieser 
+                     versichter ihm, die Schuld alsbald nach seiner Rückkehr zu begleichen.
+                  </summary>
+               </msContents>
+            </msDesc>
+            <listBibl type="preprints">
+               <biblStruct>
+                  <monogr>
+                     <author>
+                        <persName>
+                           <ref />
+                           <forename>Harry</forename>
+                           <surname>Donner</surname>
+                        </persName>
+                     </author>
+                     <title>Deux adversaires de Napoleon à Vienne (1802-1806)</title>
+                     <imprint>
+                        <pubPlace>Helsingfors</pubPlace>
+                        <date>1939</date>
+                     </imprint>
+                     <biblScope unit="page" from="22" to="23">
+                        Nr. I
+                     </biblScope>
+                  </monogr>
+               </biblStruct>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+     <encodingDesc>
+        <projectDesc>
+           <p change="#init">Erschaffung einer digitalen Edition zu Friedrich von Gentz</p>
+           <p change="#karlstadt">Erschaffung des KVAG-Fahrkartenautomaten</p>
+           <p change="#master">weitere Normierung im Rahmen der Masterarbeit zu Matrikelnummer 5584124</p>
+        </projectDesc>
+     </encodingDesc>
+     <profileDesc>
+        <creation>
+           <date when-iso="1802-09-30">30. September 1802</date>
+        </creation>
+        <langUsage>
+           <language ident="f">französisch</language>
+        </langUsage>
+        <textClass>
+           <keywords scheme="internal">
+              <term>Brief</term>
+              <term>Schutzengel</term>
+              <term>Schuldschein</term>
+           </keywords>
+           <keywords scheme="categorisation">
+              <term xml:id="gprl">Gentz - p(r)ekuniäre Lage</term>
+           </keywords>
+        </textClass>
+        <textDesc n="letter">
+           <!-- text Description -->
+           <channel mode="w">manuscript</channel> 
+           <constitution type="single"/>
+           <derivation type="original"/>
+           <domain type="public"/> 
+           <factuality type="fact"/> 
+           <interaction type="partial"/> 
+           <preparedness type="prepared"/>  
+           <purpose type="inform"/> 
+        </textDesc>
+        <particDesc>
+           <listPerson>
+              <!-- Sender und Adressat -->
+              <person role="sender" xml:id="Gen">
+                 <persName>
+                    <ref target="http://d-nb.info/gnd/118538489"/>
+                    <forename>Friedrich von</forename>
+                    <surname>Gentz</surname>
+                 </persName>             
+              </person>
+              <person role="receiver" xml:id="Arm">
+                 <persName>
+                    <ref target="http://d-nb.info/gnd/116341254"/>
+                    <forename>Gustav Mauritz von</forename>
+                    <surname>Armfeldt</surname>
+                 </persName>
+              </person>
+              <!-- Im Brief erwähnte Personen -->
+           </listPerson>
+        </particDesc>
+        <settingDesc>
+           <listPlace>
+              <!-- Start- und Zielort -->
+              <place type="sender" xml:id="plDd">
+                 <country>
+                    <ref target="http://d-nb.info/gnd/4051176-5"/>
+                    <placeName>Sachsen</placeName> 
+                 </country>
+                 <settlement>
+                    <ref target="http://d-nb.info/gnd/4012995-0"/>
+                    <placeName>Dresden</placeName>
+                 </settlement>
+              </place>
+              <!-- erwähnte Orte -->
+              <place type="named" xml:id="plLo">
+                 <country>
+                    <ref target="http://d-nb.info/gnd/4014770-8"/>
+                    <placeName>England</placeName>
+                 </country>
+                 <settlement>
+                    <ref target="http://d-nb.info/gnd/4074335-4"/>
+                    <placeName>London</placeName>
+                 </settlement>
+              </place>
+              <place type="named" xml:id="plBe">
+                 <country>
+                    <ref target="http://d-nb.info/gnd/4047194-9"/>
+                    <placeName>Preußen</placeName>
+                 </country>
+                 <settlement>
+                    <ref target="http://d-nb.info/gnd/4005728-8"/>
+                    <placeName>Berlin</placeName>
+                 </settlement>
+              </place>
+              <place type="named" xml:id="plEn">
+                 <country>
+                    <ref target="http://d-nb.info/gnd/4014770-8"/>
+                    <placeName>England</placeName>
+                 </country>
+              </place>
+           </listPlace>
+        </settingDesc>
+     </profileDesc>
+     <revisionDesc>
+        <change when-iso="2016-07-06" who="#edAG #edMS">Normierung und weitere Auszeichnung des Dokumentes im Rahmen der Übung "WebApps und Textmining" im Hinblick auf die 
+        zukünftige Masterarbeit von Matrikelnummer 5584124</change>
+        <change when-iso="2018-03-11" who="#edAG">weitere Normierung und Anpassung im Zuge der Masterarbeit zu Matrikelnummer 5584124</change>
+     </revisionDesc>
+  </teiHeader>
+  <facsimile>
+     <graphic url="00000110.jpg" xml:id="seite1"/>
+     <graphic url="00000111.jpg" xml:id="seite2"/>
+  </facsimile>
+  <text>
+      <body>
+          <div n="1" corresp="#gprl">
+             <p>
+                <pb facs="#seite1"/>
+                Pardonnez, mon <rs type="person" ref="#Arm">Général</rs>, et mettez sur le compte de <lb/>
+                la confiance sans bornes que Vous m'avez inspirée, si je Vous <lb/>
+                entretiens un moment d'une chétive affaire particulière. Vous <lb/>
+                savez, que j'ai pris la résolution d'aller à <rs type="place" ref="#plLo">Londres</rs>, pour <lb/>
+                ainsi dire, dans un instant ; or, comme dans <del rend="stroked">la</del> ma position <lb/>
+                actuelle je ne <choice><orig>pourrois</orig><reg>pourrais</reg></choice> pas aisément aller à <rs type="place" ref="#plBe">Berlin</rs>, et qu'il <lb/>
+                ne me reste pas non plus le <choice><orig>tems</orig><reg>temps</reg></choice> pour y écrire, je suis obligé <lb/>
+                d'entreprendre le voyage avec les fonds que j'ai encore sur moi. <lb/>
+                Il est vrai que je suis sûr de trouver de l'argent à <rs type="place" ref="#plLo">Londres</rs>, <lb/>
+                et que la perspective de l'avoir plutôt et à des conditions plus <lb/>
+                favorables que par les correspondances est même entrée pour <lb/>
+                quelque chose dans les motifs de mon projet, quoiqu'il n'en <lb/>
+                est pas été le principale à beaucoup près. Cependant je <lb/>
+                <choice><orig>pourrois</orig><reg>pourrais</reg></choice> être obligé d'attendre plusieurs semaines avant <lb/>
+                de toucher cet argent ; et l'idée seule de me trouver, <del rend="stroked"><unclear>dans</unclear></del> <lb/>
+                ne fut-ce que pour un moment, dans un embarras pécuniaire <lb/>
+                dans cette ville immense, me fait frémir. Est-ce que Vous <lb/>
+                auriez assez de bonté et assez de confiance envers moi, <lb/>
+                pour me donner une assignation, lettre de change ou lettre <lb/>
+                de crédit <del rend="stroked"><unclear>de</unclear></del> payable <emph rend="underlined">à <rs type="place" ref="#plLo">Londres</rs></emph> pour la petite somme <lb/>
+                de 40 <choice><abbr>Liv. Sterl.</abbr><expan>Livres Sterling</expan></choice> seulement? Je suis persuadé que par un <lb/>
+                arrangement avec quelque banquier d'ici il Vous <choice><orig>seroit</orig><reg>serait</reg></choice> <lb/>
+                très-facile de me la procurer ; je ne la demande que <lb/>
+                pour deux mois ; et je Vous donne ma parole sacrée, <pb facs="#seite2"/>
+                que dès mon retour d'<rs type="place" ref="#plEn">Angleterre</rs>, et même <add place="above">avant mon départ de</add> <rs type="place" ref="#plLo">Londres</rs> <lb/>
+                si cela <choice><orig>pourroit</orig><reg>pourrait</reg></choice> Vous convenir, je Vous rembourserai <lb/>
+                fidèlement. C'est une indiscrétion, je le sais bien ; <lb/>
+                que de Vous adresser cette proposition ; mais les petites <lb/>
+                affaires pécuniaires me <choice><orig>paroissent</orig><reg>paraissent</reg></choice> être si fort <lb/>
+                au dessous de la sphère élevée dans laquelle <lb/>
+                Votre <choice><orig>ame</orig><reg>âme</reg></choice> est accoutumée de respirer, que j'ai <lb/>
+                cru ne pas même Vous déranger en Vous parlant <lb/>
+                d'un objet, qui dans ce moment-ci a une cer-<lb/>
+                taine importance <emph rend="underlined">négative</emph> pour moi, parce qu'il <lb/>
+                <choice><orig>pourroit</orig><reg>pourrait</reg></choice> me troublait momentanément dans l'exécution <lb/>
+                d'un des plus beaux projets, que j'aie jamais conçus.
+             </p>
+             <p>
+                Agréez, Mon <rs type="person" ref="#Arm">Général</rs>, l'hommage de tous <lb/>
+                les <choice><orig>sentimens</orig><reg>sentiments</reg></choice> d'admiration et d'attachement que <lb/>
+                vous avez fait <choice><orig>naitre</orig><reg>naître</reg></choice> en moi, et qui rien au <lb/>
+                monde ne <choice><orig>sauroit</orig><reg>saurait</reg></choice> plus <choice><orig>efface</orig><reg>effacer</reg></choice> ; agréez celui <lb/>
+                du dévouement aussi respectueux qu'inviolable <lb/>
+                avec lequel j'ai l'honneur d'être
+             </p>
+          </div>
+          <closer>
+             <salute rend="right">Votre tres humble<lb/>
+             et très-obéissant serviteur</salute>
+             <dateline rend="left"><rs type="place" ref="#plDd">Dresde</rs> <date when-iso="1802-09-30">30 Septb 1802.</date> </dateline>
+             <signed rend="right">Gentz.</signed>
+          </closer>
+      </body>
+  </text>
+</TEI>
+

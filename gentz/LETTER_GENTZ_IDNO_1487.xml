@@ -1,0 +1,682 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader type="text">
+      <fileDesc xml:id="LETTER_GENTZ_1487">
+         <titleStmt>
+            <title>Friedrich von Gentz an Elisabeth Graun, 8. April 1786</title>
+            <editor xml:id="edAG">Andreas Gálffy</editor>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <name>Forschungsstelle "Universitätssammlung Friedrich von Gentz"</name>
+               <link target="http://gentz-digital.ub.uni-koeln.de http://www.ub.uni-koeln.de/cdm/singleitem/collection/gentz/id/1486/"/>
+            </publisher>
+            <pubPlace>Cologne</pubPlace>
+            <idno type="Gentz-Edition-Number" n="1487"/>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <country>Poland</country>
+                  <settlement>Cracow</settlement>
+                  <institution>Biblioteka Jagiellońska</institution>
+                  <repository>Handschriftenabtelung</repository>
+                  <collection>Varnhagensammlung der ehemaligen Preußischen Bibliothek</collection>
+                  <idno>Karton 66</idno>
+               </msIdentifier>
+               <msContents>
+                  <summary>
+                     Der folgende Brief thematisiert die Lebensgeschichte von Elisabeth Graun als eine Erklärung für ihre missliche 
+                     Lage und (womöglich) als ein Trostspender. Gentz merkt aus den verganenen Briefen, dass Elisabeth Graun 
+                     überhaupt nicht glücklich ist. Er sieht die Ursache an der Erzeihung, wo sie durch ihre Mutter keine 
+                     Resolutheit erfahren hat. Sie sei gegen die Umtrieben des Lebens nicht gewappnet. Nichtsdestotrotz hat die 
+                     Natur viel an ihr getan, so Gentz weiter, und dieses Urteil dürfe nur jemand fällen, der Frau Graun in- und 
+                     auswendig kennt. Die Freunde der Jugend konnten Graun auch nicht die Fehler beheben, nicht in dem Maße, in dem 
+                     es notwendig gewesen wäre. Und der Ehemann der Frau Graun kommt auch nicht gut weg; Gentz wirft ihm vor, seine 
+                     Frau nie zu kennen und für kalt zu halten. Mit einem Zitat aus einem Trauerspiel Corneilles fasst er alles 
+                     zusammen: Frau Graun bleibe nur sich selbst.
+                     Allgemeine Regeln zum Glücklichwerden kann man nicht geben; der Weg zum Glück liegt nur in einem selbst.
+                     Die größte Schwierigkeit sei bei Elisabeth Graun, dass sie die Übel des Lebens nicht gefasst genug 
+                     (Gentz wörtlich mutig genug) annehme und der größte Fehler, dass sie dort Heilung suche, wo es keine gibt. Er 
+                     erwähnt weiter die wichtigsten Verhältnisse und hebt dabei Le Noble hervor. Auf diesen geht er nochmal 
+                     gesondert ein, nämlich mit einem Appell, ihn aus seinem Verdruß zu lösen und die Freundschaft mit ihm zu 
+                     wahren. Gentz schiebt in die Erklärung dazwischen, dass er Jean Jacques Rousseaus Heloise gelesen hat und er 
+                     darüber eine Empfehlung ausspricht: keinesfalls die ersten beiden Teile, dafür aber ab den dritten Teil zu 
+                     lesen; letztere sogar in Gold zu fassen.
+                     Nach einem Rat Rausch nur sehr sparsam zu genießen und nach Möglichkeit zu meiden, da sie Untergang bringen, 
+                     wiederholt Gentz abermals seine Gefühle und seine Zuneigung zu Elisabeth Graun. Er freut sich über jeden 
+                     Moment des Glückes, den er ihr spenden kann, und stellt ihr die Bitte, ihm als Freund zu schreiben. Er könnte 
+                     jetzt auch über seine Laster und Schwachheiten resümieren; er erwähnt lediglich die Liebe zu Coelestine, die 
+                     nicht erkaltet ist. Gentz bedankt sich noch für ein Geschenk, das er von ihr durch Le Noble erhalten hat, und 
+                     wünscht ihr alles Gute zum Geburtstag. Im Epigraph vernimmt Gentz die Stimme des Regierungsrates Graun.
+                  </summary>
+               </msContents>
+            </msDesc>
+            <listBibl type="preprints">
+               <biblStruct>
+                  <monogr>
+                     <editor>
+                        <persName>
+                           <ref target="http://d-nb.info/gnd/130953075"/>
+                           <forename>Friedrich Carl</forename>
+                           <surname>Wittichen</surname>
+                        </persName>
+                        <persName>
+                           <ref/> <!-- kein GND-Eintrag -->
+                           <forename>Ernst</forename>
+                           <surname>Salzer</surname>
+                        </persName>
+                     </editor>
+                     <title>Briefe von und an Friedrich von Gentz. 4 Bde.</title>
+                     <imprint>
+                        <publisher>Oldenbourg</publisher>
+                        <pubPlace>München, Berlin</pubPlace>
+                        <date>1909-1913</date>
+                     </imprint>
+                     <biblScope unit="volume" n="1">
+                        I
+                     </biblScope>
+                     <biblScope unit="page" from="78" to="87">
+                        Nr. 17
+                     </biblScope>
+                  </monogr>
+               </biblStruct>
+               <biblStruct>
+                  <monogr>
+                      <editor>
+                         <persName>
+                            <ref target="http://d-nb.info/gnd/117325791"/>
+                            <forename>Gustav</forename>
+                            <surname>Schlesier</surname>
+                         </persName>
+                      </editor>
+                      <title>Schriften von Friedrich von Gentz. Ein Denkmal. 5 Bde.</title>
+                      <imprint>
+                          <publisher>Verlag von Heinrich Wolff</publisher>
+                          <pubPlace>Mannheim</pubPlace>
+                          <date>1838-1840</date>
+                      </imprint>
+                      <biblScope unit="volume" n="1">
+                          I
+                      </biblScope>
+                      <biblScope unit="page" from="67" to="78">
+                          Nr. 8
+                      </biblScope>
+                  </monogr>
+               </biblStruct>
+               <biblStruct>
+                  <monogr>
+                     <author>
+                        <persName>
+                           <ref target="http://d-nb.info/gnd/117121150"/>
+                           <forename>Margarete</forename>
+                           <surname>von Olfers</surname>
+                        </persName>
+                     </author>
+                     <title>Elisabeth v. Staegemann. Lebensbild einer deutschen Frau 1761-1835</title>
+                     <imprint>
+                        <publisher>Koehler &amp; Amelang</publisher>
+                        <pubPlace>Leipzig</pubPlace>
+                        <date>1939</date>
+                     </imprint>
+                     <biblScope unit="page" from="57" to="63">
+                        57-63 (teilweise)
+                     </biblScope>
+                  </monogr>
+               </biblStruct>
+            </listBibl>
+            <listBibl type="letterReferenced">
+               <bibl xml:id="c1487-1" corresp="#LETTER_GENTZ_3069">Friedrich von Gentz an Elisabeth Graun, 31. Dezember 1785</bibl>
+               <bibl xml:id="c1487-2" corresp="#LETTER_GENTZ_NNNN">nicht bekannter Brief von Elisabeth Graun an Friedrich von Gentz</bibl>
+               <bibl xml:id="c1487-3" corresp="#LETTER_GENTZ_5037">Friedrich von Gentz an Elisabeth Graun, 10. April 1785</bibl>
+               <bibl xml:id="c1487-4" corresp="#LETTER_GENTZ_NNNN">nicht bekannter Brief von Le Noble an Friedrich von Gentz</bibl>
+            </listBibl>
+            <listBibl type="defExpr">
+               <biblStruct xml:id="e1487-1" corresp="BnF-0003">
+                  <monogr>
+                     <author>
+                        <persName>
+                           <ref target="http://d-nb.info/gnd/118522175"/>
+                           <forename>Pierre</forename>
+                           <surname>Corneille</surname>
+                        </persName>
+                     </author>
+                     <title>Médée</title>
+                     <imprint>
+                        <pubPlace>Paris</pubPlace>
+                        <publisher>François Targa</publisher>
+                        <date>1639</date>
+                     </imprint>
+                  </monogr>
+               <ptr target="http://gallica.bnf.fr/ark:/12148/bpt6k71339h"/></biblStruct>
+               <biblStruct xml:id="e1487-2" corresp="GBk-0005">
+                  <monogr>
+                     <author>
+                        <persName>
+                           <ref target="http://d-nb.info/gnd/118603426"/>
+                           <forename>Jean Jacques</forename>
+                           <surname>Rousseau</surname>
+                        </persName>
+                     </author>
+                     <title>Lettres sur la Nouvelle Héloïse ou Aloisia</title>
+                     <imprint>
+                        <date>1761</date>
+                     </imprint>
+                  </monogr>
+               <ptr target="https://books.google.de/books?id=3XqzHjKur78C"/></biblStruct>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Masterarbeit zu Matrikelnummer 5584124</p>
+         </projectDesc>
+      </encodingDesc>
+      <profileDesc>
+         <creation>
+            <date when-iso="1786-04-08">8. April 1786</date>
+         </creation>
+        <langUsage>
+           <language ident="d">deutsch</language>
+        </langUsage>
+         <textClass>
+            <keywords scheme="internal"><!-- internal: innerhalb des besagten Briefs -->
+               <term>Brief</term>
+               <term>Graun</term>
+               <term>Coelestine</term>
+               <term>Sehnsucht</term>
+               <term>Liebe</term>
+               <term>Rousseau</term>
+               <term>Philosophie</term>
+               <term>Regierungsrat Graun</term>
+               <term>Glück</term>
+            </keywords>
+            <keywords scheme="categorisation"><!-- Sinnabschnittseinteilung - relevant für den Fahrkartenautomaten! -->
+               <term xml:id="veg">Verhältnis Elisabeth Graun</term>
+               <term xml:id="krrg">Regierungsrat Graun</term>
+               <term xml:id="philw">Philosophie - Lebenswege</term>
+               <term xml:id="klno">Le Noble</term>
+               <term xml:id="krou">Rousseau</term>
+               <term xml:id="kcoe">Coelestinen</term>
+            </keywords>
+         </textClass>
+         <textDesc>
+            <channel>manuscript</channel>
+            <constitution type="single"/>
+            <derivation type="original"/>
+            <domain type="private"/>
+            <factuality type="fact"/>
+            <interaction type="partial"/>
+            <preparedness type="prepared"/>
+            <purpose type="inform"/>
+         </textDesc>
+         <particDesc>
+            <listPerson>
+               <!-- Sender und Adressat -->
+               <person role="sender" xml:id="Gen">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/118538489"/>
+                     <forename>Friedrich von</forename>
+                     <surname>Gentz</surname>
+                  </persName>
+               </person>
+               <person role="receiver" xml:id="Gra">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/123518733"/>
+                     <forename>Elisabeth</forename>
+                     <surname>Graun</surname>
+                  </persName>
+               </person>
+               <!-- erwähnte Personen -->
+               <person role="named" xml:id="lno">
+                  <persName>
+                     <ref/>
+                     <forename>David oder Jeremias</forename>
+                     <surname>Le Noble</surname>
+                     <certainty locus="name">
+                        <desc>ist unklar! Entnommen aus: Gause, Fritz. Friedrich Gentz in Königsberg. In: Jahrbuch der Schlesischen Friedrich-Wilhelms-Universität zu Breslau, Band XVIII. 1973. Berlin: Duncker &amp; Humblot. S. 325</desc>
+                     </certainty>
+                  </persName>
+               </person>
+               <person role="named" xml:id="coe">
+                  <persName>
+                     <ref/><!-- kein GND-Eintrag -->
+                     <forename>Coelestine</forename>
+                     <surname>Schwinck</surname>
+                     <roleName type="address">Mademoiselle</roleName>
+                  </persName>
+               </person>
+               <person role="named" xml:id="CHG">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/118541706"/>
+                     <forename>Carl Heinrich</forename>
+                     <surname>Graun</surname>
+                  </persName>
+               </person>
+               <person role="named" xml:id="Hgr">
+                  <persName>
+                     <ref/>
+                     <forename>Hannchen</forename>
+                     <surname>Graun</surname>
+                     <roleName type="family">Schwiegermutter der Elisabeth Graun</roleName>
+                  </persName>
+               </person>
+               <person role="named" xml:id="RRGra">
+                  <persName>
+                     <ref/><!-- kein GND-Eintrag -->
+                     <forename>Karl Heinrich</forename>
+                     <surname>Graun</surname>
+                     <roleName type="office">Regierungsrat</roleName>
+                  </persName>
+               </person>
+               <person role="named" xml:id="Cor">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/118522175"/>
+                     <forename>Pierre</forename>
+                     <surname>Corneille</surname>
+                  </persName>
+               </person>
+               <person role="named" xml:id="Rou">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/118603426"/>
+                     <forename>Jean Jacques</forename>
+                     <surname>Rousseau</surname>
+                  </persName>
+               </person>
+               <person role="named" xml:id="RHa">
+                  <persName>
+                     <ref/>
+                     <forename>Regina</forename>
+                     <surname>geb. Hartung</surname>
+                  </persName>
+               </person>
+            </listPerson>
+         </particDesc>
+         <settingDesc>
+            <listPlace>
+               <!-- Start- und Zielort -->
+               <place type="sender" xml:id="plBe">
+                  <country>
+                     <ref target="http://d-nb.info/gnd/4047194-9"/>
+                     <placeName>Preußen</placeName>  
+                  </country>
+                  <settlement>
+                     <ref target="http://d-nb.info/gnd/4005728-8"/>
+                     <placeName>Berlin</placeName>
+                  </settlement>
+               </place>
+               <place type="receiver" xml:id="plKo">
+                  <country>
+                     <ref target="http://d-nb.info/gnd/4047194-9"/>
+                     <placeName>Preußen</placeName>  
+                  </country>
+                  <settlement>
+                     <ref target="http://d-nb.info/gnd/4031541-1"/>
+                     <placeName>Königsberg</placeName>
+                  </settlement>
+               </place>
+               <!-- erwähnte Orte -->
+            </listPlace>
+         </settingDesc>
+      </profileDesc>
+      <revisionDesc>
+         <change xml:id="init" when-iso="2018-01-27" who="#edAG">Erstauszeichnung und Normierung des Dokumentes im Rahmen der Masterarbeit der Matrikelnummer 5584124</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div n="1" corresp="#veg">
+            <p>
+               Ich bin in einer großen Schuld bey Ihnen, meine liebe, theure Freundinn, und doch ist mir recht wol, daß ich drin 
+               bin, weil ich das süße Vergnügen vor mir habe, mich ihrer, in den Stunden die diesem Briefe gewidmet sind, zu 
+               entledigen.
+            </p>
+            <p>
+               Ich sehe, meine beste Graunin, <del rend="stroked">daß</del> aus Ihren beyden letzten Briefen, daß Sie - ein 
+               einziges Verhältniß, oder vielmehr, eine einzige Seite dieses einzigen Verhältnißes ausgenommen - noch in allen 
+               Betrachtungen ohngefähr auf eben dem Punkte sind, auf dem ich Sie verließ. Sobald von persönlichem Intereße die 
+               Rede ist, so kan diese Bemerkung Keinem angenehmer seyn, als mir. Ich weis, daß ich damals eine nicht 
+               unbeträchtliche Stelle, in Ihrer Achtung, in Ihrer Freundschaft, in Ihrem Herzen hatte: ich weis es, und freue 
+               mich, wenn ich sehe und fühle, daß ich diesen unschätzbaren Vorzug nicht verlohren habe, wenn ich sehe und fühle, 
+               daß Sie mich noch, wie damals, für werth halten, der Vertraute einer so schönen Seele, und ihrer geheimsten 
+               Empfindungen zu seyn. Sie wißen, was mir Ihre Freundschaft von jeher gewesen ist, und daß sie allein mir das Leben 
+               werth machen konnte zu einer Zeit, wo es mir in allen andern Betrachtungen auf eine recht schrekliche Art 
+               gleichgültig zu werden anfieng.
+            </p>
+            <p>
+               Wenn ich nun aber weniger auf mich, als auf Sie Selbst sehe, so stellt sich die Frage: "Ist es gut, daß sie ganz so 
+               blieb ?" schon viel bedenklicher auf, weil sich dann blos frägt: "Ist es <emph rend="underlined">ihr</emph>gut ?"
+            </p>
+            <p>
+               Recht glücklich sind Sie nicht. Sie waren es damals nicht. Sie waren es einst - aber auf kurze Zeit. Diese wenigen 
+               Jahre die unter den Freuden und Hoffnungen des ersten Jugend-Traumes so schön - und so schnell - dahinfloßen, 
+               sollten sie die Summe aller Glückseeligkeit enthalten, die Ihnen auf der Welt beschieden war ? Sollten Sie in 
+               Zukunft nur leben, um jene frühen Tage zu beweinen ? - Nein ! <pb/> Sie sind viel zu sehr geschaffen, um glücklich 
+               zu seyn, als daß Sie, als daß ich es wagen wollte, diesen Frevel zu denken. Was bleibt also übrig ? Sie müßen 
+               schlechterdings suchen, glücklich zu <emph rend="underlined">werden</emph>.
+            </p>
+            <p>
+               Die Natur hat - unendlich viel an Ihnen gethan. Unendlich viel ! - o ! Freundinn ! Dürfte ich das Ihnen erst 
+               vorrechnen ? Die Welt selbst nennt Sie eine schöne, eine liebenswürdige, eine verständige, eine gute Frau. O ! sie 
+               kennt noch das Wenigste. Nur der, der wie ich, in den Tiefen Ihres Herzens las, der diesen unerkäuflichen 
+               Reichthum der schönsten, wärmsten, edelsten Gefühle, für Alles was Gut und Liebenswerth ist, der diese Seele, offen 
+               durch ihre hohe Empfindsamkeit allen den Eindrücken, wofür Tausende gar nicht einmal eine Idee, vielweniger einen 
+               Sinn haben, gekannt, geliebt - und wäre das zu stolz ? - mit sich vereinigt gefühlt hat, nur der darf sagen: die 
+               Natur hat unendlich viel an Ihnen <del rend="stroked">kan</del> gethan. Fragen Sie Sich Selbst in Augenblicken, wo 
+               Ihr weiches, empfindsames Herz, Ihr feines, gebildetes Gefühl, Sie allen Leiden aussetzt, die nur ein solches Herz 
+               oder doch gewiß nur so stark empfindet, fragen Sie Sich, ob Sie, selbst in diesen Augen Blicken, dies Herz 
+               vertauschen wollten ? Nein ! für keinen Preis würden Sie die Quelle unsäglicher Freuden hingeben, wenn Sie der 
+               Tausch auch gegen hundert trübe Stunden auf ewig sicherte. Ziehen Sie daraus den untrüglichen Schluß, daß dies Herz 
+               mehr werth ist, als Alles was Sie gegen seinen Verlust gewinnen könnten, und daß Sie folglich wenigstens Einen 
+               unverliehrbaren Schatz mit sich tragen, der mehr werth ist, als alles, was die Welt Ihnen jemals zu geben vermag !
+            </p>
+            <p>
+               Hätten Sie bey diesem unaussprechlichen, mit Nichts zu vergleichenden Vorzuge, deßen hohen Werth nur der, und nur 
+               der allein fühlt, der ihn <emph rend="underlined">in sich</emph> fühlt, nur von jeher einen weisen, guten und 
+               liebreichen Führer gehabt, so ist kein Zweifel, daß Sie eben so die glücklichste <pb/> Frau geworden wären, als Sie 
+               die liebenswürdigste geworden sind. Aber, das hat Ihnen von jeher gefehlt. Ihre vortrefliche Mutter, mit aller ihrer 
+               unaussprechlichen Liebe für Sie, mit allen den Vollkommenheiten, die mir sie, wenn sie auch nicht 
+               <rs type="person" ref="#RHa">Ihre Mutter</rs> wäre, auf ewig ehrwürdig machen würde<del rend="stroke">n</del>, 
+               hatte nur einen Fehler. Aber unglücklicher Weise für Sie, gute Graunin, unglücklicher Weise war es gerade 
+               derselbige, an dem Sie danieder lagen. Sie war zu weich. Um Sie zu erziehen, das heißt, um Sie zur 
+               <emph rend="underlined">Glückseeligkeit</emph> zu bilden, mußte man Ihr weiches Herz, gegen die Übel die uns auf der 
+               harten Bahn des Lebens erwarten, <emph rend="underlined">stählen</emph>, mußte man Ihre Leidenschaften die nie 
+               heftig sind, aber desto tiefer in der Seele liegen, ohnvermerkt beruhigen, Ihrem unüberwindlichen Hang zu allen 
+               Tugenden eine männliche Kraft geben; und, damit ich nur das ganze Geheimniß verrathe, man mußte Sie auf Kosten 
+               Ihrer Liebenswürdigkeit glücklich, weniger reitzend, weniger bezaubernd für Alle, die sich Ihnen nähern, und desto 
+               zufriedner mit sich selbst machen.
+            </p>
+            <p>
+               War <rs type="person" ref="#RHa">Ihre Mutter</rs> das nicht im Stande, so war es von allen Andern, mit denen Sie 
+               je in naher Verbindung waren, vollends keiner. Ich kenne <rs type="person" ref="#CHG">Ihren Vater</rs> fast gar 
+               nicht: aber mit aller Hochachtung, die der Vater einer solchen Tochter verdient, sey es gesagt: Eine solche Tochter 
+               überstieg seine ganze Erziehungs-Fähigkeit. Er konnte noch zehnmal feiner empfinden, noch zehnmal scharfsinniger 
+               beurtheilen, noch zehnmal richtiger Menschen-Werth fühlen, und doch war er noch nicht im Stande, eine 
+               <emph rend="underlined">solche</emph> Tochter zu erziehen.Die Freunde und Freundinnen Ihre ersten Jugend - O ! 
+               fürchten Sie nicht, daß ich sie tadeln, daß ich sie lästern werde. Ich weis, was es heißt, mit Ihnen umgehen, und 
+               Ihnen predigen wollen. Ich weis, wie Sie durch einen unwillkührlichen Blick, durch eine kaum überdachte Aeußerung 
+               einer Empfindung, den Tadel selbst stumm machen können. Ich verzeihe es also Ihren damaligen Freunden, <pb/> daß sie 
+               es nicht wagten, Fehler zu rügen, die selbst mit schimmerten in der Krone Ihrer Liebenswürdigkeit: Gern verzeihe ich 
+               es Ihnen, daß sie zu berauscht waren in dem Wirkungs-Kreise aller Ihrer Vollkommenheiten, um der Gottheit, nur recht 
+               ins Gesicht zu sehen, die sie anbeteten. - Wie oft habe ich selbst mit Ihnen geweint, wenn ich vor Ihnen moralisiren 
+               wollte !
+            </p>
+         </div>
+         <div n="2" corresp="#krrg">
+            <p>
+               Wer blieb übrig ? <rs type="person" ref="#RRGra">Ihr Mann</rs>. Sollte der das gekonnt haben, was 
+               <rs type="person" ref="#RHa">Ihre Mutter</rs> nicht vermochte ? - Sollte er es noch können ? - Ich bin weit 
+               entfernt, hier, da es mir blos um die Ruhe und Glückseeligkeit Ihres Lebens zu thun ist, auf den Mann zu schelten, 
+               mit dem Sie nun einmal bestimmt sind, es hinzubringen. Im Gegentheil habe ich Sie oft ermuntert, anstatt über seine 
+               schlimmen Seiten zu jammern, lieber seine guten aufzusuchen und zu nutzen. So viel ist indeßen ausgemacht: Er konnte 
+               Sie nicht lehren, glücklich <add place="above">zu</add> seyn. Unter den tausend Ursachen, die Ihnen, so wie mir von 
+               dieser Wahrheit in die Augen springen, darf ich nur Eins für Alles anführen. Er kannte Sie nie. Er kennt Sie so 
+               wenig, daß er sogar einen Ihrer grösten Fehler darin zu finden glaubt, was doch in einem gewißen Grade unstreitig 
+               eine Vollkommenheit mehr an Ihnen seyn würde. Er hielt Sie und hält Sie für <emph rend="underlined">kalt</emph>: und 
+               ahndet es nicht einmal, daß Sie glücklicher seyn würden, wenn Sie <emph rend="underlined">kälter</emph> wären, als 
+               Sie sind. Er kan Sie also schlechterdings nie in einen andern Zustand versetzen, weil er nicht einmal von Ihrem 
+               jetzigen eine richtige Vorstellung hat, und, was das Schlimmste ist, weil Sie aus tausend nur allzu gegründeten 
+               Ursachen auf seiner, und aus tausend nicht weniger gegründeten Ursachen auf Ihrer Seite, ihm auch nie eine richtige 
+               Vorstellung davon machen dürfen.
+            </p>
+            <p>
+               In <rs type="citation" ref="#e1487-1">dem berühmten Trauerspiele</rs> des 
+               <rs type="person" ref="#Cor">Corneille</rs>, sagt die Vertraute der Medea, da sie sieht, daß diese sich 
+               schlechterdings bis auf den letzten Augen Blick gegen ihr widriges Schicksal zur Wehr setzen <pb/> will, zu ihr: 
+               <cit corresp="#e1487-1">
+                  <quote>Siehe ! dein Vater, dein Gemahl, dein Vaterland, die Welt selbst verläßt dich: was bleibt dir übrig ?</quote>
+               </cit>
+               - Und - Medea antwortet stolz und erhaben: 
+               <cit corresp="#e1487-1">
+                  <quote>Ich selbst.</quote>
+               </cit>
+            </p>
+            <p>
+               Erlauben Sie mir, beste Freundinn, daß ich den Ausspruch auf Sie anwende. Um recht glücklich zu werden, haben Sie 
+               nur noch eine einzige Quelle: und die liegt in Ihnen selbst.
+            </p>
+         </div>
+         <div n="3" corresp="#philw">
+            <p>
+               Alle allgemeine Maximen und Glükseeligkeits-Regeln, so schön und erhaben sie klingen, sind eben wegen ihrer 
+               Allgemeinheit in einer gewißen Betrachtung unfruchtbar und unnütz. Denn, sollten Sie es nicht auch gefunden haben, 
+               daß, sobald es darauf ankömmt, solche allgemeine Regeln bey sich selbst in Anwendung zu bringen, man immer gewiße 
+               besondre Umstände <del rend="stroked">finden</del>, die in der ganz reinen Allgemeinheit nicht mit begriffen werden 
+               konnten, antrift, die uns bald dahin führen, daß wir glauben, die Vorschrift würde bey uns doch eine Ausnahme 
+               finden. Wenn Sie diese Bemerkung nicht schon gemacht haben sollten, so stehe ich Ihnen dafür, sie wird Ihnen bey 
+               gehöriger Aufmerksamkeit nicht entwischen.
+            </p>
+            <p>
+               Der sicherste Weg zur Glückseeligkeit ist also das Studium unsers eignen Herzens. Keine beßern Arzneyen für alle 
+               Seelen-Uebel, als die, die wir uns selbst vorschreiben und zubereiten. Ein Mensch, der nur einiger Maßen geschickt 
+               ist, sich selbst zu beobachten, kennt immer seine Schwächen beßer, als jeder Andre: und wir müßten in einem ganz 
+               besondern Taumel seyn, wenn es uns nicht wenigstens alle Tage einmal einfallen sollte, welche Tugend wir am 
+               wenigsten ausüben.
+            </p>
+         </div>
+         <div n="4" corresp="#veg">
+            <p>
+               Ihre gröste Schwachheit ist die: daß Sie die Uebel des Lebens nicht muthig genung tragen; und Ihr gröster Fehler 
+               der, daß Sie Heilungs-Mittel suchen, die es schlechterdings nicht sind.
+            </p>
+            <p>
+               (O wie gut ist es, daß ich in diesem Augen Blicke nicht neben Ihnen sitze !)
+            </p>
+            <p>
+               Die drey grösten und wichtigsten Verhältniße, in denen Sie Sich <pb/> <add place="above">befinden</add> sind: das 
+               mit Ihren Kindern, mit <rs type="person" ref="#RRGra">Ihrem Manne</rs>, und mit - 
+               <rs type="person" ref="#lno">leNoble</rs>. Sagen Sie dagegen, was Sie wollen: wäre dies dritte nicht wirklich 
+               eins Ihrer wichtigsten, so hätte ich Ihnen weiter Nichts zu sagen.
+            </p>
+            <p>
+               Ueber den ersten Punkt habe ich schon <ref target="#r1487-1">neulich</ref> die Dreistigkeit gehabt zu sprechen. 
+               Dreistigkeit nenne ich das, weil ich von Erziehung erst nach - Jahren sprechen sollte. Aber Sie wißen, wir 
+               Philosophen sprechen vom Himmel und von der Hölle, ob wir gleich in beyden Orten nicht gewesen sind. Genung, wenn 
+               Sie, was ich sagte, wahr fanden, so ist kein Zweifel, daß Sie in der Erziehung Ihrer Kinder Ersatz für alle 
+               verlohrne Lebens-Freuden finden können. Für <emph rend="underlined">alle</emph>, sage ich. Und habe ich Unrecht, 
+               süße, empfindungsvolle Mutter ?
+            </p>
+            <p>
+               <rs type="person" ref="#RRGra">Ihr Mann</rs> - Sie wißen, wie ich über den Punkt denke. Es ist unendlich schwer, 
+               daß Sie mit <rs type="person" ref="#RRGra">Ihrem Mann</rs> glücklich leben sollen. Schwer: aber nicht unmöglich. 
+               Sobald es Ihnen im Ernst darum zu thun ist, glücklich zu leben, so werden Sie sicherlich Mittel entdecken gegen alle 
+               Hinderniße die <rs type="person" ref="#RRGra">Ihr Mann</rs> Ihren Bemühungen in den Weg legen könnte. Noch mehr: 
+               Gienge es nach Ordnung in der Welt, so hätten Sie den vortreflichsten, den ersten aller Männer verdient: aber im 
+               Reiche der Finsterniß kan ein wohlthätiger Engel des Himmels ja doch sein Licht 
+               <emph rend="underlined">verbreiten</emph>, wenn er es auch nicht darin <emph rend="underlined">findet</emph>. 
+               Verständen Sie mich nicht ? O ! es muß ein hoher Triumph einer Frau seyn, ihren Mann selbst umzuschaffen. Sie sind 
+               seiner werth.
+            </p>
+         </div>
+         <div n="5" corresp="#klno">
+            <p>
+               Ich glaube Ihnen auf Ihre wiederholten Versicherungen, daß Ihr Umgang mit 
+               <rs type="person" ref="#lno">le Noble</rs> nicht mehr derselbige ist, der er zur Zeit war, als ich Sie verließ. 
+               Aber, sehn Sie, das ist die Schwachheit von Seelen unsrer Art: wir gehn immer auf einer Seite zu weit. Ich sehe aus 
+               leNobles ganzem Briefe, daß <del rend="stroked">le</del> er unzufrieden mit Ihnen ist, unzufrieden mit der Art, wie 
+               Sie mit ihm umgehen, - (nebenbey ganz vorzüglich unzufrieden mit mir, <pb/> den er für den Urheber dieses ganzen 
+               Betragens ansieht.) - Nun behaupte ich aber, und es wäre mir Leid um Sie, wenn ich mich hierin jemals irrte, ich 
+               behaupte, daß Sie nie glücklich seyn können, wenn es <rs type="person" ref="#lno">leNoble</rs> nicht ist. 
+               Beweisen darf ich Ihnen das nicht: aber Ihr Herz versteht mich, und muß mich verstehen, und mir Recht geben, weil 
+               ich sonst sogleich überzeugt wäre, daß ich Sie nie gekannt hätte.
+            </p>
+            <p>
+               Sie müßen <del rend="stroked">also</del> schlechterdings dafür sorgen, daß leNoble glücklich, wenigstens so 
+               glücklich werde, als er jetzt noch werden kan. Sie müßen, ohne Rückhalt, mit freyem, ganzen, ofnen Herzen, und mit 
+               aller Zuversicht der Tugend und Unschuld, seine Freundinn seyn; Sie müßen Sich Mühe, recht sorgfältige Mühe geben, 
+               ein Herz zu beruhigen, worin Sie doch die erste Unruhe aufgeregt haben, und was doch wahrhaftig verdient, ruhig und 
+               glücklich zu seyn. Da muß denn aber auch jede Spur von anscheinender Kälte, jede unzufriedne mürrische Laune, jedes 
+               fremde, gleichgültige Betragen eben so wegfallen, als jede hinschmelzende, verderbliche Zärtlichkeit. Bisher haben 
+               Sie Alles damit verdorben, daß Sie einen Tag, Ihren Freund noch gar zu sehr fühlen ließen, wie wenig Sie es vergeßen 
+               können, daß er Ihnen einst mehr war: den andern Tag gereute Sie das wieder (vielleicht mit Recht) und Sie verfielen 
+               in Mißmuth, Stillschweigen und Kälte, und brachten den zur Verzweiflung, den Sie den Tag zuvor nicht hätten so hoch 
+               erheben sollen. Auf diesem Wege giebt es keine Ruhe für Sie beyde. Folgen Sie meinem Rath: Geben Sie ihm Ihre 
+               Freundschaft, wie er es verdient, machen Sie ihn zum Vertrauten Ihres Herzens - nur niemals der geringsten Schwäche 
+               gegen ihn, wo nicht alles verdorben seyn soll - leben Sie mit ihm in 
+               <emph rend="underlined">immer gleicher</emph>, unschuldiger, fröhlicher, glücklicher Einigkeit: Sprechen Sie über 
+               Alles, selbst über Ihre vergangnen Schiksale, nur <add place="above">ohne</add> <pb/> geheimnißvolle 
+               Verschwiegenheit, und ohne Vorwürfe. Denn diese beyden Abwege führen Sie gewiß vom Ziele, entweder in Kälte, oder in 
+               Hitze: und beydes ist nicht für Ihre Herzen. Wäre <rs type="person" ref="#lno">leNoble</rs> im Stande, mit 
+               dieser reinen, edeln, unschätzbaren Freundschaft nicht zufrieden zu seyn so wäre er nicht werth, Sie je geliebt zu 
+               haben, so müßte er nicht wißen und fühlen, daß der Rausch der Liebe verfliegt, immer einmal verfliegen muß, und daß 
+               Freundschaft ewig währt. Aber ich versichre Sie: fangen Sie es nur recht mit ihm an: er soll bald das Leben wieder 
+               lieb gewinnen: denn - zittern Sie nicht für unsern Freund ? - jetzt ist es ihm gleichgültig.
+            </p>
+         </div>
+         <div n="6" corresp="#krou">
+            <p>
+               Meine liebe Graunin ! Ich weis, daß Sie einst <rs type="person" ref="#Rou">Rousseaus</rs> 
+               <rs type="citation" ref="#e1487-2">neue Heloise</rs> mit großem Vergnügen gelesen haben. Ich weis wol nicht, wie 
+               die deutsche Uebersetzung dieses unvergleichlichen Buchs, worin mehr Tugend wohnt, als in ganzen moralischen 
+               Bibliotheken, gerathen ist: denn ich habe mich nie entschließen können, sie zu lesen: so viel weis ich aber wol, daß 
+               sie unendlich viel verliehren, wenn Sie es nicht im Französischen lesen können. Indeßen auch der Schatten-Riß eines 
+               solchen Originals ist immer noch entzückend und lehrreich genung. Lernen Sie doch, liebenswürdige Julie, 
+               <emph rend="underlined">wenn es je in der wirklichen Welt eine gab</emph>, lernen Sie doch von jener bewunderten 
+               Julie von Wolmar die Art, wie sie mit ihrem St. Preux umgieng, als er von seiner Reise um die Welt zurückkam. Ihre 
+               Schicksale haben viel Aehnlichkeit: und, vorausgesetzt nur, daß die deutsche Uebersetzung erträglich ist, so würde 
+               ich Ihnen in Ihrer jetzigen Lage vorschlagen, gar Nichts anders zu lesen, als den 3ten, 4ten und die folgenden 
+               Theile der Heloise. Bemerken Sie aber wol: nicht die beyden ersten. Ums Himmels willen nicht: und wenn Sie sie 
+               gar <add place="above">im</add> Französischen <del rend="stroked">xxx</del> <add place="above">besitzen</add>, so 
+               beschwöre ich Sie um Ihrer Ruhe und Glückseeligkeit willen, rühren Sie sie nicht an, werfen Sie sie weg - und laßen 
+               Sie die letzten Theile in Gold einbinden. <pb/>
+            </p>
+         </div>
+         <div n="7" corresp="#klno">
+            <p>
+               Zu dieser freundschaftlichen Offenherzigkeit mit <rs type="person" ref="#lno">leNoble</rs>, als dem einzigen 
+               Wege, zu Ihrer vollkommnen Ruhe, gehört denn, meines Erachtens auch, daß Sie ihm - erstaunen Sie nicht - aus meinen 
+               Briefen gar keine Geheimniße machen. Ich weis wol, daß Sie ihm nicht immer jedes Wort, was ich schreibe, werden 
+               zeigen können: aber daß Sie es, wie ich höre dahin gebracht haben, daß <rs type="person" ref="#lno">leNoble</rs> 
+               meine Briefe an Sie gar nicht mehr lesen <emph rend="underlined">will</emph>, das gehört mit zu der falschen und 
+               <emph rend="underlined">einseitigen</emph> Verfahrens-Art, die ich an Ihnen tadle. Ich nenne sie nehmlich 
+               <emph rend="underlined">falsch</emph>, weil sie Sie nicht zum Glück führt. Meinethalben könnten Sie ihm selbst 
+               diesen Brief zeigen: denn wäre er nicht mit mir zufrieden: verlangte er mehr, als Ihr Freund, als Ihr Freund in 
+               <emph rend="underlined">unsrer</emph> Bedeutung (worin es sich besonders sehr von dem Wort: 
+               <emph rend="underlined">Bekannter</emph> NB. unterscheidet) zu seyn, kurz wäre er mit dem, was ich Ihnen in diesem 
+               Briefe anrathe, nicht ganz einig, ja, dann hätte ich, bey Gott, mit ihm Nichts mehr zu theilen, und fienge, wenn es 
+               mir möglich wäre, auch an, sein <emph rend="underlined">Bekannter</emph> zu werden.
+            </p>
+            <p>
+               Das ist also Ihr Weg: große, sanfte Beruhigung aller Leidenschaften: stille, friedliche Ertragung der Uebel, die 
+               Ihnen beschieden sind: Erholung davon in der edlen Bemühung, <rs type="person" ref="#RRGra">Ihren Mann</rs> 
+               glücklicher (das heißt allemal: beßer) <add place="above">und</add> Ihre Kinder zu guten Menschen zu machen, in dem 
+               freyen, ungezwungnen Umgange mit Ihrem liebenswürdigen St. Preux, und mit Ihrer rechtschaffnen, lieben, guten 
+               Familie. Führt das Schiksal Sie nach <rs type="place" ref="#plBe">Berlin</rs>, so finden Sie auch hier Menschen, 
+               die es werth sind, daß man das Leben liebt; und wenn Sie dann mit <rs type="person" ref="#lno">leNoble</rs> auf 
+               den Fuß sind, wie ich es wünsche, so wird Sie Ihre Trennung von ihm betrüben, aber nicht 
+               <emph rend="underlined">zerreißen</emph>.
+            </p>
+         </div>
+         <div n="8" corresp="#philw">
+            <p>
+               Rauschende Vergnügungen der Welt, rathe ich Ihnen, sparsam, sehr sparsam zu genießen. Sie sind verderblich für Sie. 
+               Wißen Sie warum ? - Weil ich fühle, daß sie es für mich sind. Und ich fürchte, <pb/> daß unsre Seelen sich auch 
+               hierin sehr ähnlich sind. Worin dieser schädliche Einfluß des Uebermaßes dieser Vergnügungen, auf empfindliche und 
+               höhere Gefühlen offne Herzen liegt, könnte ich Ihnen jetzt noch weitläuftig aus einander setzen, wenn ich nicht 
+               fühlte, daß es endlich einmal Zeit wird, Rechenschaft zu geben, wie ich mich denn unterstehen kan, und wodurch ich 
+               befugt, und berechtigt bin, Ihnen eine mehr als 2 Bogen lange moralische Predigt zu halten. Und diese Rechenschaft 
+               will ich nun noch ablegen.
+            </p>
+         </div>
+         <div n="9" corresp="#veg">
+            <p>
+               Sie haben mir in <rs type="citation" ref="#c1487-2">Ihrem letzten Briefe</rs> eine Probe von Freundschaft 
+               gegeben, die ich im Innersten des Herzens gefühlt habe, die mir, wenn ich sie von jedem Andern erhalten hätte, viel 
+               Freude gemacht haben würde, da sie mich, weil sie von Ihnen kam in das reinste und zärtlichste Entzücken versetzt 
+               hat. Was kan ich anders meynen, als Ihren aeußerst freundschaftlichen und gütigen Vorschlag, mir ein Journal Ihrer 
+               vorzüglichsten Gedanken und Empfindungen bey großen Vorfällen mitzutheilen ?
+            </p>
+            <p>
+               Ich will es hier nicht wiederholen, was ich Ihnen so oft über den unbeschreiblich hohen Werth gesagt habe, den ich 
+               auf Ihre Freundschaft setze. Auch wäre es unnöthig, daß ich das wiederholte. Sie würden mich nicht auf eine so 
+               ausgezeichnete Art ehren, wenn Sie nicht überzeugt wären daß mein Herz im Stande ist, stolz auf meinen genauern 
+               Umgang mit Ihnen zu seyn.
+            </p>
+            <p>
+               Eben diesen Vorschlag aber, der mich so herzlich erfreut hat, und der mir noch manchen frohen Augen Blick 
+               verspricht, eben der führte mir die Hand, als ich es wagte, Ihnen Ihren Lebens-Plan vorzuzeichnen. Großes Vertrauen 
+               erregt große Aufrichtigkeit; und weit schwächre Bewegungs-Gründe, als der, den Sie mir darboten, wären schon 
+               überwiegend gewesen, sobald mich der Gedanke begeisterte: zu <emph rend="underlined">Ihrer</emph> Glückseeligkeit 
+               etwas beyzutragen. Ich denke, wenn meine Predigt noch zwey Bogen länger gewesen wäre, so wäre sie hiedurch 
+               entschuldigt.
+            </p>
+            <p>
+               Nun halten Sie aber auch Wort: Schreiben Sie mir jeden wichtigern <pb/> Vorfall in Ihrer Lebens-Bahn, zumal wenn er 
+               Ihnen Stoff zu Betrachtungen gab. Um aller Freundschaft willen aber bitte ich Sie: Schreiben Sie nicht an mich, als 
+               <del rend="stroked">xxx</del> an den Moralisten. Verzeihen Sie mir die kleine mistrauische Bedenklichkeit. Ich 
+               fürchte, Sie würden dann nicht ganz so schreiben, wie ich es wünschte. Nein ! Schreiben Sie an mich, als an den 
+               gutherzigen, redlichen - oft herzlich schwachen Freund. O ! meine Freundinn ! Glauben Sie nicht, daß ich allen den 
+               weisen Maximen, die ich Ihnen vorpredige, und, das weis Gott, mit innerm Gefühl ihrer Wahrheit, vorpredige, immer 
+               so getreu bin, als ich es Ihnen wünsche. Tugendhaft, weise, strenge sogar, in der Stunde der Betrachtung - schwach, 
+               thörigt, leichtsinnig in dem Rausch des Lebens, überspringe ich oft genung die Linie, die ich doch so gut kenne, 
+               die furchtbare, {feine} Linie, die das Gute vom Bösen trennt. Dreist und ohne Rückhalt, können Sie jede kleine 
+               Abirrung von dieser köstlichen Linie, jede kleine Schwachheit Ihres Lebens, in mein freundschaftliches Herz 
+               ausgießen: und wenn es mir an Kraft gebricht, Ihnen zu helfen, so wird es mir nie an Thränen fehlen, Sie zu 
+               beweinen.
+            </p>
+            <p>
+               Einen neuen und nicht kurzen Weg könnte ich hier, gute, gute Graunin, einzige Vertraute meiner tiefsten Tiefen, 
+               einen neuen Weg könnte ich jetzt mit Ihnen durchlaufen, wenn es mir vergönnt wäre, diesen Brief noch zu verlängern. 
+               Ich könnte Ihnen <emph rend="underlined">meine</emph> Schwachheiten, <emph rend="underlined">meine</emph> 
+               Verirrungen - <emph rend="underlined">meine</emph> trübe Stunden ausmahlen. Aber wozu auch ? Sie haben Mühe und Last 
+               genung auf Ihrem Rücken, ich, ich will mit Ihnen theilen; warum sollte ich Ihnen noch mehr finstre Seiten zeigen, an 
+               der hellen, und herrlichen Welt Gottes ? -
+            </p>
+         </div>
+         <div n="10" corresp="#kcoe">
+            <p>
+               Fragen Sie mich nicht über diese Stelle: ich kan Ihnen nie eine <emph rend="underlined">schriftliche</emph> Auskunft 
+               arüber geben: und Sie sehen wol, daß das soviel heißt als: ich kan sie Niemand in der Welt geben. Aber mündlich, 
+               will ich sie Ihnen aufklären. Nur soviel muß ich Ihnen zu Ihrer Beruhigung, und meiner Rechtfertigung sagen: Ich 
+               bin nie zum Verräther an der Tugend geworden: Ich liebe Coelestinen, wie ich sie am Tage meiner Abreise liebte; 
+               und - ich bin noch immer werth, Ihr Freund zu seyn. <pb/>
+            </p>
+         </div>
+         <div n="11" corresp="#veg">
+            <p>
+               Seelen von gewißer Art fallen selten oder nie über eine gewiße Gränze hinaus. Die grösten Vergehungen, deren wir, 
+               liebe Freundinn, nur fähig sind, sind immer blos die, daß wir uns auf kurze oder lange Zeit um den rechten 
+               Lebens-Genuß, und um das volle Gefühl menschlicher Glückseeligkeit bringen. Für die Ruhe des Gewißens ist das 
+               vielleicht sehr wenig: für die Ruhe des Lebens ist es schon allzuviel.
+            </p>
+            <p>
+               Ich danke Ihnen noch ganz besonders für das kleine Geschenk, das Sie mir durch 
+               <rs type="person" ref="#lno">le Noble</rs> geschickt haben. Mancher große Brief, und manches prächtige Praesent, 
+               wären meinem Herzen unendlich gleichgültiger gewesen, als diese wenigen Fäden Baumwolle, die Ihre Hand berührt, und 
+               Ihr freundschaftliches Andenken an mich, geheiligt hatte. Weil ich Ihnen doch nun aber ein Gegen-Geschenk machen 
+               muß, und besonders, weil sich le Noble in seinem Briefe über Ihre Baumwolle sehr lustig gemacht hat, so schicke ich 
+               Ihnen hier ein Büschelchen von der Feder, mit der ich den grösten Theil dieses Briefs geschrieben. Zeigen Sie es 
+               ihm - sonst aber um aller Welt willen keinem: denn Sie wißen, daß sehr viele Leute in solchen Kleinigkeiten, Nichts 
+               weiter sehen, als was sie sind. Und die sehen dann freylich - herzlich wenig.
+            </p>
+            <p>
+               Tausend tiefe, unsäglich große, herzlich gefühlte Wünsche zu Ihrem <ref target="#r1487-2">GeburtsTage</ref>, 
+               der in diese Woche fällt. O ! möchten Sie mit diesem Tage ein glückliches LebensJahr, und mit diesem glücklichen 
+               Jahre eine Reihe glücklicher Jahre anfangen, die nicht eher abbräche, als <del rend="stroked">mit</del> an dem 
+               späten, weit entfernten Ende Ihrer Tage !
+            </p>
+            <p>
+               Sagen Sie <rs type="person" ref="#lno">leNoble</rs>, ich würde ihm auf 
+               <rs type="citation" ref="#c1487-4">seinen reichhaltigen und mir sehr werthen Brief</rs> nächstens antworten. Sie 
+               aber - erfüllen bald Ihr Versprechen. Die frühe Rückkehr des goldnen Sommers verspricht mir viel Gutes. Freuen Sie 
+               Sich mit mir: ich weis, daß Sie es ungebeten thun. Denken Sie, daß Sie jedesMahl, wenn Sie Sich hinsetzen an mich zu 
+               schreiben, einem Menschen, den Sie sonst gern froh machten, eine sehr glückliche Stunde bereiten, und daß ich, wenn 
+               es mir nur in <rs type="place" ref="#plBe">diesem unruhigen Berlin</rs> erlaubt wäre, gern mein tägliches 
+               Geschäft daraus machte, an Sie zu schreiben, theuerste, unschätzbare Freundinn meiner besten Tage !
+            </p>
+         </div>
+         <closer>
+            <dateline rend="left"><rs type="place" ref="#plBe">Berlin</rs> den <date when-iso="1786-04-08">8<span rend="sup">ten</span> April. 1786.</date></dateline>
+            <signed rend="right">Gentze.</signed>
+         </closer>
+         <postscript corresp="#krrg">
+            <p>
+               <rs type="person" ref="#RRGra">Ihr Mann</rs> schimpft auf mich: ich höre es bis in meine Stube, und will dem 
+               Uebel abhelfen.
+            </p>
+         </postscript>
+         <note resp="#edAG" xml:id="r1487-1">Vgl. <rs type="citation" ref="#c1487-1">den Brief vom 31. Dezember 1785</rs>.</note>
+         <note resp="#edAG" xml:id="r1487-2">Vgl. <rs type="citation" ref="#c1487-3">den Brief vom 10. April 1785</rs>, den Gentz an Grauns 25. Geburtstag schrieb.</note>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,238 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc xml:id="LETTER_GENTZ_0673">
+         <titleStmt>
+            <title>Friedrich von Gentz an Philipp Karl Graf von Alvensleben, 24. September 1801</title>
+            <editor xml:id="edAG">Andreas Gálffy</editor>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <name>Forschungsstelle "Universitätssammlung Friedrich von Gentz"</name>
+               <link target="http://gentz-digital.ub.uni-koeln.de http://www.ub.uni-koeln.de/cdm/singleitem/collection/gentz/id/672/"/>
+            </publisher>
+            <pubPlace>Cologne</pubPlace>
+            <idno type="Gentz-Edition-Number" n="0673"/>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <country>Germany</country>
+                  <settlement>Berlin</settlement>
+                  <institution>Geheimes Staatsarchiv Preußischer Kulturbesitz</institution>
+                  <repository>I. HA, Rep 9</repository>
+                  <collection>Allgemeine Verwaltung, F 2a, Fasc. 45</collection>
+                  <idno>Bl. 21-22</idno>
+               </msIdentifier>
+               <msContents>
+                  <summary>
+                     Es ist eine Weisung ergangen, bei der bei Frölich eine finanzielle Untersuchung stattfindet. Der Grund ist ein 
+                     Zensurübertritt. Dabei aber, so Gentz, sollten keine Ausgaben beschlagnahmt werden. Die Beschlagnahmung war 
+                     sowieso sinnlos, da die meisten Exemplare bereits verkauft sind. Hiervon waren 25 Stück Freiexemplare für 
+                     Gentz; diese erbittet er sich zurück.
+                  </summary>
+               </msContents>
+            </msDesc>
+            <listBibl type="defRep">
+               <biblStruct xml:id="p0673-1" corresp="BSB-0017">
+                  <monogr>
+                     <author>
+                        <persName>
+                           <ref target="http://d-nb.info/gnd/118538489"/>
+                           <forename>Friedrich von</forename>
+                           <surname>Gentz</surname>
+                        </persName>
+                     </author>
+                     <title>Von dem Politischen Zustande von Europa vor und nach der Französischen Revolution</title>
+                     <imprint>
+                        <pubPlace>Berlin</pubPlace>
+                        <publisher>Heinrich Frölich</publisher>
+                        <date>1801</date>
+                     </imprint>
+                  </monogr>
+                  <ptr target="http://www.mdz-nbn-resolving.de/urn/resolver.pl?urn=urn:nbn:de:bvb:12-bsb10556396-8"/>
+               </biblStruct>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Masterarbeit zu Matrikelnummer 5584124</p>
+         </projectDesc>
+      </encodingDesc>
+      <profileDesc>
+         <creation>
+            <date when-iso="1801-09-24">24. September 1801</date>
+         </creation>
+        <langUsage>
+           <language ident="d">deutsch</language>
+        </langUsage>
+         <textClass>
+            <keywords scheme="internal"><!-- internal: innerhalb des besagten Briefs -->
+               <term>Brief</term>
+               <term>Zensur</term>
+               <term>Freiexemplare</term>
+            </keywords>
+            <keywords scheme="categorisation"><!-- Sinnabschnittseinteilung - relevant für den Fahrkartenautomaten! -->
+               <term xml:id="zns">Zensur</term>
+            </keywords>
+         </textClass>
+         <textDesc>
+            <channel>manuscript</channel>
+            <constitution type="single"/>
+            <derivation type="original"/>
+            <domain type="private"/>
+            <factuality type="fact"/>
+            <interaction type="partial"/>
+            <preparedness type="prepared"/>
+            <purpose type="inform"/>
+         </textDesc>
+         <particDesc>
+            <listPerson>
+               <!-- Sender und Adressat -->
+               <person role="sender" xml:id="Gen">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/118538489"/>
+                     <forename>Friedrich von</forename>
+                     <surname>Gentz</surname>
+                  </persName>
+               </person>
+               <person role="receiver" xml:id="PKvA">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/11629633X"/>
+                     <forename>Philipp Karl von</forename>
+                     <surname>Alvensleben</surname>
+                  </persName>
+               </person>
+               <!-- erwähnte Personen -->
+               <person role="named" xml:id="Fro">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/1073351068"/>
+                     <forename>Heinrich</forename>
+                     <surname>Frölich</surname>
+                  </persName>
+               </person>
+               <person role="named" xml:id="HLvWs">
+                  <persName>
+                     <ref />
+                     <forename>Heinrich Ludwig von</forename>
+                     <surname>Warsing</surname>
+                  </persName>
+               </person>
+            </listPerson>
+         </particDesc>
+         <settingDesc>
+            <listPlace>
+               <!-- Start- und Zielort -->
+               <place type="sender" xml:id="plBe">
+                  <country>
+                     <ref target="http://d-nb.info/gnd/4047194-9"/>
+                     <placeName>Preußen</placeName>
+                  </country>
+                  <settlement>
+                     <ref target="http://d-nb.info/gnd/4005728-8"/>
+                     <placeName>Berlin</placeName>
+                  </settlement>
+               </place>
+               <!-- erwähnte Orte -->
+               <place type="named" xml:id="plLp">
+                  <country>
+                     <ref target="http://d-nb.info/gnd/4051176-5"/>
+                     <placeName>Sachsen</placeName>
+                  </country>
+                  <settlement>
+                     <ref target="http://d-nb.info/gnd/4035206-7"/>
+                     <placeName>Leipzig</placeName>
+                  </settlement>
+               </place>
+               <place type="named" xml:id="plDd">
+                  <country>
+                     <ref target="http://d-nb.info/gnd/4051176-5"/>
+                     <placeName>Sachsen</placeName>
+                  </country>
+                  <settlement>
+                     <ref target="http://d-nb.info/gnd/4012995-0"/>
+                     <placeName>Dresden</placeName>
+                  </settlement>
+               </place>
+               <place type="named" xml:id="plHa">
+                  <country>
+                     <ref target="http://d-nb.info/gnd/4023118-5"/>
+                     <placeName>Hamburg</placeName>
+                  </country>
+                  <settlement>
+                     <ref target="http://d-nb.info/gnd/4023118-5"/>
+                     <placeName>Hamburg</placeName>
+                  </settlement>
+               </place>
+            </listPlace>
+         </settingDesc>
+      </profileDesc>
+      <revisionDesc>
+         <change xml:id="init" when-iso="2018-03-08" who="#edAG">Erstauszeichnung und Normierung des Dokumentes im Rahmen der Masterarbeit der Matrikelnummer 5584124</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <opener>
+            <salute rend="left">HochWürdiger Hochgebohrner Graf !</salute>
+            <salute rend="left">Hochgebietender Herr Geheimer Staats-Minister !</salute>
+         </opener>
+         <div n="1" corresp="#zns">
+            <p>
+               Durch eine aus dem Hohen Cabinets-Ministerio ergangne Verfügung ist dem Kammer-Gericht aufgetragen worden, gegen den 
+               <rs type="person" ref="#Fro">Buchhändler Frölich</rs> wegen Uebertretung des Censur-Edikts bei dem Druck 
+               <rs type="citation" ref="#p0673-1">meiner neusten Schrift</rs> eine fiskalische Untersuchung zu verhängen. Zugleich 
+               aber ist in jener Verfügung ausdrücklich gesagt, daß von Confiscation des Werkes bei den einmal obwaltenden Umständen 
+               nicht mehr die Rede seyn könnte. Dieser klaren Aeußerung ungeachtet, hat das Kammer-Gericht den 
+               <rs type="person" ref="#HLvWs">Geheimen Rath von Warsing</rs> angewiesen, die alhier noch vorhandnen Exemplare des 
+               ersten Heftes <rs type="citation" ref="#p0673-1">meiner Schrift</rs> in Beschlag zu nehmen.
+            </p>
+            <p>
+               EwrExcellentz weise Intention bei der obgedachten Aeußerung war unverkennbar. Der bei weitem grösre Theil der 
+               Exemplare des ersten Heftes ist einmal in den Händen des Publikums; sie werden in 
+               <rs type="place" ref="#plLp">Leipzig</rs>, <rs type="place" ref="#plDd">Dresden</rs>, 
+               <rs type="place" ref="#plHa">Hamburg</rs> und so fort verkauft, oder vielmehr, sie sind, wie ich höre, schon bis auf 
+               das letzte verkauft. Hier waren ungefähr noch 170 Stück zurück geblieben; diese confisziren zu laßen, würde offenbar 
+               eine ganz zwecklose Härte seyn.
+            </p>
+            <p>
+               Ueberdies kömmt bei diesen Exemplaren ein Umstand der mich persönlich betrift in Betracht. Ich hatte mir, wie dies 
+               gewöhnlich geschieht, 25 Frey-Exemplare ausbedungen, die ich bis hieher, weil ich sie vor der Entscheidung der Sache 
+               nicht ausgeben wollte, nicht abgefordert hatte. Diese 25 Exemplare <pb/> befinden sich unter den mit Arrest belegten. 
+               Ich kan Ewr. Excellentz versichern, daß ich nicht ein einziges Exemplar besitze; und es wäre doch für mich, der ich 
+               an dem Vergehen des Verlegers ganz unschuldig bin, ungemein hart, wenn ich von einem Buche, das im Auslande Jedermann 
+               lieset, nicht einmal meinen vorzüglichsten Freunden und Gönnern ein Exemplar sollte mittheilen können.
+            </p>
+            <p>
+               In Rücksicht auf alle diese Umstände, und da das Kammergericht offenbar viel weiter gegangen ist, als das Hohe 
+               Cabinets-Ministerium von ihm verlangte, bitte ich EwrExcellentz untertänigst um schleunige Remedur. Da die in 
+               Beschlag genommnen Exemplare in der Wohnung des <rs type="person" ref="#HLvWs">Geheimen Raths von Warsing</rs> 
+               stehen, so wäre das kürzeste Mittel vielleicht das, daß Ewr. Excellentz geruhten, dem 
+               <rs type="person" ref="#HLvWs">p von Warsing</rs> sogleich anzubefehlen, <emph rend="underlined">entweder</emph>, die 
+               sämmtlichen Exemplare wieder in die Verlagshandlung abzuliefern, <emph rend="underlined">oder</emph> wenigstens die 
+               25, die mein unbezweifeltes Eigenthum sind, <emph rend="underlined">an mich</emph> verabfolgen zu laßen. Ich thue 
+               diesen Vorschlag, weil die <emph rend="underlined">Sache</emph>, wenn erst eine neue Verfügung an das Kammergericht 
+               ergehen sollte, sich vielleicht noch sehr in die Länge ziehen mögte, mir aber an deren Beendigung sehr viel gelegen 
+               ist. Wenn EwrExcellentz meine Bitte Statt finden laßen, so würde eine bloße <pb/> Benachrichtigung des 
+               Kammer-Gerichts von der an den <rs type="person" ref="#HLvWs">Warsing</rs> zu erlaßenden Verfügung wahrscheinlich 
+               hinreichend seyn.
+            </p>
+            <p>
+               Schließlich unterstehe ich mich noch, EwrExcellentz den Wunsch, oder vielmehr die vertrauensvolle Hoffnung 
+               vorzutragen, daß dieser ganze Vorfall mir die Gnade, deren Sie mich bisher gewürdiget haben, nicht entziehen werde. 
+               Ich bitte ehrerbietigst um die Fortdauer derselben, und verharre in tiefstem Respekt
+            </p>
+         </div>
+         <closer>
+            <salute rend="right">EwrHochgräflichen Excellentz</salute>
+            <salute rend="right">untertänigster treu-gehorsamster Diener</salute>
+            <dateline rend="left"><rs type="place" ref="#plBe">Berlin</rs> den <date when-iso="1801-09-24">24<span rend="sup">ten</span> Septbr. 1801</date>.</dateline>
+            <signed rend="right">Gentz.</signed>
+         </closer>
+      </body>
+   </text>
+</TEI>

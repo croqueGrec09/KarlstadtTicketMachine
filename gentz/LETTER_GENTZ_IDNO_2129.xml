@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc xml:id="LETTER_GENTZ_2129">
+         <titleStmt>
+            <title>Friedrich von Gentz an Heinrich Frölich, 29. Januar 1802</title>
+            <editor xml:id="edAG">Andreas Gálffy</editor>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <name>Forschungsstelle "Universitätssammlung Friedrich von Gentz"</name>
+               <link target="http://gentz-digital.ub.uni-koeln.de http://www.ub.uni-koeln.de/cdm/singleitem/collection/gentz/id/2128/"/>
+            </publisher>
+            <pubPlace>Cologne</pubPlace>
+            <idno type="Gentz-Edition-Number" n="2129"/>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <country>Germany</country>
+                  <settlement>Berlin</settlement>
+                  <institution>Geheimes Staatsarchiv Preußischer Kulturbesitz</institution>
+                  <repository>I. HA Rep 94: Kleine Erwerbungen</repository>
+                  <collection>IV.N.b.2</collection>
+                  <idno>Bl. 31-31v, 38-38v</idno>
+               </msIdentifier>
+               <msContents>
+                  <summary>
+                     Frölichs Lebenssituation hat eine Wende erfahren. Ihm ist etwas höchst Erfreuliches zugestoßen und bedauert 
+                     nun, dass Gentz hierzu nichts von sich lesen ließ. Dies begründet Gentz damit, dass seine Verfassung ihn lähme 
+                     und deshalb nicht zum Schreiben gekommen wäre. Er hofft, dass dieser Brief das Verhältnis einigermaßen 
+                     wiederherstelle.
+                  </summary>
+               </msContents>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Masterarbeit zu Matrikelnummer 5584124</p>
+         </projectDesc>
+      </encodingDesc>
+      <profileDesc>
+         <creation>
+            <date when-iso="1802-01-29">29. Januar 1802</date>
+         </creation>
+        <langUsage>
+           <language ident="d">deutsch</language>
+        </langUsage>
+         <textClass>
+            <keywords scheme="internal"><!-- internal: innerhalb des besagten Briefs -->
+               <term>Brief</term>
+               <term>Besuch</term>
+               <term>Verfassung</term>
+            </keywords>
+            <keywords scheme="categorisation"><!-- Sinnabschnittseinteilung - relevant für den Fahrkartenautomaten! -->
+               <term xml:id="vhf">Verhältnis Heinrich Frölich</term>
+            </keywords>
+         </textClass>
+         <textDesc>
+            <channel>manuscript</channel>
+            <constitution type="single"/>
+            <derivation type="original"/>
+            <domain type="private"/>
+            <factuality type="fact"/>
+            <interaction type="partial"/>
+            <preparedness type="prepared"/>
+            <purpose type="inform"/>
+         </textDesc>
+         <particDesc>
+            <listPerson>
+               <!-- Sender und Adressat -->
+               <person role="sender" xml:id="Gen">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/118538489"/>
+                     <forename>Friedrich von</forename>
+                     <surname>Gentz</surname>
+                  </persName>
+               </person>
+               <person role="receiver" xml:id="Fro">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/1073351068"/>
+                     <forename>Heinrich</forename>
+                     <surname>Frölich</surname>
+                  </persName>
+               </person>
+               <!-- erwähnte Personen -->
+            </listPerson>
+         </particDesc>
+         <settingDesc>
+            <listPlace>
+               <!-- Start- und Zielort -->
+               <place type="sender" xml:id="plBe">
+                  <country>
+                     <ref target="http://d-nb.info/gnd/4047194-9"/>
+                     <placeName>Preußen</placeName>
+                  </country>
+                  <settlement>
+                     <ref target="http://d-nb.info/gnd/4005728-8"/>
+                     <placeName>Berlin</placeName>
+                  </settlement>
+               </place>
+               <!-- erwähnte Orte -->
+            </listPlace>
+         </settingDesc>
+      </profileDesc>
+      <revisionDesc>
+         <change xml:id="init" when-iso="2018-03-10" who="#edAG">Erstauszeichnung und Normierung des Dokumentes im Rahmen der Masterarbeit der Matrikelnummer 5584124</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div n="1" corresp="#vhf">
+            <p>
+               Wenn ich Sie noch immer nicht besucht habe, mein theurer Freund, so schieben Sie es nicht auf eine strafbare 
+               Nachläßigkeit. Ich habe mich über die Veränderung Ihrer Lage so sehr als irgend Jemand gefreut, und ich würde längst 
+               geeilt haben, Ihnen diese meine Freude zu bezeugen, und über unser ganzes Verhältniß mit Ihnen zu reden, wenn mich 
+               nicht von einem Tage zum andern die Hoffnung, Ihnen über das letztre auch gleich etwas entscheidendes, und etwas für 
+               Sie und mich tröstliches sagen zu können, hin gehalten hätte. Ich mogte nicht in der Ungewißheit, in der Verwirrung, 
+               in der, selbst meine Seelenkräfte lähmenden, ängstlichen Erwartung des Augenblicks, der die verwickelten Knoten 
+               meiner jetzigen Existenz lösen soll, vor Sie treten. Sie entschulkdigen mich, wenn Sie diesen Zustand begreifen. - 
+               Ich sehe sehr wohl, wie fatal Ihnen diese Stagnation seyn muß; aber Gott weiß, daß es über meine Macht <pb/> 
+               hinaus-geht, ihr ein schnelles Ende zu machen. So lange meine jetzige Verfassung dauert, bin ich so gut als unfähig 
+               zu allem. Aber lange kan, und wird sie Gottlob nicht dauern. - Meine Erlösung ist vor der Thür; sobald diese gekommen 
+               ist, werde ich mit Kraft und Zuversicht bestimmen können, was ich weiter vermag. Nie werde ich undankbar an Ihnen 
+               werden: Sie haben mir redlich und freundschaftlich gedient, und Sie sollen es gewiß nicht bereuen. Was ich vielleicht 
+               gegen Sie zu fehlen schien, war nur Folge und Bestandtheil einer größern Verwicklung, in welche mein ganzes Leben 
+               gerieth. Tragen Sie mich noch eine kurze Zeit mit Geduld; sehen Sie mich als einen Todten, oder als einen 
+               Verschwundnen an; die ersten Lebenszeichen, die Sie wieder von mir hören sollen, werden hoffentlich alles unter uns 
+               gut machen.
+            </p>
+         </div>
+         <closer>
+            <signed rend="right">Gentz</signed>
+            <dateline rend="right">den <date when-iso="1802-01-29">29 Januar 1802</date></dateline>
+         </closer>
+      </body>
+      <back>
+         <p>
+            Herrn
+            Buchhändler Frölich
+            Wohlgebohren.
+         </p>
+      </back>
+      <note xml:id="r2129-1">Adresse auf Seite 4; Siegel</note>
+   </text>
+</TEI>

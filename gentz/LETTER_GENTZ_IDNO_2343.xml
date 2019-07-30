@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader type="text">
+      <fileDesc xml:id="LETTER_GENTZ_2343">
+         <titleStmt>
+            <title>Friedrich von Gentz an Karl Gustav von Brinckmann, 25. Dezember 1795</title>
+            <editor xml:id="edAG">Andreas Gálffy</editor>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <name>Forschungsstelle "Universitätssammlung Friedrich von Gentz"</name>
+               <link target="http://gentz-digital.ub.uni-koeln.de http://www.ub.uni-koeln.de/cdm/singleitem/collection/gentz/id/2342/"/>
+            </publisher>
+            <pubPlace>Cologne</pubPlace>
+            <idno type="Gentz-Edition-Number" n="2343"/>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <country>Sweden</country>
+                  <settlement>Trolle-Ljungby</settlement>
+                  <institution>Archiv des Grafen Wachtmeister</institution>
+                  <repository>Nachlaß Brinckmann, Ausländ. Briefwechsel, Gentz an von Brinckmann</repository>
+                  <idno>G 3</idno>
+               </msIdentifier>
+               <msContents>
+                  <summary>
+                     Humboldt bat Gentz darum, nichts über einen Aufsatz Schillers preiszugeben, weshalb Gentz Brinckmann bitten muss, auch niemandem über diesen 
+                     Aufsatz zu sprechen oder zu erwähnen, dass er von diesem Aufsatz weiß.
+                  </summary>
+               </msContents>
+            </msDesc>
+            <listBibl type="preprints">
+               <biblStruct>
+                  <monogr>
+                     <editor>
+                        <persName>
+                           <ref target="http://d-nb.info/gnd/130953075"/>
+                           <forename>Friedrich Carl</forename>
+                           <surname>Wittichen</surname>
+                        </persName>
+                        <persName>
+                           <ref/> <!-- kein GND-Eintrag -->
+                           <forename>Ernst</forename>
+                           <surname>Salzer</surname>
+                        </persName>
+                     </editor>
+                     <title>Briefe von und an Friedrich von Gentz, 4 Bde.</title>
+                     <imprint>
+                        <publisher>Oldenbourg</publisher>
+                        <pubPlace>München, Berlin</pubPlace>
+                        <date>1909-1913</date>
+                     </imprint>
+                     <biblScope unit="volume" n="2">
+                        II
+                     </biblScope>
+                     <biblScope unit="page" from="50" to="50">
+                        Nr. 52
+                     </biblScope>
+                  </monogr>
+               </biblStruct>
+            </listBibl>
+            <listBibl type="defRep">
+               <biblStruct xml:id="e2343-1" corresp="DTA-0001">
+                  <analytic>
+                     <author>
+                        <persName>
+                           <ref target="http://d-nb.info/gnd/118607626"/>
+                           <forename>Friedrich</forename>
+                           <surname>Schiller</surname>
+                        </persName>
+                     </author>
+                     <title>Über naive und sentimentalische Dichtung</title>
+                  </analytic>
+                  <monogr>
+                     <author>
+                        <persName>
+                           <ref target="http://d-nb.info/gnd/118607626"/>
+                           <forename>Friedrich</forename>
+                           <surname>Schiller</surname>
+                        </persName>
+                     </author>
+                     <title>Die Horen</title>
+                     <imprint>
+                        <date>1795</date>
+                     </imprint>
+                     <biblScope unit="issue" n="12">
+                        Erster Jahrgang. Zwölftes Stück.
+                     </biblScope>
+                  </monogr>
+               <ptr target="http://www.deutschestextarchiv.de/book/view/schiller_naive02_1795?p=8"/></biblStruct>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Masterarbeit zu Matrikelnummer 5584124</p>
+         </projectDesc>
+      </encodingDesc>
+      <profileDesc>
+         <creation>
+            <date when-iso="1795-12-25">25. Dezember 1795</date>
+         </creation>
+        <langUsage>
+           <language ident="d">deutsch</language>
+        </langUsage>
+         <textClass>
+            <keywords scheme="internal"><!-- internal: innerhalb des besagten Briefs -->
+               <term>Billet</term>
+               <term>Schiller</term>
+               <term>Humboldt</term>
+               <term>Geheimhaltung</term>
+            </keywords>
+            <keywords scheme="categorisation"><!-- Sinnabschnittseinteilung - relevant für den Fahrkartenautomaten! -->
+               <term xml:id="khum">Humboldt</term>
+            </keywords>
+         </textClass>
+         <textDesc>
+            <channel>manuscript</channel>
+            <constitution type="single"/>
+            <derivation type="original"/>
+            <domain type="private"/>
+            <factuality type="fact"/>
+            <interaction type="partial"/>
+            <preparedness type="unprepared"/>
+            <purpose type="inform"/>
+         </textDesc>
+         <particDesc>
+            <listPerson>
+               <!-- Sender und Adressat -->
+               <person role="sender" xml:id="Gen">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/118538489"/>
+                     <forename>Friedrich von</forename>
+                     <surname>Gentz</surname>
+                  </persName>
+               </person>
+               <person role="receiver" xml:id="KGvB">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/116519770"/>
+                     <forename>Carl Gustav von</forename>
+                     <surname>Brinckmann</surname>
+                  </persName>
+               </person>
+               <!-- erwähnte Personen -->
+               <person role="named" xml:id="Hum">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/118554727"/>
+                     <forename>Wilhelm von</forename>
+                     <surname>Humboldt</surname>
+                  </persName>
+               </person>
+               <person role="named" xml:id="Sch">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/118607626"/>
+                     <forename>Friedrich</forename>
+                     <surname>Schiller</surname>
+                  </persName>
+               </person>
+            </listPerson>
+         </particDesc>
+         <settingDesc>
+            <listPlace>
+               <!-- Start- und Zielort -->
+               <place type="sender" xml:id="plBe">
+                  <country>
+                     <ref target="http://d-nb.info/gnd/4047194-9"/>
+                     <placeName>Preußen</placeName>
+                  </country>
+                  <settlement>
+                     <ref target="http://d-nb.info/gnd/4005728-8"/>
+                     <placeName>Berlin</placeName>
+                  </settlement>
+               </place>
+               <!-- erwähnte Orte -->
+            </listPlace>
+         </settingDesc>
+      </profileDesc>
+      <revisionDesc>
+         <change xml:id="init" when-iso="2018-02-18" who="#edAG">Erstauszeichnung und Normierung des Dokumentes im Rahmen der Masterarbeit der Matrikelnummer 5584124</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div n="1" corresp="#khum">
+            <p>
+               Man kan zur Sicherheit nie genug thun. <rs type="person" ref="#Hum">Humboldt</rs> hat mich <date when-iso="1795-12-24">gestern</date> auf eine so 
+               angstvolle und dringende Art gebeten, von dem Aufsatz <rs type="person" ref="#Sch">Schiller</rs>s 
+               <rs type="citation" ref="#e2343-1">über die sentimentalischen Dichter</rs>, den ich im Manuscript gelesen habe, nichts verlauten zu laßen, daß 
+               <del rend="stroked">mir</del> ich Sie, so überflüßig und lächerlich Sie es auch finden mögen, doch noch einmal förmlich bitten muß, weder gegen ihn 
+               noch andre mit einem Worte oder mit der entferntesten Aeußerung zu erwähnen, daß ich gegen Sie von diesem Aufsatze sprach. Ich wäre auf immer um 
+               alten Credit bey ihm: und man muß denn doch die Leute nun schon nehmen, wie sie einmal sind.
+            </p>
+         </div>
+         <closer>
+            <signed rend="right">Gentz.</signed>
+            <dateline rend="right"><date when-iso="1795-12-25">25<span rend="sup">ten</span> Decbre 1795</date>.</dateline>
+         </closer>
+      </body>
+   </text>
+</TEI>

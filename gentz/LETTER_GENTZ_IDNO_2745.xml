@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc xml:id="LETTER_GENTZ_2745">
+         <titleStmt>
+            <title>Friedrich von Gentz an Karl Gustav von Brinckmann, 18. Juni[?] 1801</title>
+            <editor xml:id="edAG">Andreas Gálffy</editor>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <name>Forschungsstelle "Universitätssammlung Friedrich von Gentz"</name>
+               <link target="http://gentz-digital.ub.uni-koeln.de http://www.ub.uni-koeln.de/cdm/singleitem/collection/gentz/id/2744/"/>
+            </publisher>
+            <pubPlace>Cologne</pubPlace>
+            <idno type="Gentz-Edition-Number" n="2745"/>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <country>Sweden</country>
+                  <settlement>Trolle-Ljungby</settlement>
+                  <institution>Archiv des Grafen Wachtmeister</institution>
+                  <repository>Nachlaß Brinckmann, Ausländ. Briefwechsel, Gentz an Brinckmann</repository>
+                  <idno>G 3</idno>
+               </msIdentifier>
+               <msContents>
+                  <summary>
+                     Das Wiedersehen mit Brinckmann hat Gentz Freude gemacht. Er hätte ihm noch viel zu erzählen gehabt und wird 
+                     ihn am folgenden Abend treffen. Brickmann soll sich ja von den Juden fernhalten!
+                  </summary>
+               </msContents>
+            </msDesc>
+            <listBibl type="preprints">
+               <biblStruct>
+                  <monogr>
+                     <editor>
+                        <persName>
+                           <ref target="http://d-nb.info/gnd/130953075"/>
+                           <forename>Friedrich Carl</forename>
+                           <surname>Wittichen</surname>
+                        </persName>
+                        <persName>
+                           <ref /> <!-- kein GND-Eintrag -->
+                           <forename>Ernst</forename>
+                           <surname>Salzer</surname>
+                        </persName>
+                     </editor>
+                     <title>Briefe von und an Friedrich von Gentz, 4 Bde.</title>
+                     <imprint>
+                        <publisher>Oldenbourg</publisher>
+                        <pubPlace>München, Berlin</pubPlace>
+                        <date>1909-1913</date>
+                     </imprint>
+                     <biblScope unit="volume" n="2">
+                        II
+                     </biblScope>
+                     <biblScope unit="page" from="72" to="72">
+                        Nr. 79
+                     </biblScope>
+                  </monogr>
+               </biblStruct>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Masterarbeit zu Matrikelnummer 5584124</p>
+         </projectDesc>
+      </encodingDesc>
+      <profileDesc>
+         <creation>
+            <date when-iso="1801-06-18">18. Juni 1801</date>
+         </creation>
+        <langUsage>
+           <language ident="d">deutsch</language>
+        </langUsage>
+         <textClass>
+            <keywords scheme="internal"><!-- internal: innerhalb des besagten Briefs -->
+               <term>Brief</term>
+               <term>Wiedersehen</term>
+               <term>Levy</term>
+               <term>Juden</term>
+            </keywords>
+            <keywords scheme="categorisation"><!-- Sinnabschnittseinteilung - relevant für den Fahrkartenautomaten! -->
+               <term xml:id="vkgvb">Verhältnis Karl Gustav von Brinckmann</term>
+            </keywords>
+         </textClass>
+         <textDesc>
+            <channel>manuscript</channel>
+            <constitution type="single"/>
+            <derivation type="original"/>
+            <domain type="private"/>
+            <factuality type="fact"/>
+            <interaction type="partial"/>
+            <preparedness type="prepared"/>
+            <purpose type="inform"/>
+         </textDesc>
+         <particDesc>
+            <listPerson>
+               <!-- Sender und Adressat -->
+               <person role="sender" xml:id="Gen">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/118538489"/>
+                     <forename>Friedrich von</forename>
+                     <surname>Gentz</surname>
+                  </persName>
+               </person>
+               <person role="receiver" xml:id="KGvB">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/116519770"/>
+                     <forename>Carl Gustav von</forename>
+                     <surname>Brinckmann</surname>
+                  </persName>
+               </person>
+               <!-- erwähnte Personen -->
+               <person role="named" xml:id="JJPLC">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/159696496"/>
+                     <forename>John Joshua Proby</forename>
+                     <surname>Carysfort</surname>
+                  </persName>
+               </person>
+               <person role="named" xml:id="AHRw">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/115548149"/>
+                     <forename>Antoni Henryk</forename>
+                     <surname>Radziwiłł</surname>
+                  </persName>
+               </person>
+               <person role="named" xml:id="RVh">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/118626175"/>
+                     <forename>Rahel</forename>
+                     <surname>Varnhagen</surname>
+                  </persName>
+               </person>
+               <person role="named" xml:id="MAV">
+                  <persName>
+                     <ref />
+                     <forename>Marie-Angélique</forename>
+                     <surname>Vandeuil</surname>
+                  </persName>
+               </person>
+            </listPerson>
+         </particDesc>
+         <settingDesc>
+            <listPlace>
+               <!-- Start- und Zielort -->
+               <place type="sender" xml:id="plSb">
+                  <country>
+                     <ref target="http://d-nb.info/gnd/4047194-9"/>
+                     <placeName>Preußen</placeName>
+                  </country>
+                  <settlement>
+                     <ref target="http://d-nb.info/gnd/116944-0"/>
+                     <placeName>Schöneberg</placeName>
+                  </settlement>
+               </place>
+               <place type="receiver" xml:id="plBe">
+                  <country>
+                     <ref target="http://d-nb.info/gnd/4047194-9"/>
+                     <placeName>Preußen</placeName>
+                  </country>
+                  <settlement>
+                     <ref target="http://d-nb.info/gnd/4005728-8"/>
+                     <placeName>Berlin</placeName>
+                  </settlement>
+               </place>
+               <!-- erwähnte Orte -->
+            </listPlace>
+         </settingDesc>
+      </profileDesc>
+      <revisionDesc>
+         <change xml:id="init" when-iso="2018-03-08" who="#edAG">Erstauszeichnung und Normierung des Dokumentes im Rahmen der Masterarbeit der Matrikelnummer 5584124</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div n="1" corresp="#vkgvb">
+            <p>
+               Ich muß Ihnen doch noch einmal sagen, wie unendlich ich mich gefreut habe, Sie wieder zu sehen ! Und seitdem ich 
+               mit Ihnen sprach, bin ich vollends ganz überzeugt, daß ich mich noch lange nicht hinlänglich auf Ihre Ankunft 
+               freute. Ich dächte, Sie kämen heute - weil es doch so ganz toll wäre - nach 
+               <rs type="place" ref="#plSb">Schöneberg</rs>; ich habe das Diner bei 
+               <rs type="person" ref="#JJPLC">Carysfort</rs> absagen laßen, und komme erst um 6 Uhr nach 
+               <rs type="place" ref="#plBe">Berlin</rs>. In jedem Falle sehe ich Sie Abends bei 
+               <rs type="person" ref="#AHRw">Radzivill</rs>. Die Menge der Gegenstände worüber ich noch mit Ihnen sprechen muß, 
+               ist so groß, daß, wie es mir scheint, die Ewigkeit nicht hinreichen würde, um sie abzuhandeln. Laßen Sie nur fürs 
+               erste - die verfluchten Juden aus dem Spiel: die Gelehrten fürchte ich nicht; denn sie sind so nüchtern, daß 
+               Ihnen der Appetit nach diesen Rakkern bald vergehen wird. Will aber das Schicksal, daß Sie Sich <pb/> in irgend 
+               eine Jüdin verlieben - dann freilich bin ich verloren. In <rs type="place" ref="#plSb">Schöneberg</rs> wohnen 
+               auch Juden, und sogar blinde, denen nichts desto weniger <rs type="person" ref="#MAV">Vandeuil</rs> die Cour 
+               macht. Leben Sie wol, und verderben Sie nur nicht durch die ersten Schritte, die ganze Laufbahn unsers künftigen 
+               Lebens. Die Warnung der kleinen <rs type="person" ref="#RVh">Levy</rs> tönt schrecklich in meinen Ohren: ich 
+               setze ihr die meinige entgegen: <span xml:lang="lat">Fuge, o fuge Judaeos !</span>
+            </p>
+         </div>
+         <closer>
+            <signed rend="right">Gentz.</signed>
+            <dateline rend="left"><rs type="place" ref="#plSb">Schöneberg</rs> den <date when-iso="1801-06-18">18 Juny</date></dateline>
+         </closer>
+      </body>
+   </text>
+</TEI>

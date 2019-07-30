@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc xml:id="LETTER_GENTZ_5323">
+         <titleStmt>
+            <title>Friedrich von Gentz an Karl August Böttiger, 19. November 1801</title>
+            <editor xml:id="edAG">Andreas Gálffy</editor>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <name>Forschungsstelle "Universitätssammlung Friedrich von Gentz"</name>
+               <link target="http://gentz-digital.ub.uni-koeln.de http://www.ub.uni-koeln.de/cdm/singleitem/collection/gentz/id/5322/"/>
+            </publisher>
+            <pubPlace>Cologne</pubPlace>
+            <idno type="Gentz-Edition-Number" n="5323"/>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <country>Germany</country>
+                  <settlement>Dresden</settlement>
+                  <institution>Sächsische Landesbibliothek</institution>
+                  <repository>Handschriftensammlung, Nachlaß Böttiger</repository>
+                  <collection>Mscr. Dresd. h 37, Bd. 54 (4°)</collection>
+                  <idno>Nr. 24</idno>
+               </msIdentifier>
+               <msContents>
+                  <summary>
+                     Böttiger soll Gentz bei Herder anmelden, da er ihn besuchen will, und bittet den Almanach mit den Schwestern 
+                     von Lesbos.
+                  </summary>
+               </msContents>
+            </msDesc>
+            <listBibl type="preprints">
+               <biblStruct>
+                  <monogr>
+                     <editor>
+                        <persName>
+                           <ref target="http://d-nb.info/gnd/130953075"/>
+                           <forename>Friedrich Carl</forename>
+                           <surname>Wittichen</surname>
+                        </persName>
+                        <persName>
+                           <ref/> <!-- kein GND-Eintrag -->
+                           <forename>Ernst</forename>
+                           <surname>Salzer</surname>
+                        </persName>
+                     </editor>
+                     <title>Briefe von und an Friedrich von Gentz, 4 Bde.</title>
+                     <imprint>
+                        <publisher>Oldenbourg</publisher>
+                        <pubPlace>München, Berlin</pubPlace>
+                        <date>1909-1913</date>
+                     </imprint>
+                     <biblScope unit="volume" n="1">
+                        I
+                     </biblScope>
+                     <biblScope unit="page" from="259" to="260">
+                        Nr. 66
+                     </biblScope>
+                  </monogr>
+               </biblStruct>
+            </listBibl>
+            <listBibl type="defRep">
+               <biblStruct xml:id="p5323-1" corresp="HAAB-0000">
+                  <monogr>
+                     <editor>
+                        <persName>
+                           <ref target="http://d-nb.info/gnd/118607626"/>
+                           <forename>Friedrich</forename>
+                           <surname>Schiller</surname>
+                        </persName>
+                     </editor>
+                     <title>Musen-Almanach für das Jahr 1800</title>
+                     <imprint>
+                        <pubPlace>Tübingen</pubPlace>
+                        <publisher>J. G. Cotta</publisher>
+                        <date>1800</date>
+                     </imprint>
+                  </monogr>
+                  <ptr target="https://haab-digital.klassik-stiftung.de/viewer/image/920186718_1800000000/9/"/>
+               </biblStruct>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Masterarbeit zu Matrikelnummer 5584124</p>
+         </projectDesc>
+      </encodingDesc>
+      <profileDesc>
+         <creation>
+            <date when-iso="1801-11-19">19. November 1801</date>
+         </creation>
+        <langUsage>
+           <language ident="d">deutsch</language>
+        </langUsage>
+         <textClass>
+            <keywords scheme="internal"><!-- internal: innerhalb des besagten Briefs -->
+               <term>Billet</term>
+               <term>Besuch</term>
+               <term>Herder</term>
+               <term>Bibliothek</term>
+            </keywords>
+            <keywords scheme="categorisation"><!-- Sinnabschnittseinteilung - relevant für den Fahrkartenautomaten! -->
+               <term xml:id="vjgh">Verhältnis Johann Gottfried Herder</term>
+               <term xml:id="swvl">Schwestern von Lesbos</term>
+            </keywords>
+         </textClass>
+         <textDesc>
+            <channel>manuscript</channel>
+            <constitution type="single"/>
+            <derivation type="original"/>
+            <domain type="private"/>
+            <factuality type="fact"/>
+            <interaction type="partial"/>
+            <preparedness type="prepared"/>
+            <purpose type="inform"/>
+         </textDesc>
+         <particDesc>
+            <listPerson>
+               <!-- Sender und Adressat -->
+               <person role="sender" xml:id="Gen">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/118538489"/>
+                     <forename>Friedrich von</forename>
+                     <surname>Gentz</surname>
+                  </persName>
+               </person>
+               <person role="receiver" xml:id="KAB">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/118824775"/>
+                     <forename>Carl August</forename>
+                     <surname>Böttiger</surname>
+                  </persName>
+               </person>
+               <!-- erwähnte Personen -->
+               <person role="named" xml:id="JGH">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/118549553"/>
+                     <forename>Johann Gottfried von</forename>
+                     <surname>Herder</surname>
+                  </persName>
+               </person>
+            </listPerson>
+         </particDesc>
+         <settingDesc>
+            <listPlace>
+               <!-- Start- und Zielort -->
+               <place type="sender" xml:id="plWe">
+                  <country>
+                     <ref target="http://d-nb.info/gnd/4051194-7"/>
+                     <placeName>Sachsen-Weimar-Eisenach</placeName>
+                  </country>
+                  <settlement>
+                     <ref target="http://d-nb.info/gnd/4065105-8"/>
+                     <placeName>Weimar</placeName>
+                  </settlement>
+               </place>
+               <!-- erwähnte Orte -->
+            </listPlace>
+         </settingDesc>
+      </profileDesc>
+      <revisionDesc>
+         <change xml:id="init" when-iso="2018-03-09" who="#edAG">Erstauszeichnung und Normierung des Dokumentes im Rahmen der Masterarbeit der Matrikelnummer 5584124</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div n="1" corresp="#vjgh">
+            <p>
+               Ich denke mit einer Art von Schrecken daran, daß ich noch keinen Besuch bei 
+               <rs type="person" ref="#JGH"><emph rend="underlined">Herder</emph></rs> gemacht habe. Sie, der Sie mir bei meiner 
+               hiesigen Anwesenheit schon so viel Freundschaftsdienste leisteten, würden Sie es wohl übernehmen, mich bei ihm 
+               anzumelden ? Am liebsten wäre es mir, wenn der Besuch <emph rend="underlined">heute Nachmittag</emph> Statt 
+               finden könnte. Ich erwarte daher auf den Mittag einige Nachricht von Ihrer Güte.
+            </p>
+         </div>
+         <div n="2" corresp="#swvl">
+            <p>
+               Ferner wollte ich Sie fragen, ob Sie mir nicht, und zwar baldmöglichst den 
+               <rs type="citation" ref="#p5323-1">Musen-Almanach</rs> schicken könnten, worin die 
+               <emph rend="underlined">Schwestern von Lesbos</emph> stehen. Zu diesem Antrage sehe ich Sie etwas schalkhaft 
+               lächeln; aber das schadet nichts; ich habe gleich <date when-iso="1801-11-18">gestern</date> freimüthig bekannt, 
+               daß der Helm auf mich lebhaft gewirkt hat, <span xml:lang="fr">et je ne m'en défendrai point aujourd'hui</span>.
+            </p>
+         </div>
+         <closer>
+            <signed rend="right">Gentz</signed>
+            <dateline rend="right"><date when-iso="1801-11-19">19 Novbre 1801</date>.</dateline>
+         </closer>
+      </body>
+   </text>
+</TEI>

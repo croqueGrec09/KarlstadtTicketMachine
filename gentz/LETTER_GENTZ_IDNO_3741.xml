@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc xml:id="LETTER_GENTZ_3741">
+      <titleStmt>
+        <title>Friedrich von Gentz an Robert B. Jenkinson Lord Hawkesbury, 8. März 1800</title>
+        <editor xml:id="edCB">Carina Berning</editor>
+        <editor xml:id="edAP">Anne Pietsch</editor>
+        <editor xml:id="edAG">Andreas Gálffy</editor>
+        <editor xml:id="edMS">Max Supplieth</editor>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>
+          <name>Forschungsstelle "Universitätssammlung Friedrich von Gentz"</name>
+          <link target="http://gentz-digital.ub.uni-koeln.de http://www.ub.uni-koeln.de/cdm/singleitem/collection/gentz/id/3740/"/>
+        </publisher>
+        <pubPlace>Cologne</pubPlace>
+        <idno type="Gentz-Edition-Number" n="3741"/>
+      </publicationStmt>
+      <sourceDesc><!-- Wir haben nur das Original, sowie eine Transkription -->
+        <msDesc>
+          <msIdentifier>
+            <country>United Kingdom</country>
+            <settlement>London</settlement>
+            <institution>British Library</institution>
+            <repository>Manuscript Department</repository>
+            <collection>Liverpool-Papers</collection>
+            <idno>Add. 38234</idno>
+          </msIdentifier>
+          <msContents>
+            <summary>
+              In diesem Brief erklärt Gentz den Zweck seines - wie er schreibt - schwachen Essays: Aufräumen mit Vorurteilen und 
+              Unkenntnis seiner Landsleute über die Ressourcen in England. Mit diesem Begleitschreiben stellt Gentz auch Lord 
+              Hawkesbury das Essay vor.
+            </summary>
+          </msContents>
+          <physDesc>
+            <p>eine Seite, Maßangaben liegen n i c h t vor</p>
+          </physDesc>
+        </msDesc>
+        <listBibl type="defRep">
+          <biblStruct xml:id="p3741-1" corresp="GBk-0060">
+            <monogr>
+              <author>
+                <persName>
+                  <ref target="http://d-nb.info/gnd/118538489"/>
+                  <forename>Friedrich von</forename>
+                  <surname>Gentz</surname>
+                </persName>
+              </author>
+              <title>Essai sur l'etat actuel de l'administration des finances et de la richesse nationale de la Grande Bretagne</title>
+              <imprint>
+                <pubPlace>London</pubPlace>
+                <publisher>J. Debrett</publisher>
+                <date>1800</date>
+              </imprint>
+            </monogr>
+            <ptr target="https://books.google.de/books?id=R_bXZfXXWVoC"/>
+          </biblStruct>
+        </listBibl>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p change="#init">Briefsammlung von Gentz</p>
+        <p change="#karlstadt">Erschaffung des KVAG-Fahrkartenautomaten</p>
+        <p change="#masterthesis">Masterarbeit zu Matrikelnummer 5584124</p>
+      </projectDesc>
+    </encodingDesc>
+    <profileDesc>
+      <creation>
+        <date when-iso="1800-03-08">8. März 1800</date>
+      </creation>
+      <langUsage>
+        <language ident="f">Französisch</language>
+      </langUsage> 
+      <textClass>
+        <keywords scheme="internal">
+          <term>Brief</term>
+          <term>Diplomatie</term>
+          <term>Gentz</term>
+          <term>Hawkesbury</term>
+          <term>Aufklärung</term>
+        </keywords>
+        <keywords scheme="categorisation">
+          <term xml:id="efgb">Essay über die Finanzen Großbritanniens</term>
+        </keywords>
+      </textClass>
+      <textDesc n="letter">
+        <!-- text Description -->
+        <channel mode="w">manuscript</channel> 
+        <constitution type="single"/>
+        <derivation type="original"/>
+        <domain type="private"/>
+        <factuality type="fact"/>
+        <interaction type="partial"/> 
+        <preparedness type="prepared"/>  
+        <purpose type="inform"/>
+      </textDesc>
+      <particDesc>
+          <listPerson>
+            <!-- Sender und Adressat -->
+            <person role="sender" xml:id="Gen">
+              <persName>
+                <ref target="http://d-nb.info/gnd/118538489"/>
+                <forename>Friedrich von</forename>
+                <surname>Gentz</surname>
+              </persName>             
+            </person>
+            <person role="receiver" xml:id="Je">
+              <persName>
+                <ref target="http://d-nb.info/gnd/133739791"/>
+                <forename>Robert Banks</forename>
+                <surname>Jenkinson</surname>
+              </persName>
+            </person>
+            <!-- Im Brief erwähnte Personen -->
+          </listPerson>
+      </particDesc>
+      <settingDesc>
+        <listPlace>
+          <!-- Start- und Zielort -->
+          <place type="sender" xml:id="plBe">
+            <country>
+              <ref target="http://d-nb.info/gnd/4047194-9"/>
+              <placeName>Preußen</placeName>
+            </country>
+            <settlement>
+              <ref target="http://d-nb.info/gnd/4005728-8"/>
+              <placeName>Berlin</placeName>
+            </settlement>
+          </place>
+          <place type="receiver" xml:id="plLo">
+            <country>
+              <ref target="http://d-nb.info/gnd/4022153-2"/>
+              <placeName>Vereinigtes Königreich</placeName>
+            </country>
+            <settlement>
+              <ref target="http://d-nb.info/gnd/4074335-4"/>
+              <placeName>London</placeName>
+            </settlement>
+          </place>
+          <!-- erwähnte Orte -->
+          <place type="named" xml:id="plEn">
+            <country>
+              <ref target="http://d-nb.info/gnd/4022153-2"/>
+              <placeName>England</placeName>
+            </country>
+          </place>
+        </listPlace>
+      </settingDesc>
+    </profileDesc>
+    <revisionDesc>
+      <listChange>
+        <change when-iso="2013-01-01" who="#edAG #edMS" status="draft">Erstanlage des TEI-Files mit Einfügung der vorhandenen Transkription</change>
+        <change when-iso="2013-12-04" who="#edAG #edMS" status="draft">Weitere Auszeichnung</change>
+        <change xml:id="init" when-iso="2013-12-10" who="#edAG #edMS" status="draft">Bearbeitung der Auszeichnung in TEI</change>
+        <change xml:id="karlstadt" when-iso="2016-07-06" who="#edAG #edMS" status="draft">Normierung und Anpassung des Dokumentes im Zuge der Übung "WebApps und Textmining" im Hinblick auf die
+        zukünftige Masterarbeit für Matrikelnummer 5584124</change>
+        <change xml:id="masterthesis" when-iso="2018-03-05" who="#edAG" status="draft">weitere Korrektur und Anpassung an neue Maßgaben für die Masterarbeit zu Matrikel 5584124</change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <facsimile>
+    <graphic url="00000090.jpg" xml:id="seite1"/>
+  </facsimile>
+  <text>
+    <body>
+      <opener>
+        <salute><rs type="person" ref="#Je">My Lord</rs>!</salute>
+      </opener>
+      <div n="1" corresp="#efgb">
+        <p>
+          <pb facs="#seite1"/>
+          Le <choice><orig>foible</orig><reg>faible</reg></choice> essai que je <choice><orig>prens</orig><reg>prends</reg></choice> la liberté de <rs type="person" ref="#Je"><choice><orig>Vous</orig><reg>vous</reg></choice></rs> <lb/>
+          présenter a été composé dans l'idée de mettre à la place <lb/> 
+          des erreurs et des préjugés que l'ignorance et la mauvaise- <lb/>
+          foi ont répandu parmi mes compatriotes sur l'état interieur <lb/>
+          et les ressources de l'<rs type="place" ref="#plEn"><choice><orig>angleterre</orig><reg>Angleterre</reg></choice></rs>, quelque notions plus exactes <lb/> 
+          et plus dignes de la grandeur de l'objet. C'est sous ce <lb/>
+          rapport seul, qu'un homme-d'état de <choice><orig>Vos</orig><reg>vos</reg></choice> lumières et de <lb/>
+          <rs type="person" ref="#Je"><choice><orig>Votre</orig><reg>votre</reg></choice></rs> caractère peut honorer <rs type="citation" ref="#p3741-1">cet ouvrage</rs> d'un regard favo-<lb/>
+          rable: c'est sous ce rapport seul que j'ai pu concevoir<lb/>
+          l'idée de <rs type="person" ref="#Je"><choice><orig>Vous</orig><reg>vous</reg></choice></rs> le présenter.
+        </p>
+        <p>
+          J'ai l'honneur d'etre avec la plus-haute <lb/>
+          considération
+        </p>
+      </div>
+      <closer>
+        <salute rend="right">My Lord</salute>
+        <dateline rend="left"><rs type="place" ref="#plBe">Berlin</rs> <date when-iso="1800-03-08">ce 8 Mars 1800</date>.</dateline>
+        <salute rend="right">Votre très-humble et très-<lb/>
+          dévoué serviteur</salute>
+        <signed rend="right">Gentz</signed>
+      </closer>
+    </body>
+  </text>
+</TEI>

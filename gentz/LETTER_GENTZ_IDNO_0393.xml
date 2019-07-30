@@ -1,0 +1,800 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc xml:id="LETTER_GENTZ_0393">
+         <titleStmt>
+            <title>Friedrich von Gentz an Christian Garve, 5. März 1790</title>
+            <editor xml:id="edAG">Andreas Gálffy</editor>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <name>Forschungsstelle "Universitätssammlung Friedrich von Gentz"</name>
+               <link target="http://gentz-digital.ub.uni-koeln.de http://www.ub.uni-koeln.de/cdm/singleitem/collection/gentz/id/392/"/>
+            </publisher>
+            <pubPlace>Cologne</pubPlace>
+            <idno type="Gentz-Edition-Number" n="0393"/>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <settlement>unknown</settlement>
+                  <idno>destroyed</idno><!-- Manuskript wurde durch Kriegseinwirkungen zerstört -->
+               </msIdentifier>
+               <msContents>
+                  <summary>
+                     Gentz hat die Korrespondenz mit Garve aussetzen müssen, da ihn die Amtsgeschäfte stark eingenommen hatten. 
+                     Durch Beschreiten der Beamtenlaufbahn hat er wertvolle Zeit zum Studieren verloren - und darunter hat auch die 
+                     Korrespondenz mit Garve gelitten.
+                     Nichtsdestotrotz hat Gentz sich mit der Philosophie beschäftigt; er war in einer Vorlesung eines Herrn 
+                     Kiesewetter, der Kants Ideen nach Berlin einführte, aber diese Ideen schreckten die Bürger wohl ab; des 
+                     Weiteren hat Gentz das Werk "Kritik der Urteilskraft" korrigiert und sieht ab, dass es weniger Ehre einfahren 
+                     wird, als frühere Werke.
+                     Gentz hat darüber hinaus auch mit Frédéric Ancillon Kontakt aufgenommen, der schon seit langen Jahren sein 
+                     enger Freund ist. Dieser verfügt zudem eine Menge Literatur zur französischen Revolution: Mirabeau, Mounier, 
+                     Bergasse, Lally-Torendal, ...
+                     Über Paris vermeldet Gentz, dass Herr Bitaubé die Politik des Aristoteles übersetzt und dass es kaum möglich ist, 
+                     Schriftsteller zu sein, ohne dabei die Politik zu thematisieren. In der neu aufkommenden Freiheit mussten alle 
+                     Nationen anfangen, ihr Denken über Politik zu erneuern. In diesem Sinne weist Gentz Garve auf dessen im letzten 
+                     Jahr erschienenes Werk Werk hin und möchte ihn dazu bringen, ein entgegengesetztes Werk über die Rechte der 
+                     Völker zu schreiben. Andererseits bittet Gentz Garve um Nachsicht für seinen Eifer und begründet dieser mit 
+                     dem Zeitgeist.
+                     Dem folgten Berichte über verschiedene französische Bücher, so sei das Hénaultsche Abrégé nicht zu erhalten, 
+                     trotz der Kontakte zum Buchhändler La Garde; Gentz schickt daher sein eigenes Exemplar. Für neun Reichstaler 
+                     ist die Voyages d'Anacharsis von herve in fünf Bänden zu erhalten. Des Weiteren drei neue Teile von Rousseaus 
+                     Confessions und Briefen, Lettres de Mme de Stael, Adam Smith ins Französische übersetzte Werk über den 
+                     Nationalreichtum und einige andere Werke.
+                     An Krieg wird nicht geglaubt.
+                     Gentz wünscht sich positive Meldungen zu Garves Gesundheit und verabschiedet sich mit herzlichen Grüßen an 
+                     Garves Mutter.
+                  </summary>
+               </msContents>
+            </msDesc>
+            <listBibl type="preprints">
+               <biblStruct>
+                  <monogr>
+                     <editor>
+                        <persName>
+                           <ref target="http://d-nb.info/gnd/130953075"/>
+                           <forename>Friedrich Carl</forename>
+                           <surname>Wittichen</surname>
+                        </persName>
+                        <persName>
+                           <ref/> <!-- kein GND-Eintrag -->
+                           <forename>Ernst</forename>
+                           <surname>Salzer</surname>
+                        </persName>
+                     </editor>
+                     <title>Briefe von und an Friedrich von Gentz, 4 Bde.</title>
+                     <imprint>
+                        <publisher>Oldenbourg</publisher>
+                        <pubPlace>München, Berlin</pubPlace>
+                        <date>1909-1913</date>
+                     </imprint>
+                     <biblScope unit="volume" n="1">
+                        I
+                     </biblScope>
+                     <biblScope unit="page" from="154" to="161">
+                        Nr. 37
+                     </biblScope>
+                  </monogr>
+               </biblStruct>
+            </listBibl>
+            <listBibl type="letterReferenced">
+               <bibl xml:id="c0393-1" corresp="#LETTER_GENTZ_NNNN">nicht bekannter Brief von Christian Garve an Friedrich von Gentz</bibl>
+               <bibl xml:id="c0393-2" corresp="#LETTER_GENTZ_4991">Friedrich von Gentz an Christian Garve, 6. Oktober 1789</bibl>
+               <bibl xml:id="c0393-3" corresp="#LETTER_GENTZ_5183">Friedrich von Gentz an Christian Garve, 24. Oktober 1789</bibl>
+               <bibl xml:id="c0393-4" corresp="#LETTER_GENTZ_NNNN">nicht näher benannte Briefe von Mme de Staël</bibl>
+            </listBibl>
+            <listBibl type="alludedWorks">
+               <bibl xml:id="a0393-1" corresp="#LETTER_GENTZ_NNNN">Übersetzung Paul Jérémie Bitaubés zu einem nicht näher benannten Werk Homers</bibl>
+               <bibl xml:id="a0393-2" corresp="#LETTER_GENTZ_NNNN">Übersetzung Alexander Popes zu einem nicht näher benannten Werk Homers</bibl>
+               <bibl xml:id="a0393-3" corresp="#LETTER_GENTZ_NNNN">drei 1790 erschienene Teile von Jean-Jacques Rousseau's Confessions. Leseproben sind nicht verfügbar.</bibl>
+            </listBibl>
+            <listBibl type="defExpr">
+               <biblStruct xml:id="e0393-1" corresp="UDE-0000">
+                  <monogr>
+                     <author>
+                        <persName>
+                           <ref target="http://d-nb.info/gnd/118559796"/>
+                           <forename>Immanuel</forename>
+                           <surname>Kant</surname>
+                        </persName>
+                     </author>
+                     <title>Kritik der Urtheilskraft</title>
+                     <imprint>
+                        <date>1790</date>
+                     </imprint>
+                  </monogr>
+                  <ptr target="https://korpora.zim.uni-duisburg-essen.de/Kant/aa05/"/>
+               </biblStruct>
+               <biblStruct xml:id="e0393-2" corresp="Grg-0001">
+                  <monogr>
+                     <author>
+                        <persName>
+                           <ref target="http://d-nb.info/gnd/118582682"/>
+                           <forename>Honoré-Gabriel de Riquetti</forename>
+                           <surname>de Mirabeau</surname>
+                        </persName>
+                     </author>
+                     <title>Courrier de Provence</title>
+                     <imprint>
+                        <date>1789-1791</date>
+                     </imprint>
+                  </monogr>
+                  <ptr target="http://gazetier-revolutionnaire.gazettes18e.fr/periodique/courrier-de-provence-1789-1791"/>
+               </biblStruct>
+               <biblStruct xml:id="e0393-3" corresp="Dnb-0003">
+                  <monogr>
+                     <author>
+                        <persName>
+                           <ref target="http://d-nb.info/gnd/118650130"/>
+                           <forename>Aristoteles</forename>
+                           <surname/>
+                        </persName>
+                     </author>
+                     <title>Politica</title>
+                     <imprint>
+                        <date>400-301 v. Chr.</date>
+                     </imprint>
+                  </monogr>
+                  <ptr target="http://d-nb.info/gnd/4125035-7"/>
+               </biblStruct>
+               <biblStruct xml:id="e0393-4" corresp="Mlw-0000">
+                  <monogr>
+                     <author>
+                        <persName>
+                           <ref target="http://d-nb.info/gnd/118615033"/>
+                           <forename>Adam</forename>
+                           <surname>Smith</surname>
+                        </persName>
+                     </author>
+                     <editor>
+                        <persName>
+                           <ref/>
+                           <forename>Sálvio Marcelo</forename>
+                           <surname>Soares</surname>
+                        </persName>
+                     </editor>
+                     <title>An Inquiry into the Nature and Causes of the Wealth of Nations</title>
+                     <imprint>
+                        <publisher>MetaLibri</publisher>
+                        <date>2007</date>
+                     </imprint>
+                  </monogr>
+                  <ptr target="http://metalibri.wikidot.com/title:an-inquiry-into-the-nature-and-causes-of-the-wealth-of"/>
+               </biblStruct>
+            </listBibl>
+            <listBibl type="defRep">
+               <biblStruct xml:id="p0393-1" corresp="DTA-0000">
+                  <monogr>
+                     <author>
+                        <persName>
+                           <ref target="http://d-nb.info/gnd/118559796"/>
+                           <forename>Immanuel</forename>
+                           <surname>Kant</surname>
+                        </persName>
+                     </author>
+                     <title>Critik der practischen Vernunft</title>
+                     <imprint>
+                        <publisher>Johann Friedrich Hartknoch</publisher>
+                        <pubPlace>Riga</pubPlace>
+                        <date>1788</date>
+                     </imprint>
+                  </monogr>
+                  <ptr target="http://www.deutschestextarchiv.de/book/view/kant_pvernunft_1788?p=9"/>
+               </biblStruct>
+               <biblStruct xml:id="p0393-2" corresp="GBk-0019">
+                  <monogr>
+                     <author>
+                        <persName>
+                           <ref target="http://d-nb.info/gnd/118650130"/>
+                           <forename>Aristoteles</forename>
+                           <surname/>
+                        </persName>
+                     </author>
+                     <editor resp="translator">
+                        <persName>
+                           <ref target="http://d-nb.info/gnd/118537636"/>
+                           <forename>Christian</forename>
+                           <surname>Garve</surname>
+                        </persName>
+                     </editor>
+                     <editor>
+                        <persName>
+                           <ref target="http://d-nb.info/gnd/100130313"/>
+                           <forename>Georg Gustav</forename>
+                           <surname>Fülleborn</surname>
+                        </persName>
+                     </editor>
+                     <title>Die Politick des Aristoteles</title>
+                     <imprint>
+                        <publisher>Franz Haas</publisher>
+                        <pubPlace>Wien, Prag</pubPlace>
+                        <date>1803</date>
+                     </imprint>
+                  </monogr>
+               <ptr target="https://books.google.de/books?id=PhoTAAAAQAAJ"/></biblStruct>
+               <biblStruct xml:id="p0393-3" corresp="#LETTER_GENTZ_NNNN">
+                  <monogr>
+                     <title>Voyage du jeune Anacharsis en Grèce</title>
+                     <imprint>
+                        <pubPlace>Herve</pubPlace>
+                        <date>1789</date>
+                        <note resp="#edAG">nicht digitalisiert, Daten entnommen aus <ptr target=" https://auction.catawiki.com/kavels/3379449-ancient-travel-a-herve-voyage-du-jeune-anacharsis-en-gr-ce-dans-le-milieu-du-quatri-me-si-cle-avant-l-re-vulgaire-5-volumes-1789"/></note>
+                     </imprint>
+                  </monogr>
+               </biblStruct>
+            </listBibl>
+            <listBibl type="edRef">
+               <biblStruct xml:id="f0393-1" corresp="BSB-0000">
+                  <monogr>
+                     <author>
+                        <persName>
+                           <ref target="http://d-nb.info/gnd/118537636"/>
+                           <forename>Christian</forename>
+                           <surname>Garve</surname>
+                        </persName>
+                     </author>
+                     <title>Abhandlung über die Verbindung der Moral mit der Politik oder einige Betrachtungen über die Frage, in wiefern es möglich sey, die Moral des Privatlebens bey der Regierung der Staaten zu beobachten.</title>
+                     <imprint>
+                        <publisher>Wilhelm Gottlieb Korn</publisher>
+                        <pubPlace>Breslau</pubPlace>
+                        <date>1788</date>
+                     </imprint>
+                  </monogr>
+               <ptr target="http://reader.digitale-sammlungen.de/de/fs1/object/display/bsb10040572_00005.html"/></biblStruct>
+               <biblStruct xml:id="f0393-2" corresp="BSB-0004">
+                  <monogr>
+                     <author>
+                        <persName>
+                           <ref target="http://d-nb.info/gnd/117516449"/>
+                           <forename>Charles-Jean-François</forename>
+                           <surname>Henault</surname>
+                        </persName>
+                     </author>
+                     <title>Nouvel Abrégé Chronologique De L'Histoire De France : Contenant Les Événemens de notre Histoire, depuis Clovos jusqu'à Louis XIV, les Guerres, les Batailles, les Siéges, &amp;c. nos Loix, nos Moeurs, nos Usages, &amp;c.</title>
+                     <imprint>
+                        <publisher>Dumesnil</publisher>
+                        <pubPlace>Rouen</pubPlace>
+                        <date>1789</date>
+                     </imprint>
+                  </monogr>
+               <ptr target="http://www.mdz-nbn-resolving.de/urn/resolver.pl?urn=urn:nbn:de:bvb:12-bsb10417793-3"/></biblStruct>
+               <biblStruct xml:id="f0393-3" corresp="Dnb-0002">
+                  <monogr>
+                     <author>
+                        <persName>
+                           <ref target="http://d-nb.info/gnd/140398848"/>
+                           <forename>Uta</forename>
+                           <surname>Wiggermann</surname>
+                        </persName>
+                     </author>
+                     <title>Woellner und das Religionsedikt : Kirchenpolitik und kirchliche Wirklichkeit im Preußen des späten 18. Jahrhunderts</title>
+                     <imprint>
+                        <pubPlace>Tübingen</pubPlace>
+                        <publisher>Mohr Siebeck</publisher>
+                        <date>2010</date>
+                     </imprint>
+                  </monogr>
+                  <ptr target="http://d-nb.info/997396776"/>
+               </biblStruct>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Masterarbeit zu Matrikelnummer 5584124</p>
+         </projectDesc>
+      </encodingDesc>
+      <profileDesc>
+         <creation>
+            <date when-iso="1790-03-05">5. März 1790</date>
+         </creation>
+        <langUsage>
+           <language ident="d">deutsch</language>
+        </langUsage>
+         <textClass>
+            <keywords scheme="internal"><!-- internal: innerhalb des besagten Briefs -->
+               <term>Brief</term>
+               <term>Kant</term>
+               <term>Studien</term>
+               <term>Philosophie</term>
+               <term>Werke</term>
+               <term>Chemie</term>
+               <term>Recht</term>
+               <term>Rousseau</term>
+               <term>Smith</term>
+               <term>Ancillon</term>
+               <term>Literatur</term>
+            </keywords>
+            <keywords scheme="categorisation"><!-- Sinnabschnittseinteilung - relevant für den Fahrkartenautomaten! -->
+               <term xml:id="vcg">Verhältnis Christian Garve</term>
+               <term xml:id="bezbt">Beziehungen zu Berlin - Beamtentätigkeit</term>
+               <term xml:id="kant">Kant</term>
+               <term xml:id="vfa">Verhältnis Friedrich Ancillon</term>
+               <term xml:id="frv">Französische Revolution</term>
+               <term xml:id="kvmp">Über die Verbindung der Moral mit der Politik</term>
+               <term xml:id="lvm">Literatur vermischt</term>
+            </keywords>
+         </textClass>
+         <textDesc>
+            <channel>manuscript</channel>
+            <constitution type="single"/>
+            <derivation type="original"/>
+            <domain type="private"/>
+            <factuality type="fact"/>
+            <interaction type="partial"/>
+            <preparedness type="prepared"/>
+            <purpose type="inform"/>
+         </textDesc>
+         <particDesc>
+            <listPerson>
+               <!-- Sender und Adressat -->
+               <person role="sender" xml:id="Gen">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/118538489"/>
+                     <forename>Friedrich von</forename>
+                     <surname>Gentz</surname>
+                  </persName>
+               </person>
+               <person role="receiver" xml:id="Gar">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/118537636"/>
+                     <forename>Christian</forename>
+                     <surname>Garve</surname>
+                  </persName>
+               </person>
+               <!-- erwähnte Personen -->
+               <person role="named" xml:id="OvV">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/103098291"/>
+                     <forename>Otto</forename>
+                     <surname>von Voß</surname>
+                  </persName>
+               </person>
+               <person role="named" xml:id="Kie">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/116169613"/>
+                     <forename>Johann Gottfried Carl Christian</forename>
+                     <surname>Kiesewetter</surname>
+                  </persName>
+               </person>
+               <person role="named" xml:id="KFWII">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/11869362X"/>
+                     <forename>Friedrich Wilhelm II.</forename>
+                     <surname>von Preußen</surname>
+                     <roleName type="office">König von Preußen</roleName>
+                  </persName>
+               </person>
+               <person role="named" xml:id="Kant">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/118559796"/>
+                     <forename>Immanuel</forename>
+                     <surname>Kant</surname>
+                  </persName>
+               </person>
+               <person role="named" xml:id="Kla">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/118723367"/>
+                     <forename>Martin Heinrich</forename>
+                     <surname>Klaproth</surname>
+                  </persName>
+               </person>
+               <person role="named" xml:id="Anc">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/118645110"/>
+                     <forename>Johann Peter Friedrich</forename>
+                     <surname>Ancillon</surname>
+                  </persName>
+               </person>
+               <person role="named" xml:id="Mir">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/118582682"/>
+                     <forename>Honoré-Gabriel de Riquetti</forename>
+                     <surname>de Mirabeau</surname>
+                  </persName>
+               </person>
+               <person role="named" xml:id="Mou">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/11878515X"/>
+                     <forename>Jean-Joseph</forename>
+                     <surname>Mounier</surname>
+                  </persName>
+               </person>
+               <person role="named" xml:id="Ber">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/124844723"/>
+                     <forename>Nicolas</forename>
+                     <surname>Bergasse</surname>
+                  </persName>
+               </person>
+               <person role="named" xml:id="Lal">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/104197773"/>
+                     <forename>Trophime-Gérard</forename>
+                     <surname>de Lally-Tolendal</surname>
+                  </persName>
+               </person>
+               <person role="named" xml:id="Bit">
+                  <persName>
+                     <ref/><!-- kein GND-Eintrag -->
+                     <forename>Paul Jérémie</forename>
+                     <surname>Bitaubé</surname>
+                  </persName>
+               </person>
+               <person role="named" xml:id="Ari">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/118650130"/>
+                     <forename>Aristoteles</forename>
+                     <surname/>
+                  </persName>
+               </person>
+               <person role="named" xml:id="Pop">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/118595741"/>
+                     <forename>Alexander</forename>
+                     <surname>Pope</surname>
+                  </persName>
+               </person>
+               <person role="named" xml:id="Hen">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/117516449"/>
+                     <forename>Charles-Jean-François</forename>
+                     <surname>Henault</surname>
+                  </persName>
+               </person>
+               <person role="named" xml:id="FTL">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/141041900"/>
+                     <forename>François Théodore</forename>
+                     <surname>de Lagarde</surname>
+                  </persName>
+               </person>
+               <person role="named" xml:id="Rou">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/118603426"/>
+                     <forename>Jean Jacques</forename>
+                     <surname>Rousseau</surname>
+                  </persName>
+               </person>
+               <person role="named" xml:id="ALGdS">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/118616617"/>
+                     <forename>Anne-Louis Germaine</forename>
+                     <surname>de Staël</surname>
+                  </persName>
+               </person>
+               <person role="named" xml:id="Nck">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/11878580X"/>
+                     <forename>Jacques</forename>
+                     <surname>Necker</surname>
+                  </persName>
+               </person>
+               <person role="named" xml:id="Mat">
+                  <persName>
+                     <ref/>
+                     <forename/>
+                     <surname>Mathis</surname>
+                  </persName>
+               </person>
+               <person role="named" xml:id="AdS">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/118615033"/>
+                     <forename>Adam</forename>
+                     <surname>Smith</surname>
+                  </persName>
+               </person>
+               <person role="named" xml:id="JCvW">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/117453773"/>
+                     <forename>Johann Christoph</forename>
+                     <surname>von Woellner</surname>
+                  </persName>
+               </person>
+               <person role="named" xml:id="MGar">
+                  <persName>
+                     <ref/>
+                     <forename/>
+                     <surname>Garve</surname>
+                     <roleName type="family">Mutter von Christian Garve</roleName>
+                  </persName>
+               </person>
+            </listPerson>
+         </particDesc>
+         <settingDesc>
+            <listPlace>
+               <!-- Start- und Zielort -->
+               <place type="sender" xml:id="plBe">
+                  <country>
+                     <ref target="http://d-nb.info/gnd/4047194-9"/>
+                     <placeName>Preußen</placeName>
+                  </country>
+                  <settlement>
+                     <ref target="http://d-nb.info/gnd/4005728-8"/>
+                     <placeName>Berlin</placeName>
+                  </settlement>
+               </place>
+               <place type="receiver" xml:id="plBr">
+                  <country>
+                     <ref target="http://d-nb.info/gnd/4047194-9"/>
+                     <placeName>Preußen</placeName>
+                  </country>
+                  <settlement>
+                     <ref target="http://d-nb.info/gnd/4008216-7"/>
+                     <placeName>Breslau</placeName>
+                  </settlement>
+               </place>
+               <!-- erwähnte Orte -->
+               <place type="named" xml:id="plKo">
+                  <country>
+                     <ref target="http://d-nb.info/gnd/4047194-9"/>
+                     <placeName>Preußen</placeName>  
+                  </country>
+                  <settlement>
+                     <ref target="http://d-nb.info/gnd/4031541-1"/>
+                     <placeName>Königsberg</placeName>
+                  </settlement>
+               </place>
+               <place type="named" xml:id="plFr">
+                  <country>
+                     <ref target="http://d-nb.info/gnd/4018145-5"/>
+                     <placeName>Frankreich</placeName>  
+                  </country>
+               </place>
+               <place type="named" xml:id="plCh">
+                  <country>
+                     <ref target="http://d-nb.info/gnd/1085175626"/>
+                     <placeName>Schweiz</placeName>  
+                  </country>
+               </place>
+               <place type="named" xml:id="plDe">
+                  <country>
+                     <ref target="http://d-nb.info/gnd/2035457-5"/>
+                     <placeName>Deutschland</placeName>  
+                  </country>
+               </place>
+            </listPlace>
+         </settingDesc>
+      </profileDesc>
+      <revisionDesc>
+         <change xml:id="init" when-iso="2018-01-29" who="#edAG">Erstauszeichnung und Normierung des Dokumentes im Rahmen der Masterarbeit der Matrikelnummer 5584124</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>     
+      <body>
+         <opener>
+            <dateline><rs type="place" ref="#plBe">Berlin</rs>, den <date when-iso="1790-03-05">5. März 1790</date>.</dateline>
+         </opener>
+         <div n="1" corresp="#vcg">
+            <p>
+               Ich erschrecke, indem ich diesen Brief anfange, und das Datum 
+               <rs type="citation" ref="#c0393-1">Ihres letzten Briefes</rs> erblicke: ich erschrecke, daß ich so lange eine meiner 
+               liebsten Beschäftigungen aussetzen konnte, und aussetzen mußte, und sehe diesen Aufschub, als einen traurigen 
+               Barometer an, der mir die wenige Freiheit und Muße verkündigt, die ich seit einiger Zeit genossen habe.
+            </p>
+            <p>
+               Man befindet sich im Geschäftsleben gewöhnlich in einem sonderbaren Widerstreit, wenn man nämlich außer dem 
+               Geschäftskreise noch Gegenstände anerkennt, die der Aufmerksamkeit, und der Anhänglichkeit wert sind: auf der einen 
+               Seite seufzt man, wenn man viel zu tun hat, daß man von jenen Lieblingsgegenständen immer mehr entfernt wird: auf 
+               der andern Seite kann man sich, wenn man nicht sehr beschäftigt ist, und daher viel Zeit für die eigne, freie 
+               Tätigkeit des Geistes übrig behält, doch einer gewissen Ängstlichkeit nicht erwehren, die einen bei dem Gedanken 
+               überfällt, daß man vielleicht sein Fortkommen, dessen Beförderung doch würklich eine Art von Pflicht ist, besser 
+               betreiben würde, wenn man sich mehr nach Geschäften und den damit gewöhnlich verknüpften Konnexionen mit Großen und 
+               Mächtigen drängte.
+            </p>
+         </div>
+         <div n="2" corresp="#bezbt">
+            <p>
+               Seitdem ich von der Universität bin, habe ich beständig zwischen diesen beiden Lagen hin und her geschwankt, bis ich 
+               endlich jetzt durch die Beförderung des <rs type="person" ref="#OvV">Präsidenten von Voß</rs> zum Minister, und durch 
+               ein besondres Zutrauen zu mir, was er von Anfang an äußerte, gleichsam mit Gewalt in eine sehr geschäftige und 
+               unruhige Laufbahn gerissen worden bin, die mich zwar auf dem Wege der zeitlichen Vorteile ein gut Stück weiter 
+               geführt zu haben scheint, mich aber auch diesen ganzen Winter, in der Kultur meines Geistes, und in meinem Studieren 
+               sehr zurückgesetzt hat.
+            </p>
+         </div>
+         <div n="3" corresp="#vcg">
+            <p>
+               Diese kurze Darstellung meiner Lage war ich Ihnen, teuerster Herr Professor, in doppelter Rücksicht schuldig: 
+               zuerst, weil ich weiß, daß Sie gütig genung sind, um sich für mein Schicksal zu interessieren: nachher aber auch, 
+               weil es Sie befremdet haben mag, daß ich, der ich 
+               <rs type="citation" ref="#c0393-2">meine Korrespondenz mit Ihnen so rasch und warm anfing</rs>, auf einmal so lau 
+               geworden zu sein scheinen mußte.
+            </p>
+            <p>
+               Nein ! das Glück, mit Ihnen in Verbindung zu sein, an Sie schreiben zu dürfen, die süße und schmeichelhafte 
+               Empfindung, einem Briefe von Ihnen entgegenzusehen, der Trost in der Überzeugung, daß Sie mich nicht vergessen, und 
+               mir sogar einen Platz unter der ehrenvollen Reihe Ihrer Freunde gönnen: diese Güter soll keine Macht der Erde mir 
+               entreißen, da ich einmal glücklich genung gewesen bin, sie mir zu erwerben.
+            </p>
+         </div>
+         <div n="4" corresp="#kant">
+            <p>
+               Um indessen meinen Brief interessant für Sie zu machen, wünschte ich wohl, Ihnen recht wichtige literärische 
+               Neuigkeiten mitteilen zu können; ich muß mich aber mit dem wenigen und magern Vorrat begnügen, den 
+               <rs type="place" ref="#plBe">Berlin</rs> und mein Gedächtnis mir soeben darreichen wollen.
+            </p>
+            <p>
+               Wir haben diesen Winter hier zwei Collegia über - die <emph rend="underlined">Kantsche Philosophie</emph>. 
+               <rs type="person" ref="#Kie">Herr Kiesewetter</rs>, ein junger Gelehrter, der auf 
+               <rs type="person" ref="#KFWII">des Königs</rs> Kosten einige Zeit in <rs type="place" ref="#plKo">Königsberg</rs> 
+               studiert hat, um diese Philosophie zu lernen, soll nun die Früchte seiner Bemühungen der 
+               <rs type="place" ref="#plBe">Berlin</rs>schen Welt darlegen. Er lieset zu diesem Ende, ein Collegium über die Logik, 
+               und eins über <rs>Kant</rs>s 
+               <rs type="citation" ref="#p0393-1">Kritik der praktischen Vernunft</rs>, als eine Einleitung in die moralischen 
+               Wissenschaften. Ich höre sie beide, soweit es meine Geschäfte zulassen, und bin auch sonst mit ihm in 
+               freundschaftlicher Verbindung, weil <rs type="person" ref="#Kant">Herr Kant</rs> die Gütigkeit gehabt hat, ihn ganz 
+               vorzüglich an mich zu adressieren. Sie können denken, daß diese Collegia anfänglich die Neugierde der Berliner sehr 
+               reizten: da sie aber bald inne wurden, daß die Nahrung, die hier gereicht wurde, sehr ätherisch war, so hörte der 
+               Zulauf bald auf, und jetzt werden sie nur von wenigen Freunden des Denkens und der Abstraktionen besucht. Der 
+               Vortrag des <rs type="person" ref="#Kie">Herrn Kiesewetter</rs> ist so deutlich, daß man, meines Erachtens, von 
+               keinem Kantianer je mehr verlangen könnte. Auch hat er das System vollkommen studiert; und wenn er etwas kälter, 
+               etwas nüchterner wäre, wenn er nicht aus übertriebner (zum Teil persönlicher) Zuneigung zu Kant den Vorwurf, der 
+               ausschließenden Anmaßungen, den man öfters den Anhängern dieser Philosophie gemacht hat, rechtfertigte, so wäre 
+               nichts gegen ihn einzuwenden. Die Schwierigkeiten, die der mündliche Vortrag eines so tiefsinnigen und an vielen 
+               Stellen so paradoxen Systems notwendig mit sich führen muß, überwindet er sehr glücklich.
+            </p>
+            <p>   
+               <rs type="person" ref="#Kant">Kant</rs> läßt hier in <rs type="place" ref="#plBe">Berlin</rs> eine für die 
+               <date when-iso="1790-04-04">Ostermesse</date> bestimmte Kritik der Lust und Unlust, unter dem etwas sonderbaren 
+               Namen einer <rs type="citation" ref="#e0393-1"><emph rend="underlined">Kritik der Urteilskraft</emph></rs> drucken. 
+               Ich habe die Korrektur dieses Werks übernommen, davon ungefähr 12 Bogen fertig sind, die sich eigentlich mit der 
+               Kritik des Geschmacks beschäftigen. Es wäre unüberlegt und leichtsinnig, wenn ich mein Urteil über ein Werk, von dem 
+               ich kaum den vierten Teil kenne, jetzt schon fällen wollte. Ich habe indessen bis jetzt Gründe zu vermuten, daß 
+               dieses Buch, ob es gleich viel Scharfsinn und manche Wahrheit enthält, dem Verfasser seine Mühe nicht so belohnen 
+               wird, als seine frühern kritischen Schriften.
+            </p>
+         </div>
+         <div n="5" corresp="#vfa">
+            <p>
+               Außer diesen Beschäftigungen mit meiner alten Pflegemutter, der Kantschen Philosophie, höre ich mit möglichstem 
+               Fleiß <rs type="person" ref="#Kla">Klaproth</rs>s sehr unterrichtende und unterhaltende Vorlesungen über die Chemie; 
+               und seit ohngefähr sechs Wochen hat mir das Schicksal einen meiner vertrautsten und ältsten Freunde wieder 
+               zugeführt, der sich seit zwei Jahren in <rs type="place" ref="#plFr">Frankreich</rs> und in der 
+               <rs type="place" ref="#plCh">Schweiz</rs> aufgehalten hatte.
+            </p>
+            <p>
+               Dies ist <rs type="person" ref="#Anc">Herr Ancillon jun.</rs>, der gleich drei Tage nach seiner Zurückkunft zum 
+               Prediger an der französischen Werderschen Kirche in des verstorbenen Reclam Stelle erwählt worden ist, ein junger 
+               Mann von außerordentlichen Talenten, der jetzt durch seine wirklich vortreffliche Predigten, den größten und 
+               feinsten Teil von <rs type="place" ref="#plBe">Berlin</rs> ergötzt, der seine Reisen, die gerade in eine der 
+               interessantsten Perioden fielen, die die Menschheit erlebt hat, mit einer Weisheit genutzt hat, die dem erfahrensten 
+               Manne Ehre machen würde, und der mir jetzt durch seine Unterhaltung manche sehr glückliche Stunde verschafft.
+            </p>
+         </div>
+         <div n="6" corresp="#frv">
+            <p>
+               Überdies hat er <pb/> eine Menge neuer französischer Bücher und besonders Broschüren, die bei Gelegenheit der 
+               Revolution erschienen sind (und die in <rs type="place" ref="#plBe">Berlin</rs> gewiß 
+               <emph rend="underlined">nicht viel</emph> leichter zu haben sind, als in <rs type="place" ref="#plBr">Breslau</rs>), 
+               mitgebracht, die mir manche angenehme Lektüre darbieten. So hat er das ganze 
+               <rs type="citation" ref="#e0393-2">Journal de Provence</rs> von <rs type="person" ref="#Mir">Mirabeau</rs>, alle 
+               die, zum Teil vortreffliche Schriften von <rs type="person" ref="#Mou">Mounier</rs>, 
+               <rs type="person" ref="#Ber">Bergasse</rs>, <rs type="person" ref="#Lal">Lally-Tollendal</rs>, und andern 
+               ausgezeichneten Köpfen, die bei dieser großen Veranlassung hervorbrachen, zuerst in 
+               <rs type="place" ref="#plBe">Berlin</rs> zum Vorschein gebracht.
+            </p>
+            <p>
+               Unter andern <rs type="place" ref="#plPa">Paris</rs>er Neuigkeiten, die ich von ihm habe, ist denn, als ein Beweis, 
+               daß man jetzt kaum mehr Schriftsteller in <rs type="place" ref="#plFr">Frankreich</rs> sein darf, ohne über Politik 
+               zu schreiben, auch die, daß <rs type="person" ref="#Bit">Herr Bitaubé</rs> - 
+               <emph rend="underlined"><rs type="citation" ref="#e0393-3">die Politik des Aristoteles</rs></emph> - übersetzt, und 
+               mit Noten herausgibt. Sie kennen höchst wahrscheinlich seinen 
+               <rs type="citation" ref="#a0393-1">französischen Homer</rs>, der, Gott weiß warum, seinen Ruf in 
+               <rs type="place" ref="#plPa">Paris</rs> gegründet hat.
+            </p>
+            <p>
+               Höchst natürlich erinnerte mich diese Neuigkeit an den Plan einer andern Bearbeitung des
+               <rs type="citation" ref="#e0393-3">Aristoteles</rs>, der im Kopfe eines andern Mannes lag, und, wo ich mich 
+               recht erinnre, aus Bewegungsgründen, woran eine hohe Bescheidenheit den vornehmsten Anteil hatte, ausgesetzt werden 
+               sollte. Und doch - was ist <rs type="person" ref="#Bit">Bitaubé</rs> gegen diesen Mann !
+            </p>
+            <p>
+               Lassen Sie nur auf wenige Augenblicke meinem Herzen und meiner Feder freien Lauf. Nennen Sie es Schwärmerei, oder 
+               Übertreibung, <pb/> oder, wie Sie wollen. Aber reden muß ich. Lassen Sie mich Sie im Namen des Zeitalters, der 
+               zunehmenden Freiheit und Glückseligkeit in unserm Geschlecht, der lange, ach, gar zu lange unterdrückten Menschheit, 
+               und des Nationalstolzes, der es nicht ertragen mag, daß unsre Nachbarn allein weise sein sollen, feierlich 
+               auffordern, die Arbeit über die Politik, die gerade jetzt groß, herrlich, wichtig, fruchtbarer als je werden kann, 
+               nicht los zu lassen.
+            </p>
+         </div>
+         <div n="7" corresp="#kvmp">
+            <p>
+               Sie haben die Regenten so trefflich ihre <emph rend="underlined">Pflichten</emph> 
+               <ref target="#r0393-1">gelehrt</ref>: sprechen Sie doch auch einmal zu den Völkern von ihren 
+               <emph>Rechten</emph>. In Ihrem Munde wird das weise, gemäßigt, wahr und menschlich klingen, was im Munde eines 
+               andern vielleicht für Empörungsgeist oder für ungemessnen Freiheitsdrang gehalten werden würde. Ihre für keine 
+               Partei, für keine Gunst, durch keinen Haß entweihte Feder, die uns bisher nichts gelehrt hat als die Tugend, von der 
+               man nichts gewohnt ist, als die Wahrheit, wäre es wert, über eine Materie, worüber denn doch wahrlich die Menschheit 
+               belehrt zu werden fordern kann, zuerst in <rs type="place" ref="#plDe">Deutschland</rs> mit Würde und Nachdruck zu 
+               schreiben: Sie, vor dem aller Argwohn schweigt, der, gerüstet mit seinem guten Ruf (der hier wirklich, weil er die 
+               Moralität angeht, noch wichtiger ist, als ein glänzender Name, der ohnehin Ihr Anteil ist), mehr wagen könnte, als 
+               tausend andre Schriftsteller, sollten der Welt zeigen, daß die Deutschen so gut, wie andre Nationen wissen, was eine 
+               Gesellschaft, ein Volk, ein Regent, ein Gesetz, ein Recht, was Sklaverei, und was Freiheit ist.
+            </p>
+         </div>
+         <div n="8" corresp="#vcg">
+            <p>
+               Darum sollten Sie <rs type="citation" ref="#p0393-2">Ihren Aristoteles</rs> nicht unterdrücken; ich habe eine 
+               glückliche Ahndung: Sie werden es nicht tun. Nebenher habe ich noch ein andre Freude, noch eine andre Hoffnung, die 
+               mich die Erscheinung dieses Werks so sehnlich wünschen läßt. Sogleich als es nur vorhanden ist, weiß ich einen 
+               geschickten, einen untadelhaften, einen vielleicht meisterhaften Übersetzer dafür, der es - besser und reizender als 
+               der Graf von Zinzendorff - in's Französische überträgt; und dann - wird sich 
+               <rs type="person" ref="#Bit">Bitaubés</rs> Arbeit verlieren, wie 
+               <rs type="citation" ref="#a0393-1">sein Homer</rs> gegen die 
+               <rs type="citation" ref="#a0393-2">unnachahmliche Übersetzung</rs> von <rs type="person" ref="#Pop">Pope</rs>.
+            </p>
+         </div>
+         <div n="9" corresp="#frv">
+            <p>
+               Verzeihen Sie mir diese schreckliche Zudringlichkeit. Der Geist des Zeitalters weht stark und lebendig in mir: es 
+               ist wirklich Zeit, daß die Menschheit aus einem langen Schlaf erwache: ich bin jung, und fühle also das allgemeine 
+               Streben nach Freiheit, was auf allen Seiten aufbricht, mit Teilnehmung und Wärme. Ich selbst mag, ich darf meine 
+               Stimme nicht ertönen lassen: ich bin ein Schüler, dessen Produkte man wie Redeübungen betrachten und höchstens als 
+               solche <emph rend="underlined">loben</emph> würde: Sie sind ein alter Prophet, dessen Worte Ansehen und Gewicht bei 
+               der Nation haben, und den Vertrauen, Folgsamkeit, und das gerechteste Vorurteil, was jemals gewirkt hat, schon vom 
+               Titelblatt an begleiten, unterstützen und belohnen.
+            </p>
+         </div>
+         <div n="10" corresp="#lvm">
+            <p>
+               <ptr target="#f0393-2"/>
+               Die verlangte Fortsetzung des <rs type="person" ref="#Hen">Henault</rs>schen 
+               <ref target="#r0393-2">Abrégé</ref> - und hieraus werden Sie abnehmen, daß es nur gar mäßig mit den neuen 
+               französischen Schriften hier stehe - habe ich aller Mühe ohnerachtet, und obgleich 
+               <rs type="person" ref="#FTL">der einzige französische Buchhändler La Garde</rs> mein sehr vertrauter Freund und 
+               Verwandter ist, doch bis jetzt nicht bekommen können; ich schicke Ihnen daher mein eignes Exemplar, wenn es Ihnen 
+               anders anständig ist: Daß auf dem Titel und auch hinten Tom. IV. und V. steht, rührt daher, weil diese beide Bände 
+               zu einer neuen Edition des ganzen Henault gehören, die ich Ihnen nicht ganz schicken wollte (ob sie gleich hin und 
+               wieder Verbesserungen enthält), weil ich voraussetzte, daß Sie die ältre Edition besitzen und also diese nicht 
+               würden haben wollen. Denn ob eine eigne Ausgabe der beiden letzten Bände vorhanden ist, weiß ich nicht, und 
+               bezweifle es fast; sollte es aber, da ich jetzt nach Paris habe schreiben lassen, dennoch der Fall sein, so bin ich 
+               gern erbötig, sie alsdann wieder auszutauschen, ob ich gleich nicht einsehe, was Sie dabei gewönnen.
+            </p>
+            <p>
+               Sonst ist jetzt hier vom: <rs type="citation" ref="#p0393-3">Voyage d'Anacharsis eine Edition (von Herve)</rs> in 5 
+               Bänden für 9 Rthl. zu haben. <rs type="citation" ref="#a0393-3">Drei neue Teile von Rousseau's Confessions</rs> und 
+               Briefen; die <rs type="citation" ref="#c0393-4">Lettres</rs> de <rs type="person" ref="#ALGdS">Madame de Stael</rs> 
+               (<rs type="person" ref="#Nck">Necker</rs>s Tochter), die in <rs type="place" ref="#plPa">Paris</rs> groß Aufsehen 
+               gemacht, und die ich Ihnen (<span xml:lang="lat">salva remissione</span> durch 
+               <rs type="citation" ref="#Mat">Herrn Mathis</rs>,) wenn Sie sie nicht behalten wollen) mitschicke, eine neue 
+               französische Übersetzung von <rs type="citation" ref="#AdS">Smith</rs>s berühmten 
+               <rs type="citation" ref="#e0393-4">Werke über den Nationalreichtum</rs>, und einige andre politische Werke: das ist 
+               das wichtigste, was wir von französischen <span xml:lang="fr">Nouvautés</span> hier haben.
+            </p>
+            <p>
+               Das Magnetisieren ist aus. Dagegen hat der <rs type="person" ref="#JCvW">Herr von Wöllner</rs> einen neuen 
+               Katechismus einführen wollen, den aber das 
+               <ref target="#r0393-3">Konsistorium mit Gewalt und endlich mit offner Widersetzlichkeit zu hintertreiben</ref> 
+               sucht. Diese Geschichte macht viel Lärm in <rs type="place" ref="#plBe">Berlin</rs>. Die Einführung 
+               des Katechismus wäre <span xml:lang="lat">Tomus Secundus</span> des Religionsedikts.
+            </p>
+         </div>
+         <div n="11" corresp="#frv">
+            <p>
+               An Krieg glauben wir hier nicht mehr. Der Großherzog will Frieden, und Frieden wollen wir alle.
+            </p>
+         </div>
+         <div n="12" corresp="#vcg">
+            <p>
+               Gebe der Himmel, daß mir <pb/> <rs type="person" ref="#Mat">Mathis</rs> gute Nachrichten von Ihrer Gesundheit, von 
+               Ihren Hoffnungen, nach <rs type="place" ref="#plBe">Berlin</rs> zu reisen, und, wenn es sein kann, einen Brief 
+               mitbringe. Empfehlen Sie mich aufs beste Ihrer vortrefflichen <rs type="person" ref="#MGar">Frau Mutter</rs>, und 
+               nehmen die Versicherung meiner innigsten Ergebenheit und Verehrung auf einem bis ins Unschickliche vollbeschriebnen 
+               Blatte an.
+            </p>
+         </div>
+         <closer>
+            <signed rend="right">Gentz.</signed>
+         </closer>
+      </body>
+      <note resp="#edAG" xml:id="r0393-1">möglicherweise dieses <rs type="citation" ref="#f0393-1">Werk</rs> Garves; von einer Übersetzung ist in <rs type="citation" corresp="#c0393-3">dem Brief vom 24. Oktober 1789</rs> die Rede.</note>
+      <note resp="#edAG" xml:id="r0393-2">Es ist möglich, dass es sich um das Werk <rs type="citation" ref="#f0393-2">"Nouvel Abrégé Chronologique De L'Histoire De France [...]"</rs> handelt, das nur bis zum Tode Ludwigs XIV. geführt wurde und nun erweitert werden soll.</note>
+      <note resp="#edAG" xml:id="r0393-3">Vgl. hierzu <rs type="citation" ref="#f0393-3">Wiggermann 2010: 169</rs></note>
+   </text>
+</TEI>

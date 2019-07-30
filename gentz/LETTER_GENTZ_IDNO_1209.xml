@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc xml:id="LETTER_GENTZ_1209">
+         <titleStmt>
+            <title>Friedrich von Gentz an Karl August Böttiger, 4. März 1797</title>
+            <editor xml:id="edAG">Andreas Gálffy</editor>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <name>Forschungsstelle "Universitätssammlung Friedrich von Gentz"</name>
+               <link target="http://gentz-digital.ub.uni-koeln.de http://www.ub.uni-koeln.de/cdm/singleitem/collection/gentz/id/1208/"/>
+            </publisher>
+            <pubPlace>Cologne</pubPlace>
+            <idno type="Gentz-Edition-Number" n="1209"/>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <country>Germany</country>
+                  <settlement>Dresden</settlement>
+                  <institution>Sächsiche Landesbibliothek</institution>
+                  <repository>Handschriftensammlung, Nachlaß Böttiger</repository>
+                  <collection>Mscr. Dresd. h 37, Bd. 54 (4°)</collection>
+                  <idno>Nr. 6</idno>
+               </msIdentifier>
+               <msContents>
+                  <summary>
+                     Goethe hat die Beschaffung der Bücher aus der herzoglichen Bibliothek für schwierig befunden, so vernahm es 
+                     Gentz von humboldt. Deshalb hat sich Gentz nun an Herder gewandt und bereitet Böttiger darauf vor, die Sache 
+                     ebenfalls weiterzutragen.
+                  </summary>
+               </msContents>
+            </msDesc>
+            <listBibl type="preprints">
+               <biblStruct>
+                  <monogr>
+                     <editor>
+                        <persName>
+                           <ref target="http://d-nb.info/gnd/130953075"/>
+                           <forename>Friedrich Carl</forename>
+                           <surname>Wittichen</surname>
+                        </persName>
+                        <persName>
+                           <ref/> <!-- kein GND-Eintrag -->
+                           <forename>Ernst</forename>
+                           <surname>Salzer</surname>
+                        </persName>
+                     </editor>
+                     <title>Briefe von und an Friedrich von Gentz, 4 Bde.</title>
+                     <imprint>
+                        <publisher>Oldenbourg</publisher>
+                        <pubPlace>München, Berlin</pubPlace>
+                        <date>1909-1913</date>
+                     </imprint>
+                     <biblScope unit="volume" n="1">
+                        I
+                     </biblScope>
+                     <biblScope unit="page" from="226" to="226">
+                        Nr. 51
+                     </biblScope>
+                  </monogr>
+               </biblStruct>
+            </listBibl>
+            <listBibl type="letterReferenced">
+               <bibl xml:id="c1209-1" corresp="#LETTER_GENTZ_1793">Friedrich von Gentz an Karl August Böttiger, 2. Juli 1796</bibl>
+               <bibl xml:id="c1209-2" corresp="#LETTER_GENTZ_0985">Friedrich von Gentz an Johann Gottfried Herder, 4. März 1797</bibl>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Masterarbeit zu Matrikelnummer 5584124</p>
+         </projectDesc>
+      </encodingDesc>
+      <profileDesc>
+         <creation>
+            <date when-iso="1797-03-04">4. März 1797</date>
+         </creation>
+        <langUsage>
+           <language ident="d">deutsch</language>
+        </langUsage>
+         <textClass>
+            <keywords scheme="internal"><!-- internal: innerhalb des besagten Briefs -->
+               <term>Brief</term>
+               <term>Literatur</term>
+               <term>Bibliothek</term>
+               <term>Französische Revolution</term>
+            </keywords>
+            <keywords scheme="categorisation"><!-- Sinnabschnittseinteilung - relevant für den Fahrkartenautomaten! -->
+               <term xml:id="budcff">Betrachtungen über den Ursprung, den Charakter und den Fortgang der Französischen Revolution</term>
+            </keywords>
+         </textClass>
+         <textDesc>
+            <channel>manuscript</channel>
+            <constitution type="single"/>
+            <derivation type="original"/>
+            <domain type="private"/>
+            <factuality type="fact"/>
+            <interaction type="partial"/>
+            <preparedness type="prepared"/>
+            <purpose type="inform"/>
+         </textDesc>
+         <particDesc>
+            <listPerson>
+               <!-- Sender und Adressat -->
+               <person role="sender" xml:id="Gen">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/118538489"/>
+                     <forename>Friedrich von</forename>
+                     <surname>Gentz</surname>
+                  </persName>
+               </person>
+               <person role="receiver" xml:id="KAB">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/118824775"/>
+                     <forename>Carl August</forename>
+                     <surname>Böttiger</surname>
+                  </persName>
+               </person>
+               <!-- erwähnte Personen -->
+               <person role="named" xml:id="Hum">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/118554727"/>
+                     <forename>Wilhelm von</forename>
+                     <surname>Humboldt</surname>
+                  </persName>
+               </person>
+               <person role="named" xml:id="JWvG">
+                  <persName>
+                     <ref target="https://d-nb.info/gnd/118540238"/>
+                     <forename>Johann Wolfgang von</forename>
+                     <surname>Goethe</surname>
+                  </persName>
+               </person>
+               <person role="named" xml:id="JGH">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/118549553"/>
+                     <forename>Johann Gottfried von</forename>
+                     <surname>Herder</surname>
+                  </persName>
+               </person>
+            </listPerson>
+         </particDesc>
+         <settingDesc>
+            <listPlace>
+               <!-- Start- und Zielort -->
+               <place type="sender" xml:id="plBe">
+                  <country>
+                     <ref target="http://d-nb.info/gnd/4047194-9"/>
+                     <placeName>Preußen</placeName>
+                  </country>
+                  <settlement>
+                     <ref target="http://d-nb.info/gnd/4005728-8"/>
+                     <placeName>Berlin</placeName>
+                  </settlement>
+               </place>
+               <place type="receiver" xml:id="plWe">
+                  <country>
+                     <ref target="http://d-nb.info/gnd/4051194-7"/>
+                     <placeName>Sachsen-Weimar-Eisenach</placeName>
+                  </country>
+                  <settlement>
+                     <ref target="http://d-nb.info/gnd/4065105-8"/>
+                     <placeName>Weimar</placeName>
+                  </settlement>
+               </place>
+               <!-- erwähnte Orte -->
+            </listPlace>
+         </settingDesc>
+      </profileDesc>
+      <revisionDesc>
+         <change xml:id="init" when-iso="2018-02-26" who="#edAG">Erstauszeichnung und Normierung des Dokumentes im Rahmen der Masterarbeit der Matrikelnummer 5584124</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <opener>
+            <dateline rend="right"><rs type="place" ref="#plBe">Berlin</rs> den <date when-iso="1797-03-04">4<span rend="sup">ten</span> März 1797</date></dateline>
+         </opener>
+         <div n="1" corresp="#budcff">
+            <p>
+               Ich schreibe Ihnen in der größten Geschwindigkeit, um Sie mit einem Schritte bekannt zu machen, den ich, 
+               <del rend="stroked">zu</del> um meinen 
+               <ref target="#r1209-1">Wunsch wegen der Bücher aus der Herzoglichen Bibliothek</ref> zu erreichen, heute gethan habe. 
+               Nachdem mir <rs type="person" ref="#Hum"><emph rend="underlined">Humbold</emph></rs> geschrieben hat, daß 
+               <rs type="person" ref="#JWvG"><emph rend="underlined">Göthe</emph></rs> die Sache 
+               <emph rend="underlined">schwierig</emph> fände, habe ich mich heute, ohne Vorrede an 
+               <rs type="person" ref="#JGH"><emph rend="underlined">Herder</emph></rs> gewendet, und ihn gebeten 
+               <ref target="#r1209-2">die Sache zu betreiben</ref>. Ob das klug oder dumm war, wißen <pb/> Sie freilich beßer als 
+               ich. Sollte es aber gelingen, so bitte ich Sie, Ihrer Seits die Sache nach Möglichkeit zu betreiben, und zu 
+               befördern; und diese Bitte Ihnen vorzutragen war der einzige Zweck dieser flüchtigen Zeilen, mit denen ich mich 
+               übrigens zum geneigten Andenken empfehle.
+            </p>
+         </div>
+         <closer>
+            <signed rend="right">Gentz.</signed>
+         </closer>
+      </body>
+      <note resp="#edAG" xml:id="r1209-1">Vgl. den <rs type="citation" ref="#c1209-1">Brief vom 2. Juli 1796</rs></note>
+      <note resp="#edAG" xml:id="r1209-2">Vgl. den <rs type="citation" ref="#c1209-2">Brief vom gleichen Tag an Herder</rs></note>
+   </text>
+</TEI>

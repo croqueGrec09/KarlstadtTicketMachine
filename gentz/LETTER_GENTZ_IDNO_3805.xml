@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc xml:id="LETTER_GENTZ_3805">
+         <titleStmt>
+            <title>Friedrich von Gentz an Adam Müller, etwa 4 Wochen vor dem Erscheinen des Buches: Von dem politischen Zustand Juli 1801</title>
+            <editor xml:id="edAG">Andreas Gálffy</editor>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <name>Forschungsstelle "Universitätssammlung Friedrich von Gentz"</name>
+               <link target="http://gentz-digital.ub.uni-koeln.de http://www.ub.uni-koeln.de/cdm/singleitem/collection/gentz/id/3804/"/>
+            </publisher>
+            <pubPlace>Cologne</pubPlace>
+            <idno type="Gentz-Edition-Number" n="3805"/>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <country>Germany</country>
+                  <settlement>Marbach am Neckar</settlement>
+                  <institution>Schiller-Nationalmuseum / Deutsches Literaturarchiv</institution>
+                  <repository>Sammlung Hauff-Kölle</repository>
+                  <idno>Nr. 34699</idno>
+               </msIdentifier>
+               <msContents>
+                  <summary>
+                     Für seine Mühen und seine Wärme, mit der Adam Müller über Gentz' Werk "Von dem politischen Zustand Europas 
+                     vor und nach der Revolution" spricht, dankt Gentz sehr herzlich. Am Nachmittag will er mit Müller nach 
+                     Charlottenburg fahren.
+                  </summary>
+               </msContents>
+            </msDesc>
+            <listBibl type="defRep">
+               <biblStruct xml:id="p3805-1" corresp="BSB-0017">
+                  <monogr>
+                     <author>
+                        <persName>
+                           <ref target="http://d-nb.info/gnd/118538489"/>
+                           <forename>Friedrich von</forename>
+                           <surname>Gentz</surname>
+                        </persName>
+                     </author>
+                     <title>Von dem Politischen Zustande von Europa vor und nach der Französischen Revolution</title>
+                     <imprint>
+                        <pubPlace>Berlin</pubPlace>
+                        <publisher>Heinrich Frölich</publisher>
+                        <date>1801</date>
+                     </imprint>
+                  </monogr>
+                  <ptr target="http://www.mdz-nbn-resolving.de/urn/resolver.pl?urn=urn:nbn:de:bvb:12-bsb10556396-8"/>
+               </biblStruct>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Masterarbeit zu Matrikelnummer 5584124</p>
+         </projectDesc>
+      </encodingDesc>
+      <profileDesc>
+         <creation>
+            <date when-iso="1801-07-00">etwa 4 Wochen vor dem Erscheinen des Buches: Von dem politischen Zustand Juli 1801</date>
+         </creation>
+        <langUsage>
+           <language ident="d">deutsch</language>
+        </langUsage>
+         <textClass>
+            <keywords scheme="internal"><!-- internal: innerhalb des besagten Briefs -->
+               <term>Billet</term>
+               <term>Treffen</term>
+               <term>Werk</term>
+            </keywords>
+            <keywords scheme="categorisation"><!-- Sinnabschnittseinteilung - relevant für den Fahrkartenautomaten! -->
+               <term xml:id="vpze">Von dem Politischen Zustande von Europa vor und nach der Französischen Revolution</term>
+               <term xml:id="vam">Verhältnis Adam Müller</term>
+            </keywords>
+         </textClass>
+         <textDesc>
+            <channel>manuscript</channel>
+            <constitution type="single"/>
+            <derivation type="original"/>
+            <domain type="private"/>
+            <factuality type="fact"/>
+            <interaction type="partial"/>
+            <preparedness type="unprepared"/>
+            <purpose type="inform"/>
+         </textDesc>
+         <particDesc>
+            <listPerson>
+               <!-- Sender und Adressat -->
+               <person role="sender" xml:id="Gen">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/118538489"/>
+                     <forename>Friedrich von</forename>
+                     <surname>Gentz</surname>
+                  </persName>
+               </person>
+               <person role="receiver" xml:id="AHM">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/118584790"/>
+                     <forename>Adam Heinrich</forename>
+                     <surname>Müller</surname>
+                  </persName>
+               </person>
+               <!-- erwähnte Personen -->
+               <person role="named" xml:id="JJPLC">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/159696496"/>
+                     <forename>John Joshua Proby</forename>
+                     <surname>Carysfort</surname>
+                  </persName>
+               </person>
+            </listPerson>
+         </particDesc>
+         <settingDesc>
+            <listPlace>
+               <!-- Start- und Zielort -->
+               <place type="sender" xml:id="plBe">
+                  <country>
+                     <ref target="http://d-nb.info/gnd/4047194-9"/>
+                     <placeName>Preußen</placeName>
+                  </country>
+                  <settlement>
+                     <ref target="http://d-nb.info/gnd/4005728-8"/>
+                     <placeName>Berlin</placeName>
+                  </settlement>
+               </place>
+               <!-- erwähnte Orte -->
+               <place type="named" xml:id="plCb">
+                  <country>
+                     <ref target="http://d-nb.info/gnd/4047194-9"/>
+                     <placeName>Preußen</placeName>
+                  </country>
+                  <settlement>
+                     <ref target="http://d-nb.info/gnd/4065382-1"/>
+                     <placeName>Charlottenburg</placeName>
+                  </settlement>
+               </place>
+            </listPlace>
+         </settingDesc>
+      </profileDesc>
+      <revisionDesc>
+         <change xml:id="init" when-iso="2018-03-08" who="#edAG">Erstauszeichnung und Normierung des Dokumentes im Rahmen der Masterarbeit der Matrikelnummer 5584124</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div n="1" corresp="#vpze">
+            <p>
+               Ich danke Ihnen unendlich, lieber Freund, theils für die Mühe die Sie Sich mit 
+               <rs type="citation" ref="#p3805-1">meiner Schreiberey</rs> gegeben haben, theils für die Wärme, mit welcher Sie 
+               darüber sprechen. Möge sie ein gutes Omen seyn ! Aber Ihr Beifall ist schon an und für sich ein solcher Gewinn 
+               für mich, daß er auf nichts weitres hinzudeuten nötig hat.
+            </p>
+         </div>
+         <div n="2" corresp="#vam">
+            <p>
+               Wollen Sie heute um halb 3 Uhr mit mir nach <rs type="place" ref="#plCb">Charlottenburg</rs> fahren ? Sie nehmen 
+               Sich eine Lektüre mit, und erwarten mich in irgend einem Gasthof bis 5 Uhr; länger bleibe ich auf keinen Fall. 
+               Sollte <del rend="stroked">xxx</del> ich etwa erfahren, daß <rs type="person" ref="#JJPLC">Carysfort</rs> in 
+               <rs type="place" ref="#plBe">Berlin</rs> speisete, so laße ich Ihnen vor 12 Uhr absagen. Wo nicht, so rechne ich 
+               auf Sie
+            </p>
+         </div>
+         <closer>
+            <signed rend="right">Gentz</signed>
+         </closer>
+      </body>
+   </text>
+</TEI>

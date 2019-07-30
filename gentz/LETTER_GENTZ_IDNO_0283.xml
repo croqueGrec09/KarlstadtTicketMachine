@@ -1,0 +1,255 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc xml:id="LETTER_GENTZ_0283">
+         <titleStmt>
+            <title>Friedrich von Gentz an François d'Ivernois, 25. Oktober 1799</title>
+            <editor xml:id="edAG">Andreas Gálffy</editor>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <name>Forschungsstelle "Universitätssammlung Friedrich von Gentz"</name>
+               <link target="http://gentz-digital.ub.uni-koeln.de http://www.ub.uni-koeln.de/cdm/singleitem/collection/gentz/id/282/"/>
+            </publisher>
+            <pubPlace>Cologne</pubPlace>
+            <idno type="Gentz-Edition-Number" n="0283"/>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <country>Switzerland</country>
+                  <settlement>Genf</settlement>
+                  <institution>Bibliothèque publique et universitaire</institution>
+                  <repository>Département des manuscrits</repository>
+                  <collection>Ms. suppl. 976</collection>
+                  <idno>Bl. 171-171v</idno>
+               </msIdentifier>
+               <msContents>
+                  <summary>
+                     Der Überbringer dieses Briefes, ein Graf Degenfeld, wird von Gentz seiner Fähigkeiten wegen sehr empfohlen. Die 
+                     Franzosen fuhren den nächsten Sieg ein, alle Berechnungen sind dahin. Gentz hofft, dass d'Ivernois den letzten 
+                     Brief erhalten hat.
+                  </summary>
+               </msContents>
+            </msDesc>
+            <listBibl type="preprints">
+               <biblStruct>
+                  <analytic>
+                     <editor>
+                        <persName>
+                           <ref target="http://d-nb.info/gnd/116055812"/>
+                           <forename>Karmin</forename>
+                           <surname>Otto</surname>
+                        </persName>
+                     </editor>
+                     <title>Lettres inédites de Frédéric Gentz à Sir Francis d'Ivernois (1798-1803)</title>
+                  </analytic>
+                  <monogr>
+                     <editor>
+                        <persName>
+                           <ref target="http://d-nb.info/gnd/117369020"/>
+                           <forename>Charles</forename>
+                           <surname>Vellay</surname>
+                        </persName>
+                     </editor>
+                     <title>Revue historique de la Révolution française et de l'Empire</title>
+                     <imprint>
+                        <publisher>Revue historique de la Révolution Française</publisher>
+                        <pubPlace>Paris</pubPlace>
+                        <date>1913</date>
+                     </imprint>
+                     <biblScope unit="volume" n="4">
+                        Tome quatrième
+                     </biblScope>
+                     <biblScope unit="page" from="31" to="32">
+                        Nr. VI, Sonderpublikation
+                     </biblScope>
+                  </monogr>
+               </biblStruct>
+            </listBibl>
+            <listBibl type="letterReferenced">
+               <bibl xml:id="c0283-1" corresp="#LETTER_GENTZ_5113">Friedrich von Gentz an François d'Ivernois, 18. Oktober 1799</bibl>
+            </listBibl>
+            <listBibl type="defRep">
+               <biblStruct xml:id="p0283-1" corresp="GBk-0050">
+                  <monogr>
+                     <editor>
+                        <persName>
+                           <ref target="http://d-nb.info/gnd/118538489"/>
+                           <forename>Friedrich von</forename>
+                           <surname>Gentz</surname>
+                        </persName>
+                     </editor>
+                     <title>Historisches Journal</title>
+                     <imprint>
+                        <publisher>Friedrich Vieweg dem ältern</publisher>
+                        <pubPlace>Berlin</pubPlace>
+                        <date>1799</date>
+                     </imprint>
+                  </monogr>
+                  <ptr target="https://books.google.de/books?id=ohR5B41qdy4C"/>
+               </biblStruct>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Masterarbeit zu Matrikelnummer 5584124</p>
+         </projectDesc>
+      </encodingDesc>
+      <profileDesc>
+         <creation>
+            <date when-iso="1799-10-25">25. Oktober 1799</date>
+         </creation>
+        <langUsage>
+           <language ident="f">französisch</language>
+        </langUsage>
+         <textClass>
+            <keywords scheme="internal"><!-- internal: innerhalb des besagten Briefs -->
+               <term>Brief</term>
+               <term>d'Ivernois</term>
+               <term>Revolution</term>
+               <term>Finanzen</term>
+               <term>Napoleon</term>
+               <term>Untätigkeit</term>
+               <term>Übersetzungen</term>
+            </keywords>
+            <keywords scheme="categorisation"><!-- Sinnabschnittseinteilung - relevant für den Fahrkartenautomaten! -->
+               <term xml:id="vfdi">Verhältnis François d'Ivernois</term>
+               <term xml:id="napinv">Napoleonische Invasion</term>
+            </keywords>
+         </textClass>
+         <textDesc>
+            <channel>manuscript</channel>
+            <constitution type="single"/>
+            <derivation type="original"/>
+            <domain type="private"/>
+            <factuality type="fact"/>
+            <interaction type="partial"/>
+            <preparedness type="prepared"/>
+            <purpose type="inform"/>
+         </textDesc>
+         <particDesc>
+            <listPerson>
+               <!-- Sender und Adressat -->
+               <person role="sender" xml:id="Gen">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/118538489"/>
+                     <forename>Friedrich von</forename>
+                     <surname>Gentz</surname>
+                  </persName>
+               </person>
+               <person role="receiver" xml:id="FdI">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/100297676"/>
+                     <forename>Francis d'</forename>
+                     <surname>Ivernois</surname>
+                  </persName>
+               </person>
+               <!-- erwähnte Personen -->
+               <person role="named" xml:id="GEFCvD">
+                  <persName>
+                     <ref />
+                     <forename>Gustav Eugen Friedrich Christoph von</forename>
+                     <surname>Degenfeld</surname>
+                  </persName>
+               </person>
+            </listPerson>
+         </particDesc>
+         <settingDesc>
+            <listPlace>
+               <!-- Start- und Zielort -->
+               <place type="sender" xml:id="plBe">
+                  <country>
+                     <ref target="http://d-nb.info/gnd/4047194-9"/>
+                     <placeName>Preußen</placeName>
+                  </country>
+                  <settlement>
+                     <ref target="http://d-nb.info/gnd/4005728-8"/>
+                     <placeName>Berlin</placeName>
+                  </settlement>
+               </place>
+               <place type="receiver" xml:id="plLo">
+                  <country>
+                     <ref target="http://d-nb.info/gnd/4022153-2"/>
+                     <placeName>Vereinigtes Königreich</placeName>                
+                  </country>
+                  <settlement>
+                     <ref target="http://d-nb.info/gnd/4074335-4"/>
+                     <placeName>London</placeName>
+                  </settlement>
+               </place>
+               <!-- erwähnte Orte -->
+               <place type="named" xml:id="plFr">
+                  <country>
+                     <ref target="http://d-nb.info/gnd/4018145-5"/>
+                     <placeName>Frankreich</placeName>  
+                  </country>
+               </place>
+            </listPlace>
+         </settingDesc>
+      </profileDesc>
+      <revisionDesc>
+         <change xml:id="init" when-iso="2018-03-04" who="#edAG">Erstauszeichnung und Normierung des Dokumentes im Rahmen der Masterarbeit der Matrikelnummer 5584124</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <opener>
+            <salute rend="left">Monsieur !</salute>
+         </opener>
+         <div n="1" corresp="#vfdi">
+            <p>
+               Le porteur de cette lettre est <rs type="person" ref="#GEFCvD">Monsieur le Comte de Degenfeld</rs> qui se rend à 
+               <rs type="place" ref="#plLo">Londres</rs> comme Conseiller d'Ambassade pour se former dans les affaires 
+               diplomatiques, et qui seroit très-charmé d'être introduit auprès de vous. Comme c'est un homme très-estimable pour sa 
+               façon de penser, et les connoissances préliminaires qu'il apporte au grand théatre des affaires, je prens la liberte 
+               de vous le recommander particuliérement et je vous prie de lui accorder l'avantage, de s'instruire quelquefois avec 
+               vous.
+            </p>
+            <p>
+               J'espére que vous aurez reçu <rs type="citation" ref="#c0283-1">la lettre</rs> avec laquelle je vous ai envoyé mon 
+               <rs type="citation" ref="#p0283-1">cahier d'<emph rend="underlined">octobre</emph></rs>; et j'attens avec beaucoup 
+               d'impatience la reponse dont vous m'honorerez.
+            </p>
+         </div>
+         <div n="2" corresp="#napinv">
+            <p>
+               Nous voilà donc de nouveau plus malheureux que jamais ! Toutes les espérances evanouies, tous les plans rompus; 
+               <rs type="place" ref="#plFr">la France</rs> et avec elle tout ce qu'il y a de maivais principes, et de mauvaises 
+               tetes dans l'univers, triomphant de la sagesse du petit nombre d'hommes qui croyoient combattre efficacement cette 
+               revolution infernale. J'ai le désespoir dans le coeur; et, si vous saviez ce que c'est, que de vivre à 
+               <rs type="place" ref="#plBe">Berlin</rs> dans un moment comme celui-ci, vous concevriez bientôt, que je dois être 
+               plus malheureux que vous; car les succés et les revers de la bonne cause, sont, par le role public que j'ai joué, 
+               quelque petit qu'il puisse être en lui-même, devenus les miens; et je me vois à présent reduit a trois ou quatre 
+               personnes sensées, au milieu d'un deluge de raisonneurs pitoyables, et de faux philosophes. - Et quel avenir se 
+               prépare ! <pb/> En effet, quand on voit partout l'espoir des bons trompé par la maladresse, l'incapacité, l'inertie, 
+               enfin la perfidie de ceux qui sont les plus interessés a sauver le monde, et de l'autre part les entreprises des 
+               méchans couronnés par un bonheur sans exemple, il ne reste plus que de s'envelopper la tête, et de gemir d'être né 
+               dans cette periode la plus terrible de toutes que nous présente l'histoire de tous les tems.
+            </p>
+            <p>
+               Conservez moi, Monsieur, Votre amitié, une des grandes consolations qui me reste, et veuillez bien croire à la 
+               constance inébranlable des sentimens distingués avec lesquels je serai toujours,
+            </p>
+         </div>
+         <closer>
+            <salute rend="right">Votre très-humble</salute>
+            <salute rend="right">et très-devoué serviteur</salute>
+            <dateline rend="left"><rs type="place" ref="#plBe">Berlin</rs> ce <date when-iso="1799-10-25">25 Octobre 1799</date>.</dateline>
+            <signed rend="right">Gentz.</signed>
+         </closer>
+      </body>
+      <back resp="otherHand">
+         <p>
+            M<span rend="sup">r</span> Gentz
+            <rs type="place" ref="#plBe">Berlin</rs> <date when-iso="1799-10-00">Octobre 1799</date>
+            <date when-iso="1799-10-25">25 Octobre</date>.
+         </p>
+      </back>
+      <note xml:id="r0283-1">Auf Bl. 172v</note>
+   </text>
+</TEI>

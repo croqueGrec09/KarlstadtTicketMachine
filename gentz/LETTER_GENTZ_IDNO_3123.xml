@@ -1,0 +1,255 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc xml:id="LETTER_GENTZ_3123">
+         <titleStmt>
+            <title>Friedrich von Gentz an Heinrich Frölich, 9. Januar 1801</title>
+            <editor xml:id="edAG">Andreas Gálffy</editor>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <name>Forschungsstelle "Universitätssammlung Friedrich von Gentz"</name>
+               <link target="http://gentz-digital.ub.uni-koeln.de http://www.ub.uni-koeln.de/cdm/singleitem/collection/gentz/id/3122/"/>
+            </publisher>
+            <pubPlace>Cologne</pubPlace>
+            <idno type="Gentz-Edition-Number" n="3123"/>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <country>Germany</country>
+                  <settlement>Berlin</settlement>
+                  <institution>Geheimes Staatsarchiv Preußischer Kulturbesitz</institution>
+                  <repository>I. HA Rep 94: Kleine Erwerbungen</repository>
+                  <collection>IV.N.b.2</collection>
+                  <idno>Bl. 14-15v</idno>
+               </msIdentifier>
+               <msContents>
+                  <summary>
+                     Mit diesem Brief kommt die Anzeige über die Fortsetzung des Historischen Journals. Gentz meint, dass ein 
+                     Reigster nicht nötig sei, wohl aber Inhaltsverzeichnisse für jedes Band. Es kommen auch einige Blätter über den 
+                     Aufsatz über den ewigen Frieden. Gentz möchte Frölich beruhigen, dass, selbst wenn Vieweg nichts zahlt, er auch 
+                     dann keiner Verlegenheit ausgesetzt ist. Gentz möchte ein Exemplar seines Maria Stuart.
+                  </summary>
+               </msContents>
+            </msDesc>
+            <listBibl type="letterReferenced">
+               <bibl xml:id="c3123-1" corresp="#LETTER_GENTZ_NNNN">nicht bekannter Brief von Friedrich Vieweg an Friedrich von Gentz</bibl>
+            </listBibl>
+            <listBibl type="defRep">
+               <biblStruct xml:id="p3123-1" corresp="GBk-0065">
+                  <analytic>
+                     <author>
+                        <persName>
+                           <ref target="http://d-nb.info/gnd/118538489"/>
+                           <forename>Friedrich von</forename>
+                           <surname>Gentz</surname>
+                        </persName>
+                     </author>
+                     <title>An die Leser des historischen Journals.</title>
+                  </analytic>
+                  <monogr>
+                     <editor>
+                        <persName>
+                           <ref target="http://d-nb.info/gnd/118538489"/>
+                           <forename>Friedrich von</forename>
+                           <surname>Gentz</surname>
+                        </persName>
+                     </editor>
+                     <title>Historisches Journal</title>
+                     <imprint>
+                        <pubPlace>Berlin</pubPlace>
+                        <publisher>Heinrich Frölich</publisher>
+                        <date>1800</date>
+                     </imprint>
+                     <biblScope unit="page" from="791" to="794">
+                        S. 791-794
+                     </biblScope>
+                  </monogr>
+                  <ref target="https://books.google.de/books?id=0k5BAAAAcAAJ"/>
+               </biblStruct>
+               <biblStruct xml:id="p3123-2" corresp="GBk-0064">
+                  <analytic>
+                     <author>
+                        <persName>
+                           <ref target="http://d-nb.info/gnd/118538489"/>
+                           <forename>Friedrich von</forename>
+                           <surname>Gentz</surname>
+                        </persName>
+                     </author>
+                     <title>Ueber den ewigen Frieden.</title>
+                  </analytic>
+                  <monogr>
+                     <editor>
+                        <persName>
+                           <ref target="http://d-nb.info/gnd/118538489"/>
+                           <forename>Friedrich von</forename>
+                           <surname>Gentz</surname>
+                        </persName>
+                     </editor>
+                     <title>Historisches Journal</title>
+                     <imprint>
+                        <pubPlace>Berlin</pubPlace>
+                        <publisher>Heinrich Frölich</publisher>
+                        <date>1800</date>
+                     </imprint>
+                     <biblScope unit="page" from="711" to="790">
+                        S. 711-790
+                     </biblScope>
+                  </monogr>
+                  <ref target="https://books.google.de/books?id=0k5BAAAAcAAJ"/>
+               </biblStruct>
+               <biblStruct xml:id="p3123-3" corresp="#LETTER_GENTZ_NNNN">
+                  <monogr>
+                     <author>
+                        <persName>
+                           <ref target="http://d-nb.info/gnd/118538489"/>
+                           <forename>Friedrich von</forename>
+                           <surname>Gentz</surname>
+                        </persName>
+                     </author>
+                     <title>Taschenbuch für 1799. Maria Stuart von Friedrich Gentz. Die Rache von August Lafontaine.</title>
+                     <imprint>
+                        <pubPlace>Berlin</pubPlace>
+                        <publisher>Friedrich Vieweg der Ältere</publisher>
+                        <date>1798</date>
+                     </imprint>
+                  </monogr>
+                  <ptr target="#LETTER_GENTZ_NNNN"/>
+               </biblStruct>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Masterarbeit zu Matrikelnummer 5584124</p>
+         </projectDesc>
+      </encodingDesc>
+      <profileDesc>
+         <creation>
+            <date when-iso="1801-01-09">9. Januar 1801</date>
+         </creation>
+        <langUsage>
+           <language ident="d">deutsch</language>
+        </langUsage>
+         <textClass>
+            <keywords scheme="internal"><!-- internal: innerhalb des besagten Briefs -->
+               <term>Brief</term>
+               <term>Schulden</term>
+               <term>Vieweg</term>
+               <term>Maria Stuart</term>
+            </keywords>
+            <keywords scheme="categorisation"><!-- Sinnabschnittseinteilung - relevant für den Fahrkartenautomaten! -->
+               <term xml:id="gprl">Gentz - p(r)ekuniäre Lage</term>
+               <term xml:id="jrnh">Historisches Journal</term>
+               <term xml:id="uedef">Ueber den ewigen Frieden</term>
+               <term xml:id="vwfe">Vieweg - Feindschaft</term>
+               <term xml:id="vwkms">Vieweg - Kalender / Maria Stuart</term>
+            </keywords>
+         </textClass>
+         <textDesc>
+            <channel>manuscript</channel>
+            <constitution type="single"/>
+            <derivation type="original"/>
+            <domain type="private"/>
+            <factuality type="fact"/>
+            <interaction type="partial"/>
+            <preparedness type="unprepared"/>
+            <purpose type="inform"/>
+         </textDesc>
+         <particDesc>
+            <listPerson>
+               <!-- Sender und Adressat -->
+               <person role="sender" xml:id="Gen">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/118538489"/>
+                     <forename>Friedrich von</forename>
+                     <surname>Gentz</surname>
+                  </persName>
+               </person>
+               <person role="receiver" xml:id="Fro">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/1073351068"/>
+                     <forename>Heinrich</forename>
+                     <surname>Frölich</surname>
+                  </persName>
+               </person>
+               <!-- erwähnte Personen -->
+               <person role="named" xml:id="FVW">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/119049546"/>
+                     <forename>Friedrich</forename>
+                     <surname>Vieweg</surname>
+                  </persName>
+               </person>
+            </listPerson>
+         </particDesc>
+         <settingDesc>
+            <listPlace>
+               <!-- Start- und Zielort -->
+               <place type="sender" xml:id="plBe">
+                  <country>
+                     <ref target="http://d-nb.info/gnd/4047194-9"/>
+                     <placeName>Preußen</placeName>
+                  </country>
+                  <settlement>
+                     <ref target="http://d-nb.info/gnd/4005728-8"/>
+                     <placeName>Berlin</placeName>
+                  </settlement>
+               </place>
+               <!-- erwähnte Orte -->
+            </listPlace>
+         </settingDesc>
+      </profileDesc>
+      <revisionDesc>
+         <change xml:id="init" when-iso="2018-03-07" who="#edAG">Erstauszeichnung und Normierung des Dokumentes im Rahmen der Masterarbeit der Matrikelnummer 5584124</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div n="1" corresp="#jrnh">
+            <p>
+               Ich übersende hier, liebster Frölich, die 
+               <rs type="citation" ref="#p3123-1">Anzeige über die Fortsetzung des Journals</rs>, welche das Dezember-Stück 
+               beschließen soll, und deren ich auch auf dem Umschlage zu erwähnen bitte. Ich hoffe, daß Sie damit zufrieden seyn 
+               werden. Ob es nötig seyn wird, diesem Jahrgange ein Register beizufügen, welches im Grunde, da ich größtentheils die 
+               Gegenstände ausführlich, mithin nicht viele einzelnen Rubriken behandelt habe, nicht sonderlich nützlich seyn würde, 
+               mögen Sie entscheiden. Ich habe es unterdessen bereits angefangen, und kan es nötigenfalls in einer Stunde vollenden. 
+               Was mir aber wesentlicher scheint, das sind die Inhalts-Anzeigen für jeden Band, die ja nicht vergessen werden müßen.
+            </p>
+         </div>
+         <div n="2" corresp="#uedef">
+            <p>
+               Es fehlen noch einige Blätter an dem <rs type="citation" ref="#p3123-2">Aufsatz über den ewigen Frieden</rs>, die Sie 
+               heute Mittag erhalten werden.
+            </p>
+         </div>
+         <div n="3" corresp="#vwfe">
+            <p>
+               Ich habe einen <rs type="citation" ref="#c3123-1">Brief</rs> von <rs type="person" ref="#FVW">Vieweg</rs> bekommen, 
+               worin er zwar der Ihnen gegebnen Anweisung noch mit keinem Worte erwähnt, der mich aber befürchten läßt, daß Sie 
+               Recht gehabt haben werden. Sie sollen ihn sehen, und werden mich sicherlich rechtfertigen. Unterdessen bitte ich Sie 
+               inständigst, Sich fest überzeugt zu halten, daß ich nicht im Stande bin, Ihre Güte und Ihr Vertrauen gegen mich, mit 
+               Undank oder Leichtsinn zu belohnen; und daß, wenn <rs type="person" ref="#FVW">Vieweg</rs> auch am Ende keinen 
+               Pfennig bezahlen sollte, Sie darum dennoch, schlechterdings keiner Verlegenheit ausgesetzt werden dürfen. Verlaßen 
+               Sie Sich gänzlich auf mich, und ahnden Sie auch nicht einmal etwas Schlimmes.
+            </p>
+         </div>
+         <div n="4" corresp="#vwkms">
+            <p>
+               Ich habe noch eine Bitte an Sie. Die von mir für den Kalender bearbeitete 
+               <rs type="citation" ref="#p3123-3">Geschichte der <emph rend="underlined">Maria Stuart</emph></rs> ist auch besonders 
+               abgedruckt worden. Sollte nicht einer der hiesigen Buchhändler ein Exemplar davon haben ? Und könnten Sie mir dies 
+               nicht, weil mir sehr viel daran gelegen ist, sobald als möglich, verschaffen ?
+            </p>
+         </div>
+         <closer>
+            <signed rend="right">Gentz</signed>
+            <dateline rend="right">den <date when-iso="1801-01-09">9<span rend="sup">ten</span> Januar 1801</date></dateline>
+         </closer>
+      </body>
+   </text>
+</TEI>

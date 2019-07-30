@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc xml:id="LETTER_GENTZ_3019">
+         <titleStmt>
+            <title>Friedrich von Gentz an Friedrich Vieweg, 27. November 1798</title>
+            <editor xml:id="edAG">Andreas Gálffy</editor>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <name>Forschungsstelle "Universitätssammlung Friedrich von Gentz"</name>
+               <link target="http://gentz-digital.ub.uni-koeln.de http://www.ub.uni-koeln.de/cdm/singleitem/collection/gentz/id/3018/"/>
+            </publisher>
+            <pubPlace>Cologne</pubPlace>
+            <idno type="Gentz-Edition-Number" n="3019"/>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <country>Germany</country>
+                  <settlement>Wiesbaden</settlement>
+                  <institution>Vieweg-Verlagsarchiv</institution>
+                  <repository>Briefsammlung 311 G: Gentz-Briefe</repository>
+                  <idno>Nr. 85</idno>
+               </msIdentifier>
+               <msContents>
+                  <summary>
+                     Seine einzige Abschrift der Ankündigung und einen Vorschuss von 200 Reichstaler bittet Gentz in diesem Brief.
+                  </summary>
+               </msContents>
+            </msDesc>
+            <listBibl type="alludedWorks">
+               <bibl xml:id="a3019-1" corresp="#LETTER_GENTZ_NNNN">nicht näher benannte Ankündigung</bibl>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Masterarbeit zu Matrikelnummer 5584124</p>
+         </projectDesc>
+      </encodingDesc>
+      <profileDesc>
+         <creation>
+            <date when-iso="1798-11-27">27. November 1798</date>
+         </creation>
+        <langUsage>
+           <language ident="d">deutsch</language>
+        </langUsage>
+         <textClass>
+            <keywords scheme="internal"><!-- internal: innerhalb des besagten Briefs -->
+               <term>Billet</term>
+               <term>Ankündigung</term>
+               <term>Vorschuss</term>
+            </keywords>
+            <keywords scheme="categorisation"><!-- Sinnabschnittseinteilung - relevant für den Fahrkartenautomaten! -->
+               <term xml:id="ank">Ankündigung</term>
+               <term xml:id="gprl">Gentz - p(r)ekuniäre Lage</term>
+            </keywords>
+         </textClass>
+         <textDesc>
+            <channel>manuscript</channel>
+            <constitution type="single"/>
+            <derivation type="original"/>
+            <domain type="private"/>
+            <factuality type="fact"/>
+            <interaction type="partial"/>
+            <preparedness type="prepared"/>
+            <purpose type="inform"/>
+         </textDesc>
+         <particDesc>
+            <listPerson>
+               <!-- Sender und Adressat -->
+               <person role="sender" xml:id="Gen">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/118538489"/>
+                     <forename>Friedrich von</forename>
+                     <surname>Gentz</surname>
+                  </persName>
+               </person>
+               <person role="receiver" xml:id="FVW">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/119049546"/>
+                     <forename>Friedrich</forename>
+                     <surname>Vieweg</surname>
+                  </persName>
+               </person>
+               <!-- erwähnte Personen -->
+            </listPerson>
+         </particDesc>
+         <settingDesc>
+            <listPlace>
+               <!-- Start- und Zielort -->
+               <place type="sender" xml:id="plBe">
+                  <country>
+                     <ref target="http://d-nb.info/gnd/4047194-9"/>
+                     <placeName>Preußen</placeName>
+                  </country>
+                  <settlement>
+                     <ref target="http://d-nb.info/gnd/4005728-8"/>
+                     <placeName>Berlin</placeName>
+                  </settlement>
+               </place>
+               <!-- erwähnte Orte -->
+            </listPlace>
+         </settingDesc>
+      </profileDesc>
+      <revisionDesc>
+         <change xml:id="init" when-iso="2018-03-02" who="#edAG">Erstauszeichnung und Normierung des Dokumentes im Rahmen der Masterarbeit der Matrikelnummer 5584124</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div n="1" corresp="#ank">
+            <p>
+               Ich habe <date when-iso="1798-11-25">Sonntag</date> die Abschrift von der 
+               <rs type="citation" ref="#a3019-1"><emph rend="underlined">Ankündigung</emph></rs> bey Ihnen liegen laßen. Da es die 
+               einzige ist, die ich habe, so bitte ich Sie, werthster Gönner und Freund, mir solche zurück zu schicken.
+            </p>
+         </div>
+         <div n="2" corresp="#gprl">
+            <p>
+               Alsdann kömmt eine Bitte, von der Sie denken oder sagen werden: "Ohne das kan es doch mit Gentz niemals abgehen." 
+               Auch thue ich sie schmerzlich ungern, aber die Umstände zwingen sie mir ab. Es ist die Bitte um einen Vorschuß von 
+               200 Reichsthaler. Ich muß mir verschiedne kleine Sorgen abwälzen, um die jetzt so unumgänglich nötige Ruhe des 
+               Gemüths zu erhalten. Ich werde gleich nach Ihrer Zurückkunft einen Plan in Vorschlag bringen, dessen Ausführung 
+               Ihnen gewiß gefallen soll. Sie sind ja nun einmal meine alte Stütze, und es gehen ja jetzt wieder gute Zeiten auf. 
+               Erfüllen Sie daher sobald als möglich den Wunsch
+            </p>
+         </div>
+         <closer>
+            <salute rend="right">Ihres Freundes</salute>
+            <signed rend="right">Gentz.</signed>
+            <dateline rend="right"><date when-iso="1798-11-27">27 Novbr 98</date></dateline>
+         </closer>
+      </body>
+      <back>
+         <p>
+            Herrn
+            Buchhändler Vieweg
+            Wohlgebohren.
+         </p>
+         <p resp="#FVW">
+            <rs type="place" ref="#plBe">Berlin</rs> d <date when-iso="1798-11-21">27 Nov. 98</date>.
+            H Kr Rth Gentz
+            eod.
+         </p>
+      </back>
+      <note xml:id="r3019-1">Seite 4 Adresse von Gentz' Hand</note>
+      <note xml:id="r3019-2">Seite 4 Präsenzvermerk von Vieweg</note>
+      <note xml:id="r3019-3">Seite 4 zwei Siegelreste</note>
+   </text>
+</TEI>

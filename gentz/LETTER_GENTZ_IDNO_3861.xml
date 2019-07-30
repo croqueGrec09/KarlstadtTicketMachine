@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc xml:id="LETTER_GENTZ_3861">
+         <titleStmt>
+            <title>Friedrich von Gentz an Karl Gustav von Brinckmann, 6. Oktober 1801</title>
+            <editor xml:id="edAG">Andreas Gálffy</editor>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <name>Forschungsstelle "Universitätssammlung Friedrich von Gentz"</name>
+               <link target="http://gentz-digital.ub.uni-koeln.de http://www.ub.uni-koeln.de/cdm/singleitem/collection/gentz/id/3860/"/>
+            </publisher>
+            <pubPlace>Cologne</pubPlace>
+            <idno type="Gentz-Edition-Number" n="3861"/>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <country>Sweden</country>
+                  <settlement>Trolle-Ljungby</settlement>
+                  <institution>Archiv des Grafen Wachtmeister</institution>
+                  <repository>Nachlaß Brinckmann, Ausländ. Briefwechsel, Gentz an Brinckmann</repository>
+                  <idno>G 3</idno>
+               </msIdentifier>
+               <msContents>
+                  <summary>
+                     Der Ton ist weiterhin anmaßend. Die Titelvorschläge legen schone ine Unterordnung nahe, diese Unterordnung 
+                     Gentz' wird durch die Beanspruchung vieler Titel ausgelegt. Dennoch soll schnell ein Frieden wieder 
+                     einkehren zwischen den beiden Bibliotheken. Gentz ist hingegen auch entschlossen, wenn die friedlichen 
+                     Gesinnungen nicht zurückkehren sollen.
+                  </summary>
+               </msContents>
+            </msDesc>
+            <listBibl type="defRep">
+               <biblStruct xml:id="p3861-1" corresp="GBk-0069">
+                  <monogr>
+                     <author>
+                        <persName>
+                           <ref target="http://d-nb.info/gnd/117710873"/>
+                           <forename>William</forename>
+                           <surname>Coxe</surname>
+                        </persName>
+                     </author>
+                     <title>Memoirs Of The Life And Administration Of Sir Robert Walpole, Earl Of Orford</title>
+                     <imprint>
+                        <pubPlace>London</pubPlace>
+                        <publisher>T. Cadell jun., W. Davies</publisher>
+                        <date>1798</date>
+                     </imprint>
+                  </monogr>
+                  <ptr target="https://books.google.de/books?id=fbY_AAAAcAAJ"/>
+               </biblStruct>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Masterarbeit zu Matrikelnummer 5584124</p>
+         </projectDesc>
+      </encodingDesc>
+      <profileDesc>
+         <creation>
+            <date when-iso="1801-10-06">6. Oktober 1801</date>
+         </creation>
+        <langUsage>
+           <language ident="d">deutsch</language>
+        </langUsage>
+         <textClass>
+            <keywords scheme="internal"><!-- internal: innerhalb des besagten Briefs -->
+               <term>Brief</term>
+               <term>Bibliothek</term>
+               <term>Titel</term>
+            </keywords>
+            <keywords scheme="categorisation"><!-- Sinnabschnittseinteilung - relevant für den Fahrkartenautomaten! -->
+               <term xml:id="bibl">Bibliothek</term>
+            </keywords>
+         </textClass>
+         <textDesc>
+            <channel>manuscript</channel>
+            <constitution type="single"/>
+            <derivation type="original"/>
+            <domain type="private"/>
+            <factuality type="fact"/>
+            <interaction type="partial"/>
+            <preparedness type="prepared"/>
+            <purpose type="inform"/>
+         </textDesc>
+         <particDesc>
+            <listPerson>
+               <!-- Sender und Adressat -->
+               <person role="sender" xml:id="Gen">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/118538489"/>
+                     <forename>Friedrich von</forename>
+                     <surname>Gentz</surname>
+                  </persName>
+               </person>
+               <person role="receiver" xml:id="KGvB">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/116519770"/>
+                     <forename>Carl Gustav von</forename>
+                     <surname>Brinckmann</surname>
+                  </persName>
+               </person>
+               <!-- erwähnte Personen -->
+            </listPerson>
+         </particDesc>
+         <settingDesc>
+            <listPlace>
+               <!-- Start- und Zielort -->
+               <place type="sender" xml:id="plBe">
+                  <country>
+                     <ref target="http://d-nb.info/gnd/4047194-9"/>
+                     <placeName>Preußen</placeName>
+                  </country>
+                  <settlement>
+                     <ref target="http://d-nb.info/gnd/4005728-8"/>
+                     <placeName>Berlin</placeName>
+                  </settlement>
+               </place>
+               <!-- erwähnte Orte -->
+            </listPlace>
+         </settingDesc>
+      </profileDesc>
+      <revisionDesc>
+         <change xml:id="init" when-iso="2018-03-09" who="#edAG">Erstauszeichnung und Normierung des Dokumentes im Rahmen der Masterarbeit der Matrikelnummer 5584124</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div n="1" corresp="#bibl">
+            <p>
+               Der Unterzeichnete hat den Auftrag, dem Herrn bevollmächtigten Minister der 
+               <emph rend="underlined">sogenannten</emph> Bibliothek des vollendeten Completismus, über die von demselben 
+               abermals eingereichte Note seine höchste Verwunderung zu erkennen zu geben.
+            </p>
+            <p>
+               Nicht damit zufrieden, daß der hiesige Hof den usurpirten Titel, welchen die Brinkmannsche Privat-Bibliothek sich 
+               seit einiger Zeit beilegte, stillschweigend anerkannt, und daß die meinige die schnöde Benennung einer 
+               Frei-Bibliothek ohne weitre Beschwerde hingenommen hat, erlaubt sich nun auch der Minister jener Bibliothek einen 
+               Ton, der unter souveränen Staaten, wenn gleich ihre relative Stärke durch momentane Unfälle etwas alterirt worden 
+               ist, unmöglich geduldet werden kan.
+            </p>
+            <p>
+               Dieses willkührliche und beleidigende Verfahren erklärt sich von selbst durch die Ansprüche, welche die 
+               Brinkmannsche Privat-Bibliothek seit so langer Zeit auf Unkosten aller andern Mächte geltend zu machen gesucht, 
+               und welche sie in den von dem Herrn pp Minister in den letzten Tagen übergebnen Noten verschiedentlich erneuert 
+               hat. Sie hat sich in dem jetzigen Kriege mehr als jemals die Oberherrschaft über alles was Bücher heißt, 
+               angemaßt, und übt, vermöge einer <pb/> selbstgeschaffnen Präponderanz, die mit den wahren Grundsätzen des 
+               Völker-Rechtes wohl nicht zu vereinigen seyn mögte, allenthalben eine insurgirte Gerichtsbarkeit aus, die sie wie 
+               ein unverjährbares, in allen Tribunalen anerkanntes Recht behandelt. Der Unterzeichnete ist ausdrücklich 
+               bevollmächtiget, gegen diese Anmaßungen aufs feierlichste zu protestiren.
+            </p>
+            <p>
+               So unangenehm aber auch die Wendung seyn mag, welche diese Angelegenheit genommen hat, so verzweifelt doch mein 
+               Hof noch nicht an der Möglichkeit einer schnellen Rückkehr zu friedlichen Gesinnungen, und er gründet seine 
+               Hoffnung auf den schwachen Ueberrest von Billigkeits-Gefühl, den er in einigen Fällen bei Ihrem Souverain bemerkt 
+               hat. Weit entfernt, die Auslieferung des <rs type="citation" ref="#p3861-1">beiden Coxes</rs>, die nur durch 
+               einen Zufall zurück bleiben konnten, zu verewigen, setzt meine Bibliothek vielmehr ihren Ruhm darein, daß sie 
+               alle Artikel eines für sie so lästigen, den Lüneviller Frieden an Härte noch weit hinter sich zurücklaßenden 
+               Traktats aufs pünktlichste erfüllt hat. Sie erwartet dagegen aber auch die 
+               <emph rend="underlined">ungesäumte</emph> Erfüllung der gegenseitigen Stipulationen; und der Unterzeichnete ist 
+               angewiesen, Ihnen zu erklären daß, wenn, wider alles Vermuthen, die Voll<pb/>ziehung des Traktats von neuem, 
+               unter welchem Vorwande es auch sey, verzögert werden sollte, man hiesiger Seits jede wirksame Maßregel, 
+               <del rend="stroked">ergreifen würde</del> welche dringende Umstände vorschreiben können, ergreifen, und alle 
+               Mittel, welche die Vorsehung in unsre Hände gegeben hat, zur Anwendung bringen würde.
+            </p>
+         </div>
+         <closer>
+            <dateline rend="right"><rs type="place" ref="#plBe">Berlin</rs> den <date when-iso="1801-10-06">6<span rend="sup">ten</span> Oktober 1801</date>.</dateline>
+            <signed rend="right">Gentz.</signed>
+         </closer>
+      </body>
+   </text>
+</TEI>

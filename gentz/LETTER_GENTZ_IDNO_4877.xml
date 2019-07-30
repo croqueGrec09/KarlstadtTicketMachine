@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc xml:id="LETTER_GENTZ_4877">
+         <titleStmt>
+            <title>Friedrich von Gentz an Friedrich Schiller, 15. Juli 1794</title>
+            <editor xml:id="edAG">Andreas Gálffy</editor>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <name>Forschungsstelle "Universitätssammlung Friedrich von Gentz"</name>
+               <link target="http://gentz-digital.ub.uni-koeln.de http://www.ub.uni-koeln.de/cdm/singleitem/collection/gentz/id/4876/"/>
+            </publisher>
+            <pubPlace>Cologne</pubPlace>
+            <idno type="Gentz-Edition-Number" n="4877"/>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <country>unknown</country>
+                  <idno>not retraced</idno>
+               </msIdentifier>
+               <msContents>
+                  <summary>
+                     Eine Einladung Schillers, öffentlich vor einer gesellschaft aufzutreten, hat Gentz stark berührt. Sofern es 
+                     seine Geschäft erlauben, möchte Gentz in der freien Zeit etwas zu dieser Gesellschaft beizutragen.
+                  </summary>
+               </msContents>
+            </msDesc>
+            <biblStruct type="catEntry">
+               <monogr>
+                  <title>Der Autographensammler</title>
+                  <imprint>
+                     <date>1938</date>
+                  </imprint>
+                  <biblScope unit="volume" n="3">
+                     3
+                  </biblScope>
+                  <biblScope unit="issue" n="4">
+                     Nr. 4 vom September 1938
+                  </biblScope>
+               </monogr>
+            </biblStruct>
+            <listBibl type="preprints">
+               <biblStruct>
+                  <monogr>
+                     <editor>
+                        <persName>
+                           <ref target="http://d-nb.info/gnd/118667440"/>
+                           <forename>Eduard</forename>
+                           <surname>Castle</surname>
+                        </persName>
+                     </editor>
+                     <title>Carl Künzels 'Schilleriana'. Briefe an Schiller und Schillers Familienmitglieder nach den Abschriften im Besitz des Wiener Goethe-Vereins</title>
+                     <imprint>
+                        <pubPlace>Wien</pubPlace>
+                        <date>1955</date>
+                     </imprint>
+                     <biblScope unit="page" from="51" to="51">
+                        51
+                     </biblScope>
+                  </monogr>
+               </biblStruct>
+               <biblStruct>
+                  <monogr>
+                     <title>Schillers Werke, Nationalausgabe</title>
+                     <imprint>
+                        <pubPlace>Weimar</pubPlace>
+                        <date>1964</date>
+                     </imprint>
+                     <biblScope unit="volume" n="35">
+                        35. Bd., Briefe an Schiller 25.5.1794-31.10.1795, Nr. 19, 30-31 und 437
+                     </biblScope>
+                  </monogr>
+               </biblStruct>
+            </listBibl>
+            <listBibl type="defExpr">
+               <biblStruct xml:id="e4877-1" corresp="UBi-0014">
+                  <monogr>
+                     <author>
+                        <persName>
+                           <ref target="http://d-nb.info/gnd/118607626"/>
+                           <forename>Friedrich</forename>
+                           <surname>Schiller</surname>
+                        </persName>
+                     </author>
+                     <title>Die Horen</title>
+                     <imprint>
+                        <pubPlace>Tübingen</pubPlace>
+                        <publisher>Cotta</publisher>
+                        <date>1795-1797</date>
+                     </imprint>
+                  </monogr>
+                  <ptr target="http://ds.ub.uni-bielefeld.de/viewer/image/2104386_001/10/"/>
+               </biblStruct>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Masterarbeit zu Matrikelnummer 5584124</p>
+         </projectDesc>
+      </encodingDesc>
+      <profileDesc>
+         <creation>
+            <date when-iso="1794-07-15">15. Juli 1794</date>
+         </creation>
+        <langUsage>
+           <language ident="d">deutsch</language>
+        </langUsage>
+         <textClass>
+            <keywords scheme="internal"><!-- internal: innerhalb des besagten Briefs -->
+               <term>Brief</term>
+               <term>Einladung</term>
+               <term>Gesellschaft</term>
+            </keywords>
+            <keywords scheme="categorisation"><!-- Sinnabschnittseinteilung - relevant für den Fahrkartenautomaten! -->
+               <term xml:id="vfs">Verhältnis Friedrich Schiller</term>
+            </keywords>
+         </textClass>
+         <textDesc>
+            <channel>manuscript</channel>
+            <constitution type="single"/>
+            <derivation type="original"/>
+            <domain type="private"/>
+            <factuality type="fact"/>
+            <interaction type="partial"/>
+            <preparedness type="prepared"/>
+            <purpose type="inform"/>
+         </textDesc>
+         <particDesc>
+            <listPerson>
+               <!-- Sender und Adressat -->
+               <person role="sender" xml:id="Gen">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/118538489"/>
+                     <forename>Friedrich von</forename>
+                     <surname>Gentz</surname>
+                  </persName>
+               </person>
+               <person role="receiver" xml:id="Sch">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/118607626"/>
+                     <forename>Friedrich</forename>
+                     <surname>Schiller</surname>
+                  </persName>
+               </person>
+               <!-- erwähnte Personen -->
+            </listPerson>
+         </particDesc>
+         <settingDesc>
+            <listPlace>
+               <!-- Start- und Zielort -->
+               <place type="sender" xml:id="plBe">
+                  <country>
+                     <ref target="http://d-nb.info/gnd/4047194-9"/>
+                     <placeName>Preußen</placeName>
+                  </country>
+                  <settlement>
+                     <ref target="http://d-nb.info/gnd/4005728-8"/>
+                     <placeName>Berlin</placeName>
+                  </settlement>
+               </place>
+               <!-- erwähnte Orte -->
+            </listPlace>
+         </settingDesc>
+      </profileDesc>
+      <revisionDesc>
+         <change xml:id="init" when-iso="2018-02-15" who="#edAG">Erstauszeichnung und Normierung des Dokumentes im Rahmen der Masterarbeit der Matrikelnummer 5584124</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <opener>
+            <salute rend="left">Wohlgebohrner !</salute>
+            <salute rend="left">Hochzuverehrender Herr Hofrath !</salute>
+         </opener>
+         <div n="1" corresp="#vfs">
+            <p>
+               <rs type="person" ref="#Sch">Ew. Wohlgebohren</rs> höchst schmeichelhaftes Schreiben kan, meiner Empfindung nach, 
+               nur auf eine einzige Art beantwortet werden. Wenn ich auch in Amtsgeschäfte noch tiefer vergraben, und in 
+               litterärische Arbeiten noch mehr verflochten wäre, als ich es in der That bin, so würde ich mich doch nie 
+               entschließen können, einer Verbindung zu entsagen, über deren Werth kein Zweifel Statt finden darf, sobald man ihren 
+               Urheber kennt.
+            </p>
+            <p>
+               Ich nehme also mit Freuden Ihr ehrenvolles Anerbieten an: ich will mich nicht als einen der rüstigsten Mitarbeiter 
+               bey diesem trefflichen Institut ankündigen, weil ich nicht uneingeschränkt über meine Zeit disponiren, und die mir 
+               etwa verliehenen Kräfte nur periodisch, oft nur nach langen Intervallen auf Beschäftigungen verwenden darf, die mir 
+               den Muth eingeben können, vor dem Publikum, aufzutreten. Indessen würde es mich überaus glücklich machen, wenn es 
+               mir in einer oder der andern von diesen freien Perioden gelänge, etwas hervorzubringen, das 
+               <rs type="citation" ref="#e4877-1">der Gesellschaft, in welche Sie mich aufnehmen wollen</rs> würdig wäre, und das 
+               mir Ihre Zufriedenheit und Ihren Beyfall - das schönste Loos was einem Schriftsteller dieser Zeit zu Theil werden 
+               kan - zuzuwenden vermöchte.
+            </p>
+            <p>
+               Ich verharre mit unbegränzter Verehrung, meinem Antheil an dem gerechten Tribut der Ihrem Geiste von Ihren 
+               Zeitgenossen gebührt,
+            </p>
+         </div>
+         <closer>
+            <salute rend="right"><rs type="person" ref="#Sch">Ewr. Wohlgebohren</rs></salute>
+            <salute rend="right">gehorsamster Diener</salute>
+            <dateline><rs type="place" ref="#plBe">Berlin</rs>, den <date when-iso="1794-07-15">15<span rend="sup">ten</span> July 1794</date>.</dateline>
+            <signed rend="right">Gentz</signed>
+         </closer>
+      </body>
+   </text>
+</TEI>

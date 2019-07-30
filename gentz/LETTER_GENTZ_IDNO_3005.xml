@@ -1,0 +1,577 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc xml:id="LETTER_GENTZ_3005">
+         <titleStmt>
+            <title>Friedrich von Gentz an Christian Garve, 23. März 1798</title>
+            <editor xml:id="edAG">Andreas Gálffy</editor>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <name>Forschungsstelle "Universitätssammlung Friedrich von Gentz"</name>
+               <link target="http://gentz-digital.ub.uni-koeln.de http://www.ub.uni-koeln.de/cdm/singleitem/collection/gentz/id/3004/"/>
+            </publisher>
+            <pubPlace>Cologne</pubPlace>
+            <idno type="Gentz-Edition-Number" n="3005"/>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <settlement>unknown</settlement>
+                  <idno>destroyed</idno><!-- Manuskript wurde durch Kriegseinwirkungen zerstört -->
+               </msIdentifier>
+               <msContents>
+                  <summary>
+                     Über den Herausgeber der Unger'schen Annalen hat Gentz erfahren, dass es Garve gut geht. Dies freut ihn sehr, 
+                     da er nicht mehr erwartet hatte, dass es ihm gut gingt. Garve denkt positiver über die Unger'schen Annalen, als 
+                     Gentz. Die Arbeit hat Gentz so stark beschäftigt, dass er sich kaum mit Literatur beschäftigen kann. Viel Zeit 
+                     widmet Gentz dem Studium vieler verschiedener Zeitungen. Auch über seine Arbeit an der Geschichte der 
+                     französischen Revolution verichtet er, ebenso über die Änderungen unter den Ministern und den Weggang Bricnkmanns, 
+                     den er sehr bedauert. Auch hat Gentz jetzt Beziehungen zu Paris.
+                  </summary>
+               </msContents>
+            </msDesc>
+            <listBibl type="preprints">
+               <biblStruct>
+                  <monogr>
+                     <editor>
+                        <persName>
+                           <ref />
+                           <forename>Carl G.</forename>
+                           <surname>Schönborn</surname>
+                        </persName>
+                     </editor>
+                     <title>Friedrich von Gentz. Briefe an Christian Garve. (1789-1798.)</title>
+                     <imprint>
+                        <pubPlace>Breslau</pubPlace>
+                        <date>1857</date>
+                     </imprint>
+                     <biblScope unit="page" from="101" to="105">
+                        Nr. X
+                     </biblScope>
+                  </monogr>
+               </biblStruct>
+               <biblStruct>
+                  <monogr>
+                     <editor>
+                        <persName>
+                           <ref target="http://d-nb.info/gnd/130953075"/>
+                           <forename>Friedrich Carl</forename>
+                           <surname>Wittichen</surname>
+                        </persName>
+                        <persName>
+                           <ref/> <!-- kein GND-Eintrag -->
+                           <forename>Ernst</forename>
+                           <surname>Salzer</surname>
+                        </persName>
+                     </editor>
+                     <title>Briefe von und an Friedrich von Gentz, 4 Bde.</title>
+                     <imprint>
+                        <publisher>Oldenbourg</publisher>
+                        <pubPlace>München, Berlin</pubPlace>
+                        <date>1909-1913</date>
+                     </imprint>
+                     <biblScope unit="volume" n="1">
+                        I
+                     </biblScope>
+                     <biblScope unit="page" from="205" to="208">
+                        Nr. 44
+                     </biblScope>
+                  </monogr>
+               </biblStruct>
+            </listBibl>
+            <listBibl type="letterReferenced">
+               <bibl xml:id="c3005-1" corresp="#LETTER_GENTZ_NNNN">nicht bekannter Brief von Christian Garve an Johann Friedrich Unger</bibl>
+            </listBibl>
+            <listBibl type="alludedWorks">
+               <bibl xml:id="a3005-1" corresp="#LETTER_GENTZ_NNNN">Zeitung "Conservateur", ohne Leseprobe</bibl>
+               <bibl xml:id="a3005-2" corresp="#LETTER_GENTZ_NNNN">Zeitung "London Chronicle", ohne Leseprobe</bibl>
+               <bibl xml:id="a3005-3" corresp="#LETTER_GENTZ_NNNN">Zeitung "Courier de Londres", ohne Leseprobe</bibl>
+            </listBibl>
+            <listBibl type="defExpr">
+               <biblStruct xml:id="e3005-1" corresp="GBk-0037">
+                  <monogr>
+                     <title>Jahrbücher der preußischen Monarchie unter der Regierung Friedrich Wilhelms des Dritten.</title>
+                     <imprint>
+                        <pubPlace>Berlin</pubPlace>
+                        <publisher>Johann Friedrich Unger</publisher>
+                        <date>1798</date>
+                     </imprint>
+                     <biblScope unit="volume" n="1">
+                        Erster Band. Januar. Februar. März. April.
+                     </biblScope>
+                  </monogr>
+                  <ptr target="https://books.google.de/books?id=I7wpAAAAYAAJ"/>
+               </biblStruct>
+               <biblStruct xml:id="e3005-2" corresp="GBk-0038">
+                  <monogr>
+                     <author>
+                        <persName>
+                           <ref target="http://d-nb.info/gnd/104314699"/>
+                           <forename>Ernst Ludwig</forename>
+                           <surname>Posselt</surname>
+                        </persName>
+                     </author>
+                     <title>Europäische Annalen</title>
+                     <imprint>
+                        <publisher>Cotta</publisher>
+                        <pubPlace>Tübingen</pubPlace>
+                        <date>1798</date>
+                     </imprint>
+                  </monogr>
+                  <ptr target="https://books.google.de/books?id=-tBJAAAAcAAJ" />
+               </biblStruct>
+               <biblStruct xml:id="e3005-3" corresp="Grg-0013">
+                  <monogr>
+                     <title>Rédacteur</title>
+                     <imprint>
+                        <pubPlace>Paris, Gratiot</pubPlace>
+                        <date>1795-1800</date>
+                     </imprint>
+                  </monogr>
+                  <ptr target="http://gazetier-revolutionnaire.gazettes18e.fr/periodique/redacteur-1795-1800"/>
+               </biblStruct>
+               <biblStruct xml:id="e3005-4" corresp="Grg-0004">
+                  <monogr>
+                     <author>
+                        <persName>
+                           <ref target="http://d-nb.info/gnd/128894733"/>
+                           <forename>Dominique-Joseph</forename>
+                           <surname>Garat</surname>
+                        </persName>
+                     </author>
+                     <title>Journal de Paris</title>
+                     <imprint>
+                        <pubPlace>Paris</pubPlace>
+                        <date>1789-1799</date>
+                     </imprint>
+                  </monogr>
+                  <ptr target="http://gazetier-revolutionnaire.gazettes18e.fr/periodique/journal-de-paris-1799"/>
+               </biblStruct>
+               <biblStruct xml:id="e3005-5" corresp="Grg-0014">
+                  <monogr>
+                     <author>
+                        <persName>
+                           <ref target="http://d-nb.info/gnd/100450067"/>
+                           <forename>François</forename>
+                           <surname>Poultier</surname>
+                        </persName>
+                     </author>
+                     <title>Ami des lois</title>
+                     <imprint>
+                        <date>1795-1800</date>
+                     </imprint>
+                  </monogr>
+                  <ptr target="http://gazetier-revolutionnaire.gazettes18e.fr/periodique/ami-des-lois-1795-1800"/>
+               </biblStruct>
+               <biblStruct xml:id="e3005-6" corresp="Grg-0000">
+                  <monogr>
+                     <editor>
+                        <persName>
+                           <ref target="http://d-nb.info/gnd/118789422"/>
+                           <forename>Charles Joseph</forename>
+                           <surname>Panckoucke</surname>
+                        </persName>
+                     </editor>
+                     <title>Le Moniteur universel</title>
+                     <imprint>
+                        <pubPlace>Paris</pubPlace>
+                        <date>1789-1901</date>
+                     </imprint>
+                  </monogr>
+                  <ptr target="http://gazetier-revolutionnaire.gazettes18e.fr/periodique/gazette-nationale-ou-moniteur-universel-1789-1799"/>
+               </biblStruct>
+               <biblStruct xml:id="e3005-7" corresp="NPA-0000">
+                  <monogr>
+                     <editor>
+                        <persName>
+                           <ref target="http://d-nb.info/gnd/136405959"/>
+                           <forename>James</forename>
+                           <surname>Perry</surname>
+                        </persName>
+                     </editor>
+                     <title>The Morning Chronicle</title>
+                     <imprint>
+                        <pubPlace>London</pubPlace>
+                        <date>1769-1851</date>
+                     </imprint>
+                  </monogr>
+                  <ptr target="https://newspaperarchive.com/uk/middlesex/london/morning-chronicle/1798/"/>
+               </biblStruct>
+            </listBibl>
+            <listBibl type="defRep">
+               <biblStruct xml:id="p3005-1" corresp="GBk-0039">
+                  <analytic>
+                     <author>
+                        <persName>
+                           <ref target="http://d-nb.info/gnd/118537636"/>
+                           <forename>Christian</forename>
+                           <surname>Garve</surname>
+                        </persName>
+                     </author>
+                     <title>Friedrich der Große und Hadrian.</title>
+                  </analytic>
+                  <monogr>
+                     <title>Jahrbücher der preußischen Monarchie unter der Regierung Friedrich Wilhelms des Dritten.</title>
+                     <imprint>
+                        <pubPlace>Berlin</pubPlace>
+                        <publisher>Johann Friedrich Unger</publisher>
+                        <date>1798</date>
+                     </imprint>
+                     <biblScope unit="volume" n="1">
+                        Erster Band. Januar. Februar. März. April.
+                     </biblScope>
+                     <biblScope unit="page" from="373" to="385">
+                        S. 373-385
+                     </biblScope>
+                  </monogr>
+                  <ptr target="https://books.google.de/books?id=I7wpAAAAYAAJ"/>
+               </biblStruct>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Masterarbeit zu Matrikelnummer 5584124</p>
+         </projectDesc>
+      </encodingDesc>
+      <profileDesc>
+         <creation>
+            <date when-iso="1798-03-23">23. März 1798</date>
+         </creation>
+        <langUsage>
+           <language ident="d">deutsch</language>
+        </langUsage>
+         <textClass>
+            <keywords scheme="internal"><!-- internal: innerhalb des besagten Briefs -->
+               <term>Brief</term>
+               <term>Studien</term>
+               <term>Philosophie</term>
+               <term>Werke</term>
+               <term>Unger</term>
+               <term>Zeitungen</term>
+               <term>Paris</term>
+               <term>französische Revolution</term>
+            </keywords>
+            <keywords scheme="categorisation"><!-- Sinnabschnittseinteilung - relevant für den Fahrkartenautomaten! -->
+               <term xml:id="vcg">Verhältnis Christian Garve</term>
+               <term xml:id="unan">Ungersche Annalen</term>
+               <term xml:id="bezbt">Beziehungen zu Berlin - Beamtentätigkeit</term>
+               <term xml:id="frv">Französische Revolution</term>
+               <term xml:id="budcff">Betrachtungen über den Ursprung, den Charakter und den Fortgang der Französischen Revolution</term>
+               <term xml:id="prr">preußische Regierung</term>
+               <term xml:id="vkgvb">Verhältnis Karl Gustav von Brinckmann</term>
+               <term xml:id="bezp">Beziehungen zu Paris</term>
+            </keywords>
+         </textClass>
+         <textDesc>
+            <channel>manuscript</channel>
+            <constitution type="single"/>
+            <derivation type="original"/>
+            <domain type="private"/>
+            <factuality type="fact"/>
+            <interaction type="partial"/>
+            <preparedness type="prepared"/>
+            <purpose type="inform"/>
+         </textDesc>
+         <particDesc>
+            <listPerson>
+               <!-- Sender und Adressat -->
+               <person role="sender" xml:id="Gen">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/118538489"/>
+                     <forename>Friedrich von</forename>
+                     <surname>Gentz</surname>
+                  </persName>
+               </person>
+               <person role="receiver" xml:id="Gar">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/118537636"/>
+                     <forename>Christian</forename>
+                     <surname>Garve</surname>
+                  </persName>
+               </person>
+               <!-- erwähnte Personen -->
+               <person role="named" xml:id="JFGU">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/11729327X"/>
+                     <forename>Johann Friedrich Gottlieb</forename>
+                     <surname>Unger</surname>
+                  </persName>
+               </person>
+               <person role="named" xml:id="Hoy">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/117028568"/>
+                     <forename>Karl Georg Heinrich von</forename>
+                     <surname>Hoym</surname>
+                  </persName>
+               </person>
+               <person role="named" xml:id="KFWIII">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/11869362X"/>
+                     <forename>Friedrich Wilhelm III.</forename>
+                     <surname/>
+                     <roleName type="office">König von Preußen</roleName>
+                  </persName>
+               </person>
+               <person role="named" xml:id="JCvB">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/116209356"/>
+                     <forename>Joachim Christian von</forename>
+                     <surname>Blumenthal</surname>
+                  </persName>
+               </person>
+               <person role="named" xml:id="Bch">
+                  <persName>
+                     <ref />
+                     <forename/>
+                     <surname>Buchholtz</surname>
+                  </persName>
+               </person>
+               <person role="named" xml:id="JCvW">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/117453773"/>
+                     <forename>Johann Christoph</forename>
+                     <surname>von Woellner</surname>
+                  </persName>
+               </person>
+               <person role="named" xml:id="HfMs">
+                  <persName>
+                     <ref />
+                     <forename/>
+                     <surname>Massow</surname>
+                     <roleName type="office">Hofmarschall</roleName>
+                  </persName>
+               </person>
+               <person role="named" xml:id="Rck">
+                  <persName>
+                     <ref />
+                     <forename/>
+                     <surname>Reck</surname>
+                  </persName>
+               </person>
+               <person role="named" xml:id="FGil">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/118539345"/>
+                     <forename>Friedrich</forename>
+                     <surname>Gilly</surname>
+                  </persName>
+               </person>
+               <person role="named" xml:id="FTL">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/141041900"/>
+                     <forename>François Théodore</forename>
+                     <surname>de Lagarde</surname>
+                  </persName>
+               </person>
+               <person role="named" xml:id="KGvB">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/116519770"/>
+                     <forename>Carl Gustav von</forename>
+                     <surname>Brinckmann</surname>
+                  </persName>
+               </person>
+               <person role="named" xml:id="Hum">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/118554727"/>
+                     <forename>Wilhelm von</forename>
+                     <surname>Humboldt</surname>
+                  </persName>
+               </person>
+               <person role="named" xml:id="Bgdf">
+                  <persName>
+                     <ref />
+                     <forename>von</forename>
+                     <surname>Burgsdorff</surname>
+                  </persName>
+               </person>
+               <person role="named" xml:id="Grpg">
+                  <persName>
+                     <ref />
+                     <forename/>
+                     <surname>Grapengiesser</surname>
+                  </persName>
+               </person>
+               <person role="named" xml:id="DrV">
+                  <persName>
+                     <ref />
+                     <forename></forename>
+                     <surname>Dr. Veit</surname>
+                  </persName>
+               </person>
+            </listPerson>
+         </particDesc>
+         <settingDesc>
+            <listPlace>
+               <!-- Start- und Zielort -->
+               <place type="sender" xml:id="plBe">
+                  <country>
+                     <ref target="http://d-nb.info/gnd/4047194-9"/>
+                     <placeName>Preußen</placeName>
+                  </country>
+                  <settlement>
+                     <ref target="http://d-nb.info/gnd/4005728-8"/>
+                     <placeName>Berlin</placeName>
+                  </settlement>
+               </place>
+               <place type="receiver" xml:id="plBr">
+                  <country>
+                     <ref target="http://d-nb.info/gnd/4047194-9"/>
+                     <placeName>Preußen</placeName>
+                  </country>
+                  <settlement>
+                     <ref target="http://d-nb.info/gnd/4008216-7"/>
+                     <placeName>Breslau</placeName>
+                  </settlement>
+               </place>
+               <!-- erwähnte Orte -->
+               <place type="named" xml:id="plPa">
+                  <country>
+                     <ref target="http://d-nb.info/gnd/4018145-5"/>
+                     <placeName>Frankreich</placeName>  
+                  </country>
+                  <settlement>
+                     <ref target="http://d-nb.info/gnd/4044660-8"/>
+                     <placeName>Paris</placeName>
+                  </settlement>
+               </place>
+               <place type="named" xml:id="plLo">
+                  <country>
+                     <ref target="http://d-nb.info/gnd/4022153-2"/>
+                     <placeName>Vereinigtes Königreich</placeName>                
+                  </country>
+                  <settlement>
+                     <ref target="http://d-nb.info/gnd/4074335-4"/>
+                     <placeName>London</placeName>
+                  </settlement>
+               </place>
+               <place type="named" xml:id="plFr">
+                  <country>
+                     <ref target="http://d-nb.info/gnd/4018145-5"/>
+                     <placeName>Frankreich</placeName>  
+                  </country>
+               </place>
+            </listPlace>
+         </settingDesc>
+      </profileDesc>
+      <revisionDesc>
+         <change xml:id="init" when-iso="2018-03-02" who="#edAG">Erstauszeichnung und Normierung des Dokumentes im Rahmen der Masterarbeit der Matrikelnummer 5584124</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>     
+      <body>
+         <opener>
+            <dateline><rs type="place" ref="#plBe">Berlin</rs>, den <date when-iso="1798-03-23">23. März 1798</date>.</dateline>
+         </opener>
+         <div n="1" corresp="#vcg">
+            <p>
+               Ich habe aus einem <rs type="citation" ref="#c3001-1">Briefe</rs>, den Sie ganz neuerlich an den 
+               <rs type="person" ref="#JFGU">Herausgeber der Ungerschen Annalen</rs> erlassen haben, mit einer Freude, die ich Ihnen nicht beschreiben kann, 
+               ersehen, daß Sie sich damals in einem, wo nicht wohlbehaglichen , doch erträglichen Zustande befunden haben müssen. Ich muß Ihnen aufrichtig 
+               gestehen, teuerster Garve, daß ich dies, teils durch Ihr langes Stillschweigen, teils selbst durch die Nachrichten der Breslauer, die mit dem 
+               <rs type="person" ref="#Hoy">Minister Hoym</rs> hier waren, beunruhiget, nicht erwartet hatte. Ich glaubte Sie sehr krank und schwach: ich 
+               hatte, die Wahrheit zu sagen, kaum den Mut, an Sie zu schreiben: ich fürchtete, wie bei allen großen Übeln, eine völlige Bestätigung meiner 
+               Besorgnisse, weit mehr, als ich eine Widerlegung derselben hoffte. Nunc demum redit animus; wären Sie so krank, als ich vermutet hatte, so 
+               würden Sie den Brief, der mich so angenehm überrascht hat, nicht geschrieben haben. Lassen Sie mich doch recht bald, sei es auch nur in wenigen 
+               Worten, weiter etwas Gutes von Ihnen hören.
+            </p>
+            <p>
+               Ich habe die Korrektur <rs type="citation" ref="#p3005-1">Ihres Aufsatzes</rs> mit Vergnügen besorgt, und es war nicht übel, daß er in meine 
+               Hände fiel, weil ich ihn wenigstens von einigen sehr argen Druckfehlern glücklich befreit habe. An zwei Stellen habe ich selbst Schreibfehler 
+               verbessert. So stand z. B. nicht weit vom Schlusse: 
+               <cit corresp="#p3005-1">
+                  <quote>In dem sehr unvollendeten <emph rend="underlined">Bilde</emph>, welches - - - sehen wir das <emph rend="underlined">Bild</emph> etc. etc.</quote>
+               </cit>, wo Sie wahrscheinlich das erste <emph rend="underlined">Bild</emph> haben ändern wollen, und es nachher vergessen <pb/> haben. Ich 
+               glaubte also, wohl zu tun, wenn ich anstatt des ersten <emph rend="underlined">Schilderung</emph> setzte.
+            </p>
+         </div>
+         <div n="2" corresp="#unan">
+            <p>
+               Aus dem Vorbericht zu <rs type="citation" ref="#p3005-1">Ihrem Aufsatze</rs> ersehe ich, daß Sie von dem 
+               <rs type="citation" ref="#e3005-1">Journal</rs>, welchem Sie denselben gewidmet haben, weit vorteilhafter denken, als ich; mir mißfiel das 
+               erste Stück gleich so gewaltig, daß mir alle Lust verging, mich weiter damit einzulassen. Indessen findet 
+               <rs type="person" ref="#JFGU">Unger</rs> sein Konto bei dem Unternehmen. Was braucht es mehr ?
+            </p>
+         </div>
+         <div n="3" corresp="#bezbt">
+            <p>
+               Ich bin in der letzten Zeit so anhaltend beschäftigt gewesen, daß die Literatur, wenngleich nie bei Seite gelegt, doch nur schwach, und, was 
+               das schlimmste ist, sehr abgebrochen hat betrieben werden können. Die Kommission der Aufhebung des Tabakmonopols war noch nicht geschlossen, 
+               als schon der <rs type="person" ref="#Hoy">Minister Hoym</rs> nach <rs type="place" ref="#plBe">Berlin</rs> kam; und kaum war dieser einige 
+               Wochen hier gewesen, als eine neue Finanzkommission, die nun - <span xml:lang="lat">si diis placet</span> - unsrer ganzen Administration eine 
+               neue Gestalt geben soll, vom <rs type="person" ref="#KFWIII">Könige</rs> ernannt ward, deren Häupter mich abermals mit ihrem Vertrauen 
+               beehrten, und deren Geschäfte sich in ein weites Feld hinausziehen.
+            </p>
+         </div>
+         <div n="4" corresp="#frv">
+            <p>
+               Von den Stunden, die ich meinen Studien widmen konnte, habe ich nun, wie gewöhnlich, die ersten immer für die Neuigkeiten des Tages aufbewahren 
+               müssen. Da die französische Politik zu einer so ungeheuren Wichtigkeit gestiegen ist, da Europa in diesem Jahre zu neuen Schlag auf Schlag 
+               eintreffenden Zerrüttungen und Revolutionen bestimmt scheint, so habe ich dem Gange der großen Begebenheiten eine verdoppelte Aufmerksamkeit 
+               gewidmet. Sie würden erstaunen, wenn Sie die Menge von Zeitungen sehen sollten, die jetzt posttäglich durch meine Hände gehen. Zwei Tage der 
+               Woche (gewöhnlich den <emph rend="underlined">Montag</emph> und <emph rend="underlined">Donnerstag</emph>, wo die Clevische Post bei uns 
+               ankömmt, und wo ich auch gemeinhin von andern Arbeiten am freiesten bin) sind lediglich und ausschließend dem Lesen der Zeitungen und 
+               sorgfältigen Exzerpieren und Klassifizieren ihres Inhalts eingeräumt. Außer der <rs type="citation" ref="#e3005-2">Posseltschen Zeitung</rs>, 
+               der Leydener, <pb/> Frankfurter, Hamburger und andern deutschen, bekomme ich nun regelmäßig fünf große französische Zeitungen: 
+               <rs type="citation" ref="#e3005-3">Redacteur</rs>, <rs type="citation" ref="#a3005-1">Conservateur</rs>, 
+               <rs type="citation" ref="#e3005-4">Journal de Paris</rs>, <rs type="citation" ref="#e3005-5">Ami des Loix</rs>, 
+               <rs type="citation" ref="#e3005-6">Moniteur</rs>, und drei englische: <rs type="citation" ref="#a3005-2">London Chronicle</rs>, 
+               <rs type="citation" ref="#e3005-7">Morning Chronicle</rs>, und <rs type="citation" ref="#a3005-3">Courier de Londres</rs>. Daß das Lesen und 
+               Exzerpieren aller dieser Blätter viel Zeit wegfrißt, werden Sie leicht ermessen können: ich bin aber - wenn ich die unendliche Wichtigkeit 
+               und Merkwürdigkeit der Geschichte dieser Tage in Erwägung ziehe - fest überzeugt, daß es mich nie gereuen wird, diese Zeit verwendet zu haben.
+            </p>
+         </div>
+         <div n="5" corresp="#budcff">
+            <p>
+               Außerdem habe ich seit mehrern Monaten an der Verfertigung eines Repertoriums über meine Materialien zur Revolutionsgeschichte gearbeitet: eine 
+               mechanische Beschäftigung, die ich einmal schlechterdings überstehen mußte. Wenn dies Repertorium fertig sein wird, so will ich es Ihnen, da 
+               Sie sich vielleicht an der Durchsicht eine Stunde ergötzen könnten, doch einmal überschicken, damit Sie meinen glänzenden Reichtum, den Sie 
+               sich gewiß so groß nicht vorgestellt haben, als er ist, anschaulich kennen lernen.
+            </p>
+         </div>
+         <div n="6" corresp="#prr">
+            <p>
+               In den vergangnen Tagen sind große Ministerialveränderungen vorgefallen: <rs type="person" ref="#JCvB">Graf Blumenthal</rs> mit Beibehaltung 
+               seines ganzen Gehalts, <rs type="person" ref="#Bch">Buchholtz</rs> mit 6000 Reichsthaler Pension, <rs type="person" ref="#JCvW">Wöllner</rs> 
+               ohne alle Pension verabschiedet; der <rs type="person" ref="#HfMs">Präsident Massow</rs> aus Stettin an 
+               <rs type="person" ref="#JCvW">Wöllners</rs> Stelle ernannt, der <rs type="person" ref="#Rck">Minister Reck</rs> mit 2000 Reichsthaler Zulage 
+               begnadigt etc. etc. Daß der <rs type="person" ref="#Hoy">Graf Hoym</rs> allen Gefahren, die ihn bedrohten, glücklich ent<pb/>gangen ist, und 
+               daß er jetzt vielleicht höher und fester steht, als jemals, mögen Sie wohl schon wissen: wo nicht, so kann ich es Ihnen als eine sehr 
+               authentische Tatsache berichten.
+            </p>
+         </div>
+         <div n="7" corresp="#vkgvb">
+            <p>
+               Daß ich meinen Freund <rs type="person" ref="#KGvB">Brinkmann</rs>, und mit ihm einen meiner angenehmsten Gesellschafter, ein lebendiges 
+               Repertorium über alte und neue Zeit, und die beste Bibliothek in <rs type="place" ref="#plBe">Berlin</rs> verloren habe, wußten Sie vielleicht 
+               noch nicht. Er geht nach <rs type="place" ref="#plPa">Paris</rs>, wo er so glücklich ist, <rs type="person" ref="#Hum">Humboldt</rs> zu finden, 
+               der sich dort mit seiner ganzen Familie für ein Jahr etabliert hat. 
+            </p>
+         </div>
+         <div n="8" corresp="#bezp">
+            <p>
+               Mein <rs type="person" ref="#FGil">Schwager Gilly</rs>, der mir beim Sammeln in <rs type="place" ref="#plFr">Frankreich</rs> eine treffliche 
+               Stütze war, ist drei Monat in <rs type="place" ref="#plLo">London</rs> gewesen, nun aber auch wieder in 
+               <rs type="place" ref="#plPa">Paris</rs>. Eben daselbst sind auch unsre beiden Buchhändler <rs type="person" ref="#FTL">Lagarde</rs> und 
+               <rs type="person" ref="#FVW">Vieweg</rs>, und wenigstens noch zehn andre meiner Bekannten, 
+               <rs type="person" ref="#Bgdf">Herr von Burgsdorff</rs>, <rs type="person" ref="#Grpg">Dr. Grapengiesser</rs>, 
+               <rs type="person" ref="#DrV">Dr. Veith</rs>, verschiedne kluge Weiber aus der Judenschaft etc. Sie sehen also, daß es mir an Kommunikation mit 
+               <rs type="place" ref="#plFr">Frankreich</rs> jetzt nicht fehlt. - -
+            </p>
+         </div>
+         <div n="9" corresp="#vcg">
+            <p>
+               Verschiednes, was ich Ihnen noch sagen wollte, möge für einen andern Brief aufgespart bleiben, weil ich gezwungen bin, diesen kurz abzubrechen. 
+               Vergessen Sie ja nicht, sogleich von Ihrem Befinden zu benachrichtigen
+            </p>
+         </div>
+         <closer>
+            <salute rend="right">Ihren treuen Freund</salute>
+            <signed rend="right">Gentz.</signed>
+         </closer>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc xml:id="LETTER_GENTZ_1509">
+         <titleStmt>
+            <title>Friedrich von Gentz an Ludwig Graf von Cobentzl, 30. September 1802</title>
+            <editor xml:id="edAG">Andreas Gálffy</editor>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <name>Forschungsstelle "Universitätssammlung Friedrich von Gentz"</name>
+               <link target="http://gentz-digital.ub.uni-koeln.de http://www.ub.uni-koeln.de/cdm/singleitem/collection/gentz/id/1508/"/>
+            </publisher>
+            <pubPlace>Cologne</pubPlace>
+            <idno type="Gentz-Edition-Number" n="1509"/>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <country>unknown</country>
+                  <idno>not identified</idno>
+               </msIdentifier>
+               <msContents>
+                  <summary>
+                     Dieser Brief ist nur durch ein Antwortschreiben von Cobentzl erschlossen wurden und es gibt zur Zeit nur diese 
+                     Spur.
+                  </summary>
+               </msContents>
+            </msDesc>
+            <listBibl type="letterReferenced">
+               <bibl xml:id="c1509-1" corresp="#LETTER_GENTZ_4409">Ludwig Graf von Cobentzl an Friedrich von Gentz, 9. Oktober 1802</bibl>
+               <bibl xml:id="c1509-2" corresp="#LETTER_GENTZ_4487">Friedrich von Gentz an Otto von Voß, 28. April 1802</bibl>
+               <bibl xml:id="c1509-3" corresp="#LETTER_GENTZ_0887">Friedrich von Gentz an Otto von Voß, 25. Mai 1802</bibl>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Masterarbeit zu Matrikelnummer 5584124</p>
+         </projectDesc>
+      </encodingDesc>
+      <profileDesc>
+         <creation>
+            <date when-iso="1802-09-30">30. September 1802</date>
+         </creation>
+        <langUsage>
+           <language ident="d">deutsch</language>
+        </langUsage>
+         <textClass>
+            <keywords scheme="internal"><!-- internal: innerhalb des besagten Briefs -->
+               <term>Brief</term>
+               <term>Spur</term>
+               <term>literarische Unternehmungen</term>
+            </keywords>
+            <keywords scheme="categorisation"><!-- Sinnabschnittseinteilung - relevant für den Fahrkartenautomaten! -->
+               <term xml:id="rs">Reise von 1802</term>
+            </keywords>
+         </textClass>
+         <textDesc>
+            <channel>manuscript</channel>
+            <constitution type="single"/>
+            <derivation type="original"/>
+            <domain type="private"/>
+            <factuality type="fact"/>
+            <interaction type="partial"/>
+            <preparedness type="unprepared"/>
+            <purpose type="inform"/>
+         </textDesc>
+         <particDesc>
+            <listPerson>
+               <!-- Sender und Adressat -->
+               <person role="sender" xml:id="Gen">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/118538489"/>
+                     <forename>Friedrich von</forename>
+                     <surname>Gentz</surname>
+                  </persName>
+               </person>
+               <person role="receiver" xml:id="LvC">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/11769164X"/>
+                     <forename>Ludwig von</forename>
+                     <surname>Cobenzl</surname>
+                  </persName>
+               </person>
+               <!-- erwähnte Personen -->
+            </listPerson>
+         </particDesc>
+         <settingDesc>
+            <listPlace>
+               <!-- Start- und Zielort -->
+               <place type="sender" xml:id="plDd">
+                  <country>
+                     <ref target="http://d-nb.info/gnd/4051176-5"/>
+                     <placeName>Sachsen</placeName> 
+                  </country>
+                  <settlement>
+                     <ref target="http://d-nb.info/gnd/4012995-0"/>
+                     <placeName>Dresden</placeName>
+                  </settlement>
+               </place>
+               <place type="receiver" xml:id="plWi">
+                  <country>
+                     <ref target="http://d-nb.info/gnd/4075601-4"/>
+                     <placeName>Erzherzogtum Österreich</placeName>
+                  </country>
+                  <settlement>
+                     <ref target="http://d-nb.info/gnd/4066009-6"/>
+                     <placeName>Wien</placeName>
+                  </settlement>
+               </place>
+               <!-- erwähnte Orte -->
+               <place type="named" xml:id="plLo">
+                  <country>
+                     <ref target="http://d-nb.info/gnd/4014770-8"/>
+                     <placeName>England</placeName>
+                  </country>
+                  <settlement>
+                     <ref target="http://d-nb.info/gnd/4074335-4"/>
+                     <placeName>London</placeName>
+                  </settlement>
+               </place>
+            </listPlace>
+         </settingDesc>
+      </profileDesc>
+      <revisionDesc>
+         <change xml:id="init" when-iso="2018-03-11" who="#edAG">Erstauszeichnung und Normierung des Dokumentes im Rahmen der Masterarbeit der Matrikelnummer 5584124</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div n="1" corresp="#rs">
+            <p>
+               Erschlossen durch <rs type="citation" ref="#c1509-1">Cobentzl an Gentz, Wien, 9. Oktober 1802</rs>:
+            </p>
+            <p>
+               Mit dem Schreiben vom <date when-iso="1802-09-30">30. September 1802</date> informierte Gentz Cobentzl über seine 
+               Reise nach <rs type="place" ref="#plLo">London</rs> und begründet die 
+               <rs type="place" ref="#plLo">London</rs>-Reise mit <ref target="#r1509-1">"entreprises litteraires"</ref>.               
+            </p>
+         </div>
+      </body>
+      <note resp="#edAG" xml:id="r1509-1">Man beachte hierzu auch die Briefe an Voß vom <rs type="citation" ref="#c1509-2">28. April</rs> und <rs type="citation" ref="#c1509-3">25. Mai 1802</rs></note>
+   </text>
+</TEI>

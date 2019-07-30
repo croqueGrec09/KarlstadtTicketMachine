@@ -1,0 +1,557 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader type="text">
+      <fileDesc xml:id="LETTER_GENTZ_3943">
+         <titleStmt>
+            <title>Friedrich von Gentz an Christian Garve, Ende April 1790</title>
+            <editor xml:id="edAG">Andreas Gálffy</editor>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <name>Forschungsstelle "Universitätssammlung Friedrich von Gentz"</name>
+               <link target="http://gentz-digital.ub.uni-koeln.de http://www.ub.uni-koeln.de/cdm/singleitem/collection/gentz/id/3942/"/>
+            </publisher>
+            <pubPlace>Cologne</pubPlace>
+            <idno type="Gentz-Edition-Number" n="3943"/>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <settlement>unknown</settlement>
+                  <idno>destroyed</idno><!-- Manuskript wurde durch Kriegseinwirkungen zerstört -->
+               </msIdentifier>
+               <msContents>
+                  <summary>
+                     Garve nimmt das Ansinnen, nach Berlin zu kommen, ernst. Er möchte für einige Zeit nach Berlin kommen und Gentz 
+                     schaut sich nach einer Wohnung um. Bevor er seine Rechercheergebnisse meldet, führt Gentz die Gründe an, die zu 
+                     einem möglichst baldigen (sofortigen) Umzug raten:
+                     1. Die Chriurgen werden im wahrscheinlichen Kriegsfall Berlin verlassen und eher im Winter in Breslau sein, 
+                     wann Garve sowieso dort sein wollte,
+                     2. Der Tapetenwechsel täte Garve ohnehin gut,
+                     3. In Berlin sieht Gentz Garve viel sicherer und ruhiger, als in Breslau.
+                     Die Wohnung, die Gentz ausfindig gemacht hat, hat eine hervorragende Lage, kostet aber zwölf Reichstaler 
+                     monatlich. Aber etwas Vergleichbares war nicht zu finden, was auch nur einigermaßen den Ansprüchen Garves Genüge 
+                     getan hätte.
+                     Gentz beschreibt danach die Wohnung recht detailliert; die örtlichen Gegebenheiten, danach die räumlichen. Nur 
+                     eine Matratze soll Garve selbst mitbringen; alle anderen Möbel sowie aller anderer Hausrat lägen schon vor Ort 
+                     vor. Die Wohnung ist vom 1. Mai 1790 an für einen Monat gemietet. Garve wird von vielen Leuten sehnsüchtig 
+                     erwartet.
+                     Zum letzten Brief, den Garve geschrieben hat, schreibt Gentz als Antwort zwei Rezensionen; einmal zu Reinhold 
+                     und einmal zu Jean jacques Rousseaus Confessions. Zu reinhold schreibt Gentz, dass er unter allen Kantianern 
+                     vortreffliche Dinge schreibt - aber er sich in Detailfragen verliert und deshalb undeutlich wird.
+                     Bei Rousseau schreibt Gentz, dass er die ersten Teile eher mag, als die letzten, da in letzteren ein eklatanter 
+                     Widerspruch der Philosophie zu seinen tatsächlichen Handlungen vorliegt. Er mängelt bei den ersten Teilen 
+                     lediglich die häufigen Abkürzungen von Namen an, die Gentz ergänzt.
+                     Schließlich berichtet Gentz von einem Unfall und einem Unwohlsein seines Vaters.
+                  </summary>
+               </msContents>
+            </msDesc>
+            <listBibl type="preprints">
+               <biblStruct>
+                  <monogr>
+                     <editor>
+                        <persName>
+                           <ref target="http://d-nb.info/gnd/130953075"/>
+                           <forename>Friedrich Carl</forename>
+                           <surname>Wittichen</surname>
+                        </persName>
+                        <persName>
+                           <ref/> <!-- kein GND-Eintrag -->
+                           <forename>Ernst</forename>
+                           <surname>Salzer</surname>
+                        </persName>
+                     </editor>
+                     <title>Briefe von und an Friedrich von Gentz, 4 Bde.</title>
+                     <imprint>
+                        <publisher>Oldenbourg</publisher>
+                        <pubPlace>München, Berlin</pubPlace>
+                        <date>1909-1913</date>
+                     </imprint>
+                     <biblScope unit="volume" n="1">
+                        I
+                     </biblScope>
+                     <biblScope unit="page" from="154" to="161">
+                        Nr. 37
+                     </biblScope>
+                  </monogr>
+               </biblStruct>
+            </listBibl>
+            <listBibl type="letterReferenced">
+               <bibl xml:id="c3943-1" corresp="#LETTER_GENTZ_NNNN">nicht bekannter Brief von Christian Garve an Friedrich von Gentz</bibl>
+               <bibl xml:id="c3943-2" corresp="#LETTER_GENTZ_NNNN">nicht bekannter Brief von Christian Garve an Friedrich von Gentz</bibl>
+               <bibl xml:id="c3943-3" corresp="#LETTER_GENTZ_4301">Friedrich von Gentz an Christian Garve, 24. April 1790</bibl>
+               <bibl xml:id="c3943-4" corresp="#LETTER_GENTZ_NNNN">nicht bekannter Brief von Christian Garve an Friedrich von Gentz</bibl>
+               <bibl xml:id="c3943-5" corresp="#LETTER_GENTZ_NNNN">nicht bekannter Brief von Demoiselle Horn an Friedrich von Gentz</bibl>
+            </listBibl>
+            <listBibl type="alludedWorks">
+               <bibl xml:id="a3943-1" corresp="#LETTER_GENTZ_NNNN">Nicht näher benanntes Werk von Reinhold</bibl>
+               <bibl xml:id="a3943-2" corresp="#LETTER_GENTZ_NNNN">Jean-Jacques Rousseau: Confessions</bibl>
+            </listBibl>
+            <listBibl type="defExpr">
+               <biblStruct xml:id="e3943-1" corresp="GBk-0004">
+                  <monogr>
+                     <author>
+                        <persName>
+                           <ref target="http://d-nb.info/gnd/118706403"/>
+                           <forename>Paul Henri Thiry d'</forename>
+                           <surname>Holbach</surname>
+                           <roleName type="office">Baron</roleName>
+                        </persName>
+                     </author>
+                     <title>Système de la Nature</title>
+                     <imprint>
+                        <pubPlace>London</pubPlace>
+                        <date>1770</date>
+                     </imprint>
+                  </monogr>
+               <ptr target="https://books.google.de/books?id=35EUAAAAQAAJ"/></biblStruct>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Masterarbeit zu Matrikelnummer 5584124</p>
+         </projectDesc>
+      </encodingDesc>
+      <profileDesc>
+         <creation>
+            <date when-iso="1790-04-00">Ende April 1790</date>
+         </creation>
+        <langUsage>
+           <language ident="d">deutsch</language>
+        </langUsage>
+         <textClass>
+            <keywords scheme="internal"><!-- internal: innerhalb des besagten Briefs -->
+               <term>Brief</term>
+               <term>Kant</term>
+               <term>Studien</term>
+               <term>Philosophie</term>
+               <term>Werke</term>
+               <term>Reinhold</term>
+               <term>Recht</term>
+               <term>Rousseau</term>
+               <term>Smith</term>
+               <term>Literatur</term>
+            </keywords>
+            <keywords scheme="categorisation"><!-- Sinnabschnittseinteilung - relevant für den Fahrkartenautomaten! -->
+               <term xml:id="vcg">Verhältnis Christian Garve</term>
+               <term xml:id="frv">Französische Revolution</term>
+               <term xml:id="bezbl">Beziehungen zu Berlin - Leute</term>
+               <term xml:id="kant">Kant</term>
+               <term xml:id="krou">Rousseau</term>
+               <term xml:id="genf">Gentz - Familie</term>
+            </keywords>
+         </textClass>
+         <textDesc>
+            <channel>manuscript</channel>
+            <constitution type="single"/>
+            <derivation type="original"/>
+            <domain type="private"/>
+            <factuality type="fact"/>
+            <interaction type="partial"/>
+            <preparedness type="prepared"/>
+            <purpose type="inform"/>
+         </textDesc>
+         <particDesc>
+            <listPerson>
+               <!-- Sender und Adressat -->
+               <person role="sender" xml:id="Gen">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/118538489"/>
+                     <forename>Friedrich von</forename>
+                     <surname>Gentz</surname>
+                  </persName>
+               </person>
+               <person role="receiver" xml:id="Gar">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/118537636"/>
+                     <forename>Christian</forename>
+                     <surname>Garve</surname>
+                  </persName>
+               </person>
+               <!-- erwähnte Personen -->
+               <person role="named" xml:id="Rnh">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/118599410"/>
+                     <forename>Karl Leonhard</forename>
+                     <surname>Reinhold</surname>
+                  </persName>
+               </person>
+               <person role="named" xml:id="Rou">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/118603426"/>
+                     <forename>Jean Jacques</forename>
+                     <surname>Rousseau</surname>
+                  </persName>
+               </person>
+               <person role="named" xml:id="CdH">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/117014001"/>
+                     <forename>Elisabeth Françoise Sophie La Live de Bellegarde d'</forename>
+                     <surname>Houdetot</surname>
+                     <roleName type="office">Gräfin</roleName>
+                  </persName>
+               </person>
+               <person role="named" xml:id="JFSL">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/117631620"/>
+                     <forename>Jean-Françoise de</forename>
+                     <surname>Saint-Lambert</surname>
+                  </persName>
+               </person>
+               <person role="named" xml:id="LMD">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/119282461"/>
+                     <forename>Louise Madeleine</forename>
+                     <surname>Dupin</surname>
+                  </persName>
+               </person>
+               <person role="named" xml:id="LFE">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/118685015"/>
+                     <forename>Louise Florence Pétronille Tardieu D'Esclavelles d'</forename>
+                     <surname>Epinay</surname>
+                  </persName>
+               </person>
+               <person role="named" xml:id="Hol">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/118706403"/>
+                     <forename>Paul Henri Thiry d'</forename>
+                     <surname>Holbach</surname>
+                     <roleName type="office">Baron</roleName>
+                  </persName>
+               </person>
+               <person role="named" xml:id="Grm">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/118697765"/>
+                     <forename>Friedrich Melchior</forename>
+                     <surname>von Grimm</surname>
+                  </persName>
+               </person>
+               <person role="named" xml:id="KFWII">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/11869362X"/>
+                     <forename>Friedrich Wilhelm II.</forename>
+                     <surname>von Preußen</surname>
+                     <roleName type="office">König von Preußen</roleName>
+                  </persName>
+               </person>
+               <person role="named" xml:id="JFG">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/136428983"/>
+                     <forename>Johann Friedrich</forename>
+                     <surname>Gentze</surname>
+                  </persName>
+               </person>
+               <person role="named" xml:id="SNic">
+                  <persName>
+                     <ref/><!-- kein GND-Eintrag -->
+                     <forename>Samuel</forename>
+                     <surname>Nicolai</surname>
+                  </persName>
+               </person>
+               <person role="named" xml:id="Kle">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/116211148"/>
+                     <forename>Ernst Ferdinand</forename>
+                     <surname>Klein</surname>
+                  </persName>
+               </person>
+               <person role="named" xml:id="DmH">
+                  <persName>
+                     <ref/><!-- kein GND-Eintrag -->
+                     <forename/>
+                     <surname>Horn</surname>
+                  </persName>
+               </person>
+               <person role="named" xml:id="MGar">
+                  <persName>
+                     <ref/>
+                     <forename/>
+                     <surname>Garve</surname>
+                     <roleName type="family">Mutter von Christian Garve</roleName>
+                  </persName>
+               </person>
+            </listPerson>
+         </particDesc>
+         <settingDesc>
+            <listPlace>
+               <!-- Start- und Zielort -->
+               <place type="sender" xml:id="plBe">
+                  <country>
+                     <ref target="http://d-nb.info/gnd/4047194-9"/>
+                     <placeName>Preußen</placeName>
+                  </country>
+                  <settlement>
+                     <ref target="http://d-nb.info/gnd/4005728-8"/>
+                     <placeName>Berlin</placeName>
+                  </settlement>
+               </place>
+               <place type="receiver" xml:id="plBr">
+                  <country>
+                     <ref target="http://d-nb.info/gnd/4047194-9"/>
+                     <placeName>Preußen</placeName>
+                  </country>
+                  <settlement>
+                     <ref target="http://d-nb.info/gnd/4008216-7"/>
+                     <placeName>Breslau</placeName>
+                  </settlement>
+               </place>
+               <!-- erwähnte Orte -->
+               <place type="named" xml:id="plPa">
+                  <country>
+                     <ref target="http://d-nb.info/gnd/4018145-5"/>
+                     <placeName>Frankreich</placeName>  
+                  </country>
+                  <settlement>
+                     <ref target="http://d-nb.info/gnd/4044660-8"/>
+                     <placeName>Paris</placeName>
+                  </settlement>
+               </place>
+            </listPlace>
+         </settingDesc>
+      </profileDesc>
+      <revisionDesc>
+         <change xml:id="init" when-iso="2018-02-03" who="#edAG">Erstauszeichnung und Normierung des Dokumentes im Rahmen der Masterarbeit der Matrikelnummer 5584124</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>     
+      <body>
+         <div n="1" corresp="#vcg">
+            <p>
+               Erlauben Sie mir, wertester Herr Professor, daß ich Ihrer allgemeinen Bemerkung über die Kommissionen, die den 
+               Eingang zu <rs type="citation" ref="#c3943-1">Ihrem für mich äußerst erfreulichen und schmeichelhaften Brief</rs> 
+               ausmachte, eine andre entgegensetze, die gewiß nicht minder richtig ist, als jene: daß nämlich ein unwichtiger 
+               Auftrag, wenn der, welcher ihn uns erteilt, in unsern Augen sehr interessant, und seine Zufriedenheit von großem 
+               Wert für uns ist, fast mit eben der Schüchternheit und Ängstlichkeit ausgerichtet wird, als ein Mandat, woran Leib 
+               und Leben hängt, wenn es von einer gleichgültigen Person herrührt.
+            </p>
+            <p>
+               Eine Wohnung in <rs type="citation" ref="#plBe">Berlin</rs> zu mieten, wo es Wohnungen von allen Sorten in Menge 
+               gibt, ist an sich ein äußerst leichtes und unbedeutendes Geschäft: aber sie so auszusuchen, daß sie in allen 
+               Betrachtungen auf Ihren Beifall rechnen konnte, das erforderte meine äußerste Aufmerksamkeit und Sorgfalt.
+            </p>
+            <p>
+               Hiezu kommt nun noch, daß <rs type="citation" ref="#c3943-2">Ihr zweiter Brief</rs>, den ich mitten unter den 
+               kleinen Unterhandlungen, die ich zur Erfüllung Ihres Auf<pb/>trages eingeleitet hatte, erhielt, mich in eine neue 
+               Perplexität versetzte, indem ich wirklich unschlüssig ward, ob ich weiter gehen sollte, oder nicht.
+            </p>
+         </div>
+         <div n="2" corresp="#frv">
+            <p>
+               Da indessen vieles Hin- und Herschreiben in einer Sache, bei der es auf Data ankömmt, die ganz außer unsre Sphäre 
+               liegen, wie hier Krieg und Frieden und so fort, gewöhnlich unnütz ist, und ich hinlängliche Gründe aufzufinden 
+               glaubte, <ref target="#r3943-1">Ihre Reise</ref> nach <rs type="place" ref="#plBe">Berlin</rs> unter allen 
+               Umständen für zuträglich zu halten, so habe ich es gewagt, dem Mandat, was Sie mir einmal erteilt hatten, eine 
+               unbestimmte Ausdehnung zu geben, habe mich ganz in Ihre Stelle versetzt, und habe nach einer reifen und 
+               vollständigen Überlegung beschlossen, daß Sie hieher kommen sollten, es möchte auch übrigens gehen, wie es wollte. 
+               Die Gründe, die mich in diesem Entschluß geleitet haben, und denen ich es überlassen muß, ob Sie meine Dreistigkeit 
+               billigen werden, waren folgende:
+            </p>
+            <p>
+               1. Es ist freilich wahr, daß im Fall des Krieges, zu dem jetzt wirklich der stärkste Anschein vorhanden ist, die 
+               geschickten Chirurgi <rs type="place" ref="#plBe">Berlin</rs> verlassen. Es ist aber gar nicht zu vermuten, ja 
+               vielmehr höchst unwahrscheinlich, daß diese Männer darum nach <rs type="place" ref="#plBr">Breslau</rs> kommen 
+               sollten. Sie bleiben natürlicherweise bei ihren Regimentern, bei den Feldlazaretten etc., kurz, bei der Armee; und 
+               kommen sie nach <rs type="place" ref="#plBr">Breslau</rs>, um einige Zeit da zu bleiben, so wäre es im Winter, den 
+               Sie ja ohnehin dort wieder zubringen sollten.
+            </p>
+            <p>
+               2. Wenn auch das Konsultieren der Chirurgen, als ein Hauptzweck Ihrer Reise, nicht stattfinden könnte (welches denn 
+               doch, so lange der Krieg nicht <emph rend="underlined">erklärt</emph> ist, immer noch dahingestellt bleibt), so bin 
+               ich doch mit Ihnen der Meinung, daß die Bewegung, die Ortsveränderung, der Wechsel von Menschen, Gesellschaften, 
+               Beschäftigungen und Unterhaltung, welche mit dieser Reise natürlich verbunden sind, von ebenso großer und vielleicht 
+               von größrer Wichtigkeit für Sie sein werden, als alle medizinische und chirurgische Versuche. Schon darum also 
+               müssen Sie die Reise machen, und werden sie nicht ohne Vorteil machen.
+            </p>
+            <p>
+               3. Wenn wirklich der Krieg zustande kömmt, so sind Sie in <rs type="place" ref="#plBe">Berlin</rs> ungleich ruhiger 
+               als in Breslau. Wenn es gleich gar nicht zu vermuten ist, daß die Operationen sich bis nach Breslau erstrecken 
+               sollten, so sind Sie doch dem Schauplatz viel näher als hier. Überdies verlieren Sie das, was immer das reizendste 
+               Attribut des Sommers für Sie gewesen ist, den Aufenthalt bei Ihren Freunden auf dem Lande, <pb/> der in einer 
+               Provinz, wo Krieg geführt wird, wo nicht ganz unmöglich gemacht, doch in vielen Rücksichten erschwert wird.
+            </p>
+            <p>   
+               Diese Gründe haben mir völlig überwiegend geschienen, und mich bewogen, Sie zu Ausführung des einmal gemachten Plans 
+               aufs dringendste aufzufordern. Ich habe daher getrost eine Wohnung für Sie gemietet, und will Sie mit deren 
+               Beschaffenheiten jetzt näher bekannt machen.
+            </p>
+         </div>
+         <div n="3" corresp="#bezbl">
+            <p>
+               Um Ihnen gleich das Schlimmste zuerst zu sagen, so muß ich Ihnen anzeigen, daß sie monatlich zwölf Reichsthaler 
+               kosten soll. Ich fürchte, daß Sie mit der Teurung der Wohnungen, die in gewissen hiesigen Gegenden jetzt exorbitant 
+               ist, nicht so bekannt sein mögen, daß Sie nicht ein kleiner Schrecken bei diesem hohen Preis anwandelte. Ich 
+               versichre Sie aber, daß ich nicht nur, ohngeachtet ich in dem Teile der Stadt, den Sie mir bestimmt haben, und der 
+               auch ganz ohnstreitig der einzige convenable für Sie ist, fast von Haus zu Haus Nachfragen gehalten, kein wohlfeiler 
+               Quartier (was zugleich nur die <emph rend="underlined">ersten</emph> erforderlichen Eigenschaften der Bequemlichkeit 
+               vereinigt hätte) gefunden habe, sondern, daß auch Leute, die in dergleichen Dingen Bescheid wissen, darin sämtlich 
+               übereinstimmen, daß zwölf Taler monatlich (die man wohl in entfernten Gegenden der Friedrichsstadt für eine chambre 
+               garnie bezahlen muß) für ein Quartier <emph rend="underlined">unter den Linden</emph> eine sehr leidliche Miete wäre.
+            </p>
+            <p>
+               Die Wohnung, die Sie demnach, für die ebenbemeldeten zwölf Taler haben, ist, wie Sie es wünschen, unter den Linden, 
+               und zwar gerade in der Mitte dieser Straße, doch eher näher nach dem Tore zu, so daß Sie, auch beim 
+               <emph rend="underlined">langsamsten</emph> Schritt in einer kleinen halben Vietelstunde (mit 
+               <emph rend="underlined">meinem</emph> Schritt wohl in vier Minuten) im Tiergarten sein können. Noch näher am Tore 
+               sind entweder vornehme Häuser, worin nichts zu vermieten ist, oder größre Wohnungen, die ich auf keinen Fall wählen 
+               konnte. Das Haus gehört einem Bäcker, und ist das vierte jenseits der Friedrichsstraße rechter Hand von dem 
+               Schlosse aus.
+            </p>
+            <p>
+               In diesem Hause haben Sie, <emph rend="underlined">eine Treppe hoch</emph> (ein Umstand, auf den ich sehr Rücksicht 
+               nehmen zu müssen geglaubt habe), eine schöne, helle, hohe Stube von zwei Fenstern vorn heraus, recht anständig 
+               tapeziert und möbliert, mit modernen großen Fensterscheiben, und so fort; dabei einen geräumigen Alkoven, durch 
+               Gardinentüren vom Zimmer abgesondert; und im Seitengebäude eine Stube für Ihren Bedienten, der vermöge <pb/> einer 
+               Klingel gleich erreicht werden kann. Die Aussicht von Ihrem Fenster ist außer allem Zweifel die brillanteste in ganz 
+               Berlin; denn Sie haben gerade den Teil der Lindenallee vor sich, den man <emph rend="underlined">das große</emph> 
+               Boulain-grain nennt, und der vom Morgen bis zum Abend das Haupttheater der Promenade ist.
+            </p>
+            <p>
+               Überdies haben Sie in dieser Gegend die Wahl zwischen drei oder vier der besten Gasthöfe in ganz 
+               <rs type="place" ref="#plBe">Berlin</rs>, die Ihnen alle sehr nahe liegen, und können zu allen Zeiten und Stunden, 
+               wenn Sie Menschen sehen wollen, nur Ihre Treppe hinuntergehen, und sich auf eine der dicht vor Ihrer Tür stehenden 
+               Bänke setzen, wo sie in einem halben Tage ganz <rs type="place" ref="#plBe">Berlin</rs> vorbeipassieren sehen.
+            </p>
+         </div>
+         <div n="4" corresp="#vcg">
+            <p>
+               So habe ich Ihren Auftrag erfüllt. Freilich hätte ich Ihnen in einer einsamen Straße eine ebenso gute Wohnung für 
+               acht Reichsthaler monatlich mieten können; aber es ist außer aller Proportion mit dem Preise, was sie dabei 
+               eingebüßt hätten.
+            </p>
+            <p>
+               Was die Betten anbetrifft, so ist mir zwar bei der Wohnung ein vollständiges und reinliches Bette sogleich 
+               mitversprochen worden; indessen, wenn Sie einmal einen kleinen Bettsack mitbringen, rate ich Ihnen geradehin, soviel 
+               als er nur fassen kann, besonders aber eine Matratze, für deren Güte, wenn man sie borgt, nie zu stehen ist, 
+               hineinzupacken.
+            </p>
+            <p>
+               Dies ist aber auch das einzige Hausgerät, womit Sie sich zu belästigen haben. Eine Menage brauchen Sie gar nicht, 
+               nicht einmal ein Kaffeeservice, wenn Sie nicht eine besondre Anhänglichkeit an das Ihrige haben. Für Holz, und andre 
+               kleine Bedürfnisse dürfen Sie nicht die geringste Sorge tragen: und daß meine Eltern in allen Stücken, wobei kleine 
+               oder große Dienstleistungen sich nur denken lassen, mit dem größten Vergnügen, und allem ersinnlichen Eifer bereit 
+               sein werden, Ihren hiesigen Aufenthalt zu erleichtern und für Ihre gute Aufnahme zu sorgen, versteht sich von selbst.
+            </p>
+            <p>
+               Ich habe die Wohnung vom <date when-iso="1790-05-01">1. Mai</date> an für einen Monat gemietet. Ich dächte auch, Sie 
+               verzehrten Ihre Miete rein aus, das heißt, Sie kämen gegen Anfang des Mai hieher. Von meiner eignen sehnsuchtsvollen 
+               Erwartung will ich kein Wort sagen. Es würde sich auch nicht ziemen, da ganz andre Personen, als ich, Ihrer Ankunft 
+               mit Ungeduld entgegensehen, und ich Ihnen versichern kann, daß der ganze feinre und gebildetere Teil von 
+               <rs type="place" ref="#plBe">Berlin</rs> an dieser Reise Anteil nimmt. <pb/> Von der Spaldingschen und Merianschen 
+               Familie, sowie von allem, was <emph rend="underlined">Gelehrte</emph> heißt, werden Sie es ohnedies vermuten.
+            </p>
+            <p>
+               Ich hoffe nunmehr, daß Sie so gütig sein werden, mir den Tag Ihrer Abreise, sowie den Tag, da Sie hier einzutreffen 
+               gedenken, genau zu wissen zu tun, damit ich alsdann alles zu Ihrer Aufnahme in Bereitschaft setzen lassen kann; und 
+               wünsche übrigens von ganzem Herzen, daß ich mein kleines Pensum zu Ihrer Zufriedenheit ausgerichtet haben möchte.
+            </p>
+         </div>
+         <div n="5" corresp="#kant">
+            <p>
+               Um doch nun noch in kurzem <rs type="citation" ref="#c3943-4">Ihren letzten Brief</rs> zu beantworten, muß ich Ihnen 
+               sagen, daß ich die beiden Werke, darüber Sie so gefällig sind, mir Ihr Urteil mitzuteilen, gelesen habe, 
+               <rs type="citation" ref="#a3943-1">den Reinhold</rs> bereits vor einem halben Jahr, 
+               <rs type="citation" ref="#a3943-2">die Confessions</rs> ganz neuerlich. Daß 
+               <rs type="person" ref="#Rnh">Reinhold</rs> unter allen Kantianern den ersten Rang verdiene, ist wohl nicht zu 
+               bezweifeln. Sein Buch enthält gewiß herrliche Sachen: nur finde ich, daß er in der ersten Hälfte etwas zu 
+               weitläuftig, und (vielleicht eben daher) in der andern etwas zu kurz, folglich im ganzen nicht recht deutlich 
+               geworden ist. Die Methode, mit der er seine Untersuchungen <emph rend="underlined">angegriffen</emph> hat, ist mir 
+               sehr zweckmäßig und sinnreich vorgekommen; in der Ausführung hat er sich meines Erachtens in zu spezielle 
+               Anwendungen seiner Theorie verwickelt, die er vermeiden konnte, und wobei sein Buch gewonnen hätte.
+            </p>
+         </div>
+         <div n="6" corresp="#krou">
+            <p>
+               Was <rs type="citation" ref="#a3943-2">den Rousseau</rs> betrifft, so sei es mir erlaubt, von Ihrem Urteil, und was 
+               mich noch weit mehr kostet, von Ihrem Gefühl abzuweichen. Ich gestehe Ihnen frei, daß ich die beiden ersten Teile 
+               der Confessions weit vorziehe. Zuvörderst: werden Sie mit mir eins sein, daß der Stil weit schöner ist und sich weit 
+               gleicher bleibt, als in den neuen Teilen. Ferner hängen die Fehler, deren er sich in jenen ältern Teilen schuldig 
+               gibt, weit unmittelbarer mit seiner in vielen Stücken vernachlässigten Erziehung zusammen. Dagegen kommen in den 
+               spätern Jahren seines Lebens doch wirklich Handlungen vor, über die man erschrickt, wenn man sie mit 
+               <rs type="person" ref="#Rou">Rousseau</rs> zusammendenkt, wahre Phänomene in der sittlichen Welt. Wie war es z.B. 
+               möglich, daß er fünf Kinder hintereinander ins Findelhaus verweisen konnte ? Nein ! Diese einzige unnatürliche 
+               Freveltat empört mich wider meinem Willen gegen den <pb/> göttlichen Verfasser des Emils - des Emils, wo er die 
+               Pflichten gegen die Kinder mit diesen unverlöschlichen, für die ganze Menschheit geheiligten Buchstaben, die länger 
+               leben müssen als alle Produkte des französischen Witzes, so eindringend, so wahr und so lebendig 
+               niedergeschrieben hat.
+            </p>
+            <p>
+               Dieses unverzeihliche, so oft wiederholte Vergehen, welches die grundleeren Sophistereien, die er für 
+               Rechtfertigungen hält, auch nicht einmal zum Teil entschuldigen, hat mich vielleicht ungerecht gegen einen Mann 
+               gemacht, den ich mir nach seinen herrlichen Büchern, die freilich durch alle persönliche Fehler des Verfassers an 
+               ihrem hohen und entschiednen Wert keinen Gran verlieren, immer, als eines der auserwählten Subjekte dachte, deren 
+               sich meine Seele bediente, um das Ideal menschlicher Tugend, soweit es möglich ist, zu realisieren. Der Mißmut, in 
+               den mich diese traurige Entdeckung, ich hätte fast gesagt, diese fehlgeschlagne Hoffnung, versetzt hat, warf denn 
+               freilich ein falsches Licht auf manche andre Teile des Gemäldes, und ließ mir zuweilen, kleine Launen wie große 
+               Torheiten, Verirrungen wie Laster erscheinen.
+            </p>
+            <p>
+               Aber interessiert hat mich das Buch denn doch im hohen Grade. Verschiedne seiner Schilderungen sind immer noch so 
+               frisch und so hinreißend, wie seine jüngern Pinselstriche. Und wer kann sich am Ende verwehren, die geringsten 
+               Kleinigkeiten mit Aufmerksamkeit und Teilnehmung zu lesen, wenn sie in die Lebensgeschichte 
+               <rs type="person" ref="#Rou">Rousseau</rs>s eingreifen ?
+            </p>
+            <p>
+               Mir sind im Anfange die vielen bloß mit Buchstaben bezeichneten Namen in diesen beiden Teilen anstößig gewesen; ich 
+               glaubte, das ganze würde mich weit mehr anziehen, wenn ich wüßte, wer alle diese Leute waren. Vielleicht ist es 
+               Ihnen ebenso gegangen. Vielleicht ist es Ihnen daher nicht unangenehm, wenn ich Ihnen zu einigen dieser Buchstaben 
+               den Schlüssel anbiete, soweit meine eigne Kenntnisse reichen. Madame d'H....., die einzige Person, die er wirklich 
+               liebte, ist die (noch in <rs type="place" ref="#plPa">Paris</rs> lebende) 
+               <rs type="person" ref="#CdH">Komtesse d'Houdetot</rs>; ihr eigentlicher Liebhaber L......t, hieß 
+               <rs type="person" ref="#JFSL">St. Lambert</rs>; die so oft vorkommende Madame D......n ist 
+               <rs type="person" ref="#LMD">Madame du Pin</rs>; die Familie D......y, die ebenfalls in den Confessions eine so 
+               große Rolle spielt, ist die des ebenfalls noch lebenden Fermier-General, <ref target="#r3943-2">D'Epinay</ref>; 
+               der d'H......k, von dem und dessen <ref target="#r3943-3">Clique H.....chique</ref> er alles sein Unglück 
+               ableitet, ist der <rs type="person" ref="#Hol">Baron d'Holback</rs>, ein Deutscher von Geburt, und von dem es jetzt 
+               erwiesen ist, daß er das berüchtigte <pb/> <rs type="citation" ref="#e3943-1">Système de la nature</rs> geschrieben 
+               hat. Der böse G.....ist <rs type="person" ref="#Grm">Grimm</rs>, der Homme d'affaires des hochseligen 
+               <rs type="person" ref="#KFWII">Königs von Preußen</rs> in <rs type="place" ref="#plPa">Paris</rs> etc.
+            </p>
+         </div>
+         <div n="7" corresp="#genf">
+            <p>
+               Sie werden meines langen Geschwätzes müde sein, und ich eile also zum Schluß.
+            </p>
+            <p>
+               In meiner Eltern Hause ist es seit einiger Zeit nicht recht hell und heiter gewesen; 
+               <rs type="person" ref="#JFG">mein Vater</rs> hat bei einem unglücklichen Fall, den er vor etwa sechs Wochen tat, 
+               eine Wunde am Fuß bekommen, die, wie das in seinem Alter gewöhnlich geschieht, sehr langsam heilt; und seit gestern 
+               hat er obendrein ein starkes Fieber, was uns anfänglich in große Bestürzung versetzt hat, was aber doch jetzt nicht 
+               von Folgen zu sein scheint.
+            </p>
+            <p>
+               Von der traurigen Geschichte, die das Nicolaische Haus und den armen <rs type="person" ref="#Kle">Herrn Klein</rs> 
+               betroffen hat, werden Sie vermutlich unterrichtet sein, wenn anders die wahren Umstände bis zu Ihnen gelangt sind. 
+               Sollte man Ihnen den Tod des <rs type="person" ref="#SNic">jungen Nicolai</rs> etwa als 
+               <emph rend="underlined">natürlich</emph> berichtet haben, so hat man Sie 
+               <ref target="#r3943-4">falsch berichtet</ref>.
+            </p>
+         </div>
+         <div n="8" corresp="#vcg">
+            <p>
+               Ich bitte gehorsamst, daß Sie mich <rs type="person" ref="#MGar">Ihrer verehrungswürdigen Frau Mutter</rs> aufs 
+               angelegentlichste empfehlen. Dürfte ich so frei sein, Sie mit einem Auftrage ins Müllendorfsche Haus zu beschweren, 
+               so bäte ich, mich daselbst allerseits, besonders aber der <rs type="person" ref="#DmH">Demoiselle Horn</rs>, die 
+               mich mit einem <rs type="citation" ref="#c3943-5">sehr interessanten Briefe</rs> beschenkt hat, in ferneres 
+               Andenken zu rekommandieren.
+            </p>
+            <p>
+               Das Angenehmste, was ich von Ihnen hören kann, ist, daß Sie sich recht bald auf den Weg nach 
+               <rs type="place" ref="#plBe">Berlin</rs> machen wollen. Ich kann es kaum erwarten, Ihnen mündlich wieder einmal zu 
+               sagen, was freilich meine Worte nur schlecht, aber meine Briefe noch schlechter ausdrücken können, mit welcher 
+               innigen Verehrung, und herzlichen Liebe ich mich nenne
+            </p>
+         </div>
+         <closer>
+            <salute rend="right">Ihren ergebensten und</salute>
+            <salute rend="right">unveränderlichen, treuen Diener</salute>
+            <signed rend="right">Gentz.</signed>
+         </closer>
+      </body>
+      <note resp="#edAG" xml:id="r3943-1">Vgl. <rs type="citation" corresp="#c3943-3">den Brief vom 24. April 1790</rs></note>
+      <note resp="#edAG" xml:id="r3943-2">Rousseau stand in Verbindung mit der aus dieser Familie stammenden Schriftstellerin <rs type="person" ref="#LFE">Louise D'Epinay</rs></note>
+      <note resp="#edAG" xml:id="r3943-3">Gemeint ist die Clique Holbachique</note>
+      <note resp="#edAG" xml:id="r3943-4">Der älteste Sohn, Samuel Nicolai, hat sich 1790 das Leben genommen, vgl. <ptr target="http://www.zeno.org/Literatur/M/Nicolai,+Friedrich/Biographie"/></note>
+   </text>
+</TEI>

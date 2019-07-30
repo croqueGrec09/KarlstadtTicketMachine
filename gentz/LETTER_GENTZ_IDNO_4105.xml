@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc xml:id="LETTER_GENTZ_4105">
+         <titleStmt>
+            <title>Friedrich von Gentz an Friedrich Vieweg, 14. Juli 1798</title>
+            <editor xml:id="edAG">Andreas Gálffy</editor>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <name>Forschungsstelle "Universitätssammlung Friedrich von Gentz"</name>
+               <link target="http://gentz-digital.ub.uni-koeln.de http://www.ub.uni-koeln.de/cdm/singleitem/collection/gentz/id/4104/"/>
+            </publisher>
+            <pubPlace>Cologne</pubPlace>
+            <idno type="Gentz-Edition-Number" n="4105"/>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <country>Germany</country>
+                  <settlement>Wiesbaden</settlement>
+                  <institution>Vieweg-Verlagsarchiv</institution>
+                  <repository>Briefsammlung 311 G: Gentz-Briefe</repository>
+                  <idno>Nr. 83</idno>
+               </msIdentifier>
+               <msContents>
+                  <summary>
+                     Ein Schuldschein und zwei Quittungen kommen mit diesem Brief bei. Die Quittungen sind zusammengefasst. Gentz 
+                     wünscht eine gute Reise.
+                  </summary>
+               </msContents>
+            </msDesc>
+            <listBibl type="letterReferenced">
+               <bibl xml:id="c4105-1" corresp="#LETTER_GENTZ_4253">Friedrich von Gentz an Friedrich Vieweg, 1. Juli 1798</bibl>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Masterarbeit zu Matrikelnummer 5584124</p>
+         </projectDesc>
+      </encodingDesc>
+      <profileDesc>
+         <creation>
+            <date when-iso="1798-07-14">14. Juli 1798</date>
+         </creation>
+        <langUsage>
+           <language ident="d">deutsch</language>
+        </langUsage>
+         <textClass>
+            <keywords scheme="internal"><!-- internal: innerhalb des besagten Briefs -->
+               <term>Billet</term>
+               <term>Schulden</term>
+            </keywords>
+            <keywords scheme="categorisation"><!-- Sinnabschnittseinteilung - relevant für den Fahrkartenautomaten! -->
+               <term xml:id="gprl">Gentz - p(r)ekuniäre Lage</term>
+            </keywords>
+         </textClass>
+         <textDesc>
+            <channel>manuscript</channel>
+            <constitution type="single"/>
+            <derivation type="original"/>
+            <domain type="private"/>
+            <factuality type="fact"/>
+            <interaction type="partial"/>
+            <preparedness type="prepared"/>
+            <purpose type="inform"/>
+         </textDesc>
+         <particDesc>
+            <listPerson>
+               <!-- Sender und Adressat -->
+               <person role="sender" xml:id="Gen">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/118538489"/>
+                     <forename>Friedrich von</forename>
+                     <surname>Gentz</surname>
+                  </persName>
+               </person>
+               <person role="receiver" xml:id="FVW">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/119049546"/>
+                     <forename>Friedrich</forename>
+                     <surname>Vieweg</surname>
+                  </persName>
+               </person>
+               <!-- erwähnte Personen -->
+            </listPerson>
+         </particDesc>
+         <settingDesc>
+            <listPlace>
+               <!-- Start- und Zielort -->
+               <place type="sender" xml:id="plBe">
+                  <country>
+                     <ref target="http://d-nb.info/gnd/4047194-9"/>
+                     <placeName>Preußen</placeName>
+                  </country>
+                  <settlement>
+                     <ref target="http://d-nb.info/gnd/4005728-8"/>
+                     <placeName>Berlin</placeName>
+                  </settlement>
+               </place>
+               <!-- erwähnte Orte -->
+            </listPlace>
+         </settingDesc>
+      </profileDesc>
+      <revisionDesc>
+         <change xml:id="init" when-iso="2018-03-02" who="#edAG">Erstauszeichnung und Normierung des Dokumentes im Rahmen der Masterarbeit der Matrikelnummer 5584124</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div n="1" corresp="#gprl">
+            <p>
+               Sie erhalten hiebey <ref target="#r4105-1">eine Obligation über 2000 Reichsthaler</ref> und 2 Quittungen. Um nicht 
+               durch die vielen einzelnen Quittungen, die ich jetzt auf einmal hätte schreiben müßen, der Sache eine verdächtige 
+               Gestalt zu geben, habe ich lieber den Ausweg gewählt, die eine Quittung so einzurichten, als wäre sie gegen alle die 
+               vorhergehenden einzelnen ausgetauscht. -
+            </p>
+            <p>
+               Mit der Abfassung der Obligation, die Sie mir ganz überlaßen haben, werden Sie, wie ich hoffe, zufrieden seyn. Ist 
+               dies nicht der Fall, so gebieten Sie ein Andres: ich werde thun, was nur irgend in meinen Kräften stehen wird.
+            </p>
+            <p>
+               Und nun - eine glückliche Reise ! Und bleiben Sie der Freund
+            </p>
+         </div>
+         <closer>
+            <salute rend="right">Ihres sehr ergebnen</salute>
+            <signed rend="right">Gentz</signed>
+            <dateline rend="right">den <date when-iso="1798-07-14"><span rend="underlined">14<span rend="sup">ten</span></span> July 1798</date></dateline>
+            <span xml:lang="lat">Dies nefastus<span rend="sup">6</span> !</span>
+         </closer>
+      </body>
+      <note resp="#edAG" xml:id="r4105-1">Vgl. <rs type="citation" ref="#c4105-1">den Brief vom 1. Juli 1798</rs></note>
+      <note resp="#edAG" xml:id="r4105-2">Die Fußnote 6 liegt in Gentz digital nicht aufgeschlüselt vor</note>
+   </text>
+</TEI>

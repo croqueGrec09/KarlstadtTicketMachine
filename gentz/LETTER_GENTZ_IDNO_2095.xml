@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc xml:id="LETTER_GENTZ_2095">
+         <titleStmt>
+            <title>Friedrich von Gentz an Karl August Böttiger, 21. November 1801</title>
+            <editor xml:id="edAG">Andreas Gálffy</editor>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <name>Forschungsstelle "Universitätssammlung Friedrich von Gentz"</name>
+               <link target="http://gentz-digital.ub.uni-koeln.de http://www.ub.uni-koeln.de/cdm/singleitem/collection/gentz/id/2094/"/>
+            </publisher>
+            <pubPlace>Cologne</pubPlace>
+            <idno type="Gentz-Edition-Number" n="2095"/>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <country>Germany</country>
+                  <settlement>Dresden</settlement>
+                  <institution>Sächsische Landesbibliothek</institution>
+                  <repository>Handschriftensammlung, Nachlaß Böttiger</repository>
+                  <collection>Mscr. Dresd. h 37, Bd. 54 (4°)</collection>
+                  <idno>Nr. 25</idno>
+               </msIdentifier>
+               <msContents>
+                  <summary>
+                     Alles, was seit dem 30. Oktober 1801 in England erschienen, die Allgemeine Zeitung ab dem 5. November 1801 
+                     und das Journal der Francfort von Mitte Oktober soll Böttiger besorgen, den Gentz am Nachmittag zu einem 
+                     Tee treffen will.
+                  </summary>
+               </msContents>
+            </msDesc>
+            <listBibl type="preprints">
+               <biblStruct>
+                  <monogr>
+                     <editor>
+                        <persName>
+                           <ref target="http://d-nb.info/gnd/130953075"/>
+                           <forename>Friedrich Carl</forename>
+                           <surname>Wittichen</surname>
+                        </persName>
+                        <persName>
+                           <ref/> <!-- kein GND-Eintrag -->
+                           <forename>Ernst</forename>
+                           <surname>Salzer</surname>
+                        </persName>
+                     </editor>
+                     <title>Briefe von und an Friedrich von Gentz, 4 Bde.</title>
+                     <imprint>
+                        <publisher>Oldenbourg</publisher>
+                        <pubPlace>München, Berlin</pubPlace>
+                        <date>1909-1913</date>
+                     </imprint>
+                     <biblScope unit="volume" n="1">
+                        I
+                     </biblScope>
+                     <biblScope unit="page" from="260" to="260">
+                        Nr. 67
+                     </biblScope>
+                  </monogr>
+               </biblStruct>
+            </listBibl>
+            <listBibl type="defExpr">
+               <biblStruct xml:id="e2095-1" corresp="GBk-0071">
+                  <monogr>
+                     <author>
+                        <persName>
+                           <ref target="http://d-nb.info/gnd/11852240X"/>
+                           <forename>Johann Friedrich von</forename>
+                           <surname>Cotta</surname>
+                        </persName>
+                     </author>
+                     <title>Allgemeine Zeitung</title>
+                     <imprint>
+                        <pubPlace>München</pubPlace>
+                        <publisher>Allgemeine Zeitung</publisher>
+                        <date>1801</date>
+                     </imprint>
+                  </monogr>
+                  <ptr target="https://books.google.de/books?id=8ORDAAAAcAAJ"/>
+               </biblStruct>
+               <bibl xml:id="e2095-2" corresp="#LETTER_GENTZ_NNNN">Zeitung "Journal de Francfort", ohne Leseprobe</bibl>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Masterarbeit zu Matrikelnummer 5584124</p>
+         </projectDesc>
+      </encodingDesc>
+      <profileDesc>
+         <creation>
+            <date when-iso="1801-11-21">21. November 1801</date>
+         </creation>
+        <langUsage>
+           <language ident="d">deutsch</language>
+        </langUsage>
+         <textClass>
+            <keywords scheme="internal"><!-- internal: innerhalb des besagten Briefs -->
+               <term>Billet</term>
+               <term>Treffen</term>
+               <term>Zeitungen</term>
+            </keywords>
+            <keywords scheme="categorisation"><!-- Sinnabschnittseinteilung - relevant für den Fahrkartenautomaten! -->
+               <term xml:id="ezg">englische Zeitungen</term>
+               <term xml:id="allgz">Allgemeine Zeitung</term>
+               <term xml:id="vkab">Verhältnis Karl August Böttiger</term>
+            </keywords>
+         </textClass>
+         <textDesc>
+            <channel>manuscript</channel>
+            <constitution type="single"/>
+            <derivation type="original"/>
+            <domain type="private"/>
+            <factuality type="fact"/>
+            <interaction type="partial"/>
+            <preparedness type="prepared"/>
+            <purpose type="inform"/>
+         </textDesc>
+         <particDesc>
+            <listPerson>
+               <!-- Sender und Adressat -->
+               <person role="sender" xml:id="Gen">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/118538489"/>
+                     <forename>Friedrich von</forename>
+                     <surname>Gentz</surname>
+                  </persName>
+               </person>
+               <person role="receiver" xml:id="KAB">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/118824775"/>
+                     <forename>Carl August</forename>
+                     <surname>Böttiger</surname>
+                  </persName>
+               </person>
+               <!-- erwähnte Personen -->
+            </listPerson>
+         </particDesc>
+         <settingDesc>
+            <listPlace>
+               <!-- Start- und Zielort -->
+               <place type="sender" xml:id="plWe">
+                  <country>
+                     <ref target="http://d-nb.info/gnd/4051194-7"/>
+                     <placeName>Sachsen-Weimar-Eisenach</placeName>
+                  </country>
+                  <settlement>
+                     <ref target="http://d-nb.info/gnd/4065105-8"/>
+                     <placeName>Weimar</placeName>
+                  </settlement>
+               </place>
+               <!-- erwähnte Orte -->
+               <place type="named" xml:id="plEn">
+                  <country>
+                     <ref target="http://d-nb.info/gnd/4022153-2"/>
+                     <placeName>England</placeName>
+                  </country>
+               </place>
+            </listPlace>
+         </settingDesc>
+      </profileDesc>
+      <revisionDesc>
+         <change xml:id="init" when-iso="2018-03-09" who="#edAG">Erstauszeichnung und Normierung des Dokumentes im Rahmen der Masterarbeit der Matrikelnummer 5584124</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div n="1" corresp="#ezg">
+            <p>
+               Damit ich nicht während meines Hierseyns aus aller Connexion mit den Weltbegebenheiten gerissen werde, nehme ich 
+               mir die Freiheit, Sie nochmals dringend um Mittheilung einiger Zeitungen zu bitten. Hauptsächlich ist mir daran 
+               gelegen:
+            </p>
+            <p>
+               1, alles was <emph rend="underlined">seit dem</emph> 
+               <date when-iso="1801-10-30"><emph rend="underliend">30</emph><span rend="sup">ten</span> Oktober</date> aus 
+               <rs type="place" ref="#plEn">England</rs> angekommen;
+            </p>
+         </div>
+         <div n="2" corresp="#allgz">
+            <p>
+               2, die <rs type="citation" ref="#e2095-1"><emph rend="underlined">Allgemeine Zeitung</emph></rs> vom 
+               <date when-iso="1801-11-05">5<span rend="sup">ten</span> November</date> an,
+            </p>
+            <p>
+               3, die neulich bemeldeten Stücke des <rs type="citation" ref="#e2095-2">Journal de Francfort</rs>, ungefähr von 
+               der Mitte Oktobers an,
+            </p>
+            <p>
+               baldmöglichst zu erhalten, und Sie werden mich ungemein verbinden, wenn Sie dazu gütigst mitwirken wollen.
+            </p>
+         </div>
+         <div n="3" corresp="#vkab">
+            <p>
+               Diesen Nachmittag werde ich Sie wahrscheinlich auf eine halbe Stunde besuchen, ehe ich ins Theater gehe.
+            </p>
+         </div>
+         <closer>
+            <signed rend="right">Gentz.</signed>
+            <dateline rend="right"><date when-iso="1801-11-21">21 Novbr</date></dateline>
+         </closer>
+      </body>
+   </text>
+</TEI>

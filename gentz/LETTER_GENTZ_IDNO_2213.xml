@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader type="text">
+      <fileDesc xml:id="LETTER_GENTZ_2213">
+         <titleStmt>
+            <title>Friedrich von Gentz an Karl Gustav von Brinckmann, 21. Oktober 1793</title>
+            <editor xml:id="edAG">Andreas Gálffy</editor>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <name>Forschungsstelle "Universitätssammlung Friedrich von Gentz"</name>
+               <link target="http://gentz-digital.ub.uni-koeln.de http://www.ub.uni-koeln.de/cdm/singleitem/collection/gentz/id/2212/"/>
+            </publisher>
+            <pubPlace>Cologne</pubPlace>
+            <idno type="Gentz-Edition-Number" n="2213"/>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <country>Sweden</country>
+                  <settlement>Trolle-Ljungby</settlement>
+                  <institution>Archiv des Grafen Wachtmeister</institution>
+                  <repository>Nachlaß Brinckmann, Ausländ. Briefwechsel, Gentz an von Brinckmann</repository>
+                  <idno>G 3</idno>
+               </msIdentifier>
+               <msContents>
+                  <summary>
+                     Zwei Bände der Betrachtungen über die französische Revolution schickt Gentz mit Auftrag der Weiterbeförderung an 
+                     Brinckmann. Sein Name soll aber nicht genannt werden.
+                  </summary>
+               </msContents>
+            </msDesc>
+            <listBibl type="defRep">
+               <biblStruct xml:id="p2213-1" corresp="DBUH-0000">
+                  <monogr>
+                     <author>
+                        <persName>
+                           <ref target="http://d-nb.info/gnd/118538489"/>
+                           <forename>Friedrich von</forename>
+                           <surname>Gentz</surname>
+                        </persName>
+                     </author>
+                     <title>Betrachtungen über die französische Revolution. Nach dem Englischen des Herrn Burke neu-bearbeitet mit einer Einleitung, Anmerkungen, politischen Abhandlungen und einem critischen Verzeichniß der in England über diese Revolution erschienenen Schriften, Zwei Theile</title>
+                     <imprint>
+                        <publisher>Friedrich Vieweg der Ältere</publisher>
+                        <pubPlace>Berlin</pubPlace>
+                        <date>1793</date>
+                     </imprint>
+                  </monogr>
+               <ptr target="http://digitale.bibliothek.uni-halle.de/vd18/id/9148833"/></biblStruct>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Masterarbeit zu Matrikelnummer 5584124</p>
+         </projectDesc>
+      </encodingDesc>
+      <profileDesc>
+         <creation>
+            <date when-iso="1793-10-21">21. Oktober 1793</date>
+         </creation>
+        <langUsage>
+           <language ident="d">deutsch</language>
+        </langUsage>
+         <textClass>
+            <keywords scheme="internal"><!-- internal: innerhalb des besagten Briefs -->
+               <term>Billet</term>
+               <term>französische Revolution</term>
+               <term>Bibliothek</term>
+            </keywords>
+            <keywords scheme="categorisation"><!-- Sinnabschnittseinteilung - relevant für den Fahrkartenautomaten! -->
+               <term xml:id="kbur">Burke</term>
+               <term xml:id="kgor">Gordon</term>
+            </keywords>
+         </textClass>
+         <textDesc>
+            <channel>manuscript</channel>
+            <constitution type="single"/>
+            <derivation type="original"/>
+            <domain type="private"/>
+            <factuality type="fact"/>
+            <interaction type="partial"/>
+            <preparedness type="unprepared"/>
+            <purpose type="inform"/>
+         </textDesc>
+         <particDesc>
+            <listPerson>
+               <!-- Sender und Adressat -->
+               <person role="sender" xml:id="Gen">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/118538489"/>
+                     <forename>Friedrich von</forename>
+                     <surname>Gentz</surname>
+                  </persName>
+               </person>
+               <person role="receiver" xml:id="KGvB">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/116519770"/>
+                     <forename>Carl Gustav von</forename>
+                     <surname>Brinckmann</surname>
+                  </persName>
+               </person>
+               <!-- erwähnte Personen -->
+               <person role="named" xml:id="Him">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/116893346"/>
+                     <forename>Christian Friedrich</forename>
+                     <surname>Himburg</surname>
+                  </persName>
+               </person>
+               <person role="named" xml:id="Gor">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/119004925"/>
+                     <forename>Thomas</forename>
+                     <surname>Gordon</surname>
+                  </persName>
+               </person>
+            </listPerson>
+         </particDesc>
+         <settingDesc>
+            <listPlace>
+               <!-- Start- und Zielort -->
+               <place type="sender" xml:id="plBe">
+                  <country>
+                     <ref target="http://d-nb.info/gnd/4047194-9"/>
+                     <placeName>Preußen</placeName>
+                  </country>
+                  <settlement>
+                     <ref target="http://d-nb.info/gnd/4005728-8"/>
+                     <placeName>Berlin</placeName>
+                  </settlement>
+               </place>
+               <!-- erwähnte Orte -->
+            </listPlace>
+         </settingDesc>
+      </profileDesc>
+      <revisionDesc>
+         <change xml:id="init" when-iso="2018-02-13" who="#edAG">Erstauszeichnung und Normierung des Dokumentes im Rahmen der Masterarbeit der Matrikelnummer 5584124</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>     
+      <body>
+         <opener resp="#KGvB">
+            <dateline rend="right"><date when-iso="1793-10-21">21. <del rend="stroked">xxx</del> Octobr 1793</date></dateline>
+         </opener>
+         <div n="1" corresp="#kbur">
+            <p>
+               Ich schicke Ihnen, lieber Brinkmann das <rs type="citation" ref="#p2213-1">bewußte Exemplar</rs> - Können Sie es 
+               baldmöglichst an <rs type="person">Himburg</rs> und durch diesen weiter befördern, so werden Sie mich sehr verbinden. 
+               Der Titel hinten muß bloß heißen.
+            </p>
+            <lg>
+               <l>Betrachtungen über die Franz. Revol.</l>
+               <l>T. I. T. II.</l>
+            </lg>
+            <p>
+               Meines Nahmens aber werde nicht erwähnt.
+            </p>
+            <p>
+               Vale. - 
+            </p>
+         </div>
+         <div n="2" corresp="#kgor">
+            <p>
+               Ich habe ein merkwürdiges Jugement über <rs type="person" ref="#Gor">Gordon</rs> aufgefunden
+            </p>
+         </div>
+         <closer>
+            <signed rend="right">Gentz.</signed>
+         </closer>
+      </body>
+   </text>
+</TEI>

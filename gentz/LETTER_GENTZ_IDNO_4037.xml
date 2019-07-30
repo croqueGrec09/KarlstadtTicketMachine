@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+      <fileDesc xml:id="LETTER_GENTZ_4037">
+         <titleStmt>
+            <title>Friedrich von Gentz an Gustav Mauritz Armfelt, 30. September 1802</title>
+            <editor xml:id="edMG">M. Groh</editor><!-- Vorname von Herrn Groh nicht auffindbar -->
+            <editor xml:id="edAG">Andreas Gálffy</editor>
+            <editor xml:id="edMS">Max Supplieth</editor>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <name>Forschungsstelle "Universitätssammlung Friedrich von Gentz"</name>
+               <link target="http://gentz-digital.ub.uni-koeln.de http://www.ub.uni-koeln.de/cdm/singleitem/collection/gentz/id/4036/"/>
+            </publisher>
+            <pubPlace>Cologne</pubPlace>
+            <idno type="Gentz-Edition-Number" n="4037"/>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <country>Finland</country>
+                  <settlement>Helsinki</settlement>
+                  <institution>Kansallisarkisto</institution>
+                  <repository>Nachlaß Armfelt</repository>
+                  <idno>I/23</idno>
+               </msIdentifier>
+               <msContents>
+                  <summary>
+                     Mit unzähligen Worten voller Lob dankt Gentz Armfelt für die Ausstellung des Scheins über 40 Pfund Sterling. Er 
+                     nennt ihn sogar einen Schutzengel.
+                  </summary>
+               </msContents>
+            </msDesc>
+            <listBibl type="preprints">
+               <biblStruct>
+                  <monogr>
+                     <author>
+                        <persName>
+                           <ref />
+                           <forename>Harry</forename>
+                           <surname>Donner</surname>
+                        </persName>
+                     </author>
+                     <title>Deux adversaires de Napoleon à Vienne (1802-1806)</title>
+                     <imprint>
+                        <pubPlace>Helsingfors</pubPlace>
+                        <date>1939</date>
+                     </imprint>
+                     <biblScope unit="page" from="22" to="23">
+                        Nr. II
+                     </biblScope>
+                  </monogr>
+               </biblStruct>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+     <encodingDesc>
+        <projectDesc>
+           <p change="#init">Erschaffung einer digitalen Edition zu Friedrich von Gentz</p>
+           <p change="#karlstadt">Erschaffung des KVAG-Fahrkartenautomaten</p>
+           <p change="#master">weitere Normierung im Rahmen der Masterarbeit zu Matrikelnummer 5584124</p>
+        </projectDesc>
+     </encodingDesc>
+     <profileDesc>
+        <creation>
+           <date when-iso="1802-09-30">30. September 1802</date>
+        </creation>
+        <langUsage>
+           <language ident="f">französisch</language>
+        </langUsage>
+        <textClass>
+           <keywords scheme="internal">
+              <term>Brief</term>
+              <term>Schuldschein</term>
+           </keywords>
+           <keywords scheme="categorisation">
+              <term xml:id="gprl">Gentz - p(r)ekuniäre Lage</term>
+           </keywords>
+        </textClass>
+        <textDesc n="letter">
+           <!-- text Description -->
+           <channel mode="w">manuscript</channel> 
+           <constitution type="single"/>
+           <derivation type="original"/>
+           <domain type="public"/> 
+           <factuality type="fact"/> 
+           <interaction type="partial"/> 
+           <preparedness type="prepared"/>  
+           <purpose type="inform"/> 
+        </textDesc>
+        <particDesc>
+           <listPerson>
+              <!-- Sender und Adressat -->
+              <person role="sender" xml:id="Gen">
+                 <persName>
+                    <ref target="http://d-nb.info/gnd/118538489"/>
+                    <forename>Friedrich von</forename>
+                    <surname>Gentz</surname>
+                 </persName>             
+              </person>
+              <person role="receiver" xml:id="Arm">
+                 <persName>
+                    <ref target="http://d-nb.info/gnd/116341254"/>
+                    <forename>Gustav Mauritz von</forename>
+                    <surname>Armfeldt</surname>
+                 </persName>
+              </person>
+              <!-- Im Brief erwähnte Personen -->
+           </listPerson>
+        </particDesc>
+        <settingDesc>
+           <listPlace>
+              <!-- Start- und Zielort -->
+              <place type="sender" xml:id="plDd">
+                 <country>
+                    <ref target="http://d-nb.info/gnd/4051176-5"/>
+                    <placeName>Sachsen</placeName>
+                 </country>
+                 <settlement>
+                    <ref target="http://d-nb.info/gnd/4012995-0"/>
+                    <placeName>Dresden</placeName>
+                 </settlement>
+              </place>
+              <!-- erwähnte Orte -->
+              <place type="named" xml:id="plWi">
+                 <country>
+                    <ref target="http://d-nb.info/gnd/4075601-4"/>
+                    <placeName>Erzherzogtum Österreich</placeName>
+                 </country>
+                 <settlement>
+                    <ref target="http://d-nb.info/gnd/4066009-6"/>
+                    <placeName>Wien</placeName>
+                 </settlement>
+              </place>
+           </listPlace>
+        </settingDesc>
+     </profileDesc>
+     <revisionDesc>
+        <change when-iso="2016-07-06" who="#edAG #edMS">Normierung und weitere Auszeichnung des Dokumentes im Rahmen der Übung "WebApps und Textmining" im Hinblick auf die 
+        zukünftige Masterarbeit von Matrikelnummer 5584124</change>
+        <change when-iso="2018-03-11" who="#edAG">weitere Normierung und Anpassung im Zuge der Masterarbeit zu Matrikelnummer 5584124</change>
+     </revisionDesc>
+  </teiHeader>
+  <text>
+      <body>
+          <div n="1" corresp="#gprl">
+             <p>
+                Permettez, <rs type="person" ref="#Arm">Mon Général</rs> que je Vous présente ci-joint le recépisse pour la lettre de crédit<lb/>
+                que Vous m'avez envoyée avec tant de graces et de bonté; acceptez-en l'expression de ma<lb/>
+                profonde réconnoissance. Mais veuillez-bien Vous souvenir aussi, que Vous m'avez promis<lb/>
+                une lettre pour Londres, et que tout ce qui me vient de Vous, m'est trop précieux pour que<lb/>
+                je puisse l'abandonner. Je ne saurois Vous dire combien je me trouve heureux, combien je<lb/>
+                bénis mon sort, quand je pense, que quoiqu'il m'arrive à <rs type="place" ref="#plWi">Vienne</rs>, il y aura un homme de Votre<lb/>
+                caractère, de Votre force, de Vos lumières, de Vos talens, et, j'ose ajouter, de Votre extrême<lb/>
+                amabilité, qui m'accordera toujours sa conversation, ses conseils, et sa bienveillance. Puissiez-<lb/>
+                Vous Vous trouver en état de devenir un de ces anges tutélaires qui sauvent quelquefois<lb/>
+                la société lorsqu'elle est <pb/> prête à tomber dans les derniers abymes; et puissé-je être un<lb/>
+                instrument entre Vos mains. C'est le plus grand titre de gloire que j'ambitionnerois jamais.<lb/>
+             </p>
+             <p>
+                Agréez, <rs type="person" ref="#Arm">Mon<choice><sic>General</sic><corr>Général</corr></choice></rs>, les hommages d'un dévouement aussi inviolable, <corr>[et]</corr> que<lb/>
+                respectueux, avec lequel j'ai l'honneur d'être<lb/>
+             </p>
+          </div>
+          <closer>
+             <salute rend="right">Votre tres humble<lb/>
+             et très fidèle serviteur<lb/>
+             </salute>
+             <signed rend="right">Gentz</signed>
+             <dateline rend="left"><rs type="place" ref="#plDd">Dresde</rs> <date when-iso="1802-09-30">30 Septb 1802.</date> </dateline>
+          </closer>
+      </body>
+  </text>
+</TEI>
+

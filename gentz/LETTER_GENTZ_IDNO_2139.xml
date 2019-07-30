@@ -1,0 +1,253 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader type="text">
+      <fileDesc xml:id="LETTER_GENTZ_2139">
+         <titleStmt>
+            <title>Friedrich von Gentz an Karl Gustav von Brinckmann, 1. März 1793</title>
+            <editor xml:id="edAG">Andreas Gálffy</editor>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <name>Forschungsstelle "Universitätssammlung Friedrich von Gentz"</name>
+               <link target="http://gentz-digital.ub.uni-koeln.de http://www.ub.uni-koeln.de/cdm/singleitem/collection/gentz/id/2138/"/>
+            </publisher>
+            <pubPlace>Cologne</pubPlace>
+            <idno type="Gentz-Edition-Number" n="2139"/>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <country>Sweden</country>
+                  <settlement>Trolle-Ljungby</settlement>
+                  <institution>Archiv des Grafen Wachtmeister</institution>
+                  <repository>Nachlaß Brinckmann, Ausländ. Briefwechsel, Gentz an von Brinckmann</repository>
+                  <idno>G 3</idno>
+               </msIdentifier>
+               <msContents>
+                  <summary>
+                     Garve bittet Gentz um verschiedene Bücher. Gentz muss so schon Bitten abschlagen; zumindest die Burkiana und 
+                     ein blaues Buch möchte Gentz schicken. Dieses blaue Buch erbittet er sich und versichert, dass Garve ihn nicht 
+                     länger, als vier Wochen, behalten will. Gleichzeitig schickt Gentz ein Verzeichnis herabgesetzter Bücherpreise.
+                  </summary>
+               </msContents>
+            </msDesc>
+            <listBibl type="preprints">
+               <biblStruct>
+                  <monogr>
+                     <editor>
+                        <persName>
+                           <ref target="http://d-nb.info/gnd/130953075"/>
+                           <forename>Friedrich Carl</forename>
+                           <surname>Wittichen</surname>
+                        </persName>
+                        <persName>
+                           <ref/> <!-- kein GND-Eintrag -->
+                           <forename>Ernst</forename>
+                           <surname>Salzer</surname>
+                        </persName>
+                     </editor>
+                     <title>Briefe von und an Friedrich von Gentz. 4 Bde.</title>
+                     <imprint>
+                        <publisher>Oldenbourg</publisher>
+                        <pubPlace>München, Berlin</pubPlace>
+                        <date>1909-1913</date>
+                     </imprint>
+                     <biblScope unit="volume" n="2">
+                        II
+                     </biblScope>
+                     <biblScope unit="page" from="36" to="36">
+                        Nr. 24
+                     </biblScope>
+                  </monogr>
+               </biblStruct>
+            </listBibl>
+            <listBibl type="alludedWorks">
+               <bibl xml:id="a2139-1" corresp="#LETTER_GENTZ_NNNN">nicht bekannter Brief von Christian Garve an Friedrich von Gentz</bibl>
+               <bibl xml:id="a2139-2" corresp="#LETTER_GENTZ_NNNN">nicht bekannter Brief von Christian Garve an Friedrich von Gentz</bibl>
+               <bibl xml:id="a2139-3" corresp="#LETTER_GENTZ_NNNN">ein blaues Buch mit nicht näher benanntem Titel</bibl>
+            </listBibl>
+            <listBibl type="defExpr">
+               <biblStruct xml:id="e2139-1" corresp="Arc-0008">
+                  <analytic>
+                     <author>
+                        <persName>
+                           <ref target="http://d-nb.info/gnd/118517708"/>
+                           <forename>Edmund</forename>
+                           <surname>Burke</surname>
+                        </persName>
+                     </author>
+                     <title>Thoughts on French Affairs</title>
+                     <date>1791</date>
+                  </analytic>
+                  <monogr>
+                     <author>
+                        <persName>
+                           <ref target="http://d-nb.info/gnd/118517708"/>
+                           <forename>Edmund</forename>
+                           <surname>Burke</surname>
+                        </persName>
+                     </author>
+                     <title>Reflections on the French Revolution</title>
+                     <imprint>
+                        <publisher>J. M. Dent &amp; Sons Ltd.</publisher>
+                        <pubPlace>London</pubPlace>
+                        <date>1910</date>
+                     </imprint>
+                     <biblScope unit="page" from="285" to="331">
+                        S. 285-331
+                     </biblScope>
+                  </monogr>
+               <ptr target="https://archive.org/details/reflectionsonthe005907mbp"/></biblStruct>
+               <biblStruct xml:id="e2139-2" corresp="GBk-0002">
+                  <monogr>
+                     <author>
+                        <persName>
+                           <ref target="http://d-nb.info/gnd/118517708"/>
+                           <forename>Edmund</forename>
+                           <surname>Burke</surname>
+                        </persName>
+                     </author>
+                     <title>An appeal from the new to the old whigs</title>
+                     <imprint>
+                        <publisher>J. Dodsley</publisher>
+                        <pubPlace>London</pubPlace>
+                        <date>1791</date>
+                     </imprint>
+                  </monogr>
+               <ptr target="https://books.google.de/books?id=0r5VAAAAYAAJ"/></biblStruct>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Masterarbeit zu Matrikelnummer 5584124</p>
+         </projectDesc>
+      </encodingDesc>
+      <profileDesc>
+         <creation>
+            <date when-iso="1793-03-01">1. März 1793</date>
+         </creation>
+        <langUsage>
+           <language ident="d">deutsch</language>
+        </langUsage>
+         <textClass>
+            <keywords scheme="internal"><!-- internal: innerhalb des besagten Briefs -->
+               <term>Billet</term>
+               <term>Bibliothek</term>
+               <term>Garve</term>
+               <term>Literatur</term>
+            </keywords>
+            <keywords scheme="categorisation"><!-- Sinnabschnittseinteilung - relevant für den Fahrkartenautomaten! -->
+               <term xml:id="vcg">Verhältnis Christian Garve</term>
+               <term xml:id="bibl">Bibliothek</term>
+            </keywords>
+         </textClass>
+         <textDesc>
+            <channel>manuscript</channel>
+            <constitution type="single"/>
+            <derivation type="original"/>
+            <domain type="private"/>
+            <factuality type="fact"/>
+            <interaction type="partial"/>
+            <preparedness type="unprepared"/>
+            <purpose type="inform"/>
+         </textDesc>
+         <particDesc>
+            <listPerson>
+               <!-- Sender und Adressat -->
+               <person role="sender" xml:id="Gen">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/118538489"/>
+                     <forename>Friedrich von</forename>
+                     <surname>Gentz</surname>
+                  </persName>
+               </person>
+               <person role="receiver" xml:id="KGvB">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/116519770"/>
+                     <forename>Carl Gustav von</forename>
+                     <surname>Brinckmann</surname>
+                  </persName>
+               </person>
+               <!-- erwähnte Personen -->
+               <person role="named" xml:id="Gar">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/118537636"/>
+                     <forename>Christian</forename>
+                     <surname>Garve</surname>
+                  </persName>
+               </person>
+               <person role="named" xml:id="Mat">
+                  <persName>
+                     <ref/>
+                     <forename/>
+                     <surname>Mathis</surname>
+                  </persName>
+               </person>
+            </listPerson>
+         </particDesc>
+         <settingDesc>
+            <listPlace>
+               <!-- Start- und Zielort -->
+               <place type="sender" xml:id="plBe">
+                  <country>
+                     <ref target="http://d-nb.info/gnd/4047194-9"/>
+                     <placeName>Preußen</placeName>
+                  </country>
+                  <settlement>
+                     <ref target="http://d-nb.info/gnd/4005728-8"/>
+                     <placeName>Berlin</placeName>
+                  </settlement>
+               </place>
+               <!-- erwähnte Orte -->
+               <place type="named" xml:id="plBr">
+                  <country>
+                     <ref target="http://d-nb.info/gnd/4047194-9"/>
+                     <placeName>Preußen</placeName>
+                  </country>
+                  <settlement>
+                     <ref target="http://d-nb.info/gnd/4008216-7"/>
+                     <placeName>Breslau</placeName>
+                  </settlement>
+               </place>
+            </listPlace>
+         </settingDesc>
+      </profileDesc>
+      <revisionDesc>
+         <change xml:id="init" when-iso="2018-02-13" who="#edAG">Erstauszeichnung und Normierung des Dokumentes im Rahmen der Masterarbeit der Matrikelnummer 5584124</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>     
+      <body>
+         <opener resp="#KGvB">
+            <dateline rend="right">d. <date when-iso="1793-03-01">1. Merz 1793</date><del rend="stroked"><date when-iso="1793-02-29">29. Febr. 1793</date></del></dateline>
+         </opener>
+         <div n="1" corresp="#vcg">
+            <p>
+               <rs type="person" ref="#Gar">Garve</rs> bittet mich schon in <rs type="citation" ref="#a2139-1">2</rs> 
+               <emph rend="underlined">dringenden</emph> <rs type="citation" ref="#a2139-2">Briefen</rs>, daß ich ihm durch einen 
+               nach <rs type="place" ref="#plBr">Breslau</rs> reisenden <rs type="person" ref="#Mat">Kaufmann</rs> verschiedne 
+               Bücher zum Durchlesen schicken soll - Ich muß sie ihm alle abschlagen, weil ich sie alle nicht habe, einzig 
+               ausgenommen die <rs type="citation" ref="#e2139-1">beyden letzten</rs> 
+               <rs type="citation" ref="#e2139-2">Burkiana</rs> die er aufs sehnlichste wünscht. Sie erzeigen mir also eine große 
+               Freundschaft, lieber Brinkmann wenn Sie mir den ganzen 
+               <rs type="citation" ref="#a2139-3"><emph rend="underlined">blauen Band</emph></rs> den ich Ihnen neulich mitgab, 
+               zurück schicken: ich stehe dafür, daß Garve ihn nicht länger als 4 Wochen behält, und ihn durch denselben 
+               <rs type="person" ref="#Mat">Kaufmann Mathis</rs> der ihn mitnimmt, wieder zurück schickt. Dieser 
+               <rs type="person" ref="#Mat">Mathis</rs> reiset aber <date when-iso="1793-03-02">Morgen</date>. Ich muß Sie daher 
+               <pb/> recht inständigst bitten, mir dieses Buch <emph rend="underlined">noch heute</emph> zu schicken, damit ich den 
+               guten Mann nur auf irgend eine Weise befriedigen könne.
+            </p>
+         </div>
+         <div n="2" corresp="#bibl">
+            <p>
+               Zugleich übersende ich Ihnen, um Sie mir geneigt zu machen, ein Verzeichniß herabgesetzter Bücher-Preise; wollen Sie 
+               davon haben, so geben Sie mir nur Commission
+            </p>
+         </div>
+         <closer>
+            <signed rend="right">Gentz</signed>
+         </closer>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,622 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc xml:id="LETTER_GENTZ_2393">
+         <titleStmt>
+            <title>Friedrich von Gentz an Karl Gustav von Brinckmann, 6. Dezember 1799</title>
+            <editor xml:id="edAG">Andreas Gálffy</editor>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <name>Forschungsstelle "Universitätssammlung Friedrich von Gentz"</name>
+               <link target="http://gentz-digital.ub.uni-koeln.de http://www.ub.uni-koeln.de/cdm/singleitem/collection/gentz/id/2392/"/>
+            </publisher>
+            <pubPlace>Cologne</pubPlace>
+            <idno type="Gentz-Edition-Number" n="2393"/>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <country>Sweden</country>
+                  <settlement>Trolle-Ljungby</settlement>
+                  <institution>Archiv des Grafen Wachtmeister</institution>
+                  <repository>Nachlaß Brinckmann, Ausländ. Briefwechsel, Gentz an Brinckmann</repository>
+                  <idno>G 3</idno>
+               </msIdentifier>
+               <msContents>
+                  <summary>
+                     Die Herausgabe des Historischen Journals und andere Arbeiten hinderten Gentz daran, die Brieffreundschaft mit 
+                     Brinckmann fortzzuführen. Es kam zu einer langen Pause, weshalb Brinckmann befürchtete, dass Gentz ihn 
+                     vergessen hätte. Dabei hat ihn jeder Brief Brinckmanns gefreut. Gentz wollte ihn auch nicht in Verlegenheit 
+                     versetzen, da er die strenge französische Zensur kennt. Die Revolution des 18. Brumaire hat Vieles verändert. 
+                     So auch den Erhalt französischer Zeitungen aus Paris. Gentz möchte den Kontakt zu Brinckmann nutzen, um neue 
+                     Zeitungen zu beziehen. Er will ihm die Auslagen ersetzen. Ganz besonders möchte Gentz Hauptartikel über die 
+                     Finanzen - da vor allem von St. Aubin. Der Nouveau Paris von Mercier ist der letzte Schund der 
+                     Revolutionspresse. Aber die Wirklichkeit ist noch schrecklicher. Gentz schreibt über den neuen Verlag des 
+                     Historischen Journals und dass er dieses nur ungern von Frölich verlegen lässt, den Vorteilen zum Trotz. 
+                     Humboldt hat den gesellschaftlichen Zug verpasst und seine Pläne nicht verwirklicht. Gentz hofft, dass 
+                     Brinckmann den Brief so aufnimmt, wie er es soll. Wilhelmine Gentz setzt dem Brief hinzu, dass sie den kleinen 
+                     Brief recht herzlich dankt, und Gentz fügt diesem hinzu, dass sie die Erinnerung an Brinckmann wach gehalten 
+                     hat.
+                  </summary>
+               </msContents>
+            </msDesc>
+            <listBibl type="preprints">
+               <biblStruct>
+                  <monogr>
+                     <editor>
+                        <persName>
+                           <ref target="http://d-nb.info/gnd/130953075"/>
+                           <forename>Friedrich Carl</forename>
+                           <surname>Wittichen</surname>
+                        </persName>
+                        <persName>
+                           <ref /> <!-- kein GND-Eintrag -->
+                           <forename>Ernst</forename>
+                           <surname>Salzer</surname>
+                        </persName>
+                     </editor>
+                     <title>Briefe von und an Friedrich von Gentz, 4 Bde.</title>
+                     <imprint>
+                        <publisher>Oldenbourg</publisher>
+                        <pubPlace>München, Berlin</pubPlace>
+                        <date>1909-1913</date>
+                     </imprint>
+                     <biblScope unit="volume" n="2">
+                        II
+                     </biblScope>
+                     <biblScope unit="page" from="65" to="70">
+                        Nr. 76
+                     </biblScope>
+                  </monogr>
+               </biblStruct>
+            </listBibl>
+            <listBibl type="letterReferenced">
+               <bibl xml:id="c2393-1" corresp="#LETTER_GENTZ_NNNN">nicht bekannter Brief von Karl Gustav von Brinckmann an Friedrich von Gentz</bibl>
+               <bibl xml:id="c2393-2" corresp="#LETTER_GENTZ_NNNN">nicht bekannter Brief von Karl Gustav von Brinckmann an Wilhelmine Gentz</bibl>
+            </listBibl>
+            <listBibl type="defExpr">
+               <biblStruct xml:id="e2393-1" corresp="GBk-0050">
+                  <monogr>
+                     <editor>
+                        <persName>
+                           <ref target="http://d-nb.info/gnd/118538489"/>
+                           <forename>Friedrich von</forename>
+                           <surname>Gentz</surname>
+                        </persName>
+                     </editor>
+                     <title>Historisches Journal</title>
+                     <imprint>
+                        <publisher>Friedrich Vieweg dem ältern</publisher>
+                        <pubPlace>Berlin</pubPlace>
+                        <date>1799</date>
+                     </imprint>
+                  </monogr>
+                  <ptr target="https://books.google.de/books?id=ohR5B41qdy4C"/>
+               </biblStruct>
+               <biblStruct xml:id="e2393-2" corresp="Grg-0017">
+                  <monogr>
+                     <editor>
+                        <persName>
+                           <ref target="http://d-nb.info/gnd/1053521014"/>
+                           <forename>François René Bénit Vatar</forename>
+                           <surname>Jouannet</surname>
+                        </persName>
+                     </editor>
+                     <title>Journal des hommes libres</title>
+                     <imprint>
+                        <date>1792-1799</date>
+                     </imprint>
+                  </monogr>
+                  <ptr target="http://gazetier-revolutionnaire.gazettes18e.fr/periodique/journal-des-hommes-libres-1792-1799"/>
+               </biblStruct>
+               <biblStruct xml:id="e2393-3" corresp="GBk-0059">
+                  <monogr>
+                     <editor>
+                        <persName>
+                           <ref target="http://d-nb.info/gnd/118538489"/>
+                           <forename>Friedrich von</forename>
+                           <surname>Gentz</surname>
+                        </persName>
+                     </editor>
+                     <title>Historisches Journal</title>
+                     <imprint>
+                        <pubPlace>Berlin</pubPlace>
+                        <publisher>Heinrich Frölich</publisher>
+                        <date>1800</date>
+                     </imprint>
+                     <biblScope unit="volume" n="1">
+                        Erster Band. Januar bis April.
+                     </biblScope>
+                  </monogr>
+                  <ptr target="https://books.google.de/books?id=PcAtZUZGTlcC"/>
+               </biblStruct>
+            </listBibl>
+            <listBibl type="defRep">
+               <biblStruct xml:id="p2393-1" corresp="Arc-0009">
+                  <monogr>
+                     <author>
+                        <persName>
+                           <ref target="http://d-nb.info/gnd/128550015"/>
+                           <forename>François Charles de</forename>
+                           <surname>Chaumont-Quitry</surname>
+                        </persName>
+                     </author>
+                     <title>Essai sur la nature et les divers agens de la conspiration présente, ou, Lettres à un représentant du peuple, sur la réponse de Carnot à J.C. Bailleul, et l'antidote de Rastadt, et sur le rapport de ces deux ouvrages avec notre situation.</title>
+                     <imprint>
+                        <pubPlace>Paris</pubPlace>
+                        <publisher>Marchands de Nouveautés</publisher>
+                        <date>1799</date>
+                     </imprint>
+                  </monogr>
+                  <ptr target="https://archive.org/details/essaisurlanature00chau"/>
+               </biblStruct>
+               <biblStruct xml:id="p2393-2" corresp="BnF-0007">
+                  <monogr>
+                     <author>
+                        <persName>
+                           <ref target="http://d-nb.info/gnd/118581007"/>
+                           <forename>Louis Sébastien</forename>
+                           <surname>Mercier</surname>
+                        </persName>
+                     </author>
+                     <title>Le Nouveau Paris</title>
+                     <imprint>
+                        <pubPlace>Paris</pubPlace>
+                        <publisher>Fuchs, Ch. Pougens, Ch. Fr. Cramer</publisher>
+                        <date>1798</date>
+                     </imprint>
+                  </monogr>
+                  <ptr target="http://gallica.bnf.fr/ark:/12148/bpt6k64572183"/>
+               </biblStruct>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Masterarbeit zu Matrikelnummer 5584124</p>
+         </projectDesc>
+      </encodingDesc>
+      <profileDesc>
+         <creation>
+            <date when-iso="1799-12-06">6. Dezember 1799</date>
+         </creation>
+        <langUsage>
+           <language ident="d">deutsch</language>
+        </langUsage>
+         <textClass>
+            <keywords scheme="internal"><!-- internal: innerhalb des besagten Briefs -->
+               <term>Brief</term>
+               <term>Frankreich</term>
+               <term>Französische Revolution</term>
+               <term>Zeitungen</term>
+               <term>Historisches Journal</term>
+               <term>Nouveau Paris</term>
+               <term>Minna</term>
+            </keywords>
+            <keywords scheme="categorisation"><!-- Sinnabschnittseinteilung - relevant für den Fahrkartenautomaten! -->
+               <term xml:id="vkgvb">Verhältnis Karl Gustav von Brinckmann</term>
+               <term xml:id="frv">Französische Revolution</term>
+               <term xml:id="frz">französische Zeitungen</term>
+               <term xml:id="frf">französische Finanzen</term>
+               <term xml:id="mnp">Mercier - Nouveau Paris</term>
+               <term xml:id="jrnh">Historisches Journal</term>
+               <term xml:id="khum">Humboldt</term>
+               <term xml:id="vwg">Verhältnis Wilhelmine Gentz</term>
+            </keywords>
+         </textClass>
+         <textDesc>
+            <channel>manuscript</channel>
+            <constitution type="single"/>
+            <derivation type="original"/>
+            <domain type="private"/>
+            <factuality type="fact"/>
+            <interaction type="partial"/>
+            <preparedness type="prepared"/>
+            <purpose type="inform"/>
+         </textDesc>
+         <particDesc>
+            <listPerson>
+               <!-- Sender und Adressat -->
+               <person role="sender" xml:id="Gen">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/118538489"/>
+                     <forename>Friedrich von</forename>
+                     <surname>Gentz</surname>
+                  </persName>
+               </person>
+               <person role="receiver" xml:id="KGvB">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/116519770"/>
+                     <forename>Carl Gustav von</forename>
+                     <surname>Brinckmann</surname>
+                  </persName>
+               </person>
+               <!-- erwähnte Personen -->
+               <person role="named" xml:id="Fch">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/1037541707"/>
+                     <forename>Pierre François</forename>
+                     <surname>Fauche</surname>
+                  </persName>
+               </person>
+               <person role="named" xml:id="DJF">
+                  <persName>
+                     <ref/>
+                     <forename>David Joseph</forename>
+                     <surname>Fraenkel</surname>
+                  </persName>
+               </person>
+               <person role="named" xml:id="AJCJbdlM">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/128691077"/>
+                     <forename>Antoine Jacques Claude Joseph</forename>
+                     <surname>Boulay de la Meurthe</surname>
+                  </persName>
+               </person>
+               <person role="named" xml:id="BC">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/118638475"/>
+                     <forename>Benjamin</forename>
+                     <surname>Constant</surname>
+                  </persName>
+               </person>
+               <person role="named" xml:id="Sal">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/123790298"/>
+                     <forename>Jean-Baptiste</forename>
+                     <surname>Salaville</surname>
+                  </persName>
+               </person>
+               <person role="named" xml:id="PAM">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/11944495X"/>
+                     <forename>Philippe Antoine</forename>
+                     <surname>Merlin</surname>
+                  </persName>
+               </person>
+               <person role="named" xml:id="LMdLRL">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/100319785"/>
+                     <forename>Louis Marie de</forename>
+                     <surname>La Reveillière-Lépeaux</surname>
+                  </persName>
+               </person>
+               <person role="named" xml:id="BLJS">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/1019751061"/>
+                     <forename>Barthélemy-Louis-Joseph</forename>
+                     <surname>Schérer</surname>
+                  </persName>
+               </person>
+               <person role="named" xml:id="JBJ">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/119024284"/>
+                     <forename>Jean-Baptiste</forename>
+                     <surname>Jourdan</surname>
+                  </persName>
+               </person>
+               <person role="named" xml:id="FRBVJ">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/1053521014"/>
+                     <forename>François René Bénit Vatar</forename>
+                     <surname>Jouannet</surname>
+                  </persName>
+               </person>
+               <person role="named" xml:id="CSA">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/101522835"/>
+                     <forename>Camille</forename>
+                     <surname>Saint-Aubin</surname>
+                  </persName>
+               </person>
+               <person role="named" xml:id="FVW">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/119049546"/>
+                     <forename>Friedrich</forename>
+                     <surname>Vieweg</surname>
+                  </persName>
+               </person>
+               <person role="named" xml:id="Crm">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/100178405"/>
+                     <forename>Carl Friedrich</forename>
+                     <surname>Cramer</surname>
+                  </persName>
+               </person>
+               <person role="named" xml:id="Fro">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/1073351068"/>
+                     <forename>Heinrich</forename>
+                     <surname>Frölich</surname>
+                  </persName>
+               </person>
+               <person role="named" xml:id="Hum">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/118554727"/>
+                     <forename>Wilhelm von</forename>
+                     <surname>Humboldt</surname>
+                  </persName>
+               </person>
+               <person role="named" xml:id="Grpg">
+                  <persName>
+                     <ref />
+                     <forename/>
+                     <surname>Grapengiesser</surname>
+                  </persName>
+               </person>
+               <person role="named" xml:id="Min">
+                  <persName>
+                     <ref/>
+                     <forename>Wilhelmine</forename>
+                     <surname>Gilly</surname>
+                  </persName>
+               </person>
+            </listPerson>
+         </particDesc>
+         <settingDesc>
+            <listPlace>
+               <!-- Start- und Zielort -->
+               <place type="sender" xml:id="plBe">
+                  <country>
+                     <ref target="http://d-nb.info/gnd/4047194-9"/>
+                     <placeName>Preußen</placeName>
+                  </country>
+                  <settlement>
+                     <ref target="http://d-nb.info/gnd/4005728-8"/>
+                     <placeName>Berlin</placeName>
+                  </settlement>
+               </place>
+               <place type="receiver" xml:id="plPa">
+                  <country>
+                     <ref target="http://d-nb.info/gnd/4018145-5"/>
+                     <placeName>Frankreich</placeName>  
+                  </country>
+                  <settlement>
+                     <ref target="http://d-nb.info/gnd/4044660-8"/>
+                     <placeName>Paris</placeName>
+                  </settlement>
+               </place>
+               <!-- erwähnte Orte -->
+               <place type="named" xml:id="plWs">
+                  <country>
+                     <ref target="http://d-nb.info/gnd/4047194-9"/>
+                     <placeName>Preußen</placeName>
+                  </country>
+                  <settlement>
+                     <ref target="http://d-nb.info/gnd/4044660-8"/>
+                     <placeName>Wesel</placeName>
+                  </settlement>
+               </place>
+               <place type="named" xml:id="plFr">
+                  <country>
+                     <ref target="http://d-nb.info/gnd/4018145-5"/>
+                     <placeName>Frankreich</placeName>  
+                  </country>
+               </place>
+               <place type="named" xml:id="plEn">
+                  <country>
+                     <ref target="http://d-nb.info/gnd/4022153-2"/>
+                     <placeName>England</placeName>
+                  </country>
+               </place>
+               <place type="named" xml:id="plTe">
+                  <country>
+                     <ref target="http://d-nb.info/gnd/4047194-9"/>
+                     <placeName>Preußen</placeName>
+                  </country>
+                  <settlement>
+                     <ref target="http://d-nb.info/gnd/5007835-5"/>
+                     <placeName>Tegel</placeName>
+                  </settlement>
+               </place>
+               <place type="named" xml:id="plKp">
+                  <country>
+                     <ref target="http://d-nb.info/gnd/4047194-9"/>
+                     <placeName>Preußen</placeName>
+                  </country>
+                  <settlement>
+                     <ref target="http://d-nb.info/gnd/4098667-6"/>
+                     <placeName>Köpenick</placeName>
+                  </settlement>
+               </place>
+            </listPlace>
+         </settingDesc>
+      </profileDesc>
+      <revisionDesc>
+         <change xml:id="init" when-iso="2018-03-04" who="#edAG">Erstauszeichnung und Normierung des Dokumentes im Rahmen der Masterarbeit der Matrikelnummer 5584124</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <opener>
+            <dateline rend="right"><rs type="place" ref="#plBe">Berlin</rs> den <date when-iso="1799-12-06">6<span rend="sup">ten</span> December 99</date>.</dateline>
+         </opener>
+         <div n="1" corresp="#vkgvb">
+            <p>
+               Wenn ich je in Stande gewesen wäre, <emph rend="underlined">Sie</emph> zu vergessen, wenn 
+               <del rend="stroked">sich</del> das Andenken an so viele frohe Stunden die ich durch Sie und mit Ihnen genoß, je hätte 
+               verlöschen können, so müßte selbst die Treue, mit der Sie, trotz meines langen Stillschweigens, immer von Zeit zu 
+               Zeit Erinnerungen und freundliche Vorwürfe an mich gelangen ließen, mich vor einer so großen, Gottlob auch so 
+               unmöglichen Vergehung bewahrt haben. Nein ! wenn uns das Schicksal heute wieder vereinigte, so würden Sie mich ganz 
+               <del rend="stroked">so</del> wie sonst, ich darf wohl sagen, besser wie sonst, wieder finden. Die mancherlei neuen 
+               Verhältnisse, in welche mich besonders im jetzt zu Ende gehenden Jahre die Herausgabe meines 
+               <rs type="citation" ref="#e2393-1">Journals</rs> gezogen, die mancherlei, zum Theil selbst interessante Verbindungen, 
+               die es mir verschafft hat, die genauere Bekanntschaft mit so manchen in der Ferne wichtig und gehaltvoll - 
+               <emph rend="underlined">scheinenden</emph> Menschen - alle diese Umstände haben mir deutlicher und lebhafter 
+               <add place="above">als</add> jemals die Ueberzeugung eingeprägt, daß ein solcher Umgang, wie 
+               <emph rend="underlined">Sie</emph> ihn mir gewährten, unter die großen, und unter die höchst schätzbaren Seltenheiten 
+               des Lebens gehört. Wie unendlich viel würde ich drum geben, wenn ich Sie <emph rend="underlined">jetzt</emph> 
+               zuweilen eine einzige Stunde sehen könnte ! Und wie ungleich interessanter würde ich 
+               <emph rend="underlined">Ihnen</emph> jetzt, aus mehr als einer Ursach seyn ! Unterdessen beschäftige ich mich oft, 
+               und gewiß täglich mit dem Gedanken an Sie; Sie fehlen mir alle Augenblicke; und, wenn es wahr ist, daß Sie mit 
+               Vergnügen an mich zurück denken, so seyn Sie wenigstens fest, recht fest überzeugt, daß ich Ihnen dies durch dankbare 
+               Erinnerung an Sie, in reichem Maße vergelte.
+            </p>
+            <p>
+               Daß ich so lange eine stumme Rolle in Ansehung Ihrer gespielt habe, war zwar großentheils Schuld meiner unendlich, 
+               unglaublich überhäuften Geschäfte - denn seit einem Jahre, heißt <emph rend="underlined">leben</emph> bei mir nur 
+               <emph rend="underlined">arbeiten</emph> - und Schuld einer gerade aus dieser Ueberarbeitung natürlich <pb/> 
+               hervorgehenden Trägheit; aber es war auch großentheils, und gewiß gröstentheils Folge der Vorstellung, die ich mir 
+               von Ihren dortigen Verhältnissen bildete. Ich glaube den Briefen, mit denen Sie mich von Zeit zu Zeit erfreuten, 
+               deutlich anzusehen, daß ich Sie in Verlegenheit setzen würde, wenn ich <emph rend="underlined">ernsthaft</emph> mit 
+               Ihnen correspondirte. Ich verstand sehr gut, was unter Ihren Scherzen verborgen lag; aber ich glaubte, daß gerade der 
+               Ton, den Sie anstimmten, es mir beinahe zur Pflicht machte, zu schweigen. Ich wußte überdies 
+               <emph rend="underlined">historisch</emph>, welche strenge Aufsicht die bisherige französische Regierung über alle 
+               Correspondenz führte, und ich fürchtete mich, besonders Sie, bei den delikaten Verhältnissen, worin Sie standen, 
+               durch die unschuldigste Aeußerung zu compromittiren. Diese Bewegungsgründe hatten einen sehr großen und reellen 
+               Antheil an meinem Stillschweigen.
+            </p>
+         </div>
+         <div n="2" corresp="#frv">
+            <p>
+               Ich glaube, daß seit dem <date when-iso="1799-11-09">18<span rend="sup">ten</span> Brümaire</date> in diesem Punkte 
+               eine wesentliche Veränderung vorgegangen ist. Ich sehe aus tausend Umständen, daß die jetzige Regierung durchaus 
+               liberalere Maximen angenommen hat; und ich stelle mir vor, daß, fürs erste wenigstens, auch die Correspondenz unter 
+               Freunden dabei wesentlich gewonnen haben wird. Natürlich werde ich diese günstigere Lage nicht miß brauchen. Ich 
+               werde nie vergessen, was Sie sind, besonders aber - wer <emph rend="underlined">ich</emph> bin. Ich werde nie durch 
+               irgend ein gewagtes Wort, den ohnehin so ungegründeten Verdacht erwecken, daß Sie auf irgend eine Weise in meinen 
+               Grundsätzen, an meiner Art, die Dinge anzusehen, Theil hätten. Aber ich werde mir, wenn 
+               <emph rend="underlined">Sie</emph> mir nehmlich erst auf gegenwärtigen Brief die förmliche Erlaubniß dazu erteilen, 
+               oft das Vergnügen gönnen, an Sie zu schreiben. Ich werde mich höchst <pb/> glücklich schätzen, wenn ein regelmäßiger 
+               Briefwechsel unter uns eintreten kan. Sie allein sollen den Ton dabei angeben; 
+               <span xml:lang="fr">votre <emph rend="underlined">mesure</emph> sera la mienne</span>. Wenn wir uns auch nur den 
+               kleinsten Theil dessen sagen dürfen, was <emph rend="underlined">wir</emph> uns zu sagen haben, wie unendlich 
+               interessant wird dieser Briefwechsel seyn ! Was hat sich in der Welt zugetragen, seitdem wir uns trennten ! Wie viel 
+               müßen Sie durch nähere Beobachtung gewonnen haben, da selbst ich, bloß durch fortgesetztes Nachdenken, mich heute 
+               ungleich klüger und gelehrter finde, als ich noch vor zwei Jahren war !
+            </p>
+         </div>
+         <div n="3" corresp="#frz">
+            <p>
+               Außerdem giebt es nun noch einen besondern Punkt, wobei ich Ihre ganze Freundschaft für mich aufbieten muß. Die 
+               Schwierigkeit, neure Broschüren aus <rs type="place" ref="#plPa">Paris</rs> zu erhalten, hat sich ins Unendliche 
+               vergrößert; ich weiß nun keinen Weg mehr, dazu zu gelangen, da selbst <rs type="person" ref="#Fch">Fauche</rs> der 
+               noch meine letzte Stütze war, mich im Stiche läßt. Die große Menge von Zeitungen und Journalen, die ich halte - ich 
+               empfange deren allein aus <rs type="citation" ref="#plPa">Paris</rs> 12 - hat mich zwar 
+               <emph rend="underlined">einigermaßen</emph> für diesen drückenden Mangel schadlos gehalten: 
+               <del rend="stroked">xxx</del> auch weiß ich sehr wohl, daß jetzt im politischen Fache 
+               <emph rend="underlined">wenig</emph> erscheint, was zu entbehren schmerzhaft wäre. Aber selbst dies wenige hat doch 
+               großes Interesse für mich. Ich wage es, Sie um Ihren Beistand zu bitten. Ich verlange nichts als das 
+               <emph rend="underlined">vorzügliche</emph> (es sey nun in Rücksicht auf innern Gehalt, oder auf äußre Wichtigkeit) 
+               und überlaße Ihnen blindlings die Wahl. Ich wünsche nur, daß Sie mir alle 4 oder 6 Wochen ein 
+               <emph rend="underlined">kleines</emph> Paket schicken mögten. Ich weiß, daß der Transport in 
+               <rs type="place" ref="#plFr">Frankreich</rs> jetzt überaus schwer und kostbar ist: ich weiß aber auch, daß Sie öfter 
+               außerordentliche Gelegenheit haben: selbst die Couriere die der Preußische Gesandte in 
+               <rs type="place" ref="#plPa">Paris</rs> von Zeit zu Zeit hieher schickt, werden sich nicht weigern, eine Commission 
+               dieser Art zu übernehmen; und thäten sie es, so will ich hier eine Ordre an die Gesandschaft auswirken. Die <pb/> 
+               Schwierigkeit ist überdies bloß, die Sachen bis nach <rs type="place" ref="#plWs">Wesel</rs> zu befördern; denn von 
+               da werde ich sie schon abzulangen wißen.
+            </p>
+            <p>
+               Es ist mir bekannt, daß das baare Geld in <rs type="person" ref="#plPa">Paris</rs> unter die Seltenheiten gehört: ich 
+               werde daher nicht so unverschämt seyn, zu verlangen, daß Sie Sich in weitaussehende Auslagen für mich einlaßen 
+               sollen. Groß würden diese zwar nie werden können; denn Sie wißen wohl, daß man von solchen Broschüren wie ich sie 
+               verlange, für 15 oder 20 Livres viel kaufen kan. Nichts desto weniger verspreche ich Ihnen bestimmt, daß ich den 
+               Betrag der Sendung jedesmal im Moment, da ich sie erhalte, an <rs type="person" ref="#DJF">Fränkel</rs> auszahlen 
+               will. Unterbleibt es ein einzigesmal - denn Ordnung muß seyn - so dispensire ich Sie stillschweigend von der 
+               Fortsetzung. Unter diesen Bedingungen werden Sie mich - ich hoffe es - keine Fehlbitte thun laßen. Sie erzeigen mir 
+               hier einen großen und unvergeßlichen Dienst.
+            </p>
+            <p>
+               Von den rückständigen Schriften - denn seit 8 Monaten habe ich nichts als Journale aus 
+               <rs type="place" ref="#plPa">Paris</rs> gesehen - wünschte ich vorzüglich die zu haben, die um die Zeit der 
+               Revolution vom <date when-iso="1799-06-18">30<span rend="sup">ten</span> Prairial</date>, über die 
+               <emph rend="underlined">Revoluzion von <rs type="place" ref="#plEn">England</rs></emph> erschienen; besonders die 
+               drei, von <rs type="person" ref="#AJCJbdlM">Boullay</rs> (de la Meurthe), 
+               <rs type="person" ref="#BC">Benjamin Constant</rs>, und <rs type="person" ref="#Sal">Salaville</rs>. Hienächst die 
+               wichtigsten der Rechtfertigungsschriften der damals gestürzten Partei, die Selbst-Apologien von 
+               <rs type="person" ref="#PAM">Merlin</rs>, <rs type="person" ref="#LMdLRL">Reveillére</rs>, 
+               <rs type="person" ref="#BLJS">Scherer</rs>, <rs type="person" ref="#JBJ">Jourdan</rs> pp. Eine Schrift die damals 
+               unter dem Titel: 
+               <rs type="citation" ref="#p2393-1">Essai sur la nature et les divers agens de la conspiration présente</rs>, in der 
+               Fabrik von <rs type="person" ref="#FRBVJ">Vatar</rs> d. h. in der Fabrik des bekannten und berüchtigten 
+               <rs type="citation" ref="#e2393-2">Journal des hommes libres</rs> erschienen ist, wäre mir, aus einer gewissen 
+               Ursach ebenfalls sehr interessant.
+            </p>
+         </div>
+         <div n="4" corresp="#frf">
+            <p>
+               Für die Folge unterwerfe ich mich gänzlich Ihrer Auswahl. Nur vergessen Sie dabei, außer dem wichtigsten, was die 
+               Geschichte des Tages, und der Politik betrift, auch Haupt-Artikel über <pb/> die Finanzen nicht, besonders wünsche 
+               ich alles ohne Ausnahme zu haben, was über diesen Gegenstand aus der Feder von 
+               <rs type="person" ref="#CSA">Saint-Aubin</rs> hervorgeht - Schreiben Sie mir bald, recht bald, einen tröstlichen und 
+               hoffnungsvollen Bescheid auf diesen meinen sehr angelegentlichen Antrag.
+            </p>
+         </div>
+         <div n="5" corresp="#mnp">
+            <p>
+               In den letzten Wochen ist das <rs type="citation" ref="#p2393-2">Nouveau Paris von Mercier</rs> aus 
+               <rs type="person" ref="#FVW">Vieweg</rs>s Pressen erschienen. Ich erwartete wenig von diesem Buche; aber es ist, 
+               trotz des großen <del rend="stroked">Cramer</del> (in einem <rs type="citation" ref="#c2393-1">Ihrer Briefe</rs> 
+               aufs göttlichste charakterisirten) <rs type="person" ref="#Crm">Cramer</rs>, Empfehlung, ohne allen Streit, der 
+               <emph rend="underlined">letzte</emph> aller <emph rend="underlined">Schünde</emph>, welche die Revoluzion ins Leben 
+               rief. Mein einziger Trost ist, daß aller menschlichen Wahrscheinlichkeit gemäß, bei der jetzt in 
+               <rs type="place" ref="#plPa">Paris</rs> herrschenden Stimmung, dieses memorable Gemisch von Absurdität und 
+               <emph rend="underlined">Atrozität</emph>, dort nicht bloß schlechtweg verachtet, sondern 
+               <emph rend="underlined">angespien</emph> werden wird. Die <emph rend="underlined">Möglichkeit</emph> eines solchen 
+               Buches glaubt man <del rend="stroked">wirklich</del> nicht eher, als bis die schreckliche 
+               <emph rend="underlined">Wirklichkeit</emph> jene mit beweiset.
+            </p>
+         </div>
+         <div n="6" corresp="#jrnh">
+            <p>
+               Schreiben Sie mir doch, weil mich dies sehr interessirt, ob Sie <rs type="citation" ref="#e2393-1">mein Journal</rs> 
+               gelesen haben ? Ihr Urteil verlange ich für jetzt gar nicht: nur <emph rend="underlined">ob</emph> Sie es gelesen 
+               haben, <add place="above">und bis auf welchen Monat,</add> mögte ich äußerst gern wißen. Ich setze es im künftigen 
+               Jahre - obgleich aus großen Ursachen <emph rend="underlined">höchst ungern</emph> - in 
+               <rs type="person" ref="#Fro">Frölich</rs>'s <rs type="citation" ref="#e2393-3">Verlage</rs> fort. Mit 
+               <rs type="person" ref="#FVW">Vieweg</rs> habe ich mich gänzlich auseinander gesetzt. Und daß ich es, trotz mancher 
+               Genüsse, die es mir gewährt, trotz mancher interessanten Bekanntschaft, Correspondenz und so fort die es mir 
+               verschafft hat, auch <emph rend="underlined">nur</emph> noch im Jahr 1800 fortsetze, ist zum Voraus gewiß. In 
+               pekuniärer Rücksicht müßte ich es, wenn es sich hält, nie aufgeben; denn der Vortheil ist groß und reell.
+            </p>
+         </div>
+         <div n="7" corresp="#khum">
+            <p>
+               <rs type="person" ref="#Hum">Humboldt</rs> hat, wenn ich mich nicht ganz irre, seine Reise nach 
+               <rs type="place" ref="#plPa">Paris</rs> und so fort - <emph rend="underlined">verloren</emph>. Um die aesthetischen 
+               Versuche zu schreiben, durfte er nur nach <rs type="place" ref="#plTe">Tegel</rs> oder 
+               <rs type="place" ref="#plKp">Coepenick</rs> reisen: und die <pb/> großen Verhältnisse der Zeit scheint er wenig oder 
+               gar nicht benützt zu haben. Er hat sich in seinem Lebensplane vergriffen. Er hat seine Bestimmung misverstanden. Dis 
+               ist mir jetzt sehr klar geworden. Mit dem Genuß des Lebens soll es auch schlecht stehen: nach allem was mir 
+               <rs type="person" ref="#Grpg">Grappengiesser</rs>, den ich sehr häufig sehe, darüber sagt, hat er in 
+               <rs type="place" ref="#plPa">Paris</rs> ein Hunde-Leben geführt. Wozu das alles ? Er kehrt gewiß nicht besser, nicht 
+               größer zurück, als er ging. Hier wäre er <emph rend="underlined">vielleicht</emph> gewachsen.
+            </p>
+         </div>
+         <div n="8" corresp="#vkgvb">
+            <p>
+               Ich schreibe Ihnen heute über ernsthafte Dinge noch nichts, ob ich Ihnen gleich viel, unendlich viel sagen 
+               <emph rend="underlined">könnte</emph>. Ich erwarte erst Ihren nächsten Brief. Es wird ein glücklicher Augenblick für 
+               mich seyn, <del rend="stroked">daß</del> zu erfahren, daß Sie diesen so aufgenommen haben, wie ich es wünsche, und 
+               hoffe.
+            </p>
+         </div>
+         <closer>
+            <signed rend="right">Gentz.</signed>
+         </closer>
+         <postscript resp="#Min" corresp="#vwg">
+            <p>
+               Etwas spät zwar, kömt mein Dank für <rs type="citation" ref="#c2393-2">jenen Brief</rs> den Sie mir einst schrieben, 
+               und der mir viel Freude gemacht hat, um so mehr da meine kleine unbedeutende Person nie auf eine solche 
+               Aufmerksamkeit von Ihrer Seite rechnen konte. Ich erneure mein Andenken bey Ihnen, um Sie zu bitten, auch in der 
+               Folge <del rend="stroked">auch</del> mir einen kleinen Antheil Ihrer Freundschaft zu gewähren. Herzlich sehne ich 
+               mich Sie mahl wieder zu sehen, ob ich gleich zweifle, daß wir dies Glük je wieder <del rend="stroked">xxx</del> 
+               haben, leben Sie wohl ! und reisen Sie immer glüklich.
+            </p>
+         </postscript>
+         <closer resp="#Min">
+            <signed rend="right">Wilhelmine Gentz.</signed>
+         </closer>
+         <postscript corresp="#vkgvb">
+            <p>
+               Ich kan attestiren, daß <rs type="person" ref="#Min">meine Frau</rs> das ihrige treulich gethan hat, um Ihr 
+               Gedächtniß bei mir in ewiger Jugend zu erhalten, wenn hier ein Altern denkbar gewesen wäre.
+            </p>
+         </postscript>
+      </body>
+   </text>
+</TEI>

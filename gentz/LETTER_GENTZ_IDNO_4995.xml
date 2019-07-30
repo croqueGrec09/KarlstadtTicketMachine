@@ -1,0 +1,306 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc xml:id="LETTER_GENTZ_4995">
+         <titleStmt>
+            <title>Friedrich von Gentz an Friedrich Vieweg, 29. Dezember 1797</title>
+            <editor xml:id="edAG">Andreas Gálffy</editor>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <name>Forschungsstelle "Universitätssammlung Friedrich von Gentz"</name>
+               <link target="http://gentz-digital.ub.uni-koeln.de http://www.ub.uni-koeln.de/cdm/singleitem/collection/gentz/id/4994/"/>
+            </publisher>
+            <pubPlace>Cologne</pubPlace>
+            <idno type="Gentz-Edition-Number" n="4995"/>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <country>Germany</country>
+                  <settlement>Wiesbaden</settlement>
+                  <institution>Vieweg-Verlagsarchiv</institution>
+                  <repository>Briefsammlung 311 G, Gentz-Briefe</repository>
+                  <idno>Nr. 23</idno>
+               </msIdentifier>
+               <msContents>
+                  <summary>
+                     Für seine Reise nach Paris wünscht Gentz Vieweg alles Gute. Gilly wird Paris schon verlassen haben, daher 
+                     sieht es Gentz nicht für nötig, zu schreiben. An Humboldt konnte er nicht schreiben, weil die Angelegenheit 
+                     der Tabakadministration ihn zu stark einnahm. Gentz lässt ihn und verschiedene andere Leute grüßen, ebenso 
+                     La Garde im Postscript. Gentz bittet um verschiedene Zeitungen aus Paris und bestellt, dass er jeden Auftrag 
+                     Viewegs erfüllen wird.
+                  </summary>
+               </msContents>
+            </msDesc>
+            <listBibl type="defExpr">
+               <biblStruct xml:id="e4995-1" corresp="Grg-0013">
+                  <monogr>
+                     <author>
+                        <persName>
+                           <ref target="http://d-nb.info/gnd/119451158"/>
+                           <forename>Barnabé Farmian de</forename>
+                           <surname>Rosoy</surname>
+                        </persName>
+                     </author>
+                     <title>Gazette de Paris</title>
+                     <imprint>
+                        <pubPlace>Paris</pubPlace>
+                        <date>1789-1792</date>
+                     </imprint>
+                  </monogr>
+                  <ptr target="http://gazetier-revolutionnaire.gazettes18e.fr/periodique/gazette-de-paris-1789-1792"/>
+               </biblStruct>
+               <biblStruct xml:id="e4995-2" corresp="Grg-0014">
+                  <monogr>
+                     <author>
+                        <persName>
+                           <ref target="http://d-nb.info/gnd/128785292"/>
+                           <forename>Thomas-Maurice</forename>
+                           <surname>Royou</surname>
+                        </persName>
+                     </author>
+                     <title>Ami du Roi</title>
+                     <imprint>
+                        <pubPlace>Paris</pubPlace>
+                        <date>1790-1792</date>
+                     </imprint>
+                  </monogr>
+                  <ptr target="http://gazetier-revolutionnaire.gazettes18e.fr/periodique/ami-du-roi-1790-1792"/>
+               </biblStruct>
+               <biblStruct xml:id="e4995-3" corresp="Grg-0010">
+                  <monogr>
+                     <author>
+                        <persName>
+                           <ref target="http://d-nb.info/gnd/118946269"/>
+                           <forename>Jacques Pierre</forename>
+                           <surname>Brissot de Warwille</surname>
+                        </persName>
+                     </author>
+                     <title>Patriote français</title>
+                     <imprint>
+                        <pubPlace>Paris</pubPlace>
+                        <date>1789-1793</date>
+                     </imprint>
+                  </monogr>
+                  <ptr target="http://gazetier-universel.gazettes18e.fr/periodique/patriote-francais-1789-1793"/>
+               </biblStruct>
+               <biblStruct xml:id="e4995-4" corresp="Grg-0015">
+                  <monogr>
+                     <author>
+                        <persName>
+                           <ref target="http://d-nb.info/gnd/118521772"/>
+                           <forename>Jean Antoine Nicolas de Caritat de</forename>
+                           <surname>Condorcet</surname>
+                        </persName>
+                     </author>
+                     <title>Chronique de Paris</title>
+                     <imprint>
+                        <pubPlace>Paris</pubPlace>
+                        <date>1789-1793</date>
+                     </imprint>
+                  </monogr>
+                  <ptr target="gazetier-revolutionnaire.gazettes18e.fr/periodique/chronique-de-paris-1789-1793"/>
+               </biblStruct>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Masterarbeit zu Matrikelnummer 5584124</p>
+         </projectDesc>
+      </encodingDesc>
+      <profileDesc>
+         <creation>
+            <date when-iso="1797-12-29">29. Dezember 1797</date>
+         </creation>
+        <langUsage>
+           <language ident="d">deutsch</language>
+        </langUsage>
+         <textClass>
+            <keywords scheme="internal"><!-- internal: innerhalb des besagten Briefs -->
+               <term>Brief</term>
+               <term>Reise</term>
+               <term>Paris</term>
+               <term>Humboldt</term>
+            </keywords>
+            <keywords scheme="categorisation"><!-- Sinnabschnittseinteilung - relevant für den Fahrkartenautomaten! -->
+               <term xml:id="kgil">Gilly</term>
+               <term xml:id="tbk">Tabakadministration</term>
+               <term xml:id="khum">Humboldt</term>
+               <term xml:id="frz">französische Zeitungen</term>
+               <term xml:id="vwf">Vieweg - Freundschaft</term>
+               <term xml:id="vjdlg">Verhältnis Jean de la Garde</term>
+            </keywords>
+         </textClass>
+         <textDesc>
+            <channel>manuscript</channel>
+            <constitution type="single"/>
+            <derivation type="original"/>
+            <domain type="private"/>
+            <factuality type="fact"/>
+            <interaction type="partial"/>
+            <preparedness type="unprepared"/>
+            <purpose type="inform"/>
+         </textDesc>
+         <particDesc>
+            <listPerson>
+               <!-- Sender und Adressat -->
+               <person role="sender" xml:id="Gen">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/118538489"/>
+                     <forename>Friedrich von</forename>
+                     <surname>Gentz</surname>
+                  </persName>
+               </person>
+               <person role="receiver" xml:id="FVW">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/119049546"/>
+                     <forename>Friedrich</forename>
+                     <surname>Vieweg</surname>
+                  </persName>
+               </person>
+               <!-- erwähnte Personen -->
+               <person role="named" xml:id="FGil">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/118539345"/>
+                     <forename>Friedrich</forename>
+                     <surname>Gilly</surname>
+                  </persName>
+               </person>
+               <person role="named" xml:id="Hum">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/118554727"/>
+                     <forename>Wilhelm von</forename>
+                     <surname>Humboldt</surname>
+                  </persName>
+               </person>
+               <person role="named" xml:id="CvH">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/118554719"/>
+                     <forename>Caroline von</forename>
+                     <surname>Humboldt</surname>
+                  </persName>
+               </person>
+               <person role="named" xml:id="Bgdf">
+                  <persName>
+                     <ref/>
+                     <forename/>
+                     <surname>Burgsdorff</surname>
+                  </persName>
+               </person>
+               <person role="named" xml:id="CCm">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/136187250"/>
+                     <forename>Charlotte</forename>
+                     <surname>Campe</surname>
+                  </persName>
+               </person>
+               <person role="named" xml:id="FTL">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/141041900"/>
+                     <forename>François Théodore</forename>
+                     <surname>de Lagarde</surname>
+                  </persName>
+               </person>
+            </listPerson>
+         </particDesc>
+         <settingDesc>
+            <listPlace>
+               <!-- Start- und Zielort -->
+               <place type="sender" xml:id="plBe">
+                  <country>
+                     <ref target="http://d-nb.info/gnd/4047194-9"/>
+                     <placeName>Preußen</placeName>
+                  </country>
+                  <settlement>
+                     <ref target="http://d-nb.info/gnd/4005728-8"/>
+                     <placeName>Berlin</placeName>
+                  </settlement>
+               </place>
+               <!-- erwähnte Orte -->
+               <place type="named" xml:id="plPa">
+                  <country>
+                     <ref target="http://d-nb.info/gnd/4018145-5"/>
+                     <placeName>Frankreich</placeName>  
+                  </country>
+                  <settlement>
+                     <ref target="http://d-nb.info/gnd/4044660-8"/>
+                     <placeName>Paris</placeName>
+                  </settlement>
+               </place>
+            </listPlace>
+         </settingDesc>
+      </profileDesc>
+      <revisionDesc>
+         <change xml:id="init" when-iso="2018-02-27" who="#edAG">Erstauszeichnung und Normierung des Dokumentes im Rahmen der Masterarbeit der Matrikelnummer 5584124</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div n="1" corresp="#kgil">
+            <p>
+               Da dieses entsetzliche Wetter die nächsten Freunde von einander trennt, so muß ich Ihnen, mein theuerster Vieweg, 
+               schriftlich alles Glück zu Ihrer Reise wünschen, welches mein Herz Ihnen gönnt. Briefe für 
+               <rs type="person" ref="#FGil">Gilly</rs> gebe ich Ihnen nicht mit, weil es mir im Grunde doch nur gar zu 
+               wahrscheinlich ist, daß er <rs type="place" ref="#plPa">Paris</rs> verlaßen hat. Sollten Sie ihn demohnerachtet dort 
+               finden, so sagen Sie ihm nur, ein unnütz-geschriebner Brief wäre mir eine viel zu schreckliche Sache, als daß ich 
+               mich, auch selbst ihm zu gefallen, auf ein solches Risico einlaßen könnte. Seine beiden letzten Briefe hatte ich 
+               übrigens richtig erhalten: er würde wohl bemerkt haben, daß ich seit einer gewißen Epoche wohlbedächtig alles 
+               Schreiben an ihn ganz aufgegeben hätte. Desto sehnlicher schmachtete ich danach ihn bald wieder zu sehen, oder 
+               wenigstens recht ausführlich mit ihm correspondiren zu können. <pb/>
+            </p>
+         </div>
+         <div n="2" corresp="#tbk">
+            <p>
+               An <rs type="person" ref="#Hum">Humboldt</rs> hatte ich mir fest vorgenommen zu schreiben. Aber die Pflicht, dem 
+               Begräbniß der Tabacks-Administration zu assistiren, und der sehnliche Wunsch der beiden Minister, die von mir 
+               abgefasste Leichen-Rede auf diese Administration (das Declarations-Patent) schon Morgen in den Zeitungen zu sehen, 
+               hat mich gestern und heute unabläßig beschäftigt. 
+            </p>
+         </div>
+         <div n="3" corresp="#khum">
+            <p>
+               Es war mir also unmöglich, an ihn zu schreiben. Grüßen Sie aber ihn, und 
+               <rs type="person" ref="#CvH">seine Frau</rs>, und <rs type="person" ref="#Bgdf">Burgsdorff</rs>, auch alle andre mir 
+               bekannte Berliner und Berlinerinnen die Sie dort sehen werden, bestens von mir, und bitten Sie Humboldts recht 
+               angelegentlich, mir, wenn sie Zeit und Muth dazu haben, zu schreiben.
+            </p>
+         </div>
+         <div n="4" corresp="#frz">
+            <p>
+               Meine Aufträge in <rs type="place" ref="#plPa">Paris</rs> darf ich Ihnen kaum specificiren, da Sie meine Bedürfnisse 
+               kennen. Alles, was Sie aus den frühern Zeiten der Revolution finden, wird <pb/> mir willkommen seyn, besonders aber 
+               bitte ich Sie, zu vigiliren, ob Sie nicht von folgenden Zeitschriften 
+               <rs type="citation" ref="#e4995-1">Gazette de Paris</rs>, <rs type="citation" ref="#e4995-2">Ami du Roi</rs>, 
+               <rs type="citation" ref="#e4995-3">Le Patriote Francois</rs>, 
+               <rs type="citation" ref="#e4995-4">Chronique de Paris</rs>, noch etwas auftreiben können. Gilt es irgend einen 
+               wichtigen Kauf, so benachrichtigen Sie mich, wo möglich, vorher davon, weil es bey meinem, doch schon sehr 
+               angewachsnen Reichthum immer gar leicht möglich wäre, daß ich unnütze Doubletten erhielte.
+            </p>
+         </div>
+         <div n="5" corresp="#vwf">
+            <p>
+               Jedes Geschäft, jede Besorgung, wozu Sie mich irgend fähig glauben, wenden Sie mir in Ihrer Abwesenheit zu. Ich werde 
+               es mir überdies zur Pflicht machen, Ihre <rs type="person" ref="#CCm">liebe Frau</rs> von Zeit zu Zeit zu besuchen, 
+               und bitte Sie, mich nicht ganz zu vergessen.
+            </p>
+            <p>
+               Alles Vergnügen, das eine solche Reise gewähren kan und muß, sey Ihr im reichsten Maße. Dies ist der Wunsch
+            </p>
+         </div>
+         <closer>
+            <salute rend="right">Ihres treuen Freunds</salute>
+            <signed rend="right">Gentz</signed>
+         </closer>
+         <postscript corresp="#vjdlg">
+            <p>
+               Auch viele Reise-Grüße an <rs type="person" ref="#FTL">La Garde</rs>.
+            </p>
+         </postscript>
+      </body>
+   </text>
+</TEI>

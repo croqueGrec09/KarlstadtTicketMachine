@@ -1,0 +1,358 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader type="text">
+      <fileDesc xml:id="LETTER_GENTZ_3641">
+         <titleStmt>
+            <title>Friedrich von Gentz an Friedrich Vieweg, Anfang Juli 1795</title>
+            <editor xml:id="edAG">Andreas Gálffy</editor>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <name>Forschungsstelle "Universitätssammlung Friedrich von Gentz"</name>
+               <link target="http://gentz-digital.ub.uni-koeln.de http://www.ub.uni-koeln.de/cdm/singleitem/collection/gentz/id/3640/"/>
+            </publisher>
+            <pubPlace>Cologne</pubPlace>
+            <idno type="Gentz-Edition-Number" n="3641"/>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <country>Germany</country>
+                  <settlement>Wiesbaden</settlement>
+                  <institution>Vieweg-Verlagsarchiv</institution>
+                  <repository>Briefsammlung 311 G, Gentz-Briefe</repository>
+                  <idno>Nr. 18</idno>
+               </msIdentifier>
+               <msContents>
+                  <summary>
+                     Viel Literatur wurde bestellt, aber nicht geliefert. So bringt sich Gentz, um nicht ganz in vergessenheit zu 
+                     geraten, bei Vieweg in erinnerung.
+                     Das Memoire von Louvet fehlt, auch bei Fauche keine Entwicklung. Letztere müsste um zwei Artikel erweitert 
+                     werdenm. Memoires sur la Revolution par Garat, Ex-Ministre und Rapport de la Commission sur les papiers de 
+                     Robespierre par Courtois sind zwei Werke, zu denen Übersetzungen angekündigt sind. Zwei weitere Werke zu acht 
+                     Tafeln sollen über Hoffmann in Habmurg bezogen werden: Tableau de l'etendue de la Population et des 
+                     Contributions de la France suivant l'ordre de la nouvelle division 1 Janvier 93 sowie Etat general de la 
+                     situation des Finances au 1 Janvier 1793.
+                     Vieweg soll weiter ein Billet des jungen Friedländer zustellen. Am Montag bringt Gentz Manuskript für die 
+                     Monatsschrift mit.
+                  </summary>
+               </msContents>
+            </msDesc>
+            <listBibl type="letterReferenced">
+               <bibl xml:id="c3641-1" corresp="#LETTER_GENTZ_NNNN">nicht bekannter Brief von Moses Friedländer an N.N.</bibl>
+            </listBibl>
+            <listBibl type="defExpr">
+               <biblStruct xml:id="e3641-1" corresp="BSB-0007">
+                  <monogr>
+                     <title>Göttingische Anzeigen von gelehrten Sachen</title>
+                     <imprint>
+                        <pubPlace>Göttingen</pubPlace>
+                        <publisher>Johann Christian Dietrich</publisher>
+                        <date>1795</date>
+                     </imprint>
+                     <biblScope unit="volume" n="1">
+                        Der erste Band, auf das Jahr 1795
+                     </biblScope>
+                  </monogr>
+               <ptr target="http://www.mdz-nbn-resolving.de/urn/resolver.pl?urn=urn:nbn:de:bvb:12-bsb10538881-6"/></biblStruct>
+            </listBibl>
+            <listBibl type="defRep">
+               <biblStruct xml:id="p3641-1" corresp="GBk-0000">
+                  <monogr>
+                     <author>
+                        <persName>
+                           <ref target="http://d-nb.info/gnd/118881485"/>
+                           <forename>Jean-Baptiste</forename>
+                           <surname>Louvet de Couvray</surname>
+                        </persName>
+                     </author>
+                     <title>Quelques notices pour l'histoire, et le récit de mes périls depuis le 31 mai 1793</title>
+                     <imprint>
+                        <pubPlace>Paris</pubPlace>
+                        <publisher>Jean-Baptiste Louvet, La Veuve d'Ant-Jos. Gorsas, Bailly</publisher>
+                        <date>1794</date>
+                     </imprint>
+                  </monogr>
+               <ptr target="https://books.google.de/books/about/Quelques_notices_pour_l_histoire_et_le_r.html?id=tTXe7rsXEpoC"/></biblStruct>
+               <biblStruct xml:id="p3641-2" corresp="BnF-0000">
+                  <monogr>
+                     <author>
+                        <persName>
+                           <ref target="http://d-nb.info/gnd/128894733"/>
+                           <forename>Dominique-Joseph</forename>
+                           <surname>Garat</surname>
+                        </persName>
+                     </author>
+                     <title>Mémoires sur la Révolution</title>
+                     <imprint>
+                        <pubPlace>Paris</pubPlace>
+                        <publisher>J. J. Smit et Cie</publisher>
+                        <date>1794</date>
+                     </imprint>
+                  </monogr>
+               <ptr target="http://gallica.bnf.fr/ark:/12148/bpt6k46768s"/></biblStruct>
+               <biblStruct xml:id="p3641-3" corresp="Arc-0006">
+                  <monogr>
+                     <author>
+                        <persName>
+                           <ref target="http://d-nb.info/gnd/1026356865"/>
+                           <forename>Edme-Bonaventure</forename>
+                           <surname>Courtois</surname>
+                        </persName>
+                     </author>
+                     <title>Rapport fait au nom de la commission chargée de l'examen des papiers trouvés chez Robespierre et ses complices</title>
+                     <imprint>
+                        <pubPlace>Paris</pubPlace>
+                        <publisher>Maret</publisher>
+                        <date>1794</date>
+                     </imprint>
+                  </monogr>
+               <ptr target="https://archive.org/details/rapportfaitaunom00cour_0"/></biblStruct>
+               <biblStruct xml:id="p3641-4" corresp="#LETTER_GENTZ_NNNN">
+                  <monogr>
+                     <title>Staats- und Gelehrte Zeitung des Hamburgischen unpartheyischen Correspondenten</title>
+                     <imprint>
+                        <pubPlace>Hamburg</pubPlace>
+                        <publisher>Grundsche Erben</publisher>
+                        <date>1795</date>
+                     </imprint>
+                     <biblScope unit="issue" n="104">
+                        Nro. 104
+                     </biblScope>
+                  </monogr>
+                  <note>Diese Zeitung ist digital sehr lückenhaft erfasst, aus den 1790er-Jahren gibt es nur eine Ausgabe vom 5. Feburar 1793</note>
+               <ptr target="#LETTER_GENTZ_NNNN"/></biblStruct>
+               <bibl xml:id="p3641-5" corresp="#LETTER_GENTZ_NNNN">Tableau de l'etendue de la Population et des Contributions de la France suivant l'ordre de la nouvelle division. 1 Janvier 1793 (keine Leseprobe)</bibl>
+               <bibl xml:id="p3641-6" corresp="#LETTER_GENTZ_NNNN">Etat general de la situation des Finances au 1 Janvier 1793</bibl>
+               <biblStruct xml:id="p3641-7" corresp="UBi-0006">
+                  <monogr>
+                     <author>
+                        <persName>
+                           <ref target="http://d-nb.info/gnd/118538489"/>
+                           <forename>Friedrich von</forename>
+                           <surname>Gentz</surname>
+                        </persName>
+                     </author>
+                     <title>Neue Deutsche Monatsschrift</title>
+                     <imprint>
+                        <pubPlace>Berlin</pubPlace>
+                        <publisher>Friedrich Vieweg der Ältere</publisher>
+                        <date>1795</date>
+                     </imprint>
+                     <biblScope unit="volume" n="2">
+                        Zweiter Band.
+                     </biblScope>
+                  </monogr>
+               <ptr target="http://ds.ub.uni-bielefeld.de/viewer/image/1938308_002/2/"/></biblStruct>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Masterarbeit zu Matrikelnummer 5584124</p>
+         </projectDesc>
+      </encodingDesc>
+      <profileDesc>
+         <creation>
+            <date when-iso="1795-07-00">Anfang Juli 1795</date>
+         </creation>
+        <langUsage>
+           <language ident="d">deutsch</language>
+        </langUsage>
+         <textClass>
+            <keywords scheme="internal"><!-- internal: innerhalb des besagten Briefs -->
+               <term>Brief</term>
+               <term>Monatsschrift</term>
+               <term>Louvet</term>
+               <term>Fauche</term>
+               <term>Literatur</term>
+               <term>Revolution</term>
+            </keywords>
+            <keywords scheme="categorisation"><!-- Sinnabschnittseinteilung - relevant für den Fahrkartenautomaten! -->
+               <term xml:id="bibl">Bibliothek</term>
+               <term xml:id="vwf">Vieweg - Freundschaft</term>
+               <term xml:id="mss">Monatsschrift</term>
+            </keywords>
+         </textClass>
+         <textDesc>
+            <channel>manuscript</channel>
+            <constitution type="single"/>
+            <derivation type="original"/>
+            <domain type="private"/>
+            <factuality type="fact"/>
+            <interaction type="partial"/>
+            <preparedness type="prepared"/>
+            <purpose type="inform"/>
+         </textDesc>
+         <particDesc>
+            <listPerson>
+               <!-- Sender und Adressat -->
+               <person role="sender" xml:id="Gen">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/118538489"/>
+                     <forename>Friedrich von</forename>
+                     <surname>Gentz</surname>
+                  </persName>
+               </person>
+               <person role="receiver" xml:id="FVW">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/119049546"/>
+                     <forename>Friedrich</forename>
+                     <surname>Vieweg</surname>
+                  </persName>
+               </person>
+               <!-- erwähnte Personen -->
+               <person role="named" xml:id="Fch">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/1037541707"/>
+                     <forename>Pierre François</forename>
+                     <surname>Fauche</surname>
+                  </persName>
+               </person>
+               <person role="named" xml:id="DJG">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/128894733"/>
+                     <forename>Dominique-Joseph</forename>
+                     <surname>Garat</surname>
+                  </persName>
+               </person>
+               <person role="named" xml:id="EBC">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/1026356865"/>
+                     <forename>Edme-Bonaventure</forename>
+                     <surname>Courtois</surname>
+                  </persName>
+               </person>
+               <person role="named" xml:id="Hfm">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/116950781"/>
+                     <forename>Benjamin Gottlob</forename>
+                     <surname>Hoffmann</surname>
+                  </persName>
+               </person>
+               <person role="named" xml:id="Frl">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/136985181"/>
+                     <forename>Moses</forename>
+                     <surname>Friedlaender</surname>
+                  </persName>
+               </person>
+               <person role="named" xml:id="GZin">
+                  <persName>
+                     <ref/>
+                     <forename>von</forename>
+                     <surname>Zinzendorff</surname>
+                     <roleName type="office">Graf</roleName>
+                  </persName>
+               </person>
+            </listPerson>
+         </particDesc>
+         <settingDesc>
+            <listPlace>
+               <!-- Start- und Zielort -->
+               <place type="sender" xml:id="plBe">
+                  <country>
+                     <ref target="http://d-nb.info/gnd/4047194-9"/>
+                     <placeName>Preußen</placeName>
+                  </country>
+                  <settlement>
+                     <ref target="http://d-nb.info/gnd/4005728-8"/>
+                     <placeName>Berlin</placeName>
+                  </settlement>
+               </place>
+               <!-- erwähnte Orte -->
+               <place type="named" xml:id="plDe">
+                  <country>
+                     <ref target="http://d-nb.info/gnd/2035457-5"/>
+                     <placeName>Deutschland</placeName>  
+                  </country>
+               </place>
+               <place type="receiver" xml:id="plHa">
+                  <country>
+                     <ref target="http://d-nb.info/gnd/4023118-5"/>
+                     <placeName>Hamburg</placeName>
+                  </country>
+                  <settlement>
+                     <ref target="http://d-nb.info/gnd/4023118-5"/>
+                     <placeName>Hamburg</placeName>
+                  </settlement>
+               </place>
+               <place type="named" xml:id="plFr">
+                  <country>
+                     <ref target="http://d-nb.info/gnd/4018145-5"/>
+                     <placeName>Frankreich</placeName>  
+                  </country>
+               </place>
+            </listPlace>
+         </settingDesc>
+      </profileDesc>
+      <revisionDesc>
+         <change xml:id="init" when-iso="2018-02-16" who="#edAG">Erstauszeichnung und Normierung des Dokumentes im Rahmen der Masterarbeit der Matrikelnummer 5584124</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div n="1" corresp="#bibl">
+            <p>
+               Um nicht ganz bey Ihnen in Vergessenheit zu kommen, alter Freund, muß ich mich von Zeit zu Zeit schriftlich melden.
+            </p>
+            <p>
+               Das <rs type="citation" ref="#p3641-1">Memoire von <emph rend="underlined">Louvet</emph></rs> sind Sie noch nicht so 
+               gütig gewesen mir zu schicken.
+            </p>
+            <p>
+               Die französischen Bestellungen haben zwar, wie ich sehe, bey <rs type="person" ref="#Fch">Fauche</rs> ebenfalls, 
+               leider, keinen Fortgang. Indessen muß ich sie doch mit zwei überaus wichtigen Artikeln vermehren, welche zu haben in 
+               <rs type="place" ref="#plDe">Deutschland</rs> nicht unmöglich seyn muß, da von beiden Uebersetzungen angekündigt 
+               sind, letztrer sogar in den <rs type="citation" ref="#e3641-1">Göttingischen Anzeigen</rs> rezensirt ist.
+            </p>
+            <p>
+               1. <rs type="citation" ref="#p3641-2">Memoires sur la Revolution</rs> par 
+               <rs type="person" ref="#DJG"><emph rend="underlined">Garat</emph>, Ex-Ministre</rs>
+            </p>
+            <p>
+               2. <rs type="citation" ref="#p3641-3">Rapport de la Commission sur les papiers de Robespierre</rs> par 
+               <rs type="person" ref="#EBC"><emph rend="underlined">Courtois</emph></rs>;
+            </p>
+            <p>
+               Weniger Schwierigkeiten wird es hoffentlich machen, von <del rend="stroked">folgenden</del> den in 
+               <rs type="citation" ref="#p3641-4">Nro. 104 des Hamburgischen Correspondenten</rs> angezeigten bey 
+               <rs type="person" ref="#Hfm">Hoffmann</rs> in <rs type="place" ref="#plHa">Hamburg</rs> zu habenden 8 Tableaux über 
+               den innern Zustand <rs type="place" ref="#plFr">Frankreich</rs>s im <date when-iso="1793-00-00">Jahre 93</date> 
+               folgende beide zu haben:
+            </p>
+            <lg>
+               <l><rs type="citation" ref="#p3641-5">Tableau de l'etendue de la Population et des Contributions de la France suivant l'ordre de la nouvelle division. 1 Janvier 93.</rs> und <pb/></l>
+               <l><rs type="citation" ref="#p3641-6">Etat general de <add place="above">la</add> situation des Finances au 1 Janvier 1793</rs>.</l>
+            </lg>
+            <p>
+               Ich vermuthe aber, daß man wird rasch dahinter her seyn müssen, weil vermuthlich nur einzelne Exemplare vorhanden 
+               seyn werden.
+            </p>
+         </div>
+         <div n="2" corresp="#vwf">
+            <p>
+               Endlich bitte ich Sie Ihren Comptoir-Offizianten <rs type="citation" ref="#c3641-1">beiliegendes Billet</rs> des 
+               <rs type="person" ref="#Frl">jungen Friedländer</rs> zuzustellen, nach welchem <del rend="stroked">Sie</del> sie nun 
+               das mir fehlende kleine Buch für den <rs type="person" ref="#GZin">Grafen Zinsendorff</rs> leicht werden auffinden 
+               können.
+            </p>
+         </div>
+         <div n="3" corresp="#mss">
+            <p>
+               Montag komme ich zur Stadt, und bringe Manuscript für die <rs type="citation" ref="#p3641-7">Monats-Schrift</rs> mit. 
+               Bis dahin empfehle ich mich in geneigtes Andenken
+            </p>
+            <signed rend="right">Gentz</signed>
+         </div>
+      </body>
+      <back>
+         <p>
+            Herrn
+            <rs type="person" ref="#VWF">Herrn Vieweg</rs>
+            Wohlgebohr.
+         </p>
+         <note resp="#FVW"><rs type="place" ref="#plBe">Berlin</rs> im <date when-iso="1795-07-00">Jul. 1795</date></note>
+      </back>
+   </text>
+</TEI>

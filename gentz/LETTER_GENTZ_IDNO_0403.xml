@@ -1,0 +1,560 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc xml:id="LETTER_GENTZ_0403">
+         <titleStmt>
+            <title>Friedrich von Gentz an Friedrich Schiller, 3. Januar 1802</title>
+            <editor xml:id="edAG">Andreas Gálffy</editor>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <name>Forschungsstelle "Universitätssammlung Friedrich von Gentz"</name>
+               <link target="http://gentz-digital.ub.uni-koeln.de http://www.ub.uni-koeln.de/cdm/singleitem/collection/gentz/id/402/"/>
+            </publisher>
+            <pubPlace>Cologne</pubPlace>
+            <idno type="Gentz-Edition-Number" n="0403"/>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <country>Germany</country>
+                  <settlement>Marbach am Neckar</settlement>
+                  <institution>Schiller-Nationalmuseum / Deutsches Literaturarchiv</institution>
+                  <repository>Handschriftenabteilung</repository>
+                  <idno>1104</idno>
+               </msIdentifier>
+               <msContents>
+                  <summary>
+                     Es gibt doch noch Ausnahmen unter den Ausnahmen; so freut sich Gentz außerordentlich darüber, dass trotz der 
+                     Tiefe der Gedanken, die Schiller in seinen Werken ausdrückt, ein normaler Gedankenaustausch ebenfalls möglich 
+                     sei - und das zwanglos. Gentz gibt sich bescheiden, er meint, nie einen bleibenden Eindruck bei Schiller 
+                     hinterlassen zu können. Im Folgenden begründet er, warum Schiller auf ihn einen so bleibenden Eindruck 
+                     hinterlassen hat - er hat nämlich anlässlich der Eröffnung des Berliner Theaters Schillers Johanna von Orléans 
+                     besucht. Der tiefe Eindruck wurde bestärkt, den Gentz von Schiller hatte; an der Aufführung aber ließ er kein 
+                     gutes Haar. Die Besetzung war katastrophal, die Inszenierung verdorben. Den Zulauf verdankt das Stück nur dem 
+                     Geiste Schillers, der dort innewohnt. Er beklagt auch den Verfall des Theaters.
+                  </summary>
+               </msContents>
+            </msDesc>
+            <listBibl type="preprints">
+               <biblStruct>
+                  <monogr>
+                     <editor>
+                        <persName>
+                           <ref />
+                           <forename>Otto</forename>
+                           <surname>Günter</surname>
+                        </persName>
+                     </editor>
+                     <title>Marbacher Schillerbuch</title>
+                     <imprint>
+                        <pubPlace>Stuttgart und Berlin</pubPlace>
+                        <date>1907</date>
+                     </imprint>
+                     <biblScope unit="volume" n="2">
+                        II
+                     </biblScope>
+                     <biblScope unit="page" from="345" to="354">
+                        Nr. 55
+                     </biblScope>
+                  </monogr>
+               </biblStruct>
+               <biblStruct>
+                  <monogr>
+                     <editor>
+                        <persName>
+                           <ref />
+                           <forename>Stefan</forename>
+                           <surname>Ormanns</surname>
+                        </persName>
+                     </editor>
+                     <title>Schillers Werke, Nationalausgabe</title>
+                     <imprint>
+                        <pubPlace>Weimar</pubPlace>
+                        <date>1988</date>
+                     </imprint>
+                     <biblScope unit="volume" n="37">
+                        39. Bd. Teil I. Briefwechsel. Briefe an Schiller 1.1.1801-31.12.1802 
+                     </biblScope>
+                     <biblScope unit="page" from="157" to="163">
+                        Nr. 167
+                     </biblScope>
+                  </monogr>
+               </biblStruct>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Masterarbeit zu Matrikelnummer 5584124</p>
+         </projectDesc>
+      </encodingDesc>
+      <profileDesc>
+         <creation>
+            <date when-iso="1802-01-03">3. Januar 1802</date>
+         </creation>
+        <langUsage>
+           <language ident="d">deutsch</language>
+        </langUsage>
+         <textClass>
+            <keywords scheme="internal"><!-- internal: innerhalb des besagten Briefs -->
+               <term>Brief</term>
+               <term>Rezension</term>
+               <term>Kritik</term>
+               <term>Johanna von Orléans</term>
+               <term>Theater</term>
+               <term>Iffland</term>
+               <term>Verfall</term>
+            </keywords>
+            <keywords scheme="categorisation"><!-- Sinnabschnittseinteilung - relevant für den Fahrkartenautomaten! -->
+               <term xml:id="vfs">Verhältnis Friedrich Schiller</term>
+               <term xml:id="lvm">Literatur vermischt</term>
+            </keywords>
+         </textClass>
+         <textDesc>
+            <channel>manuscript</channel>
+            <constitution type="single"/>
+            <derivation type="original"/>
+            <domain type="private"/>
+            <factuality type="fact"/>
+            <interaction type="partial"/>
+            <preparedness type="prepared"/>
+            <purpose type="inform"/>
+         </textDesc>
+         <particDesc>
+            <listPerson>
+               <!-- Sender und Adressat -->
+               <person role="sender" xml:id="Gen">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/118538489"/>
+                     <forename>Friedrich von</forename>
+                     <surname>Gentz</surname>
+                  </persName>
+               </person>
+               <person role="receiver" xml:id="Sch">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/118607626"/>
+                     <forename>Friedrich</forename>
+                     <surname>Schiller</surname>
+                  </persName>
+               </person>
+               <!-- erwähnte Personen -->
+               <person role="named" xml:id="HMy">
+                  <persName>
+                     <ref />
+                     <forename>Henriette</forename>
+                     <surname>Meyer</surname>
+                  </persName>
+               </person>
+               <person role="named" xml:id="FJBsch">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/130840246"/>
+                     <forename>Friedrich Jonas</forename>
+                     <surname>Beschort</surname>
+                  </persName>
+               </person>
+               <person role="named" xml:id="FMat">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/136266231"/>
+                     <forename>Franz</forename>
+                     <surname>Mattausch</surname>
+                  </persName>
+               </person>
+               <person role="named" xml:id="HLBth">
+                  <persName>
+                     <ref />
+                     <forename>Heinrich Levien</forename>
+                     <surname>Bethmann</surname>
+                  </persName>
+               </person>
+               <person role="named" xml:id="Lmk">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/102745390"/>
+                     <forename>Christan</forename>
+                     <surname>Lemcke</surname>
+                  </persName>
+               </person>
+               <person role="named" xml:id="StSHdt">
+                  <persName>
+                     <ref />
+                     <forename>Stephan Siegmund</forename>
+                     <surname>Herdt</surname>
+                  </persName>
+               </person>
+               <person role="named" xml:id="CAWS">
+                  <persName>
+                     <ref />
+                     <forename>Carl August Wilhelm</forename>
+                     <surname>Schwadtke</surname>
+                  </persName>
+               </person>
+               <person role="named" xml:id="MMue">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/132033259"/>
+                     <forename>Marianne</forename>
+                     <surname>Müller</surname>
+                  </persName>
+               </person>
+               <person role="named" xml:id="CHdt">
+                  <persName>
+                     <ref />
+                     <forename>Charlotte</forename>
+                     <surname>Herdt</surname>
+                  </persName>
+               </person>
+               <person role="named" xml:id="BAnW">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/119515903"/>
+                     <forename>Bernhard Anselm</forename>
+                     <surname>Weber</surname>
+                  </persName>
+               </person>
+               <person role="named" xml:id="Iff">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/118555324"/>
+                     <forename>August Wilhelm</forename>
+                     <surname>Iffland</surname>
+                  </persName>
+               </person>
+               <person role="named" xml:id="FrB">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/118510347"/>
+                     <forename>Friederike</forename>
+                     <surname>Bethmann</surname>
+                  </persName>
+               </person>
+               <person role="named" xml:id="HMb">
+                  <persName>
+                     <ref />
+                     <forename>Helene</forename>
+                     <surname>Mebus</surname>
+                  </persName>
+               </person>
+               <person role="named" xml:id="LSFl">
+                  <persName>
+                     <ref />
+                     <forename>Luise Sophie</forename>
+                     <surname>Fleck</surname>
+                  </persName>
+               </person>
+               <person role="named" xml:id="MLSch">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/118607413"/>
+                     <forename>Margarete Luise</forename>
+                     <surname>Schick</surname>
+                  </persName>
+               </person>
+               <person role="named" xml:id="Hrklz">
+                  <persName>
+                     <ref />
+                     <forename/>
+                     <surname>Herklotz</surname>
+                  </persName>
+               </person>
+               <person role="named" xml:id="Hum">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/118554727"/>
+                     <forename>Wilhelm von</forename>
+                     <surname>Humboldt</surname>
+                  </persName>
+               </person>
+               <person role="named" xml:id="CvH">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/118554719"/>
+                     <forename>Caroline von</forename>
+                     <surname>Humboldt</surname>
+                  </persName>
+               </person>
+               <person role="named" xml:id="CvSch">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/118754971"/>
+                     <forename>Charlotte von</forename>
+                     <surname>Goethe</surname>
+                  </persName>
+               </person>
+               <person role="named" xml:id="KvW">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/118771272"/>
+                     <forename>Karoline von</forename>
+                     <surname>Wollzogen</surname>
+                  </persName>
+               </person>
+               <person role="named" xml:id="JWvG">
+                  <persName>
+                     <ref target="https://d-nb.info/gnd/118540238"/>
+                     <forename>Johann Wolfgang von</forename>
+                     <surname>Goethe</surname>
+                  </persName>
+               </person>
+            </listPerson>
+         </particDesc>
+         <settingDesc>
+            <listPlace>
+               <!-- Start- und Zielort -->
+               <place type="sender" xml:id="plBe">
+                  <country>
+                     <ref target="http://d-nb.info/gnd/4047194-9"/>
+                     <placeName>Preußen</placeName>
+                  </country>
+                  <settlement>
+                     <ref target="http://d-nb.info/gnd/4005728-8"/>
+                     <placeName>Berlin</placeName>
+                  </settlement>
+               </place>
+               <place type="receiver" xml:id="plWe">
+                  <country>
+                     <ref target="http://d-nb.info/gnd/4051194-7"/>
+                     <placeName>Sachsen-Weimar-Eisenach</placeName>
+                  </country>
+                  <settlement>
+                     <ref target="http://d-nb.info/gnd/4065105-8"/>
+                     <placeName>Weimar</placeName>
+                  </settlement>
+               </place>
+               <!-- erwähnte Orte -->
+               <place type="named" xml:id="plDe">
+                  <country>
+                     <ref target="http://d-nb.info/gnd/2035457-5"/>
+                     <placeName>Deutschland</placeName>  
+                  </country>
+               </place>
+            </listPlace>
+         </settingDesc>
+      </profileDesc>
+      <revisionDesc>
+         <change xml:id="init" when-iso="2018-03-10" who="#edAG">Erstauszeichnung und Normierung des Dokumentes im Rahmen der Masterarbeit der Matrikelnummer 5584124</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div n="1" corresp="#vfs">
+            <p>
+               Das Bild der ewig-unvergeßlichen Stunden, die ich mit Ihnen und in Ihrer Nähe verlebte, drängt sich, indem ich jetzt 
+               schreiben will, so frisch und so bezaubernd vor meine Seele, daß ich kaum begreife, wie ich mich dem kalten, 
+               nüchternen, beschränkten Werkzeuge eines Briefes überlaßen kan, da ich selbst durch die gegenwärtigsten und 
+               lebendsten Worte nur immer sehr schlecht aussprechen würde, was ich Ihnen eigentlich sagen mögte !
+            </p>
+            <p>
+               Sie haben höchst wunderbar auf mich gewirkt. Wenn mir noch vor zwei Monaten einer gesagt hätte, daß Sie größer wären 
+               als Ihre Werke, so würde er mich ungläubig gefunden haben. Ich hielt diese <del rend="stroked">fast</del>, in meiner 
+               tiefen, in meiner gerechten Bewunderung, fast durchgängig für Produkte einer hohen Inspiration, die den Menschen 
+               allemal über sich selbst erhebt; und ob ich gleich wohl wußte, daß der, welchen die Götter einer solchen Gunst 
+               würdigen, immer schon ein außerordentlicher Mensch seyn muß, so konnte ich mich doch nie ganz von dem Gedanken 
+               losmachen, daß es eher etwas peinliches als etwas erfreuliches seyn müßte, den Günstling der Götter, aus den Stunden 
+               der Weihe herausgerissen, im alltäglichen Leben herumwandeln zu sehen, und gewöhnliche Gespräche, gleichviel ob 
+               philosophische oder nicht philosophische führen zu hören.
+            </p>
+            <p>
+               Der Umgang mit Ihnen hat diesen Wahn zerstört. Mit Erstaunen sah, und fast mögte ich hinzu<pb/>setzen, begriff ich, 
+               daß es ein Gemüth geben kan, das selbst solche Werke, wie die Ihrigen sind, mit vollkommenster Freiheit hervorbringt. 
+               - Sobald ich dies gefaßt hatte, erblickte ich Sie nothwendig über allen Ihren Produkten; und die unendliche Tiefe und 
+               Fülle, die sich nachher, in jedem Momente unsrer Unterredung mächtiger, vor mir entwickelte, überzeugte mich immer 
+               mehr und mehr von der unbedingten, und unbegränzten Wahrheit dieser Ansicht. In einigen Augenblicken, und ehe ich mit 
+               mir selbst recht im Reinen war, wirkte sie sogar ungünstig auf mich; es that mir beinahe weh, daß ich Sie Selbst von 
+               gewißen eminenten Stellen Ihrer Werke viel weniger affizirt sah, als ich es mir eingebildet hatte, und als ich es 
+               war; aber am Ende lösete sich das alles nicht bloß in eine reinere Bewunderung, sondern auch in eine höhere Liebe 
+               auf. Mir wurde so wohl bei dem Schöpfer, daß ich sogar seine Geschöpfe vergaß; und so oft und gern ich mich auch in 
+               den Strömen, die Ihr Genius fließen hieß, berauscht hatte, so wurde es mir zuletzt doch noch süßer, aus ihrer lautern 
+               Quelle zu trinken.Was mich an Ihrem Geiste am meisten ergötzt und erquickt hat, ist das, daß er in einer so großen 
+               Tiefe eine so ausnehmende Klarheit <add place="above">zu</add> behaupten, und in einen so großen Reichthum einen 
+               <pb/> so wundervollen Zusammenhang, <add place="above">eine</add> so beruhigende Ordnung und Methode zu bringen weiß. 
+               Die meisten tiefen Köpfe unsrer Zeit haben etwas mystisches, und die meisten reichen etwas fragmentarisches an sich, 
+               was schon ihren Schriften alles wahre Leben, und nun vollends ihrem Umgange gewöhnlich alle Anmuth, und alles, was 
+               eigentlich befriedigen kan, entzieht. Nur mit Ihnen fand ich es anders. Da mein Geist offenbar weniger tief, weniger 
+               reich, und weniger stark ist, als der Ihrige, so wäre es Thorheit von mir gewesen, zu verlangen, daß ich Ihnen stets 
+               mit gleicher Leichtigkeit folgen, und in jedem Moment den <del rend="stroked">ganzen</del> Zusammenhang Ihrer Ideen 
+               gleich deutlich übersehen wollte. Aber das Ganze lag doch immer mit bewundernswürdiger Klarheit vor mir; und wenn ich 
+               noch jetzt auf meine Gespräche mit Ihnen, besonders auf das letzte und ausführlichste zurücksehe, so stellt es sich 
+               mir immer wie eine einzelne organisirte Masse, und alles was Sie sagten, wie ein vollendetes Kunstwerk dar.
+            </p>
+            <p>
+               Ich konnte auf Sie weder einen tiefen noch einen bleibenden Eindruck machen; und werde es, aus guten Ursachen, nie 
+               können. Aber ich wünschte wenigstens einen nicht ungefälligen gemacht zu haben; und, wenn es sich so verhielt, so 
+               bitte ich Sie, es mir gelegentlich zu sagen. Es ist, seitdem ich Sie kennen lernte, eins der ersten Bedürfnisse 
+               meiner innern und bessern Existenz geworden, mich von Ihnen nie mehr ganz getrennt denken zu dürfen; und, wenn Sie 
+               <pb/> mich berechtigen, an eine gewiße Verbindung zwischen uns fortdauernd zu glauben, so erzeigen Sie mir eine 
+               Wohlthat, die mich zu einer nicht gemeinen Dankbarkeit verpflichtet.
+            </p>
+         </div>
+         <div n="2" corresp="#lvm">
+            <p>
+               Sie wißen, mit welchem Enthusiasmus für Ihre Johanna, ich nach <rs type="place" ref="#plWe">Weimar</rs> kam; Sie 
+               wißen, wie sehr dieser Enthusiasmus dort genährt und erhöht worden ist. Sie müßen mir also erlauben, daß ich Ihnen 
+               heute etwas von der Ausführung dieses Stückes auf dem hiesigen Theater erzähle. Mir selbst eigentlich thue ich einen 
+               Dienst damit; indessen wird das, was ich zu sagen habe, so wenig erfreulich es auch ist, doch vielleicht für Sie 
+               nicht ganz ohne Interesse seyn.
+            </p>
+            <p>
+               Ich habe nie an <rs type="person" ref="#HMy">Madame Meyer</rs> geglaubt. Ich <emph rend="underlined">wuste</emph>, 
+               daß sie die Johanna nicht war; ich wuste auch, daß man es nicht <emph rend="underlined">werden</emph> kan; ich 
+               <emph rend="underlined">wuste</emph>, daß dies eine von den Rollen ist, die sich durchaus nicht lernen laßen, wenn 
+               die Natur nicht zum voraus gewollt hat, daß man sie in sich aufnehme, und dann außer sich darstelle. Und so war es 
+               denn auch. Aber die Gerechtigkeit gebietet, anzuerkennen, daß, was nur irgend durch bloßen Fleiß, durch bloßes 
+               Studium, und durch bloßen Eifer geleistet werden kan, und daß vielleicht noch etwas weniges mehr, als man aus diesen 
+               Quellen erwarten sollte, von ihr geleistet worden ist.
+            </p>
+            <p>
+               Sie hatte die Rolle gröstentheils verstanden; <pb/> welches schon für eine gewöhnliche Schauspielerin ein nicht 
+               gewöhnliches Lob ist; sie sprach nur höchst selten falsch; und es gab einige Szenen, wo sie sogar, nach meinen - 
+               gewiß nichts weniger als beschränkten - Foderungen, die volle Stärke des Ausdrucks erreichte.
+            </p>
+            <p>
+               Diese Szenen waren von doppelter Art. Einmal die, wo die inspirirte Heldin, dem fühlenden Mädchen Platz macht; und 
+               dann die, wo selbst die höhere Begeisterung, die Kraft und die Sprache der Leidenschaft annimmt. So hat sie den 
+               Monolog im Anfange des vierten Aktes außerordentlich schön gesagt, die Szene mit den Schwestern nach der Krönung, 
+               (besonders in einigen Vorstellungen) höchst rührend gespielt, die Szene, als man ihr vor der Krönung die Fahne in die 
+               Hand geben will, vortreflich ausgeführt. So hat sie, um ein Beispiel der zweiten Classe zu geben, die Szene im 
+               Gefängniß wirklich hinreißend und gewaltig dargestellt.
+            </p>
+            <p>
+               Aber allenthalben, wo es auf ruhige Hoheit, und stille Würde ankam, mithin, leider, in dem grösten Theile des Stücks 
+               ist die unter dem Ziele, und oft tief darunter geblieben. Ein gewißes frostiges und manierirtes Wesen in ihrer 
+               Sprache erinnerte einen dann unaufhörlich daran, daß sie keine Johanna war. Die Szenen mit dem Könige, mit Burgund, 
+               mit Dunois, und alle die, durch welche sie (wie Sie einst treflich sagten) beweisen soll, daß sie an und für sich 
+               nicht unwürdig war, zum Werkzeuge der Gottheit gewählt zu werden, gingen fast ganz verloren. <pb/> Die göttliche 
+               Szene mit Raimond, nachdem die Köhler geflohen sind, eine der erhabensten in diesem, und in allen Stücken die je 
+               geschrieben wurden, verdarb sie von Anfang bis zu Ende. Sie sprach immer so, als wenn es in der That ihr Zweck, und 
+               wohl gar ihr einziger Zweck wäre, diesen Raimond zu überzeugen, daß sie nicht erhungern würde; da doch offenbar die 
+               Reden die sie mit ihm führt, nur leichte Gestalten seyn sollen, die sich auf dem großen dunkeln Hintergrunde - ihrer 
+               Ahndung des Todes, und ihrer erhabnen Ergebung in das Schicksal, bewegen. - Selbst die Sterbe-Szene spielte sie 
+               falsch. Sie war zwar freundlich und heiter, aber sie vergaß, groß zu seyn. Sie starb, wie eine Person, die sich ihrer 
+               Unschuld im Leiden, aber nicht wie eine, die sich großer Thaten bewust ist, und die den Himmel vor sich offen sieht.
+            </p>
+            <p>
+               Was, bei dem allen, das Verdienst der <rs type="person" ref="#HMy">Meyer</rs>n beträchtlich erhöht, und ihre 
+               Verantwortlichkeit bei den mißlungnen Szenen einigermaßen vermindert, ist der traurige Umstand, daß ihre sämmtliche 
+               Mit-Schauspieler nicht werth sind, daß die gemeine Sonne, vielweniger daß die Sonne Ihrer Dichtung sie bescheine. Von 
+               einer solchen - ja, ich muß es sagen - Lotterbuben-Rotte könen Sie Sich keine Vorstellung machen. 
+               <rs type="person" ref="#FJBsch"><emph rend="underlined">Beschort</emph></rs>, als König, der unwürdigste Laffe, den 
+               ich je auf dem Theater sah; <rs type="person" ref="#FMat"><emph rend="underlined">Matausch</emph></rs>, als Dunois, 
+               eine wahrhaft-lächerliche Karrikatur; <pb/> <del rend="stroked">Ein gewiße</del> 
+               <rs type="person" ref="#HLBth"><emph rend="underlined">Bettmann</emph></rs>, als Lionel, so matt und armselig, wie 
+               immer; ein gewißer <rs type="person" ref="#Lmk"><emph rend="underlined">Lemke</emph></rs>, als Raimond, wie ein 
+               Figurant in einem schlechten Ballet; <emph rend="underlined">Lahire</emph>, <emph rend="underlined">Düchatel</emph>, 
+               <emph rend="underlined">Fastolf</emph>, alles unter der Kritik. Die beiden erträglichsten, oder vielmehr, am 
+               wenigsten unerträglichen, waren noch, <rs type="person" ref="#StSHdt"><emph rend="underlined">Herdt</emph></rs> als 
+               Thibault, und <rs type="person" ref="#CAWS"><emph rend="underlined">Schwadke</emph></rs>, als Burgund. Aber - wie 
+               <emph rend="underlined">Agnes Sorel</emph> durch eine verwünschte alte Hexe, die man 
+               <rs type="person" ref="#MMue">Madame Müller</rs> nennt, und <emph rend="underlined">Isabeau</emph> durch ein 
+               Scheusal, welches, als es noch lebte, den Nahmen 
+               <rs type="person" ref="#CHdt"><emph rend="underlined">Herdt</emph></rs> führte, massacrirt wird, davon will ich Ihnen 
+               keine Beschreibung machen.
+            </p>
+            <p>
+               Daß das Stück, trotz dieser unaussprechlich-elenden Besetzung, doch nicht nur nicht fiel, sondern wirklich einen 
+               ungeheuren Zulauf gehabt, und sehr viel Geld eingebracht hat, glaube ich, zwar nicht aus einer, aber aus mehrern 
+               gemeinschaftlich wirkenden Ursachen hinlänglich erklären zu können. Die kleine Anzahl wahrhaft-würdiger Zuschauer 
+               liebte es noch, selbst in dieser schmählichen Verunstaltung. Auch so wehte doch immer <add place="above">noch</add> 
+               der göttliche Geist, der es schuf, darin; auch so tönte doch immer noch - wenigstens von Zeit zu Zeit - die heilige 
+               Melodie dieser unübertreflichen Verse. Ich selbst habe in der ersten Vorstellung, der ich beiwohnte, obgleich meine 
+               Indignazion von der ersten Szene an erwachte, bis ans Ende des vierten Aktes ohne Unterlaß geweint; nur zuletzt 
+               siegte die Erbärmlichkeit der Schauspieler über die innre Schönheit des Stoffes, und zwang mich, kälter zu werden. - 
+               Ein andrer, und der zahlreichste Theil des Publikums stürzte sich aus Neugierde <pb/> ins Theater; und obgleich 
+               dieser nicht eigentlich befriedigt worden ist, vielmehr im Ganzen wohl (welches in 
+               <rs type="place" ref="#plBe"><emph rend="underlined">Berlin</emph></rs> nicht füglich anders seyn konnte) einen 
+               gewißen geheimen Unwillen gegen den Fonds des Stückes gefaßt hat, so war es doch höchst merkwürdig zu sehen, wie die 
+               Treflichkeit der <add place="above">dichterischen</add> Ausführung selbst allen diesen kalten, aufgeklärten, 
+               gemeinen, über Inspiration und Exaltation spottenden, jedem tiefern Gefühl besonders dem religiösen, so ganz 
+               entfremdeten Seelen, unwiderstehlich <emph rend="underlined">imponirte</emph>. Dies ist mir besonders in den 
+               Urtheilen der sogenannten großen Welt, und unsres hiesigen ersten Zirkels, den ich zuweilen Gelegenheit habe zu 
+               beobachten, aufgefallen. - Endlich sind sehr viele Menschen durch den äußern Pomp, der mit der Johanna verknüpft ist, 
+               angezogen worden.
+            </p>
+            <p>
+               Ueber diesen muß ich Ihnen doch noch einige Worte sagen. Die Krönungs-Feierlichkeit wurde mit großem Glanze 
+               ausgeführt, machte jedesmal viel Effekt, und würde einen ungeheuren gemacht haben, wenn die Schauspieler nicht durch 
+               ihr elendes nüchternes Benehmen immer ein gewißes Gegengewicht gehalten hätten. Sie hätten sehen sollen, wie dieses 
+               Geschlecht bei den Donnerschlägen dastand; als wenn es sie gar nichts anginge ! - Die Kleidungen der Haupt-Personen 
+               waren merkwürdig schön; der König war zum Mahlen; so etwas sieht man in <rs type="place" ref="#plDe">Deutschland</rs> 
+               gewiß nur auf dem <rs type="place" ref="#plBe">Berlin</rs>er Theater; aber was hilft es ? - Auch die Musik bei der 
+               Krönung und so fort war von <rs type="person" ref="#BAnW">Weber</rs> sehr glücklich componirt. <pb/>
+            </p>
+            <p>
+               Die Vorwürfe, die <rs type="person" ref="#Iff">Iffland</rs>, bei der Mißhandlung dieses Meisterstücks am 
+               unmittelbarsten treffen, sind folgende:
+            </p>
+            <p>
+               1, Daß er eine sträfliche Nachläßigkeit bei der Besetzung der Rollen bewiesen hat. Schon, daß er 
+               <add place="above">für sich</add> selbst keine andre als die des Bertrand wählte, und sogar diese gleich nach den 
+               ersten Vorstellungen abgab, war unverantwortlich. - Da es einmal entschieden war, daß die 
+               <rs type="person" ref="#HMy">Meyer</rs> die Johanna spielen sollte, so hätte er seine ganze Autorität aufbieten 
+               müßen, um die Agnes Sorel der <rs type="person" ref="#FrB">Unzelmann</rs>, die älteste Schwester (die jetzt von einer 
+               Marionette, Nahmens <rs type="person" ref="#HMb">Mebus</rs>, geradbrecht wird) der 
+               <rs type="person" ref="#LSFl">Fleck</rs>, die Isabeau der <rs type="person" ref="#MLSch">Schick</rs> aufzudringen, 
+               wenn sie wirklich sich geweigert hätten, sie gutwillig zu übernehmen. Die Agnes Sorel von der 
+               <rs type="person" ref="#MMue">Müller</rs> spielen zu laßen, dafür giebt es keine Entschuldigung; das schmeckt sogar 
+               nach Muthwille und Bosheit.
+            </p>
+            <p>
+               2, Daß er <del rend="stroked">sich</del> eine Menge schmählicher Verstümmelungen theils selbst angeordnet, theils 
+               zugelaßen hat. Ich mag Ihnen nicht sagen, wie sie von dieser Seite dem Stück mitgespielt haben. Die Rolle des 
+               Erzbischofs ist ganz gestrichen; die schönsten Szenen sind auf die Hälfte reduzirt; zuweilen mit einer Willkühr, für 
+               die sich kein Grund erdenken läßt. So hörte bei der ersten Vorstellung, der ich beiwohnte, die Szene mit Raimond im 
+               5<span rend="sup">ten</span> Akt - werden Sie es glauben ? - bei den Worten auf: "Ich bin mir keiner Schwachheit mehr 
+               bewust" - <del rend="stroked">xxx</del> <pb/> Der göttliche Schluß fiel weg. Nur, weil 
+               <emph rend="underlined">ich</emph> laut über dieses Skandal schrie, und <rs type="person" ref="#Iff">Iffland</rs> zum 
+               Glück eine Art von Furcht vor mir hat, wurde sie - jedoch nach vielen Pourparlers - wieder ergänzt. Und dabei steht 
+               auf dem Zettel, die Abkürzungen wären sämmtlich <emph rend="underlined">von Ihnen</emph> angegeben.
+            </p>
+            <p>
+               3, Daß er die Johanna nicht bis auf die Eröfnung des neuen Theaters reservirt hat. - Könnte das Schicksal mehr für 
+               diese Epoche thun ? Es erscheint eine Tragödie, wie wir deren noch nicht drei auf dem Theater besitzen; außer ihrer 
+               innern Treflichkeit voll von äußerm Pomp; voll der glücklichsten Veranlaßungen und Beziehungen 
+               <del rend="stroked">für einen</del> für eine Feierlichkeit in einem monarchischen Staate; ein Stück, wozu sich ein 
+               der Sache würdiger Prolog schreiben ließ, wozu Sie Selbst, das bin ich überzeugt, ihn mit Vergnügen geschrieben 
+               hätten. - Und das alles wirft <rs type="person" ref="#Iff">Iffland</rs> von sich. Und warum ? Nicht einen Scheingrund 
+               habe ich dafür gehört. Das beste, was er noch sagt, ist, daß er es gethan hätte, um sich im alten Hause eine gute 
+               Einnahme zu sichern, da er deren im neuen bei <emph rend="underlined">jedem</emph> Stücke sicher gewesen wäre ! Ist 
+               das eine Sprache für einen Künstler ?
+            </p>
+            <p>
+               Wenn er übrigens für die Art von Strafe womit das Schicksal seinen Frevel heimgesucht hat, <pb/> noch empfänglich 
+               ist, so kan man in der That sagen, daß er hart bestraft wurde. Umsonst hätte man Prämien ausgesetzt, um 
+               <emph rend="underlined">mit Vorsatz</emph> ein solches Stück zur Welt bringen zu laßen, als das, welches am 
+               Neujahrstage unser neues Theater eingeweiht hat. Denken Sie Sich alles was Sie wollen: das Plattste, das 
+               Langweiligste, das Widrigste, das Unverschämteste - Sie erreichen diese <emph rend="underlined">Kreutzfahrer</emph> 
+               nie. Das muß man gesehen haben. - Auch ist die Indignation, selbst in unserm Prinzipien- und Charakterlosen Publikum, 
+               allgemein. Der Prolog (von <rs type="person" ref="#Hrklz">Herklotz</rs> !) war des Uebrigen würdig; die Oper am 
+               zweiten Tage noch weit toller. - Als ich so da saß, und diesen Greuel betrachtete, konnte ich mich fast des Weinens 
+               nicht enthalten. So große Anstalten; ein Haus, das 300 000 rrh. kostet; alle diese reiche Decorationen; diese 
+               prachtvolle Erleuchtung; diese große und schöne Maschinerie, wozu ? - um <emph rend="underlined">solche</emph> 
+               Stücke, und <emph rend="underlined">solche</emph> Schauspieler, und <emph rend="underlined">solche</emph> 
+               Directionen, von einem Ort auf den andern zu verpflanzen ! Wie weit sind wir doch noch zurück ! In solchen Momenten 
+               fühlt man es schmerzhaft (Ich dachte an unser Akademie-Projekt.) - Von einer andern Seite erschien mir dann der 
+               Contrast auch wieder so komisch, daß ich meinte, man könnte ein Jahrhundert lang darüber lachen. - Als, wenn einer 
+               sich hinsetzte, und schriebe den Titel zu einem tiefsinnigen Werke, und nachher keine Zeile weiter.
+            </p>
+         </div>
+         <div n="3" corresp="#vfs">
+            <p>
+               Man hat sich hier lange mit dem Gerücht getragen, Sie arbeiteten an <emph rend="underlined">Wilhelm Tell</emph>; er 
+               wäre sogar schon der Vollendung nahe. Ich habe Sie aus Bescheidenheit, da Sie <pb/> gegen mich nicht drüber sprachen, 
+               auch nicht danach fragen wollen. Da aber die hiesigen Vielwisser immer fort davon schwatzen, und schon pränumerando 
+               das tollste Zeug darüber ausbringen, so wünschte ich wohl zu erfahren, ob denn in der That auch nur etwas daran ist.
+            </p>
+            <p>
+               Mit <rs type="person" ref="#Hum">Humboldt</rs> spreche ich oft und viel über Sie, Ihre Schriften, und Ihren Umgang; 
+               und dies ist mir jetzt eins der liebsten Gespräche, die ich hier haben kan. 
+               <rs type="person" ref="#CvH">Seine Frau</rs> ist so ernsthaft krank, daß ich für ihr Leben fürchte; wenigstens glaube 
+               ich kaum, daß sie sich je wieder ganz aufrichtet. -
+            </p>
+            <p>
+               Ich muß aufhören. Vielleicht hätte ich es längst schon thun sollen. Ich bitte Sie nur noch, mich 
+               <rs type="person" ref="#CvSch">Ihrer Gemahlin</rs>, <rs type="person" ref="#KvW">Frau von Wollzogen</rs>, und 
+               <rs type="person" ref="#JWvG">HErrn von Göthe</rs>, aufs verbindlichste zu empfehlen. Und wenn Sie in einer ganz 
+               freien, ganz leeren, durchaus nicht besser zu verwendenden Viertelstunde, mir nur mit ein Paar Zeilen sagen wollen, 
+               daß Sie mir erlauben, von Zeit zu Zeit mein Andenken bei Ihnen aufzufrischen, so werden Sie mehr als ich es sagen 
+               kan, verpflichten
+            </p>
+         </div>
+         <closer>
+            <salute rend="right">Ihren tief-ergebnen</salute>
+            <dateline rend="left"><rs type="place" ref="#plBe">Berlin</rs> den <date when-iso="1802-01-03">3<span rend="sup">ten</span> Januar 1802</date>.</dateline>
+            <signed rend="right">Gentz.</signed>
+         </closer>
+      </body>
+   </text>
+</TEI>

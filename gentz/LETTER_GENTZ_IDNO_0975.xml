@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc xml:id="LETTER_GENTZ_0975">
+         <titleStmt>
+            <title>Friedrich von Gentz an Karl Gustav von Brinckmann, 17. Januar 1798</title>
+            <editor xml:id="edAG">Andreas Gálffy</editor>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <name>Forschungsstelle "Universitätssammlung Friedrich von Gentz"</name>
+               <link target="http://gentz-digital.ub.uni-koeln.de http://www.ub.uni-koeln.de/cdm/singleitem/collection/gentz/id/974/"/>
+            </publisher>
+            <pubPlace>Cologne</pubPlace>
+            <idno type="Gentz-Edition-Number" n="0975"/>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <country>Sweden</country>
+                  <settlement>Trolle-Ljungby</settlement>
+                  <institution>Archiv des Grafen Wachtmeister</institution>
+                  <repository>Nachlaß Brinckmann, Ausländ. Briefwechsel</repository>
+                  <idno>G 3</idno>
+               </msIdentifier>
+               <msContents>
+                  <summary>
+                     Ein Ländervergleich der Büchersammlungen Gentz' gegen Brinckmann. Gentz bekennt die Größe der Brinckmann'schen 
+                     Bibliothek an und äußert seine Ehrerbietung ihr gegenüber.
+                  </summary>
+               </msContents>
+            </msDesc>
+            <listBibl type="preprints">
+               <biblStruct>
+                  <monogr>
+                     <editor>
+                        <persName>
+                           <ref target="http://d-nb.info/gnd/130953075"/>
+                           <forename>Friedrich Carl</forename>
+                           <surname>Wittichen</surname>
+                        </persName>
+                        <persName>
+                           <ref /> <!-- kein GND-Eintrag -->
+                           <forename>Ernst</forename>
+                           <surname>Salzer</surname>
+                        </persName>
+                     </editor>
+                     <title>Briefe von und an Friedrich von Gentz, 4 Bde.</title>
+                     <imprint>
+                        <publisher>Oldenbourg</publisher>
+                        <pubPlace>München, Berlin</pubPlace>
+                        <date>1909-1913</date>
+                     </imprint>
+                     <biblScope unit="volume" n="2">
+                        II
+                     </biblScope>
+                     <biblScope unit="page" from="62" to="62">
+                        Nr. 70
+                     </biblScope>
+                  </monogr>
+               </biblStruct>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Masterarbeit zu Matrikelnummer 5584124</p>
+         </projectDesc>
+      </encodingDesc>
+      <profileDesc>
+         <creation>
+            <date when-iso="1798-01-17">17. Januar 1798</date>
+         </creation>
+        <langUsage>
+           <language ident="d">deutsch</language>
+        </langUsage>
+         <textClass>
+            <keywords scheme="internal"><!-- internal: innerhalb des besagten Briefs -->
+               <term>Brief</term>
+               <term>Bibliothek</term>
+               <term>Sardinien</term>
+               <term>Frankreich</term>
+            </keywords>
+            <keywords scheme="categorisation"><!-- Sinnabschnittseinteilung - relevant für den Fahrkartenautomaten! -->
+               <term xml:id="bibl">Bibliothek</term>
+            </keywords>
+         </textClass>
+         <textDesc>
+            <channel>manuscript</channel>
+            <constitution type="single"/>
+            <derivation type="original"/>
+            <domain type="private"/>
+            <factuality type="fact"/>
+            <interaction type="partial"/>
+            <preparedness type="prepared"/>
+            <purpose type="inform"/>
+         </textDesc>
+         <particDesc>
+            <listPerson>
+               <!-- Sender und Adressat -->
+               <person role="sender" xml:id="Gen">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/118538489"/>
+                     <forename>Friedrich von</forename>
+                     <surname>Gentz</surname>
+                  </persName>
+               </person>
+               <person role="receiver" xml:id="KGvB">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/116519770"/>
+                     <forename>Carl Gustav von</forename>
+                     <surname>Brinckmann</surname>
+                  </persName>
+               </person>
+               <!-- erwähnte Personen -->
+               <person role="named" xml:id="KKEIV">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/133035689"/>
+                     <forename>Karl Emanuel IV.</forename>
+                     <surname/>
+                     <roleName type="office">König von Sardinien</roleName>
+                  </persName>
+               </person>
+            </listPerson>
+         </particDesc>
+         <settingDesc>
+            <listPlace>
+               <!-- Start- und Zielort -->
+               <place type="sender" xml:id="plBe">
+                  <country>
+                     <ref target="http://d-nb.info/gnd/4047194-9"/>
+                     <placeName>Preußen</placeName>
+                  </country>
+                  <settlement>
+                     <ref target="http://d-nb.info/gnd/4005728-8"/>
+                     <placeName>Berlin</placeName>
+                  </settlement>
+               </place>
+               <!-- erwähnte Orte -->
+               <place type="named" xml:id="plSr">
+                  <country>
+                     <ref target="http://d-nb.info/gnd/4051687-8"/>
+                     <placeName>Königreich Sardinien</placeName>  
+                  </country>
+               </place>
+               <place type="named" xml:id="plFr">
+                  <country>
+                     <ref target="http://d-nb.info/gnd/4018145-5"/>
+                     <placeName>Frankreich</placeName>
+                  </country>
+               </place>
+            </listPlace>
+         </settingDesc>
+      </profileDesc>
+      <revisionDesc>
+         <change xml:id="init" when-iso="2018-02-28" who="#edAG">Erstauszeichnung und Normierung des Dokumentes im Rahmen der Masterarbeit der Matrikelnummer 5584124</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div n="1" corresp="#bibl">
+            <p>
+               Meine Bibliothek steht jetzt gegen die Ihrige ungefähr in dem Verhältniß des 
+               <rs type="person" ref="#KKEIV">König</rs>s von <rs type="place" ref="#plSr">Sardinien</rs> gegen die 
+               <rs type="place" ref="#plFr">Französische Republik</rs>. Daß sie bey jedem Handel verlieren muß, liegt in der Natur 
+               der Sache. Alles kömmt jetzt nur auf gute <span xml:lang="fr">Procedès</span> an. Die in der gestrigen 
+               <span xml:lang="fr">Depêche</span> waren so artig, daß meine Bibliothek nicht umhin kan, 
+               <emph rend="underlined">vor der Welt</emph> - denn was sie sich im Stillen denkt, das geht Niemanden etwas an - 
+               folgende Erklärung zu thun:
+            </p>
+            <p>
+               "Ganz durchdrungen von den hohen Gesinungen der Billigkeit und Gerechtigkeit 
+               <emph rend="underlined">der großen Bibliothek</emph>, dankt sie derselben, für die außerordentliche 
+               <add place="above">Ehre, die</add> beyliegenden unbedeutenden Ueberreste einer verworfnen Aristokratie, durch ihre 
+               Incorporation in das erhabne Gebiet <emph rend="underlined">der ersten Büchersammlung der cultivirten Welt</emph> 
+               widerfährt, und wünscht, daß <emph rend="underlined">die große Bibliothek</emph> noch lange Jahre das Muster aller 
+               Christen, und der Schrecken aller Juden seyn möge. Meine <pb/> Bibliothek wird sich immer glücklich schätzen, wenn 
+               sie, so lange man ihr noch den Nahmen einer Bibliothek läßt, zur Verherrlichung ihrer 
+               <emph rend="underlined">großen und werthen Freundin</emph>, in pflichtschuldiger Demuth etwas beytragen kan."
+            </p>
+            <p>
+               <span xml:lang="fr">En foi de quoi pppp</span>
+            </p>
+         </div>
+         <closer>
+            <dateline rend="right"><rs type="place" ref="#plBe">Berlin</rs> d: <date when-iso="1798-01-17">17 Jan. 98</date>.</dateline>
+            <salute rend="right">Gentz.</salute>
+         </closer>
+      </body>
+   </text>
+</TEI>

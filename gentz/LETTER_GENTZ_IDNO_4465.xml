@@ -1,0 +1,326 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc xml:id="LETTER_GENTZ_4465">
+         <titleStmt>
+            <title>Friedrich von Gentz an Johannes von Müller, 4. März 1799</title>
+            <editor xml:id="edAG">Andreas Gálffy</editor>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <name>Forschungsstelle "Universitätssammlung Friedrich von Gentz"</name>
+               <link target="http://gentz-digital.ub.uni-koeln.de http://www.ub.uni-koeln.de/cdm/singleitem/collection/gentz/id/4464/"/>
+            </publisher>
+            <pubPlace>Cologne</pubPlace>
+            <idno type="Gentz-Edition-Number" n="4465"/>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <country>Switzerland</country>
+                  <settlement>Schaffhausen</settlement>
+                  <institution>Stadtbibliothek</institution>
+                  <repository>Nachlaß Johannes von Müller</repository>
+                  <collection>Msc. Müller</collection>
+                  <idno>149/2</idno>
+               </msIdentifier>
+               <msContents>
+                  <summary>
+                     Nach dem Erfolg in Österreich legt Gentz sein Historisches Journal bei Johannes von Müller vor. Gentz ehrt ihn, 
+                     respektiert ihn und hält ihn für einen großen Mann und einen eminenten Schriftsteller. Getz erhofft sich 
+                     Müllers Beifall. Ebenso bittet Gentz nach einem Urteil über den Kalender. Dieser ist ihm über Böttiger 
+                     zugekommen.
+                  </summary>
+               </msContents>
+            </msDesc>
+            <listBibl type="preprints">
+               <biblStruct>
+                  <monogr>
+                     <editor>
+                        <persName>
+                           <ref target="http://d-nb.info/gnd/104268913"/>
+                           <forename>Johann Konrad</forename>
+                           <surname>Maurer-Constant</surname>
+                        </persName>
+                     </editor>
+                     <title>Briefe an Johann von Müller (Supplement zu dessen sämtlichen Werken)</title>
+                     <imprint>
+                        <pubPlace>Schaffhausen</pubPlace>
+                        <date>1839</date>
+                     </imprint>
+                     <biblScope unit="volume" n="1">
+                        Bd. 1
+                     </biblScope>
+                     <biblScope unit="page" from="8" to="11">
+                        S. 8-11
+                     </biblScope>
+                  </monogr>
+               </biblStruct>
+               <biblStruct>
+                  <monogr>
+                     <editor>
+                        <persName>
+                           <ref target="http://d-nb.info/gnd/117325791"/>
+                           <forename>Gustav</forename>
+                           <surname>Schlesier</surname>
+                        </persName>
+                     </editor>
+                     <title>Schriften von Friedrich von Gentz. Ein Denkmal. 5 Bde.</title>
+                     <imprint>
+                        <publisher>Verlag von Heinrich Wolff</publisher>
+                        <pubPlace>Mannheim</pubPlace>
+                        <date>1838-1840</date>
+                     </imprint>
+                     <biblScope unit="volume" n="4">
+                        IV
+                     </biblScope>
+                     <biblScope unit="page" from="3" to="5">
+                        S. 3-5
+                     </biblScope>
+                  </monogr>
+               </biblStruct>
+            </listBibl>
+            <listBibl type="letterReferenced">
+               <bibl xml:id="c4465-1" corresp="#LETTER_GENTZ_0211">Friedrich von Gentz an Franz von Thugut, 4. März 1799</bibl>
+            </listBibl>
+            <listBibl type="defRep">
+               <biblStruct xml:id="p4465-1" corresp="GBk-0042">
+                  <monogr>
+                     <editor>
+                        <persName>
+                           <ref target="http://d-nb.info/gnd/118538489"/>
+                           <forename>Friedrich von</forename>
+                           <surname>Gentz</surname>
+                        </persName>
+                     </editor>
+                     <title>Historisches Journal</title>
+                     <imprint>
+                        <publisher>Friedrich Vieweg dem ältern</publisher>
+                        <pubPlace>Berlin</pubPlace>
+                        <date>1799</date>
+                     </imprint>
+                  </monogr>
+                  <ptr target="https://books.google.de/books?id=YU5BAAAAcAAJ"/>
+               </biblStruct>
+               <biblStruct xml:id="p4465-2" corresp="#LETTER_GENTZ_NNNN">
+                  <monogr>
+                     <author>
+                        <persName>
+                           <ref target="http://d-nb.info/gnd/118538489"/>
+                           <forename>Friedrich von</forename>
+                           <surname>Gentz</surname>
+                        </persName>
+                     </author>
+                     <title>Taschenbuch für 1799. Maria Stuart von Friedrich Gentz. Die Rache von August Lafontaine.</title>
+                     <imprint>
+                        <pubPlace>Berlin</pubPlace>
+                        <publisher>Friedrich Vieweg der Ältere</publisher>
+                        <date>1798</date>
+                     </imprint>
+                  </monogr>
+                  <ptr target="#LETTER_GENTZ_NNNN"/>
+               </biblStruct>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Masterarbeit zu Matrikelnummer 5584124</p>
+         </projectDesc>
+      </encodingDesc>
+      <profileDesc>
+         <creation>
+            <date when-iso="1799-03-04">4. März 1799</date>
+         </creation>
+        <langUsage>
+           <language ident="d">deutsch</language>
+        </langUsage>
+         <textClass>
+            <keywords scheme="internal"><!-- internal: innerhalb des besagten Briefs -->
+               <term>Brief</term>
+               <term>Journal historique</term>
+            </keywords>
+            <keywords scheme="categorisation"><!-- Sinnabschnittseinteilung - relevant für den Fahrkartenautomaten! -->
+               <term xml:id="vjvm">Verhältnis Johannes von Müller</term>
+               <term xml:id="jrnh">Historisches Journal</term>
+               <term xml:id="vwkms">Vieweg - Kalender / Maria Stuart</term>
+            </keywords>
+         </textClass>
+         <textDesc>
+            <channel>manuscript</channel>
+            <constitution type="single"/>
+            <derivation type="original"/>
+            <domain type="private"/>
+            <factuality type="fact"/>
+            <interaction type="partial"/>
+            <preparedness type="prepared"/>
+            <purpose type="inform"/>
+         </textDesc>
+         <particDesc>
+            <listPerson>
+               <!-- Sender und Adressat -->
+               <person role="sender" xml:id="Gen">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/118538489"/>
+                     <forename>Friedrich von</forename>
+                     <surname>Gentz</surname>
+                  </persName>
+               </person>
+               <person role="receiver" xml:id="JvM">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/118585045"/>
+                     <forename>Johannes von</forename>
+                     <surname>Müller</surname>
+                  </persName>
+               </person>
+               <!-- erwähnte Personen -->
+               <person role="named" xml:id="HXV">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/1089499000"/>
+                     <forename>Heinrich XV</forename>
+                     <surname/>
+                     <roleName type="office">Fürst von Reuss-Greiz</roleName>
+                  </persName>
+               </person>
+               <person role="named" xml:id="JAFdPvT">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/118622390"/>
+                     <forename>Johann Amadeus Franz de Paula von</forename>
+                     <surname>Thugut</surname>
+                  </persName>
+               </person>
+               <person role="named" xml:id="KAB">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/118824775"/>
+                     <forename>Carl August</forename>
+                     <surname>Böttiger</surname>
+                  </persName>
+               </person>
+            </listPerson>
+         </particDesc>
+         <settingDesc>
+            <listPlace>
+               <!-- Start- und Zielort -->
+               <place type="sender" xml:id="plBe">
+                  <country>
+                     <ref target="http://d-nb.info/gnd/4047194-9"/>
+                     <placeName>Preußen</placeName>
+                  </country>
+                  <settlement>
+                     <ref target="http://d-nb.info/gnd/4005728-8"/>
+                     <placeName>Berlin</placeName>
+                  </settlement>
+               </place>
+               <place type="receiver" xml:id="plWi">
+                  <country>
+                     <ref target="http://d-nb.info/gnd/4075601-4"/>
+                     <placeName>Erzherzogtum Österreich</placeName>
+                  </country>
+                  <settlement>
+                     <ref target="http://d-nb.info/gnd/4066009-6"/>
+                     <placeName>Wien</placeName>
+                  </settlement>
+               </place>
+               <!-- erwähnte Orte -->
+               <place type="named" xml:id="plDe">
+                  <country>
+                     <ref target="http://d-nb.info/gnd/2035457-5"/>
+                     <placeName>Deutschland</placeName>  
+                  </country>
+               </place>
+               <place type="named" xml:id="plOe">
+                  <country>
+                     <ref target="http://d-nb.info/gnd/4075601-4"/>
+                     <placeName>Erzherzogtum Österreich</placeName>  
+                  </country>
+               </place>
+               <place type="named" xml:id="plWe">
+                  <country>
+                     <ref target="http://d-nb.info/gnd/4051194-7"/>
+                     <placeName>Sachsen-Weimar-Eisenach</placeName>
+                  </country>
+                  <settlement>
+                     <ref target="http://d-nb.info/gnd/4065105-8"/>
+                     <placeName>Weimar</placeName>
+                  </settlement>
+               </place>
+            </listPlace>
+         </settingDesc>
+      </profileDesc>
+      <revisionDesc>
+         <change xml:id="init" when-iso="2018-03-03" who="#edAG">Erstauszeichnung und Normierung des Dokumentes im Rahmen der Masterarbeit der Matrikelnummer 5584124</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <opener>
+            <salute rend="left">Ewr. Hochwohlgebohren</salute>
+         </opener>
+         <div n="1" corresp="#vjvm">
+            <p>
+               vergeben es mir gewiß, wenn ich mich ohne umständliche Curialien Ihnen nähere. Es ist der große Mann, es ist der 
+               eminente Schriftsteller, an den ich meine Worte richte. Nach der nicht geringen Kühnheit, Ihnen mit meinen Produkten 
+               gerade unter die Augen zu treten, ist überdies kein Schritt, den ich thun könnte, mehr kühn zu nennen.
+            </p>
+            <p>
+               Ich fühle meine Unvollkommenheit und meine Schwäche natürlich nie lebhafter, als wenn ich ein hervorragendes Genie, 
+               einen der wenigen Meister die <rs type="place" ref="#plDe">Deutschland</rs> aufzuweisen hat, zum Richter über meine 
+               Arbeiten mache. Wenn ich irgend schriftstellerisches Verdienst besitze, so ist es allein dieses wahre, und 
+               tiefliegende Gefühl. Gleichwol ist der Wunsch, einem solchen Richter wirklich unterworfen zu werden, gleichwol ist 
+               die Hoffnung auch nur in einzelnen Theilen, in einzelnen Bestrebungen seinen Beifall zu erhalten, <pb/> so 
+               verführerisch, daß ich es wenigstens darauf wagen muß, mich vor sein Tribunal zu stellen.
+            </p>
+            <p>
+               Hiezu kömmt, daß ich mich längst nach einer Gelegenheit sehnte, Sie unmittelbar anzureden, und Ihnen einen Theil der 
+               Verehrung auszudrücken, die Ihre großen und vielseitigen Verdienste so mächtig in meinem Gemüth hervorriefen.
+            </p>
+            <p>
+               Was ich Ihnen hier vorlege, ist eine Arbeit, die schon deshalb von großen Unvollkommenheiten nicht frei seyn kan, 
+               weil der Zeitpunkt ihrer jedesmaligen Erscheinung bestimmt und enge beschränkt ist, weil die Gegenstände schon ihrer 
+               Neuheit wegen unsicher und schwer zu behandeln sind, weil endlich, selbst unter den günstigsten aeußern Umständen, 
+               tausendfältige Rücksichten und Schranken den Schriftsteller fesseln. - Auch würde ich überglücklich seyn, wenn nur 
+               einiges in <rs type="citation" ref="#p4465-1">dieser Zeitschrift</rs> nach Ihrem Sinne wäre, wenn besonders das, was 
+               ich über die frühere Geschichte der Revolution ge<pb/>sagt habe, und noch sagen werde, Ihrem Kenner-Auge nicht ganz 
+               verwerflich scheinen sollte.
+            </p>
+         </div>
+         <div n="2" corresp="#jrnh">
+            <p>
+               Der verstorbne <rs type="person" ref="#HXV">Fürst Reuß</rs>, der mich mit seinem Wohlwollen, und, ich darf es wohl 
+               sagen, mit seiner Freundschaft beehrte, hat mir bey des 
+               <rs type="person" ref="#JAFdPvT">Herrn Freiherrn von Thugut Excellentz</rs> die 
+               <ref target="#r4465-1">Erlaubniß ausgewirkt</ref>, <rs type="citation" ref="#p4465-1">mein Journal</rs> in die 
+               <rs type="place" ref="#plOe">Oesterreichischen Staaten</rs> einzuführen. Wenn diese huldreiche Erlaubniß mir auch 
+               Anfangs, da ich in <rs type="place" ref="#plWi">Wien</rs> nicht bekannt genug bin, um dort Leser zu erwarten, keinen 
+               weitern Nutzen stiftet, so ist es mir doch immer schon wichtig genug, von einem Minister, dem ich eine wahre innige 
+               Verehrung gewidmet habe, dieser Auszeichnung würdig befunden zu seyn.
+            </p>
+         </div>
+         <div n="3" corresp="#vwkms">
+            <p>
+               Mein Freund <rs type="person" ref="#KAB">Bötticher</rs> in <rs type="place" ref="#plWe">Weimar</rs>, der das Glück 
+               hat, mit Ihnen in Briefwechsel zu stehen, meldete mir vor einiger Zeit, daß er Ihnen ein kleines historisches 
+               Probestück: <emph rend="underlined">Maria Stuart</emph>, welches ich für einen 
+               <rs type="citation" ref="#p4465-2">Kalender</rs> bearbeitet hatte, zusenden wollte. Sollte er dieses unterlaßen 
+               haben, so würde ich selbst so frei seyn, es nachzuholen. Denn auch über dieses <pb/> kleine Stück ist mir Ihr Urtheil 
+               - günstig oder ungünstig, darauf halte ich mich gefaßt - von ganz außerordentlicher Wichtigkeit.
+            </p>
+            <p>
+               Verzeihung, edeler Mann, für diese große Zudringlichkeit ! Nichts kan sie allenfalls rechtfertigen als die 
+               Lebhaftigkeit des Wunsches, Ihnen näher zu rücken, und die unbegränzte Ehrfurcht mit der ich mich aus vollem Herzen 
+               nenne
+            </p>
+         </div>
+         <closer>
+            <salute rend="right">Ewr. Hochwohlgebohren</salute>
+            <salute rend="right">ganz ergebensten und gehorsamsten</salute>
+            <dateline rend="left"><rs type="place" ref="#plBe">Berlin</rs> den <date when-iso="1799-03-04">4<span rend="sup">ten</span> März 1799</date>.</dateline>
+            <signed rend="right">Gentz.</signed>
+         </closer>
+      </body>
+      <note resp="#edAG" xml:id="r4465-1">Vgl. den <rs type="citation" ref="#c4465-1">Brief an Thugut vom 4. März 1799</rs></note>
+   </text>
+</TEI>

@@ -1,0 +1,287 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc xml:id="LETTER_GENTZ_0669">
+         <titleStmt>
+            <title>Friedrich von Gentz an Karl August Böttiger, 10. März 1798</title>
+            <editor xml:id="edAG">Andreas Gálffy</editor>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <name>Forschungsstelle "Universitätssammlung Friedrich von Gentz"</name>
+               <link target="http://gentz-digital.ub.uni-koeln.de http://www.ub.uni-koeln.de/cdm/singleitem/collection/gentz/id/668/"/>
+            </publisher>
+            <pubPlace>Cologne</pubPlace>
+            <idno type="Gentz-Edition-Number" n="0669"/>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <country>Germany</country>
+                  <settlement>Dresden</settlement>
+                  <institution>Sächsische Landesbibliothek</institution>
+                  <repository>Handschriftensammlung, Nachlaß Böttiger</repository>
+                  <collection>Mscr. Dresd. h 37, Bd. 54 (4°)</collection>
+                  <idno>Nr. 17</idno>
+               </msIdentifier>
+               <msContents>
+                  <summary>
+                     Brinckmann ist erst sehr spät nach Weimar gekommen. Daher ist auch das bestellte Paket spät zu Böttiger 
+                     gelangt. Seit dem letzten Brief hat sich Einiges getan und aufgrund der Verzögerung hofft Gentz auf baldige 
+                     Antwort sowie Rücksendung von Abschriften. Mit diesem Brief schickt Gentz einen Brief an Mounier und einen 
+                     Korrekturbogen der Übersetzung seiner Schrift. Diese fiel nicht gut aus. An vielen Stellen sei sie zu falsch 
+                     und zu matt. Gentz lag aber eine weitere Übersetzung vor; aus beiden fertigte Gentz ein vollkommenes Ganzes an. 
+                     Gentz fürchtet sich aber vor Mouniers Eitelkeit; daher erbittet er Böttigers Unterstützung. D'Ivernois und 
+                     andere Leute in London erwünschen sich Gentz'Schrift in französisch. Gentz will einhundert Exemplare drucken 
+                     lassen.
+                  </summary>
+               </msContents>
+            </msDesc>
+            <listBibl type="preprints">
+               <biblStruct>
+                  <monogr>
+                     <editor>
+                        <persName>
+                           <ref target="http://d-nb.info/gnd/130953075"/>
+                           <forename>Friedrich Carl</forename>
+                           <surname>Wittichen</surname>
+                        </persName>
+                        <persName>
+                           <ref/> <!-- kein GND-Eintrag -->
+                           <forename>Ernst</forename>
+                           <surname>Salzer</surname>
+                        </persName>
+                     </editor>
+                     <title>Briefe von und an Friedrich von Gentz, 4 Bde.</title>
+                     <imprint>
+                        <publisher>Oldenbourg</publisher>
+                        <pubPlace>München, Berlin</pubPlace>
+                        <date>1909-1913</date>
+                     </imprint>
+                     <biblScope unit="volume" n="1">
+                        I
+                     </biblScope>
+                     <biblScope unit="page" from="250" to="251">
+                        Nr. 61
+                     </biblScope>
+                  </monogr>
+               </biblStruct>
+            </listBibl>
+            <listBibl type="letterReferenced">
+               <bibl xml:id="c0669-1" corresp="#LETTER_GENTZ_3727">Friedrich von Gentz an Karl August Böttiger, 1. Februar 1798</bibl>
+               <bibl xml:id="c0669-2" corresp="#LETTER_GENTZ_NNNN">nicht bekannter Brief von Friedrich von Gentz an Jean-Joseph Mounier</bibl>
+            </listBibl>
+            <listBibl type="alludedWorks">
+               <bibl xml:id="a0669-1" corresp="#LETTER_GENTZ_NNNN">Übersetzung Jean-Joseph Mouniers der Sendschrift von Gentz</bibl>
+               <bibl xml:id="a0669-2" corresp="#LETTER_GENTZ_NNNN">weitere, nicht näher benannte Übersetzung der Sendschrift von Gentz</bibl>
+            </listBibl>
+            <listBibl type="defRep">
+               <biblStruct xml:id="p0669-1" corresp="GBk-0034">
+                  <monogr>
+                     <author>
+                        <persName>
+                           <ref target="http://d-nb.info/gnd/118538489"/>
+                           <forename>Friedrich von</forename>
+                           <surname>Gentz</surname>
+                        </persName>
+                     </author>
+                     <title>Sendschreiben</title>
+                     <imprint>
+                        <publisher>Friedrich Vieweg der Ältere</publisher>
+                        <pubPlace>Berlin</pubPlace>
+                        <date>1797</date>
+                     </imprint>
+                  </monogr>
+                  <ptr target="https://books.google.de/books?id=QLdhAAAAcAAJ" />
+               </biblStruct>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Masterarbeit zu Matrikelnummer 5584124</p>
+         </projectDesc>
+      </encodingDesc>
+      <profileDesc>
+         <creation>
+            <date when-iso="1798-03-10">10. März 1798</date>
+         </creation>
+        <langUsage>
+           <language ident="d">deutsch</language>
+        </langUsage>
+         <textClass>
+            <keywords scheme="internal"><!-- internal: innerhalb des besagten Briefs -->
+               <term>Brief</term>
+               <term>Brinckmann</term>
+               <term>Mounier</term>
+               <term>französische Revolution</term>
+               <term>d'Ivernois</term>
+               <term>London</term>
+            </keywords>
+            <keywords scheme="categorisation"><!-- Sinnabschnittseinteilung - relevant für den Fahrkartenautomaten! -->
+               <term xml:id="vkab">Verhältnis Karl August Böttiger</term>
+               <term xml:id="kmou">Mounier</term>
+               <term xml:id="bezl">Beziehungen zu London</term>
+            </keywords>
+         </textClass>
+         <textDesc>
+            <channel>manuscript</channel>
+            <constitution type="single"/>
+            <derivation type="original"/>
+            <domain type="private"/>
+            <factuality type="fact"/>
+            <interaction type="partial"/>
+            <preparedness type="prepared"/>
+            <purpose type="inform"/>
+         </textDesc>
+         <particDesc>
+            <listPerson>
+               <!-- Sender und Adressat -->
+               <person role="sender" xml:id="Gen">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/118538489"/>
+                     <forename>Friedrich von</forename>
+                     <surname>Gentz</surname>
+                  </persName>
+               </person>
+               <person role="receiver" xml:id="KAB">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/118824775"/>
+                     <forename>Carl August</forename>
+                     <surname>Böttiger</surname>
+                  </persName>
+               </person>
+               <!-- erwähnte Personen -->
+               <person role="named" xml:id="KGvB">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/116519770"/>
+                     <forename>Carl Gustav von</forename>
+                     <surname>Brinckmann</surname>
+                  </persName>
+               </person>
+               <person role="named" xml:id="Mou">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/11878515X"/>
+                     <forename>Jean-Joseph</forename>
+                     <surname>Mounier</surname>
+                  </persName>
+               </person>
+               <person role="named" xml:id="FdI">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/100297676"/>
+                     <forename>Francis d'</forename>
+                     <surname>Ivernois</surname>
+                  </persName>
+               </person>
+            </listPerson>
+         </particDesc>
+         <settingDesc>
+            <listPlace>
+               <!-- Start- und Zielort -->
+               <place type="sender" xml:id="plBe">
+                  <country>
+                     <ref target="http://d-nb.info/gnd/4047194-9"/>
+                     <placeName>Preußen</placeName>
+                  </country>
+                  <settlement>
+                     <ref target="http://d-nb.info/gnd/4005728-8"/>
+                     <placeName>Berlin</placeName>
+                  </settlement>
+               </place>
+               <place type="receiver" xml:id="plWe">
+                  <country>
+                     <ref target="http://d-nb.info/gnd/4051194-7"/>
+                     <placeName>Sachsen-Weimar-Eisenach</placeName>
+                  </country>
+                  <settlement>
+                     <ref target="http://d-nb.info/gnd/4065105-8"/>
+                     <placeName>Weimar</placeName>
+                  </settlement>
+               </place>
+               <!-- erwähnte Orte -->
+               <place type="named" xml:id="plHl">
+                  <country>
+                     <ref target="http://d-nb.info/gnd/4047194-9"/>
+                     <placeName>Preußen</placeName>
+                  </country>
+                  <region>
+                     <ref target="http://d-nb.info/gnd/4023025-9"/>
+                     <placeName>Halle</placeName>
+                  </region>
+               </place>
+               <place type="named" xml:id="plLo">
+                  <country>
+                     <ref target="http://d-nb.info/gnd/4022153-2"/>
+                     <placeName>Vereinigtes Königreich</placeName>                
+                  </country>
+                  <settlement>
+                     <ref target="http://d-nb.info/gnd/4074335-4"/>
+                     <placeName>London</placeName>
+                  </settlement>
+               </place>
+            </listPlace>
+         </settingDesc>
+      </profileDesc>
+      <revisionDesc>
+         <change xml:id="init" when-iso="2018-02-28" who="#edAG">Erstauszeichnung und Normierung des Dokumentes im Rahmen der Masterarbeit der Matrikelnummer 5584124</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div n="1" corresp="#vkab">
+            <p>
+               Ich vermuthe stark, mein Hochgeschätzter Freund, daß mein durch <rs type="person" ref="#KGvB">Brinkmann</rs> an Sie 
+               gelangtes <rs type="citation" ref="#c0669-1">Paket</rs> sehr spät in Ihre Hände gekommen seyn wird: denn, wenn es 
+               wahr ist, was man sich hier sagt, daß er allein in <rs type="place" ref="#plHl">Halle</rs> 14 Tage zugebracht hat, so 
+               kan ich ungefähr denken, wann er in <rs type="place" ref="#plWe">Weimar</rs> gewesen seyn wird. Indessen darf ich 
+               doch jetzt auf eine Antwort von Ihnen recht bald rechnen, und bitte Sie vorzüglich, um baldmöglichste Zurücksendung 
+               der Ihnen communicirten Abschriften.
+            </p>
+            <p>
+               In unsrer innern Administration haben sich, seit <rs type="citation" ref="#c0669-1">meinem letzten Briefe</rs>, 
+               manche wichtige Veränderungen und Begebenheiten zugetragen: ich bin aber heute nicht im Stande Ihnen etwas darüber zu 
+               sagen, sondern muß die wenige Zeit die ich habe, dem Haupt-Gegenstande dieses Schreibens widmen.
+            </p>
+         </div>
+         <div n="2" corresp="#kmou">
+            <p>
+               Sie erhalten hier einen <rs type="citation" ref="#c0669-2">Brief</rs> an <pb/> 
+               <rs type="person" ref="#Mou">Mounier</rs> und einen Correctur-Bogen der Uebersetzung meiner Schrift. Ich habe den 
+               Brief mit Fleiß offen gelaßen (Sie mögen ihn beliebig schließen) damit Sie ihn lesen, und dadurch, ohne daß ich 
+               doppelt darüber schreiben durfte, die etwas épineuse Operation kennen lernen mögten, die ich mit dieser Uebersetzung 
+               vorgenommen habe. Was ich im Briefe an <rs type="person" ref="#Mou">Mounier</rs> erzählt habe, ist alles wahr: was 
+               ich dort aber nicht hinzusetzen durfte, ist, daß <del rend="stroked">die</del> 
+               <add place="above"><rs type="person" ref="#Mou">Mounier</rs>'s</add> 
+               <rs type="citation" ref="#a0669-1">Uebersetzung</rs> an vielen Stellen <emph rend="underlined">zu</emph> falsch, und 
+               an andern <emph rend="underlined">zu</emph> matt war, als <del rend="stroked">ich</del> daß ich sie unverändert hätte 
+               abdrucken laßen können. Da ich nun die andre, an vielen Stellen unstreitig bessre, mit der grösten Sorgfalt unter 
+               meinen Augen gemachte <rs type="citation" ref="#a0669-2">Uebersetzung</rs> einmal liegen hatte, so konnte ich mich 
+               unmöglich enthalten, diese <pb/> zur Formirung eines vollkommnern Ganzen zu benutzen. Ich bin allerdings nicht ganz 
+               ohne Besorgniß über die Art, wie <rs type="person" ref="#Mou">Mounier</rs> dieses 
+               <span xml:lang="fr">procédure tant soit peu cavaliére</span>, aufnehmen wird; ich rechne indessen mächtig auf Ihre 
+               Klugheit und auf Ihre Freundschaft. Sie können wohl glauben, daß mir an der Zufriedenheit eines Mannes wie 
+               <rs type="person" ref="#Mou">Mounier</rs> nicht wenig liegt. Auch wünschte ich gar herzlich, daß er mir seinen Nahmen 
+               nicht wieder entzöge, wenn auch das Werk nicht mehr ganz sein ist. Thun Sie Ihr Mögliches, und besonders - schaffen 
+               Sie mir promte Antwort.
+            </p>
+         </div>
+         <div n="3" corresp="#bezl">
+            <p>
+               <rs type="person" ref="#FdI">D'Ivernois</rs>, und durch ihn verschiedne andre schätzbare Männer in 
+               <rs type="place" ref="#plLo">London</rs> haben mich stark aufgefordert, ihnen eine französische Uebersetzung meiner 
+               <rs type="citation" ref="#p0669-1">Schrift</rs> zu verschaffen: ich mögte also bald mit der Sache ins Reine seyn. 
+               Wahrscheinlich laße ich nicht mehr als 100 Exemplare drucken. - Ich breche kurz ab, weil die Zeit drängt, und nenne mich 
+               von Herzen
+            </p>
+         </div>
+         <closer>
+            <salute rend="right">den Ihrigen</salute>
+            <dateline rend="left"><rs type="place" ref="#plBe">Berlin</rs> den <date when-iso="1798-03-10">10<span rend="sup">ten</span> Märtz 1798</date>.</dateline>
+            <signed rend="right">Gentz.</signed>
+         </closer>
+      </body>
+   </text>
+</TEI>

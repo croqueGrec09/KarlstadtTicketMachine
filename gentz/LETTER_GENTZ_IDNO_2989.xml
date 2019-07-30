@@ -1,0 +1,249 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc xml:id="LETTER_GENTZ_2989">
+         <titleStmt>
+            <title>Friedrich von Gentz an Wilhelm Weber, 11. August 1793 [bis 3. Dezember 1795]</title>
+            <editor xml:id="edAG">Andreas Gálffy</editor>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <name>Forschungsstelle "Universitätssammlung Friedrich von Gentz"</name>
+               <link target="http://gentz-digital.ub.uni-koeln.de http://www.ub.uni-koeln.de/cdm/singleitem/collection/gentz/id/2988/"/>
+            </publisher>
+            <pubPlace>Cologne</pubPlace>
+            <idno type="Gentz-Edition-Number" n="2989"/>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <country>Germany</country>
+                  <settlement>Wiesbaden</settlement>
+                  <institution>Vieweg-Verlagsarchiv</institution>
+                  <repository>Gentz-Materialien</repository>
+                  <idno>I, 1</idno>
+               </msIdentifier>
+               <msContents>
+                  <summary>
+                     Ein Schuldschein über 700 Reichstaler zu sechs Prozent Zinsen, fällig am 19.8.1793. Am 1.9.1793 sind 300 
+                     Reichstaler bezahlt. 400 sind am 1.9.1794 fällig.
+                     Am 11.5.1794 wird der Wechsel bis zum 1.3.1795 hinausgezögert.
+                     Am 27.4.1795 sind 20 Friedrichsd'or gezahlt worden. Der Rest ist am 15.5.1795 fällig. Mittlerweile hat Jacob 
+                     Bendix Meyer den Schuldschein inne, der den Gegenwert an Wilhelm Weber am 4.2.1795 gezahlt hat. Gentz hat 
+                     weitere 20 Friedrichsd'or am 31.5.1795 und 24.8.1795 bezahlt. Am 25.9.1795 sind noch 100 Reichstaler zu 30 
+                     Reichstaler Zinsen zu bezahlen; fällig zum 1.10.1795. Der Schuldschein wird an Jacob Abraham Schlesinger 
+                     abgetreten, der den Gegenwert am 24.9.1795 entrichtet. Schließlich wird am 3.12.1795 die gesamte Summe von 100 
+                     Reichstaler mit rückständigen Zinsen zu 30 Reichstaler auf den 1.1.1796 verlängert.
+                  </summary>
+               </msContents>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Masterarbeit zu Matrikelnummer 5584124</p>
+         </projectDesc>
+      </encodingDesc>
+      <profileDesc>
+         <creation>
+            <date when-iso="1793-08-11">11. August 1793</date>
+         </creation>
+        <langUsage>
+           <language ident="d">deutsch</language>
+        </langUsage>
+         <textClass>
+            <keywords scheme="internal"><!-- internal: innerhalb des besagten Briefs -->
+               <term>Schuldschein</term>
+               <term>Wilhelm Weber</term>
+               <term>Jacob Bendix Meyer</term>
+               <term>Jacob Abraham Schlesinger</term>
+            </keywords>
+            <keywords scheme="categorisation"><!-- Sinnabschnittseinteilung - relevant für den Fahrkartenautomaten! -->
+               <term xml:id="gprl">Gentz - p(r)ekuniäre Lage</term>
+            </keywords>
+         </textClass>
+         <textDesc>
+            <channel>manuscript</channel>
+            <constitution type="single"/>
+            <derivation type="original"/>
+            <domain type="private"/>
+            <factuality type="fact"/>
+            <interaction type="partial"/>
+            <preparedness type="unprepared"/>
+            <purpose type="inform"/>
+         </textDesc>
+         <particDesc>
+            <listPerson>
+               <!-- Sender und Adressat -->
+               <person role="sender" xml:id="Gen">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/118538489"/>
+                     <forename>Friedrich von</forename>
+                     <surname>Gentz</surname>
+                  </persName>
+               </person>
+               <person role="receiver" xml:id="WW">
+                  <persName>
+                     <ref/>
+                     <forename>Wilhelm</forename>
+                     <surname>Weber</surname>
+                  </persName>
+               </person>
+               <!-- erwähnte Personen -->
+               <person role="named" xml:id="JBM">
+                  <persName>
+                     <ref/>
+                     <forename>Jacob Bendix</forename>
+                     <surname>Meyer</surname>
+                  </persName>
+               </person>
+               <person role="named" xml:id="JAS">
+                  <persName>
+                     <ref/>
+                     <forename>Jacob Abraham</forename>
+                     <surname>Schlesinger</surname>
+                  </persName>
+               </person>
+               <person role="named" xml:id="FVW">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/119049546"/>
+                     <forename>Friedrich</forename>
+                     <surname>Vieweg</surname>
+                  </persName>
+               </person>
+            </listPerson>
+         </particDesc>
+         <settingDesc>
+            <listPlace>
+               <!-- Start- und Zielort -->
+               <place type="sender" xml:id="plBe">
+                  <country>
+                     <ref target="http://d-nb.info/gnd/4047194-9"/>
+                     <placeName>Preußen</placeName>
+                  </country>
+                  <settlement>
+                     <ref target="http://d-nb.info/gnd/4005728-8"/>
+                     <placeName>Berlin</placeName>
+                  </settlement>
+               </place>
+               <!-- erwähnte Orte -->
+            </listPlace>
+         </settingDesc>
+      </profileDesc>
+      <revisionDesc>
+         <change xml:id="init" when-iso="2018-02-13" who="#edAG">Erstauszeichnung und Normierung des Dokumentes im Rahmen der Masterarbeit der Matrikelnummer 5584124</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>     
+      <body>
+         <opener>
+            <dateline rend="right"><rs type="place" ref="#plBe">Berlin</rs> den <date when-iso="1793-08-11">11<span rend="sup">ten</span> August 1793</date></dateline>
+         </opener>
+         <head>700 Reichsthaler in Friedrichs dor à 5 Reichsthaler das Stück nebst 6 pro Cent Zinsen.</head>
+         <div n="1" corresp="#gprl">
+            <p>
+               <date when-iso="1793-08-19">Acht Tage nach dato</date> zahle ich Endesunterschriebner gegen diesen meinen 
+               Sola-Wechsel-Brief an den Herrn <rs type="person" ref="#WW">Hofrath Wilhelm Weber</rs> oder dessen Ordre die Summe 
+               von 700 Reichsthaler - schreibe Sieben Hundert Reichsthaler in Friedrichs dor à 5 Reichsthaler das Stück nebst 6 pro 
+               Cent jährlichen Zinsen. Valuta habe ich von demselben baar und richtig empfangen leiste daher zur Verfallzeit promte 
+               Zahlung nach Wechselrecht.
+            </p>
+            <lg type="signatureBox">
+               <l rend="left">An mich selbst aller</l><l rend="right">Friedrich Gentz</l>
+               <l rend="left">Orten zahlbar</l><l rend="right">Kriegesrath bey dem</l>
+               <l rend="left">Friedrich Gentz.</l><l rend="right">General-Directorio</l>
+            </lg>
+         </div>
+         <div n="2" corresp="#gprl">
+            <p>
+               Auf vorstehenden Wechsel habe ich unter heutigem dato 300 Reichsthaler Sage Dreyhundert Reichsthaler bezahlt. Der 
+               Ueberrest von 400 Reichsthaler wird mit beyderseitiger Bewilligung und Beybehaltung des Wechselrechts auf 
+               <date when-iso="1794-09-01">Ein Jahr prolongirt</date>.
+            </p>
+            <dateline rend="right"><rs type="place" ref="#plBe">Berlin</rs> den <date when-iso="1793-09-01">1<span rend="sup">ten</span> September 1793</date>:</dateline>
+            <signed rend="right">Gentz.</signed>
+         </div>
+         <div n="3" corresp="#gprl">
+            <p>
+               Vorstehender Wechsel wird mit beiderseitiger Genehmigung bis zum 
+               <date when-iso="1795-03-01">1ten März <ref target="#r2989-1">1995</ref></date> prolongirt, mit Beybehaltung des 
+               Wechselrechtes. Die Zinsen sind bis zum <date when-iso="1794-05-11">heutigen Tage</date> bezahlt.
+            </p>
+            <dateline rend="right"><rs type="place" ref="#plBe">Berlin</rs> den <date when-iso="1794-05-11">11<span rend="sup">ten</span> May 1794</date>:</dateline>
+            <signed rend="right">Gentz.</signed>
+         </div>
+         <div n="4" corresp="#gprl">
+            <p>
+               Auf vorstehenden Wechsel ist unter heutigem dato von mir, jedoch ohne Verletzung des Wechselrecht an 
+               <rs type="person" ref="#JBM">Herrn Jacob Bendix Meyer</rs> als jetzigen Inhaber des Wechsels, die Summe von Zwanzig 
+               Stück Friedrichs dor bezahlt, und der Ueberrest bis zum <date when-iso="1795-05-15">15ten May a. c.</date> 
+               prolongirt.
+            </p>
+            <dateline rend="right"><rs type="place" ref="#plBe">Berlin</rs> den <date when-iso="1795-04-27">27<span rend="sup">ten</span> April 1795</date></dateline>
+            <signed rend="right">Gentz.</signed>
+         </div>
+         <div n="5" corresp="#gprl" resp="otherHand">
+            <p>
+               Für mich an die Ordre des <rs type="person" ref="#JBM">Herrn Jacob Bendix Meyer</rs> Valuta von demselben
+            </p>
+            <dateline rend="right"><rs type="place" ref="#plBe">Berlin</rs> den <date when-iso="1795-02-04">4<span rend="sup">ten</span> Februar 1795</date></dateline>
+            <signed rend="right">Wilh. Weber</signed>
+            <signed rend="right">Hofrath</signed>
+         </div>
+         <div n="6" corresp="#gprl" resp="#Gen">
+            <p>
+               Auf umstehenden Wechsel sind abermals 20 Friedrichs dor abbezahlt.
+            </p>
+            <dateline rend="right"><rs type="place" ref="#plBe">Berlin</rs> den <date when-iso="1795-05-31">31<span rend="sup">ten</span> May 1795</date></dateline>
+            <signed rend="right">Gentz.</signed>
+         </div>
+         <div n="6" corresp="#gprl">
+            <p>
+               Dato sind abermals 20 Friedrichs dor abschläglich bezahlt.
+            </p>
+            <dateline rend="right"><rs type="place" ref="#plBe">Berlin</rs> den <date when-iso="1795-08-24">24<span rend="sup">ten</span> Aug: 1795</date></dateline>
+            <signed rend="right">Gentz.</signed>
+         </div>
+         <div n="7" corresp="#gprl">
+            <p>
+               Ich acceptire den Rückstand von obigem Wechsel mit 100 Reichsthaler in Friedrichsdor, nebst den vom 
+               <date when-iso="1794-05-11">11ten May 1794</date> rückständigen Zinsen à 30 Reichsthaler in Friedrichs dor an 
+               Inhaber dieses Wechsels auf den <date when-iso="1795-10-01">1ten Oktober dieses Jahrs</date> promt zu bezahlen, mit 
+               Vorbehalt des Wechselrechts.
+            </p>
+            <dateline rend="right"><rs type="place" ref="#plBe">Berlin</rs> den <date when-iso="1795-09-25">25<span rend="sup">ten</span> September 1795</date>.</dateline>
+            <signed rend="right">Gentz.</signed>
+         </div>
+         <div n="8" corresp="#gprl" resp="#JBM">
+            <p>
+               Für mich an die Ordre des <rs type="person" ref="#JAS">Herrn Jacob Abraham Schlesinger</rs> Valuta von demselben 
+               baar und richtig erhalten.
+            </p>
+            <dateline rend="right"><rs type="place" ref="#plBe">Berlin</rs> den <date when-iso="1795-09-24">24<span rend="sup">ten</span> Sept. 1795</date>.</dateline>
+            <signed rend="right">Jacob Bendix Meyer</signed>
+         </div>
+         <div n="9" corresp="#gprl">
+            <p>
+               Vorstehenden Wechsel von annoch 100 Reichsthaler Friedrichs dor nebst rückständige Zinsen wird mit beiderseitiger 
+               Bewilligung bis zum <date when-iso="1796-01-01">1ten Januar 1796</date> prolongirt, mit Vorbehalte des Wechselrechts.
+            </p>
+            <dateline rend="right"><rs type="place" ref="#plBe">Berlin</rs> den <date when-iso="1795-12-03">3<span rend="sup">ten</span> Decbr. 1795</date></dateline>
+            <signed rend="right">Friedr. Gentz</signed>
+         </div>
+      </body>
+      <back>
+         <p resp="#FVW">
+            <date when-iso="1796-07-08">1796. July. 8.</date>
+            Abr. <rs type="person" ref="#JAS">Schlesinger</rs>
+            pro 130 Reichsthaler Friedrichs d'or.
+         </p>
+         <p resp="otherHand">
+            16 Groschen incl. Stpl. bezahlt.
+         </p>
+      </back>
+      <note resp="#edAG" xml:id="r2989-1">Dieser offensichtliche Verschreiber wurde so aus "Gentz digital" übernommen.</note>
+   </text>
+</TEI>

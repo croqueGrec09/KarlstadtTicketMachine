@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc xml:id="LETTER_GENTZ_0141">
+         <titleStmt>
+            <title>Friedrich von Gentz an Karl August Böttiger, 7. Oktober 1802</title>
+            <editor xml:id="edAG">Andreas Gálffy</editor>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <name>Forschungsstelle "Universitätssammlung Friedrich von Gentz"</name>
+               <link target="http://gentz-digital.ub.uni-koeln.de http://www.ub.uni-koeln.de/cdm/singleitem/collection/gentz/id/140/"/>
+            </publisher>
+            <pubPlace>Cologne</pubPlace>
+            <idno type="Gentz-Edition-Number" n="0141"/>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <country>Germany</country>
+                  <settlement>Dresden</settlement>
+                  <institution>Sächsische Landesbibliothek</institution>
+                  <repository>Handschriftensammlung, Nachlaß Böttiger</repository>
+                  <collection>Mscr. Dresd. h 37, Bd. 54 (4°)</collection>
+                  <idno>Nr. 55a</idno>
+               </msIdentifier>
+               <msContents>
+                  <summary>
+                     Mit diesem Billet schickt Gentz ungelesene Zeitungen und anderes Papier zurück und wünscht sich Tacitus und 
+                     Plinius zur Lektüre.
+                  </summary>
+               </msContents>
+            </msDesc>
+            <listBibl type="preprints">
+               <biblStruct>
+                  <monogr>
+                     <editor>
+                        <persName>
+                           <ref target="http://d-nb.info/gnd/130953075"/>
+                           <forename>Friedrich Carl</forename>
+                           <surname>Wittichen</surname>
+                        </persName>
+                        <persName>
+                           <ref/> <!-- kein GND-Eintrag -->
+                           <forename>Ernst</forename>
+                           <surname>Salzer</surname>
+                        </persName>
+                     </editor>
+                     <title>Briefe von und an Friedrich von Gentz, 4 Bde.</title>
+                     <imprint>
+                        <publisher>Oldenbourg</publisher>
+                        <pubPlace>München, Berlin</pubPlace>
+                        <date>1909-1913</date>
+                     </imprint>
+                     <biblScope unit="volume" n="1">
+                        I
+                     </biblScope>
+                     <biblScope unit="page" from="262" to="263">
+                        Nr. 73
+                     </biblScope>
+                  </monogr>
+               </biblStruct>
+            </listBibl>
+            <listBibl type="alludedWorks">
+               <bibl xml:id="a0141-1" corresp="#LETTER_GENTZ_NNNN">nicht näher benanntes Billet vom Grafen Dumanoir</bibl>
+               <bibl xml:id="a0141-2" corresp="#LETTER_GENTZ_NNNN">nicht näher benannte Broschüre von Jordan</bibl>               
+               <bibl xml:id="a0141-3" corresp="#LETTER_GENTZ_NNNN">nicht näher benanntes mehrbändiges Werk von Emilie von Berlepsch</bibl>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Masterarbeit zu Matrikelnummer 5584124</p>
+         </projectDesc>
+      </encodingDesc>
+      <profileDesc>
+         <creation>
+            <date when-iso="1802-10-07">7. Oktober 1802</date>
+         </creation>
+        <langUsage>
+           <language ident="d">deutsch</language>
+        </langUsage>
+         <textClass>
+            <keywords scheme="internal"><!-- internal: innerhalb des besagten Briefs -->
+               <term>Billet</term>
+               <term>Treffen</term>
+               <term>Bücher</term>
+            </keywords>
+            <keywords scheme="categorisation"><!-- Sinnabschnittseinteilung - relevant für den Fahrkartenautomaten! -->
+               <term xml:id="bibl">Bibliothek</term>
+            </keywords>
+         </textClass>
+         <textDesc>
+            <channel>manuscript</channel>
+            <constitution type="single"/>
+            <derivation type="original"/>
+            <domain type="private"/>
+            <factuality type="fact"/>
+            <interaction type="partial"/>
+            <preparedness type="prepared"/>
+            <purpose type="inform"/>
+         </textDesc>
+         <particDesc>
+            <listPerson>
+               <!-- Sender und Adressat -->
+               <person role="sender" xml:id="Gen">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/118538489"/>
+                     <forename>Friedrich von</forename>
+                     <surname>Gentz</surname>
+                  </persName>
+               </person>
+               <person role="receiver" xml:id="KAB">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/118824775"/>
+                     <forename>Carl August</forename>
+                     <surname>Böttiger</surname>
+                  </persName>
+               </person>
+               <!-- erwähnte Personen -->
+               <person role="named" xml:id="EvBlp">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/116135697"/>
+                     <forename>Emilie von</forename>
+                     <surname>Berlepsch</surname>
+                  </persName>
+               </person>
+               <person role="named" xml:id="TcC">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/118620452"/>
+                     <forename>Cornelius</forename>
+                     <surname>Tacitus</surname>
+                  </persName>
+               </person>
+               <person role="named" xml:id="Pli">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/118595091"/>
+                     <forename>Gaius</forename>
+                     <surname>Plinius Caecilius Secundus</surname>
+                  </persName>
+               </person>
+            </listPerson>
+         </particDesc>
+         <settingDesc>
+            <listPlace>
+               <!-- Start- und Zielort -->
+               <place type="sender" xml:id="plWe">
+                  <country>
+                     <ref target="http://d-nb.info/gnd/4051194-7"/>
+                     <placeName>Sachsen-Weimar-Eisenach</placeName>
+                  </country>
+                  <settlement>
+                     <ref target="http://d-nb.info/gnd/4065105-8"/>
+                     <placeName>Weimar</placeName>
+                  </settlement>
+               </place>
+               <!-- erwähnte Orte -->
+               <place type="named" xml:id="plFfm">
+                  <country>
+                     <ref target="http://d-nb.info/gnd/4018118-2"/>
+                     <placeName>Frankfurt</placeName>
+                  </country>
+                  <settlement>
+                     <ref target="http://d-nb.info/gnd/4018118-2"/>
+                     <placeName>Frankfurt</placeName>
+                  </settlement>
+               </place>
+            </listPlace>
+         </settingDesc>
+      </profileDesc>
+      <revisionDesc>
+         <change xml:id="init" when-iso="2018-03-11" who="#edAG">Erstauszeichnung und Normierung des Dokumentes im Rahmen der Masterarbeit der Matrikelnummer 5584124</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div n="1" corresp="#bibl">
+            <p>
+               Hiebei erfolgen mit verbindlichstem Danke die ungelesnen Zeitungen zurück; auch füge ich das 
+               <rs type="citation" ref="#a0141-1">Billet von Dumanoir</rs> bei, da Sie mir erlaubt haben, die 
+               <rs type="citation" ref="#a0141-2">Brochure von Jordan</rs> mitzunehmen. Von 
+               <rs type="place" ref="#plFfm">Frankfurt</rs> aus sende ich Ihnen diese unfehlbar zurück.
+            </p>
+            <p>
+               Ich füge hier auch noch <rs type="citation" ref="#a0141-3">zwei Bände</rs> bei, die 
+               <rs type="person" ref="#EvBlp">Frau von Berlepsch</rs> mir geliehen hat, und bitte Sie, ihr solche mit meinem besten 
+               Danke zurückzugeben, und ihr dabei zu sagen, daß ich sie bei unsrer ersten Unterredung viel zu interessant gefunden 
+               hätte, um nicht recht lebhaft zu bedauern, daß dies vor der Hand auch die letzte hätte seyn müßen.
+            </p>
+            <p>
+               A propos ! Vergessen Sie doch ja nicht mir den <rs type="person" ref="#TcC">Tacitus</rs> und 
+               <rs type="person" ref="#Pli">Plinius</rs> <pb/> zu schicken ! - Ich reise um 11 Uhr, 
+               <span xml:lang="lat">si diis placet</span> ! - Bleiben Sie mein Freund, und gedenken Sie meiner.
+            </p>
+         </div>
+         <closer>
+            <signed rend="right">Gentz</signed>
+            <dateline rend="right">Den <date when-iso="1802-10-07">7 Otobr. 1802</date>.</dateline>
+         </closer>
+      </body>
+   </text>
+</TEI>

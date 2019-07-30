@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader type="text">
+      <fileDesc xml:id="LETTER_GENTZ_0217">
+         <titleStmt>
+            <title>Friedrich von Gentz an Isaac Wulff Hirsch, 11./12. Dezember 1794</title>
+            <editor xml:id="edAG">Andreas Gálffy</editor>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <name>Forschungsstelle "Universitätssammlung Friedrich von Gentz"</name>
+               <link target="http://gentz-digital.ub.uni-koeln.de http://www.ub.uni-koeln.de/cdm/singleitem/collection/gentz/id/216/"/>
+            </publisher>
+            <pubPlace>Cologne</pubPlace>
+            <idno type="Gentz-Edition-Number" n="0217"/>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <country>Germany</country>
+                  <settlement>Wiesbaden</settlement>
+                  <institution>Vieweg-Verlagsarchiv</institution>
+                  <repository>Gentz-Materialien</repository>
+                  <idno>I, 3</idno>
+               </msIdentifier>
+               <msContents>
+                  <summary>
+                     Ein Schuldschein über 45 Reichstaler à 5 Reichstaler zu sechs Prozent Zinsen, fällig am 11.6.1795. 
+                     Im Postscript, auf den folgenden Tag datiert, erkennt Gentz den Wechsel für richtig an.
+                  </summary>
+               </msContents>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Masterarbeit zu Matrikelnummer 5584124</p>
+         </projectDesc>
+      </encodingDesc>
+      <profileDesc>
+         <creation>
+            <date when-iso="1794-12-11">11./12. Dezember 1794</date>
+         </creation>
+        <langUsage>
+           <language ident="d">deutsch</language>
+        </langUsage>
+         <textClass>
+            <keywords scheme="internal"><!-- internal: innerhalb des besagten Briefs -->
+               <term>Schuldschein</term>
+               <term>Isaac Wulff Hirsch</term>
+               <term>Sola Wechsel</term>
+            </keywords>
+            <keywords scheme="categorisation"><!-- Sinnabschnittseinteilung - relevant für den Fahrkartenautomaten! -->
+               <term xml:id="gprl">Gentz - p(r)ekuniäre Lage</term>
+            </keywords>
+         </textClass>
+         <textDesc>
+            <channel>manuscript</channel>
+            <constitution type="single"/>
+            <derivation type="original"/>
+            <domain type="private"/>
+            <factuality type="fact"/>
+            <interaction type="partial"/>
+            <preparedness type="unprepared"/>
+            <purpose type="inform"/>
+         </textDesc>
+         <particDesc>
+            <listPerson>
+               <!-- Sender und Adressat -->
+               <person role="sender" xml:id="Gen">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/118538489"/>
+                     <forename>Friedrich von</forename>
+                     <surname>Gentz</surname>
+                  </persName>
+               </person>
+               <person role="receiver" xml:id="IWH">
+                  <persName>
+                     <ref/>
+                     <forename>Isaac Wulff</forename>
+                     <surname>Hirsch</surname>
+                  </persName>
+               </person>
+               <!-- erwähnte Personen -->
+               <person role="named" xml:id="FVW">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/119049546"/>
+                     <forename>Friedrich</forename>
+                     <surname>Vieweg</surname>
+                  </persName>
+               </person>
+            </listPerson>
+         </particDesc>
+         <settingDesc>
+            <listPlace>
+               <!-- Start- und Zielort -->
+               <place type="sender" xml:id="plBe">
+                  <country>
+                     <ref target="http://d-nb.info/gnd/4047194-9"/>
+                     <placeName>Preußen</placeName>
+                  </country>
+                  <settlement>
+                     <ref target="http://d-nb.info/gnd/4005728-8"/>
+                     <placeName>Berlin</placeName>
+                  </settlement>
+               </place>
+               <!-- erwähnte Orte -->
+            </listPlace>
+         </settingDesc>
+      </profileDesc>
+      <revisionDesc>
+         <change xml:id="init" when-iso="2018-02-15" who="#edAG">Erstauszeichnung und Normierung des Dokumentes im Rahmen der Masterarbeit der Matrikelnummer 5584124</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>     
+      <body>
+         <opener>
+            <dateline rend="right"><rs type="place" ref="#plBe">Berlin</rs> den <date when-iso="1794-12-11">11<span rend="sup">ten</span> December. 1794</date>:</dateline>
+         </opener>
+         <div n="1" corresp="#gprl">
+            <p>
+               <date when-iso="1795-06-11">Sechs Monat a dato</date> zahle ich Endesunterschriebner gegen diesen meinen Sola Wechsel 
+               Brief an die Ordre des <rs type="person" ref="#IWH">Herrn Isaac Wulff Hirsch</rs> die Summa von 45 Stück, Schreibe 
+               Fünf und Vierzig Stück Friedrichs dor à 5 Reichsthaler pro Stück nebst 6 pro Cent Zinsen. Valuta habe ich von 
+               demselben baar und richtig erhalten, und leiste zur Verfallzeit promte Zahlung nach Wechsel-Recht.
+            </p>
+            <lg type="signatureBox">
+               <l rend="left">Auf mich aller Orten</l><l rend="right">Friedrich Gentz.</l>
+               <l rend="left">Friedrich Gentz.</l><l rend="right">Kriegs-Rath bey dem</l>
+               <l rend="right">General-Directorio.</l>
+            </lg>
+         </div>
+         <div n="2" corresp="#gprl">
+            <p>
+               Ich anerkenne obigen Wechsel für richtig, und acceptire zur Wechselzeit promte Zahlung zu leisten.
+            </p>
+         </div>
+         <closer>
+            <dateline rend="right"><rs type="place" ref="#plBe">Berlin</rs> den <date when-iso="1794-12-12">12<span rend="sup">ten</span> December 1794</date>.</dateline>
+            <signed rend="right">Gentz.</signed>
+         </closer>
+      </body>
+      <back resp="#FVW">
+         <p>
+            <date when-iso="1796-03-02">1796 Merz 2</date>
+            <rs type="person" ref="#IWH">Isack Wulf Hirsch</rs>
+            125 Frd'or.
+         </p>
+      </back>
+      <note xml:id="r0217-1">Scherenausschnitt unter dem ersten Datum.</note>
+      <note xml:id="r0217-2">Auf Seite 2 von der Hand Viewegs</note>
+   </text>
+</TEI>

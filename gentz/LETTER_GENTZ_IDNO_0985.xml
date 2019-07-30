@@ -1,0 +1,299 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc xml:id="LETTER_GENTZ_0985">
+         <titleStmt>
+            <title>Friedrich von Gentz an Johann Gottfried Herder, 4. März 1797</title>
+            <editor xml:id="edAG">Andreas Gálffy</editor>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <name>Forschungsstelle "Universitätssammlung Friedrich von Gentz"</name>
+               <link target="http://gentz-digital.ub.uni-koeln.de http://www.ub.uni-koeln.de/cdm/singleitem/collection/gentz/id/984/"/>
+            </publisher>
+            <pubPlace>Cologne</pubPlace>
+            <idno type="Gentz-Edition-Number" n="0985"/>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <country>Poland</country>
+                  <settlement>Kraków</settlement>
+                  <institution>Biblioteka Jagiellońska</institution>
+                  <repository>Handschriftenabteilung</repository>
+                  <collection>Autographensammlung der ehem. Preußischen Staatsbibliothek</collection>
+               </msIdentifier>
+               <msContents>
+                  <summary>
+                     Ohne große Vorrede, aber dennoch mit der Bekundung seiner Ehrfurcht wendet sich Gentz an Herder. Gentz 
+                     beschreibt seine Arbeit an einer Geschichte über die französische Revolution und dazu braucht er viele schwer 
+                     zu beschaffende Artikel, die eben in der herzoglichen Bibliothek anzutreffen wären. Da über Goethe nicht das 
+                     Ergebnis zu erreichen war, das Gentz gewünscht hätte, möchte er nun Herder bitten, die auf einem beigefügten 
+                     Zettel aufgelisteten Werke zu erhalten. Gentz möchte die Werke für vier bis sechs Wochen und schlägt als 
+                     Bürgen Vieweg vor. So Herder ihn dazu rät, wendet sich Gentz gerne direkt an den Herzog.
+                  </summary>
+               </msContents>
+            </msDesc>
+            <listBibl type="preprints">
+               <biblStruct>
+                  <monogr>
+                     <editor>
+                        <persName>
+                           <ref target="http://d-nb.info/gnd/130953075"/>
+                           <forename>Friedrich Carl</forename>
+                           <surname>Wittichen</surname>
+                        </persName>
+                        <persName>
+                           <ref/> <!-- kein GND-Eintrag -->
+                           <forename>Ernst</forename>
+                           <surname>Salzer</surname>
+                        </persName>
+                     </editor>
+                     <title>Briefe von und an Friedrich von Gentz, 4 Bde.</title>
+                     <imprint>
+                        <publisher>Oldenbourg</publisher>
+                        <pubPlace>München, Berlin</pubPlace>
+                        <date>1909-1913</date>
+                     </imprint>
+                     <biblScope unit="volume" n="1">
+                        I
+                     </biblScope>
+                     <biblScope unit="page" from="314" to="317">
+                        
+                     </biblScope>
+                  </monogr>
+               </biblStruct>
+            </listBibl>
+            <listBibl type="letterReferenced">
+               <bibl xml:id="c0985-1" corresp="#LETTER_GENTZ_1099">Friedrich von Gentz an Karl August Böttiger, 16. Januar 1796</bibl>
+               <bibl xml:id="c0985-2" corresp="#LETTER_GENTZ_1793">Friedrich von Gentz an Karl August Böttiger, 2. Juli 1796</bibl>
+               <bibl xml:id="c0985-3" corresp="#LETTER_GENTZ_1209">Friedrich von Gentz an Karl August Böttiger, 4. März 1797</bibl>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Masterarbeit zu Matrikelnummer 5584124</p>
+         </projectDesc>
+      </encodingDesc>
+      <profileDesc>
+         <creation>
+            <date when-iso="1797-03-04">4. März 1797</date>
+         </creation>
+        <langUsage>
+           <language ident="d">deutsch</language>
+        </langUsage>
+         <textClass>
+            <keywords scheme="internal"><!-- internal: innerhalb des besagten Briefs -->
+               <term>Brief</term>
+               <term>Literatur</term>
+               <term>Bibliothek</term>
+               <term>Französische Revolution</term>
+            </keywords>
+            <keywords scheme="categorisation"><!-- Sinnabschnittseinteilung - relevant für den Fahrkartenautomaten! -->
+               <term xml:id="vjgh">Verhältnis Johann Gottfried Herder</term>
+               <term xml:id="budcff">Betrachtungen über den Ursprung, den Charakter und den Fortgang der Französischen Revolution</term>
+            </keywords>
+         </textClass>
+         <textDesc>
+            <channel>manuscript</channel>
+            <constitution type="single"/>
+            <derivation type="original"/>
+            <domain type="private"/>
+            <factuality type="fact"/>
+            <interaction type="partial"/>
+            <preparedness type="prepared"/>
+            <purpose type="inform"/>
+         </textDesc>
+         <particDesc>
+            <listPerson>
+               <!-- Sender und Adressat -->
+               <person role="sender" xml:id="Gen">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/118538489"/>
+                     <forename>Friedrich von</forename>
+                     <surname>Gentz</surname>
+                  </persName>
+               </person>
+               <person role="named" xml:id="JGH">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/118549553"/>
+                     <forename>Johann Gottfried von</forename>
+                     <surname>Herder</surname>
+                  </persName>
+               </person>
+               <!-- erwähnte Personen -->
+               <person role="named" xml:id="KAB">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/118824775"/>
+                     <forename>Carl August</forename>
+                     <surname>Böttiger</surname>
+                  </persName>
+               </person>
+               <person role="named" xml:id="Hum">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/118554727"/>
+                     <forename>Wilhelm von</forename>
+                     <surname>Humboldt</surname>
+                  </persName>
+               </person>
+               <person role="named" xml:id="JWvG">
+                  <persName>
+                     <ref target="https://d-nb.info/gnd/118540238"/>
+                     <forename>Johann Wolfgang von</forename>
+                     <surname>Goethe</surname>
+                  </persName>
+               </person>
+               <person role="named" xml:id="KASWE">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/11856014X"/>
+                     <forename>Karl August</forename>
+                     <surname>Sachsen-Weimar-Eisenach</surname>
+                     <roleName type="address">Großherzog</roleName>
+                  </persName>
+               </person>
+               <person role="named" xml:id="FVW">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/119049546"/>
+                     <forename>Friedrich</forename>
+                     <surname>Vieweg</surname>
+                  </persName>
+               </person>
+            </listPerson>
+         </particDesc>
+         <settingDesc>
+            <listPlace>
+               <!-- Start- und Zielort -->
+               <place type="sender" xml:id="plBe">
+                  <country>
+                     <ref target="http://d-nb.info/gnd/4047194-9"/>
+                     <placeName>Preußen</placeName>
+                  </country>
+                  <settlement>
+                     <ref target="http://d-nb.info/gnd/4005728-8"/>
+                     <placeName>Berlin</placeName>
+                  </settlement>
+               </place>
+               <place type="receiver" xml:id="plWe">
+                  <country>
+                     <ref target="http://d-nb.info/gnd/4051194-7"/>
+                     <placeName>Sachsen-Weimar-Eisenach</placeName>
+                  </country>
+                  <settlement>
+                     <ref target="http://d-nb.info/gnd/4065105-8"/>
+                     <placeName>Weimar</placeName>
+                  </settlement>
+               </place>
+               <!-- erwähnte Orte -->
+               <place type="named" xml:id="plFr">
+                  <country>
+                     <ref target="http://d-nb.info/gnd/4018145-5"/>
+                     <placeName>Frankreich</placeName>  
+                  </country>
+               </place>
+               <place type="named" xml:id="plJe">
+                  <country>
+                     <ref target="http://d-nb.info/gnd/4051194-7"/>
+                     <placeName>Sachsen-Weimar-Eisenach</placeName>
+                  </country>
+                  <settlement>
+                     <ref target="http://d-nb.info/gnd/4028557-1"/>
+                     <placeName>Jena</placeName>
+                  </settlement>
+               </place>
+            </listPlace>
+         </settingDesc>
+      </profileDesc>
+      <revisionDesc>
+         <change xml:id="init" when-iso="2018-02-26" who="#edAG">Erstauszeichnung und Normierung des Dokumentes im Rahmen der Masterarbeit der Matrikelnummer 5584124</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <opener>
+            <salute rend="left">Huchwürdiger</salute>
+            <salute rend="left">Hochzuverehrender Herr Vize-Präsident</salute>
+         </opener>
+         <div n="1" corresp="#vjgh">
+            <p>
+               Es ist eine große Dreistigkeit, daß ich mich, ohne auf irgend eine Weise bey Ewr. HochWürden eingeführt zu seyn, 
+               nicht allein geradesweges an Sie wende, sondern auch gleich mit einer Angelegenheit, die im günstigsten Falle immer 
+               mit einiger Belästigung verknüpft seyn würde, vor Sie trete. Sie verzeihen mir aber diese Dreistigkeit, durch 
+               Erfahrung gewiß längst überzeugt, daß es mit unter die Onera eines großen Nahmens gehört, oft auch von denen um 
+               Hülfe angesprochen zu werden, die keine andre Ansprüche aufzuweisen haben, als das Vertrauen, welches Ihnen die 
+               Vorstellung von einer großen und unbegränzten Humanität, aus erhabnen Werken geschöpft, einflößte.
+            </p>
+         </div>
+         <div n="2" corresp="#budcff">
+            <p>
+               Wenn Ewr. Hochwürden auch nur wenig von meiner Schriftstellerei bekannt seyn sollte, so wißen Sie doch gewiß, daß ich 
+               die Geschichte der französischen Revolution <pb/> zu meinem ganz besondern Studium gemacht habe. Ich bin seit Jahr 
+               und Tag mit einem Werke über die erste Periode dieser Revolution beschäftigt, dem ich gern so viel Gründlichkeit 
+               geben mögte, als es die Natur des Gegenstandes, und meine, in der Entfernung von 
+               <rs type="place" ref="#plFr">Frankreich</rs>, immer nur beschränkte Mittel gestatten. Vieles habe ich gesammelt, und 
+               manche gute Quelle, zum Theil mit großen Kosten, mir verschafft. Aber es giebt eine Menge, besonders kleiner, 
+               Artikel, die mit Geld nicht aufzuwiegen sind. Wo ich irgend von der Existenz solcher Artikel höre, da ist meine 
+               ganze Begierde gespannt, und kein Versuch, zum Gebrauch derselben zu gelangen, scheint mir zu schwer oder zu gewagt 
+               zu seyn.
+            </p>
+            <p>
+               Dies war der Fall, als der <rs type="person" ref="#KAB">Herr Consistorial-Rath Böttiger</rs> mir vor einiger Zeit 
+               die <rs type="citation" ref="#c0985-2">Nachricht mittheilte</rs>, daß in der Bibliothek des 
+               <rs type="person" ref="#KASWE">Herzog</rs>es von <rs type="place" ref="#plWe">Weimar</rs> sich verschiedne auf die 
+               erste Periode der Revolution Bezug habende Schriften befänden, und als er mir sogar, auf meine angelegentliche Bitte, 
+               ein Ver<pb/>zeichniß dieser Schriften <rs type="citation" ref="#c0985-1">übersandte</rs>. Der Wunsch, einen Theil 
+               dieser Schriften (wenn es auch auf noch so kurze Zeit seyn sollte) zum Gebrauch zu erhalten, wurde mächtig in mir 
+               rege. Ich wendete mich zunächst an einen meiner vertrautesten Freunde, den 
+               <rs type="person" ref="#Hum">Herrn Legations-Rath von Humboldt</rs> zu <rs type="place" ref="#plJe">Jena</rs>, in 
+               der Hoffnung durch seine Verbindung mit dem <rs type="person" ref="#JWvG">Herrn Geheimen Rath von Goethe</rs> 
+               vielleicht einen Weg an des <rs type="person" ref="#KASWE">Herrn Herzogs Durchlaucht</rs> zu finden. Diese Hoffnung 
+               wurde mir nicht gerade benommen, aber ich ward gewahr, daß die Sache in jedem Falle auf diesem Wege viel zu langsam 
+               für meine Wünsche, und selbst für meine Bedürfnisse, betrieben werden würde.
+            </p>
+            <p>
+               Ich unterstehe mich daher, Ewr. Hochwürden um Ihren gütigen Rath, und wenn es möglich wäre, um Ihr geneigtes Fürwort 
+               zu bitten. Ich weiß, daß Ihr Einfluß und Ihr Ansehen beym Herzoglichen Hofe groß genug ist, um mir, wenn anders die 
+               Sache nicht an und für sich ganz unausführbar seyn sollte, zur Gewährung meines Wunsches den Weg zu bahnen. Der 
+               <rs type="person" ref="#KASWE">Herzog</rs> dürfte Sich nur <pb/> entschließen, mir die <del rend="stroked">hier</del> 
+               auf dem beyliegenden Zettel verzeichneten Bücher, auf 4, höchstens 6 Wochen anzuvertrauen. Allerdings ist dies von 
+               einem ganz Fremden eine unbescheidne Zudringlichkeit: aber das Auffallende davon würde großentheils gehoben, wenn ein 
+               Mann, wie Sie, die Garantie für mich übernähme. Daß Sie, in Rücksicht auf den (gewiß sehr unbeträchtlichen) 
+               <emph rend="underlined">Geldwerth</emph> dieser Bücher eine solche Garantie allenfalls auf meinen bloßen Nahmen 
+               übernehmen würden, darf ich vielleicht erwarten, und könnte es um so mehr, da ich einen begüterten, hier angesessnen, 
+               Ihnen durchaus bekannten Mann, den <rs type="person" ref="#FVW">Herrn Buchhändler Vieweg</rs>, sogleich zu meinem 
+               Rück-Bürgen vorschlagen würde. Die größre Schwierigkeit läge vielleicht in der Frage: ob ich die Bücher auch 
+               <emph rend="underlined">unversehrt</emph> zurück liefern würde ? - Und da bliebe mir denn freilich nichts übrig, als 
+               die Erklärung, daß ich gewiß die heiligste Aufmerksamkeit, und die gewissenhafteste Sorgfalt anwenden wollte, um 
+               mich des Vertrauens, welches ich <add place="sup">mir</add> hier von Ihnen erbitte, nicht unwürdig zu machen. <pb/>
+            </p>
+            <p>
+               Ich habe nun mein Gesuch vorgetragen, und begleite es mit der Versicherung, daß der Gegenstand desselben ein großes 
+               Interesse, und eine große Wichtigkeit für mich hat. Wahrscheinlich ist dies genug, um <del rend="stroked">ihn</del> 
+               einem Manne, dem nichts menschliches, und besonders auch nichts litterärisch-menschliches fremd ist, die Beförderung 
+               meiner Angelegenheit zu empfehlen.
+            </p>
+            <p>
+               Wenn Sie es für nöthig hielten, und zweckmäßig fänden, daß ich mich selbst unmittelbar an den 
+               <rs type="person" ref="#KASWE">Herrn Herzog</rs> wendete, so würde ich augenblicklich dazu bereit seyn. In jedem 
+               Falle hoffe ich von Ihrer Güte eine baldige, und wenn es seyn kan, eine erwünschte Antwort. Sie wird mich durch eine 
+               persönliche Verbindlichkeit an einen Mann knüpfen, dem ich, als einer Zierde des gemeinschaftlichen Vaterlandes, 
+               längst mit jedem gebildeten Deutschen huldigte, und dessen Beifall zu erlangen, einer der vorzüglichsten Richtpunkte 
+               bei allen meinen schiftstellerischen Beschäftigungen war, und seyn wird.
+            </p>
+            <p>
+               Ich verharre mit großer Ehrerbietung
+            </p>
+         </div>
+         <closer>
+            <salute rend="left">Ewr. HochWürden</salute>
+            <dateline rend="left"><rs type="person" ref="#plBe">Berlin</rs> den <date when-iso="1797-03-04">4<span rend="sup">ten</span> März. 1797</date>:</dateline>
+            <salute rend="right">ganz gehorsamster Diener</salute>
+            <signed rend="right">Gentz.</signed>
+         </closer>
+      </body>
+      <note resp="#edAG" xml:id="r0985-1">Vgl. den <rs type="citation" ref="#c0985-3">Brief vom gleichen Tag an Böttiger</rs></note>
+   </text>
+</TEI>

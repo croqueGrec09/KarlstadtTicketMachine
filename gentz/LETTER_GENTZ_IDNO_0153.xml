@@ -1,0 +1,218 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc xml:id="LETTER_GENTZ_0153">
+         <titleStmt>
+            <title>Friedrich von Gentz an Adam Müller, 22. August 1801</title>
+            <editor xml:id="edAG">Andreas Gálffy</editor>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <name>Forschungsstelle "Universitätssammlung Friedrich von Gentz"</name>
+               <link target="http://gentz-digital.ub.uni-koeln.de http://www.ub.uni-koeln.de/cdm/singleitem/collection/gentz/id/152/"/>
+            </publisher>
+            <pubPlace>Cologne</pubPlace>
+            <idno type="Gentz-Edition-Number" n="0153"/>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <country>Germany</country>
+                  <settlement>Marbach am Neckar</settlement>
+                  <institution>Schiller-Nationalmuseum / Deutsches Literaturarchiv</institution>
+                  <repository>Sammlung Hauff-Kölle</repository>
+                  <idno>Nr. 34694</idno>
+               </msIdentifier>
+               <msContents>
+                  <summary>
+                     Für seine Frau bittet Gentz um Lektüre. Entweder das Mädchen von Orléans, oder den zweiten Teil von Florinde, 
+                     oder, wenn beides nicht geht, etwas anderes. Am nächsten Tag um zwei Uhr wird Gentz zu Müller kommen und ihm 
+                     über die Angelegenheit Anti-Hauterive berichten.
+                  </summary>
+               </msContents>
+            </msDesc>
+            <listBibl type="alludedWorks">
+               <bibl xml:id="a0153-1" corresp="#LETTER_GENTZ_NNNN">nicht näher benannter zweiter Teil eines Werkes namens Florinde</bibl>
+            </listBibl>
+            <listBibl type="defExpr">
+               <biblStruct xml:id="e0153-1" corresp="Gtb-0000">
+                  <monogr>
+                     <author>
+                        <persName>
+                           <ref target="http://d-nb.info/gnd/118607626"/>
+                           <forename>Friedrich</forename>
+                           <surname>Schiller</surname>
+                        </persName>
+                     </author>
+                     <title>Das Mädchen von Orléans</title>
+                     <imprint>
+                        <date>1801</date>
+                     </imprint>
+                  </monogr>
+                  <ptr target="http://gutenberg.spiegel.de/buch/gedichte-9097/89"/>
+               </biblStruct>
+            </listBibl>
+            <listBibl type="defRep">
+               <biblStruct xml:id="p0153-1" corresp="BSB-0017">
+                  <monogr>
+                     <author>
+                        <persName>
+                           <ref target="http://d-nb.info/gnd/118538489"/>
+                           <forename>Friedrich von</forename>
+                           <surname>Gentz</surname>
+                        </persName>
+                     </author>
+                     <title>Von dem Politischen Zustande von Europa vor und nach der Französischen Revolution</title>
+                     <imprint>
+                        <pubPlace>Berlin</pubPlace>
+                        <publisher>Heinrich Frölich</publisher>
+                        <date>1801</date>
+                     </imprint>
+                  </monogr>
+                  <ptr target="http://www.mdz-nbn-resolving.de/urn/resolver.pl?urn=urn:nbn:de:bvb:12-bsb10556396-8"/>
+               </biblStruct>
+            </listBibl>
+            <listBibl type="edRef">
+               <biblStruct xml:id="f0153-1" corresp="GBk-0068">
+                  <analytic>
+                     <title>On the State of Europe before and after the French Revolution; being an Answer to "L'Etat de la France à la fin de L'an. viii"</title>
+                  </analytic>
+                  <monogr>
+                     <title>The Anti-Jacobin Review and Magazine</title>
+                     <imprint>
+                        <pubPlace>London</pubPlace>
+                        <publisher>Anti-Jacobin Press</publisher>
+                        <date>1803</date>
+                     </imprint>
+                  </monogr>
+                  <ptr target="https://books.google.de/books?id=DQNdAAAAcAAJ"/>
+               </biblStruct>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Masterarbeit zu Matrikelnummer 5584124</p>
+         </projectDesc>
+      </encodingDesc>
+      <profileDesc>
+         <creation>
+            <date when-iso="1801-08-22">22. August 1801</date>
+         </creation>
+        <langUsage>
+           <language ident="d">deutsch</language>
+        </langUsage>
+         <textClass>
+            <keywords scheme="internal"><!-- internal: innerhalb des besagten Briefs -->
+               <term>Billet</term>
+               <term>Druckfehler</term>
+               <term>Treffen</term>
+               <term>Werk</term>
+            </keywords>
+            <keywords scheme="categorisation"><!-- Sinnabschnittseinteilung - relevant für den Fahrkartenautomaten! -->
+               <term xml:id="bibl">Bibliothek</term>
+               <term xml:id="vam">Verhältnis Adam Müller</term>
+            </keywords>
+         </textClass>
+         <textDesc>
+            <channel>manuscript</channel>
+            <constitution type="single"/>
+            <derivation type="original"/>
+            <domain type="private"/>
+            <factuality type="fact"/>
+            <interaction type="partial"/>
+            <preparedness type="unprepared"/>
+            <purpose type="inform"/>
+         </textDesc>
+         <particDesc>
+            <listPerson>
+               <!-- Sender und Adressat -->
+               <person role="sender" xml:id="Gen">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/118538489"/>
+                     <forename>Friedrich von</forename>
+                     <surname>Gentz</surname>
+                  </persName>
+               </person>
+               <person role="receiver" xml:id="AHM">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/118584790"/>
+                     <forename>Adam Heinrich</forename>
+                     <surname>Müller</surname>
+                  </persName>
+               </person>
+               <!-- erwähnte Personen -->
+               <person role="named" xml:id="Min">
+                  <persName>
+                     <ref/>
+                     <forename>Wilhelmine</forename>
+                     <surname>Gilly</surname>
+                  </persName>
+               </person>
+               <person role="named" xml:id="Ptg">
+                  <persName>
+                     <ref/>
+                     <forename></forename>
+                     <surname>Pitag</surname>
+                  </persName>
+               </person>
+            </listPerson>
+         </particDesc>
+         <settingDesc>
+            <listPlace>
+               <!-- Start- und Zielort -->
+               <place type="sender" xml:id="plBe">
+                  <country>
+                     <ref target="http://d-nb.info/gnd/4047194-9"/>
+                     <placeName>Preußen</placeName>
+                  </country>
+                  <settlement>
+                     <ref target="http://d-nb.info/gnd/4005728-8"/>
+                     <placeName>Berlin</placeName>
+                  </settlement>
+               </place>
+               <!-- erwähnte Orte -->
+            </listPlace>
+         </settingDesc>
+      </profileDesc>
+      <revisionDesc>
+         <change xml:id="init" when-iso="2018-03-08" who="#edAG">Erstauszeichnung und Normierung des Dokumentes im Rahmen der Masterarbeit der Matrikelnummer 5584124</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div n="1" corresp="#bibl">
+            <p>
+               <rs type="person" ref="#Min">Meine Frau</rs> läßt Sie dringend bitten, ihr zum morgenden Tage, da sie ganz allein 
+               ist, eine Lektüre zu verschaffen; am liebsten, wenn es möglich wäre, das 
+               <rs type="citation" ref="#e0153-1"><emph rend="underlined">Mädchen von Orleans</emph></rs>; wo nicht, 
+               <rs type="citation" ref="#a0153-1">den zweiten Theil von Florinde</rs>; wo nicht, irgend etwas andres. Sorgen Sie ja 
+               dafür, lieber Freund, und sagen Sie <rs type="place" ref="#Ptg">Pitag</rs>, zu welcher Zeit er es erwarten soll.
+            </p>
+         </div>
+         <div n="2" corresp="#vam">
+            <p>
+               Ich werde übrigens <date when-iso="1801-08-23">Morgen</date> um 2 Uhr zu Ihnen kommen, <pb/> und Ihnen erzählen, wie 
+               es mit der Angelegenheit meines <ref target="#r0153-4">Anti-Hauterive</ref> weiter, und sonderbar, gegangen ist.
+            </p>
+         </div>
+         <closer>
+            <signed rend="right">Gentz</signed>
+            <dateline rend="right">d <date when-iso="1801-08-22">22 August</date>.</dateline>
+         </closer>
+      </body>
+      <back>
+         <p>
+            An
+            Herrn Müller.
+         </p>
+      </back>
+      <note xml:id="r0153-1">Blatt 2: Siegelausriß</note>
+      <note xml:id="r0153-2">Adresse auf Seite 4</note>
+      <note xml:id="r0153-3">Seite 4: Siegelabdruck</note>
+      <note resp="#edAG" xml:id="r0153-4">Es handelt sich hier um das Werk <rs type="citation" ref="#p0153-1">"Über den politischen Zustand von Europa vor und nach der Revolution"</rs>. Dies geht aus Seite 28 des <rs type="citation" ref="#f0153-1">Anti-Jacobin Review and Magazine, Bd. 14 von 1803</rs> hervor</note>
+   </text>
+</TEI>

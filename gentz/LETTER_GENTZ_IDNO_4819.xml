@@ -1,0 +1,265 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader type="text">
+      <fileDesc xml:id="LETTER_GENTZ_4819">
+         <titleStmt>
+            <title>Friedrich von Gentz an Elisabeth Graun, 10. November 1786</title>
+            <editor xml:id="edAG">Andreas Gálffy</editor>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <name>Forschungsstelle "Universitätssammlung Friedrich von Gentz"</name>
+               <link target="http://gentz-digital.ub.uni-koeln.de http://www.ub.uni-koeln.de/cdm/singleitem/collection/gentz/id/4818/"/>
+            </publisher>
+            <pubPlace>Cologne</pubPlace>
+            <idno type="Gentz-Edition-Number" n="4819"/>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <country>Poland</country>
+                  <settlement>Cracow</settlement>
+                  <institution>Biblioteka Jagiellońska</institution>
+                  <repository>Handschriftenabtelung</repository>
+                  <collection>Varnhagensammlung der ehemaligen Preußischen Bibliothek</collection>
+                  <idno>Karton 66</idno>
+               </msIdentifier>
+               <msContents>
+                  <summary>
+                     Die Verbindung zu Coelestinen ist zu Bruch gegangen. Nach diesem Bruch fühlt sich Gentz alleine gelassen und in 
+                     Elisabeth Graun einen Fels in der Brandung, die einzig verbliebene Stütze. Dies bekräftigt er dadurch, dass er 
+                     nur ihr gegenüber sich so weit geöffnet habe, dass die Empfindungen und Meinungen sich deckten, und dass ihre 
+                     Freundschaft untrennbar bleiben müsse. Zumal, da eine Frau, wie Frau Graun sie ist, das Bedürfnis nach jemanden 
+                     haben müsse, der sie in- und auswendig kennt. Liebesbekundungen anderer seien oberflächlich, ohne Substanz. 
+                     Das Brieffragment bricht mit dem Ende dieses angeführten Beweises ab.
+                  </summary>
+               </msContents>
+            </msDesc>
+            <listBibl type="preprints">
+               <biblStruct>
+                  <monogr>
+                     <editor>
+                        <persName>
+                           <ref target="http://d-nb.info/gnd/130953075"/>
+                           <forename>Friedrich Carl</forename>
+                           <surname>Wittichen</surname>
+                        </persName>
+                        <persName>
+                           <ref/> <!-- kein GND-Eintrag -->
+                           <forename>Ernst</forename>
+                           <surname>Salzer</surname>
+                        </persName>
+                     </editor>
+                     <title>Briefe von und an Friedrich von Gentz. 4 Bde.</title>
+                     <imprint>
+                        <publisher>Oldenbourg</publisher>
+                        <pubPlace>München, Berlin</pubPlace>
+                        <date>1909-1913</date>
+                     </imprint>
+                     <biblScope unit="volume" n="1">
+                        I
+                     </biblScope>
+                     <biblScope unit="page" from="87" to="89">
+                        Nr. 18
+                     </biblScope>
+                  </monogr>
+               </biblStruct>
+               <biblStruct>
+                  <monogr>
+                      <editor>
+                         <persName>
+                            <ref target="http://d-nb.info/gnd/117325791"/>
+                            <forename>Gustav</forename>
+                            <surname>Schlesier</surname>
+                         </persName>
+                      </editor>
+                      <title>Schriften von Friedrich von Gentz. Ein Denkmal. 5 Bde.</title>
+                      <imprint>
+                          <publisher>Verlag von Heinrich Wolff</publisher>
+                          <pubPlace>Mannheim</pubPlace>
+                          <date>1838-1840</date>
+                      </imprint>
+                      <biblScope unit="volume" n="1">
+                          I
+                      </biblScope>
+                      <biblScope unit="page" from="78" to="81">
+                          Nr. 9
+                      </biblScope>
+                  </monogr>
+               </biblStruct>
+               <biblStruct>
+                  <monogr>
+                     <author>
+                        <persName>
+                           <ref target="http://d-nb.info/gnd/117121150"/>
+                           <forename>Margarete</forename>
+                           <surname>von Olfers</surname>
+                        </persName>
+                     </author>
+                     <title>Elisabeth v. Staegemann. Lebensbild einer deutschen Frau 1761-1835</title>
+                     <imprint>
+                        <publisher>Koehler &amp; Amelang</publisher>
+                        <pubPlace>Leipzig</pubPlace>
+                        <date>1939</date>
+                     </imprint>
+                     <biblScope unit="page" from="64" to="64">
+                        64 (teilweise)
+                     </biblScope>
+                  </monogr>
+               </biblStruct>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Masterarbeit zu Matrikelnummer 5584124</p>
+         </projectDesc>
+      </encodingDesc>
+      <profileDesc>
+         <creation>
+            <date when-iso="1786-11-10">10. November 1786</date>
+         </creation>
+        <langUsage>
+           <language ident="d">deutsch</language>
+        </langUsage>
+         <textClass>
+            <keywords scheme="internal"><!-- internal: innerhalb des besagten Briefs -->
+               <term>Brief</term>
+               <term>Graun</term>
+               <term>Coelestine</term>
+               <term>Sehnsucht</term>
+               <term>Freundschaft</term>
+            </keywords>
+            <keywords scheme="categorisation"><!-- Sinnabschnittseinteilung - relevant für den Fahrkartenautomaten! -->
+               <term xml:id="veg">Verhältnis Elisabeth Graun</term>
+            </keywords>
+         </textClass>
+         <textDesc>
+            <channel>manuscript</channel>
+            <constitution type="frags"/>
+            <derivation type="original"/>
+            <domain type="private"/>
+            <factuality type="fact"/>
+            <interaction type="partial"/>
+            <preparedness type="unprepared"/>
+            <purpose type="inform"/>
+         </textDesc>
+         <particDesc>
+            <listPerson>
+               <!-- Sender und Adressat -->
+               <person role="sender" xml:id="Gen">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/118538489"/>
+                     <forename>Friedrich von</forename>
+                     <surname>Gentz</surname>
+                  </persName>
+               </person>
+               <person role="receiver" xml:id="Gra">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/123518733"/>
+                     <forename>Elisabeth</forename>
+                     <surname>Graun</surname>
+                  </persName>
+               </person>
+               <!-- erwähnte Personen -->
+            </listPerson>
+         </particDesc>
+         <settingDesc>
+            <listPlace>
+               <!-- Start- und Zielort -->
+               <place type="sender" xml:id="plKo">
+                  <country>
+                     <ref target="http://d-nb.info/gnd/4047194-9"/>
+                     <placeName>Preußen</placeName>  
+                  </country>
+                  <settlement>
+                     <ref target="http://d-nb.info/gnd/4031541-1"/>
+                     <placeName>Königsberg</placeName>
+                  </settlement>
+               </place>
+               <!-- erwähnte Orte -->
+            </listPlace>
+         </settingDesc>
+      </profileDesc>
+      <revisionDesc>
+         <change xml:id="init" when-iso="2018-01-28" who="#edAG">Erstauszeichnung und Normierung des Dokumentes im Rahmen der Masterarbeit der Matrikelnummer 5584124</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <opener>
+            <dateline>Am <date>10<span rend="sup">ten</span> November. 1786.</date></dateline>
+         </opener>
+         <div n="1" corresp="#veg">
+            <p>
+               Schon seit geraumer Zeit habe ich Sie, Theure, liebe, unschätzbare Frau, in der vollkommensten und lautsten 
+               Uebereinstimmung meines Herzens und meines Verstandes, selbst in der Epoche, wo mir meine Glückseeligkeit durch die 
+               Liebe so glänzend, und - ach ! - so befestigt schien, in einem sehr richtigen Sinn des Ausdrucks, meine 
+               <emph rend="underlined">einzige Freundinn</emph> genannt. Schon zwey Jahre lang haben Sie mich durch eine 
+               unübersehbare Reihe wahrer Freundschafts-Dienste aller Art, durch eine beständige Theilnehmung an meinem Schicksal, 
+               und vorzüglich, durch eine höchst seltne und auffallende, mir eben so süße und trostreiche, als heilsame und 
+               ehrenvolle Harmonie Ihrer Empfindungen mit den meinigen, und Ihrer Denk-Art mit der meinigen so unauflöslich an Sie 
+               gekettet, daß das, was ich gegen Sie fühle, ohnmöglich eher und anders als mit meinem Tode in mir aussterben kan. -
+            </p>
+            <p>
+               Jetzt aber, jetzt mehr als jemals, - jetzt, da die glänzendste meiner Hoffnungen vorübergerauscht ist, wie eine 
+               Welle vor dem Nordwinde, da ich mich getäuscht, gekränkt, verwundet in den empfindlichsten Stellen meiner Seele 
+               fühle, da mit dem Vertrauen auf das Mädchen, der ich so viel, so viel vertraute, zugleich so manche meiner 
+               angenehmsten Verbindungen, und meiner reitzendsten Freundschafts-Bündniße zu Grunde gehen, und mein Glaube an Treue 
+               und Moralität und Menschen-Güte einen Stoß leidet, wodurch er fast gänzlich scheitern möchte, jetzt sind Sie in 
+               einem noch eigentlichern Sinn des Wortes, meine <emph rend="underlined">einzige Freundinn</emph>, nicht blos, weil 
+               Sie es in einem so vorzüglichen Grade sind, sondern, weil Sie es wirklich nur allein sind. Sie wißen Selbst in was 
+               für einem Verhältniß ich gegen alle meine hiesige Bekannte, und ehemals so genannte Freunde stehe: Sie kennen 
+               ohngefähr meine Berlinsche Verfaßung. Ich glaubte an Meschkern genung zu haben: ich hätte mich in ihm auch nie 
+               geirrt: aber er hat geheyrathet: der Strom seiner Freundschaft, seiner Theilnehmung, seines Umgangs ist also 
+               zertheilt: ich kan ihn nur halb genießen: sein Verhältniß mit mir ist nur das zweyte im Range: er liebt und 
+               beglückt seine Frau.
+            </p>
+            <p>
+               Außer ihm habe ich vor keinem Sterblichen, alle die geheimen Falten meiner Seele so ausgewickelt, als vor Ihnen. 
+               Sie kennen mich ganz: Sie <pb/> wißen um alle meine Schwachheiten, Sie belohnen mit Ihrem Beyfall das Gute in mir, 
+               was die Welt nicht einmal kennt. Wenn ich mit mir selbst zufrieden bin, so kan ich darauf rechnen, daß auch Sie 
+               meine Handlungen billigen: und wenn ich fehle, wünsche ich mir keinen andern Richter, und wenig, vielleicht keinen 
+               so guten Wegweiser, als Sie, weil Sie fast an eben den Krankheiten oft darnieder liegen, die mich drücken, weil der 
+               schwache Punkt in Ihnen und in mir auf derselbigen Stelle liegt. Den Platz, den Sie also in meinen Augen und für 
+               mich in diesem Leben behaupten, kan außer Ihnen, kan <emph rend="underlined">nach</emph> Ihnen - wenn mich das harte 
+               Schiksal träfe, nach Ihnen noch zu leben, - Niemand mehr ersetzen.
+            </p>
+            <p>
+               Auf der andern Seite sehe ich denn doch auch offenbar, und mit wahrer inniger Freude, daß Ihnen meine Freundschaft 
+               werth und wichtig ist. Alle Schmeicheleyen eitler Männer, alle feurige Liebes-Lobsprüche entflammter Anbeter, und 
+               der laute Beyfall der thörigten Menge, kan für eine solche Frau, wie Sie in Ihren 
+               <emph rend="underlined">ruhigen</emph> Stunden sind, ohnmöglich befriedigend seyn. Es ist für Menschen von einer 
+               gewißen höhern Denkungs-Art ein nothwendiges Bedürfniß, wenigstens von Einigen, wäre es auch nur von Einem ganz und 
+               vollkommen gekannt zu seyn. Eine einzige Stunde mit einem solchen Menschen verlebt, eine einzige Unterredung, worin 
+               unsre ganze Seele spricht, worin sich Alle, selbst die geheimsten Behältniße des Herzens aufschließen, und unser 
+               wahrer unverstellter, weder übertriebner noch verkürzter Werth dem Andern ganz und klar vor Augen liegt, kan den, 
+               der es weis, was Glückseeligkeit ist, für eine ganze Kette langweiliger Tage, und schaaler, unschmackhafter 
+               Vergnügungen entschädigen. Sie haben einen Sinn für diese Art von Lebens-Genuß, und ich bin überzeugt, daß ich unter 
+               die Menschen gehöre, an deren Beyfall Ihnen mehr liegt, als am Affen-Lobe des Haufens. Sie haben Vertrauen auf mich 
+               gesetzt, und Sie fühlen, wie ich es fühle, daß ich dieses Vertrauens nie ganz unwerth werden kan.
+            </p>
+            <p>
+               Unsre Freundschaft muß also ewig und unwandelbar seyn: Würde sie mir entrißen, oder erkaltete sie, so sänke in dem 
+               ruinen-vollen Gebäude meiner Liebe zum menschlichen Geschlecht, die letzte Stütze, und ich würde recht lebhaft und 
+               herzlich wünschen - daß für mich die Sonne niemals aufgegangen seyn möchte.
+            </p>
+            <p>
+               Sehn Sie das, was ich bisher gesagt habe, nicht etwan als die Vorrede des noch folgenden an: nein ! es ist bey 
+               weitem das Wichtigste. <pb/> Blos als einen Beweis, <del rend="stroked">diese</del> was diese reine, hohe 
+               Freundschaft im Stande ist zu thun, will ich Ihnen jetzt mit einer Offenherzigkeit, zu der mich sonst in der Welt 
+               Nichts bewegen könnte, <emph rend="underlined">meine Vorsätze</emph> über einen wichtigen Theil meines künftigen 
+               Lebens eröfnen. Ich übergebe sie Ihnen aber nicht zur Prüfung: ich habe sie mehr als hinlänglich selbst geprüft: 
+               und, Ihr Mund, und Ihre Feder mögen dagegen sagen, was Sie wollen, ich weiß doch, daß Sie mir im Herzen - Recht 
+               geben müßen.
+            </p>
+            <p>
+                Ich habe eine traurige Erfahrung gemacht: fast hätte sie mich um meine ganze Lebens-Glückseeligkeit gebracht
+            </p>
+         </div>
+         <div n="fragMark">
+            <p>(Rest des Manuskripts verschollen)</p>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc xml:id="LETTER_GENTZ_5229">
+         <titleStmt>
+            <title>Friedrich von Gentz an Kaiser Franz II., 23. Januar 1793</title>
+            <editor xml:id="edAG">Andreas Gálffy</editor>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <name>Forschungsstelle "Universitätssammlung Friedrich von Gentz"</name>
+               <link target="http://gentz-digital.ub.uni-koeln.de http://www.ub.uni-koeln.de/cdm/singleitem/collection/gentz/id/5228/"/>
+            </publisher>
+            <pubPlace>Cologne</pubPlace>
+            <idno type="Gentz-Edition-Number" n="5229"/>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <country>Austria</country>
+                  <settlement>Vienna</settlement>
+                  <institution>Haus-, Hof- und Staatsarchiv</institution>
+                  <repository>Staatskanzlei, Interiora</repository>
+                  <collection>Karton 78, Fasz.: "Gentz: Kaiser Franz, Thugut, Saurau, Cobentzl, Ludwig, 1793-1805"</collection>
+                  <idno>Bl. 1</idno>
+               </msIdentifier>
+               <msContents>
+                  <summary>
+                     Im Sturm, der laut Gentz Frankreich verwüstet hat, übermittelt er seine Übersetzung Burkes an Kaiser Franz II. 
+                     samt Adresse.
+                  </summary>
+               </msContents>
+            </msDesc>
+            <listBibl type="letterReferenced">
+               <bibl xml:id="c5229-1" corresp="#LETTER_GENTZ_0209">Friedrich von Gentz an König Friedrich Wilhelm II. von Preußen, 24. Dezember 1792</bibl>
+            </listBibl>
+            <listBibl type="defRep">
+               <biblStruct xml:id="p5229-1" corresp="DBUH-0000">
+                  <monogr>
+                     <author>
+                        <persName>
+                           <ref target="http://d-nb.info/gnd/118538489"/>
+                           <forename>Friedrich von</forename>
+                           <surname>Gentz</surname>
+                        </persName>
+                     </author>
+                     <title>Betrachtungen über die französische Revolution. Nach dem Englischen des Herrn Burke neu-bearbeitet mit einer Einleitung, Anmerkungen, politischen Abhandlungen und einem critischen Verzeichniß der in England über diese Revolution erschienenen Schriften, Zwei Theile</title>
+                     <imprint>
+                        <publisher>Friedrich Vieweg der Ältere</publisher>
+                        <pubPlace>Berlin</pubPlace>
+                        <date>1793</date>
+                     </imprint>
+                  </monogr>
+               <ptr target="http://digitale.bibliothek.uni-halle.de/vd18/id/9148833"/></biblStruct>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Masterarbeit zu Matrikelnummer 5584124</p>
+         </projectDesc>
+      </encodingDesc>
+      <profileDesc>
+         <creation>
+            <date when-iso="1793-01-23">23. Januar 1793</date>
+         </creation>
+        <langUsage>
+           <language ident="d">deutsch</language>
+        </langUsage>
+         <textClass>
+            <keywords scheme="internal"><!-- internal: innerhalb des besagten Briefs -->
+               <term>Brief</term>
+               <term>Begleitschreiben</term>
+               <term>Burke</term>
+            </keywords>
+            <keywords scheme="categorisation"><!-- Sinnabschnittseinteilung - relevant für den Fahrkartenautomaten! -->
+               <term xml:id="kbur">Burke</term>
+            </keywords>
+         </textClass>
+         <textDesc>
+            <channel>manuscript</channel>
+            <constitution type="single"/>
+            <derivation type="original"/>
+            <domain type="private"/>
+            <factuality type="fact"/>
+            <interaction type="partial"/>
+            <preparedness type="unprepared"/>
+            <purpose type="inform"/>
+         </textDesc>
+         <particDesc>
+            <listPerson>
+               <!-- Sender und Adressat -->
+               <person role="sender" xml:id="Gen">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/118538489"/>
+                     <forename>Friedrich von</forename>
+                     <surname>Gentz</surname>
+                  </persName>
+               </person>
+               <person role="receiver" xml:id="Fr">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/118534955"/>
+                     <forename>Franz II.</forename>
+                     <surname>Heiliges Römisches Reich</surname>
+                     <roleName type="office">Kaiser</roleName>
+                  </persName>
+               </person>
+               <!-- erwähnte Personen -->
+            </listPerson>
+         </particDesc>
+         <settingDesc>
+            <listPlace>
+               <!-- Start- und Zielort -->
+               <place type="sender" xml:id="plBe">
+                  <country>
+                     <ref target="http://d-nb.info/gnd/4047194-9"/>
+                     <placeName>Preußen</placeName>
+                  </country>
+                  <settlement>
+                     <ref target="http://d-nb.info/gnd/4005728-8"/>
+                     <placeName>Berlin</placeName>
+                  </settlement>
+               </place>
+               <place type="receiver" xml:id="plWi">
+                  <country>
+                     <ref target="http://d-nb.info/gnd/4075601-4"/>
+                     <placeName>Erzherzogtum Österreich</placeName>
+                  </country>
+                  <settlement>
+                     <ref target="http://d-nb.info/gnd/4066009-6"/>
+                     <placeName>Wien</placeName>
+                  </settlement>
+               </place>
+               <!-- erwähnte Orte -->
+               <place type="named" xml:id="plFr">
+                  <country>
+                     <ref target="http://d-nb.info/gnd/4018145-5"/>
+                     <placeName>Frankreich</placeName>  
+                  </country>
+               </place>
+               <place type="named" xml:id="plEu">
+                  <geogName type="continent">
+                     <ref target="http://d-nb.info/gnd/4015701-5"/>
+                     <placeName>Europa</placeName>
+                  </geogName>
+               </place>
+               <place type="named" xml:id="plDe">
+                  <country>
+                     <ref target="http://d-nb.info/gnd/2035457-5"/>
+                     <placeName>Deutschland</placeName>  
+                  </country>
+               </place>
+            </listPlace>
+         </settingDesc>
+      </profileDesc>
+      <revisionDesc>
+         <change xml:id="init" when-iso="2018-02-13" who="#edAG">Erstauszeichnung und Normierung des Dokumentes im Rahmen der Masterarbeit der Matrikelnummer 5584124</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <opener>
+            <salute rend="left">Allerdurchlauchtigster Großmächtigster Kayser !</salute>
+            <salute rend="left">Allergnädigster Kayser und Herr !</salute>
+         </opener>
+         <div n="1" corresp="#kbur">
+            <p>
+               In einem Augenblick, wie dieser, wo der Sturm, der <rs type="place" ref="#plFr">Frankreich</rs> verwüstet hat, der 
+               Ruhe eines großen, und des glücklichsten Theils von <rs type="place" ref="#plEu">Europa</rs> zu drohen scheint, und 
+               wo alle, die es mit der Menschheit wohl meynen, ihre Augen auf die Schutz-Engel von 
+               <rs type="place" ref="#plDe">Deutschland</rs> richten, wird es einem Deutschen vielleicht vergönnt seyn, 
+               <rs type="person" ref="#Fr">Ewr. Kayserlichen Majestät</rs> in tiefster Unterthänigkeit 
+               <rs type="citation" ref="#p5229-1">eine Arbeit</rs> vorzulegen, deren Endzweck es war, die Vertheidiger der 
+               Französischen Revolution mit ihren eignen Lieblings-Waffen, mit den Waffen des philosophischen Raisonnements 
+               anzugreifen.
+            </p>
+            <p>
+               Wenn <rs type="person" ref="#Fr">Ewr. Kayserliche Majestät</rs> das Resultat dieser Arbeit nicht ganz verwerflich, 
+               und in dieser Rücksicht den Uebersender <rs type="person" ref="#Fr">Allerhöchstdero</rs> Gnade nicht ganz unwürdig 
+               finden: so mag ein solcher überglücklicher Erfolg meines Schritts die Dreistigkeit desselben rechtfertigen. Ich 
+               ersterbe in unbegränzter Ehrfurcht
+            </p>
+         </div>
+         <closer>
+            <salute rend="right">Ewr. Kayserlichen Majestät</salute>
+            <salute rend="right">allerunterthänigster Knecht</salute>
+            <dateline rend="left"><rs type="place" ref="#plBe">Berlin</rs> den <date when-iso="1793-01-23">23<span rend="sup">ten</span> Januar</date></dateline>
+            <signed rend="right">Friedrich Gentz</signed>
+            <dateline rend="left"><date when-iso="1793-01-23">1793.</date></dateline>
+            <signed rend="right">Geheimer Secretair bey dem</signed>
+            <signed rend="right">Preußsischen General-Directorio</signed>
+         </closer>
+         <note resp="#edAG" xml:id="r5229-1">Vgl. den <rs type="citation" ref="#c5229-1">Brief vom 23. Dezember 1792</rs>.</note>
+      </body>
+   </text>
+</TEI>

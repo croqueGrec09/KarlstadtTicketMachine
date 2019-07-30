@@ -1,0 +1,325 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader type="text">
+      <fileDesc xml:id="LETTER_GENTZ_1003">
+         <titleStmt>
+            <title>Friedrich von Gentz an Elisabeth Graun, 3. Februar 1787</title>
+            <editor xml:id="edAG">Andreas Gálffy</editor>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <name>Forschungsstelle "Universitätssammlung Friedrich von Gentz"</name>
+               <link target="http://gentz-digital.ub.uni-koeln.de http://www.ub.uni-koeln.de/cdm/singleitem/collection/gentz/id/1002/"/>
+            </publisher>
+            <pubPlace>Cologne</pubPlace>
+            <idno type="Gentz-Edition-Number" n="1003"/>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <country>Poland</country>
+                  <settlement>Cracow</settlement>
+                  <institution>Biblioteka Jagiellońska</institution>
+                  <repository>Handschriftenabtelung</repository>
+                  <collection>Varnhagensammlung der ehemaligen Preußischen Bibliothek</collection>
+                  <idno>Karton 66</idno>
+               </msIdentifier>
+               <msContents>
+                  <summary>
+                     Elisabeth Graun hat erneut Zweifel an der Treue Gentz' bekommen; überhaupt der Gedanke für ihn ist schon 
+                     beleidigend. Er stellt klar, dass er sie nach wie vor nie vergessen habe und dass mit ihr selbst das dürstende 
+                     Schicksal das Angenehmste der Welt sei. Dementsprechend leer fühlt er sich, wann auch immer er von Elisabeth 
+                     Graun getrennt ist.
+                     Elisabeth Graun hat ein Bild gemalt, das Gentz haben muss, um jeden Preis. Er sieht es mit Eifersucht, dass er 
+                     davon von ihrem Mann erfahren musste, und nähme es ihr sehr übel, wenn er, nach all der Hoffnung, das Bild 
+                     nicht bekäme. Er macht es sogar zu einer Bedingung der Freundschaft.
+                  </summary>
+               </msContents>
+            </msDesc>
+            <listBibl type="preprints">
+               <biblStruct>
+                  <monogr>
+                     <editor>
+                        <persName>
+                           <ref target="http://d-nb.info/gnd/130953075"/>
+                           <forename>Friedrich Carl</forename>
+                           <surname>Wittichen</surname>
+                        </persName>
+                        <persName>
+                           <ref/> <!-- kein GND-Eintrag -->
+                           <forename>Ernst</forename>
+                           <surname>Salzer</surname>
+                        </persName>
+                     </editor>
+                     <title>Briefe von und an Friedrich von Gentz. 4 Bde.</title>
+                     <imprint>
+                        <publisher>Oldenbourg</publisher>
+                        <pubPlace>München, Berlin</pubPlace>
+                        <date>1909-1913</date>
+                     </imprint>
+                     <biblScope unit="volume" n="1">
+                        I
+                     </biblScope>
+                     <biblScope unit="page" from="100" to="103">
+                        Nr. 23
+                     </biblScope>
+                  </monogr>
+               </biblStruct>
+            </listBibl>
+            <listBibl type="letterReferenced">
+               <bibl xml:id="c1003-1" corresp="#LETTER_GENTZ_0749">Friedrich von Gentz an Elisabeth Graun, 20. Januar 1787</bibl>
+               <bibl xml:id="c1003-2" corresp="#LETTER_GENTZ_NNNN">nicht bekannter Brief von Friedrich von Gentz an George, Ende Januar 1787</bibl>
+               <bibl xml:id="c1003-3" corresp="#LETTER_GENTZ_NNNN">nicht bekannter Brief von Dengel an Friedrich von Gentz</bibl>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Masterarbeit zu Matrikelnummer 5584124</p>
+         </projectDesc>
+      </encodingDesc>
+      <profileDesc>
+         <creation>
+            <date when-iso="1787-02-03">3. Februar 1787</date>
+         </creation>
+        <langUsage>
+           <language ident="d">deutsch</language>
+        </langUsage>
+         <textClass>
+            <keywords scheme="internal"><!-- internal: innerhalb des besagten Briefs -->
+               <term>Brief</term>
+               <term>Graun</term>
+               <term>Sehnsucht</term>
+               <term>Gemälde</term>
+               <term>Regierungsrat Graun</term>
+            </keywords>
+            <keywords scheme="categorisation"><!-- Sinnabschnittseinteilung - relevant für den Fahrkartenautomaten! -->
+               <term xml:id="veg">Verhältnis Elisabeth Graun</term>
+               <term xml:id="vegg">Elisabeth Graun - Gemälde</term>
+            </keywords>
+         </textClass>
+         <textDesc>
+            <channel>manuscript</channel>
+            <constitution type="single"/>
+            <derivation type="original"/>
+            <domain type="private"/>
+            <factuality type="fact"/>
+            <interaction type="partial"/>
+            <preparedness type="prepared"/>
+            <purpose type="inform"/>
+         </textDesc>
+         <particDesc>
+            <listPerson>
+               <!-- Sender und Adressat -->
+               <person role="sender" xml:id="Gen">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/118538489"/>
+                     <forename>Friedrich von</forename>
+                     <surname>Gentz</surname>
+                  </persName>
+               </person>
+               <person role="receiver" xml:id="Gra">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/123518733"/>
+                     <forename>Elisabeth</forename>
+                     <surname>Graun</surname>
+                  </persName>
+               </person>
+               <!-- erwähnte Personen -->
+               <person role="named" xml:id="Mue">
+                  <persName>
+                     <ref/>
+                     <forename/>
+                     <surname>Münzmeister</surname>
+                  </persName>
+               </person>
+               <person role="named" xml:id="Geo">
+                  <persName>
+                     <ref/>
+                     <forename/>
+                     <surname>George</surname>
+                  </persName>
+               </person>
+               <person role="named" xml:id="Spe">
+                  <persName>
+                     <ref/>
+                     <forename/>
+                     <surname>Speidel</surname>
+                  </persName>
+               </person>
+               <person role="named" xml:id="Hgr">
+                  <persName>
+                     <ref/>
+                     <forename>Hannchen</forename>
+                     <surname>Graun</surname>
+                     <roleName type="family">Schwiegermutter der Elisabeth Graun</roleName>
+                  </persName>
+               </person>
+               <person role="named" xml:id="Gsw">
+                  <persName>
+                     <ref/>
+                     <forename/>
+                     <surname>Gossow</surname>
+                  </persName>
+               </person>
+               <person role="named" xml:id="RRGra">
+                  <persName>
+                     <ref/><!-- kein GND-Eintrag -->
+                     <forename>Karl Heinrich</forename>
+                     <surname>Graun</surname>
+                     <roleName type="office">Regierungsrat</roleName>
+                  </persName>
+               </person>
+               <person role="named" xml:id="den">
+                  <persName>
+                     <ref/><!-- kein GND-Eintrag -->
+                     <forename/>
+                     <surname>Dengel</surname>
+                  </persName>
+               </person>
+            </listPerson>
+         </particDesc>
+         <settingDesc>
+            <listPlace>
+               <!-- Start- und Zielort -->
+               <place type="sender" xml:id="plBe">
+                  <country>
+                     <ref target="http://d-nb.info/gnd/4047194-9"/>
+                     <placeName>Preußen</placeName>  
+                  </country>
+                  <settlement>
+                     <ref target="http://d-nb.info/gnd/4005728-8"/>
+                     <placeName>Berlin</placeName>
+                  </settlement>
+               </place>
+               <place type="receiver" xml:id="plKo">
+                  <country>
+                     <ref target="http://d-nb.info/gnd/4047194-9"/>
+                     <placeName>Preußen</placeName>  
+                  </country>
+                  <settlement>
+                     <ref target="http://d-nb.info/gnd/4031541-1"/>
+                     <placeName>Königsberg</placeName>
+                  </settlement>
+               </place>
+               <!-- erwähnte Orte -->
+            </listPlace>
+         </settingDesc>
+      </profileDesc>
+      <revisionDesc>
+         <change xml:id="init" when-iso="2018-01-28" who="#edAG">Erstauszeichnung und Normierung des Dokumentes im Rahmen der Masterarbeit der Matrikelnummer 5584124</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <opener>
+            <dateline><rs type="place" ref="#plBe">Berlin</rs> den <date when-iso="1787-02-03">3<span rend="sup">ten</span> Februar. 1787.</date></dateline>
+         </opener>
+         <div n="1" corresp="#veg">
+            <p>
+               Ich hoffe und glaube, beste Freundinn, daß Sie bey Empfang dieser Zeilen 
+               <ref target="#r1003-1">meinen Brief vom 27ten vorigen Monats</ref> der in 
+               <rs type="citation" ref="#c1003-2">einen Brief</rs> von <rs type="person" ref="#Geo">George</rs> eingelegt 
+               gewesen, und schon vor 8 Tagen abgegangen ist, erhalten haben werden. Sollte das unglücklicher Weise noch nicht 
+               seyn, so wenden Sie Sich doch sogleich an <rs type="person" ref="#Geo">George</rs>; und sollte wider alles 
+               Vermuthen auch der <rs type="citation" ref="#c1003-2">meinen Brief</rs> noch nicht haben, so sagen Sie ihm, er 
+               soll sich sofort bei Kilmar &amp; Bahn erkundigen, ob nicht ein Mensch, deßen Nahmen ich jetzt schon vergeßen habe, 
+               und der bey ihnen in Condition gehen wird, dieser Tage in Königsberg angekommen ist. Eben fällt es mir bey: Der 
+               Mensch heißt: <rs type="person" ref="#Spe">Speidel</rs>. Dieser ist der Besteller 
+               <rs type="citation" ref="#c1003-2">meines Briefes an George</rs> gewesen.
+            </p>
+            <p>
+               Vielleicht haben Sie, wenn Sie diesen Brief lasen und <emph rend="underlined">verstanden</emph> schon so viel daraus 
+               gewonnen, daß Sie mir Unrecht thaten, wenn Sie auch nur <emph rend="underlined">ahndeten</emph>, daß ich Sie 
+               <emph rend="underlined">vergeßen</emph> hätte, oder daß ich nur, wie Sie schreiben, 
+               <emph rend="underlined">auf die Art</emph> an Sie dächte, als etwa an <rs type="person" ref="#Gsw">Gossows</rs> 
+               an <rs type="person" ref="#RRGra">Ihren Mann</rs> pp. Entsetzliche, fürchterliche Beleidigung ! - Es geht alles 
+               auf zwischen uns. Nein ! Sie sind in einem grausamen Rückstand. Was ist ein Stillschweigen von 6 Wochen gegen eine 
+               <emph rend="underlined">solche</emph> Idee, erzeugt und genährt von einer Frau, die ich verehre, anbete und liebe, 
+               über alles, was ich kenne, und liebe und verehre in dieser Welt !
+            </p>
+            <p>
+               Ich verzeihe Ihnen, wenn Sie fürchteten, daß <rs type="place" ref="#plBe">Berlin</rs> auch 
+               <emph rend="underlined">mich</emph> nicht ungeneckt und unverändert laßen würde. Das verzeihe ich Ihnen gern: denn 
+               Sie haben Recht. Aber - dann müste von <emph rend="underlined">mir</emph> Nichts mehr übrig seyn, dann gienge ich 
+               noch heute aus diesem abscheulichen Leben, wenn das so weit reichte, daß ich <emph rend="underlined">Sie</emph>, 
+               Sie darüber vergeßen könnte.
+            </p>
+            <p>
+               O meine Graunin ! Für mich ist das Lebens-Glük dahin, wie für Sie: eine Wahrheit, unumstößlich wie ein Fels, 
+               obgleich schwarz wie die Nacht. -
+            </p>
+            <p>
+               Schwarz wie die Nacht ? Warum ? - Mit Ihnen Ein Schicksal zu theilen, ist immer süß, und wenn es das 
+               abscheulichste <pb/> wäre. Ich wollte, ich könnte nur, ohne im gewöhnlichen Sinn des Worts, glücklich zu seyn, mit 
+               Ihnen mein Leben durchweinen, und ich würde mich nicht grämen, gelebt zu haben.
+            </p>
+            <p>
+               Aber getrennt von Ihnen, mir selbst, meinen Schwachheiten, meinen Leidenschaften, den glühenden Phantomen meines 
+               unruhigen Kopfs, den Thorheiten meiner Gesellschafter, dem Drang, dem Geräusch der Welt überlaßen, schweift meine 
+               unglückliche Seele in tausend Labyrinthen falscher Freuden, betrügerischer Hoffnungen, elender Zeitvertreibe, 
+               chimärischer Plane umher, und sehnt sich, von Ihnen und von der Zufriedenheit gleich weit entfernt, nach der 
+               Glückseeligkeit, und - nach Ihnen.
+            </p>
+         </div>
+         <div n="2" corresp="#vege">
+            <p>
+               Das Bild, was Sie gemahlt haben, das muß ich besitzen. Es koste, was es wolle: aber bey Gott im Himmel, ich will, 
+               ich muß es besitzen. Bey unsrer Freundschaft - wenn Sie noch je eine Zeile von mir lesen wollen - wenn Sie mich 
+               nicht <emph rend="underlined">ganz verderben</emph> wollen, schicken Sie mir dies Bild ! - Was gehn mich Ihres 
+               abscheulichen Mannes, kalte, närrische Grillen an ? Warum quälen Sie mich mit brennenden Hoffnungen, und schicken 
+               mir <rs type="citation" ref="#c1003-3">das Billet</rs> von der <rs type="person" ref="#den">Dengeln</rs>, um 
+               mich rasend zu machen ?
+            </p>
+            <p>
+               Sagen Sie <rs type="person" ref="#RRGra">Ihrem Mann</rs>, was Sie wollen. Er hat mir oft von dem Portrait 
+               geschrieben. Sagen Sie ihm, ich würde es erschrecklich übel nehmen, wenn ich hörte, daß ich es jetzt, da es gut 
+               gerathen ist, nicht bekommen sollte. Sagen Sie ihm, er soll es mir selbst schreiben, daß ich es nicht bekommen 
+               könnte: und dann will ich ihn mit Briefen <emph rend="underlined">bestürmen</emph>, bis er von seiner Grille abgeht.
+            </p>
+            <p>
+               Das sage ich Ihnen, liebe Graunin, ich will kein <emph rend="underlined">andres</emph> Bild von Ihnen. Auch sollen 
+               Sie mich, bey meiner Seele, nicht hintergehen. Ich werde es aufs Haar, beym ersten Blick werde ich wißen, ob es das 
+               rechte ist. Denken Sie, daß ich <emph rend="underlined">diese Miene</emph>, wie die 
+               <rs type="person" ref="#den">Dengeln</rs> sagt, nicht auch kenne ? Oder meynen Sie, daß ich auch die 
+               <emph rend="underlined">vergeßen</emph> hätte ? <pb/>
+            </p>
+            <p>
+               Ich werde von jetzt an keine ruhige Stunde haben, bis dieses Bild in meiner Hand seyn wird. Um Gottes willen, laßen 
+               Sie mich nicht lange darauf warten, sobald Sie diesen Brief erhalten haben, schreiben Sie mir, woran ich bin.
+            </p>
+            <p>
+               Hören Sie, liebe Graunin; ich glaube, Sie haben mir die Geschichte dieses Portraits blos geschrieben, um mich zu 
+               strafen, und zu peinigen. Nicht als ob ich an der Richtigkeit derselben einen Augenblick zweifelte: sie sieht 
+               <rs type="person" ref="#RRGra">Ihrem Mann</rs> viel zu ähnlich !! aber was dachten Sie denn, was ich dabey 
+               empfinden und denken würde: Nichts ? Ach ! ich erschrecke.
+            </p>
+            <p>
+               Kurz, ich muß dies Bild haben: und bald. Je länger Sie zögern, desto mistrauischer werde ich, daß Sie mir das rechte 
+               nicht schicken. - Um des Himmels willen, wie konnten Sie <rs type="person" ref="#RRGra">Ihrem Mann</rs> das 
+               einräumen ? Gott ! ich möchte vor Verdruß weinen, daß Sie <del rend="stroked">ihm</del> es ihm nur 
+               <emph rend="underlined">gezeigt</emph> haben, daß es vielleicht meine Feinde in seiner Gegenwart 
+               <emph rend="underlined">gelobt</emph> haben, daß er es jetzt besitzen muß.
+            </p>
+            <p>
+               Ich setze weiter Nichts zu diesem Artikel. Glauben Sie noch immer, daß Ihr Bild mir vielleicht gleichgültig seyn 
+               könnte ? - Aber ich behalte es mir vor, Sie ein andermal nur halb so zu quälen, wie Sie mich durch den Brief quälen, 
+               den ich so eben erhalte. Entweder das, oder ich will Sie mit meiner zudringlichen Freundschaft so 
+               <emph rend="underlined">ermüden</emph>, daß es Ihnen gewiß nicht mehr einfallen soll, 
+               <emph rend="underlined">an mir</emph> zu zweifeln. Der letzte Weg möchte wol meinem Herzen der leichtste seyn.
+            </p>
+            <p>
+               Leben Sie wol; ich erwarte <date when-iso="1787-02-17">in 14 Tagen</date> 
+               <emph rend="underlined">spätstens</emph> einen Brief von Ihnen. Aber Ihr Bild müßen Sie mir schicken, wenn Sie mich 
+               glauben laßen wollen, daß Sie mir zu Gefallen, auch wol was <emph rend="underlined">wagen</emph> können. Ich denke, 
+               ich habe alles gethan, wenn ich es zu einer Bedingung unsrer Freundschaft machte.
+            </p>
+         </div>
+         <closer>
+            <salute rend="right">Ihr ewiggetreuer Freund</salute>
+            <signed rend="right">Gentze</signed>
+         </closer>
+         <note resp="#edAG" xml:id="r1003-1">Hier handelt es sich möglicherweise um den <rs type="citation" ref="#c1003-1">Brief vom 20. Januar 1787</rs>. Am Ende dieses Briefes kündigt Gentz an, diesen mit George schicken zu wollen.</note>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,294 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader type="text">
+      <fileDesc xml:id="LETTER_GENTZ_0549">
+         <titleStmt>
+            <title>Friedrich von Gentz an Friedrich Vieweg, 23. Juli 1795</title>
+            <editor xml:id="edAG">Andreas Gálffy</editor>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <name>Forschungsstelle "Universitätssammlung Friedrich von Gentz"</name>
+               <link target="http://gentz-digital.ub.uni-koeln.de http://www.ub.uni-koeln.de/cdm/singleitem/collection/gentz/id/548/"/>
+            </publisher>
+            <pubPlace>Cologne</pubPlace>
+            <idno type="Gentz-Edition-Number" n="0549"/>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <country>Germany</country>
+                  <settlement>Wiesbaden</settlement>
+                  <institution>Vieweg-Verlagsarchiv</institution>
+                  <repository>Briefsammlung 311 G, Gentz-Briefe</repository>
+                  <idno>Nr. 19</idno>
+               </msIdentifier>
+               <msContents>
+                  <summary>
+                     Es folgt eine Rezension verschiedener Schriften. Ein Aufsatz eines R. ist unter aller Kritik. Schlichtegrolls 
+                     Hesychia ist bis auf sechs Zeilen und eine einzige gute Idee nicht verwendbar. Freudentheils Gedichte sind bis auf 
+                     eines ebenfalls abgelehnt; dabei haben sie genug Gedichte, und dieses ist obendrein teuer. Böttigers Amerika-Brief 
+                     hat Gentz bei sich behalten.
+                  </summary>
+               </msContents>
+            </msDesc>
+            <listBibl type="alludedWorks">
+               <bibl xml:id="a0549-1" corresp="#LETTER_GENTZ_NNNN">nicht näher benannter Aufsatz von einem Autor mit Namen R</bibl>
+            </listBibl>
+            <listBibl type="defExpr">
+               <biblStruct xml:id="e0549-1" corresp="UBi-0002">
+                  <analytic>
+                     <author>
+                        <persName>
+                           <ref target="http://d-nb.info/gnd/117327077"/>
+                           <forename>Friedrich</forename>
+                           <surname>Schlichtegroll</surname>
+                        </persName>
+                     </author>
+                     <title>Hesychia, die Tochter der Dice</title>
+                  </analytic>
+                  <monogr>
+                     <title>Deutsche Monatsschrift</title>
+                     <imprint>
+                        <pubPlace>Leipzig</pubPlace>
+                        <publisher>Sommersche Buchhandlung</publisher>
+                        <date>1796</date>
+                     </imprint>
+                     <biblScope unit="volume" n="1">
+                        Erster Band.
+                     </biblScope>
+                     <biblScope unit="issue">
+                        April 1796.
+                     </biblScope>
+                     <biblScope unit="page" from="379" to="384">
+                        S. 379-384
+                     </biblScope>
+                  </monogr>
+               <ptr target="http://ds.ub.uni-bielefeld.de/viewer/image/1921388_019/410/"/></biblStruct>
+               <bibl xml:id="e0549-2" corresp="#LETTER_GENTZ_NNNN">Gedicht "An die Duldung" von Wilhelm Nicolaus Freudentheil</bibl>
+            </listBibl>
+            <listBibl type="defRep">
+               <biblStruct xml:id="p0549-1" corresp="UBi-0012">
+                  <analytic>
+                     <author>
+                        <persName>
+                           <ref target="http://d-nb.info/gnd/118824775"/>
+                           <forename>Carl August</forename>
+                           <surname>Böttiger</surname>
+                        </persName>
+                     </author>
+                     <title>Neue Amerikanische Briefe</title>
+                  </analytic>
+                  <monogr>
+                     <author>
+                        <persName>
+                           <ref target="http://d-nb.info/gnd/118538489"/>
+                           <forename>Friedrich von</forename>
+                           <surname>Gentz</surname>
+                        </persName>
+                     </author>
+                     <title>Neue Deutsche Monatsschrift</title>
+                     <imprint>
+                        <pubPlace>Berlin</pubPlace>
+                        <publisher>Friedrich Vieweg der Ältere</publisher>
+                        <date>1795</date>
+                     </imprint>
+                     <biblScope unit="volume" n="3">
+                        Dritter Band.
+                     </biblScope>
+                     <biblScope unit="issue">
+                        1795. September.
+                     </biblScope>
+                     <biblScope unit="page" from="30" to="39">
+                        S. 30-39
+                     </biblScope>
+                  </monogr>
+               <ptr target="http://ds.ub.uni-bielefeld.de/viewer/image/1938308_003/31/"/></biblStruct>
+            </listBibl>
+            <listBibl type="edRef">
+               <biblStruct xml:id="f0591-1" corresp="UBi-0007">
+                  <analytic>
+                     <author>
+                        <persName>
+                           <ref target="http://d-nb.info/gnd/118824775"/>
+                           <forename>Carl August</forename>
+                           <surname>Böttiger</surname>
+                        </persName>
+                     </author>
+                     <title>Neue Amerikanische Briefe</title>
+                  </analytic>
+                  <monogr>
+                     <author>
+                        <persName>
+                           <ref target="http://d-nb.info/gnd/118538489"/>
+                           <forename>Friedrich von</forename>
+                           <surname>Gentz</surname>
+                        </persName>
+                     </author>
+                     <title>Neue Deutsche Monatsschrift</title>
+                     <imprint>
+                        <pubPlace>Berlin</pubPlace>
+                        <publisher>Friedrich Vieweg der Ältere</publisher>
+                        <date>1795</date>
+                     </imprint>
+                     <biblScope unit="volume" n="2">
+                        Zweiter Band.
+                     </biblScope>
+                     <biblScope unit="issue">
+                        July 1795.
+                     </biblScope>
+                     <biblScope unit="page" from="241" to="266">
+                        S. 241-266
+                     </biblScope>
+                  </monogr>
+               <ptr target="http://ds.ub.uni-bielefeld.de/viewer/image/1938308_002/246/"/></biblStruct>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Masterarbeit zu Matrikelnummer 5584124</p>
+         </projectDesc>
+      </encodingDesc>
+      <profileDesc>
+         <creation>
+            <date when-iso="1795-07-23">23. Juli 1795</date>
+         </creation>
+        <langUsage>
+           <language ident="d">deutsch</language>
+        </langUsage>
+         <textClass>
+            <keywords scheme="internal"><!-- internal: innerhalb des besagten Briefs -->
+               <term>Brief</term>
+               <term>Monatsschrift</term>
+               <term>Amerikanische Briefe</term>
+               <term>Böttiger</term>
+               <term>Plattitüde</term>
+               <term>An die Duldung</term>
+            </keywords>
+            <keywords scheme="categorisation"><!-- Sinnabschnittseinteilung - relevant für den Fahrkartenautomaten! -->
+               <term xml:id="abf">Amerikanische Briefe</term>
+               <term xml:id="lvm">Literatur vermischt</term>
+               <term xml:id="vwf">Vieweg - Freundschaft</term>
+            </keywords>
+         </textClass>
+         <textDesc>
+            <channel>manuscript</channel>
+            <constitution type="single"/>
+            <derivation type="original"/>
+            <domain type="private"/>
+            <factuality type="fact"/>
+            <interaction type="partial"/>
+            <preparedness type="unprepared"/>
+            <purpose type="inform"/>
+         </textDesc>
+         <particDesc>
+            <listPerson>
+               <!-- Sender und Adressat -->
+               <person role="sender" xml:id="Gen">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/118538489"/>
+                     <forename>Friedrich von</forename>
+                     <surname>Gentz</surname>
+                  </persName>
+               </person>
+               <person role="receiver" xml:id="FVW">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/119049546"/>
+                     <forename>Friedrich</forename>
+                     <surname>Vieweg</surname>
+                  </persName>
+               </person>
+               <!-- erwähnte Personen -->
+               <person role="named" xml:id="FSg">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/117327077"/>
+                     <forename>Friedrich</forename>
+                     <surname>Schlichtegroll</surname>
+                  </persName>
+               </person>
+               <person role="named" xml:id="WNF">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/116774258"/>
+                     <forename>Wilhelm Nicolaus</forename>
+                     <surname>Freudentheil</surname>
+                  </persName>
+               </person>
+               <person role="named" xml:id="KAB">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/118824775"/>
+                     <forename>Carl August</forename>
+                     <surname>Böttiger</surname>
+                  </persName>
+               </person>
+            </listPerson>
+         </particDesc>
+         <settingDesc>
+            <listPlace>
+               <!-- Start- und Zielort -->
+               <place type="sender" xml:id="plBe">
+                  <country>
+                     <ref target="http://d-nb.info/gnd/4047194-9"/>
+                     <placeName>Preußen</placeName>
+                  </country>
+                  <settlement>
+                     <ref target="http://d-nb.info/gnd/4005728-8"/>
+                     <placeName>Berlin</placeName>
+                  </settlement>
+               </place>
+               <!-- erwähnte Orte -->
+            </listPlace>
+         </settingDesc>
+      </profileDesc>
+      <revisionDesc>
+         <change xml:id="init" when-iso="2018-02-17" who="#edAG">Erstauszeichnung und Normierung des Dokumentes im Rahmen der Masterarbeit der Matrikelnummer 5584124</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div n="1" corresp="#lvm">
+            <p>
+               Der <rs type="citation" ref="#a0549-1">Aufsatz von R....</rs>ist von einer solchen Plattitüde, daß mir die Begriffe 
+               fehlen, um mir vorzustellen, wie man <emph rend="underlined">so etwas</emph> Ihnen oder mir anbieten kan. Er ist 
+               überdies unendlich nachläßig geschrieben, offenbar nur aus dem Aermel geschüttelt, und keiner weitern Aufmerksamkeit 
+               werth.
+            </p>
+            <p>
+               <rs type="person" ref="#FSg">Schlichtegroll</rs>'s 
+               <rs type="citation" ref="#e0549-1"><emph rend="underlined">Hesychia</emph></rs> kan auch nicht gebracht werden. Eine 
+               einzige gute Idee und 6 gute Zeilen sind darin: die wird er uns doch ohne das übrige nicht schenken: und dieses 
+               übrige ist übermenschlich langweilig und schaal.
+            </p>
+            <p>
+               Von <emph rend="underlined">Freudentheils</emph> Gedichten würde ich nur allein das 
+               <emph rend="underlined">An die Duldung</emph> aufnehmen. Indessen sind Gedichte gerade der Artikel, woran es uns am 
+               wenigsten fehlt. Warum etwas mittelmäßiges, noch dazu theures, von einem Unbekannten ? Ich wäre ebenfalls für die 
+               Zurücksendung.
+            </p>
+         </div>
+         <div n="2" corresp="#kab">
+            <p>
+               <rs type="person" ref="#KAB">Bötticher</rs>'s <rs type="citation" ref="#p0549-1">Amerika-Brief</rs> habe ich 
+               <ref target="#r0549-2">hier behalten</ref>.
+            </p>
+         </div>
+         <div n="3" corresp="#vwf">
+            <p>
+               <date when-iso="1795-07-24">Morgen Mittag</date> habe ich das Vergnügen Sie zu sehen.
+            </p>
+         </div>
+         <closer>
+            <signed rend="right">Gentz.</signed>
+            <dateline>Den <date when-iso="1795-07-23">23<span rend="sup">ten</span> July</date></dateline>
+         </closer>
+      </body>
+      <back resp="#FVW">
+         <p>
+            <rs type="place" ref="#plBe">Berlin</rs> d <date when-iso="1795-07-23">23 Jul 95</date>.
+            H K. R. Gentz
+         </p>
+      </back>
+      <note xml:id="r0549-1">Seite 2 von der Hand Viewegs</note>
+      <note resp="#edAG" xml:id="r0549-2">Dies ist im aktuellen Stand von Gentz digital die erste Nennung Karl August Böttigers. Kurioserweise erschien in der <rs type="citaiton" ref="#f0591-1">Juliausgabe</rs> doch ein Artikel "Neue (sic!) amerikanische Briefe" von Böttiger!</note>
+   </text>
+</TEI>

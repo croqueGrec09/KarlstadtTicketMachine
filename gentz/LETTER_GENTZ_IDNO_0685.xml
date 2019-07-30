@@ -1,0 +1,358 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader type="text">
+      <fileDesc xml:id="LETTER_GENTZ_0685">
+         <titleStmt>
+            <title>Friedrich von Gentz an Elisabeth Graun, zweite Hälfte des Jahres 1791</title>
+            <editor xml:id="edAG">Andreas Gálffy</editor>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <name>Forschungsstelle "Universitätssammlung Friedrich von Gentz"</name>
+               <link target="http://gentz-digital.ub.uni-koeln.de http://www.ub.uni-koeln.de/cdm/singleitem/collection/gentz/id/0684/"/>
+            </publisher>
+            <pubPlace>Cologne</pubPlace>
+            <idno type="Gentz-Edition-Number" n="0685"/>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <country>unknown</country>
+                  <idno>not identified</idno>
+               </msIdentifier>
+               <msContents>
+                  <summary>
+                     Nach sehr langer Zeit sind in Gentz alte Gefühle wieder wach geworden. Er bittet um Entschuldigung für die 
+                     lange Pause und erinnert an die alte Zeit, wo sich eine Harmonie zwischen Gentz' und Grauns Herzen befand. 
+                     Graun sei eine der Menschen, zu denen das Verhältnis sich in keinem Maße erhalten haben. Daher möchte Gentz mit 
+                     aller Vehemenz den Verdacht ausräumen, dass sie ihm gleichgültig geworden sei. Er führt seine Veränderungen im 
+                     Laufe der Jahre an; er wurde durch die Fehler, die er beging, gebildet und aufgeklärt. Seine Bildung habe 
+                     unsäglich zugenommen, schreibt Gentz, und meint, er sei es wert, mit ihr zu leben. Damit bewirbt er sich recht 
+                     deutlich und fürchtet auch die Konkurrenz durch den Regierungsrat Graun nicht, da er ihn in den vergangenen 
+                     Jahren nur im Vorbeigehen gesehen hat. Gentz wünscht baldige Antwort und Auskunft über ihr Leben.
+                  </summary>
+               </msContents>
+            </msDesc>
+            <listBibl type="preprints">
+               <biblStruct>
+                  <monogr>
+                      <editor>
+                         <persName>
+                            <ref target="http://d-nb.info/gnd/116187913"/>
+                            <forename>Wilhelm</forename>
+                            <surname>Dorow</surname>
+                         </persName>
+                      </editor>
+                      <title>Erinnerungen für edle Frauen von Elisabeth Stägemann. Nebst Lebensnachrichten über die Verfasserin und einem Anhange von Briefen</title>
+                      <imprint>
+                          <publisher/>
+                          <pubPlace>Leipzig</pubPlace>
+                          <date>1846</date>
+                      </imprint>
+                      <biblScope unit="volume" n="2">
+                          II
+                      </biblScope>
+                      <biblScope unit="page" from="190" to="197">
+                          190-197
+                      </biblScope>
+                  </monogr>
+               </biblStruct>
+               <biblStruct>
+                  <monogr>
+                     <editor>
+                        <persName>
+                           <ref target="http://d-nb.info/gnd/130953075"/>
+                           <forename>Friedrich Carl</forename>
+                           <surname>Wittichen</surname>
+                        </persName>
+                        <persName>
+                           <ref/> <!-- kein GND-Eintrag -->
+                           <forename>Ernst</forename>
+                           <surname>Salzer</surname>
+                        </persName>
+                     </editor>
+                     <title>Briefe von und an Friedrich von Gentz. 4 Bde.</title>
+                     <imprint>
+                        <publisher>Oldenbourg</publisher>
+                        <pubPlace>München, Berlin</pubPlace>
+                        <date>1909-1913</date>
+                     </imprint>
+                     <biblScope unit="volume" n="1">
+                        I
+                     </biblScope>
+                     <biblScope unit="page" from="113" to="117">
+                        Nr. 29
+                     </biblScope>
+                  </monogr>
+               </biblStruct>
+               <biblStruct>
+                  <monogr>
+                     <author>
+                        <persName>
+                           <ref target="http://d-nb.info/gnd/117121150"/>
+                           <forename>Margarete</forename>
+                           <surname>von Olfers</surname>
+                        </persName>
+                     </author>
+                     <title>Elisabeth v. Staegemann. Lebensbild einer deutschen Frau 1761-1835</title>
+                     <imprint>
+                        <publisher>Koehler &amp; Amelang</publisher>
+                        <pubPlace>Leipzig</pubPlace>
+                        <date>1939</date>
+                     </imprint>
+                     <biblScope unit="page" from="74" to="78">
+                        74-78
+                     </biblScope>
+                  </monogr>
+               </biblStruct>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Masterarbeit zu Matrikelnummer 5584124</p>
+         </projectDesc>
+      </encodingDesc>
+      <profileDesc>
+         <creation>
+            <date when-iso="1791-00-00">zweite Hälfte des Jahres 1791</date>
+         </creation>
+        <langUsage>
+           <language ident="d">deutsch</language>
+        </langUsage>
+         <textClass>
+            <keywords scheme="internal"><!-- internal: innerhalb des besagten Briefs -->
+               <term>Brief</term>
+               <term>Graun</term>
+               <term>Sehnsucht</term>
+               <term>Liebe</term>
+               <term>Regierungsrat Graun</term>
+               <term>Glück</term>
+               <term>Bildung</term>
+            </keywords>
+            <keywords scheme="categorisation"><!-- Sinnabschnittseinteilung - relevant für den Fahrkartenautomaten! -->
+               <term xml:id="veg">Verhältnis Elisabeth Graun</term>
+               <term xml:id="philw">Philosophie - Lebenswege</term>
+               <term xml:id="krrg">Regierungsrat Graun</term>
+            </keywords>
+         </textClass>
+         <textDesc>
+            <channel>manuscript</channel>
+            <constitution type="single"/>
+            <derivation type="original"/>
+            <domain type="private"/>
+            <factuality type="fact"/>
+            <interaction type="partial"/>
+            <preparedness type="prepared"/>
+            <purpose type="inform"/>
+         </textDesc>
+         <particDesc>
+            <listPerson>
+               <!-- Sender und Adressat -->
+               <person role="sender" xml:id="Gen">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/118538489"/>
+                     <forename>Friedrich von</forename>
+                     <surname>Gentz</surname>
+                  </persName>
+               </person>
+               <person role="receiver" xml:id="Gra">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/123518733"/>
+                     <forename>Elisabeth</forename>
+                     <surname>Graun</surname>
+                  </persName>
+               </person>
+               <!-- erwähnte Personen -->
+               <person role="named" xml:id="RRGra">
+                  <persName>
+                     <ref/>
+                     <forename>Karl Heinrich</forename>
+                     <surname>Graun</surname>
+                     <roleName type="office">Regierungsrat</roleName>
+                  </persName>
+               </person>
+            </listPerson>
+         </particDesc>
+         <settingDesc>
+            <listPlace>
+               <!-- Start- und Zielort -->
+               <place type="sender" xml:id="plBe">
+                  <country>
+                     <ref target="http://d-nb.info/gnd/4047194-9"/>
+                     <placeName>Preußen</placeName>  
+                  </country>
+                  <settlement>
+                     <ref target="http://d-nb.info/gnd/4005728-8"/>
+                     <placeName>Berlin</placeName>
+                  </settlement>
+               </place>
+               <place type="receiver" xml:id="plKo">
+                  <country>
+                     <ref target="http://d-nb.info/gnd/4047194-9"/>
+                     <placeName>Preußen</placeName>  
+                  </country>
+                  <settlement>
+                     <ref target="http://d-nb.info/gnd/4031541-1"/>
+                     <placeName>Königsberg</placeName>
+                  </settlement>
+               </place>
+               <!-- erwähnte Orte -->
+            </listPlace>
+         </settingDesc>
+      </profileDesc>
+      <revisionDesc>
+         <change xml:id="init" when-iso="2018-02-06" who="#edAG">Erstauszeichnung und Normierung des Dokumentes im Rahmen der Masterarbeit der Matrikelnummer 5584124</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div n="1" corresp="#veg">
+            <p>
+               Es gab einst eine furchtbare Verabredung unter uns, theure Freundin, die meine Verdammniß, meine unwiederbringliche 
+               Verdammniß entschied, wenn ich in einem Termin, den ich längst gar weit überschritten habe, Ihrer zu vergessen 
+               scheinen sollte - es liegt außer dieser Verabredung in der Natur der Dinge, daß der Empfang dieses Briefes, außer 
+               dem Gefühl einer gewissen Verwunderung über das Unerwartete, kein ander lebhaftes Gefühl in Ihnen rege machen wird: 
+               aber ich <emph rend="underlined">muß</emph> ihn schreiben, wenn Sie auch seiner gar wohl entbehren könnten und wie 
+               Sie ihn auch immer aufnehmen mögen, ich weis sehr wohl, wie ich ihn schreibe.
+            </p>
+            <p>
+               Es war eine Zeit wo unsre Herzen sich verstanden, auf leise Winke verstanden, eine Zeit, wo Sie in meinem Umgang 
+               fanden, was Ihnen rund um Sie her versagt war, und wo ich mein Daseyn nur achtete, weil ich es wagen durfte, Sie 
+               gränzenlos zu lieben. Sie wissen, wie diese reine, innre, heilige Liebe unter so manchen Schlägen meines sonderbaren 
+               Schicksals, und sogar unter den heftigsten Stürmen der wildesten Leidenschaft, in die nur je der Zauber der Sinne 
+               ein beßres Herz verwickelt hat, im Glück und im Elend, in der Verzweiflung und in der Wonne, gleich wahr und schön 
+               und mächtig, wuchs, und gedieh, und den edlern Theil meines zerrißnen Wesens belebte, stärkte und erhielt. Sie 
+               wißen, was Sie mir waren, Sie wißen, daß wir tausendmal - o ! und wie unendlich, wie ewig wahr ! - wenn wir unsre 
+               Verhältniße, und die Verhältniße der Menschen um uns her berechneten, dem kalten, dem unerbittlichen Schicksal 
+               vorhielten, daß es uns nicht für einander geschaffen hatte.
+            </p>
+            <p>
+               Sie sind das einzige Wesen in der ganzen Schöpfung was alle Revolutionen in mir überlebt, alle Perioden meiner 
+               Existenz in ungeschwächtem Glanze durchwandert hat. In den fünf Jahren die seit unserer Trennung verfloßen, hat der 
+               Maaßstab, mit dem ich die Menschen meße, gewaltige Alterationen erlitten, er ist zuletzt, ich leugne es nicht, durch 
+               die immer wachsende Entwicklung meines innern Menschen, zum Theil auch durch einige Modelle hoher, vollendeter 
+               Menschlichkeit, die ich auf meinem Wege fand, so groß geworden, daß ich jetzt das Meiste von dem, was mich sonst 
+               befriedigte, verachte, und, so stolz und hart es auch klingen mag, fast alle Gegenstände meiner ehmaligen 
+               Bewunderung, selbst in den Menschen, die ich noch jetzt nur aus andern Gesichtspunkten schätze, mit Füßen trete.
+            </p>
+            <p>
+               Sie allein sind mir nicht allein groß, göttlich und liebenswürdig geblieben, sondern Sie sind es mir auch in 
+               gleicher und unveränderter Gestalt geblieben. Wenn ich so, wie ich jetzt bin, Ihren Werth zum erstenmahle erblickte, 
+               so würden Sie, das ist die erstaunenswürdige Ausnahme die Sie in dem Gange der Begebenheiten meiner innern Welt 
+               machen, eben den schönen, und eben den frischen und lebhaften Eindruck auf mich machen, den Sie ehmals in mir 
+               hervorbrachten, und den jetzt mir gar wenig Wesen dieser für mich entzauberten Erde hervorbringen können.
+            </p>
+            <p>
+               Es ist mir eben darum aber ganz unglaublich, daß ich Ihnen gleichgültig geworden seyn könnte. Es dünkt mir kaum 
+               einmal Vermeßenheit, zu zweifeln, ob Sie irgendwo für das, was Sie an mir - nicht verlohren haben, aber doch zu 
+               verliehren glaubten, vollen Ersatz gefunden haben. Ich weis nicht, oder beßer, ich weis gar wohl, wie es zugeht, daß 
+               es mir scheint, als müßte allen den Menschen, die Sie (während meiner langen Vernichtung für Sie) zum Umgange 
+               wählten, wie geistreich, wie gefühlvoll, wie durchdrungen von Ihrer Herrlichkeit sie auch sein mochten, etwas 
+               abgehen, was nur in mir liegt, und was für Sie von Wichtigkeit ist, Nein, so hat noch keiner Sie empfunden, so hat 
+               noch keiner an Ihnen gehangen, als ich. Nach einem Stillschweigen von zwey Jahren klingt es fast wahnsinnig, was ich 
+               Ihnen sagen werde, aber ich sage es doch: wenn Sie meine Stelle in Ihnen irgend einem andern vergeben hätten, es 
+               wäre eine unaussprechliche Ungerechtigkeit gewesen.
+            </p>
+         </div>
+         <div n="2" corresp="#philw">
+            <p>
+               Uebrigens sage ich Ihnen mit einem wahren Triumphs-Rausch, denn hier ist der Stolz das Vorgefühl der höchsten 
+               Seeligkeit, daß ich Ihrer Freundschaft werth bin. Was Sie auch seit meiner Abwesenheit für Gerüchte von mir gehört 
+               haben mögen, glauben Sie mir, mir, der ich Ihnen nicht lügen würde, und wäre ich ein Bösewicht, glauben Sie mir, 
+               mir, der ich mich und die Menschen kenne, der ich mich mit unbarmherziger Strenge richte und Resultate über 
+               Menschenwerth zu ziehen weiß, ich bin in den fünf Jahren die ich von Ihnen bin mit unaufgehaltenem Schritt zur 
+               Vollkommenheit gegangen: mein inneres Wachsthum ist, selbst durch mißliche und gefahrvolle Lagen, in die ich mich 
+               stürzte, durch manche Handlungen, die, selbst in dem vernünftigern Sinn der Welt, Fehler waren und durch unsägliches 
+               stilles, nagendes Elend, was diese Fehltritte über mich häuften, ununterbrochen und nur um desto kräftiger gewesen. 
+               Das war es gerade, was mich bilden mußte. Im Glück wäre meine weiche Seele verzärtelt worden, ich hätte mich nie zur 
+               Höhe und Stärke eines einzigen meiner jetzigen Gedanken, meiner jetzigen Ideen über die Welt und die Dinge 
+               emporgeschwungen, wenn ich nicht gelitten, nicht durch eigne Schuld, fast sagte ich aus eigner Wahl viel gelitten 
+               hätte. Ich durfte keiner einzigen schweren Stunde entgehen, ich mußte selbst so fehlen, wie ich gefehlt habe, wenn 
+               das aus mir werden sollte, was aus mir geworden ist. Die Glückseeligkeit ist ein süßer, aber ein unnützer Traum und 
+               dabei ein fliehender Schatten, wenn die Brust nicht gestählt, der Gesichtskreis der Beurtheilung nicht erweitert, 
+               die Kraft, die da fühlt und wieder zurück wirkt, nicht gesichert, der Einfluß der äußern Wesen nicht - ohne Verlust 
+               für die Empfänglichkeit der Seele - in seine gerechte Schranken gewiesen ist. Der Enthusiasmus für Schönheit und 
+               Würde mag immer bleiben, aber er muß nur für das Höchste glühen, und gemeine Menschen müssen wie gemeine Freuden 
+               Staub in der Schaale werden. Die Empfindlichkeit für den Schmerz soll nicht ausgerottet seyn, aber die armseeligen 
+               Uebel des physischen Lebens und so manches, worüber man in der Kindheit der Erfahrung seufzt und verzweifelt, muß 
+               mit Hitze und Kälte in eine Klasse geworfen werden, und die selbstständige Kraft keinen Augenblick in der Fülle 
+               ihrer eigenthümlichen Wirksamkeit stöhren.
+            </p>
+            <p>
+               Dies ist das Ideal, das ich mir vorgesetzt hatte, das ich mit unverwandtem Auge verfolgt habe; mit ungleichen aber 
+               nie mit zurückweichenden Schritt bin ich auf der Bahn gewandelt, an deren Ziel, diese Leuchte der Vortrefflichkeit, 
+               dieses Eine, was Noth ist, stand, habe oft unter dem Beyfall der Menschen gezittert, ob ich auch fortschritte, oft 
+               von ihrem Tadel wie in dickem Nebel eingehüllt, meinen herrlichsten Progreßen, eignen, selbstlohnenden stillen und 
+               sichern Preis zugeflüstert.
+            </p>
+         </div>
+         <div n="3" corresp="#veg">
+            <p>
+               Jetzt bin ich es werth, mit Ihnen zu leben, und jetzt würde mein Umgang zuverläßig nicht ohne Süßigkeit für Sie 
+               seyn. Ich habe unendlich gewonnen und fürchte mich gar nicht einst aus Ihrem richtenden Munde zu hören, mit wieviel 
+               Recht ich dieses kühne Urtheil über mich aussprechen durfte. Meine Kraft ist nicht vermindert, nur meine Bildung hat 
+               unsäglich zugenommen. Sie werden viele ganz neue Seiten an mir finden, werden sich freuen, wie so viele mangelhafte 
+               gehoben sind, wenn Sie mich nach meiner sauern, schrecklichen, aber nur dem Sinn, nicht dem Geist schrecklichen, 
+               jener aber auch <emph rend="underlined">wahrhaft</emph> schrecklichen Wanderung durch diese fünf unvergeßlichen 
+               Jahre wieder in der Nähe beobachten sollten. Ich muß Ihnen schlechterdings besser gefallen als sonst.
+            </p>
+            <p>
+               Nach diesem langen für Sie aber gewiß intereßanten Urtheil über mich selbst, will ich nun noch, so schwer es mir 
+               auch werden muß, einige Worte über Sie sagen. Schwer wird es mir, weil alle Data mir fehlen.
+            </p>
+            <p>
+               Was Sie sind, darüber bin ich in gar keiner Verlegenheit; der Grund-Charakter Ihres Wesens, die eigentliche 
+               Physiognomie Ihrer Seele ist mir immer noch so klar, wie jemals. Aber ich möchte gern ein Wort über Ihre Lage 
+               sprechen, und ich kenne Ihre Lage eigentlich gar nicht. Diese Unwißenheit ist sogar einer der Gründe gewesen, die 
+               mich so lange zurückgehalten haben, Ihnen zu schreiben. Ich konnte z. B. über Graun weder sprechen, noch schweigen. 
+               Ich hörte das Widersprechendste Zeug reden, wenn ich die albernen Menschen, die ab und zu aus 
+               <rs type="place" ref="#plKo">Königsberg</rs> kamen, über Sie befragte. Ich wußte schlechterdings nicht mehr, woran 
+               ich war, und, weil das doch auch ungesagt, supplirt werden würde: ich war zu sehr mit meinen eignen Angelegenheiten 
+               beschäftigt, um mir in diesem Wirwar Ordnung und Tag zu verschaffen.
+            </p>
+         </div>
+         <div n="4" corresp="#krrg">
+            <p>
+               Jetzt kann ich dreister reden, theils weil ich mich überhaupt von Tage zu Tage weniger zu reden fürchte, wo es gut 
+               ist, zu reden, theils weil vieles entwickelter, folglich einfacher und klarer geworden ist. 
+               <rs type="person" ref="#RRGra">Graun</rs> habe ich seit 2 Jahren nicht anders als im Vorbeygehen gesehen. Er war nie 
+               Ihrer werth; er ist es hier, bey Gott, nicht mehr geworden. - - Ich mag sein Ankläger nicht seyn. - - Es giebt 
+               weniger Uebel, es giebt auch weniger Fehler, als man denkt. <emph rend="underlined">Sie</emph> nicht zu achten, ist 
+               ein ungeheurer, weil er so in die Mitte trifft, so unleugbar das im Menschen voraussetzt, was ärger ist, als tausend 
+               einzelne Vergehungen, die den edelsten Charakter beflecken können. Diese Sünde ist ihm längst im Gericht der beßern 
+               Menschen angerechnet. Was er hier gethan hat, ist im Grunde nur eine andre Form dieser alten Sünde, nach meiner 
+               Berathung eben deshalb nicht wichtig, und ganz unbedeutend, wenn die Welt nicht anders rechnete, anders urtheilte, 
+               und in ihrer Blindheit je über das Kleid wegsehen könnte. Blos in der letzten Betrachtung hat sein jetziges Leben - 
+               eine gewiße widrige Wichtigkeit - - - Glauben Sie mir: der einzige Weg, auch das schlimmste Schicksal zu überwinden, 
+               ist, ihm dreist in's Angesicht zu sehen. Heute zu thun, was doch Morgen gethan werden 
+               <emph rend="underlined">mußte</emph>, die Kraft der Seele ungekränkt, und ungeschwächt, den schwersten Leiden auf 
+               dem geradesten Wege entgegen tragen, lieber, als in den unnützen Versuchen auf Seitenwegen zu entschlüpfen, und in 
+               den Foltern fruchtloser Bangigkeiten und Zweifel, die Essenz der Widerstands-Fähigkeit, das wahrhaft-balsamische 
+               eines wackern Entschlußes verfliegen zu laßen.
+            </p>
+         </div>
+         <div n="5" corresp="#veg">
+            <p>
+               Wollen Sie von mir nähere Auskunft haben, verlangen Sie meine Mitwirkung, meinen fernern Rath, gebieten Sie über 
+               mich, wie über ein Glied Ihrer eignen Maschine. Ich bin von ganz andrer Brauchbarkeit, als ehmals, und Sie können 
+               unbeschränktes Vertrauen in mich setzen.
+            </p>
+            <p>
+               Besonders aber, schreiben Sie mir in jedem Fall bald.
+            </p>
+            <p>
+               Ich habe jetzt wenig Bedürfniße und brauche wenig Menschen, weil ich mit mir leben kann. Aber nach einem Briefe von 
+               Ihnen sehne ich mich, wirklich mit Schmerzen der Seele. Schreiben Sie mir von Ihrem Leben, von Ihren Beschäftigungen, 
+               von Ihren Hoffnungen, von Ihren Planen; schreiben Sie mir, wie Sie gegen <emph rend="underlined">mich</emph> sind, 
+               was ich Ihnen bin. Ich wollte, ich könnte alle Ueberzeugungskraft, die je in der Welt war, zusammendrängen, um Ihnen 
+               so anschaulich vorzustellen, als es in mir liegt, daß Sie so in keinem zweyten Herzen leben als in dem meinigen. - 
+               Sie können mich nicht vergeßen.
+            </p>
+         </div>
+         <closer>
+            <signed rend="right">Gentz.</signed>
+         </closer>
+      </body>
+   </text>
+</TEI>

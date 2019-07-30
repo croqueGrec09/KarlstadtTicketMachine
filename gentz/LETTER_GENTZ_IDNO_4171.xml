@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader type="text">
+      <fileDesc xml:id="LETTER_GENTZ_4171">
+         <titleStmt>
+            <title>Friedrich von Gentz an Friedrich Ancillon, 12. September 1794</title>
+            <editor xml:id="edAG">Andreas Gálffy</editor>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <name>Forschungsstelle "Universitätssammlung Friedrich von Gentz"</name>
+               <link target="http://gentz-digital.ub.uni-koeln.de http://www.ub.uni-koeln.de/cdm/singleitem/collection/gentz/id/4170/"/>
+            </publisher>
+            <pubPlace>Cologne</pubPlace>
+            <idno type="Gentz-Edition-Number" n="4171"/>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <country>Germany</country>
+                  <settlement>Hamburg</settlement>
+                  <institution>Staatsarchiv Hamburg</institution>
+                  <repository>Sammlung Ulex</repository>
+               </msIdentifier>
+               <msContents>
+                  <summary>
+                     Ein Buch mit dem Titel "Sur les dangers qui menacent l'Europe" soll von Mallet du Pan sein, ist es aber nicht, 
+                     da es laut Gentz unter seinem Niveau sei. Es soll aber ein ähnlich lautendes Buch tatsächlich von Mallet du Pan 
+                     sein, das, laut Auskunft eines Professor Meyer, viel besser sein soll. Gentz bittet seinen Vetter, den 
+                     letzteren Titel zu besorgen.
+                  </summary>
+               </msContents>
+            </msDesc>
+            <listBibl type="alludedWorks">
+               <bibl xml:id="a4171-1" corresp="#LETTER_GENTZ_NNNN">Ein Buch mit dem Titel "Sur les dangers qui menacent l'Europe, unter der Feder von Jacques Mallet du Pan</bibl>
+               <bibl xml:id="a4171-2" corresp="#LETTER_GENTZ_NNNN">nicht näher benannte historische Chronik von Berlin von einem unbekannten Autor</bibl>
+            </listBibl>
+            <listBibl type="defRep">
+               <biblStruct xml:id="p4171-1" corresp="BnF-0001">
+                  <monogr>
+                     <author>
+                        <persName>
+                           <ref target="http://d-nb.info/gnd/119483947"/>
+                              <forename>Jacques</forename>
+                              <surname>Mallet du Pan</surname>
+                        </persName>
+                     </author>
+                     <title>Dangers qui menacent l'Europe</title>
+                     <imprint>
+                        <pubPlace>Leide</pubPlace>
+                        <publisher>J. van Thoir</publisher>
+                        <date>1794</date>
+                     </imprint>
+                  </monogr>
+               <ptr target="http://gallica.bnf.fr/ark:/12148/bpt6k5475023f"/></biblStruct>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Masterarbeit zu Matrikelnummer 5584124</p>
+         </projectDesc>
+      </encodingDesc>
+      <profileDesc>
+         <creation>
+            <date when-iso="1794-09-12">24. Juni 1794</date>
+         </creation>
+        <langUsage>
+           <language ident="d">deutsch</language>
+        </langUsage>
+         <textClass>
+            <keywords scheme="internal"><!-- internal: innerhalb des besagten Briefs -->
+               <term>Billet</term>
+               <term>Bibilothek</term>
+               <term>Sur les dangers qui menacent l'Europe</term>
+               <term>Professor Meyer</term>
+               <term>Jacques Mallet du Pan</term>
+            </keywords>
+            <keywords scheme="categorisation"><!-- Sinnabschnittseinteilung - relevant für den Fahrkartenautomaten! -->
+               <term xml:id="vjmdp">Verhältnis Jacques Mallet du Pan</term>
+               <term xml:id="bibl">Bibliothek</term>
+            </keywords>
+         </textClass>
+         <textDesc>
+            <channel>manuscript</channel>
+            <constitution type="single"/>
+            <derivation type="original"/>
+            <domain type="private"/>
+            <factuality type="fact"/>
+            <interaction type="partial"/>
+            <preparedness type="unprepared"/>
+            <purpose type="inform"/>
+         </textDesc>
+         <particDesc>
+            <listPerson>
+               <!-- Sender und Adressat -->
+               <person role="sender" xml:id="Gen">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/118538489"/>
+                     <forename>Friedrich von</forename>
+                     <surname>Gentz</surname>
+                  </persName>
+               </person>
+               <person role="receiver" xml:id="Anc">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/118645110"/>
+                     <forename>Johann Peter Friedrich</forename>
+                     <surname>Ancillon</surname>
+                  </persName>
+               </person>
+               <!-- erwähnte Personen -->
+               <person role="named" xml:id="MdP">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/119483947"/>
+                     <forename>Jacques</forename>
+                     <surname>Mallet du Pan</surname>
+                  </persName>
+               </person>
+               <person role="named" xml:id="Shn">
+                  <persName>
+                     <ref/>
+                     <forename/>
+                     <surname>Schöne</surname>
+                     <roleName type="address">Madame</roleName>
+                  </persName>
+               </person>
+               <person role="named" xml:id="Mey">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/118733389"/>
+                     <forename>Heinrich</forename>
+                     <surname>Meyer</surname>
+                  </persName>
+               </person>
+            </listPerson>
+         </particDesc>
+         <settingDesc>
+            <listPlace>
+               <!-- Start- und Zielort -->
+               <place type="sender" xml:id="plBe">
+                  <country>
+                     <ref target="http://d-nb.info/gnd/4047194-9"/>
+                     <placeName>Preußen</placeName>
+                  </country>
+                  <settlement>
+                     <ref target="http://d-nb.info/gnd/4005728-8"/>
+                     <placeName>Berlin</placeName>
+                  </settlement>
+               </place>
+               <!-- erwähnte Orte -->
+            </listPlace>
+         </settingDesc>
+      </profileDesc>
+      <revisionDesc>
+         <change xml:id="init" when-iso="2018-02-15" who="#edAG">Erstauszeichnung und Normierung des Dokumentes im Rahmen der Masterarbeit der Matrikelnummer 5584124</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div n="1" corresp="#vjmdp">
+            <p>
+               Vor einiger Zeit wurde mir ein Büchlein betitelt (ungefähr)
+            </p>
+            <lg>
+               <l><rs type="citation" ref="#a4171-1">Sur les dangers qui menacent l'Europe,</rs></l>
+            </lg>
+            <p>
+               als von <rs type="person" ref="#MdP">Mallet-du-Pan</rs> seyn-sollend zugeschickt. Ich erklärte es für einen Dr..... 
+               und versicherte dem Uebersender daß es so wenig von <rs type="person" ref="#MdP">Mallet du Pan</rs> wäre als die 
+               <rs type="citation" ref="#a4171-2"><emph rend="underlined">historische Chronik von Berlin</emph></rs> die 
+               <rs type="person" ref="#Shn">Madame Schöne</rs> schreibt.
+            </p>
+         </div>
+         <div n="2" corresp="#bibl">
+            <p>
+               Gestern erzählt mir aber <rs type="person" ref="#Mey">Professor Meyer</rs>, daß jetzt wirklich ein Buch von 
+               <rs type="person" ref="#MdP">MalletduPan</rs> existire, welches <emph rend="underlined">ungefähr</emph> den 
+               <rs type="citation" ref="#p4171-1">obigen Titel</rs> führe, daß er es <emph rend="underlined">selbst gelesen</emph> 
+               habe, daß es sicher von diesem Verfasser, und übrigens von dem vorhin erwähnten <pb/> wie der Tag von der Nacht 
+               unterschieden sey. Es soll etwa 4 Bogen stark seyn.
+            </p>
+            <p>
+               Könnten Sie mir das, mein lieber <rs type="person" ref="#Anc">Herr Vetter</rs>, nicht bald möglichst verschaffen ?
+            </p>
+         </div>
+         <closer>
+            <signed rend="right">Gentz</signed>
+         </closer>
+      </body>
+   </text>
+</TEI>

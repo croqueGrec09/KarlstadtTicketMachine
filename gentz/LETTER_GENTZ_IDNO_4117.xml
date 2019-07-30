@@ -1,0 +1,233 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader type="text">
+      <fileDesc xml:id="LETTER_GENTZ_4117">
+         <titleStmt>
+            <title>Friedrich von Gentz an Elisabeth Graun, Dezember 1785</title>
+            <editor xml:id="edAG">Andreas Gálffy</editor>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <name>Forschungsstelle "Universitätssammlung Friedrich von Gentz"</name>
+               <link target="http://gentz-digital.ub.uni-koeln.de http://www.ub.uni-koeln.de/cdm/singleitem/collection/gentz/id/4116/"/>
+            </publisher>
+            <pubPlace>Cologne</pubPlace>
+            <idno type="Gentz-Edition-Number" n="4117"/>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <country>Poland</country>
+                  <settlement>Cracow</settlement>
+                  <institution>Biblioteka Jagiellońska</institution>
+                  <repository>Handschriftenabtelung</repository>
+                  <collection>Varnhagensammlung der ehemaligen Preußischen Bibliothek</collection>
+                  <idno>Karton 66</idno>
+               </msIdentifier>
+               <msContents>
+                  <summary>
+                     Elisabeth Graun hat sich von Sennewalt malen lassen und Gentz will dieses Gemälde unter allen Umständen. Ihm 
+                     wurde durch einen Brief des Ehemannes eine Kopie des Gemäldes versprochen. Auch möchte Gentz, dass Coelestine 
+                     sich malen lässt.
+                  </summary>
+               </msContents>
+            </msDesc>
+            <listBibl type="preprints">
+               <biblStruct>
+                  <monogr>
+                     <editor>
+                        <persName>
+                           <ref target="http://d-nb.info/gnd/130953075"/>
+                           <forename>Friedrich Carl</forename>
+                           <surname>Wittichen</surname>
+                        </persName>
+                        <persName>
+                           <ref/> <!-- kein GND-Eintrag -->
+                           <forename>Ernst</forename>
+                           <surname>Salzer</surname>
+                        </persName>
+                     </editor>
+                     <title>Briefe von und an Friedrich von Gentz. 4 Bde.</title>
+                     <imprint>
+                        <publisher>Oldenbourg</publisher>
+                        <pubPlace>München, Berlin</pubPlace>
+                        <date>1909-1913</date>
+                     </imprint>
+                     <biblScope unit="volume" n="1">
+                        I
+                     </biblScope>
+                     <biblScope unit="page" from="66" to="67">
+                        Nr. 15
+                     </biblScope>
+                  </monogr>
+               </biblStruct>
+            </listBibl>
+            <listBibl type="letterReferenced">
+               <bibl xml:id="c4117-1" corresp="#LETTER_GENTZ_NNNN">nicht bekannter Brief des Regierungsrates Graun an Friedrich von Gentz</bibl>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Masterarbeit zu Matrikelnummer 5584124</p>
+         </projectDesc>
+      </encodingDesc>
+      <profileDesc>
+         <creation>
+            <date when-iso="1785-12-00">Dezember 1785</date>
+         </creation>
+        <langUsage>
+           <language ident="d">deutsch</language>
+        </langUsage>
+         <textClass>
+            <keywords scheme="internal"><!-- internal: innerhalb des besagten Briefs -->
+               <term>Billet</term>
+               <term>Graun</term>
+               <term>Berlin</term>
+               <term>Sehnsucht</term>
+               <term>Gemälde</term>
+               <term>Coelestinen</term>
+               <term>Regierungsrat Graun</term>
+            </keywords>
+            <keywords scheme="categorisation"><!-- Sinnabschnittseinteilung - relevant für den Fahrkartenautomaten! -->
+               <term xml:id="vegg">Elisabeth Graun - Gemälde</term>
+               <term xml:id="veg">Verhältnis Elisabeth Graun</term>
+            </keywords>
+         </textClass>
+         <textDesc>
+            <channel>manuscript</channel>
+            <constitution type="single"/>
+            <derivation type="original"/>
+            <domain type="private"/>
+            <factuality type="fact"/>
+            <interaction type="partial"/>
+            <preparedness type="unprepared"/>
+            <purpose type="inform"/>
+         </textDesc>
+         <particDesc>
+            <listPerson>
+               <!-- Sender und Adressat -->
+               <person role="sender" xml:id="Gen">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/118538489"/>
+                     <forename>Friedrich von</forename>
+                     <surname>Gentz</surname>
+                  </persName>
+               </person>
+               <person role="receiver" xml:id="Gra">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/123518733"/>
+                     <forename>Elisabeth</forename>
+                     <surname>Graun</surname>
+                  </persName>
+               </person>
+               <!-- erwähnte Personen -->
+               <person role="named" xml:id="coe">
+                  <persName>
+                     <ref/><!-- kein GND-Eintrag -->
+                     <forename>Coelestine</forename>
+                     <surname>Schwinck</surname>
+                     <roleName type="address">Mademoiselle</roleName>
+                  </persName>
+               </person>
+               <person role="named" xml:id="swt">
+                  <persName>
+                     <ref/><!-- kein GND-Eintrag -->
+                     <forename/>
+                     <surname>Sennewalt</surname>
+                  </persName>
+               </person>
+               <person role="named" xml:id="RRGra">
+                  <persName>
+                     <ref/><!-- kein GND-Eintrag -->
+                     <forename>Karl Heinrich</forename>
+                     <surname>Graun</surname>
+                     <roleName type="office">Regierungsrat</roleName>
+                  </persName>
+               </person>
+               <person role="named" xml:id="SWGra">
+                  <persName>
+                     <ref/><!-- kein GND-Eintrag -->
+                     <forename/>
+                     <surname/>
+                     <roleName type="family">Schwester von Elisabeth Graun</roleName>
+                  </persName>
+                  <certainty locus="name">
+                     <desc>Es konnte kein Name gefunden werden.</desc>
+                  </certainty>
+               </person>
+            </listPerson>
+         </particDesc>
+         <settingDesc>
+            <listPlace>
+               <!-- Start- und Zielort -->
+               <place type="sender" xml:id="plBe">
+                  <country>
+                     <ref target="http://d-nb.info/gnd/4047194-9"/>
+                     <placeName>Preußen</placeName>  
+                  </country>
+                  <settlement>
+                     <ref target="http://d-nb.info/gnd/4005728-8"/>
+                     <placeName>Berlin</placeName>
+                  </settlement>
+               </place>
+               <place type="receiver" xml:id="plKo">
+                  <country>
+                     <ref target="http://d-nb.info/gnd/4047194-9"/>
+                     <placeName>Preußen</placeName>  
+                  </country>
+                  <settlement>
+                     <ref target="http://d-nb.info/gnd/4031541-1"/>
+                     <placeName>Königsberg</placeName>
+                  </settlement>
+               </place>
+               <!-- erwähnte Orte -->
+            </listPlace>
+         </settingDesc>
+      </profileDesc>
+      <revisionDesc>
+         <change xml:id="init" when-iso="2018-01-27" who="#edAG">Erstauszeichnung und Normierung des Dokumentes im Rahmen der Masterarbeit der Matrikelnummer 5584124</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div n="1" corresp="#vegg">
+            <opener>
+               Diese Zeilen sind nur einer einzigen Bitte gewidmet:
+            </opener>
+            <p>
+               Sie haben Sich von <rs type="person" ref="#swt">Sennewalt</rs> mahlen laßen; und 
+               <rs type="citation" ref="#c4117-1">ein Brief</rs> <rs type="person" ref="#RRGra">Ihres Mannes</rs>, den ich 
+               vorigen Sonnabend erhielt, und der durch eine Menge artiger und freundschaftlicher Aeußerungen, beynahe, alles, was 
+               sein erster - unnennbarer - und sein zweyter - kalter - auf mich Uebles gewirkt hatte, wieder gut macht, enthält 
+               unter andern die Versicherung: 
+               <cit corresp="#c4117-1">
+                  <quote>daß, wenn Sie eine Copie dieses Gemähldes machen ließen, sie für keinen Andern, als für mich bestimmt wäre.</quote>
+               </cit>
+               - Vielleicht hat <rs type="person" ref="#RRGra"/>Ihr Mann Sie verrathen, vielleicht auch gescherzt. Es sey 
+               aber, was es sey, so Etwas laße ich <del rend="stroked">mich</del> mir nie umsonst gesagt seyn. Mit gröster 
+               Sicherheit also, und zugleich mit großer, großer Sehnsucht sehe ich diesem Portrait entgegen. Je eher, je beßer. 
+               Die Lust haben Sie mir nun einmal rege gemacht; oder <rs type="person" ref="#RRGra">Ihr Mann</rs> wenigstens. 
+               Sehen Sie nun, wie Sie mich befriedigen. Nur - um aller Welt willen sagen Sie 
+               <rs type="person" ref="#RRGra">Ihrem Manne</rs> nicht, daß ich <del rend="stroked">Ihnen</del> aus
+               <rs type="citation" ref="#c4117-1">seinem Briefe</rs> geplaudert habe.
+            </p>
+         </div>
+         <div n="2" corresp="#veg">
+            <p>
+               <rs type="person" ref="#SWGra">Ihre Schwester</rs> habe ich heute gebeten, daß Sie 
+               <rs type="person" ref="#coe">Coelestinen</rs> bewegt, sich ebenfalls mahlen zu laßen. Tragen Sie das Ihrige dazu 
+               bey - gute Frau ! - Sie werden ja gern einen frohen Anblick mir befördern helfen. -
+            </p>
+            <p>
+               Einen Brief von Ihnen erwarte ich nächstens. Wichtige Begebenheiten sind jetzt im Werke. Mein Herz pocht gewaltig. 
+               Vielleicht wißen und hören Sie von meiner Geschichte, und von der Neuigkeit, daß nun der Alte schon meine Wünsche 
+               weiß. Adieu. Seyn Sie glücklich
+            </p>
+         </div>
+         <closer>
+            <signed rend="right">Gentze.</signed>
+         </closer>
+      </body>
+   </text>
+</TEI>

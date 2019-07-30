@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc xml:id="LETTER_GENTZ_3535">
+         <titleStmt>
+            <title>Friedrich von Gentz an Philipp Karl Graf von Alvensleben, 23. August 1801</title>
+            <editor xml:id="edAG">Andreas Gálffy</editor>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <name>Forschungsstelle "Universitätssammlung Friedrich von Gentz"</name>
+               <link target="http://gentz-digital.ub.uni-koeln.de http://www.ub.uni-koeln.de/cdm/singleitem/collection/gentz/id/3534/"/>
+            </publisher>
+            <pubPlace>Cologne</pubPlace>
+            <idno type="Gentz-Edition-Number" n="3535"/>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <country>Germany</country>
+                  <settlement>Berlin</settlement>
+                  <institution>Geheimes Staatsarchiv Preußischer Kulturbesitz</institution>
+                  <repository>I. HA, Rep 9</repository>
+                  <collection>Allgemeine Verwaltung, F 2a, Fasc. 45</collection>
+                  <idno>Bl. 8</idno>
+               </msIdentifier>
+               <msContents>
+                  <summary>
+                     Die Sache liegt in Hüttels Händen, was Gentz beruhigt. Er verspricht, alle Bemerkungen und Erinnerungen 
+                     genauestens zu beachten und dankt für das ihm entgegengebrachte Wohlwollen.
+                  </summary>
+               </msContents>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Masterarbeit zu Matrikelnummer 5584124</p>
+         </projectDesc>
+      </encodingDesc>
+      <profileDesc>
+         <creation>
+            <date when-iso="1801-08-23">23. August 1801</date>
+         </creation>
+        <langUsage>
+           <language ident="d">deutsch</language>
+        </langUsage>
+         <textClass>
+            <keywords scheme="internal"><!-- internal: innerhalb des besagten Briefs -->
+               <term>Brief</term>
+               <term>Zensur</term>
+               <term>Hüttel</term>
+            </keywords>
+            <keywords scheme="categorisation"><!-- Sinnabschnittseinteilung - relevant für den Fahrkartenautomaten! -->
+               <term xml:id="zns">Zensur</term>
+            </keywords>
+         </textClass>
+         <textDesc>
+            <channel>manuscript</channel>
+            <constitution type="single"/>
+            <derivation type="original"/>
+            <domain type="private"/>
+            <factuality type="fact"/>
+            <interaction type="partial"/>
+            <preparedness type="prepared"/>
+            <purpose type="inform"/>
+         </textDesc>
+         <particDesc>
+            <listPerson>
+               <!-- Sender und Adressat -->
+               <person role="sender" xml:id="Gen">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/118538489"/>
+                     <forename>Friedrich von</forename>
+                     <surname>Gentz</surname>
+                  </persName>
+               </person>
+               <person role="receiver" xml:id="PKvA">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/11629633X"/>
+                     <forename>Philipp Karl von</forename>
+                     <surname>Alvensleben</surname>
+                  </persName>
+               </person>
+               <!-- erwähnte Personen -->
+               <person role="named" xml:id="GehFH">
+                  <persName>
+                     <ref />
+                     <forename/>
+                     <surname>Hüttel</surname>
+                     <roleName type="office">Zensor des Kabinettsministeriums</roleName>
+                  </persName>
+               </person>
+            </listPerson>
+         </particDesc>
+         <settingDesc>
+            <listPlace>
+               <!-- Start- und Zielort -->
+               <place type="sender" xml:id="plBe">
+                  <country>
+                     <ref target="http://d-nb.info/gnd/4047194-9"/>
+                     <placeName>Preußen</placeName>
+                  </country>
+                  <settlement>
+                     <ref target="http://d-nb.info/gnd/4005728-8"/>
+                     <placeName>Berlin</placeName>
+                  </settlement>
+               </place>
+               <!-- erwähnte Orte -->
+            </listPlace>
+         </settingDesc>
+      </profileDesc>
+      <revisionDesc>
+         <change xml:id="init" when-iso="2018-03-08" who="#edAG">Erstauszeichnung und Normierung des Dokumentes im Rahmen der Masterarbeit der Matrikelnummer 5584124</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <opener>
+            <salute rend="left">HochWürdiger Hochgebohrner Graf !</salute>
+            <salute rend="left">Hochgebietender Herr Geheimer Staats- und Cabinets-Minister !</salute>
+         </opener>
+         <div n="1" corresp="#zns">
+            <p>
+               Ewr. Hochgräflichen Excellentz gnädiges Schreiben hat mich aus einer beträchtlichen Unruhe gerissen; ich bin 
+               unendlich froh, die Sache nun wieder in den Händen des <rs type="person" ref="#GehFH">Herrn von Hüttel</rs> zu wißen, 
+               nach dessen Bemerkungen und Erinnerungen ich mich im gegenwärtigen Falle, wie in allen ähnlichen, aufs genauste 
+               achten werde. Unterdessen sehe ich die Wendung, die Ewr. Excellentz dieser Angelegenheit zu geben geruht haben, als 
+               einen ausgezeichneten Beweis Ihres huldreichen Wohlwollens gegen mich an; ich ermangle nicht, EwrExcellentz meinen 
+               lebhaftesten Dank dafür abzustatten, und werde mich überaus glücklich schätzen, wenn es mir gelingt, mich Ihrer 
+               unschätzbaren Gnade fernerhin würdig zu erhalten. Ich verharre in tiefster Ehrfurcht
+            </p>
+         </div>
+         <closer>
+            <salute rend="right">Ewr. Hochgräflichen Excellentz</salute>
+            <salute rend="right">untertänigster treugehorsamster</salute>
+            <dateline rend="left"><rs type="place" ref="#plBe">Berlin</rs> den <date when-iso="1801-08-23">23<span rend="sup">ten</span> August 1801</date>.</dateline>
+            <signed rend="right">Gentz.</signed>
+         </closer>
+      </body>
+   </text>
+</TEI>

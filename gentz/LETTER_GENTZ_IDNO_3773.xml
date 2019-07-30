@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader type="text">
+      <fileDesc xml:id="LETTER_GENTZ_3773">
+         <titleStmt>
+            <title>Friedrich von Gentz an Friedrich Vieweg, 9. Februar 1796</title>
+            <editor xml:id="edAG">Andreas Gálffy</editor>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <name>Forschungsstelle "Universitätssammlung Friedrich von Gentz"</name>
+               <link target="http://gentz-digital.ub.uni-koeln.de http://www.ub.uni-koeln.de/cdm/singleitem/collection/gentz/id/3772/"/>
+            </publisher>
+            <pubPlace>Cologne</pubPlace>
+            <idno type="Gentz-Edition-Number" n="3773"/>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <country>Germany</country>
+                  <settlement>Wiesbaden</settlement>
+                  <institution>Vieweg-Verlagsarchiv</institution>
+                  <repository>Briefsammlung 311 G, Gentz-Briefe</repository>
+                  <idno>Nr. 28</idno>
+               </msIdentifier>
+               <msContents>
+                  <summary>
+                     Gentz bittet um 100 Reichstaler Vorschuss für sein Honorar. Vieweg soll es mit dem verrechnen, was er für Humboldt und seinen Bruder zahlen 
+                     will. Gentz verspricht, dass Vieweg daraus kein Nachteil entstehen wird.
+                  </summary>
+               </msContents>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Masterarbeit zu Matrikelnummer 5584124</p>
+         </projectDesc>
+      </encodingDesc>
+      <profileDesc>
+         <creation>
+            <date when-iso="1796-02-09">9. Februar 1796</date>
+         </creation>
+        <langUsage>
+           <language ident="d">deutsch</language>
+        </langUsage>
+         <textClass>
+            <keywords scheme="internal"><!-- internal: innerhalb des besagten Briefs -->
+               <term>Billet</term>
+               <term>Schulden</term>
+               <term>Humboldt</term>
+               <term>Heinrich Gentz</term>
+            </keywords>
+            <keywords scheme="categorisation"><!-- Sinnabschnittseinteilung - relevant für den Fahrkartenautomaten! -->
+               <term xml:id="gprl">Gentz - p(r)ekuniäre Lage</term>
+               <term xml:id="vwf">Vieweg - Freundschaft</term>
+            </keywords>
+         </textClass>
+         <textDesc>
+            <channel>manuscript</channel>
+            <constitution type="single"/>
+            <derivation type="original"/>
+            <domain type="private"/>
+            <factuality type="fact"/>
+            <interaction type="partial"/>
+            <preparedness type="unprepared"/>
+            <purpose type="inform"/>
+         </textDesc>
+         <particDesc>
+            <listPerson>
+               <!-- Sender und Adressat -->
+               <person role="sender" xml:id="Gen">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/118538489"/>
+                     <forename>Friedrich von</forename>
+                     <surname>Gentz</surname>
+                  </persName>
+               </person>
+               <person role="receiver" xml:id="FVW">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/119049546"/>
+                     <forename>Friedrich</forename>
+                     <surname>Vieweg</surname>
+                  </persName>
+               </person>
+               <!-- erwähnte Personen -->
+               <person role="named" xml:id="Hum">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/118554727"/>
+                     <forename>Wilhelm von</forename>
+                     <surname>Humboldt</surname>
+                  </persName>
+               </person>
+               <person role="named" xml:id="HGen">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/11900738X"/>
+                     <forename>Heinrich</forename>
+                     <surname>Gentz</surname>
+                  </persName>
+               </person>
+            </listPerson>
+         </particDesc>
+         <settingDesc>
+            <listPlace>
+               <!-- Start- und Zielort -->
+               <place type="sender" xml:id="plBe">
+                  <country>
+                     <ref target="http://d-nb.info/gnd/4047194-9"/>
+                     <placeName>Preußen</placeName>
+                  </country>
+                  <settlement>
+                     <ref target="http://d-nb.info/gnd/4005728-8"/>
+                     <placeName>Berlin</placeName>
+                  </settlement>
+               </place>
+               <!-- erwähnte Orte -->
+            </listPlace>
+         </settingDesc>
+      </profileDesc>
+      <revisionDesc>
+         <change xml:id="init" when-iso="2018-02-18" who="#edAG">Erstauszeichnung und Normierung des Dokumentes im Rahmen der Masterarbeit der Matrikelnummer 5584124</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div n="1" corresp="#gprl">
+            <p>
+               Ich bediene mich eines sonderbaren Grunds, lieber Freund, die nachstehende Bitte bey Ihnen zu rechtfertigen. Aber ein 
+               Grund ist es doch in der That, so sonderbar er auch klinge. Der Vorschuß, in welchem ich bey Ihnen stehe ist so 
+               unproportionirlich groß, daß es in keiner Rücksicht für Sie von Bedeutung seyn kan, ihn noch um etwas zu erhöhen.
+            </p>
+            <p>
+               Ich wage es also, nicht mit Dreistigkeit, aber doch auch ohne eigentliche Furcht, Sie zu bitten mir, 
+               <add place="above">jedoch</add> mit Einschluß dessen, was Sie mir als Honorar für 
+               <rs type="person" ref="#Hum">Humboldt</rs> und <rs type="person" ref="#HGen">meinen Bruder</rs> geben wollten (und 
+               welches Sie <del rend="stroked">xxx</del> berechnen mögen wie hoch es Ihnen gefällt, da ich es einmal schon 
+               berichtigt und abgemacht habe) noch überhaupt 100 Reichsthaler also soviel als jenes Honorar übersteigt, an Vorschuß 
+               zukommen zu laßen.
+            </p>
+         </div>
+         <div n="2" corresp="#vwf">
+            <p>
+               Ich weiß alles was Sie mir opponiren können, und in Ihrem Herzen wenigstens gewiß <pb/> opponiren werden. Ich denke 
+               aber, wenn ich meinen Abschluß von Ihnen vollständig in Händen haben werde, mich über dies ganze Verhältniß 
+               dergestalt gegen Sie zu erklären, und solche Vorschläge zu thun, daß jede Spur von Unzufriedenheit mit mir, bey 
+               Ihnen verschwinden soll. So wie ich denn überhaupt bey dieser Gelegenheit die Versicherung, daß Ihre Verbindung mit 
+               mir gewiß nie und <emph rend="underlined">unter keinen Umständen</emph>, zu Ihrem Nachtheil ausschlagen, oder ein 
+               Gegenstand der Reue für Sie werden soll, mit gutem Gewissen, feyerlich wiederhole.
+            </p>
+            <p>
+               Auch hoffe ich, daß dies für eine sehr lange Zeit die letzte Bitte dieser Art seyn wird, von
+            </p>
+         </div>
+         <closer>
+            <salute rend="right">Ihrem herzlich ergebnen</salute>
+            <dateline rend="left">den <date when-iso="1796-02-09">9 Febr. 96</date>:</dateline>
+            <signed rend="right">Gentz.</signed>
+         </closer>
+      </body>
+      <back>
+         <p>
+            Des
+            Herrn Buchhändler Vieweg
+            Wohlgebohren.
+         </p>
+         <p resp="#FVW">
+            <rs type="place" ref="#plBe">Berlin</rs> d <date when-iso="1796-02-09">9<span rend="sup">ten</span> Febr. 1796</date>
+            H K. R. Gentz
+            d <date when-iso="1796-02-10">10</date> eod
+         </p>
+         <p resp="otherHand">
+            pro 100 rh Crt.
+         </p>
+      </back>
+      <note xml:id="r3773-1">Seite 4 Adr.</note>
+      <note xml:id="r3773-2">Seite 4 Präsenz-Vermerk von Viewegs Hand, darunter Vermerk von fremder Hand</note>
+      <note xml:id="r3773-3">S. 2 u. S. 4: Siegelspuren</note>
+   </text>
+</TEI>

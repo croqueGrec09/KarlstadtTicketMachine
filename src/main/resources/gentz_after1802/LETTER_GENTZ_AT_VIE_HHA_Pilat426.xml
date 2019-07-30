@@ -1,0 +1,494 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+     <fileDesc xml:id="LETTER_GENTZ_18221021">
+        <titleStmt>
+           <title>Brief Nr. 426 Friedrich von Gentz an Joseph Anton von Pilat, 21. Oktober 1822</title>
+           <editor xml:id="edMK">Meral Karrasch</editor>
+           <editor xml:id="edMH">Maria Hartmann</editor>
+           <editor xml:id="edAG">Andreas Gálffy</editor>
+           <editor xml:id="edMS">Max Supplieth</editor>
+        </titleStmt>
+        <publicationStmt>
+           <publisher>Team der neuen Gentz-Edition</publisher>
+           <pubPlace>Cologne</pubPlace>
+           <distributor>University of Cologne</distributor>
+           <idno type="Gentz-Edition-Number" n="0000"/>
+           <availability>
+              <licence>CC-BY-SA</licence>
+           </availability>
+           <date when="2013-11-13">13. November 2013</date> <!-- hier das offizielle Publikationsdatum -->
+        </publicationStmt>
+        <sourceDesc n="original">
+           <msDesc>
+              <msIdentifier>
+                 <country>Austria</country>
+                 <settlement>Vienna</settlement>
+                 <institution>Haus-, Hof- und Staatsarchiv</institution>
+                 <repository>Nachlaß Pilat</repository>
+                 <collection>Bündel 1822-1825</collection>
+                 <idno>426</idno>
+              </msIdentifier>
+              <physDesc>
+                 <p>4 eigenhändig und 1 1/2 von fremder Hand beschriebene Seiten</p>
+              </physDesc>
+           </msDesc>
+        </sourceDesc>
+     </fileDesc>
+     <profileDesc>
+        <creation>
+           <date when-iso="1822-10-21">21. Oktober 1822</date>
+        </creation>
+        <langUsage>
+           <language ident="d">deutsch</language>
+        </langUsage>
+        <textClass>
+           <keywords scheme="">
+              <term>Brief</term>
+              <term>Diplomatie</term>
+              <term>Gentz</term>
+              <term>Thätigkeit</term>
+              <term>Druck</term>
+              <term>Amphitheater</term>
+              <term>Carricatur</term>
+              <term>Pozzo</term>
+              <term>Chateaubriand</term>
+              <term>Strangford</term>
+              <term>Ranzau</term>
+           </keywords>
+        </textClass>
+        <textDesc>
+           <channel mode="w">manuscript</channel>
+           <constitution type="single"/>
+           <derivation type="original"/>
+           <domain type="private"/>
+           <factuality type="fact"/>
+           <interaction type="partial"/>
+           <preparedness type="unprepared"/>
+           <purpose type="inform"/>
+        </textDesc>
+        <settingDesc>
+           <listPlace>
+              <!-- Start- und Zielort -->
+              <place type="sender" xml:id="plVe">
+                 <country>
+                    <placeName>
+                       <ref target="http://d-nb.info/gnd/4027833-5">
+                          Italien
+                       </ref>
+                    </placeName>
+                 </country>
+                 <settlement>
+                    <placeName>
+                       <ref target="http://d-nb.info/gnd/4063110-2">
+                          Verona
+                       </ref>
+                    </placeName>   
+                 </settlement>
+              </place>
+              <place type="receiver" xml:id="plWi">
+                 <country>
+                    <placeName>
+                       <ref target="http://d-nb.info/gnd/4075613-0">
+                          Österreich-Ungarn
+                       </ref>
+                    </placeName>
+                 </country>
+                 <settlement>
+                    <placeName>
+                       <ref target="http://d-nb.info/gnd/4066009-6">
+                          Wien
+                       </ref>
+                    </placeName>
+                 </settlement>
+              </place>
+              <!-- erwähnte Orte -->
+              <place type="named" xml:id="plTu">
+                 <country>
+                    <placeName>
+                       <ref target="http://d-nb.info/gnd/4061163-2">
+                          Türkei
+                       </ref>
+                    </placeName>
+                 </country>
+              </place>
+              <place type="named" xml:id="plBu">
+                 <country>
+                    <placeName>
+                       <ref target="http://d-nb.info/gnd/4050939-4">
+                          Rumänien
+                       </ref>
+                    </placeName>
+                 </country>
+                 <settlement>
+                    <placeName>
+                       <ref target="http://d-nb.info/gnd/4008858-3">
+                          Bukarest
+                       </ref>
+                    </placeName>
+                 </settlement>
+              </place>
+              <place type="named" xml:id="plPr">
+                 <country>
+                    <placeName>
+                       <ref target="http://d-nb.info/gnd/4047194-9">
+                          Preußen
+                       </ref>
+                    </placeName>  
+                 </country>
+              </place>
+              <place type="named" xml:id="plHu">
+                 <country>
+                    <placeName>
+                       <ref target="http://d-nb.info/gnd/4078541-5">
+                          Ungarn
+                       </ref>
+                    </placeName>
+                 </country>
+              </place>
+              <place type="named" xml:id="plPa">
+                 <country>
+                    <placeName>
+                       <ref target="http://d-nb.info/gnd/4018145-5">
+                          Frankreich
+                       </ref>
+                    </placeName>
+                 </country>
+                 <settlement>
+                    <placeName>
+                       <ref target="http://d-nb.info/gnd/4044660-8">
+                          Paris
+                       </ref>
+                    </placeName>
+                 </settlement>
+              </place>
+           </listPlace>
+        </settingDesc>
+        <particDesc>
+           <listPerson>
+              <!-- Sender und Adressat -->
+              <person role="sender" xml:id="Ge">
+                 <persName>
+                    <ref target="http://d-nb.info/gnd/118538489">
+                       <forename>Friedrich von</forename>
+                       <surname>Gentz</surname>
+                    </ref>
+                 </persName>
+              </person>
+              <person role="receiver" xml:id="Pi">
+                 <persName>
+                    <ref target="http://d-nb.info/gnd/119432617">
+                       <forename>Joseph Anton von</forename>
+                       <surname>Pilat</surname>
+                    </ref>
+                 </persName>
+              </person>
+              <!-- im Brief erwähnte Menschen -->
+              <person role="named" xml:id="Me">
+                 <persName>
+                    <ref target="http://d-nb.info/gnd/118581465">
+                       <forename>Klemens Wenzel Nepomuk Lothar von</forename>
+                       <surname>Metternich</surname>
+                    </ref>
+                 </persName>
+              </person>
+              <person role="named" xml:id="Vi">
+                 <persName>
+                    <ref>
+                       <forename>Victor</forename>
+                       <surname> </surname>
+                    </ref>
+                 </persName>
+              </person>
+              <!-- Vorname falsch, dieser Zichy war 1822 erst 11 Jahre alt! -->
+              <person role="named" xml:id="Zi">
+                 <persName>
+                    <ref>
+                       <forename>Franz von</forename>
+                       <surname>Zichy</surname>
+                    </ref>
+                 </persName>
+              </person>   
+              <person role="named" xml:id="Str">
+                 <persName>
+                    <ref target="http://d-nb.info/gnd/100782639">
+                       <forename>Percy Clinton Sydney Smythe</forename>
+                       <surname>Strangford</surname>
+                    </ref>
+                 </persName>
+              </person>
+              <person role="named" xml:id="Stu">
+                 <persName>
+                    <ref target="http://d-nb.info/gnd/119393298">
+                       <forename>Bartholomäus von</forename>
+                       <surname>Stürmer</surname>
+                    </ref>
+                 </persName>
+              </person>
+              <!-- merkwürdiger Name, ist aber als Hof-Secretär angegeben. Kein GND-Eintrag! -->
+              <person role="named" xml:id="Ha">
+                 <persName>
+                    <ref>
+                       <forename>Franz Fleischhackl von</forename>
+                       <surname>Hackenau</surname>
+                    </ref>
+                 </persName>
+              </person>
+              <person role="named" xml:id="Ch">
+                 <persName>
+                    <ref target="http://d-nb.info/gnd/118520237">
+                       <forename>François-René de</forename>
+                       <surname>Chateaubriand</surname>
+                    </ref>
+                 </persName>
+              </person>
+              <!-- ... zu viele Rothschilds ... doch einer aus der Bankerdynastie, der Österreich und Fürst v. Metternich selbst
+                    einen Haufen Geld schuldete?! -->
+              <!-- der ursprünglich hier referenzierte Rotschild war zum Zeitpunkt des Briefes bereits tot -->
+              <person role="named" xml:id="Ro">
+                 <persName>
+                    <ref>
+                       <forename> </forename>
+                       <surname>Rothschild</surname>
+                    </ref>
+                 </persName>
+              </person>   
+              <person role="named" xml:id="Hu">
+                 <persName>
+                    <ref target="http://d-nb.info/gnd/130187003">
+                       <forename>Johann Georg</forename>
+                       <surname>Hülsemann</surname>
+                    </ref>
+                 </persName>
+              </person>   
+              <person role="named" xml:id="Am">
+                 <persName>
+                    <ref target="http://d-nb.info/gnd/118584790">
+                       <forename>Adam Heinrich</forename>
+                       <surname>Müller</surname>
+                    </ref>
+                 </persName>
+              </person>   
+              <person role="named" xml:id="Wt">
+                 <persName>
+                    <ref target="http://d-nb.info/gnd/118804928">
+                       <forename>Wilhelm Ludwig Georg zu</forename>
+                       <surname>Sayn-Wittgenstein-Hohenstein</surname>
+                    </ref>
+                 </persName>
+              </person>   
+              <person role="named" xml:id="Fw">
+                 <persName>
+                    <ref target="http://d-nb.info/gnd/118535986">
+                       <forename>Friedrich Wilhelm III.</forename>
+                       <addName>Preußen, König</addName>
+                    </ref>
+                 </persName>
+              </person>
+              <person role="named" xml:id="Kh">
+                 <persName>
+                    <ref target="http://d-nb.info/gnd/118545906">
+                       <forename>Karl August von</forename>
+                       <surname>Hardenberg</surname>
+                    </ref>
+                 </persName>
+              </person>
+              <!-- möglicherweise Otto von Rantzau, der schon mit 13 Jahren auffiel -->
+              <person role="named" xml:id="Gr">
+                 <persName>
+                    <ref>
+                       <forename> </forename>
+                       <surname>Ranzau</surname>
+                    </ref>
+                 </persName>
+              </person>
+              <person role="named" xml:id="Pb">
+                 <persName>
+                    <ref target="http://d-nb.info/gnd/118793187">
+                       <forename>Carlo Andrea</forename>
+                       <surname>Pozzo di Borgo</surname>
+                    </ref>
+                 </persName>
+              </person>
+           </listPerson>
+        </particDesc>
+     </profileDesc>
+     <revisionDesc>
+        <change when-iso="2016-08-07" who="#edAG #edMS">Normierung und weitere Auszeichnung des Dokumentes im Rahmen der Übung "WebApps und Textmining" im Hinblick auf die 
+           zukünftige Masterarbeit von Matrikelnummer 5584124</change>
+     </revisionDesc>
+  </teiHeader>
+   <facsimile>
+      <graphic url="00000019.jpg" xml:id="seite1"/>
+      <graphic url="00000020.jpg" xml:id="seite2"/>
+      <graphic url="00000021.jpg" xml:id="seite3"/>
+      <graphic url="00000022.jpg" xml:id="seite4"/>
+      <graphic url="00000024.jpg" xml:id="seite5"/>
+      <graphic url="00000025.jpg" xml:id="seite6"/>
+   </facsimile>
+  <text> <!-- wir verstehen unter Text alles, was auf den vorgefundenen Dokument an bewahrenswerten Informationen von uns identifiziert wurde -->
+      <body>
+         <div>
+            <opener>
+               <pb facs="#seite1"/>
+               <dateline rend="right"><rs type="place" ref="#plVe">Verona.</rs> <date when-iso="1822-10-21">Montag 21 Oktober.</date></dateline>
+            </opener>
+         <p> 
+             Ich habe gestern dem <rs type="person" ref="#Me">Fürsten</rs> in einer ruhigen <lb/>
+             Stunde Ihre Inhalts-Anzeige des Beobachters vorgelegt, und er <lb/>
+             hat mir aufgetragen, Ihnen in den verbindlichsten Ausdrücken <lb/>
+             seine Zufriedenheit mit dieser mühsamen und höchst nützlichen <lb/>
+             Arbeit zu erkennen zu geben. Er wünscht, wie ich, daß Sie <lb/>
+             solche unverdrossen fortsetzen, und, ohne das Ende des Jahrganges <lb/>
+             abzuwarten, das, was davon fertig wird, immer gleich zum <lb/>
+             Druck befördern mögen. Der <rs type="person" ref="#Me">Fürst</rs> hat sich <choice><orig>bey</orig><reg>bei</reg></choice> dieser <lb/>
+             Gelegenheit über Ihre Treue, <choice><orig>Thätigkeit</orig><reg>Tätigkeit</reg></choice>, und sonstige löbliche <lb/>
+             Eigenschaften auf eine höchst <choice><orig>vortheilhafte</orig><reg>vorteilhafte</reg></choice>, mir unendlich <choice><orig>will-<lb/>kommne</orig><reg>will-<lb/>kommene</reg></choice>
+             Art geäußert, und Sie können Sich wohl vorstellen, <lb/>
+             <choice><orig>daß</orig><reg>dass</reg></choice> ich <choice><orig>bey</orig><reg>bei</reg></choice> solchen <choice><orig>Aeußerungen</orig><reg>Äußerungen</reg></choice> keine stumme Rolle <lb/>
+             gespielt habe.
+          </p>
+          <p>
+             Auch habe ich mich gestern, weil ich dem <lb/>
+             Wunsche des <rs type="person" ref="#Me">Fürsten</rs> nicht widerstehen konnte, entschließen <choice><orig>müßen</orig><reg>müssen</reg></choice>, <lb/>
+             das berühmte Amphitheater zu besuchen, und zwar über eine <lb/>
+             Unzahl steinerner Stufen bis auf die Höhe desselben zu steigen. <lb/>
+             Das Hinaufsteigen ging erträglich; <choice><orig>beym</orig><reg>beim</reg></choice> Herabsteigen ward mir <lb/>
+             etwas bange; aber der <rs type="person" ref="#Me">Fürst</rs> hat mich, recht eigentlich wie ein <lb/>
+             Kind, in seiner Hand herunter gegängelt; er wollte mich nicht <lb/>
+             einmal <rs type="person" ref="#Vi">Victor</rs> oder <rs type="person" ref="#Zi">Zichy</rs>, die mit uns waren, anvertrauen.<lb/>
+             Der Anblick ist majestätisch und einzig, und führt zu ernsten <lb/>
+             Reflexionen über die Zeiten und die Menschen, die solche Werke <lb/>
+             bereiten konnten. Die <emph rend="underlined">Freiheit</emph> war es wahrhaftig nicht, was <pb facs="#seite2"/>
+             sie schuf; die Gewalt der <emph rend="underlined">Herrschaft</emph> - die überhaupt das <lb/>
+             <choice><orig>Alterthum</orig><reg>Altertum</reg></choice> weit mehr auszeichnet als die eingebildete Kraft <lb/>
+             der Freiheit - die <choice><orig>muß</orig><reg>muss</reg></choice> man bewundern. <choice><orig>Uebrigens</orig><reg>Übrigens</reg></choice> mache <lb/>
+             ich diese Expedition nicht zum <choice><orig>zweytenmale</orig><reg>zweiten Mal</reg></choice>, und bin recht <lb/>
+             froh, sagen zu können, <choice><orig>daß</orig><reg>dass</reg></choice> ich nun das <choice><orig>bey</orig><reg>bei</reg></choice> weitem <lb/>
+             merkwürdigste, was <rs type="place" ref="#plVe">Verona</rs> darbietet, <choice><orig>abgethan</orig><reg>abgetan</reg></choice> habe.
+          </p>
+          <p>
+             Unter den Berichten aus der <rs type="place" ref="#plTu"><choice><orig>Türkey</orig><reg>Türkei</reg></choice></rs> <choice><orig>vermiße</orig><reg>vermisse</reg></choice> <lb/>
+             ich einen Haupt-Bericht aus <rs type="place" ref="#plBu">Bucarest<add place="above">Bukarest</add></rs>, wovon <rs type="person" ref="#Str">Strangford</rs> uns <lb/>
+             viel gesprochen hat, und der eine Menge interessanter <lb/>
+             Details über die Ankunft des <rs type="person" ref="#Me">Fürsten</rs>, und seine ersten, <lb/>
+             wie man versichert, sehr zweckmäßigen Maßregeln enthalten <lb/>
+             soll. <choice><orig>Vermuthlich</orig><reg>Vermutlich</reg></choice> hat <rs type="person" ref="#Stu">Herr Baron von Stürmer</rs>, diesen Bericht, <lb/>
+             um davon Gebrauch zu machen, in <rs type="place" ref="#plWi">Wien</rs> zurückbehalten. <lb/>
+             Fragen Sie doch mit Bescheidenheit <choice><orig>bey</orig><reg>bei</reg></choice> ihm an, ob er <lb/>
+             nicht einen Auszug daraus für das Publikum verfertigen <lb/>
+             <choice><orig>laßen</orig><reg>lassen</reg></choice> will. Ein <choice><orig>andrer</orig><reg>anderer</reg></choice>, kurzer Bericht von Hackenau <lb/>
+             <emph rend="underlined">ist</emph> angekommen; und <rs type="person" ref="#Str">Strangford</rs>'s Erzählung <emph rend="underlined">könnte</emph> <lb/>
+             auf einer <choice><orig>Verwechselung</orig><reg>Verwechslung</reg></choice> beruhen; ich glaube es aber nicht, <lb/>
+             weil er zu sehr <choice><orig>insistirt</orig><reg>insistiert</reg></choice>, und er hat, wie Sie <choice><orig>wißen</orig><reg>wissen</reg></choice>, <lb/>
+             einen scharfen und richtigen Blick. - <rs type="person" ref="#Str">Strangford</rs>, den <lb/>
+             ich nun immer näher kennen lerne, hat seine Fehler, wie <lb/>
+             alle Menschen; aber er steht hoch auf der Leiter. Obgleich <lb/>
+             ein großer Geschäftsmann, ist er doch noch weit mehr <lb/>
+             Genie als Geschäftsmann, voll Originalität, voll lebendiger <lb/>
+             Wärme, und über die Maßen liebenswürdig. Der <pb facs="#seite3"/> 
+             Umgang mit ihm versüßt mir <rs type="place" ref="#plVe">Verona</rs>, und ist mir lieber <lb/>
+             als alle Theater und Amphitheater der Welt. In <rs type="place" ref="#plWi">Wien</rs> hatte ich <lb/>
+             ihn noch nicht einmal recht betrachtet; hier finde ich, <choice><orig>daß</orig><reg>dass</reg></choice> er das <lb/>
+             geistreichste Gesicht hat, welches man sehen <choice><orig>kan</orig><reg>kann</reg></choice>. <rs type="person" ref="#Ch">Chateaubriand</rs> <lb/>
+             scheint mir gegen ihn eine wahre <choice><orig>Carricatur</orig><reg>Karrikatur</reg></choice>. 
+          </p>
+          <p>
+             <rs type="person" ref="#Ro">Rothschild</rs> ist gestern Mittag hier angekommen, <lb/>
+             und hat mir Ihr Paket vom <date when-iso="1822-10-14">14ten</date> gebracht. Was Sie mir von <lb/>
+             einem gewissen Minister schreiben, ist ganz interessant; ich werde <lb/>
+             aber (aus Gründen welche ich Ihnen mündlich vorbehalte) keinen Gebrauch <lb/>
+             davon machen. 
+          </p>
+          <p>
+             Sie verstehen den Brief von <rs type="person" ref="#Hu">Hülsemann</rs> nicht; <lb/>
+             ich desto besser; und ich kann Ihnen keinen <choice><orig>bessern</orig><reg>besseren</reg></choice> <choice><orig>Commentar</orig><reg>Kommentar</reg></choice> zu <lb/>
+             seinen Worten geben, als <choice><orig>beyliegenden</orig><reg>beiliegenden</reg></choice> Auszug eines Berichtes von <lb/>
+             <rs type="person" ref="#Am">Adam Müller</rs>. Sie kennen seine Abneigung gegen <rs type="place" ref="#plPr">Preußen</rs>; <lb/>
+             wenn <emph rend="underlined">er</emph> in solchem Tone spricht (und das stärkste des Berichts <lb/>
+             <choice><orig>kan</orig><reg>kann</reg></choice> ich Ihnen nicht einmal <choice><orig>mittheilen</orig><reg>mitteilen</reg></choice>) so <choice><orig>muß</orig><reg>muss</reg></choice> doch wohl die Kraft <lb/>            
+             der Wahrheit ihn überwältiget haben. So wie er schreibt, denke <lb/>
+             und spreche ich, und habe dem <rs type="person" ref="#Wt">Fürsten Wittgenstein</rs> in der ersten <lb/>
+             Unterredung gesagt, was mein innerstes Gefühl ist, <choice><orig>daß</orig><reg>dass</reg></choice> ich <lb/>
+             den <rs type="person" ref="#Fw">König von Preußen</rs> als den Retter von Deutschland und Europa <lb/>
+             betrachte. - Sie sind in dieser Frage, wenn gleich nicht ganz so <lb/>
+             wie <rs type="person" ref="#Am">Müller</rs>, doch sehr <emph rend="underlined">befangen</emph>, und ich habe mich daher nie <lb/>
+             recht mit Ihnen darüber <choice><orig>einlaßen</orig><reg>einlassen</reg></choice> mögen. Ich aber sah längst <lb/>
+             mit stiller Verwunderung den ungeheuren Fortschritten zum Guten zu, <lb/>
+             welche <rs type="place" ref="#plPr">Preußen</rs> seit 3 oder 4 Jahren macht. Es fehlt diesem <pb facs="#seite3" />
+             Staate nichts als katholisch zu <choice><orig>seyn</orig><reg>sein</reg></choice>; und er ist neben uns die <lb/>
+             kräftigste Stütze der Welt. Kehren Sie Sich gar nicht mehr an <lb/>
+             einzelne störende Erscheinungen; die sind nichts als die letzten Zuckungen <lb/>
+             der elenden <choice><orig>Partey</orig><reg>Partei</reg></choice>, die den armen, <del rend="stroked">todt</del> moralisch <choice><orig>todten</orig><reg>toten</reg></choice> <rs type="person" ref="#Hu">Kanzler</rs> <lb/>
+             <choice><orig>umgiebt</orig><reg>umgibt</reg></choice>, den der <rs type="person" ref="#Fw">König</rs> aus <choice><orig>Gutmüthigkeit</orig><reg>Gutmütigkeit</reg></choice> nicht ganz zur Ruhe <lb/>
+             setzen will. In dem Augenblick, wo der <rs type="person" ref="#Hu">Kanzler</rs> von der Bühne <lb/>
+             abtritt, wird sich zeigen, was <rs type="place" ref="#plPr">Preußen</rs> geworden ist. 
+          </p>
+          <p>
+             <rs type="place" ref="#plVe"><choice><abbr>Eod.</abbr><expan>Eodem</expan></choice></rs> um <time>4 Uhr <choice><abbr>N.M.</abbr><expan>Nach-Mittag</expan></choice></time> 
+             Ich habe heute dem <rs type="person" ref="#Me">Fürsten</rs> das kleine Billet von <!-- TODO ist der biblische Hiob gemeint? --><rs>Job</rs> vor-<lb/>
+             gelesen, welches ein eben so erfreuliches als wichtiges Resultat an-<lb/>
+             kündigt. - Auch einen <choice><orig>Theil</orig><reg>Teil</reg></choice> der mir übersendeten Predigt habe ich <lb/>
+             (für mich allein) bereits gelesen, und bitte Sie, dem würdigen <lb/>
+             Herrn zu sagen, <choice><orig>daß</orig><reg>dass</reg></choice> ich im höchsten Grade davon erbaut bin, <lb/>
+             und sie sicher ganz lesen werde. 
+          </p>
+        <closer>
+             In den <choice><orig>Beylagen</orig><reg>Beilagen</reg></choice> erhalten Sie einige Zettel, worauf <lb/>
+             einzelne Notata stehen, die ich, um sie nicht wieder <lb/>
+             zu vergessen, im Augenblick, wo sie sich darbieten, nieder <lb/>
+             schreibe. Gegenwärtiges Paket übernimmt mein Freund <lb/>
+             <rs type="person" ref="#Ro">Rothschild</rs>, in dessen Händen alles gut aufgehoben ist. <lb/>
+             Wenn Sie mir etwas Geheimes zu melden haben, <lb/>
+             so <choice><orig>kan</orig><reg>kann</reg></choice> ich Ihnen dazu ebenfalls keinen <choice><orig>bessern</orig><reg>besseren</reg></choice> Weg <lb/>
+             anweisen als den durch seine dortige Leute. 
+             <salute>Leben <lb/>
+               Sie wohl.</salute>
+             <signed rend="right">Gentz.</signed>            
+        </closer>
+         </div>
+        <epigraph>
+          <p>
+             NB. Meinem Jäger <choice><orig>ertheile</orig><reg>erteile</reg></choice> ich den Befehl, die <lb/>
+             für mich bestimmten Briefe und Pakete nie anders <lb/>             
+             als durch <emph rend="underlined">Sie</emph> - oder durch die Rothschildianer gehen <lb/>
+             zu <choice><orig>laßen</orig><reg>lassen</reg></choice>. Kein Reisender, kein Courier, keine <lb/>
+             <choice><orig>Staatskanzley</orig><reg>Staatskanzlei</reg></choice>, es <choice><orig>sey</orig><reg>sei</reg></choice> denn, <choice><orig>daß</orig><reg>dass</reg></choice> <emph rend="lined">Sie</emph> ins Mittel träten. <lb/>
+             Es fehlen offenbar schon <choice><orig>verschiedne</orig><reg>verschiedene</reg></choice> Briefe. Die Ihrigen <lb/>
+             habe ich alle sehr regelmäßig erhalten.
+          </p>
+          <p>
+             Der einfältige Nuncius ist gestern hier angekommen, um die Zahl <lb/>
+             der hiesigen Müßiggänger zu vermehren. Es sind <emph rend="underlined">jetzt schon</emph> 28 Französische <lb/>
+             Diplomaten in <rs type="person" ref="#plVe">Verona</rs>. Was sollen wir mit all diesem Volk ! <pb facs="#seite4"/>
+             Ich habe mich neulich über das <lb/>
+             Äußere von <rs type="person" ref="#Ch">Chateaubriand</rs> zu honett ausgedrückt. So eben war er bei <lb/>
+             mir; er ist ganz und gar <emph rend="underlined"><choice><orig>bucklicht</orig><reg>bucklig</reg></choice></emph>, <lb/>
+             sieht aus, wie ein gewisser <rs type="person">Sodmaniczky</rs> aus <rs type="place" ref="#plHu">Ungarn</rs>, der <lb/>
+             <choice><orig>Liquidations-Commißär</orig><reg>Liquidations-Komissar</reg></choice> in <rs type="place" ref="#plPa">Paris</rs> <lb/>
+             war. - Von dern andern Seite <lb/>
+             gestehe ich aber, <choice><orig>daß</orig><reg>dass</reg></choice> ich wieder <lb/>
+             sehr mit ihm zufrieden war. Das <lb/>
+             seltsamste ist immer, <choice><orig>daß</orig><reg>dass</reg></choice> er, - <lb/>
+             ich weiß nicht wie und warum - <lb/>
+             <emph rend="underlined">mir</emph> die Cour macht, anstatt <choice><orig>daß</orig><reg>dass</reg></choice> <lb/>
+             ich geglaubt hätte, vor <emph rend="underlined">ihm</emph> in <lb/>
+             <choice><orig>Anbethung</orig><reg>Anbetung</reg></choice> zerfließen zu <choice><orig>müßen</orig><reg>müssen</reg></choice>. <lb/>
+             Er war mit einem jungen <rs type="person" ref="#Gr">Duc <lb/>
+             de Ranzau</rs> bei mir, den er <lb/>
+             offenbar mit Fleiß mitgebracht hatte. <lb/>
+             Er ist schlau und <choice><orig>calculirend</orig><reg>kalkulierend</reg></choice>, - <lb/>
+             gar micht enthusiastisch, auch im <lb/>
+             gewöhnlichen Gespräch gar nicht <lb/>
+             eloquent. <rs type="person" ref="#Pb">Pozzo</rs> stößt in einer <lb/>
+             halben Stunde mehr große Pracht-<lb/>
+             Phrasen aus, als <rs type="person" ref="#Ch">Chateaubriand</rs> <lb/>
+             in 8 Tagen. - 
+           </p>
+        </epigraph>
+      </body>
+  </text>
+</TEI>

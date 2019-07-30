@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader type="text">
+      <fileDesc xml:id="LETTER_GENTZ_4403">
+         <titleStmt>
+            <title>Salomon Markus Levy an Friedrich Vieweg, 21. Juli 1796</title>
+            <editor xml:id="edAG">Andreas Gálffy</editor>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <name>Forschungsstelle "Universitätssammlung Friedrich von Gentz"</name>
+               <link target="http://gentz-digital.ub.uni-koeln.de http://www.ub.uni-koeln.de/cdm/singleitem/collection/gentz/id/4402/"/>
+            </publisher>
+            <pubPlace>Cologne</pubPlace>
+            <idno type="Gentz-Edition-Number" n="4403"/>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <country>Germany</country>
+                  <settlement>Wiesbaden</settlement>
+                  <institution>Vieweg-Verlagsarchiv</institution>
+                  <repository>Briefsammlung 311 G: Gentz-Briefe</repository>
+                  <idno>Nr. zu Gentz 56</idno>
+               </msIdentifier>
+               <msContents>
+                  <summary>
+                     1000 Reichstaler Courant zu 5 Prozent Zinsen und 350 Reichstaler Courant fünfjährige Zinsen von 7000 
+                     Reichstaler soll Vieweg an Levy entrichten.
+                  </summary>
+               </msContents>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Masterarbeit zu Matrikelnummer 5584124</p>
+         </projectDesc>
+      </encodingDesc>
+      <profileDesc>
+         <creation>
+            <date when-iso="1796-07-21">21. Juli 1796</date>
+         </creation>
+        <langUsage>
+           <language ident="d">deutsch</language>
+        </langUsage>
+         <textClass>
+            <keywords scheme="internal"><!-- internal: innerhalb des besagten Briefs -->
+               <term>Billet</term>
+               <term>Salomon Markus Levy</term>
+               <term>Schulden</term>
+            </keywords>
+            <keywords scheme="categorisation"><!-- Sinnabschnittseinteilung - relevant für den Fahrkartenautomaten! -->
+               <term xml:id="gprl">Gentz - p(r)ekuniäre Lage</term>
+            </keywords>
+         </textClass>
+         <textDesc>
+            <channel>manuscript</channel>
+            <constitution type="single"/>
+            <derivation type="original"/>
+            <domain type="private"/>
+            <factuality type="fact"/>
+            <interaction type="partial"/>
+            <preparedness type="prepared"/>
+            <purpose type="inform"/>
+         </textDesc>
+         <particDesc>
+            <listPerson>
+               <!-- Sender und Adressat -->
+               <person role="sender" xml:id="SML">
+                  <persName>
+                     <ref/>
+                     <forename>Salomon Markus</forename>
+                     <surname>Levy</surname>
+                  </persName>
+               </person>
+               <person role="receiver" xml:id="FVW">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/119049546"/>
+                     <forename>Friedrich</forename>
+                     <surname>Vieweg</surname>
+                  </persName>
+               </person>
+               <!-- erwähnte Personen -->
+               <person role="named" xml:id="JFG">
+                  <persName>
+                     <ref/>
+                     <forename>Johann Friedrich</forename>
+                     <surname>Gentze</surname>
+                  </persName>
+               </person>
+               <person role="named" xml:id="Gen">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/118538489"/>
+                     <forename>Friedrich von</forename>
+                     <surname>Gentz</surname>
+                  </persName>
+               </person>
+            </listPerson>
+         </particDesc>
+         <settingDesc>
+            <listPlace>
+               <!-- Start- und Zielort -->
+               <place type="sender" xml:id="plBe">
+                  <country>
+                     <ref target="http://d-nb.info/gnd/4047194-9"/>
+                     <placeName>Preußen</placeName>
+                  </country>
+                  <settlement>
+                     <ref target="http://d-nb.info/gnd/4005728-8"/>
+                     <placeName>Berlin</placeName>
+                  </settlement>
+               </place>
+               <!-- erwähnte Orte -->
+            </listPlace>
+         </settingDesc>
+      </profileDesc>
+      <revisionDesc>
+         <change xml:id="init" when-iso="2018-02-19" who="#edAG">Erstauszeichnung und Normierung des Dokumentes im Rahmen der Masterarbeit der Matrikelnummer 5584124</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div n="1" corresp="#gprl">
+            <p>
+               Der <rs type="person" ref="#JFG">Herr General-Müntz-Director Gentz</rs> Wohlgebohren haben Uns angezeigt daß 
+               Ew. Wohlgebohren die Affairen seines <rs type="person" ref="#Gen">Sohnes H. Kriegs-Rath</rs> reguliren und daß wir 
+               von Ew. Wohlgebohren, Erstens, die Zahlung seines Wechsels von P 1000 Court nebst 1 jährige Zinsen à 5 pC. erhalten 
+               werden, und Zweytens noch P 350 CT. für 5 jährige Zinsen von p 7000.
+            </p>
+            <p>
+               Wir bitten die baldige Einsendung besagter beyder Posten, indem H. P. M. Directorium der Rückgabe des Wechsels von p 
+               1000 praessiren.
+            </p>
+            <lg type="signatureBox">
+               <l rend="left">Des</l>
+               <l rend="left">Herrn Vieweg</l>
+               <l rend="left">Wohlgebohren</l><l rend="right">Sal. M<span rend="sup">s</span> Levy W. Erben</l>
+               <l rend="right">d <date when-iso="1796-07-21">21<span rend="sup">ten</span> July</date></l>
+               <l rend="right"><date when-iso="1796-07-21">1796</date>.</l>
+            </lg>
+         </div>
+      </body>
+      <back>
+         <p>
+            An
+            Herrn Vieweg
+            Wohlgebohren.
+         </p>
+      </back>
+      <note xml:id="r4403-1">Seite 4: Adresse</note>
+      <note xml:id="r4403-2">Seite 4: Siegelreste</note>
+   </text>
+</TEI>

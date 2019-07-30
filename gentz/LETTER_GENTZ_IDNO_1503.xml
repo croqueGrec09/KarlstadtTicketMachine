@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc xml:id="LETTER_GENTZ_1503">
+         <titleStmt>
+            <title>Friedrich von Gentz an Heinrich Frölich, 11. Februar 1802</title>
+            <editor xml:id="edAG">Andreas Gálffy</editor>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <name>Forschungsstelle "Universitätssammlung Friedrich von Gentz"</name>
+               <link target="http://gentz-digital.ub.uni-koeln.de http://www.ub.uni-koeln.de/cdm/singleitem/collection/gentz/id/1502/"/>
+            </publisher>
+            <pubPlace>Cologne</pubPlace>
+            <idno type="Gentz-Edition-Number" n="1503"/>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <country>Germany</country>
+                  <settlement>Berlin</settlement>
+                  <institution>Geheimes Staatsarchiv Preußischer Kulturbesitz</institution>
+                  <repository>I. HA Rep 94: Kleine Erwerbungen</repository>
+                  <collection>IV.N.b.2</collection>
+                  <idno>Bl. 33-33v, 36-36v</idno>
+               </msIdentifier>
+               <msContents>
+                  <summary>
+                     Da die Bitte unerhört blieb, so nimmt sich Gentz all seinen Mut zusammen und erinnert Frölich an seine Bitte.
+                  </summary>
+               </msContents>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Masterarbeit zu Matrikelnummer 5584124</p>
+         </projectDesc>
+      </encodingDesc>
+      <profileDesc>
+         <creation>
+            <date when-iso="1802-02-11">11. Februar 1802</date>
+         </creation>
+        <langUsage>
+           <language ident="d">deutsch</language>
+        </langUsage>
+         <textClass>
+            <keywords scheme="internal"><!-- internal: innerhalb des besagten Briefs -->
+               <term>Billet</term>
+               <term>Bettelbrief</term>
+               <term>Schulden</term>
+            </keywords>
+            <keywords scheme="categorisation"><!-- Sinnabschnittseinteilung - relevant für den Fahrkartenautomaten! -->
+               <term xml:id="gprl">Gentz - p(r)ekuniäre Lage</term>
+            </keywords>
+         </textClass>
+         <textDesc>
+            <channel>manuscript</channel>
+            <constitution type="single"/>
+            <derivation type="original"/>
+            <domain type="private"/>
+            <factuality type="fact"/>
+            <interaction type="partial"/>
+            <preparedness type="unprepared"/>
+            <purpose type="inform"/>
+         </textDesc>
+         <particDesc>
+            <listPerson>
+               <!-- Sender und Adressat -->
+               <person role="sender" xml:id="Gen">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/118538489"/>
+                     <forename>Friedrich von</forename>
+                     <surname>Gentz</surname>
+                  </persName>
+               </person>
+               <person role="receiver" xml:id="Fro">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/1073351068"/>
+                     <forename>Heinrich</forename>
+                     <surname>Frölich</surname>
+                  </persName>
+               </person>
+               <!-- erwähnte Personen -->
+            </listPerson>
+         </particDesc>
+         <settingDesc>
+            <listPlace>
+               <!-- Start- und Zielort -->
+               <place type="sender" xml:id="plBe">
+                  <country>
+                     <ref target="http://d-nb.info/gnd/4047194-9"/>
+                     <placeName>Preußen</placeName>
+                  </country>
+                  <settlement>
+                     <ref target="http://d-nb.info/gnd/4005728-8"/>
+                     <placeName>Berlin</placeName>
+                  </settlement>
+               </place>
+               <!-- erwähnte Orte -->
+            </listPlace>
+         </settingDesc>
+      </profileDesc>
+      <revisionDesc>
+         <change xml:id="init" when-iso="2018-03-10" who="#edAG">Erstauszeichnung und Normierung des Dokumentes im Rahmen der Masterarbeit der Matrikelnummer 5584124</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div n="1" corresp="#gprl">
+            <p>
+               Hätten Sie mir meine letzte Bitte geradehin abgeschlagen, so würde ich mich nicht sehr darüber gewundert haben. Unter 
+               den obwaltenden Umständen war sie, ich fühlte es selbst, kühn. Da aber Ihre Freundschaft und Ihr Vertrauen zu mir 
+               noch Lebenskraft genug hatten, um Sie zur Annahme dieser Bitte zu vermögen, da Sie mir diese Annahme bestimmt 
+               zusicherten, so wuchs mir von neuem der Muth. Und da Sie der Mann nicht sind, der seine Versprechungen zurücknimmt, 
+               so habe ich ihn auch, trotz Ihres Stillschweigens und des Dranges meiner Verlegenheit, nicht wieder verloren. Nun 
+               aber muß ich es wagen, Sie noch einmal aufzufordern; die Hoffnung selbst, die Sie mir geben, berechtigt mich 
+               gewißermaßen dazu, weil eben diese Hoffnung, wenn sie nicht erfüllt werden sollte, meine Sache noch schlimmer gemacht 
+               haben würde. Können Sie mir auch nur mit etwas helfen, so thun Sie es bald; einen größern Werth hatte es nie, und 
+               wird es nie wieder haben; denn diese Lage muß enden, wird bald enden, und kehrt niemals zurück. Laßen Sie mich nicht 
+               ohne Antwort: ich bedarf ihrer.
+            </p>
+         </div>
+         <closer>
+            <signed rend="right">Gentz</signed>
+            <dateline rend="right">den <date when-iso="1802-02-11">11 Februar 1802</date></dateline>
+         </closer>
+      </body>
+      <back>
+         <p>
+            An
+            des Herrn Buchhändler Frölich
+            Wohlgebohren.
+         </p>
+      </back>
+      <note xml:id="r1503-1">Adresse auf Seite 4; Siegelabdruck</note>
+   </text>
+</TEI>

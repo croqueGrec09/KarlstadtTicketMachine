@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader type="text">
+      <fileDesc xml:id="LETTER_GENTZ_1377">
+         <titleStmt>
+            <title>Friedrich von Gentz an Friedrich Vieweg, 10. August 1796</title>
+            <editor xml:id="edAG">Andreas Gálffy</editor>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <name>Forschungsstelle "Universitätssammlung Friedrich von Gentz"</name>
+               <link target="http://gentz-digital.ub.uni-koeln.de http://www.ub.uni-koeln.de/cdm/singleitem/collection/gentz/id/1376/"/>
+            </publisher>
+            <pubPlace>Cologne</pubPlace>
+            <idno type="Gentz-Edition-Number" n="1377"/>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <country>Germany</country>
+                  <settlement>Wiesbaden</settlement>
+                  <institution>Vieweg-Verlagsarchiv</institution>
+                  <repository>Briefsammlung 311 G: Gentz-Briefe</repository>
+                  <idno>Nr. 61</idno>
+               </msIdentifier>
+               <msContents>
+                  <summary>
+                     Seelmann sollen bis vor zehn Uhr 150 Reichstaler zugeschickt werden. Gentz gibt den ort durch, wo Seelmann 
+                     wohnt. Neuendorff soll jetzt 50 Reichstaler erhalten; wenn es Vieweg beliebt, soll er zur Beruhigung Gentz' und 
+                     dessen Bruder noch 50 Reichstaler mehr bezahlen.
+                     Im Postscript bittet Gentz Vieweg darum, die Sache mit dem Ring seiner Mutter für sich zu behalten. Gentz 
+                     tadelt Vieweg, dass dieser über ihn klagt; Gentz möchte die Umstände, die zu diesem zerrütteten Verhältnis 
+                     geführt haben, klären und näher beschreiben. Vieweg habe es sehr teuer bezahlt, wenn er jetzt von der  
+                     Freundschaft ablasse.
+                  </summary>
+               </msContents>
+            </msDesc>
+            <listBibl type="letterReferenced">
+               <bibl xml:id="c1377-1" corresp="#LETTER_GENTZ_NNNN">nicht bekannter Brief von Heinrich Gentz an N.N.</bibl>
+               <bibl xml:id="c1377-2" corresp="#LETTER_GENTZ_0543">Friedrich von Gentz an Friedrich Vieweg, 9. August 1796</bibl>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Masterarbeit zu Matrikelnummer 5584124</p>
+         </projectDesc>
+      </encodingDesc>
+      <profileDesc>
+         <creation>
+            <date when-iso="1796-08-10">21. Juli 1796</date>
+         </creation>
+        <langUsage>
+           <language ident="d">deutsch</language>
+        </langUsage>
+         <textClass>
+            <keywords scheme="internal"><!-- internal: innerhalb des besagten Briefs -->
+               <term>Billet</term>
+               <term>Seelmann</term>
+               <term>Schulden</term>
+            </keywords>
+            <keywords scheme="categorisation"><!-- Sinnabschnittseinteilung - relevant für den Fahrkartenautomaten! -->
+               <term xml:id="gprl">Gentz - p(r)ekuniäre Lage</term>
+               <term xml:id="vwf">Vieweg - Freundschaft</term>
+               <term xml:id="vwfe">Vieweg - Feindschaft</term>
+            </keywords>
+         </textClass>
+         <textDesc>
+            <channel>manuscript</channel>
+            <constitution type="single"/>
+            <derivation type="original"/>
+            <domain type="private"/>
+            <factuality type="fact"/>
+            <interaction type="partial"/>
+            <preparedness type="prepared"/>
+            <purpose type="inform"/>
+         </textDesc>
+         <particDesc>
+            <listPerson>
+               <!-- Sender und Adressat -->
+               <person role="sender" xml:id="Gen">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/118538489"/>
+                     <forename>Friedrich von</forename>
+                     <surname>Gentz</surname>
+                  </persName>
+               </person>
+               <person role="receiver" xml:id="FVW">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/119049546"/>
+                     <forename>Friedrich</forename>
+                     <surname>Vieweg</surname>
+                  </persName>
+               </person>
+               <!-- erwähnte Personen -->
+               <person role="named" xml:id="See">
+                  <persName>
+                     <ref/>
+                     <forename/>
+                     <surname>Seelmann</surname>
+                  </persName>
+               </person>
+               <person role="named" xml:id="HGen">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/11900738X"/>
+                     <forename>Heinrich</forename>
+                     <surname>Gentz</surname>
+                  </persName>
+               </person>
+               <person role="named" xml:id="KRk">
+                  <persName>
+                     <ref/>
+                     <forename/>
+                     <surname>Rieck</surname>
+                  </persName>
+               </person>
+               <person role="named" xml:id="Ndf">
+                  <persName>
+                     <ref/>
+                     <forename/>
+                     <surname>Neuendorff</surname>
+                  </persName>
+               </person>
+               <person role="named" xml:id="JWvA">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/118503839"/>
+                     <forename>Johann Wilhelm von</forename>
+                     <surname>Archenholz</surname>
+                  </persName>
+               </person>
+            </listPerson>
+         </particDesc>
+         <settingDesc>
+            <listPlace>
+               <!-- Start- und Zielort -->
+               <place type="sender" xml:id="plBe">
+                  <country>
+                     <ref target="http://d-nb.info/gnd/4047194-9"/>
+                     <placeName>Preußen</placeName>
+                  </country>
+                  <settlement>
+                     <ref target="http://d-nb.info/gnd/4005728-8"/>
+                     <placeName>Berlin</placeName>
+                  </settlement>
+               </place>
+               <!-- erwähnte Orte -->
+            </listPlace>
+         </settingDesc>
+      </profileDesc>
+      <revisionDesc>
+         <change xml:id="init" when-iso="2018-02-19" who="#edAG">Erstauszeichnung und Normierung des Dokumentes im Rahmen der Masterarbeit der Matrikelnummer 5584124</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div n="1" corresp="#gprl">
+            <p>
+               Sie werden aus dem zugleich mit <rs type="citation" ref="#c1377-1">ankommenden Schreiben</rs> 
+               <rs type="person" ref="#HGen">meines Bruders</rs> ersehen, lieber Vieweg, daß er bey den obwaltenden Umständen in 
+               das abgeänderte Arrangement willigt. Ich bitte Sie also gehorsamst, 150 Reichstaler in Gold, an den p 
+               <rs type="person" ref="#See">Seelmann</rs> zu zahlen. Er hat aber ausbedungen, daß es ihm noch vor 10 Uhr zugestellt, 
+               und zwar <emph rend="underlined">geschickt</emph> werden muß, wenn er die Verfügung, die sonst erfolgt wäre, noch 
+               aufheben soll. Ich schlage Ihnen also vor, ob Sie das Geld dem Ueberbringer dieses geben wollen, der in diesem Falle 
+               die Quittung von <rs type="person" ref="#See">Seelmann</rs> gleich an Sie überbringen wird. Wollen Sie aber lieber 
+               einen Ihrer Leute damit belästigen, so melde ich Ihnen daß <rs type="person" ref="#See">Seelmann</rs> in der 
+               <emph rend="underlined">Zimmerstraße</emph>, zwischen Markgrafen- und Jerusalemstraße, im Hause des 
+               <rs type="person" ref="#KRk">Koch Rieck</rs> wohnt. Nur bitte ich Sie in diesem sowohl als in jenem Fall recht 
+               inständigst, dafür zu sorgen, daß er das Geld vor 10 Uhr erhalte, weil er um Punkt 10 ausgeht, und nachher es weder 
+               annehmen, noch etwas bestellen könnte.
+            </p>
+            <p>
+               Was nun <rs type="person" ref="#Ndf">Neuendorff</rs> betrift, so bitte ich Sie, ihm zuvörderst die 50 Reichstaler zu 
+               bezahlen, die auch bey dem jetzigen Arrangement von den für ihn bestimmten 200 noch übrig bleiben: können Sie ihm, 
+               sollte es auch mit Anwendung dessen geschehen, was für <rs type="person" ref="#JWvA">Archenholtz</rs> p bestimmt war, 
+               noch 50 Reichstaler mehr geben, so daß er nur noch 100 zu fordern behielte, so würde es mir zur Beruhigung 
+               <rs type="person" ref="#HGen">meines Bruders</rs> sehr lieb seyn. Doch stelle ich das lediglich anheim.
+            </p>
+         </div>
+         <closer>
+            <signed rend="right">Gentz</signed>
+         </closer>
+         <postscript corresp="#vwf">
+            <p>
+               Ich muß Sie hier noch einmal schriftlich und recht ernstlich bitten, die 
+               <ref target="#r1377-1">Sache wegen des Ringes</ref> meiner Mutter im engsten Verstande 
+               <emph rend="underlined">unter uns</emph> bleiben zu laßen. Es würde <emph rend="underlined">sie selbst</emph> im 
+               höchsten Grade kränken, wenn davon irgend einer etwas erführe.
+            </p>
+         </postscript>
+         <postscript corresp="#vwfe">
+            <p>
+               Ich wollte Ihnen noch etwas in puncto einer mir höchst schmerzhaften Klage sagen, die Sie, wie ich 
+               <date when-iso="1796-08-09">gestern</date> von <rs type="person" ref="#HGen">meinem Bruder</rs> hörte, übermich 
+               geführt haben. Ich behalte mir aber vor über das ganze, durch die verhaßten Umstände, nicht durch meine Schuld, und 
+               zu meiner nicht geringen Kränkung, seit einiger Zeit so sehr zerrüttete Verhältniß zwischen uns nächstens 
+               ausführlich zu schreiben. Sobald Sie aufhören mich wie Ihren <emph rend="underlined">Freund</emph>, im wahren Sinne 
+               des Worts, zu behandeln, so haben Sie mich das, was Sie für mich thaten, <emph rend="underlined">zu</emph> theuer 
+               bezahlen laßen. Das soll das Thema seyn. Ich weiß daß Ihnen an der Ausführung wenig gelegen ist, und das gehört eben 
+               mit zu meinem Unglück; aber ich bin sie mir selbst schuldig, wenn Sie sie auch, wie so manche andre Ergießung meines 
+               Herzens, als ein leeres Aktenstück in den Schutt werfen sollten.
+            </p>
+         </postscript>
+      </body>
+      <note resp="#edAG" xml:id="r1377-1">Vgl. den <rs type="citation" ref="#c1377-2">Brief vom 9. August 1796</rs></note>
+   </text>
+</TEI>

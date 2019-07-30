@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc xml:id="LETTER_GENTZ_2731">
+         <titleStmt>
+            <title>Friedrich von Gentz an Adam Müller, 29. Januar 1802</title>
+            <editor xml:id="edAG">Andreas Gálffy</editor>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <name>Forschungsstelle "Universitätssammlung Friedrich von Gentz"</name>
+               <link target="http://gentz-digital.ub.uni-koeln.de http://www.ub.uni-koeln.de/cdm/singleitem/collection/gentz/id/2730/"/>
+            </publisher>
+            <pubPlace>Cologne</pubPlace>
+            <idno type="Gentz-Edition-Number" n="2731"/>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <country>unknown</country>
+                  <idno>not retraced</idno>
+               </msIdentifier>
+               <msContents>
+                  <summary>
+                     Der Brief, den er geschrieben hatte, wurde von ihm hochgelobt. Müller darf ihn ruhigen Gewissens abgehen 
+                     lassen; dass er gelesen werden wird, stimmt Gentz froh.
+                  </summary>
+               </msContents>
+            </msDesc>
+            <listBibl type="preprints">
+               <biblStruct>
+                  <monogr>
+                     <editor>
+                        <persName>
+                           <ref />
+                           <forename>Cäcilie von</forename>
+                           <surname>Endlicher</surname>
+                        </persName>
+                     </editor>
+                     <title>Briefwechsel zwischen Friedrich Gentz und Adam Heinrich Müller. 1800-1829</title>
+                     <imprint>
+                        <pubPlace>Stuttgart</pubPlace>
+                        <date>1857</date>
+                     </imprint>
+                     <biblScope unit="page" from="2" to="2">
+                        Nr. 3
+                     </biblScope>
+                  </monogr>
+               </biblStruct>
+               <biblStruct>
+                  <monogr>
+                     <editor>
+                        <persName>
+                           <ref target="http://d-nb.info/gnd/11609673X"/>
+                           <forename>Jakob</forename>
+                           <surname>Baxa</surname>
+                        </persName>
+                     </editor>
+                     <title>Adam Müllers Lebenszeugnisse. 2 Bde.</title>
+                     <imprint>
+                        <pubPlace>München u.a.</pubPlace>
+                        <date>1966</date>
+                     </imprint>
+                     <biblScope unit="volume" n="2">
+                        I
+                     </biblScope>
+                     <biblScope unit="page" from="26" to="26">
+                        Nr. 14
+                     </biblScope>
+                  </monogr>
+               </biblStruct>
+            </listBibl>
+            <listBibl type="letterReferenced">
+               <bibl xml:id="c2731-1" corresp="#LETTER_GENTZ_NNNN">nicht bekannter Brief von Adam Müller an N. N.</bibl>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Masterarbeit zu Matrikelnummer 5584124</p>
+         </projectDesc>
+      </encodingDesc>
+      <profileDesc>
+         <creation>
+            <date when-iso="1802-01-29">29. Januar 1802</date>
+         </creation>
+        <langUsage>
+           <language ident="d">deutsch</language>
+        </langUsage>
+         <textClass>
+            <keywords scheme="internal"><!-- internal: innerhalb des besagten Briefs -->
+               <term>Billet</term>
+               <term>Brief</term>
+               <term>Lob</term>
+               <term>Sigismund</term>
+            </keywords>
+            <keywords scheme="categorisation"><!-- Sinnabschnittseinteilung - relevant für den Fahrkartenautomaten! -->
+               <term xml:id="vam">Verhältnis Adam Müller</term>
+            </keywords>
+         </textClass>
+         <textDesc>
+            <channel>manuscript</channel>
+            <constitution type="single"/>
+            <derivation type="original"/>
+            <domain type="private"/>
+            <factuality type="fact"/>
+            <interaction type="partial"/>
+            <preparedness type="unprepared"/>
+            <purpose type="inform"/>
+         </textDesc>
+         <particDesc>
+            <listPerson>
+               <!-- Sender und Adressat -->
+               <person role="sender" xml:id="Gen">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/118538489"/>
+                     <forename>Friedrich von</forename>
+                     <surname>Gentz</surname>
+                  </persName>
+               </person>
+               <person role="receiver" xml:id="AHM">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/118584790"/>
+                     <forename>Adam Heinrich</forename>
+                     <surname>Müller</surname>
+                  </persName>
+               </person>
+               <!-- erwähnte Personen -->
+               <person role="named" xml:id="Sgsm">
+                  <persName>
+                     <ref />
+                     <forename>Sigismund</forename>
+                     <surname>Kurnatoswki</surname>
+                  </persName>
+               </person>
+            </listPerson>
+         </particDesc>
+         <settingDesc>
+            <listPlace>
+               <!-- Start- und Zielort -->
+               <place type="sender" xml:id="plBe">
+                  <country>
+                     <ref target="http://d-nb.info/gnd/4047194-9"/>
+                     <placeName>Preußen</placeName>
+                  </country>
+                  <settlement>
+                     <ref target="http://d-nb.info/gnd/4005728-8"/>
+                     <placeName>Berlin</placeName>
+                  </settlement>
+               </place>
+               <!-- erwähnte Orte -->
+            </listPlace>
+         </settingDesc>
+      </profileDesc>
+      <revisionDesc>
+         <change xml:id="init" when-iso="2018-03-10" who="#edAG">Erstauszeichnung und Normierung des Dokumentes im Rahmen der Masterarbeit der Matrikelnummer 5584124</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div n="1" corresp="#vam">
+            <p>
+               Ich finde <rs type="citation" ref="#c2731-1">Ihren Brief</rs> vortrefflich, von mehr als einer Seite über alles Lob 
+               erhaben. <rs type="person" ref="#Sgsm">Sigismund</rs> sagte neulich, er wollte ihn copiren. Sorgen Sie ja dafür, daß 
+               dies nicht unterbleibe; ich will ihn dann abermals lesen, und Ihnen meine Meinung bestimmter und detaillirter sagen. 
+               Aber lassen Sie ihn auf alle Fälle <date when-iso="1802-01-30">morgen</date> abgehen, und so, wie Sie es sich 
+               vorgesetzt hatten. Die Post und das Kabinetsministerium werden ihn freilich lesen, daran ist auch nicht der kleinste 
+               Zweifel; aber gerade darüber bin ich herzlich froh.
+            </p>
+            <p>
+               Gute Nacht, lieber Freund.
+            </p>
+         </div>
+         <closer>
+            <dateline rend="left"><date when-iso="1802-01-29">Freitag 29</date>.</dateline>
+            <signed rend="right">G.</signed>
+         </closer>
+      </body>
+   </text>
+</TEI>

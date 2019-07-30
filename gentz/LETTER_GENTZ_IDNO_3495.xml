@@ -1,0 +1,227 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc xml:id="LETTER_GENTZ_3495">
+         <titleStmt>
+            <title>Friedrich von Gentz an Karl Gustav von Brinckmann, 30. September 1801</title>
+            <editor xml:id="edAG">Andreas Gálffy</editor>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <name>Forschungsstelle "Universitätssammlung Friedrich von Gentz"</name>
+               <link target="http://gentz-digital.ub.uni-koeln.de http://www.ub.uni-koeln.de/cdm/singleitem/collection/gentz/id/3494/"/>
+            </publisher>
+            <pubPlace>Cologne</pubPlace>
+            <idno type="Gentz-Edition-Number" n="3495"/>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <country>Sweden</country>
+                  <settlement>Trolle-Ljungby</settlement>
+                  <institution>Archiv des Grafen Wachtmeister</institution>
+                  <repository>Nachlaß Brinckmann, Ausländ. Briefwechsel, Gentz an Brinckmann</repository>
+                  <idno>G 3</idno>
+               </msIdentifier>
+               <msContents>
+                  <summary>
+                     Für zehn Friedrichsd'or Welt-Geld bietet Gentz folgende Bücher an: erstens die Memoirs of Walpole, zweitens die 
+                     Anecdotes of distinguished persons, drittens Public Character und viertens The Works of Shipley.
+                  </summary>
+               </msContents>
+            </msDesc>
+            <listBibl type="alludedWorks">
+               <bibl xml:id="a3495-1" corresp="#LETTER_GENTZ_NNNN">nicht näher benanntes Werk namens "Public Holiday". Außer "Nicht von Holiday" keine Autorenangabe und somit auch keine Leseprobe</bibl>
+            </listBibl>
+            <listBibl type="defRep">
+               <biblStruct xml:id="p3495-1" corresp="GBk-0069">
+                  <monogr>
+                     <author>
+                        <persName>
+                           <ref target="http://d-nb.info/gnd/117710873"/>
+                           <forename>William</forename>
+                           <surname>Coxe</surname>
+                        </persName>
+                     </author>
+                     <title>Memoirs Of The Life And Administration Of Sir Robert Walpole, Earl Of Orford</title>
+                     <imprint>
+                        <pubPlace>London</pubPlace>
+                        <publisher>T. Cadell jun., W. Davies</publisher>
+                        <date>1798</date>
+                     </imprint>
+                     <biblScope unit="volume" n="1">
+                        Volume The First
+                     </biblScope>
+                  </monogr>
+                  <ptr target="https://books.google.de/books?id=fbY_AAAAcAAJ"/>
+               </biblStruct>
+               <biblStruct xml:id="p3495-2" corresp="Arc-0013">
+                  <monogr>
+                     <title>Anecdotes of some distinguished persons</title>
+                     <imprint>
+                        <pubPlace>London</pubPlace>
+                        <publisher>T. Cadell jun., W. Davies</publisher>
+                        <date>1795</date>
+                     </imprint>
+                     <biblScope unit="volume" n="2">
+                        Vol. II.
+                     </biblScope>
+                  </monogr>
+                  <ptr target="https://archive.org/details/anecdotessomedi02sewagoog"/>
+               </biblStruct>
+               <biblStruct xml:id="p3495-3" corresp="HtT-0004">
+                  <monogr>
+                     <author>
+                        <persName>
+                           <ref target="http://d-nb.info/gnd/140236562"/>
+                           <forename>Jonathan</forename>
+                           <surname>Shipley</surname>
+                        </persName>
+                     </author>
+                     <title>The works of the Right Reverend Jonathen Shipley, D. D., Lord Bishop of St. Asaph</title>
+                     <imprint>
+                        <pubPlace>London</pubPlace>
+                        <publisher>T. Cadell</publisher>
+                        <date>1792</date>
+                     </imprint>
+                  </monogr>
+                  <ptr target="https://hdl.handle.net/2027/yale.39002085615384"/>
+               </biblStruct>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Masterarbeit zu Matrikelnummer 5584124</p>
+         </projectDesc>
+      </encodingDesc>
+      <profileDesc>
+         <creation>
+            <date when-iso="1801-09-30">30. September 1801</date>
+         </creation>
+        <langUsage>
+           <language ident="d">deutsch</language>
+        </langUsage>
+         <textClass>
+            <keywords scheme="internal"><!-- internal: innerhalb des besagten Briefs -->
+               <term>Billet</term>
+               <term>Bibliothek</term>
+               <term>Bücherhandel</term>
+            </keywords>
+            <keywords scheme="categorisation"><!-- Sinnabschnittseinteilung - relevant für den Fahrkartenautomaten! -->
+               <term xml:id="bibl">Bibliothek</term>
+            </keywords>
+         </textClass>
+         <textDesc>
+            <channel>manuscript</channel>
+            <constitution type="single"/>
+            <derivation type="original"/>
+            <domain type="private"/>
+            <factuality type="fact"/>
+            <interaction type="partial"/>
+            <preparedness type="prepared"/>
+            <purpose type="inform"/>
+         </textDesc>
+         <particDesc>
+            <listPerson>
+               <!-- Sender und Adressat -->
+               <person role="sender" xml:id="Gen">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/118538489"/>
+                     <forename>Friedrich von</forename>
+                     <surname>Gentz</surname>
+                  </persName>
+               </person>
+               <person role="receiver" xml:id="KGvB">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/116519770"/>
+                     <forename>Carl Gustav von</forename>
+                     <surname>Brinckmann</surname>
+                  </persName>
+               </person>
+               <!-- erwähnte Personen -->
+               <person role="named" xml:id="LFst">
+                  <persName>
+                     <ref />
+                     <forename/>
+                     <surname>Fanstimoe</surname>
+                     <roleName type="address">Lady</roleName>
+                  </persName>
+               </person>
+               <person role="named" xml:id="Hld">
+                  <persName>
+                     <ref />
+                     <forename/>
+                     <surname>Holiday</surname>
+                  </persName>
+               </person>
+               <person role="named" xml:id="JMc">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/119553511"/>
+                     <forename>James</forename>
+                     <surname>Mackintosh</surname>
+                  </persName>
+               </person>
+               <person role="named" xml:id="LIgn">
+                  <persName>
+                     <ref />
+                     <forename>Louise</forename>
+                     <surname>Ignee</surname>
+                  </persName>
+               </person>
+            </listPerson>
+         </particDesc>
+         <settingDesc>
+            <listPlace>
+               <!-- Start- und Zielort -->
+               <place type="sender" xml:id="plBe">
+                  <country>
+                     <ref target="http://d-nb.info/gnd/4047194-9"/>
+                     <placeName>Preußen</placeName>
+                  </country>
+                  <settlement>
+                     <ref target="http://d-nb.info/gnd/4005728-8"/>
+                     <placeName>Berlin</placeName>
+                  </settlement>
+               </place>
+               <!-- erwähnte Orte -->
+            </listPlace>
+         </settingDesc>
+      </profileDesc>
+      <revisionDesc>
+         <change xml:id="init" when-iso="2018-03-08" who="#edAG">Erstauszeichnung und Normierung des Dokumentes im Rahmen der Masterarbeit der Matrikelnummer 5584124</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div n="1" corresp="#bibl">
+            <p>
+               Ich werde Ihnen jetzt eine Proposition machen, die Sie Selbst in Erstaunen setzen wird. Sie sollen von mir haben
+            </p>
+            <lg>
+               <l>1. <rs type="citation" ref="#p3495-1">Memoirs of Walpole</rs> 3 Bände in 4<span rend="sup">to</span> wovon hier der 1<span rend="sup">te</span>.</l>
+               <l>2. <rs type="citation" ref="#p3495-2">Anecdotes of distinguished persons</rs> 4 Bände, wovon hier der 2<span rend="sup">te</span>. Lesen Sie nur <del rend="stroked">xxx</del> (im <emph rend="underlined">Ernst</emph>!) page 63 den einzigen Artikel von <rs type="person" ref="#LFst">Lady Fanstimoe</rs>, und dies Buch wird Sie entzücken.</l>
+               <l>3. <rs type="citation" ref="#a3495-1">Public Character</rs>. <emph rend="underlined">Nicht</emph> von <rs type="person" ref="#Hld">Holiday</rs>. 2 Bände.</l>
+               <l>4. <rs type="citation" ref="#p3495-3">The Works of <emph rend="underlined">Shipley</emph></rs>, den <rs type="person" ref="#JMc"><emph rend="underlined">Makintosh</emph></rs> den ersten neuern Prosaisten der Engländer nennt; in 2 Bänden, die bei <rs type="person" ref="#LIgn">Haussmann</rs> <emph rend="underlined">sehr sicher</emph> zu haben sind.</l>
+            </lg>
+            <p>
+               Für das alles fordre ich 10 Friedrichs dor <emph rend="underlined">Welt-Geld</emph>. Wenn Sie mir diese 
+               <emph rend="underlined">noch heute</emph> versprechen, und bis <pb/> zum <date when-iso="1801-10-02">Freitag</date> 
+               auszahlen wollen, so haben Sie den ersten Bücherkauf gemacht, der Ihnen je zu Theil wurde. Kostet mich der 
+               <rs type="citation" ref="#p3495-1"><emph rend="underlined">Walpole</emph></rs> allein nicht 6 Friedrichs d'or - so 
+               nennen Sie mich, wie Sie wollen.
+            </p>
+            <p>
+               Antwort erbitte mir bald
+            </p>
+         </div>
+         <closer>
+            <signed rend="right">Gentz.</signed>
+            <dateline rend="right">d:<date when-iso="1801-09-30">30 7br. 1801</date>.</dateline>
+         </closer>
+      </body>
+   </text>
+</TEI>

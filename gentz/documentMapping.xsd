@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- schema for letter-category-place mapping file -->
+<!-- initially developed for city X.b Karlstadt, generalisation is intended -->
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified">
+    <!-- root element -->
+    <xs:element name="documentMapping" type="documentMapping"/>
+    <!-- complex type declarations -->
+    <!-- root element type -->
+    <xs:complexType name="documentMapping">
+        <xs:sequence>
+            <xs:element name="termRef" type="termRef" maxOccurs="unbounded"/>
+        </xs:sequence>
+        <xs:attribute name="idPrefix" type="xs:NCName" use="required"/>
+    </xs:complexType>
+    <xs:complexType name="termRef">
+        <xs:sequence>
+            <xs:element name="value" type="xs:int" maxOccurs="unbounded"/>
+        </xs:sequence>
+        <xs:attribute name="key" type="xs:NCName" use="required"/>
+    </xs:complexType>
+</xs:schema>

@@ -1,0 +1,239 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader type="text">
+      <fileDesc xml:id="LETTER_GENTZ_3129">
+         <titleStmt>
+            <title>Friedrich von Gentz an Karl Gustav von Brinckmann, 13. November 1792A</title>
+            <editor xml:id="edAG">Andreas Gálffy</editor>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <name>Forschungsstelle "Universitätssammlung Friedrich von Gentz"</name>
+               <link target="http://gentz-digital.ub.uni-koeln.de http://www.ub.uni-koeln.de/cdm/singleitem/collection/gentz/id/3128/"/>
+            </publisher>
+            <pubPlace>Cologne</pubPlace>
+            <idno type="Gentz-Edition-Number" n="3129"/>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <country>Sweden</country>
+                  <settlement>Trolle-Ljungby</settlement>
+                  <institution>Archiv des Grafen Wachtmeister</institution>
+                  <repository>Nachlaß Brinckmann, Ausländ. Briefwechsel, Gentz an Brinckmann</repository>
+                  <idno>G 3</idno>
+               </msIdentifier>
+               <msContents>
+                  <summary>
+                     Die Charlottenburger Angelegenheit veranlasste Gentz erneut dazu, an Brinckmann zu schreiben. Er versichert 
+                     seine Achtung gegenüber Brinckmann und bittet um Nachsicht für seine Sendung und seinen Unmut darüber, als 
+                     Gentz die Neuigkeit vernahm. Gentz erläutert seine Gefühle, die er dabei hatte, als Begründung seines Unmutes. 
+                     Er beschließt den Brief mit dem Wunsch, nie mehr über die Sache zu reden und die Gefühle der Freundschaft 
+                     fortfahren zu lassen.
+                  </summary>
+               </msContents>
+            </msDesc>
+            <listBibl type="preprints">
+               <biblStruct>
+                  <monogr>
+                     <editor>
+                        <persName>
+                           <ref target="http://d-nb.info/gnd/130953075"/>
+                           <forename>Friedrich Carl</forename>
+                           <surname>Wittichen</surname>
+                        </persName>
+                        <persName>
+                           <ref/> <!-- kein GND-Eintrag -->
+                           <forename>Ernst</forename>
+                           <surname>Salzer</surname>
+                        </persName>
+                     </editor>
+                     <title>Briefe von und an Friedrich von Gentz. 4 Bde.</title>
+                     <imprint>
+                        <publisher>Oldenbourg</publisher>
+                        <pubPlace>München, Berlin</pubPlace>
+                        <date>1909-1913</date>
+                     </imprint>
+                     <biblScope unit="volume" n="2">
+                        II
+                     </biblScope>
+                     <biblScope unit="page" from="33" to="35">
+                        Nr. 21
+                     </biblScope>
+                  </monogr>
+               </biblStruct>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Masterarbeit zu Matrikelnummer 5584124</p>
+         </projectDesc>
+      </encodingDesc>
+      <profileDesc>
+         <creation>
+            <date when-iso="1792-11-13">13. November 1792</date>
+         </creation>
+        <langUsage>
+           <language ident="d">deutsch</language>
+        </langUsage>
+         <textClass>
+            <keywords scheme="internal"><!-- internal: innerhalb des besagten Briefs -->
+               <term>Brief</term>
+               <term>Charlottenburg</term>
+               <term>Peinlichkeit</term>
+            </keywords>
+            <keywords scheme="categorisation"><!-- Sinnabschnittseinteilung - relevant für den Fahrkartenautomaten! -->
+               <term xml:id="cba">Charlottenburger Angelegenheit</term>
+               <term xml:id="vkgvb">Verhältnis Karl Gustav von Brinckmann</term>
+            </keywords>
+         </textClass>
+         <textDesc>
+            <channel>manuscript</channel>
+            <constitution type="single"/>
+            <derivation type="original"/>
+            <domain type="private"/>
+            <factuality type="fact"/>
+            <interaction type="partial"/>
+            <preparedness type="unprepared"/>
+            <purpose type="inform"/>
+         </textDesc>
+         <particDesc>
+            <listPerson>
+               <!-- Sender und Adressat -->
+               <person role="sender" xml:id="Gen">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/118538489"/>
+                     <forename>Friedrich von</forename>
+                     <surname>Gentz</surname>
+                  </persName>
+               </person>
+               <person role="receiver" xml:id="KGvB">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/116519770"/>
+                     <forename>Carl Gustav von</forename>
+                     <surname>Brinckmann</surname>
+                  </persName>
+               </person>
+               <!-- erwähnte Personen -->
+            </listPerson>
+         </particDesc>
+         <settingDesc>
+            <listPlace>
+               <!-- Start- und Zielort -->
+               <place type="sender" xml:id="plBe">
+                  <country>
+                     <ref target="http://d-nb.info/gnd/4047194-9"/>
+                     <placeName>Preußen</placeName>
+                  </country>
+                  <settlement>
+                     <ref target="http://d-nb.info/gnd/4005728-8"/>
+                     <placeName>Berlin</placeName>
+                  </settlement>
+               </place>
+               <!-- erwähnte Orte -->
+               <place type="named" xml:id="plCb">
+                  <country>
+                     <ref target="http://d-nb.info/gnd/4047194-9"/>
+                     <placeName>Preußen</placeName>
+                  </country>
+                  <settlement>
+                     <ref target="http://d-nb.info/gnd/4065382-1"/>
+                     <placeName>Charlottenburg</placeName>
+                  </settlement>
+               </place>
+            </listPlace>
+         </settingDesc>
+      </profileDesc>
+      <revisionDesc>
+         <change xml:id="init" when-iso="2018-02-12" who="#edAG">Erstauszeichnung und Normierung des Dokumentes im Rahmen der Masterarbeit der Matrikelnummer 5584124</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>     
+      <body>
+         <opener resp="#KGvB">
+            <dateline rend="right"><date when-iso="1792-11-13">13. Novbr 1792</date>.</dateline>
+         </opener>
+         <div n="1" corresp="#cba">
+            <p>
+               Ich kan es schlechterdings nicht über mich erhalten, mein Freund, nicht noch einmahl mit Ihnen über eine Sache zu 
+               sprechen, die einen tiefen Eindruck auf mich gemacht hat, die mich der Gefahr aussetzte, einen Bruch 
+               <add place="above">in</add> unsrer Freundschaft zu erleben, und die ich noch jetzt - ich kan es nicht läugnen - um 
+               einen höhern Preis, als Sie denken können, ungeschehen machen möchte.
+            </p>
+            <p>
+               Ich habe von allen Maximen die ich mir je vorschrieb, keine so unwandelbar beobachtet, als die: ohne die äußerste 
+               Noth meine Freunde nie zu Vertrauten meiner Widerwärtigkeiten zu machen. Dies, mein lieber Brinkmann und nichts als 
+               dies, ist der alleinige Aufschluß über mein ganzes Betragen gegen Sie. Es war <del rend="stroked">mir</del> einer 
+               der wohlthätigsten Umstände meines Verhältnisses mit Ihnen, daß Sie bloß der Freund meiner Freuden waren, daß Sie - 
+               wenigstens täuschte ich mich mit der Einbildung - bloß die angenehme Seite meines Schicksals kannten. Es wäre die 
+               unverzeihlichste Thorheit gewesen, die ich nach meinem Gefühl und nach meinen Principien begehen konnte, <pb/> wenn 
+               ich Sie in die Geheimnisse meiner Leiden eingeweiht, und zum Mitverschwornen meiner Henker freywillig erkohren hätte. 
+               Können Sie es mir verdenken, Freund, daß ich mich danach sehnte, wenigstens <emph rend="underlined">einen</emph> 
+               Freund zu behalten (von den entfernten rede ich nun nicht) dessen Anblick <emph rend="underlined">reines</emph> 
+               Vergnügen in mir erweckte, aus dessen Munde ich sicher war, kein trübes oder kränkendes Wort zu hören !
+            </p>
+            <p>
+               Von diesem verzeihlichen Gesichtspunkt ging ich aus, als ich es mir zum unverletzlichen Vorsatz machte, über die 
+               bewußte Sache <emph rend="underlined">nie</emph> mit Ihnen ausführlich zu sprechen. Ich mußte Sie, um diesem Vorsatz 
+               treu zu bleiben, freylich einigemahl geradezu belügen; aber der Endzweck, den ich dabey hatte (und über den 
+               <emph rend="underlined">Sie</emph> mir mit Grunde keine Vorwürfe machen können) schien mir so überwiegend gut, daß 
+               ich mich lieber hiezu, als ihn aufzugeben, entschloß.
+            </p>
+            <p>
+               Hätte ich ahnden können, was jetzt geschehen ist, so wäre es höchst unpolitisch gewesen, so zu handeln. Jetzt habe 
+               ich mir freylich durch mein Betragen gegen Sie unendlichen Schaden gethan: aber <add place="above">dies</add> 
+               abgerechnet, <pb/> (und wie konnte ich hierauf calculiren) habe ich mich eigentlich 
+               <emph rend="underlined">gegen Sie</emph>, durch jenes Betragen vergangen ?
+            </p>
+            <p>
+               So weit von mir. Nun ein Wort noch von Ihnen. Das mußten Sie doch auf jeden Fall voraussehen, daß Ihr Entschluß, 
+               nach <rs type="place" ref="#plCb">Charlottenburg</rs> zu gehen, ein <emph rend="underlined">gefährlicher</emph> 
+               Entschluß war ? - Eben darum, weil Sie die Sache eigentlich gar nicht kannten, war es unendlich gewagt, sich darein 
+               einzulaßen ! Wer bürgte Ihnen dafür, daß Sie mich nicht durch jedes Wort, was Sie redeten, mit der besten Absicht 
+               aufs grausamste verrathen <del rend="stroked">konnten</del> würden ? Wer bürgte Ihnen dafür, daß Sie nicht durch 
+               eine einzige Aeusserung auf einem Terrain welches Sie so schlechthin nicht kannten, den Rest meiner Glückseeligkeit 
+               in die Luft sprengten ? - Daß Sie Sich <emph rend="underlined">dem</emph> aussetzten, daß Sie Sich (bey der Reinheit 
+               und Redlichkeit Ihrer Gesinungen, die ich gerade so verehre, als ich Ihre edle und aufgeklärte Freundschaft 
+               uneingeschränkt schätze) in die Gefahr begaben, nicht allein unklug, sondern in gewisser Rücksicht sogar unmoralisch 
+               zu handeln, - das war es, was ich undelikat in Ihrem Verfahren nannte: <pb/> und ich gestehe es Ihnen von diesem 
+               Urtheil werde ich schwerlich ganz wieder abgehen können.
+            </p>
+            <p>
+               Sie haben mir - zum Beweis, daß ich Ihren Entschluß nicht so ganz <del rend="stroked">selbst</del> von der falschen 
+               Seite ansah - in jenem Besuch zu <rs type="place" ref="#plCb">Charlottenburg</rs> einen wirklich unermeßlichen 
+               Schaden zugefügt. Sie sind Schuld, daß eine Verbindung die sonst - so sehr auch in Ihren Augen der Anschein gegen 
+               diese Behauptung streiten mag - in Frieden (vielleicht gar in Freundschaft) endete, jetzt sehr bitter und gewaltsam 
+               zerrissen ist. <del rend="stroked">xxx</del> Wäre ich ein gemeiner Kerl, so würde ich Ihnen danken. Nach Maximen der 
+               Bequemlichkeit zu urtheilen haben Sie mir gute Dienste geleistet. Aber mein Herz haben Sie zerrissen, in dem 
+               Augenblick, da Sie mir Gutes zu thun gedachten.
+            </p>
+            <p>
+               Ich sage dies auf keine Weise um <emph rend="underlined">Ihnen</emph> einen Vorwurf zu machen. In meinem Herzen ist 
+               keine Spur von Erbitterung gegen Sie. Ich sage es, um <emph rend="underlined">mich</emph> einigermaßen zu 
+               rechtfertigen, wenn ich im ersten Augenblicke, da diese verhaßte Neuigkeit mich traf, vielleicht zu stark und bitter 
+               gegen Sie herausfuhr. Ich ahndete damals alles, was wirklich erfolgt ist; und daß <emph rend="underlined">Sie</emph>, 
+               wenn gleich unschuldig, das Instrument meiner Qual werden sollten, <pb/> dieser Gedanke, war mir unerträglich.
+            </p>
+         </div>
+         <div n="2" corresp="#vkgvb">
+            <p>
+               Und jetzt - ein ewiges Stillschweigen ! Ich werde nie von dieser Sache wieder reden. Ich liebe Sie mehr als Sie es 
+               glauben, und es wäre mir wahrhaftig so gleichgültig nicht, wie Sie es in einer mismüthigen Stunde schilderten, Ihre 
+               Freundschaft zu verliehren. Ich hoffe forthin, derselben würdig zu seyn. Wenn die Bewegungen des Augenblicks sich 
+               gelegt, <del rend="stroked">haben,</del> wenn die kommenden Jahre manches, was ich jetzt aus Ehrgefühl, Delikatesse, 
+               und Schüchternheit unterdrücken muß vielleicht ohne mein Zuthun mehr erhellt haben werden, dann hoffe ich, selbst in 
+               der Angelegenheit, worin ich Ihnen jetzt durchaus-strafbar erscheine eine bey weitem gelindre Sentenz von 
+               <emph rend="underlined">Ihnen</emph> zu erhalten. Denn was die andern sagen, ist (mit wenigen Ausnahmen) des 
+               Appellirens nicht werth.
+            </p>
+            <p>
+               Fahren Sie nur fort, mich zu lieben ! Und ich glaube, es wird alles unter uns vortreflich gehen
+            </p>
+         </div>
+         <closer>
+            <signed rend="right">Gentz</signed>
+         </closer>
+      </body>
+   </text>
+</TEI>

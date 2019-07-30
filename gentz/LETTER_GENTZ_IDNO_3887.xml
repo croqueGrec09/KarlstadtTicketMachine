@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc xml:id="LETTER_GENTZ_3887">
+         <titleStmt>
+            <title>Friedrich von Gentz an Georg Andreas Reimer, 18. Dezember 1801</title>
+            <editor xml:id="edAG">Andreas Gálffy</editor>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <name>Forschungsstelle "Universitätssammlung Friedrich von Gentz"</name>
+               <link target="http://gentz-digital.ub.uni-koeln.de http://www.ub.uni-koeln.de/cdm/singleitem/collection/gentz/id/3886/"/>
+            </publisher>
+            <pubPlace>Cologne</pubPlace>
+            <idno type="Gentz-Edition-Number" n="3887"/>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <country>unknown</country>
+                  <idno>private property</idno>
+               </msIdentifier>
+               <msContents>
+                  <summary>
+                     Ein Vertrag zwischen Gentz und Reimer, der das Werk Geschichte der Französischen Revolution von ihrem Ursprunge 
+                     bis zur Auflösung der Ersten Nazional-Versammlung verlegen wird. Der erste Band soll spätestens zum 1. Juli 
+                     1802 druckbereit sein. Der größte Teil soll zur Ostermesse 1803 fertig sein. Jeder Druckbogen wird mit drei 
+                     Friedrichsd'or Honorar vergütet werden, wovon 80 Friedrichsd'or bei Vertragsabschluss bezahlt werden. Über 
+                     weitere Auflagen wird spontan entschieden, wobei der Verlag bevorzugt bei Reimer liegen wird. Sofern Gentz 
+                     sterben sollte, wird ein Registerband die Schuld tilgen, sofern sie nicht schon getilgt ist. Konrad Levezow ist 
+                     Zeuge.
+                  </summary>
+               </msContents>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Masterarbeit zu Matrikelnummer 5584124</p>
+         </projectDesc>
+      </encodingDesc>
+      <profileDesc>
+         <creation>
+            <date when-iso="1801-12-18">18. Dezember 1801</date>
+         </creation>
+        <langUsage>
+           <language ident="d">deutsch</language>
+        </langUsage>
+         <textClass>
+            <keywords scheme="internal"><!-- internal: innerhalb des besagten Briefs -->
+               <term>Vertrag</term>
+               <term>Verlag</term>
+            </keywords>
+            <keywords scheme="categorisation"><!-- Sinnabschnittseinteilung - relevant für den Fahrkartenautomaten! -->
+               <term xml:id="gfrv">Geschichte der französischen Revolution von ihrem Ausbruch bis zur Auflösung der Ersten Nationalversammlung</term>
+            </keywords>
+         </textClass>
+         <textDesc>
+            <channel>manuscript</channel>
+            <constitution type="single"/>
+            <derivation type="original"/>
+            <domain type="private"/>
+            <factuality type="fact"/>
+            <interaction type="partial"/>
+            <preparedness type="prepared"/>
+            <purpose type="inform"/>
+         </textDesc>
+         <particDesc>
+            <listPerson>
+               <!-- Sender und Adressat -->
+               <person role="sender" xml:id="Gen">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/118538489"/>
+                     <forename>Friedrich von</forename>
+                     <surname>Gentz</surname>
+                  </persName>
+               </person>
+               <person role="receiver" xml:id="GAnR">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/118831194"/>
+                     <forename>Georg Andreas</forename>
+                     <surname>Reimer</surname>
+                  </persName>
+               </person>
+               <!-- erwähnte Personen -->
+               <person role="named" xml:id="KLvz">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/116962291"/>
+                     <forename>Konrad</forename>
+                     <surname>Levezow</surname>
+                  </persName>
+               </person>
+            </listPerson>
+         </particDesc>
+         <settingDesc>
+            <listPlace>
+               <!-- Start- und Zielort -->
+               <place type="sender" xml:id="plWe">
+                  <country>
+                     <ref target="http://d-nb.info/gnd/4051194-7"/>
+                     <placeName>Sachsen-Weimar-Eisenach</placeName>
+                  </country>
+                  <settlement>
+                     <ref target="http://d-nb.info/gnd/4065105-8"/>
+                     <placeName>Weimar</placeName>
+                  </settlement>
+               </place>
+               <place type="receiver" xml:id="plLp">
+                  <country>
+                     <ref target="http://d-nb.info/gnd/4051176-5"/>
+                     <placeName>Sachsen</placeName>
+                  </country>
+                  <settlement>
+                     <ref target="http://d-nb.info/gnd/4035206-7"/>
+                     <placeName>Leipzig</placeName>
+                  </settlement>
+               </place>
+               <!-- erwähnte Orte -->
+            </listPlace>
+         </settingDesc>
+      </profileDesc>
+      <revisionDesc>
+         <change xml:id="init" when-iso="2018-03-09" who="#edAG">Erstauszeichnung und Normierung des Dokumentes im Rahmen der Masterarbeit der Matrikelnummer 5584124</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div n="1" corresp="#gfrv">
+            <p>
+               Es ist zwischen dem Herrn Krieges-Rath Gentz als Verfasser des hierin benannten Werkes, und dem Herrn Buchhändler 
+               Reimer als Verleger desselben, nachstehender Vertrag wohlbedächtig verabredet und geschlossen worden:
+            </p>
+            <p>
+               1.
+            </p>
+            <p>
+               Es liefert der Herr Krieges-Rath Gentz dem Herrn Reimer zum Verlag ein, nach ungefährer Schätzung auf 4 gewöhnliche 
+               Oktav-Bände hinan laufendes Manuskript zu einer: 
+               <emph rend="underlined">Geschichte der Französischen Revoluzion von ihrem Ursprunge bis zur Auflösung der Ersten Nazional-Versammlung</emph>.
+            </p>
+            <p>
+               2.
+            </p>
+            <p>
+               Von diesem Manuskript verspricht der Krieges Rath Gentz soviel als zum Abdruck des ersten Bandes erforderlich seyn 
+               wird, nicht später als den <date when-iso="1802-07-01">1<span rend="sup">ten</span> July 1802</date>, das Uebrige 
+               aber, in ununterbrochner Folge dergestalt zu liefern, daß das ganze Werk, oder doch der gröste Theil desselben zur 
+               <date when-iso="1803-04-10">Ostermesse 1803</date> fertig seyn kan.
+            </p>
+            <p>
+               3.
+            </p>
+            <p>
+               Der Herr p Reimer zahlt dem Krieges Rath Gentz für jeden Druck-Bogen dieses Werkes Drei Stück Friedrichsdor Honorar; 
+               über die Größe des Formats, der Lettern, und der Zwischenräume, wird hier nichts bestimmtes stipulirt, jedoch 
+               vorausgesetzt, daß dabey im Ganzen nach dem Modell solcher Bücher verfahren werde, deren Druck man allgemein für 
+               anständig und angenehm hält.
+            </p>
+            <p>
+               4.
+            </p>
+            <p>
+               Von dem Honorar werden Achtzig Stück Friedrichsdor bei Abschluß des gegenwärtigen Vertrages pränumerando bezahlt; das 
+               Uebrige wird nachher bei <pb/> jedesmaliger Ablieferung des Manuskripts berechnet.
+            </p>
+            <p>
+               5.
+            </p>
+            <p>
+               Sollte von dem Werke mehr als eine Auflage gemacht werden, so behält der Herr Krieges-Rath Gentz sich dieserhalb 
+               seine Ansprüche vor, wobei sich von selbst versteht, daß dem jetzigen Herrn Verleger allemal der Vorzug vor jedem 
+               andern nothwendig offen bleibt.
+            </p>
+            <p>
+               6.
+            </p>
+            <p>
+               Damit übrigens der Herr Reimer auf den Fall, daß der Krieges Rath Gentz vor der Vollendung der zwei ersten Bände des 
+               Manuskripts mit Tode abginge, für seinen Vorschuß gedeckt sey, so macht sich letztrer anheischig, dem Herrn Reimer 
+               ein aus vier gehefteten Bänden bestehendes, mit einem besondern Register versehnes Manuskript einer 
+               <emph rend="underlined">Chronologischen Geschichte der Französischen Revoluzion</emph>, wovon Herr Reimer einen Theil 
+               vor Abschließung dieses Vertrages gesehen hat, falls der gedachte Vorschuß vor dem Tode des Gentz nicht getilgt seyn 
+               sollte, zur uneingeschränkten Disposition zu überliefern. Und um alle zur förmlichen Befestigung dieser Clausel etwa 
+               noch nötig zu erachtende Weitläuftigkeiten zu vermeiden, wird hiemit bestimmt und ausgemacht, daß auf solchen Fall, 
+               <rs type="person" ref="#KLvz">Herr Levetzow</rs> Lehrer am Königlichen Gymnasio, als gemeinschaftlicher Freund beider 
+               Contrahenten, sich unter der Sanction des gegenwärtigen Contrakts das zuletzt gedachte Manuskript aus dem Nachlaß des 
+               p Gentz brevi manu abholen und dem Herrn Reimer einhändigen sollen. <pb/>
+            </p>
+            <p>
+               Beide Theile begeben sich übrigens aufs bestimmteste aller gegen diesen Vertrag künftig zu machenden Einwendungen, 
+               sie mögen auch Nahmen haben wie sie wollen, und haben gegenwärtiges Instrument eigenhändig unterschrieben und 
+               besiegelt, auch <rs type="person" ref="#KLvz">Herrn Levetzow</rs> gebeten, solches als Zeuge gleichfalls mit zu 
+               unterschreiben.
+            </p>
+            <p>
+               So Geschehen. <rs type="place" ref="#plBe">Berlin</rs> den <date when-iso="1801-12-18">18<span rend="sup">ten</span> December 1801</date>.
+            </p>
+         </div>
+         <closer>
+            <signed rend="right">Friedrich Gentz</signed>
+            <signed rend="right">Krieges-Rath bei dem Königlichen</signed>
+            <signed rend="right">General-Ober-Finantz-Directorio.</signed>
+            <signed rend="left">L. S.</signed>
+            <signed rend="right">Konrad Levezow als Zeuge</signed>
+         </closer>
+      </body>
+   </text>
+</TEI>

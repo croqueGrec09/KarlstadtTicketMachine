@@ -1,0 +1,238 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc xml:id="LETTER_GENTZ_4501">
+         <titleStmt>
+            <title>Friedrich von Gentz an François d'Ivernois, 18. Januar 1800</title>
+            <editor xml:id="edAG">Andreas Gálffy</editor>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <name>Forschungsstelle "Universitätssammlung Friedrich von Gentz"</name>
+               <link target="http://gentz-digital.ub.uni-koeln.de http://www.ub.uni-koeln.de/cdm/singleitem/collection/gentz/id/4500/"/>
+            </publisher>
+            <pubPlace>Cologne</pubPlace>
+            <idno type="Gentz-Edition-Number" n="4501"/>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <country>unknown</country>
+                  <idno>not retraced</idno>
+               </msIdentifier>
+               <msContents>
+                  <summary>
+                     Gentz stellt sein Essay über die Finanzen Großbritanniens vor. Er stellt dies sehr bescheiden vor, es sei 
+                     gewagt für einen Ausländer, von den Finanzen Großbritanniens zu schreiben. Daher bittet er um Nachsicht wegen 
+                     der Sprache und stellt hervor, dass dies ein Werk der Bewunderung eines der größten Nationen Europas sei.
+                  </summary>
+               </msContents>
+            </msDesc>
+            <listBibl type="preprints">
+               <biblStruct>
+                  <monogr>
+                     <author>
+                        <persName>
+                           <ref target="http://d-nb.info/gnd/118538489"/>
+                           <forename>Friedrich von</forename>
+                           <surname>Gentz</surname>
+                        </persName>
+                     </author>
+                     <title>Essai sur l'etat actuel de l'administration des finances et de la richesse nationale de la Grande Bretagne</title>
+                     <imprint>
+                        <pubPlace>London</pubPlace>
+                        <publisher>J. Debrett</publisher>
+                        <date>1800</date>
+                     </imprint>
+                     <biblScope unit="page" from="3" to="6">
+                        III-VI
+                     </biblScope>
+                  </monogr>
+               </biblStruct>
+            </listBibl>
+            <listBibl type="defRep">
+               <biblStruct xml:id="p4501-1" corresp="GBk-0060">
+                  <monogr>
+                     <author>
+                        <persName>
+                           <ref target="http://d-nb.info/gnd/118538489"/>
+                           <forename>Friedrich von</forename>
+                           <surname>Gentz</surname>
+                        </persName>
+                     </author>
+                     <title>Essai sur l'etat actuel de l'administration des finances et de la richesse nationale de la Grande Bretagne</title>
+                     <imprint>
+                        <pubPlace>London</pubPlace>
+                        <publisher>J. Debrett</publisher>
+                        <date>1800</date>
+                     </imprint>
+                  </monogr>
+                  <ptr target="https://books.google.de/books?id=R_bXZfXXWVoC"/>
+               </biblStruct>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Masterarbeit zu Matrikelnummer 5584124</p>
+         </projectDesc>
+      </encodingDesc>
+      <profileDesc>
+         <creation>
+            <date when-iso="1800-01-18">18. Januar 1800</date>
+         </creation>
+        <langUsage>
+           <language ident="f">französisch</language>
+        </langUsage>
+         <textClass>
+            <keywords scheme="internal"><!-- internal: innerhalb des besagten Briefs -->
+               <term>Brief</term>
+               <term>d'Ivernois</term>
+               <term>Revolution</term>
+               <term>Finanzen</term>
+               <term>Napoleon</term>
+               <term>Untätigkeit</term>
+               <term>Übersetzungen</term>
+            </keywords>
+            <keywords scheme="categorisation"><!-- Sinnabschnittseinteilung - relevant für den Fahrkartenautomaten! -->
+               <term xml:id="efgb">Essay über die Finanzen Großbritanniens</term>
+            </keywords>
+         </textClass>
+         <textDesc>
+            <channel>manuscript</channel>
+            <constitution type="single"/>
+            <derivation type="original"/>
+            <domain type="private"/>
+            <factuality type="fact"/>
+            <interaction type="partial"/>
+            <preparedness type="prepared"/>
+            <purpose type="inform"/>
+         </textDesc>
+         <particDesc>
+            <listPerson>
+               <!-- Sender und Adressat -->
+               <person role="sender" xml:id="Gen">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/118538489"/>
+                     <forename>Friedrich von</forename>
+                     <surname>Gentz</surname>
+                  </persName>
+               </person>
+               <person role="receiver" xml:id="FdI">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/100297676"/>
+                     <forename>Francis d'</forename>
+                     <surname>Ivernois</surname>
+                  </persName>
+               </person>
+               <!-- erwähnte Personen -->
+            </listPerson>
+         </particDesc>
+         <settingDesc>
+            <listPlace>
+               <!-- Start- und Zielort -->
+               <place type="sender" xml:id="plBe">
+                  <country>
+                     <ref target="http://d-nb.info/gnd/4047194-9"/>
+                     <placeName>Preußen</placeName>
+                  </country>
+                  <settlement>
+                     <ref target="http://d-nb.info/gnd/4005728-8"/>
+                     <placeName>Berlin</placeName>
+                  </settlement>
+               </place>
+               <place type="receiver" xml:id="plLo">
+                  <country>
+                     <ref target="http://d-nb.info/gnd/4022153-2"/>
+                     <placeName>Vereinigtes Königreich</placeName>                
+                  </country>
+                  <settlement>
+                     <ref target="http://d-nb.info/gnd/4074335-4"/>
+                     <placeName>London</placeName>
+                  </settlement>
+               </place>
+               <!-- erwähnte Orte -->
+               <place type="named" xml:id="plEn">
+                  <country>
+                     <ref target="http://d-nb.info/gnd/4022153-2"/>
+                     <placeName>England</placeName>                
+                  </country>
+               </place>
+               <place type="named" xml:id="plEu">
+                  <geogName type="continent">
+                     <ref target="http://d-nb.info/gnd/4015701-5"/>
+                     <placeName>Europa</placeName>
+                  </geogName>
+               </place>
+            </listPlace>
+         </settingDesc>
+      </profileDesc>
+      <revisionDesc>
+         <change xml:id="init" when-iso="2018-03-05" who="#edAG">Erstauszeichnung und Normierung des Dokumentes im Rahmen der Masterarbeit der Matrikelnummer 5584124</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div n="1" corresp="#efgb">
+            <p>
+               Agréez, Monsieur, que je place à la tête de <rs type="citation" ref="#p4501-1">ce foible essai</rs>, un nom si 
+               propre à m'assurer l'indulgence du public, et dont l'autorité semble faite pour inspirer aux juges même les plus 
+               sévères un préjugé favorable à <rs type="citation" ref="#p4501-1">mon ouvrage</rs>. Veuillez en même tems considérer 
+               cette démarche comme un juste tribut de reconnoissance que je paye à celui, qui par ses écrits intéressans, et sa 
+               correspondance précieuse, m'a si puissamment soutenu dans la carrière que j'ai osé parcourir. <pb/>
+            </p>
+            <p>
+               Il est hardi sans doute pour un étranger d'écrire sur les finances de la 
+               <rs type="place" ref="#plEn">Grande-Bretagne</rs>: mais j'ai vu de tous côtés tant d'erreurs répandus sur cette 
+               importante matière, je l'ai vue défigurée par tant d'idées fausses et extravagantes, que j'ai cru que cette hardiesse 
+               ne seroit pas inexcusable. Ce qui n'offrira peut-être aucun résultat nouveau à un Anglois instruit, ou à un homme 
+               qu'un long séjour et une étude suivie ont naturalisé parmi les Anglois, ne sera pas sans quelque prix, présenté à un 
+               public, pour lequel <rs type="place" ref="#plEn">l'Angleterre</rs>, sous le rapport de ses véritables forces, de ses 
+               ressources inépuisables, et de la sagesse de son administration, n'est encore, pour ainsi dire, qu'un pays inconnu.
+            </p>
+            <p>
+               La seule partie de <rs type="citation" ref="#p4501-1">cet essai</rs>, à laquelle j'ose croire que vous ne refuserez 
+               pas un moment d'attention, c'est celle ou j'ai développé quelques principes généraux, dont l'accord parfait avec le 
+               sys<pb/>tème d'administration de la <rs type="place" ref="#plEn">Grande-Brétagne</rs> me paroit être l'éloge le plus 
+               brillant qu'on puisse faire de ce système.
+            </p>
+            <p>
+               Si vous rencontrez dans cet ouvrage quelques expressions forcées, ou qui manquent de cette précision dont votre plume 
+               auroit su les revêtir, veuillez ne pas perdre de vue, qu'il a été originairement composé dans une langue, qui par son 
+               génie particulier offre au traducteur des difficultés presqu'insurmontables, et dont les expressions, sur-tout 
+               lorsqu'il s'agit d'objets scientifiques, ne peuvent guères être transmises dans une autre langue, sans perdre plus ou 
+               moins ou de leur force ou de leur justesse.
+            </p>
+            <p>
+               Tout imparfait que sera cet essai, il me restera toujours une consolation: elle est dans l'espoir, qu'une des nations 
+               les plus respectables de <rs type="place" ref="#plEu">l'Europe</rs> daignera accueillir comme un hommage de ma 
+               sincère admiration, un travail dans lequel <pb/> je eu en vue d'exposer aux yeux des étrangers les bases de sa 
+               véritable grandeur; et j'ai cru, qu'en recourant à votre bienveillance, et en me mettant sous vos auspices cet espoir 
+               seroit déj`à moitié rempli.
+            </p>
+            <p>
+               Je suis avec les sentimens les plus distingués
+            </p>
+         </div>
+         <closer>
+            <salute rend="right">Monsieur</salute>
+            <salute rend="right">votre très-humble et très-</salute>
+            <rs type="place" ref="#plBe"><emph rend="underlined">Berlin</emph></rs>
+            <salute rend="right">obéissant serviteur</salute>
+            <dateline rend="left">ce <date when-iso="1800-01-18">18. Janvier 1800</date>.</dateline>
+            <signed rend="right">Gentz.</signed>
+         </closer>
+      </body>
+      <back resp="otherHand">
+         <p>
+            M<span rend="sup">r</span> Gentz
+            <rs type="place" ref="#plBe">Berlin</rs> <date when-iso="1799-10-00">Octobre 1799</date>
+            <date when-iso="1799-10-25">25 Octobre</date>.
+         </p>
+      </back>
+      <note xml:id="r0283-1">Auf Bl. 172v</note>
+   </text>
+</TEI>

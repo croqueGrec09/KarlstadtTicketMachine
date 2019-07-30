@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc xml:id="LETTER_GENTZ_0965">
+         <titleStmt>
+            <title>Friedrich von Gentz an Franz von Thugut, 2. November 1799</title>
+            <editor xml:id="edAG">Andreas Gálffy</editor>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <name>Forschungsstelle "Universitätssammlung Friedrich von Gentz"</name>
+               <link target="http://gentz-digital.ub.uni-koeln.de http://www.ub.uni-koeln.de/cdm/singleitem/collection/gentz/id/964/"/>
+            </publisher>
+            <pubPlace>Cologne</pubPlace>
+            <idno type="Gentz-Edition-Number" n="0965"/>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <country>Austria</country>
+                  <settlement>Vienna</settlement>
+                  <institution>Haus-, Hof- und Staatsbibliothek</institution>
+                  <repository>Staatskanzlei, Interiora</repository>
+                  <collection>Karton 78, Fasz.: "Gentz: Kaiser Franz, Thugut, Saurau, Cobenzl Ludwig, 1793-1805"</collection>
+                  <idno>Bl. 10-10v</idno>
+               </msIdentifier>
+               <msContents>
+                  <summary>
+                     Die Belohnung für die geringe Arbeit Gentz' ist unermesslich. Gentz stattet seinen innigen Dank an den Kaiser 
+                     ab.
+                  </summary>
+               </msContents>
+            </msDesc>
+            <listBibl type="preprints">
+               <biblStruct>
+                  <monogr>
+                     <editor>
+                        <persName>
+                           <ref target="http://d-nb.info/gnd/102256691"/>
+                           <forename>Clemens von</forename>
+                           <surname>Klinkowström</surname>
+                        </persName>
+                     </editor>
+                     <title>Aus der alten Registratur der Staatskanzlei. Briefe politischen Inhalts von und an Friedrich von Gentz aus den Jahren 1799-1827</title>
+                     <imprint>
+                        <pubPlace>Wien</pubPlace>
+                        <date>1870</date>
+                     </imprint>
+                     <biblScope unit="page" from="2" to="3">
+                        Nr. II
+                     </biblScope>
+                  </monogr>
+               </biblStruct>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Masterarbeit zu Matrikelnummer 5584124</p>
+         </projectDesc>
+      </encodingDesc>
+      <profileDesc>
+         <creation>
+            <date when-iso="1799-11-02">2. November 1799</date>
+         </creation>
+        <langUsage>
+           <language ident="d">deutsch</language>
+        </langUsage>
+         <textClass>
+            <keywords scheme="internal"><!-- internal: innerhalb des besagten Briefs -->
+               <term>Brief</term>
+               <term>Dankschreiben</term>
+               <term>Journal historique</term>
+               <term>Kleinigkeit</term>
+            </keywords>
+            <keywords scheme="categorisation"><!-- Sinnabschnittseinteilung - relevant für den Fahrkartenautomaten! -->
+               <term xml:id="bezw">Beziehungen zu Wien</term>
+            </keywords>
+         </textClass>
+         <textDesc>
+            <channel>manuscript</channel>
+            <constitution type="single"/>
+            <derivation type="original"/>
+            <domain type="private"/>
+            <factuality type="fact"/>
+            <interaction type="partial"/>
+            <preparedness type="prepared"/>
+            <purpose type="inform"/>
+         </textDesc>
+         <particDesc>
+            <listPerson>
+               <!-- Sender und Adressat -->
+               <person role="sender" xml:id="Gen">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/118538489"/>
+                     <forename>Friedrich von</forename>
+                     <surname>Gentz</surname>
+                  </persName>
+               </person>
+               <person role="receiver" xml:id="JAFdPvT">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/118622390"/>
+                     <forename>Johann Amadeus Franz de Paula von</forename>
+                     <surname>Thugut</surname>
+                  </persName>
+               </person>
+               <!-- erwähnte Personen -->
+               <person role="named" xml:id="Fr">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/118534955"/>
+                     <forename>Franz II.</forename>
+                     <surname>Heiliges Römisches Reich</surname>
+                     <roleName type="office">Kaiser</roleName>
+                  </persName>
+               </person>
+            </listPerson>
+         </particDesc>
+         <settingDesc>
+            <listPlace>
+               <!-- Start- und Zielort -->
+               <place type="sender" xml:id="plBe">
+                  <country>
+                     <ref target="http://d-nb.info/gnd/4047194-9"/>
+                     <placeName>Preußen</placeName>
+                  </country>
+                  <settlement>
+                     <ref target="http://d-nb.info/gnd/4005728-8"/>
+                     <placeName>Berlin</placeName>
+                  </settlement>
+               </place>
+               <place type="receiver" xml:id="plWi">
+                  <country>
+                     <ref target="http://d-nb.info/gnd/4075601-4"/>
+                     <placeName>Erzherzogtum Österreich</placeName>
+                  </country>
+                  <settlement>
+                     <ref target="http://d-nb.info/gnd/4066009-6"/>
+                     <placeName>Wien</placeName>
+                  </settlement>
+               </place>
+               <!-- erwähnte Orte -->
+            </listPlace>
+         </settingDesc>
+      </profileDesc>
+      <revisionDesc>
+         <change xml:id="init" when-iso="2018-03-04" who="#edAG">Erstauszeichnung und Normierung des Dokumentes im Rahmen der Masterarbeit der Matrikelnummer 5584124</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <opener>
+            <salute rend="left">Hochgebohrner Herr Freiherr !</salute>
+            <salute rend="left">Hochgebietender Herr Geheimer Staats- und Cabinets-Minister !</salute>
+            <salute rend="left">Gnädigster Herr !</salute>
+         </opener>
+         <div n="1" corresp="#bezw">
+            <p>
+               <rs type="person" ref="#Fr">Des Kaysers Majestät</rs> haben mich mit einem unschätzbaren Zeichen Ihrer Allerhöchsten 
+               Gnade zu beehren, und meinen geringen Arbeiten eine Belohnung, der weder mein Verdienst, noch meine Dankbarkeit 
+               gewachsen seyn kan, widerfahren zu laßen geruht.
+            </p>
+            <p>
+               Ich weiß und fühle, daß ich dieses unerwartete Glück Ewr. Hochfreyherrlichen Excellentz erhabner Protection, und dem 
+               für mich unendlich ehrenvollen Beifall, dessen Hochdieselben meine wohlgemeinten, wenn gleich schwachen Anstrengungen 
+               würdigen, schuldig bin, und ich unterstehe mich, Hochdenselben meinen ehrfurchtsvollsten Dank dafür zu Füßen zu 
+               legen.
+            </p>
+            <p>
+               Kan irgend etwas mich mit verdoppeltem Muthe auf der Laufbahn, die ich betreten habe, beseelen, so ist es wohl der 
+               Gedanke, etwas hervor<pb/>zu bringen, das <add place="above">von</add> dem ersten Staatsmann unsers Zeitalters nicht 
+               gänzlich gemißbilligt wird ! Um die Fortdauer der belohnenden Huld EwrExcellentz bitte ich daher mit eben der wahren, 
+               gerechten und tiefen Ehrfurcht, in welcher ich unausgesetzt verharre,
+            </p>
+         </div>
+         <closer>
+            <salute rend="right">Ewr. Hochfreyherrlichen Excellentz</salute>
+            <salute rend="right">untertänigster treu-gehorsamster Diener</salute>
+            <dateline rend="left"><rs type="place" ref="#plBe">Berlin</rs> den <date when-iso="1799-11-02">2<span rend="sup">ten</span> November 1799</date>.</dateline>
+            <signed rend="right">Gentz.</signed>
+         </closer>
+      </body>
+   </text>
+</TEI>

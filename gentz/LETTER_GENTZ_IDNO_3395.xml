@@ -1,0 +1,266 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc xml:id="LETTER_GENTZ_3395">
+         <titleStmt>
+            <title>Friedrich von Gentz an Karl Gustav von Brinckmann, 13. September 1797</title>
+            <editor xml:id="edAG">Andreas Gálffy</editor>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <name>Forschungsstelle "Universitätssammlung Friedrich von Gentz"</name>
+               <link target="http://gentz-digital.ub.uni-koeln.de http://www.ub.uni-koeln.de/cdm/singleitem/collection/gentz/id/3394/"/>
+            </publisher>
+            <pubPlace>Cologne</pubPlace>
+            <idno type="Gentz-Edition-Number" n="3395"/>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <country>Sweden</country>
+                  <settlement>Trolle-Ljungby</settlement>
+                  <institution>Archiv des Grafen Wachtmeister</institution>
+                  <repository>Nachlaß Brinckmann, Ausländ. Briefwechsel, Gentz an Brinckmann</repository>
+                  <idno>G 3</idno>
+               </msIdentifier>
+               <msContents>
+                  <summary>
+                     Zwei Schriften von Schlegel hat Gentz gelesen - es folgen Rezensionen. Bis auf einen unklaren Bezug fand Gentz 
+                     die Geschichte der griechischen Poesie bewundernswert. Die Schrift über Garve hingegen las Gentz nur 
+                     widerwillig. Sie fußt auf einer falschen Ansicht, nämlich dass Garve nur den Mittelmäßigen gefalle. 
+                     Im Postscript fragt Gentz, ob Brinckmann weiß, dass ein Bogen aus dem Manuskript ausgerissen ist und fehlt.
+                  </summary>
+               </msContents>
+            </msDesc>
+            <listBibl type="preprints">
+               <biblStruct>
+                  <monogr>
+                     <editor>
+                        <persName>
+                           <ref target="http://d-nb.info/gnd/130953075"/>
+                           <forename>Friedrich Carl</forename>
+                           <surname>Wittichen</surname>
+                        </persName>
+                        <persName>
+                           <ref /> <!-- kein GND-Eintrag -->
+                           <forename>Ernst</forename>
+                           <surname>Salzer</surname>
+                        </persName>
+                     </editor>
+                     <title>Briefe von und an Friedrich von Gentz, 4 Bde.</title>
+                     <imprint>
+                        <publisher>Oldenbourg</publisher>
+                        <pubPlace>München, Berlin</pubPlace>
+                        <date>1909-1913</date>
+                     </imprint>
+                     <biblScope unit="volume" n="2">
+                        II
+                     </biblScope>
+                     <biblScope unit="page" from="55" to="56">
+                        Nr. 62
+                     </biblScope>
+                  </monogr>
+               </biblStruct>
+            </listBibl>
+            <listBibl type="defRep">
+               <biblStruct xml:id="p3395-1" corresp="zen-0001">
+                  <monogr>
+                     <author>
+                        <persName>
+                           <ref target="http://d-nb.info/gnd/118607987" />
+                           <forename>Friedrich von</forename>
+                           <surname>Schlegel</surname>
+                        </persName>
+                     </author>
+                     <title>Über das Studium der griechischen Poesie</title>
+                     <imprint>
+                        <pubPlace></pubPlace>
+                        <publisher></publisher>
+                        <date>1797</date>
+                     </imprint>
+                  </monogr>
+                  <ptr target="http://www.zeno.org/nid/20005618967" />
+               </biblStruct>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Masterarbeit zu Matrikelnummer 5584124</p>
+         </projectDesc>
+      </encodingDesc>
+      <profileDesc>
+         <creation>
+            <date when-iso="1797-09-13">13. September 1797</date>
+         </creation>
+        <langUsage>
+           <language ident="d">deutsch</language>
+        </langUsage>
+         <textClass>
+            <keywords scheme="internal"><!-- internal: innerhalb des besagten Briefs -->
+               <term>Brief</term>
+               <term>Rezension</term>
+               <term>Schlegel</term>
+               <term>Garve</term>
+            </keywords>
+            <keywords scheme="categorisation"><!-- Sinnabschnittseinteilung - relevant für den Fahrkartenautomaten! -->
+               <term xml:id="kschl">Schlegel</term>
+               <term xml:id="vcg">Verhältnis Christian Garve</term>
+               <term xml:id="vkgvb">Verhältnis Karl Gustav von Brinckmann</term>
+            </keywords>
+         </textClass>
+         <textDesc>
+            <channel>manuscript</channel>
+            <constitution type="single"/>
+            <derivation type="original"/>
+            <domain type="private"/>
+            <factuality type="fact"/>
+            <interaction type="partial"/>
+            <preparedness type="unprepared"/>
+            <purpose type="inform"/>
+         </textDesc>
+         <particDesc>
+            <listPerson>
+               <!-- Sender und Adressat -->
+               <person role="sender" xml:id="Gen">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/118538489"/>
+                     <forename>Friedrich von</forename>
+                     <surname>Gentz</surname>
+                  </persName>
+               </person>
+               <person role="receiver" xml:id="KGvB">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/116519770"/>
+                     <forename>Carl Gustav von</forename>
+                     <surname>Brinckmann</surname>
+                  </persName>
+               </person>
+               <!-- erwähnte Personen -->
+               <person role="named" xml:id="FSchl">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/118607987" />
+                     <forename>Friedrich von</forename>
+                     <surname>Schlegel</surname>
+                  </persName>
+               </person>
+               <person role="named" xml:id="Gar">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/118537636"/>
+                     <forename>Christian</forename>
+                     <surname>Garve</surname>
+                  </persName>
+               </person>
+               <person role="named" xml:id="Fic">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/118532847"/>
+                     <forename>Johann Gottlieb</forename>
+                     <surname>Fichte</surname>
+                  </persName>
+               </person>
+               <person role="named" xml:id="For">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/118534416"/>
+                     <forename>Georg</forename>
+                     <surname>Forster</surname>
+                  </persName>
+               </person>
+            </listPerson>
+         </particDesc>
+         <settingDesc>
+            <listPlace>
+               <!-- Start- und Zielort -->
+               <place type="sender" xml:id="plSb">
+                  <country>
+                     <ref target="http://d-nb.info/gnd/4047194-9"/>
+                     <placeName>Preußen</placeName>
+                  </country>
+                  <settlement>
+                     <ref target="http://d-nb.info/gnd/116944-0"/>
+                     <placeName>Schöneberg</placeName>
+                  </settlement>
+               </place>
+               <place type="receiver" xml:id="plBe">
+                  <country>
+                     <ref target="http://d-nb.info/gnd/4047194-9"/>
+                     <placeName>Preußen</placeName>
+                  </country>
+                  <settlement>
+                     <ref target="http://d-nb.info/gnd/4005728-8"/>
+                     <placeName>Berlin</placeName>
+                  </settlement>
+               </place>
+               <!-- erwähnte Orte -->
+            </listPlace>
+         </settingDesc>
+      </profileDesc>
+      <revisionDesc>
+         <change xml:id="init" when-iso="2018-02-27" who="#edAG">Erstauszeichnung und Normierung des Dokumentes im Rahmen der Masterarbeit der Matrikelnummer 5584124</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div n="1" corresp="#kschl">
+            <p>
+               Ich schicke Ihnen hier mit vielem Danke die beiden <rs type="person" ref="#FSchl">Schlegel</rs>schen Schriften 
+               zurück.
+            </p>
+            <p>
+               <rs type="citation" ref="#p3395-1">Die Geschichte der Griechischen Poesie</rs> verdient von allen Seiten Bewunderung. 
+               Sie hat lange nicht den Eindruck auf mich gemacht, den die berühmte Abhandlung machte: aber das geht 
+               <del rend="stroked">xxx</del> den eigenthümlichen relativen Werth beider Werke nichts an: der 
+               <emph rend="underlined">Gegenstand</emph> des letztern war unendlich interessanter für mich. - Was den Styl betrift, 
+               so finde ich ihn zwar von dem in der Abhandlung in nichts verschieden, auch keinesweges ausgearbeiteter, dennoch 
+               aber, wie jenen, imponirend und in seiner Art vortreflich. Nur bitte ich Sie, den allerersten Perioden des Buchs 
+               (der zum Glück auf den ganzen neun Bogen seines Gleichen nicht hat) genau zu betrachten, und mir dann zu sagen, ob 
+               und wie Sie denselben verstehen. Mir ist es schlechthin unmöglich, einen Sinn heraus zu lesen, weil ich durchaus 
+               nicht weiß, worauf ich die Worte, "<emph rend="underlined">deren</emph> Streben" beziehen soll. Denn, sollen <pb/> 
+               sie auf "die frühsten Anfänge" gehen, so begreife ich noch immer nicht, was das Ganze sagen will; und jede andre 
+               Beziehung führt zu Unsinn. Fragen Sie doch Schlegel selbst darüber: es ist fatal, daß gleich die ersten Zeilen einen 
+               so häßlichen Anstoß geben.
+            </p>
+         </div>
+         <div n="2" corresp="#vcg">
+            <p>
+               Die <ref target="#r3395-1">Schrift</ref> über 
+               <rs type="person" ref="#Gar"><emph rend="underlined">Garve</emph></rs> habe ich, sobald die erste Neugier gestillt 
+               war, mit Widerwillen gelesen. Sie ist <rs type="person" ref="#Gar">Schlegel</rs>'s gar nicht einmal würdig: denn sie 
+               ist in der That einseitig, und seicht. Sie erklärt recht gut, warum <rs type="person" ref="#Gar">Garve</rs> allen 
+               Mittelmäßigen gefällt: aber sie setzt stillschweigend voraus, daß er <emph rend="underlined">nur</emph> den 
+               Mittelmäßigen gefalle, und <del rend="stroked">xxx</del> läßt sich gar nicht darauf ein, zu erklären,
+               <quote corresp="#FSchl">
+                  wodurch denn <rs type="person" ref="#Gar">Garve</rs>ns Schriften auch solchen die über die 
+                  Mittelmäßigkeit hinweg sind, und ihn selbst <emph rend="underlined">dem Stoffe nach</emph> für durchaus 
+                  mittelmäßig anerkennen, <emph rend="underlined">dennoch</emph> gefallen und in hohem Grade gefallen ?
+               </quote>
+               Daß dies geschehe lehrt eine unwidersprechliche Erfahrung. <pb/> Ich, für meinen Theil, glaube es auch erklären zu 
+               können. <rs type="person" ref="#FSchl">Schlegel</rs> fand bequemer es wegzuläugnen. Das Fundament seiner Beurtheilung 
+               war also eine willkührliche und falsche Ansicht. Um diese zu retten, blieb ihm nichts übrig als 
+               <add place="above"><emph rend="underlined">dreist</emph> und</add> <emph rend="underlined">grob</emph> zu seyn. 
+               <rs type="person" ref="#Fic">Fichte</rs>'s Randglossen sind <emph rend="underlined">gemein</emph>. Darin 
+               unterscheidet er sich wesentlich von <rs type="person" ref="#FSchl">Schlegel</rs>, der nie gemein seyn 
+               <emph rend="underlined">kan</emph>.
+            </p>
+            <p>
+               Uebrigens ist mir diese Schrift von einer Seite sehr angenehm gewesen: sie hat mein noch etwas schwankendes Urtheil 
+               über die <emph rend="underlined">Charakteristik <rs type="person" ref="#For">Forster</rs>'s</emph> nun völlig fixirt, 
+               ausgebildet und bestätiget.
+            </p>
+         </div>
+         <closer>
+            <salute rend="right">Vale</salute>
+            <signed rend="right">Gentz.</signed>
+            <dateline rend="right"><rs type="place" ref="#plSb">Schöneberg</rs> <date when-iso="1797-09-13">13<span rend="sup">ten</span> Septb 97</date>.</dateline>
+         </closer>
+         <postscript corresp="#vkgvb">
+            <p>
+               Daß in dem Manuscript ein Blatt ausgerissen ist, und gänzlich fehlt, war Ihnen hoffentlich schon bekannt ?
+            </p>
+         </postscript>
+      </body>
+      <note xml:id="r3395-1" resp="#edAG">In C. Konegens "Friedrich Schlegel, 1794-1802" wird der Aufsatz erwähnt. Er soll bei Haym 744 stehen und Manuskript geblieben sein.</note>
+   </text>
+</TEI>

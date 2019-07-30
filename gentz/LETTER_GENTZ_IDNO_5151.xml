@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc xml:id="LETTER_GENTZ_5151">
+         <titleStmt>
+            <title>Friedrich von Gentz an Franz Joseph Graf von Saurau, 2. November 1799</title>
+            <editor xml:id="edAG">Andreas Gálffy</editor>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <name>Forschungsstelle "Universitätssammlung Friedrich von Gentz"</name>
+               <link target="http://gentz-digital.ub.uni-koeln.de http://www.ub.uni-koeln.de/cdm/singleitem/collection/gentz/id/5150/"/>
+            </publisher>
+            <pubPlace>Cologne</pubPlace>
+            <idno type="Gentz-Edition-Number" n="5151"/>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <country>Austria</country>
+                  <settlement>Vienna</settlement>
+                  <institution>Haus-, Hof- und Staatsbibliothek</institution>
+                  <repository>Staatskanzlei, Interiora</repository>
+                  <collection>Karton 78, Fasz.: "Gentz: Kaiser Franz, Thugut, Saurau, Cobenzl Ludwig, 1793-1805"</collection>
+                  <idno>Bl. 6-6v, 8</idno>
+               </msIdentifier>
+               <msContents>
+                  <summary>
+                     Die Belohnung, mit der Gentz bedacht wurde, ist unermesslich und ehrt ihn. Sehr erfreut ist Gentz darüber, dass 
+                     gerade ein solcher ihm seine Aufmerksamkeit schenkt, den alles, was in Deutschland klar denken kann, ehrt. Das 
+                     beflügelt Gentz in seiner weiteren Tätigkeit.
+                  </summary>
+               </msContents>
+            </msDesc>
+            <listBibl type="preprints">
+               <biblStruct>
+                  <analytic>
+                     <title>Gentziana. Actenstücke die ersten Beziehungen Friedrichs v. Gentz zu Oesterreich betreffend. Originale und Concepte</title>
+                  </analytic>
+                  <monogr>
+                     <editor>
+                        <persName>
+                           <ref />
+                           <forename>Dr. J. v.</forename>
+                           <surname>Zahn</surname>
+                        </persName>
+                     </editor>
+                     <title>Steiermärkische Geschichtsblätter</title>
+                     <imprint>
+                        <date>1880</date>
+                     </imprint>
+                     <biblScope unit="issue" n="1">
+                        I
+                     </biblScope>
+                     <biblScope unit="page" from="107" to="107">
+                        107
+                     </biblScope>
+                  </monogr>
+               </biblStruct>
+            </listBibl>
+            <listBibl type="letterReferenced">
+               <bibl xml:id="c5151-1" corresp="#LETTER_GENTZ_2687">Franz Josef Graf von Saurau an Friedrich von Gentz, 15. Oktober 1799</bibl>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Masterarbeit zu Matrikelnummer 5584124</p>
+         </projectDesc>
+      </encodingDesc>
+      <profileDesc>
+         <creation>
+            <date when-iso="1799-11-02">2. November 1799</date>
+         </creation>
+        <langUsage>
+           <language ident="d">deutsch</language>
+        </langUsage>
+         <textClass>
+            <keywords scheme="internal"><!-- internal: innerhalb des besagten Briefs -->
+               <term>Brief</term>
+               <term>Dankschreiben</term>
+               <term>Journal historique</term>
+               <term>Kleinigkeit</term>
+            </keywords>
+            <keywords scheme="categorisation"><!-- Sinnabschnittseinteilung - relevant für den Fahrkartenautomaten! -->
+               <term xml:id="bezw">Beziehungen zu Wien</term>
+            </keywords>
+         </textClass>
+         <textDesc>
+            <channel>manuscript</channel>
+            <constitution type="single"/>
+            <derivation type="original"/>
+            <domain type="private"/>
+            <factuality type="fact"/>
+            <interaction type="partial"/>
+            <preparedness type="prepared"/>
+            <purpose type="inform"/>
+         </textDesc>
+         <particDesc>
+            <listPerson>
+               <!-- Sender und Adressat -->
+               <person role="sender" xml:id="Gen">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/118538489"/>
+                     <forename>Friedrich von</forename>
+                     <surname>Gentz</surname>
+                  </persName>
+               </person>
+               <person role="receiver" xml:id="FJvS">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/117019496"/>
+                     <forename>Franz Joseph von</forename>
+                     <surname>Saurau</surname>
+                  </persName>
+               </person>
+               <!-- erwähnte Personen -->
+               <person role="named" xml:id="Fr">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/118534955"/>
+                     <forename>Franz II.</forename>
+                     <surname>Heiliges Römisches Reich</surname>
+                     <roleName type="office">Kaiser</roleName>
+                  </persName>
+               </person>
+            </listPerson>
+         </particDesc>
+         <settingDesc>
+            <listPlace>
+               <!-- Start- und Zielort -->
+               <place type="sender" xml:id="plBe">
+                  <country>
+                     <ref target="http://d-nb.info/gnd/4047194-9"/>
+                     <placeName>Preußen</placeName>
+                  </country>
+                  <settlement>
+                     <ref target="http://d-nb.info/gnd/4005728-8"/>
+                     <placeName>Berlin</placeName>
+                  </settlement>
+               </place>
+               <place type="receiver" xml:id="plWi">
+                  <country>
+                     <ref target="http://d-nb.info/gnd/4075601-4"/>
+                     <placeName>Erzherzogtum Österreich</placeName>
+                  </country>
+                  <settlement>
+                     <ref target="http://d-nb.info/gnd/4066009-6"/>
+                     <placeName>Wien</placeName>
+                  </settlement>
+               </place>
+               <!-- erwähnte Orte -->
+               <place type="named" xml:id="plDe">
+                  <country>
+                     <ref target="http://d-nb.info/gnd/2035457-5"/>
+                     <placeName>Deutschland</placeName>  
+                  </country>
+               </place>
+            </listPlace>
+         </settingDesc>
+      </profileDesc>
+      <revisionDesc>
+         <change xml:id="init" when-iso="2018-03-04" who="#edAG">Erstauszeichnung und Normierung des Dokumentes im Rahmen der Masterarbeit der Matrikelnummer 5584124</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <opener>
+            <salute rend="left">Hochgebohrner Herr Graf !</salute>
+            <salute rend="left">Hochgebietender Herr Geheimer Staats- und Finanz-Minister !</salute>
+            <salute rend="left">Gnädigster Herr !</salute>
+         </opener>
+         <div n="1" corresp="#bezw">
+            <p>
+               Ewr. Hochgräfliche Excellentz haben mir durch das <rs type="citation" ref="#c5151-1">huldreiche Schreiben</rs>, womit 
+               mir ein unschätzbares Unterpfand der Allerhöchsten Gnade 
+               <rs type="person" ref="#Fr">Seiner Kayserlichen Majestät</rs> zugestellt worden ist, einen der glücklichsten 
+               Augenblicke meines Lebens zu bereiten geruht. Fest überzeugt, daß ich diese für mich so unendlich ehrenvolle 
+               Belohnung EwrExcellentz erhabner Protection vor allen andern zu danken habe, unterstehe ich mich, Hochdenselben den 
+               Ausdruck der ersten Gefühle, die sie bei mir rege machte, als ein Opfer der tiefsten und gerechtesten Ehrfurcht 
+               darzubringen, und wage es zugleich, einige schwache Zeilen, worin ich gegen 
+               <rs type="person" ref="#Fr">Seine Kayserliche Majestät Allerhöchstselbst</rs> eine Dankbarkeit, die Worte nicht zu 
+               fassen vermögen, auszusprechen versucht habe, EwrExcellentz untertänigst zu überreichen. <pb/>
+            </p>
+            <p>
+               Welchen Eindruck es auf mich machen mußte, mit einem so unerwarteten Zeichen des Allerhöchsten Beifalls 
+               <rs type="person" ref="#Fr">Seiner Kayserlichen Majestät</rs> zugleich die Versicherung zu erhalten, daß ein erhabner 
+               Staatsmann, dessen tiefen Einsichten und preiswürdigen Grundsätzen ich längst, wie alles was in 
+               <rs type="place" ref="#plDe">Deutschland</rs> noch richtig denkt und fühlt, die tiefste Verehrung gewidmet hatte, 
+               meine unvollkommnen Arbeiten Seiner Aufmerksamkeit, und Seines Beifalls nicht unwerth hielt - dies EwrExcellentz zu 
+               sagen, reicht weit über meine Kräfte hinaus. Das Geständniß daß ich durchaus unfähig bin, diesen Eindruck zu 
+               schildern, muß hier die Stelle der Beredsamkeit vertreten.
+            </p>
+            <p>
+               Indem ich der Monarchie, die unmittelbar das Glück EwrExcellentz weiser Führung genießt, dem deutschen Vaterlande, 
+               den Wissenschaften und Künsten, und allem Guten in der Welt, eine lange Fortdauer Ihrer glorreichen Administration 
+               wünsche, sey es mir vergönnt, mich selbst, jetzt <pb/> zu verdoppelten Anstrengungen für die große Sache des Rechts 
+               und der Ordnung ermuntert, Hochdero unschätzbaren Gnade fernerhin zu empfehlen, und in den lebendigsten Gesinnungen 
+               wahrer und tiefer Ehrfurcht und unbegränzter Dankbarkeit zu verharren
+            </p>
+         </div>
+         <closer>
+            <salute rend="right">Ewr. Hochgräflichen Excellentz</salute>
+            <salute rend="right">untertänigster treu-gehorsamster Diener</salute>
+            <dateline rend="left"><rs type="place" ref="#plBe">Berlin</rs> den <date when-iso="1799-11-02">2<span rend="sup">ten</span> November 1799</date>:</dateline>
+            <signed rend="right">Gentz</signed>
+         </closer>
+      </body>
+   </text>
+</TEI>

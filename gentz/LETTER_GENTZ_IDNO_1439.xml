@@ -1,0 +1,1027 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc xml:id="LETTER_GENTZ_1439">
+         <titleStmt>
+            <title>Friedrich von Gentz an Christian Garve, 5. Dezember 1790</title>
+            <editor xml:id="edAG">Andreas Gálffy</editor>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <name>Forschungsstelle "Universitätssammlung Friedrich von Gentz"</name>
+               <link target="http://gentz-digital.ub.uni-koeln.de http://www.ub.uni-koeln.de/cdm/singleitem/collection/gentz/id/1438/"/>
+            </publisher>
+            <pubPlace>Cologne</pubPlace>
+            <idno type="Gentz-Edition-Number" n="1439"/>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <settlement>unknown</settlement>
+                  <idno>destroyed</idno><!-- Manuskript wurde durch Kriegseinwirkungen zerstört -->
+               </msIdentifier>
+               <msContents>
+                  <summary>
+                     Die raschen Antworten Garves erfreuen Gentz. Daher bedauert dieser, dass er selbst kaum zum Antworten kommt. 
+                     Auch bedauert Gentz, dass er aus den letzten Schreiben kein Wohlbefinden Garves vernehmen kann; mehr noch, er 
+                     wünscht sehnlichst, dass das Leiden Garves endlich ein Ende nimmt. Dann kommt Gentz zu Garves Anliegen, 
+                     beginnend mit den französischen Zeitungen. Zwar hat Gentz keinen Kontakt zu denjenigen Leuten, die die 
+                     vornehmen Jornale und Schriften der Revolution halten, aber nichtsdestotrotz ist er gut bedient. Über den 
+                     Buchhändler Schöen gelangt Gentz zum Mercure de France. Dieser schreibt abfällig über die französische 
+                     Revolution. In Deutschland ist man ohnehin fehlinformiert über die Vorgänge in Frankreich.
+                     Gentz ist frohen Mutes über die Revolution und sieht im Scheitern desselben schwerwiegende Folgen voraus, die 
+                     in keinem Maße zu den vergangenen Fehlern stehen. Außer dem Mercure de France hat Gentz Zugriff zum Courier de 
+                     Provence. Auch erhältlich sind der Journal encyclopédique und die Procès verbal der Nationalversammlung. 
+                     Letztere ist für Gentz eine herrliche, aber teure Lektüre. Dann berichtet Gentz von zwei Lektüren, die er 
+                     selbst kürzlich beendet hat. Erstens las er Adam Smith's On national wealth und verfasste dazu eine Analyse 
+                     von 40 Bögen. Er lobt seinen Einsatz für das Wohl der Menschheit und die Vollkommenheit der Schrift. Nebst 
+                     diesen Werk las Gentz zum wiederholten Mal Kants Kritik der Urteilskraft. Er bemängelt die vielen Druckfehler 
+                     im Buch und korrigierte diese. Dieses Unternehmen, so Gentz, der Korrektur und der Sinnerschließung sei 
+                     belehrend für ihn gewesen.
+                     Für den Winter hat Gentz umfangreiche Studien vor: Montesquieu und die Chemievorlesung bei Klaproth. Ebenso 
+                     begeistert erzählt Gentz von seiner Bekanntschaft mit Humboldt, Ancillon und den Mitstreitern der 
+                     Dienstagsgesellschaft. Humboldt sei der Wetzstein seiner Gedanken und die Kreitagsrunde ist auf Gentz, Humboldt 
+                     und Ancillon beschränkt. Frau von Phuls Abwesenheit an den Dienstagen wird lebhaft bedauert; ihr geht es nicht 
+                     wesentlich besser.
+                     Kants Philosophie wurde stümperhaft von Herrn Schwabe aus Stuttgart zu stürzen versucht. Bei solchen Stümpern 
+                     sieht Gentz keine Bedrohung für Garve; diesen sucht er so, zu bestärken.
+                     Gentz weiß nichts aus Breslau, außer der Heirat der Fräulein Müllendorf zu berichten. Er bittet die Lettres de 
+                     Mirabeau zurück. Die Abhandlung kam gut in der Monatsschrift an und Gentz übermittelt Biesters Dank. Ancillon 
+                     konnte nicht an Garve schreiben und Gentz beneidet seinen Arbeitseifer, da er seine eigene Arbeit nicht mag. 
+                     Ancillon denkt oft an Garve.
+                  </summary>
+               </msContents>
+            </msDesc>
+            <listBibl type="preprints">
+               <biblStruct>
+                  <monogr>
+                     <editor>
+                        <persName>
+                           <ref target="http://d-nb.info/gnd/130953075"/>
+                           <forename>Friedrich Carl</forename>
+                           <surname>Wittichen</surname>
+                        </persName>
+                        <persName>
+                           <ref/> <!-- kein GND-Eintrag -->
+                           <forename>Ernst</forename>
+                           <surname>Salzer</surname>
+                        </persName>
+                     </editor>
+                     <title>Briefe von und an Friedrich von Gentz, 4 Bde.</title>
+                     <imprint>
+                        <publisher>Oldenbourg</publisher>
+                        <pubPlace>München, Berlin</pubPlace>
+                        <date>1909-1913</date>
+                     </imprint>
+                     <biblScope unit="volume" n="1">
+                        I
+                     </biblScope>
+                     <biblScope unit="page" from="177" to="187">
+                        Nr. 41
+                     </biblScope>
+                  </monogr>
+               </biblStruct>
+               <biblStruct>
+                  <monogr>
+                     <editor>
+                        <persName>
+                           <forename>Carl G.</forename>
+                           <surname>Schönborn</surname>
+                        </persName>
+                     </editor>
+                     <title>Friedrich von Gentz. Briefe an Christian Garve. (1789-1798.)</title>
+                     <imprint>
+                        <pubPlace>Breslau</pubPlace>
+                        <date>1857</date>
+                     </imprint>
+                     <biblScope unit="page" from="56" to="72">
+                        Nr. VII
+                     </biblScope>
+                  </monogr>
+               </biblStruct>
+            </listBibl>
+            <listBibl type="letterReferenced">
+               <bibl xml:id="c1439-1" corresp="#LETTER_GENTZ_NNNN">nicht bekannter Brief von Christian Garve an Friedrich von Gentz</bibl>
+            </listBibl>
+            <listBibl type="alludedWorks">
+               <bibl xml:id="a1439-1" corresp="#LETTER_GENTZ_NNNN">nicht näher benannte Schrift Garves über König Friedrich Wilhelm II.</bibl>
+               <bibl xml:id="a1439-2" corresp="#LETTER_GENTZ_NNNN">nicht näher benannte Schrift Garves vom Dasein Gottes</bibl>
+               <bibl xml:id="a1439-3" corresp="#LETTER_GENTZ_NNNN">nicht näher benanntes mehrteiliges Werk von Hénault</bibl>
+            </listBibl>
+            <listBibl type="defExpr">
+               <biblStruct xml:id="e1439-1" corresp="Grg-0002">
+                  <monogr>
+                     <editor>
+                        <persName>
+                           <ref target="http://d-nb.info/gnd/119483947"/>
+                           <forename>Jacques</forename>
+                           <surname>Mallet du Pan</surname>
+                        </persName>
+                     </editor>
+                     <title>Mercure de France</title>
+                     <imprint>
+                        <pubPlace>Paris</pubPlace>
+                        <date>1778-1791</date>
+                     </imprint>
+                  </monogr>
+                  <ptr target="http://gazetier-universel.gazettes18e.fr/periodique/mercure-de-france-2-1778-1791"/>
+               </biblStruct>
+               <biblStruct xml:id="e1439-2" corresp="Grg-0001">
+                  <monogr>
+                     <author>
+                        <persName>
+                           <ref target="http://d-nb.info/gnd/118582682"/>
+                           <forename>Honoré-Gabriel de Riquetti</forename>
+                           <surname>de Mirabeau</surname>
+                        </persName>
+                     </author>
+                     <title>Courrier de Provence</title>
+                     <imprint>
+                        <date>1789-1791</date>
+                     </imprint>
+                  </monogr>
+                  <ptr target="http://gazetier-revolutionnaire.gazettes18e.fr/periodique/courrier-de-provence-1789-1791"/>
+               </biblStruct>
+               <biblStruct xml:id="e1439-3" corresp="Grg-0009">
+                  <monogr>
+                     <author>
+                        <persName>
+                           <ref target="http://d-nb.info/gnd/118582682"/>
+                           <forename>Honoré-Gabriel de Riquetti</forename>
+                           <surname>de Mirabeau</surname>
+                        </persName>
+                     </author>
+                     <title>Lettres du comte de Mirabeau à ses commettants</title>
+                     <imprint>
+                        <pubPlace>Paris</pubPlace>
+                        <date>1789</date>
+                     </imprint>
+                  </monogr>
+                  <ptr target="http://gazetier-universel.gazettes18e.fr/periodique/lettres-du-comte-de-mirabeau-ses-commettants-1789"/>
+               </biblStruct>
+               <biblStruct xml:id="e1439-4" corresp="Grg-0008">
+                  <monogr>
+                     <title>Jounral encyclopédique</title>
+                     <imprint>
+                        <pubPlace>Bouillon</pubPlace>
+                        <date>1756-1793</date>
+                     </imprint>
+                  </monogr>
+                  <ptr target="http://gazetier-universel.gazettes18e.fr/periodique/journal-encyclopedique-1756-1793"/>
+               </biblStruct>
+               <biblStruct xml:id="e1439-5" corresp="Grg-0006">
+                  <monogr>
+                     <title>Procès-verbal de l'Assemblée nationale</title>
+                     <imprint>
+                        <publisher>Baudouin</publisher>
+                        <pubPlace>Paris</pubPlace>
+                        <date>1789-1791</date>
+                     </imprint>
+                  </monogr>
+                  <ptr target="http://gazetier-revolutionnaire.gazettes18e.fr/periodique/proces-verbal-de-lassemblee-nationale-1789-1791"/>
+               </biblStruct>
+               <biblStruct xml:id="e1439-6" corresp="Mlw-0000">
+                  <monogr>
+                     <author>
+                        <persName>
+                           <ref target="http://d-nb.info/gnd/118615033"/>
+                           <forename>Adam</forename>
+                           <surname>Smith</surname>
+                        </persName>
+                     </author>
+                     <editor>
+                        <persName>
+                           <ref/>
+                           <forename>Sálvio Marcelo</forename>
+                           <surname>Soares</surname>
+                        </persName>
+                     </editor>
+                     <title>An Inquiry into the Nature and Causes of the Wealth of Nations</title>
+                     <imprint>
+                        <publisher>MetaLibri</publisher>
+                        <date>2007</date>
+                     </imprint>
+                  </monogr>
+                  <ptr target="http://metalibri.wikidot.com/title:an-inquiry-into-the-nature-and-causes-of-the-wealth-of"/>
+               </biblStruct>
+               <biblStruct xml:id="e1439-7" corresp="UDE-0000">
+                  <monogr>
+                     <author>
+                        <persName>
+                           <ref target="http://d-nb.info/gnd/118559796"/>
+                           <forename>Immanuel</forename>
+                           <surname>Kant</surname>
+                        </persName>
+                     </author>
+                     <title>Kritik der Urtheilskraft</title>
+                     <imprint>
+                        <date>1790</date>
+                     </imprint>
+                  </monogr>
+               <ptr target="https://korpora.zim.uni-duisburg-essen.de/Kant/aa05/"/></biblStruct>
+               <biblStruct xml:id="e1439-8" corresp="Dnb-0003">
+                  <monogr>
+                     <author>
+                        <persName>
+                           <ref target="http://d-nb.info/gnd/118650130"/>
+                           <forename>Aristoteles</forename>
+                           <surname/>
+                        </persName>
+                     </author>
+                     <title>Politica</title>
+                     <imprint>
+                        <date>400-301 v. Chr.</date>
+                     </imprint>
+                  </monogr>
+                  <ptr target="http://d-nb.info/gnd/4125035-7"/>
+               </biblStruct>
+               <biblStruct xml:id="e1439-9" corresp="UBi-0028">
+                  <monogr>
+                     <editor>
+                        <persName>
+                           <ref target="http://d-nb.info/gnd/116478799"/>
+                           <forename>Friedrich</forename>
+                           <surname>Gedike</surname>
+                        </persName>
+                        <persName>
+                           <ref target="http://d-nb.info/gnd/116167580"/>
+                           <forename>Johann Erich</forename>
+                           <surname>Biester</surname>
+                        </persName>
+                     </editor>
+                     <title>Berlinische Monatsschrift</title>
+                     <imprint>
+                        <publisher>Haude und Spener</publisher>
+                        <pubPlace>Berlin</pubPlace>
+                        <date>1790</date>
+                     </imprint>
+                  </monogr>
+               <ptr target="http://ds.ub.uni-bielefeld.de/viewer/toc/2239816/1/LOG_0000/"/></biblStruct>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Masterarbeit zu Matrikelnummer 5584124</p>
+         </projectDesc>
+      </encodingDesc>
+      <profileDesc>
+         <creation>
+            <date when-iso="1790-12-05">5. Dezember 1790</date>
+         </creation>
+        <langUsage>
+           <language ident="d">deutsch</language>
+        </langUsage>
+         <textClass>
+            <keywords scheme="internal"><!-- internal: innerhalb des besagten Briefs -->
+               <term>Brief</term>
+               <term>Recht</term>
+               <term>Philosophie</term>
+               <term>Kant</term>
+               <term>Biester</term>
+               <term>Monatsschrift</term>
+               <term>Phul</term>
+               <term>französische Revolution</term>
+            </keywords>
+            <keywords scheme="categorisation"><!-- Sinnabschnittseinteilung - relevant für den Fahrkartenautomaten! -->
+               <term xml:id="vcg">Verhältnis Christian Garve</term>
+               <term xml:id="frz">französische Zeitungen</term>
+               <term xml:id="frv">Französische Revolution</term>
+               <term xml:id="kads">Adam Smith</term>
+               <term xml:id="kant">Kant</term>
+               <term xml:id="bezbl">Beziehungen zu Berlin - Leute</term>
+               <term xml:id="vfa">Verhältnis Friedrich Ancillon</term>
+               <term xml:id="khum">Humboldt</term>
+               <term xml:id="kphul">Phul</term>
+               <term xml:id="bezbr">Beziehungen zu Breslau</term>
+               <term xml:id="bibl">Bibliothek</term>
+               <term xml:id="mss">Monatsschrift</term>
+               <term xml:id="bezbt">Beziehungen zu Berlin - Beamtentätigkeit</term>
+            </keywords>
+         </textClass>
+         <textDesc>
+            <channel>manuscript</channel>
+            <constitution type="single"/>
+            <derivation type="original"/>
+            <domain type="private"/>
+            <factuality type="fact"/>
+            <interaction type="partial"/>
+            <preparedness type="prepared"/>
+            <purpose type="inform"/>
+         </textDesc>
+         <particDesc>
+            <listPerson>
+               <!-- Sender und Adressat -->
+               <person role="sender" xml:id="Gen">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/118538489"/>
+                     <forename>Friedrich von</forename>
+                     <surname>Gentz</surname>
+                  </persName>
+               </person>
+               <person role="receiver" xml:id="Gar">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/118537636"/>
+                     <forename>Christian</forename>
+                     <surname>Garve</surname>
+                  </persName>
+               </person>
+               <!-- erwähnte Personen -->
+               <person role="named" xml:id="Schoen">
+                  <persName>
+                     <ref/><!-- kein GND-Eintrag, kein Buchhändler Schön in den derzeitigen Verzeichnissen ermittelbar! -->
+                     <forename/>
+                     <surname>Schön</surname>
+                  </persName>
+               </person>
+               <person role="named" xml:id="Anc">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/118645110"/>
+                     <forename>Johann Peter Friedrich</forename>
+                     <surname>Ancillon</surname>
+                  </persName>
+               </person>
+               <person role="named" xml:id="MdP">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/119483947"/>
+                     <forename>Jacques</forename>
+                     <surname>Mallet du Pan</surname>
+                  </persName>
+               </person>
+               <person role="named" xml:id="DeLat">
+                  <persName>
+                     <ref/>
+                     <forename/>
+                     <surname>De Latres</surname>
+                     <roleName type="office">geheimer Finanzrat</roleName>
+                  </persName>
+               </person>
+               <person role="named" xml:id="Sau">
+                  <persName>
+                     <ref/>
+                     <forename>Heinrich</forename>
+                     <surname>Saunier</surname>
+                     <roleName type="office">Prediger</roleName>
+                  </persName>
+               </person>
+               <person role="named" xml:id="AdS">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/118615033"/>
+                     <forename>Adam</forename>
+                     <surname>Smith</surname>
+                  </persName>
+               </person>
+               <person role="named" xml:id="Stw">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/118798774"/>
+                     <forename>James</forename>
+                     <surname>Stewart</surname>
+                  </persName>
+               </person>
+               <person role="named" xml:id="Fbn">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/100278884"/>
+                     <forename>François Véron Duverger de</forename>
+                     <surname>Forbonnais</surname>
+                  </persName>
+               </person>
+               <person role="named" xml:id="Mel">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/104273771"/>
+                     <forename>Jean François</forename>
+                     <surname>Melon</surname>
+                  </persName>
+               </person>
+               <person role="named" xml:id="Bue">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/104327952"/>
+                     <forename>Johann Georg</forename>
+                     <surname>Büsch</surname>
+                  </persName>
+               </person>
+               <person role="named" xml:id="Hume">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/118554735"/>
+                     <forename>David</forename>
+                     <surname>Hume</surname>
+                  </persName>
+               </person>
+               <person role="named" xml:id="Fer">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/118686798"/>
+                     <forename>Adam</forename>
+                     <surname>Ferguson</surname>
+                  </persName>
+               </person>
+               <person role="named" xml:id="Mtq">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/118583670"/>
+                     <forename>Charles Louis de Secondat de</forename>
+                     <surname>Montesquieu</surname>
+                  </persName>
+               </person>
+               <person role="named" xml:id="Kla">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/118723367"/>
+                     <forename>Martin Heinrich</forename>
+                     <surname>Klaproth</surname>
+                  </persName>
+               </person>
+               <person role="named" xml:id="Pet">
+                  <persName>
+                     <ref/>
+                     <forename/>
+                     <surname>Petiscus</surname>
+                  </persName>
+               </person>
+               <person role="named" xml:id="Hum">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/118554727"/>
+                     <forename>Wilhelm von</forename>
+                     <surname>Humboldt</surname>
+                  </persName>
+               </person>
+               <person role="named" xml:id="LisH">
+                  <persName>
+                     <ref/>
+                     <forename>Hainchelin</forename>
+                     <surname>Lisette</surname>
+                  </persName>
+               </person>
+               <person role="named" xml:id="Her">
+                  <persName>
+                     <ref/>
+                     <forename/>
+                     <surname>Herz</surname>
+                  </persName>
+               </person>
+               <person role="named" xml:id="KgrE">
+                  <persName>
+                     <ref/>
+                     <forename/>
+                     <surname>Eichmann</surname>
+                     <roleName type="office">Kriegsrätin</roleName>
+                  </persName>
+               </person>
+               <person role="named" xml:id="Dtr">
+                  <persName>
+                     <ref/>
+                     <forename/>
+                     <surname>Dietrich</surname>
+                  </persName>
+               </person>
+               <person role="named" xml:id="Spa">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/117480088"/>
+                     <forename>Georg Ludwig</forename>
+                     <surname>Spalding</surname>
+                  </persName>
+               </person>
+               <person role="named" xml:id="GDhn">
+                  <persName>
+                     <ref/>
+                     <forename/>
+                     <surname>Dohna</surname>
+                     <roleName type="office">Graf</roleName>
+                  </persName>
+               </person>
+               <person role="named" xml:id="KGvB">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/116519770"/>
+                     <forename>Carl Gustav von</forename>
+                     <surname>Brinckmann</surname>
+                  </persName>
+               </person>
+               <person role="named" xml:id="vPhu">
+                  <persName>
+                     <ref/>
+                     <forename>von</forename>
+                     <surname>Phul</surname>
+                  </persName>
+               </person>
+               <person role="named" xml:id="Sel">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/117474460"/>
+                     <forename>Christian Gottlieb</forename>
+                     <surname>Selle</surname>
+                  </persName>
+               </person>
+               <person role="named" xml:id="Rnh">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/118599410"/>
+                     <forename>Karl Leonhard</forename>
+                     <surname>Reinhold</surname>
+                  </persName>
+               </person>
+               <person role="named" xml:id="Shl">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/118607626"/>
+                     <forename>Friedrich</forename>
+                     <surname>Schiller</surname>
+                  </persName>
+               </person>
+               <person role="named" xml:id="Swa">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/117326348"/>
+                     <forename>Johann Christoph</forename>
+                     <surname>Schwabe</surname>
+                  </persName>
+               </person>
+               <person role="named" xml:id="Mer">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/172811724"/>
+                     <forename>Johann Bernhard</forename>
+                     <surname>Merian</surname>
+                  </persName>
+               </person>
+               <person role="named" xml:id="Mdf">
+                  <persName>
+                     <ref/>
+                     <forename/>
+                     <surname>Müllendorf</surname>
+                  </persName>
+               </person>
+               <person role="named" xml:id="Bdl">
+                  <persName>
+                     <ref/>
+                     <forename>Georg Friedrich Christoph von</forename>
+                     <surname>Bardeleben</surname>
+                  </persName>
+               </person>
+               <person role="named" xml:id="Bie">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/116167580"/>
+                     <forename>Johann Erich</forename>
+                     <surname>Biester</surname>
+                  </persName>
+               </person>
+               <person role="named" xml:id="MGar">
+                  <persName>
+                     <ref/>
+                     <forename/>
+                     <surname>Garve</surname>
+                     <roleName type="family">Mutter von Christian Garve</roleName>
+                  </persName>
+               </person>
+            </listPerson>
+         </particDesc>
+         <settingDesc>
+            <listPlace>
+               <!-- Start- und Zielort -->
+               <place type="sender" xml:id="plBe">
+                  <country>
+                     <ref target="http://d-nb.info/gnd/4047194-9"/>
+                     <placeName>Preußen</placeName>
+                  </country>
+                  <settlement>
+                     <ref target="http://d-nb.info/gnd/4005728-8"/>
+                     <placeName>Berlin</placeName>
+                  </settlement>
+               </place>
+               <place type="receiver" xml:id="plBr">
+                  <country>
+                     <ref target="http://d-nb.info/gnd/4047194-9"/>
+                     <placeName>Preußen</placeName>
+                  </country>
+                  <settlement>
+                     <ref target="http://d-nb.info/gnd/4008216-7"/>
+                     <placeName>Breslau</placeName>
+                  </settlement>
+               </place>
+               <place type="named" xml:id="plPa">
+                  <country>
+                     <ref target="http://d-nb.info/gnd/4018145-5"/>
+                     <placeName>Frankreich</placeName>  
+                  </country>
+                  <settlement>
+                     <ref target="http://d-nb.info/gnd/4044660-8"/>
+                     <placeName>Paris</placeName>
+                  </settlement>
+               </place>
+               <!-- erwähnte Orte -->
+               <place type="named" xml:id="plSw">
+                  <country>
+                     <ref target="http://d-nb.info/gnd/4077258-5"/>
+                     <placeName>Schweden</placeName>  
+                  </country>
+               </place>
+               <place type="named" xml:id="plPo">
+                  <country>
+                     <ref target="http://d-nb.info/gnd/4047194-9"/>
+                     <placeName>Preußen</placeName>
+                  </country>
+                  <region>
+                     <ref target="http://d-nb.info/gnd/4046948-7"/>
+                     <placeName>Potsdam</placeName>  
+                  </region>
+               </place>
+               <place type="named" xml:id="plLf">
+                  <country>
+                     <ref target="http://d-nb.info/gnd/4047194-9"/>
+                     <placeName>Preußen</placeName>
+                  </country>
+                  <region>
+                     <ref target="http://d-nb.info/gnd/4526262-7"/>
+                     <placeName>Lichterfelde</placeName>
+                  </region>
+               </place>
+               <place type="named" xml:id="plPy">
+                  <country>
+                     <ref target="http://d-nb.info/gnd/4064376-1"/>
+                     <placeName>Staat Waldeck</placeName>  
+                  </country>
+                  <settlement>
+                     <ref target="http://d-nb.info/gnd/4047920-1"/>
+                     <placeName>Bad Pyrmont</placeName>
+                  </settlement>
+               </place>
+               <place type="named" xml:id="plSt">
+                  <country>
+                     <ref target="http://d-nb.info/gnd/4067029-6"/>
+                     <placeName>Württemberg</placeName>
+                  </country>
+                  <settlement>
+                     <ref target="http://d-nb.info/gnd/4058282-6"/>
+                     <placeName>Stuttgart</placeName>
+                  </settlement>
+               </place>
+            </listPlace>
+         </settingDesc>
+      </profileDesc>
+      <revisionDesc>
+         <change xml:id="init" when-iso="2018-02-05" who="#edAG">Erstauszeichnung und Normierung des Dokumentes im Rahmen der Masterarbeit der Matrikelnummer 5584124</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>     
+      <body>
+         <opener>
+            <dateline><rs type="place" ref="#plBe">Berlin</rs>, den <date when-iso="1790-12-05">5. Dezember 1790</date>.</dateline>
+         </opener>
+         <div n="1" corresp="#vcg">
+            <p>
+               Ihre Gütigkeit, mein teurer, unvergeßlicher Lehrer und Freund ! mir so prompt auf jeden meiner Briefe zu antworten, 
+               verdoppelt natürlicherweise meine immer rege Lust an Sie zu schreiben. Durch eine der angenehmsten Beschäftigungen, 
+               die ich kenne, erkaufe ich mir einen der reellsten Genüsse, die es für mich gibt, zu lesen, oft und wiederholt zu 
+               lesen, daß, was mich angeht, Sie interessiert, und was ich Ihnen mitteilen kann, unterhaltend für Sie ist.
+            </p>
+            <p>
+               Was ich nun freilich am liebsten in Ihren Briefen finden möchte, die Nachricht, daß Ihre Gesundheit, wo nicht ganz 
+               hergestellt, doch einer vollkommnen Herstellung recht nahe wäre, habe ich auch in 
+               <rs type="citation" ref="#c1439-1">Ihrem letzten Schreiben</rs>, leider, noch vergeblich gesucht. Im Gegenteil haben 
+               Sie über Ihren Zustand dort in Ausdrücken gesprochen, die mich äußerst betrübt hätten, wenn ich nicht voraussetzte, 
+               daß eine gewisse Mutlosigkeit, die im Augenblick der ungeteilten Aufmerksamkeit auf lange und hartnäckige Übel so 
+               natürlich ist, Sie nicht kontinuierlich, sondern nur in trüben Stunden beherrscht, und daß Sie vielleicht in bessern 
+               Stunden, mehr Kräfte fühlen, und eine heitrere Existenz genießen, als Sie in jenen Augenblicken selbst glauben.
+            </p>
+            <p>
+               So wünscht sich mein Herz, dem der Gedanke, daß Sie leiden, so schwer zu ertragen ist, durch eine vielleicht 
+               unbescheidne Sophisterei von dem Drückenden in diesem Gedanken, so viel als möglich zu befreien, und sucht, wie man 
+               es so oft bei eigner Not tut, für fremde aber doch so nahe Übel Trostgründe in einem vielleicht ganz chimärischen 
+               Raisonnement.
+            </p>
+            <p>
+               Ich weiß nicht, wie und warum ich die sonderbare Ahndung habe, daß Sie ganz genesen würden, wenn Sie sich in 
+               <rs type="place" ref="#plBe">Berlin</rs> fixieren könnten. Vielleicht ist auch dies eine der gewöhnlichen 
+               Täuschungen, die uns zu blenden pflegen, wenn wir etwas recht lebhaft wünschen, wo wir uns dann immer sehr leicht 
+               einbilden, das Erwünschte sei das nützlichste, das weiseste etc. Indessen dünkt mich doch, Sie haben mir 
+               verschiedentlich eingestanden, daß Sie sich seit geraumer Zeit nicht so wohl befunden hätten, als in den letzten 
+               Wochen Ihres hiesigen Aufenthalts. Doch freilich, wenn dies auch wäre, über welche Umstände müßte ich Herr sein, um 
+               hier durchzusetzen, was ich so gern realisiert sehen möchte !
+            </p>
+         </div>
+         <div n="2" corresp="#frz">
+            <p>
+               Unterdessen will ich fortfahren, Sie, ohne Plan und Ordnung mit einigem, was hier um mich vorgeht, und mit 
+               Nachrichten von mir selbst <pb/> so gut zu unterhalten, als es mir möglich ist. Ich fange für heute damit an, Ihre 
+               beide Fragen zu beantworten.
+            </p>
+            <p>
+               Zuerst, wegen der französischen Zeitschriften. Daß es in Ansehung dieses Punkts in 
+               <rs type="place" ref="#plBe">Berlin</rs> <emph rend="underlined">viel</emph> tröstlicher sei, als in 
+               <rs type="place" ref="#plBr">Breslau</rs>, bezweifle ich stark. Ich glaube wohl, daß einige vornehme Personen, mit 
+               denen ich in keiner Bekanntschaft oder Verbindung bin, die vornehmsten französischen Journale und 
+               Revolutionsschriften kommen lassen. Daß aber Leute vom Mittelstand, Gelehrte, und Buchhändler sie nicht haben und 
+               halten, davon bin ich, leider, vollkommen überzeugt. Indessen wird doch der Hunger nach Neuigkeiten aus 
+               <rs type="place" ref="#plPa">Paris</rs> <emph>einigermaßen</emph> gestillt, indem wir wenigstens eins der besten und 
+               ausführlichsten Journale, den <rs type="citation" ref="#e1439-1">Mercure de France</rs> haben. Der 
+               <rs type="person" ref="#Schoen">Buchhändler Schön</rs> läßt ihn, vorzüglich für 
+               <rs type="person" ref="#Anc">Ancillon</rs> und mich kommen, und <emph rend="underlined">behält ihn</emph> nachher. 
+               Wollen Sie also diesen lesen, so dürfen Sie mir nur melden, <emph rend="underlined">von wann an ohngefähr</emph> Sie 
+               ihn zu haben wünschen: alsdann würde ich mit dem Buchhändler das Nötige verabreden, und mit der ersten guten 
+               Gelegenheit das Paket an Sie abschicken.
+            </p>
+         </div>
+         <div n="3" corresp="#frv">
+            <p>
+               Ich habe, obgleich bloß unter der Anleitung dieses Mercure, seit einiger Zeit die französischen Begebenheiten wieder 
+               mit großer Aufmerksamkeit verfolgt. Ich habe mir sogar aus den unzählbaren Reden für und wider die 
+               <emph rend="underlined">Assignate</emph> Quintessenzen zu ziehen versucht, die alles, was man nur auf beiden Seiten 
+               der Frage sagen kann, konzentrieren, und in einen systematischen Zusammenhang bringen. Ich muß gestehen, daß ich 
+               keins der vielfältigen und zum Teil sehr scheinbaren Argumente <emph rend="underlined">gegen</emph> die Assignate 
+               unüberwindlich gefunden habe. Die allein gültigen setzten immer den <emph rend="underlined">Mißkredit</emph> dieser 
+               Papiere <emph rend="underlined">voraus</emph>. Trifft diese Voraussetzung nicht zu - und, gottlob, es hat das 
+               Ansehen, als würde sie nicht zutreffen, so fallen auch alle Argumente gegen die Assignate zu Boden.
+            </p>
+            <p>
+               Überhaupt bin ich noch nichts weniger als geneigt, an der guten Sache zu verzweifeln. Das Scheitern dieser 
+               Revolution würde ich für einen der härtsten Unfälle halten, die je das menschliche Geschlecht betroffen haben. Sie 
+               ist der erste praktische Triumph der Philosophie, das erste Beispiel einer Regierungsform, die auf Prinzipien und 
+               auf <pb/> ein zusammenhängendes, konsequentes System gegründet wird. Sie ist die Hoffnung und der Trost für so viele 
+               <emph rend="underlined">alte</emph> Übel, unter denen die Menschheit seufzt. Sollte diese Revolution zurückgehen, so 
+               würden alle diese Übel zehnmal unheilbarer. Ich stelle mir so recht lebendig vor, wie allenthalben das Stillschweigen 
+               der Verzweiflung, der Vernunft zum Trotz eingestehen würde, daß die Menschen nur als Sklaven glücklich sein können, 
+               und wie alle große und kleine Tyrannen dieses furchtbare Geständnis nutzen würden, um sich für das Schrecken zu 
+               rächen, was ihnen das Erwachen der französischen Nation eingejagt hatte.
+            </p>
+            <p>
+               Sie haben Recht, daß die Nachrichten, die wir aus Frankreich erhalten, fast nichts als Torheit und Verwirrung 
+               aussagen. Aber zweierlei mildert in meinen Augen diesen ungünstigen Anschein: Erstlich, die unglaubliche Albernheit 
+               und Unzuverlässigkeit unsrer elenden Zeitungen. Zweitens, der Umstand, daß Deutschland überhaupt die meisten 
+               französischen Neuigkeiten von Leuten erhält, die der Revolution nicht wohlwollen, und daß die, welche diese 
+               Neuigkeiten uns vortragen, aus Furcht vor ihren Obrigkeiten fast durchgängig genötigt sind, das wahrhaft Große und 
+               Schöne, was sie noch etwa zu sagen hätten, zu unterdrücken, und uns Possen und Schlacken hinzuwerfen.
+            </p>
+         </div>
+         <div n="4" corresp="#frz">
+            <p>
+               Der <ref target="#r1439-1">Redakteur</ref> des <rs type="citation" ref="#e1439-1">Mercure de France</rs> ist ein 
+               äußerst parteiischer Gegner der Revolution. Anfänglich war er, ohngeachtet seiner Parteilichkeit, doch sehr gemäßigt 
+               und sogar billig. Von einem Stück zum andern wird er ungerechter, hitziger, und intoleranter. Er gibt das, was die 
+               herrschende Partei der Nationalversammlung sagt, im magersten Auszuge, und was die ihm gefallende Antagonisten 
+               sprechen, schmückt er mit sichtbarem Wohlgefallen aus. Alle diese Fehler hindern nicht, daß ich dieses Journal mit 
+               Vergnügen lese, weil es denn doch das einzige ist, welches ich, außer dem, was deutsche Papiere schwatzen, habhaft 
+               werden kann, und weil es wenigstens sehr gut geschrieben ist. Auch kann ich Sie versichern, daß alle Klagen und alle 
+               Sarkasmen dieser Schrift mich nicht im geringsten abhalten, zu sehen, daß die Nationalversammlung immer noch 
+               zweckmäßig und weise handelt, daß die Unruhen und Exzesse lange so groß nicht sind, als man sie hin und wieder <pb/> 
+               macht, daß die Aussichten für die Zukunft heitrer sind, als die Feinde sie schildern, und daß, wenn keine 
+               unvorhergesehene Hindernisse eintreten, wahrscheinlich ein glückliches Ende das größte Werk, was die Geschichte 
+               aufweisen kann, krönen wird.
+            </p>
+            <p>
+               Außer dem <rs type="citation" ref="#e1439-1">Mercure</rs> läßt sich nun <rs type="person" ref="#Anc">Ancillon</rs>, 
+               zwar nicht wöchentlich oder monatlich, sondern in ganzen Lieferungen den 
+               <rs type="citation" ref="#e1439-2">Courier de Provence</rs> schicken. Sie kennen die hinreißende, wenn gleich nicht 
+               immer genugtuende und zuverlässige Manier dieses Schriftstellers. Sie haben selbst noch die 
+               <rs type="citation" ref="#e1439-3">Briefe, die vor dem Courier de Provence hergingen</rs>. Könnten Sie sie bei einer 
+               guten Gelegenheit zurückschicken, so würde es Ancillon und mir lieb sein. Er hat jetzt den 
+               <rs type="citation" ref="#e1439-2">Courier de Provence</rs> bis zum August des Jahres einbinden lassen; und wird 
+               sich eine Freude machen, Ihnen davon einige Teile zu schicken. Was meinen Sie, daß ich ihn jetzt von Anfang bis zu 
+               Ende durchlese ?
+            </p>
+            <p>
+               Noch ist hier das <rs type="citation" ref="#e1439-4">Journal Encyclopédique</rs> zu haben, worin das Journal der 
+               Nationalversammlung zwar sehr zuverlässig, und unparteiisch, aber sehr <emph rend="underlined">mager</emph>, zu 
+               finden ist.
+            </p>
+            <p>
+               Das herrlichste von allem ist nun freilich der <emph rend="underlined">Procès verbal</emph> der Nationalversammlung 
+               selbst, der aber schon ein ungeheures Werk ausmacht, und den nur (meines Wissens) ein einziger Mann in 
+               <rs type="place" ref="#plBe">Berlin</rs> hat: dies ist der 
+               <rs type="person" ref="#DeLat">gewesne Geheime Finanzrat De Latres</rs>, den aber unglücklicherweise niemand von denen, 
+               die ich genauer kenne, kennt. Der <rs type="person" ref="#Sau">Prediger Saunier</rs>, der den größten Teil dieser 
+               voluminösen Akten gelesen hat, hat mich versichert, daß besonders die Rapports der verschiednen Komitees, die darin 
+               befindlich sind, eine Sammlung der meisterhaftesten Aufsätze über alle Teile der Staatsverfassung ausmachen. Dieses 
+               Journal zu halten, ist ein Objekt von 80 bis 100 Taler jährlich.
+            </p>
+            <p>
+               Ich kann, wie Sie sehen, von dem, was die französische Revolution angeht, nicht leicht wieder abkommen: aber ich 
+               weiß, daß auch <pb/> für Sie diese Materie viel Interesse hat. Ihr erleuchteter Geist und Ihr menschenliebendes Herz 
+               werden gemeinschaftlich dabei aufgefordert, und ein Versuch zur Menschenverbesserung im großen ist eine zu wichtige 
+               Erscheinung für einen praktischen Weisen.
+            </p>
+         </div>
+         <div n="5" corresp="#kads">
+            <p>
+               Ich will nun durch einen allmächtigen Sprung von einem der größten Gegenstände unter der Sonne zu einem der 
+               unbedeutendsten übergehen. Ich will Ihnen erzählen, womit <emph rend="underlined">ich</emph> mich beschäftige, und 
+               wie ich mich diesen Winter durch zu beschäftigen und zu unterhalten gedenke.
+            </p>
+            <p>
+               Ich habe kürzlich 2 große, aber nicht neue Lektüren geendigt. Erstlich habe ich 
+               <rs type="person" ref="#AdS">Smith</rs> <rs type="citation" ref="#e1439-6">on national wealth</rs> zum drittenmal 
+               mit größter Aufmerksamkeit durchstudiert, und mir eine Analyse von 40 Bogen daraus gemacht. Ich erinnre mich, daß 
+               ich zuweilen, jedoch nur beiläufig, mit Ihnen über dieses Buch gesprochen habe: aber mich dünkt, Sie ließen sich 
+               nicht mit dem uneingeschränkten Lobe darüber aus, welches ich ihm von jeher beigelegt habe. Meines Erachtens ist es 
+               fürs erste, bei weitem das vollkommenste Werk, was je in irgend einer Sprache über diesen Gegenstand geschrieben 
+               ist, und ich kann nicht leugnen, daß <rs type="person" ref="#Stw">Stewart</rs>, 
+               <rs type="person" ref="#Fbn">Forbonnais</rs>, <rs type="person" ref="#Mel">Melon</rs>, 
+               <rs type="person" ref="#Bue">Büsch</rs> etc. und alle die mir noch bisher in die Hände gekommen sind, in einer 
+               großen Entfernung hinter <rs type="person" ref="#AdS">Smith</rs> zurückbleiben. Außer diesem spezifischen Verdienst 
+               aber, halte ich es überhaupt, in Ansehung der Methode und in Ansehung der Schreibart für eins der vollendetsten und 
+               musterhaftsten Bücher, die in irgendeiner Wissenschaft existieren mögen. So viel Klarheit mit so viel Tiefsinn 
+               vereinigt, eine solche, kalte, gelassne Untersuchung neben einem so warmen Eifer fürs Wohl der Menschheit, eine 
+               solche nie unterbrochne Ordnung bis in die kleinsten Abteilungen und Zweige eines so bewundernswürdigen Systems, und 
+               eine solche Einheit des Ganzen, findet man doch wirklich in äußerst wenigen philosophischen Untersuchungen. In 
+               Ansehung des Stils gestehe ich Ihnen, daß ich den <rs type="person" ref="#AdS">Smith</rs> für den vollkommensten 
+               <pb/> englischen Prosaisten halte; weder <rs type="person" ref="#Hume">Hume</rs> noch 
+               <rs type="person" ref="#Fer">Ferguson</rs>, die am bequemsten mit ihm zu vergleichen sind, und die ihn in einzelnen 
+               Eigenschaften, in Witz, in Kraft, in Mannigfaltigkeit übertreffen mögen, finde ich so von allen Seiten betrachtet, 
+               korrekt und untadelhaft. Von deutschen Schriftstellern ist nur ein einziger, in dessen Schreibart ich eine 
+               Ähnlichkeit mit der seinigen, und zwar in vielen Punkten finde, und das ist <rs type="person" ref="#Gar">Garve</rs>. 
+               Aber auch nur dieser: und vielleicht sind Sie selbst billig genung, um dies einzugestehen.
+            </p>
+         </div>
+         <div n="6" corresp="#kant">
+            <p>
+               Nach diesem habe ich denn abermals die 
+               <rs type="citation" ref="#e1439-7"><emph rend="underlined">Kritik der Urteilskraft</emph></rs> gelesen, und wirklich 
+               mit großer Anstrengung gelesen. Es ist Ihnen bekannt genung, daß die Schwierigkeiten bei diesem Buch von doppelter 
+               Art sind. Einmal muß man jede Stelle <emph rend="underlined">kritisch</emph> lesen, um nur (so weh 
+               <emph rend="underlined">mir</emph> auch dies Geständnis tut) die Druckfehler, wovon alles noch wimmelt (ohnerachtet 
+               ich bei der <emph rend="underlined">zweiten</emph> Korrektur einige tausende weggeschafft habe), auszustoßen, und 
+               nur grammatisch den Sinn zu erraten. Nachher kömmt dann erst die Dunkelheit der Sache. Es ist ein starkes, aber doch 
+               auch sehr belehrendes Unternehmen, sich an dieses Werk zu machen.
+            </p>
+            <p>
+               Die neue Edition desselben, nach der Sie sich erkundigen, scheint, so nötig sie auch sein mag, noch weit im Felde zu 
+               sein. Es hieß, sie sollte auf Ostern erscheinen. Noch sind aber keine Anstalten da.
+            </p>
+         </div>
+         <div n="7" corresp="#bezbl">
+            <p>
+               Für diesen Winter soll das Studium der ersten Grundsätze der gesellschaftlichen Verbindung, und der 
+               Staateneinrichtung mein Hauptzweck sein. Ich habe darum den <rs type="person" ref="#Mtq">Montesquieu</rs> wieder mit 
+               wahrem Eifer vorgenommen, und will ihn recht kritisch durchgehen. Der Himmel schenke mir nur Zeit und Muße von 
+               meinen - ach ! Sie wissen es ja ! - mir so unangenehmen Amtsgeschäften !
+            </p>
+            <p>
+               Den chemischen Kursus bei <rs type="person" ref="#Kla">Klaproth</rs> werde ich wiederholen. Und 
+               <rs type="person" ref="#Pet">Petiscus</rs>, der diesen ganzen Winter in Berlin bleibt, und dicht neben mir wohnt, 
+               dient mir zu einer heilsamen Repetition der griechischen Literatur. Ich lese den Plato mit ihm.
+            </p>
+            <p>
+               Sind das nicht starke Unternehmungen für einen geplagten, sklavisch belasteten Geheimen Sekretär ? <pb/>
+            </p>
+         </div>
+         <div n="8" corresp="#vfa">
+            <p>
+               Mein vorzüglichster Umgang besteht noch immer in <rs type="person" ref="#Anc">Ancillon</rs>. Nichts ist mir gewisser, 
+               als daß ich nie in meinem Leben, einen harmonischer zu mir gestimmten Menschen finden werde.
+            </p>
+         </div>
+         <div n="9" corresp="#khum">
+            <p>
+               Nach ihm habe ich jetzt einen sehr angenehmen Gesellschafter in <rs type="person" ref="#Hum">Herrn von Humboldt</rs> 
+               erworben, den Sie mir selbst vor Ihrer Abreise empfahlen. Wir sind uns jetzt näher gerückt, und kommen sehr oft und 
+               vertraut zusammen. Er ist einer der scharfsinnigsten und besten Köpfe, die mir je vorgekommen sind. Er hat sowohl 
+               Witz, als Tiefsinn. Er ist besonders ein furchtbarer Dialektiker: nichts ist schwerer aber auch belehrender als 
+               einen langen Streit mit ihm auszuhalten. Ich nenne ihn gewöhnlich den <emph rend="underlined">Wetzstein</emph> des 
+               Verstandes. Wenn ich eine Materie so durchdacht habe, daß ich glaube, nun könnte mich wohl kein Einwurf mehr 
+               erschüttern, so erstaune ich zuweilen über seine Kunst, Einwürfe gleichsam zu 
+               <emph rend="underlined">erschaffen</emph>. Sie sollten unsern philosophischen Unterredungen beiwohnen: ich bin 
+               überzeugt, Sie würden mit uns zufrieden sein, Sie würden sich vielleicht belustigen.
+            </p>
+         </div>
+         <div n="10" corresp="#bezbl">
+            <p>
+               Wir haben auf jeden Freitag eine unwandelbare Zusammenkunft festgesetzt. Die erste und heiligste Regel dabei ist 
+               die: es darf niemand als <rs type="person" ref="#Hum">Humboldt</rs>, <rs type="person" ref="#Anc">Ancillon</rs> und 
+               ich in diesem ganz engen Kreise erscheinen. Es ist nur zu ausgemacht, daß man in Gesellschaften, die zahlreicher 
+               sind als drei, selten oder nie etwas lernen kann. Man streitet nicht mehr: man <emph rend="underlined">schreit</emph>. 
+               Man entwickelt nichts: denn man balgt sich ohne Zweck und Ziel, und ohne Erfolg über die ersten Grundsätze herum. 
+               Diese müssen feststehen, und noch mehr: die Progressen der Menschen, welche mit wahrem Nutzen über wichtige 
+               Gegenstände sprechen wollen, müssen durchaus ohngefähr gleich sein, wenn etwas herauskommen soll. Dies ist der 
+               Grund, weshalb dies Kleeblatt sich so eigensinnig selbst genung sein will.
+            </p>
+            <p>
+               Außerdem ist alle Dienstage eine recht angenehme Gesellschaft entstanden, welche der 
+               <emph rend="underlined">Damentee</emph> heißt. Sie versammelt sich einmal bei der 
+               <rs type="person" ref="#LisH">Demoiselle Hainchelin</rs>, einmal bei <rs type="person" ref="#Her">Madame Herz</rs>, 
+               einmal bei der <rs type="person" ref="#KgrE">Kriegsrätin Eichmann</rs>, und einmal bei 
+               <rs type="person" ref="#Dtr">Mademoiselle Dietrich</rs>. Zu diesem Tee sind folgende junge Mannspersonen ein für 
+               allemal geladen: <pb/> <rs type="person" ref="#Spa">Spalding</rs>, <rs type="person" ref="#Hum">Humboldt</rs>, ein 
+               sehr artiger und wohlunterrichteter <rs type="person" ref="#GDhn">Graf Dohna</rs>, der seit einiger Zeit hier ist, 
+               <rs type="person" ref="#Anc">Ancillon</rs> und ich. Außer diesen bittet aber jede Dame, bei welcher der Tee ist, 
+               noch wen sie will. Dieses Institut hat der jetzt nach <rs type="place" ref="#plSw">Schweden</rs> zurückgekehrte 
+               <rs type="person" ref="#KGvB">Brinkmann</rs> kurz vor seiner Abreise zustande gebracht: und es ist wirklich ein 
+               recht schätzbares Vermächtnis, was er seinen Freunden hinterlassen hat.
+            </p>
+         </div>
+         <div n="11" corresp="#kphul">
+            <p>
+               Sie können glauben, wie tief wir es alle fühlen, daß unsre gute <rs type="person" ref="#vPhu">Frau von Phul</rs> in 
+               diesem Zirkel nicht erscheinen kann. Das Schicksal dieser trefflichen Person ist schrecklich. Sie ist jetzt in 
+               <rs type="place" ref="#plPo">Potsdam</rs>, und ihre Kur wird unter <rs type="person" ref="#Sel">Selle</rs>s 
+               Direktion getrieben. Hoffnung zu ihrer Genesung ist noch immer da: sie hat Intervalle von Vernunft: aber die 
+               Perioden, in denen sie ihres Verstandes beraubt ist, sind lang und traurig. Sie können sich vorstellen, was der 
+               arme Mann dabei leidet. Bis zum späten Herbst ist sie in <rs type="place" ref="#plLf">Lichterfelde</rs> gewesen: 
+               ich habe einige der traurigsten Wochen mit ihrer Familie da zugebracht; ich habe sie täglich gesehen: aber damals 
+               war sie so von Sinnen, daß sie mich durchaus nicht erkannte, da sie sich doch, wie ihre Kammerjungfer versichert, 
+               in <rs type="place" ref="#plPy">Pyrmont</rs>, im Anfange ihrer Verrückung beständig nach mir gesehnt hat. 
+               <rs type="person" ref="#Sel">Selle</rs> will sie bloß durch kalte Bäder heilen: mir mißfällt seine ganze Kurart, 
+               und tausendmal habe ich mich schon an Ihre so gegründete Äußerung: 
+               <emph rend="underlined">Ich mag keinen metaphysischen Arzt</emph> - bei dieser Gelegenheit erinnert.
+            </p>
+         </div>
+         <div n="12" corresp="#kant">
+            <p>
+               Von gelehrten Neuigkeiten weiß ich nicht viel. Man sagt, daß <rs type="person" ref="#Rnh">Reinhold</rs> diesen 
+               Winter, und <rs type="person" ref="#Shl">Schiller</rs> für beständig nach <rs type="place" ref="#plBe">Berlin</rs> 
+               kommen wird. <rs type="person" ref="#Swa">Herr Schwabe</rs> aus <rs type="place" ref="#plSt">Stuttgart</rs> hat 
+               neulich einen Versuch ge<pb/>macht, die Kantsche Philosophie <emph rend="underlined">mit einem Hiebe</emph> zu 
+               vertilgen. Er hat durch <rs type="person" ref="#Mer">Herrn Merian</rs> ein fürchterliches Mémoire in der Akademie 
+               vorlesen lassen, welches schon vorher soviel Aufsehen erregt hatte, daß verschiedne Fremde (d. h. aus 
+               <rs type="place" ref="#plBe">Berlin</rs>) der Session diesen Tag beiwohnten. Der Ausgang ist sehr unbedeutend 
+               gewesen. Im ersten Teil seines Mémoire bewies <rs type="person" ref="#Swa">Herr Schwabe</rs> mit viel Witz und 
+               Beredsamkeit weiter nichts, als daß er seinen Gegner nicht verstanden hatte. Im andern führte er 
+               - horribile dictu - gar ein ganz neues System auf. Gestehen Sie: schlechter kann man einen kritischen Zweifler 
+               nicht widerlegen. - <rs type="person" ref="#Sel">Herr Selle</rs> arbeitet ebenfalls an einem großen Sturm auf das 
+               Kantsche System; und <rs type="person" ref="#Mer">Merian</rs> freute sich schon im Geist, wie vor Ablauf eines 
+               Jahrs seine beiden Todfeinde: die Kantsche Philosophie, und die französische Revolution, in den Abgrund gestürzt 
+               liegen werden.
+            </p>
+         </div>
+         <div n="13" corresp="#vcg">
+            <p>
+               Warum soll uns das Unglück drohen, gegen alle diese streitsüchtige Helden und ihre Gefechte, nicht mehr auf eine 
+               süße Erholung in einem Produkt Ihrer sanften, der Wahrheit und der Schönheit allein geweihten Feder hoffen zu 
+               dürfen ? Warum soll ich das traurige Geheimnis mit mir herumtragen, daß <rs type="person" ref="#Gar">Garve</rs> 
+               vielleicht für die Literatur seines Vaterlandes verstummen will ? Nein ! meine Stimme ist schwach: aber diese 
+               Stimme soll doch ohne Unterlaß gegen einen solchen Vorsatz tönen. Bringen Sie uns um nichts von dem, was wir einst 
+               ohne Ersatz werden entbehren müssen. Kein Wechsel in den Systemen, keine Mode in der Bücherschreibekunst kann je den 
+               eigentümlichen Reiz Ihrer Schriften verdunkeln. Sie werden immer interessant, immer neu bleiben. Von 
+               <rs type="citation" ref="#a1439-1">Ihrem Werke über den König</rs> sage ich nicht einmal etwas. Über dieses werde 
+               ich ungestüm in Sie dringen. Aber auch die <rs type="citation" ref="#a1439-2">Schrift vom Dasein Gottes</rs>, und 
+               den <rs type="citation" ref="#e1439-8">Aristoteles</rs> schenke ich Ihnen nicht. Verzeihen Sie mir meine wilde 
+               Zudringlichkeit. Das Vertrauen, womit Sie mich beehrt haben, rechtfertigt sie. Mein Herz spricht so warm, als mein 
+               Verstand hiebei klar sieht: ich gönne andern meine schönsten Empfindungen: und ich weiß, wie glücklich mich die 
+               Erscheinung dieser <pb/> Schriften machen wird. Geben Sie mir in Ihrem nächsten Briefe bessre Hoffnungen !
+            </p>
+            <p>
+               Wie gern, wie herzlich gern, möchte ich Ihnen manche Stunden des für Sie gewiß traurigen Winters hinbringen helfen. 
+               Wie gern vertauschte ich augenblicklich meine ganze hiesige Lage gegen den Aufenthalt in 
+               <rs type="place" ref="#plBr">Breslau</rs>, wenn mir auch vorgeschrieben wäre, daß ich nichts da genießen sollte, 
+               als - Sie, und die Freiheit. Vielleicht würde Sie meine Anwesenheit manchmal erheitern. Meine Seele gefällt sich 
+               wohl in diesem Gedanken.
+            </p>
+         </div>
+         <div n="14" corresp="#bezbr">
+            <p>
+               Von Veränderungen, die sich neuerlich in Breslau zugetragen haben, habe ich keine interessantre erfahren, als die 
+               Heirat der <rs type="person" ref="#Mdf">Mademoiselle Müllendorf</rs>. Sie hat mich einigermaßen befremdet. Nicht 
+               etwa, weil der junge Mann, wie man sich auszudrücken pflegt, <emph rend="underlined">nichts ist</emph>: dieser 
+               Grund wäre wirklich weit unter mir: aber, weil er, wie mich dünkt das nicht hat, was ein Mädchen, wie dieses, 
+               eigentlich ernsthaft gewinnen kann. Doch in diesem Teil der Seelenlehre sieht es gar dunkel aus. Ein weibliches 
+               Herz ist ein tiefres Rätsel, als das Problem der Isochrone.
+            </p>
+         </div>
+         <div n="15" corresp="#bibl">
+            <p>
+               Gegenwärtiger Brief kömmt Ihnen zu durch den <rs type="person" ref="#Bdl">Leutnant von Bardeleben</rs> von hier. 
+               Zugleich erhalten Sie die beiden längst versprochnen Teile des <rs type="citation" ref="#a1439-3">Hénault</rs>. Sie 
+               kosten 2 Reichsthaler 14 Groschen. <rs type="person" ref="#Bdl">Herr von Bardeleben</rs> geht in vier Wochen von 
+               <rs type="place" ref="#plBr">Breslau</rs> wieder ab. Wollen Sie diese Gelegenheit nützen, mir die 
+               <rs type="citation" ref="#e1439-3">Lettres de Mirabeau</rs> zurückzusenden, so wird er gern den Auftrag übernehmen.
+            </p>
+         </div>
+         <div n="16" corresp="#mss">
+            <p>
+               <rs type="person" ref="#Bie">Biester</rs> dankt Ihnen nochmals sehr für den Aufsatz, der allen Lesern der 
+               <rs type="citation" ref="#e1439-9">Monats Schrift</rs> gewiß sehr angenehm gewesen ist. Die Fortsetzung würde es 
+               nicht minder sein. Ich möchte besonders (für mich specialiter) wohl über die Quaestiones Juris in dieser Sache Ihre 
+               Meinung wissen, weil ich zeither viel darüber gedacht habe.
+            </p>
+         </div>
+         <div n="17" corresp="#vfa">
+            <p>
+               <rs type="person" ref="#Anc">Ancillon</rs> muß ich sehr dringend bei Ihnen entschuldigen. Ihre Güte, an ihn zu 
+               schreiben, hat ihn in der Tat innig gerührt und beschämt. Er ist tagtäglich im Begriff zu antworten, und wollte es 
+               mit der gegenwärtigen <pb/> Gelegenheit ohnfehlbar tun. Aber - er macht Predigten: und es ist unglaublich, wie sehr 
+               dies den Menschen verstimmt. Sie kennen ihn, meines Bedünkens, hinreichend, um wenigstens allgemein zu begreifen, 
+               wie dieses Phänomen auseinandergeht. Er liebt seinen Stand nicht: und er hat doch Ehrgeiz, und zwar selbst 
+               Standesehrgeiz: er will, da er einmal predigen <emph rend="underlined">muß</emph>, doch gern vortrefflich predigen. 
+            </p>
+         </div>
+         <div n="18" corresp="#bezbt">
+            <p>
+               Ich bin um die Hälfte glücklicher: ich liebe meinen Stand vielleicht weniger als er den seinigen: ich habe dazu 
+               wirklich außer den meinem Individuo eignen, auch allgemein geltende, solide Ursachen: aber dafür besteht meine 
+               qualvolle Arbeit in Sachen, die man fast nicht schlecht machen <emph rend="underlined">kann</emph>, sobald man den 
+               Menschenverstand hat. Mich drückt nichts, als die Notwendigkeit, auf diese mir verhaßte mit meinem ganzen Wesen 
+               nicht harmonierende Art zu arbeiten. Die Ausführung der Arbeit selbst ist mir ein Kinderspiel.
+            </p>
+         </div>
+         <div n="19" corresp="#vfa">
+            <p>
+               Übrigens denkt er oft und mit aller der Verehrung und Zärtlichkeit an Sie, die der, welcher in so vielen 
+               Betrachtungen der Freund meiner Seele ist, durchaus kennen und fühlen muß.
+            </p>
+         </div>
+         <div n="20" corresp="#vcg">
+            <p>
+               Ich schließe diese - ach ! gewiß <emph rend="underlined">zu</emph> lange Epistel mit der Bitte, mich Ihrer würdigen 
+               <rs type="person" ref="#MGar">Frau Mutter</rs> aufs beste zu empfehlen, und mir Ihr Andenken und den Anteil an 
+               Ihrer Freundschaft zu erhalten, den ich unter die Bedingungen meiner Glückseligkeit rechne. Leben Sie wohl und 
+               denken Sie an Ihren aufrichtig ergebensten
+            </p>
+         </div>
+         <closer>
+            <signed rend="right">Gentz.</signed>
+         </closer>
+      </body>
+      <note resp="#edAG" xml:id="r1439-1">Laut dieser Beschreibung<ptr target="http://dictionnaire-journaux.gazettes18e.fr/journal/0925-mercure-de-france-2"/> war zu dieser Zeit <rs type="person" ref="#MdP">Jacques Mallet du Pan</rs> Redakteur der Zeitung. Nach dieser Seite hatte der Mercure de France unter seiner Redaktur monarchistische Tendenzen angenommen.</note>
+   </text>
+</TEI>

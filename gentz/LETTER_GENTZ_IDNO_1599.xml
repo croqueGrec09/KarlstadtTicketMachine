@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader type="text">
+      <fileDesc xml:id="LETTER_GENTZ_1599">
+         <titleStmt>
+            <title>Friedrich von Gentz an Karl Gustav von Brinckmann, 12. August 1792</title>
+            <editor xml:id="edAG">Andreas Gálffy</editor>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <name>Forschungsstelle "Universitätssammlung Friedrich von Gentz"</name>
+               <link target="http://gentz-digital.ub.uni-koeln.de http://www.ub.uni-koeln.de/cdm/singleitem/collection/gentz/id/1598/"/>
+            </publisher>
+            <pubPlace>Cologne</pubPlace>
+            <idno type="Gentz-Edition-Number" n="1599"/>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <country>Sweden</country>
+                  <settlement>Trolle-Ljungby</settlement>
+                  <institution>Archiv des Grafen Wachtmeister</institution>
+                  <repository>Nachlaß Brinckmann, Ausländ. Briefwechsel, Gentz an Brinckmann</repository>
+                  <idno>G 3</idno>
+               </msIdentifier>
+               <msContents>
+                  <summary>
+                     Das grüne Buch muss nun endlich weg und so schickt es Gentz zu Brinckmann. Gentz ist mit Leuten, die nicht 
+                     genauer bestimmt sind, in Friedrichsfelde und weist Brinckmann darauf hin.
+                  </summary>
+               </msContents>
+            </msDesc>
+            <listBibl type="alludedWorks">
+               <bibl xml:id="a1599-1" corresp="#LETTER_GENTZ_NNNN">ein grünes Buch ohne genannten Titel</bibl>
+            </listBibl>
+            <listBibl type="defExpr">
+               <biblStruct xml:id="e1599-1" corresp="UBi-0022">
+                  <monogr>
+                     <editor>
+                        <persName>
+                           <ref target="http://d-nb.info/gnd/116167580"/>
+                           <forename>Johann Erich</forename>
+                           <surname>Biester</surname>
+                        </persName>
+                     </editor>
+                     <title>Berlinische Monatsschrift</title>
+                     <imprint>
+                        <pubPlace>Jena</pubPlace>
+                        <publisher>Haude und Spenersche Buchhandlung</publisher>
+                        <date>1792</date>
+                     </imprint>
+                  </monogr>
+                  <note>Der Aufsatz ist nicht näher benannt</note>
+               <ptr target="http://ds.ub.uni-bielefeld.de/viewer/image/2239816_019/1/LOG_0003/"/></biblStruct>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Masterarbeit zu Matrikelnummer 5584124</p>
+         </projectDesc>
+      </encodingDesc>
+      <profileDesc>
+         <creation>
+            <date when-iso="1792-08-12">12. August 1792</date>
+         </creation>
+        <langUsage>
+           <language ident="d">deutsch</language>
+        </langUsage>
+         <textClass>
+            <keywords scheme="internal"><!-- internal: innerhalb des besagten Briefs -->
+               <term>Billet</term>
+               <term>Treffen</term>
+               <term>Friedrichsfeld</term>
+            </keywords>
+            <keywords scheme="categorisation"><!-- Sinnabschnittseinteilung - relevant für den Fahrkartenautomaten! -->
+               <term xml:id="mss">Monatsschrift</term>
+               <term xml:id="bezbl">Beziehungen zu Berlin - Leute</term>
+            </keywords>
+         </textClass>
+         <textDesc>
+            <channel>manuscript</channel>
+            <constitution type="single"/>
+            <derivation type="original"/>
+            <domain type="private"/>
+            <factuality type="fact"/>
+            <interaction type="partial"/>
+            <preparedness type="unprepared"/>
+            <purpose type="inform"/>
+         </textDesc>
+         <particDesc>
+            <listPerson>
+               <!-- Sender und Adressat -->
+               <person role="sender" xml:id="Gen">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/118538489"/>
+                     <forename>Friedrich von</forename>
+                     <surname>Gentz</surname>
+                  </persName>
+               </person>
+               <person role="receiver" xml:id="KGvB">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/116519770"/>
+                     <forename>Carl Gustav von</forename>
+                     <surname>Brinckmann</surname>
+                  </persName>
+               </person>
+               <!-- erwähnte Personen -->
+            </listPerson>
+         </particDesc>
+         <settingDesc>
+            <listPlace>
+               <!-- Start- und Zielort -->
+               <place type="sender" xml:id="plBe">
+                  <country>
+                     <ref target="http://d-nb.info/gnd/4047194-9"/>
+                     <placeName>Preußen</placeName>
+                  </country>
+                  <settlement>
+                     <ref target="http://d-nb.info/gnd/4005728-8"/>
+                     <placeName>Berlin</placeName>
+                  </settlement>
+               </place>
+               <!-- erwähnte Orte -->
+               <place type="named" xml:id="plFd">
+                  <country>
+                     <ref target="http://d-nb.info/gnd/4047194-9"/>
+                     <placeName>Preußen</placeName>
+                  </country>
+                  <settlement>
+                     <ref target="http://d-nb.info/gnd/4394762-1"/>
+                     <placeName>Friedrichsfelde</placeName>
+                  </settlement>
+               </place>
+            </listPlace>
+         </settingDesc>
+      </profileDesc>
+      <revisionDesc>
+         <change xml:id="init" when-iso="2018-02-06" who="#edAG">Erstauszeichnung und Normierung des Dokumentes im Rahmen der Masterarbeit der Matrikelnummer 5584124</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>     
+      <body>
+         <opener resp="#KGvB">
+            <dateline rend="right">Den <date when-iso="1792-08-12">12. Aug. 1792</date>.</dateline>
+         </opener>
+         <div n="1" corresp="#mss">
+            <p>
+               Da ich doch das <rs type="citation" ref="#a1599-1">grüne Buch</rs> endlich weggeben muß, es auch immer gleich 
+               schlecht bleibt, und keine Hoffnung zur Beßerung vorhanden ist - so empfangen Sie es hiemit, und sehen Sie, was Sie 
+               zu thun haben. Wohl mir, daß ich den <rs type="citation" ref="#e1599-1">Aufsatz in der Monats Schrift</rs> so 
+               <emph rend="underlined">grob</emph> corrigirt habe !
+            </p>
+         </div>
+         <div n="2" corresp="#bezbl">
+            <p>
+               Wir sind heute alle in <rs type="place" ref="#plFd"><emph rend="underlined">Friedrichsfelde</emph></rs> viele Meilen, 
+               das heißt, eine kleine Meile von <rs type="place" ref="#plBe">Berlin</rs>. Da können Sie uns finden, wenn Sie uns 
+               etwa suchen wollten. Vale
+            </p>
+         </div>
+         <closer>
+            <signed rend="right">Gentz</signed>
+         </closer>
+      </body>
+   </text>
+</TEI>

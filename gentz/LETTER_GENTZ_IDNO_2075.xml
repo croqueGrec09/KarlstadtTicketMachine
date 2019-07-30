@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc xml:id="LETTER_GENTZ_2075">
+         <titleStmt>
+            <title>Friedrich von Gentz an Friedrich Vieweg, Ende Januar 1798</title>
+            <editor xml:id="edAG">Andreas Gálffy</editor>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <name>Forschungsstelle "Universitätssammlung Friedrich von Gentz"</name>
+               <link target="http://gentz-digital.ub.uni-koeln.de http://www.ub.uni-koeln.de/cdm/singleitem/collection/gentz/id/2074/"/>
+            </publisher>
+            <pubPlace>Cologne</pubPlace>
+            <idno type="Gentz-Edition-Number" n="2075"/>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <country>Germany</country>
+                  <settlement>Wiesbaden</settlement>
+                  <institution>Vieweg-Verlagsarchiv</institution>
+                  <repository>Briefsammlung 311 G, Gentz-Briefe</repository>
+                  <idno>Nr. 26</idno>
+               </msIdentifier>
+               <msContents>
+                  <summary>
+                     Über Brinckmann kommt der folgende Brief zu Vieweg. Mit diesem Brief schickt Gentz auch die Unger'schen 
+                     Annalen.
+                  </summary>
+               </msContents>
+            </msDesc>
+            <listBibl type="defRep">
+               <biblStruct xml:id="p2075-1" corresp="GBk-0037">
+                  <monogr>
+                     <title>Jahrbücher der preußischen Monarchie unter der Regierung Friedrich Wilhelms des Dritten.</title>
+                     <imprint>
+                        <pubPlace>Berlin</pubPlace>
+                        <publisher>Johann Friedrich Unger</publisher>
+                        <date>1798</date>
+                     </imprint>
+                     <biblScope unit="volume" n="1">
+                        Erster Band. Januar. Februar. März. April.
+                     </biblScope>
+                  </monogr>
+                  <ptr target="https://books.google.de/books?id=I7wpAAAAYAAJ"/>
+               </biblStruct>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Masterarbeit zu Matrikelnummer 5584124</p>
+         </projectDesc>
+      </encodingDesc>
+      <profileDesc>
+         <creation>
+            <date when-iso="1798-01-00">Ende Januar 1798</date>
+         </creation>
+        <langUsage>
+           <language ident="d">deutsch</language>
+        </langUsage>
+         <textClass>
+            <keywords scheme="internal"><!-- internal: innerhalb des besagten Briefs -->
+               <term>Billet</term>
+               <term>Allgemeine Literatur-Zeitung</term>
+               <term>Sendschreiben</term>
+            </keywords>
+            <keywords scheme="categorisation"><!-- Sinnabschnittseinteilung - relevant für den Fahrkartenautomaten! -->
+               <term xml:id="vkgvb">Verhältnis Karl Gustav von Brinckmann</term>
+               <term xml:id="unan">Ungersche Annalen</term>
+               <term xml:id="vwf">Vieweg - Freundschaft</term>
+            </keywords>
+         </textClass>
+         <textDesc>
+            <channel>manuscript</channel>
+            <constitution type="single"/>
+            <derivation type="original"/>
+            <domain type="private"/>
+            <factuality type="fact"/>
+            <interaction type="partial"/>
+            <preparedness type="prepared"/>
+            <purpose type="inform"/>
+         </textDesc>
+         <particDesc>
+            <listPerson>
+               <!-- Sender und Adressat -->
+               <person role="sender" xml:id="Gen">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/118538489"/>
+                     <forename>Friedrich von</forename>
+                     <surname>Gentz</surname>
+                  </persName>
+               </person>
+               <person role="receiver" xml:id="FVW">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/119049546"/>
+                     <forename>Friedrich</forename>
+                     <surname>Vieweg</surname>
+                  </persName>
+               </person>
+               <!-- erwähnte Personen -->
+               <person role="named" xml:id="KGvB">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/116519770"/>
+                     <forename>Carl Gustav von</forename>
+                     <surname>Brinckmann</surname>
+                  </persName>
+               </person>
+            </listPerson>
+         </particDesc>
+         <settingDesc>
+            <listPlace>
+               <!-- Start- und Zielort -->
+               <place type="sender" xml:id="plBe">
+                  <country>
+                     <ref target="http://d-nb.info/gnd/4047194-9"/>
+                     <placeName>Preußen</placeName>
+                  </country>
+                  <settlement>
+                     <ref target="http://d-nb.info/gnd/4005728-8"/>
+                     <placeName>Berlin</placeName>
+                  </settlement>
+               </place>
+               <place type="receiver" xml:id="plPa">
+                  <country>
+                     <ref target="http://d-nb.info/gnd/4018145-5"/>
+                     <placeName>Frankreich</placeName>  
+                  </country>
+                  <settlement>
+                     <ref target="http://d-nb.info/gnd/4044660-8"/>
+                     <placeName>Paris</placeName>
+                  </settlement>
+               </place>
+               <!-- erwähnte Orte -->
+            </listPlace>
+         </settingDesc>
+      </profileDesc>
+      <revisionDesc>
+         <change xml:id="init" when-iso="2018-02-28" who="#edAG">Erstauszeichnung und Normierung des Dokumentes im Rahmen der Masterarbeit der Matrikelnummer 5584124</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div n="1" corresp="#vkgvb">
+            <p>
+               Diesen Brief, mein lieber Vieweg erhalten Sie durch <rs type="person" ref="#KGvB">Brinkmann</rs> dessen Ankunft in 
+               <rs type="place" ref="#plPa">Paris</rs> Ihnen gewiß so unerwartet, als mir sein Abgang von hier schmerzhaft ist. -
+            </p>
+         </div>
+         <div n="2" corresp="#unan">
+            <p>
+               Ich ergreife diese Gelegenheit Ihnen das erste Stück der <rs type="citation" ref="#p2075-1">Ungerschen Annalen</rs>, 
+               die ich Ihnen in einem Briefe, der Morgen von hier abgeht folglich früher als der gegenwärtige in Ihren Händen seyn 
+               wird, ankündigte zu übersenden. Sie werden sehen, ob <add place="above">ich</add> Sie über dies schöne Produkt falsch 
+               benachrichtiget habe.
+            </p>
+         </div>
+         <div n="3" corresp="#vwf">
+            <p>
+               Ich wiederhole die Bitte: mir zu schreiben, sobald es Zeit und angenehme Beschäftigungen Ihnen verstatten, und 
+               unterzeichne auch für dies mal bloß als
+            </p>
+         </div>
+         <closer>
+            <signed rend="right">Ihren Freund</signed>
+         </closer>
+      </body>
+   </text>
+</TEI>

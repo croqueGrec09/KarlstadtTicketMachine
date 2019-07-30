@@ -1,0 +1,259 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc xml:id="LETTER_GENTZ_3725">
+         <titleStmt>
+            <title>Friedrich von Gentz an Adam Müller, 21. Mai 1801</title>
+            <editor xml:id="edAG">Andreas Gálffy</editor>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <name>Forschungsstelle "Universitätssammlung Friedrich von Gentz"</name>
+               <link target="http://gentz-digital.ub.uni-koeln.de http://www.ub.uni-koeln.de/cdm/singleitem/collection/gentz/id/3724/"/>
+            </publisher>
+            <pubPlace>Cologne</pubPlace>
+            <idno type="Gentz-Edition-Number" n="3725"/>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <country>unknown</country>
+                  <idno>not retraced</idno>
+               </msIdentifier>
+               <msContents>
+                  <summary>
+                     Am Tage hatte Gentz ein Dîner, sodass er einen nach Schöneberg geplanten Ausgang auf den nächsten Morgen verschiebt. Müller soll ihn vor 
+                     sieben Uhr abholen. Gentz schickt französische Zeitungen, von denen er die Moniteurs und die Porcupines soweit als möglich zurückbittet. 
+                     Über Ägypten gibt es nichts Neues. Im Postscript verspricht Gentz, eine Visite durchzuführen.
+                  </summary>
+               </msContents>
+            </msDesc>
+            <listBibl type="preprints">
+               <biblStruct>
+                  <monogr>
+                     <editor>
+                        <persName>
+                           <ref />
+                           <forename>Cäcilie von</forename>
+                           <surname>Endlicher</surname>
+                        </persName>
+                     </editor>
+                     <title>Briefwechsel zwischen Friedrich Gentz und Adam Heinrich Müller. 1800-1829</title>
+                     <imprint>
+                        <pubPlace>Stuttgart</pubPlace>
+                        <date>1857</date>
+                     </imprint>
+                     <biblScope unit="page" from="1" to="2">
+                        Nr. 2
+                     </biblScope>
+                  </monogr>
+               </biblStruct>
+               <biblStruct>
+                  <monogr>
+                     <editor>
+                        <persName>
+                           <ref target="http://d-nb.info/gnd/11609673X"/>
+                           <forename>Jakob</forename>
+                           <surname>Baxa</surname>
+                        </persName>
+                     </editor>
+                     <title>Adam Müllers Lebenszeugnisse. 2 Bde.</title>
+                     <imprint>
+                        <pubPlace>München u.a.</pubPlace>
+                        <date>1966</date>
+                     </imprint>
+                     <biblScope unit="volume" n="2">
+                        II
+                     </biblScope>
+                     <biblScope unit="page" from="20" to="21">
+                        Nr. 11
+                     </biblScope>
+                  </monogr>
+               </biblStruct>
+            </listBibl>
+            <listBibl type="defExpr">
+               <biblStruct xml:id="e3725-1" corresp="Arc-0011">
+                  <monogr>
+                     <author>
+                        <persName>
+                           <ref target="http://d-nb.info/gnd/118789422"/>
+                           <forename>Charles Joseph</forename>
+                           <surname>Panckoucke</surname>
+                        </persName>
+                     </author>
+                     <title>Gazette Nationale, ou, Le moniteur universel</title>
+                     <imprint>
+                        <pubPlace>Paris</pubPlace>
+                        <date>1801</date>
+                     </imprint>
+                  </monogr>
+                  <ptr target="https://archive.org/details/gazettenationale18011panc"/>
+               </biblStruct>
+               <biblStruct xml:id="e3725-2" corresp="NPA-0001">
+                  <monogr>
+                     <editor>
+                        <persName>
+                           <ref target="http://d-nb.info/gnd/118669591"/>
+                           <forename>William</forename>
+                           <surname>Cobbett</surname>
+                        </persName>
+                     </editor>
+                     <title>London Porcupine</title>
+                     <imprint>
+                        <pubPlace>London</pubPlace>
+                        <date>1801</date>
+                     </imprint>
+                  </monogr>
+                  <ptr target="https://newspaperarchive.com/uk/middlesex/london/london-porcupine/1801/"/>
+               </biblStruct>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Masterarbeit zu Matrikelnummer 5584124</p>
+         </projectDesc>
+      </encodingDesc>
+      <profileDesc>
+         <creation>
+            <date when-iso="1801-05-21">21. Mai 1801</date>
+         </creation>
+        <langUsage>
+           <language ident="d">deutsch</language>
+        </langUsage>
+         <textClass>
+            <keywords scheme="internal"><!-- internal: innerhalb des besagten Briefs -->
+               <term>Billet</term>
+               <term>Treffen</term>
+               <term>Zeitungen</term>
+               <term>Renfer</term>
+            </keywords>
+            <keywords scheme="categorisation"><!-- Sinnabschnittseinteilung - relevant für den Fahrkartenautomaten! -->
+               <term xml:id="bezbl">Beziehungen zu Berlin - Leute</term>
+               <term xml:id="frz">französische Zeitungen</term>
+               <term xml:id="napinv">Napoleonische Invasion</term>
+               <term xml:id="vam">Verhältnis Adam Müller</term>
+            </keywords>
+         </textClass>
+         <textDesc>
+            <channel>manuscript</channel>
+            <constitution type="single"/>
+            <derivation type="original"/>
+            <domain type="private"/>
+            <factuality type="fact"/>
+            <interaction type="partial"/>
+            <preparedness type="prepared"/>
+            <purpose type="inform"/>
+         </textDesc>
+         <particDesc>
+            <listPerson>
+               <!-- Sender und Adressat -->
+               <person role="sender" xml:id="Gen">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/118538489"/>
+                     <forename>Friedrich von</forename>
+                     <surname>Gentz</surname>
+                  </persName>
+               </person>
+               <person role="receiver" xml:id="AHM">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/118584790"/>
+                     <forename>Adam Heinrich</forename>
+                     <surname>Müller</surname>
+                  </persName>
+               </person>
+               <!-- erwähnte Personen -->
+               <person role="named" xml:id="FWvR">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/128770201"/>
+                     <forename>Friedrich Wilhelm von</forename>
+                     <surname>Reden</surname>
+                  </persName>
+               </person>
+               <person role="named" xml:id="JJPLC">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/159696496"/>
+                     <forename>John Joshua Proby</forename>
+                     <surname>Carysfort</surname>
+                  </persName>
+               </person>
+            </listPerson>
+         </particDesc>
+         <settingDesc>
+            <listPlace>
+               <!-- Start- und Zielort -->
+               <place type="sender" xml:id="plBe">
+                  <country>
+                     <ref target="http://d-nb.info/gnd/4047194-9"/>
+                     <placeName>Preußen</placeName>
+                  </country>
+                  <settlement>
+                     <ref target="http://d-nb.info/gnd/4005728-8"/>
+                     <placeName>Berlin</placeName>
+                  </settlement>
+               </place>
+               <!-- erwähnte Orte -->
+               <place type="named" xml:id="plSb">
+                  <country>
+                     <ref target="http://d-nb.info/gnd/4047194-9"/>
+                     <placeName>Preußen</placeName>
+                  </country>
+                  <settlement>
+                     <ref target="http://d-nb.info/gnd/116944-0"/>
+                     <placeName>Schöneberg</placeName>
+                  </settlement>
+               </place>
+               <place type="named" xml:id="plAeg">
+                  <country>
+                     <ref target="http://d-nb.info/gnd/4000556-2"/>
+                     <placeName>Ägypten</placeName>
+                  </country>
+               </place>
+            </listPlace>
+         </settingDesc>
+      </profileDesc>
+      <revisionDesc>
+         <change xml:id="init" when-iso="2018-03-08" who="#edAG">Erstauszeichnung und Normierung des Dokumentes im Rahmen der Masterarbeit der Matrikelnummer 5584124</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div n="1" corresp="#bezbl">
+            <p>
+               Heute konnte aus <rs type="place" ref="#plSb">Schöneberg</rs> nichts werden. Ich bin auf einem großen Diner bei 
+               <rs type="person" ref="#FWvR">Baron Reden</rs> und zum Abend bei <rs type="person" ref="#JJPLC">Carysfort</rs>. 
+               Aber <date when-iso="1801-05-22">morgen</date> auf jeden nur erdenklichen Fall, und zwar gehe ich um 7 Uhr von 
+               hinnen; und wenn Sie mir einen Gefallen thun wollen, so kommen Sie um 7 Uhr, 
+               <emph rend="underlined">eher früher als später</emph>, mich abholen.
+            </p>
+         </div>
+         <div n="2" corresp="#frz">
+            <p>
+               Hiebei die französischen Zeitungen; schicken Sie mir die <rs type="citation" ref="#e3725-1">Moniteur</rs>s, und 
+               vom <rs type="citation" ref="#e3725-2">Porcupine</rs> so viel zurück, als Sie nicht nothwendig mehr gebrauchen.
+            </p>
+         </div>
+         <div n="3" corresp="#napinv">
+            <p>
+               Bis jetzt - ich habe eben <rs type="person" ref="#JJPLC">Carysfort</rs> selbst in meiner Stube gehabt - ist noch 
+               kein Wort aus <rs type="place" ref="#plAeg">Egypten</rs> eingegangen. Er scheint schon, nach seiner Art, etwas 
+               unruhig zu seyn; und ich gestehe, daß mir nicht eben gut bei der Sache zu Muthe ist.
+            </p>
+         </div>
+         <closer>
+            <dateline rend="left">Den <date when-iso="1801-05-21">21. Mai</date>.</dateline>
+            <signed rend="right">Gentz.</signed>
+         </closer>
+         <postscript corresp="#vam">
+            <p>
+               Glauben Sie nicht, daß ich Ihre Angelegenheiten vergesse. Der entsetzliche Saus und Braus, in welchem ich diese 
+               Woche wieder lebte, hat es mir unmöglich gemacht, die Renfer'sche Visite zu realisiren. Es geschieht aber, wo 
+               nicht eher, <date when-iso="1801-05-24">Sonntag</date> gewiß.
+            </p>
+         </postscript>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,248 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader type="text">
+      <fileDesc xml:id="LETTER_GENTZ_0209">
+         <titleStmt>
+            <title>Friedrich von Gentz an König Friedrich Wilhelm II. von Preußen, 23. Dezember 1792</title>
+            <editor xml:id="edAG">Andreas Gálffy</editor>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <name>Forschungsstelle "Universitätssammlung Friedrich von Gentz"</name>
+               <link target="http://gentz-digital.ub.uni-koeln.de http://www.ub.uni-koeln.de/cdm/singleitem/collection/gentz/id/0208/"/>
+            </publisher>
+            <pubPlace>Cologne</pubPlace>
+            <idno type="Gentz-Edition-Number" n="0209"/>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <country>Great Britain</country>
+                  <settlement>London</settlement>
+                  <institution>British Library</institution>
+                  <repository>Add. MS 39779</repository>
+                  <collection>Autographs from the Morrison Collection, Vol. IV</collection>
+                  <idno>Bl. 17-18</idno>
+               </msIdentifier>
+               <msContents>
+                  <summary>
+                     Nach zwei jahren Arbeit legt Gentz seine Übersetzung des Burke dem König Friedrich Wilhelm II. von Preußen vor. 
+                     Gentz beschreibt das Werk als stärkste Widerlegung der Revolutionsideen und äußert seine Nennung des Namens des 
+                     Kaisers. In diesem Zusammenhang nennt Gentz beiläufig auch seinen derzeitigen Status und Gehalt.
+                  </summary>
+               </msContents>
+            </msDesc>
+            <listBibl type="preprints">
+               <biblStruct>
+                  <monogr>
+                     <author>
+                        <persName>
+                           <ref/>
+                           <forename>Alexander von</forename>
+                           <surname>Haase</surname>
+                        </persName>
+                     </author>
+                     <title>Friedrich (von) Gentz: "Von dem politischen Zustande von Europa vor und nach der Französischen Revolution (1801) (Analyse und Interpretation), phil Diss.</title>
+                     <imprint>
+                        <pubPlace>Erlangen-Nürnberg</pubPlace>
+                        <date>1968</date>
+                     </imprint>
+                     <biblScope unit="page" from="126" to="127">
+                        126-127
+                     </biblScope>
+                  </monogr>
+               </biblStruct>
+            </listBibl>
+            <listBibl type="letterReferenced">
+               <bibl xml:id="c0209-1" corresp="#LETTER_GENTZ_2765">Friedrich von Gentz an Christian Garve, 19. April 1791</bibl>
+            </listBibl>
+            <listBibl type="defRep">
+               <biblStruct xml:id="p0209-1" corresp="Arc-0007">
+                  <monogr>
+                     <author>
+                        <persName>
+                           <ref target="http://d-nb.info/gnd/118517708"/>
+                           <forename>Edmund</forename>
+                           <surname>Burke</surname>
+                        </persName>
+                     </author>
+                     <title>Reflections on the revolution in France and on the proceedings in certain societies in London relative to that event</title>
+                     <imprint>
+                        <publisher>J. Dodsley</publisher>
+                        <pubPlace>London</pubPlace>
+                        <date>1790</date>
+                     </imprint>
+                  </monogr>
+               <ptr target="https://archive.org/details/reflectionsonre04burkgoog"/></biblStruct>
+               <biblStruct xml:id="p0209-2" corresp="DBUH-0000">
+                  <monogr>
+                     <author>
+                        <persName>
+                           <ref target="http://d-nb.info/gnd/118538489"/>
+                           <forename>Friedrich von</forename>
+                           <surname>Gentz</surname>
+                        </persName>
+                     </author>
+                     <title>Betrachtungen über die französische Revolution. Nach dem Englischen des Herrn Burke neu-bearbeitet mit einer Einleitung, Anmerkungen, politischen Abhandlungen und einem critischen Verzeichniß der in England über diese Revolution erschienenen Schriften, Zwei Theile</title>
+                     <imprint>
+                        <publisher>Friedrich Vieweg der Ältere</publisher>
+                        <pubPlace>Berlin</pubPlace>
+                        <date>1793</date>
+                     </imprint>
+                  </monogr>
+               <ptr target="http://digitale.bibliothek.uni-halle.de/vd18/id/9148833"/></biblStruct>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Masterarbeit zu Matrikelnummer 5584124</p>
+         </projectDesc>
+      </encodingDesc>
+      <profileDesc>
+         <creation>
+            <date when-iso="1792-12-23">23. Dezember 1792</date>
+         </creation>
+        <langUsage>
+           <language ident="d">deutsch</language>
+        </langUsage>
+         <textClass>
+            <keywords scheme="internal"><!-- internal: innerhalb des besagten Briefs -->
+               <term>Brief</term>
+               <term>Begleitschreiben</term>
+               <term>Burke</term>
+            </keywords>
+            <keywords scheme="categorisation"><!-- Sinnabschnittseinteilung - relevant für den Fahrkartenautomaten! -->
+               <term xml:id="kbur">Burke</term>
+               <term xml:id="gprl">Gentz - p(r)ekuniäre Lage</term>
+            </keywords>
+         </textClass>
+         <textDesc>
+            <channel>manuscript</channel>
+            <constitution type="single"/>
+            <derivation type="original"/>
+            <domain type="private"/>
+            <factuality type="fact"/>
+            <interaction type="partial"/>
+            <preparedness type="unprepared"/>
+            <purpose type="inform"/>
+         </textDesc>
+         <particDesc>
+            <listPerson>
+               <!-- Sender und Adressat -->
+               <person role="sender" xml:id="Gen">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/118538489"/>
+                     <forename>Friedrich von</forename>
+                     <surname>Gentz</surname>
+                  </persName>
+               </person>
+               <person role="receiver" xml:id="KFWII">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/11869362X"/>
+                     <forename>Friedrich Wilhelm II.</forename>
+                     <surname>von Preußen</surname>
+                     <roleName type="office">König von Preußen</roleName>
+                  </persName>
+               </person>
+               <!-- erwähnte Personen -->
+               <person role="named" xml:id="Bur">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/118517708"/>
+                     <forename>Edmund</forename>
+                     <surname>Burke</surname>
+                  </persName>
+               </person>
+               <person role="named" xml:id="JFG">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/136428983"/>
+                     <forename>Johann Friedrich</forename>
+                     <surname>Gentze</surname>
+                  </persName>
+               </person>
+            </listPerson>
+         </particDesc>
+         <settingDesc>
+            <listPlace>
+               <!-- Start- und Zielort -->
+               <place type="sender" xml:id="plBe">
+                  <country>
+                     <ref target="http://d-nb.info/gnd/4047194-9"/>
+                     <placeName>Preußen</placeName>
+                  </country>
+                  <settlement>
+                     <ref target="http://d-nb.info/gnd/4005728-8"/>
+                     <placeName>Berlin</placeName>
+                  </settlement>
+               </place>
+               <!-- erwähnte Orte -->
+            </listPlace>
+         </settingDesc>
+      </profileDesc>
+      <revisionDesc>
+         <change xml:id="init" when-iso="2018-02-12" who="#edAG">Erstauszeichnung und Normierung des Dokumentes im Rahmen der Masterarbeit der Matrikelnummer 5584124</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <opener>
+            <salute rend="left">Allerdurchlauchtigster, Großmächtigster König !</salute>
+            <salute rend="left">Allergnädigster König und Herr !</salute>
+         </opener>
+         <div n="1" corresp="#kbur">
+            <p>
+               Die tiefe und innige Ueberzeugung von dem glücklichen Loose derer, welche das Schicksal in einem Staat wie der 
+               Preußische, und unter einem so weisen und milden Scepter als der, womit 
+               <rs type="person" ref="#KFWII">Ewr. Königliche Majestät</rs> diesen Staat regieren, gebohren werden ließ, hat mich 
+               dringend aufgefordert, den Blendwerken, durch welche die französische Sophisterey die Ruhe des ganzen menschlichen 
+               Geschlechts zu stöhren sucht, nach meinen Kräften, und wie ich es für die Pflicht jedes guten Bürgers und Patrioten 
+               halte, entgegen zu arbeiten.
+            </p>
+            <p>
+               Ich habe zu diesem Ende die stärkste Widerlegung der Revolutions-Ideen die noch in irgend einer Sprache erschienen 
+               ist, das <rs type="citation" ref="#p0209-1">Burkische Werk</rs>, zum Grunde gelegt, es verdeutscht, mit Anmerkungen 
+               versehen, und durch einen hinzu gefügten Band eigner Abhandlungen 
+               <rs type="citation" ref="#p0209-2">eine vollständige Theorie</rs> des Anti-Revolutions-Systems aus politischen und 
+               philosophischen Gründen zu entwickeln <pb/> versucht, die vielleicht das ihrige beytragen kan, den Eindruck, welchen 
+               die neuen französischen Schriften auch auf das deutsche Publikum machen, zu entkräften.
+            </p>
+            <p>
+               Mehr in Rücksicht auf das hohe Interesse der Sache die darin abgehandelt wird, als auf mein eignes unvollkommnes 
+               Verdienst habe ich es gewagt, <rs type="person" ref="#KFWII">Ewr. Königlichen Majestät</rs> allgemein-angebeteten 
+               Nahmen diesem nun vollendeten Buche vorzusetzen. Der höchste Beschützer der wahren Freyheit von Europa wird nicht 
+               zürnen, daß ein Schriftsteller, welcher die falsche Freyheit mit ihren eignen Waffen, mit den Waffen der Feder 
+               angriff, sich unter Seine geheiligten Paniere stellte: und 
+               <rs type="person" ref="#KFWII">Ewr. Königliche Majestät</rs> werden den, der seine schwachen Talente für die Sache 
+               der Menschheit aufbietet, nicht von Allerhöchst Dero Thron zurück weisen.
+            </p>
+            <p>
+               Ich habe mich mit dieser Arbeit, um <pb/> ihr die Vollkommenheit zu geben, welche die Wichtigkeit des Gegenstandes 
+               forderte, <ref target="#r0209-1">2 Jahre lang anhaltend</ref>, und in jeder Stunde, welche ich von meinen 
+               Amts-Arbeiten erübrigen konnte, beschäftiget. Ich unterfange mich nicht, auf eine Belohnung dafür anzutragen: 
+               <rs type="person" ref="#KFWII">Ewr. Königichen Majestät</rs> Beyfall ist ohnehin die höchste, welche ich je erringen 
+               könnte.
+            </p>
+         </div>
+         <div n="2" corresp="#gprl">
+            <p>
+               Wenn indessen Allerhöchstdieselben in Betracht der langen Dienste <rs type="person" ref="#JFG">meines Vaters</rs> und 
+               meines brennenden Eifers, mich ganz dem Vaterlande, den Wissenschaften und den Geschäften zu widmen irgend einen 
+               günstigen Entschluß zu Verbesserung meiner Lage zu fassen geneigt seyn sollten: so halte ich es für meine Pflicht, 
+               <rs type="person" ref="#KFWII">Ewr. Königlichen Majestät</rs> allerunterthänigst anzuzeigen, daß ich 2 Jahr bey der 
+               Churmärkischen Cammer und hienächst 6 Jahr bey dem General-Directorio gearbeitet, jedoch erst ein jährliches Gehalt 
+               von 300 Reichsthaler habe.
+            </p>
+         </div>
+         <closer>
+            <salute rend="right">Ewr. Königlichen Majestät</salute>
+            <dateline rend="left"><rs type="place" ref="#plBe">Berlin</rs> den <date when-iso="1792-12-23">23<span rend="sup">ten</span> December</date></dateline>
+            <dateline rend="left"><date when-iso="1792-12-23">1792:</date></dateline>
+            <salute rend="right">allerunterthänigster</salute>
+            <signed rend="right">Friedrich Gentz</signed>
+            <signed rend="right">expedirender Secretaire bey dem</signed>
+            <signed rend="right">Churmärkischen Departement des General-Directorio</signed>
+         </closer>
+         <note resp="#edAG" xml:id="r0209-1">Vgl. den <rs type="citation" ref="#c0209-1">Brief vom 19. April 1791</rs>.</note>
+      </body>
+   </text>
+</TEI>

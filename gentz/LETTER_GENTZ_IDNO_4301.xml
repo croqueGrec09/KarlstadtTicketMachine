@@ -1,0 +1,457 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader type="text">
+      <fileDesc xml:id="LETTER_GENTZ_4301">
+         <titleStmt>
+            <title>Friedrich von Gentz an Christian Garve, 24. April 1790</title>
+            <editor xml:id="edAG">Andreas Gálffy</editor>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <name>Forschungsstelle "Universitätssammlung Friedrich von Gentz"</name>
+               <link target="http://gentz-digital.ub.uni-koeln.de http://www.ub.uni-koeln.de/cdm/singleitem/collection/gentz/id/4300/"/>
+            </publisher>
+            <pubPlace>Cologne</pubPlace>
+            <idno type="Gentz-Edition-Number" n="4301"/>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <settlement>unknown</settlement>
+                  <idno>destroyed</idno><!-- Manuskript wurde durch Kriegseinwirkungen zerstört -->
+               </msIdentifier>
+               <msContents>
+                  <summary>
+                     Die Gesundheit Garves hat ihn dazu veranlasst, Gentz in bezug auf ärztliche Hilfe zu konsultieren. Dieser 
+                     schildert die Lage zweier Ärzte, Theden und Generalchirurgus Gericke. Da unklar ist, ob Krieg ausbricht und 
+                     wenn, dann diese kaum in Breslau Halt machen, empfiehlt Gentz Garve dringend, nach Berlin zu kommen. Das 
+                     Wetter sei dazu gerade genehm. Im Anhang fragt Gentz nach Schriften Garves, die er für seine Bibliothek haben 
+                     will.
+                  </summary>
+               </msContents>
+            </msDesc>
+            <listBibl type="preprints">
+               <biblStruct>
+                  <monogr>
+                     <editor>
+                        <persName>
+                           <ref target="http://d-nb.info/gnd/130953075"/>
+                           <forename>Friedrich Carl</forename>
+                           <surname>Wittichen</surname>
+                        </persName>
+                        <persName>
+                           <ref/> <!-- kein GND-Eintrag -->
+                           <forename>Ernst</forename>
+                           <surname>Salzer</surname>
+                        </persName>
+                     </editor>
+                     <title>Briefe von und an Friedrich von Gentz, 4 Bde.</title>
+                     <imprint>
+                        <publisher>Oldenbourg</publisher>
+                        <pubPlace>München, Berlin</pubPlace>
+                        <date>1909-1913</date>
+                     </imprint>
+                     <biblScope unit="volume" n="1">
+                        I
+                     </biblScope>
+                     <biblScope unit="page" from="161" to="164">
+                        Nr. 38
+                     </biblScope>
+                  </monogr>
+               </biblStruct>
+               <biblStruct>
+                  <monogr>
+                     <editor>
+                        <persName>
+                           <forename>Carl G.</forename>
+                           <surname>Schönborn</surname>
+                        </persName>
+                     </editor>
+                     <title>Friedrich von Gentz. Briefe an Christian Garve. (1789-1798.)</title>
+                     <imprint>
+                        <pubPlace>Breslau</pubPlace>
+                        <date>1857</date>
+                     </imprint>
+                     <biblScope unit="page" from="32" to="36">
+                        Nr. IV
+                     </biblScope>
+                  </monogr>
+               </biblStruct>
+            </listBibl>
+            <listBibl type="letterReferenced">
+               <bibl xml:id="c4301-1" corresp="#LETTER_GENTZ_NNNN">nicht bekannter Brief von Christian Garve an Friedrich von Gentz</bibl>
+            </listBibl>
+            <listBibl type="defExpr">
+               <biblStruct xml:id="e4301-1" corresp="DTA-0000">
+                  <monogr>
+                     <author>
+                        <persName>
+                           <ref target="http://d-nb.info/gnd/118537636"/>
+                           <forename>Christian</forename>
+                           <surname>Garve</surname>
+                        </persName>
+                     </author>
+                     <title>Sammlung einiger Abhandlungen aus der Neuen Bibliothek der schönen Wissenschaften und der freyen Künste</title>
+                     <imprint>
+                        <publisher>Dykische Buchhandlung</publisher>
+                        <pubPlace>Leipzig</pubPlace>
+                        <date>1779</date>
+                     </imprint>
+                  </monogr>
+               <ptr target="http://www.deutschestextarchiv.de/book/view/garve_sammlung_1779?p=5"/></biblStruct>
+               <biblStruct xml:id="e4301-2" corresp="BSB-0002">
+                  <monogr>
+                     <author>
+                        <persName>
+                           <ref target="http://d-nb.info/gnd/118520814"/>
+                           <forename>Marcus Tullius</forename>
+                           <surname>Cicero</surname>
+                        </persName>
+                     </author>
+                     <editor resp="translator">
+                        <persName>
+                           <ref target="http://d-nb.info/gnd/118537636"/>
+                           <forename>Christian</forename>
+                           <surname>Garve</surname>
+                        </persName>
+                     </editor>
+                     <title>Abhandlung über die menschlichen Pflichten</title>
+                     <imprint>
+                        <pubPlace>Breslau</pubPlace>
+                        <publisher>Wilhelm Gottlieb Korn</publisher>
+                        <date>1783</date>
+                     </imprint>
+                  </monogr>
+               <ptr target="http://www.mdz-nbn-resolving.de/urn/resolver.pl?urn=urn:nbn:de:bvb:12-bsb10244763-2"/></biblStruct>
+               <biblStruct xml:id="e4301-3" corresp="BSB-0001">
+                  <monogr>
+                     <author>
+                        <persName>
+                           <ref target="http://d-nb.info/gnd/118686798"/>
+                           <forename>Adam</forename>
+                           <surname>Ferguson</surname>
+                        </persName>
+                     </author>
+                     <editor resp="translator">
+                        <persName>
+                           <ref target="http://d-nb.info/gnd/118537636"/>
+                           <forename>Christian</forename>
+                           <surname>Garve</surname>
+                        </persName>
+                     </editor>
+                     <title>Grundsätze der Moralphilosophie</title>
+                     <imprint>
+                        <publisher>Dyckischen Buchhandlung</publisher>
+                        <pubPlace>Leipzig</pubPlace>
+                        <date>1772</date>
+                     </imprint>
+                  </monogr>
+               <ptr target="http://www.mdz-nbn-resolving.de/urn/resolver.pl?urn=urn:nbn:de:bvb:12-bsb10040494-4"/></biblStruct>
+               <biblStruct xml:id="e4301-4" corresp="GBk-0018">
+                  <monogr>
+                     <author>
+                        <persName>
+                           <ref target="http://d-nb.info/gnd/128531894"/>
+                           <forename>John</forename>
+                           <surname>M'Farlan</surname>
+                        </persName>
+                     </author>
+                     <editor resp="translator">
+                        <persName>
+                           <ref target="http://d-nb.info/gnd/118537636"/>
+                           <forename>Christian</forename>
+                           <surname>Garve</surname>
+                        </persName>
+                     </editor>
+                     <title>Untersuchungen über die Armuth, die Ursachen derselben und die Mittel ihr abzuhelfen.</title>
+                     <imprint>
+                        <pubPlace>Leipzig</pubPlace>
+                        <publisher>Weidmanns Erben und Reich</publisher>
+                        <date>1785</date>
+                     </imprint>
+                  </monogr>
+               <ptr target="https://books.google.de/books?id=PgpR3kX1fPcC"/></biblStruct>
+               <biblStruct xml:id="e4301-5" corresp="BSB-0000">
+                  <monogr>
+                     <author>
+                        <persName>
+                           <ref target="http://d-nb.info/gnd/118537636"/>
+                           <forename>Christian</forename>
+                           <surname>Garve</surname>
+                        </persName>
+                     </author>
+                     <title>Abhandlung über die Verbindung der Moral mit der Politik oder einige Betrachtungen über die Frage, in wiefern es möglich sey, die Moral des Privatlebens bey der Regierung der Staaten zu beobachten.</title>
+                     <imprint>
+                        <publisher>Wilhelm Gottlieb Korn</publisher>
+                        <pubPlace>Breslau</pubPlace>
+                        <date>1788</date>
+                     </imprint>
+                  </monogr>
+               <ptr target="http://reader.digitale-sammlungen.de/de/fs1/object/display/bsb10040572_00005.html"/></biblStruct>
+               <biblStruct xml:id="e4301-6" corresp="GBk-0017">
+                  <monogr>
+                     <author>
+                        <persName>
+                           <ref target="http://d-nb.info/gnd/118537636"/>
+                           <forename>Christian</forename>
+                           <surname>Garve</surname>
+                        </persName>
+                     </author>
+                     <title>Ueber den Charakter Zollikofers an Herrn Creyssteuer-Einnehmer Weiße in Leipzig</title>
+                     <imprint>
+                        <pubPlace>Leipzig</pubPlace>
+                        <publisher>Weidmannischen Buchhandlung</publisher>
+                        <date>1788</date>
+                     </imprint>
+                  </monogr>
+               <ptr target="https://books.google.de/books?id=NS05AQAAMAAJ"/></biblStruct>
+               <biblStruct xml:id="e4301-7" corresp="GBk-0001">
+                  <monogr>
+                     <author>
+                        <persName>
+                           <ref target="http://d-nb.info/gnd/118537636"/>
+                           <forename>Christian</forename>
+                           <surname>Garve</surname>
+                        </persName>
+                     </author>
+                     <title>Ueber die Lage Schlesiens in verschiedenen Zeitpuncten und über die Vorzüge einer Hauptstadt vor Provinzialstädten</title>
+                     <imprint>
+                        <pubPlace>Breslau</pubPlace>
+                        <publisher>Gottlieb Löwe</publisher>
+                        <date>1788</date>
+                     </imprint>
+                  </monogr>
+               <ptr target="https://books.google.de/books/about/Ueber_die_Lage_Schlesiens_in_verschieden.html?id=ZGMXAAAAYAAJ"/></biblStruct>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Masterarbeit zu Matrikelnummer 5584124</p>
+         </projectDesc>
+      </encodingDesc>
+      <profileDesc>
+         <creation>
+            <date when-iso="1790-04-24">24. April 1790</date>
+         </creation>
+        <langUsage>
+           <language ident="d">deutsch</language>
+        </langUsage>
+         <textClass>
+            <keywords scheme="internal"><!-- internal: innerhalb des besagten Briefs -->
+               <term>Brief</term>
+               <term>Philosophie</term>
+               <term>Werke</term>
+               <term>Breslau</term>
+               <term>Chirurg</term>
+               <term>Gesundheit</term>
+               <term>Garve</term>
+               <term>Literatur</term>
+            </keywords>
+            <keywords scheme="categorisation"><!-- Sinnabschnittseinteilung - relevant für den Fahrkartenautomaten! -->
+               <term xml:id="vcg">Verhältnis Christian Garve</term>
+               <term xml:id="bibl">Bibliothek</term>
+            </keywords>
+         </textClass>
+         <textDesc>
+            <channel>manuscript</channel>
+            <constitution type="single"/>
+            <derivation type="original"/>
+            <domain type="private"/>
+            <factuality type="fact"/>
+            <interaction type="partial"/>
+            <preparedness type="prepared"/>
+            <purpose type="inform"/>
+         </textDesc>
+         <particDesc>
+            <listPerson>
+               <!-- Sender und Adressat -->
+               <person role="sender" xml:id="Gen">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/118538489"/>
+                     <forename>Friedrich von</forename>
+                     <surname>Gentz</surname>
+                  </persName>
+               </person>
+               <person role="receiver" xml:id="Gar">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/118537636"/>
+                     <forename>Christian</forename>
+                     <surname>Garve</surname>
+                  </persName>
+               </person>
+               <!-- erwähnte Personen -->
+               <person role="named" xml:id="The">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/117300551"/>
+                     <forename>Johann Christian Anton</forename>
+                     <surname>Theden</surname>
+                  </persName>
+               </person>
+               <person role="named" xml:id="Gck">
+                  <persName>
+                     <ref/><!-- kein GND-Eintrag -->
+                     <forename>Johann Ludwig</forename>
+                     <surname>Gericke</surname>
+                  </persName>
+               </person>
+               <person role="named" xml:id="Mrs">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/117187747"/>
+                     <forename>Christian Ludwig</forename>
+                     <surname>Mursinna</surname>
+                  </persName>
+               </person>
+            </listPerson>
+         </particDesc>
+         <settingDesc>
+            <listPlace>
+               <!-- Start- und Zielort -->
+               <place type="sender" xml:id="plBe">
+                  <country>
+                     <ref target="http://d-nb.info/gnd/4047194-9"/>
+                     <placeName>Preußen</placeName>
+                  </country>
+                  <settlement>
+                     <ref target="http://d-nb.info/gnd/4005728-8"/>
+                     <placeName>Berlin</placeName>
+                  </settlement>
+               </place>
+               <place type="receiver" xml:id="plBr">
+                  <country>
+                     <ref target="http://d-nb.info/gnd/4047194-9"/>
+                     <placeName>Preußen</placeName>
+                  </country>
+                  <settlement>
+                     <ref target="http://d-nb.info/gnd/4008216-7"/>
+                     <placeName>Breslau</placeName>
+                  </settlement>
+               </place>
+               <!-- erwähnte Orte -->
+            </listPlace>
+         </settingDesc>
+      </profileDesc>
+      <revisionDesc>
+         <change xml:id="init" when-iso="2018-02-03" who="#edAG">Erstauszeichnung und Normierung des Dokumentes im Rahmen der Masterarbeit der Matrikelnummer 5584124</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>     
+      <body>
+         <opener>
+            <dateline><rs type="place" ref="#plBe">Berlin</rs>, den <date when-iso="1790-04-24">24. April 1790</date>.</dateline>
+         </opener>
+         <div n="1" corresp="#vcg">
+            <p>
+               Ihre ängstliche und verdrießliche Lage, lieber Herr Professor, bei den Hindernissen, die gegen Ihren schönen Plan 
+               aufsteigen, kann ich mir vollkommen denken. Ich fühle, daß es Ihnen schwer werden muß, einen Entschluß zu fassen, wo 
+               sich auf beiden Seiten viel sagen läßt, und wo einige unentbehrliche Data sogar außer der Sphäre einer sichern 
+               Beurteilung liegen. Sie haben mich indessen aufgefordert mein Votum abzugeben, und ich werde es tun.
+            </p>
+            <p>
+               Es ist, erstlich, soviel Zurüstungen zum Kriege auch bereits gemacht sein mögen, soviel wichtige Schritte man auch 
+               getan haben mag, immer noch ungewiß, ob der Krieg ausbrechen werde oder nicht.
+            </p>
+            <p>
+               Es ist ferner ganz gewiß, daß die beiden wesentlichsten Männer, die Sie hier über Ihren Schaden zu konsultieren 
+               haben: <rs type="person" ref="#The">Theden</rs> und der 
+               <rs type="person" ref="#Gck"><emph rend="underlined">Generalchirurgus Gericke</emph></rs> (denn 
+               <rs type="person" ref="#Mrs">Mursinna</rs> werde ich Ihnen aus verschiednen wichtigen Gründen ganz abraten) nicht 
+               vor der Mitte, und vielleicht nicht vor dem Ende des Monat Mai <rs type="place" ref="#plBe">Berlin</rs> verlassen.
+            </p>
+            <p>
+               Es ist höchst ungewiß, ob diese beide Männer (die NB. wie zwei große Waldhornisten nur 
+               <emph rend="underlined">zusammen</emph> mit wahrem Nutzen gebraucht werden) in 
+               <rs type="place" ref="#plBr">Breslau</rs> zu stehen kommen werden, und gewiß nicht zu vermuten, daß sie die Muße und 
+               die Ruhe, die Sie selbst bei ihnen ver<pb/>langen, und mit großem Recht verlangen, im Getümmel und unter der 
+               endlosen Beschäftigung eines Feldzuges, werden beibehalten können
+            </p>
+            <p>
+               Da es indessen nie sicher ist, ob im Fall eines Krieges für Ihren Endzweck hier in Berlin von der Geschicklichkeit 
+               dieser Männer viel Nutzen zu ziehen sein werde, so würde ich Ihnen, wenn ich wüßte, daß die Kur des Schadens der 
+               <emph rend="underlined">einzige</emph> Bewegungsgrund zu Ihrer vorgehabten Reise war, und wenn ich dabei, nach den 
+               strengen Regeln einer bejahrten und behutsamen Klugheit, die keinen Schritt umsonst, d. i. ohne ein ausdrückliches, 
+               bestimmtes und ostensibles Ziel dabei zu erreichen, tut, anraten, daß Sie abwarten, ob Friede bliebe oder nicht, und 
+               erst alsdann Ihre nähern Maßregeln ergriffen.   
+            </p>
+            <p>
+               Sie haben mir aber selbst bekannt, daß die allgemeine Herstellung Ihrer durch Einsitzen und Mangel an Bewegung 
+               durchgehends geschwächten Gesundheit ein Hauptmotiv bei dieser Reise wäre; und hätten Sie es nicht gesagt, so würde 
+               ich selbst Ihnen dies Motiv unterlegen, und Ihre ganze Aufmerksamkeit darauf zu heften suchen, die es gar wohl 
+               verdient.
+            </p>
+            <p>
+               Sie haben mich ferner wiederholentlich versichert, daß Sie sich von der Ortsveränderung, von der Zerstreuung, von 
+               der Gesellschaft, von den Gelegenheiten zur Aufheiterung, die Sie gewiß in der Ausführung Ihres Reiseprojekts finden 
+               würden, die ersprießlichsten Vorteile versprächen; ja, Sie haben mir sogar eingestanden, daß die Kur mehr Vorwand, 
+               als Hauptzweck Ihrer Reise wäre, und mir in <rs type="citation" ref="#c4301-1">Ihrem letzten Briefe</rs> nicht 
+               undeutlich zu erkennen gegeben, daß die Furcht in den Augen der Welt, eine Art von Schildbürgerstreich, wie Sie es 
+               zu nennen belieben, zu begehen, Sie am meisten abhalte, bei gegenwärtigen Umständen, 
+               <rs type="place" ref="#plBr">Breslau</rs> zu verlassen.
+            </p>
+            <p>   
+               In Rücksicht auf diese Äußerungen ändert sich daher meine Meinung gewaltig ab. Die Gesundheit Ihres ganzen Körpers 
+               ist doch wenigstens ebenso viel, und was sage ich, wie viel mehr wert, als die etwas frühere oder etwas spätre 
+               Befreiung von einem Übel, das, wie ich aus Ihren Nachrichten sehe, nicht merklich zunimmt, und das Sie auf der 
+               andern Seite doch nicht glauben, je los werden zu können. Unsre hiesigen Chirurgi würden Ihnen höchst wahrscheinlich 
+               zu einer Operation raten, gegen die ich verschiedne sehr triftige Gründe von Ihnen gehört und gelesen habe, und zu 
+               der Sie sich vielleicht nicht entschließen, vielleicht mir vielem Grunde nicht entschließen werden. Alles also was 
+               die Kur <pb/> dieses Übels angeht, ist ungewiß, und vielleicht werden Sie in 
+               <rs type="place" ref="#plBr">Breslau</rs>, wenn auch wirklich die magistri artis dahin kommen, so wenig 
+               Entscheidendes darüber erfahren, als hier der Fall sein würde.
+            </p>
+            <p>
+               Was dagegen gewiß und ausgemacht ist, das sind die günstigen Einflüsse einer solchen Reise auf Ihr ganzes 
+               Gesundheitssystem; und dagegen die Abnahme Ihrer Kräfte und die Verschlimmerung Ihres ganzen Zustandes, wenn Sie, 
+               vollends im Kriege, in der <rs type="place" ref="#plBr">Festung Breslau</rs> eingesperrt sitzen blieben.
+            </p>
+            <p>
+               Um daher Ihren wahren Vorteil, und zugleich die Sicherheit vor dem Vorwurf eines zweckwidrigen oder unweisen 
+               Schritts von seiten der andern Menschen, zu vereinigen, wäre mein Rat: daß Sie sich - aber nicht in der Mitte des 
+               Mai - sondern auf der Stelle auf den Weg nach <rs type="place" ref="#plBe">Berlin</rs> machten. Alsdann könnten Sie 
+               die hiesigen Wundärzte noch eine geraume Zeit konsultieren (falls noch überall der Krieg zustande kömmt) und hätten 
+               für Ihre Breslauer, wenn sie von der Nutzbarkeit Ihrer Reise nicht so überzeugt wären, als ich, immer doch den Grund 
+               bereit, daß man (wie es auch wirklich ist) die Bestimmung der Berlinschen Chirurgen im Felde, und den Ort ihres 
+               Aufenthalts nicht wüßte, und daß Sie daher das Sicherste spielen, und in aller Geschwindigkeit hierher reisen 
+               wollten, wo Sie sie gewiß, und noch obendrein alle zusammen antreffen müßten.
+            </p>
+            <p>
+               Dies ist mein Rat, und alle, die ich darüber hier konsultiert habe, finden diesen Vorschlag vollkommen der Sache 
+               angemessen. Das Wetter wird gut und warm. Der Weg ist schön. Sie sind Herr Ihrer Zeitverteilung. Wenn nicht wichtige 
+               Gründe, die mir unbekannt sind, Sie zurückhalten, so dächte ich, Sie meldeten mir mit rückgehender Post, daß Sie in 
+               acht Tagen in <rs type="place" ref="#plBe">Berlin</rs> eintreffen würden.
+            </p>
+            <p>
+               Nachdem ich von Ihrem Interesse gesprochen habe, wäre es unbescheiden noch viel von meinen Wünschen zu reden. Nur 
+               das versichre ich Sie aufs heiligste, daß ich mich von meiner Sehnsucht, Sie zu sehen, nicht habe verleiten lassen, 
+               meiner Vernunft zugunsten meines Herzen Stillschweigen aufzulegen; und empfehle mich in Ihre Gewogenheit.
+            </p>
+         </div>
+         <closer>
+            <signed rend="right">Gentz.</signed>
+         </closer>
+         <postscript corresp="#bibl">
+            <p>
+               Ich hoffe Ihre Verzeihung zu erhalten, wenn ich Sie mit einer Bitte belästige, die ich mir schon längst vorgesetzt 
+               hatte. Ich wünschte sehr, ein vollständiges Verzeichnis aller Ihrer Schriften zu haben, bloß <pb/> um meine eigne 
+               kleine Büchersammlung zu komplettieren, wenn es möglich ist. Ich besitze nämlich jetzt folgende:
+            </p>
+            <list>
+               <item><rs type="citation" ref="#e4301-1">Sammlung einiger Abhandlungen aus der Bibliothek der schönen Wissenschaft</rs>,</item>
+               <item><rs type="citation" ref="#e4301-2">Cicero von den Pflichten etc.</rs></item>
+               <item><rs type="citation" ref="#e4301-3">Fergusons Moral etc.</rs></item>
+               <item><rs type="citation" ref="#e4301-4">Macfarlan über die Armut</rs>,</item>
+               <item><rs type="citation" ref="#e4301-5">Über Verbindung der Moral und Politik</rs>,</item>
+               <item><rs type="citation" ref="#e4301-6">Über Zollikofers Charakter</rs>,</item>
+               <item><rs type="citation" ref="#e4301-7">Über die Lage Schlesiens</rs>.</item>
+            </list>
+            <p>
+               Daß es außer diesen keine <emph rend="underlined">große</emph> Schrift von Ihnen gibt, die gedruckt wäre, glaube ich 
+               wohl sicher annehmen zu können. Aber ob es nicht kleinre gedruckte, und abgesondert gedruckte Aufsätze von Ihnen 
+               gäbe, möchte ich wohl mit Sicherheit wissen. Sollten Sie, ohne darum Ihr Gedächtnis sehr anzustrengen auf einen oder 
+               den andern solchen Aufsatz fallen, so werde ich es als eine ganz besondre Probe Ihrer Geneigtheit gegen mich 
+               ansehen, wenn Sie mich davon benachrichtigten.
+            </p>
+         </postscript>
+      </body>
+   </text>
+</TEI>

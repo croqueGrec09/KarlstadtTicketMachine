@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc xml:id="LETTER_GENTZ_3545">
+         <titleStmt>
+            <title>Friedrich von Gentz an Karl Gustav von Brinckmann, Oktober 1801</title>
+            <editor xml:id="edAG">Andreas Gálffy</editor>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <name>Forschungsstelle "Universitätssammlung Friedrich von Gentz"</name>
+               <link target="http://gentz-digital.ub.uni-koeln.de http://www.ub.uni-koeln.de/cdm/singleitem/collection/gentz/id/3544/"/>
+            </publisher>
+            <pubPlace>Cologne</pubPlace>
+            <idno type="Gentz-Edition-Number" n="3545"/>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <country>Sweden</country>
+                  <settlement>Trolle-Ljungby</settlement>
+                  <institution>Archiv des Grafen Wachtmeister</institution>
+                  <repository>Nachlaß Brinckmann, Ausländ. Briefwechsel</repository>
+                  <collection>1. Teil</collection>
+                  <idno>Bl. 96</idno>
+               </msIdentifier>
+               <msContents>
+                  <summary>
+                     Eine Rezension zum Rammler, den Gentz auch nach zwanzig Jahren nicht verstand. Eine Stelle, in der die 
+                     Briten als Friedens-Dämon bezeichnet werden, sollte man Lord Hawkesbury zum Frühstück vorlegen.
+                  </summary>
+               </msContents>
+            </msDesc>
+            <listBibl type="preprints">
+               <biblStruct>
+                  <monogr>
+                     <editor>
+                        <persName>
+                           <ref target="http://d-nb.info/gnd/130953075"/>
+                           <forename>Friedrich Carl</forename>
+                           <surname>Wittichen</surname>
+                        </persName>
+                        <persName>
+                           <ref /> <!-- kein GND-Eintrag -->
+                           <forename>Ernst</forename>
+                           <surname>Salzer</surname>
+                        </persName>
+                     </editor>
+                     <title>Briefe von und an Friedrich von Gentz, 4 Bde.</title>
+                     <imprint>
+                        <publisher>Oldenbourg</publisher>
+                        <pubPlace>München, Berlin</pubPlace>
+                        <date>1909-1913</date>
+                     </imprint>
+                     <biblScope unit="volume" n="2">
+                        II
+                     </biblScope>
+                     <biblScope unit="page" from="79" to="80">
+                        Nr. 90
+                     </biblScope>
+                  </monogr>
+               </biblStruct>
+            </listBibl>
+            <listBibl type="defRep">
+               <biblStruct xml:id="p3545-1" corresp="GBk-0070">
+                  <monogr>
+                     <author>
+                        <persName>
+                           <ref target="http://d-nb.info/gnd/119059614"/>
+                           <forename>Karl Wilhelm</forename>
+                           <surname>Ramler</surname>
+                        </persName>
+                     </author>
+                     <title>Lyrische Gedichte</title>
+                     <imprint>
+                        <pubPlace>Berlin</pubPlace>
+                        <publisher>Johann Thomas Edlen von Trattnern</publisher>
+                        <date>1783</date>
+                     </imprint>
+                  </monogr>
+                  <ptr target="https://books.google.de/books?id=imMWAQAAMAAJ"/>
+               </biblStruct>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Masterarbeit zu Matrikelnummer 5584124</p>
+         </projectDesc>
+      </encodingDesc>
+      <profileDesc>
+         <creation>
+            <date when-iso="1801-10-00">Oktober 1801</date>
+         </creation>
+        <langUsage>
+           <language ident="d">deutsch</language>
+        </langUsage>
+         <textClass>
+            <keywords scheme="internal"><!-- internal: innerhalb des besagten Briefs -->
+               <term>Billet</term>
+               <term>Rammler</term>
+               <term>Lord Hawkesbury</term>
+            </keywords>
+            <keywords scheme="categorisation"><!-- Sinnabschnittseinteilung - relevant für den Fahrkartenautomaten! -->
+               <term xml:id="fvlv">Frieden von Lunéville</term>
+            </keywords>
+         </textClass>
+         <textDesc>
+            <channel>manuscript</channel>
+            <constitution type="single"/>
+            <derivation type="original"/>
+            <domain type="private"/>
+            <factuality type="fact"/>
+            <interaction type="partial"/>
+            <preparedness type="prepared"/>
+            <purpose type="inform"/>
+         </textDesc>
+         <particDesc>
+            <listPerson>
+               <!-- Sender und Adressat -->
+               <person role="sender" xml:id="Gen">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/118538489"/>
+                     <forename>Friedrich von</forename>
+                     <surname>Gentz</surname>
+                  </persName>
+               </person>
+               <person role="receiver" xml:id="KGvB">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/116519770"/>
+                     <forename>Carl Gustav von</forename>
+                     <surname>Brinckmann</surname>
+                  </persName>
+               </person>
+               <!-- erwähnte Personen -->
+               <person role="named" xml:id="Je">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/133739791"/>
+                     <forename>Robert Banks</forename>
+                     <surname>Jenkinson</surname>
+                  </persName>
+               </person>
+               <person role="named" xml:id="Ram">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/119059614"/>
+                     <forename>Karl Wilhelm</forename>
+                     <surname>Rammler</surname>
+                  </persName>
+               </person>
+            </listPerson>
+         </particDesc>
+         <settingDesc>
+            <listPlace>
+               <!-- Start- und Zielort -->
+               <place type="sender" xml:id="plBe">
+                  <country>
+                     <ref target="http://d-nb.info/gnd/4047194-9"/>
+                     <placeName>Preußen</placeName>
+                  </country>
+                  <settlement>
+                     <ref target="http://d-nb.info/gnd/4005728-8"/>
+                     <placeName>Berlin</placeName>
+                  </settlement>
+               </place>
+               <!-- erwähnte Orte -->
+            </listPlace>
+         </settingDesc>
+      </profileDesc>
+      <revisionDesc>
+         <change xml:id="init" when-iso="2018-03-09" who="#edAG">Erstauszeichnung und Normierung des Dokumentes im Rahmen der Masterarbeit der Matrikelnummer 5584124</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div n="1" corresp="#fvlv">
+            <p>
+               Ich wollte eigentlich den <rs type="citation" ref="#p3545-1">Rammler</rs> haben, um die Stelle pagina 79 
+               nachzusehen, und zu versuchen, in wie fern sie auf den jetzigen - Frieden anwendbar ist.
+            </p>
+            <lg>
+               <l>Des Britten schwacher <emph rend="underlined">Friedens-Dämon</emph> giebt dir Ehre</l>
+               <l>und Land und Meer zurück.</l>
+            </lg>
+            <p>
+               wäre wohl schwach ? - Könnten Sie mir nicht den <emph rend="underlined">Bourbons Enkel</emph> fortschaffen ? 
+               Kurz, die Stelle scheint mir ausdrücklich geschrieben zu seyn, damit man sie heute lese, und 
+               <rs type="person" ref="#Je">Lord Hawkesbury</rs> zum Frühstück überreiche.
+            </p>
+            <p>
+               Uebrigens verstehe ich diese Ode von <rs type="person" ref="#Ram">Rammler</rs> jetzt eben so wenig, als ich sie 
+               vor zwanzig Jahren verstand.
+            </p>
+         </div>
+         <closer>
+            <signed rend="right">Gentz.</signed>
+         </closer>
+      </body>
+   </text>
+</TEI>

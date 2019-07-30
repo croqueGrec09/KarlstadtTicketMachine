@@ -1,0 +1,463 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc xml:id="LETTER_GENTZ_2967">
+         <titleStmt>
+            <title>Friedrich von Gentz an Girolamo Lucchesini, 7. Juni 1800</title>
+            <editor xml:id="edAG">Andreas Gálffy</editor>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <name>Forschungsstelle "Universitätssammlung Friedrich von Gentz"</name>
+               <link target="http://gentz-digital.ub.uni-koeln.de http://www.ub.uni-koeln.de/cdm/singleitem/collection/gentz/id/2966/"/>
+            </publisher>
+            <pubPlace>Cologne</pubPlace>
+            <idno type="Gentz-Edition-Number" n="2967"/>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <country>Germany</country>
+                  <settlement>Berlin</settlement>
+                  <institution>Geheimes Staatsarchiv Preußischer Kulturbesitz</institution>
+                  <repository>I. HA, Rep 92</repository>
+                  <collection>Nachlaß Lucchesini, Nr. 27</collection>
+                  <idno>Bl. 4-7v</idno>
+               </msIdentifier>
+               <msContents>
+                  <summary>
+                     Es wird mit einem Bericht vergangener Ereignisse begonnen; zunächst hat der Zar von Russland eine 
+                     diamantenbesetzte Uhr im Wert von 6-700 Écus hinterlegt. Dann schreibt Gentz über die Reaktion Grenvilles und 
+                     des Königs von England zum Essay über die Finanzen vopn Großbritannien. Mr. Garlike hat angeordnet, 500 Pfund 
+                     Sterling als Geschenk zu überreichen. Über beide vorangegangenen Ereignisse soll Diskretion gewahrt werden. 
+                     die öffentliche Meinung wird geachtet; sie könnte die Gesten missverstehen. Danach fallen einige Worte zum 
+                     Essay selbst, zu dem Lucchesini beigetragen hat. Im letzten Abschnitt beschreibt Gentz sein Anliegen, eine 
+                     Reise nach Meseritz zu unternehmen, um dort Lucchesini zu treffen und erbittet sich dazu sein Wohlwollen.
+                  </summary>
+               </msContents>
+            </msDesc>
+            <listBibl type="letterReferenced">
+               <bibl xml:id="c2967-1" corresp="#LETTER_GENTZ_1051">William Wyndham Lord Grenville an Friedrich von Gentz, Anfang Juni 1800</bibl>
+            </listBibl>
+            <listBibl type="defRep">
+               <biblStruct xml:id="p2967-1" corresp="GBk-0060">
+                  <monogr>
+                     <author>
+                        <persName>
+                           <ref target="http://d-nb.info/gnd/118538489"/>
+                           <forename>Friedrich von</forename>
+                           <surname>Gentz</surname>
+                        </persName>
+                     </author>
+                     <title>Essai sur l'etat actuel de l'administration des finances et de la richesse nationale de la Grande Bretagne</title>
+                     <imprint>
+                        <pubPlace>London</pubPlace>
+                        <publisher>J. Debrett</publisher>
+                        <date>1800</date>
+                     </imprint>
+                  </monogr>
+                  <ptr target="https://books.google.de/books?id=R_bXZfXXWVoC"/>
+               </biblStruct>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Masterarbeit zu Matrikelnummer 5584124</p>
+         </projectDesc>
+      </encodingDesc>
+      <profileDesc>
+         <creation>
+            <date when-iso="1800-06-02">2. Juni 1800</date>
+         </creation>
+        <langUsage>
+           <language ident="f">französisch</language>
+        </langUsage>
+         <textClass>
+            <keywords scheme="internal"><!-- internal: innerhalb des besagten Briefs -->
+               <term>Brief</term>
+               <term>Grenville</term>
+               <term>Dankschreiben</term>
+               <term>Essay über die Finanzen</term>
+               <term>Russland</term>
+               <term>England</term>
+               <term>Geschenk</term>
+               <term>Reise</term>
+               <term>Meseritz</term>
+            </keywords>
+            <keywords scheme="categorisation"><!-- Sinnabschnittseinteilung - relevant für den Fahrkartenautomaten! -->
+               <term xml:id="vgl">Verhältnis Girolamo Lucchesini</term>
+               <term xml:id="kru">Russland</term>
+               <term xml:id="efgb">Essay über die Finanzen Großbritanniens</term>
+               <term xml:id="bezl">Beziehungen zu London</term>
+               <term xml:id="rmr">Reise nach Meseritz</term>
+            </keywords>
+         </textClass>
+         <textDesc>
+            <channel>manuscript</channel>
+            <constitution type="single"/>
+            <derivation type="original"/>
+            <domain type="private"/>
+            <factuality type="fact"/>
+            <interaction type="partial"/>
+            <preparedness type="prepared"/>
+            <purpose type="inform"/>
+         </textDesc>
+         <particDesc>
+            <listPerson>
+               <!-- Sender und Adressat -->
+               <person role="sender" xml:id="Gen">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/118538489"/>
+                     <forename>Friedrich von</forename>
+                     <surname>Gentz</surname>
+                  </persName>
+               </person>
+               <person role="receiver" xml:id="GirL">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/118780670"/>
+                     <forename>Girolamo</forename>
+                     <surname>Lucchesini</surname>
+                  </persName>
+               </person>
+               <!-- erwähnte Personen -->
+               <person role="named" xml:id="BvK">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/136535526"/>
+                     <forename>Burchard von</forename>
+                     <surname>Krüdener</surname>
+                  </persName>
+               </person>
+               <person role="named" xml:id="ZPI">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/118739549"/>
+                     <forename>Paul I.</forename>
+                     <surname>Romanow</surname>
+                     <roleName type="office">Zar von Russland</roleName>
+                  </persName>
+               </person>
+               <person role="named" xml:id="Glk">
+                  <persName>
+                     <ref />
+                     <forename/>
+                     <surname>Garlike</surname>
+                  </persName>
+               </person>
+               <person role="named" xml:id="WWG">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/119098903"/>
+                     <forename>William Wyndham</forename>
+                     <surname>Grenville</surname>
+                  </persName>
+               </person>
+               <person role="named" xml:id="KGeIII">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/118716913"/>
+                     <forename>Georg III.</forename>
+                     <surname/>
+                     <roleName type="office">König von England</roleName>
+                  </persName>
+               </person>
+               <person role="named" xml:id="Pitt">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/118792393"/>
+                     <forename>William</forename>
+                     <surname>Pitt</surname>
+                  </persName>
+               </person>
+               <person role="named" xml:id="FdI">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/100297676"/>
+                     <forename>Francis d'</forename>
+                     <surname>Ivernois</surname>
+                  </persName>
+               </person>
+               <person role="named" xml:id="FWvdSK">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/118611275"/>
+                     <forename>Friedrich Wilhelm von der</forename>
+                     <surname>Schulenburg-Kehnert</surname>
+                  </persName>
+               </person>
+               <person role="named" xml:id="Anc">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/118645110"/>
+                     <forename>Johann Peter Friedrich</forename>
+                     <surname>Ancillon</surname>
+                  </persName>
+               </person>
+               <person role="named" xml:id="FCP">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/118790471"/>
+                     <forename>Friedrich Christoph</forename>
+                     <surname>Perthes</surname>
+                  </persName>
+               </person>
+               <person role="named" xml:id="FHvP">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/141421037"/>
+                     <forename>Friedrich Heinrich von</forename>
+                     <surname>Podewils</surname>
+                  </persName>
+               </person>
+               <person role="named" xml:id="CvT">
+                  <persName>
+                     <ref />
+                     <forename>Charlotte von</forename>
+                     <surname>Tarrach</surname>
+                  </persName>
+               </person>
+            </listPerson>
+         </particDesc>
+         <settingDesc>
+            <listPlace>
+               <!-- Start- und Zielort -->
+               <place type="sender" xml:id="plBe">
+                  <country>
+                     <ref target="http://d-nb.info/gnd/4047194-9"/>
+                     <placeName>Preußen</placeName>
+                  </country>
+                  <settlement>
+                     <ref target="http://d-nb.info/gnd/4005728-8"/>
+                     <placeName>Berlin</placeName>
+                  </settlement>
+               </place>
+               <!-- erwähnte Orte -->
+               <place type="named" xml:id="plEn">
+                  <country>
+                     <ref target="http://d-nb.info/gnd/4022153-2"/>
+                     <placeName>England</placeName>                
+                  </country>
+               </place>
+               <place type="named" xml:id="plLo">
+                  <country>
+                     <ref target="http://d-nb.info/gnd/4022153-2"/>
+                     <placeName>Vereinigtes Königreich</placeName>                
+                  </country>
+                  <settlement>
+                     <ref target="http://d-nb.info/gnd/4074335-4"/>
+                     <placeName>London</placeName>
+                  </settlement>
+               </place>
+               <place type="named" xml:id="plDe">
+                  <country>
+                     <ref target="http://d-nb.info/gnd/2035457-5"/>
+                     <placeName>Deutschland</placeName>  
+                  </country>
+               </place>
+               <place type="named" xml:id="plHa">
+                  <country>
+                     <ref target="http://d-nb.info/gnd/4023118-5"/>
+                     <placeName>Hamburg</placeName>
+                  </country>
+                  <settlement>
+                     <ref target="http://d-nb.info/gnd/4023118-5"/>
+                     <placeName>Hamburg</placeName>
+                  </settlement>
+               </place>
+               <place type="named" xml:id="plMs">
+                  <country>
+                     <ref target="http://d-nb.info/gnd/4047194-9"/>
+                     <placeName>Preußen</placeName>
+                  </country>
+                  <region>
+                     <ref target="http://d-nb.info/gnd/4399096-4"/>
+                     <placeName>Kreis Meseritz</placeName>
+                  </region>
+               </place>
+               <place type="named" xml:id="plPo">
+                  <country>
+                     <ref target="http://d-nb.info/gnd/4047194-9"/>
+                     <placeName>Preußen</placeName>
+                  </country>
+                  <region>
+                     <ref target="http://d-nb.info/gnd/4046948-7"/>
+                     <placeName>Potsdam</placeName>  
+                  </region>
+               </place>
+               <place type="named" xml:id="plSnb">
+                  <country>
+                     <ref target="http://d-nb.info/gnd/4047194-9"/>
+                     <placeName>Preußen</placeName>
+                  </country>
+                  <region>
+                     <ref target="http://d-nb.info/gnd/5265822-3"/>
+                     <placeName>Sonnenburg</placeName>  
+                  </region>
+               </place>
+               <place type="named" xml:id="plFfO">
+                  <country>
+                     <ref target="http://d-nb.info/gnd/4047194-9"/>
+                     <placeName>Preußen</placeName>
+                  </country>
+                  <region>
+                     <ref target="http://d-nb.info/gnd/4018122-4"/>
+                     <placeName>Frankfurt (Oder)</placeName>  
+                  </region>
+               </place>
+               <place type="named" xml:id="plGu">
+                  <country>
+                     <ref target="http://d-nb.info/gnd/4047194-9"/>
+                     <placeName>Preußen</placeName>
+                  </country>
+                  <region>
+                     <ref target="http://d-nb.info/gnd/4393530-8"/>
+                     <placeName>Gusow</placeName>  
+                  </region>
+               </place>
+            </listPlace>
+         </settingDesc>
+      </profileDesc>
+      <revisionDesc>
+         <change xml:id="init" when-iso="2018-03-05" who="#edAG">Erstauszeichnung und Normierung des Dokumentes im Rahmen der Masterarbeit der Matrikelnummer 5584124</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <opener>
+            <salute rend="left">Monsieur le Marquis !</salute>
+         </opener>
+         <div n="1" corresp="#vgl">
+            <p>
+               Accoutumé depuis le premier moment, que ma bonne étoile m’a conduit auprès de Votre Excellence de regarder la 
+               protection et la bienveillance dont Elle m’honore, comme la plus douce et la plus favorable de toutes les 
+               circonstances de ma situation publique et privée, et plein de la confiance sans bornes, que cet avantage inestimable 
+               m’a inspirée, je ne saurois garder le silence sur deux événemens qui se sont passés depuis Votre départ, 
+               Monsieur le Marquis, et qui, quoique peu importans en eux-mêmes ne seront pas sans intérèt pour Vous.
+            </p>
+         </div>
+         <div n="2" corresp="#kru">
+            <p>
+               Le premier est l’accomplissement de ce que <rs type="person" ref="#BvK">Monsieur de Krüdener</rs> m’avoit annoncé 
+               relativement à <rs type="person" ref="#ZPI">l’Empereur de Russie</rs>. Il m’a remis de la part de ce monarque une 
+               belle montre garnie de diamans, avec une chaine superbe, le tout d’une valeur <emph rend="underlined">réelle</emph> 
+               de 6 a 700 écus.
+            </p>
+         </div>
+         <div n="3" corresp="#efgb">
+            <p>
+               Deux jours après j’ai reçu des nouvelles de l’arrivée de <rs type="citation" ref="#p2967-1">mon ouvrage François</rs> 
+               à <rs type="place" ref="#plLo">Londres</rs>, et de l’effet qu’il a produit chez les hommes les plus distingués de 
+               l’Angle<pb/>terre. Je prens la liberté de <del rend="stroked">joindre</del> présenter ci joint à Votre Excellence 
+               copie de <rs type="citation" ref="#c2967-1">la lettre</rs> que <rs type="person" ref="#WWG">Lord Grenville</rs> m’a 
+               écrite de sa propre main: elle contient le témoignage le plus honorable auquel j’aurois jamais pu prétendre. 
+               <rs type="person" ref="#Pitt">Monsieur Pitt</rs> m’a fait dire à peu-près les mêmes choses par 
+               <rs type="person" ref="#FdI">Monsieur d’Ivernois</rs>.
+            </p>
+            <p>
+               Votre Excellence verra, qu’il est question dans cette lettre d’une marque, que 
+               <rs type="person" ref="#KGeIII">le roi</rs> <rs type="place" ref="#plEn">d’Angleterre</rs> a bien voulu me donner de 
+               sa satisfaction. C’étoit un ordre à <rs type="person" ref="#Glk">Monsieur Garlike</rs>, conçu dans les expressions 
+               les plus obligeantes et les plus délicates pour moi, de me remettre la somme de cinq cens Livres Sterling.
+            </p>
+            <p>
+               Comme <rs type="person" ref="#Glk">Monsieur Garlike</rs> s’est conduit aussi bien que 
+               <rs type="person" ref="#BvK">Monsieur de Krüdener</rs> avec beaucoup de délicatesse et de circonspection, comme tous 
+               les deux <del rend="stroked">xxx</del> m’ont devancé dans l’idée de garder le silence sur la grace que leurs 
+               souverains m’ont accordée, il n’a <del rend="stroked">pas</del> encore été parlé jusqu’à présent d’aucun de ces deux 
+               événemens. Pour celui <rs type="place" ref="#plEn">d’Angleterre</rs> je ne crois pas qu’il <pb/> sera possible, de le 
+               cacher absolument, parce que la nouvelle pourroit en être debitée à <rs type="place" ref="#plLo">Londres</rs> même, 
+               et passer de là au continent. Si ce cas arrive, je verrai bien, quelle conduite il y aura à tenir; mais jusques-là je 
+               me tairai; et j’ai l’honneur d’avertir Votre Excellence, qu’excepté le 
+               <rs type="person" ref="#FWvdSK">Comte de Schulenburg</rs>, je n’en ai encore parlé à personne.
+            </p>
+         </div>
+         <div n="4" corresp="#bezl">
+            <p>
+               Vous connoissez, Monsieur le Marquis, le caractère de ce qu’on nomme aujourd’hui opinion publique; aux yeux d’un 
+               grand nombre de ceux qui <add place="above">la</add> guident, j’ai été depuis longtems un stipendié de 
+               <rs type="person" ref="#Pitt">Pitt</rs> etc. etc. Peut-être ne sont ils pas assez dépourvus de sens commun pour le 
+               croire; mais il suffit qu’ils le disent, et qu’ils le publient.
+            </p>
+         </div>
+         <div n="5" corresp="#efgb">
+            <p>
+               Votre Excellence a pour ainsi dire assisté à la naissance de 
+               <rs type="citation" ref="#p2967-1">mon écrit sur les finances de l’Angleterre</rs>. Dieu sait, qu’en composant ces 
+               morceaux, je n’avois pas <del rend="stroked">la</del> même l’idée qu’ils pussent jamais être lus à 
+               <rs type="place" ref="#plLo">Londres</rs>; je n’avois absolument en vue que 
+               <rs type="place" ref="#plDe">l’allemagne</rs>, et les erreurs grossières que j’y voyois répandues sur l’objet que je 
+               traitois. C’étoit un pur hazard, que <rs type="person" ref="#Anc">Ancillon</rs> prit la fantaisie, de les traduire; 
+               et si ensuite un contrât fait avec <rs type="person" ref="#FCP">un libraire</rs> de 
+               <rs type="place" ref="#plHa">Hamburg</rs> <pb/> ne m’avoit pas lié, jamais, jamais cette traduction, que j’ai maudit 
+               mille fois, à cause de toutes les peines qu’elle m’a coutées, n’auroit été achevée. C’est là l’histoire exacte de 
+               <rs type="citation" ref="#p2967-1">cet ouvrage</rs>, auquel j’étois bien loin de promettre le succès 
+               <del rend="stroked">xxx</del> qu’il paroit avoir obtenu. - Mais tout cela est perdu pour mes adversaires. Ils diront 
+               à tout le monde que <rs type="person" ref="#Pitt">le Ministère Anglois</rs> m’a payé pour faire un tableau brillant 
+               de Ses ressources, et on les croira. Je me crois donc pleinement justifié, si je retarde autant qu’il est possible le 
+               moment ou ces clameurs doivent s’élever contre moi.
+            </p>
+         </div>
+         <div n="6" corresp="#rmr">
+            <p>
+               Je me trouve dans un cruel embarras, par rapport à un autre objet, dont il faut que je parle dans cette lettre; et 
+               certes, Votre Excellence ne dévineroit pas <del rend="stroked">que</del> qu’il s’agit de mon projet de voyage à 
+               <rs type="place" ref="#plMs">Meseritz</rs>. Comme ce que <add place="above">je</add> voudrois dire sur cet article 
+               est si extrêmement délicat, qu’il me faudroit infiniment plus de finesse que je n’ai jamais possédée pour m’en tirer 
+               avec succés, il ne me reste qu’un autre parti à prendre; et c’est celui de renoncer entièrement à toutes les <pb/> 
+               prétentions, et de parler le langage de la franchise et de la simplicité, langage, qui d’ailleurs ne déplaira jamais 
+               à Votre Excellence. Je Vous avoue donc, Monsieur le Marquis, que j’ai eu le plus grand désir, de faire ce voyage, que 
+               je l’ai encore dans ce moment, mais que j’ai cru m’appercevoir, que Vous ne le goutiez pas tout-à-fait. Votre 
+               Excellence a trop de bonté pour moi, pour avoir pu s’opposer à un plan auquel Elle a bien vu que j’attachois un grand 
+               prix: je ne crois pas non plus, - et ce seroit une affectation ridicule de croire, que mon séjour à 
+               <rs type="place" ref="#plMs">Meseritz</rs> Lui auroit été absolument désagréable: mais je crains beaucoup, qu’il y 
+               avoit quelqu’autre plan, soit de travail, soit de voyage, soit de société, qui ne s’accordoit pas avec le mien, et 
+               que la complaisance gracieuse de Votre Excellence l’a seule <del rend="stroked">xxx</del> engagé à me taire. Ce qui 
+               m’a fortifié dans cette crainte, c’est le silence que Votre Excellence a gardé envers moi depuis son retour de 
+               <rs type="place" ref="#plPo">Potsdam</rs> jusqu’à son départ de <rs type="place" ref="#plBe">Berlin</rs>. Je sens - 
+               et voilà précisément l’embarras où je me trouve - je sens, que c’est une indiscrétion extrême, que de dire ce que je 
+               viens de confier à Votre Excellence, et que, si ma crainte <pb/> étoit fondée, <del rend="stroked">xxx</del> j’aurois 
+               infiniment mieux fait de me règler en silence d’après ce que je croyois les dispositions secretes de Votre 
+               Excellence, et de pallier par quelque excuse triviale la résolution, de renoncer à ce voyage. Mais, de l’autre coté, 
+               je pouvois aussi me tromper; et alors Vous auriez cru qu’une indifférence coupable, qui est trop loin de moi, m’eut 
+               empêché de profiter de la gracieuse permission qui m’avoit été accordée. Entre ces deux écueils j’ai préféré le 
+               premier; si mes scrupules étoient exagérés, s’il y avoit de l’indiscretion, <del rend="stroked">xxx</del> les 
+               déclarer à Votre Excellence, Elle me la pardonnera.
+            </p>
+         </div>
+         <div n="7" corresp="#vgl">
+            <p>
+               Quelle que soit le véritable état de la chose, je supplie Votre Excellence, de m’en avertir sans ménagement. Comblé 
+               de Vos bontés, fier, je puis le dire, de la bienveillance dont Vous m’honorez, je regarderai comme la plus grande 
+               faveur, que vous puissiez m’accorder dans ce moment, une explication, qui puisse me tranquilliser. Si <pb/> ma 
+               crainte a été juste, Votre Excellence en la confirmant me donnera une nouvelle preuve de Ses bonnes graces; car dans 
+               ces sortes de choses on ne dit la vérité qu’à ceux qu’on estime; on la cache aux autres, dût-on même faire quelque 
+               sacrifice. Si <del rend="stroked">xxx</del> je me suis trompé, un seul mot me fera revenir de mon erreur, et 
+               j’exécuterai mon projet avec un empressement égal à l’ardeur, avec laquelle je l’avois conçu.
+            </p>
+            <p>
+               Dans ce dernier cas, je prierois en même tems Votre Excellence de vouloir bien me faire savoir, quel jour Elle a fixé 
+               pour le voyage de <rs type="place" ref="#plSnb">Sonnenburg</rs>. Mes occupations ne me permettent pas de quitter 
+               <rs type="place" ref="#plBe">Berlin</rs> avant le <date when-iso="1800-06-21">21</date>; si je ne me trompe, Vous 
+               aviez l’idée de partir le <date when-iso="1800-06-28">28</date>; alors je pourrois toujours passer 5 à 6 jours à 
+               <rs type="place" ref="#plMs">Meseritz</rs>, et suivre Votre Excellence à 
+               <rs type="place" ref="#plFfO">Francfort</rs>; car pour le voyage de <rs type="place" ref="#plGu">Gusow</rs>, j’y ai 
+               renoncé absolument, depuis que j’ai appris <del rend="stroked">que</del> qu’une partie de la grande société de 
+               <rs type="place" ref="#plBe">Berlin</rs>, et même des princes se trouveroient chez le 
+               <rs type="person" ref="#FHvP">Comte Podlivils</rs> à l’époque de la cérémonie de 
+               <rs type="place" ref="#plSnb">Sonnenburg</rs>.
+            </p>
+            <p>
+               Je demande pardon, et mille fois pardon à Votre Excellence de l’avoir ennuyé par une grande <pb/> lettre sur un si 
+               mince sujet. J’oserois presque dire que Vous n’avez pas le droit, Monsieur le Marquis, de m’en blâmer; car Vous 
+               m’avez inspiré Vous même tout ce qui rend ce sujet si infiniment intéressant à mes yeux.
+            </p>
+            <p>
+               Je prie Votre Excellence de présenter a <rs type="person" ref="#CvT">Madame la Marquise</rs> l’hommage de mon 
+               dévouement respectueux, et d’agréer les sentimens d’un attachement inviolable, et du profond respect, avec lesquels 
+               j’ai l’honneur d’être
+            </p>
+         </div>
+         <closer>
+            <salute rend="right">De Votre Excellence</salute>
+            <salute rend="right">le très-humble et</salute>
+            <salute rend="right">très-dévoué serviteur</salute>
+            <dateline rend="left"><rs type="place" ref="#plBe">Berlin</rs> Ce <date when-iso="1800-06-07">7 Juin 1800</date></dateline>
+            <signed rend="right">Gentz.</signed>
+         </closer>
+      </body>
+   </text>
+</TEI>

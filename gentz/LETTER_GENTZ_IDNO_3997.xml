@@ -1,0 +1,273 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc xml:id="LETTER_GENTZ_3997">
+         <titleStmt>
+            <title>Friedrich von Gentz an Friedrich Vieweg, 21. Januar 1800</title>
+            <editor xml:id="edAG">Andreas Gálffy</editor>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <name>Forschungsstelle "Universitätssammlung Friedrich von Gentz"</name>
+               <link target="http://gentz-digital.ub.uni-koeln.de http://www.ub.uni-koeln.de/cdm/singleitem/collection/gentz/id/3996/"/>
+            </publisher>
+            <pubPlace>Cologne</pubPlace>
+            <idno type="Gentz-Edition-Number" n="3997"/>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <country>Germany</country>
+                  <settlement>Wiesbaden</settlement>
+                  <institution>Vieweg-Verlagsarchiv</institution>
+                  <repository>Briefsammlung G 311: Gentz-Brief</repository>
+                  <idno>Nr. 98</idno>
+               </msIdentifier>
+               <msContents>
+                  <summary>
+                     Die Flehen Gentz' blieben nicht unbeantwortet, aber leider unerhört. Er hat eine Ernüchterung erfahren und 
+                     entrüstet sich jetzt über Viewegs Verhalten. Er rechnet ihm auch den zu erwartenden Profit vor. Aus diesem 
+                     Grunde wären laut Gentz die 400 Reichstaler definitiv drin. Er pocht zudem auf die Treue, die er zu Vieweg 
+                     hielt und klagt, dass er jetzt so beharrlich betteln muss, um zumindest teilweise ausbezahlt zu werden.
+                  </summary>
+               </msContents>
+            </msDesc>
+            <listBibl type="letterReferenced">
+               <bibl xml:id="c3997-1" corresp="#LETTER_GENTZ_NNNN">nicht bekannter Brief von Friedrich Vieweg an Friedrich von Gentz</bibl>
+            </listBibl>
+            <listBibl type="defExpr">
+               <biblStruct xml:id="e3997-1" corresp="GBk-0059">
+                  <monogr>
+                     <editor>
+                        <persName>
+                           <ref target="http://d-nb.info/gnd/118538489"/>
+                           <forename>Friedrich von</forename>
+                           <surname>Gentz</surname>
+                        </persName>
+                     </editor>
+                     <title>Historisches Journal</title>
+                     <imprint>
+                        <pubPlace>Berlin</pubPlace>
+                        <publisher>Heinrich Frölich</publisher>
+                        <date>1800</date>
+                     </imprint>
+                     <biblScope unit="volume" n="1">
+                        Erster Band. Januar bis April.
+                     </biblScope>
+                  </monogr>
+                  <ptr target="https://books.google.de/books?id=PcAtZUZGTlcC"/>
+               </biblStruct>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Masterarbeit zu Matrikelnummer 5584124</p>
+         </projectDesc>
+      </encodingDesc>
+      <profileDesc>
+         <creation>
+            <date when-iso="1800-01-21">21. Januar 1800</date>
+         </creation>
+        <langUsage>
+           <language ident="d">deutsch</language>
+        </langUsage>
+         <textClass>
+            <keywords scheme="internal"><!-- internal: innerhalb des besagten Briefs -->
+               <term>Brief</term>
+               <term>Bettelbrief</term>
+               <term>alte Freundschaft</term>
+               <term>Streit</term>
+            </keywords>
+            <keywords scheme="categorisation"><!-- Sinnabschnittseinteilung - relevant für den Fahrkartenautomaten! -->
+               <term xml:id="gprl">Gentz - p(r)ekuniäre Lage</term>
+               <term xml:id="vwfe">Vieweg - Feindschaft</term>
+               <term xml:id="vwf">Vieweg - Freundschaft</term>
+            </keywords>
+         </textClass>
+         <textDesc>
+            <channel>manuscript</channel>
+            <constitution type="single"/>
+            <derivation type="original"/>
+            <domain type="private"/>
+            <factuality type="fact"/>
+            <interaction type="partial"/>
+            <preparedness type="unprepared"/>
+            <purpose type="inform"/>
+         </textDesc>
+         <particDesc>
+            <listPerson>
+               <!-- Sender und Adressat -->
+               <person role="sender" xml:id="Gen">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/118538489"/>
+                     <forename>Friedrich von</forename>
+                     <surname>Gentz</surname>
+                  </persName>
+               </person>
+               <person role="receiver" xml:id="FVW">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/119049546"/>
+                     <forename>Friedrich</forename>
+                     <surname>Vieweg</surname>
+                  </persName>
+               </person>
+               <!-- erwähnte Personen -->
+               <person role="named" xml:id="JAS">
+                  <persName>
+                     <ref/>
+                     <forename>Jacob Abraham</forename>
+                     <surname>Schlesinger</surname>
+                  </persName>
+               </person>
+               <person role="named" xml:id="FWvdSK">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/118611275"/>
+                     <forename>Friedrich Wilhelm von der</forename>
+                     <surname>Schulenburg-Kehnert</surname>
+                  </persName>
+               </person>
+               <person role="named" xml:id="Fro">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/1073351068"/>
+                     <forename>Heinrich</forename>
+                     <surname>Frölich</surname>
+                  </persName>
+               </person>
+            </listPerson>
+         </particDesc>
+         <settingDesc>
+            <listPlace>
+               <!-- Start- und Zielort -->
+               <place type="sender" xml:id="plBe">
+                  <country>
+                     <ref target="http://d-nb.info/gnd/4047194-9"/>
+                     <placeName>Preußen</placeName>
+                  </country>
+                  <settlement>
+                     <ref target="http://d-nb.info/gnd/4005728-8"/>
+                     <placeName>Berlin</placeName>
+                  </settlement>
+               </place>
+               <place type="receiver" xml:id="plBs">
+                  <country>
+                     <ref target="http://d-nb.info/gnd/4089993-7"/>
+                     <placeName>Staat Wolfenbüttel</placeName>
+                  </country>
+                  <settlement>
+                     <ref target="http://d-nb.info/gnd/4008065-1"/>
+                     <placeName>Braunschweig</placeName>
+                  </settlement>
+               </place>
+               <!-- erwähnte Orte -->
+               <place type="named" xml:id="plSc">
+                  <country>
+                     <ref target="http://d-nb.info/gnd/4047194-9"/>
+                     <placeName>Preußen</placeName>
+                  </country>
+                  <region>
+                     <ref target="http://d-nb.info/gnd/4052678-1"/>
+                     <placeName>Schlesien</placeName>
+                  </region>
+               </place>
+            </listPlace>
+         </settingDesc>
+      </profileDesc>
+      <revisionDesc>
+         <change xml:id="init" when-iso="2018-03-05" who="#edAG">Erstauszeichnung und Normierung des Dokumentes im Rahmen der Masterarbeit der Matrikelnummer 5584124</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <opener>
+            <dateline rend="right"><rs type="place" ref="#plBe">Berlin</rs> den <date when-iso="1800-01-21">21. Januar 1800</date></dateline>
+         </opener>
+         <div n="1" corresp="#gprl">
+            <p>
+               <rs type="citation" ref="#c3997-1">Ihr letztes Schreiben</rs> hat mir wenigstens den traurigen Vortheil geschafft, 
+               daß ich doch nun weiß, wie Sie eigentlich in Ansehung unsrer Geldverhältnisse gesonnen sind. Schon lange ahndete es 
+               mir, daß Sie mir nicht bloß Hülfe für den Augenblick versagen, sondern die ganze Journal-Entreprise in Rücksicht auf 
+               mich als geschlossen betrachten wollten. Jetzt verstehe ich die Sache, und kan den ganzen Umfang meiner fatalen Lage 
+               berechnen. Sie meinen, durch die 200 Reichsthaler die Sie mir baar, und die 400 die Sie durch 
+               <rs type="person" ref="#JAS">Schlesinger</rs> gezahlt haben, sey ich fürs erste abgefunden, und das Wenige, was Sie 
+               mir noch accordiren werden, soll auf meine alte Schuldabgehen.
+            </p>
+         </div>
+         <div n="2" corresp="#vwef">
+            <p>
+               Sie wißen nur zu gut, lieber Vieweg, daß, wie groß auch meine Noth seyn mögte, ich mich immer blindlings dem 
+               unterwerfen werde, was Sie über mich beschließen. Aber das einzige bitte ich Sie nur: glauben Sie nicht etwa, daß ich 
+               diesmal nicht <emph rend="underlined">wüste</emph>, wie Sie mich behandeln: Noth und verspätetes Nachdenken haben 
+               mich gelehrt, <emph rend="underlined">was</emph> ich eigentlich durch mein kindisches Vertrauen zu Ihnen am Schluß 
+               des Jahres 1799 verliere, und welchen Gewinn ich gemacht hätte, wenn ich mich nicht aus bloßer Freundschaft in Ihre 
+               Arme warf. Mir ist bekannt, wie eigentlich die Entreprise, bei der Sie weiter nichts thaten, als Geld einnehmen, 
+               (denn von <emph rend="underlined">Vorschüssen</emph> ist gar nicht die Rede) gegangen ist; ich weiß,
+            </p>
+            <p>
+               1, daß Sie <emph rend="underlined">wenigstens</emph> 1700 Exemplare abgesetzt haben
+            </p>
+            <p>
+               2, daß von diesen, allein nach <rs type="place" ref="#plSc">Schlesien</rs> 300 gegangen sind, die Sie 
+               <emph rend="underlined">für voll</emph>, und pränumerando bezahlt erhielten, so daß Sie bloß von daher 1200 
+               Reichsthaler reine Einnahme hatten
+            </p>
+            <p>
+               3, daß Sie mit allen hiesigen Buchhändler schon abgeschlossen hatten, als Sie von 
+               <rs type="place" ref="#plBe">Berlin</rs> gingen; folglich die Klage, daß Sie erst 
+               <date when-iso="1800-04-13">Ostern 1800</date> Geld einnehmen könnten, ungegründet ist
+            </p>
+            <p>
+               4, daß die Kosten von Druck und Papier aufs höchste gerechnet 1200 Reichsthaler betragen.
+            </p>
+            <p>
+               5, daß Sie, <emph rend="underlined">zum allerwenigsten</emph>, nach Abzug der Kosten einen reinen Ueberschuß von 3500 
+               Reichsthaler haben, daß Sie dieses schon jetzt sehr gut wißen, und mich dennoch 
+               <emph rend="underlined">mit 600 Reichsthaler</emph> abgefunden glauben können.
+            </p>
+         </div>
+         <div n="3" corresp="#vwf">
+            <p>
+               Selbst das Vorhaben mir den Lohn einer mühsamen Arbeit, nachdem ich, Gott weiß warum, die Hälfte des Profits mit 
+               Ihnen theilte, auf Ihre alte Forderung abzuziehen, selbst dieses ist hart und unbillig. Sie wißen, wozu ich mich 
+               engagirt habe, in dem Dokument über diese alte Schuld, welches sich in Ihren Händen befindet. Sie wißen, ob ich, wenn 
+               ich dergleichen hätte voraus sehen können, nicht hundert Mittel des Verlages statt eines gefunden haben würde, ohne 
+               mich an Sie zu wenden. Ich werde es nie vergessen, daß ein Buchhändler, den noch dazu der 
+               <rs type="person" ref="#FWvdSK">Graf Schulenburg</rs> mächtig protegirte, das 
+               <rs type="citation" ref="#e3997-1">Journal</rs> <emph rend="underlined">für meine Rechnung</emph> mit 20 proCent 
+               Provision drucken wollte, daß ich <emph rend="underlined">Ihnen zu Liebe</emph> Finten erdachte, um mir einen reinen 
+               Profit von 3000 Reichsthaler den ich am Ende des Jahres eingestrichen hätte, zu versagen, daß ich selbst, wenn ich 4 
+               Louisdor Honorar genommen hätte, wie sie mir <rs type="person" ref="#Fro">Frölich</rs> jetzt giebt, doch 2000 
+               Reichsthaler in Friedrichsdor einnahm. Und jetzt habe ich - Nichts. Und dabei scheinen 
+               <emph rend="underlined">Sie</emph> noch Ursach haben zu wollen, mir Vorwürfe zu machen. Wenn manche Dinge nicht so 
+               schmerzhaft wären, so würden sie unglaublich komisch seyn.
+            </p>
+         </div>
+         <div n="4" corresp="#vwfe">
+            <p>
+               Jetzt erwarte ich von Ihren Gnade nur noch <emph rend="underlined">eine</emph> recht bestimmte Erklärung: 1, 
+               <emph rend="underlined">ob</emph> ich außer den 200 und 400 Reichsthaler die Sie mir jetzt (die letzten auf 
+               <emph rend="underlined">flehentliches Bitten!!!</emph>) gegeben, noch etwas von Ihnen zu erwarten habe, 2, wie viel 
+               dies seyn wird (in 5 Minuten können Sie es berechnen) und 3, <emph rend="underlined">wann</emph> ich es zu erwarten 
+               habe. Alsdann weiß ich doch wenigstens, <emph rend="underlined">wie weit</emph> der dumme Streich, den ich in jedem 
+               Falle gemacht habe, gehen kan, und ob ich die anhaltendste Arbeit die ich je übernahm, wirklich ganz und bloß zum 
+               Vorteil eines andern, der keinen Thaler Geld, und keine Viertelstunde Mühe daran verwendet hat, gethan haben soll. 
+               Ich versichre Sie, daß ich allen meinen Freunden, die sich doch wenigstens vorstellen, daß ich einige 1000 Thaler 
+               baar eingenommen habe, durch diese Entreprise zum Gelächter werde: und Sie müßen mich selbst darüber auslachen.
+            </p>
+            <p>
+               Meine vorigen Briefe bereue ich unendlich: sich so wegzuwerfen, ohne auch nur augenblickliche Hülfe zu erhalten; 
+               <emph rend="underlined">so</emph> um 400 Reichsthaler zu <emph rend="underlined">betteln</emph>, wo man 1400 
+               Reichsthaler <emph rend="underlined">fordern</emph> könnte, ist die härtste Begebenheit meines Lebens. Dies hätte ich 
+               von <emph rend="underlined">Ihnen</emph>, bei Gott, so wenig erwartet, als ich es noch jetzt zu begreifen im Stande 
+               bin
+            </p>
+         </div>
+         <closer>
+            <signed rend="right">Gentz</signed>
+         </closer>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,276 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc xml:id="LETTER_GENTZ_4487">
+         <titleStmt>
+            <title>Friedrich von Gentz an Otto von Voß, 28. April 1802</title>
+            <editor xml:id="edAG">Andreas Gálffy</editor>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <name>Forschungsstelle "Universitätssammlung Friedrich von Gentz"</name>
+               <link target="http://gentz-digital.ub.uni-koeln.de http://www.ub.uni-koeln.de/cdm/singleitem/collection/gentz/id/4486/"/>
+            </publisher>
+            <pubPlace>Cologne</pubPlace>
+            <idno type="Gentz-Edition-Number" n="4487"/>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <country>Germany</country>
+                  <settlement>Berlin</settlement>
+                  <institution>Geheimes Staatsarchiv Preußsischer Kulturbesitz</institution>
+                  <repository>II. HA, Generaldirektorium, Südpreußen</repository>
+                  <collection>Abt. I, Lit E, Nr. 370</collection>
+                  <idno>Bl. 124-124v</idno>
+               </msIdentifier>
+               <msContents>
+                  <summary>
+                     Seine Arbeiten nötigen Gentz zu diesem Antrag, den er stellt, um einen dreimonatigen Urlaub antreten zu können. 
+                     Hierzu führt er seine umfangreichen schriftstellerischen Tätigkeiten, seine Beziehungen zu Buchhändler und 
+                     seine Gesundheit an. Er bittet von Voß darum, ihm diesen Urlaub zu gewähren.
+                  </summary>
+               </msContents>
+            </msDesc>
+            <listBibl type="preprints">
+               <biblStruct>
+                  <analytic>
+                     <author>
+                        <persName>
+                           <ref />
+                           <forename>Paul</forename>
+                           <surname>Bailleu</surname>
+                        </persName>
+                     </author>
+                     <title>Die Verabschiedung des Kriegsrats Gentz 1802</title>
+                  </analytic>
+                  <monogr>
+                     <title>Forschungen zur brandenburgischen und preußischen Geschichte. Festschrift zu Gustav Schmollers 70. Geburtstag.</title>
+                     <imprint>
+                        <pubPlace>Leipzig</pubPlace>
+                        <date>1908</date>
+                     </imprint>
+                     <biblScope unit="page" from="239" to="240">
+                        239-240
+                     </biblScope>
+                  </monogr>
+               </biblStruct>
+            </listBibl>
+            <listBibl type="letterReferenced">
+               <bibl xml:id="c4487-1" corresp="#LETTER_GENTZ_4461">Friedrich von Gentz an Otto von Voß, 21. Mai 1799</bibl>
+            </listBibl>
+            <listBibl type="defExpr">
+               <biblStruct xml:id="e4487-1" corresp="GBk-0048">
+                  <monogr>
+                     <editor>
+                        <persName>
+                           <ref target="http://d-nb.info/gnd/118538489"/>
+                           <forename>Friedrich von</forename>
+                           <surname>Gentz</surname>
+                        </persName>
+                     </editor>
+                     <title>Historisches Journal</title>
+                     <imprint>
+                        <publisher>Friedrich Vieweg dem ältern</publisher>
+                        <pubPlace>Berlin</pubPlace>
+                        <date>1799</date>
+                     </imprint>
+                  </monogr>
+                  <ptr target="https://books.google.de/books?id=Zk5BAAAAcAAJ"/>
+               </biblStruct>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Masterarbeit zu Matrikelnummer 5584124</p>
+         </projectDesc>
+      </encodingDesc>
+      <profileDesc>
+         <creation>
+            <date when-iso="1802-04-28">28. April 1802</date>
+         </creation>
+        <langUsage>
+           <language ident="d">deutsch</language>
+        </langUsage>
+         <textClass>
+            <keywords scheme="internal"><!-- internal: innerhalb des besagten Briefs -->
+               <term>Brief</term>
+               <term>Bittschreiben</term>
+               <term>Arbeiten</term>
+            </keywords>
+            <keywords scheme="categorisation"><!-- Sinnabschnittseinteilung - relevant für den Fahrkartenautomaten! -->
+               <term xml:id="jrnh">Historisches Journal</term>
+               <term xml:id="gg">Gentz - Gesundheit</term>
+               <term xml:id="rs">Reise von 1802</term>
+            </keywords>
+         </textClass>
+         <textDesc>
+            <channel>manuscript</channel>
+            <constitution type="single"/>
+            <derivation type="original"/>
+            <domain type="private"/>
+            <factuality type="fact"/>
+            <interaction type="partial"/>
+            <preparedness type="prepared"/>
+            <purpose type="inform"/>
+         </textDesc>
+         <particDesc>
+            <listPerson>
+               <!-- Sender und Adressat -->
+               <person role="sender" xml:id="Gen">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/118538489"/>
+                     <forename>Friedrich von</forename>
+                     <surname>Gentz</surname>
+                  </persName>
+               </person>
+               <person role="receiver" xml:id="OvV">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/103098291"/>
+                     <forename>Otto</forename>
+                     <surname>von Voß</surname>
+                  </persName>
+               </person>
+               <!-- erwähnte Personen -->
+            </listPerson>
+         </particDesc>
+         <settingDesc>
+            <listPlace>
+               <!-- Start- und Zielort -->
+               <place type="sender" xml:id="plBe">
+                  <country>
+                     <ref target="http://d-nb.info/gnd/4047194-9"/>
+                     <placeName>Preußen</placeName>
+                  </country>
+                  <settlement>
+                     <ref target="http://d-nb.info/gnd/4005728-8"/>
+                     <placeName>Berlin</placeName>
+                  </settlement>
+               </place>
+               <!-- erwähnte Orte -->
+               <place type="named" xml:id="plDe">
+                  <country>
+                     <ref target="http://d-nb.info/gnd/2035457-5"/>
+                     <placeName>Deutschland</placeName>  
+                  </country>
+               </place>
+               <place type="named" xml:id="plGt">
+                  <country>
+                     <ref target="http://d-nb.info/gnd/4094703-8"/>
+                     <placeName>Staat Hannover</placeName>
+                  </country>
+                  <settlement>
+                     <ref target="http://d-nb.info/gnd/4021477-1"/>
+                     <placeName>Göttingen</placeName>
+                  </settlement>
+               </place>
+               <place type="named" xml:id="plGth">
+                  <country>
+                     <ref target="http://d-nb.info/gnd/4051180-7"/>
+                     <placeName>Sachsen-Gotha-Altenburg</placeName>
+                  </country>
+                  <settlement>
+                     <ref target="http://d-nb.info/gnd/4021652-4"/>
+                     <placeName>Gotha</placeName>
+                  </settlement>
+               </place>
+               <place type="named" xml:id="plWe">
+                  <country>
+                     <ref target="http://d-nb.info/gnd/4051194-7"/>
+                     <placeName>Sachsen-Weimar-Eisenach</placeName>
+                  </country>
+                  <settlement>
+                     <ref target="http://d-nb.info/gnd/4065105-8"/>
+                     <placeName>Weimar</placeName>
+                  </settlement>
+               </place>
+               <place type="named" xml:id="plLp">
+                  <country>
+                     <ref target="http://d-nb.info/gnd/4051176-5"/>
+                     <placeName>Sachsen</placeName>
+                  </country>
+                  <settlement>
+                     <ref target="http://d-nb.info/gnd/4035206-7"/>
+                     <placeName>Leipzig</placeName>
+                  </settlement>
+               </place>
+            </listPlace>
+         </settingDesc>
+      </profileDesc>
+      <revisionDesc>
+         <change xml:id="init" when-iso="2018-03-10" who="#edAG">Erstauszeichnung und Normierung des Dokumentes im Rahmen der Masterarbeit der Matrikelnummer 5584124</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <figure rend="left">
+         <desc>Stempel</desc>
+      </figure>
+      <figure rend="right">
+         <desc>Stempel</desc>
+      </figure>
+      <body>
+         <opener>
+            <salute rend="left">HochWürdiger HochWohlgebohrner Freiherr !</salute>
+            <salute rend="left">Hochgebietender Herr Geheimer Staats-Minister !</salute>
+         </opener>
+         <div n="1" corresp="#rs">
+            <p>
+               Verschiedne triftige Bewegungs-Gründe nötigen mich, diesen Sommer eine Reise von einigen Monaten zu unternehmen. Ewr 
+               Hochfreyherrliche Excellentz um Urlaub dazu untertänigst zu bitten, ist der Zweck der gegenwärtigen Vorstellung.
+            </p>
+         </div>
+         <div n="2" corresp="#jrnh">
+            <p>
+               Ich habe seit mehrern Jahren, und besonders von der Zeit her, da ich 
+               <rs type="citation" ref="#e4487-1">mein Journal</rs> herausgab, mit einer Menge auswärtiger Gelehrten und 
+               Buchhändler, nicht bloß in litterärischen, sondern auch in merkantilischen Verhältnissen aller Art gestanden, und ich 
+               würde einen beträchtlichen Verlust erleiden, wenn ich nicht mit verschiednen derselben mündlich, und an Ort und 
+               Stelle Abrechnung halten, und meine Forderungen geltend <del rend="stroked">zu</del> machen könnte.
+            </p>
+            <p>
+               Hiezu tritt ein zweiter für mich noch erheblicherer Umstand. Ich bin mit der Ausarbeitung eines Werkes von größerm 
+               Umfange über einige der wichtigsten Gegenstände der neuern Geschichte beschäftiget. Zahlreiche und bedeutende 
+               Materialien dazu sind in verschiednen Orten <rs type="place" ref="#plDe">Deutschland</rs>s, besonders in 
+               <rs type="place" ref="#plGt">Göttingen</rs>, <rs type="place" ref="#plGth">Gotha</rs>, 
+               <rs type="place" ref="#plWe">Weimar</rs>, zerstreut. Ein Aufenthalt von einiger Dauer in diesen Städten würde mir den 
+               Gebrauch dieser Materialien sichern, und folglich in jeder Rücksicht vom grösten Werthe für mich seyn. <pb/>
+            </p>
+         </div>
+         <div n="3" corresp="#gg">
+            <p>
+               Endlich begründen auch selbst meine Gesundheits-Umstände, und die Besorgniß, durch beständiges Festsitzen auf einem 
+               Punkte einen Anfall von Gicht, der mich im <ref target="#r4487-1">Jahr 1799</ref> beinahe auf 6 Monate daniederwarf, 
+               erneuert zu sehen, den Wunsch, diesen Sommer einmal <rs type="place" ref="#plBe">Berlin</rs> zu verlaßen; und dieser 
+               Wunsch scheint mir dadurch noch verzeihlicher zu werden, daß ich noch nie, so lange ich im Königlichen Dienste stehe, 
+               einen Urlaub von einigem Belange nachgesucht habe.
+            </p>
+         </div>
+         <div n="4" corresp="#rs">
+            <p>
+               Bei diesen Umständen, und im Vertrauen auf Ewr. Excellentz oft erprobte Huld und Gnade, unterstehe ich mich, 
+               ehrfurchtsvoll zu bitten,
+            </p>
+            <lg>
+               <l>mir zu der Reise nach <rs type="place" ref="#plLp">Leipzig</rs>, <rs type="place" ref="#plWe">Weimar</rs>, <rs type="place" ref="#plGt">Göttingen</rs> pp</l>
+               <l>einen Urlaub auf die drei Sommer-Monate Juny, July,</l>
+               <l>August, gnädigst zu bewilligen.</l>
+            </lg>
+            <p>
+               Ich verharre in tiefster Devotion
+            </p>
+         </div>
+         <closer>
+            <salute rend="right">Ewr Hochfreyherrlichen Excellentz</salute>
+            <salute rend="right">untertänigster treugehorsamster</salute>
+            <salute rend="right">Diener</salute>
+            <dateline rend="left"><rs type="place" ref="#plBe">Berlin</rs> den <date when-iso="1802-04-28">28<span rend="sup">ten</span> April 1802</date>.</dateline>
+            <signed rend="right">Gentz.</signed>
+         </closer>
+      </body>
+      <note resp="#edAG" xml:id="r4487-1">Man beachte hierzu den <rs type="citation" ref="#c4487-1">Brief vom 21. Mai 1799</rs></note>
+   </text>
+</TEI>

@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader type="text">
+      <fileDesc xml:id="LETTER_GENTZ_4001">
+         <titleStmt>
+            <title>Friedrich von Gentz an Friedrich Vieweg, 10. Juni 1796</title>
+            <editor xml:id="edAG">Andreas Gálffy</editor>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <name>Forschungsstelle "Universitätssammlung Friedrich von Gentz"</name>
+               <link target="http://gentz-digital.ub.uni-koeln.de http://www.ub.uni-koeln.de/cdm/singleitem/collection/gentz/id/4000/"/>
+            </publisher>
+            <pubPlace>Cologne</pubPlace>
+            <idno type="Gentz-Edition-Number" n="4001"/>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <country>Germany</country>
+                  <settlement>Wiesbaden</settlement>
+                  <institution>Vieweg-Verlagsarchiv</institution>
+                  <repository>Briefsammlung 311 G: Gentz-Brief</repository>
+                  <idno>Nr. 36</idno>
+               </msIdentifier>
+               <msContents>
+                  <summary>
+                     Ein Schuldschein über 40 Friedrichsd'or. Vieweg soll sie an Wedigen entrichten und Gentz in Rechnung stellen. 
+                     Im ersten Anhang vom 14. Juni 1796 widerspricht Vieweg, da er keine Kenntnis gehabt und Gentz über keine 
+                     Gelder zu verfügen hat. Im zweiten Anhang quittiert Wedigen den Erhalt der 40 Friedrichsd'or mit Datum 
+                     29. Juni 1796. In einem Bearbeitungsvermerk ist eine Summe von 200 Reichstaler vermerkt.
+                  </summary>
+               </msContents>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Masterarbeit zu Matrikelnummer 5584124</p>
+         </projectDesc>
+      </encodingDesc>
+      <profileDesc>
+         <creation>
+            <date when-iso="1796-06-10">10. Juni 1796</date>
+         </creation>
+        <langUsage>
+           <language ident="d">deutsch</language>
+        </langUsage>
+         <textClass>
+            <keywords scheme="internal"><!-- internal: innerhalb des besagten Briefs -->
+               <term>Schuldschein</term>
+               <term>Wedigen</term>
+            </keywords>
+            <keywords scheme="categorisation"><!-- Sinnabschnittseinteilung - relevant für den Fahrkartenautomaten! -->
+               <term xml:id="gprl">Gentz - p(r)ekuniäre Lage</term>
+            </keywords>
+         </textClass>
+         <textDesc>
+            <channel>manuscript</channel>
+            <constitution type="single"/>
+            <derivation type="original"/>
+            <domain type="private"/>
+            <factuality type="fact"/>
+            <interaction type="partial"/>
+            <preparedness type="prepared"/>
+            <purpose type="inform"/>
+         </textDesc>
+         <particDesc>
+            <listPerson>
+               <!-- Sender und Adressat -->
+               <person role="sender" xml:id="Gen">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/118538489"/>
+                     <forename>Friedrich von</forename>
+                     <surname>Gentz</surname>
+                  </persName>
+               </person>
+               <person role="receiver" xml:id="FVW">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/119049546"/>
+                     <forename>Friedrich</forename>
+                     <surname>Vieweg</surname>
+                  </persName>
+               </person>
+               <!-- erwähnte Personen -->
+               <person role="named" xml:id="Wed">
+                  <persName>
+                     <ref/>
+                     <forename/>
+                     <surname>Wedigen</surname>
+                  </persName>
+               </person>
+            </listPerson>
+         </particDesc>
+         <settingDesc>
+            <listPlace>
+               <!-- Start- und Zielort -->
+               <place type="sender" xml:id="plBe">
+                  <country>
+                     <ref target="http://d-nb.info/gnd/4047194-9"/>
+                     <placeName>Preußen</placeName>
+                  </country>
+                  <settlement>
+                     <ref target="http://d-nb.info/gnd/4005728-8"/>
+                     <placeName>Berlin</placeName>
+                  </settlement>
+               </place>
+               <!-- erwähnte Orte -->
+            </listPlace>
+         </settingDesc>
+      </profileDesc>
+      <revisionDesc>
+         <change xml:id="init" when-iso="2018-02-18" who="#edAG">Erstauszeichnung und Normierung des Dokumentes im Rahmen der Masterarbeit der Matrikelnummer 5584124</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>     
+      <body>
+         <div n="1" corresp="#gprl">
+            <p>
+               Vierzig Stück Friedrichsd'or gelieben des Herrn Buchhändler Vieweg Wohlgebohren gleich nach Sicht gegen diese meine 
+               Assignation an den <rs type="person" ref="#Wed">Herrn Geheimen Secretaire Wedigen</rs> zu bezahlen, und mir à conto 
+               zu stellen.
+            </p>
+            <dateline rend="left"><rs type="place" ref="#plBe">Berlin</rs> den <date when-iso="1796-06-10">10<span rend="sup">ten</span> Juny. 1796</date>.</dateline>
+            <signed rend="right">Friedrich Gentz.</signed>
+         </div>
+         <div n="2" corresp="#gprl" resp="#FVW">
+            <p>
+               <emph rend="underlined">40 Stück Friedichsd'or</emph>:
+            </p>
+            <p>
+               Kann nicht angenommen werden, da ich nicht davon unterrichtet bin und Herr Kriegs-Rath Gentz bei mir über keine 
+               Gelder zu disponiren <add place="above">hat</add>.
+            </p>
+            <dateline rend="left"><rs type="place" ref="#plBe">Berlin</rs> am <date when-iso="1796-06-14">14<span rend="sup">ten</span> Juny 1796</date></dateline>
+            <signed rend="right">Friedrich Vieweg</signed>
+            <signed rend="right">der ältere</signed><pb/>
+         </div>
+         <div n="3" corresp="#gprl" resp="#Wed">
+            <p>
+               Den Inhalt dieser Assignation habe mit Vierzig Stück Friedrichsd'or baar und richtig erhalten.
+            </p>
+            <dateline rend="left"><rs type="place" ref="#plBe">Berlin</rs>, den <date when-iso="1796-06-29">29<span rend="sup">sten</span> Juny 1794</date>.</dateline>
+            <signed rend="right">Wedingen</signed>
+         </div>
+      </body>
+      <back>
+         <p resp="#FVW">
+            <date when-iso="1796-06-29">1796. Jun 29.</date>
+            Wedigen pro 200 Reichsthaler Friedrichsd'or.
+         </p>
+      </back>
+   </text>
+</TEI>

@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader type="text">
+      <fileDesc xml:id="LETTER_GENTZ_5135">
+         <titleStmt>
+            <title>Friedrich von Gentz an Friedrich Vieweg, 11. Dezember 1796</title>
+            <editor xml:id="edAG">Andreas Gálffy</editor>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <name>Forschungsstelle "Universitätssammlung Friedrich von Gentz"</name>
+               <link target="http://gentz-digital.ub.uni-koeln.de http://www.ub.uni-koeln.de/cdm/singleitem/collection/gentz/id/5134/"/>
+            </publisher>
+            <pubPlace>Cologne</pubPlace>
+            <idno type="Gentz-Edition-Number" n="5135"/>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <country>Germany</country>
+                  <settlement>Wiesbaden</settlement>
+                  <institution>Vieweg-Verlagsarchiv</institution>
+                  <repository>Briefsammlung 311 G: Gentz-Briefe</repository>
+                  <idno>Nr. 69</idno>
+               </msIdentifier>
+               <msContents>
+                  <summary>
+                     Vieweg soll 55 und zehn Reichstaler schicken. Ebenso soll er die Zinsen der 1600 Reichstaler für Burgsdorff 
+                     aufheben. Im Postscript bittet Gentz nach dem neuen Buch von d'Echerny de l'egalité etc.
+                  </summary>
+               </msContents>
+            </msDesc>
+            <listBibl type="defRep">
+               <biblStruct xml:id="p5135-1" corresp="BnF-0005">
+                  <monogr>
+                     <author>
+                        <persName>
+                           <ref target="http://d-nb.info/gnd/116569387"/>
+                           <forename>François Louis</forename>
+                           <surname>Escherny</surname>
+                        </persName>
+                     </author>
+                     <title>De l'égalité ou Principes généraux sur les institutions civiles, politiques et regligieuses</title>
+                     <imprint>
+                        <pubPlace>Basle</pubPlace>
+                        <publisher>J. Decker</publisher>
+                        <date>1796</date>
+                     </imprint>
+                  </monogr>
+               <ptr target="http://gallica.bnf.fr/ark:/12148/bpt6k853866"/></biblStruct>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Masterarbeit zu Matrikelnummer 5584124</p>
+         </projectDesc>
+      </encodingDesc>
+      <profileDesc>
+         <creation>
+            <date when-iso="1796-12-11">11. Dezember 1796</date>
+         </creation>
+        <langUsage>
+           <language ident="d">deutsch</language>
+        </langUsage>
+         <textClass>
+            <keywords scheme="internal"><!-- internal: innerhalb des besagten Briefs -->
+               <term>Billet</term>
+               <term>Benjamin</term>
+               <term>Schulden</term>
+            </keywords>
+            <keywords scheme="categorisation"><!-- Sinnabschnittseinteilung - relevant für den Fahrkartenautomaten! -->
+               <term xml:id="gprl">Gentz - p(r)ekuniäre Lage</term>
+               <term xml:id="bibl">Bibliothek</term>
+            </keywords>
+         </textClass>
+         <textDesc>
+            <channel>manuscript</channel>
+            <constitution type="single"/>
+            <derivation type="original"/>
+            <domain type="private"/>
+            <factuality type="fact"/>
+            <interaction type="partial"/>
+            <preparedness type="unprepared"/>
+            <purpose type="inform"/>
+         </textDesc>
+         <particDesc>
+            <listPerson>
+               <!-- Sender und Adressat -->
+               <person role="sender" xml:id="Gen">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/118538489"/>
+                     <forename>Friedrich von</forename>
+                     <surname>Gentz</surname>
+                  </persName>
+               </person>
+               <person role="receiver" xml:id="FVW">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/119049546"/>
+                     <forename>Friedrich</forename>
+                     <surname>Vieweg</surname>
+                  </persName>
+               </person>
+               <!-- erwähnte Personen -->
+               <person role="named" xml:id="Corm">
+                  <persName>
+                     <ref/>
+                     <forename/>
+                     <surname>Cormar</surname>
+                  </persName>
+               </person>
+               <person role="named" xml:id="Bgdf">
+                  <persName>
+                     <ref/>
+                     <forename/>
+                     <surname>Burgsdorff</surname>
+                  </persName>
+               </person>
+               <person role="named" xml:id="Esch">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/116569387"/>
+                     <forename>François Louis</forename>
+                     <surname>Escherny</surname>
+                  </persName>
+               </person>
+            </listPerson>
+         </particDesc>
+         <settingDesc>
+            <listPlace>
+               <!-- Start- und Zielort -->
+               <place type="sender" xml:id="plBe">
+                  <country>
+                     <ref target="http://d-nb.info/gnd/4047194-9"/>
+                     <placeName>Preußen</placeName>
+                  </country>
+                  <settlement>
+                     <ref target="http://d-nb.info/gnd/4005728-8"/>
+                     <placeName>Berlin</placeName>
+                  </settlement>
+               </place>
+               <!-- erwähnte Orte -->
+            </listPlace>
+         </settingDesc>
+      </profileDesc>
+      <revisionDesc>
+         <change xml:id="init" when-iso="2018-02-19" who="#edAG">Erstauszeichnung und Normierung des Dokumentes im Rahmen der Masterarbeit der Matrikelnummer 5584124</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div n="1" corresp="#gprl">
+            <p>
+               Seyn Sie so gütig, mir die heute berechneten 55 und 10 Reichstaler sämtlich zu schicken. Ich muß an 
+               <rs type="person" ref="#Corm">Cormar</rs> allein 35 Reichtaler 16 Groschen zahlen, und habe nichts zu meiner 
+               Disposition.
+            </p>
+            <p>
+               Wenn Sie noch eine Bitte in dieser letzten und betrübten Zeit mir gewähren wollen, so heben Sie mir auch die Zinsen 
+               der 1600 Reichstaler in Friedrichs dor für <rs type="person" ref="#Bgdf">Burgsdorff</rs> auf. Ich verspreche Ihnen, 
+               nur im äußersten Nothfalle darüber zu disponiren. Aber es ist doch vernünftiger, sie zu haben, als sie zu einer 
+               Zahlung zu benutzen, die sobald einmal das Capital in die Masse kömmt, vorläufig sehr gut dasselbe Schicksal haben 
+               kan. Ich will gern Ihrer bessern Einsicht weichen. Aner mir scheint es rathsamer zu seyn.
+            </p>
+         </div>
+         <closer>
+            <signed rend="right">Gentz</signed>
+         </closer>
+         <postscript corresp="#bibl">
+            <p>
+               Wäre es nicht möglich, daß Sie das neue Buch von <rs type="person" ref="#Esch">d'Echerny</rs> 
+               <rs type="citation" ref="#p5135-1">de l'egalité und so fort</rs> für mich auftreiben könnten ? Es enthält wichtige 
+               data über die Geschichte des Zeitraums den ich eben bearbeite ?
+            </p>
+         </postscript>
+      </body>
+      <back>
+         <p>
+            An
+            Herrn Vieweg
+            Wohlgeb.
+         </p>
+         <p resp="#FVW">
+            <date when-iso="1796-12-11">1796. Dec. 11.</date>
+            Gentz
+            50 Reichstaler.
+         </p>
+      </back>
+      <note xml:id="r5135-1">Seite 4: Adresse</note>
+      <note xml:id="r5135-2">Seite 4: Präsenz- und Arbeitsvermerk</note>
+      <note xml:id="r5135-3">Seite 4: Zwei Bruchstücke des Gentzschen Siegels.</note>
+   </text>
+</TEI>

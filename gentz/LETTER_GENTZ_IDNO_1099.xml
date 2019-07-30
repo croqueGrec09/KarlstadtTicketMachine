@@ -1,0 +1,218 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader type="text">
+      <fileDesc xml:id="LETTER_GENTZ_1099">
+         <titleStmt>
+            <title>Friedrich von Gentz an Karl August Böttiger, 16. Januar 1796</title>
+            <editor xml:id="edAG">Andreas Gálffy</editor>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <name>Forschungsstelle "Universitätssammlung Friedrich von Gentz"</name>
+               <link target="http://gentz-digital.ub.uni-koeln.de http://www.ub.uni-koeln.de/cdm/singleitem/collection/gentz/id/1098/"/>
+            </publisher>
+            <pubPlace>Cologne</pubPlace>
+            <idno type="Gentz-Edition-Number" n="1099"/>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <country>Germany</country>
+                  <settlement>Dresden</settlement>
+                  <institution>Sächsiche Landesbibliothek</institution>
+                  <repository>Handschriftensammlung, Nachlaß Böttiger</repository>
+                  <collection>Mscr. Dresd. h 37, Bd. 54 (4°)</collection>
+                  <idno>Nr. 3</idno>
+               </msIdentifier>
+               <msContents>
+                  <summary>
+                     Nach einer erbetenen Recherche hat sich Böttiger gemeldet. Zwar nicht mit dem gewünschten Erfolg, aber nichtsdestotrotz von Wichtigkeit. 
+                     Deshalb erbittet Gentz sich ein Verzeichnis der in Weimar vorhandenen Schriften. Gentz möchte alle Kosten erstatten. Leider muss Gentz die 
+                     Redaktion der amerikanischen Briefe ablehnen, da er die Monatsschrift nicht mehr fortführt. Daher bedauert er es, dass die Verbindung zu 
+                     Böttiger so abbricht.
+                  </summary>
+               </msContents>
+            </msDesc>
+            <listBibl type="preprints">
+               <biblStruct>
+                  <monogr>
+                     <editor>
+                        <persName>
+                           <ref target="http://d-nb.info/gnd/130953075"/>
+                           <forename>Friedrich Carl</forename>
+                           <surname>Wittichen</surname>
+                        </persName>
+                        <persName>
+                           <ref/> <!-- kein GND-Eintrag -->
+                           <forename>Ernst</forename>
+                           <surname>Salzer</surname>
+                        </persName>
+                     </editor>
+                     <title>Briefe von und an Friedrich von Gentz, 4 Bde.</title>
+                     <imprint>
+                        <publisher>Oldenbourg</publisher>
+                        <pubPlace>München, Berlin</pubPlace>
+                        <date>1909-1913</date>
+                     </imprint>
+                     <biblScope unit="volume" n="1">
+                        I
+                     </biblScope>
+                     <biblScope unit="page" from="221" to="222">
+                        Nr. 48
+                     </biblScope>
+                  </monogr>
+               </biblStruct>
+            </listBibl>
+            <listBibl type="letterReferenced">
+               <bibl xml:id="c1099-1" corresp="#LETTER_GENTZ_0135">Friedrich von Gentz an Karl August Böttiger, 19. Dezember 1795</bibl>
+               <bibl xml:id="c1099-2" corresp="#LETTER_GENTZ_3853">Friedrich von Gentz an Friedrich Vieweg, 19. November 1795</bibl>
+            </listBibl>
+            <listBibl type="defExpr">
+               <biblStruct xml:id="e1099-1" corresp="UBi-0025">
+                  <monogr>
+                     <author>
+                        <persName>
+                           <ref target="http://d-nb.info/gnd/118538489"/>
+                           <forename>Friedrich von</forename>
+                           <surname>Gentz</surname>
+                        </persName>
+                     </author>
+                     <title>Neue Deutsche Monatsschrift</title>
+                     <imprint>
+                        <pubPlace>Berlin</pubPlace>
+                        <publisher>Friedrich Vieweg der Ältere</publisher>
+                        <date>1795</date>
+                     </imprint>
+                  </monogr>
+               <ptr target="http://ds.ub.uni-bielefeld.de/viewer/toc/1938308/1/"/></biblStruct>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Masterarbeit zu Matrikelnummer 5584124</p>
+         </projectDesc>
+      </encodingDesc>
+      <profileDesc>
+         <creation>
+            <date when-iso="1796-01-16">16. Januar 1796</date>
+         </creation>
+        <langUsage>
+           <language ident="d">deutsch</language>
+        </langUsage>
+         <textClass>
+            <keywords scheme="internal"><!-- internal: innerhalb des besagten Briefs -->
+               <term>Brief</term>
+               <term>Literatur</term>
+               <term>Bibliothek</term>
+               <term>Französische Revolution</term>
+            </keywords>
+            <keywords scheme="categorisation"><!-- Sinnabschnittseinteilung - relevant für den Fahrkartenautomaten! -->
+               <term xml:id="budcff">Betrachtungen über den Ursprung, den Charakter und den Fortgang der Französischen Revolution</term>
+               <term xml:id="abf">Amerikanische Briefe</term>
+               <term xml:id="vkab">Verhältnis Karl August Böttiger</term>
+            </keywords>
+         </textClass>
+         <textDesc>
+            <channel>manuscript</channel>
+            <constitution type="single"/>
+            <derivation type="original"/>
+            <domain type="private"/>
+            <factuality type="fact"/>
+            <interaction type="partial"/>
+            <preparedness type="prepared"/>
+            <purpose type="inform"/>
+         </textDesc>
+         <particDesc>
+            <listPerson>
+               <!-- Sender und Adressat -->
+               <person role="sender" xml:id="Gen">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/118538489"/>
+                     <forename>Friedrich von</forename>
+                     <surname>Gentz</surname>
+                  </persName>
+               </person>
+               <person role="receiver" xml:id="KAB">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/118824775"/>
+                     <forename>Carl August</forename>
+                     <surname>Böttiger</surname>
+                  </persName>
+               </person>
+               <!-- erwähnte Personen -->
+            </listPerson>
+         </particDesc>
+         <settingDesc>
+            <listPlace>
+               <!-- Start- und Zielort -->
+               <place type="sender" xml:id="plBe">
+                  <country>
+                     <ref target="http://d-nb.info/gnd/4047194-9"/>
+                     <placeName>Preußen</placeName>
+                  </country>
+                  <settlement>
+                     <ref target="http://d-nb.info/gnd/4005728-8"/>
+                     <placeName>Berlin</placeName>
+                  </settlement>
+               </place>
+               <place type="receiver" xml:id="plWe">
+                  <country>
+                     <ref target="http://d-nb.info/gnd/4051194-7"/>
+                     <placeName>Sachsen-Weimar-Eisenach</placeName>
+                  </country>
+                  <settlement>
+                     <ref target="http://d-nb.info/gnd/4065105-8"/>
+                     <placeName>Weimar</placeName>
+                  </settlement>
+               </place>
+               <!-- erwähnte Orte -->
+            </listPlace>
+         </settingDesc>
+      </profileDesc>
+      <revisionDesc>
+         <change xml:id="init" when-iso="2018-02-18" who="#edAG">Erstauszeichnung und Normierung des Dokumentes im Rahmen der Masterarbeit der Matrikelnummer 5584124</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <opener>
+            <dateline rend="right"><rs type="place" ref="#plBe">Berlin</rs> den <date when-iso="1796-01-16">19<span rend="sup">ten</span> Januar 1796</date>.</dateline>
+         </opener>
+         <div n="1" corresp="#budcff">
+            <p>
+               Ich bin Ihnen für die große Bereitwilligkeit und Güte, mit welcher Sie <ref target="#r1099-1">meinem Wunsch</ref> wegen der Materialien zur 
+               Revolutions-Geschichte entgegen gekommen sind, unendlich verbunden. Wenn Ihre Nachrichten auch nicht unmittelbar befriedigend sind, so haben sie 
+               doch immer einen großen Werth für mich, weil sie mir Aussichten eröfnen, die ich nach Möglichkeit zu benutzen suchen werde. Um indessen mit Ihren 
+               <rs type="place" ref="#plWe">Weimar</rs>schen Vorräthen einen Anfang zu machen, bitte ich Sie gehorsamst, mir gegen Erstattung der Kosten (wie hoch 
+               sie sich auch belaufen mögen) ein vollständiges Verzeichniß aller auf die Geschichte der Revolution Bezug habenden Schriften, 
+               <del rend="stroked">zu verschaffen</del> die sich in der dortigen Bibliothek finden, zu verschaffen. Dann will ich weitre Schritte thun.
+            </p>
+         </div>
+         <div n="2" corresp="#abf">
+            <p>
+               Ihr schmeichelhaftes Anerbieten wegen Fortsetzung der Amerikanischen Briefe in der <pb/> <rs type="citation" ref="#e1099-1">Monatschrift</rs> muß 
+               ich ablehnen, so wie ich auch genöthigt bin, Ihnen den anliegenden Beitrag zurück zu senden, weil ich, wie Sie vielleicht schon vernommen haben, die 
+               Redaction des Journals mit Ende des Jahrs 95 <ref target="#r1099-2">aufgegeben habe</ref>. Wenn mir irgend etwas bey dieser Veränderung unangenehm 
+               seyn kan, so ist es der Umstand, daß eine nähere Verbindung mit manchem schätzbaren Mann dadurch abgebrochen wird, und daß ich nicht 
+               <add place="above">länger</add> die Mittelsperson seyn kan, durch welche solche Aufsätze, wie die, mit welchen Sie mich so reichlich beehrt haben, 
+               ins Publikum kommen.
+            </p>
+         </div>
+         <div n="3" corresp="#vkab">
+            <p>
+               Ich hoffe und wünsche indessen, daß dies uns nicht völlig von einander trennen werde, und bitte ausdrücklich und angelegentlich um die Fortdauer 
+               Ihrer Gewogenheit und Freundschaft. Ich werde sie durch die Gesinnungen der ausgezeichnetsten Hochachtung und Ergebenheit zu verdienen suchen, womit 
+               ich unaufhörlich verharre
+            </p>
+         </div>
+         <closer>
+            <salute rend="right">EwrWohlgebohren</salute>
+            <salute rend="right">ganz gehorsamster</salute>
+            <signed rend="right">Gentz.</signed>
+         </closer>
+      </body>
+      <note resp="#edAG" xml:id="r1099-1">Vgl. den <rs type="citation" ref="#c1099-1">Brief vom 19. Dezember 1795</rs></note>
+      <note resp="#edAG" xml:id="r1099-2">Die Redaktion Gentz' der Neuen Deutschen Monatsschrift endete 1795, vgl. den <rs type="citation" ref="#c1099-2">Brief vom 19. November 1795</rs> an Friedrich Vieweg</note>
+   </text>
+</TEI>

@@ -1,0 +1,534 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc xml:id="LETTER_GENTZ_1285">
+         <titleStmt>
+            <title>Friedrich von Gentz an Girolamo Lucchesini, 22. August 1800</title>
+            <editor xml:id="edAG">Andreas Gálffy</editor>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <name>Forschungsstelle "Universitätssammlung Friedrich von Gentz"</name>
+               <link target="http://gentz-digital.ub.uni-koeln.de http://www.ub.uni-koeln.de/cdm/singleitem/collection/gentz/id/1284/"/>
+            </publisher>
+            <pubPlace>Cologne</pubPlace>
+            <idno type="Gentz-Edition-Number" n="1285"/>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <country>Germany</country>
+                  <settlement>Berlin</settlement>
+                  <institution>Geheimes Staatsarchiv Preußischer Kulturbesitz</institution>
+                  <repository>I. HA, Rep 92</repository>
+                  <collection>Nachlaß Lucchesini, Nr. 27</collection>
+                  <idno>Bl. 39-42</idno>
+               </msIdentifier>
+               <msContents>
+                  <summary>
+                     Für einen sehr wohlgesonnenen Brief spricht Gentz im ersten Abschnitt seinen Dank aus. Es gibt doch noch Leute, 
+                     die beseelt sind, die großen Geschäfte der Zeit zu leiten - dieses Kompliment spricht er Lucchesini aus. Dann 
+                     erfolgt ein Bericht über die Gerüchte eines Friedens, die sowohl in der hier zitierten Hamburger Zeitung, als 
+                     auch in den französischen Blättern stehen. Briefe aus Wien hingegen dementieren diese Gerüchte. Allerdings 
+                     spricht auch dagegen nichts, dass Verhandlungen zum Frieden betrieben werden. Gentz mahnt dann zum Misstrauen 
+                     gegenüber den öffentlichen Meldungen. Sue unterliegen Irrtümern und sind dazu geneigt, alles im besseren Licht 
+                     darzustellen. Es erfolgen noch Meldungen über die napoleonische Invasion; so wurde Kapitän Proby auf eine, wie 
+                     Gentz schreibt, einzigartige Weise gefangen genommen, dann über Krüdener, den Gentz an dieser Stelle 
+                     ausführlich beschreibt. Zum Abschluss des Hauptteils vermeldet Gentz, dass in den französischen Zeitungen 
+                     nichts Nennenswertes steht. Im Anhang wird in einigen Zeilen der Friede Mainz' mit Napoleon vermeldet; Mainz 
+                     ist hiermit an das französische Reich gefallen.
+                  </summary>
+               </msContents>
+            </msDesc>
+            <listBibl type="letterReferenced">
+               <bibl xml:id="c1285-1" corresp="#LETTER_GENTZ_NNNN">nicht bekannter Brief von Girolamo Lucchesini an Friedrich von Gentz</bibl>
+            </listBibl>
+            <listBibl type="alludedWorks">
+               <bibl xml:id="a1285-1" corresp="#LETTER_GENTZ_NNNN">nicht näher benanntes Werk von François Dominique de Reynaud de Montlosier</bibl>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Masterarbeit zu Matrikelnummer 5584124</p>
+         </projectDesc>
+      </encodingDesc>
+      <profileDesc>
+         <creation>
+            <date when-iso="1800-08-22">22. Juli 1800</date>
+         </creation>
+        <langUsage>
+           <language ident="f">französisch</language>
+        </langUsage>
+         <textClass>
+            <keywords scheme="internal"><!-- internal: innerhalb des besagten Briefs -->
+               <term>Bericht</term>
+               <term>Ereignis</term>
+               <term>Napoleon</term>
+               <term>Eroberung</term>
+               <term>Frieden</term>
+               <term>Verhandlungen</term>
+               <term>Mainz</term>
+            </keywords>
+            <keywords scheme="categorisation"><!-- Sinnabschnittseinteilung - relevant für den Fahrkartenautomaten! -->
+               <term xml:id="vgl">Verhältnis Girolamo Lucchesini</term>
+               <term xml:id="fvlv">Frieden von Lunéville</term>
+               <term xml:id="napinv">Napoleonische Invasion</term>
+               <term xml:id="frz">französische Zeitungen</term>
+            </keywords>
+         </textClass>
+         <textDesc>
+            <channel>manuscript</channel>
+            <constitution type="single"/>
+            <derivation type="original"/>
+            <domain type="private"/>
+            <factuality type="fact"/>
+            <interaction type="partial"/>
+            <preparedness type="prepared"/>
+            <purpose type="inform"/>
+         </textDesc>
+         <particDesc>
+            <listPerson>
+               <!-- Sender und Adressat -->
+               <person role="sender" xml:id="Gen">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/118538489"/>
+                     <forename>Friedrich von</forename>
+                     <surname>Gentz</surname>
+                  </persName>
+               </person>
+               <person role="receiver" xml:id="GirL">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/118780670"/>
+                     <forename>Girolamo</forename>
+                     <surname>Lucchesini</surname>
+                  </persName>
+               </person>
+               <!-- erwähnte Personen -->
+               <person role="named" xml:id="Mto">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/119079186"/>
+                     <forename>Gilbert E.</forename>
+                     <surname>Minto</surname>
+                  </persName>
+               </person>
+               <person role="named" xml:id="JJPLC">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/159696496"/>
+                     <forename>John Joshua Proby</forename>
+                     <surname>Carysfort</surname>
+                  </persName>
+               </person>
+               <person role="named" xml:id="JvHd">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/137639449"/>
+                     <forename>Josef von</forename>
+                     <surname>Hudelist</surname>
+                  </persName>
+               </person>
+               <person role="named" xml:id="GCMD">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/116256729"/>
+                     <forename>Gerard Christophe Michel</forename>
+                     <surname>Duroc</surname>
+                  </persName>
+               </person>
+               <person role="named" xml:id="PdRdB">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/116158379" />
+                     <forename>Pierre de Riel de</forename>
+                     <surname>Beurnonville</surname>
+                  </persName>
+               </person>
+               <person role="named" xml:id="CJLC">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/116851120" />
+                     <forename>Claude Jacques</forename>
+                     <surname>Le Courbe</surname>
+                  </persName>
+               </person>
+               <person role="named" xml:id="JPrb">
+                  <persName>
+                     <ref />
+                     <forename>John</forename>
+                     <surname>Proby</surname>
+                  </persName>
+               </person>
+               <person role="named" xml:id="RAbcr">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/119229293" />
+                     <forename>Ralph</forename>
+                     <surname>Abercrombie</surname>
+                  </persName>
+               </person>
+               <person role="named" xml:id="BvK">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/136535526"/>
+                     <forename>Burchard von</forename>
+                     <surname>Krüdener</surname>
+                  </persName>
+               </person>
+               <person role="named" xml:id="FDdRdM">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/104275561"/>
+                     <forename>François Dominique de Reynaud de</forename>
+                     <surname>Montlosier</surname>
+                  </persName>
+               </person>
+               <person role="named" xml:id="Stmf">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/117206881"/>
+                     <forename>Heinrich Wilhelm von</forename>
+                     <surname>Stamfort</surname>
+                  </persName>
+               </person>
+               <person role="named" xml:id="EFKM">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/118703234" />
+                     <forename>Friedrich Karl</forename>
+                     <surname/>
+                     <roleName type="office">Erzbischof von Mainz</roleName>
+                  </persName>
+               </person>
+               <person role="named" xml:id="CvT">
+                  <persName>
+                     <ref />
+                     <forename>Charlotte von</forename>
+                     <surname>Tarrach</surname>
+                  </persName>
+               </person>
+               <person role="named" xml:id="NBon">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/118586408"/>
+                     <forename>Napoleon I.</forename>
+                     <surname/>
+                     <roleName type="office">Kaiser</roleName>
+                  </persName>
+               </person>
+            </listPerson>
+         </particDesc>
+         <settingDesc>
+            <listPlace>
+               <!-- Start- und Zielort -->
+               <place type="sender" xml:id="plBe">
+                  <country>
+                     <ref target="http://d-nb.info/gnd/4047194-9"/>
+                     <placeName>Preußen</placeName>
+                  </country>
+                  <settlement>
+                     <ref target="http://d-nb.info/gnd/4005728-8"/>
+                     <placeName>Berlin</placeName>
+                  </settlement>
+               </place>
+               <!-- erwähnte Orte -->
+               <place type="named" xml:id="plHa">
+                  <country>
+                     <ref target="http://d-nb.info/gnd/4023118-5"/>
+                     <placeName>Hamburg</placeName>
+                  </country>
+                  <settlement>
+                     <ref target="http://d-nb.info/gnd/4023118-5"/>
+                     <placeName>Hamburg</placeName>
+                  </settlement>
+               </place>
+               <place type="named" xml:id="plWi">
+                  <country>
+                     <ref target="http://d-nb.info/gnd/4075601-4"/>
+                     <placeName>Erzherzogtum Österreich</placeName>  
+                  </country>
+                  <settlement>
+                     <ref target="http://d-nb.info/gnd/4066009-6"/>
+                     <placeName>Wien</placeName>
+                  </settlement>
+               </place>
+               <place type="named" xml:id="plEn">
+                  <country>
+                     <ref target="http://d-nb.info/gnd/4022153-2"/>
+                     <placeName>England</placeName>
+                  </country>
+               </place>
+               <place type="named" xml:id="plLo">
+                  <country>
+                     <ref target="http://d-nb.info/gnd/4022153-2"/>
+                     <placeName>Vereinigtes Königreich</placeName>                
+                  </country>
+                  <settlement>
+                     <ref target="http://d-nb.info/gnd/4074335-4"/>
+                     <placeName>London</placeName>
+                  </settlement>
+               </place>
+               <place type="named" xml:id="plOe">
+                  <country>
+                     <ref target="http://d-nb.info/gnd/4075601-4"/>
+                     <placeName>Erzherzogtum Österreich</placeName>  
+                  </country>
+               </place>
+               <place type="named" xml:id="plRh">
+                  <country>
+                     <ref target="http://d-nb.info/gnd/4018145-5" />
+                     <placeName>Frankreich</placeName>
+                  </country>
+                  <geogName type="river">
+                     <ref target="http://d-nb.info/gnd/4049739-2" />
+                     <placeName>Rhein</placeName>
+                  </geogName>
+               </place>
+               <place type="named" xml:id="plDe">
+                  <country>
+                     <ref target="http://d-nb.info/gnd/2035457-5"/>
+                     <placeName>Deutschland</placeName>  
+                  </country>
+               </place>
+               <place type="named" xml:id="plMrn">
+                  <country>
+                     <ref target="http://d-nb.info/gnd/4046039-3" />
+                     <placeName>Piemontesische Republik</placeName>
+                  </country>
+                  <settlement>
+                     <ref target="http://d-nb.info/gnd/4114991-9" />
+                     <placeName>Marengo</placeName>
+                  </settlement>
+               </place>
+               <place type="named" xml:id="plTi">
+                  <country>
+                     <ref target="http://d-nb.info/gnd/4075601-4" />
+                     <placeName>Erzherzogtum Österreich</placeName>
+                  </country>
+                  <region>
+                     <ref target="http://d-nb.info/gnd/4060207-2" />
+                     <placeName>Tirol</placeName>
+                  </region>
+               </place>
+               <place type="named" xml:id="plCr">
+                  <country>
+                     <ref target="http://d-nb.info/gnd/4482801-9"/>
+                     <placeName>Cisalpinische Republik</placeName>  
+                  </country>
+               </place>
+               <place type="named" xml:id="plMen">
+                  <country>
+                     <ref target="http://d-nb.info/gnd/4022153-2" />
+                     <placeName>Vereinigtes Königreich</placeName>
+                  </country>
+                  <geogName type="island">
+                     <ref target="http://d-nb.info/gnd/4038636-3" />
+                     <placeName>Menorca</placeName>
+                  </geogName>
+               </place>
+               <place type="named" xml:id="plVd">
+                  <country>
+                     <ref target="http://d-nb.info/gnd/4075601-4" />
+                     <placeName>Erzherzogtum Österreich</placeName>
+                  </country>
+                  <settlement>
+                     <ref target="http://d-nb.info/gnd/4062501-1" />
+                     <placeName>Venedig</placeName>
+                  </settlement>
+               </place>
+               <place type="named" xml:id="plAnc">
+                  <country>
+                     <ref />
+                     <placeName>Republik Ancona</placeName>
+                  </country>
+                  <settlement>
+                     <ref target="http://d-nb.info/gnd/4001901-9" />
+                     <placeName>Ancona</placeName>
+                  </settlement>
+               </place>
+               <place type="named" xml:id="plLv">
+                  <country>
+                     <ref />
+                     <placeName>Etrurische Republik</placeName>
+                  </country>
+                  <settlement>
+                     <ref target="http://d-nb.info/gnd/4114431-4" />
+                     <placeName>Livorno</placeName>
+                  </settlement>
+               </place>
+               <place type="named" xml:id="plCe">
+                  <country>
+                     <ref target="http://d-nb.info/gnd/4482801-9" />
+                     <placeName>Cisalpinische Republik</placeName>
+                  </country>
+                  <settlement>
+                     <ref target="http://d-nb.info/gnd/4377753-3" />
+                     <placeName>Cesenatico</placeName>
+                  </settlement>
+               </place>
+               <place type="named" xml:id="plMi">
+                  <country>
+                     <ref target="http://d-nb.info/gnd/4482801-9"/>
+                     <placeName>Cisalpinische Republik</placeName>  
+                  </country>
+                  <settlement>
+                     <ref target="http://d-nb.info/gnd/4037100-1"/>
+                     <placeName>Mailand</placeName>
+                  </settlement>
+               </place>
+               <place type="named" xml:id="plEu">
+                  <geogName type="continent">
+                     <ref target="http://d-nb.info/gnd/4015701-5"/>
+                     <placeName>Europa</placeName>
+                  </geogName>
+               </place>
+               <place type="named" xml:id="plSb">
+                  <country>
+                     <ref target="http://d-nb.info/gnd/4047194-9"/>
+                     <placeName>Preußen</placeName>
+                  </country>
+                  <settlement>
+                     <ref target="http://d-nb.info/gnd/116944-0"/>
+                     <placeName>Schöneberg</placeName>
+                  </settlement>
+               </place>
+               <place type="named" xml:id="plMz">
+                  <country>
+                     <ref target="http://d-nb.info/gnd/4100026-2"/>
+                     <placeName>Erzstift Mainz</placeName>
+                  </country>
+                  <region>
+                     <ref target="http://d-nb.info/gnd/4037124-4"/>
+                     <placeName>Mainz</placeName>  
+                  </region>
+               </place>
+            </listPlace>
+         </settingDesc>
+      </profileDesc>
+      <revisionDesc>
+         <change xml:id="init" when-iso="2018-03-06" who="#edAG">Erstauszeichnung und Normierung des Dokumentes im Rahmen der Masterarbeit der Matrikelnummer 5584124</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <opener>
+            <dateline rend="right"><rs type="place" ref="#plBe">Berlin</rs> ce <date when-iso="1800-08-22">22 Aout 1800</date>.</dateline>
+            <salute rend="left">Monsieur le Marquis !</salute>
+         </opener>
+         <div n="1" corresp="#vgl">
+            <p>
+               Je commence par présenter à Votre Excellence mes très-humbles remercimens de 
+               <rs type="citation" ref="#c1285-1">la lettre gracieuse</rs>, dont Elle m'a honoré, et qui m'a fait un plaisir bien 
+               sensible. Je l'ai lue et relue: c'est la dernière consolation dans ces tems de foiblesse et de malheur, que du moins 
+               <del rend="stroked">xxx</del> parmi ceux qui sont appellés à conduire les grandes affaires de la société humaine, la 
+               force d'esprit et la grandeur d'ame ne sont pas généralement et irréparablement perdues, qu'il 
+               <del rend="stroked">y</del> existe encore de loin en loin, un homme d'état qui sait penser et sentir.
+            </p>
+         </div>
+         <div n="2" corresp="#fvlv">
+            <p>
+               Les gazettes de <rs type="place" ref="#plHa">Hamburg</rs> sont comme celles de l'empire, remplies de bruits de 
+               préliminaires et de paix. Je dirai à Votre Excellence ce que j'en ai appris. Les dernières lettres particulières de 
+               <rs type="place" ref="#plWi">Vienne</rs>, non seulement ne confirment en rien tous ces bruits, mais les démentent 
+               même directement. J'ai eu occasion de lire moi-même tout ce qui est arrivé <date when-iso="1800-08-19">Mardi</date>, 
+               de <rs type="person" ref="#Mto">Lord Minto</rs>. Il persiste à dire qu'il n'y a encore rien à craindre pour <pb/> 
+               <rs type="place" ref="#plEn">l'Angleterre</rs>, que jusqu'ici aucune démarche essentielle qui annoncât une paix 
+               prochaine, n'a eu lieu; que le ministre Autrichien n'a encore fait paroitre aucun indice de changement par rapport à 
+               ses relations avec lui; qu'il croyoit encore au moment qu'il étoit, pourvoir garantir, que la paix, ou ne se feroit 
+               pas, ou seroit négociée en même tems pour la Cour de <rs type="place" ref="#plLo">Londres</rs>. Il dit à 
+               <rs type="person" ref="#JJPLC">Lord Carysfort</rs> que jusqu'à présent il n'a pas eu la moindre inquiétude, et qu'il 
+               attend avec confiance un développement heureux. Les nouvelles de <rs type="person" ref="#JvHd">Hudelist</rs> sont 
+               parfaitement d'accord avec celles de <rs type="person" ref="#Mto">Lord Minto</rs>.
+            </p>
+            <p>
+               Tous ces apperçus consolans ne me feront pas changer d'opinion sur la nécessité imminente d'une paix très-prochaine, 
+               et peut-être infiniment funeste sous mille rapports. Tant qu'on ne présentera pas des moyens de défense proportionnés 
+               à la grandeur et sur-tout à <emph rend="underlined">l'urgence</emph> du danger, je croirai toujours qu'on fera la 
+               paix, parce qu'on ne <emph rend="underlined">peut</emph> pas continuer la guerre: et certes, Votre Excellence n'en 
+               jugera <pb/> pas autrement que moi. Mais il n'en est pas moins certain, que tout ce qu'on a débité 
+               <emph rend="underlined">jusqu'ici</emph> sur les progrès, ou même sur une issue quelconque des négociations, est 
+               faux. On ne sauroit assez se méfier dans ce moment de toutes les nouvelles publiques. Les gazettes annoncoient de la 
+               manière la plus positive, et même sous l'article de <rs type="place" ref="#plWi">Vienne</rs> l'arrivée de 
+               <rs type="person" ref="#GCMD">Duroc</rs> dans cette capitale. J'ai vu que <del rend="stroked">xxx</del> jusqu'à des 
+               ministres étrangers préféroient cette fois-ci l'autorité des gazettes à celle des lettres particulières les plus 
+               respectables, et croyoient fermément à cette arrivée. Malgré cela il est reconnu maintenant, que 
+               <rs type="person" ref="#GCMD">Duroc</rs> n'a pas passé la frontière de <rs type="place" ref="#plOe">l'Autriche</rs>, 
+               et les gazettes conviennent elles-mêmes qu'elles ont été trompées. Il n'en sera pas autrement de tout ce que la 
+               dernière feuille de <rs type="place" ref="#plHa">Hamburg</rs> annonce sur les dispositions du cabinet impérial.
+            </p>
+            <p>
+               Cependant il me paroit de plus en plus vraisemblable que d'ici à quinze jours la chose sera décidée. 
+               <rs type="person" ref="#PdRdB">Beurnonville</rs> proclame hautement à <rs type="place" ref="#plBe">Berlin</rs>, que 
+               le premier consul avoit indiqué le <date when-iso="1800-09-15">15 septembre</date> comme terme peremtoire et fatal; 
+               et je crois, que ceci est un peu plus qu'une forfanterie à la <rs type="person" ref="#PdRdB">Beurnonville</rs>. Quand 
+               on pense, que toutes <pb/> les troupes Françoises qui étoient encore de l'autre côté du 
+               <rs type="place" ref="#plRh">Rhin</rs> ont profité de l'armistice pour assouvir la faim qui les pressoit aux dépens 
+               des cercles de l'empire, et partager avec les vainqueurs les dernières dépouilles de ces malheureux pays, quand on 
+               pense que le midi de <rs type="place" ref="#plDe">l'Allemagne</rs> est inondé d'armées ennemies, que la seconde armée 
+               de réserve est en grande marche, que par la dernière des opérations le <rs type="person" ref="#CJLC">Lecourbe</rs>, 
+               plus funeste peut-être que la bataille de <rs type="place" ref="#plMrn">Marengo</rs>, la citadelle de 
+               <rs type="place" ref="#plOe">l'autriche</rs>, <rs type="place" ref="#plTi">le Tyrol</rs>, est cerné de tous les côtés 
+               - que doit-on attendre de la guerre ? que doit-on attendre de la paix !
+            </p>
+         </div>
+         <div n="3" corresp="#napinv">
+            <p>
+               Un courier qui est arrivé à <rs type="person" ref="#JJPLC">Lord Carysfort</rs> 
+               <date when-iso="1800-08-20">Mercredi au soir</date>, lui a apporté la nouvelle que son fils, le 
+               <rs type="person" ref="#JPrb">Capitaine Proby</rs> a été fait prisonnier d'une manière assez singulière. Il a assisté 
+               à toute la campagne <rs type="place" ref="#plCr">d'Italie</rs> avec l'armée autrichienne, et devoit se rendre à 
+               <rs type="place" ref="#plMen">Minorque</rs> pour servir d'Aide de camp au 
+               <rs type="person" ref="#RAbcr">Général Abercrombie</rs>. Parti de <rs type="place" ref="#plWi">Vienne</rs> il a porté 
+               une dépêche à <rs type="place" ref="#plVd">Venise</rs>; il vouloit là s'embarquer pour 
+               <rs type="place" ref="#plAnc">Ancone</rs>, et traverser ensuite la partie libre de 
+               <rs type="place" ref="#plCr">l'Italie</rs> pour arriver à <rs type="place" ref="#plLv">Livourne</rs>. N'ayant trouvé 
+               aucun batiment Autrichien à <rs type="place" ref="#plVd">Venise</rs> il a fait un contrat avec <pb/> quelques 
+               bateliers vénitiens, qui lui ont promis de le mener à <rs type="place" ref="#plAnc">Ancone</rs>. Il part; une tempête 
+               affreuse le surprend immédiatement après, et le tourmente pendant deux jours; le troisième jour la mer se remet; 
+               <rs type="person" ref="#JPrb">Monsieur Proby</rs> s'endort, et les matelots, soit par mal-adresse, soit par trahison, 
+               le mènent dans le petit port de <rs type="place" ref="#plCe"><emph rend="underlined">Cesenatico</emph></rs>, où la 
+               municipalité le livre sur le champ à un corps de François qui se trouve dans le voisinage. Il a été conduit à 
+               <rs type="place" ref="#plMi">Milan</rs>.
+            </p>
+         </div>
+         <div n="4" corresp="#vgl">
+            <p>
+               Je rendrai fidélement à <rs type="person" ref="#BvK">Monsieur de Krüdener</rs> ce que Votre Excellence m'a chargé de 
+               lui dire. Il est singulier que le même jour, où Votre Excellence s'est souvenue de lui, il m'avoit beaucoup parlé de 
+               Vous; et quoiqu'il l'ait fait souvent, c'étoit la première fois, que je m'apperçus qu'il avoit réellement aprécié 
+               dans toute leur étendue les hautes qualités de celui qui étoit l'objet de notre conversation. C'est une tête 
+               singulièrement organisée: tout se développe lentement mais sûrement <del rend="stroked">dans</del> en lui: et il faut 
+               absolument l'avoir vu long-tems pour juger de son mérite. Je n'oublierai jamais l'idée très-chétive que je m'étois 
+               fait de cet homme au commencement; j'en aurois honte, si je ne savois pas, que <pb/> d'autres, observateurs plus 
+               exercés que moi, s'y sont trompés de même: mais à présent je suis pleinement convaincu, que 
+               <rs type="person" ref="#BvK">Monsieur de Krüdener</rs> est un des hommes les plus profondement-instruits, les plus 
+               forts en principes, et les plus estimables de la diplomatie de <rs type="place" ref="#plEu">l'Europe</rs>.
+            </p>
+         </div>
+         <div n="5" corresp="#frz">
+            <p>
+               Les journaux François n'offrent absolument rien cette fois-ci. J'ai voulu envoyer à Votre Excellence 
+               <rs type="citation" ref="#a1285-1">la dernière feuille</rs> de <rs type="person" ref="#FDdRdM">Montlosier</rs>, qui 
+               contient un morceau admirable <emph rend="underlined">sur les dangers de la paix</emph>; mais 
+               <rs type="person" ref="#Stmf">Monsieur de Stamfort</rs> à qui je l'ai prêtée hier, sous condition expresse de me le 
+               rendre aujourd'hui de grand matin, ne me la renvoit point; et comme je suis à 
+               <rs type="place" ref="#plSb">Schöneberg</rs> je ne saurois le pousser. <del rend="stroked">Il</del> Elle partira donc 
+               avec le courier prochain, et je préviens Votre Excellence que c'est une lecture délicieuse, que je Lui prépare.
+            </p>
+         </div>
+         <div n="6" corresp="#vgl">
+            <p>
+               En priant Votre Excellence de vouloir bien me rappeller au gracieux souvenir de 
+               <rs type="person" ref="#CvT">Madame la Marquise</rs> et à l'amitié de Messieurs ses fils, je renouvelle de coeur et 
+               d'ame l'hommage du dévouement profond et inaltérable avec lequel je suis
+            </p>
+         </div>
+         <closer>
+            <salute rend="right">De Votre Excellence</salute>
+            <salute rend="right">le très humble et très obéissant serviteur</salute>
+            <signed rend="right">Gentz.</signed>
+         </closer>
+         <postscript corresp="#oesteng">
+            <p>
+               P.S. On dit depuis trois jours, et non pas sur la parole d'un gazettier, que 
+               <rs type="person" ref="#EFKM">l'Electeur de Mayence</rs> à fait sa paix particulière avec 
+               <rs type="person" ref="#NBon">Bonaparte</rs>; qu'il lui a cédé formellement la possession de 
+               <rs type="place" ref="#plMz">sa capitale</rs>, et qu'en revanche on lui a promis un ample dédommagement. - 
+               <span xml:lang="lat">Sic itur ad astra !</span>
+            </p>
+         </postscript>
+      </body>
+   </text>
+</TEI>

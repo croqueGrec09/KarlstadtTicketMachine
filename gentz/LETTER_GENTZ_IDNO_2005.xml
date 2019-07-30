@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc xml:id="LETTER_GENTZ_2005">
+         <titleStmt>
+            <title>Friedrich von Gentz an Hugh Elliot, 27. September 1802A</title>
+            <editor xml:id="edAG">Andreas Gálffy</editor>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <name>Forschungsstelle "Universitätssammlung Friedrich von Gentz"</name>
+               <link target="http://gentz-digital.ub.uni-koeln.de http://www.ub.uni-koeln.de/cdm/singleitem/collection/gentz/id/2004/"/>
+            </publisher>
+            <pubPlace>Cologne</pubPlace>
+            <idno type="Gentz-Edition-Number" n="2005"/>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <country>United Kingdom</country>
+                  <settlement>Edinburgh</settlement>
+                  <institution>The National Library of Scotland</institution>
+                  <repository>Manuscript Division</repository>
+                  <collection>M. S. 12998</collection>
+               </msIdentifier>
+               <msContents>
+                  <summary>
+                     Nach einer schlaflosen Nacht wendet sich Gentz an Elliot in zweierlei Anliegen: erstens will er sich 
+                     vergewissern, dass Elliot spätestens in der nächsten Nacht abfährt, zweitens über die Summe Geldes, die man für 
+                     eine Reise wie die anstehende braucht.
+                  </summary>
+               </msContents>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Masterarbeit zu Matrikelnummer 5584124</p>
+         </projectDesc>
+      </encodingDesc>
+      <profileDesc>
+         <creation>
+            <date when-iso="1802-09-27">27. September 1802</date>
+         </creation>
+        <langUsage>
+           <language ident="f">französisch</language>
+        </langUsage>
+         <textClass>
+            <keywords scheme="internal"><!-- internal: innerhalb des besagten Briefs -->
+               <term>Brief</term>
+               <term>Reise</term>
+               <term>London</term>
+               <term>Schulden</term>
+            </keywords>
+            <keywords scheme="categorisation"><!-- Sinnabschnittseinteilung - relevant für den Fahrkartenautomaten! -->
+               <term xml:id="rs">Reise von 1802</term>
+            </keywords>
+         </textClass>
+         <textDesc>
+            <channel>manuscript</channel>
+            <constitution type="single"/>
+            <derivation type="original"/>
+            <domain type="private"/>
+            <factuality type="fact"/>
+            <interaction type="partial"/>
+            <preparedness type="prepared"/>
+            <purpose type="inform"/>
+         </textDesc>
+         <particDesc>
+            <listPerson>
+               <!-- Sender und Adressat -->
+               <person role="sender" xml:id="Gen">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/118538489"/>
+                     <forename>Friedrich von</forename>
+                     <surname>Gentz</surname>
+                  </persName>
+               </person>
+               <person role="receiver" xml:id="HEl">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/1075473756"/>
+                     <forename>Hugh</forename>
+                     <surname>Elliot</surname>
+                  </persName>
+               </person>
+               <!-- erwähnte Personen -->
+               <person role="named" xml:id="KGeIII">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/118716913"/>
+                     <forename>Georg III.</forename>
+                     <surname/>
+                     <roleName type="office">König von England</roleName>
+                  </persName>
+               </person>
+            </listPerson>
+         </particDesc>
+         <settingDesc>
+            <listPlace>
+               <!-- Start- und Zielort -->
+               <place type="sender" xml:id="plDd">
+                  <country>
+                     <ref target="http://d-nb.info/gnd/4051176-5"/>
+                     <placeName>Sachsen</placeName> 
+                  </country>
+                  <settlement>
+                     <ref target="http://d-nb.info/gnd/4012995-0"/>
+                     <placeName>Dresden</placeName>
+                  </settlement>
+               </place>
+               <!-- erwähnte Orte -->
+            </listPlace>
+         </settingDesc>
+      </profileDesc>
+      <revisionDesc>
+         <change xml:id="init" when-iso="2018-03-11" who="#edAG">Erstauszeichnung und Normierung des Dokumentes im Rahmen der Masterarbeit der Matrikelnummer 5584124</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div n="1" corresp="#rs">
+            <p>
+               La proposition que Vous m'avez faite hier ne m'a pas laissé dormir toute la nuit, et elle est trop intéressante et 
+               trop importante pour moi sous tous les rapports pour que je puisse supporter longtems l'indécision de l'incertitude 
+               dans laquelle elle m'a jetté. Je Vous supplie donc, cher et respectable Monsieur Elliot, de me répondre 
+               catégoriquement aux deux questions que je vais Vous présenter:
+            </p>
+            <p>
+               1. Etes Vous sûr au delà du doute que Vous partez d'ici <emph rend="underlined">pas plus tard</emph> que 
+               <date when-iso="1802-09-28">demain</date> en Nuit ? Le <emph rend="underlined">plutôt</emph> m'est égal; mais comme 
+               il faut que j'agisse sagement dans cette affaire, le <emph rend="underlined">retard</emph> ne m'est pas indifférent, 
+               de sorte qu'il faut bien que je me fixe un terme à moi-même.
+            </p>
+            <p>
+               2. Combien d'argent croyez Vous qu'on doive avoir nécessairement pour ce voyage; en quoi je Vous prie cependant de ne 
+               pas oublier que je suis très mauvais économe, de sorte qu'il ne faut pas prendre la mésure trop-bas. <pb/>
+            </p>
+            <p>
+               Si Vous me répondez d'une manière satisfaisante à ces deux questions, <emph rend="underlined">je suis à Vous</emph>, 
+               et nous reglerons s'il Vous plait le reste de nos projets incessamment.
+            </p>
+            <p>
+               Agréez mon dévouement tendre, respectueux, inviolable, éternel.
+            </p>
+         </div>
+         <closer>
+            <signed rend="right">Gentz</signed>
+            <dateline rend="right">Ce <date when-iso="1802-09-27">27 Septbr 1802</date>.</dateline>
+         </closer>
+      </body>
+      <back>
+         <p>
+            A Monsieur
+            Monsieur Elliot
+            Ministre plénipotentiaire de
+            <rs type="person" ref="#KGeIII">Sa Majesté le Roi de la Grande Bretagne</rs>
+         </p>
+      </back>
+      <note xml:id="r2005-1">Adresse, Seite x</note>
+   </text>
+</TEI>

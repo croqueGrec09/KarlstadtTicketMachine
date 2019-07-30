@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader type="text">
+      <fileDesc xml:id="LETTER_GENTZ_0151">
+         <titleStmt>
+            <title>Friedrich von Gentz an Rechtsanwalt Euncke [?], 23. Oktober 1796</title>
+            <editor xml:id="edAG">Andreas Gálffy</editor>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <name>Forschungsstelle "Universitätssammlung Friedrich von Gentz"</name>
+               <link target="http://gentz-digital.ub.uni-koeln.de http://www.ub.uni-koeln.de/cdm/singleitem/collection/gentz/id/150/"/>
+            </publisher>
+            <pubPlace>Cologne</pubPlace>
+            <idno type="Gentz-Edition-Number" n="0151"/>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <country>unknown</country>
+                  <idno>not identified</idno>
+               </msIdentifier>
+               <msContents>
+                  <summary>
+                     Von diesem Brief liegt nur eine Spur vor. Demnach ist er eine AUfforderung zur Zahlung einer Schuld, die Euncke 
+                     an Decker geschickt hat.
+                  </summary>
+               </msContents>
+            </msDesc>
+            <biblStruct type="catEntry">
+               <monogr>
+                  <author>
+                     <persName>
+                        <ref/>
+                        <forename>Vinzenz Andreas</forename>
+                        <surname>Heck</surname>
+                     </persName>
+                  </author>
+                  <title>Katalog 48. Interessante Autographen aus dem Nachlasse von Eduard Fischer von Röslerstamm Rom und aus anderem Besitz</title>
+                  <imprint>
+                     <pubPlace>Wien</pubPlace>
+                     <date>November 1928</date>
+                  </imprint>
+               </monogr>
+            </biblStruct>
+            <listBibl type="letterReferenced">
+               <bibl xml:id="c0151-1" corresp="#LETTER_GENTZ_NNNN">nicht bekannter Brief von Rechtsanwalt Euncke an Buchdrucker Decker</bibl>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Masterarbeit zu Matrikelnummer 5584124</p>
+         </projectDesc>
+      </encodingDesc>
+      <profileDesc>
+         <creation>
+            <date when-iso="1796-10-23">23. Oktober 1796</date>
+         </creation>
+        <langUsage>
+           <language ident="d">deutsch</language>
+        </langUsage>
+         <textClass>
+            <keywords scheme="internal"><!-- internal: innerhalb des besagten Briefs -->
+               <term>Brief</term>
+               <term>Schulden</term>
+               <term>Decker</term>
+            </keywords>
+            <keywords scheme="categorisation"><!-- Sinnabschnittseinteilung - relevant für den Fahrkartenautomaten! -->
+               <term xml:id="gprl">Gentz - p(r)ekuniäre Lage</term>
+            </keywords>
+         </textClass>
+         <textDesc>
+            <channel>manuscript</channel>
+            <constitution type="single"/>
+            <derivation type="original"/>
+            <domain type="private"/>
+            <factuality type="fact"/>
+            <interaction type="partial"/>
+            <preparedness type="prepared"/>
+            <purpose type="inform"/>
+         </textDesc>
+         <particDesc>
+            <listPerson>
+               <!-- Sender und Adressat -->
+               <person role="sender" xml:id="Gen">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/118538489"/>
+                     <forename>Friedrich von</forename>
+                     <surname>Gentz</surname>
+                  </persName>
+               </person>
+               <person role="receiver" xml:id="REu">
+                  <persName>
+                     <ref/>
+                     <forename/>
+                     <surname>Euncke</surname>
+                  </persName>
+               </person>
+               <!-- erwähnte Personen -->
+               <person role="named" xml:id="Dck">
+                  <persName>
+                     <ref/>
+                     <forename/>
+                     <surname>Decker</surname>
+                  </persName>
+               </person>
+            </listPerson>
+         </particDesc>
+         <settingDesc>
+            <listPlace>
+               <!-- Start- und Zielort -->
+               <place type="sender" xml:id="plBe">
+                  <country>
+                     <ref target="http://d-nb.info/gnd/4047194-9"/>
+                     <placeName>Preußen</placeName>
+                  </country>
+                  <settlement>
+                     <ref target="http://d-nb.info/gnd/4005728-8"/>
+                     <placeName>Berlin</placeName>
+                  </settlement>
+               </place>
+               <!-- erwähnte Orte -->
+            </listPlace>
+         </settingDesc>
+      </profileDesc>
+      <revisionDesc>
+         <change xml:id="init" when-iso="2018-02-19" who="#edAG">Erstauszeichnung und Normierung des Dokumentes im Rahmen der Masterarbeit der Matrikelnummer 5584124</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div n="1" corresp="#gprl">
+            <p>
+               Eigenhändiger Brief mit Unterschrift an den Rechtsanwalt des Buchdruckers <rs type="person" ref="#Dck">Decker</rs>, 
+               der ihn in dessen Auftrage zur Zahlung einer Schuld auffordert. Der 
+               <rs type="person" ref="#REu">Rechtsanwalt Euncke</rs> (?), hat Gentz's Brief originaliter mit seinem 
+               <rs type="citation" ref="#c0151-1">Begleitbrief</rs> vom <date when-iso="1796-10-25">25. October 1796</date>, 
+               1 S. 4., an <rs type="person" ref="#Dck">Decker</rs> geschickt.
+            </p>
+         </div>
+      </body>
+      <note xml:id="r0151-1">Auszug aus einem Autographenkatalog</note>
+   </text>
+</TEI>

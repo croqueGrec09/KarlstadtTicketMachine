@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader type="text">
+      <fileDesc xml:id="LETTER_GENTZ_5211">
+         <titleStmt>
+            <title>Friedrich von Gentz an Carl Spener, 30. August 1793</title>
+            <editor xml:id="edAG">Andreas Gálffy</editor>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <name>Forschungsstelle "Universitätssammlung Friedrich von Gentz"</name>
+               <link target="http://gentz-digital.ub.uni-koeln.de http://www.ub.uni-koeln.de/cdm/singleitem/collection/gentz/id/5210/"/>
+            </publisher>
+            <pubPlace>Cologne</pubPlace>
+            <idno type="Gentz-Edition-Number" n="5211"/>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <country>Poland</country>
+                  <settlement>Cracow</settlement>
+                  <institution>Biblioteka Jagiellońska</institution>
+                  <repository>Handschriftenabtelung</repository>
+                  <collection>Varnhagensammlung der ehemaligen Preußischen Bibliothek</collection>
+                  <idno>Karton 66</idno>
+               </msIdentifier>
+               <msContents>
+                  <summary>
+                     Gentz beklagt sich über die Lieferart englischer Zeitungen. Zwei Herren wollten Gentz betreffs der Preise der 
+                     englischen Stocks aufsuchen; er konnte ihre Anfrage jedoch nicht beantworten, weil er seit sechs Wochen keine 
+                     englischen Zeitungen mehr erhalten habe. Eine Stunde später kam ein Paket mit 28 Zeitungen. Gentz hält Spener 
+                     für unschuldig, beklagt aber, dass er sehr spät die Zeitungen erhält, da sie durch viele andere Hände gehen. Er 
+                     möchte sie unmittelbar erhalten.
+                  </summary>
+               </msContents>
+            </msDesc>
+            <listBibl type="preprints">
+               <biblStruct>
+                  <monogr>
+                     <editor>
+                        <persName>
+                           <ref target="http://d-nb.info/gnd/130953075"/>
+                           <forename>Friedrich Carl</forename>
+                           <surname>Wittichen</surname>
+                        </persName>
+                        <persName>
+                           <ref/> <!-- kein GND-Eintrag -->
+                           <forename>Ernst</forename>
+                           <surname>Salzer</surname>
+                        </persName>
+                     </editor>
+                     <title>Briefe von und an Friedrich von Gentz. 4 Bde.</title>
+                     <imprint>
+                        <publisher>Oldenbourg</publisher>
+                        <pubPlace>München, Berlin</pubPlace>
+                        <date>1909-1913</date>
+                     </imprint>
+                     <biblScope unit="volume" n="1">
+                        I
+                     </biblScope>
+                     <biblScope unit="page" from="313" to="314">
+                        Nr. 106
+                     </biblScope>
+                  </monogr>
+               </biblStruct>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Masterarbeit zu Matrikelnummer 5584124</p>
+         </projectDesc>
+      </encodingDesc>
+      <profileDesc>
+         <creation>
+            <date when-iso="1793-08-30">30. August 1793</date>
+         </creation>
+        <langUsage>
+           <language ident="d">deutsch</language>
+        </langUsage>
+         <textClass>
+            <keywords scheme="internal"><!-- internal: innerhalb des besagten Briefs -->
+               <term>Brief</term>
+               <term>Zeitungen</term>
+               <term>England</term>
+               <term>Stocks</term>
+               <term>Wirtschaft</term>
+               <term>Lieferung</term>
+            </keywords>
+            <keywords scheme="categorisation"><!-- Sinnabschnittseinteilung - relevant für den Fahrkartenautomaten! -->
+               <term xml:id="ezg">englische Zeitungen</term>
+            </keywords>
+         </textClass>
+         <textDesc>
+            <channel>manuscript</channel>
+            <constitution type="single"/>
+            <derivation type="original"/>
+            <domain type="private"/>
+            <factuality type="fact"/>
+            <interaction type="partial"/>
+            <preparedness type="prepared"/>
+            <purpose type="inform"/>
+         </textDesc>
+         <particDesc>
+            <listPerson>
+               <!-- Sender und Adressat -->
+               <person role="sender" xml:id="Gen">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/118538489"/>
+                     <forename>Friedrich von</forename>
+                     <surname>Gentz</surname>
+                  </persName>
+               </person>
+               <person role="receiver" xml:id="Spe">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/117492175"/>
+                     <forename>Johann Karl</forename>
+                     <surname>Spener</surname>
+                  </persName>
+               </person>
+               <!-- erwähnte Personen -->
+            </listPerson>
+         </particDesc>
+         <settingDesc>
+            <listPlace>
+               <!-- Start- und Zielort -->
+               <place type="sender" xml:id="plBe">
+                  <country>
+                     <ref target="http://d-nb.info/gnd/4047194-9"/>
+                     <placeName>Preußen</placeName>  
+                  </country>
+                  <settlement>
+                     <ref target="http://d-nb.info/gnd/4005728-8"/>
+                     <placeName>Berlin</placeName>
+                  </settlement>
+               </place>
+               <!-- erwähnte Orte -->
+            </listPlace>
+         </settingDesc>
+      </profileDesc>
+      <revisionDesc>
+         <change xml:id="init" when-iso="2018-02-13" who="#edAG">Erstauszeichnung und Normierung des Dokumentes im Rahmen der Masterarbeit der Matrikelnummer 5584124</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div n="1" corresp="#ezg">
+            <p>
+               Weil ich alles, was den Frieden und die freundschaftlichen Verhältnisse stöhrt, mit tödtlichem Hasse hasse, und zur 
+               unwandelbaren Maxime habe, "lieber Unrecht leiden als streiten" so würde ich über das Schicksal was mich in Ansehung 
+               unsrer gemeinschaftlichen Zeitungs-Lectüre getroffen hat, so wenig unempfindlich ich auch dagegen bin, geschwiegen 
+               haben, wie ich bisher schwieg, wenn nicht die strengste Nothwendigkeit mich aufforderte, 
+               <emph rend="underlined">für andre</emph> zu reden. Und in dieser Rücksicht hoffe ich 
+               <rs type="person" ref="#Spe">Ewr. Wohlgeboren</rs> gütige Verzeihung, daß ich Sie auf einige Augenblicke mit Klagen 
+               unterhalten muß.
+            </p>
+            <p>
+               <date when-iso="1793-08-30">Heute Abend gegen 6 Uhr</date> kamen 2 angeblich von Ihnen gesandte, mir durchaus 
+               unbekannte Männer zu mir, und wollten - <emph rend="underlined">die letzten Englischen Zeitungen</emph> bey mir 
+               inspiciren, um sich daraus, wie sie sagten, über den Preis der Englischen Stocks <del rend="stroked">zu</del> Raths 
+               zu erholen. Ich erwiederte ihnen, daß ich ihrem Verlangen kein Genüge leisten könnte, weil ich seit 6 Wochen (und 
+               diese Angabe ist in der strengsten Wahrheit gegründet) kein Blatt Englischer Zeitungen <pb/> aus dem Hause, welches 
+               sie angeblich an mich abgeordnet, erhalten hätte: sie gingen davon, und eine Stunde nachher erhalte ich ein Paket - 
+               mit <ref target="#r5211-1"><emph rend="underlined">28</emph></ref> Stück Zeitungen.
+            </p>
+            <p>
+               Ich bin fast von meiner Existenz nicht sichrer überzeugt, als davon, daß Sie, bester Herr Spener, an dieser Unordnung 
+               unschuldig sind. Da ich aber einmal zu reden gezwungen bin, so kan ich es nicht über mich bezwingen, zu verschweigen, 
+               daß ich seit vielen Monathen bemerkt, und längst bis zur höchsten Evidenz eingesehen habe, daß die Zeitungen, ehe sie 
+               an mich gelangen, durch viele andre Hände gehen. - Ich würde dies nicht behaupten, wenn es eine bloße leere 
+               Vermuthung wäre: und ich würde mich gehütet haben, Sie von einer unangenehmen, und Ihnen gewiß ganz unbekannten 
+               Sache zu unterrichten, wenn die, welche sich dieses Unfugs schuldig gemacht, ihn nur mit einigem menagement 
+               getrieben hätten.
+            </p>
+            <p>
+               Jetzt aber, da ich mich in dem unangenehmen Verhältniß sehe, von den andern Interessenten geplagt, und <pb/> 
+               bestürmt zu werden, und die Furcht, denselben den (über alles Vermuthen hohen) Beytrag abzufordern durch das 
+               Bewustseyn meiner schlechten Fürsorge für ihren Vortheil ansehnlich wächst, bleibt mir nichts übrig, als Sie aufs 
+               gehorsamste, angelegentlichste und freundschaftlichste zu bitten, die noch übrigen Monathe dieses Jahrs doch nur die 
+               zweckdienlichsten Veranstaltungen zu treffen, daß mir die Zeitungen so früh als es irgend Ihre Convenienz gestattet, 
+               zukommen, damit ich doch nur einigermaßen, die lange Sünde die ich auf mich laden mußte gut zu machen im Stande sey. 
+               Das Vergangne ist nicht mehr zu ändern: ich kan daher nicht umhin, den Wunsch gegen Sie zu äußern, daß aus dieser 
+               nothgedrungnen Anzeige, dem Schuldigen, wenn nicht ein eignes und besondres Interesse Sie ein andres beschließen 
+               heißt, keine weitre Unannehmlichkeit erwachsen möge ! Und damit empfielt sich zu fortdaurender Geneigtheit
+            </p>
+         </div>
+         <closer>
+            <dateline rend="left"><rs type="place" ref="#plBe">Berlin</rs> d <date when-iso="1793-08-30">30<span rend="sup">ten</span> August 1793:</date></dateline>
+            <signed rend="right">Dero ergebenster</signed>
+            <signed rend="right">Gentz.</signed>
+         </closer>
+         <note xml:id="r5211-1">Dreimal unterstrichen</note>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,219 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader type="text">
+      <fileDesc xml:id="LETTER_GENTZ_4497">
+         <titleStmt>
+            <title>Friedrich von Gentz an Karl Gustav von Brinckmann, 10. Januar 1794</title>
+            <editor xml:id="edAG">Andreas Gálffy</editor>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <name>Forschungsstelle "Universitätssammlung Friedrich von Gentz"</name>
+               <link target="http://gentz-digital.ub.uni-koeln.de http://www.ub.uni-koeln.de/cdm/singleitem/collection/gentz/id/4496/"/>
+            </publisher>
+            <pubPlace>Cologne</pubPlace>
+            <idno type="Gentz-Edition-Number" n="4497"/>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <country>Sweden</country>
+                  <settlement>Trolle-Ljungby</settlement>
+                  <institution>Archiv des Grafen Wachtmeister</institution>
+                  <repository>Nachlaß Brinckmann, Ausländ. Briefwechsel, Gentz an von Brinckmann</repository>
+                  <idno>G 5</idno>
+               </msIdentifier>
+               <msContents>
+                  <summary>
+                     Zwei Federn einer Krone und die Monatsschrift kommen bei - und Gentz steht zwischen Rammler und Jehnisch. Gentz 
+                     hat viel zu tun und konnte von Brinckmann nicht besuchen. Aber selbst die Fortschritte der Franzosen 
+                     beeindrucken Gentz nicht. Ein hundsvöttisches Leben, schimpft er.
+                  </summary>
+               </msContents>
+            </msDesc>
+            <listBibl type="preprints">
+               <biblStruct>
+                  <monogr>
+                     <editor>
+                        <persName>
+                           <ref target="http://d-nb.info/gnd/130953075"/>
+                           <forename>Friedrich Carl</forename>
+                           <surname>Wittichen</surname>
+                        </persName>
+                        <persName>
+                           <ref/> <!-- kein GND-Eintrag -->
+                           <forename>Ernst</forename>
+                           <surname>Salzer</surname>
+                        </persName>
+                     </editor>
+                     <title>Briefe von und an Friedrich von Gentz, 4 Bde.</title>
+                     <imprint>
+                        <publisher>Oldenbourg</publisher>
+                        <pubPlace>München, Berlin</pubPlace>
+                        <date>1909-1913</date>
+                     </imprint>
+                     <biblScope unit="volume" n="2">
+                        II
+                     </biblScope>
+                     <biblScope unit="page" from="44" to="44">
+                        Nr. 42
+                     </biblScope>
+                  </monogr>
+               </biblStruct>
+            </listBibl>
+            <listBibl type="defRep">
+               <biblStruct xml:id="p4497-1" corresp="UBi-0026">
+                  <monogr>
+                     <editor>
+                        <persName>
+                           <ref target="http://d-nb.info/gnd/116167580"/>
+                           <forename>Johann Erich</forename>
+                           <surname>Biester</surname>
+                        </persName>
+                     </editor>
+                     <title>Berlinische Monatsschrift</title>
+                     <imprint>
+                        <publisher>Haude und Spener</publisher>
+                        <pubPlace>Jena</pubPlace>
+                        <date>1793</date>
+                     </imprint>
+                     <biblScope unit="volume" n="22">
+                        Zweiundzwanzigster Band.
+                        Julius bis Dezember 1793.
+                     </biblScope>
+                  </monogr>
+               <ptr target="http://ds.ub.uni-bielefeld.de/viewer/image/2239816_022/9/"/></biblStruct>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Masterarbeit zu Matrikelnummer 5584124</p>
+         </projectDesc>
+      </encodingDesc>
+      <profileDesc>
+         <creation>
+            <date when-iso="1794-01-10">10. Januar 1794</date>
+         </creation>
+        <langUsage>
+           <language ident="d">deutsch</language>
+        </langUsage>
+         <textClass>
+            <keywords scheme="internal"><!-- internal: innerhalb des besagten Briefs -->
+               <term>Billet</term>
+               <term>Federn</term>
+               <term>Krone</term>
+               <term>Monatsschrift</term>
+               <term>Rammler</term>
+               <term>Jehnisch</term>
+            </keywords>
+            <keywords scheme="categorisation"><!-- Sinnabschnittseinteilung - relevant für den Fahrkartenautomaten! -->
+               <term xml:id="mss">Monatsschrift</term>
+               <term xml:id="vkgvb">Verhältnis Karl Gustav von Brinckmann</term>
+               <term xml:id="bezbt">Beziehungen zu Berlin - Beamtentätigkeit</term>
+            </keywords>
+         </textClass>
+         <textDesc>
+            <channel>manuscript</channel>
+            <constitution type="single"/>
+            <derivation type="original"/>
+            <domain type="private"/>
+            <factuality type="fact"/>
+            <interaction type="partial"/>
+            <preparedness type="unprepared"/>
+            <purpose type="inform"/>
+         </textDesc>
+         <particDesc>
+            <listPerson>
+               <!-- Sender und Adressat -->
+               <person role="sender" xml:id="Gen">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/118538489"/>
+                     <forename>Friedrich von</forename>
+                     <surname>Gentz</surname>
+                  </persName>
+               </person>
+               <person role="receiver" xml:id="KGvB">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/116519770"/>
+                     <forename>Carl Gustav von</forename>
+                     <surname>Brinckmann</surname>
+                  </persName>
+               </person>
+               <!-- erwähnte Personen -->
+               <person role="named" xml:id="Jeh">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/100790100"/>
+                     <forename>Daniel</forename>
+                     <surname>Jehnisch</surname>
+                  </persName>
+               </person>
+               <person role="named" xml:id="Ram">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/119059614"/>
+                     <forename>Karl Wilhelm</forename>
+                     <surname>Rammler</surname>
+                  </persName>
+               </person>
+               <person role="named" xml:id="Min">
+                  <persName>
+                     <ref/>
+                     <forename>Wilhelmine</forename>
+                     <surname>Gilly</surname>
+                  </persName>
+               </person>
+            </listPerson>
+         </particDesc>
+         <settingDesc>
+            <listPlace>
+               <!-- Start- und Zielort -->
+               <place type="sender" xml:id="plBe">
+                  <country>
+                     <ref target="http://d-nb.info/gnd/4047194-9"/>
+                     <placeName>Preußen</placeName>
+                  </country>
+                  <settlement>
+                     <ref target="http://d-nb.info/gnd/4005728-8"/>
+                     <placeName>Berlin</placeName>
+                  </settlement>
+               </place>
+               <!-- erwähnte Orte -->
+            </listPlace>
+         </settingDesc>
+      </profileDesc>
+      <revisionDesc>
+         <change xml:id="init" when-iso="2018-02-14" who="#edAG">Erstauszeichnung und Normierung des Dokumentes im Rahmen der Masterarbeit der Matrikelnummer 5584124</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div n="1" corresp="#mss">
+            <p>
+               Ich schicke Ihnen hiebey zwey Federn der <emph rend="underlined">Krone</emph> - Sie ist federlos genug, um mit Federn 
+               sehr zu geitzen. Hier haben Sie auch die 
+               <ref target="#r4497-1"><rs type="citation" ref="#p4497-1">Berliner Monatschrif</rs></ref>, worin 
+               <emph rend="underlined">ich</emph> - <span xml:lang="lat">terribile dictu</span> - zwischen 
+               <rs type="person" ref="#Ram"><emph rend="underlined">Rammler</emph></rs> und 
+               <rs type="person" ref="#Jeh"><emph rend="underlined">Jehnisch</emph></rs> stehe.
+            </p>
+         </div>
+         <div n="2" corresp="#vkgvb">
+            <p>
+               <rs type="person" ref="#Min">Meine Frau</rs> empfiehlt sich Ihnen bestens, und wird Ihr Billet besorgen. Es ist 
+               strafbar, wirklich strafbar, daß ich Sie heute nicht besuchte.
+            </p>
+         </div>
+         <div n="3" corresp="#bezbt">
+            <p>
+               Aber ich bin seit einigen Tagen in <span xml:lang="lat">odiosa</span> so vergraben, daß die Uebel meiner Freunde, und 
+               die Progressen der Franzosen kaum Eindruck auf mich machen. Es ist doch ein Hundsvöttisches Leben ! Und zuletzt noch 
+               gar zu vermodern ! Welch ein Rakker müßte der Gott seyn, wenn es einen geben könnte !
+            </p>
+         </div>
+         <closer>
+            <signed rend="right">Gentz</signed>
+         </closer>
+         <note resp="#edAG" xml:id="r4497-1">Der offensichtliche Verschreiber wurde so aus Gentz digital übernommen.</note>
+      </body>
+   </text>
+</TEI>

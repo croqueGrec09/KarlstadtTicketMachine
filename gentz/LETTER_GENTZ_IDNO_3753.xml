@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc xml:id="LETTER_GENTZ_3753">
+         <titleStmt>
+            <title>Friedrich von Gentz an David Joseph Fraenkel, 25. Juni 1802</title>
+            <editor xml:id="edAG">Andreas Gálffy</editor>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <name>Forschungsstelle "Universitätssammlung Friedrich von Gentz"</name>
+               <link target="http://gentz-digital.ub.uni-koeln.de http://www.ub.uni-koeln.de/cdm/singleitem/collection/gentz/id/3752/"/>
+            </publisher>
+            <pubPlace>Cologne</pubPlace>
+            <idno type="Gentz-Edition-Number" n="3753"/>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <country>Germany</country>
+                  <settlement>Berlin</settlement>
+                  <institution>Geheimes Staatsarchiv preußischer Kulturbesitz</institution>
+                  <repository>III. HA, Min. d. Ausw. Ang.</repository>
+                  <collection>III, Nr. 9872</collection>
+                  <idno>Bl. 31v.</idno>
+               </msIdentifier>
+               <msContents>
+                  <summary>
+                     Fraenkel soll völlig unbetrügt sein über Gentz und ihm vollstes Vertrauen schenken. Er soll sich noch sechs 
+                     Wochen in Geduld üben.
+                  </summary>
+               </msContents>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Masterarbeit zu Matrikelnummer 5584124</p>
+         </projectDesc>
+      </encodingDesc>
+      <profileDesc>
+         <creation>
+            <date when-iso="1802-06-25">25. Juni 1802</date>
+         </creation>
+        <langUsage>
+           <language ident="d">deutsch</language>
+        </langUsage>
+         <textClass>
+            <keywords scheme="internal"><!-- internal: innerhalb des besagten Briefs -->
+               <term>Billet</term>
+               <term>Verhältnis</term>
+            </keywords>
+            <keywords scheme="categorisation"><!-- Sinnabschnittseinteilung - relevant für den Fahrkartenautomaten! -->
+               <term xml:id="gprl">Gentz - p(r)ekuniäre Lage</term>
+            </keywords>
+         </textClass>
+         <textDesc>
+            <channel>manuscript</channel>
+            <constitution type="single"/>
+            <derivation type="original"/>
+            <domain type="private"/>
+            <factuality type="fact"/>
+            <interaction type="partial"/>
+            <preparedness type="unprepared"/>
+            <purpose type="inform"/>
+         </textDesc>
+         <particDesc>
+            <listPerson>
+               <!-- Sender und Adressat -->
+               <person role="sender" xml:id="Gen">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/118538489"/>
+                     <forename>Friedrich von</forename>
+                     <surname>Gentz</surname>
+                  </persName>
+               </person>
+               <person role="receiver" xml:id="DJF">
+                  <persName>
+                     <ref/>
+                     <forename>David Joseph</forename>
+                     <surname>Fraenkel</surname>
+                  </persName>
+               </person>
+               <!-- erwähnte Personen -->
+            </listPerson>
+         </particDesc>
+         <settingDesc>
+            <listPlace>
+               <!-- Start- und Zielort -->
+               <place type="sender" xml:id="plDd">
+                  <country>
+                     <ref target="http://d-nb.info/gnd/4051176-5"/>
+                     <placeName>Sachsen</placeName>
+                  </country>
+                  <settlement>
+                     <ref target="http://d-nb.info/gnd/4012995-0"/>
+                     <placeName>Dresden</placeName>
+                  </settlement>
+               </place>
+               <!-- erwähnte Orte -->
+               <place type="named" xml:id="plBe">
+                  <country>
+                     <ref target="http://d-nb.info/gnd/4047194-9"/>
+                     <placeName>Preußen</placeName>
+                  </country>
+                  <settlement>
+                     <ref target="http://d-nb.info/gnd/4005728-8"/>
+                     <placeName>Berlin</placeName>
+                  </settlement>
+               </place>
+            </listPlace>
+         </settingDesc>
+      </profileDesc>
+      <revisionDesc>
+         <change xml:id="init" when-iso="2018-03-11" who="#edAG">Erstauszeichnung und Normierung des Dokumentes im Rahmen der Masterarbeit der Matrikelnummer 5584124</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div n="1" corresp="#gprl">
+            <p>
+               Ich bin von <rs type="place" ref="#plBe">Berlin</rs> abgereiset, mein lieber Fraenkel, ohne mit Ihnen vorher 
+               Richtigkeit machen zu können. Seyn Sie nichts desto weniger gänzlich außer Sorge. Ich kann und ich werde an Ihnen nie 
+               unredlich handeln. Gedulden Sie sich noch ungefähr 6 Wochen: Sie sollen erfahren wie Menschen meiner Art gegen 
+               solche, die so mit Ihnen umgingen wie Sie zu Werke gehn. Ich bitte Sie inständig Sich auch nicht 
+               <add place="above">einem</add> einzigen trüben Gedanken zu überlaßen; davon daß Sie diese Bitte erfüllen, daran, daß 
+               Sie mit unbeschränktem Vertrauen auf mich rechnen, werde ich sehen, ob ich an Ihnen wirklich einen Freund hatte, bald 
+               sollen Sie sich überzeugen, in welchem Grade ich zu heißen verdiene.
+            </p>
+         </div>
+         <closer>
+            <salute rend="right">Der Ihrige</salute>
+            <dateline rend="left"><rs type="place" ref="#plDd">Dresden</rs> den <date when-iso="1802-06-25">25<span rend="sup">ten</span> Juny 1802</date>.</dateline>
+            <signed rend="right">Gentz</signed>
+         </closer>
+      </body>
+      <note xml:id="r3753-1">Abschrift</note>
+   </text>
+</TEI>

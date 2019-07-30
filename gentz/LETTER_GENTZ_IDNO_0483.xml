@@ -1,0 +1,471 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader type="text">
+      <fileDesc xml:id="LETTER_GENTZ_0483">
+         <titleStmt>
+            <title>Friedrich von Gentz an Elisabeth Graun, 24. November 1786</title>
+            <editor xml:id="edAG">Andreas Gálffy</editor>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <name>Forschungsstelle "Universitätssammlung Friedrich von Gentz"</name>
+               <link target="http://gentz-digital.ub.uni-koeln.de http://www.ub.uni-koeln.de/cdm/singleitem/collection/gentz/id/0482/"/>
+            </publisher>
+            <pubPlace>Cologne</pubPlace>
+            <idno type="Gentz-Edition-Number" n="0483"/>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <country>Poland</country>
+                  <settlement>Cracow</settlement>
+                  <institution>Biblioteka Jagiellońska</institution>
+                  <repository>Handschriftenabtelung</repository>
+                  <collection>Varnhagensammlung der ehemaligen Preußischen Bibliothek</collection>
+                  <idno>Karton 66</idno>
+               </msIdentifier>
+               <msContents>
+                  <summary>
+                     Nach einer eintönigen Reise ohne Besonderheiten war es Gentz' erstes Anliegen, an seine treue Freundin 
+                     Elisabeth Graun zu schreiben. In dem Tumult bliebe Gentz nur diese Bindung übrig. Nach seiner Ankunft wurde er 
+                     auf einer Fete erwartet, wo ihm wider Erwarten das Missglücken des Ehevorhabens nicht nachgetragen wird. 
+                     An diese Stelle lobt er seinen Vater. Seinen Entschluss, nicht zu heiraten, hat Gentz in einem Parallelismus 
+                     mit Namen Testament einer großmütigen Seele beschrieben: er bedauert damit zutiefst den Schmerz, den er dem 
+                     Mädchen zugefügt haben muss, und erniedrigt sich vor Gott. Er stellt das Gebet eines rachefreien Herzens das 
+                     des neidlosen Herzens gegenüber. Über dieses Papier erbittet sich Gentz die Rückmeldung Elisabeth Grauns. Er 
+                     erkundigt sich danach nach Schnupftücher, die er gegebenenfalls in Königsberg gelassen hatte, sowie nach 
+                     Oberhemden. Auch vermisste er Briefe an die Schwinken und sehnt sich nach solchen von Elisabeth Graun. Bei 
+                     dieser Gelegenheit bedankt er sich nochmal für den so wohltuenden Aufenthalt. Im Epigraph erkundigt sich Gentz 
+                     nach einer Reaktion des Regierungsrates Graun und bittet sie, nicht über die Postskripte lustig zu machen.
+                  </summary>
+               </msContents>
+            </msDesc>
+            <listBibl type="preprints">
+               <biblStruct>
+                  <monogr>
+                     <editor>
+                        <persName>
+                           <ref target="http://d-nb.info/gnd/130953075"/>
+                           <forename>Friedrich Carl</forename>
+                           <surname>Wittichen</surname>
+                        </persName>
+                        <persName>
+                           <ref/> <!-- kein GND-Eintrag -->
+                           <forename>Ernst</forename>
+                           <surname>Salzer</surname>
+                        </persName>
+                     </editor>
+                     <title>Briefe von und an Friedrich von Gentz. 4 Bde.</title>
+                     <imprint>
+                        <publisher>Oldenbourg</publisher>
+                        <pubPlace>München, Berlin</pubPlace>
+                        <date>1909-1913</date>
+                     </imprint>
+                     <biblScope unit="volume" n="1">
+                        I
+                     </biblScope>
+                     <biblScope unit="page" from="91" to="96">
+                        Nr. 21
+                     </biblScope>
+                  </monogr>
+               </biblStruct>
+               <biblStruct>
+                  <monogr>
+                      <editor>
+                         <persName>
+                            <ref target="http://d-nb.info/gnd/117325791"/>
+                            <forename>Gustav</forename>
+                            <surname>Schlesier</surname>
+                         </persName>
+                      </editor>
+                      <title>Schriften von Friedrich von Gentz. Ein Denkmal. 5 Bde.</title>
+                      <imprint>
+                          <publisher>Verlag von Heinrich Wolff</publisher>
+                          <pubPlace>Mannheim</pubPlace>
+                          <date>1838-1840</date>
+                      </imprint>
+                      <biblScope unit="volume" n="1">
+                          I
+                      </biblScope>
+                      <biblScope unit="page" from="81" to="82">
+                          (paraphrasierter Text)
+                      </biblScope>
+                  </monogr>
+               </biblStruct>
+            </listBibl>
+            <listBibl type="letterReferenced">
+               <bibl xml:id="c0483-1" corresp="#LETTER_GENTZ_4117">Friedrich von Gentz an Elisabeth Graun, Dezember 1785</bibl>
+               <bibl xml:id="c0483-2" corresp="#LETTER_GENTZ_NNNN">nicht bekannter Brief von Friedrich von Gentz an Regierungsrat Karl Heinrich Graun</bibl>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Masterarbeit zu Matrikelnummer 5584124</p>
+         </projectDesc>
+      </encodingDesc>
+      <profileDesc>
+         <creation>
+            <date when-iso="1786-11-24">24. November 1786</date>
+         </creation>
+        <langUsage>
+           <language ident="d">deutsch</language>
+        </langUsage>
+         <textClass>
+            <keywords scheme="internal"><!-- internal: innerhalb des besagten Briefs -->
+               <term>Brief</term>
+               <term>Graun</term>
+               <term>Coelestine</term>
+               <term>Sehnsucht</term>
+               <term>Liebe</term>
+               <term>Philosophie</term>
+               <term>Regierungsrat Graun</term>
+               <term>Ehe</term>
+            </keywords>
+            <keywords scheme="categorisation"><!-- Sinnabschnittseinteilung - relevant für den Fahrkartenautomaten! -->
+               <term xml:id="veg">Verhältnis Elisabeth Graun</term>
+               <term xml:id="bezbl">Beziehungen zu Berlin - Leute</term>
+               <term xml:id="genf">Gentz - Familie</term>
+               <term xml:id="geh">Gentz' Ehe</term>
+               <term xml:id="krrg">Regierungsrat Graun</term>
+            </keywords>
+         </textClass>
+         <textDesc>
+            <channel>manuscript</channel>
+            <constitution type="single"/>
+            <derivation type="original"/>
+            <domain type="private"/>
+            <factuality type="fact"/>
+            <interaction type="partial"/>
+            <preparedness type="prepared"/>
+            <purpose type="inform"/>
+         </textDesc>
+         <particDesc>
+            <listPerson>
+               <!-- Sender und Adressat -->
+               <person role="sender" xml:id="Gen">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/118538489"/>
+                     <forename>Friedrich von</forename>
+                     <surname>Gentz</surname>
+                  </persName>
+               </person>
+               <person role="receiver" xml:id="Gra">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/123518733"/>
+                     <forename>Elisabeth</forename>
+                     <surname>Graun</surname>
+                  </persName>
+               </person>
+               <!-- erwähnte Personen -->
+               <person role="named" xml:id="JFG">
+                  <persName>
+                     <ref/>
+                     <forename>Johann Friedrich</forename>
+                     <surname>Gentze</surname>
+                  </persName>
+               </person>
+               <person role="named" xml:id="frt">
+                  <persName>
+                     <ref/><!-- kein GND-Eintrag -->
+                     <forename>Fritz</forename>
+                     <surname/>
+                     <roleName type="family">Bruder von Elisabeth Graun</roleName>
+                  </persName>
+               </person>
+               <person role="named" xml:id="coe">
+                  <persName>
+                     <ref/><!-- kein GND-Eintrag -->
+                     <forename>Coelestine</forename>
+                     <surname>Schwinck</surname>
+                     <roleName type="address">Mademoiselle</roleName>
+                  </persName>
+               </person>
+               <person role="named" xml:id="SWGra">
+                  <persName>
+                     <ref/><!-- kein GND-Eintrag -->
+                     <forename/>
+                     <surname/>
+                     <roleName type="family">Schwester von Elisabeth Graun</roleName>
+                  </persName>
+                  <certainty locus="name">
+                     <desc>Es konnte kein Name gefunden werden.</desc>
+                  </certainty>
+               </person>
+               <person role="named" xml:id="RRGra">
+                  <persName>
+                     <ref/><!-- kein GND-Eintrag -->
+                     <forename>Karl Heinrich</forename>
+                     <surname>Graun</surname>
+                     <roleName type="office">Regierungsrat</roleName>
+                  </persName>
+               </person>
+               <person role="named" xml:id="Mue">
+                  <persName>
+                     <ref/>
+                     <forename/>
+                     <surname>Münzmeister</surname>
+                  </persName>
+               </person>
+               <person role="named" xml:id="den">
+                  <persName>
+                     <ref/><!-- kein GND-Eintrag -->
+                     <forename/>
+                     <surname>Dengel</surname>
+                  </persName>
+               </person>
+               <person role="named" xml:id="RHa">
+                  <persName>
+                     <ref/>
+                     <forename>Regina</forename>
+                     <surname>geb. Hartung</surname>
+                  </persName>
+               </person>
+               <person role="named" xml:id="HGen">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/11900738X"/>
+                     <forename>Heinrich</forename>
+                     <surname>Gentz</surname>
+                  </persName>
+               </person>
+               <person role="named" xml:id="DCl">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/118519123"/>
+                     <forename>Carlos</forename>
+                     <surname>Spanien, Infant</surname>
+                  </persName>
+               </person>
+            </listPerson>
+         </particDesc>
+         <settingDesc>
+            <listPlace>
+               <!-- Start- und Zielort -->
+               <place type="sender" xml:id="plBe">
+                  <country>
+                     <ref target="http://d-nb.info/gnd/4047194-9"/>
+                     <placeName>Preußen</placeName>  
+                  </country>
+                  <settlement>
+                     <ref target="http://d-nb.info/gnd/4005728-8"/>
+                     <placeName>Berlin</placeName>
+                  </settlement>
+               </place>
+               <place type="receiver" xml:id="plKo">
+                  <country>
+                     <ref target="http://d-nb.info/gnd/4047194-9"/>
+                     <placeName>Preußen</placeName>  
+                  </country>
+                  <settlement>
+                     <ref target="http://d-nb.info/gnd/4031541-1"/>
+                     <placeName>Königsberg</placeName>
+                  </settlement>
+               </place>
+               <!-- erwähnte Orte -->
+            </listPlace>
+         </settingDesc>
+      </profileDesc>
+      <revisionDesc>
+         <change xml:id="init" when-iso="2018-01-28" who="#edAG">Erstauszeichnung und Normierung des Dokumentes im Rahmen der Masterarbeit der Matrikelnummer 5584124</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <opener>
+            <dateline><rs type="place" ref="#plBe">Berlin</rs> den <date when-iso="1786-11-24">24<span rend="sup">ten</span> November. 1786.</date></dateline>
+         </opener>
+         <div n="1" corresp="#veg">
+            <p>
+               Ich bin <date when-iso="1786-11-23">gestern</date> in Berlin angekommen, und heute ist es mein erstes, mein 
+               heiligstes und mein liebstes Geschäft, an Sie, theure, einzige Freundinn, an Sie zu schreiben, da es 
+               <del rend="stroked">xxx</del> mir nun aufs Neue - und Gott weis, auf wie lange - versagt ist, mit Ihnen zu sprechen. 
+               Damals, bey unsrer ersten Trennung war mir der Gedanke, Ihres herzerquickenden Umgangs beraubt zu seyn - sehr 
+               bitter - O meine Freundinn ! - Was, was soll er mir jetzt seyn ! - Verlaßen von meinen besten Hoffnungen, einsam, 
+               allein in der Welt, in einer Welt, die mir misfällt, mit allen meinen ehmaligen Empfindungen, mit aller meiner 
+               alten Herzenswärme, - aber ohne Stoff ohne Gegenstand, an den ich mich halten, den 
+               <emph rend="underlined">ich</emph> glücklich machen könnte aus der überfließenden Fülle meiner Seele, mit mir selbst 
+               im sonderbarsten Widerstreit, aus Neigung warm und froh und hoffnungsvoll, aus Vernunft kalt und trübe und 
+               mistrauisch, - was bleibt mir übrig in diesem allgemeinen Tumult außer mir und in mir, in dieser kalten, fast 
+               todten Unzufriedenheit mit allem, was mich umgiebt, was bleibt mir übrig - als Sie ? - Nur:
+            </p>
+            <lg>
+               <l>"Bey allem was dir heilig ist</l>
+               <l>- - - - von d i e s e r Stelle, - -</l>
+               <l>Verjage mich von d i e s e r Stelle nicht"</l>
+            </lg>
+            <p>
+               Was soll mir in Berlin die Freuden, und den Trost Ihres Umgangs ersetzen ? Alles was ich dazu auffordre, bleibt 
+               zurück: so oft ich <emph rend="underlined">Ihre</emph> Gesellschaft suche, finde ich mich allemal allein.
+            </p>
+            <p>
+               Erst mußte ich mich dieser Empfindungen, die während meiner ganzen Reise so mächtig in mir gewirkt 
+               <add place="above">haben</add>, gegen Sie, meine Theure, liebe Freundinn, entladen, ehe ich Ihnen ein Wort von 
+               meiner Reise, und von meiner Ankunft in dieser glänzenden Stadt sagen konnte.
+            </p>
+         </div>
+         <div n="2" corresp="#bezbl">
+            <p>
+               Ich kan Ihnen von einer einförmigen, langweiligen Winterreise, keine Merkwürdigkeiten mittheilen, zumal, da sie 
+               durchaus glücklich von Statten gieng: ich habe des Nachts auf dem Postwagen gut und sanft genung geschlafen: am Tage 
+               mit gleichgültigen Menschen geplaudert und gegähnt: zuweilen - und das waren die besten Stunden - über die 
+               Verhältniße meines Lebens nachgedacht, oder im Emil gelesen. Oft, sehr oft haben Sie, gute Graunin, mir Gesellschaft 
+               leisten müßen: manche Stunde haben Sie neben mir geseßen, und manchen Ausbruch meines vollen Herzens, habe ich an 
+               Ihren mir allgegenwärtigen Schatten gerichtet. <pb/>
+            </p>
+            <p>
+               Endlich kam ich denn <date when-iso="1786-11-23">gestern früh um 10 Uhr</date>, sehnlich erwartet, und freundlichst 
+               empfangen in meiner guten Eltern Hause an. Die Freude war doppelt, weil ich gerade <del rend="stroked">xxx</del> 
+               zu der auf den Abend festgesetzten Familien-Fête zurecht kam, wodurch 
+               <rs type="person" ref="#JFG">meines Vaters</rs> GeburtsTag gefeyert wurde. Ich blieb, ohne eine Minute zu 
+               schlafen, den ganzen Tag in Bewegung und wohnte zum großen Erstaunen aller Anwesenden, des Abends der Gesellschaft 
+               bis 12 Uhr munter und vergnügt, und bis auf den letzten Mann bey, welches man nach einer 8Tägigen Reise auf der 
+               ordinairen Post, etwas viel fand.
+            </p>
+            <p>
+               Mir lag an diesem frohen und wichtigen Tage nichts mehr am Herzen, als eben der Gegenstand unsrer Freude. Auch 
+               machte es einen sonderbaren Contrast, daß mein <rs type="person" ref="#JFG">Vater</rs> in unsrer ersten 
+               Unterredung, Nichts wißen wollte, als wie mir es gegangen wäre, und ich hingegen, aus wahrer inniger Empfindung 
+               Nichts anders that, als ihm zu seinem Geburtstage, Glück wünschen, woran mir in diesen glücklichen Augenblicken mehr 
+               lag, als an meiner ganzen vereitelten Heyraths-Geschichte.
+            </p>
+         </div>
+         <div n="3" corresp="#genf">
+            <p>
+               Meine Freundinn ! Es giebt keine Glückseeligkeit ohne Tugend, keine wahre Ruhe in Leben und Tode, ohne das 
+               Bewustseyn, gut gehandelt zu haben. Diese alte, aber so unendlich wichtige Maxime sehe ich an 
+               <rs type="person" ref="#JFG">meinem Vater</rs> in einem recht seltnen Lichte aufgeklärt. Nicht ohne eine heilige 
+               Bewunderung können - Menschen, wie <emph rend="underlined">wir</emph> - diesen Mann, der gestern 60 Jahr alt 
+               geworden, übrigens aber noch im Besitz aller seiner Kräfte, und einer recht starken Gesundheit ist, von seinem 
+               Tode, und der wahrscheinlichen Annäherung deßelben reden hören. Er hat gewiß keine Ursach den Tod zu wünschen, auch 
+               ist er weit entfernt davon: aber er spricht darüber mit einer Gelaßenheit, mit einer unaffektirten, großen, ruhigen 
+               Freymüthigkeit, gleich als wenn wir davon sprächen, daß wir in 8 Tagen ausziehen wollten. Sie können denken, daß ich 
+               dergleichen Aeußerungen nicht ohne Wehmuth anhören kan, und sie beständig unterbreche: indeßen überfällt mich denn 
+               dabey doch der Gedanke recht lebhaft: so zu leben, so sterben zu können, als er.
+            </p>
+         </div>
+         <div n="4" corresp="#geh">
+            <p>
+               Meine Eltern haben mein ganzes Betragen in Königsberg gebilligt: wie wol mir dabey ist, weis ich am Besten. Zu 
+               meinem Erstaunen höre ich, daß die Auflösung dieser unglücklichen Geschichte in Berlin schon sehr bekannt ist. Ich, 
+               meines Theils, habe es mir zur unverletzlichen Regel gesetzt, einige meiner intimsten Bekannten ausgenommen, gar 
+               nicht darüber zu sprechen. Ich könnte Nichts Gutes darüber sagen, und ich habe mir fest vorgenommen, 
+               <rs type="person" ref="#coe">die Schwinken</rs> zu schonen. Ich versichre Sie: ich wollte, ich könnte jedes ihr 
+               <pb/> nachtheilige Wort, was ich in <rs type="place" ref="#plKo">Königsberg</rs>, durch Unmuth und höchst 
+               verzeihliche Erbitterung getrieben, ausgestoßen habe, zurücknehmen. Es ist wirklich 
+               <emph rend="underlined">unter</emph> mir, mich auf eine so <emph rend="underlined">gewöhnliche</emph> Art zu rächen 
+               - Mit der nächsten fahrenden Post schicke ich ihr alle ihre Briefe zurück: oben auf habe ich ihr 
+               <ref target="#r0483-1">Portrait von Sennewalt</ref> gelegt - ich fand es noch in dem nehmlichen Papier #
+               eingewickelt, in dem sie es mir geschickt hatte - Ein Schauer überfiel mich, als ich es eröfnete - Unwillkührlich, 
+               unwiderstehlich zog es mich, folgende Worte darauf zu schreiben, die ich ihr auch richtig übersenden werde, als 
+               <emph rend="underlined">das Testament einer großmüthigen Seele</emph>: und das wird und kan meinem Herzen nie 
+               Schande machen.
+            </p>
+            <p>
+               Ich habe auf die eine Seite der Hülle inwendig geschrieben: "Höre, Vater im Himmel, höre das aufrichtige, tiefe 
+               Gebet, eines <emph rend="underlined">rachefreyen</emph> Herzens: Laß dieses Mädchen, die meine unendliche Liebe übel 
+               belohnt hat, laß sie ihre künftigen Tage so froh, so glücklich durchleben, als ihr gutes, wenn gleich schwaches und 
+               leicht verführtes Herz es verdient ! - Laß nie ihr Schicksal so unglücklich werden, daß sie den, den sie verstieß, 
+               zurückwünschen müßte ! Deine Kinder, guter Vater, sind alle, alle, schwach. O ! weil wir 
+               <emph rend="underlined">Menschen</emph> sind, Vater, laß sie glücklich seyn, und rechne ihr ihre Schwachheit nicht 
+               zu. Höre meine heiße, unverstellte Bitte: Laß sie glücklich seyn, bis ans Ende ihrer Tage; und wenn sie jemals eine 
+               Thräne weinen soll, so weine sie sie jetzt - über mich. -"
+            </p>
+            <p>
+               Auf die Gegenüberstehende Seite schrieb ich: "Höre Vater im Himmel, höre das aufrichtige, tiefe Gebet eines 
+               <emph rend="underlined">neidlosen</emph> Herzens ! Laß den, der dies Bild einst nach mir besitzen wird, es so 
+               verdienen, wie <emph rend="underlined">ich</emph> es verdiente. Vor dir gilt keine Prahlerey, kein eitler Stolz; 
+               <emph>du</emph> gabst mir das Herz, wodurch ich es verdiente: du hast meine Vorsätze, meine stillen Wünsche, meine 
+               Gedanken alle, gesehen und gezählt ! - Laß ihn das Mädchen glücklich - wäre es möglich - unaussprechlich glücklich 
+               machen. Vater ! der alle seine Kinder liebt ! laß ihn ihre Fehler ertragen, ihre Vorzüge recht schätzen, für sie, 
+               und nur für sie leben; laß ihn behorchen und erfüllen, alle, alle ihre Wünsche, bis zum letzten Hauch dieses Mundes, 
+               den ich - trotz allem, was ich <emph rend="underlined">gelitten</emph> habe - doch jetzt - zum letzten Mahle mit 
+               meinen heißen Thränen benetze ! Höre meine heiße, unverstellte Bitte ! Laß keinen Unwürdigen die Stelle ersetzen, 
+               die man mir raubte: und dann gieb es zu - daß sie mich auf ewig vergeße -"
+            </p>
+            <p>
+               Ich weis nicht liebe Graunin, was Sie zu diesem, wirklich unter heißen Thränen geschriebnen Ausbruch meiner 
+               Empfindungen denken werden: noch weniger weis ich, was Sie dazu sagen werden, daß ich dies Papier 
+               <rs type="person" ref="#coe">der Schwinken</rs> wirklich schicken will. Indeßen glaube ich beynahe, daß Ihr 
+               Urtheil, welches ich sehr begierig bin zu hören, für mich günstig ausfallen wird. Denn: <pb/> daß ich die Worte 
+               wirklich aus vollem Herzen schrieb, das werden Sie mir wol glauben, und sollten Sie auch einen starken Rest von 
+               <emph rend="underlined">Liebe</emph> darin finden. Daß ich mich ihrer nicht schämen darf, weis ich daher, 
+               <del rend="stroked">daß</del> weil ich, indem ich sie schrieb, die beruhigende, erquickende Wollust empfand, die 
+               in mir allemal das Zeugniß und die Begleiterinn einer guten Handlung ist. Daß ich sie ihr überschicke, dadurch kan 
+               ich mir keinen Schaden thun: wodurch aber könnte ich wol meinen Zweck, ihr die Trennung von mir bitter, vielleicht, 
+               heilsam-bitter zu machen, sichrer erreichen, als durch diesen großmüthigen Abschied. Wirkt der Nichts mehr auf sie 
+               - so ist sie moralisch todt.
+            </p>
+            <p>
+               Diese Geschichte ist noch kaum zu Ende, und Siehe - es kommen mir schon wieder, die - Gott verzeih's mir - 
+               verwünschten Heyraths-Vorschläge von allen Seiten entgegen. Daß weis der T<unclear>.......</unclear> was die Leute 
+               an mir heyrathsfähiges finden müßen. - <rs type="person" ref="#RRGra">Ihr Mann</rs> wird Ihnen vermuthlich 
+               erzählt <add place="above">haben</add>, auf welch eine ehrenvolle Art mir der 
+               <rs type="person" ref="#Mue">Müntzmeister</rs> beym Abschiede seine Tochter angetragen hat. - Kaum komme ich 
+               hieher, so höre ich schon, daß man (aber nicht etwan von Seiten meiner Eltern) eine andre Heyrath für mich aufs 
+               Tapet gebracht hat, wofür sich eine ganze, ansehnliche Familie sehr intereßirt. Alle aeußerlichen Vorzüge sind 
+               vorhanden: das Mädchen ist die Tochter eines Geheimen Finantz-Raths, 18 Jahr alt, reich, schön, und nicht dumm. 
+               Aber - o Himmel ! was geht das <emph rend="underlined">mich</emph> an ! Ich werde in 
+               <rs type="citation" ref="#c0483-2">meinem nächsten Briefe</rs> an 
+               <rs type="person" ref="#RRGra">Ihren Mann</rs> (denn mein heutiger <del rend="stroked">wird</del> an ihn wird 
+               ohnedies lang) ihm, da er die Familie sehr gut kennt, die nähern Umstände dieses Projekts eröfnen, die Sie Sich dann 
+               von ihm mögen erzählen laßen. Denn ich versichre Sie: wenn ich an <emph rend="underlined">Sie</emph> schreibe, so 
+               ekelt mir davor, die Zeit mit dergleichen Narrenspoßen zu verderben: Sie wißen einmal meine Vorsätze und meinen 
+               Plan ! Was soll ich in jedem einzelnen Fall, protestiren, appliciren, und schwatzen ? Wenn die Leute mich recht 
+               genau kennten, so würde ihnen die Lust vielleicht vergehen, mich auf diesem Wege mit Gewalt glüklich machen zu 
+               wollen !
+            </p>
+         </div>
+         <div n="5" corresp="#veg">
+            <p>
+               Noch Eins, liebe Graunin, ehe denn ich für heute schließe. Ich vermiße unter meinen Briefen an die Schwinken 
+               verschiedne, die ich mich erinnre, in Händen gehabt zu haben: ich muß <del rend="stroked">also</del> sie also noch 
+               bey Ihnen gelaßen haben: wenn Sie sie haben, oder finden, so bewahren Sie sie sorgfältig, und versäumen Sie ja 
+               nicht, sie mir durch Laval zurükzuschicken: auch sagt meine Mutter, sie vermißte eines meiner Oberhemden und einige 
+               Schnupftücher: ich glaube nun zwar gern, daß ich die letztern unterwegens verlohren habe: das erste müßte denn doch 
+               aber noch bey Ihnen seyn, falls meine Wäscherinn es sich nicht zu Gemüthe geführt hat. Schreiben Sie mir doch, ob 
+               Ihnen davon, oder von den Schnupftüchern etwas vorgekommen ist.
+            </p>
+            <p>
+               Die große und aeußerst vorzügliche Idee, die meine Eltern bisher von <pb/> Ihnen gehabt haben, ist durch das Gute, 
+               was ich jetzt wieder von Ihnen sagen <emph rend="underlined">mußte</emph>, und durch meine Erzählung, von dem, was 
+               Sie, unvergeßliche Frau, in meiner diesmaligen Anwesenheit, für mich gethan haben, aufs neue bestärkt und befestigt 
+               worden. Es ist wahr: wären Sie nicht die, die Sie sind, müste ich Ihnen den dreywöchentlichen Aufenthalt in Ihrem 
+               Hause, wo Sie in der Zeit nur für mich zu leben schienen, als eine <emph rend="underlined">einzelne</emph> Wohlthat 
+               verdanken, so müßte ich erschrecken vor der Verbindlichkeit, vor der nie erschöpften Dankbarkeit, die Sie mir 
+               aufgelegt haben. So aber verliehren sich alle diese freundschaftlichen Dienste, in dem großen Ganzen unsrer 
+               Freundschaft, und unsrer unauflöslichen Herzens-Vereinigung, und meine Dankbarkeit zerfließt mit in die allgemeine 
+               Empfindung, daß ich Sie in jedem Augenblick meines Lebens über Alles liebe und verehre.
+            </p>
+            <p>
+               Ich erwarte bald einen Brief von Ihnen. Was mich betrift, ich halte Wort. O ! wie gern, wie gern ich Wort halten 
+               werde ! In meinem nächsten Briefe will ich mehr von Ihnen sprechen: in diesem habe ich fast blos von mir selbst 
+               gesprochen. Grüßen Sie <rs type="person" ref="#SWGra">Ihre Schwester</rs>, 
+               <rs type="person" ref="#RHa">Ihre Mutter</rs>, <rs type="person" ref="#frt">Ihren Bruder</rs> und 
+               <rs type="person" ref="#den">Dengels</rs>, bestens von mir. Wen sollte ich sonst noch durch Sie grüßen laßen. 
+               Sehn Sie ! so wird das Register unsrer Freunde täglich kürzer, und je mehr wir uns dem Grabe nähern, je weniger 
+               Ursach finden wir, uns nach der Welt zu sehnen.
+            </p>
+            <p>
+               Der <ref target="#r0483-2">Don Carlos</ref> gehört <emph rend="underlined">Ihnen</emph>. Laßen Sie Sich ihn von 
+               <rs type="person" ref="#HGen">meinem Bruder</rs>, wenn er ihn nicht mehr braucht, zurückgeben, und wenn Sie ihn 
+               lesen, so denken Sie manchmal an mich.
+            </p>
+            <p>
+               Leben Sie wol, beste Frau. 
+               <emph rend="underlined">Meine Freude und mein Ruhm in der Welt liegt jetzt darin, daß ich mich Ihren Freund nennen darf.</emph>
+            </p>
+         </div>
+         <closer>
+            <signed rend="right">Gentze.</signed>
+         </closer>
+         <postscript corresp="#krrg">
+            <p>
+               N.S. Schreiben Sie mir doch, wie <rs type="person" ref="#RRGra">Ihr Mann</rs> mit meinem Briefe zufrieden 
+               gewesen ist. Ich habe mir alle Mühe gegeben, ihn nach seinen Wünschen, einzurichten. Und dann bitte ich auch - 
+               Sich nicht über die Postskripte zu moquiren ! - Sie verstehen mich doch ?
+            </p>
+         </postscript>
+         <note resp="#edAG" xml:id="r0483-1">Vgl. <rs type="citation" ref="#c1487-1">den Brief vom Dezember 1785</rs>.</note>
+         <note resp="#edAG" xml:id="r0483-2">Als Person dürfte <rs type="person" ref="#DCl">Carlos Infant</rs> gemeint sein; dessen Geschichte wurde mehrfach literarisch verarbeitet. Das Werk von Schiller kann indess nicht gemeint sein, weil es erst 1787 erschien bzw. uraufgeführt wurde.</note>
+      </body>
+   </text>
+</TEI>

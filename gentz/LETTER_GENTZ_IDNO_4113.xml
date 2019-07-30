@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc xml:id="LETTER_GENTZ_4113">
+         <titleStmt>
+            <title>Friedrich von Gentz an Friedrich Vieweg, 28. August 1797</title>
+            <editor xml:id="edAG">Andreas Gálffy</editor>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <name>Forschungsstelle "Universitätssammlung Friedrich von Gentz"</name>
+               <link target="http://gentz-digital.ub.uni-koeln.de http://www.ub.uni-koeln.de/cdm/singleitem/collection/gentz/id/4112/"/>
+            </publisher>
+            <pubPlace>Cologne</pubPlace>
+            <idno type="Gentz-Edition-Number" n="4113"/>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <country>Germany</country>
+                  <settlement>Wiesbaden</settlement>
+                  <institution>Vieweg-Verlagsarchiv</institution>
+                  <repository>Briefsammlung 311 G: Gentz-Briefe</repository>
+                  <idno>Nr. 75</idno>
+               </msIdentifier>
+               <msContents>
+                  <summary>
+                     Verschiedene Posten werden zu einem großen Posten zusammengefasst.
+                  </summary>
+               </msContents>
+            </msDesc>
+            <listBibl type="letterReferenced">
+               <bibl xml:id="c4113-1" corresp="#LETTER_GENTZ_0889">Friedrich von Gentz an Friedrich Vieweg, 20. Mai 1796</bibl>
+               <bibl xml:id="c4113-2" corresp="#LETTER_GENTZ_5135">Friedrich von Gentz an Friedrich Vieweg, 11. Dezember 1796</bibl>
+               <bibl xml:id="c4113-3" corresp="#LETTER_GENTZ_2261">Friedrich von Gentz an Friedrich Vieweg, 24. Dezember 1796</bibl>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Masterarbeit zu Matrikelnummer 5584124</p>
+         </projectDesc>
+      </encodingDesc>
+      <profileDesc>
+         <creation>
+            <date when-iso="1797-08-28">28. August 1797</date>
+         </creation>
+        <langUsage>
+           <language ident="d">deutsch</language>
+        </langUsage>
+         <textClass>
+            <keywords scheme="internal"><!-- internal: innerhalb des besagten Briefs -->
+               <term>Schuldschein</term>
+               <term>Zusammenfassung</term>
+            </keywords>
+            <keywords scheme="categorisation"><!-- Sinnabschnittseinteilung - relevant für den Fahrkartenautomaten! -->
+               <term xml:id="gprl">Gentz - p(r)ekuniäre Lage</term>
+            </keywords>
+         </textClass>
+         <textDesc>
+            <channel>manuscript</channel>
+            <constitution type="single"/>
+            <derivation type="original"/>
+            <domain type="private"/>
+            <factuality type="fact"/>
+            <interaction type="partial"/>
+            <preparedness type="prepared"/>
+            <purpose type="inform"/>
+         </textDesc>
+         <particDesc>
+            <listPerson>
+               <!-- Sender und Adressat -->
+               <person role="sender" xml:id="Gen">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/118538489"/>
+                     <forename>Friedrich von</forename>
+                     <surname>Gentz</surname>
+                  </persName>
+               </person>
+               <person role="receiver" xml:id="FVW">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/119049546"/>
+                     <forename>Friedrich</forename>
+                     <surname>Vieweg</surname>
+                  </persName>
+               </person>
+               <!-- erwähnte Personen -->
+            </listPerson>
+         </particDesc>
+         <settingDesc>
+            <listPlace>
+               <!-- Start- und Zielort -->
+               <place type="sender" xml:id="plBe">
+                  <country>
+                     <ref target="http://d-nb.info/gnd/4047194-9"/>
+                     <placeName>Preußen</placeName>
+                  </country>
+                  <settlement>
+                     <ref target="http://d-nb.info/gnd/4005728-8"/>
+                     <placeName>Berlin</placeName>
+                  </settlement>
+               </place>
+               <!-- erwähnte Orte -->
+            </listPlace>
+         </settingDesc>
+      </profileDesc>
+      <revisionDesc>
+         <change xml:id="init" when-iso="2018-02-26" who="#edAG">Erstauszeichnung und Normierung des Dokumentes im Rahmen der Masterarbeit der Matrikelnummer 5584124</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>     
+      <body>
+         <div n="1" corresp="#gprl">
+            <p>
+               Folgende Posten, worüber ich des Herrn Buchhändler Vieweg Wohlgebohren, bereits einzelne Quittungen ausgehändigt, als
+            </p>
+            <lg>
+               <l>100 Reichsthaler Courant laut Quittung vom <date when-iso="1796-02-10">10 Februar 1796</date></l>
+               <l>110 Reichsthaler Friedrichsdor à 5 Reichsthaler " " " <date when-iso="1796-04-10">10 April "</date></l>
+               <l><rs type="citation" ref="#c4113-1">104 Reichsthaler Courant</rs> " " " <date when-iso="1796-05-19">19 May "</date></l>
+               <l>150 Reichsthaler Courant " " " <date when-iso="1796-08-09">9 August "</date></l>
+               <l>30 Reichsthaler Courant " " " <date when-iso="1796-08-10">10 August "</date></l>
+               <l><rs type="citation" ref="#c4113-2">55 Reichsthaler Courant</rs> " " " <date when-iso="1796-12-11">11 December "</date></l>
+               <l><rs type="citation" ref="#c4113-3">50 Reichsthaler Friedrichs dor</rs> " " " <date when-iso="1796-12-24">24 December "</date></l>
+               <l>100 Reichsthaler Courant " " " <date when-iso="1797-06-28">28 Juny 1797</date></l>
+            </lg>
+            <p>
+               habe ich sämmtlich richtig empfangen, und darüber auf Verlangen des Herrn Vieweg gegen Zurückerhaltung der einzelnen 
+               Quittungen gegenwärtige General-Quittung ausstellen wollen.
+            </p>
+         </div>
+         <closer>
+            <dateline rend="right"><rs type="place" ref="#plBe">Berlin</rs> den <date when-iso="1797-07-28">28<span rend="sup">ten</span> August 1797</date></dateline>
+            <signed rend="right">Gentz.</signed>
+         </closer>
+      </body>
+   </text>
+</TEI>

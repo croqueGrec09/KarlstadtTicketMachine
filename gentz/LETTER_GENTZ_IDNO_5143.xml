@@ -1,0 +1,269 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader type="text">
+      <fileDesc xml:id="LETTER_GENTZ_5143">
+         <titleStmt>
+            <title>Friedrich von Gentz an Edmund Burke, 8. Februar 1793</title>
+            <editor xml:id="edAG">Andreas Gálffy</editor>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <name>Forschungsstelle "Universitätssammlung Friedrich von Gentz"</name>
+               <link target="http://gentz-digital.ub.uni-koeln.de http://www.ub.uni-koeln.de/cdm/singleitem/collection/gentz/id/5142/"/>
+            </publisher>
+            <pubPlace>Cologne</pubPlace>
+            <idno type="Gentz-Edition-Number" n="5143"/>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <country>Great Britain</country>
+                  <settlement>Sheffield</settlement>
+                  <institution>Sheffield Record Office</institution>
+                  <repository>Fitzwilliam Papers</repository>
+               </msIdentifier>
+               <msContents>
+                  <summary>
+                     In diesem Brief beschreibt Gentz seinen Eifer, mit der er sich an die Übersetzung seines Werkes gemacht hat. Er 
+                     findet, dass sein Werk im deutschsprachigen Raum ebenfalls gelesen werden muss, daher sieht er sich im Dienst 
+                     für Deutschland und Europa. Gleichzeitig schreibt Gentz, wie sehr er das Werk Brukes achtet und ist sehr 
+                     geehrt, mit Burke in Kontakt zu treten.
+                  </summary>
+               </msContents>
+            </msDesc>
+            <listBibl type="preprints">
+               <biblStruct>
+                  <monogr>
+                     <editor>
+                        <persName>
+                           <ref target="http://d-nb.info/gnd/129286656"/>
+                           <forename>Peter J.</forename>
+                           <surname>Marshall</surname>
+                        </persName>
+                        <persName>
+                           <ref/>
+                           <forename>John A.</forename>
+                           <surname>Woods</surname>
+                        </persName>
+                     </editor>
+                     <title>The Correspondence of Edmund Burke</title>
+                     <imprint>
+                        <pubPlace>Cambridge and Chicago, Ill.</pubPlace>
+                        <date>1968</date>
+                     </imprint>
+                     <biblScope unit="volume" n="7">
+                        Vol. VII January 1792 - August 1794
+                     </biblScope>
+                     <biblScope unit="page" from="346" to="347">
+                        346-347
+                     </biblScope>
+                  </monogr>
+               </biblStruct>
+               <biblStruct>
+                  <monogr>
+                     <author>
+                        <persName>
+                           <ref/>
+                           <forename>Alexander von</forename>
+                           <surname>Haase</surname>
+                        </persName>
+                     </author>
+                     <title>Friedrich (von) Gentz: "Von dem politischen Zustande von Europa vor und nach der Französischen Revolution (1801) (Analyse und Interpretation), phil Diss.</title>
+                     <imprint>
+                        <pubPlace>Erlangen-Nürnberg</pubPlace>
+                        <date>1968</date>
+                     </imprint>
+                     <biblScope unit="page" from="126" to="127">
+                        Anhang 2, 127-128
+                     </biblScope>
+                  </monogr>
+               </biblStruct>
+            </listBibl>
+            <listBibl type="letterReferenced">
+               <bibl xml:id="c5143-1" corresp="#LETTER_GENTZ_2765">Friedrich von Gentz an Christian Garve, 19. April 1791</bibl>
+            </listBibl>
+            <listBibl type="defRep">
+               <biblStruct xml:id="p5143-1" corresp="DBUH-0000">
+                  <monogr>
+                     <author>
+                        <persName>
+                           <ref target="http://d-nb.info/gnd/118538489"/>
+                           <forename>Friedrich von</forename>
+                           <surname>Gentz</surname>
+                        </persName>
+                     </author>
+                     <title>Betrachtungen über die französische Revolution. Nach dem Englischen des Herrn Burke neu-bearbeitet mit einer Einleitung, Anmerkungen, politischen Abhandlungen und einem critischen Verzeichniß der in England über diese Revolution erschienenen Schriften, Zwei Theile</title>
+                     <imprint>
+                        <publisher>Friedrich Vieweg der Ältere</publisher>
+                        <pubPlace>Berlin</pubPlace>
+                        <date>1793</date>
+                     </imprint>
+                  </monogr>
+               <ptr target="http://digitale.bibliothek.uni-halle.de/vd18/id/9148833"/></biblStruct>
+               <biblStruct xml:id="p5143-2" corresp="Arc-0007">
+                  <monogr>
+                     <author>
+                        <persName>
+                           <ref target="http://d-nb.info/gnd/118517708"/>
+                           <forename>Edmund</forename>
+                           <surname>Burke</surname>
+                        </persName>
+                     </author>
+                     <title>Reflections on the revolution in France and on the proceedings in certain societies in London relative to that event</title>
+                     <imprint>
+                        <publisher>J. Dodsley</publisher>
+                        <pubPlace>London</pubPlace>
+                        <date>1790</date>
+                     </imprint>
+                  </monogr>
+               <ptr target="https://archive.org/details/reflectionsonre04burkgoog"/></biblStruct>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Masterarbeit zu Matrikelnummer 5584124</p>
+         </projectDesc>
+      </encodingDesc>
+      <profileDesc>
+         <creation>
+            <date when-iso="1793-02-08">8. Februar 1793</date>
+         </creation>
+        <langUsage>
+           <language ident="e">englisch</language>
+        </langUsage>
+         <textClass>
+            <keywords scheme="internal"><!-- internal: innerhalb des besagten Briefs -->
+               <term>Brief</term>
+               <term>Begleitschreiben</term>
+               <term>Burke</term>
+               <term>Ehrfurcht</term>
+               <term>Dienst</term>
+               <term>Deutschland</term>
+               <term>Europa</term>
+               <term>französische Revolution</term>
+            </keywords>
+            <keywords scheme="categorisation"><!-- Sinnabschnittseinteilung - relevant für den Fahrkartenautomaten! -->
+               <term xml:id="kbur">Burke</term>
+            </keywords>
+         </textClass>
+         <textDesc>
+            <channel>manuscript</channel>
+            <constitution type="single"/>
+            <derivation type="original"/>
+            <domain type="private"/>
+            <factuality type="fact"/>
+            <interaction type="partial"/>
+            <preparedness type="unprepared"/>
+            <purpose type="inform"/>
+         </textDesc>
+         <particDesc>
+            <listPerson>
+               <!-- Sender und Adressat -->
+               <person role="sender" xml:id="Gen">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/118538489"/>
+                     <forename>Friedrich von</forename>
+                     <surname>Gentz</surname>
+                  </persName>
+               </person>
+               <person role="receiver" xml:id="Bur">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/118517708"/>
+                     <forename>Edmund</forename>
+                     <surname>Burke</surname>
+                  </persName>
+               </person>
+               <!-- erwähnte Personen -->
+            </listPerson>
+         </particDesc>
+         <settingDesc>
+            <listPlace>
+               <!-- Start- und Zielort -->
+               <place type="sender" xml:id="plBe">
+                  <country>
+                     <ref target="http://d-nb.info/gnd/4047194-9"/>
+                     <placeName>Preußen</placeName>
+                  </country>
+                  <settlement>
+                     <ref target="http://d-nb.info/gnd/4005728-8"/>
+                     <placeName>Berlin</placeName>
+                  </settlement>
+               </place>
+               <!-- erwähnte Orte -->
+               <place type="named" xml:id="plEu">
+                  <geogName type="continent">
+                     <ref target="http://d-nb.info/gnd/4015701-5"/>
+                     <placeName>Europa</placeName>
+                  </geogName>
+               </place>
+               <place type="named" xml:id="plDe">
+                  <country>
+                     <ref target="http://d-nb.info/gnd/2035457-5"/>
+                     <placeName>Deutschland</placeName>  
+                  </country>
+               </place>
+            </listPlace>
+         </settingDesc>
+      </profileDesc>
+      <revisionDesc>
+         <change xml:id="init" when-iso="2018-02-13" who="#edAG">Erstauszeichnung und Normierung des Dokumentes im Rahmen der Masterarbeit der Matrikelnummer 5584124</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <opener>
+            <salute rend="left">Sir !</salute>
+         </opener>
+         <div n="1" corresp="#kbur">
+            <p>
+               Having finished a toil which afforded to me, <ref target="#r5143-1">nearly for two years</ref>, that precious 
+               enjoyment to converse with the most sublime genius of the age, it is but very natural, I should wish to carry this 
+               labour of mine before the most competent judge, I can look for among the wise. I am certainly aware, the language I 
+               wrote in, is but little known to the nation, which is happy glorious in Your possession, and also perhaps unknown to 
+               You: still I hope, there may be among Your acquaintance one willing to become my interpreter: and if not, I'll think 
+               myself suffíciently rewarded, whenever this undertaking does not entirely die away, unregarded by You.
+            </p>
+            <p>
+               What power I had, I assumed, to deliver a 
+               <rs type="citation" ref="#p5143-1">faithful lively copy of my great Original</rs>. What I thought proper, in order 
+               to put German readers into the just sense of <rs type="citation" ref="#p5143-2">Your book</rs>, and to make them 
+               fair judges about those refined ideas, which were too often misunderstood, I brought ino annotations and annexed 
+               essays. Nay, I was bold enough to entertain a doubt against a very few of Your opinions: much oftener I ought to 
+               reinforce what Your experience, what Your consummated wisdom foretold us two years ago, by what the sad history of 
+               these last two years is compelled to remember.
+            </p>
+            <p>
+               So I went on warmly, zealously, I dare say enthusiastically, I served a fair cause. This is a time, where every man, 
+               conscious of his forces is obliged to pay a public tribute to reason - A time as well for 
+               <rs type="place" ref="#plDe">Germany</rs>, as for the rest of <rs type="place" ref="#plEu">Europe</rs>.
+            </p>
+            <p>
+               Inclination prompted me not less than duty and love of my country to enter the honourable carreer. I'll think myself 
+               arrived at its glorious aim, if my name should be found worthy, to be traced at the pedestal of Your statue.
+            </p>
+            <p>
+               I must not abuse any longer the advantage to be the contemporary of  - I only dare to wish, Sir, Your high and 
+               important occupations might leave You a moment's time to let me Know this letter did reach Your notice. In such a 
+               case my address is:
+            </p>
+            <lg>
+               <l>Genz, Conseiller de guerre et Secretaire privé au</l>
+               <l>Grand-Directoire des Finances, à <rs type="place" ref="#plBe">Berlin</rs></l>
+            </lg>
+            <p>
+               In every case I am respectfully, and with deeper sentiments of admiration, than any pen may utter
+            </p>
+         </div>
+         <closer>
+            <salute rend="right">Sir !</salute>
+            <salute rend="right">Your most obediant</salute>
+            <signed rend="right">humble Servant</signed>
+            <dateline rend="left"><rs type="place" ref="#plBe">Berlin</rs> <date when-iso="1793-02-08">8<span rend="sup">th</span> february</date></dateline>
+            <signed rend="right">Genz</signed>
+            <dateline rend="left"><date when-iso="1793-02-08">1793:</date></dateline>
+         </closer>
+         <note resp="#edAG" xml:id="r5143-1">Vgl. den <rs type="citation" ref="#c5143-1">Brief vom 19. April 1791</rs>.</note>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,267 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+    <TEI xmlns="http://www.tei-c.org/ns/1.0">
+        <teiHeader>
+            <fileDesc xml:id="LETTER_GENTZ_18240417">
+                <titleStmt>
+                    <title>Nr.  000  An Franz von Ottenfels-Gschwind in Konstantinopel, 17. April 1824</title>
+                    <editor xml:id="edYZ">Yifei Zheng</editor>
+                    <editor xml:id="edQL">Q. Li</editor> <!-- Vorname nicht mehr rekonstruierbar -->
+                    <editor xml:id="edAG">Andreas Gálffy</editor>
+                    <editor xml:id="edMS">Max Supplieth</editor>
+                </titleStmt>
+                <publicationStmt>
+                    <publisher>Team der neuen Gentz-Edition</publisher>
+                    <pubPlace>Cologne</pubPlace>
+                    <distributor>University of Cologne</distributor>
+                    <idno type="Gentz-Edition-Number" n="0000"/>
+                    <availability>
+                        <licence>CC-BY-SA</licence>
+                    </availability>
+                    <date when="2013-11-13">13. November 2013</date>
+                </publicationStmt>
+                <sourceDesc>
+                    <msDesc>
+                        <msIdentifier>
+                            <country>Croatia</country>
+                            <settlement>Zagreb</settlement>
+                            <institution>Hrvatski državni arhiv</institution>
+                            <repository>FA Ottenfels</repository>
+                            <collection>Karton 14</collection>
+                            <idno>Konvolut 1824.g., 29-29v</idno>
+                        </msIdentifier>
+                        <physDesc>
+                            <p>2</p>
+                        </physDesc>
+                    </msDesc>
+                </sourceDesc>
+            </fileDesc>
+            
+            <profileDesc>
+                <creation>
+                    <date when-iso="1824-06-17">17. April 1824</date>
+                </creation>           
+                <langUsage>
+                    <language ident="d">deutsch</language>
+                </langUsage> 
+                <textClass> 
+                    <keywords scheme="">
+                        <term>Brief</term>
+                        <term>Fragebrief</term>
+                        <term>Courier</term>
+                        <term>Gentz</term>
+                    </keywords>
+                </textClass>
+                <textDesc n="letter">
+                    <channel mode="w">manuscript</channel>
+                    <constitution type="single"/> 
+                    <derivation type="original"/>
+                    <domain type="private"/>
+                    <factuality type="fact"/>
+                    <interaction type="partial"/>
+                    <preparedness type="unprepared"/>
+                    <purpose type="inform"/>
+                </textDesc>
+                <settingDesc>
+                    <listPlace>
+                        <!-- Start- und Zielort -->
+                        <place type="sender" xml:id="plWi">
+                            <placeName>
+                                <country>Österreich-Ungarn</country>
+                                <settlement>Wien</settlement>
+                            </placeName>
+                        </place>
+                        <place type="receiver" xml:id="plKo">
+                            <placeName>
+                                <country>Osmanisches Reich</country>
+                                <settlement>Konstantinopel</settlement>
+                            </placeName>
+                        </place>
+                        <!-- erwähnte Orte -->
+                        <place type="named" xml:id="plEn">
+                            <country>
+                                <placeName>
+                                    <ref target="http://d-nb.info/gnd/4022153-2">
+                                        England
+                                    </ref>
+                                </placeName>
+                            </country>
+                        </place>
+                        <place type="named" xml:id="plRu">
+                            <country>
+                                <placeName>
+                                    <ref target="http://d-nb.info/gnd/4076899-5">
+                                        Russland
+                                    </ref>
+                                </placeName>
+                            </country>
+                        </place>
+                    </listPlace>
+                </settingDesc>
+                <particDesc>
+                   <listPerson>
+                       <!-- Sender und Adressat -->
+                       <person role="sender" xml:id="Ge">
+                           <persName>
+                               <ref target="http://d-nb.info/gnd/118538489">
+                                   <forename>Friedrich von</forename>
+                                   <surname>Gentz</surname>
+                               </ref>
+                           </persName>
+                       </person>
+                       <person role="receiver" xml:id="Ot">
+                           <persName>
+                               <ref target="http://d-nb.info/gnd/117170615">
+                                   <forename>Franz Xaver von</forename>
+                                   <surname>Ottenfels-Gschwind</surname>
+                               </ref>
+                           </persName>
+                       </person>
+                       <!-- im Brief erwähnte Personen -->
+                       <person role="named" xml:id="Str">
+                           <persName>
+                               <ref target="http://d-nb.info/gnd/100782639">
+                                   <forename>Percy Clinton Sydney Smythe</forename>
+                                   <surname>Strangford</surname>
+                               </ref>
+                           </persName>
+                       </person>
+                       <person role="named" xml:id="Ca">
+                           <persName>
+                               <ref target="http://d-nb.info/gnd/117672181">
+                                   <forename>Stratford</forename>
+                                   <surname>Canning</surname>
+                               </ref>
+                           </persName>
+                       </person>
+                       <person role="named" xml:id="Me">
+                           <persName>
+                               <ref target="http://d-nb.info/gnd/118581465">
+                                   <forename>Klemens Wenzel Nepomuk Lothar von</forename>
+                                   <surname>Metternich</surname>
+                               </ref>
+                           </persName>
+                       </person>
+                       <person role="named" xml:id="Ha">
+                           <persName>
+                               <ref>
+                                   <forename>Franz Fleischhackl von</forename>
+                                   <surname>Hackenau</surname>
+                               </ref>
+                           </persName>
+                       </person>
+                       <!-- Herrscher über die Walachei (*1755 +1834), kein GND-Eintrag -->
+                       <person role="named" xml:id="Gh">
+                           <persName>
+                               <ref>
+                                   <forename>Grigore Dimitrie</forename>
+                                   <surname>Ghica</surname>
+                               </ref>
+                           </persName>
+                       </person>
+                       <person role="named" xml:id="Le">
+                           <persName>
+                               <ref target="http://d-nb.info/gnd/116850388">
+                                   <forename>Ludwig von</forename>
+                                   <surname>Lebzeltern</surname>
+                               </ref>
+                           </persName>
+                       </person>
+                       <person role="named" xml:id="Za">
+                           <persName>
+                               <ref target="http://d-nb.info/gnd/118501852">
+                                   <forename>Alexander I. Pawlowitsch</forename>
+                                   <surname>Romanow</surname>
+                               </ref>
+                           </persName>
+                       </person>
+                   </listPerson>
+                </particDesc> 
+            </profileDesc>
+            <revisionDesc>
+                <change when-iso="2016-08-07" who="#edAG #edMS">Normierung und weitere Auszeichnung des Dokumentes im Rahmen der Übung "WebApps und Textmining" im Hinblick auf die 
+                    zukünftige Masterarbeit von Matrikelnummer 5584124</change>
+            </revisionDesc>
+        </teiHeader>
+        <facsimile>
+            <graphic url="00000066.jpg" xml:id="seite1"/>
+            <graphic url="00000067.jpg" xml:id="seite2"/>
+        </facsimile>
+        <text type="letter">
+            <body>
+                <div>
+                    <opener>
+                        <dateline><rs type="place" ref="#plWi">Wien</rs>, <date when-iso="1824-04-17">17. April 1824</date>, Sonnabend</dateline>
+                    </opener>
+                    <p>  
+                        Ihr <choice><orig>Courier</orig><reg>Kurier</reg></choice> vom <date when-iso="1824-03-25">25<g ref="#ten">ten</g></date>, <choice><orig>Mein</orig><reg>mein</reg></choice> <choice><orig>Theuerster</orig><reg>teuerster</reg></choice> Freund, <lb/>
+                        ist nicht angekommen. Ich <choice><orig>bedaure</orig><reg>bedauere</reg></choice> es nicht sehr, da wir <lb/>
+                        Nachrichten bis zum <date when-iso="1824-03-21">21<g ref="#ten">ten</g></date> hatten; was <choice><orig>kan</orig><reg>kann</reg></choice> zwischen dem <lb/>
+                        21 und 25 <choice><orig>großes</orig><reg>Großes</reg></choice> vorgegangen <choice><orig>seyn</orig><reg>sein</reg></choice> ?  Ich nehme dies auch <lb/>
+                        nicht zum Vorwand, um die Dürftigkeit meines heutigen <lb/>
+                        Schreibens zu beschönigen, gestehe lieber aufrichtig, <choice><orig>daß</orig><reg>dass</reg></choice> ich <lb/>
+                        <del rend="stroked">nicht</del> zum Schreiben heute nicht sonderlich aufgelegt bin. <lb/>
+                        Ich war seit ein <choice><orig>Paar</orig><reg>paar</reg></choice> Tagen nicht <choice><orig>bey</orig><reg>bei</reg></choice> sehr guter Laune, <lb/>
+                        unzufrieden mit <choice><orig>verschiednen</orig><reg>verschiedenen</reg></choice> Dingen, auch etwas unwohl. <lb/>
+                        Endlich würde ich Ihnen nur Klagen über den äußerst <lb/> 
+                        langsamen Gang Ihrer dortigen Verhandlungen zu adressieren <lb/>
+                        haben. Ich besorge immer mehr und mehr, <choice><orig>daß</orig><reg>dass</reg></choice> <rs type="person" ref="#Str">Strangford</rs> <lb/>
+                        <choice><orig>muthwillig</orig><reg>mutwillig</reg></choice> zögert, und jede fremde <choice><orig>Thätigkeit</orig><reg>Tätigkeit</reg></choice> zu lähmen <lb/>
+                        und auszuschließen sucht. Ich <choice><orig>mögte</orig><reg>möchte</reg></choice> wissen, ob Sie <lb/>
+                        seinen fulminanten Bericht an <rs type="person" ref="#Ca">Canning</rs> - <choice><orig>datirt</orig><reg>datiert</reg></choice> vom <date when-iso="1824-02-25">25<g ref="#ten">ten</g> <lb/>
+                        Februar</date>, aber erst am <date when-iso="1824-03-10">10 März</date> <choice><orig>expedirt</orig><reg>abgeschickt</reg></choice>, gesehen haben. <lb/>
+                        <add place="margin">
+                            Der Bericht ist <emph rend="underlined">höchst</emph> merkwürdig, <lb/>
+                            und <choice><orig>muß</orig><reg>muss</reg></choice> zu Schritten führen, die uns großes <lb/>
+                            Licht geben werden.
+                        </add>
+                        In diesen Bericht erklärt er sich nun, wenn <rs type="person" ref="#Ca">Canning</rs> <lb/>
+                        ihm <add place="above">nicht</add> <emph rend="underlined"><choice><orig>so fort</orig><reg>sofort</reg></choice></emph> zu <choice><orig>Hülfe</orig><reg>Hilfe</reg></choice> <choice><orig>kömmt</orig><reg>kommt</reg></choice>, für gänzlich <choice><orig>bankrutt</orig><reg>bankrott</reg></choice>; <lb/>
+                        und doch, nachdem er seinen und <rs type="place" ref="#plEn">Englands</rs> <choice><orig>Credit</orig><reg>Kredit</reg></choice> <choice><orig>bey</orig><reg>bei</reg></choice> der <lb/>
+                        Pforte, als fast erloschen geschildert, setzt er hinzu: "Unter <lb/>
+                        solchen Umständen sollte mir die Lust wohl vergehen, <lb/>
+                        die Frage wegen der <choice><orig>Evacuation</orig><reg>Evakuation</reg></choice> zur Sprache zu bringen; <pb facs="#seite2"/>
+                        da indessen <rs type="person" ref="#Me">Fürst Metternich</rs> darauf besteht, <choice><orig>daß</orig><reg>dass</reg></choice>
+                        sie <foreign xml:lang="fr"><choice><orig>coute</orig><reg>coûte</reg></choice> qui <choice><orig>coute</orig><reg>coûte</reg></choice></foreign> <choice><orig>abordirt</orig><reg>behandelt</reg></choice> werden <choice><orig>müße</orig><reg>müsse</reg></choice>, so werde <lb/>
+                        <emph rend="underlined">ich</emph> sehen, was ich in der nächsten Woche etwa <choice><orig>thun</orig><reg>tun</reg></choice> <choice><orig>kan</orig><reg>kann</reg></choice>." <lb/>
+                        Ich habe <rs type="person" ref="#Ha">Hackenau</rs> ausdrücklich gebeten, Ihnen <rs type="person" ref="#Str">Strangfords</rs> <lb/>
+                        letztes Schreiben, wegen Verwendung des <rs type="person" ref="#Gh"><choice><abbr>F.</abbr><expan>Fürsten</expan></choice> Ghika</rs> für <lb/>
+                        Villara <choice><orig>mitzutheilen</orig><reg>mitzuteilen</reg></choice>, wenn er es nicht von selbst <lb/>
+                        <choice><orig>gethan</orig><reg>getan</reg></choice> haben sollte. Eine <choice><orig>größre</orig><reg>größere</reg></choice> <emph rend="underlined"><choice><orig>Monstruosität</orig><reg>Ungeheuerlichkeit</reg></choice></emph> als <lb/>
+                        dieses Schreiben ist Ihnen <choice><orig>gewiß</orig><reg>gewiss</reg></choice> noch nicht zu Gesicht gekommen.
+                    </p>
+                    <p> 
+                        Ein Courier aus Petersburg vom <date when-iso="1824-03-31">31<g ref="#ten">ten</g> März</date> <lb/>
+                        langte vorgestern an. <rs type="person" ref="#Le">Lebzeltern</rs> ist von einer schweren <lb/>
+                        Krankheit genesen. Heute geht von <choice><orig>unsrer</orig><reg>unserer</reg></choice> Seite ein <lb/>
+                        <choice><orig>Courier</orig><reg>Kurier</reg></choice> an ihn ab, mit <choice><orig>unsrer</orig><reg>unserer</reg></choice> Erklärung über das <lb/>
+                        <rs type="place" ref="#plRu">Russische</rs> <foreign xml:lang="fr">Memoire sur la pacification de la Grèce</foreign>. <lb/>
+                        Ich hätte Ihnen <choice><orig>beyde</orig><reg>beide</reg></choice> <choice><orig>Piecen</orig><reg>Stücke</reg></choice> bereits abschreiben <choice><orig>laßen</orig><reg>lassen</reg></choice>, <lb/>
+                        wenn der einzige Mensch, dem ich sie anvertrauen <lb/>
+                        <choice><orig>kan</orig><reg>kann</reg></choice>, nicht zu sehr mit Arbeit beladen wäre, <emph rend="underlined">und</emph> <lb/>
+                        besonders, wenn ich nicht fürchtete, <choice><orig>daß</orig><reg>dass</reg></choice> solche Ihnen <lb/>
+                        auf <choice><orig>andern</orig><reg>anderen</reg></choice> Wegen zugekommen sind, und also meine <lb/>
+                        Abschriften <foreign xml:lang="fr">en pure perte</foreign> gemacht würden.
+                    </p>
+                    <p> 
+                        <choice><orig>Uebrigens</orig><reg>Übrigens</reg></choice> ist der <rs type="person" ref="#Za"><choice><orig>Kayser</orig><reg>Kaiser</reg></choice> Alexander</rs> ent-<lb/>
+                        schlossen in diesem Jahre keine Reise ins Ausland zu <lb/>
+                        unternehmen. Hierdurch ist <choice><orig>unsre</orig><reg>unsere</reg></choice> Freiheit und Ruhe für den <lb/>
+                        Sommer völlig gesichert. Ich sehne mich nach Weinhaus; <lb/>
+                        noch aber haben wir - <foreign xml:lang="en">most astonishing</foreign> - seit dem <date when-iso="1824-02-16">16 Februar</date> <lb/>
+                        nicht einen einzigen schönen Tag gehabt. Dies unfreundliche <lb/>
+                        Wetter trägt auch zu meiner Verstimmung <choice><orig>bey</orig><reg>bei</reg></choice>, die sich <lb/>
+                        jedoch nie auf meine herzliche Liebe zu Ihnen erstreckt.
+                    </p>
+                    <closer>
+                        <signed rend="right">
+                            <rs type="person" ref="#Ge">Gentz</rs>
+                        </signed>
+                    </closer>
+                </div>
+            </body>
+        </text>
+    </TEI>
+

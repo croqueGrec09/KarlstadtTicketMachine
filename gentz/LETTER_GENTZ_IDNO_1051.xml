@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc xml:id="LETTER_GENTZ_1051">
+         <titleStmt>
+            <title>William Wyndham Lord Grenville an Friedrich von Gentz, Anfang Juni 1800</title>
+            <editor xml:id="edAG">Andreas Gálffy</editor>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <name>Forschungsstelle "Universitätssammlung Friedrich von Gentz"</name>
+               <link target="http://gentz-digital.ub.uni-koeln.de http://www.ub.uni-koeln.de/cdm/singleitem/collection/gentz/id/1050/"/>
+            </publisher>
+            <pubPlace>Cologne</pubPlace>
+            <idno type="Gentz-Edition-Number" n="1051"/>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <country>Germany</country>
+                  <settlement>Berlin</settlement>
+                  <institution>Geheimes Staatsarchiv Preußischer Kulturbesitz</institution>
+                  <repository>I. HA, Rep 92</repository>
+                  <collection>Nachlaß Lucchesini, Nr 27</collection>
+                  <idno>Bl. 8-8v</idno>
+               </msIdentifier>
+               <msContents>
+                  <summary>
+                     Grenville bestätigt den Empfang des Exemplars des Essays, das bei Mr. Garlike für ihn hinterlegt war und 
+                     äußerst, auch seitens des Königs, sehr hohen Respekt Gentz gegenüber aus: es sei das erste Mal, dass sich ein 
+                     Ausländer an diese komplexe Materie herangewagt habe. Selbst unter den Fachkundigen gäbe es kaum solche, die 
+                     ein solches Werk zustande brächten.
+                  </summary>
+               </msContents>
+            </msDesc>
+            <listBibl type="letterReferenced">
+               <bibl xml:id="c1051-1" corresp="#LETTER_GENTZ_2735">Friedrich von Gentz an N. N., 1. März 1800</bibl>
+            </listBibl>
+            <listBibl type="defRep">
+               <biblStruct xml:id="p1051-1" corresp="GBk-0060">
+                  <monogr>
+                     <author>
+                        <persName>
+                           <ref target="http://d-nb.info/gnd/118538489"/>
+                           <forename>Friedrich von</forename>
+                           <surname>Gentz</surname>
+                        </persName>
+                     </author>
+                     <title>Essai sur l'etat actuel de l'administration des finances et de la richesse nationale de la Grande Bretagne</title>
+                     <imprint>
+                        <pubPlace>London</pubPlace>
+                        <publisher>J. Debrett</publisher>
+                        <date>1800</date>
+                     </imprint>
+                  </monogr>
+                  <ptr target="https://books.google.de/books?id=R_bXZfXXWVoC"/>
+               </biblStruct>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Masterarbeit zu Matrikelnummer 5584124</p>
+         </projectDesc>
+      </encodingDesc>
+      <profileDesc>
+         <creation>
+            <date when-iso="1800-06-00">Anfang Juni 1800</date>
+         </creation>
+        <langUsage>
+           <language ident="f">französisch</language>
+        </langUsage>
+         <textClass>
+            <keywords scheme="internal"><!-- internal: innerhalb des besagten Briefs -->
+               <term>Brief</term>
+               <term>Grenville</term>
+               <term>Dankschreiben</term>
+               <term>Finanzen</term>
+            </keywords>
+            <keywords scheme="categorisation"><!-- Sinnabschnittseinteilung - relevant für den Fahrkartenautomaten! -->
+               <term xml:id="efgb">Essay über die Finanzen Großbritanniens</term>
+            </keywords>
+         </textClass>
+         <textDesc>
+            <channel>manuscript</channel>
+            <constitution type="single"/>
+            <derivation type="original"/>
+            <domain type="private"/>
+            <factuality type="fact"/>
+            <interaction type="partial"/>
+            <preparedness type="prepared"/>
+            <purpose type="inform"/>
+         </textDesc>
+         <particDesc>
+            <listPerson>
+               <!-- Sender und Adressat -->
+               <person role="sender" xml:id="WWG">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/119098903"/>
+                     <forename>William Wyndham</forename>
+                     <surname>Grenville</surname>
+                  </persName>
+               </person>
+               <person role="receiver" xml:id="Gen">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/118538489"/>
+                     <forename>Friedrich von</forename>
+                     <surname>Gentz</surname>
+                  </persName>
+               </person>
+               <!-- erwähnte Personen -->
+               <person role="named" xml:id="Glk">
+                  <persName>
+                     <ref />
+                     <forename/>
+                     <surname>Garlike</surname>
+                  </persName>
+               </person>
+               <person role="named" xml:id="KGeIII">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/118716913"/>
+                     <forename>Georg III.</forename>
+                     <surname/>
+                     <roleName type="office">König von England</roleName>
+                  </persName>
+               </person>
+            </listPerson>
+         </particDesc>
+         <settingDesc>
+            <listPlace>
+               <!-- Start- und Zielort -->
+               <place type="sender" xml:id="plLo">
+                  <country>
+                     <ref target="http://d-nb.info/gnd/4022153-2"/>
+                     <placeName>Vereinigtes Königreich</placeName>                
+                  </country>
+                  <settlement>
+                     <ref target="http://d-nb.info/gnd/4074335-4"/>
+                     <placeName>London</placeName>
+                  </settlement>
+               </place>
+               <place type="receiver" xml:id="plBe">
+                  <country>
+                     <ref target="http://d-nb.info/gnd/4047194-9"/>
+                     <placeName>Preußen</placeName>
+                  </country>
+                  <settlement>
+                     <ref target="http://d-nb.info/gnd/4005728-8"/>
+                     <placeName>Berlin</placeName>
+                  </settlement>
+               </place>
+               <!-- erwähnte Orte -->
+            </listPlace>
+         </settingDesc>
+      </profileDesc>
+      <revisionDesc>
+         <change xml:id="init" when-iso="2018-03-05" who="#edAG">Erstauszeichnung und Normierung des Dokumentes im Rahmen der Masterarbeit der Matrikelnummer 5584124</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div n="1" corresp="#efgb">
+            <p>
+               J'ai reçu <ref target="#r1051-2">la lettre obligeante</ref> que Vous m'avez adressée avec un exemplaire de 
+               <rs type="citation" ref="#p1051-1">votre ouvrage</rs> sur les Finances de ce pays-ci. J'ai différé d'y répondre, 
+               jusqu'à ce que mes occupations, m'aient donné le loisir de lire avec toute l'attention qu'il mérite, ce livre 
+               intéressant à tant d'égards.
+            </p>
+            <p>
+               C'est bien pour la premiere fois que j'ai vu cette matière difficile et compliquée traitée par un étranger avec la 
+               plus parfaite connoissance de tous ses détails, et les principes les plus éclairés sur son ensemble. Je puis ajouter 
+               avec la plus grande sincérité, qu'il y a peu de personnes ici, je ne dis pas du commun, mais de ceux qui s'appliquent 
+               aux affaires publiques, qui soient en état de tracer un pareil tableau.
+            </p>
+            <p>
+               <rs type="person" ref="#KGeIII">Le roi</rs> a qui je n'ai pas manqué de faire parvenir l'exemplaire qui lui étoit 
+               destiné, m'a chargé, Monsieur, de Vous en <pb/> témoigner sa satisfaction et sa bienveillance et de vous prier d'en 
+               accepter la marque que <rs type="person" ref="#Glk">Monsieur Garlike</rs> vous fera parvenir avec cette lettre.
+            </p>
+            <p>
+               Agréez, je vous prie pp.
+            </p>
+         </div>
+         <closer>
+            <signed rend="right">Grenville</signed>
+         </closer>
+      </body>
+      <note xml:id="r1051-1">Abschrift</note>
+      <note resp="#edAG" xml:id="r1051-2">Möglicherweise ist diese <rs type="citation" ref="#c1051-1">Briefspur vom 1. März 1800</rs> gemeint.</note>
+   </text>
+</TEI>

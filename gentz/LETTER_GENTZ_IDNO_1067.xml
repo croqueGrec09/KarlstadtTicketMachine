@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc xml:id="LETTER_GENTZ_1067">
+         <titleStmt>
+            <title>Friedrich von Gentz an Friedrich Vieweg, 30. Mai 1796</title>
+            <editor xml:id="edAG">Andreas Gálffy</editor>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <name>Forschungsstelle "Universitätssammlung Friedrich von Gentz"</name>
+               <link target="http://gentz-digital.ub.uni-koeln.de http://www.ub.uni-koeln.de/cdm/singleitem/collection/gentz/id/1066/"/>
+            </publisher>
+            <pubPlace>Cologne</pubPlace>
+            <idno type="Gentz-Edition-Number" n="1067"/>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <country>Germany</country>
+                  <settlement>Wiesbaden</settlement>
+                  <institution>Vieweg-Verlagsarchiv</institution>
+                  <repository>Briefsammlung 311 G, Gentz-Briefe</repository>
+                  <idno>Nr. 17</idno>
+               </msIdentifier>
+               <msContents>
+                  <summary>
+                     Noch 240 Reichstaler sind auf einen Wechsel fällig. Ein anderer über 200 Reichstaler wird erst in einigen Tagen 
+                     fällig. Gentz bittet Vieweg daher um weitere 40 Reichstaler. Es würde ihm sehr viel bedeuten, diese Schuld 
+                     begleichen zu können. Im Postscript steht noch vermerkt, dass Zinsen auf den Wechsel nur ab dem 30. November 
+                     1794 zu zahlen sind.
+                  </summary>
+               </msContents>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Masterarbeit zu Matrikelnummer 5584124</p>
+         </projectDesc>
+      </encodingDesc>
+      <profileDesc>
+         <creation>
+            <date when-iso="1796-05-30">30. Mai 1796</date>
+         </creation>
+        <langUsage>
+           <language ident="d">deutsch</language>
+        </langUsage>
+         <textClass>
+            <keywords scheme="internal"><!-- internal: innerhalb des besagten Briefs -->
+               <term>Billet</term>
+               <term>Schulden</term>
+               <term>Wechsel</term>
+            </keywords>
+            <keywords scheme="categorisation"><!-- Sinnabschnittseinteilung - relevant für den Fahrkartenautomaten! -->
+               <term xml:id="gprl">Gentz - p(r)ekuniäre Lage</term>
+            </keywords>
+         </textClass>
+         <textDesc>
+            <channel>manuscript</channel>
+            <constitution type="single"/>
+            <derivation type="original"/>
+            <domain type="private"/>
+            <factuality type="fact"/>
+            <interaction type="partial"/>
+            <preparedness type="unprepared"/>
+            <purpose type="inform"/>
+         </textDesc>
+         <particDesc>
+            <listPerson>
+               <!-- Sender und Adressat -->
+               <person role="sender" xml:id="Gen">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/118538489"/>
+                     <forename>Friedrich von</forename>
+                     <surname>Gentz</surname>
+                  </persName>
+               </person>
+               <person role="receiver" xml:id="FVW">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/119049546"/>
+                     <forename>Friedrich</forename>
+                     <surname>Vieweg</surname>
+                  </persName>
+               </person>
+               <!-- erwähnte Personen -->
+               <person role="named" xml:id="Lued">
+                  <persName>
+                     <ref/>
+                     <forename/>
+                     <surname>Lüder</surname>
+                  </persName>
+               </person>
+            </listPerson>
+         </particDesc>
+         <settingDesc>
+            <listPlace>
+               <!-- Start- und Zielort -->
+               <place type="sender" xml:id="plBe">
+                  <country>
+                     <ref target="http://d-nb.info/gnd/4047194-9"/>
+                     <placeName>Preußen</placeName>
+                  </country>
+                  <settlement>
+                     <ref target="http://d-nb.info/gnd/4005728-8"/>
+                     <placeName>Berlin</placeName>
+                  </settlement>
+               </place>
+               <!-- erwähnte Orte -->
+            </listPlace>
+         </settingDesc>
+      </profileDesc>
+      <revisionDesc>
+         <change xml:id="init" when-iso="2018-02-18" who="#edAG">Erstauszeichnung und Normierung des Dokumentes im Rahmen der Masterarbeit der Matrikelnummer 5584124</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div n="1" corresp="#gprl">
+            <p>
+               Sie werden aus dem Ihnen vorzulegenden Wechsel ersehen, theuerster Freund, daß darauf noch eigentlich 240 
+               Reichsthaler in Friedrichsdor exclusive der Zinsen zu bezahlen sind. Ich glaubte, der sehr pressante worauf schon 
+               Execution verfügt ist, wäre ein andrer von 200 Reichsthaler der durch eben diesen 
+               <rs type="person" ref="#Lued">Lüder</rs> negotiirt worden war, der aber, wie ich jetzt höre, erst in einigen Tagen 
+               fällig ist. Ich hoffe, Sie werden dieser kleinen Differenz halber Ihre mir hier so wesentliche Hülfe nicht 
+               zurückziehen; die 240 Reichsthaler sollen Ihnen eben so gut aus den zuerst eingehenden Geldern erstattet werden, als 
+               es <del rend="stroked">die</del> in Ansehung der 200 geschehen wäre; und <del rend="stroked">die</del> alles Glück 
+               und Seegen werden Sie für die mannichfaltigen Freundschafts-Dienste belohnen, die Sie mir in dieser kritischen Lage 
+               erweisen. Der heutige ist hoffentlich der letzte <emph rend="underlined">dieser</emph> Art: er ist aber dafür auch 
+               von einer Wichtigkeit für die ich keine Worte habe, Gott behüte Sie !
+            </p>
+         </div>
+         <closer>
+            <signed rend="right">Gentz.</signed>
+         </closer>
+         <postscript corresp="#gprl">
+            <p>
+               Ich muß bemerken, was die Wahrheit ist, daß die Zinsen auf diesen Wechsel nur bis zum 
+               <date when-iso="1794-11-30">30<span rend="sup">ten</span> Novembre 94</date> bezahlt sind. Von da hat er sie zu 
+               fordern.
+            </p>
+         </postscript>
+      </body>
+      <back>
+         <p>
+            An
+            Hrn. Buchhändler Vieweg
+            Wohlgebohren
+         </p>
+         <figure>
+            <desc>Siegel von Gentz</desc>
+         </figure>
+      </back>
+      <note xml:id="r1067-1">S.4 Adr.</note>
+   </text>
+</TEI>

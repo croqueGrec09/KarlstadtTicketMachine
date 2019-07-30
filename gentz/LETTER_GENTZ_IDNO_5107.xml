@@ -1,0 +1,235 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc xml:id="LETTER_GENTZ_5107">
+         <titleStmt>
+            <title>Friedrich von Gentz an Karl Gustav von Brinckmann, 23. September 1797</title>
+            <editor xml:id="edAG">Andreas Gálffy</editor>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <name>Forschungsstelle "Universitätssammlung Friedrich von Gentz"</name>
+               <link target="http://gentz-digital.ub.uni-koeln.de http://www.ub.uni-koeln.de/cdm/singleitem/collection/gentz/id/5106/"/>
+            </publisher>
+            <pubPlace>Cologne</pubPlace>
+            <idno type="Gentz-Edition-Number" n="5107"/>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <country>Sweden</country>
+                  <settlement>Trolle-Ljungby</settlement>
+                  <institution>Archiv des Grafen Wachtmeister</institution>
+                  <repository>Nachlaß Brinckmann, Ausländ. Briefwechsel, Gentz an Brinckmann</repository>
+                  <idno>G 3</idno>
+               </msIdentifier>
+               <msContents>
+                  <summary>
+                     Brinckmann hat Gentz ein ramas de plattitude zugemutet. In Gentz' Augen ist dieses Urteil sogar noch weit 
+                     untertrieben. Der Autor hat keine Ahnung über die französischen Finanzen und Gentz erbost sich über die 
+                     Anführung falscher Tatsachen. Gentz widerlegt im Folgenden auch die beispielhaft genannten Aussagen. Als Satire 
+                     wäre es, so Gentz, noch lesbar. Mit großer Wut äußert sich Gentz über den schlechten Stil und unpassende 
+                     Zitate. Er verlanjgt eine Erklärung von Brinckmann dafür, dass er dieses Werk Gentz überhaupt empfohlen hat.
+                  </summary>
+               </msContents>
+            </msDesc>
+            <listBibl type="preprints">
+               <biblStruct>
+                  <monogr>
+                     <editor>
+                        <persName>
+                           <ref target="http://d-nb.info/gnd/130953075"/>
+                           <forename>Friedrich Carl</forename>
+                           <surname>Wittichen</surname>
+                        </persName>
+                        <persName>
+                           <ref /> <!-- kein GND-Eintrag -->
+                           <forename>Ernst</forename>
+                           <surname>Salzer</surname>
+                        </persName>
+                     </editor>
+                     <title>Briefe von und an Friedrich von Gentz, 4 Bde.</title>
+                     <imprint>
+                        <publisher>Oldenbourg</publisher>
+                        <pubPlace>München, Berlin</pubPlace>
+                        <date>1909-1913</date>
+                     </imprint>
+                     <biblScope unit="volume" n="2">
+                        II
+                     </biblScope>
+                     <biblScope unit="page" from="57" to="58">
+                        Nr. 64
+                     </biblScope>
+                  </monogr>
+               </biblStruct>
+            </listBibl>
+            <listBibl type="alludedWorks">
+               <bibl xml:id="a5107-1" corresp="#LETTER_GENTZ_NNNN">nicht näher benanntes Werk eines nicht benannten Autors</bibl>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Masterarbeit zu Matrikelnummer 5584124</p>
+         </projectDesc>
+      </encodingDesc>
+      <profileDesc>
+         <creation>
+            <date when-iso="1797-09-23">23. September 1797</date>
+         </creation>
+        <langUsage>
+           <language ident="d">deutsch</language>
+        </langUsage>
+         <textClass>
+            <keywords scheme="internal"><!-- internal: innerhalb des besagten Briefs -->
+               <term>Brief</term>
+               <term>Rezension</term>
+               <term>Plattitude</term>
+               <term>Satire</term>
+            </keywords>
+            <keywords scheme="categorisation"><!-- Sinnabschnittseinteilung - relevant für den Fahrkartenautomaten! -->
+               <term xml:id="frf">französische Finanzen</term>
+            </keywords>
+         </textClass>
+         <textDesc>
+            <channel>manuscript</channel>
+            <constitution type="single"/>
+            <derivation type="original"/>
+            <domain type="private"/>
+            <factuality type="fact"/>
+            <interaction type="partial"/>
+            <preparedness type="unprepared"/>
+            <purpose type="inform"/>
+         </textDesc>
+         <particDesc>
+            <listPerson>
+               <!-- Sender und Adressat -->
+               <person role="sender" xml:id="Gen">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/118538489"/>
+                     <forename>Friedrich von</forename>
+                     <surname>Gentz</surname>
+                  </persName>
+               </person>
+               <person role="receiver" xml:id="KGvB">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/116519770"/>
+                     <forename>Carl Gustav von</forename>
+                     <surname>Brinckmann</surname>
+                  </persName>
+               </person>
+               <!-- erwähnte Personen -->
+               <person role="named" xml:id="Kant">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/118559796"/>
+                     <forename>Immanuel</forename>
+                     <surname>Kant</surname>
+                  </persName>
+               </person>
+               <person role="named" xml:id="WShk">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/118613723"/>
+                     <forename>William</forename>
+                     <surname>Shakespeare</surname>
+                  </persName>
+               </person>
+            </listPerson>
+         </particDesc>
+         <settingDesc>
+            <listPlace>
+               <!-- Start- und Zielort -->
+               <place type="sender" xml:id="plSb">
+                  <country>
+                     <ref target="http://d-nb.info/gnd/4047194-9"/>
+                     <placeName>Preußen</placeName>
+                  </country>
+                  <settlement>
+                     <ref target="http://d-nb.info/gnd/116944-0"/>
+                     <placeName>Schöneberg</placeName>
+                  </settlement>
+               </place>
+               <place type="receiver" xml:id="plBe">
+                  <country>
+                     <ref target="http://d-nb.info/gnd/4047194-9"/>
+                     <placeName>Preußen</placeName>
+                  </country>
+                  <settlement>
+                     <ref target="http://d-nb.info/gnd/4005728-8"/>
+                     <placeName>Berlin</placeName>
+                  </settlement>
+               </place>
+               <!-- erwähnte Orte -->
+               <place type="named" xml:id="plEn">
+                  <country>
+                     <ref target="http://d-nb.info/gnd/4022153-2"/>
+                     <placeName>England</placeName>
+                  </country>
+               </place>
+            </listPlace>
+         </settingDesc>
+      </profileDesc>
+      <revisionDesc>
+         <change xml:id="init" when-iso="2018-02-27" who="#edAG">Erstauszeichnung und Normierung des Dokumentes im Rahmen der Masterarbeit der Matrikelnummer 5584124</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div n="1" corresp="#frf">
+            <p>
+               Ich wollte eben einen ganzen Regen von Scheltworten über Sie ausschütten, da ich die 
+               <rs type="citation" ref="#a5107-1">scheusliche Lectüre</rs> der Versuche zu sehen geendiget habe: aber das Buch ist zu 
+               abjekt, um sich nur bei Gelegenheit desselben zu ärgern. Aber - wie können Sie denn von diesem 
+               <span xml:lang="fr">Ramas de plattitude</span> in <emph rend="underlined">leidlichen</emph> Ausdrücken sprechen ? 
+               Mich dünkt, etwas in dem Grade schlechtes existirte noch nicht.
+            </p>
+            <p>
+               Glauben Sie nur nicht etwa, daß die wenigen - <span xml:lang="lat">si diis placet</span>, 
+               <emph rend="underlined">Thatsachen</emph>, die in diesem Meer der wüstesten Absurditäten herum schwimmen, Werth 
+               haben. Sie sind fast alle grundfalsch. Ein einziges Beispiel mag Ihnen zeigen, daß dieser elende Wäscher auch nicht 
+               einmal <emph rend="underlined">die ersten Notionen</emph> von dem Gegenstande, der ihn mehr als alle Blut-Szenen zu 
+               beschäftigen und anzugreifen scheint - von den französischen Finanzen, hat.
+            </p>
+            <p>
+               Alles was er von Seite 52 an über die Spitzbübereyen der Regierung mit den Mandaten sagt, beruht auf der 
+               Voraussetzung, "die Regierung habe verlangt, daß man die <emph rend="underlined">Hälfte</emph> der Kaufsumme für die 
+               in Mandaten verkaufte Nationalgüter, <emph rend="underlined">baar</emph> bezahlen müße". Hierauf <pb/> gründet sich 
+               auch die ganze Rechnung über den vermeinten <emph rend="underlined">Vortheil</emph> des Güterverkaufs, welchen der 
+               Narr Seite 53 und 54 - mit solcher Frechheit als fände gar kein Zweifel Statt - anstellt. Nun bemerken Sie ! 
+               <emph rend="underlined">Jenes Gesetz existirt gar nicht</emph>: sondern <emph rend="underlined">ein Viertel</emph> 
+               des Kaufwerthes verlangte die Regierung - betrügerisch genug - in baarem Gelde: 
+               <emph rend="underlined">und dieses ¼ zahlte Niemand und konnte Niemand zahlen</emph>; ein Jeder nahm die Mandate, die 
+               er auf die ersten ¾ zahlte, mit Verlust zurück. - Nun frage ich Sie: was halten Sie von einem Menschen, der mit 
+               <emph rend="underlined">solcher</emph> Unwissenheit sich erfrecht über die Französischen Finanzen zu schreiben.
+            </p>
+            <p>
+               Ferner: ist Ihnen denn der beispiellose Unsinn in der Stelle pagina 65 sequentes wo er berechnet wieviel 
+               <rs type="place" ref="#plEn">England</rs> durch den Krieg <emph rend="underlined">baar gewonnen</emph> hat - gar 
+               nicht aufgefallen ? Als Satyre wäre das allenfalls lesbar: und dies schreibt die Bestie 
+               <emph rend="underlined">im Ernst</emph>.
+            </p>
+            <p>
+               Ich sage nichts von dem schändlichen Styl, (den <emph rend="underlined">Vornehmungen</emph>, den 
+               <emph rend="underlined">Umsichtigkeiten</emph> ppppppp) nichts <pb/> von dem schülerhaften Geprahl mit 
+               <rs type="person" ref="#Kant">Kant</rs>ischen Worten, von den eckelhaften Aeußerungen über die Xenien, von den 
+               unaufhörlichen Citationen aus dem <rs type="person" ref="#WShk">Shakespere</rs> ! - von der ganzen abscheulichen 
+               Contextur des sinn- und kraftlosen Raisonnements - ja, ich würde überhaupt vom ganzen Buche nichts mehr sagen, wenn 
+               es mir nicht geschienen hätte, daß Sie es nicht mit Ihrer sonstigen Strenge, ja wohl gar mit einer 
+               <emph rend="underlined">Art</emph> von Gunst beurtheilten. Da ich nun äußerst neugierig bin zu wißen, worauf denn 
+               diese eigentlich beruht, so konnte ich es nicht klüger anfangen, als wenn ich gleich meine ganze Wut über das Objekt 
+               Ihrer - hier sehr unverdienten - Protection ausgoß. Gelegentlich werden Sie mir also die Freundschaft erweisen, jene 
+               Gunst entweder abzuleugnen oder zu rechtfertigen.
+            </p>
+            <p>
+               Leben Sie wohl und behalten Sie mich lieb.
+            </p>
+         </div>
+         <closer>
+            <signed rend="right">Gentz.</signed>
+            <dateline rend="right"><rs type="place" ref="#plSb">Schöneberg</rs>. <date when-iso="1797-09-23">23 Septbr 1797</date>.</dateline>
+         </closer>
+      </body>
+   </text>
+</TEI>

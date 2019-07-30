@@ -1,0 +1,58 @@
+/* Gentz-Area */
+
+sup {
+	vertical-align: super;
+	font-size: 10px;
+}
+
+.analytic {
+	font-size: smaller;
+}
+
+.btn-xlarge {
+    padding: 2.5em 2.5em;
+    font-size: 36px;
+    line-height: normal;
+    -webkit-border-radius: 16px;
+    -moz-border-radius: 16px;
+    border-radius: 16px;
+}
+
+.container {
+	background: linear-gradient(to bottom right, #e6ccff, #8c1aff);
+	width: 100%;
+	height: 100%;
+	opacity: 0.9;
+}
+
+.deleted {
+	text-decoration: line-through;
+}
+
+.letterLink {
+	font-size: smaller;
+}
+
+.row {
+	padding: 0.8em;
+}
+
+.underlined {
+	text-decoration: underline;
+}
+
+.inserted {
+	vertical-align: 50%;
+}
+
+#content a:link, #notes a:link {
+	color: tomato;
+}
+
+#content a:hover, #notes a:hover {
+	color: orange;
+}
+
+#content a:visited, #notes a:visited {
+	color: darkGoldenRod;
+}

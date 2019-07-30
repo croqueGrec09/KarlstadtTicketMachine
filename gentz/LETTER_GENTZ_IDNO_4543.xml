@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc xml:id="LETTER_GENTZ_4543">
+         <titleStmt>
+            <title>Friedrich von Gentz an Karl Gustav von Brinckmann, 30. Dezember 1801</title>
+            <editor xml:id="edAG">Andreas Gálffy</editor>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <name>Forschungsstelle "Universitätssammlung Friedrich von Gentz"</name>
+               <link target="http://gentz-digital.ub.uni-koeln.de http://www.ub.uni-koeln.de/cdm/singleitem/collection/gentz/id/4542/"/>
+            </publisher>
+            <pubPlace>Cologne</pubPlace>
+            <idno type="Gentz-Edition-Number" n="4543"/>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <country>Sweden</country>
+                  <settlement>Trolle-Ljungby</settlement>
+                  <institution>Archiv des Grafen Wachtmeister</institution>
+                  <repository>Nachlaß Brinckmann, Ausländ. Briefwechsel, 2. Teil</repository>
+                  <idno>Bl. 157</idno>
+               </msIdentifier>
+               <msContents>
+                  <summary>
+                     Es kommen Werke zurück. Gentz erfreut sich immer mehr, an den Elegien von Klopstock und ist jetzt bei den 
+                     Arabesken. Engeström sei sehr krank.
+                  </summary>
+               </msContents>
+            </msDesc>
+            <listBibl type="letterReferenced">
+               <bibl xml:id="c4543-1" corresp="#LETTER_GENTZ_3147">Friedrich von Gentz an Karl Gustav von Brinckmann, 31. Dezember 1801</bibl>
+            </listBibl>
+            <listBibl type="alludedWorks">
+               <bibl xml:id="a4543-1" corresp="#LETTER_GENTZ_NNNN">nicht näher benannte Elegie an Klopstock von Karl Gustav von Brinckmann</bibl>
+               <bibl xml:id="a4543-2" corresp="#LETTER_GENTZ_NNNN">nicht näher benanntes Werk namens "Arabesken" von Karl Gustav von Brinckmann</bibl>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Masterarbeit zu Matrikelnummer 5584124</p>
+         </projectDesc>
+      </encodingDesc>
+      <profileDesc>
+         <creation>
+            <date when-iso="1801-12-30">30. Dezember 1801</date>
+         </creation>
+        <langUsage>
+           <language ident="d">deutsch</language>
+        </langUsage>
+         <textClass>
+            <keywords scheme="internal"><!-- internal: innerhalb des besagten Briefs -->
+               <term>Billet</term>
+               <term>Elegie</term>
+               <term>Klopstock</term>
+            </keywords>
+            <keywords scheme="categorisation"><!-- Sinnabschnittseinteilung - relevant für den Fahrkartenautomaten! -->
+               <term xml:id="bibl">Bibliothek</term>
+               <term xml:id="kengs">Engeström</term>
+            </keywords>
+         </textClass>
+         <textDesc>
+            <channel>manuscript</channel>
+            <constitution type="single"/>
+            <derivation type="original"/>
+            <domain type="private"/>
+            <factuality type="fact"/>
+            <interaction type="partial"/>
+            <preparedness type="prepared"/>
+            <purpose type="inform"/>
+         </textDesc>
+         <particDesc>
+            <listPerson>
+               <!-- Sender und Adressat -->
+               <person role="sender" xml:id="Gen">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/118538489"/>
+                     <forename>Friedrich von</forename>
+                     <surname>Gentz</surname>
+                  </persName>
+               </person>
+               <person role="receiver" xml:id="KGvB">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/116519770"/>
+                     <forename>Carl Gustav von</forename>
+                     <surname>Brinckmann</surname>
+                  </persName>
+               </person>
+               <!-- erwähnte Personen -->
+               <person role="named" xml:id="Klo">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/118563386"/>
+                     <forename>Friedrich Gottlieb</forename>
+                     <surname>Klopstock</surname>
+                  </persName>
+               </person>
+               <person role="named" xml:id="RDCh">
+                  <persName>
+                     <ref />
+                     <forename>Rozalia</forename>
+                     <surname>Drya-Chlapowska</surname>
+                  </persName>
+               </person>
+            </listPerson>
+         </particDesc>
+         <settingDesc>
+            <listPlace>
+               <!-- Start- und Zielort -->
+               <place type="sender" xml:id="plBe">
+                  <country>
+                     <ref target="http://d-nb.info/gnd/4047194-9"/>
+                     <placeName>Preußen</placeName>
+                  </country>
+                  <settlement>
+                     <ref target="http://d-nb.info/gnd/4005728-8"/>
+                     <placeName>Berlin</placeName>
+                  </settlement>
+               </place>
+               <!-- erwähnte Orte -->
+            </listPlace>
+         </settingDesc>
+      </profileDesc>
+      <revisionDesc>
+         <change xml:id="init" when-iso="2018-03-09" who="#edAG">Erstauszeichnung und Normierung des Dokumentes im Rahmen der Masterarbeit der Matrikelnummer 5584124</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <opener resp="#KGvB">
+            <dateline rend="right"><date when-iso="1801-12-30">30 Decbr 1801</date>.</dateline>
+         </opener>
+         <div n="1" corresp="#bibl">
+            <p>
+               Um Ihres Zutrauens würdig zu bleiben schicke ich Ihnen hier wieder zurück, womit ich fertig bin. Die 
+               <rs type="citation" ref="#a4543-1">Elegien</rs> von <rs type="person" ref="#Klo">Klopstock</rs> habe ich noch 
+               mehrmals gelesen, und immer schöner gefunden - Jetzt bin ich bei Ihren 
+               <rs type="citation" ref="#a4543-2">Arabesken</rs>. - 
+            </p>
+         </div>
+         <div n="2" corresp="#kengs">
+            <p>
+               <date when-iso="1801-12-29">Gestern Abend</date> hieß es ja, <rs type="person" ref="#RDCh">Frau von Engeström</rs> 
+               sey ernstlich krank.
+            </p>
+         </div>
+         <closer>
+            <signed rend="right">Gentz</signed>
+         </closer>
+      </body>
+      <note resp="#edAG" xml:id="r4543-1">Es gibt einen <rs type="citation" ref="#c4543-1">gleichlautenden Brief</rs> vom gleichen Tage</note>
+   </text>
+</TEI>

@@ -1,0 +1,497 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc xml:id="LETTER_GENTZ_4615">
+         <titleStmt>
+            <title>Friedrich von Gentz an Karl August Böttiger, 3./5. März 1799</title>
+            <editor xml:id="edAG">Andreas Gálffy</editor>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <name>Forschungsstelle "Universitätssammlung Friedrich von Gentz"</name>
+               <link target="http://gentz-digital.ub.uni-koeln.de http://www.ub.uni-koeln.de/cdm/singleitem/collection/gentz/id/4614/"/>
+            </publisher>
+            <pubPlace>Cologne</pubPlace>
+            <idno type="Gentz-Edition-Number" n="4615"/>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <country>Germany</country>
+                  <settlement>Dresden</settlement>
+                  <institution>Sächsische Landesbibliothek</institution>
+                  <repository>Handschriftensammlung, Nachlaß Böttiger</repository>
+                  <collection>Mscr. Dresd. h 37, Bd. 54 (4°)</collection>
+                  <idno>Nr. 20 und 21</idno>
+               </msIdentifier>
+               <msContents>
+                  <summary>
+                     Die Korrespondenz zu Böttiger ist ins Stocken geraten, da Gentz viel zu tun hatte. Posselt wurde wegen seiner 
+                     Parteilichkeit den Franzosen gegenüber kritisiert. Gentz sieht das mit Genugtuung, zumal da sich Wieland 
+                     eingeklinkt hat. Lediglich die Ansicht Wielands über Mallet du Pan teilt er nicht. Bonaparte wird von Wieland, 
+                     so Gentz, zu hoch eingeschätzt. Er kann Revolutionen anfangen, diese jedoch nicht beenden. Posselt ist nicht 
+                     mehr Redakteur der Allgemeinen Literatur-Zeitung, sondern Huber und Frau. Gentz schätzt sich als Narr, dass er 
+                     sich die Rekation eines Monatsblattes zumutet und hält die Fichtesche Appellation für eines der besten Werke 
+                     des Schriftstellers. Seit acht Wochen ist er von der Gicht gequält. Im Postscript meldet Gentz, dass er 
+                     Johannes Müller sein Journal geschickt hat und den Absatz regeln will. Er fragt nach der Erlangischen 
+                     Literaturzeitung und richtet Grüße von Gilly aus.
+                  </summary>
+               </msContents>
+            </msDesc>
+            <listBibl type="preprints">
+               <biblStruct>
+                  <monogr>
+                     <editor>
+                        <persName>
+                           <ref target="http://d-nb.info/gnd/130953075"/>
+                           <forename>Friedrich Carl</forename>
+                           <surname>Wittichen</surname>
+                        </persName>
+                        <persName>
+                           <ref/> <!-- kein GND-Eintrag -->
+                           <forename>Ernst</forename>
+                           <surname>Salzer</surname>
+                        </persName>
+                     </editor>
+                     <title>Briefe von und an Friedrich von Gentz, 4 Bde.</title>
+                     <imprint>
+                        <publisher>Oldenbourg</publisher>
+                        <pubPlace>München, Berlin</pubPlace>
+                        <date>1909-1913</date>
+                     </imprint>
+                     <biblScope unit="volume" n="1">
+                        I
+                     </biblScope>
+                     <biblScope unit="page" from="253" to="256">
+                        Nr. 64
+                     </biblScope>
+                  </monogr>
+               </biblStruct>
+            </listBibl>
+            <listBibl type="letterReferenced">
+               <bibl xml:id="c4615-1" corresp="#LETTER_GENTZ_4465">Friedrich von Gentz an Johannes von Müller, 4. März 1799</bibl>
+            </listBibl>
+            <listBibl type="defExpr">
+               <biblStruct xml:id="e4615-1" corresp="GBk-0045">
+                  <monogr>
+                     <title>Litteratur-Zeitung</title>
+                     <imprint>
+                        <pubPlace>Erlangen</pubPlace>
+                        <date>1799</date>
+                     </imprint>
+                  </monogr>
+                  <ptr target="https://books.google.de/books?id=cLRFAAAAcAAJ"/>
+               </biblStruct>
+               <biblStruct xml:id="e4615-2" corresp="UJn-0003">
+                  <monogr>
+                     <title>Allgemeine Literatur-Zeitung</title>
+                     <imprint>
+                        <pubPlace>Jena</pubPlace>
+                        <date>1785-1849</date>
+                     </imprint>
+                  </monogr>
+                  <ptr target="http://zs.thulb.uni-jena.de/receive/jportal_jpvolume_00002139?XSL.referer=jportal_jpvolume_00002140"/>
+               </biblStruct>
+            </listBibl>
+            <listBibl type="defRep">
+               <biblStruct xml:id="p4615-1" corresp="UBi-0032">
+                  <analytic>
+                     <author>
+                        <persName>
+                           <ref target="http://d-nb.info/gnd/118632477"/>
+                           <forename>Christian Martin</forename>
+                           <surname>Wieland</surname>
+                        </persName>
+                     </author>
+                     <title>Ueber Dr. Posselts Allgemeine Zeitung</title>
+                  </analytic>
+                  <monogr>
+                     <editor>
+                        <persName>
+                           <ref target="http://d-nb.info/gnd/118632477"/>
+                           <forename>Christian Martin</forename>
+                           <surname>Wieland</surname>
+                        </persName>
+                     </editor>
+                     <title>Der Neue Teutsche Merkur</title>
+                     <imprint>
+                        <pubPlace>Weimar</pubPlace>
+                        <date>1799</date>
+                     </imprint>
+                     <biblScope unit="page" from="3" to="27">
+                        S. 3-27
+                     </biblScope>
+                  </monogr>
+                  <ptr target="http://ds.ub.uni-bielefeld.de/viewer/image/2238508_028/5/"/>
+               </biblStruct>
+               <biblStruct xml:id="p4615-2" corresp="#LETTER_GENTZ_NNNN">
+                  <monogr>
+                     <author>
+                        <persName>
+                           <ref target="http://d-nb.info/gnd/118532847"/>
+                           <forename>Johann Gottlieb</forename>
+                           <surname>Fichte</surname>
+                        </persName>
+                     </author>
+                     <title>Appellation an das Publikum über die durch ein Kurfürstl. Sächsisches Confiscationsrescript ihm beigemessenen atheistischen Äusserungen</title>
+                     <imprint>
+                        <date>1798</date>
+                     </imprint>
+                  </monogr>
+                  <ptr target="#LETTER_GENTZ_NNNN"/>
+               </biblStruct>
+               <biblStruct xml:id="p4615-3" corresp="GBk-0042">
+                  <monogr>
+                     <editor>
+                        <persName>
+                           <ref target="http://d-nb.info/gnd/118538489"/>
+                           <forename>Friedrich von</forename>
+                           <surname>Gentz</surname>
+                        </persName>
+                     </editor>
+                     <title>Historisches Journal</title>
+                     <imprint>
+                        <publisher>Friedrich Vieweg dem ältern</publisher>
+                        <pubPlace>Berlin</pubPlace>
+                        <date>1799</date>
+                     </imprint>
+                  </monogr>
+                  <ptr target="https://books.google.de/books?id=YU5BAAAAcAAJ"/>
+               </biblStruct>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Masterarbeit zu Matrikelnummer 5584124</p>
+         </projectDesc>
+      </encodingDesc>
+      <profileDesc>
+         <creation>
+            <date when-iso="1799-03-03">3. März 1799</date>
+         </creation>
+        <langUsage>
+           <language ident="d">deutsch</language>
+        </langUsage>
+         <textClass>
+            <keywords scheme="internal"><!-- internal: innerhalb des besagten Briefs -->
+               <term>Brief</term>
+               <term>Posselt</term>
+               <term>Französische Revolution</term>
+            </keywords>
+            <keywords scheme="categorisation"><!-- Sinnabschnittseinteilung - relevant für den Fahrkartenautomaten! -->
+               <term xml:id="bezbt">Beziehungen zu Berlin - Beamtentätigkeit</term>
+               <term xml:id="kpos">Posselt</term>
+               <term xml:id="vjmdp">Verhältnis Jacques Mallet du Pan</term>
+               <term xml:id="napinv">Napoleonische Invasion</term>
+               <term xml:id="lvm">Literatur vermischt</term>
+               <term xml:id="jrnh">Historisches Journal</term>
+               <term xml:id="vkab">Verhältnis Karl August Böttiger</term>
+               <term xml:id="gg">Gentz - Gesundheit</term>
+               <term xml:id="kgil">Gilly</term>
+               <term xml:id="vjvm">Verhältnis Johannes von Müller</term>
+            </keywords>
+         </textClass>
+         <textDesc>
+            <channel>manuscript</channel>
+            <constitution type="single"/>
+            <derivation type="original"/>
+            <domain type="private"/>
+            <factuality type="fact"/>
+            <interaction type="partial"/>
+            <preparedness type="prepared"/>
+            <purpose type="inform"/>
+         </textDesc>
+         <particDesc>
+            <listPerson>
+               <!-- Sender und Adressat -->
+               <person role="sender" xml:id="Gen">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/118538489"/>
+                     <forename>Friedrich von</forename>
+                     <surname>Gentz</surname>
+                  </persName>
+               </person>
+               <person role="receiver" xml:id="KAB">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/118824775"/>
+                     <forename>Carl August</forename>
+                     <surname>Böttiger</surname>
+                  </persName>
+               </person>
+               <!-- erwähnte Personen -->
+               <person role="named" xml:id="Pos">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/104314699"/>
+                     <forename>Ernst Ludwig</forename>
+                     <surname>Posselt</surname>
+                  </persName>
+               </person>
+               <person role="named" xml:id="CMW">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/118632477"/>
+                     <forename>Christian Martin</forename>
+                     <surname>Wieland</surname>
+                  </persName>
+               </person>
+               <person role="named" xml:id="NBon">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/118586408"/>
+                     <forename>Napoleon I.</forename>
+                     <surname/>
+                     <roleName type="office">Kaiser</roleName>
+                  </persName>
+               </person>
+               <person role="named" xml:id="MdP">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/119483947"/>
+                     <forename>Jacques</forename>
+                     <surname>Mallet du Pan</surname>
+                  </persName>
+               </person>
+               <person role="named" xml:id="TFS">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/1030143315"/>
+                     <forename>Traugott Ferdinand</forename>
+                     <surname>Schirach</surname>
+                  </persName>
+               </person>
+               <person role="named" xml:id="LFH">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/118554077"/>
+                     <forename>Ludwig Ferdinand</forename>
+                     <surname>Huber</surname>
+                  </persName>
+               </person>
+               <person role="named" xml:id="THb">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/118883712"/>
+                     <forename>Therese</forename>
+                     <surname>Huber</surname>
+                  </persName>
+               </person>
+               <person role="named" xml:id="Fic">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/118532847"/>
+                     <forename>Johann Gottlieb</forename>
+                     <surname>Fichte</surname>
+                  </persName>
+               </person>
+               <person role="named" xml:id="FGil">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/118539345"/>
+                     <forename>Friedrich</forename>
+                     <surname>Gilly</surname>
+                  </persName>
+               </person>
+               <person role="named" xml:id="JvM">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/118585045"/>
+                     <forename>Johannes von</forename>
+                     <surname>Müller</surname>
+                  </persName>
+               </person>
+               <person role="named" xml:id="HXV">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/1089499000"/>
+                     <forename>Heinrich XV</forename>
+                     <surname/>
+                     <roleName type="office">Fürst von Reuss-Greiz</roleName>
+                  </persName>
+               </person>
+            </listPerson>
+         </particDesc>
+         <settingDesc>
+            <listPlace>
+               <!-- Start- und Zielort -->
+               <place type="sender" xml:id="plBe">
+                  <country>
+                     <ref target="http://d-nb.info/gnd/4047194-9"/>
+                     <placeName>Preußen</placeName>
+                  </country>
+                  <settlement>
+                     <ref target="http://d-nb.info/gnd/4005728-8"/>
+                     <placeName>Berlin</placeName>
+                  </settlement>
+               </place>
+               <place type="receiver" xml:id="plWe">
+                  <country>
+                     <ref target="http://d-nb.info/gnd/4051194-7"/>
+                     <placeName>Sachsen-Weimar-Eisenach</placeName>
+                  </country>
+                  <settlement>
+                     <ref target="http://d-nb.info/gnd/4065105-8"/>
+                     <placeName>Weimar</placeName>
+                  </settlement>
+               </place>
+               <!-- erwähnte Orte -->
+               <place type="named" xml:id="plSr">
+                  <country>
+                     <ref target="http://d-nb.info/gnd/4051687-8"/>
+                     <placeName>Königreich Sardinien</placeName>  
+                  </country>
+               </place>
+               <place type="named" xml:id="plKr">
+                  <country>
+                     <ref target="http://d-nb.info/gnd/4075720-1"/>
+                     <placeName>Osmanisches Reich</placeName>
+                  </country>
+                  <settlement>
+                     <ref target="http://d-nb.info/gnd/4029236-8"/>
+                     <placeName>Kairo</placeName>
+                  </settlement>
+               </place>
+               <place type="named" xml:id="plWi">
+                  <country>
+                     <ref target="http://d-nb.info/gnd/4075601-4"/>
+                     <placeName>Erzherzogtum Österreich</placeName>
+                  </country>
+                  <settlement>
+                     <ref target="http://d-nb.info/gnd/4066009-6"/>
+                     <placeName>Wien</placeName>
+                  </settlement>
+               </place>
+               <place type="named" xml:id="plOe">
+                  <country>
+                     <ref target="http://d-nb.info/gnd/4075601-4"/>
+                     <placeName>Erzherzogtum Österreich</placeName>  
+                  </country>
+               </place>
+            </listPlace>
+         </settingDesc>
+      </profileDesc>
+      <revisionDesc>
+         <change xml:id="init" when-iso="2018-03-03" who="#edAG">Erstauszeichnung und Normierung des Dokumentes im Rahmen der Masterarbeit der Matrikelnummer 5584124</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div n="1" corresp="#bezbt">
+            <p>
+               Ich bin lange stumm und todt für Sie gewesen, verehrungswürdiger Freund; aber ich glaube fast, daß Sie mich 
+               entschuldigen würden, wenn ich die ganze Reihe der Ursachen meiner Nachläßigkeit vor Ihnen ausbreiten sollte. Der 
+               regelmäßigste Briefschreiber bin ich ohnehin nie: werde ich nun überdies von Geschäften mannichfaltiger Art hin und 
+               her gezogen und geworfen, so geht die Regsamkeit zu <emph rend="underlined">diesem</emph> Geschäft leicht gänzlich 
+               in mir aus.
+            </p>
+         </div>
+         <div n="2" corresp="#kpos">
+            <p>
+               Was mich heute zunächst und recht lebhaft aufgefordert hat, Ihnen zu schreiben ist die Lectüre des Januar-Stücks des 
+               Merkurs, welches ich erst vor wenig Tagen erhielt, und dessen <rs type="citation" ref="#p4589-1">erster Aufsatz</rs> 
+               mir ein großes Vergnügen gemacht hat. Lange wünschte ich, daß 
+               <rs type="person" ref="#Pos"><emph rend="underlined">Posselt</emph></rs> (dessen trefliche Eigenschaften, und viele 
+               Verdienste ich gewiß nicht verkenne) <add place="above">wegen</add> seiner eckelhaften Parteilichkeit für die 
+               Franzosen und ihre Helden, und ihre Taten, doch einmal öffentlich angeklagt werden mögte. Nie konnte es mit mehr 
+               Mäßigung, Humanität, Würde, und eben deshalb vielleicht mit mehr Nachdruck geschehen, als es in jenem Aufsatze <pb/> 
+               ausgeführt worden ist. Herr von R den ich nicht kenne, ob er gleich meinen Nahmen auf eine höchst schmeichelhafte 
+               Weise genannt hat, legitimirt sein Richter-Amt in jeder Zeile, die er schreibt, und 
+               <emph rend="underlined">seine</emph> Worte sollten doch auch wohl bei den wärmsten Anhängern 
+               <rs type="person" ref="#Pos">Posselt</rs>s Eingang finden. Aber wie glorreich verstärkt und verherrlichet ist seine 
+               Kritik, da es <rs type="person" ref="#CMW"><emph rend="underlined">Wieland</emph></rs> selbst gefiel, seine Stimme 
+               bei dieser Gelegenheit zu erheben ! Es sind doch immer und immer goldne Worte, die aus dieser Feder hervorgehen. Wie 
+               lehrreich ist das, was er über den <rs type="person" ref="#Pos">Posselt</rs>schen Styl sagt ! Wie treffend die 
+               Schilderung des <emph rend="underlined">Direktorial-Tons</emph>! Wie weise und edel das Ganze ! Nur an zwei Stellen 
+               habe ich mit einem gewissen Schmerz - denn ohne Schmerz kan man auch in Nebensachen mit einem solchen Manne nicht 
+               dissentiren ! - mein Urtheil von dem seinigen abweichend gefunden, nehmlich, wo er von 
+               <rs type="person" ref="#NBon"><emph rend="underlined">Bonaparte</emph></rs>, und wo er von 
+               <rs type="person" ref="#MdP"><emph rend="underlined">Mallet Dupan</emph></rs> spricht. Ueber den letztern würde ich 
+               nicht viel disputiren, weil ich ehrlich genug bin einzugestehen, daß ich eine alte Vorliebe gegen diesen 
+               Schriftsteller hege, und vielleicht <emph rend="underlined">zu</emph> günstig von ihm denke. Aber mit 
+               <rs type="person" ref="#TFS"><emph rend="underlined">Schirach</emph></rs> in eine Classe gesetzt zu werden, <pb/> 
+               scheint er mir doch nicht zu verdienen - Was dagegen 
+               <rs type="person" ref="#NBon"><emph rend="underlined">Bonaparte</emph></rs>, betrift, so bin ich fest überzeugt, daß 
+               <rs type="person" ref="#CMW">Wieland</rs> seinen Fähigkeiten als Staatsmann viel zu viel Ehre anthut. Gehen Sie alle 
+               Proben, die dieser General von seinen politischen Talenten abgelegt hat, (von seinen ersten Beschlüssen in 
+               <rs type="place" ref="#plSr">Italien</rs> an bis zu seinem letzten Divan in <rs type="place" ref="#plKr">Cairo</rs>) 
+               durch, und ich glaube, Sie werden ziemlich mit mir übereinkommen, daß 
+               <rs type="place" ref="#NBon"><emph rend="underlined">Bonaparte</emph></rs> wohl allenfalls die Kunst versteht, 
+               Revoluzionen <emph rend="underlined">anzufangen</emph>, nicht aber die viel schwerere, sie zu 
+               <emph rend="underlined">beendigen</emph>.
+            </p>
+         </div>
+         <div n="3" corresp="#lvm">
+            <p>
+               Uebrigens ist mir in dem ganzen Aufsatze ein Umstand aufgefallen. Wußten Sie denn nicht, daß 
+               <rs type="person" ref="#Pos"><emph rend="underlined">Posselt</emph></rs> schon seit vier bis fünf Monaten der 
+               Redaction der Allgemeinen Zeitung gänzlich entsagt hat ? Daß 
+               <rs type="person" ref="#LFH"><emph rend="underlined">Huber</emph></rs> und 
+               <rs type="person" ref="#THb"><emph rend="underlined">Frau</emph></rs>, jetzt die Redacteurs sind ? - Wenigstens 
+               erwähnen Sie dieser Veränderung nirgends, da doch vielleicht manches, was noch auf 
+               <rs type="person" ref="#Pos">Posselt</rs> geschoben wird, schon den neuen Redacteurs angehörte.
+            </p>
+         </div>
+         <div n="4" corresp="#jrnh">
+            <p>
+               Und was sagen Sie denn, daß ich selbst wieder die Journalisten-Laufbahn betreten habe ? Mich in diesen trüben und 
+               gefährlichen Zeiten wieder in das Gefecht mische ? Ganz allein jeden Monat ein dickes Heft auszuarbeiten über mich 
+               nehmen konnte ? <pb/> Sagen Sie, daß ich ein Narr bin: so haben Sie es kurz und bestimmt getroffen.
+            </p>
+         </div>
+         <div n="5" corresp="#vkab">
+            <p>
+               Wie urtheilt man bei Ihnen über den großen Prozeß zwischen 
+               <rs type="person" ref="#Fic"><emph rend="underlined">Fichte</emph></rs> und der Chursächsischen Regierung ? Mir 
+               scheint die <rs type="citation" ref="#p4615-2">Fichtesche Appellation</rs> eins der treflichsten Produkte zu seyn, 
+               die aus dieses Schriftstellers Feder hervorgingen. Ueberhaupt ist <rs type="person" ref="#Fic">Fichte</rs> ein 
+               außerordentliches Phänomen. Eine solche Größe des Denkens, und eine solche Gemeinheit des Menschen hat sich wohl 
+               selten in einem Individuum vereinigt.
+            </p>
+         </div>
+         <div n="6" corresp="#gg">
+            <p>
+               Wenn Sie Sich von meinem jetzigen Zustande eine getreue Vorstellung machen wollen, so denken Sie Sich, daß ich seit 
+               8 Wochen von der <emph rend="underlined">Gicht</emph> (in allen Theilen des Körpers, den Kopf allein ausgenommen) 
+               gequält und gelähmt bin, daß hiezu neuerlich noch einige <emph rend="underlined">Fieber-</emph>Anfälle sich 
+               gesellten, und daß ich täglich einen Berg Französischer, Englischer und Deutscher Zeitungen und Journale 
+               durchzuarbeiten habe, die aller Geduld und Thätigkeit Trotz bieten. - Nach diesem will ich Sie bloß recht herzlich 
+               um die Fortdauer Ihrer Freundschaft bitten.
+            </p>
+         </div>
+         <closer>
+            <signed rend="right">Gentz.</signed>
+            <dateline rend="right"><rs type="place" ref="#plBe">Berlin</rs> den <date when-iso="1799-03-03">3<span rend="sup">ten</span> März 99</date>.</dateline>
+         </closer>
+         <postscript corresp="#lvm">
+            <p>
+               N.S. Thut die <rs type="citation" ref="#e4615-1"><emph rend="underlined">Erlangische Litteratur-Zeitung</emph></rs> 
+               der <rs type="citation" ref="#e4615-2"><emph rend="underlined">Jenaschen</emph></rs> großen Abbruch ? - Und was ist 
+               eigentlich die Veranlaßung zu jener Spekulazion gewesen ?
+            </p>
+         </postscript>
+         <postscript corresp="#kgil">
+            <p>
+               <rs type="person" ref="#FGil">Mein Schwager Gilly</rs> empfiehlt sich Ihnen bestens, und wird Ihnen bald schreiben. 
+               <pb/>
+            </p>
+         </postscript>
+         <postscript corresp="#vjvm">
+            <p>
+               Noch eins, ehe ich meinen Brief zumache. Ich habe vor einigen Tagen an 
+               <rs type="person" ref="#JvM">Johannes Müller</rs> in <rs type="place" ref="#plWi">Wien</rs> geschrieben, und ihm die 
+               <rs type="citation" ref="#p4615-3">Hefte meines Journals </rs>geschickt. Mein Hauptzweck dabei war, mit diesem großen Manne in unmittelbare Verbindung zu 
+               treten. Gern erreiche ich aber durch ihn noch einen andern, ob ich <add place="above">es</add> gleich nicht über 
+               mich gewinnen konnte, etwas davon zu erwähnen.
+            </p>
+         </postscript>
+         <postscript corresp="#jrnh">
+            <p>
+               Ich habe die Erlaubniß, <rs type="citation" ref="#p4615-3">mein Journal</rs> in die 
+               <rs type="place" ref="#plOe">Oesterreichischen Staaten</rs> einzuführen, durch unsern verstorbnen 
+               <rs type="person" ref="#HXV">Fürsten Reuß</rs> erhalten, kenne aber in <rs type="place" ref="#plWi">Wien</rs> 
+               Niemanden, der ihm dort Absatz verschaffen könnte. Glauben Sie wohl, daß ich mich auch mit diesem Anliegen an 
+               <rs type="person" ref="#JvM">Müller</rs> wenden könnte ? Oder wißen Sie mir vielleicht einen bessern Rath zu geben ? 
+               Ich habe keinen sonderlich merkantilischen Geist: aber ich muß doch nun schon thun, was ich kan, um mein Unternehmen 
+               auf festen Fuß zu bringen. - Verzeihung für diese vertrauensvolle Aeußerung !
+            </p>
+         </postscript>
+         <closer>
+            <dateline rend="left">den <date when-iso="1799-03-05">5<span rend="sup">ten</span> März 99</date>.</dateline>
+         </closer>
+      </body>
+      <note resp="#edAG" xml:id="r4615-1">Vgl. den <rs type="citation" ref="#c4615-1">Brief an Johannes von Müller vom 4. März 1799</rs></note>
+   </text>
+</TEI>

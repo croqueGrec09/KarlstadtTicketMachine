@@ -1,0 +1,222 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader type="text">
+      <fileDesc xml:id="LETTER_GENTZ_1089">
+         <titleStmt>
+            <title>Friedrich von Gentz an Karl Georg Heinrich Graf von Hoym, 11. Oktober 1794</title>
+            <editor xml:id="edAG">Andreas Gálffy</editor>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <name>Forschungsstelle "Universitätssammlung Friedrich von Gentz"</name>
+               <link target="http://gentz-digital.ub.uni-koeln.de http://www.ub.uni-koeln.de/cdm/singleitem/collection/gentz/id/1088/"/>
+            </publisher>
+            <pubPlace>Cologne</pubPlace>
+            <idno type="Gentz-Edition-Number" n="1089"/>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <country>Germany</country>
+                  <settlement>Berlin</settlement>
+                  <institution>Geheimes Staatsarchiv Preußsischer Kulturbesitz</institution>
+                  <repository>I. HA, Rep 92</repository>
+                  <collection>Nachlaß Wittichen/Salzer</collection>
+               </msIdentifier>
+               <msContents>
+                  <summary>
+                     Möglicherweise steht eine Versetzung nach Breslau an. Gentz wendet sich an Graf von Hoym, um ihn zu überzeugen, 
+                     dass er nicht gerne nach breslau übersetzen will. Er nennt folgende Gründe: erstens möchte Gentz unmittelbar 
+                     unter von Hoym stehen, zweitens hat er eine gute Wohnung und ein gutes Gehalt. Unter diesen Umständen und weil 
+                     Gentz als geborener Breslauer die Lage kennt, möchte er nicht in das südpreußische Departement versetzt werden.
+                  </summary>
+               </msContents>
+            </msDesc>
+            <listBibl type="letterReferenced">
+               <bibl xml:id="c1089-1" corresp="#LETTER_GENTZ_NNNN">nicht bekannter Brief von Karl Georg Heinrich Graf von Hoym an Otto von Voß</bibl>
+               <bibl xml:id="c1089-2" corresp="#LETTER_GENTZ_4309">Friedrich von Gentz an König Friedrich Wilhelm II. von Preußen, 6. Februar 1791</bibl>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Masterarbeit zu Matrikelnummer 5584124</p>
+         </projectDesc>
+      </encodingDesc>
+      <profileDesc>
+         <creation>
+            <date when-iso="1794-10-11">11. Oktober 1794</date>
+         </creation>
+        <langUsage>
+           <language ident="d">deutsch</language>
+        </langUsage>
+         <textClass>
+            <keywords scheme="internal"><!-- internal: innerhalb des besagten Briefs -->
+               <term>Brief</term>
+               <term>Bittschreiben</term>
+               <term>Breslau</term>
+            </keywords>
+            <keywords scheme="categorisation"><!-- Sinnabschnittseinteilung - relevant für den Fahrkartenautomaten! -->
+               <term xml:id="bezbt">Beziehungen zu Berlin - Beamtentätigkeit</term>
+            </keywords>
+         </textClass>
+         <textDesc>
+            <channel>manuscript</channel>
+            <constitution type="single"/>
+            <derivation type="original"/>
+            <domain type="private"/>
+            <factuality type="fact"/>
+            <interaction type="partial"/>
+            <preparedness type="prepared"/>
+            <purpose type="inform"/>
+         </textDesc>
+         <particDesc>
+            <listPerson>
+               <!-- Sender und Adressat -->
+               <person role="sender" xml:id="Gen">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/118538489"/>
+                     <forename>Friedrich von</forename>
+                     <surname>Gentz</surname>
+                  </persName>
+               </person>
+               <person role="receiver" xml:id="Hoy">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/117028568"/>
+                     <forename>Karl Georg Heinrich von</forename>
+                     <surname>Hoym</surname>
+                  </persName>
+               </person>
+               <!-- erwähnte Personen -->
+               <person role="named" xml:id="OvV">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/103098291"/>
+                     <forename>Otto</forename>
+                     <surname>von Voß</surname>
+                  </persName>
+               </person>
+               <person role="named" xml:id="Gil">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/118539337"/>
+                     <forename>David</forename>
+                     <surname>Gilly</surname>
+                  </persName>
+               </person>
+               <person role="named" xml:id="JFG">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/136428983"/>
+                     <forename>Johann Friedrich</forename>
+                     <surname>Gentze</surname>
+                  </persName>
+               </person>
+            </listPerson>
+         </particDesc>
+         <settingDesc>
+            <listPlace>
+               <!-- Start- und Zielort -->
+               <place type="sender" xml:id="plBe">
+                  <country>
+                     <ref target="http://d-nb.info/gnd/4047194-9"/>
+                     <placeName>Preußen</placeName>
+                  </country>
+                  <settlement>
+                     <ref target="http://d-nb.info/gnd/4005728-8"/>
+                     <placeName>Berlin</placeName>
+                  </settlement>
+               </place>
+               <!-- erwähnte Orte -->
+               <place type="named" xml:id="plBr">
+                  <country>
+                     <ref target="http://d-nb.info/gnd/4047194-9"/>
+                     <placeName>Preußen</placeName>
+                  </country>
+                  <settlement>
+                     <ref target="http://d-nb.info/gnd/4008216-7"/>
+                     <placeName>Breslau</placeName>
+                  </settlement>
+               </place>
+            </listPlace>
+         </settingDesc>
+      </profileDesc>
+      <revisionDesc>
+         <change xml:id="init" when-iso="2018-02-15" who="#edAG">Erstauszeichnung und Normierung des Dokumentes im Rahmen der Masterarbeit der Matrikelnummer 5584124</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <opener>
+            <salute rend="left">Hochwürdiger, hochgeborner Herr Graf !</salute>
+            <salute rend="left">Höchstgebietender Herr Geheimer Staats-Minister,</salute>
+            <salute rend="left">Gnädigster Herr !</salute>
+         </opener>
+         <div n="1" corresp="#bezbt">
+            <p>
+               <rs type="person" ref="#Hoy">Ewr. Hochgräfliche Excellentz</rs> haben in 
+               <rs type="citation" ref="#c1089-1">Hochdero letzten Zuschrift</rs> an des 
+               <rs type="person" ref="#OvV">Herrn Staats-Minister von Voss Excellentz</rs> mit sehr vieler Gnade zu äußern geruht, 
+               daß ich, wenn mein persönliches Verhältniß dadurch nicht zu sehr derangirt würde, zur Bearbeitung der Südpreußischen 
+               Geschäfte vielleicht auf einige Zeit nach <rs type="place" ref="#plBr">Breßlau</rs> gewisen werden sollte. Ich wage 
+               es, diese Veranlassung zu benutzen, um <rs type="person" ref="#Hoy">Ewr. Excellentz</rs> die Lage, in der ich mich 
+               jetzt befinde, in wenig Worten unterthänigst zu schildern.
+            </p>
+            <p>
+               Ich müste mit dem allgemeinen Ruhm, der <rs type="person" ref="#Hoy">Ewr. Excellentz</rs> Nahmen überall, wo man ihn 
+               ausspricht, begleitet, ich müste mit der enthusiastischen Liebe und Verehrung, die ich an Jedem, den das 
+               vortheilhafte Loos traf, unter Hochdero unmittelbaren Befehlen zu stehen, bemerkte, so bekannt nicht seyn, als ich es 
+               wirklich bin, wenn ich einen Augenblick anstehen wollte, die Departements-Veränderung, welche 
+               <rs type="person" ref="#Hoy">Ewr. Excellentz</rs> zu meinem Chef gemacht hat, als ein unendliches Glück für das 
+               Ganze, als ein unendliches Glück für mich selbst zu preisen. -
+            </p>
+            <p>
+               So lebhaft ich das von der einen Seite fühle, so traurig und niederdrückend ist mir von der andern der Gedanke, 
+               <rs type="person" ref="#plBe">Berlin</rs> verlassen zu müssen, wenn ich einen Blick auf mein 
+               <ref target="#r1089-2">hiesiges Verhältniß</ref> werfe. Ich genieße seit 2 Jahren im Hause meines Schwiegervaters, 
+               des <rs type="person" ref="#Gil">Geheimen Ober-Bau-Raths Gilly</rs> durch eine vortrefflich eingerichtete freye 
+               Wohnung, durch freyen Tisch und durch unzählige, kleinre Annexa einer gemeinschaftlichen Wirthschaft Emolumente, die 
+               ich nach dem niedrigsten und gewissenhaftesten Anschlage auf 600 Reichstaler jährlich taxiren kan, ein Zuschuß, 
+               dessen plötzliches Versiegen, alle andre unangenehme Folgen bey Seite gesetzt, mich in eine sehr empfindliche 
+               Verlegenheit setzen müste. -
+            </p>
+            <p>
+               Ich wäre um so mehr zu bedauern, wenn ich alle diese Vortheile auf einmal verlassen sollte, da ich mein jetziges 
+               Etablissement zu einer Zeit formirt habe, wo ich eine Situation wie die gegenwärtige, nicht ahnden konnte. Ich habe 
+               7 Jahr lang bey dem Churmärkischen Departement des General-Directorii gestanden, meine Versetzung in das 
+               Südpreußische <ref target="#r1089-2">keinesweges</ref> gesucht und, als ich solche bloß aus Gehorsam gegen meinen 
+               <rs type="person" ref="#OvV">damaligen Chef</rs> annahm, nie voraussetzen dürfen, daß sie zu einer gänzlichen 
+               Zerrüttung meiner sehr glücklichen häuslichen Lage, die ich um keine Gehalts-Zulage vertauscht hätte, führen würde.
+            </p>
+            <p>
+               <rs type="person" ref="#Hoy">Ewr. Excellentz</rs> denken zu groß und zu edel, um mir diese offenherzigen Aeußerungen 
+               nicht zu verzeihen. Mein Zutrauen zu Ihrer Gnade ist unermeßlich. Ich bin selbst ein geborner 
+               <rs type="place" ref="#plBr">Breßlau</rs>er: ich bin in der Gewohnheit, 
+               <rs type="person" ref="#Hoy">Ewr. Excellentz</rs> mit ganzer Seele anzuhängen, erzogen: 
+               <rs type="person" ref="#JFG">mein Vater</rs> hat unzählige Beweise Ihrer Gewogenheit, Ihrer erhabnen Güte 
+               aufzuzeigen. Ich glaube nicht gefehlt zu haben, indem ich mich unterstand, 
+               <rs type="person" ref="#Hoy">Hochdenselben</rs> die für mich sehr harten Folgen einer Translocation nach 
+               <rs type="place" ref="#plBr">Breßlau</rs>, welche mir 
+               <ref target="#r1089-2">unter andern Umständen so überaus willkommen gewesen seyn wird</ref>, mit Offenherzigkeit 
+               vorzustellen. -
+            </p>
+            <p>
+               Erlaubt es indessen das Interesse des Königlichen Dienstes, dem jedes individuelle Verhältniß aufgeopfert werden muß, 
+               erlaubt es <rs type="person" ref="#Hoy">Ewr. Excellentz</rs> eigne Convenienz nicht, daß ich in 
+               <rs type="place" ref="#plBe">Berlin</rs> bleibe, so erwarte ich <rs type="person" ref="#Hoy">Hochdero</rs> fernere 
+               Befehle mit ruhiger Ergebung, fest überzeugt, daß <rs type="person" ref="#Hoy">Ewr. Excellentz</rs> in dem 
+               Augenblick, da Sie über mein und der an mich geknüpften Personen Schicksal gebieten, auch alles, was dieses 
+               Schicksal erleichtern kan, nicht als etwas Ihrem erhabnen Herzen fremdes ansehen werde.
+            </p>
+            <p>
+               Ich ersterbe in tiefster Devotion
+            </p>
+         </div>
+         <closer>
+            <salute rend="right"><rs type="person" ref="#Hoy">Ewr. hochgräflichen Excellentz</rs></salute>
+            <salute rend="right">unterthänigster Knecht</salute>
+            <dateline rend="left"><rs type="place" ref="#plBe">Berlin</rs> den <date when-iso="1794-10-11">11<span rend="sup">ten</span> Oktober 1794</date>.</dateline>
+            <signed rend="right">Gentz.</signed>
+         </closer>
+         <note xml:id="r1089-1">Abschrift</note>
+         <note resp="#edAG" xml:id="r1089-2">Vgl. den <rs type="citation" ref="#c1089-2">Brief vom 6. Februar 1791</rs>.</note>
+      </body>
+   </text>
+</TEI>

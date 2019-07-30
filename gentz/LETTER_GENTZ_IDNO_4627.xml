@@ -1,0 +1,246 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc xml:id="LETTER_GENTZ_4627">
+         <titleStmt>
+            <title>Friedrich von Gentz an Friedrich Vieweg, 11. April 1799</title>
+            <editor xml:id="edAG">Andreas Gálffy</editor>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <name>Forschungsstelle "Universitätssammlung Friedrich von Gentz"</name>
+               <link target="http://gentz-digital.ub.uni-koeln.de http://www.ub.uni-koeln.de/cdm/singleitem/collection/gentz/id/4626/"/>
+            </publisher>
+            <pubPlace>Cologne</pubPlace>
+            <idno type="Gentz-Edition-Number" n="4627"/>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <country>Germany</country>
+                  <settlement>Wiesbaden</settlement>
+                  <institution>Vieweg-Verlagsarchiv</institution>
+                  <repository>Briefsammlung 311 G: Gentz-Brief</repository>
+                  <idno>Nr. 93</idno>
+               </msIdentifier>
+               <msContents>
+                  <summary>
+                     Es wurde niemand beauftragt, das Historische Journal weiter zu drucken und zu vertreiben. Gentz versetzt dies 
+                     in große Verlegenheit, da verschiedene Leute von ihm vollständige Exemplare erhalten wollten, er aber niemanden 
+                     hatte, an den er sie hätte verweisen können. Unter ihnen ist auch ein Postsekretär Richter. Gentz bittet Vieweg 
+                     nun darum, jemanden zu seiner Vertretung zu benennen und eine ausreichende Zahl von Exemplaren zu hinterlegen. 
+                     Die Vertretung soll auch bekannt gegeben werden.
+                  </summary>
+               </msContents>
+            </msDesc>
+            <listBibl type="defRep">
+               <biblStruct xml:id="p4627-1" corresp="GBk-0048">
+                  <monogr>
+                     <editor>
+                        <persName>
+                           <ref target="http://d-nb.info/gnd/118538489"/>
+                           <forename>Friedrich von</forename>
+                           <surname>Gentz</surname>
+                        </persName>
+                     </editor>
+                     <title>Historisches Journal</title>
+                     <imprint>
+                        <publisher>Friedrich Vieweg dem ältern</publisher>
+                        <pubPlace>Berlin</pubPlace>
+                        <date>1799</date>
+                     </imprint>
+                  </monogr>
+                  <ptr target="https://books.google.de/books?id=Zk5BAAAAcAAJ"/>
+               </biblStruct>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Masterarbeit zu Matrikelnummer 5584124</p>
+         </projectDesc>
+      </encodingDesc>
+      <profileDesc>
+         <creation>
+            <date when-iso="1799-04-11">11. April 1799</date>
+         </creation>
+        <langUsage>
+           <language ident="d">deutsch</language>
+        </langUsage>
+         <textClass>
+            <keywords scheme="internal"><!-- internal: innerhalb des besagten Briefs -->
+               <term>Billet</term>
+               <term>Journal historique</term>
+               <term>Vertretung</term>
+            </keywords>
+            <keywords scheme="categorisation"><!-- Sinnabschnittseinteilung - relevant für den Fahrkartenautomaten! -->
+               <term xml:id="jrnh">Historisches Journal</term>
+            </keywords>
+         </textClass>
+         <textDesc>
+            <channel>manuscript</channel>
+            <constitution type="single"/>
+            <derivation type="original"/>
+            <domain type="private"/>
+            <factuality type="fact"/>
+            <interaction type="partial"/>
+            <preparedness type="unprepared"/>
+            <purpose type="inform"/>
+         </textDesc>
+         <particDesc>
+            <listPerson>
+               <!-- Sender und Adressat -->
+               <person role="sender" xml:id="Gen">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/118538489"/>
+                     <forename>Friedrich von</forename>
+                     <surname>Gentz</surname>
+                  </persName>
+               </person>
+               <person role="receiver" xml:id="FVW">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/119049546"/>
+                     <forename>Friedrich</forename>
+                     <surname>Vieweg</surname>
+                  </persName>
+               </person>
+               <!-- erwähnte Personen -->
+               <person role="named" xml:id="Trsk">
+                  <persName>
+                     <ref />
+                     <forename/>
+                     <surname>Treskow</surname>
+                  </persName>
+               </person>
+               <person role="named" xml:id="Lgh">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/1037508378"/>
+                     <forename>Johann Georg</forename>
+                     <surname>Langhoff</surname>
+                  </persName>
+               </person>
+               <person role="named" xml:id="PSR">
+                  <persName>
+                     <ref />
+                     <forename/>
+                     <surname>Richter</surname>
+                     <roleName type="office">Postsekretär</roleName>
+                  </persName>
+               </person>
+               <person role="named" xml:id="Snd">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/11892737X"/>
+                     <forename>Johann Daniel</forename>
+                     <surname>Sander</surname>
+                  </persName>
+               </person>
+            </listPerson>
+         </particDesc>
+         <settingDesc>
+            <listPlace>
+               <!-- Start- und Zielort -->
+               <place type="sender" xml:id="plBe">
+                  <country>
+                     <ref target="http://d-nb.info/gnd/4047194-9"/>
+                     <placeName>Preußen</placeName>
+                  </country>
+                  <settlement>
+                     <ref target="http://d-nb.info/gnd/4005728-8"/>
+                     <placeName>Berlin</placeName>
+                  </settlement>
+               </place>
+               <place type="receiver" xml:id="plBs">
+                  <country>
+                     <ref target="http://d-nb.info/gnd/4089993-7"/>
+                     <placeName>Staat Wolfenbüttel</placeName>
+                  </country>
+                  <settlement>
+                     <ref target="http://d-nb.info/gnd/4008065-1"/>
+                     <placeName>Braunschweig</placeName>
+                  </settlement>
+               </place>
+               <!-- erwähnte Orte -->
+               <place type="named" xml:id="plRu">
+                  <country>
+                     <ref target="http://d-nb.info/gnd/4076899-5"/>
+                     <placeName>Russland</placeName>
+                  </country>
+               </place>
+            </listPlace>
+         </settingDesc>
+      </profileDesc>
+      <revisionDesc>
+         <change xml:id="init" when-iso="2018-03-03" who="#edAG">Erstauszeichnung und Normierung des Dokumentes im Rahmen der Masterarbeit der Matrikelnummer 5584124</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div n="1" corresp="#jrnh">
+            <p>
+               Ich ergreife die Gelegenheit, die sich durch <rs type="person" ref="#Trsk">Treskow</rs> mir darbietet, Ihnen in der 
+               grösten Geschwindigkeit einige Zeilen zu schreiben.
+            </p>
+            <p>
+               Gleich nach Ihrer Abreise, liebster Freund, haben sich in Ansehung unsers 
+               <rs type="citation" ref="#p4627-1">Journals</rs> mehrere Schwierigkeiten hervorgethan, die mich ernstlich bereuen 
+               laßen, daß ich über eine Sache von solcher Wichtigkeit nicht vor Ihrer Entfernung recht ausführliche und gründliche 
+               Verabredungen mit Ihnen genommen habe.
+            </p>
+            <p>
+               Zu meinem Erstaunen erklärte mir <rs type="person" ref="#Lgh">Langhoff</rs>, daß er von dem Debit des Journals nichts 
+               wiße, daß er von den Heften der frühern Monate kein Exemplar besitze, daß er auch von Ihnen keine weitre Instruction 
+               erhalten habe, als das Aprilstück zu versenden.
+            </p>
+            <p>
+               Mit Mühe habe ich es dahin gebracht, daß er es in die hiesigen Zeitungen setzen ließ: auch hierüber behauptete er 
+               keine Instruction und keine Vollmacht zu haben.
+            </p>
+            <p>
+               Zum grösten Unglück wendeten sich gerade in diesen Tagen mehrere Personen an mich, um vollständige Exemplare zu 
+               haben: denken Sie Sich meine Verlegenheit, gestehen zu müßen, daß ich Niemand in 
+               <rs type="place" ref="#plBe">Berlin</rs> weiß an den ich sie adressiren konnte !
+            </p>
+            <p>
+               Der <rs type="person" ref="#PSR">PostSecretaire Richter</rs> hat mir heute eine lange schriftliche Litaney über den 
+               Gegenstand zugeschickt, worin er ebenfalls seine große Verlegenheit schildert.
+            </p>
+            <p>
+               Nach dem allen bitte ich Sie inständig und dringend, lieber Vieweg, 1) Jemanden in 
+               <rs type="place" ref="#plBe">Berlin</rs> zu ernennen, der in diesem Geschäft künftig Ihre Stelle vertrete. Ich hätte 
+               gern mit <rs type="person" ref="#Snd">Sander</rs> zu thun gehabt: da Sie es indessen nicht wollen, bescheide ich mich 
+               auch gern eines andern. Aber <emph rend="underlined"><rs type="person" ref="#Lgh">Langhoff</rs> kan</emph> das 
+               Geschäft - auch nicht einmal interimistisch besorgen. 2) Vor allen Dingen eine gehörige Anzahl Exemplare hier zu 
+               deponiren, damit man doch die neuen Liebhaber befriedigen könne. - <rs type="person" ref="#Lgh">Langhoff</rs> 
+               behauptet, Sie hätten alle Exemplare mit nach <rs type="place" ref="#plBs">Braunschweig</rs> genommen. Das glaube ich 
+               nun wohl nicht; vermuthe aber, daß Sie Ihre Ursachen gehabt haben, sie <emph rend="underlined">ihm</emph> nicht zu 
+               hinterlaßen. -
+            </p>
+            <p>
+               In jedem Falle bitte ich Sie, was ich nur bitten kan, das jetzige für unser beiderseitiges Interesse gewiß 
+               wesentlich-schädliche Interregnum nicht länger fortdauern zu laßen. Von entferntern Projekten, dem Debit in 
+               <rs type="place" ref="#plRu">Rußland</rs> pp spreche ich gar nicht: das sehe ich wohl, daß Sie jetzt mit Geschäften, 
+               die Ihnen näher liegen, überhäuft sind, und daß es nicht so gehen kan, als, da Sie noch ruhig in der Scharrnstraße 
+               saßen: aber haben Sie wenigstens die Freundschaft für mich, recht schnell dafür zu sorgen, daß der gewöhnliche Gang 
+               der Sache nicht unterbrochen werde, und wir nicht mit unserm ganzen Unternehmen ins Stocken gerathen.
+            </p>
+            <p>
+               Sobald Sie einen Repräsentanten ernannt haben werden, halte ich es für wesentlich und unumgänglich nötig, bey der 
+               Erscheinung des nächsten Stücks in den Zeitungen bekannt zu <emph rend="underlined">machen</emph>, wer dieser 
+               Repräsentant ist, damit doch das Publikum bestimmt wiße, an wen es sich künftig zu wenden hat.
+            </p>
+            <p>
+               Antworten Sie bald, liebster Freund, über einen Gegenstand der mich in der That beunruhigt, und von mehr als einer 
+               Seite verlegen macht. Sie werden Sich dadurch ein neues Verdienst erwerben um
+            </p>
+         </div>
+         <closer>
+            <salute rend="right">Ihren sehr ergebnen</salute>
+            <signed rend="right">Gentz.</signed>
+            <dateline rend="left"><rs type="place" ref="#plBe">Berlin</rs> <date when-iso="1799-04-11">11 April 99</date>.</dateline>
+         </closer>
+      </body>
+   </text>
+</TEI>

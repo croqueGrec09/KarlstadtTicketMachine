@@ -1,0 +1,451 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader type="text">
+      <fileDesc xml:id="LETTER_GENTZ_1113">
+         <titleStmt>
+            <title>Friedrich von Gentz an Elisabeth Graun, 10. Juni 1785</title>
+            <editor xml:id="edAG">Andreas Gálffy</editor>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <name>Forschungsstelle "Universitätssammlung Friedrich von Gentz"</name>
+               <link target="http://gentz-digital.ub.uni-koeln.de http://www.ub.uni-koeln.de/cdm/singleitem/collection/gentz/id/1112/"/>
+            </publisher>
+            <pubPlace>Cologne</pubPlace>
+            <idno type="Gentz-Edition-Number" n="1113"/>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <country>Poland</country>
+                  <settlement>Cracow</settlement>
+                  <institution>Biblioteka Jagiellońska</institution>
+                  <repository>Handschriftenabtelung</repository>
+                  <collection>Varnhagensammlung der ehemaligen Preußischen Bibliothek</collection>
+                  <idno>Karton 66</idno>
+               </msIdentifier>
+               <msContents>
+                  <summary>
+                     Die Sehnsucht Gentz' ist nicht befriedigt worden. Kein Brief ist seit seiner Ankunft in berlin eingetroffen. 
+                     Das ist für Gentz umso weniger begreiflich, da andere Leute ihm aus Königsberg geschrieben haben, dabei auch 
+                     Briefe von Elisabeth Graun angekündigt haben. Gentz äußert die Befürchtung, dass Elisabeth Graun ihn vergessen 
+                     haben könnte und beteuert, dass das Gegenteil davon nie eingetreten sei. Mehr noch: er hat ständig an sie 
+                     gedacht und schreibt lange und ausschweifend, dass das Band der Freundschaft nie zerstört werden könne. Es 
+                     gibt aber auch weitere Gründe, die Gentz beunruhigen. Zum Einen ist es der Gedanke an den Ehemann von Elisabeth 
+                     Graun. Gentz denkt, dass er ihr die Lust zum Schreiben nehmen könnte. Gentz bittet sie, ihm ihr Herz 
+                     auszuschütten und wiederholt die Ehrerbietung, die er ihr entgegenbringt. Dann schildert Gentz seine Lage in 
+                     Berlin. Er nähere sich beständig seinen Zielen, vermisst aber nach wie vor die engen familiären Beziehungen zu 
+                     Königsberg. Am Ende, nach einer erneuten Aufforderung an Graun, ihr Seelenleid mit Gentz zu teilen, erkundigt 
+                     sich Gentz nach seinem Bruder. Er habe wenig Umgang mit Frau Graun und möchte die Gründe dazu erfahren. Mit 
+                     herzlichen Grüßen und der Untrennbarkeit ihrer Seelen schließt Gentz den Brief.
+                  </summary>
+               </msContents>
+            </msDesc>
+            <listBibl type="preprints">
+               <biblStruct>
+                  <monogr>
+                     <editor>
+                        <persName>
+                           <ref target="http://d-nb.info/gnd/130953075"/>
+                           <forename>Friedrich Carl</forename>
+                           <surname>Wittichen</surname>
+                        </persName>
+                        <persName>
+                           <ref/> <!-- kein GND-Eintrag -->
+                           <forename>Ernst</forename>
+                           <surname>Salzer</surname>
+                        </persName>
+                     </editor>
+                     <title>Briefe von und an Friedrich von Gentz. 4 Bde.</title>
+                     <imprint>
+                        <publisher>Oldenbourg</publisher>
+                        <pubPlace>München, Berlin</pubPlace>
+                        <date>1909-1913</date>
+                     </imprint>
+                     <biblScope unit="volume" n="1">
+                        I
+                     </biblScope>
+                     <biblScope unit="page" from="30" to="35">
+                        Nr. 9
+                     </biblScope>
+                  </monogr>
+               </biblStruct>
+               <biblStruct>
+                  <monogr>
+                      <editor>
+                         <persName>
+                            <ref target="http://d-nb.info/gnd/117325791"/>
+                            <forename>Gustav</forename>
+                            <surname>Schlesier</surname>
+                         </persName>
+                      </editor>
+                      <title>Schriften von Friedrich von Gentz. Ein Denkmal. 5 Bde.</title>
+                      <imprint>
+                          <publisher>Verlag von Heinrich Wolff</publisher>
+                          <pubPlace>Mannheim</pubPlace>
+                          <date>1838-1840</date>
+                      </imprint>
+                      <biblScope unit="volume" n="1">
+                          I
+                      </biblScope>
+                      <biblScope unit="page" from="35" to="40">
+                          Nr. 5
+                      </biblScope>
+                  </monogr>
+               </biblStruct>
+            </listBibl>
+            <listBibl type="letterReferenced">
+               <bibl xml:id="c1113-1" corresp="#LETTER_GENTZ_NNNN">nicht bekannter Brief von Fritz, dem Bruder Elisabeth Grauns an Friedrich von Gentz</bibl>
+               <bibl xml:id="c1113-2" corresp="#LETTER_GENTZ_NNNN">nicht bekannter Brief von Elisabeth Graun an Friedrich von Gentz</bibl>
+               <bibl xml:id="c1113-3" corresp="#LETTER_GENTZ_NNNN">nicht bekannter Brief von Regina geborene Hartung an Elisabeth Graun</bibl>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Masterarbeit zu Matrikelnummer 5584124</p>
+         </projectDesc>
+      </encodingDesc>
+      <profileDesc>
+         <creation>
+            <date when-iso="1785-06-10">10. Juni 1785</date>
+         </creation>
+        <langUsage>
+           <language ident="d">deutsch</language>
+        </langUsage>
+         <textClass>
+            <keywords scheme="internal"><!-- internal: innerhalb des besagten Briefs -->
+               <term>Brief</term>
+               <term>Graun</term>
+               <term>Berlin</term>
+               <term>Sehnsucht</term>
+               <term>Liebe</term>
+               <term>Freundschaft</term>
+               <term>Regierungsrat Graun</term>
+            </keywords>
+            <keywords scheme="categorisation"><!-- Sinnabschnittseinteilung - relevant für den Fahrkartenautomaten! -->
+               <term xml:id="veg">Verhältnis Elisabeth Graun</term>
+               <term xml:id="krrg">Regierungsrat Graun</term>
+               <term xml:id="bezkg">Beziehungen zu Königsberg</term>
+               <term xml:id="genf">Gentz - Familie</term>
+            </keywords>
+         </textClass>
+         <textDesc>
+            <channel>manuscript</channel>
+            <constitution type="single"/>
+            <derivation type="original"/>
+            <domain type="private"/>
+            <factuality type="fact"/>
+            <interaction type="partial"/>
+            <preparedness type="prepared"/>
+            <purpose type="inform"/>
+         </textDesc>
+         <particDesc>
+            <listPerson>
+               <!-- Sender und Adressat -->
+               <person role="sender" xml:id="Gen">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/118538489"/>
+                     <forename>Friedrich von</forename>
+                     <surname>Gentz</surname>
+                  </persName>
+               </person>
+               <person role="receiver" xml:id="Gra">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/123518733"/>
+                     <forename>Elisabeth</forename>
+                     <surname>Graun</surname>
+                  </persName>
+               </person>
+               <!-- erwähnte Personen -->
+               <person role="named" xml:id="lno">
+                  <persName>
+                     <ref/>
+                     <forename>David oder Jeremias</forename>
+                     <surname>Le Noble</surname>
+                     <certainty locus="name">
+                        <desc>ist unklar! Entnommen aus: Gause, Fritz. Friedrich Gentz in Königsberg. In: Jahrbuch der Schlesischen Friedrich-Wilhelms-Universität zu Breslau, Band XVIII. 1973. Berlin: Duncker &amp; Humblot. S. 325</desc>
+                     </certainty>
+                  </persName>
+               </person>
+               <person role="named" xml:id="coe">
+                  <persName>
+                     <ref/><!-- kein GND-Eintrag -->
+                     <forename>Coelestine</forename>
+                     <surname>Schwinck</surname>
+                     <roleName type="address">Mademoiselle</roleName>
+                  </persName>
+               </person>
+               <person role="named" xml:id="den">
+                  <persName>
+                     <ref/><!-- kein GND-Eintrag -->
+                     <forename/>
+                     <surname>Dengel</surname>
+                  </persName>
+               </person>
+               <person role="named" xml:id="SWGra">
+                  <persName>
+                     <ref/><!-- kein GND-Eintrag -->
+                     <forename/>
+                     <surname/>
+                     <roleName type="family">Schwester von Elisabeth Graun</roleName>
+                  </persName>
+                  <certainty locus="name">
+                     <desc>Es konnte kein Name gefunden werden.</desc>
+                  </certainty>
+               </person>
+               <person role="named" xml:id="frt">
+                  <persName>
+                     <ref/><!-- kein GND-Eintrag -->
+                     <forename>Fritz</forename>
+                     <surname/>
+                     <roleName type="family">Bruder von Elisabeth Graun</roleName>
+                  </persName>
+               </person>
+               <person role="named" xml:id="RRGra">
+                  <persName>
+                     <ref/><!-- kein GND-Eintrag -->
+                     <forename>Karl Heinrich</forename>
+                     <surname>Graun</surname>
+                     <roleName type="office">Regierungsrat</roleName>
+                  </persName>
+               </person>
+               <person role="named" xml:id="HGen">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/11900738X"/>
+                     <forename>Heinrich</forename>
+                     <surname>Gentz</surname>
+                  </persName>
+               </person>
+               <person role="named" xml:id="RHa">
+                  <persName>
+                     <ref/>
+                     <forename>Regina</forename>
+                     <surname>geb. Hartung</surname>
+                  </persName>
+               </person>
+            </listPerson>
+         </particDesc>
+         <settingDesc>
+            <listPlace>
+               <!-- Start- und Zielort -->
+               <place type="sender" xml:id="plBe">
+                  <country>
+                     <ref target="http://d-nb.info/gnd/4047194-9"/>
+                     <placeName>Preußen</placeName>  
+                  </country>
+                  <settlement>
+                     <ref target="http://d-nb.info/gnd/4005728-8"/>
+                     <placeName>Berlin</placeName>
+                  </settlement>
+               </place>
+               <place type="receiver" xml:id="plKo">
+                  <country>
+                     <ref target="http://d-nb.info/gnd/4047194-9"/>
+                     <placeName>Preußen</placeName>  
+                  </country>
+                  <settlement>
+                     <ref target="http://d-nb.info/gnd/4031541-1"/>
+                     <placeName>Königsberg</placeName>
+                  </settlement>
+               </place>
+               <!-- erwähnte Orte -->
+            </listPlace>
+         </settingDesc>
+      </profileDesc>
+      <revisionDesc>
+         <change xml:id="init" when-iso="2018-01-27" who="#edAG">Erstauszeichnung und Normierung des Dokumentes im Rahmen der Masterarbeit der Matrikelnummer 5584124</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div n="1" corresp="#veg">
+            <opener>
+               <salute>Verehrungswürdigste, Theure Freundinn !</salute>
+            </opener>
+            <p>
+               Ich hoffe, daß es mir doch noch erlaubt ist, mich dieses schönen schmeichelhaften Nahmens zu erfreuen, den ein 
+               widriges Schiksal, was über uns zu schweben scheint, mir so gern entreißen möchte, den ich aber nicht fahren ließe, 
+               als bis die 4 Winde mein Herz zerrißen.
+            </p>
+            <p>
+               Sagen Sie mir: wie ist es möglich, daß ich noch keine Zeile von Ihnen gelesen habe, so lange ich in Berlin bin, da 
+               ich doch mit jedem Post-Tage mich sehne, nach einem Briefe von Ihnen, wie nach einem Trunk aus der süßen, klaren 
+               Freundschafts-Quelle, der auch dem herzlich wol schmekt, der <del rend="stroked">xxx</del> sich in dem köstlichen 
+               Weine der Liebe berauscht ? - wie ist es möglich, daß ich von 
+               <rs type="person" ref="#SWGra">Ihrer lieben Schwester</rs>, von 
+               <rs type="person" ref="#frt">Ihrem Bruder</rs> und, außer diesen genauern Freunden von manchen gleichgültigern 
+               Personen aus <rs type="place" ref="#plKo">Koenigsberg</rs> Briefe habe, nur von Ihnen nicht ? Eins von beyden, 
+               wenn die Schuld an Ihnen, und nicht etwa an äußerlichen Fatalitäten liegt, eins von beyden muß denn wahr seyn: 
+               Entweder <emph rend="underlined">Sie</emph> haben <emph rend="underlined">mich</emph> vergeßen, oder Sie bilden 
+               sich ein, daß <emph rend="underlined">ich Sie</emph> vergeßen habe. Mein Herz <emph rend="underlined">weiß</emph>, 
+               daß das letzte falsch ist, und <emph rend="underlined">wünscht</emph>, daß das erste nicht wahr seyn möchte.
+            </p>
+            <p>
+               Schon vor 3 Wochen erfuhr ich durch <rs type="citation" ref="#c1113-1">einen Brief</rs> 
+               <rs type="person" ref="#frt">Ihres Bruders</rs>, daß ich 
+               <rs type="citation" ref="#c1113-2">einen Brief von Ihnen</rs> zu erwarten hätte; hier sind seine eigne Worte am 
+               Schluß des Briefs: 
+               <cit corresp="#c1113-1">
+                  <quote>
+                     Mit voriger Post, werden Sie wol <rs type="citation" ref="#c1113-2">einen Brief</rs> 
+                     <rs type="person" ref="#Gra">der Graunin</rs> durch <rs type="person" ref="#lno">leNoble</rs> 
+                     erhalten haben.
+                  </quote>
+               </cit>
+               Das frappirte mich gewaltig; ich dachte indeßen, <rs type="person" ref="#lno">leNoble</rs> würde das Schreiben 
+               aufgeschoben, und mich also durch seine Nachläßigkeit um das Vergnügen, 
+               <rs type="citation" ref="#c1113-2">Ihren Brief</rs> <date when-iso="1785-06-02">8 Tage früher</date> lesen zu 
+               können, gebracht haben, und erwartete mit allen folgenden Posten die Ankunft dieser beyden so gewünschten Briefe. 
+               Da sie indeßen noch bis jetzt nicht angekommen sind, so bleiben mir nun zwey Fälle <del rend="stroked">abe</del> 
+               zur Erklärung dieser Erscheinung übrig: entweder, die beyden Briefe sind verlohren gegangen, oder: Sie beyde, meine 
+               Lieben, haben Sich noch bis jetzt zum Schreiben nicht entschließen können. Ich habe schon an 
+               <rs type="person" ref="#HGen">meinen Bruder</rs> deshalb geschrieben, aber ebenfalls noch keine Antwort darüber. 
+               Es wäre doch wahrlich ein recht ausgezeichnetes Unglück, wenn gerade diese beyden Briefe, an denen mir so viel, so 
+               sehr viel gelegen ist, auf der Post verlohren worden wären; und auf der andern Seite wäre es doch kein sehr 
+               tröstlicher Gedanke für mich, daß Sie bis jetzt noch nicht Zeit gehabt hätten ein paar Worte an den ehrlichsten 
+               und aufrichtigsten Freund zu schreiben, den Sie vielleicht jemals gehabt haben.
+            </p>
+            <p>
+               Dem sey aber wie ihm wolle: für mich, für meine Gesinnungen gegen Sie, für meine warme unwandelbare Freundschaft, 
+               ist es gleichviel, ob ich mit dem Schiksal, oder mit Ihrer Schreib-Scheue zu kämpfen habe. Sie können mich vergeßen, 
+               oder gleichgültiger gegen mich werden, aber daß <emph rend="underlined">ich</emph> Sie vergeße, daß 
+               <emph rend="underlined">meine</emph> Freundschaft auch nur um Einen Grad kälter werden sollte, als sie es bey meinem 
+               Aufenthalt in <rs type="place" ref="#plKo">Koenigsberg</rs> war, dahin bringen Sie es nicht; und dahin bringt 
+               es auch keine Gewalt der Umstände, und <pb/> wenn alle Post-Aemter sich verschwören, mir keine Zeile von Ihrer Hand 
+               vor meine Augen kommen zu laßen.
+            </p>
+            <p>
+               Nein ! meine Theure, liebe Freundinn ! Freundschaften von der Art, wie die unsrige war, schließt man nach meinem 
+               System, nicht auf halbe Jahre. Wie gern träumte ich mir in den frohen, stillen Stunden einer süßen Schwärmerey, daß 
+               dies Leben zu kurz wäre, um sie zu endigen - und jetzt sollten <emph rend="underlined">sechs Wochen</emph> sie 
+               zerstöhren ? Nicht also ! Eine Freundinn, wie Sie mir waren finde ich nicht wieder im ganzen Laufe meiner Jahre, 
+               und ich sollte Sie in derselbigen Welt wißen, und für mich verlohren sehen ! Helfen Sie mir: retten Sie mich von 
+               diesem verhaßten Zweifel ! Ich habe das Vertrauen was ich auf die Güte des menschlichen Geschlechts überhaupt baute, 
+               mit dem Vertrauen auf die unveränderliche Vortreflichkeit Ihres Charakters so fest zusammengehängt, daß ich 
+               wirklich Gefahr laufe, ein Misantrop zu werden, wenn ich es jemals für möglich zu halten anfange, daß auch Sie - 
+               <emph rend="underlined">Sie!</emph> - dem kleinen jämmerlichen Loos der Sterblichkeit opfern, auch 
+               <emph rend="underlined">Sie</emph>, Ihren Freund <emph rend="underlined">vergeßen</emph> sollten.
+            </p>
+            <p>
+               Ich habe in der Zeit meiner Abwesenheit, oft, unzählige Mahle an Sie gedacht; oder beßer, ich weis wenige 
+               Augenblicke, wo ich es <emph rend="underlined">nicht</emph> gethan hätte; ich hätte auch schon längst zum zweyten 
+               Mahle an Sie geschrieben, wenn mich nicht die falsche Hoffnung, die Ihres Bruders Brief in mir erweckte, immer 
+               betrogen hätte.
+            </p>
+         </div>
+         <div n="2" corresp="#krrg">
+            <p>
+               Ein Gedanke quält mich aber Ihretwegen ganz vorzüglich, ob er gleich vielleicht <add place="above">ganz</add> falsch, 
+               vielleicht nur wenig wahr seyn mag. Das ist der: ob nicht vielleicht Ihre Lage so unangenehm, der Umgang mit 
+               <rs type="person" ref="#RRGra">Ihrem Mann</rs> so verstimmt, und Ihre Seele so umwölkt, oder so betäubt ist, 
+               daß Sie nicht Kraft, oder nicht Lust haben, an mich zu schreiben. Wäre das der Fall, so bitte ich Sie, um unsrer 
+               ehmaligen großen, wahren, reinen Freundschaft, um Ihrer Ruhe und meiner Zufriedenheit willen: theilen Sie mir doch 
+               Alles mit was Sie härmt; seyn Sie doch mit Ihrem Kummer nicht geitziger als mit Ihrer Freundschaft, und bedenken 
+               Sie doch, gegen wen Sie Ihr Herz ausschütten, wenn Sie mich, wie sonst, zum Vertrauten Ihrer Empfindungen machen.
+            </p>
+            <p>
+               Denken Sie Sich einmal, wie das mir, der ich Sie so liebe, so verehre, wie man nur einen Menschen lieben und 
+               verehren kan, der ich Sie so gern glücklich und zufrieden wißen, und wenn ich es nur durch 
+               <add place="above">die</add> höchsten Aufopferungen zu Wege bringen könnte selbst glüklich machen möchte, wie das 
+               mir aengstlich und unerträglich seyn muß, daß ich nicht weiß, ob Sie vergnügt und mißvergnügt sind, ob Sie 
+               <rs type="person" ref="#lno">leNoble</rs> sehen, oder nicht sehen, mit ihm als mit einem Freunde, oder als mit 
+               einem Gleichgültigen, oder als mit einem unvergeßlichen Liebhaber umgehen, ruhig oder unruhig, ob Ihr Mann Ihnen 
+               erträglich begegnet, oder ob er Ihnen das Leben schwer macht, ob Sie bey Ihrer Sommer-<pb/>Wohnung die Freuden des 
+               Landlebens genießen oder in stillen, versteckten Thränen, und unglücklicher, gepreßter Sehnsucht verschmachten. 
+               Warum schreiben Sie mir das nicht ? Wißen Sie denn nicht mehr, daß ich mich eben so gut 
+               <add place="above">mit Ihnen</add> freuen, als mit Ihnen weinen kan ?
+            </p>
+            <p>
+               Wären Sie auch nicht die Frau, die Sie sind; <emph rend="underlined">mit</emph> Ihren Fehlern, das Ideal Ihres 
+               Geschlechts, der Sich Jedes Frauenzimmer nähern muß, wenn sie <emph rend="underlined">mir</emph> gefallen will; 
+               wären Sie das auch nicht, so würde schon die sonderbare Aehnlichkeit, die eine Zeitlang über unsern Schiksalen lag, 
+               und die vielen merkwürdigen Lagen und Umstände, in denen wir uns befunden haben mich auf ewig an Sie anschließen, 
+               und auf Ihr Schiksal ein beständiges und nieabnehmendes Intereße für mich werfen. Die 
+               <emph rend="underlined">Hervorbringung</emph> der Freundschaften ist selten unser Werk; auch die edelsten Seelen
+               werden durch Umstände und Verhältniße zuerst <emph rend="underlined">verbunden</emph>; aber das ist eben der Vorzug
+               nicht gemeiner Seelen, daß Umstände und Verhältniße sie nicht wieder <emph rend="underlined">trennen</emph> können.
+            </p>
+         </div>
+         <div n="3" corresp="#bezkg">
+            <p>
+               Sie werden wißen wollen, wie's <emph rend="underlined">mir</emph> geht ? - Gut, liebe Frau, Recht gut ! - Und das
+               ist wahrlich genung ! Ich nähere mich beständig meinem Ziele; alle meine jetzige Beschäftigungen gehen nahe oder
+               entfernt, auf die Erreichung meines erwünschten Zwecks aus; und es ist als wenn Alles sich vereinigt hätte, um mein
+               Glück zu befördern. Dabey bekomme ich alle Wochen einen oder zwey Briefe von 
+               <rs type="person" ref="#coe">meinem lieben Mädchen</rs>, habe das Vergnügen, die Personen, die mir hier in
+               <rs type="place" ref="#plBe">Berlin</rs> die liebsten sind, im Hause zu haben, und sehe mit ihnen einer heitern
+               und frohen Zukunft entgegen. Kan die Unzufriedenheit selbst mehr wünschen ? Auch können Sie Sich von meiner ruhigen,
+               heitern Seelen-Stimmung keine Vorstellung machen. Ich sehne mich freylich oft, sehr oft nach Koenigsberg, aber nur
+               sehr selten, wird aus dieser Sehnsucht, der melancholische Drang, der die Unglüklichen, besonders die
+               Unglüklich-Liebenden charakterisirt, <emph rend="underlined">den wir beyde kennen</emph> - !
+            </p>
+            <p>
+               Sehr oft denke ich an alle Ihre Lieben Geschwister, an <rs type="person" ref="#RHa">Ihre gute, gute Mutter</rs>,
+               an <rs type="person" ref="#den">unsre Dengeln</rs>, an <rs type="person" ref="#lno">leNoble</rs>, an alle
+               die glüklichen Stunden, die wir da zusammen genoßen; überdenke mir, wie wir uns zuweilen, in einsamen 3, 4 Stunden
+               langen Unterredungen, an der Freundschaft <emph rend="underlined">berauschten</emph>, so kühn dieses Wort auch
+               klingt. Neulich dachte ich an den Morgen, wie Sie mir die
+               <rs type="citation" ref="#c1113-3">Briefe Ihrer Mutter</rs> vorlasen, und ich im eigentlichen Verstande vor
+               Thränen der Rührung und der heiligsten Empfindungen nicht reden konnte ! Erinnern Sie Sich das wol ? Uns war beyden
+               so wohl; als wenn wir im Himmel wären. - Ein AnderMahl fiel mir die spaßhafte Scene ein, wie ich so lange an Ihrem
+               Flohr zog und zupfte, bis Sie mir endlich den Zipfel Ihrer Enveloppe in die Hand streckten, und in der aller
+               lächerlichsten zum Scherz angenommnen Hitze, zu mir sagten: Da ! Da ! -
+            </p>
+            <p>
+               Alles das ist vergänglich ! sage ich, wie Werther, aber keine Ewigkeit soll das Andenken an diese Zeit auslöschen,
+               wo ich unter den Qualen einer unglüklichen, und doch unüberwindlichen Liebe versunken wäre, und den mannichfaltigen
+               Stürmen, die damals über meinem <pb/> Haupte tobten sicherlich untergelegen hätte, wenn ich nicht in Ihrer
+               Freundschaft meinen Hafen, meine Zuflucht und meine Rettung gefunden hätte. Und daß aus demselbigen Munde, deßen
+               tröstlicher Zuspruch mich vom Tode, vom physischen oder moralischen, gleichviel - rettete, auch das erste Wort was
+               mich ins Leben, ins neue, glükliche Leben zurückrief, erschallen mußte - Unbegreiflich sonderbares Schicksal !
+               Mein Glück sollte mir von der Person angekündigt, gerade von der Person bereitet und befördert werden, der ich es
+               unter Allen am liebsten zu verdanken haben wollte.
+            </p>
+            <p>
+               Sehn Sie, Liebe, Beste, was das für eine Menge <add place="above">von</add> Bewegungs-Gründen sind, um unsre
+               Freundschaft fest und ungeschwächt zu erhalten ! Sehn Sie, unter wie vielen Titeln Sie verbunden sind mir zu
+               schreiben, als meine Freundinn, als Freundinn von einer solchen Art, wie man selten, oder nie mehr als Eine auf
+               Erden findet, als meine Trösterinn, als mein treuer Arzt im Unglück, als meine Wohlthäterinn, als meine
+               liebenswürdige Gefährtinn im Glück. Schreiben Sie mir, was Sie auf dem Herzen haben, und wie es Ihnen geht; ich
+               will mich mit Ihnen freuen, wenn Sie glüklich sind, Sie herzlich bedauern, und nach meinen Kräften trösten, wenn
+               Sie leiden, Ihnen gratuliren, wenn Sie stark, Sie aufmuntern und mit Rath unterstützen, wenn Sie schwach sind;
+               kurz, ich will versuchen, in wie fern das, was ich gern für Sie thun möchte, dem Verhältniß meiner Kräfte nach mit
+               dem zusammen treffen wird, was ich wirklich für Sie thun kan.
+            </p>
+         </div>
+         <div n="4" corresp="#genf">
+            <p>
+               Nur noch Eins, ehe ich schließe. Unter uns sind Komplimente einer gewißen Art längst verbannt. Sagen Sie mir also
+               gerade heraus, warum hat mein Bruder so wenig Umgang mit Ihnen ? Liegt die Schuld, an ihm, oder an Ihnen, oder an
+               Ihrem Manne ? Sie können Sich wol vorstellen, daß er es mir geschrieben hat, und wie sehr mir das aufgefallen ist,
+               kan ich Ihnen nicht sagen. Unter allen Ursachen, die ich mir davon denken kan, wäre mir aber keine empfindlicher,
+               als die: wenn ich selbst durch irgend einen Fehler in meinem Betragen dazu Gelegenheit gegeben hätte, das heißt
+               wenn ich Ihren Mann durch irgend Etwas beleidigt hätte. Denn für Sie bürgt mir der Ausspruch Ihres eignen Mundes:
+               <quote corresp="#Gra">Daß Sie nie auf mich <emph rend="underlined">böse</emph> werden können</quote>
+            </p>
+         </div>
+         <div n="5" corresp="#veg">
+            <p>
+               Die Bitte, womit ich schließe, ist die: Lesen Sie diesen Brief doch zuweilen durch, wenn Sie lange nicht an mich
+               geschrieben haben, und erinnern Sie Sich dabey der Versprechungen, die wir einander so oft, und so feyerlich
+               wiederholt haben. <rs type="person" ref="#RRGra">Ihren Mann</rs> darf ich nicht grüßen laßen; denn der muß
+               diesen Brief nicht sehen; aber desto herzlicher grüßen Sie mir <rs type="person" ref="#lno">leNoble</rs>: meine 
+               Klagen fallen auf ihn auch; ein Brief von ihm wäre mir eine so angenehme Erscheinung, daß er sich, glaube ich, den
+               Augenblik hinsetzte und schriebe, wenn er sich das recht lebhaft denken könnte. Grüßen Sie mir Ihre liebe
+               Geschwister tausendmal; auch <rs type="person" ref="#coe">meine Coelestine</rs>, wenn Sie sie sehen, und 
+               Dengels. Denken Sie, daß mein Geist sehr oft an den Fenstern jener unvergeßlichen 
+               <emph rend="underlined">grünen Stube</emph> schwebt; und daß mein Körper das Einzige ist, was 84 Meilen von Ihnen
+               entfernt bleibt.
+            </p>
+         </div>
+         <closer>
+            <dateline rend="left"><rs type="place" ref="#plBe">Berlin</rs>, den <date when-iso="1785-06-10">10<span rend="sup">ten</span> Juny. 1785.</date></dateline>
+            <salute rend="right">
+               Ihr unveränderlich ergebenster Freund
+            </salute>
+            <signed rend="right">Gentze.</signed>
+         </closer>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader type="text">
+      <fileDesc xml:id="LETTER_GENTZ_0179">
+         <titleStmt>
+            <title>Friedrich von Gentz an Friedrich Vieweg, 29. Juni 1796</title>
+            <editor xml:id="edAG">Andreas Gálffy</editor>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <name>Forschungsstelle "Universitätssammlung Friedrich von Gentz"</name>
+               <link target="http://gentz-digital.ub.uni-koeln.de http://www.ub.uni-koeln.de/cdm/singleitem/collection/gentz/id/178/"/>
+            </publisher>
+            <pubPlace>Cologne</pubPlace>
+            <idno type="Gentz-Edition-Number" n="0179"/>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <country>Germany</country>
+                  <settlement>Wiesbaden</settlement>
+                  <institution>Vieweg-Verlagsarchiv</institution>
+                  <repository>Briefsammlung 311 G: Gentz-Briefe</repository>
+                  <idno>Nr. 16</idno>
+               </msIdentifier>
+               <msContents>
+                  <summary>
+                     Am Montag möchte Gentz Vieweg empfangen. Wedingen wird am Vormittag bei Vieweg sein und Marcuse am Mittag, um 
+                     fianzielle Angelegenheiten zu regeln. Gentz hat seine alte Ruhe wieder.
+                  </summary>
+               </msContents>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Masterarbeit zu Matrikelnummer 5584124</p>
+         </projectDesc>
+      </encodingDesc>
+      <profileDesc>
+         <creation>
+            <date when-iso="1796-06-29">29. Juni 1796</date>
+         </creation>
+        <langUsage>
+           <language ident="d">deutsch</language>
+        </langUsage>
+         <textClass>
+            <keywords scheme="internal"><!-- internal: innerhalb des besagten Briefs -->
+               <term>Billet</term>
+               <term>Marcuse</term>
+               <term>Wedingen</term>
+               <term>Schulden</term>
+            </keywords>
+            <keywords scheme="categorisation"><!-- Sinnabschnittseinteilung - relevant für den Fahrkartenautomaten! -->
+               <term xml:id="vwf">Vieweg - Freundschaft</term>
+            </keywords>
+         </textClass>
+         <textDesc>
+            <channel>manuscript</channel>
+            <constitution type="single"/>
+            <derivation type="original"/>
+            <domain type="private"/>
+            <factuality type="fact"/>
+            <interaction type="partial"/>
+            <preparedness type="prepared"/>
+            <purpose type="inform"/>
+         </textDesc>
+         <particDesc>
+            <listPerson>
+               <!-- Sender und Adressat -->
+               <person role="sender" xml:id="Gen">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/118538489"/>
+                     <forename>Friedrich von</forename>
+                     <surname>Gentz</surname>
+                  </persName>
+               </person>
+               <person role="receiver" xml:id="FVW">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/119049546"/>
+                     <forename>Friedrich</forename>
+                     <surname>Vieweg</surname>
+                  </persName>
+               </person>
+               <!-- erwähnte Personen -->
+               <person role="named" xml:id="Wed">
+                  <persName>
+                     <ref/>
+                     <forename/>
+                     <surname>Wedigen</surname>
+                  </persName>
+               </person>
+               <person role="named" xml:id="JMk">
+                  <persName>
+                     <ref/>
+                     <forename>Jakob</forename>
+                     <surname>Markuse</surname>
+                  </persName>
+               </person>
+            </listPerson>
+         </particDesc>
+         <settingDesc>
+            <listPlace>
+               <!-- Start- und Zielort -->
+               <place type="sender" xml:id="plBe">
+                  <country>
+                     <ref target="http://d-nb.info/gnd/4047194-9"/>
+                     <placeName>Preußen</placeName>
+                  </country>
+                  <settlement>
+                     <ref target="http://d-nb.info/gnd/4005728-8"/>
+                     <placeName>Berlin</placeName>
+                  </settlement>
+               </place>
+               <!-- erwähnte Orte -->
+            </listPlace>
+         </settingDesc>
+      </profileDesc>
+      <revisionDesc>
+         <change xml:id="init" when-iso="2018-02-18" who="#edAG">Erstauszeichnung und Normierung des Dokumentes im Rahmen der Masterarbeit der Matrikelnummer 5584124</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>     
+      <body>
+         <div n="1" corresp="#vwf">
+            <p>
+               Wäre Ihnen vorläufig der <date when-iso="1796-07-04">künftige Montag</date> recht, lieber Vieweg, so würden 
+               <add place="above">wir</add> Sie mit dem grösten Vergnügen <add place="above">hier</add> empfangen. Es versteht 
+               <add place="above">sich</add>, daß dies nur eine vorläufige Bestimmung ist: denn auf alle Fälle würde ich 
+               <date when-iso="1796-07-01">Freitag</date> oder <date when-iso="1796-07-02">Sonnabend</date> noch einmal bey Ihnen 
+               anfragen, ob sich nichts zugetragen hat, was die Hoffnung Sie zu sehen, vereitelte.
+            </p>
+            <p>
+               <rs type="person" ref="#Wed">Wedingen</rs> wird <date when-iso="1796-06-29">heute Vormittag</date> bey Ihnen seyn, 
+               und <rs type="person" ref="#JMk">Marcuse</rs> gegen Mittag das Schreiben schicken, unter welches Sie, nach Ihrer 
+               freundschaftlichen Zusage, notiren wollen, daß die Zahlung (von 300 Reichstalern) auf den 
+               <date when-iso="1796-07-04">4ten</date> erfolgen sollte.
+            </p>
+            <p>
+               Nun sitze ich wieder in meiner Ruhe. Dank Ihnen, mein theurer Freund, ohne dessen redliche Bemühungen ich dies 
+               nicht würde sagen können.
+            </p>
+            <signed rend="right">Gentz</signed>
+         </div>
+      </body>
+      <back>
+         <p>
+            Des
+            Herrn Vieweg
+            Wohlgebohren.
+         </p>
+      </back>
+   </text>
+</TEI>

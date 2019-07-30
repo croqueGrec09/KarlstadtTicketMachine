@@ -1,0 +1,645 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc xml:id="LETTER_GENTZ_1749">
+         <titleStmt>
+            <title>Friedrich von Gentz an Girolamo Lucchesini, 19. September 1800</title>
+            <editor xml:id="edAG">Andreas Gálffy</editor>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <name>Forschungsstelle "Universitätssammlung Friedrich von Gentz"</name>
+               <link target="http://gentz-digital.ub.uni-koeln.de http://www.ub.uni-koeln.de/cdm/singleitem/collection/gentz/id/1748/"/>
+            </publisher>
+            <pubPlace>Cologne</pubPlace>
+            <idno type="Gentz-Edition-Number" n="1749"/>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <country>Germany</country>
+                  <settlement>Berlin</settlement>
+                  <institution>Geheimes Staatsarchiv Preußischer Kulturbesitz</institution>
+                  <repository>I. HA, Rep 92</repository>
+                  <collection>Nachlaß Lucchesini, Nr. 27</collection>
+                  <idno>Bl. 60-64v</idno>
+               </msIdentifier>
+               <msContents>
+                  <summary>
+                     Nachdem vor einigen Tagen noch die Zeichen auf Krieg standen, heißt es jetzt, dass der Waffenstillstand 
+                     fortgesetzt wird. Eine letzte Verlängerung des Waffenstillstandes wurde nach Wien überbracht. Gleichzeitig 
+                     finden Truppenbewegungen der österreichisch-ungarischen und der russischen Armee statt. 60 000 Mann sind von 
+                     Ungarn organisiert; Russland beabsichtigt zwei Armeen zu je 80 000 Mann zusammenzuziehen. Zwischen Preußen und 
+                     Russland bestehen Verhandlungen zu einer Allianz und Gentz bekräftigt, dass der Zar von Russland keinesfalls 
+                     alleine handeln kann. Auch in Berlin finden Manöver statt. Sonst vermeldet Gentz in einem Postscript, dass die 
+                     Moniteurs Interessantes über Ägypten, und dass aus Wien der Tod Menous durch die Pest bestätigt wird. Im Anhang 
+                     von Haugwitz wird von der Zurückhaltung Englands in diesem Krieg, der noch viel Leit über die Menschheit 
+                     bringe, berichtet.
+                  </summary>
+               </msContents>
+            </msDesc>
+            <listBibl type="letterReferenced">
+               <bibl xml:id="c1749-1" corresp="#LETTER_GENTZ_NNNN">nicht bekannter Brief von Girolamo Lucchesini an Friedrich von Gentz, 15. September 1800</bibl>
+            </listBibl>
+            <listBibl type="defRep">
+               <biblStruct xml:id="p1749-1" corresp="Arc-0010">
+                  <monogr>
+                     <author>
+                        <persName>
+                           <ref target="http://d-nb.info/gnd/118789422"/>
+                           <forename>Charles Joseph</forename>
+                           <surname>Panckoucke</surname>
+                        </persName>
+                     </author>
+                     <title>Gazette Nationale, ou, Le moniteur universel</title>
+                     <imprint>
+                        <pubPlace>Paris</pubPlace>
+                        <date>1800</date>
+                     </imprint>
+                  </monogr>
+                  <ptr target="https://archive.org/details/gazettenationale1800panc"/>
+               </biblStruct>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Masterarbeit zu Matrikelnummer 5584124</p>
+         </projectDesc>
+      </encodingDesc>
+      <profileDesc>
+         <creation>
+            <date when-iso="1800-09-19">19. September 1800</date>
+         </creation>
+        <langUsage>
+           <language ident="f">französisch</language>
+        </langUsage>
+         <textClass>
+            <keywords scheme="internal"><!-- internal: innerhalb des besagten Briefs -->
+               <term>Brief</term>
+               <term>Waffenstillstand</term>
+               <term>Minto</term>
+               <term>Invasion</term>
+               <term>Napoleon</term>
+               <term>Truppenbewegungen</term>
+               <term>Manöver</term>
+            </keywords>
+            <keywords scheme="categorisation"><!-- Sinnabschnittseinteilung - relevant für den Fahrkartenautomaten! -->
+               <term xml:id="fvlv">Frieden von Lunéville</term>
+               <term xml:id="bewoest">Bewegung der österreichischen Armee</term>
+               <term xml:id="bewrus">Bewegung der russischen Armee</term>
+               <term xml:id="prrus">Preußen - Russland</term>
+               <term xml:id="kpr">Preußen</term>
+               <term xml:id="vgl">Verhältnis Girolamo Lucchesini</term>
+               <term xml:id="mon">Moniteur</term>
+               <term xml:id="bezw">Beziehungen zu Wien</term>
+               <term xml:id="napinv">Napoleonische Invasion</term>
+            </keywords>
+         </textClass>
+         <textDesc>
+            <channel>manuscript</channel>
+            <constitution type="single"/>
+            <derivation type="original"/>
+            <domain type="private"/>
+            <factuality type="fact"/>
+            <interaction type="partial"/>
+            <preparedness type="prepared"/>
+            <purpose type="inform"/>
+         </textDesc>
+         <particDesc>
+            <listPerson>
+               <!-- Sender und Adressat -->
+               <person role="sender" xml:id="Gen">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/118538489"/>
+                     <forename>Friedrich von</forename>
+                     <surname>Gentz</surname>
+                  </persName>
+               </person>
+               <person role="receiver" xml:id="GirL">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/118780670"/>
+                     <forename>Girolamo</forename>
+                     <surname>Lucchesini</surname>
+                  </persName>
+               </person>
+               <!-- erwähnte Personen -->
+               <person role="named" xml:id="Mto">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/119079186"/>
+                     <forename>Gilbert E.</forename>
+                     <surname>Minto</surname>
+                  </persName>
+               </person>
+               <person role="named" xml:id="JJPLC">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/159696496"/>
+                     <forename>John Joshua Proby</forename>
+                     <surname>Carysfort</surname>
+                  </persName>
+               </person>
+               <person role="named" xml:id="CHCvH">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/116527080"/>
+                     <forename>Christian Heinrich Curt von</forename>
+                     <surname>Haugwitz</surname>
+                  </persName>
+               </person>
+               <person role="named" xml:id="Fr">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/118534955"/>
+                     <forename>Franz II.</forename>
+                     <surname>Heiliges Römisches Reich</surname>
+                     <roleName type="office">Kaiser</roleName>
+                  </persName>
+               </person>
+               <person role="named" xml:id="JGBvL">
+                  <persName>
+                     <ref />
+                     <forename>Joseph Georg Benedikt von</forename>
+                     <surname>Lehrbach</surname>
+                  </persName>
+               </person>
+               <person role="named" xml:id="JVMM">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/118784811"/>
+                     <forename>Jean Victor Marie</forename>
+                     <surname>Moreau</surname>
+                  </persName>
+               </person>
+               <person role="named" xml:id="NBon">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/118586408"/>
+                     <forename>Napoleon I.</forename>
+                     <surname/>
+                     <roleName type="office">Kaiser</roleName>
+                  </persName>
+               </person>
+               <person role="named" xml:id="JChz">
+                  <persName>
+                     <ref />
+                     <forename>Jacques</forename>
+                     <surname>Chazal</surname>
+                  </persName>
+               </person>
+               <person role="named" xml:id="JAFdPvT">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/118622390"/>
+                     <forename>Johann Amadeus Franz de Paula von</forename>
+                     <surname>Thugut</surname>
+                  </persName>
+               </person>
+               <person role="named" xml:id="MCNK">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/133035689"/>
+                     <forename>Maria Carolina</forename>
+                     <surname/>
+                     <roleName type="office">Königin von Neapel</roleName>
+                  </persName>
+               </person>
+               <person role="named" xml:id="KEvO">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/118723049"/>
+                     <forename>Karl</forename>
+                     <surname/>
+                     <roleName type="office">Erzherzog von Österreich</roleName>
+                  </persName>
+               </person>
+               <person role="named" xml:id="JEvU">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/118713132"/>
+                     <forename>Joseph</forename>
+                     <surname/>
+                     <roleName type="office">Erzherzog von Ungarn</roleName>
+                  </persName>
+               </person>
+               <person role="named" xml:id="BvK">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/136535526"/>
+                     <forename>Burchard von</forename>
+                     <surname>Krüdener</surname>
+                  </persName>
+               </person>
+               <person role="named" xml:id="ZPI">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/118739549"/>
+                     <forename>Paul I.</forename>
+                     <surname>Romanow</surname>
+                     <roleName type="office">Zar von Russland</roleName>
+                  </persName>
+               </person>
+               <person role="named" xml:id="PPP">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/117679844"/>
+                     <forename>Peter Petrowitsch</forename>
+                     <surname>Pahlen</surname>
+                  </persName>
+               </person>
+               <person role="named" xml:id="MIK">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/118987437"/>
+                     <forename>Michail I.</forename>
+                     <surname>Kutuzov</surname>
+                  </persName>
+               </person>
+               <person role="named" xml:id="PKvA">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/11629633X"/>
+                     <forename>Philipp Karl von</forename>
+                     <surname>Alvensleben</surname>
+                  </persName>
+               </person>
+               <person role="named" xml:id="LBon">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/118896156"/>
+                     <forename>Louis</forename>
+                     <surname>Bonaparte</surname>
+                  </persName>
+               </person>
+               <person role="named" xml:id="DAvSR">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/1037255569"/>
+                     <forename>David Alfonsh von</forename>
+                     <surname>Sandoz Rollin</surname>
+                  </persName>
+               </person>
+               <person role="named" xml:id="CvT">
+                  <persName>
+                     <ref />
+                     <forename>Charlotte von</forename>
+                     <surname>Tarrach</surname>
+                  </persName>
+               </person>
+               <person role="named" xml:id="Mno">
+                  <persName>
+                     <ref />
+                     <forename/>
+                     <surname>Menou</surname>
+                  </persName>
+               </person>
+               <person role="named" xml:id="KGeIII">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/118716913"/>
+                     <forename>Georg III.</forename>
+                     <surname/>
+                     <roleName type="office">König von England</roleName>
+                  </persName>
+               </person>
+            </listPerson>
+         </particDesc>
+         <settingDesc>
+            <listPlace>
+               <!-- Start- und Zielort -->
+               <place type="sender" xml:id="plSb">
+                  <country>
+                     <ref target="http://d-nb.info/gnd/4047194-9"/>
+                     <placeName>Preußen</placeName>
+                  </country>
+                  <settlement>
+                     <ref target="http://d-nb.info/gnd/116944-0"/>
+                     <placeName>Schöneberg</placeName>
+                  </settlement>
+               </place>
+               <!-- erwähnte Orte -->
+               <place type="named" xml:id="plRb">
+                  <country>
+                     <ref target="http://d-nb.info/gnd/4005044-0"/>
+                     <placeName>Bayern</placeName>
+                  </country>
+                  <settlement>
+                     <ref target="http://d-nb.info/gnd/4048989-9"/>
+                     <placeName>Regensburg</placeName>
+                  </settlement>
+               </place>
+               <place type="named" xml:id="plWi">
+                  <country>
+                     <ref target="http://d-nb.info/gnd/4075601-4"/>
+                     <placeName>Erzherzogtum Österreich</placeName>  
+                  </country>
+                  <settlement>
+                     <ref target="http://d-nb.info/gnd/4066009-6"/>
+                     <placeName>Wien</placeName>
+                  </settlement>
+               </place>
+               <place type="named" xml:id="plPa">
+                  <country>
+                     <ref target="http://d-nb.info/gnd/4018145-5"/>
+                     <placeName>Frankreich</placeName>  
+                  </country>
+                  <settlement>
+                     <ref target="http://d-nb.info/gnd/4044660-8"/>
+                     <placeName>Paris</placeName>
+                  </settlement>
+               </place>
+               <place type="named" xml:id="plSt">
+                  <country>
+                     <ref target="http://d-nb.info/gnd/4067029-6"/>
+                     <placeName>Württemberg</placeName>
+                  </country>
+                  <settlement>
+                     <ref target="http://d-nb.info/gnd/4058282-6"/>
+                     <placeName>Stuttgart</placeName>
+                  </settlement>
+               </place>
+               <place type="named" xml:id="plCs">
+                  <country>
+                     <ref target="http://d-nb.info/gnd/4067029-6"/>
+                     <placeName>Württemberg</placeName>
+                  </country>
+                  <region>
+                     <ref target="http://d-nb.info/gnd/4069840-3"/>
+                     <placeName>Cannstadt</placeName>
+                  </region>
+               </place>
+               <place type="named" xml:id="plBoh">
+                  <country>
+                     <ref target="http://d-nb.info/gnd/4007467-5"/>
+                     <placeName>Böhmen</placeName>
+                  </country>
+               </place>
+               <place type="named" xml:id="plHu">
+                  <country>
+                     <ref target="http://d-nb.info/gnd/4078541-5"/>
+                     <placeName>Ungarn</placeName>
+                  </country>
+               </place>
+               <place type="named" xml:id="plBe">
+                  <country>
+                     <ref target="http://d-nb.info/gnd/4047194-9"/>
+                     <placeName>Preußen</placeName>
+                  </country>
+                  <settlement>
+                     <ref target="http://d-nb.info/gnd/4005728-8"/>
+                     <placeName>Berlin</placeName>
+                  </settlement>
+               </place>
+               <place type="named" xml:id="plLt">
+                  <country>
+                     <ref target="http://d-nb.info/gnd/4047194-9"/>
+                     <placeName>Preußen</placeName>
+                  </country>
+                  <region>
+                     <ref target="http://d-nb.info/gnd/5034454-7"/>
+                     <placeName>Litthauen</placeName>
+                  </region>
+               </place>
+               <place type="named" xml:id="plWh">
+                  <country>
+                     <ref target="http://d-nb.info/gnd/4076899-5"/>
+                     <placeName>Russland</placeName>
+                  </country>
+                  <region>
+                     <ref target="http://d-nb.info/gnd/4079380-1"/>
+                     <placeName>Wolynien</placeName>
+                  </region>
+               </place>
+               <place type="named" xml:id="plLo">
+                  <country>
+                     <ref target="http://d-nb.info/gnd/4022153-2"/>
+                     <placeName>Vereinigtes Königreich</placeName>                
+                  </country>
+                  <settlement>
+                     <ref target="http://d-nb.info/gnd/4074335-4"/>
+                     <placeName>London</placeName>
+                  </settlement>
+               </place>
+               <place type="named" xml:id="plPr">
+                  <country>
+                     <ref target="http://d-nb.info/gnd/4047194-9"/>
+                     <placeName>Preußen</placeName>
+                  </country>
+               </place>
+               <place type="named" xml:id="plRu">
+                  <country>
+                     <ref target="http://d-nb.info/gnd/4076899-5"/>
+                     <placeName>Russland</placeName>
+                  </country>
+               </place>
+               <place type="named" xml:id="plFr">
+                  <country>
+                     <ref target="http://d-nb.info/gnd/4018145-5"/>
+                     <placeName>Frankreich</placeName>  
+                  </country>
+               </place>
+               <place type="named" xml:id="plEu">
+                  <geogName type="continent">
+                     <ref target="http://d-nb.info/gnd/4015701-5"/>
+                     <placeName>Europa</placeName>
+                  </geogName>
+               </place>
+               <place type="named" xml:id="plPo">
+                  <country>
+                     <ref target="http://d-nb.info/gnd/4047194-9"/>
+                     <placeName>Preußen</placeName>
+                  </country>
+                  <region>
+                     <ref target="http://d-nb.info/gnd/4046948-7"/>
+                     <placeName>Potsdam</placeName>  
+                  </region>
+               </place>
+               <place type="named" xml:id="plAeg">
+                  <country>
+                     <ref target="http://d-nb.info/gnd/4482801-9"/>
+                     <placeName>Ägypten</placeName>  
+                  </country>
+               </place>
+            </listPlace>
+         </settingDesc>
+      </profileDesc>
+      <revisionDesc>
+         <change xml:id="init" when-iso="2018-03-07" who="#edAG">Erstauszeichnung und Normierung des Dokumentes im Rahmen der Masterarbeit der Matrikelnummer 5584124</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <opener>
+            <dateline rend="right"><rs type="place" ref="#plSb">Schöneberg</rs> ce <date when-iso="1800-09-19">19 Septbre 1800</date></dateline>
+            <salute rend="left">Monsieur le Marquis !</salute>
+         </opener>
+         <div n="1" corresp="#fvlv">
+            <p>
+               Le tableau mouvant, qui fait l'histoire de nos jours, vient de présenter encore une nouvelle face. 
+               <emph rend="underlined">L'armistice est repris</emph>. Combien de tems il subsistera, quels nouveaux changemens il 
+               amènera - qui oseroit le calculer ? Voici le fait, tel qu'il a été annoncé par un courier de 
+               <rs type="person" ref="#Mto">Lord Minto</rs>, arrivé hier matin à <rs type="person" ref="#JJPLC">Lord Carysfort</rs>, 
+               et qu'il a été confirmé par une depêche que le <rs type="person" ref="#CHCvH">Comte Haugwitz</rs> a reçu de 
+               <rs type="place" ref="#plRb">Ratisbonne</rs>.
+            </p>
+            <p>
+               <rs type="person" ref="#Fr">L'empereur</rs> est parti de <rs type="place" ref="#plWi">Vienne</rs> 
+               <date when-iso="1800-09-06">le 6</date>, et il est arrivé <date when-iso="1800-09-08">le 8</date> au 
+               quartier-général. Immédiatement après il <add place="above">a</add> envoyé un courier (d'après la version du 
+               correspondant de <rs type="person" ref="#CHCvH">Monsieur de Haugwit</rs>z, le 
+               <rs type="person" ref="#JGBvL">Comte Lehrbach</rs>) au <rs type="person" ref="#JVMM">Général Moreau</rs> pour lui 
+               proposer de suspendre les hostilités jusqu'à ce que le gouvernement françois auroit répondu à une dernière 
+               déclaration qui lui avoit été envoyée par un courier. <rs type="person" ref="#JVMM">Moreau</rs> y a consenti 
+               <emph rend="underlined">provisoirement</emph>, en transmettant à <rs type="place" ref="#plPa">Paris</rs> par le 
+               télégraphe la proposition qu'on venoit de lui faire. L'armistice est donc <pb/> provisoirement renouvellé. La réponse 
+               de <rs type="place" ref="#plPa">Paris</rs> décidera s'il le sera définitivement.
+            </p>
+            <p>
+               Lorsque cette nouvelle arriva hier, les diplomates croyoient, que <rs type="person" ref="#Fr">l'empereur</rs> avoit 
+               d'abord rejetté l'ultimatum de <rs type="person" ref="#NBon">Bonaparte</rs>, qu'il étoit parti de 
+               <rs type="place" ref="#plWi">Vienne</rs> dans ces dispositions, et qu'il avoit subitement changé de résolution en 
+               arrivant au quartier général. Cette opinion me paroissoit si peu vraisemblable, que je répugnois fortement à la 
+               partager. La combinaison de plusieurs circonstances m'a fait adopter un autre systême: je puis me tromper, mais je 
+               soumettrai à Votre Excellence la manière dont j'envisage cet évènement. Le courier qui a apporté à 
+               <rs type="place" ref="#plWi">Vienne</rs> l'ultimatum de <rs type="person" ref="#NBon">Bonaparte</rs> étoit celui qui 
+               est généralement connu sous le nom de <rs type="person" ref="#JChz"><emph rend="underlined">Moustache</emph></rs>. Ce 
+               même personnage, comme je vois par la gazette de <rs type="place" ref="#plSt">Stuttgard</rs>, a repassé à 
+               <rs type="place" ref="#plCs"><emph rend="underlined">Canstadt</emph></rs> le 9 à 8 heures du matin. Il me paroit donc 
+               évident, qu'il étoit porteur de cette même déclaration, dont <rs type="person" ref="#Fr">l'empereur</rs> attend <pb/> 
+               la prolongation ultérieure de l'armistice, que cette déclaration n'est autre chose que la réponse, donnée à 
+               l'ultimatum par la Cour de <rs type="place" ref="#plWi">Vienne</rs>, et que 
+               <rs type="person" ref="#Fr">l'empereur</rs> <emph rend="underlined">regarde</emph> cette réponse comme pouvant 
+               ramener des dispositions pacifiques.
+            </p>
+         </div>
+         <div n="2" corresp="#bewoest">
+            <p>
+               Entre les diverses conjectures que Votre Excellence d'après 
+               <rs type="citation" ref="#c1749-1">sa gracieuse lettre</rs> du <date when-iso="1800-09-15">15</date> a formées, 
+               <del rend="stroked">sur</del> pour expliquer le départ de <rs type="person" ref="#Fr">l'Empereur</rs>, celle qui 
+               donneroit au <rs type="person" ref="#JAFdPvT">Baron de Thugut</rs> le dessein, "de le tirer de 
+               <rs type="place" ref="#plWi">Vienne</rs> pour faire à l'armée ce qu'il veut sans la surveillance des Anglois", me 
+               paroit la plus fondée. Il seroit difficile d'admettre une explication dans laquelle on supposeroit le crédit de 
+               <rs type="person" ref="#JAFdPvT">Monsieur de Thugut</rs> diminué; car selon toutes les apparences il est 
+               invariablement le même, et Votre Excellence m'en fournit Elle-même une nouvelle preuve, par la remarque, que les deux 
+               généraux destinés au commandement sont entièrement dans ses intérèts. Au reste, la résolution de 
+               <rs type="person" ref="#Fr">l'empereur</rs> a été en grande partie l'effet de la consternation que la nouvelle de la 
+               cessation de l'armistice a répandu dans les états héréditaires. La cour s'est persuadé que pour sauver <pb/> l'état, 
+               il falloit en venir à quelque démarche imposante, et on croit que 
+               <rs type="person" ref="#MCNK">la Reine de Naples</rs> a suggéré l'idée d'envoyer 
+               <rs type="person" ref="#Fr">l'empereur</rs> lui-même à la tête de l'armée. 
+               <rs type="person" ref="#KEvO">L'Archiduc Charles</rs> restera en <rs type="place" ref="#plBoh">Bohème</rs>, et 
+               certes, si la guerre recommence, il pourra peut-être, sans quitter ce pays, travailler efficacement au salut de la 
+               monarchie. <rs type="person" ref="#JEvU">L'Archiduc Palatin</rs> va en <rs type="place" ref="#plHu">Hongrie</rs> pour 
+               y organiser une armée de 60 000 hommes: Dieu sait, si elle n'arriveroit pas trop tard. - Pour ce qui est des termes 
+               de la négociation, on se trouve toujours dans la plus grande ignorance pour tout ce qui la concerne. 
+               <rs type="person" ref="#BvK">Monsieur de Krüdener</rs>, (qui a vivement regretté d'avoir manqué Votre Excellence 
+               pendant le séjour fugitif qu'Elle a fait à <rs type="place" ref="#plBe">Berlin</rs>) faisoit hier la réflexion 
+               très-sensée, que ce profonde silence <del rend="stroked">de la</del> que gardoient les 
+               <emph rend="underlined">deux</emph> parties intéressées, ne sauroit guères être expliqué autrement que par le soupçon 
+               qu'elles avoient à cacher leurs mauvaises intentions par rapport à <emph rend="underlined">un tiers</emph>. <pb/>
+            </p>
+         </div>
+         <div n="3" corresp="#bewrus">
+            <p>
+               Après les dernières nouvelles de <rs type="place" ref="#plWi">Vienne</rs> il n'y en a pas de plus intéressant dans ce 
+               moment que la résolution de <rs type="person" ref="#ZPI">l'empereur de Russie</rs> de former deux grandes 
+               <add place="above">armées</add>, chacune de 80 000 hommes, <del rend="stroked">dont</del> l'une en 
+               <rs type="place" ref="#plLt">Lithuanie</rs>, commandée par le 
+               <rs type="person" ref="#PPP">Général <emph rend="underlined">Pahlen</emph></rs>, l'autre en 
+               <rs type="place" ref="#plWh">Volkynie</rs> commandée par le 
+               <rs type="person" ref="#MIK">Général Gobnischtschef<emph rend="underlined">-Kutosof</emph></rs>; à en juger par 
+               l'effet que cette résolution a produit sur la <del rend="stroked">xxx</del> légation Angloise de 
+               <rs type="place" ref="#plBe">Berlin</rs>, elle doit causer un grand effroi à <rs type="place" ref="#plWi">Vienne</rs> 
+               et à <rs type="place" ref="#plLo">Londres</rs>. Il est vrai, que <rs type="person" ref="#ZPI">l'empereur</rs> ne 
+               menace personne, et que ce n'est évidemment qu'au rôle d'un <emph rend="underlined">mediateur armé</emph> qu'il 
+               aspire dans ce moment. Cependant, comme un médiateur ne peut jamais être censé 
+               <emph rend="underlined">absolument-</emph>neutre, du moins neutre d'intentions secrètes, on voudroit savoir quelles 
+               étoient ses véritables dispositions, lorsqu'il a donné l'ordre de former ces armées; et on se perd en conjectures de 
+               toute espèce. Quoiqu'il en soit - ces deux armées sont là: <rs type="person" ref="#ZPI">l'empereur</rs> annonce, que 
+               c'est pour appuyer ses démarches pacifiques, qu'il les <pb/> a formées: et 
+               <rs type="person" ref="#ZPI">l'empereur</rs> ne sacrifiera jamais les intérèts des puissances à l'ambition du 
+               gouvernement françois, que peut-être il déteste moins qu'autrefois - grâces en soient à la conduite de ses alliés - 
+               mais qu'on ne l'accusera jamais d'aimer avec partialité. En voilà assez, à ce qui me paroit, pour 
+               <add place="above">tranquilliser</add> tous ceux qui veulent la paix, sans la faire 
+               <emph rend="underlined">aux dépens d'un tiers</emph>.
+            </p>
+         </div>
+         <div n="4" corresp="#prrus">
+            <p>
+               Mais ce qui est beaucoup plus important dans ce moment, c'est précisement ce qui nous concerne de plus près. Ces 
+               armées sont là: le but prononcé de leur création, est la nécessité d'appuyer la médiation: cette médiation, c'est 
+               <rs type="place" ref="#plPr">la <emph rend="underlined">Prusse</emph></rs> qui l'a entamée de concert avec 
+               <rs type="place" ref="#plRu">la Russie</rs>: <rs type="place" ref="#plPr">la Prusse</rs> 
+               <del rend="stroked">xxx</del> se trouve donc engagée d'honneur et d'intérèt à coopérer avec 
+               <rs type="place" ref="#plRu">la Russie</rs>. Que fera-t-elle dans ces circonstances ? Votre Excellence a déjà 
+               repondu à cette question. - Tout ce que j'ai pu apprendre jusqu'à présent, <pb/> c'est que 
+               <rs type="person" ref="#BvK">Monsieur de Krüdener</rs> a présenté <date when-iso="1800-09-16">Mardi 16</date>, une 
+               note très-énergique, qu'il a eu une conversation assez chaude, même une espèce d'altercation à ce qu'on assure, avec 
+               le <rs type="person" ref="#CHCvH">Comte de Haugwitz</rs>, <del rend="stroked">et</del> que 
+               <date when-iso="1800-09-18">hier (18)</date> au soir il n'avoit pas encore de réponse, et que, par tout ce que j'ai 
+               pu voir, il n'en attend point de satisfaisante. Je crois cependant que l'embarras de 
+               <rs type="person" ref="#CHCvH">Monsieur de Haugwitz</rs> n'a jamais été plus grand que dans ce moment-ci: d'un coté 
+               il doit sentir, que <rs type="place" ref="#plPr">la Prusse</rs>, en ne secondant pas même par quelque démonstration, 
+               la démarche très-prononcée et véritablement grande de <rs type="person" ref="#ZPI">l'empereur de Russie</rs>, se 
+               dishonorera extrêmement: et de l'autre coté il doit connoitre les obstacles insurmontables qui s'opposent à toute 
+               mesure énergique de notre part. Le mal est, que notre inactivité gatera même entièrement le bon effet que l'attitude 
+               imposante de <rs type="place" ref="#plRu">la Russie</rs> auroit pu produire: car 
+               <rs type="place" ref="#plFr">la France</rs> doit savoir aussi bien que les Alliés, que 
+               <rs type="person" ref="#plRu">l'empereur de Russie</rs> ne voudra pas <emph rend="underlined">agir</emph> tout seul, 
+               et qu'ainsi, sans concours de la <pb/> <rs type="place" ref="#plPr">Prusse</rs>, ce qui pourroit devenir un poids 
+               décisif dans les destinées de <rs type="place" ref="#plEu">l'Europe</rs>, <del rend="stroked">xxx</del> sera 
+               peut-être condamné à rester une vaine comédie.
+            </p>
+         </div>
+         <div n="5" corresp="#kpr">
+            <p>
+               Tout va ici son train ordinaire. <date when-iso="1800-09-18">Hier</date> et 
+               <date when-iso="1800-09-17">avant-hier</date> les manoeuvres de <rs type="place" ref="#plBe">Berlin</rs> ont eu lieu 
+               par le plus beau tems du monde, et notre pauvre maison de <rs type="place" ref="#plSb">Schöneberg</rs> a été battue 
+               de canons et cernée de toutes parts, par les armées ennemies. Les manoeuvres de 
+               <rs type="place" ref="#plPo">Potsdam</rs> commenceront <date when-iso="1800-09-22">Lundi</date>: 
+               <date when-iso="1800-09-17">Mercredi</date> passé le <rs type="person" ref="#PKvA">Comte Alvensleben</rs> a donné un 
+               bal etc. Il y a peu d'étrangers de marque à <rs type="place" ref="#plBe">Berlin</rs>: on n'attend plus 
+               <rs type="person" ref="#LBon">Louis Bonaparte</rs>; du moins les deux dernières dépeches de 
+               <rs type="person" ref="#DAvSR">Monsieur de Sandoz</rs> n'ont plus parlé de lui.
+            </p>
+         </div>
+         <div n="6" corresp="#vgl">
+            <p>
+               J'ai vu avec un plaisir extrême que Votre Excellence compte être de retour à <rs type="place" ref="#plBe">Berlin</rs> 
+               le <date when-iso="1800-10-01">1 Octobre</date>. Je la prie de présenter l'hommage de mon respect à 
+               <rs type="person" ref="#CvT">Madame la Marquise</rs>, et d'agréer celui du dévouement inaltérable avec lequel je suis
+            </p>
+         </div>
+         <closer>
+            <salute rend="right">De Votre Excellence</salute>
+            <salute rend="right">le très-humble et très-</salute>
+            <salute rend="right">fidèle serviteur</salute>
+            <signed rend="right">Gentz.</signed>
+         </closer>
+         <postscript corresp="#mon">
+            <p>
+               P. S. <rs type="citation" ref="#p1749-1">Les Moniteurs</rs> sont intéressans par les détails 
+               <del rend="stroked">xxx</del> des derniers évenemens en 
+               <rs type="place" ref="#plAeg"><emph rend="underlined">Egypte</emph></rs>.
+            </p>
+         </postscript>
+         <postscript corresp="#bezw">
+            <p>
+               - Les nouvelles les plus récentes de <rs type="place" ref="#plWi">Vienne</rs> assurent que 
+               <rs type="person" ref="#Mno"><emph rend="underlined">Menou</emph></rs> est mort 
+               <ref target="#r1749-1">de la peste</ref>. <pb/>
+            </p>
+         </postscript>
+         <postscript corresp="#napinv" resp="#CHCvH">
+            <p>
+               Le Ministre et le Cabinet soussigné a mis sous les ieux de Son Auguste Maitre la Note verbale et confidentielle que 
+               <rs type="person" ref="#JJPLC">My Lord Carysfort</rs>, Envoyé extraordinaire etc. de 
+               <rs type="person" ref="#KGeIII">Sa Majesté le Roi de la Grande Brétagne</rs> lui a fait l'honneur de lui remettre en 
+               date du <date when-iso="1800-09-10">10 Septembre</date>. <rs type="place" ref="#KGeIII">Le roi</rs> n'a pu 
+               qu'envisager cette communication obligeante comme une preuve de la bonne amitié et de l'heureuse intelligence qui 
+               subsistent entre les deux cours, et il y a été sensible. Tout en déplorant les maux infinis que prépare encore a 
+               l'humanité la continuation de la guerre, <rs type="person" ref="#Fr">Sa Majesté</rs> doit respecter les 
+               principes qui y déterminent <rs type="person" ref="#KGeIII">Sa Majesté Brittannique</rs>, et Elle est très-éloignée 
+               d'en porter un jugement équivoque qui seroit incompatible avec la loyauté reconnue d'un Monarque auquel Elle a voué 
+               de tout tems la plus haute estime. <rs type="person">Le roi</rs> ne cessera de s'intéresser vivement à la 
+               conciliation des querelles sanglantes qui déchirent <rs type="place" ref="#plEu">l'Europe</rs>. Il n'a pas tenu à lui 
+               de contribuer à <pb/> les applanir par des voies de modération et de douceur, et il ne Lui reste qu'a regretter que 
+               ses bonnes intentions n'aient pas été secondées.
+            </p>
+         </postscript>
+         <closer>
+            <dateline rend="left"><rs type="place" ref="#plBe">Berlin</rs> ce <date when-iso="1800-09-16">16 Septembre 1800</date></dateline>
+            <signed rend="right">Haugwitz</signed>
+         </closer>
+      </body>
+      <note resp="#edAG" xml:id="r1749-1">Laut Wikipedia und der gemeinsamen Normdatei gab es einen General Menou, der aber erst 1810 starb. Es wird zu klären sein, um welchen Menou es sich handelt</note>
+   </text>
+</TEI>

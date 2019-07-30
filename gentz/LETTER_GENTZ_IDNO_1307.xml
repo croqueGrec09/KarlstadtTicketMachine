@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc xml:id="LETTER_GENTZ_1307">
+         <titleStmt>
+            <title>Friedrich von Gentz an Karl Gustav von Brinckmann, 7. Oktober 1801</title>
+            <editor xml:id="edAG">Andreas Gálffy</editor>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <name>Forschungsstelle "Universitätssammlung Friedrich von Gentz"</name>
+               <link target="http://gentz-digital.ub.uni-koeln.de http://www.ub.uni-koeln.de/cdm/singleitem/collection/gentz/id/1306/"/>
+            </publisher>
+            <pubPlace>Cologne</pubPlace>
+            <idno type="Gentz-Edition-Number" n="1307"/>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <country>Sweden</country>
+                  <settlement>Trolle-Ljungby</settlement>
+                  <institution>Archiv des Grafen Wachtmeister</institution>
+                  <repository>Nachlaß Brinckmann, Ausländ. Briefwechsel, Gentz an Brinckmann</repository>
+                  <idno>G 3</idno>
+               </msIdentifier>
+               <msContents>
+                  <summary>
+                     Brinckmann und Gentz haben sich verpasst, was letzteren sehr ärgert. Er will unbedingt mit Brinckmann etwas 
+                     unternehmen.
+                  </summary>
+               </msContents>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Masterarbeit zu Matrikelnummer 5584124</p>
+         </projectDesc>
+      </encodingDesc>
+      <profileDesc>
+         <creation>
+            <date when-iso="1801-10-07">7. Oktober 1801</date>
+         </creation>
+        <langUsage>
+           <language ident="d">deutsch</language>
+        </langUsage>
+         <textClass>
+            <keywords scheme="internal"><!-- internal: innerhalb des besagten Briefs -->
+               <term>Billet</term>
+               <term>Treffen</term>
+               <term>Damen</term>
+            </keywords>
+            <keywords scheme="categorisation"><!-- Sinnabschnittseinteilung - relevant für den Fahrkartenautomaten! -->
+               <term xml:id="bezbl">Beziehungen zu Berlin - Leute</term>
+            </keywords>
+         </textClass>
+         <textDesc>
+            <channel>manuscript</channel>
+            <constitution type="single"/>
+            <derivation type="original"/>
+            <domain type="private"/>
+            <factuality type="fact"/>
+            <interaction type="partial"/>
+            <preparedness type="prepared"/>
+            <purpose type="inform"/>
+         </textDesc>
+         <particDesc>
+            <listPerson>
+               <!-- Sender und Adressat -->
+               <person role="sender" xml:id="Gen">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/118538489"/>
+                     <forename>Friedrich von</forename>
+                     <surname>Gentz</surname>
+                  </persName>
+               </person>
+               <person role="receiver" xml:id="KGvB">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/116519770"/>
+                     <forename>Carl Gustav von</forename>
+                     <surname>Brinckmann</surname>
+                  </persName>
+               </person>
+               <!-- erwähnte Personen -->
+               <person role="named" xml:id="Roy">
+                  <persName>
+                     <ref />
+                     <forename/>
+                     <surname>Roy</surname>
+                     <roleName type="address">Madame</roleName>
+                  </persName>
+               </person>
+               <person role="named" xml:id="RVh">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/118626175"/>
+                     <forename>Rahel</forename>
+                     <surname>Varnhagen</surname>
+                  </persName>
+               </person>
+               <person role="named" xml:id="ALFvDuS">
+                  <persName>
+                     <ref />
+                     <forename>Antonie Louise Freiin von</forename>
+                     <surname>Dyhern und Schönau</surname>
+                  </persName>
+               </person>
+               <person role="named" xml:id="LvV">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/117746185" />
+                     <forename>Luise von</forename>
+                     <surname>Voss</surname>
+                  </persName>
+               </person>
+            </listPerson>
+         </particDesc>
+         <settingDesc>
+            <listPlace>
+               <!-- Start- und Zielort -->
+               <place type="sender" xml:id="plBe">
+                  <country>
+                     <ref target="http://d-nb.info/gnd/4047194-9"/>
+                     <placeName>Preußen</placeName>
+                  </country>
+                  <settlement>
+                     <ref target="http://d-nb.info/gnd/4005728-8"/>
+                     <placeName>Berlin</placeName>
+                  </settlement>
+               </place>
+               <!-- erwähnte Orte -->
+            </listPlace>
+         </settingDesc>
+      </profileDesc>
+      <revisionDesc>
+         <change xml:id="init" when-iso="2018-03-09" who="#edAG">Erstauszeichnung und Normierung des Dokumentes im Rahmen der Masterarbeit der Matrikelnummer 5584124</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div n="1" corresp="#bezbl">
+            <p>
+               Ich ärgre mich sehr, heute Ihren Besuch verfehlt zu haben. Wollen Sie auf den Abend irgend etwas mit mir 
+               vornehmen ? - Schreiben Sie es mir: ich komme dann entweder zwischen 5 und 6 Uhr zu Ihnen, oder Sie holen mich zu 
+               einer <add place="above">von</add> Ihnen zu bestimmenden Stunde ab. Wollen Sie zur 
+               <rs type="person" ref="#Roy">Madame Roy</rs>, oder zur <rs type="person" ref="#RVh">Kleinen</rs>, oder zu 
+               <rs type="person" ref="#ALFvDuS">Frau von Hoym</rs>, oder - zur <rs type="person" ref="#LvV">Gräfin Voss</rs> 
+               gehen ? Mir ist alles Recht, obgleich freilich nicht alles <emph rend="underlined">gleich</emph> lieb. Aber ich 
+               will irgendwo <emph rend="underlined">mit Ihnen</emph> seyn.
+            </p>
+         </div>
+         <closer>
+            <signed rend="right">Gentz.</signed>
+            <dateline rend="right"><date when-iso="1801-10-07">7 Oct. 1801</date></dateline>
+         </closer>
+      </body>
+   </text>
+</TEI>

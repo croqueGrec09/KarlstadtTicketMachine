@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader type="text">
+      <fileDesc xml:id="LETTER_GENTZ_4309">
+         <titleStmt>
+            <title>Friedrich von Gentz an König Friedrich Wilhelm II. von Preußen, 6. Februar 1791</title>
+            <editor xml:id="edAG">Andreas Gálffy</editor>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <name>Forschungsstelle "Universitätssammlung Friedrich von Gentz"</name>
+               <link target="http://gentz-digital.ub.uni-koeln.de http://www.ub.uni-koeln.de/cdm/singleitem/collection/gentz/id/4308/"/>
+            </publisher>
+            <pubPlace>Cologne</pubPlace>
+            <idno type="Gentz-Edition-Number" n="4309"/>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <country>Germany</country>
+                  <settlement>Berlin</settlement>
+                  <institution>Geheimes Staatsarchiv Preußsischer Kulturbesitz</institution>
+                  <repository>I. HA Rep 96: Geheimes Zivilkabinett, ältere Periode, Kabinett Friedrich Wilhelm II</repository>
+                  <collection>223 B: Das General-Direktorium und dessen Beamte, 1786-1797</collection>
+                  <idno>Bl. 32/Bl. 33</idno>
+               </msIdentifier>
+               <msContents>
+                  <summary>
+                     In diesem Schreiben erbittet sich Gentz eine Versetzung nach Breslau als extraordinärer Rat bei dem 
+                     Magistralkolleg. Er nennt als Grund ein Streben nach Unabhängigkeit von dem elterlichen Haus. In einem 
+                     inhaltsgleichen zweiten Brief finden sich folgende Unterschiede:
+                     statt "das Bewußtsein einer" steht "die unabläßige Bemühung", statt "natürlich" "verzeihlich" und statt 
+                     "beßre" "günstigere". "Allerhöchstdieselben" wird getrennt geschrieben.
+                  </summary>
+               </msContents>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Masterarbeit zu Matrikelnummer 5584124</p>
+         </projectDesc>
+      </encodingDesc>
+      <profileDesc>
+         <creation>
+            <date when-iso="1791-02-06">6. Februar 1791</date>
+         </creation>
+        <langUsage>
+           <language ident="d">deutsch</language>
+        </langUsage>
+         <textClass>
+            <keywords scheme="internal"><!-- internal: innerhalb des besagten Briefs -->
+               <term>Brief</term>
+               <term>Bittschreiben</term>
+               <term>Breslau</term>
+            </keywords>
+            <keywords scheme="categorisation"><!-- Sinnabschnittseinteilung - relevant für den Fahrkartenautomaten! -->
+               <term xml:id="bezbr">Beziehungen zu Breslau</term>
+            </keywords>
+         </textClass>
+         <textDesc>
+            <channel>manuscript</channel>
+            <constitution type="single"/>
+            <derivation type="original"/>
+            <domain type="private"/>
+            <factuality type="fact"/>
+            <interaction type="partial"/>
+            <preparedness type="unprepared"/>
+            <purpose type="inform"/>
+         </textDesc>
+         <particDesc>
+            <listPerson>
+               <!-- Sender und Adressat -->
+               <person role="sender" xml:id="Gen">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/118538489"/>
+                     <forename>Friedrich von</forename>
+                     <surname>Gentz</surname>
+                  </persName>
+               </person>
+               <person role="receiver" xml:id="KFWII">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/11869362X"/>
+                     <forename>Friedrich Wilhelm II.</forename>
+                     <surname>von Preußen</surname>
+                     <roleName type="office">König von Preußen</roleName>
+                  </persName>
+               </person>
+               <!-- erwähnte Personen -->
+               <person role="named" xml:id="JFG">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/136428983"/>
+                     <forename>Johann Friedrich</forename>
+                     <surname>Gentze</surname>
+                  </persName>
+               </person>
+               <person role="named" xml:id="Hoy">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/117028568"/>
+                     <forename>Karl Georg Heinrich von</forename>
+                     <surname>Hoym</surname>
+                  </persName>
+               </person>
+            </listPerson>
+         </particDesc>
+         <settingDesc>
+            <listPlace>
+               <!-- Start- und Zielort -->
+               <place type="sender" xml:id="plBe">
+                  <country>
+                     <ref target="http://d-nb.info/gnd/4047194-9"/>
+                     <placeName>Preußen</placeName>
+                  </country>
+                  <settlement>
+                     <ref target="http://d-nb.info/gnd/4005728-8"/>
+                     <placeName>Berlin</placeName>
+                  </settlement>
+               </place>
+               <!-- erwähnte Orte -->
+               <place type="named" xml:id="plBr">
+                  <country>
+                     <ref target="http://d-nb.info/gnd/4047194-9"/>
+                     <placeName>Preußen</placeName>
+                  </country>
+                  <settlement>
+                     <ref target="http://d-nb.info/gnd/4008216-7"/>
+                     <placeName>Breslau</placeName>
+                  </settlement>
+               </place>
+            </listPlace>
+         </settingDesc>
+      </profileDesc>
+      <revisionDesc>
+         <change xml:id="init" when-iso="2018-02-03" who="#edAG">Erstauszeichnung und Normierung des Dokumentes im Rahmen der Masterarbeit der Matrikelnummer 5584124</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <front>
+         <p>
+            <emph rend="underlined">Au Roi</emph>
+         </p>
+         <figure>
+            <desc>2 Siegelreste</desc>
+         </figure>
+      </front>
+      <body>
+         <opener>
+            <salute rend="left">Allerdurchlauchtigster, Großmächtigster König !</salute>
+            <salute rend="left">Allergnädigster König und Herr !</salute>
+         </opener>
+         <div n="1" corresp="#bezbr">
+            <p>
+               Ich habe seit 6 ½ Jahren in Ewr. Königlichen Majestät Dienst theils als Referendarius bey der Churmärkischen Cammer, 
+               theils als expedirender Secretaire bey dem Churmärkischen Departement Höchstdero General Directorii ohne Gehalt 
+               gearbeitet, und habe demohnerachtet, als der Jüngste bey diesem Departement die traurige Aussicht vor mir, 
+               <app><rdg wit="4309a">in Ansehung meines Unterhalts</rdg></app> <rs type="person" ref="#JFG">einem Vater</rs>, der 
+               Ewr Königlichen Majestät Allerhöchstem Hause über 40 Jahre gedient, und außer mir noch 4 Kinder zu ernähren hat, 
+               <app><rdg wit="4309">in Ansehung meines Unterhalts</rdg></app> 
+               <app><rdg wit="4309">noch lange Zeit</rdg><rdg wit="4309a">, viele Jahre</rdg></app> zur Last zu fallen.
+            </p>
+            <p>
+               Eine nicht unnütz zugebrachte Jugend, und 
+               <app><rdg wit="4309">das Bewustseyn einer unabläßigen</rdg><rdg wit="4309a">die unabläßige</rdg></app> Bemühung mir 
+               in mancherley Fächern Kenntniße zu erwerben, weshalb ich mich auf ehrenvolle Zeugniße berufen darf, flößen mir den 
+               Muth ein, mein Glück auf einem andern Wege zu suchen. Als ein gebohrner <rs type="place" ref="#plBr">Breslau</rs>er 
+               kan ich Ansprüche auf eine Stelle <app><rdg wit="4309">im</rdg><rdg wit="4309a">im</rdg></app> dortigen Magistrat 
+               machen, und der <app><rdg wit="4309">natürliche Wunsch,</rdg><rdg wit="4309a">verzeihliche Wunsch</rdg></app> mir 
+               eine <app><rdg wit="4309">beßre</rdg><rdg wit="4309a">günstigere</rdg></app> Laufbahn zu 
+               eröfnen<app><rdg wit="4309">,</rdg></app> treibt mich an, in der Ueberzeugung, daß ich nach einer 7jährigen Arbeit 
+               im Cameral-Fach einer solchen Stelle gewachsen 
+               <app><rdg wit="4309">seyn werde</rdg><rdg wit="4309a"><add place="above">seyn</add> würde</rdg></app>, Ewr. 
+               Königlichen Majestät allerunterthänigst anzuflehen,
+            </p>
+            <lg>
+               <l>daß <app><rdg wit="4309">Allerhöchstdieselben</rdg><rdg wit="4309a">Allerhöhchst Dieselben</rdg></app> geruhen möchten<app><rdg wit="4309a">,</rdg></app> an Höchstdero Etats-Minister Grafen</l>
+               <l><rs type="person" ref="#Hoy">von Hoym</rs> zu <rs type="place" ref="plBr">Breslau</rs> eine allergnädigste Ordre ergehen zu laßen, wodurch meine</l>
+               <l>Ansetzung als extraordinairer Rath bey dem dortigen Magistrats-Collegio mit der</l>
+               <l>Versicherung<app><rdg wit="4309">,</rdg></app> in das nächste vacante Gehalt einzurücken<app><rdg wit="4309">,</rdg></app> befohlen würde.</l>
+            </lg>
+            <p>
+               In sehnsuchtsvoller Hoffnung auf einen glücklichen Erfolg dieses allerunterthänigsten Gesuchs ersterbe ich mit 
+               tiefster Erniedrigung
+            </p>
+         </div>
+         <closer>
+            <salute rend="right">Ewr. Königlichen Majestät</salute>
+            <dateline rend="left"><rs type="place" ref="#plBe">Berlin</rs> den <date when-iso="1791-02-06">6<span rend="sup">ten</span> Februar 1791</date></dateline>
+            <salute rend="right">allerunterthänigster Knecht</salute>
+            <signed rend="right">Gentz</signed>
+         </closer>
+         <note xml:id="r4309-1">
+            In der Akte liegt zusammen mit dem oben publizierten ein inhaltsgleicher zweiter Brief, jedoch mit einigen stilistischen 
+            Änderungen gegenüber dem ersten und ohne Adresse an den König. Den Sinn dieses Schreibens kann ich mir nicht erklären. 
+            Er wird hier zusätzlich publiziert.
+         </note>
+         <note resp="#edAG" xml:id="r4309-2">Im ursprünglichen Transkript waren beide Briefe in Gänze eingebracht. In diesem Dokument werden die beiden Lesarten parallel angezeigt.</note>
+      </body>
+   </text>
+</TEI>

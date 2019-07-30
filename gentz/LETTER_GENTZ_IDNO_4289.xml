@@ -1,0 +1,590 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader type="text">
+      <fileDesc xml:id="LETTER_GENTZ_4289">
+         <titleStmt>
+            <title>Friedrich von Gentz an Christian Garve, 19. Februar 1791</title>
+            <editor xml:id="edAG">Andreas Gálffy</editor>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <name>Forschungsstelle "Universitätssammlung Friedrich von Gentz"</name>
+               <link target="http://gentz-digital.ub.uni-koeln.de http://www.ub.uni-koeln.de/cdm/singleitem/collection/gentz/id/4288/"/>
+            </publisher>
+            <pubPlace>Cologne</pubPlace>
+            <idno type="Gentz-Edition-Number" n="4289"/>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <settlement>unknown</settlement>
+                  <idno>destroyed</idno><!-- Manuskript wurde durch Kriegseinwirkungen zerstört -->
+               </msIdentifier>
+               <msContents>
+                  <summary>
+                     Ein Paket ist womöglich verloren gegangen. Gentz schreibt, dass diese Furcht ungegründet ist, da er es 
+                     schlussendlich erhalten habe. Gentz hat einen Aufsatz Garves an Biester befördert. Er meint, dass der Aufsatz 
+                     keineswegs zu gefährlich oder dreist, sondern vielmehr zu furchtsam sei. Lediglich der Schluss gefällt Gentz 
+                     nicht, weil dieser den Hauptteil schwächt. Biester wird wohl kaum dazu kommen, den Aufsatz bald in der 
+                     Monatsschrift abzudrucken, da er zu viele Artikel aus Konvenienz abdrucken muss.
+                     Gentz hat auch Briefe von Garve bestellt. Nun kommt er zu seinem eigentlichen Anliegen: seinem 
+                     Versetzungsgesuch nach Breslau. Als Argumente nennt Gentz folgende Klagen: erstens hat er kaum Zeit, neben der 
+                     eintönigen Tätigkeit zur Literatur zu kommen, zweitens wurde ihm kein festes Gehalt ausgezahlt. Seine Familie, 
+                     ja sogar sein Vater, haben ihren Segen gegeben. Um nun etwas nachzuhelfen, bittet Gentz Garve, sich für ihn bei 
+                     dem Minister Hoym stark zu machen. Ihm ist dabei durchaus bewusst, dass er wenig Aussichten hat. Er möchte 
+                     dennoch den Verdacht ausräumen, er sei von seinem Vater abhängig. Im Epigraph bittet Gentz Garve inständig, 
+                     seine Idee zu respektieren und ernst zu nehmen.
+                  </summary>
+               </msContents>
+            </msDesc>
+            <listBibl type="preprints">
+               <biblStruct>
+                  <monogr>
+                     <editor>
+                        <persName>
+                           <ref target="http://d-nb.info/gnd/130953075"/>
+                           <forename>Friedrich Carl</forename>
+                           <surname>Wittichen</surname>
+                        </persName>
+                        <persName>
+                           <ref/> <!-- kein GND-Eintrag -->
+                           <forename>Ernst</forename>
+                           <surname>Salzer</surname>
+                        </persName>
+                     </editor>
+                     <title>Briefe von und an Friedrich von Gentz, 4 Bde.</title>
+                     <imprint>
+                        <publisher>Oldenbourg</publisher>
+                        <pubPlace>München, Berlin</pubPlace>
+                        <date>1909-1913</date>
+                     </imprint>
+                     <biblScope unit="volume" n="1">
+                        I
+                     </biblScope>
+                     <biblScope unit="page" from="187" to="194">
+                        Nr. 42
+                     </biblScope>
+                  </monogr>
+               </biblStruct>
+            </listBibl>
+            <biblStruct>
+               <monogr>
+                  <editor>
+                     <persName>
+                        <forename>Carl G.</forename>
+                        <surname>Schönborn</surname>
+                     </persName>
+                  </editor>
+                  <title>Friedrich von Gentz. Briefe an Christian Garve. (1789-1798.)</title>
+                  <imprint>
+                     <pubPlace>Breslau</pubPlace>
+                     <date>1857</date>
+                  </imprint>
+                  <biblScope unit="page" from="72" to="82">
+                     Nr. VIII
+                  </biblScope>
+               </monogr>
+            </biblStruct>
+            <listBibl type="letterReferenced">
+               <bibl xml:id="c4289-1" corresp="#LETTER_GENTZ_NNNN">nicht bekannter Brief von Christian Garve an Friedrich von Gentz, Dezember 1790</bibl>
+               <bibl xml:id="c4289-2" corresp="#LETTER_GENTZ_NNNN">nicht bekannter Brief von Christian Garve an Friedrich von Gentz, Anfang 1791</bibl>
+               <bibl xml:id="c4289-3" corresp="#LETTER_GENTZ_3713">Friedrich von Gentz an Christan Garve, 18. September 1790</bibl>
+               <bibl xml:id="c4289-4" corresp="#LETTER_GENTZ_4309">Friedrich von Gentz an König Friedrich Wilhelm II. von Preußen, 6. Februar 1791</bibl>
+               <bibl xml:id="c4289-5" corresp="#LETTER_GENTZ_NNNN">nicht bekannter Brief von Johann Friedrich Gentze an Karl Georg Heinrich von Hoym</bibl>
+            </listBibl>
+            <listBibl type="alludedWorks">
+               <bibl xml:id="a4289-1" corresp="#LETTER_GENTZ_NNNN">nicht näher benannter Aufsatz Garves</bibl>
+            </listBibl>
+            <listBibl type="defExpr">
+               <biblStruct xml:id="e4289-1" corresp="UBi-0028">
+                  <monogr>
+                     <editor>
+                        <persName>
+                           <ref target="http://d-nb.info/gnd/116167580"/>
+                           <forename>Johann Erich</forename>
+                           <surname>Biester</surname>
+                        </persName>
+                     </editor>
+                     <title>Berlinische Monatsschrift</title>
+                     <imprint>
+                        <publisher>Haude und Spener</publisher>
+                        <pubPlace>Berlin</pubPlace>
+                        <date>1791</date>
+                     </imprint>
+                  </monogr>
+               <ptr target="http://ds.ub.uni-bielefeld.de/viewer/toc/2239816/1/LOG_0000/"/></biblStruct>
+               <biblStruct xml:id="e4289-2" corresp="UBi-0000">
+                  <monogr>
+                     <author>
+                        <persName>
+                           <ref target="http://d-nb.info/gnd/116211148"/>
+                           <forename>Ernst Ferdinand</forename>
+                           <surname>Klein</surname>
+                        </persName>
+                     </author>
+                     <title>Annalen der Gesetzgebung und der Rechtsgelehrsamkeit in den Preussischen Staaten</title>
+                     <imprint>
+                        <pubPlace>Berlin und Stettin</pubPlace>
+                        <publisher>Friedrich Nicolai</publisher>
+                        <date>1788-1809</date>
+                     </imprint>
+                  </monogr>
+               <ptr target="http://ds.ub.uni-bielefeld.de/viewer/image/1921215_005/3/"/></biblStruct>
+            </listBibl>
+            <listBibl type="defRep">
+               <biblStruct xml:id="p4289-1" corresp="UBi-0019">
+                  <analytic>
+                     <author>
+                        <persName>
+                           <ref target="http://d-nb.info/gnd/118538489"/>
+                           <forename>Friedrich von</forename>
+                           <surname>Gentz</surname>
+                        </persName>
+                     </author>
+                     <title>Ueber den Ursprung und die obersten Prinzipien des Rechts</title>
+                  </analytic>
+                  <monogr>
+                     <editor>
+                        <persName>
+                           <ref target="http://d-nb.info/gnd/116167580"/>
+                           <forename>Johann Erich</forename>
+                           <surname>Biester</surname>
+                        </persName>
+                     </editor>
+                     <title>Berlinische Monatsschrift</title>
+                     <imprint>
+                        <publisher>Haude und Spener</publisher>
+                        <pubPlace>Berlin</pubPlace>
+                        <date>1790</date>
+                     </imprint>
+                     <biblScope unit="volume" n="17">
+                        Siebzehnter Band.
+                        Januar bis Junius 1791.
+                     </biblScope>
+                     <biblScope unit="page" from="370" to="396">
+                        S. 370-396
+                     </biblScope>
+                  </monogr>
+               <ptr target="http://ds.ub.uni-bielefeld.de/viewer/image/2239816_017/403/"/></biblStruct>
+            </listBibl>
+            <listBibl type="edRef">
+               <biblStruct xml:id="f4289-1" corresp="UBi-0021">
+                  <analytic>
+                     <author>
+                        <persName>
+                           <ref target="http://d-nb.info/gnd/118537636"/>
+                           <forename>Christian</forename>
+                           <surname>Garve</surname>
+                        </persName>
+                     </author>
+                     <title>Fortsetzung der Betrachtungen, veranlaßt durch das Dekret der Französischen Nationalversammlung über die Güter der Geistlichkeit</title>
+                  </analytic>
+                  <monogr>
+                     <editor>
+                        <persName>
+                           <ref target="http://d-nb.info/gnd/116167580"/>
+                           <forename>Johann Erich</forename>
+                           <surname>Biester</surname>
+                        </persName>
+                     </editor>
+                     <title>Berlinische Monatsschrift</title>
+                     <imprint>
+                        <publisher>Haude und Spener</publisher>
+                        <pubPlace>Berlin</pubPlace>
+                        <date>1790</date>
+                     </imprint>
+                     <biblScope unit="volume" n="17">
+                        Siebzehnter Band.
+                        Januar bis Junius 1791.
+                     </biblScope>
+                     <biblScope unit="page" from="429" to="460">
+                        S. 429-460
+                     </biblScope>
+                  </monogr>
+               <ptr target="http://ds.ub.uni-bielefeld.de/viewer/image/2239816_017/432/"/></biblStruct>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Masterarbeit zu Matrikelnummer 5584124</p>
+         </projectDesc>
+      </encodingDesc>
+      <profileDesc>
+         <creation>
+            <date when-iso="1791-02-19">19. Februar 1791</date>
+         </creation>
+        <langUsage>
+           <language ident="d">deutsch</language>
+        </langUsage>
+         <textClass>
+            <keywords scheme="internal"><!-- internal: innerhalb des besagten Briefs -->
+               <term>Brief</term>
+               <term>Breslau</term>
+               <term>Philosophie</term>
+               <term>Versetzung</term>
+               <term>Biester</term>
+               <term>Monatsschrift</term>
+               <term>Arbeit</term>
+               <term>Studien</term>
+               <term>Literatur</term>
+               <term>französische Revolution</term>
+            </keywords>
+            <keywords scheme="categorisation"><!-- Sinnabschnittseinteilung - relevant für den Fahrkartenautomaten! -->
+               <term xml:id="vcg">Verhältnis Christian Garve</term>
+               <term xml:id="mss">Monatsschrift</term>
+               <term xml:id="bezbt">Beziehungen zu Berlin - Beamtentätigkeit</term>
+               <term xml:id="bezbr">Beziehungen zu Breslau</term>
+            </keywords>
+         </textClass>
+         <textDesc>
+            <channel>manuscript</channel>
+            <constitution type="single"/>
+            <derivation type="original"/>
+            <domain type="private"/>
+            <factuality type="fact"/>
+            <interaction type="partial"/>
+            <preparedness type="prepared"/>
+            <purpose type="inform"/>
+         </textDesc>
+         <particDesc>
+            <listPerson>
+               <!-- Sender und Adressat -->
+               <person role="sender" xml:id="Gen">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/118538489"/>
+                     <forename>Friedrich von</forename>
+                     <surname>Gentz</surname>
+                  </persName>
+               </person>
+               <person role="receiver" xml:id="Gar">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/118537636"/>
+                     <forename>Christian</forename>
+                     <surname>Garve</surname>
+                  </persName>
+               </person>
+               <!-- erwähnte Personen -->
+               <person role="named" xml:id="Bie">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/116167580"/>
+                     <forename>Johann Erich</forename>
+                     <surname>Biester</surname>
+                  </persName>
+               </person>
+               <person role="named" xml:id="Spa">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/117480088"/>
+                     <forename>Georg Ludwig</forename>
+                     <surname>Spalding</surname>
+                  </persName>
+               </person>
+               <person role="named" xml:id="Kle">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/116211148"/>
+                     <forename>Ernst Ferdinand</forename>
+                     <surname>Klein</surname>
+                  </persName>
+               </person>
+               <person role="named" xml:id="OvV">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/103098291"/>
+                     <forename>Otto</forename>
+                     <surname>von Voß</surname>
+                  </persName>
+               </person>
+               <person role="named" xml:id="JFG">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/136428983"/>
+                     <forename>Johann Friedrich</forename>
+                     <surname>Gentze</surname>
+                  </persName>
+               </person>
+               <person role="named" xml:id="KFWII">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/11869362X"/>
+                     <forename>Friedrich Wilhelm II.</forename>
+                     <surname>von Preußen</surname>
+                     <roleName type="office">König von Preußen</roleName>
+                  </persName>
+               </person>
+               <person role="named" xml:id="Hoy">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/117028568"/>
+                     <forename>Karl Georg Heinrich von</forename>
+                     <surname>Hoym</surname>
+                  </persName>
+               </person>
+               <person role="named" xml:id="HfW">
+                  <persName>
+                     <ref/>
+                     <forename/>
+                     <surname>Wunster</surname>
+                     <roleName type="office">Hofrat</roleName>
+                  </persName>
+               </person>
+               <person role="named" xml:id="FBEvT">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/117250686"/>
+                     <forename>Friedrich Bogislaw Emanuel von</forename>
+                     <surname>Tauentzien</surname>
+                  </persName>
+               </person>
+               <person role="named" xml:id="vWd">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/115629890"/>
+                     <forename>Gottlob Magnus Leopold von</forename>
+                     <surname>Wedel</surname>
+                     <roleName type="office">Graf</roleName>
+                  </persName>
+               </person>
+            </listPerson>
+         </particDesc>
+         <settingDesc>
+            <listPlace>
+               <!-- Start- und Zielort -->
+               <place type="sender" xml:id="plBe">
+                  <country>
+                     <ref target="http://d-nb.info/gnd/4047194-9"/>
+                     <placeName>Preußen</placeName>
+                  </country>
+                  <settlement>
+                     <ref target="http://d-nb.info/gnd/4005728-8"/>
+                     <placeName>Berlin</placeName>
+                  </settlement>
+               </place>
+               <place type="receiver" xml:id="plBr">
+                  <country>
+                     <ref target="http://d-nb.info/gnd/4047194-9"/>
+                     <placeName>Preußen</placeName>
+                  </country>
+                  <settlement>
+                     <ref target="http://d-nb.info/gnd/4008216-7"/>
+                     <placeName>Breslau</placeName>
+                  </settlement>
+               </place>
+               <!-- erwähnte Orte -->
+            </listPlace>
+         </settingDesc>
+      </profileDesc>
+      <revisionDesc>
+         <change xml:id="init" when-iso="2018-02-05" who="#edAG">Erstauszeichnung und Normierung des Dokumentes im Rahmen der Masterarbeit der Matrikelnummer 5584124</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>     
+      <body>
+         <opener>
+            <dateline><rs type="place" ref="#plBe">Berlin</rs>, den <date when-iso="1791-02-19">19. Februar 1791</date>.</dateline>
+         </opener>
+         <div n="1" corresp="#vcg">
+            <p>
+               Die Besorgnis, die Sie in <rs type="citation" ref="#c4289-1">Ihrem letzten Schreiben</rs> äußerten, daß Ihr Paket 
+               verloren gegangen sein möchte, ist zwar durch den Erfolg nicht gerechtfertigt worden, weil ich es wirklich erhalten 
+               habe: sie scheint mir aber an und für sich nichts weniger als ungegründet gewesen zu sein, weil dieses Paket, der 
+               Himmel weiß durch welche Schicksale sechs oder acht Wochen in der Welt herum getrieben haben muß, ehe es mir 
+               zugekommen ist: denn als ich Ihren letzten Brief erhielt, hatte ich den erstern und folglich das Paket noch nicht 
+               acht Tage in Händen gehabt, und aus der Überschrift des Briefes sehe ich, daß er im 
+               <date when-iso="1790-12-00">Monat Dezember</date> geschrieben ist.<pb/>
+            </p>
+            <p>
+               Dem sei wie ihm wolle; genung, <rs type="citation" ref="#a4289-1">Ihr Aufsatz</rs> ist hier, und war eben an 
+               <rs type="person" ref="#Bie">Biester</rs> abgeliefert, als ich Ihr 
+               <rs type="citation" corresp="#c4289-2">zweites Schreiben</rs> bekam. <rs type="person" ref="#Spa">Herr Spalding</rs> 
+               hat diesen Aufsatz so äußerst gemäßigt gefunden, daß er mir ausdrücklich aufgetragen hat, Ihnen seine Verwunderung 
+               darüber zu bezeugen, daß Sie noch Skrupel dabei haben konnten. Daß ich nach diesem Gutachten keinen Augenblick 
+               zögerte, den Aufsatz an <rs type="person" ref="#Bie">Biester</rs> zu befördern, können Sie leicht glauben.
+            </p>
+            <p>
+               Mein eignes Urteil, insofern es von der ganz entschiednen eigentümlichen und innern Vortrefflichkeit der Schrift 
+               abstrahiert, und nur auf die äußern Verhältnisse gerichtet ist, fällt, wie Sie ebensowohl erraten, als begreifen 
+               werden, dahin aus, daß ich viel geneigter bin, diesen Aufsatz zu furchtsam, als zu dreist, oder gar gefährlich zu 
+               finden. Und in der Tat: ich fürchte weit mehr, daß er Ihnen den Vorwurf, daß Sie immer das Alte (der Himmel verhüte 
+               nur, daß es nicht wieder heiße, das <emph rend="underlined">Katholische</emph>) verteidigen, als die Beschuldigung 
+               der Neuerungssucht zuziehen wird. Wer die Wahrheit liebt, wer den Schriftsteller im Werke herauszufinden versteht, 
+               noch leichter freilich, wer Sie kennt, wird Ihnen keinen von beiden Vorwürfen machen. Ich meinesteils habe die 
+               reinste Bewunderung für die nüchterne und weise Unparteiligkeit, die in dem ganzen Laufe der Untersuchung herrscht, 
+               unablässig gefühlt: ich habe das Ganze im höchsten Grade ganz, meisterhaft einfach, und doch alles Erhebliche 
+               umfassend, mithin sehr zweckmäßig und belehrend, und außerdem vieles Einzelne, wie gewöhnlich sehr anziehend und 
+               sehr glücklich dargestellt gefunden. Doch bekenne ich frei, daß nur das eigentliche Pro und Contra, das heißt, der 
+               Teil des Aufsatzes <emph rend="underlined">vor</emph> der Konklusion meinen unbegrenzten Beifall hat. Nicht, daß ich 
+               das letztre nicht in sich sehr wahr und gut fände, nicht, daß ich wähnte, die Stimme der Weisheit müßte sich in 
+               jedem Munde zur Harmonie mit meinem jetzt wirklich etwas revolutionssüchtigen Geistesdrange bilden, und das Wort des 
+               Friedens, wenn es ein erkannter <emph rend="underlined">uneigennütziger</emph> Freund der Menschheit und <pb/> ihrer 
+               Rechte ausspricht, verachtete: ich glaube nur, daß dies ganze Stück an der Stelle, wo es hier steht, nicht den 
+               vollen Eindruck macht, den es sonst machen würde, und daß es hinwiederum den Eindruck des vorhergehenden schwächt. 
+               Alles dies aber kann leicht ganz allein in meinem Gefühl, und in meiner Ansicht der Sache liegen, zumal da ich 
+               keinen recht reellen Grund, um dieses Stück auszuschließen, oder auch nur seinen Zusammenhang mit den beiden ersten 
+               anzutasten, anzugeben imstande wäre.
+            </p>
+         </div>
+         <div n="2" corresp="#mss">
+            <p>
+               Vermutlich wird dieser Aufsatz in zwei oder drei Abschnitten erscheinen. <rs type="person" ref="#Bie">Biester</rs> 
+               ist mit Aufsätzen, die er aus <emph rend="underlined">Konvenienz</emph> abdrucken muß - und mich dünkt man spürt es 
+               in den <rs type="citation" ref="#e4289-1">neuern Stücken der Monats Schrift</rs> - überhäuft, und nur 
+               <emph rend="underlined">Ihr Name</emph> bewegt ihn, den Ihrigen ins nächste Stück aufzunehmen. So hat er mir 
+               <ref target="#r4289-1">wenigstens gesagt</ref>. Ich habe selbst seit November vorigen Jahres 
+               <rs type="citation" ref="#p4289-1">einen Aufsatz</rs> bei ihm, den er von Monat zu Monat einrücken lassen will. Jetzt 
+               habe ich ihm stillschweigend bis zum <ref target="#r4289-2">April</ref> Frist gegeben. Erscheint er dann nicht, so 
+               nehme ich <rs type="person" ref="#Kle">Herrn Klein</rs>s Anerbieten an, der ihn in seine 
+               <rs type="citation" ref="#e4289-2">Annalen</rs> aufnehmen, und noch dazu sehr gern haben will. Die 
+               <rs type="citation" ref="#e4289-1">Berlinsche Monatsschrift</rs> ist denn doch immer noch eins der besten deutschen 
+               Journale; und doch, in welcher schlechten Gesellschaft findet man sich darin. Ich glaube, wenn ich so ein 
+               Schriftsteller wäre, als Sie, ich ließe gar nichts in Zeitschriften abdrucken.
+            </p>
+         </div>
+         <div n="3" corresp="#vcg">
+            <p>
+               Jetzt bleibt mir zur Beantwortung <rs type="citation" ref="#c4289-2">Ihres letzten Schreibens</rs> außer der 
+               Versicherung, daß ich alle mir anvertraute Briefe prompt und richtig bestellt habe, nur noch übrig, daß ich mich 
+               entschuldige, Ihnen nicht gleich, sondern erst acht Tage nach Empfehlung desselben geantwortet zu haben. Und sicher, 
+               nein, sicher ahnden Sie nie, zu welchem höchst unerwarteten Vortrage diese Entschuldigung der Übergang sein wird.
+            </p>
+         </div>
+         <div n="4" corresp="#bezbt">
+            <p>
+               Sicher ahnden Sie nicht, daß ich Ihnen jetzt eine Sache von höchster Wichtigkeit für meine ganze Existenz mitteilen, 
+               Ihre ganze Freundschaft für mich auffordern, Ihre Hülfe anrufen, und noch obendrein - nach 
+               <rs type="place" ref="#plBr">Breslau</rs> kommen will.
+            </p>
+            <p>
+               Es ist nämlich, teuerster Garve, eine ausgemachte und von Tage zu Tage mehr bestätigte Wahrheit, daß ich in meiner 
+               jetzigen Lage <pb/> schlechterdings nicht bleiben kann. Ich will Ihnen mit kurzen Worten die hervorstechendsten 
+               Gründe dieser Behauptung anführen, und sie in zwei Klassen verteilen.
+            </p>
+            <p>
+               1. Die kontinuierliche, gewiß Ihre Vorstellung weit übersteigende, sklavische und mechanische Arbeit, an die ich 
+               einen Tag wie den andern geschmiedet bin, ohne daß ich eine andre Aussicht als: sicherlich keine Verminderung, und, 
+               wo es möglich ist, noch Vermehrung derselben vor mir habe, trocknet alles, was etwa Taugliches und Lebendiges in mir 
+               ist, völlig aus. Es ist keine Chimäre, es ist reine Wahrheit und inniges Gefühl, daß ich statt fortzuschreiten, in 
+               allem, worin ich das Ziel und die Würde meines Lebens setze, fürchterlich zurückkomme. 
+               <emph rend="underlined">Seit vier Wochen habe ich nicht Muße gehabt, die Zeitung zu lesen.</emph> Überlegen Sie dies 
+               Faktum, denken Sie sich meine innre Organisation nur mit einem flüchtigen Gedanken: und urteilen Sie, ob ich auf 
+               diese Art <emph rend="underlined">leben</emph>, fortleben kann. - Nun ! und bei aller dieser Abscheulichkeit meines 
+               Postens wollte ich ihn, wie ich es bisher getan habe, ohne Murren tragen, wenn nur
+            </p>
+            <p>
+               2. für alle diese Aufopferungen die ökonomische Seite meiner Lage reizender wäre. Nicht aus Neigung - denn da 
+               gestehe ich dreist, die bitterste Armut mit Freiheit zöge ich einem solchen Leben, wie mein jetziges unter den 
+               glänzendsten Bedingungen vor - aber aus Fügung in die Umstände dieser Welt, aus Lust, meinen Eltern zu gefallen, und 
+               den Menschen, die einen nun doch schlechterdings immer nach ihrer Art glücklich wissen wollen, ihren Willen zu tun: 
+               diese Bewegungsgründe, die wirklich jetzt einen mächtigen Einfluß auf mein Herz, worin der Jugendrausch allmählich 
+               verfliegt, haben, würden mich bewegen, selbst in diesem ewigen intellektuellen Selbstmorde fort zu vegetieren, wenn 
+               ich denn doch nur wenigstens das, was man gemeinhin Fortüne nennt, dadurch für mich befördert sähe. So aber habe 
+               ich, nachdem ich 3 Jahr als Kammerreferendarius und 3 ½ Jahr als expedierender Sekretär gedient habe, noch keinen 
+               Pfennig fixes Gehalt, habe mit einem Mann - il faut trancher le mot - mit dem filzigsten und schmutzigsten aller, 
+               die je Minister hießen, zu tun, mit einem <rs type="person" ref="#OvV">Menschen</rs>, der keine Idee <pb/> davon 
+               hat, was es heißt, für und mit einem andern fühlen, der sich meiner wie jeder andern Maschine bedient, der weit 
+               entfernt ist, mich für alle meine Plage je anders als auf dem allerordinärsten Wege zu belohnen, und der dieses, so 
+               unglaublich das auch scheinen mag, geradezu erklärt hat. Dieser ordinäre Weg ist nun das Aszendieren; und um Sie mit 
+               keinem langweiligen Kalkul zu ermüden, so bitte ich Sie, mir auf mein Ehrenwort zu glauben, daß ich von Glück zu 
+               sagen habe, wenn ich auf diesem Wege in Jahr und Tag zu einem Gehalt von 300 Reichsthaler und - in 12 bis 15 Jahren 
+               zu einem von 600 oder 700 Reichsthaler rücke, es müßte denn ein andrer Minister eintreten, welches gar nicht zu 
+               vermuten ist.
+            </p>
+            <p>
+               Diese Umstände sind so einleuchtend, daß selbst <rs type="person" ref="#JFG">mein Vater</rs>, der die Versuche und 
+               die Unbeständigkeit nicht liebt, und der noch vor einem Jahr den Gedanken, daß ich das Generaldirektorium verlassen 
+               sollte, weit von sich geworfen hätte, jetzt vollkommen überzeugt ist, daß ich, wenn ich noch irgend in der Welt auch 
+               nur ein mäßiges Glück machen will, aus <ref target="#r4289-3">meiner gegenwärtigen Laufbahn heraustreten muß</ref>.
+            </p>
+            <p>
+               Diese Beistimmung <rs type="person" ref="#JFG">meines Vaters</rs> hat nun auch den Entschluß, ein unausstehliches 
+               und doch zu nichts führendes Joch je eher je lieber abzuschütteln, so fest in mir gemacht, daß ich bloß die Art, wie 
+               ich es tun kann, suche, über die Veränderung selbst aber so entschieden bin, daß mich nichts mehr von dem, worin 
+               meine Vernunft, mein Gefühl, und die gemeine Weltklugheit zusammentreffen, abbringen kann.
+            </p>
+         </div>
+         <div n="5" corresp="#bezbr">
+            <p>
+               Durch allerlei zufällige Veranlassungen bin ich auf den Gedanken gekommen, mich um eine Ratsstelle beim 
+               <rs type="place" ref="#plBr">Breslau</rs>ischen Magistrat, oder um mich richtiger auszudrücken, um die Anwartschaft 
+               auf die erste Expektanz bei diesem Collegio zu bewerben. Ein Zusammenfluß vielfältiger Bewegungsgründe hat diesen 
+               längst in mir gärenden Plan zur Reife gebracht. Aufenthalt in <rs type="place" ref="#plBr"/>Breslau, bei Ihnen, 
+               Arbeit, die gegen meine jetzige Spiel sein wird, gutes Brot, nicht ungünstige Aussichten zur Verbesserung, Ruhe in 
+               meinem Vaterlande, eine Menge teils überdachter und raisonnierter, teils empfundner und manchmal geträumter Vorteile 
+               haben diese Idee in meinem Kopf so festgesetzt, daß ich sie <rs type="person" ref="#JFG">meinem Vater</rs> 
+               kommunizierte, und zu meinem größten Vergnügen fand, daß er ihr seinen vollkommensten Beifall gab.
+            </p>
+            <p>
+               Es waren zwei Wege, zum Ziel zu gelangen. Einer, durch den <rs type="person" ref="#KFWII">König</rs> und eine 
+               Kabinettsordre, der andre geradezu durch den <rs type="person" ref="#Hoy">Minister von Hoym</rs>. Der erste wäre 
+               vielleicht der simpelste gewesen, zumal wenn die schmutzigen Kanäle, durch die heute die Gnade fließt, befahren 
+               worden wären: aber teils dieses Umstandes halber, teils weil mir diese Manier etwas Gewaltsames zu enthalten schien, 
+               ward dieser Weg verworfen, und <rs type="person" ref="#JFG">mein Vater</rs> hat daher gerade an den 
+               <rs type="person" ref="#Hoy">Minister</rs> geschrieben, dem der <rs type="person" ref="#HfW">Hofrat Wunster</rs> 
+               <rs type="citation" ref="#c4289-5">den Brief</rs> einhändigen will, zugleich aber auch an 
+               <rs type="person" ref="#FBEvT">Tauenzien</rs> und an den <rs type="person" ref="#vWd">Landjägermeister von Wedel</rs>. 
+               Er gründet sein Gesuch darauf, daß ich ein geborner <rs type="place" ref="#plBr">Breslau</rs>er bin, daß ich durch 
+               beinahe 7jährige Routine und strenges Arbeiten im Kameralfach dem ambitionierten Posten völlig gewachsen sei, und 
+               daß das hohe Alter verschiedener Magistratsglieder eine sehr nahe Vakanz verspräche.
+            </p>
+            <p>
+               Ich weiß sehr wohl, daß Ihre Bekanntschaft mit dem <rs type="person" ref="#Hoy">Minister</rs> an allem, was 
+               Geschäftsintrigue und Beförderungsspiel heißt, keinen Teil nimmt. Aber eben der Umstand, daß Sie vielleicht noch nie 
+               geradezu dem <rs type="person" ref="#Hoy">Minister</rs> jemanden zu einer Stelle empfohlen haben, gibt mir den Mut 
+               ein, mich in dieser so wichtigen Angelegenheit an Sie zu wenden.
+            </p>
+            <p>
+               Es versteht sich von selbst, daß Ihr Urteil über den Wert eines Menschen in den Augen des 
+               <rs type="person" ref="#Hoy">Minister</rs>s von großer Wichtigkeit sein muß. Gerade ein respektables, günstiges 
+               Urteil von mir brauche ich höchst nötig. Denn es ist nichts natürlicher, als daß bei dem 
+               <rs type="person" ref="#Hoy">Minister</rs> der Gedanke entstehen muß: "Der Mensch dient so lange, 
+               <rs type="person" ref="#JFG">sein Vater</rs> hat doch manche Konnexionen, er kann nicht zu einer Versorgung kommen; 
+               es muß nicht viel an ihm sein."
+            </p>
+         </div>
+         <div n="6" corresp="#vcg">
+            <p>
+               Daß Sie diesen Verdacht entfernen sollen, das ist eigentlich der wahre Gegenstand meines Auftrages an Sie. Wollen 
+               Sie einige Schritte weitergehen, wollen Sie und halten Sie es für zuträglich, selbst ein gut Wort für das Gelingen 
+               des Gesuchs zu reden, nun, dann tun Sie an mir, was Sie jetzt nur in der Welt Erfreulichstes für mich tun können. 
+               Und der Trost: Ihnen, Ihnen gerade mein Glück zu danken zu haben, ist doch auch so groß, daß ich den Anfang dieser 
+               neuen Laufbahn schon <pb/> unter die glücklichsten Begebenheiten setzen würde, die ich mir davon verspreche.
+            </p>
+            <p>
+               Der Hauptpunkt bei Ihrer Verwendung ist aber hauptsächlich der: daß Sie gerade zu der Zeit, da der 
+               <rs type="person" ref="#Hoy">Minister</rs> <rs type="person" ref="#JFG">meines Vaters</rs> 
+               <rs type="citation" ref="#c4289-5">Brief</rs> bekömmt, mit ihm sprechen müssen, um, womöglich seine ersten 
+               Entschlüsse determinieren zu helfen. Alles übrige überlasse ich Ihrer Einsicht und Ihrer gütigen Gesinnung gegen 
+               mich, die ich mit einer wohltätigen Sicherheit voraussetze, und auf die ich uneingeschränkt bauen zu können glaube.
+            </p>
+            <p>
+               Ich gestehe, daß ich nicht ohne eine gewisse Bangigkeit diesen Plan und meine Bitte vorgetragen habe. Diese 
+               Bangigkeit rührt vornehmlich von dem Gefühl her, daß ich Sie doch immer durch diesen Auftrag in gewissem Grade 
+               beunruhige, und vielleicht gar etwas von Ihnen fordere, was Ihnen schwer wird. Aber mein Vertrauen zu Ihnen 
+               überfliegt diese Bangigkeit, und es ist so etwas Erquickendes in dem Gedanken, das, was ich so oft bei Menschen, die 
+               ich weit unter mir sah, suchte, jetzt bei Ihnen und durch Sie, wo selbst der Versuch mich erhebt, zu erstreben.
+            </p>
+            <p>
+               Ich schließe diesen langen, gewiß für Sie recht befremdlichen Brief mit dem Wunsch, daß doch die mir durch 
+               <rs type="person" ref="#HfW">Wunster</rs> zugekommne Nachricht, von dem günstigen Einfluß Ihrer neuen Kurmethode auf 
+               Ihre Gesundheit und Heiterkeit, in ihrem ganzen Umfange wahr sein möchte, und mit der Versicherung meiner ewigen 
+               hochachtungsvollen Ergebenheit und Liebe.
+            </p>
+         </div>
+         <closer>
+            <signed rend="right">Gentz.</signed>
+         </closer>
+         <postscript corresp="#bezbr">
+            <p>
+               Von <rs type="person" ref="#JFG">meinem Vater</rs> und meiner Mutter habe ich mit Fleiß nichts gesagt. Überhaupt, 
+               Sie durch etwas bewegen wollen, sich dieser Sache anzunehmen, was von irgendeinem fremden Einfluß hergenommen werden 
+               müßte, wäre kindisch.
+            </p>
+            <p>
+               Projekt nicht für eine vorüberfliegende Idee. Es ist ein unter der Aufsicht der Vernunft langsam erzogner Entwurf, 
+               der sich aber freilich durch vieles Herumwälzen, und Anhängen auf manchen Seiten in einen der lebhaftesten Wünsche 
+               verwandelt hat, die ich jemals in mir gefühlt habe. Bedenken Sie auch noch, daß ich unter den Fesseln eines Briefes, 
+               zu dem ich mir noch dazu die Zeit in der Nacht stehlen <pb/> muß, nicht alle Gründe, selbst nicht alle sehr 
+               wichtigen für das Austreten aus meiner jetzigen Lage vorlegen konnte, und daß ich, wenn ich nur eine Stunde mit 
+               Ihnen sprechen könnte, Sie überzeugen würde, dagegen ich jetzt bloß darauf rechnen muß, daß Sie mir 
+               <emph rend="underlined">glauben.</emph>
+            </p>
+         </postscript>
+      </body>
+      <note resp="#edAG" xml:id="r4289-1">Dieses Versprechen scheint Biester nicht gehalten zu haben. Erst in <rs type="citation" ref="#f4289-1">der Maiausgabe</rs> der Berliner Monatsschrift findet sich der nächste Aufsatz Garves - die vom November 1790 fortgesetzte Abhandlung über die Güter der Geistlichkeit.</note>
+      <note resp="#edAG" xml:id="r4289-2">Vgl. <rs type="citation" ref="#c4289-3">den Brief an Garve vom 18. September 1790</rs>. Im April 1791 kam der Aufsatz tatsächlich in der Monatsschrift.</note>
+      <note resp="#edAG" xml:id="r4289-3"><rs type="citation" ref="#c4289-4">Der Versetzungsgesuch</rs> an den König datiert vom 6. Februar 1791.</note>
+   </text>
+</TEI>

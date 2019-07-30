@@ -1,0 +1,366 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc xml:id="LETTER_GENTZ_1757">
+         <titleStmt>
+            <title>Friedrich von Gentz an Karl August Böttiger, 20. Juni 1797</title>
+            <editor xml:id="edAG">Andreas Gálffy</editor>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <name>Forschungsstelle "Universitätssammlung Friedrich von Gentz"</name>
+               <link target="http://gentz-digital.ub.uni-koeln.de http://www.ub.uni-koeln.de/cdm/singleitem/collection/gentz/id/1756/"/>
+            </publisher>
+            <pubPlace>Cologne</pubPlace>
+            <idno type="Gentz-Edition-Number" n="1757"/>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <country>Switzerland</country>
+                  <settlement>Schaffhausen</settlement>
+                  <institution>Stadtbibliothek Schaffhausen</institution>
+                  <repository>Nachlaß Johannes von Müller</repository>
+                  <collection>Msc. Müll.</collection>
+                  <idno>149/7</idno>
+               </msIdentifier>
+               <msContents>
+                  <summary>
+                     Das positive Urteil von Böttiger über Gentz' Abhandlung über die französische Finanzadministration hat Gentz 
+                     dazu bewegt, eine Anzeige von diesem Buch in der Allgemeinen Literaturzeitung aufzugeben. Er beauftragt 
+                     Böttiger damit. Auch schickt er seine Kalendergeschichte der Maria Stuart zu. Die Geschichte sei abgedroschen, 
+                     also kommt es nun für Gentz auf Form und Stil an. Gentz möchte wissen, ob er seinem Ideal der Gleichförmigkeit, 
+                     Simplizität, höchste Korrektheit, kurz den genauesten Mittelwert zwischen Poesie und Zeitungsstil gerecht 
+                     geworden ist. Denn das sind die Ideale, denen jeder Geschichtsschreiber gerecht werden sollte; so Gentz. Das 
+                     Exemplar soll Böttiger zurücksenden. Die von Böttiger gesandten Bücher sollen in acht Tagen zurückgehen. 
+                     Wenn Böttiger ihn in Berlin besuchen kommt, so soll er es nicht dann tun, wenn Gentz in Breslau unterwegs ist. 
+                     Im Postscript meldet Gentz, dass neulich angekündigte Rezensionen schon abgeschickt seien.
+                  </summary>
+               </msContents>
+            </msDesc>
+            <listBibl type="preprints">
+               <biblStruct>
+                  <monogr>
+                     <editor>
+                        <persName>
+                           <ref target="http://d-nb.info/gnd/104268913"/>
+                           <forename>Johann Konrad</forename>
+                           <surname>Maurer-Constant</surname>
+                        </persName>
+                     </editor>
+                     <title>Briefe an Johann von Müller (Supplement zu dessen sämtlichen Werken)</title>
+                     <imprint>
+                        <pubPlace>Schaffhausen</pubPlace>
+                        <date>1839</date>
+                     </imprint>
+                     <biblScope unit="volume" n="1">
+                        Bd. 1
+                     </biblScope>
+                     <biblScope unit="page" from="5" to="8">
+                        Nr. 2 (falscher Adressat und falsche Jahresangabe)
+                     </biblScope>
+                  </monogr>
+               </biblStruct>
+               <biblStruct>
+                  <monogr>
+                     <editor>
+                        <persName>
+                           <ref target="http://d-nb.info/gnd/117325791"/>
+                           <forename>Gustav</forename>
+                           <surname>Schlesier</surname>
+                        </persName>
+                     </editor>
+                     <title>Schriften von Friedrich von Gentz. Ein Denkmal. 5 Bde.</title>
+                     <imprint>
+                        <publisher>Verlag von Heinrich Wolff</publisher>
+                        <pubPlace>Mannheim</pubPlace>
+                        <date>1838-1840</date>
+                     </imprint>
+                     <biblScope unit="volume" n="4">
+                        IV
+                     </biblScope>
+                     <biblScope unit="page" from="304" to="306">
+                        S. 304-306
+                     </biblScope>
+                  </monogr>
+               </biblStruct>
+               <biblStruct>
+                  <monogr>
+                     <editor>
+                        <persName>
+                           <ref target="http://d-nb.info/gnd/130953075"/>
+                           <forename>Friedrich Carl</forename>
+                           <surname>Wittichen</surname>
+                        </persName>
+                        <persName>
+                           <ref/> <!-- kein GND-Eintrag -->
+                           <forename>Ernst</forename>
+                           <surname>Salzer</surname>
+                        </persName>
+                     </editor>
+                     <title>Briefe von und an Friedrich von Gentz, 4 Bde.</title>
+                     <imprint>
+                        <publisher>Oldenbourg</publisher>
+                        <pubPlace>München, Berlin</pubPlace>
+                        <date>1909-1913</date>
+                     </imprint>
+                     <biblScope unit="volume" n="1">
+                        I
+                     </biblScope>
+                     <biblScope unit="page" from="230" to="231">
+                        Nr. 55
+                     </biblScope>
+                  </monogr>
+               </biblStruct>
+            </listBibl>
+            <listBibl type="letterReferenced">
+               <bibl xml:id="c1757-1" corresp="#LETTER_GENTZ_4317">Friedrich von Gentz an Karl August Böttiger, 21./22. Dezember 1796</bibl>
+            </listBibl>
+            <listBibl type="defExpr">
+               <biblStruct xml:id="e1757-1" corresp="UJn-0002">
+                  <monogr>
+                     <title>Allgemeine Literatur-Zeitung</title>
+                     <imprint>
+                        <pubPlace>Jena</pubPlace>
+                        <date>1785-1849</date>
+                     </imprint>
+                  </monogr>
+                  <ptr target="http://zs.thulb.uni-jena.de/receive/jportal_jpjournal_00000005?XSL.vol.start=0"/>
+               </biblStruct>
+            </listBibl>
+            <listBibl type="defRep">
+               <biblStruct xml:id="p1757-1" corresp="GBk-0031">
+                  <monogr>
+                     <author>
+                        <persName>
+                           <ref target="http://d-nb.info/gnd/100297676"/>
+                           <forename>Francis d'</forename>
+                           <surname>Ivernois</surname>
+                        </persName>
+                     </author>
+                     <editor resp="translator">
+                        <persName>
+                           <ref target="http://d-nb.info/gnd/118538489"/>
+                           <forename>Friedrich von</forename>
+                           <surname>Gentz</surname>
+                        </persName>
+                     </editor>
+                     <title>Geschichte der französischen Finanz-Administration im Jahre 1796</title>
+                     <imprint>
+                        <pubPlace>Berlin</pubPlace>
+                        <publisher>Friedrich Vieweg der Ältere</publisher>
+                        <date>1797</date>
+                     </imprint>
+                  </monogr>
+                  <ptr target="https://books.google.de/books?id=rNVBAAAAcAAJ"/>
+               </biblStruct>
+               <biblStruct xml:id="p1757-2" corresp="#LETTER_GENTZ_NNNN">
+                  <monogr>
+                     <author>
+                        <persName>
+                           <ref target="http://d-nb.info/gnd/118538489"/>
+                           <forename>Friedrich von</forename>
+                           <surname>Gentz</surname>
+                        </persName>
+                     </author>
+                     <title>Taschenbuch für 1799. Maria Stuart von Friedrich Gentz. Die Rache von August Lafontaine.</title>
+                     <imprint>
+                        <pubPlace>Berlin</pubPlace>
+                        <publisher>Friedrich Vieweg der Ältere</publisher>
+                        <date>1798</date>
+                     </imprint>
+                  </monogr>
+                  <ptr target="#LETTER_GENTZ_NNNN"/>
+               </biblStruct>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Masterarbeit zu Matrikelnummer 5584124</p>
+         </projectDesc>
+      </encodingDesc>
+      <profileDesc>
+         <creation>
+            <date when-iso="1797-06-20">20. Juni 1797</date>
+         </creation>
+        <langUsage>
+           <language ident="d">deutsch</language>
+        </langUsage>
+         <textClass>
+            <keywords scheme="internal"><!-- internal: innerhalb des besagten Briefs -->
+               <term>Brief</term>
+               <term>Literatur</term>
+               <term>französische Finanzen</term>
+               <term>d'Ivernois</term>
+               <term>Französische Revolution</term>
+            </keywords>
+            <keywords scheme="categorisation"><!-- Sinnabschnittseinteilung - relevant für den Fahrkartenautomaten! -->
+               <term xml:id="frf">französische Finanzen</term>
+               <term xml:id="vwkms">Vieweg - Kalender / Maria Stuart</term>
+               <term xml:id="bibl">Bibliothek</term>
+               <term xml:id="bezbt">Beziehungen zu Berlin - Beamtentätigkeit</term>
+               <term xml:id="lvm">Literatur vermischt</term>
+            </keywords>
+         </textClass>
+         <textDesc>
+            <channel>manuscript</channel>
+            <constitution type="single"/>
+            <derivation type="original"/>
+            <domain type="private"/>
+            <factuality type="fact"/>
+            <interaction type="partial"/>
+            <preparedness type="prepared"/>
+            <purpose type="inform"/>
+         </textDesc>
+         <particDesc>
+            <listPerson>
+               <!-- Sender und Adressat -->
+               <person role="sender" xml:id="Gen">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/118538489"/>
+                     <forename>Friedrich von</forename>
+                     <surname>Gentz</surname>
+                  </persName>
+               </person>
+               <person role="receiver" xml:id="KAB">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/118824775"/>
+                     <forename>Carl August</forename>
+                     <surname>Böttiger</surname>
+                  </persName>
+               </person>
+               <!-- erwähnte Personen -->
+               <person role="named" xml:id="FVW">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/119049546"/>
+                     <forename>Friedrich</forename>
+                     <surname>Vieweg</surname>
+                  </persName>
+               </person>
+            </listPerson>
+         </particDesc>
+         <settingDesc>
+            <listPlace>
+               <!-- Start- und Zielort -->
+               <place type="sender" xml:id="plBe">
+                  <country>
+                     <ref target="http://d-nb.info/gnd/4047194-9"/>
+                     <placeName>Preußen</placeName>
+                  </country>
+                  <settlement>
+                     <ref target="http://d-nb.info/gnd/4005728-8"/>
+                     <placeName>Berlin</placeName>
+                  </settlement>
+               </place>
+               <place type="receiver" xml:id="plWe">
+                  <country>
+                     <ref target="http://d-nb.info/gnd/4051194-7"/>
+                     <placeName>Sachsen-Weimar-Eisenach</placeName>
+                  </country>
+                  <settlement>
+                     <ref target="http://d-nb.info/gnd/4065105-8"/>
+                     <placeName>Weimar</placeName>
+                  </settlement>
+               </place>
+               <!-- erwähnte Orte -->
+               <place type="named" xml:id="plBr">
+                  <country>
+                     <ref target="http://d-nb.info/gnd/4047194-9"/>
+                     <placeName>Preußen</placeName>
+                  </country>
+                  <settlement>
+                     <ref target="http://d-nb.info/gnd/4008216-7"/>
+                     <placeName>Breslau</placeName>
+                  </settlement>
+               </place>
+            </listPlace>
+         </settingDesc>
+      </profileDesc>
+      <revisionDesc>
+         <change xml:id="init" when-iso="2018-02-26" who="#edAG">Erstauszeichnung und Normierung des Dokumentes im Rahmen der Masterarbeit der Matrikelnummer 5584124</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <opener>
+            <dateline rend="right"><rs type="place" ref="#plBe">Berlin</rs> den <date when-iso="1797-06-20">20<span rend="sup">ten</span> Juny 1797</date></dateline>
+         </opener>
+         <div n="1" corresp="#frf">
+            <p>
+               Ihr gütiges und schmeichelhaftes Urtheil über 
+               <rs type="citation" ref="#p1757-1">meine Geschichte der Französischen Finanz-Administration</rs> macht mich so 
+               dreist, mir von Ihnen eine Gefälligkeit zu erbitten, bey der ich freilich mehr auf meinen 
+               <rs type="person" ref="#FVW">Verleger</rs>, unsern gemeinschaftlichen Freund, als auf mich selbst Rücksicht habe, die 
+               nichts desto weniger aber auch mir nicht ganz gleichgültig seyn würde. Entschlössen Sie Sich wohl eine Anzeige von 
+               diesem Buche für die <rs type="citation" ref="#e1757-1">Litteratur-Zeitung</rs> zu machen ? Es wäre das erstemal, daß 
+               mir die Ehre widerführe, in dieser Zeitung rezensirt zu werden, eine Ehre auf die ich denn doch so guten Anspruch, 
+               als mancher andre dort gepriesne, zu haben glaube. Ich verlange kein enthusiastisches oder auch nur unbedingtes Lob: 
+               nur, daß dem Fleiße und der Genauigkeit, mit der ich meine Arbeiten zu Stande bringe, Gerechtigkeit geschehe. Sie 
+               sind der Mann, dies zu leisten; und der Einwurf, daß der Gegenstand meines Buches eigentlich nicht in Ihr Fach 
+               gehört, schreckt mich nicht: denn von einer gewißen Seite sind alle Fächer Ihre. <pb/>
+            </p>
+         </div>
+         <div n="2" corresp="#vwkms">
+            <p>
+               Wenn Sie es nicht unbescheiden finden wollen, daß ich Sie ohne Unterlaß von meinen eignen Produkten unterhalte, so 
+               müßen Sie es mir verzeihen, daß ich Ihnen hier ein Exemplar von der (ursprünglich für den diesjährigen, nun aber für 
+               einen künftigen Kalender bestimmten) <rs type="citation" ref="#p1757-2">Geschichte</rs> der 
+               <emph rend="underlined">Maria Stuart</emph> zuschicke. Es interessirt mich in hohem Grade, Ihr ganz aufrichtiges 
+               Urtheil über diese Arbeit zu wißen, die bisher noch sehr wenige gesehen haben. - Da bey dieser Geschichte der Stoff 
+               alt, erschöpft und abgenutzt war, so kam alles, durchaus alles, auf Form und Behandlung an. Ich unternahm es, um zu 
+               versuchen, was ich eigentlich im historischen Styl vermögte. Nie habe ich mit so großer und anhaltender Gedult an 
+               einer Arbeit gefeilt als an dieser. Darum eben ist es mir so sehr wichtig zu wißen, ob ich 
+               <emph rend="underlined">mein</emph> Ideal der historischen Schreibart <emph rend="underlined">einigermaßen</emph> 
+               erreichte. Die Züge dieses Ideals sind - Gleichförmigkeit, Simplizität, höchste Correktheit, Lebhaftigkeit ohne 
+               Declamation, Nüchternheit ohne Trockenheit, der genauste Mittelweg zwischen Poesie und Zeitungs-Styl, gänzliches 
+               Ver<pb/>löschen und Verschwinden des Schriftstellers in seinem Gegenstande, so daß die Eigenthümlichkeit, 
+               <del rend="stroked">daß</del> die immer bleiben wird, und sogar bleiben <emph rend="underlined">muß</emph>, nur wie 
+               ein über das Ganze ausgebreiteter Hauch wirke, aber in keinem einzelnen Zuge - weil ein jeder die strengste Wahrheit 
+               athmen soll - sichtbar sey. Dies sind meine Forderungen an den <emph rend="underlined">Geschichtschreiber</emph>, 
+               einen unendlich gemißbrauchten und geschändeten Nahmen, der gewiß nur überaus wenigen auserwählten Schriftstellern 
+               unter allen Nationen - und wie vielen wohl unter der unsrigen ? - gebührte. Ich weiß sehr gut, daß 
+               <add place="above">von</add> einem Bruchstücke, wie diese Maria <del rend="stroked">xxx</del> ist, noch kein rechter 
+               Schluß auf die Bearbeitung eines größern, mannichfaltigern, vielseitigern Gegenstandes gilt, aber es wäre doch immer 
+               etwas, im Kleinen der Vollkommenheit näher gerückt zu seyn, und <del rend="underlined">xxx</del> ein unbefangnes, 
+               treues, competentes Urtheil über dieses Bruchstück wird mir für die Folge sehr zum Leitstern dienen können. Um ein 
+               solches bitte ich Sie. Ein Gelehrter, der selbst <add place="above">für</add> einen großen Geschichtsschreiber gilt, 
+               und dem ich, zu meinem Verdruß, dies kleine Produkt zu lesen gab, hat daran auszusetzen gefunden 1, daß die 
+               Behandlung <emph rend="underlined">zu ernst</emph> sey, 2, daß man die Feile zu sehr bemerke. - Dies Urtheil hat mich 
+               nicht wenig <pb/> befremdet: und die zweite Bemerkung würde mich aufmerksam gemacht haben, wenn ihr die 
+               Abgeschmacktheit der ersten nicht allen Werth und alles Ansehen geraubt hätte. Uebrigens ersuche ich Sie, mir das 
+               Exemplar zurück zu senden, weil es das einzige ist, welches ich bis jetzt besitze, und 
+               <rs type="person" ref="#FVW">Vieweg</rs> es nicht vor der Zeit ins Publikum dringen laßen will.
+            </p>
+         </div>
+         <div n="3" corresp="#bibl">
+            <p>
+               Die Bücher die Sie mir geschickt haben, sind richtig eingegangen, und ich sage Ihnen den lebhaftesten Dank dafür. 
+               <date when-iso="1797-06-28">Binnen 8 Tagen</date> sollen Sie sicher zurück erfolgen.
+            </p>
+         </div>
+         <div n="4" corresp="#bezbt">
+            <p>
+               Bleibt es noch wahr, daß Sie diesen Sommer <rs type="place" ref="#plBe">Berlin</rs> besuchen ? Mögte es doch nur 
+               nicht, während der Zeit geschehen, wo ich abwesend bin ! Ich reise nehmlich den 
+               <date when-iso="1797-07-01">1ten July</date>, in Angelegenheiten unsrer neu-acquirirten Pohlnischen Länder, nach 
+               <rs type="place" ref="#plBr"><emph rend="underlined">Breßlau</emph></rs>, und komme schwerlich vor dem 
+               <date when-iso="1797-08-01">1ten August</date> zurück. Vielleicht erhalte ich noch vor meiner Abreise einige Zeilen 
+               von Ihnen. Gönnen Sie Ihre fernere Freundschaft
+            </p>
+         </div>
+         <closer>
+            <salute rend="right">Ihren sehr ergebnen</salute>
+            <signed rend="right">Gentz.</signed>
+         </closer>
+         <postscript corresp="#lvm">
+            <p>
+               Die Rezensionen, die ich Ihnen neulich anmeldete, sind schon abgegangen.
+            </p>
+         </postscript>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,217 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc xml:id="LETTER_GENTZ_3057">
+         <titleStmt>
+            <title>Friedrich von Gentz an Karl Gustav von Brinckmann, 3. Oktober 1800</title>
+            <editor xml:id="edAG">Andreas Gálffy</editor>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <name>Forschungsstelle "Universitätssammlung Friedrich von Gentz"</name>
+               <link target="http://gentz-digital.ub.uni-koeln.de http://www.ub.uni-koeln.de/cdm/singleitem/collection/gentz/id/3056/"/>
+            </publisher>
+            <pubPlace>Cologne</pubPlace>
+            <idno type="Gentz-Edition-Number" n="3057"/>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <country>Sweden</country>
+                  <settlement>Trolle-Ljungby</settlement>
+                  <institution>Archiv des Grafen Wachtmeister</institution>
+                  <repository>Nachlaß Brinckmann, Ausländ. Briefwechsel, Gentz an Brinckmann</repository>
+                  <idno>G 3</idno>
+               </msIdentifier>
+               <msContents>
+                  <summary>
+                     Karl Gustav von Brinckmann ist in Hamburg erkrankt und übersah Gentz bei seiner Korrespondenz. Dies rügt 
+                     Besagter sehr und ermahnt ihn dringend, ihn zu schreiben, da er sich angesichts der Umstände große Sorgen um 
+                     Brinckmann mache. Sein Verlust sei unersetzlich.
+                  </summary>
+               </msContents>
+            </msDesc>
+            <listBibl type="preprints">
+               <biblStruct>
+                  <monogr>
+                     <editor>
+                        <persName>
+                           <ref target="http://d-nb.info/gnd/130953075"/>
+                           <forename>Friedrich Carl</forename>
+                           <surname>Wittichen</surname>
+                        </persName>
+                        <persName>
+                           <ref /> <!-- kein GND-Eintrag -->
+                           <forename>Ernst</forename>
+                           <surname>Salzer</surname>
+                        </persName>
+                     </editor>
+                     <title>Briefe von und an Friedrich von Gentz, 4 Bde.</title>
+                     <imprint>
+                        <publisher>Oldenbourg</publisher>
+                        <pubPlace>München, Berlin</pubPlace>
+                        <date>1909-1913</date>
+                     </imprint>
+                     <biblScope unit="volume" n="2">
+                        II
+                     </biblScope>
+                     <biblScope unit="page" from="71" to="72">
+                        Nr. 78
+                     </biblScope>
+                  </monogr>
+               </biblStruct>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Masterarbeit zu Matrikelnummer 5584124</p>
+         </projectDesc>
+      </encodingDesc>
+      <profileDesc>
+         <creation>
+            <date when-iso="1800-10-03">3. Oktober 1800</date>
+         </creation>
+        <langUsage>
+           <language ident="d">deutsch</language>
+        </langUsage>
+         <textClass>
+            <keywords scheme="internal"><!-- internal: innerhalb des besagten Briefs -->
+               <term>Brief</term>
+               <term>Abwesenheit</term>
+               <term>Französische Revolution</term>
+               <term>Sehnsucht</term>
+            </keywords>
+            <keywords scheme="categorisation"><!-- Sinnabschnittseinteilung - relevant für den Fahrkartenautomaten! -->
+               <term xml:id="vkgvb">Verhältnis Karl Gustav von Brinckmann</term>
+            </keywords>
+         </textClass>
+         <textDesc>
+            <channel>manuscript</channel>
+            <constitution type="single"/>
+            <derivation type="original"/>
+            <domain type="private"/>
+            <factuality type="fact"/>
+            <interaction type="partial"/>
+            <preparedness type="prepared"/>
+            <purpose type="inform"/>
+         </textDesc>
+         <particDesc>
+            <listPerson>
+               <!-- Sender und Adressat -->
+               <person role="sender" xml:id="Gen">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/118538489"/>
+                     <forename>Friedrich von</forename>
+                     <surname>Gentz</surname>
+                  </persName>
+               </person>
+               <person role="receiver" xml:id="KGvB">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/116519770"/>
+                     <forename>Carl Gustav von</forename>
+                     <surname>Brinckmann</surname>
+                  </persName>
+               </person>
+               <!-- erwähnte Personen -->
+               <person role="named" xml:id="Min">
+                  <persName>
+                     <ref/>
+                     <forename>Wilhelmine</forename>
+                     <surname>Gilly</surname>
+                  </persName>
+               </person>
+            </listPerson>
+         </particDesc>
+         <settingDesc>
+            <listPlace>
+               <!-- Start- und Zielort -->
+               <place type="sender" xml:id="plBe">
+                  <country>
+                     <ref target="http://d-nb.info/gnd/4047194-9"/>
+                     <placeName>Preußen</placeName>
+                  </country>
+                  <settlement>
+                     <ref target="http://d-nb.info/gnd/4005728-8"/>
+                     <placeName>Berlin</placeName>
+                  </settlement>
+               </place>
+               <place type="receiver" xml:id="plHa">
+                  <country>
+                     <ref target="http://d-nb.info/gnd/4023118-5"/>
+                     <placeName>Hamburg</placeName>
+                  </country>
+                  <settlement>
+                     <ref target="http://d-nb.info/gnd/4023118-5"/>
+                     <placeName>Hamburg</placeName>
+                  </settlement>
+               </place>
+               <!-- erwähnte Orte -->
+               <place type="named" xml:id="plPa">
+                  <country>
+                     <ref target="http://d-nb.info/gnd/4018145-5"/>
+                     <placeName>Frankreich</placeName>  
+                  </country>
+                  <settlement>
+                     <ref target="http://d-nb.info/gnd/4044660-8"/>
+                     <placeName>Paris</placeName>
+                  </settlement>
+               </place>
+            </listPlace>
+         </settingDesc>
+      </profileDesc>
+      <revisionDesc>
+         <change xml:id="init" when-iso="2018-03-07" who="#edAG">Erstauszeichnung und Normierung des Dokumentes im Rahmen der Masterarbeit der Matrikelnummer 5584124</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div n="1" corresp="#vkgvb">
+            <p>
+               Ich habe mit großer Theilnahme, mit großer Betrübniß vernommen, daß Sie in <rs type="place" ref="#plHa">Hamburg</rs> 
+               krank geworden waren. Aber mit fast eben so großer Betrübniß habe ich bemerkt, daß Sie mich, nach Ihrer Genesung, und 
+               da mancher andre Berliner das Glück gehabt hat, Briefe von Ihnen zu erhalten, gänzlich vergessen konnten.
+            </p>
+            <p>
+               Wodurch verdiente ich dies ? War es die Strafe für mein Stillschweigen während Ihres Aufenthalts in 
+               <rs type="place" ref="#plPa">Paris</rs> ? - Aber Sie ertrugen es ja doch dort mit so edler und unvergeßlicher 
+               Langmuth: aber die Briefe, die ich Ihnen noch in den letzten Tagen dieses Aufenthalts schrieb, zeigten Ihnen doch 
+               klar genug, daß unter allen Ursachen, die Sie meiner Trägheit assigniren konnten, Erkältung meiner Freundschaft gegen 
+               Sie, gewiß die letzte war. <pb/>
+            </p>
+            <p>
+               Sie sind mir ein Glaubensbekenntniß schuldig, liebster Freund ! ein Glaubensbekenntniß über den Zustand Ihres 
+               Geistes, Ihrer Grundsätze, Ihrer Meinungen, in dem Augenblick, als Sie nach einem langen und interessanten 
+               Augenblicke, jenes furchtbare <rs type="place" ref="#plPa">Paris</rs> verließen ! Sie sind jetzt frei, und haben 
+               vielleicht sogar Muße: wie wäre es Ihnen möglich, es mir vorzuenthalten ?
+            </p>
+            <p>
+               Glauben Sie mir, daß ich mit Ungeduld, und mit einer Art von Angst Ihrer künftigen Bestimmung entgegen sehe. Glauben 
+               Sie mir, daß ich mich sehr, sehr glücklich preisen würde, wenn das Schicksal Sie wieder in meine Nähe führte ! Ich 
+               habe jetzt alles, was einem Menschen, der nur für die Politik lebt, 
+               <emph rend="underlined">in <rs type="place" ref="#plBe">Berlin</rs></emph> gereicht werden kan: ich bin mit dem 
+               ganzen Corps <pb/> diplomatique, nur <emph rend="underlined">einige</emph> Gesandschaften natürlich ausgenommen, in 
+               den freundschaftlichsten Verbindungen: auch die Schwedische, auch das Haus Ihrer liebenswürdigen Freunde, der 
+               Engeströmschen Familie ist mir nicht fremd; aber glauben Sie mir, daß Ihren Verlust mir noch nichts ersetzt hat, und, 
+               wenn <emph rend="underlined">Sie</emph> Sich nicht etwa von mir abgewendet haben, auch nichts ersetzen kan und wird.
+            </p>
+            <p>
+               Erfreuen Sie mich also bald, mit einem Briefe, und mit irgend einer frohen Aussicht in die Zukunft ! Ich bitte Sie 
+               recht herzlich darum. Sie sollen mich dankbar finden. Wir können nicht auf immer getrennt seyn, und es ist hohe Zeit, 
+               daß wenigstens durch eine <emph rend="underlined">wahre</emph> Correspondenz, unser altes glückliches Verhältniß 
+               wieder hergestellt werde. <rs type="person" ref="#Min">Meine Frau</rs>, die sehr oft an Sie denkt, grüßt Sie 
+               herzlich; Sie bereiten uns eine frohe Stunde, wenn Sie zum erstenmale wieder die Feder ergreifen werden, um sich zu 
+               erinnern an
+            </p>
+         </div>
+         <closer>
+            <salute rend="right">Ihren <emph rend="underlined">unveränderten</emph> Freund</salute>
+            <dateline rend="left"><rs type="place" ref="#plBe">Berlin</rs> den <date when-iso="1800-10-03">3 Oktober 1800</date>.</dateline>
+            <signed rend="right">Gentz.</signed>
+         </closer>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+
+<html xmlns:th="http://www.thymeleaf.org">
+
+<head>
+
+<!-- JQuery -->
+<script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+<!-- Bootstrap CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" />
+<!-- Bootstrap JavaScript -->
+<script type="text/javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+
+<link rel="stylesheet" href="/css/gentzStyle.css" />
+
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+
+</head>
+
+<body>
+
+	<nav th:fragment="gentzNav">
+		<ul class="nav nav-pills">
+			<li class="nav-item"><a class="nav-link" th:href="@{/KtM/}">Zur Hauptseite</a></li>
+			<li class="nav-item"><a class="nav-link" th:href="@{/KtM/searchForm}">Brief suchen</a></li>
+			<li class="nav-item"><a class="nav-link" th:href="@{http://gentz-digital.ub.uni-koeln.de/portal/home.html?l=de}">Zur Sammlung Herterich an der Universitäts- und Stadtbibliothek der Universität zu Köln</a></li>
+			<li class="nav-item"><form th:include="gentzQuickSearch :: form" action="/KtM/search/quick/" method="post">...</form></li>
+		</ul>
+	</nav>
+	
+</body>
+
+</html>

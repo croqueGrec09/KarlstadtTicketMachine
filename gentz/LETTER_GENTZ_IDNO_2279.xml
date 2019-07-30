@@ -1,0 +1,289 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc xml:id="LETTER_GENTZ_2279">
+         <titleStmt>
+            <title>Friedrich von Gentz an König Friedrich Wilhelm III von Preußen, 26. September 1792</title>
+            <editor xml:id="edAG">Andreas Gálffy</editor>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <name>Forschungsstelle "Universitätssammlung Friedrich von Gentz"</name>
+               <link target="http://gentz-digital.ub.uni-koeln.de http://www.ub.uni-koeln.de/cdm/singleitem/collection/gentz/id/2278/"/>
+            </publisher>
+            <pubPlace>Cologne</pubPlace>
+            <idno type="Gentz-Edition-Number" n="2279"/>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <country>Germany</country>
+                  <settlement>Berlin</settlement>
+                  <institution>Geheimes Staatsarchiv Preußischer Kulturbesitz</institution>
+                  <repository>II. HA, Generaldirektorium, Südpreußen</repository>
+                  <collection>Abt. I, Lit E, Nr. 370</collection>
+                  <idno>Br. 142-143v</idno>
+               </msIdentifier>
+               <msContents>
+                  <summary>
+                     Dieser Brief markiert eine einschneidende Wende in Gentz' Leben. Er ersucht König Friedrich Wilhelm III. von 
+                     Preußen nach der Entlassung aus den Staatsdiensten, nachdem er sich jahrelang in einer beschränkten Stellung 
+                     befunden und sein Urlaub nur widerwillig genehmigt wurde. Er beklagt, dass er keine günstigere Stellung mehr 
+                     zu erwarten habe und nun einen Antrag Gehör leistet, dem er unter den gegenwärtigen Umständen kaum Widerwillen 
+                     leisten kann. Unter Versicherung, weiterhin seinen guten Gesinnungen treu zu bleiben, bittet er nun, aus seinen 
+                     Diensten entlassen zu werden. Dabei bleibt er bescheiden und demütig.
+                  </summary>
+               </msContents>
+            </msDesc>
+            <listBibl type="preprints">
+               <biblStruct>
+                  <monogr>
+                     <editor>
+                        <persName>
+                           <ref target="http://d-nb.info/gnd/117325791"/>
+                           <forename>Gustav</forename>
+                           <surname>Schlesier</surname>
+                        </persName>
+                     </editor>
+                     <title>Schriften von Friedrich von Gentz. Ein Denkmal. 5 Bde.</title>
+                     <imprint>
+                        <publisher>Verlag von Heinrich Wolff</publisher>
+                        <pubPlace>Mannheim</pubPlace>
+                        <date>1838-1840</date>
+                     </imprint>
+                     <biblScope unit="volume" n="4">
+                        V
+                     </biblScope>
+                     <biblScope unit="page" from="17" to="20">
+                        S. 17-20
+                     </biblScope>
+                  </monogr>
+               </biblStruct>
+               <biblStruct>
+                  <analytic>
+                     <author>
+                        <persName>
+                           <ref />
+                           <forename>Paul</forename>
+                           <surname>Bailleu</surname>
+                        </persName>
+                     </author>
+                     <title>Die Verabschiedung des Kriegsrats Gentz 1802</title>
+                  </analytic>
+                  <monogr>
+                     <title>Forschungen zur brandenburgischen und preußischen Geschichte. Festschrift zu Gustav Schmollers 70. Geburtstag.</title>
+                     <imprint>
+                        <pubPlace>Leipzig</pubPlace>
+                        <date>1908</date>
+                     </imprint>
+                  </monogr>
+               </biblStruct>
+            </listBibl>
+            <listBibl type="letterReferenced">
+               <bibl xml:id="c2279-1" corresp="#LETTER_GENTZ_0887">Friedrich von Gentz an Otto von Voß, 25. Mai 1799</bibl>
+               <bibl xml:id="c2279-2" corresp="#LETTER_GENTZ_3347">Ludwig Graf von Cobentzl an Friedrich von Gentz, 10. September 1802</bibl>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Masterarbeit zu Matrikelnummer 5584124</p>
+         </projectDesc>
+      </encodingDesc>
+      <profileDesc>
+         <creation>
+            <date when-iso="1802-02-26">26. September 1802</date>
+         </creation>
+        <langUsage>
+           <language ident="d">deutsch</language>
+        </langUsage>
+         <textClass>
+            <keywords scheme="internal"><!-- internal: innerhalb des besagten Briefs -->
+               <term>Brief</term>
+               <term>Entlassung</term>
+               <term>Dienst</term>
+            </keywords>
+            <keywords scheme="categorisation"><!-- Sinnabschnittseinteilung - relevant für den Fahrkartenautomaten! -->
+               <term xml:id="brb">Bruch mit Berlin</term>
+               <term xml:id="bezbt">Beziehungen zu Berlin - Beamtentätigkeit</term>
+            </keywords>
+         </textClass>
+         <textDesc>
+            <channel>manuscript</channel>
+            <constitution type="single"/>
+            <derivation type="original"/>
+            <domain type="private"/>
+            <factuality type="fact"/>
+            <interaction type="partial"/>
+            <preparedness type="prepared"/>
+            <purpose type="inform"/>
+         </textDesc>
+         <particDesc>
+            <listPerson>
+               <!-- Sender und Adressat -->
+               <person role="sender" xml:id="Gen">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/118538489"/>
+                     <forename>Friedrich von</forename>
+                     <surname>Gentz</surname>
+                  </persName>
+               </person>
+               <person role="receiver" xml:id="KFWIII">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/118535986"/>
+                     <forename>Friedrich Wilhelm III.</forename>
+                     <surname>von Preußen</surname>
+                     <roleName type="office">König</roleName>
+                  </persName>
+               </person>
+               <!-- erwähnte Personen -->
+               <person role="named" xml:id="Fr">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/118534955"/>
+                     <forename>Franz II.</forename>
+                     <surname>Heiliges Römisches Reich</surname>
+                     <roleName type="office">Kaiser</roleName>
+                  </persName>
+               </person>
+            </listPerson>
+         </particDesc>
+         <settingDesc>
+            <listPlace>
+               <!-- Start- und Zielort -->
+               <place type="sender" xml:id="plDd">
+                  <country>
+                     <ref target="http://d-nb.info/gnd/4051176-5"/>
+                     <placeName>Sachsen</placeName>
+                  </country>
+                  <settlement>
+                     <ref target="http://d-nb.info/gnd/4012995-0"/>
+                     <placeName>Dresden</placeName>
+                  </settlement>
+               </place>
+               <place type="receiver" xml:id="plBe">
+                  <country>
+                     <ref target="http://d-nb.info/gnd/4047194-9"/>
+                     <placeName>Preußen</placeName>
+                  </country>
+                  <settlement>
+                     <ref target="http://d-nb.info/gnd/4005728-8"/>
+                     <placeName>Berlin</placeName>
+                  </settlement>
+               </place>
+               <!-- erwähnte Orte -->
+               <place type="named" xml:id="plWi">
+                  <country>
+                     <ref target="http://d-nb.info/gnd/4075601-4"/>
+                     <placeName>Erzherzogtum Österreich</placeName>
+                  </country>
+                  <settlement>
+                     <ref target="http://d-nb.info/gnd/4066009-6"/>
+                     <placeName>Wien</placeName>
+                  </settlement>
+               </place>
+               <place type="named" xml:id="plEu">
+                  <geogName type="continent">
+                     <ref target="http://d-nb.info/gnd/4015701-5"/>
+                     <placeName>Europa</placeName>
+                  </geogName>
+               </place>
+               <place type="named" xml:id="plPr">
+                  <country>
+                     <ref target="http://d-nb.info/gnd/4047194-9"/>
+                     <placeName>Preußen</placeName>
+                  </country>
+               </place>
+            </listPlace>
+         </settingDesc>
+      </profileDesc>
+      <revisionDesc>
+         <change xml:id="init" when-iso="2018-03-11" who="#edAG">Erstauszeichnung und Normierung des Dokumentes im Rahmen der Masterarbeit der Matrikelnummer 5584124</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <opener>
+            <salute rend="left">Allerdurchlauchtigster Großmächtigster König !</salute>
+            <salute rend="left">Allergnädigster König und Herr !</salute>
+         </opener>
+         <div n="1" corresp="#brb">
+            <p>
+               Die Unvereinbarkeit meiner Dienstgeschäfte mit meinen schriftstellerischen Arbeiten würde mich schon längst zu dem 
+               Schritte, den ich jetzt thun muß, geführt haben, wenn nicht die seit dem Jahre 1799 von Ewr. Königlichen Majestät mir 
+               bewilligte Dispensation von dem größern Theile der erstern, mich desselben überhoben hätte. Nachdem mir aber, bei 
+               Gelegenheit des zu meiner gegenwärtigen Reise <ref target="#r2279-1">nachgesuchten Urlaubes</ref> ausdrücklich 
+               angekündiget worden war, daß diese Dispensation nicht länger Statt finden könnte, würde mir, auch ohne die jetzt 
+               eingetretene besondern Umstände, in keinem Falle etwas anders, als die Bitte um Entlaßung von Ewr. Königlichen 
+               Majestät Diensten übrige geblieben seyn.
+            </p>
+         </div>
+         <div n="2" corresp="#bezbt">
+            <p>
+               Gerade indem ich mich mit diesem seit jener Ankündigung unvermeodlich gewordnen Vorhaben beschäftigte ließen 
+               <rs type="person" ref="#Fr">Seine Majestät der Kayser</rs> mir, zur Belohnung für dasjenige, was Sie "meine dem 
+               allgemeinen Besten der Aufrechthaltung aller Staaten, und der gesammten bürgerlichen Ordnung geleisteten rühmlichen 
+               Dienste" zu nennen geruhten, eine lebenslängliche sehr bedeutende Pension anbieten, mit der einzigen Bedingung, daß 
+               ich mich in <rs type="place" ref="#plWi">Wien</rs> niederlaßen, und dort meine bisherigen schriftstellerischen 
+               Arbeiten ungestört fortsetzen mögte.
+            </p>
+            <p>
+               Es ist schmerzhaft für mich, meinem Vaterlande und dem Dienste eines Monarchen entsagen zu müßen, der Sich die 
+               Bewunderung und zugleich die Liebe von <pb/> <rs type="place" ref="#plEu">Europa</rs> erwarb, und dem ewig die 
+               meinige gewidmet seyn wird. Ich bin der erste in Ewr. Majestät Volke gewesen - und das schätze ich mir jetzt zum 
+               nicht geringen Ruhm - der in dem Augenblick, da Ewr. Majestät den Thron bestiegen, feierlich verkündigte, welche 
+               Sonne des Glücks über <rs type="place" ref="#plPr">Preußen</rs> aufgegangen war. Ewr. Majestät haben die Hoffnungen 
+               der Welt weit hinter Sich zurückgelaßen. Ich würde den für einen Thoren oder für einen Frevler halten, der muthwillig 
+               einen Staate verlaßen könnte, welchen der weise und milde Zepter eines solchen Königes regiert.
+            </p>
+            <p>
+               Aber meine individuelle Lage, Allergnädigster König, erlaubt mir nicht, dem Gefühl, welches mich stets an diesen 
+               Staat binden würde, zu folgen. Die beschränkte Sphäre von Dienstgeschäften, die man mir angewiesen hatte, und 
+               dieweder meinem Bestreben nach Thätigkeit, noch den Gegenständen und der Richtung meiner Studien, noch selbst - ich 
+               darf es wohl sagen - den Ansprüchen, zu welchen mein Eifer für das Gute, und meine Fähigkeiten mich berechtigten, 
+               angemessen war; die Disharmonie die schon dieser einzige Umstand, verbunden mit der Ueberzeugung, daß ich nie eine 
+               günstigere Dienstlaufbahn zu erwarten hatte, in meiner ganzen bürgerlichen Existenz unterhielt; der Vorzug, den ich 
+               eben deshalb meinen Verhältnisen als Schriftsteller, woraus ich nichts, als Ruhm, Vortheil, <pb/> und 
+               Annehmlichkeiten aller Art schöpfte, nothwendig einräumen mußte; endlich selbst meine häuslichen Umstände - alles 
+               fordert mich auf, einem <ref target="#r2279-2">Antrage</ref> Gehör zu geben, den meine Vernunft von allen Seiten 
+               billigt, so sehr sich auch von mehr als einer, meine Wünsche und Neigungen dagegen auflehnen mögen.
+            </p>
+            <p>
+               Und doch würde ich, trotz allen damit verknüpften wesentlichen Vortheilen, den Schritt ungethan laßen, wenn ich ihn 
+               in irgend einer Rücksicht mit meinem Gewissen, mit den Gesetzen der Ehre und der Pflicht in Widerstreit fände. Daß es 
+               sich so nicht verhält, davon bin ich tief und lebendig überzeugt. Ich weiß nicht, ob und in wie fern sich gehäßige 
+               Darstellungen meines Entschlusses bis an Ewr. Majestät Thron wagen werden; aber so viel weiß ich, daß ich ihnen 
+               nichts entgegen zu setzen gedenke, als mein künftiges Leben. Ich werde fernerhin, wie bisher, und stände eine Welt 
+               von Feinden gegen mich auf, die Grundsätze verteidigen, mit denene allein die Staaten bestehen, und diejenigen 
+               bekämpfen, bei denen sich kein Recht, keine Ordnung, keine unabhängige Existenz der Nazionen, kein politisches 
+               System, mithin zuletzt keine bürgerliche Gesellschaft denken läßt. Ob ich auf einer solchen Laufbahn, bei solchen 
+               Arbeiten, bei solchen Grundsätzen, und bei solchen Zwecken je eine Veranlaßung finden, ja auch nur die entfernteste 
+               Versuchung haben könnte, das aus den Augen zu setzen, was ich meinem Vaterlande schuldig bin, darüber unterstehe ich 
+               mich Ewr. Majestät Höchsselbst zum Richter zu machen.
+            </p>
+         </div>
+         <div n="3" corresp="#brb">
+            <p>
+               Bei dieser Lage der Sache, und bei dem vollen Bewustseyn der Lauterkeit meiner Handlungen und Absichten, <pb/> 
+               begnüge ich mich nicht, Ewr. Königlichen Majestät um Ertheilung meines Abschiedes ulleruntertänigst zu bitten; ich 
+               erkühne mich auch zu hoffen, daß Allerhöchstdieselben die Erfüllung dieser Bitte mit einigen Worten der Huld und 
+               Gnade begleiten werden, die mir bei den traurigen Empfindungen, unter welchen ich die gegenwärtige Vorstellung 
+               abgefaßt habe, zum Troste, und für mein ganzes künftiges Leben zur Beruhigung dienen sollen.
+            </p>
+            <p>
+               Ich ersterbe in tiefer Ehrfurcht
+            </p>
+         </div>
+         <closer>
+            <salute rend="right">Ewr. königlichen Majestät</salute>
+            <salute rend="right">allerunterthänigster</salute>
+            <dateline rend="left"><rs type="place" ref="#plDd">Dresden</rs> den <date when-iso="1802-09-26">26<span rend="sup">ten</span> September 1802</date>.</dateline>
+            <signed rend="right">Friedrich Gentz</signed>
+         </closer>
+         <note resp="#edAG" xml:id="r2279-1">Vgl. den <rs type="citation" ref="#c2279-1">Brief an Otto von Voß vom 25. Mai 1802</rs></note>
+         <note resp="#edAG" xml:id="r2279-2">Vgl. den <rs type="citation" ref="#c2279-2">Brief von Ludwig Graf von Cobentzl vom 10. September 1802</rs></note>
+      </body>
+   </text>
+</TEI>

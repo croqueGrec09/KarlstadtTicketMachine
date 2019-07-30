@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc xml:id="LETTER_GENTZ_4683">
+         <titleStmt>
+            <title>Friedrich von Gentz an Friedrich Vieweg, 2. Januar 1798</title>
+            <editor xml:id="edAG">Andreas Gálffy</editor>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <name>Forschungsstelle "Universitätssammlung Friedrich von Gentz"</name>
+               <link target="http://gentz-digital.ub.uni-koeln.de http://www.ub.uni-koeln.de/cdm/singleitem/collection/gentz/id/4682/"/>
+            </publisher>
+            <pubPlace>Cologne</pubPlace>
+            <idno type="Gentz-Edition-Number" n="4683"/>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <country>Germany</country>
+                  <settlement>Wiesbaden</settlement>
+                  <institution>Vieweg-Verlagsarchiv</institution>
+                  <repository>Briefsammlung 311 G, Gentz-Briefe</repository>
+                  <idno>Nr. 76</idno>
+               </msIdentifier>
+               <msContents>
+                  <summary>
+                     Fünf Exemplare von Gentz' Sendschreiben an den König sollen an Hofkommissar Fiedler zu Jena noch am selben Tag 
+                     abgehen.
+                  </summary>
+               </msContents>
+            </msDesc>
+            <listBibl type="defExpr">
+               <biblStruct xml:id="e4683-1" corresp="UJn-0003">
+                  <monogr>
+                     <title>Allgemeine Literatur-Zeitung</title>
+                     <imprint>
+                        <pubPlace>Jena</pubPlace>
+                        <date>1785-1849</date>
+                     </imprint>
+                  </monogr>
+                  <ptr target="http://zs.thulb.uni-jena.de/receive/jportal_jpvolume_00002139?XSL.referer=jportal_jpvolume_00002140"/>
+               </biblStruct>
+            </listBibl>
+            <listBibl type="defRep">
+               <biblStruct xml:id="p4683-1" corresp="GBk-0034">
+                  <monogr>
+                     <author>
+                        <persName>
+                           <ref target="http://d-nb.info/gnd/118538489"/>
+                           <forename>Friedrich von</forename>
+                           <surname>Gentz</surname>
+                        </persName>
+                     </author>
+                     <title>Sendschreiben</title>
+                     <imprint>
+                        <publisher>Friedrich Vieweg der Ältere</publisher>
+                        <pubPlace>Berlin</pubPlace>
+                        <date>1797</date>
+                     </imprint>
+                  </monogr>
+                  <ptr target="https://books.google.de/books?id=QLdhAAAAcAAJ" />
+               </biblStruct>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Masterarbeit zu Matrikelnummer 5584124</p>
+         </projectDesc>
+      </encodingDesc>
+      <profileDesc>
+         <creation>
+            <date when-iso="1798-01-02">2. Januar 1798</date>
+         </creation>
+        <langUsage>
+           <language ident="d">deutsch</language>
+        </langUsage>
+         <textClass>
+            <keywords scheme="internal"><!-- internal: innerhalb des besagten Briefs -->
+               <term>Billet</term>
+               <term>Allgemeine Literatur-Zeitung</term>
+               <term>Sendschreiben</term>
+            </keywords>
+            <keywords scheme="categorisation"><!-- Sinnabschnittseinteilung - relevant für den Fahrkartenautomaten! -->
+               <term xml:id="bezbt">Beziehungen zu Berlin - Beamtentätigkeit</term>
+            </keywords>
+         </textClass>
+         <textDesc>
+            <channel>manuscript</channel>
+            <constitution type="single"/>
+            <derivation type="original"/>
+            <domain type="private"/>
+            <factuality type="fact"/>
+            <interaction type="partial"/>
+            <preparedness type="unprepared"/>
+            <purpose type="inform"/>
+         </textDesc>
+         <particDesc>
+            <listPerson>
+               <!-- Sender und Adressat -->
+               <person role="sender" xml:id="Gen">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/118538489"/>
+                     <forename>Friedrich von</forename>
+                     <surname>Gentz</surname>
+                  </persName>
+               </person>
+               <person role="receiver" xml:id="FVW">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/119049546"/>
+                     <forename>Friedrich</forename>
+                     <surname>Vieweg</surname>
+                  </persName>
+               </person>
+               <!-- erwähnte Personen -->
+               <person role="named" xml:id="KFWIII">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/118535986"/>
+                     <forename>Friedrich Wilhelm III.</forename>
+                     <surname>von Preußen</surname>
+                     <roleName type="office">König</roleName>
+                  </persName>
+               </person>
+               <person role="named" xml:id="HcF">
+                  <persName>
+                     <ref />
+                     <forename/>
+                     <surname>Fiedler</surname>
+                     <roleName type="office">Hof-Commissair</roleName>
+                  </persName>
+               </person>
+            </listPerson>
+         </particDesc>
+         <settingDesc>
+            <listPlace>
+               <!-- Start- und Zielort -->
+               <place type="sender" xml:id="plBe">
+                  <country>
+                     <ref target="http://d-nb.info/gnd/4047194-9"/>
+                     <placeName>Preußen</placeName>
+                  </country>
+                  <settlement>
+                     <ref target="http://d-nb.info/gnd/4005728-8"/>
+                     <placeName>Berlin</placeName>
+                  </settlement>
+               </place>
+               <!-- erwähnte Orte -->
+               <place type="named" xml:id="plJe">
+                  <country>
+                     <ref target="http://d-nb.info/gnd/4051194-7"/>
+                     <placeName>Sachsen-Weimar-Eisenach</placeName>
+                  </country>
+                  <settlement>
+                     <ref target="http://d-nb.info/gnd/4028557-1"/>
+                     <placeName>Jena</placeName>
+                  </settlement>
+               </place>
+            </listPlace>
+         </settingDesc>
+      </profileDesc>
+      <revisionDesc>
+         <change xml:id="init" when-iso="2018-02-28" who="#edAG">Erstauszeichnung und Normierung des Dokumentes im Rahmen der Masterarbeit der Matrikelnummer 5584124</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div n="1" corresp="#bezbt">
+            <p>
+               Die Expedition der <rs type="citation" ref="#e4683-1">Allgemeinen Litteratur Zeitung</rs> zu 
+               <rs type="person" ref="#plJe">Jena</rs> verlangt 5 Exemplare 
+               <rs type="citation" ref="#p4683-1">meines Schreibens</rs> an den <rs type="person" ref="#KFWIII">König</rs>, und hat 
+               sich an mich gewendet, weil sie den Verleger nicht wuste. Wollten Sie wohl die Güte haben, diese 5 Exemplare für 
+               Rechnung obgedachter Expedition, an <rs type="person" ref="#HcF">Herrn Hof-Commissair Fiedler</rs> zu 
+               <rs type="place" ref="#plJe">Jena</rs> - <emph rend="underlined">aber ganz unfehlbar noch heute</emph>, weil ich die 
+               Bestellung ohnehin schon einen Posttag liegen ließ, abzusenden, und in das Paket den beikommenden Brief mit zu 
+               packen ? Ich rechne sicher auf eine promte gütige Besorgung dieser Sache.
+            </p>
+         </div>
+         <closer>
+            <signed rend="right">Gentz</signed>
+            <dateline rend="right">den <date when-iso="1798-01-02">2<span rend="sup">ten</span> Januar 1798</date>.</dateline>
+         </closer>
+      </body>
+      <back resp="otherHand">
+         <p>
+            <rs type="place" ref="#plBe">Berlin</rs> <date when-iso="1798-01-02">2. Januar 1798</date>
+            H. Kriegsrath Gentz
+            R.
+            eod.
+         </p>
+      </back>
+      <note xml:id="r4683-1">S. 2: Präsenz-Vermerk von unbekannter Hand</note>
+   </text>
+</TEI>

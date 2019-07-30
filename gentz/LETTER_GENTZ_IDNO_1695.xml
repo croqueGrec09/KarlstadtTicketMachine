@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc xml:id="LETTER_GENTZ_1695">
+         <titleStmt>
+            <title>Friedrich von Gentz an Friedrich Vieweg, 10. Mai 1800</title>
+            <editor xml:id="edAG">Andreas Gálffy</editor>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <name>Forschungsstelle "Universitätssammlung Friedrich von Gentz"</name>
+               <link target="http://gentz-digital.ub.uni-koeln.de http://www.ub.uni-koeln.de/cdm/singleitem/collection/gentz/id/1694/"/>
+            </publisher>
+            <pubPlace>Cologne</pubPlace>
+            <idno type="Gentz-Edition-Number" n="1695"/>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <country>Germany</country>
+                  <settlement>Wiesbaden</settlement>
+                  <institution>Vieweg-Verlagsarchiv</institution>
+                  <repository>Briefsammlung G 311: Gentz-Brief</repository>
+                  <idno>Nr. 99</idno>
+               </msIdentifier>
+               <msContents>
+                  <summary>
+                     Gentz stellt neue Forderungen an Vieweg, er hofft, dass er noch etwas von ihm erhalten werde. Dieses Mal müssen 
+                     drei Posten zu 100 / 100 / 250 Reichstaler beglichen werden. In jedem Falle aber hofft Gentz, dass zumindest 
+                     die 100 Reichstaler Fröhlich bezahlt werden.
+                  </summary>
+               </msContents>
+            </msDesc>
+            <listBibl type="letterReferenced">
+               <bibl xml:id="c1695-1" corresp="#LETTER_GENTZ_3997">Friedrich von Gentz an Friedrich Vieweg, 21. Januar 1800</bibl>
+               <bibl xml:id="c1695-2" corresp="#LETTER_GENTZ_NNNN">nicht bekannter Brief von Friedrich Vieweg an Friedrich von Gentz</bibl>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Masterarbeit zu Matrikelnummer 5584124</p>
+         </projectDesc>
+      </encodingDesc>
+      <profileDesc>
+         <creation>
+            <date when-iso="1800-05-10">10. Mai 1800</date>
+         </creation>
+        <langUsage>
+           <language ident="d">deutsch</language>
+        </langUsage>
+         <textClass>
+            <keywords scheme="internal"><!-- internal: innerhalb des besagten Briefs -->
+               <term>Brief</term>
+               <term>Bettelbrief</term>
+               <term>alte Freundschaft</term>
+               <term>Schulden</term>
+            </keywords>
+            <keywords scheme="categorisation"><!-- Sinnabschnittseinteilung - relevant für den Fahrkartenautomaten! -->
+               <term xml:id="gprl">Gentz - p(r)ekuniäre Lage</term>
+            </keywords>
+         </textClass>
+         <textDesc>
+            <channel>manuscript</channel>
+            <constitution type="single"/>
+            <derivation type="original"/>
+            <domain type="private"/>
+            <factuality type="fact"/>
+            <interaction type="partial"/>
+            <preparedness type="prepared"/>
+            <purpose type="inform"/>
+         </textDesc>
+         <particDesc>
+            <listPerson>
+               <!-- Sender und Adressat -->
+               <person role="sender" xml:id="Gen">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/118538489"/>
+                     <forename>Friedrich von</forename>
+                     <surname>Gentz</surname>
+                  </persName>
+               </person>
+               <person role="receiver" xml:id="FVW">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/119049546"/>
+                     <forename>Friedrich</forename>
+                     <surname>Vieweg</surname>
+                  </persName>
+               </person>
+               <!-- erwähnte Personen -->
+               <person role="named" xml:id="Fro">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/1073351068"/>
+                     <forename>Heinrich</forename>
+                     <surname>Frölich</surname>
+                  </persName>
+               </person>
+               <person role="named" xml:id="JAS">
+                  <persName>
+                     <ref/>
+                     <forename>Jacob Abraham</forename>
+                     <surname>Schlesinger</surname>
+                  </persName>
+               </person>
+               <person role="named" xml:id="JFGU">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/11729327X"/>
+                     <forename>Johann Friedrich Gottlieb</forename>
+                     <surname>Unger</surname>
+                  </persName>
+               </person>
+            </listPerson>
+         </particDesc>
+         <settingDesc>
+            <listPlace>
+               <!-- Start- und Zielort -->
+               <place type="sender" xml:id="plBe">
+                  <country>
+                     <ref target="http://d-nb.info/gnd/4047194-9"/>
+                     <placeName>Preußen</placeName>
+                  </country>
+                  <settlement>
+                     <ref target="http://d-nb.info/gnd/4005728-8"/>
+                     <placeName>Berlin</placeName>
+                  </settlement>
+               </place>
+               <place type="receiver" xml:id="plBs">
+                  <country>
+                     <ref target="http://d-nb.info/gnd/4089993-7"/>
+                     <placeName>Staat Wolfenbüttel</placeName>
+                  </country>
+                  <settlement>
+                     <ref target="http://d-nb.info/gnd/4008065-1"/>
+                     <placeName>Braunschweig</placeName>
+                  </settlement>
+               </place>
+               <!-- erwähnte Orte -->
+            </listPlace>
+         </settingDesc>
+      </profileDesc>
+      <revisionDesc>
+         <change xml:id="init" when-iso="2018-03-05" who="#edAG">Erstauszeichnung und Normierung des Dokumentes im Rahmen der Masterarbeit der Matrikelnummer 5584124</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div n="1" corresp="#gprl">
+            <p>
+               In <rs type="citation" ref="#c1695-1">meinem letzten Schreiben</rs> erklärte ich Ihnen, hochgeschätzter Freund, daß 
+               ich es gänzlich auf Sie ankommen laßen würde, wie unsre Abrechnung ausfallen sollte. Ich gehe auch noch heute von 
+               dieser Erklärung nicht ab, überzeugt, daß keine mehr dazu gemacht ist, Ihnen den Ungrund der bittern Vorwürfe zu 
+               zeigen, womit Sie mich in <rs type="citation" ref="#c1695-2">Ihrem letzten Briefe</rs> niedergeschlagen haben. - 
+               Indessen ist es doch eine erlaubte und gerechte Hoffnung daß ich in jedem Falle noch etwas von Ihnen erhalten werde, 
+               und auf diesen Fall habe ich, gewiß nicht aus Muthwillen, sondern aus Noth, folgende Dispositionen gemacht:
+            </p>
+            <p>
+               1, Wird Ihnen <rs type="person" ref="#Fro">Frölich</rs> eine Anweisung auf 100 Reichsthaler präsentiren. Diese bitte 
+               ich Sie vor allem andern zu bezahlen, und auf diese Zahlung glaube ich mit Sicherheit rechnen zu dürfen.
+            </p>
+            <p>
+               2. Zweitens, habe ich dem Juden <rs type="person" ref="#JAS">Schlesinger</rs> auf den Rest seiner Forderung an mich, 
+               circa 250 Reichsthaler <emph rend="underlined">eventualiter</emph> eine Anweisung an Sie gegeben. Können Sie ihm auf 
+               diese 100 Reichsthaler bezahlen, so ist es mir äußerst lieb: Können Sie es nicht, so laßen Sie wenigstens meine Ehre 
+               nicht sinken, sondern sagen ihm bloß, unsre Rechnung wäre noch nicht geschlossen. - In jedem Falle aber zahlen Sie 
+               ihm, <emph rend="underlined">unter eben diesem Grunde, nicht mehr</emph> als 100 Reichsthaler.
+            </p>
+            <p>
+               3, Können und wollen Sie außer diesen 200 Reichsthaler noch an 
+               <rs type="person" ref="#JFGU"><emph rend="underlined">Unger</emph></rs> etwas auf Abschlag meiner Schuld bezahlen, so 
+               werden Sie mich unendlich verbinden. Ich habe ihn nicht an Sie angewiesen, so wenig mündlich als schriftlich; aber 
+               ich bin verpflichtet, ihm in oder gleich nach der Messe die Hälfte seiner Forderung an mich, mit 250 Reichsthaler 
+               Friedrichsdor zu entrichten. Es wäre also eine unsägliche Erleichterung und Freude für mich, wenn Sie ihn gleich 
+               dort, wenigstens zum Theil befriedigen könnten.
+            </p>
+            <p>
+               Diese Erwartungen sind gemäßigt, und ich schmeichle mir vielleicht nicht zu viel, wenn ich an ihre Erfüllung glaube. 
+               Im schlimmsten Falle laßen Sie nur wenigstens die 100 Reichsthaler an <rs type="person" ref="#Fro">Frölich</rs> nicht 
+               unbezahlt; und geben Sie mir bald eine kurze Nachricht von der Lage unsers Geschäftes.
+            </p>
+            <p>
+               Mit hochachtungsvoller Freundschaft verbleibe ich
+            </p>
+         </div>
+         <closer>
+            <salute rend="right">Ihre sehr ergebner</salute>
+            <dateline rend="left"><rs type="place" ref="#plBe">Berlin</rs> den <date when-iso="1800-05-10">10<span rend="sup">ten</span> Mai 1800</date></dateline>
+            <signed rend="right">Gentz.</signed>
+         </closer>
+      </body>
+   </text>
+</TEI>

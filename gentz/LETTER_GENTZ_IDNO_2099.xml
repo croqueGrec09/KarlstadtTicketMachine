@@ -1,0 +1,490 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc xml:id="LETTER_GENTZ_2099">
+         <titleStmt>
+            <title>Friedrich von Gentz an Jacques Mallet du Pan, 15./19. Januar 1799</title>
+            <editor xml:id="edAG">Andreas Gálffy</editor>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <name>Forschungsstelle "Universitätssammlung Friedrich von Gentz"</name>
+               <link target="http://gentz-digital.ub.uni-koeln.de http://www.ub.uni-koeln.de/cdm/singleitem/collection/gentz/id/2098/"/>
+            </publisher>
+            <pubPlace>Cologne</pubPlace>
+            <idno type="Gentz-Edition-Number" n="2099"/>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <country>Switzerland</country>
+                  <settlement>Genf</settlement>
+                  <institution>Bibliothèque publique et universitaire</institution>
+                  <repository>Département des manuscrits</repository>
+                  <collection>Dossier Ouvert: Gentz à Mallet du Pan, autographe</collection>
+               </msIdentifier>
+               <msContents>
+                  <summary>
+                     Gentz bewundert den Kampf von Mallet du Pan, den er gegen die Gegner der sozialen Ordnung kämpft. Er hat ihn 
+                     als Wegweiser für seine Arbeiten. Gentz schickt ihm die zwei ersten Hefte des Historischen Journals. Dieses ist 
+                     vom Mercure Britannique inspirert und verfolgt den Zweck, den Gift des revolutionären Geistes zu bekämpfen und 
+                     um Fehler aufzuklären, die in der Gesellschaft im Umlauf sind. Leider kann Mallet du Pan kein Deutsch, aber 
+                     glücklicherweise haben sich die Übersetzungen von d'Ivernois bewährt. Auch wenn das Journal nicht den Beifall 
+                     von Mallet du Pan findet, so wäre Gentz über eine längere Korrespondenz schon sehr glücklich. Gentz beschreibt, 
+                     wie Mallet du Pan die Schwächen der preußischen Monarchie treffend dargelegt hat und daher bietet Gentz seine 
+                     volle Unterstützung an. Auch in Preußen ist die Gesellschaft durch Neuheitswahn und Unkenntnis durchsetzt. Im 
+                     Postscript folgt ein aktueller Lagebericht. Die Könige von Sardinien und Neapel sind gefallen und das Verhalten 
+                     Österreichs bestätigt Preußen. Mit Ungeduld wird die Fortsetzung von du Pans Journal erwartet. Gentz bittet 
+                     Mallet du Pan an François d'Ivernois auszurichten, dass ihm unter der Adresse Monsieur Balan ebenfalls ein 
+                     Exemplar des Historischen Journals adressiert ist.
+                  </summary>
+               </msContents>
+            </msDesc>
+            <listBibl type="preprints">
+               <biblStruct>
+                  <monogr>
+                     <editor>
+                        <persName>
+                           <ref target="http://d-nb.info/gnd/130953075"/>
+                           <forename>Friedrich Carl</forename>
+                           <surname>Wittichen</surname>
+                        </persName>
+                        <persName>
+                           <ref /> <!-- kein GND-Eintrag -->
+                           <forename>Ernst</forename>
+                           <surname>Salzer</surname>
+                        </persName>
+                     </editor>
+                     <title>Briefe von und an Friedrich von Gentz, 4 Bde.</title>
+                     <imprint>
+                        <publisher>Oldenbourg</publisher>
+                        <pubPlace>München, Berlin</pubPlace>
+                        <date>1909-1913</date>
+                     </imprint>
+                     <biblScope unit="volume" n="1">
+                        I
+                     </biblScope>
+                     <biblScope unit="page" from="326" to="330">
+                        Nr. 110
+                     </biblScope>
+                  </monogr>
+               </biblStruct>
+            </listBibl>
+            <listBibl type="letterReferenced">
+               <bibl xml:id="c2099-1" corresp="#LETTER_GENTZ_2387">Friedrich von Gentz an Friedrich Vieweg, Januar 1799</bibl>
+            </listBibl>
+            <listBibl type="defExpr">
+               <biblStruct xml:id="e2099-1" corresp="Grg-0016">
+                  <monogr>
+                     <author>
+                        <persName>
+                           <ref target="http://d-nb.info/gnd/119483947"/>
+                           <forename>Jacques</forename>
+                           <surname>Mallet du Pan</surname>
+                        </persName>
+                     </author>
+                     <title>Mercure britannique</title>
+                     <imprint>
+                        <date>1798-1799</date>
+                     </imprint>
+                  </monogr>
+                  <ptr target="http://gazetier-revolutionnaire.gazettes18e.fr/periodique/mercure-britannique-1798-1799"/>
+               </biblStruct>
+            </listBibl>
+            <listBibl type="defRep">
+               <biblStruct xml:id="p2099-1" corresp="GBk-0042">
+                  <monogr>
+                     <editor>
+                        <persName>
+                           <ref target="http://d-nb.info/gnd/118538489"/>
+                           <forename>Friedrich von</forename>
+                           <surname>Gentz</surname>
+                        </persName>
+                     </editor>
+                     <title>Historisches Journal</title>
+                     <imprint>
+                        <publisher>Friedrich Vieweg dem ältern</publisher>
+                        <pubPlace>Berlin</pubPlace>
+                        <date>1799</date>
+                     </imprint>
+                  </monogr>
+                  <ptr target="https://books.google.de/books?id=YU5BAAAAcAAJ"/>
+               </biblStruct>
+               <biblStruct xml:id="p2099-2" corresp="GBk-0031">
+                  <monogr>
+                     <author>
+                        <persName>
+                           <ref target="http://d-nb.info/gnd/100297676"/>
+                           <forename>Francis d'</forename>
+                           <surname>Ivernois</surname>
+                        </persName>
+                     </author>
+                     <editor resp="translator">
+                        <persName>
+                           <ref target="http://d-nb.info/gnd/118538489"/>
+                           <forename>Friedrich von</forename>
+                           <surname>Gentz</surname>
+                        </persName>
+                     </editor>
+                     <title>Geschichte der französischen Finanz-Administration im Jahre 1796</title>
+                     <imprint>
+                        <pubPlace>Berlin</pubPlace>
+                        <publisher>Friedrich Vieweg der Ältere</publisher>
+                        <date>1797</date>
+                     </imprint>
+                  </monogr>
+                  <ptr target="https://books.google.de/books?id=rNVBAAAAcAAJ"/>
+               </biblStruct>
+               <biblStruct xml:id="p2099-3" corresp="GBk-0032">
+                  <monogr>
+                     <author>
+                        <persName>
+                           <ref target="http://d-nb.info/gnd/100297676"/>
+                           <forename>Francis d'</forename>
+                           <surname>Ivernois</surname>
+                        </persName>
+                     </author>
+                     <title>Histoire de l'administration des finances de la république française, pendant l'année 1796.</title>
+                     <imprint>
+                        <pubPlace>Hamburg</pubPlace>
+                        <publisher>P. F. Fauche</publisher>
+                        <date>1797</date>
+                     </imprint>
+                  </monogr>
+                  <ptr target="https://books.google.de/books?id=mVsPAAAAQAAJ"/>
+               </biblStruct>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Masterarbeit zu Matrikelnummer 5584124</p>
+         </projectDesc>
+      </encodingDesc>
+      <profileDesc>
+         <creation>
+            <date when-iso="1799-01-15">15./19. Januar 1799</date>
+         </creation>
+        <langUsage>
+           <language ident="f">französisch</language>
+        </langUsage>
+         <textClass>
+            <keywords scheme="internal"><!-- internal: innerhalb des besagten Briefs -->
+               <term>Brief</term>
+               <term>d'Ivernois</term>
+               <term>Journal historique</term>
+               <term>Oberflächlichkeit</term>
+               <term>Invasion</term>
+               <term>Infiltration</term>
+               <term>Neuerungssucht</term>
+               <term>Fehler</term>
+            </keywords>
+            <keywords scheme="categorisation"><!-- Sinnabschnittseinteilung - relevant für den Fahrkartenautomaten! -->
+               <term xml:id="vjmdp">Verhältnis Jacques Mallet du Pan</term>
+               <term xml:id="jrnh">Historisches Journal</term>
+               <term xml:id="vfdi">Verhältnis François d'Ivernois</term>
+               <term xml:id="napinv">Napoleonische Invasion</term>
+               <term xml:id="prr">preußische Regierung</term>
+            </keywords>
+         </textClass>
+         <textDesc>
+            <channel>manuscript</channel>
+            <constitution type="single"/>
+            <derivation type="original"/>
+            <domain type="private"/>
+            <factuality type="fact"/>
+            <interaction type="partial"/>
+            <preparedness type="prepared"/>
+            <purpose type="inform"/>
+         </textDesc>
+         <particDesc>
+            <listPerson>
+               <!-- Sender und Adressat -->
+               <person role="sender" xml:id="Gen">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/118538489"/>
+                     <forename>Friedrich von</forename>
+                     <surname>Gentz</surname>
+                  </persName>
+               </person>
+               <person role="receiver" xml:id="MdP">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/119483947"/>
+                     <forename>Jacques</forename>
+                     <surname>Mallet du Pan</surname>
+                  </persName>
+               </person>
+               <!-- erwähnte Personen -->
+               <person role="named" xml:id="FdI">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/100297676"/>
+                     <forename>Francis d'</forename>
+                     <surname>Ivernois</surname>
+                  </persName>
+               </person>
+               <person role="named" xml:id="KWF">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/11913988X"/>
+                     <forename>Karl Wilhelm Ferdinand</forename>
+                     <surname/>
+                     <roleName type="office">Herzog von Braunschweig-Wolfenbüttel</roleName>
+                  </persName>
+               </person>
+               <person role="named" xml:id="KKEIV">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/133035689"/>
+                     <forename>Karl Emanuel IV.</forename>
+                     <surname/>
+                     <roleName type="office">König von Sardinien</roleName>
+                  </persName>
+               </person>
+               <person role="named" xml:id="GLII">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/118827065"/>
+                     <forename>Leopold II.</forename>
+                     <surname/>
+                     <roleName type="office">Großherzog</roleName>
+                  </persName>
+               </person>
+               <person role="named" xml:id="KFIVN">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/11895363X"/>
+                     <forename>Ferdinand IV.</forename>
+                     <surname/>
+                     <roleName type="office">König von Neapel</roleName>
+                  </persName>
+               </person>
+               <person role="named" xml:id="JWB">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/135854105"/>
+                     <forename>Joseph Wilhelm</forename>
+                     <surname>Balan</surname>
+                  </persName>
+               </person>
+            </listPerson>
+         </particDesc>
+         <settingDesc>
+            <listPlace>
+               <!-- Start- und Zielort -->
+               <place type="sender" xml:id="plBe">
+                  <country>
+                     <ref target="http://d-nb.info/gnd/4047194-9"/>
+                     <placeName>Preußen</placeName>
+                  </country>
+                  <settlement>
+                     <ref target="http://d-nb.info/gnd/4005728-8"/>
+                     <placeName>Berlin</placeName>
+                  </settlement>
+               </place>
+               <place type="receiver" xml:id="plLo">
+                  <country>
+                     <ref target="http://d-nb.info/gnd/4022153-2"/>
+                     <placeName>Vereinigtes Königreich</placeName>                
+                  </country>
+                  <settlement>
+                     <ref target="http://d-nb.info/gnd/4074335-4"/>
+                     <placeName>London</placeName>
+                  </settlement>
+               </place>
+               <!-- erwähnte Orte -->
+               <place type="named" xml:id="plFr">
+                  <country>
+                     <ref target="http://d-nb.info/gnd/4018145-5"/>
+                     <placeName>Frankreich</placeName>  
+                  </country>
+               </place>
+               <place type="named" xml:id="plDe">
+                  <country>
+                     <ref target="http://d-nb.info/gnd/2035457-5"/>
+                     <placeName>Deutschland</placeName>  
+                  </country>
+               </place>
+               <place type="named" xml:id="plNa">
+                  <country>
+                     <ref target="http://d-nb.info/gnd/4018145-5"/>
+                     <placeName>Frankreich</placeName>  
+                  </country>
+                  <settlement>
+                     <ref target="http://d-nb.info/gnd/4041476-0"/>
+                     <placeName>Neapel</placeName>
+                  </settlement>
+               </place>
+               <place type="named" xml:id="plOe">
+                  <country>
+                     <ref target="http://d-nb.info/gnd/4075601-4"/>
+                     <placeName>Erzherzogtum Österreich</placeName>  
+                  </country>
+               </place>
+               <place type="named" xml:id="plEu">
+                  <geogName type="continent">
+                     <ref target="http://d-nb.info/gnd/4015701-5"/>
+                     <placeName>Europa</placeName>
+                  </geogName>
+               </place>
+            </listPlace>
+         </settingDesc>
+      </profileDesc>
+      <revisionDesc>
+         <change xml:id="init" when-iso="2018-03-03" who="#edAG">Erstauszeichnung und Normierung des Dokumentes im Rahmen der Masterarbeit der Matrikelnummer 5584124</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <opener>
+            <salute rend="left">Monsieur !</salute>
+         </opener>
+         <div n="1" corresp="#vjmdp">
+            <p>
+               Il m'est peut-être permis de croire que mon nom ne vous est pas resté absolument inconnu. Admirateur zêlé du talent 
+               sublime et de la rare persévérance, avec laquelle vous combattez depuis dix ans la ligue formidable des ennemis de 
+               l'ordre social j'ai tâché plusieurs fois de faciliter à la partie saine de mes compatriotes la lecture de vos 
+               ouvrages en les traduisant dans notre langue. Ce n'est qu'en osant ainsi m'associer à votre gloire, ce n'est qu'en 
+               faisant de vos réflexions profondes mon étude continuelle ce n'est qu'en Vous prenant constamment pour guide dans 
+               mes propres travaux, que j'ai pû me flatter de quelques succès. Il y a donc, Monsieur, entre Vous et moi, un lien 
+               secret, dont Vous ne pouviez guéres soupçonner l'existence, mais qui n'en est pas moins sacré pour moi. Outre la 
+               reconnoissance générale que Vous avez droit d'attendre de tous ceux de vos contemporains qui sont dignes de l'être, 
+               je Vous présente encore l'hommage d'une reconnoissance particuliére, proportionnée aux bienfaits signalés que je 
+               Vous dois; et c'est ce sentiment même qui Vous garantit de ma part un attachement respectueux plus fort peut-être 
+               que les liaisons les plus étroites et une longue amitié personelle n'auroient pû le créer.
+            </p>
+         </div>
+         <div n="2" corresp="#jrnh">
+            <p>
+               <rs type="citation" ref="#p2099-1">Le Journal</rs>, dont je prens la liberté de vous envoyer ci-joints les deux 
+               prémiers cahiers, Vous doit son <pb/> existence d'une maniére encore plus immédiate. C'est Votre 
+               <rs type="citation" ref="#e2099-1"><emph rend="underlined">Mercure Brittanique</emph></rs>, qui lui a donné la vie. 
+               Frappé par la force de Vos raisonnemens et l'éclat de vos tableaux, le gouvernement prussien (du moins cette partie 
+               du gouvernement qui n'a pas entiérement renoncé au sentiment de son ancienne grandeur) acceuillit avec bienveillance 
+               l'idée qu'on lui présenta d'un Journal allemand, dont le but déclaré seroit de faire la guerre aux erreurs 
+               innombrables qui circulent dans le public relativement aux évènemens de la révolution et à l'état actuel de la 
+               <rs type="place" ref="#plFr">France</rs>, et de servir de contrepoids à la majorité immense des gazettes et journaux 
+               politiques de <rs type="place" ref="#plDe">l'Allemagne</rs> <emph rend="underlined">presque tous</emph> infectés 
+               plus ou moins du poison révolutionaire.
+            </p>
+            <p>
+               J'ai pris l'engagement d'écrire ce <rs type="citation" ref="#p2099-1">Journal</rs> - Si une application constante, 
+               si dix ans <del rend="stroked">d'un travail</del> d'études et de travaux, consacrés à l'histoire funeste de nos 
+               jours, et continués très souvent au milieu d'une foule d'occupations pénibles, si des principes fermes et 
+               inébranlables suffisoient pour remplir dignement la tâche que je me suis imposée, je commencerois ma carriére avec 
+               quelque confiance. Mais dans un moment où les talens du prémier ordre ne luttent que foiblement contre le torrent 
+               qui nous entraine, ne dois-je pas trembler en comparant la médiocrité de mes moyens à l'importance immense de mon 
+               sujet ? <pb/>
+            </p>
+         </div>
+         <div n="3" corresp="#vfdi">
+            <p>
+               Malheureusement je ne saurois guéres me flatter d'apprendre jusqu'à quel point j'aurai pu mériter, Monsieur, votre 
+               suffrage; car je crains beaucoup, que le mauvais sort de la langue allemande, celui d'être étrangére aux hommes les 
+               plus éclairés des autres pays, sera encore dans ce cas-ci un obstacle essentiel. Mais enfin je ne dois pas 
+               désespérer absolument: car, comme il s'est trouvé à <rs type="place" ref="#plLo">Londres</rs> une personne assez 
+               versée dans les deux langues et assez bienveillante envers moi pour <rs type="citation" ref="#p2099-2">traduire</rs> 
+               à <rs type="person" ref="#FdI">Monsieur le Chevalier D'Ivernois</rs> plusieurs chapitres, même remplis de calculs, 
+               que j'avois publiés à l'occasion d'un de ses <rs type="citation" ref="#p2099-3">ouvrages</rs> sur les finances de la 
+               <rs type="place" ref="#plFr">France</rs>, un bonheur pareil pourroit m'être reservé dans l'occasion présente; il 
+               seroit inappréciable pour moi, parce que je regarderois le jugement que Vous porteriez sur l'ouvrage comme 
+               absolument décisif tant pour son succés, que pour ma propre instruction.
+            </p>
+         </div>
+         <div n="4" corresp="#vjmdp">
+            <p>
+               Mais quand même cette espérance ne se réaliseroit pas, quand même Vous ne me jugeriez, que sur les intentions que je 
+               vous ai communiquées, et sur les principes que je professe, j'oserois toujours Vous soumettre, Monsieur, une 
+               proposition dont le succés me rendroit infiniment heureux: c'est celle d'une correspondance suivie. Me confiant 
+               uniquement à votre générosité et à votre ardeur pour le bien public, je pourrois avouer <pb/> avec franchise que le 
+               bénéfice de cette correspondance seroit absolument pour moi: et sans doute il n'y a pas de comparaison entre le peu 
+               que Vous y gagneriez et l'avantage essentiel et immense qu'elle me présente; mais cette disproportion, toute grande 
+               qu'elle seroit, n'empêcheroit pas, que ce que je pourrois Vous donner en échange n'êut à vos yeux un mérite et une 
+               valeur quelconque. La monarchie prussienne est certainement pour un homme de votre génie un objet d'intèret et de 
+               curiosité. Sans avoir rempli des places du prèmier ordre, j'ai eu dépuis longtems l'occasion de bien observer 
+               <emph rend="underlined">tous</emph> les ressorts essentiels de cette monarchie: j'ai été dans le cas de connoitre et 
+               d'étudier le caractére de son administration, l'esprit, les principes et les moyens de ceux qui la gouvernent, et 
+               jusqu'aux rapports les plus intimes entre sa situation politique, ses forces, ses parties foibles, et les causes qui 
+               l'ont fait jouer dépuis quelques ans le rôle passif et quelquefois bien étrange, dont Vous avez peint avec une 
+               vérité frappante les traits principaux dans un des prémiers cahiers de 
+               <rs type="citation" ref="#e2099-1">Votre Journal</rs>. Des données de ce genre là ne vous seroient peutêtre pas 
+               entiérement indifférentes: je vous les fournirois avec la même fidelité, avec la même franchise, comme si je parlois 
+               au plus zêlé et au plus éclairé de mes compatriotes; <pb/> car les hommes tels que Vous appartiennent à la societé 
+               toute entiére; il est nécessaire que Vous connoissiez à fonds tous les gouvernemens de l'Europe: pour appliquer les 
+               remèdes, on ne peut jamais être trop initié dans les plus petites circonstances de ces maladies mortelles qui 
+               rongent maintenant tous les corps politiques encore de bout, et les menacent d'une déstruction prochaine et peut 
+               être inévitable. - Voilà Monsieur, ce que je pourrois Vous offrir. - De votre part je regarderois chaque ligne comme 
+               un bienfait.
+            </p>
+         </div>
+         <div n="5" corresp="#napinv">
+            <p>
+               Sans entrer aujourd'hui dans aucun détail, je dois pourtant Vous annoncer, que le tableau que je Vous présenterai de 
+               notre situation, de nos espérances, et de nos craintes relativement au progrês de la révolution, et au caractére de 
+               l'opinion publique, ne sera rien moins que consolant. Ici, comme partout, les chiméres d'une fausse philosophie, 
+               l'ignorance des faits, l'enthousiasme des nouveautés, et plus que toute autre cause - la 
+               <emph rend="underlined">vanité</emph>, ont donné à la revolution un nombre infini de partisans. Ils se trouvent 
+               sur-tout dans la classe des gens de lettres, corrompue par les folies et les atrocités du siecle, à un point dont 
+               vous ne <add place="above">vous</add> formeriez pas aisément une idée exacte; ils abondent parmi les employés civils 
+               (principalement parmi ceux <pb/> attachés à l'administration de la justice); la haute noblesse et l'armée même n'en 
+               sont point exemtes. Enfin, Vous saurez tout, quand j'aurai eu l'honneur de Vous dire que la rédaction d'un Journal 
+               fait comme le mien, passe généralement, pour une entreprise <emph rend="underlined">courageuse</emph>!
+            </p>
+            <p>
+               Je finis, Monsieur, en Vous suppliant d'agréer avec bienveillance l'hommage sincére de la haute considération et de 
+               l'attachement sans bornes avec lequel j'ai l'honneur d'être,
+            </p>
+         </div>
+         <closer>
+            <salute rend="right">Monsieur</salute>
+            <salute rend="right">Votre très devoué serviteur</salute>
+            <dateline rend="left"><rs type="place" ref="#plBe">Berlin</rs> ce <date when-iso="1799-01-15">15 Janvier. 1799</date>.</dateline>
+            <signed rend="right">Gentz</signed>
+         </closer>
+         <postscript corresp="#prr">
+            <p>
+               P.S. Cette lettre ne pouvant partir que dans quelques jours je joins encore quelques mots que vous acceuillerez, je 
+               l'espère avec la même bonté que j'attens pour le reste de ma lettre.
+            </p>
+            <p>
+               Le <rs type="person" ref="#KWF">Duc <emph rend="underlined">de Brunsvic</emph></rs> est arrivé hier. On l'a fait 
+               venir par un courier, <del rend="stroked">xxx</del> pour délibérer avec lui sur les mésures à prendre relativement à 
+               la declaration des François contre la marche des Troupes Russes. <pb/> Ne croyez pas, Monsieur, qu'il s'agisse 
+               d'aucun changement essentiel dans nos principes politiques - La conduite inconcevable de l'autriche dans l'affaire 
+               de <rs type="place" ref="#plNa">Naples</rs> pp ne nous a que trop fortifié dans notre systême favori: et à moins d'un 
+               danger imminent (danger, qui comme Vous le savez, paroit toujours plus éloigné aux aveugles qu'aux clairvoyans) 
+               <emph rend="underlined">nous n'en sortirons pas</emph>. Que nous fait la chûte des Rois de 
+               <rs type="person" ref="#KKEIV">Sardaigne</rs> et de <rs type="person" ref="#KFIVN">Naples</rs>, qui sont à 3 et 400 
+               lieues de nous ! Que nous fait la destruction de la Maison d'<rs type="place" ref="#plOe">autriche</rs> qui est 
+               notre ennemie <emph rend="underlined">naturelle</emph>!! Que nous fait la ruine de 
+               <rs type="place" ref="#plEu">l'Europe entiére</rs> pourvu que le Directoire Francois, et le gouvernement prussien y 
+               surnagent ! Ce sont là les maximes du jour: et le Cabinet s'y prête.
+            </p>
+         </postscript>
+         <postscript corresp="#vjmdp">
+            <p>
+               Nous avons recu avant-hier les premieres gazettes de <rs type="place" ref="#plLo">Londres</rs> dépuis plus de 4 
+               semaines. J'attens avec la derniere impatience la continuation de 
+               <rs type="citation" ref="#e2099-1">votre journal</rs>, dont nous n'avons eu que le cahier 6.
+            </p>
+         </postscript>
+         <postscript corresp="#vfdi">
+            <p>
+               Je ne sais pas, Monsieur, si vous êtes en liaison habituelle avec 
+               <rs type="person" ref="#FdI">Monsieur D'Ivernois</rs>. Si c'est le cas, je vous prierois d'avoir la bonté de lui 
+               dire, que je <pb/> lui <add place="above">ai</add> adressé un exemplaire de 
+               <rs type="citation" ref="#p2099-1">mon journal</rs> dans <ref target="#r2099-1">un paquet</ref> qui partira sous 
+               l'adresse de <rs type="person" ref="#JWB"><emph rend="underlined">Monsieur Balan</emph></rs>, secretaire d'ambassade 
+               de la Cour de <rs type="place" ref="#plBe">Berlin</rs> à <rs type="place" ref="#plLo">Londres</rs>. 
+               <rs type="person" ref="#FdI">Monsieur D'Ivernois</rs> a eu plusieurs fois la bonté <del rend="stroked">xxx</del> de 
+               m'envoyer ses ouvrages qui, malgré la grande difficulté de faire impression sur les énerguménes de 
+               <rs type="place" ref="#plDe">l'allemagne</rs>, n'ont pas été infructueux pour la cause de l'ordre social
+            </p>
+            <p>
+               Acceptez encore une fois l'assurance de mon attachement respectueux !
+            </p>
+         </postscript>
+         <closer>
+            <dateline rend="left"> ce <date when-iso="1799-01-19">19 Janvier. 1799</date>.</dateline>
+         </closer>
+      </body>
+      <note resp="#edAG" xml:id="r2099-1">Vgl. den <rs type="citation" ref="#c2099-1">Brief an Vieweg vom Januar 1799</rs></note>
+   </text>
+</TEI>

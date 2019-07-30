@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc xml:id="LETTER_GENTZ_4253">
+         <titleStmt>
+            <title>Friedrich von Gentz an Friedrich Vieweg, 1. Juli 1798</title>
+            <editor xml:id="edAG">Andreas Gálffy</editor>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <name>Forschungsstelle "Universitätssammlung Friedrich von Gentz"</name>
+               <link target="http://gentz-digital.ub.uni-koeln.de http://www.ub.uni-koeln.de/cdm/singleitem/collection/gentz/id/4252/"/>
+            </publisher>
+            <pubPlace>Cologne</pubPlace>
+            <idno type="Gentz-Edition-Number" n="4253"/>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <country>Germany</country>
+                  <settlement>Wiesbaden</settlement>
+                  <institution>Vieweg-Verlagsarchiv</institution>
+                  <repository>Gentz-Materialien</repository>
+                  <collection>Nr. I</collection>
+                  <idno>12</idno>
+               </msIdentifier>
+               <msContents>
+                  <summary>
+                     Ein Schuldschein über 2000 Reichstaler Courant zu fünf Prozent Zinsen. 200 Reichstaler sind jährlich fällig.
+                  </summary>
+               </msContents>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Masterarbeit zu Matrikelnummer 5584124</p>
+         </projectDesc>
+      </encodingDesc>
+      <profileDesc>
+         <creation>
+            <date when-iso="1798-07-01">1. Juli 1798</date>
+         </creation>
+        <langUsage>
+           <language ident="d">deutsch</language>
+        </langUsage>
+         <textClass>
+            <keywords scheme="internal"><!-- internal: innerhalb des besagten Briefs -->
+               <term>Brief</term>
+               <term>Schulden</term>
+            </keywords>
+            <keywords scheme="categorisation"><!-- Sinnabschnittseinteilung - relevant für den Fahrkartenautomaten! -->
+               <term xml:id="gprl">Gentz - p(r)ekuniäre Lage</term>
+            </keywords>
+         </textClass>
+         <textDesc>
+            <channel>manuscript</channel>
+            <constitution type="single"/>
+            <derivation type="original"/>
+            <domain type="private"/>
+            <factuality type="fact"/>
+            <interaction type="partial"/>
+            <preparedness type="prepared"/>
+            <purpose type="inform"/>
+         </textDesc>
+         <particDesc>
+            <listPerson>
+               <!-- Sender und Adressat -->
+               <person role="sender" xml:id="Gen">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/118538489"/>
+                     <forename>Friedrich von</forename>
+                     <surname>Gentz</surname>
+                  </persName>
+               </person>
+               <person role="receiver" xml:id="FVW">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/119049546"/>
+                     <forename>Friedrich</forename>
+                     <surname>Vieweg</surname>
+                  </persName>
+               </person>
+               <!-- erwähnte Personen -->
+            </listPerson>
+         </particDesc>
+         <settingDesc>
+            <listPlace>
+               <!-- Start- und Zielort -->
+               <place type="sender" xml:id="plBe">
+                  <country>
+                     <ref target="http://d-nb.info/gnd/4047194-9"/>
+                     <placeName>Preußen</placeName>
+                  </country>
+                  <settlement>
+                     <ref target="http://d-nb.info/gnd/4005728-8"/>
+                     <placeName>Berlin</placeName>
+                  </settlement>
+               </place>
+               <!-- erwähnte Orte -->
+            </listPlace>
+         </settingDesc>
+      </profileDesc>
+      <revisionDesc>
+         <change xml:id="init" when-iso="2018-03-02" who="#edAG">Erstauszeichnung und Normierung des Dokumentes im Rahmen der Masterarbeit der Matrikelnummer 5584124</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <opener>
+            <dateline rend="right"><rs type="place" ref="#plBe">Berlin</rs> d <date when-iso="1798-07-01">1 Juli 1798</date>.</dateline>
+         </opener>
+         <div n="1" corresp="#gprl">
+            <head>
+               2000 Reichsthaler in Courrant nebst 5 % jährlicher Zinsen
+            </head>
+            <p>
+               Ich Endesunterschriebener bekenne hiemit, daß mir der Buchhändler Friedrich Vieweg allhier die Summe von 2000 
+               Reichsthaler schreibe Zwei Tausend Thaler in preußischen Courrant baar geliehen hat, und daß ich vermöge des 
+               gegenwärtigen eigenhändig ausgestellten Schuldscheins gehalten seyn will, dem Herrn Vieweg nicht nur diese Summe 
+               jährlich mit 5 % zu verzinsen, sondern auch von dem Capitall jährlich, und zwar immer zu Ende des Jahres, die Summe 
+               von <del rend="stroked">2000 Reichsthaler</del> 200 Reichsthaler so lange bezahlen will, bis durch diese Cartial 
+               Zahlungen das ganze Capital vollständig getilgt ist. Sollte sich aber in meinen Vermögens-Umständen , in der 
+               Zwischenzeit eine zu meinem wesentlichen Vortheil gereichende erhebliche Veränderung zutragen, so will ich gehalten 
+               seyn, das ganze alsdann noch restirende Capital, entweder auf einmal, oder in kurzen, mit gemeinschaftlichen 
+               Einverständniße festzusetzenden Terminen abzuzahlen. Behebe mich übrigens aller gegen dieses Instrument zu machenden 
+               Einwendungen, sie mögen Namen haben wie sie wollen, hiemit aufs uneingeschränkteste und feyerlichste , und 
+               <del rend="stroked">habe</del> habe solches mit meiner Nahmens-Unterschrift, und meinem Siegel versehen.
+            </p>
+         </div>
+         <closer>
+            <dateline rend="left"><rs type="place" ref="#plBe">Berlin</rs> den <date when-iso="1798-07-01">1<span rend="sup">ten</span> Juli 1798</date>.</dateline>
+            <signed rend="right">Friedrich Gentz</signed>
+            <signed rend="right">p t Kriegsrath bey dem</signed>
+            <signed rend="left">L. S.</signed>
+            <signed rend="right">General Directorio</signed>
+         </closer>
+      </body>
+      <back>
+         <p>
+            Des
+            Herrn Buchhändler Vieweg
+            Wohlgebohren
+         </p>
+      </back>
+      <note xml:id="r4957-1">Adr. S. 4: </note>
+      <note xml:id="r4957-2">S. 4: Reste des Privatsiegels von Gentz</note>
+   </text>
+</TEI>

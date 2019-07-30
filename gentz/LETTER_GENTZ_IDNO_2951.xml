@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader type="text">
+      <fileDesc xml:id="LETTER_GENTZ_2951">
+         <titleStmt>
+            <title>Friedrich von Gentz an Friedrich Vieweg, Mai 1794</title>
+            <editor xml:id="edAG">Andreas Gálffy</editor>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <name>Forschungsstelle "Universitätssammlung Friedrich von Gentz"</name>
+               <link target="http://gentz-digital.ub.uni-koeln.de http://www.ub.uni-koeln.de/cdm/singleitem/collection/gentz/id/2950/"/>
+            </publisher>
+            <pubPlace>Cologne</pubPlace>
+            <idno type="Gentz-Edition-Number" n="2951"/>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <country>Germany</country>
+                  <settlement>Wiesbaden</settlement>
+                  <institution>Vieweg-Verlagsarchiv</institution>
+                  <repository>Briefsammlung 311 G: Gentz-Brief</repository>
+                  <idno>Nr. 66</idno>
+               </msIdentifier>
+               <msContents>
+                  <summary>
+                     100 Reichstaler soll Vieweg Gentz bis zum 1. September 1794 leihen, damit er seinem Bruder aushelfen kann. 
+                     Gentz hat weitere 100 Reichtstaler, die zur Tilgung der Schuld notwendig seien. Er beschreibt die 
+                     Zahlungsmodalitäten und sieht es Vieweg nicht nach, wenn er nicht zahlen wollte.
+                  </summary>
+               </msContents>
+            </msDesc>
+            <listBibl type="letterReferenced">
+               <bibl xml:id="c2951-1" corresp="#LETTER_GENTZ_NNNN">nicht bekannter Brief von Heinrich Gentz an Friedrich von Gentz</bibl>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Masterarbeit zu Matrikelnummer 5584124</p>
+         </projectDesc>
+      </encodingDesc>
+      <profileDesc>
+         <creation>
+            <date when-iso="1794-05-00">Mai 1794</date>
+         </creation>
+        <langUsage>
+           <language ident="d">deutsch</language>
+        </langUsage>
+         <textClass>
+            <keywords scheme="internal"><!-- internal: innerhalb des besagten Briefs -->
+               <term>Billet</term>
+               <term>Geld</term>
+               <term>Pensionärs-Chirurgus</term>
+            </keywords>
+            <keywords scheme="categorisation"><!-- Sinnabschnittseinteilung - relevant für den Fahrkartenautomaten! -->
+               <term xml:id="gprl">Gentz - p(r)ekuniäre Lage</term>
+            </keywords>
+         </textClass>
+         <textDesc>
+            <channel>manuscript</channel>
+            <constitution type="single"/>
+            <derivation type="original"/>
+            <domain type="private"/>
+            <factuality type="fact"/>
+            <interaction type="partial"/>
+            <preparedness type="unprepared"/>
+            <purpose type="inform"/>
+         </textDesc>
+         <particDesc>
+            <listPerson>
+               <!-- Sender und Adressat -->
+               <person role="sender" xml:id="Gen">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/118538489"/>
+                     <forename>Friedrich von</forename>
+                     <surname>Gentz</surname>
+                  </persName>
+               </person>
+               <person role="receiver" xml:id="FVW">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/119049546"/>
+                     <forename>Friedrich</forename>
+                     <surname>Vieweg</surname>
+                  </persName>
+               </person>
+               <!-- erwähnte Personen -->
+               <person role="named" xml:id="HGen">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/11900738X"/>
+                     <forename>Heinrich</forename>
+                     <surname>Gentz</surname>
+                  </persName>
+               </person>
+               <person role="named" xml:id="JFG">
+                  <persName>
+                     <ref/>
+                     <forename>Johann Friedrich</forename>
+                     <surname>Gentze</surname>
+                  </persName>
+               </person>
+               <person role="named" xml:id="CMu">
+                  <persName>
+                     <ref/>
+                     <forename/>
+                     <surname>Müller</surname>
+                     <roleName type="office">Conducteur</roleName>
+                  </persName>
+               </person>
+               <person role="named" xml:id="ChSch">
+                  <persName>
+                     <ref/>
+                     <forename/>
+                     <surname>Schack</surname>
+                     <roleName type="office">Generalchirurgus</roleName>
+                  </persName>
+               </person>
+            </listPerson>
+         </particDesc>
+         <settingDesc>
+            <listPlace>
+               <!-- Start- und Zielort -->
+               <place type="sender" xml:id="plFf">
+                  <country>
+                     <ref target="http://d-nb.info/gnd/4047194-9"/>
+                     <placeName>Preußen</placeName>
+                  </country>
+                  <region>
+                     <ref target="http://d-nb.info/gnd/4394762-1"/>
+                     <placeName>Friedrichsfelde</placeName>
+                  </region>
+               </place>
+               <place type="receiver" xml:id="plBe">
+                  <country>
+                     <ref target="http://d-nb.info/gnd/4047194-9"/>
+                     <placeName>Preußen</placeName>
+                  </country>
+                  <settlement>
+                     <ref target="http://d-nb.info/gnd/4005728-8"/>
+                     <placeName>Berlin</placeName>
+                  </settlement>
+               </place>
+               <!-- erwähnte Orte -->
+               <place type="named" xml:id="plFm">
+                  <country>
+                     <ref target="http://d-nb.info/gnd/4018145-5"/>
+                     <placeName>Frankreich</placeName>  
+                  </country>
+                  <settlement>
+                     <ref target="http://d-nb.info/gnd/4005728-8"/>
+                     <placeName>Frankfurt am Main</placeName>
+                  </settlement>
+               </place>
+               <place type="named" xml:id="plMz">
+                  <country>
+                     <ref target="http://d-nb.info/gnd/4018145-5"/>
+                     <placeName>Frankreich</placeName>  
+                  </country>
+                  <settlement>
+                     <ref target="http://d-nb.info/gnd/4037124-4"/>
+                     <placeName>Mainz</placeName>
+                  </settlement>
+               </place>
+            </listPlace>
+         </settingDesc>
+      </profileDesc>
+      <revisionDesc>
+         <change xml:id="init" when-iso="2018-02-14" who="#edAG">Erstauszeichnung und Normierung des Dokumentes im Rahmen der Masterarbeit der Matrikelnummer 5584124</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>     
+      <body>
+         <div n="1" corresp="#gprl">
+            <p>
+               Ich bekam heute früh durch einen <rs type="person" ref="#ChSch">Pensionär-Chirurgus</rs> der aus 
+               <rs type="place" ref="#plFm">Frankfurt am Mayn</rs> gestern angelangt ist, und morgen nach 
+               <rs type="place" ref="#plMz">Maynz</rs> zurück geht, einen <rs type="citation" ref="#c2951-1">Brief</rs> von 
+               <rs type="person" ref="#HGen">meinem reisenden Bruder</rs>, der mich, weil er in 
+               <rs type="person" ref="#JFG">meines Vaters</rs> Beutel etwas zu tief gegriffen hat, und nicht wagt, um einen 
+               außerordentlichen Succurs an<add place="above">zu</add>halten, bittet ihm 200 Reichsthaler zu schicken. Die 
+               Umstände, die Art und Weise wie die Bitte eingeleitet war, der Brief selbst den Sie gelegentlich da er auch andre 
+               interessante Dinge enthält sehen sollen, determinirten mich, ohne vieles Bedenken, ihm zu helfen. Ich habe 100 
+               Reichsthaler bey der Hand: die andere 100 Reichsthaler fehlen mir. Ich will sie <emph rend="underlined">nicht</emph> 
+               auf Abschlag irgend einer litterarischen Arbeit haben, weil ich sie wie bey einer nahe bevorstehenden guten 
+               Gelegenheit von <rs type="person" ref="#JFG">meinem Vater</rs> nebst der andern 100 Reichsthaler geradezu 
+               zurückfordern werde. Ich bitte Sie bloß, werthster Freund, mir diese 100 Reichsthaler längstens bis zum 
+               <date when-iso="1794-09-01">1<span rend="sup">ten</span> September</date>, wo ich sie Ihnen selbst auf den Fall daß 
+               ich solche wider Vermuthen <emph rend="underlined">nicht</emph> von <rs type="person" ref="#JFG">meinem Vater</rs> 
+               erhielte, unfehlbar und unerinnert zurückgeben werde, vor<add place="above">zu</add>schießen. Wollen und können Sie 
+               dies, so haben Sie die Güte, das Geld, morgen zwischen 8 und 9 Uhr an den 
+               <rs type="person" ref="#CMu">Conducteur Müller</rs> in unserm Hause, den ich angewiesen habe, es, im Fall er es 
+               erhält, an den <rs type="person" ref="#ChSch">Pensionär Schack</rs> gleich abzuliefern, zu übersenden. Macht es Ihnen 
+               aber das allergeringste Derangement, so hoffe ich, Sie werden so freundschaftlich seyn, meine Bitte ohne Umstände 
+               abzuschlagen: auf diesen Fall aber bedarf es nicht einmal einer Entschuldigung; genug, wenn Sie nichts geschenkt 
+               haben, so <emph rend="underlined">konnten</emph> Sie nicht, und damit gut. Adieu mein lieber Vieweg; vergessen Sie 
+               nicht,
+            </p>
+         </div>
+         <closer>
+            <salute rend="right">Ihre Freunde in <rs type="place" ref="#plFf">Friedrichsfelde</rs></salute>
+            <signed rend="left">Gentz.</signed>
+         </closer>
+      </body>
+   </text>
+</TEI>

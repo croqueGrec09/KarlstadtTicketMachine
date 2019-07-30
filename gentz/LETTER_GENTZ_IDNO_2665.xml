@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc xml:id="LETTER_GENTZ_2665">
+         <titleStmt>
+            <title>Friedrich von Gentz an Heinrich Frölich, 25. August 1801</title>
+            <editor xml:id="edAG">Andreas Gálffy</editor>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <name>Forschungsstelle "Universitätssammlung Friedrich von Gentz"</name>
+               <link target="http://gentz-digital.ub.uni-koeln.de http://www.ub.uni-koeln.de/cdm/singleitem/collection/gentz/id/2664/"/>
+            </publisher>
+            <pubPlace>Cologne</pubPlace>
+            <idno type="Gentz-Edition-Number" n="2665"/>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <country>Germany</country>
+                  <settlement>Berlin</settlement>
+                  <institution>Geheimes Staatsarchiv Preußischer Kulturbesitz</institution>
+                  <repository>I. HA Rep 94: Kleine Erwerbungen</repository>
+                  <collection>IV.N.b.2</collection>
+                  <idno>Bl. 6-6v</idno>
+               </msIdentifier>
+               <msContents>
+                  <summary>
+                     Die Bögen A, F und G sind abgeändert und zur Zensur vorgelegt. Sollte auch die Abhandlung über Polen entfernt 
+                     werden müssen, wäre Gentz völlig ratlos. Im zweiten Heft muss außer Bogen Q und R nichts geändert werden. Der 
+                     Übersetzer in London soll keinesfalls aufgehalten werden.
+                  </summary>
+               </msContents>
+            </msDesc>
+            <listBibl type="defRep">
+               <biblStruct xml:id="p2665-1" corresp="BSB-0017">
+                  <monogr>
+                     <author>
+                        <persName>
+                           <ref target="http://d-nb.info/gnd/118538489"/>
+                           <forename>Friedrich von</forename>
+                           <surname>Gentz</surname>
+                        </persName>
+                     </author>
+                     <title>Von dem Politischen Zustande von Europa vor und nach der Französischen Revolution</title>
+                     <imprint>
+                        <pubPlace>Berlin</pubPlace>
+                        <publisher>Heinrich Frölich</publisher>
+                        <date>1801</date>
+                     </imprint>
+                  </monogr>
+                  <ptr target="http://www.mdz-nbn-resolving.de/urn/resolver.pl?urn=urn:nbn:de:bvb:12-bsb10556396-8"/>
+               </biblStruct>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Masterarbeit zu Matrikelnummer 5584124</p>
+         </projectDesc>
+      </encodingDesc>
+      <profileDesc>
+         <creation>
+            <date when-iso="1801-08-25">25. August 1801</date>
+         </creation>
+        <langUsage>
+           <language ident="d">deutsch</language>
+        </langUsage>
+         <textClass>
+            <keywords scheme="internal"><!-- internal: innerhalb des besagten Briefs -->
+               <term>Billet</term>
+               <term>Zensur</term>
+               <term>Übersetzung</term>
+            </keywords>
+            <keywords scheme="categorisation"><!-- Sinnabschnittseinteilung - relevant für den Fahrkartenautomaten! -->
+               <term xml:id="zns">Zensur</term>
+            </keywords>
+         </textClass>
+         <textDesc>
+            <channel>manuscript</channel>
+            <constitution type="single"/>
+            <derivation type="original"/>
+            <domain type="private"/>
+            <factuality type="fact"/>
+            <interaction type="partial"/>
+            <preparedness type="unprepared"/>
+            <purpose type="inform"/>
+         </textDesc>
+         <particDesc>
+            <listPerson>
+               <!-- Sender und Adressat -->
+               <person role="sender" xml:id="Gen">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/118538489"/>
+                     <forename>Friedrich von</forename>
+                     <surname>Gentz</surname>
+                  </persName>
+               </person>
+               <person role="receiver" xml:id="Fro">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/1073351068"/>
+                     <forename>Heinrich</forename>
+                     <surname>Frölich</surname>
+                  </persName>
+               </person>
+               <!-- erwähnte Personen -->
+               <person role="named" xml:id="GehFH">
+                  <persName>
+                     <ref />
+                     <forename/>
+                     <surname>Hüttel</surname>
+                     <roleName type="office">Zensor des Kabinettsministeriums</roleName>
+                  </persName>
+               </person>
+               <person role="named" xml:id="JChH">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/159705665" />
+                     <forename>John Charles</forename>
+                     <surname>Herries</surname>
+                  </persName>
+               </person>
+            </listPerson>
+         </particDesc>
+         <settingDesc>
+            <listPlace>
+               <!-- Start- und Zielort -->
+               <place type="sender" xml:id="plBe">
+                  <country>
+                     <ref target="http://d-nb.info/gnd/4047194-9"/>
+                     <placeName>Preußen</placeName>
+                  </country>
+                  <settlement>
+                     <ref target="http://d-nb.info/gnd/4005728-8"/>
+                     <placeName>Berlin</placeName>
+                  </settlement>
+               </place>
+               <!-- erwähnte Orte -->
+               <place type="named" xml:id="plPl">
+                  <country>
+                     <ref target="http://d-nb.info/gnd/4046496-9"/>
+                     <placeName>Polen</placeName>
+                  </country>
+               </place>
+               <place type="named" xml:id="plLo">
+                  <country>
+                     <ref target="http://d-nb.info/gnd/4022153-2"/>
+                     <placeName>Vereinigtes Königreich</placeName>                
+                  </country>
+                  <settlement>
+                     <ref target="http://d-nb.info/gnd/4074335-4"/>
+                     <placeName>London</placeName>
+                  </settlement>
+               </place>
+            </listPlace>
+         </settingDesc>
+      </profileDesc>
+      <revisionDesc>
+         <change xml:id="init" when-iso="2018-03-08" who="#edAG">Erstauszeichnung und Normierung des Dokumentes im Rahmen der Masterarbeit der Matrikelnummer 5584124</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div n="1" corresp="#zns">
+            <p>
+               Ich habe die Stellen auf den Bogen A, F und G abgeändert, sie gleich an <rs type="person" ref="#GehFH">Hüttel</rs> 
+               geschickt, und ihn gebeten, Ihnen solche unmittelbar zu übersenden. Zugleich aber habe ich ihm über den Bogen Z. 
+               weitläuftig geschrieben. Ist es hier mit <emph rend="underlined">Abänderungen</emph> gethan, so will ich alle meine 
+               Kräfte anstrengen. Besteht er aber auf gänzlicher Vertilgung des Raisonnements über 
+               <rs type="place" ref="#plPl">Pohlen</rs>, oder auch nur eines Theils desselben, so weiß ich mir, bei Gott, gar nicht 
+               zu helfen. Denn <emph rend="underlined">was</emph> soll ich an die leere Stelle setzen? Ich habe ihm die Sache aufs 
+               dringendste vorgestellt, und erwarte Nachmittag seine Antwort. Fällt diese nur irgend günstig aus, so gehe ich gleich 
+               an die Arbeit: verlangt er Unmöglichkeiten, so komme ich <date when-iso="1801-08-26">Morgen früh</date> zu Ihnen, und 
+               berathschlage mit Ihnen über weitre Maßregeln. Schicken Sie mir doch gefälligst den Abdruck des letzten 
+               Viertelbogens, des Titels pp des <emph rend="underlined">zweiten</emph> Heftes; in diesem Hefte wird, wie mir 
+               <rs type="person" ref="#GehFH">Hüttel</rs> schon gesagt hat, außer auf den Bogen Q und R. 
+               <emph rend="underlined">nichts</emph> geändert werden müssen. Aber schicken Sie nur ja die Aushängebogen des 
+               Schlusses, damit der <rs type="person" ref="#JChH">Uebersetzer</rs> in <rs type="place" ref="#plLo">London</rs> 
+               <ref target="#r2665-2">nicht aufgehalten werde</ref>.
+            </p>
+         </div>
+         <closer>
+            <signed rend="right">Gentz</signed>
+            <dateline rend="right">d <date when-iso="1801-08-25">25 Augt</date>.</dateline>
+         </closer>
+      </body>
+      <back resp="#Fro">
+         <p>
+            <date when-iso="1801-08-25">1801. d 25 Aug.</date>
+            Genz.
+         </p>
+      </back>
+      <note xml:id="r2665-1">Präsenzvermerk von der Hand Frölichs</note>
+      <note resp="#edAG" xml:id="r2665-2">Es geht hier um das Werk <rs type="citation" ref="#p2665-1">"Über den politischen Zustand Europas vor und nach der Revolution"</rs></note>
+   </text>
+</TEI>

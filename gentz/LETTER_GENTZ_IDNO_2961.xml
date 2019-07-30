@@ -1,0 +1,533 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc xml:id="LETTER_GENTZ_2961">
+         <titleStmt>
+            <title>Friedrich von Gentz an Friedrich Vieweg, 17. Dezember 1799</title>
+            <editor xml:id="edAG">Andreas Gálffy</editor>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <name>Forschungsstelle "Universitätssammlung Friedrich von Gentz"</name>
+               <link target="http://gentz-digital.ub.uni-koeln.de http://www.ub.uni-koeln.de/cdm/singleitem/collection/gentz/id/2960/"/>
+            </publisher>
+            <pubPlace>Cologne</pubPlace>
+            <idno type="Gentz-Edition-Number" n="2961"/>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <country>Austria</country>
+                  <settlement>Vienna</settlement>
+                  <institution>Haus-, Hof- und Staatsbibliothek</institution>
+                  <repository>Staatskanzlei, Interiora</repository>
+                  <collection>Karton 78, Fasz.: "Relicta Schlitter"</collection>
+                  <idno>Bl. 42-47v</idno>
+               </msIdentifier>
+               <msContents>
+                  <summary>
+                     Das Verhältnis zu Vieweg hat deutlich gelitten. So fühlt sich Gentz in einem Brief ungerecht und hart 
+                     behandelt. Dann ist der Schluss des Kalenderaufsatzes auf unerklärliche Weise verschollen - Gentz erfhur mit 
+                     Schrecken, dass Bülow nicht nach Braunschweig gegangen ist und daher das Paket nicht überbracht hat. Diesen 
+                     Schluss möchte Gentz aus dem Gedächtnis zusammensetzen.
+                     Auch der Mercier hat Gentz verärgert, den Vieweg verlegt hat. Gentz hat das Buch mit Abscheu gelesen und lehnt 
+                     den Demokratismus und Sansculottismus dort entschieden ab. Selbst in Paris möchte dieses Buch keiner mehr 
+                     lesen, da die Inhalte obendrein noch veraltet sind. Der Verlag des Historischen Journal hat das Verhältnis 
+                     weiter belastet. So schreibt Gentz, dass er das Journal selbst verlegt hat, da Vieweg nicht erreichbar war - 
+                     und so griff Gentz nach dem Strohhalm, als ihm Frölich vorgeschlagen und der Handel prompt eingefädelt wurde. 
+                     Schließlich bittet Gentz um 400 Reichstaler, da die Pension bei Schulenburg zu Ende geht und Frölich nur 700 
+                     Reichstaler hat bezahlen können. Dabei sind seine Bitten zurückgewiesen worden.
+                  </summary>
+               </msContents>
+            </msDesc>
+            <listBibl type="letterReferenced">
+               <bibl xml:id="c2961-1" corresp="#LETTER_GENTZ_NNNN">nicht bekannter Brief von Friedrich Vieweg an Friedrich von Gentz, 24. November 1799</bibl>
+               <bibl xml:id="c2961-2" corresp="#LETTER_GENTZ_NNNN">nicht bekannter Brief von Friedrich von Gentz an Friedrich Vieweg</bibl>
+               <bibl xml:id="c2961-3" corresp="#LETTER_GENTZ_0021">Friedrich von Gentz an Friedrich Vieweg, 5. Oktober 1799</bibl>
+               <bibl xml:id="c2961-4" corresp="#LETTER_GENTZ_NNNN">nicht bekannter Brief von Friedrich Vieweg an Friedrich von Gentz</bibl>
+               <bibl xml:id="c2961-5" corresp="#LETTER_GENTZ_4073">Friedrich von Gentz an Heinrich Frölich</bibl>
+            </listBibl>
+            <listBibl type="alludedWorks">
+               <bibl xml:id="a2961-1" corresp="#LETTER_GENTZ_NNNN">Taschenkalender für 1800. Keine Leseprobe</bibl>
+            </listBibl>
+            <listBibl type="defExpr">
+               <biblStruct xml:id="e2961-1" corresp="GBk-0059">
+                  <monogr>
+                     <editor>
+                        <persName>
+                           <ref target="http://d-nb.info/gnd/118538489"/>
+                           <forename>Friedrich von</forename>
+                           <surname>Gentz</surname>
+                        </persName>
+                     </editor>
+                     <title>Historisches Journal</title>
+                     <imprint>
+                        <pubPlace>Berlin</pubPlace>
+                        <publisher>Heinrich Frölich</publisher>
+                        <date>1800</date>
+                     </imprint>
+                     <biblScope unit="volume" n="1">
+                        Erster Band. Januar bis April.
+                     </biblScope>
+                  </monogr>
+                  <ptr target="https://books.google.de/books?id=PcAtZUZGTlcC"/>
+               </biblStruct>
+            </listBibl>
+            <listBibl type="defRep">
+               <biblStruct xml:id="p2961-1" corresp="BnF-0007">
+                  <monogr>
+                     <author>
+                        <persName>
+                           <ref target="http://d-nb.info/gnd/118581007"/>
+                           <forename>Louis Sébastien</forename>
+                           <surname>Mercier</surname>
+                        </persName>
+                     </author>
+                     <title>Le Nouveau Paris</title>
+                     <imprint>
+                        <pubPlace>Paris</pubPlace>
+                        <publisher>Fuchs, Ch. Pougens, Ch. Fr. Cramer</publisher>
+                        <date>1798</date>
+                     </imprint>
+                  </monogr>
+                  <ptr target="http://gallica.bnf.fr/ark:/12148/bpt6k64572183"/>
+               </biblStruct>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Masterarbeit zu Matrikelnummer 5584124</p>
+         </projectDesc>
+      </encodingDesc>
+      <profileDesc>
+         <creation>
+            <date when-iso="1799-12-17">17. Dezember 1799</date>
+         </creation>
+        <langUsage>
+           <language ident="d">deutsch</language>
+        </langUsage>
+         <textClass>
+            <keywords scheme="internal"><!-- internal: innerhalb des besagten Briefs -->
+               <term>Brief</term>
+               <term>Bettelbrief</term>
+               <term>Journal historique</term>
+               <term>Nouveau Paris</term>
+               <term>Verlag</term>
+               <term>Streit</term>
+            </keywords>
+            <keywords scheme="categorisation"><!-- Sinnabschnittseinteilung - relevant für den Fahrkartenautomaten! -->
+               <term xml:id="vwfe">Vieweg - Feindschaft</term>
+               <term xml:id="vwkms">Vieweg - Kalender / Maria Stuart</term>
+               <term xml:id="mnp">Mercier - Nouveau Paris</term>
+               <term xml:id="jrnh">Historisches Journal</term>
+               <term xml:id="gprl">Gentz - p(r)ekuniäre Lage</term>
+            </keywords>
+         </textClass>
+         <textDesc>
+            <channel>manuscript</channel>
+            <constitution type="single"/>
+            <derivation type="original"/>
+            <domain type="private"/>
+            <factuality type="fact"/>
+            <interaction type="partial"/>
+            <preparedness type="prepared"/>
+            <purpose type="inform"/>
+         </textDesc>
+         <particDesc>
+            <listPerson>
+               <!-- Sender und Adressat -->
+               <person role="sender" xml:id="Gen">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/118538489"/>
+                     <forename>Friedrich von</forename>
+                     <surname>Gentz</surname>
+                  </persName>
+               </person>
+               <person role="receiver" xml:id="FVW">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/119049546"/>
+                     <forename>Friedrich</forename>
+                     <surname>Vieweg</surname>
+                  </persName>
+               </person>
+               <!-- erwähnte Personen -->
+               <person role="named" xml:id="AHDvB">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/100061591"/>
+                     <forename>Adam Heinrich Dietrich von</forename>
+                     <surname>Bülow</surname>
+                  </persName>
+               </person>
+               <person role="named" xml:id="JPM">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/118577441"/>
+                     <forename>Jean-Paul</forename>
+                     <surname>Marat</surname>
+                  </persName>
+               </person>
+               <person role="named" xml:id="LMPr">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/115636781"/>
+                     <forename>Louis Marie</forename>
+                     <surname>Prudhomme</surname>
+                  </persName>
+               </person>
+               <person role="named" xml:id="LSMr">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/118581007"/>
+                     <forename>Louis Sébastien</forename>
+                     <surname>Mercier</surname>
+                  </persName>
+               </person>
+               <person role="named" xml:id="MarAn">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/118577905"/>
+                     <forename>Marie Antoinette</forename>
+                     <surname>von Österreich-Lothringen</surname>
+                     <roleName type="office">Königin von Frankreich</roleName>
+                  </persName>
+               </person>
+               <person role="named" xml:id="LJD">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/124346790"/>
+                     <forename>Louis-Joseph de</forename>
+                     <surname>Bourbon</surname>
+                     <roleName type="office">Dauphin von Frankreich</roleName>
+                  </persName>
+               </person>
+               <person role="named" xml:id="Mtq">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/118583670"/>
+                     <forename>Charles Louis de Secondat de</forename>
+                     <surname>Montesquieu</surname>
+                  </persName>
+               </person>
+               <person role="named" xml:id="Fro">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/1073351068"/>
+                     <forename>Heinrich</forename>
+                     <surname>Frölich</surname>
+                  </persName>
+               </person>
+               <person role="named" xml:id="HfHe">
+                  <persName>
+                     <ref />
+                     <forename/>
+                     <surname>Heim</surname>
+                     <roleName type="office">Hofrat</roleName>
+                  </persName>
+               </person>
+               <person role="named" xml:id="Grtn">
+                  <persName>
+                     <ref />
+                     <forename/>
+                     <surname>Grattenauer</surname>
+                     <roleName type="office">Justizkommissar</roleName>
+                  </persName>
+               </person>
+               <person role="named" xml:id="Beg">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/118068296"/>
+                     <forename>Heinrich von</forename>
+                     <surname>Beguelin</surname>
+                  </persName>
+               </person>
+               <person role="named" xml:id="FWvdSK">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/118611275"/>
+                     <forename>Friedrich Wilhelm von der</forename>
+                     <surname>Schulenburg-Kehnert</surname>
+                  </persName>
+               </person>
+            </listPerson>
+         </particDesc>
+         <settingDesc>
+            <listPlace>
+               <!-- Start- und Zielort -->
+               <place type="sender" xml:id="plBe">
+                  <country>
+                     <ref target="http://d-nb.info/gnd/4047194-9"/>
+                     <placeName>Preußen</placeName>
+                  </country>
+                  <settlement>
+                     <ref target="http://d-nb.info/gnd/4005728-8"/>
+                     <placeName>Berlin</placeName>
+                  </settlement>
+               </place>
+               <place type="receiver" xml:id="plBs">
+                  <country>
+                     <ref target="http://d-nb.info/gnd/4089993-7"/>
+                     <placeName>Staat Wolfenbüttel</placeName>
+                  </country>
+                  <settlement>
+                     <ref target="http://d-nb.info/gnd/4008065-1"/>
+                     <placeName>Braunschweig</placeName>
+                  </settlement>
+               </place>
+               <!-- erwähnte Orte -->
+               <place type="named" xml:id="plHa">
+                  <country>
+                     <ref target="http://d-nb.info/gnd/4023118-5"/>
+                     <placeName>Hamburg</placeName>
+                  </country>
+                  <settlement>
+                     <ref target="http://d-nb.info/gnd/4023118-5"/>
+                     <placeName>Hamburg</placeName>
+                  </settlement>
+               </place>
+               <place type="named" xml:id="plHv">
+                  <country>
+                     <ref target="http://d-nb.info/gnd/4094703-8"/>
+                     <placeName>Staat Hannover</placeName>
+                  </country>
+                  <settlement>
+                     <ref target="http://d-nb.info/gnd/4023349-2"/>
+                     <placeName>Hannover</placeName>
+                  </settlement>
+               </place>
+               <place type="named" xml:id="plPa">
+                  <country>
+                     <ref target="http://d-nb.info/gnd/4018145-5"/>
+                     <placeName>Frankreich</placeName>  
+                  </country>
+                  <settlement>
+                     <ref target="http://d-nb.info/gnd/4044660-8"/>
+                     <placeName>Paris</placeName>
+                  </settlement>
+               </place>
+               <place type="named" xml:id="plSn">
+                  <country>
+                     <ref target="http://d-nb.info/gnd/4281380-3"/>
+                     <placeName>Mecklenburg-Schwerin</placeName>
+                  </country>
+                  <settlement>
+                     <ref target="http://d-nb.info/gnd/4053950-7"/>
+                     <placeName>Schwerin</placeName>
+                  </settlement>
+               </place>
+               <place type="named" xml:id="plEn">
+                  <country>
+                     <ref target="http://d-nb.info/gnd/4022153-2"/>
+                     <placeName>England</placeName>
+                  </country>
+               </place>
+               <place type="named" xml:id="plFr">
+                  <country>
+                     <ref target="http://d-nb.info/gnd/4018145-5"/>
+                     <placeName>Frankreich</placeName>  
+                  </country>
+               </place>
+               <place type="named" xml:id="plJp">
+                  <country>
+                     <ref target="http://d-nb.info/gnd/4028495-5"/>
+                     <placeName>Japan</placeName>  
+                  </country>
+               </place>
+            </listPlace>
+         </settingDesc>
+      </profileDesc>
+      <revisionDesc>
+         <change xml:id="init" when-iso="2018-03-05" who="#edAG">Erstauszeichnung und Normierung des Dokumentes im Rahmen der Masterarbeit der Matrikelnummer 5584124</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <opener>
+            <dateline rend="right"><rs type="place" ref="#plBe">Berlin</rs> den <date when-iso="1799-12-17">17<span rend="sup">ten</span> December 1799</date>.</dateline>
+         </opener>
+         <div n="1" corresp="#vwfe">
+            <p>
+               Es ist eine alte Sache, mein lieber Freund, daß, wenn sich erst in einem Verhältniß Ein falscher Ton einfindet, auch 
+               gewiß bald mehrere die Harmonie stören, und das Leben verbittern; so wie denn überhaupt selten eine Art von 
+               Fatalitäten allein einkehrt. Gott weiß, ob und wie ich das erfahren habe, und mit welchem Gefühl ich mich 
+               niedersetze, Ihnen den gegenwärtigen Brief zu schreiben.
+            </p>
+            <p>
+               Sie haben mich in <rs type="citation" ref="#c2961-1">Ihrem letzten Briefe</rs> hart und höchst ungerecht beurteilt. 
+               Darüber werde ich mich rechtfertigen. Zuvor muß ich von zwei andern Gegenständen sprechen, die den Verdacht einer 
+               pflichtvergessnen Gleichgültigkeit, oder gar eines muthwilligen Vorsatzes Sie zu kränken nur zu leicht auf mich 
+               bringen können, und höchst wahrscheinlich schon gebracht haben werden, und in Absicht derer ich doch so unschuldig 
+               bin, wie in Absicht aller und jeder Vorwürfe, die mich von Ihrer Seite treffen können.
+            </p>
+         </div>
+         <div n="2" corresp="#vwkms">
+            <p>
+               Das erste ist die Beendigung meines <rs type="citation" ref="#a2961-1">Kalender-Aufsatzes</rs>, der, wie ich 
+               <date when-iso="1799-12-16">gestern Abend</date> zu meinem nicht geringen Schrecken vernommen habe, höchst 
+               wahrscheinlich noch nicht in Ihren Händen ist. Das <pb/> Unglück, was mich mit dieser Sache trift, ist merkwürdig. 
+               Vor 4 Wochen kömmt der <rs type="person" ref="#AHDvB">Herr von Bülow</rs> aus 
+               <rs type="place" ref="#plHa">Hamburg</rs> zu mir, und frägt mich ob ich etwas nach 
+               <rs type="place" ref="#plBs">Braunschweig</rs> oder <rs type="place" ref="#plHv">Hannover</rs> zu bestellen habe, 
+               wohin er sogleich abreisete. Ich gebe ihm ein Schreiben an Sie mit dem Schlusse des Manuskripts, und laße mir nun im 
+               Traume nicht mehr einfallen, daß diese Sache nicht abgemacht wäre. 
+               <rs type="citation" ref="#c2961-1">Ihr letzter Brief</rs>, vom 
+               <date when-iso="1799-11-24">24<span rend="sup">ten</span> November</date> datirt, worin Sie das Manuskript noch 
+               desideriren, machte mich einen Augenblick stutzig denn <rs type="person" ref="#AHDvB">Bülow</rs> war wenigstens 5 
+               oder 6 Tage früher hier abgereiset: indessen vergaß ich wieder daran zu denken, bis ich gestern durch einen bloßen 
+               Zufall erfahre, daß er von hier, anstatt nach <rs type="place" ref="#plBs">Braunschweig</rs> zu gehen, nach 
+               <rs type="place" ref="#plSn">Schwerin</rs> und von da nach <rs type="place" ref="#plHa">Hamburg</rs> gegangen sey, 
+               und in 8 Tagen wieder in <rs type="place" ref="#plBe">Berlin</rs> seyn werde. Ob nun Gott sein Herz wenigstens dahin 
+               gelenkt haben wird, daß er Ihnen <rs type="citation" ref="#c2961-2">meinen Brief</rs> 
+               <emph rend="underlined">geschickt</emph> habe, das steht dahin, ist mir aber, nach seinem ganzen unverantwortlichen 
+               und <pb/> sogar unerklärlichen Benehmen, nicht einmal wahrscheinlich. Auch will ich es darauf nicht ankommen laßen. 
+               Ich will, ob ich gleich verschiedentlich gehört habe, daß <rs type="citation" ref="#a2961-1">Ihr Kalender</rs> gar 
+               nicht zu Stande käme, wenigstens von meiner Seite pflichtmäßig thun, was noch möglich ist, jenes unglückliche 
+               Versehen gut zu machen. Ich will Ihnen in continenti die letzten Blätter, ob ich sie gleich 
+               <emph rend="underlined">aus dem Kopfe</emph> restituiren muß, noch einmal schreiben, und spätstens heute über 8 Tage, 
+               (wenn ich eine frühere Post ausmitteln kan, eher) sollen sie in Ihren Händen seyn. Unter andern Umständen wäre dies 
+               vielleicht eine Kleinigkeit: mitten in der Last von Arbeit, unter der ich seufze, ist es wahrlich schon ein 
+               Entschluß.
+            </p>
+         </div>
+         <div n="3" corresp="#mnp">
+            <p>
+               Das zweite Unglück, was mich in Rücksicht auf unser Verhältniß trift, ist das, welches mir der 
+               <rs type="citation" ref="#p2961-1">Mercier</rs> zuzieht; und dies ist um so härter, weil ich kaum die Hoffnung habe, 
+               meiner Verteidigung über diesen Punkt, so sehr <emph rend="underlined">ich</emph> auch von der Gründlichkeit 
+               derselben durchdrungen bin, bey Ihnen Eingang zu verschaffen; um so härter, weil es diese Verteidigung nothwendig mit 
+               sich bringt, daß ich Ihnen unangenehme Dinge sagen muß, die ich Ihnen so von ganzem Herzen <pb/> gern ersparte. - Ich 
+               versprach mir von diesem Buche nie viel Gutes, und hatte es im Stillen immer bedauert, daß Sie Sich mit dieser so 
+               kostbaren Spekulazion befaßten. Indessen war ich entschlossen, nicht nur alles Gute davon zu sagen, was nur mit 
+               irgend einem Scheine der Wahrheit davon zu sagen seyn würde, sondern auch eins oder das andre Kapitel daraus zu 
+               übersetzen. Aber die wirkliche Erscheinung des Werkes schlug mich dergestalt nieder, daß ich gleich an aller 
+               Mitwirkung zur Anpreisung desselben <add place="above">verzweifelte</add>. Ich gestehe Ihnen frei, daß ich selten ein 
+               so durchaus und in jeder Rücksicht abscheuliches Buch gelesen habe. Die Lektüre des ersten Theils hatte mich durch 
+               die fortdauernde Indignation, die sie bey mir erweckte, schon so angegriffen, daß ich einen Tag verstreichen ließ, 
+               ehe ich die andern Theile unternahm: unglücklicher Weise blieb es sich von Anfang bis zu Ende gleich: Glauben Sie 
+               nicht, daß <del rend="stroked">es</del> der politische Parteigeist mir dieses Urteil eingiebt. Es ist mehr, ich habe 
+               nie (seit <rs type="person" ref="#JPM"><emph rend="underlined">Marat</emph></rs> und 
+               <rs type="person" ref="#LMPr"><emph rend="underlined">Prüdhomme</emph></rs>) etwas gelesen, worin ein so schmutziger, 
+               so platter, und zugleich so barbarischer Demokratis<pb/>mus geherrscht hätte: in Ansehung der 
+               <emph rend="underlined">Gesinung</emph> ist das Meiste so geschrieben, daß ich den 
+               <rs type="person" ref="#LSMr">Verfasser</rs> mit kaltem Blute dafür an den Galgen schicken würde: es ist die höchste 
+               <emph rend="underlined">Atrozität</emph> des Sanscülotismus; eine wahre Kannibalen-Denkungsart. - Aber dies ist doch 
+               bei weitem noch nicht die schlimmste Seite für den innern Werth des Buches. Enthielte es bey diesem abscheulichen 
+               Charakter, wichtige Thatsachen, merkwürdige Anekdoten über die Revolution, Schilderungen von Menschen oder Sitten, 
+               die neu, lehrreich <add place="above">und</add> pikant wären, so mögte es drum seyn; aber verflucht sey meine Seele, 
+               wo ich auch nur ein einziges Kapitel im ganzen Werke gefunden habe, welches mir das Leiden einer solchen Lektüre 
+               versüßt hätte. Die erbärmlichsten Fabeln, worüber die Kinder in <rs type="place" ref="#plPa">Paris</rs> lachen, alle 
+               die jämmerlichen Beschuldigungen gegen den Hof, die Aristokraten, und <rs type="place" ref="#plEn">England</rs>, die 
+               Complotte, die man schon vor 6 Jahren auf ihren wahren Werth reduzirt hatte, alle die abgedroschnen Diatriben gegen 
+               die <rs type="person" ref="#MarAn">Königin</rs>, den <rs type="person" ref="#LJD">Prinzen</rs> etc. 
+               <emph rend="underlined">die Niemand in <rs type="place" ref="#plFr">Frankreich</rs> mehr begehrt</emph>, kurz der 
+               Abschaum der schlechtsten Revoluzions-Schriftsteller ist in diesem <emph rend="underlined">unglaublichen</emph> Buche 
+               <pb/> aufgewärmt. Ich wünsche Ihnen Glück wenn es in <rs type="place" ref="#plPa">Paris</rs> nicht 
+               <emph rend="underlined">angespien</emph> wird; und bey der jetzigen Stimmung wette ich fast darauf, daß dies 
+               geschieht.
+            </p>
+            <p>
+               Das Urtheil, welches ich hier niederschreibe, soll nie ein Mensch aus meinem Munde hören; ich theile es Ihnen im 
+               tiefsten Vertrauen der Freundschaft mit; wie froh wäre ich, wenn ich Ihnen sagen könnte, 
+               <rs type="person" ref="#LSMr">Mercier</rs> hätte Ihnen ein Werk, wie <rs type="person" ref="#Mtq">Montesquieu</rs>'s 
+               geliefert ! Aber so wie es da liegt, konnte ich, ohne mich für immer zu prostituiren, ohne mich vor mir selbst und 
+               vor Ihnen zu schämen, meine Hände nicht damit besudeln. Der Abscheu allein würde mir die Feder geführt haben, und mit 
+               einem Ausdruck meiner <emph rend="underlined">wahren</emph> Gesinungen konnte Ihnen unmöglich gedient seyn. Falsche 
+               zu heucheln, muß man, als Schriftsteller, wenn es dringend Noth thut, bis auf einen gewissen Grad gelernt haben. Aber 
+               es giebt eine Gränze, jenseits welcher die Verstellung unmöglich wird. Wenn Sie mir eine Krone anböten, wüßte 
+               <emph rend="underlined">ich</emph> <pb/> von <rs type="person" ref="#LSMr">Mercier</rs>'s 
+               <rs type="citation" ref="#p2961-1">Werke</rs> auch nicht <emph rend="underlined">ein</emph> günstiges Wort zu sagen. 
+               Ueber einen so empörenden Gegenstand still schweigen, ist schon ein Entschluß; dies ist der gröste zu dem ich mich 
+               erheben konnte; diesen werde ich strenge und gewissenhaft ausführen. -Ich erwarte über diesen fatalen Punkt weder 
+               Nachsicht noch Verzeihung. Entweder Sie sind <emph rend="underlined">gerecht</emph>; und dann tadeln Sie mich 
+               zuverläßig nicht; oder Sie sind ungerecht, und dann habe ich vielleicht schon zu viel gesagt.
+            </p>
+         </div>
+         <div n="4" corresp="#jrnh">
+            <p>
+               Nun zum letzten Punkte. Sie scheinen zu glauben, daß ich bei der mit 
+               <rs type="citation" ref="#e2961-1">meinem Journal</rs> vorgenommnen Veränderungnicht aufrichtig gegen Sie gewesen 
+               wäre, und machen mir einen bittern Vorwurf darüber. Folgendes ist die Wahrheit:
+            </p>
+            <p>
+               Als ich Ihnen zu Anfang des Oktober, oder gar schon zu Ende Septembers 
+               <rs type="citation" ref="#c2961-3">schrieb</rs>, war ich mit <rs type="person" ref="#Fro">Frölich</rs> ungefähr so in 
+               Verbindung, als Sie mit dem Kayser von <rs type="place" ref="#plJp">Japan</rs>. Ich dachte kaum daran, daß 
+               <rs type="person" ref="#Fro">Frölich</rs> in der Welt wäre. Ich schrieb Ihnen in einem der traurigsten Augenblicke 
+               meines Lebens; ich wuste wohl, daß Sie Selbst in mancherlei kostspieligen Unternehmungen steckten: aber ich gestehe 
+               es Ihnen <pb/> offenherzig: ich glaubte dennoch nicht, daß Sie mich im Stiche laßen würden; und mit Angst erwartete 
+               ich Ihre Erklärung. - Unterdessen macht die Noth erfinderisch. Indem ich den Entschluß faßte, Ihnen zu schreiben, 
+               bereitete ich mich auf den möglichen Fall einer abschlägigen Antwort vor. Ich entwarf den thörigten Plan, das 
+               <rs type="citation" ref="#e2961-1">Journal</rs> selbst zu verlegen, und 
+               <rs type="person" ref="#HfHe">Hofrat Heim</rs> war es, der mir versprach, mir auf diesen Fall einen Vorschuß von 15 
+               bis 1800 Reichsthaler zu thun. <del rend="stroked">Ihre</del> Ich glaubte aber so wenig, daß Sie mich beim Worte 
+               nehmen würden, daß ich außer der ersten Rücksprache mit <rs type="person" ref="#HfHe">Heim</rs> auch nicht einen 
+               einzigen nur vorläufigen Schritt gethan hatte, um eine neue Einrichtung zu veranstalten.
+            </p>
+            <p>
+               <rs type="citation" ref="#c2961-4">Ihre Antwort</rs> kam, und wies mich ab. Ich fing an das Projekt des 
+               Selbstverlages zu ventiliren. Mit der Post ergab sich mir gleich die Unmöglichkeit. Ich wollte mir einen eignen 
+               Commissionär anschaffen; ich bot 300 Reichsthaler jährlich bloß für die Besorgung des Versendens ppp. Die 
+               Schwierigkeiten drängten sich von allen Seiten zusammen; und mitten in meiner Verlegenheit <pb/> kam 
+               <rs type="person" ref="#HfHe">Heim</rs>, um mir anzukündigen, daß er mir in jedem Falle den Vorschuß erst 
+               <emph rend="underlined">nach <date when-iso="1800-01-01">Neujahr</date></emph> leisten würde.
+            </p>
+            <p>
+               In welcher Lage ich war - ist Gott bekannt. Ich wollte nun erst - denn bis zum 
+               <date when-iso="1799-10-29">29<span rend="sup">ten</span> Oktober</date> hatte ich mich durchgearbeitet, einen 
+               Versuch machen, es einem Buchhändler <emph rend="underlined">in Commission</emph> zu geben. Ich versuchte die Sache, 
+               höchst schwer und ungern, mit einigen, 
+               <emph rend="underlined">ohne an <rs type="person" ref="#Fro">Frölich</rs> zu denken</emph>; man schlug mir sehr gute 
+               Bedingungen vor; aber von Vorschuß wollte natürlich keiner hören. Am 
+               <date when-iso="1799-11-02">2<span rend="sup">ten</span> November</date> kömmt der 
+               <rs type="person" ref="#Grtn">Justitz Commissarius Grattenauer</rs>, der es wußte, wie die 
+               <rs type="person" ref="#Beg">Beguelin</rs>, die Gille, die N.N.N. pp mich tribulirten, zu mir, und proponirt mir 
+               <rs type="person" ref="#Fro">Frölich</rs>, mit der Versicherung daß er sich zu einem Vorschuß verstehen würde, wenn 
+               ich mit ihm entriren wollte. Ich setzte Vorschläge auf, die dahin gingen, daß ich ihm den Verlag für das Jahr 1800 
+               abtreten wollte, wenn er mir eine Summe von 2000 Reichsthalern gleich, und in einem halben Jahre soviel nachzahlen 
+               wollte, als nach einer Berechnung, die ich auf <pb/> 1600, 1800, 2000 und so fort. Exemplare, nach meiner geringen 
+               Sachkenntniß entworfen hatte, mir billig schien. Er lehnte die Vorschläge ab, und erklärte, daß er nur auf die 
+               Bedingung von 4 Friedrichs dor Honorar, und besondre Entschädigung, wenn der Absatz auf 2000 stiege entriren, unter 
+               dieser Bedingung aber 1000 Reichsthaler vorschießen wollte. In 24 Stunden war diese Unterhandlung angefangen und 
+               beendigt; ich habe <rs type="person" ref="#Fro">Frölich</rs> nicht mit Augen gesehen, als der 
+               <rs type="citation" ref="#c2961-5">Contrakt</rs> schon unterschrieben war.
+            </p>
+            <p>
+               Nun frage ich Sie auf Recht und Billigkeit: Ist in diesem ganzen Vorgange etwas, das Sie mir zur Last legen könnten ? 
+               Habe ich gegen Sie in irgend einer Rücksicht gefehlt ? Sehr, sehr ungern habe ich mich von Ihnen getrennt. Sie haben 
+               große Ansprüche auf meine Dankbarkeit, und ich würde mich ewig verachten, wenn ich vergessen könnte, wie Sie bei mehr 
+               als einer Gelegenheit gegen mich handelten. Aus Muthwillen hätte ich Ihnen gewiß das 
+               <rs type="citation" ref="#e2961-1">Journal</rs> nie abgenommen, ob ich gleich, wenn dies unser einziges Verhältniß 
+               <pb/> gewesen wäre, gewiß keine Ursach gehabt hätte mit Ihnen zufrieden zu seyn. Ich mag Ihnen nicht vorrechnen, was 
+               Sie Sich und mir dadurch daß Sie das <rs type="citation" ref="#e2961-1">Journal</rs> so ganz sich selbst überließen, 
+               und auch nicht die kleinste Notiz mehr davon nahmen, für Schaden zugefügt haben. Ich weiß es, und schweige darüber. 
+               Ihre Verdienste um mich gründeten sich auf frühere Verhältnisse; geben Sie mir irgend eine Gelegenheit, Ihnen einen 
+               großen und entscheidenden Dienst zu leisten. Sie sollen sehen, ob ich einer schnöden Undankbarkeit fähig bin.
+            </p>
+         </div>
+         <div n="5" corresp="#gprl">
+            <p>
+               Nun aber, liebster Freund, behandeln Sie mich auch mit einiger Barmherzigkeit. Die Art, wie Sie mir alle meine 
+               dringende, flehentliche Bitten um Hülfe abschlagen, ist grausam; Ihr 
+               <rs type="citation" ref="#c2961-1">letzter Brief</rs> ist in diesem Punkte wirklich empfindlich hart. 
+               <rs type="person" ref="#Fro">Frölich</rs> soll mir auf Ihre Erklärung Geld vorschießen, und er sieht, daß Sie Sich 
+               weigern eine Assignation zu unterschreiben ! Ich bin in dringender Noth. <rs type="person" ref="#Fro">Frölich</rs> 
+               hat mir nicht mehr als 700 Reichsthaler bezahlen <emph rend="underlined">können</emph>. Meine Pension bey 
+               <rs type="person" ref="#FWvdSK">Schulenburg</rs> geht zu Ende. - Setzen Sie Sich einen einzigen Augenblick in meine 
+               Lage ! - Ich <pb/> verlange nichts unbilliges. Schicken Sie mir einen Wechsel oder eine Anweisung, die ich verkaufen 
+               kan, nur über 400 Reichsthaler; stellen Sie solche <emph rend="underlined">auf</emph> die 
+               <date when-iso="1800-04-13">Ostermesse</date>, <emph rend="underlined">nach</emph> der 
+               <date when-iso="1800-04-13">Ostermesse</date>, auf 6 Monat wann Sie wollen. Sie sehen doch, daß ich nichts will, als 
+               was Sie ohne Schwierigkeit, ohne Gefahr thun, was Sie mir wirklich ohne Unbilligkeit nicht versagen können. Ich will 
+               den Verlust beim Disconto gern tragen. Lieber Freund, es ist die letzte Bitte dieser Art. Seyn Sie nicht hart genug, 
+               mir die Erfüllung derselben zu versagen: Sie stürzen mich, wenn Sie mir diese 400 Reichsthaler nicht auf eine oder 
+               die andre Art vor Neujahr zuwenden, in eine gränzenlose Verlegenheit. Entscheiden Sie Selbst, ob ich etwas unbilliges 
+               fordre ! Sie werden doch 
+               <date when-iso="1800-06-13"><emph rend="underlined">zwei Monat</emph> nach der Ostermesse</date> unsre Rechnung 
+               schließen können: wohlan ! nur dann sollen Sie die Zahlung versprechen. Aber diesmal, ich bitte Sie um meines Lebens 
+               willen, diesmal behandeln Sie meine Bitten nicht mit Verachtung !
+            </p>
+            <p>
+               Es war überstanden; diesen Brief schriebe ich um keinen Preis noch einmal. Möge ein guter Genius ihm zum Dolmetscher 
+               und Schutzredner dienen. Leben Sie wohl !
+            </p>
+         </div>
+         <closer>
+            <signed rend="right">Gentz</signed>
+         </closer>
+      </body>
+   </text>
+</TEI>

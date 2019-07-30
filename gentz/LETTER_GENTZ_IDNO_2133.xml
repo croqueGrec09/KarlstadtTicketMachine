@@ -1,0 +1,246 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc xml:id="LETTER_GENTZ_2133">
+         <titleStmt>
+            <title>Friedrich von Gentz an Karl Gustav von Brinckmann, 28. September 1797</title>
+            <editor xml:id="edAG">Andreas Gálffy</editor>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <name>Forschungsstelle "Universitätssammlung Friedrich von Gentz"</name>
+               <link target="http://gentz-digital.ub.uni-koeln.de http://www.ub.uni-koeln.de/cdm/singleitem/collection/gentz/id/2132/"/>
+            </publisher>
+            <pubPlace>Cologne</pubPlace>
+            <idno type="Gentz-Edition-Number" n="2133"/>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <country>Sweden</country>
+                  <settlement>Trolle-Ljungby</settlement>
+                  <institution>Archiv des Grafen Wachtmeister</institution>
+                  <repository>Nachlaß Brinckmann, Ausländ. Briefwechsel, Gentz an Brinckmann</repository>
+                  <idno>G 5</idno>
+               </msIdentifier>
+               <msContents>
+                  <summary>
+                     Brinckmann hat sich mit Juden eingelassen, was Gentz sehr verspottet. Nichtsdestotrotz ist es Gentz wichtig, 
+                     den Bücherhandel aufrecht zu erhalten und hat, ganz im Stil eines Friedensvertrages zwischen zwei Ländern, 
+                     einen Vertrag mit Klauseln aufgesetzt. Diese wären:
+                     erstens entsagt Gentz jeden Anspruch auf den Wollstonecraft.
+                     Zweitens soll Brinckmann 15 Reichstaler aus einer Differenz noch zu einem Gebot von 38 Reichstalern beisteuern. 
+                     Sollte der Vertrag nicht akzeptiert werden, so werde der Bouquet nicht hergegeben und alle diplomatischen 
+                     Beziehungen eingestellt. Ab Unterzeichnung sollen die Bibliotheken von Gentz und Brinckmann unteilbar sein.
+                     Im Postscript wird angekündigt, dass die weitere Ausarbeitung Küster aufgetragen werden soll.
+                  </summary>
+               </msContents>
+            </msDesc>
+            <listBibl type="alludedWorks">
+               <bibl xml:id="a2133-1" corresp="#LETTER_GENTZ_NNNN">nicht näher benanntes Werk von Bouquet</bibl>
+            </listBibl>
+            <listBibl type="defRep">
+               <biblStruct xml:id="p2133-1" corresp="Ltf-0000">
+                  <monogr>
+                     <author>
+                        <persName>
+                           <ref target="http://d-nb.info/gnd/118639285"/>
+                           <forename>Mary</forename>
+                           <surname>Wollstonecraft</surname>
+                        </persName>
+                     </author>
+                     <title>An Historical and Moral View of the Origin and Progress of the French Revolution and the Effect it has produced in Europe</title>
+                     <imprint>
+                        <pubPlace>London</pubPlace>
+                        <publisher>J. Johnson</publisher>
+                        <date>1795</date>
+                     </imprint>
+                  </monogr>
+                  <ptr target="http://oll.libertyfund.org/titles/wollstonecraft-an-historical-and-moral-view-of-the-origin-and-progress-of-the-french-revolution"/>
+               </biblStruct>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Masterarbeit zu Matrikelnummer 5584124</p>
+         </projectDesc>
+      </encodingDesc>
+      <profileDesc>
+         <creation>
+            <date when-iso="1797-09-28">28. September 1797</date>
+         </creation>
+        <langUsage>
+           <language ident="d">deutsch</language>
+        </langUsage>
+         <textClass>
+            <keywords scheme="internal"><!-- internal: innerhalb des besagten Briefs -->
+               <term>Brief</term>
+               <term>Vertrag</term>
+               <term>Bibliothek</term>
+               <term>Staatenmetapher</term>
+            </keywords>
+            <keywords scheme="categorisation"><!-- Sinnabschnittseinteilung - relevant für den Fahrkartenautomaten! -->
+               <term xml:id="vkgvb">Verhältnis Karl Gustav von Brinckmann</term>
+               <term xml:id="bibl">Bibliothek</term>
+            </keywords>
+         </textClass>
+         <textDesc>
+            <channel>manuscript</channel>
+            <constitution type="single"/>
+            <derivation type="original"/>
+            <domain type="private"/>
+            <factuality type="fact"/>
+            <interaction type="partial"/>
+            <preparedness type="prepared"/>
+            <purpose type="inform"/>
+         </textDesc>
+         <particDesc>
+            <listPerson>
+               <!-- Sender und Adressat -->
+               <person role="sender" xml:id="Gen">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/118538489"/>
+                     <forename>Friedrich von</forename>
+                     <surname>Gentz</surname>
+                  </persName>
+               </person>
+               <person role="receiver" xml:id="KGvB">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/116519770"/>
+                     <forename>Carl Gustav von</forename>
+                     <surname>Brinckmann</surname>
+                  </persName>
+               </person>
+               <!-- erwähnte Personen -->
+               <person role="named" xml:id="KKu">
+                  <persName>
+                     <ref />
+                     <forename/>
+                     <surname>Küster</surname>
+                     <roleName type="office">Kriegsrat</roleName>
+                  </persName>
+               </person>
+               <person role="named" xml:id="KGAIV">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/122651634"/>
+                     <forename>Gustav IV. Adolf</forename>
+                     <surname>Schweden</surname>
+                     <roleName type="office">König</roleName>
+                  </persName>
+               </person>
+            </listPerson>
+         </particDesc>
+         <settingDesc>
+            <listPlace>
+               <!-- Start- und Zielort -->
+               <place type="sender" xml:id="plSb">
+                  <country>
+                     <ref target="http://d-nb.info/gnd/4047194-9"/>
+                     <placeName>Preußen</placeName>
+                  </country>
+                  <settlement>
+                     <ref target="http://d-nb.info/gnd/116944-0"/>
+                     <placeName>Schöneberg</placeName>
+                  </settlement>
+               </place>
+               <place type="receiver" xml:id="plBe">
+                  <country>
+                     <ref target="http://d-nb.info/gnd/4047194-9"/>
+                     <placeName>Preußen</placeName>
+                  </country>
+                  <settlement>
+                     <ref target="http://d-nb.info/gnd/4005728-8"/>
+                     <placeName>Berlin</placeName>
+                  </settlement>
+               </place>
+               <!-- erwähnte Orte -->
+               <place type="named" xml:id="plSw">
+                  <country>
+                     <ref target="http://d-nb.info/gnd/4077258-5"/>
+                     <placeName>Schweden</placeName>  
+                  </country>
+               </place>
+            </listPlace>
+         </settingDesc>
+      </profileDesc>
+      <revisionDesc>
+         <change xml:id="init" when-iso="2018-02-27" who="#edAG">Erstauszeichnung und Normierung des Dokumentes im Rahmen der Masterarbeit der Matrikelnummer 5584124</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div n="1" corresp="#vkgvb">
+            <p>
+               Nie hätte der Unterzeichnete geglaubt, daß die notorisch edeln und uneigennützigen Prozeduren 
+               <emph rend="underlined">seiner Bibliothek</emph> von dem <emph rend="underlined">Brinkmannischen</emph> Hofe in so 
+               hohem Grade verkannt, und mit so weniger Billigkeit vergolten werden würden. Es ist uns freylich längst bekannt, daß 
+               die Feinde der gedachten Bibliothek auf die seit einiger Zeit darin herrschenden revolutionistischen Bewegungen die 
+               schwärzesten Plane gebaut, und sich zum gänzlichen Untergange derselben coalisirt haben: Aber, nicht zu gedenken, daß 
+               ihre Berechnungen auf sehr unzuverläßige Data gebaut sind, daß unsre Revolution uns nicht hindert, jene imposante und 
+               stolze Attitüde zu behaupten, die unsre Bibliothek so lange ausgezeichnet hat, ja, daß selbst die revolutionären 
+               Maßregeln, die der Uebergang zu einer festen und glücklichen Constitution nöthig machte, 
+               <emph rend="underlined">unsre Finanzen</emph>, deren durch die vorige Administration bewirkte Zerrüttung vielleicht 
+               eine Mit-Veranlaßung unsrer glücklich-erlebten glorreichen Revolution war, von Tage zu Tage in bessern Flor bringen, 
+               und folglich zu jeder würdevollen Beantwortung <emph rend="underlined">unschicklicher Anträge</emph> täglich mehr in 
+               Stand setzen: Dieses alles nicht zu gedenken, so kan sich doch Unsre <pb/> Bibliothek nie genugsam wundern, wie ein 
+               so alter Freund und Alliirter, als Ihre Bibliothek, mein Herr Hauptmann und <del rend="underlined">xxx</del> 
+               Gesandschafts-Secretär des <rs type="person" ref="#KGAIV">König</rs>es von 
+               <rs type="place" ref="#plSw">Schweden</rs>, Sich mit unsern gemeinschaftlichen Erbfeinden - den Juden - in ein, 
+               wenigstens befremdendes Einverständniß einlaßen, die Plane <add place="above">welche</add> diese verrätherische 
+               Nation zu unserm Untergange geschmiedet hat, zu den ihrigen machen, die schändlichen Gebote derselben ablernen, und 
+               in jedem Worte Ihrer letzten Note eine an Feindseligkeit gränzende Gesinnung, und Wünsche äußern konnte, die wir kaum 
+               von dem Schlesigerschen Hofe erwartet haben würden.
+            </p>
+            <p>
+               Um <del rend="stroked">xxx</del> indessen unser großes Verlangen nach der Fortdauer des guten Vernehmens zwischen 
+               unsern beiden Höfen deutlich an den Tag zu legen, und Ihnen einen neuen Beweis der unbegränzten Honnêtété zu geben, 
+               die jeden unsrer Schritte beseelt, habe ich den Auftrag, Ihnen folgende beide Punkte, als das wirkliche <pb/> 
+               Ultimatum dieser epineusen Negotiation unverhüllt, und mit der Freimüthigkeit, "die einer großen Nation so wohl 
+               ansteht" vorzulegen:
+            </p>
+            <p>
+               1. Die Gentzische Bibliothek entsagt allen Ansprüchen auf die Hinterlaßenschaft der (nunmehr zum 
+               <emph rend="underlined">absoluten</emph> Completismus gediehnen, folglich sehr schätzbaren) Wollstonecraft.
+            </p>
+            <p>
+               2. Da die Differentz zwischen den Vorschlägen Ihrer Bibliothek und der Meinigen im Ganzen 38 Reichsthaler (11 Bände 
+               à 8 Reichsthaler würden 88 Reichsthaler machen) die wir mit einem wahren Effort diplomatischer Großmuth nur zu 30 
+               Reichsthalern rechnen wollen austrägt: so frage ich ein für allemal an, ob Sie von diesen 30 Reichsthalern noch die 
+               Hälfte zu Ihrem Gebot zulegen wollen. Geschieht dieses, so können die Präliminarien abgeschlossen, und der Temin zur 
+               Auswechselung anberaumt werden.
+            </p>
+            <p>
+               Sollten Sie diesen billigen Vorschlag nicht <emph rend="underlined">sofort</emph> agreiren: so ist unser fester und 
+               <emph rend="underlined">unerschütterlicher</emph> Vorsatz, die 
+               <emph rend="underlined">definitive Ausstreichung</emph> der <rs type="citation" ref="#a2133-1">Familie Bouquet</rs> 
+               <emph rend="underlined">von der Emigranten-Liste</emph>, noch in diesen Tagen zu verfügen, diese Familie <pb/> 
+               wieder in ihre vollen Bürger-Rechte einzusetzen, und allen weitern Ansprüchen Ihrer Bibliothek durch eine 
+               gesetzmäßige Präclusion ein ewiges Stillschweigen aufzulegen. Meine Bibliothek kan alsdann nur bedauern, daß die 
+               Ihrige - wahrscheinlich aufgesetzt durch unsre an Ränken unerschöpfliche Feinde - sich um den unübersehlichen 
+               Vortheil gebracht hat, den ihr die <emph rend="underlined">Einwanderung</emph> einer so erleuchteten Familie ohne 
+               allen Zweifel gestiftet haben würde.
+            </p>
+         </div>
+         <closer>
+            <dateline rend="right">Gegeben zu <rs type="place" ref="#plSb">Schöneberg</rs> am 28<span rend="sup">ten</span> September</dateline>
+            <dateline rend="right">des Jahres I der <emph rend="underlined">neuen Constitution</emph></dateline>
+            <salute rend="right">Unsrer Einen und (von nun an)</salute>
+            <salute rend="right">Untheilbaren Bibliothek</salute>
+            <signed rend="right">Gentz.</signed>
+            <signed rend="right" xml:lang="fr">Ambassadeur.</signed>
+         </closer>
+         <postscript corresp="#vkgvb">
+            <p>
+               N.S. Wir haben geglaubt, Uns in gegenwärtiger Depesche nur des ordinairen Geschäfts-Styls bedienen zu dürfen: Sollte 
+               der Traktat zu Stande kommen, so werden wir die weitre Ausarbeitung der in einem 
+               <emph rend="underlined">blühendern</emph> Style abzufassenden Documente dem Krieges-Rath 
+               <rs type="person" ref="#KKu"><emph rend="underlined">Küster</emph></rs> auftragen.
+            </p>
+         </postscript>
+      </body>
+   </text>
+</TEI>

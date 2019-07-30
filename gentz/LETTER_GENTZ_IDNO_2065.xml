@@ -1,0 +1,410 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc xml:id="LETTER_GENTZ_2065">
+         <titleStmt>
+            <title>Friedrich von Gentz an Girolamo Lucchesini, 19. Juni 1800</title>
+            <editor xml:id="edAG">Andreas Gálffy</editor>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <name>Forschungsstelle "Universitätssammlung Friedrich von Gentz"</name>
+               <link target="http://gentz-digital.ub.uni-koeln.de http://www.ub.uni-koeln.de/cdm/singleitem/collection/gentz/id/2064/"/>
+            </publisher>
+            <pubPlace>Cologne</pubPlace>
+            <idno type="Gentz-Edition-Number" n="2065"/>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <country>Germany</country>
+                  <settlement>Berlin</settlement>
+                  <institution>Geheimes Staatsarchiv Preußischer Kulturbesitz</institution>
+                  <repository>I. HA, Rep 92</repository>
+                  <collection>Nachlaß Lucchesini, Nr. 27</collection>
+                  <idno>Bl. 10-11v</idno>
+               </msIdentifier>
+               <msContents>
+                  <summary>
+                     Gentz ist hoch erfreut über den Ton der letzten Antwort und über das ausgedrückte Wohlwollen. Auf der ersten 
+                     Seite stehen seine konkreten Reisedaten. Dann erfolgt ein Bericht über die jüngsten Eroberungen Napoleons; 
+                     zunächst aus dem Publiciste zitiert. Dann führt er den Briefverkehr von Suchet an. Die neuesten Invasionen 
+                     wirken sich katastrophal auf den Zustand von Europa aus. Gentz schreibt vom gestörten Gleichgewicht, die Waage 
+                     fällt sehr ins Gewicht für Österreich. Im Postscript zitiert Gentz die Allgemeine Zeitung, wonach die Mailänder 
+                     in völliger Unkenntnis über die Invasion seien.
+                  </summary>
+               </msContents>
+            </msDesc>
+            <listBibl type="letterReferenced">
+               <bibl xml:id="c2065-1" corresp="#LETTER_GENTZ_NNNN">nicht bekannter Brief von Girolamo Lucchesini an Friedrich von Gentz</bibl>
+            </listBibl>
+            <listBibl type="alludedWorks">
+               <bibl xml:id="a2065-1" corresp="#LETTER_GENTZ_NNNN">nicht näher benannte Ausgabe der Zeitschrift "Le Publiciste"</bibl>
+            </listBibl>
+            <listBibl type="defExpr">
+               <biblStruct xml:id="e2065-1" corresp="Grg-0000">
+                  <monogr>
+                     <editor>
+                        <persName>
+                           <ref target="http://d-nb.info/gnd/118789422"/>
+                           <forename>Charles Joseph</forename>
+                           <surname>Panckoucke</surname>
+                        </persName>
+                     </editor>
+                     <title>Le Moniteur universel</title>
+                     <imprint>
+                        <pubPlace>Paris</pubPlace>
+                        <date>1789-1901</date>
+                     </imprint>
+                  </monogr>
+                  <ptr target="http://gazetier-revolutionnaire.gazettes18e.fr/periodique/gazette-nationale-ou-moniteur-universel-1789-1799"/>
+               </biblStruct>
+               <biblStruct xml:id="e2065-2" corresp="BSB-0014">
+                  <monogr>
+                     <author>
+                        <persName>
+                           <ref target="http://d-nb.info/gnd/11852240X"/>
+                           <forename>Johann Friedrich von</forename>
+                           <surname>Cotta</surname>
+                        </persName>
+                     </author>
+                     <title>Allgemeine Zeitung</title>
+                     <imprint>
+                        <pubPlace>München</pubPlace>
+                        <publisher>Allgemeine Zeitung</publisher>
+                        <date>1800</date>
+                     </imprint>
+                  </monogr>
+                  <ptr target="http://www.mdz-nbn-resolving.de/urn/resolver.pl?urn=urn:nbn:de:bvb:12-bsb10504239-2"/>
+               </biblStruct>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Masterarbeit zu Matrikelnummer 5584124</p>
+         </projectDesc>
+      </encodingDesc>
+      <profileDesc>
+         <creation>
+            <date when-iso="1800-06-02">2. Juni 1800</date>
+         </creation>
+        <langUsage>
+           <language ident="f">französisch</language>
+        </langUsage>
+         <textClass>
+            <keywords scheme="internal"><!-- internal: innerhalb des besagten Briefs -->
+               <term>Brief</term>
+               <term>Reise</term>
+               <term>Meseritz</term>
+               <term>Eroberungen</term>
+               <term>Napoleon</term>
+            </keywords>
+            <keywords scheme="categorisation"><!-- Sinnabschnittseinteilung - relevant für den Fahrkartenautomaten! -->
+               <term xml:id="vgl">Verhältnis Girolamo Lucchesini</term>
+               <term xml:id="napinv">Napoleonische Invasion</term>
+            </keywords>
+         </textClass>
+         <textDesc>
+            <channel>manuscript</channel>
+            <constitution type="single"/>
+            <derivation type="original"/>
+            <domain type="private"/>
+            <factuality type="fact"/>
+            <interaction type="partial"/>
+            <preparedness type="prepared"/>
+            <purpose type="inform"/>
+         </textDesc>
+         <particDesc>
+            <listPerson>
+               <!-- Sender und Adressat -->
+               <person role="sender" xml:id="Gen">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/118538489"/>
+                     <forename>Friedrich von</forename>
+                     <surname>Gentz</surname>
+                  </persName>
+               </person>
+               <person role="receiver" xml:id="GirL">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/118780670"/>
+                     <forename>Girolamo</forename>
+                     <surname>Lucchesini</surname>
+                  </persName>
+               </person>
+               <!-- erwähnte Personen -->
+               <person role="named" xml:id="LGSch">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/117678422"/>
+                     <forename>Louis Gabriel</forename>
+                     <surname>Suchet</surname>
+                  </persName>
+               </person>
+               <person role="named" xml:id="MvM">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/136994598"/>
+                     <forename>Michael von</forename>
+                     <surname>Melas</surname>
+                  </persName>
+               </person>
+               <person role="named" xml:id="KKEIV">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/133035689"/>
+                     <forename>Karl Emanuel IV.</forename>
+                     <surname/>
+                     <roleName type="office">König von Sardinien</roleName>
+                  </persName>
+               </person>
+               <person role="named" xml:id="HP">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/124332498"/>
+                     <forename>Heinrich</forename>
+                     <surname/>
+                     <roleName type="office">Prinz von Preußen</roleName>
+                  </persName>
+               </person>
+               <person role="named" xml:id="CHCvH">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/116527080"/>
+                     <forename>Christian Heinrich Curt von</forename>
+                     <surname>Haugwitz</surname>
+                  </persName>
+               </person>
+               <person role="named" xml:id="CvT">
+                  <persName>
+                     <ref />
+                     <forename>Charlotte von</forename>
+                     <surname>Tarrach</surname>
+                  </persName>
+               </person>
+            </listPerson>
+         </particDesc>
+         <settingDesc>
+            <listPlace>
+               <!-- Start- und Zielort -->
+               <place type="sender" xml:id="plBe">
+                  <country>
+                     <ref target="http://d-nb.info/gnd/4047194-9"/>
+                     <placeName>Preußen</placeName>
+                  </country>
+                  <settlement>
+                     <ref target="http://d-nb.info/gnd/4005728-8"/>
+                     <placeName>Berlin</placeName>
+                  </settlement>
+               </place>
+               <!-- erwähnte Orte -->
+               <place type="named" xml:id="plMi">
+                  <country>
+                     <ref target="http://d-nb.info/gnd/4482801-9"/>
+                     <placeName>Cisalpinische Republik</placeName>  
+                  </country>
+                  <settlement>
+                     <ref target="http://d-nb.info/gnd/4037100-1"/>
+                     <placeName>Mailand</placeName>
+                  </settlement>
+               </place>
+               <place type="named" xml:id="plPdU">
+                  <country>
+                     <ref target="http://d-nb.info/gnd/4075601-4"/>
+                     <placeName>Erzherzogtum Österreich</placeName>
+                  </country>
+                  <settlement>
+                     <ref target="http://d-nb.info/gnd/7658130-5"/>
+                     <placeName>Pavia di Udine</placeName>
+                  </settlement>
+               </place>
+               <place type="named" xml:id="plAd">
+                  <country>
+                     <ref target="http://d-nb.info/gnd/4482801-9"/>
+                     <placeName>Cisalpinische Republik</placeName>  
+                  </country>
+                  <geogName type="river">
+                     <ref target="http://d-nb.info/gnd/4400688-3"/>
+                     <placeName>Adda</placeName>
+                  </geogName>
+               </place>
+               <place type="named" xml:id="plNz">
+                  <country>
+                     <ref target="http://d-nb.info/gnd/4018145-5"/>
+                     <placeName>Frankreich</placeName>  
+                  </country>
+                  <settlement>
+                     <ref target="http://d-nb.info/gnd/4075416-9"/>
+                     <placeName>Nizza</placeName>
+                  </settlement>
+               </place>
+               <place type="named" xml:id="plGn">
+                  <country>
+                     <ref target="http://d-nb.info/gnd/4214721-9"/>
+                     <placeName>Ligurische Republik</placeName>  
+                  </country>
+                  <settlement>
+                     <ref target="http://d-nb.info/gnd/4020185-5"/>
+                     <placeName>Genua</placeName>
+                  </settlement>
+               </place>
+               <place type="named" xml:id="plTu">
+                  <country>
+                     <ref target="http://d-nb.info/gnd/4046039-3"/>
+                     <placeName>Piemontesische Republik</placeName>  
+                  </country>
+                  <settlement>
+                     <ref target="http://d-nb.info/gnd/4061245-4"/>
+                     <placeName>Turin</placeName>
+                  </settlement>
+               </place>
+               <place type="named" xml:id="plPm">
+                  <country>
+                     <ref target="http://d-nb.info/gnd/4046039-3"/>
+                     <placeName>Piemontesische Republik</placeName>  
+                  </country>
+               </place>
+               <place type="named" xml:id="plSes">
+                  <country>
+                     <ref target="http://d-nb.info/gnd/4046039-3"/>
+                     <placeName>Piemontesische Republik</placeName>  
+                  </country>
+                  <geogName type="river">
+                     <ref target="http://d-nb.info/gnd/4541084-7"/>
+                     <placeName>Sesia</placeName>
+                  </geogName>
+               </place>
+               <place type="named" xml:id="plCr">
+                  <country>
+                     <ref target="http://d-nb.info/gnd/4482801-9"/>
+                     <placeName>Cisalpinische Republik</placeName>  
+                  </country>
+               </place>
+               <place type="named" xml:id="plEu">
+                  <geogName type="continent">
+                     <ref target="http://d-nb.info/gnd/4015701-5"/>
+                     <placeName>Europa</placeName>
+                  </geogName>
+               </place>
+               <place type="named" xml:id="plOe">
+                  <country>
+                     <ref target="http://d-nb.info/gnd/4075601-4"/>
+                     <placeName>Erzherzogtum Österreich</placeName>  
+                  </country>
+               </place>
+               <place type="named" xml:id="plPr">
+                  <country>
+                     <ref target="http://d-nb.info/gnd/4047194-9"/>
+                     <placeName>Preußen</placeName>
+                  </country>
+               </place>
+            </listPlace>
+         </settingDesc>
+      </profileDesc>
+      <revisionDesc>
+         <change xml:id="init" when-iso="2018-03-05" who="#edAG">Erstauszeichnung und Normierung des Dokumentes im Rahmen der Masterarbeit der Matrikelnummer 5584124</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <opener>
+            <salute rend="left">Monsieur le Marquis !</salute>
+         </opener>
+         <div n="1" corresp="#vgl">
+            <p>
+               Je rends mille graces à Votre Excellence de ce que dans <rs type="citation" ref="#c2065-1">la dernière lettre</rs> 
+               dont Elle m'a honoré, Elle a traité avec tant de magnanimité et d'indulgence les mauvais scrupules que j'avois osé 
+               Lui confier. Il n'en pouvoit plus être question d'après <rs type="citation" ref="#c2065-1">la première lettre</rs> 
+               que Votre Excellence a bien voulu m'adresser; il ne s'agit plus que de déterminer l'époque, ou je serai assez heureux 
+               pour pouvoir Lui présenter mes respects. Je vois bien que je me préparerois des regrets, si je renfermois mon voyage 
+               dans les bornes étroites que le <date when-iso="1800-06-21">21 Juin</date> d'un côté, et 
+               <date when-iso="1800-06-28">le 28</date> de l'autre m'assigneroient; je renonce donc à ma première idée, et je 
+               partirai d'ici <date when-iso="1800-07-06">le 6</date> ou <date when-iso="1800-07-07">le 7 de Juillet</date>; 
+               j'aurai toutefois l'honneur d'en avertir encore Votre Excellence: je ne saurois Vous exprimer à quel point l'idée de 
+               ce voyage me rend heureux.
+            </p>
+         </div>
+         <div n="2" corresp="#napinv">
+            <p>
+               Votre Excellence recevra avec cette lettre les dernières gazettes. Je ne me suis pas contenté cette fois-ci de Vous 
+               adresser <rs type="citation" ref="#a2065-1">le Publiciste</rs>: j'y ai joint les quatre dernières feuilles du 
+               <rs type="citation" ref="#e2065-1">Moniteur</rs> à cause de l'importance extrême des repports officiels, dont 
+               <rs type="citation" ref="#a2065-1">le Publiciste</rs> ne pré<pb/>sente qu'un extrait assez mal-fait et rempli de 
+               fautes. Je prévois l'impression que ces nouvelles feront sur Votre Excellence. Les François à 
+               <rs type="place" ref="#plMi">Milan</rs> et à <rs type="place" ref="#plPdU">Pavie</rs> ! Les François se disposant à 
+               passer <rs type="place" ref="#plAd">l'Adda</rs> ! Les Autrichiens chassés de <rs type="place" ref="#plNz">Nice</rs> ! 
+               et <rs type="place" ref="#plGn">Génes</rs> sur le point d'être débloquée ! Quels évenemens dans l'espace de huit 
+               jours !
+            </p>
+            <p>
+               Une des pièces les plus remarquables du contenu de ces papiers est à mon avis la Correspondance de 
+               <rs type="person" ref="#LGSch"><emph rend="underlined">Suchet</emph></rs>. Je ne sais si je me trompe; mais il me 
+               paroit que les fautes des Autrichiens y sont tracées de la manière la plus expressive. Il est tout-à-fait 
+               inconcevable que <rs type="person" ref="#MvM">Melas</rs> ait pu perdre son tems à 
+               <rs type="place" ref="#plNz">Nice</rs> - jusqu'au <date when-iso="1800-06-19">19</date>. Il ne l'est pas moins qu'il 
+               soit resté à <rs type="place" ref="#plTu">Turin</rs>, spectateur oisif du passage de la 
+               <rs type="place" ref="#plSes">Sesia</rs> et de tout ce qui l'a suivie.
+            </p>
+            <p>
+               La proclamation qu'on a publiée dans le <rs type="place" ref="#plPm">Piemont</rs> me semble être rédigée avec 
+               beaucoup d'adresse. On n'y parle absolument que d'<emph rend="underlined">indépendance</emph>, expression dont 
+               <rs type="person" ref="#KKEIV">le roi de Sardaigne</rs> auroit pu se servir aussi bien que les François. Il en est de 
+               même de tout ce qu'on dit dans le dernier article sur le sort de <rs type="person" ref="#KKEIV">ce monarque</rs>. 
+               C'est une chose <pb/> bien triste, que d'être obligé à reconnoitre la <emph rend="underlined">verité</emph> dans les 
+               propos de ceux que l'on déteste: et je crois malheureusement qu'elle ne se trouve que trop, dans tout ce que les 
+               François disent de la conduite des Autrichiens envers les puissances de <rs type="place" ref="#plCr">l'Italie</rs>.
+            </p>
+            <p>
+               Quelques déplorables que soient tous ces évènemens, je crois dans mon humble opinion qu'ils pourroient encore tourner 
+               à l'avantage général, s'il se trouvoit quelque génie assez supérieur, pour oser conjurer la tempête. Sous le rapport 
+               de l'équilibre de <rs type="place" ref="#plEu">l'Europe</rs>, il est clair qu'avant les derniers succés des François 
+               la balance commençoit à pencher trop fortement du côté de <rs type="place" ref="#plOe">l'autriche</rs>. Si dans ce 
+               moment-ci un bras vigoureux pouvoit tout-à-coup arrêter le mouvement, si quelque voix imposante pouvoit règler et 
+               commander la paix, peut-être que tout pourroit encore rentrer dans ses justes bornes. Mais pour cela il faudroit à 
+               <rs type="place" ref="#plEu">l'Europe</rs> - la <rs type="place" ref="#plPr">Prusse</rs>; et à la 
+               <rs type="place" ref="#plPr">Prusse</rs> - toute ce qui lui manque.
+            </p>
+            <p>
+               A présent je ne vois de nouveau que bouleversement, confusion, guerre interminable, dangers de toute espèce. Je 
+               serois trop heureux, si les vues de Votre Excellence beaucoup plus sûres et plus profondes que les miennes pouvoient 
+               me conduire à un autre résultat. Rien ne me seroit plus doux que la certitude de me tromper: <pb/> je ne crains que 
+               d'avoir rencontré la vérité.
+            </p>
+            <p>
+               La société de <rs type="place" ref="#plBe">Berlin</rs> paroit s'occuper exclusivement de la reconciliation qui a eu 
+               lieu ces jours-ci entre le <rs type="person" ref="#HP">Prince Henri</rs> et 
+               <rs type="person" ref="#CHCvH">Monsieur le Comte Haugwitz</rs>. Cet évènement chétif et presque ridicule fait 
+               oublier les grands intérèts de <rs type="place" ref="#plEu">l'Europe</rs>. Il est vrai, que depuis longtems ils 
+               n'existoient plus pour nous.
+            </p>
+         </div>
+         <div n="3" corresp="#vgl">
+            <p>
+               Je supplie Votre Excellence de présenter à <rs type="person" ref="#CvT">Madame la Marquise</rs> l'hommage de mon 
+               respect profond, et d'agréer gracieusement celui d'un dévouement sans bornes, avec lequel j'ai l'honneur d'être
+            </p>
+         </div>
+         <closer>
+            <salute rend="right">Monsieur le Marquis</salute>
+            <salute rend="right">De Votre Excellence</salute>
+            <salute rend="right">le très-humble et très-</salute>
+            <salute rend="right">obéissant serviteur</salute>
+            <dateline rend="left"><rs type="place" ref="#plBe">Berlin</rs> Ce <date when-iso="1800-06-19">19 Juin 1800</date>.</dateline>
+            <signed rend="right">Gentz.</signed>
+         </closer>
+         <postscript corresp="#napinv">
+            <p>
+               P.S. L'article de <rs type="place" ref="#plMi"><emph rend="underlined">Milan</emph></rs> dans la feuille de la 
+               <rs type="citation" ref="#e2065-2"><emph rend="underlined">Allgemeine Zeitung</emph></rs> que j'ajoute encore à cette 
+               lettre, atteste ce que les nouvelles Françoises avoient annoncé 
+               <cit corresp="#e2065-2">
+                  <quote>
+                     que le peuple de <rs type="place" ref="#plMi">Milan</rs> étoit encore dans une ignorance complette de ce qui 
+                     l'attendoit, 24 heures avant l'entrée des François.
+                  </quote>
+               </cit>
+               En général cet article, quoique rempli d'erreurs et de contradiction, me paroit être très remarquables sous plus 
+               d'un rapport.
+            </p>
+         </postscript>
+      </body>
+   </text>
+</TEI>

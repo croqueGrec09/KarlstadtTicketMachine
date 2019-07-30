@@ -1,0 +1,647 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc xml:id="LETTER_GENTZ_3465">
+         <titleStmt>
+            <title>Friedrich von Gentz an François d'Ivernois, 20. März 1798</title>
+            <editor xml:id="edAG">Andreas Gálffy</editor>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <name>Forschungsstelle "Universitätssammlung Friedrich von Gentz"</name>
+               <link target="http://gentz-digital.ub.uni-koeln.de http://www.ub.uni-koeln.de/cdm/singleitem/collection/gentz/id/3464/"/>
+            </publisher>
+            <pubPlace>Cologne</pubPlace>
+            <idno type="Gentz-Edition-Number" n="3465"/>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <country>Switzerland</country>
+                  <settlement>Genf</settlement>
+                  <institution>Bibliothèque publique et universitaire</institution>
+                  <repository>Département des manuscrits</repository>
+                  <collection>Ms. suppl. 976</collection>
+                  <idno>Bl. 135-139</idno>
+               </msIdentifier>
+               <msContents>
+                  <summary>
+                     Die Arbeit Gentz' hat Ivernois angetan. Dieser schickte mit 256 Seiten seines letzten Werkes ein Lob von der Arbeit. 
+                     Gentz hat eine hohe Meinung von d'Ivernois und achtet diesen sehr, daher ist er sehr geehrt durch ein Lob seinerseits. 
+                     Gentz hat das letzte Werk d'Ivernois' gelesen. Er lobt es sehr. Die letzten zwanzig Seiten sollen in Gold eingeprägt 
+                     werden. Die finanziellen Sorgen haben, wenn auch nicht allein, verursacht haben - Gentz ist einverstanden, dass sie 
+                     eine wichtige Rolle gespielt haben. Das vortreffliche Werk zeichnen einen traurigen Ausblick. Gentz muss von einer 
+                     Fortsetzung der Übersicht über die Finanzen zurücktreten, weil ihm sein Beruf stark einnimmt. Dies ist auch der 
+                     Grund, dass er auch die Übersetzung des neuesten Werkes d'Ivernois an jemanden abtreten muss. Gentz möchte den 
+                     Übersetzer aber unterstützen und wird auch d'Ivernois fortführen, sollte dieser aufhören. Die Franzosen sind in Bern 
+                     einmarschiert. Wenn nun auch ein Land wie die Schweiz eingenommen wird, welches Land, so fragt Gentz, ist dann noch 
+                     sicher? Auch von weiteren Fortschritten der Invasion wird berichtet; Aufstände in Westfalen, Grafschaft Mark und 
+                     Ostfriesenland werden gemeldet. D'Ivernois' Berechnung traf zu. Allmählich wird ganz Europa vom Geist der Revolution 
+                     erfasst - und über Mallet du Pan, der genau das verkündete, macht man sich noch lustig.
+                     Gentz kritisiert das Verhalten der preußischen Regierung, die dem Direktorium zu Füßen läge. Zugleich ist auch die 
+                     preußische Gesellschaft, besonders in höheren Schichten, von Revolutionären durchsetzt. Von zehn Literaren sind neun 
+                     Revolutionäre. Nur England kann die zivilisierte Gesellschaft noch retten. Ein Erstarken der konservativen Front würde 
+                     erstens die englische Regierung verfestigen, zweitens Frankreich von seinem Selbstbewusstsein verlieren. Drittens 
+                     würden die finanziellen Schwierigkeiten Frankreichs steigen. Gentz entschuldigt sich für die Länge des Briefes und 
+                     wartet neugierig auf Antwort.
+                  </summary>
+               </msContents>
+            </msDesc>
+            <listBibl type="preprints">
+               <biblStruct>
+                  <analytic>
+                     <editor>
+                        <persName>
+                           <ref target="http://d-nb.info/gnd/116055812"/>
+                           <forename>Karmin</forename>
+                           <surname>Otto</surname>
+                        </persName>
+                     </editor>
+                     <title>Lettres inédites de Frédéric Gentz à Sir Francis d'Ivernois (1798-1803)</title>
+                  </analytic>
+                  <monogr>
+                     <editor>
+                        <persName>
+                           <ref target="http://d-nb.info/gnd/117369020"/>
+                           <forename>Charles</forename>
+                           <surname>Vellay</surname>
+                        </persName>
+                     </editor>
+                     <title>Revue historique de la Révolution française et de l'Empire</title>
+                     <imprint>
+                        <publisher>Revue historique de la Révolution Française</publisher>
+                        <pubPlace>Paris</pubPlace>
+                        <date>1913</date>
+                     </imprint>
+                     <biblScope unit="volume" n="4">
+                        Tome quatrième
+                     </biblScope>
+                     <biblScope unit="page" from="6" to="13">
+                        Nr. I
+                     </biblScope>
+                  </monogr>
+               </biblStruct>
+            </listBibl>
+            <listBibl type="letterReferenced">
+               <bibl xml:id="c3465-1" corresp="#LETTER_GENTZ_NNNN">nicht bekannter Brief von François d'Ivernois an Friedrich von Gentz</bibl>
+            </listBibl>
+            <listBibl type="alludedWorks">
+               <bibl xml:id="a3465-1" corresp="#LETTER_GENTZ_NNNN">nicht näher benanntes Werk von François d'Ivernois</bibl>
+            </listBibl>
+            <listBibl type="defRep">
+               <biblStruct xml:id="p3465-1" corresp="#LETTER_GENTZ_NNNN">
+                  <monogr>
+                     <author>
+                        <persName>
+                           <ref target="http://d-nb.info/gnd/100297676"/>
+                           <forename>Francis d'</forename>
+                           <surname>Ivernois</surname>
+                        </persName>
+                     </author>
+                     <title>Tableau historique et politique de l'administration de la Republique Francaise pendant l'annee 1797, des causes qui ont amene la Revolution du 4 Septembre, et de ses resultats.</title>
+                     <imprint>
+                        <pubPlace>London</pubPlace>
+                        <publisher>P. Elmsley &amp; D. Bremne, J. Debrett; J. Deboffe; Dulau &amp; Co.; L'Homme, T. Boosey</publisher>
+                        <date>1798</date>
+                     </imprint>
+                  </monogr>
+                  <ptr target="#LETTER_GENTZ_NNNN"/>
+               </biblStruct>
+               <biblStruct xml:id="p3465-2" corresp="GBk-0032">
+                  <monogr>
+                     <author>
+                        <persName>
+                           <ref target="http://d-nb.info/gnd/100297676"/>
+                           <forename>Francis d'</forename>
+                           <surname>Ivernois</surname>
+                        </persName>
+                     </author>
+                     <title>Histoire de l'administration des finances de la république française, pendant l'année 1796.</title>
+                     <imprint>
+                        <pubPlace>Hamburg</pubPlace>
+                        <publisher>P. F. Fauche</publisher>
+                        <date>1797</date>
+                     </imprint>
+                  </monogr>
+                  <ptr target="https://books.google.de/books?id=mVsPAAAAQAAJ"/>
+               </biblStruct>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Masterarbeit zu Matrikelnummer 5584124</p>
+         </projectDesc>
+      </encodingDesc>
+      <profileDesc>
+         <creation>
+            <date when-iso="1798-03-20">20. März 1798</date>
+         </creation>
+        <langUsage>
+           <language ident="f">französisch</language>
+        </langUsage>
+         <textClass>
+            <keywords scheme="internal"><!-- internal: innerhalb des besagten Briefs -->
+               <term>Brief</term>
+               <term>d'Ivernois</term>
+               <term>Revolution</term>
+               <term>Oberflächlichkeit</term>
+               <term>Invasion</term>
+               <term>Infiltration</term>
+            </keywords>
+            <keywords scheme="categorisation"><!-- Sinnabschnittseinteilung - relevant für den Fahrkartenautomaten! -->
+               <term xml:id="vfdi">Verhältnis François d'Ivernois</term>
+               <term xml:id="frv">Französische Revolution</term>
+               <term xml:id="bezbt">Beziehungen zu Berlin - Beamtentätigkeit</term>
+               <term xml:id="napinv">Napoleonische Invasion</term>
+               <term xml:id="prr">preußische Regierung</term>
+               <term xml:id="kpr">Preußen</term>
+               <term xml:id="keng">England</term>
+            </keywords>
+         </textClass>
+         <textDesc>
+            <channel>manuscript</channel>
+            <constitution type="single"/>
+            <derivation type="original"/>
+            <domain type="private"/>
+            <factuality type="fact"/>
+            <interaction type="partial"/>
+            <preparedness type="prepared"/>
+            <purpose type="inform"/>
+         </textDesc>
+         <particDesc>
+            <listPerson>
+               <!-- Sender und Adressat -->
+               <person role="sender" xml:id="Gen">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/118538489"/>
+                     <forename>Friedrich von</forename>
+                     <surname>Gentz</surname>
+                  </persName>
+               </person>
+               <person role="receiver" xml:id="FdI">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/100297676"/>
+                     <forename>Francis d'</forename>
+                     <surname>Ivernois</surname>
+                  </persName>
+               </person>
+               <!-- erwähnte Personen -->
+               <person role="named" xml:id="FBEvT">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/117250686"/>
+                     <forename>Friedrich Bogislaw Emanuel von</forename>
+                     <surname>Tauentzien</surname>
+                  </persName>
+               </person>
+               <person role="named" xml:id="TBoEaK">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/118638033"/>
+                     <forename>Thomas Bruce of</forename>
+                     <surname>Elgin and Kincardine</surname>
+                  </persName>
+               </person>
+               <person role="named" xml:id="Vll">
+                  <persName>
+                     <ref />
+                     <forename/>
+                     <surname>Villiers</surname>
+                  </persName>
+               </person>
+               <person role="named" xml:id="KFWIII">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/118535986"/>
+                     <forename>Friedrich Wilhelm III.</forename>
+                     <surname>von Preußen</surname>
+                     <roleName type="office">König</roleName>
+                  </persName>
+               </person>
+               <person role="named" xml:id="KKEIV">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/133035689"/>
+                     <forename>Karl Emanuel IV.</forename>
+                     <surname/>
+                     <roleName type="office">König von Sardinien</roleName>
+                  </persName>
+               </person>
+               <person role="named" xml:id="GLII">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/118827065"/>
+                     <forename>Leopold II.</forename>
+                     <surname/>
+                     <roleName type="office">Großherzog</roleName>
+                  </persName>
+               </person>
+               <person role="named" xml:id="KFIVN">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/11895363X"/>
+                     <forename>Ferdinand IV.</forename>
+                     <surname/>
+                     <roleName type="office">König von Neapel</roleName>
+                  </persName>
+               </person>
+               <person role="named" xml:id="MdP">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/119483947"/>
+                     <forename>Jacques</forename>
+                     <surname>Mallet du Pan</surname>
+                  </persName>
+               </person>
+               <person role="named" xml:id="Cai">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/1116292998"/>
+                     <forename>Antoine Bernard</forename>
+                     <surname>Caillard</surname>
+                  </persName>
+               </person>
+               <person role="named" xml:id="RCW">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/115670211"/>
+                     <forename>Richard Coley</forename>
+                     <surname>Wellesley</surname>
+                  </persName>
+               </person>
+            </listPerson>
+         </particDesc>
+         <settingDesc>
+            <listPlace>
+               <!-- Start- und Zielort -->
+               <place type="sender" xml:id="plBe">
+                  <country>
+                     <ref target="http://d-nb.info/gnd/4047194-9"/>
+                     <placeName>Preußen</placeName>
+                  </country>
+                  <settlement>
+                     <ref target="http://d-nb.info/gnd/4005728-8"/>
+                     <placeName>Berlin</placeName>
+                  </settlement>
+               </place>
+               <place type="receiver" xml:id="plLo">
+                  <country>
+                     <ref target="http://d-nb.info/gnd/4022153-2"/>
+                     <placeName>Vereinigtes Königreich</placeName>                
+                  </country>
+                  <settlement>
+                     <ref target="http://d-nb.info/gnd/4074335-4"/>
+                     <placeName>London</placeName>
+                  </settlement>
+               </place>
+               <!-- erwähnte Orte -->
+               <place type="named" xml:id="plEu">
+                  <geogName type="continent">
+                     <ref target="http://d-nb.info/gnd/4015701-5"/>
+                     <placeName>Europa</placeName>
+                  </geogName>
+               </place>
+               <place type="named" xml:id="plBn">
+                  <country>
+                     <ref target="http://d-nb.info/gnd/4018145-5"/>
+                     <placeName>Frankreich</placeName>  
+                  </country>
+                  <settlement>
+                     <ref target="http://d-nb.info/gnd/4005762-8"/>
+                     <placeName>Bern</placeName>
+                  </settlement>
+               </place>
+               <place type="named" xml:id="plBas">
+                  <country>
+                     <ref target="http://d-nb.info/gnd/4018145-5"/>
+                     <placeName>Frankreich</placeName>  
+                  </country>
+                  <settlement>
+                     <ref target="http://d-nb.info/gnd/4004617-5"/>
+                     <placeName>Basel</placeName>
+                  </settlement>
+               </place>
+               <place type="named" xml:id="plCh">
+                  <country>
+                     <ref target="http://d-nb.info/gnd/1085175626"/>
+                     <placeName>Schweiz</placeName>  
+                  </country>
+               </place>
+               <place type="named" xml:id="plWs">
+                  <country>
+                     <ref target="http://d-nb.info/gnd/4065781-4"/>
+                     <placeName>Westfalen</placeName>  
+                  </country>
+               </place>
+               <place type="named" xml:id="plMc">
+                  <country>
+                     <ref target="http://d-nb.info/gnd/4037580-8"/>
+                     <placeName>Grafschaft Mark</placeName>  
+                  </country>
+               </place>
+               <place type="named" xml:id="plOf">
+                  <country>
+                     <ref target="http://d-nb.info/gnd/145707-X"/>
+                     <placeName>Fürstentum Ostfriesland</placeName>  
+                  </country>
+               </place>
+               <place type="named" xml:id="plHo">
+                  <country>
+                     <ref target="http://d-nb.info/gnd/5245326-1"/>
+                     <placeName>Holland</placeName>
+                  </country>
+               </place>
+               <place type="named" xml:id="plSr">
+                  <country>
+                     <ref target="http://d-nb.info/gnd/4051687-8"/>
+                     <placeName>Königreich Sardinien</placeName>
+                  </country>
+               </place>
+               <place type="named" xml:id="plLi">
+                  <country>
+                     <ref target="http://d-nb.info/gnd/4046843-4"/>
+                     <placeName>Portugal</placeName>
+                  </country>
+                  <settlement>
+                     <ref target="http://d-nb.info/gnd/4035919-0"/>
+                     <placeName>Lissabon</placeName>
+                  </settlement>
+               </place>
+               <place type="named" xml:id="plOs">
+                  <country>
+                     <ref target="http://d-nb.info/gnd/4075720-1"/>
+                     <placeName>Osmanisches Reich</placeName>
+                  </country>
+               </place>
+               <place type="named" xml:id="plDl">
+                  <country>
+                     <ref target="http://d-nb.info/gnd/4070200-5"/>
+                     <placeName>Dalmatien</placeName>
+                  </country>
+               </place>
+               <place type="named" xml:id="plHa">
+                  <country>
+                     <ref target="http://d-nb.info/gnd/4023118-5"/>
+                     <placeName>Hamburg</placeName>
+                  </country>
+                  <settlement>
+                     <ref target="http://d-nb.info/gnd/4023118-5"/>
+                     <placeName>Hamburg</placeName>
+                  </settlement>
+               </place>
+               <place type="named" xml:id="plGe">
+                  <country>
+                     <ref target="http://d-nb.info/gnd/4019898-4"/>
+                     <placeName>Herzogtum Geldern</placeName>
+                  </country>
+               </place>
+               <place type="named" xml:id="plKl">
+                  <country>
+                     <ref target="http://d-nb.info/gnd/4047194-9"/>
+                     <placeName>Preußen</placeName>
+                  </country>
+                  <region>
+                     <ref target="http://d-nb.info/gnd/4031156-9"/>
+                     <placeName>Provinz Kleve</placeName>
+                  </region>
+               </place>
+               <place type="named" xml:id="plRa">
+                  <country>
+                     <ref target="http://d-nb.info/gnd/4069065-9"/>
+                     <placeName>Baden</placeName>
+                  </country>
+                  <settlement>
+                     <ref target="http://d-nb.info/gnd/4048445-2"/>
+                     <placeName>Rastatt</placeName>
+                  </settlement>
+               </place>
+               <place type="named" xml:id="plDe">
+                  <country>
+                     <ref target="http://d-nb.info/gnd/2035457-5"/>
+                     <placeName>Deutschland</placeName>  
+                  </country>
+               </place>
+               <place type="receiver" xml:id="plEn">
+                  <country>
+                     <ref target="http://d-nb.info/gnd/4022153-2"/>
+                     <placeName>England</placeName>                
+                  </country>
+               </place>
+               <place type="named" xml:id="plFr">
+                  <country>
+                     <ref target="http://d-nb.info/gnd/4018145-5"/>
+                     <placeName>Frankreich</placeName>  
+                  </country>
+               </place>
+               <place type="named" xml:id="plIn">
+                  <country>
+                     <ref target="http://d-nb.info/gnd/4026722-2"/>
+                     <placeName>Indien</placeName>  
+                  </country>
+               </place>
+            </listPlace>
+         </settingDesc>
+      </profileDesc>
+      <revisionDesc>
+         <change xml:id="init" when-iso="2018-03-02" who="#edAG">Erstauszeichnung und Normierung des Dokumentes im Rahmen der Masterarbeit der Matrikelnummer 5584124</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <opener>
+            <dateline rend="right"><rs type="place" ref="#plBe">Berlin</rs> ce <date when-iso="1798-03-20">20 Mars. 1798</date>.</dateline>
+         </opener>
+         <div n="1" corresp="#vfdi">
+            <p>
+               J'ai reçu successivement, d'abord <rs type="citation" ref="#c3465-1">la lettre très-obligeante</rs>, par laquelle vous avez bien voulu 
+               m'annoncer l'envoi prochain de <rs type="citation" ref="#p3465-1">Votre dernier ouvrage</rs>, que j'attendois avec impatience depuis que j'en 
+               espérois la publication d'aprés les gazettes de Londres; ensuite les 256 prémieres pages que 
+               <rs type="person" ref="#FBEvT">Monsieur le Comte de Tauenzien</rs> a eu la bonté de m'apporter, enfin l'exemplaire complet du premier volume, 
+               que Vous m'avez fait parvenir par le canal de <rs type="person" ref="#TBoEaK">MyLord Elgin</rs>.
+            </p>
+            <p>
+               Je devrois avant toutes choses Vous exprimer, Monsieur, de la maniére la plus forte et la plus vive, combien je suis sensible au jugement que 
+               Vous avez prononcé sur mes foibles efforts, dans cet ouvrage, et dans <del rend="stroked">le précedent</del> celui que j'ai eu le plaisir de 
+               traduire, et combien je me trouve honoré de la bonne opinion d'un des hommes les plus distingués parmi les écrivains politiques de notre tems: 
+               mais quand Vous saurez quelle impression profonde vos ouvrages ont fait sur moi, je n'aurai plus besoin de Vous dire, à quel point j'ai été 
+               flatté par Votre suffrage.
+            </p>
+            <p>
+               Je Vous ai regardé de tout tems, comme un de ces hommes trop rares aujourd'hui, dont l'autorité et les talens devoient servir si non de 
+               contrepoids aux systêmes funestes du jour, du moins de consolation aux esprits sages et bien-organisés, dispersés encore ça-et-là dans ce 
+               naufrage presqu'universel de la raison humaine: <pb/> Je voyois bien que malheureusement Vous seriez trop foible pour vous opposer efficacement 
+               à un torrent, qui entraîne la moitié de <rs type="place" ref="#plEu">l'Europe civilisée</rs>; mais je jouissois de l'idée, qu'il existoit 
+               encore, au milieu de cet aveuglement inconcevable, (et à ce qui paroit <emph rend="underlined">incurable</emph>) quelques hommes en état de 
+               juger les événemens, <del rend="stroked">et</del> de saisir les véritables points de vue, et de se rallier fortement a des principes nobles, 
+               purs, et élévés: idée que tout ce qui m'environne depuis quatre ou cinq ans, m'avoit presque fait perdre.
+            </p>
+         </div>
+         <div n="2" corresp="#frv">
+            <p>
+               Je viens d'achever la lecture delicieuse de <rs type="citation" ref="#p3465-1">Votre dernier ouvrage</rs>. J'y ai trouvé 
+               <del rend="stroked">xxx,</del> les mêmes lumiéres, la même chaleur, le même caractére enfin, que j'ai admiré dans tout ce qui est 
+               <add place="above">sorti</add> de Votre plume. Si l'embarras des Finances n'a pas produit seul la revolution du 
+               <date when-iso="1797-09-04">18 fructidor</date>, je suis parfaitement d'accord avec vous, qu'il a joué un rôle très-important parmi les causes 
+               de cet événement funeste. Je souhaiterois, que les vingt derniéres pages de Votre livre puissent être imprimées en lettres d'or, placées à 
+               l'entrée du palais de chaque gouvernement, <del rend="stroked">intact</del> encore intact, et lues à haute voix deux fois par jour dans chaque 
+               conseil supérieur. Ceux qui sont dignes de Vous entendre, pourront du moins dire un jour de Vous,
+            </p>
+            <lg xml:lang="lat">
+               <l>Si Pergama dextra,</l>
+               <l>Defendi poterint, etiam hac defensa fuissent.</l>
+            </lg>
+            <p>
+               Le résultat de Votre ouvrage est en général un résultat bien triste. Loin que la pénurie absolue du gouvernement François <pb/> dont Vous avez 
+               porté la demonstration à une évidence mathématique, (et que le dernier rapport de 
+               <rs type="person" ref="#Vll"><emph rend="underlined">Villers</emph></rs> du <date when-iso="1798-02-12">12 Fevrier</date> vient de confirmer de 
+               nouveau d'une manière irresistible) loin que cette pénurie puisse me rassurer, elle m'effraye pour la tranquillité de 
+               <rs type="place" ref="#plEu">l'Europe entiére</rs>. Un gouvernement qui a des soldats et qui manque d'argent - n'est-il pas par cela-même 
+               l'ennemi né de chaque partie du monde, où il peut espérer de trouver quelques écus ? Quelle perspective ! Et comme les événemens de chaque jour 
+               légitiment les craintes de ceux qui savent apprécier la véritable situation des affaires politiques ! Sans doute, un 
+               <del rend="stroked">xxx</del> gouvernement bâtu sur une base aussi monstrueuse ne durera pas: sa déstruction est inévitable, mais peut-on 
+               calculer l'immensité des maux dont il comblera l'humanité, avant que cette destruction s'accomplisse ?
+            </p>
+         </div>
+         <div n="3" corresp="#bezbt">
+            <p>
+               Après avoir fait l'essai de continuer <rs type="citation" ref="#p3465-2">Votre histoire de l'administration des Finances en 1796</rs> jusqu'au 
+               mois d'Avril 1797, c'étoit bien mon intention, de la conduire plus loin, et de suivre sans relâche cette Administration mémorable dans tous ses 
+               détails. J'avois rassemblé d'assez bons matériaux pour m'acquitter de cette entreprise. Maintenant que Votre ouvrage a paru, j'y renoncerai, et 
+               d'autant plus volontiers, que j'aurois été obligé de publier fort tard ce que j'aurois pû composer de ces matériaux. Etant nommé par le 
+               <rs type="person" ref="#KFWIII">Roi actuel</rs> à plusieurs commissions extraordinaires très-importantes pour l'administration de nos affaires 
+               intérieures, je dois m'abstenir du moins pour les premiers six mois de cette année de tout travail littéraire.
+            </p>
+         </div>
+         <div n="4" corresp="#vfdi">
+            <p>
+               Voilà, Monsieur, ce qui me prive aussi du plaisir de traduire Votre <pb/> dernier ouvrage, plaisir, que sans cet empêchement majeur, je n'aurois 
+               certainement pas cédé à un autre. Si celui qui se charge de cette traduction est un homme digne de la tâche, je m'empresserai de lui 
+               communiquer tout ce qui pourroit l'aider dans son travail, et j'ajouterai, si le tems me le permet, quelques notes, pour fortifier, s'il est 
+               possible, l'impression que Votre ouvrage devroit produire par-tout, et qu'il produira certainement sur un petit nombre de lecteurs éclairés et 
+               raisonnables. Au reste, les exhortations par lesquelles Vous finissez cet ouvrage ne seront pas perdues pour moi: je ne discontinuerai plus des 
+               extraits, les notes, les rapprochemens, <add place="above">enfin</add> tout ce qui pourra servir un jour à écrire l'histoire de cette 
+               république abominable: et, quoiqu'occupé depuis longtems d'un ouvrage de longue haleine sur les prémieres années de la révolution, (ouvrage 
+               dont l'exécution pourroit bien à la fin surmonter mes forces) aussitôt que Vous serez resolu de laisser tomber entiérement le fil de Vos 
+               travaux (époque qui ne sauroit être trop reculée) je tâcherai de le relever.
+            </p>
+         </div>
+         <div n="5" corresp="#napinv">
+            <p>
+               J'écris cette lettre le jour même où les gazettes nous annoncent l'entrée des François dans la Ville de 
+               <rs type="place" ref="#plBn"><emph rend="underlined">Berne</emph></rs>, et les horreurs, qui suivirent de près cet événement déplorable. C'est 
+               depuis la paix de <rs type="place" ref="#plBas">Bâle</rs> celui qui m'a le plus douloureusement affecté. Aussi il me paroit que tous les autres 
+               crimes politiques des François s'evanouissent quand on les compare à la conduite inouie dont ils se sont rendus coupables envers la 
+               <rs type="place" ref="#plCh">Suisse</rs>. Si un gouvernement paternel, respecté jusqu'à ces jours de délire par 
+               <rs type="place" ref="#plEu">l'Europe entiére</rs>, si trois cens ans <pb/> d'un bonheur presque parfait, si même la plus haute prudence et une 
+               neutralité poussée jusqu'au scrupule de la part des gouvernans n'ont pû garantir les habitans de ce pays des horreurs qu'ils éprouvent dans ce 
+               moment, quel est le peuple qui puisse se croire à l'abri des principes infernaux de la politique révolutionaire ?
+            </p>
+            <p>
+               Vous n'aviez que trop justement calculé, quand Vous nous annonciez, que la <rs type="place" ref="#plWs">Westphalie</rs> cis-rhénane ne 
+               tarderoit pas à être attaquée par les exploits de la propagande. Le Courier d'hier nous a apporté la nouvelle d'un soulevement dans 
+               le <rs type="place" ref="#plMc">Comté de <emph rend="underlined">Marck</emph></rs>, et de quelques symptômes d'un autre dans la 
+               <rs type="place" ref="#plOf">principauté d'<emph rend="underlined">Ostfrise</emph></rs>. Le premier de ces événemens, auquel une querelle très 
+               insignifiante a donné naissance, a été jugé assez dangereux pour qu'un regiment entier ait reçû l'ordre de se mettre en marche: le second, 
+               quoique moins considerable et étouffé au premier moment, a cela de remarquable, qu'il a été produit par un écrit incendiaire, vomi des 
+               frontiéres de la <rs type="place" ref="#plHo">Hollande</rs> sur un pays jusqu'ici fort tranquille, et fort heureux sous la domination 
+               Prussienne. - En <rs type="place" ref="#plSr">Italie</rs> le bouleversement avance avec une rapidité effroyable: sans vouloir être prophéte de 
+               malheur, je suis intimément persuadé, que dans moins de six mois, <rs type="person" ref="#KKEIV">le Roi de Sardaigne</rs>, 
+               <rs type="person" ref="#GLII">le Grand Duc de Toscane</rs>, et <rs type="person" ref="#KFIVN">le Roi de Naples</rs>, - auront regné. 
+               <rs type="place" ref="#plLi">Lisbonne</rs> sera la proie du Directoire avant la fin de l'été prochain: Les François font tout au monde pour 
+               faire pénétrer leur doctrine empoisonnée dans le coeur de la Hongrie et même dans <rs type="place" ref="#plOs">l'empire des Turcs</rs> leurs 
+               fidéles alliés, par le canal de la <rs type="place" ref="#plDl">Dalmatie</rs> et des Isles autrefois Vénitiennes, qu'on a eu <pb/> la lâcheté 
+               de leur céder. - Et comme on se moquoit partout, comme on crioit à l'exagération, à la déclamation etc. quand 
+               <rs type="person" ref="#MdP">Monsieur <emph rend="underlined">Mallet-Dupan</emph></rs>, et quelques autres hommes plus clairvoyans que leurs 
+               contemporains, osoient prédire il y a six ans, 
+               <quote corresp="#MdP"><emph rend="underlined">que cette révolution feroit le tour de l'Europe</emph></quote>.
+            </p>
+         </div>
+         <div n="6" corresp="#prr">
+            <p>
+               Vous vous tromperiez bien cruellement, Monsieur, si Vous fondiez encore la moindre espérance sur la sagesse et l'énergie du gouvernement 
+               Prussien. Je prendrai la liberté de Vous parler franchement sur ce sujet: je le dois à un homme qui a si bien mérité de la bonne cause. - 
+               <rs type="person" ref="#KFWIII">Le roi</rs> est un prince des meilleures dispositions: il est laborieux, juste, excellent économe, bon et 
+               affable envers tout le monde; si dans un moment aussi critique que le moment actuel, il étoit entouré d'hommes capables d'apprécier le danger 
+               et de le braver, il feroit peutêtre quelque chose contre l'ennemi commun de tous les gouvernemens, et je crois fermement, que, tout affoibli 
+               qu'il doive se sentir du côté des ressources pécuniaires, il <emph rend="underlined">pourroit</emph> encore rendre des services à l'humanité. 
+               Mais, malheureusement, ce n'est pas là la situation dans laquelle il se trouve.
+            </p>
+            <p>
+               D'abord notre Département des affaires étrangeres est littéralement à genoux devant le Directoire. Si 
+               <rs type="person" ref="#Cai">l'Envoyé de France</rs> nous ordonnoit de faire sortir de la ville tel ou tel jour toute la garnison de 
+               <rs type="place" ref="#plBe">Berlin</rs>, on démontreroit au <rs type="person" ref="#KFWIII">Roi</rs>, que les circonstances ne permettoient 
+               gueres de s'opposer à la volonté du Citoyen <rs type="person" ref="#Cai">Caillard</rs>; et elle sortiroit. De l'autre côté <pb/> si on pouvoit 
+               sauver la <rs type="place" ref="#plLo">Ville de Londres</rs> elle même d'une conflagration universelle, en faisant marcher deux mille hommes 
+               d'ici à <rs type="place" ref="#plHa">Hambourg</rs>, croyez-moi, Monsieur: ils ne marcheroient pas - Vous ne sauriez vous imaginer toutes les 
+               humiliations, grandes et petites, que nous avons essuyées, à l'occasion du projet de republicaniser 
+               <rs type="place" ref="plGe">le Duché de Gueldres</rs> et <rs type="place" ref="#plKl">la Province de Cleves</rs>, avant la cession formelle, 
+               qui ne pouvoit se faire qu'à <rs type="place" ref="#plRa">Rastadt</rs>. Eh bien ! les François ont organisé (ce qui veut dire, 
+               <emph rend="underlined">désorganisé</emph>) ces provinces, malgré les protestations les plus vigoureuses des Administrations locales, ces 
+               protestations ne trouvant jamais le moindre appui dans le Ministére - Il y auroit un livre à faire de toutes ces abominations.
+            </p>
+         </div>
+         <div n="7" corresp="#kpr">
+            <p>
+               La masse des habitans de ce pays <add place="above">se divise</add>, par rapport aux principes politiques, en deux sections très-inégales. La 
+               grande, la très-grande majorité est dans une indifférence, dans une apathie absolue, même pour la plûpart, dans une ignorance grossiére, 
+               relativement aux affaires étrangeres; elle ne soupçonne pas même le danger qui nous menace. Il faut ranger dans cette classe - je le dis avec 
+               douleur, mais Vous en croirez un homme qui a eu l'occasion d'étudier ses compatriotes dans tous les rangs: - presque tous nos grands 
+               Fonctionnaires publics, les Ministres d'Etat, et les Conseillers Supérieurs des Departements des Finances, de la justice, de la guerre, de 
+               tous ceux en un môt, qui ne sont pas obligés de s'occuper immédiatement de la politique; il faut y mettre ensuite une majorité immense de notre 
+               noblesse, et à peu près tous les Généraux et Officiers de l'Armée. En voilà pour <pb/> la prémiere classe, et la plus nombreuse. L'autre qui se 
+               compose du petit nombre d'hommes, qui lisent, qui pensent, qui suivent les événemens, est encore divisée très-inégalement. La majorité la plus 
+               décidée de cette classe tient aux principes révolutionnaires. Malheureusement presque tous les hommes de lettres sont attaqués de cette 
+               maladie; elle est même très-naturelle dans un pays, où la philosophie purement spéculative a fait des progrès vraiment admirables, (progrès 
+               dont les étrangers de tous les pays ne se doutent guéres) et où en même tems la connoissance practique des hommes, et sur-tout la science des 
+               gouvernemens a été prodigieusement négligée. Vous pouvez toujours compter de trouver parmi 10 hommes de lettres en 
+               <rs type="place" ref="#plDe">Allemagne</rs> <del rend="stroked">xxx</del>, 9 révolutionnaires; et parmi ces derniers, 4 ou cinq 
+               revolutionnaires enragés. Vous ne sauriez croire, Monsieur, dans quelle position étrange, et quelquefois très critique cet état des choses me 
+               jette moi même. Comme ceux qui sont, (ou qui doivent du moins être) dans les bons principes, ne savent rien, ne lisent rien, ne s'inquiètent 
+               de rien, et comme ceux, qui prennent quelque part aux événemens, sont presque tous d'un systême bien opposé au mien, je suis ici, pour ainsi 
+               dire, seul de mon parti: et il manque très peu, que je ne me trouvasse réduit à mes méditations solitaires, aux livres, et aux gazettes.
+            </p>
+         </div>
+         <div n="8" corresp="#keng">
+            <p>
+               J'attends, en tremblant l'issue des préparatifs pour la descente en <rs type="place" ref="#plEn">Angleterre</rs>. C'est-là le dernier coup, 
+               celui qui décidera du sort de la société civilisée. Si ce coup manque, je crois, qu'il en résultera trois effets bien précieux, 1, que la 
+               stabilité de la forme du gouvernement d'<rs type="place" ref="#plEn">Angleterre</rs> sera assurée pour un demi-siécle; bienfait pour <pb/> 
+               l'humanité, auquel à mon avis nul autre n'est comparable dans les circonstances actuelles; 2, que la <rs type="place" ref="#plFr">France</rs> 
+               perdra, même aux yeux des plus passionnés de ces admirateurs, <emph rend="underlined">quelque chose</emph> de sa considération, 3, que le 
+               désordre des Finances montera au point, d'amener une nouvelle crise, et par cela même quelque chance favorable aux intèrets de ceux qui 
+               detestent le gouvernement prétendu-republicain de ce pays si malheureux au milieu de ses triomphes. - Mais, si cette entreprise atroce pouvoit 
+               réussir - si, comme l'a dit <rs type="person" ref="#RCW">Lord <emph rend="underlined">Mornington</emph></rs> dans ses beaux vers qu'il a légués 
+               à l'<rs type="place" ref="#plEn">Angleterre</rs>, en allant prendre le gouvernement des <rs type="place" ref="#plIn">Indes</rs>,
+            </p>
+            <lg xml:lang="#lat">
+               <l>versis victoria fatis</l>
+               <l>Annuerit <emph rend="underlined">scelus extremum</emph>, terrâque subactâ</l>
+               <l>Impius oceani imperium foedaverit hostis,</l>
+            </lg>
+            <p>
+               alors - mais l'imagination succombe à l'idée de cet abyme de malheurs.
+            </p>
+         </div>
+         <div n="9" corresp="#vfdi">
+            <p>
+               Je m'apperçois à la fin, que cette lettre s'est prolongée d'une maniére un peu indiscrète. Pardonnez, Monsieur, si j'ai abusé de Votre bonté. 
+               Je n'aurois pas eu le courage de Vous dire plusieurs choses que Vous trouverez dans cette lettre, si elle ne Vous étoit pas transmise par la 
+               voie sûre de l'Ambassade Angloise; et j'ai voulu profiter de l'occasion. Si la franchise, avec laquelle je Vous ai parlé ne vous a pas déplû, 
+               veuillez bien, m'en informer par quelques lignes. Vous ne sauriez croire à quel point m'interessera tout ce qui me viendra de Vous.
+            </p>
+            <p>
+               Agréez l'assurance de la haute considération, avec laquelle j'ai l'honneur d'être,
+            </p>
+         </div>
+         <closer>
+            <salute rend="right">Monsieur</salute>
+            <salute rend="right">Votre trés-humble et très-dévoué</salute>
+            <salute rend="right">serviteur</salute>
+            <signed rend="right">Gentz</signed>
+         </closer>
+      </body>
+      <back>
+         <p>
+            M<span rend="sup">r</span> Gentz <rs type="place" ref="#plBe">Berlin</rs>
+            <date when-iso="1798-03-20">20 mars 98</date>.
+            repd
+         </p>
+      </back>
+      <note xml:id="r3465-1">Auf Bl. 5v folgender Vermerk (vielleicht von der Hand d'Ivernois)</note>
+   </text>
+</TEI>

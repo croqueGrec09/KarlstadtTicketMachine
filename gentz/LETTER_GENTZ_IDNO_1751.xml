@@ -1,0 +1,268 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc xml:id="LETTER_GENTZ_1751">
+         <titleStmt>
+            <title>Friedrich von Gentz an Karl Gustav von Brinckmann, 3. Juli 1801</title>
+            <editor xml:id="edAG">Andreas Gálffy</editor>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <name>Forschungsstelle "Universitätssammlung Friedrich von Gentz"</name>
+               <link target="http://gentz-digital.ub.uni-koeln.de http://www.ub.uni-koeln.de/cdm/singleitem/collection/gentz/id/1750/"/>
+            </publisher>
+            <pubPlace>Cologne</pubPlace>
+            <idno type="Gentz-Edition-Number" n="1751"/>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <country>Sweden</country>
+                  <settlement>Trolle-Ljungby</settlement>
+                  <institution>Archiv des Grafen Wachtmeister</institution>
+                  <repository>Nachlaß Brinckmann, Ausländ. Briefwechsel, Gentz an Brinckmann</repository>
+                  <idno>G 3</idno>
+               </msIdentifier>
+               <msContents>
+                  <summary>
+                     Zu Engeström kann Gentz nicht, weil sein Vater ihn besuchen wird. Brinckmann ließ sich bei Lady Carysfort 
+                     nicht blicken, Gentz glaubt aber, dass es keine Juden oder Gelehrte sind, weshalb sich Brinckmann entfernt, 
+                     sondern solche, denen Gentz gerne den Vortritt lässt. Brinckmann soll Frau von Berg ausrichten, dass Gentz 
+                     am Freitag bei ihr gewesen war.
+                  </summary>
+               </msContents>
+            </msDesc>
+            <listBibl type="preprints">
+               <biblStruct>
+                  <monogr>
+                     <editor>
+                        <persName>
+                           <ref target="http://d-nb.info/gnd/130953075"/>
+                           <forename>Friedrich Carl</forename>
+                           <surname>Wittichen</surname>
+                        </persName>
+                        <persName>
+                           <ref /> <!-- kein GND-Eintrag -->
+                           <forename>Ernst</forename>
+                           <surname>Salzer</surname>
+                        </persName>
+                     </editor>
+                     <title>Briefe von und an Friedrich von Gentz, 4 Bde.</title>
+                     <imprint>
+                        <publisher>Oldenbourg</publisher>
+                        <pubPlace>München, Berlin</pubPlace>
+                        <date>1909-1913</date>
+                     </imprint>
+                     <biblScope unit="volume" n="2">
+                        II
+                     </biblScope>
+                     <biblScope unit="page" from="73" to="74">
+                        Nr. 81
+                     </biblScope>
+                  </monogr>
+               </biblStruct>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Masterarbeit zu Matrikelnummer 5584124</p>
+         </projectDesc>
+      </encodingDesc>
+      <profileDesc>
+         <creation>
+            <date when-iso="1801-07-03">3. Juli 1801</date>
+         </creation>
+        <langUsage>
+           <language ident="d">deutsch</language>
+        </langUsage>
+         <textClass>
+            <keywords scheme="internal"><!-- internal: innerhalb des besagten Briefs -->
+               <term>Brief</term>
+               <term>Engeström</term>
+               <term>Treffen</term>
+               <term>Juden</term>
+            </keywords>
+            <keywords scheme="categorisation"><!-- Sinnabschnittseinteilung - relevant für den Fahrkartenautomaten! -->
+               <term xml:id="kengs">Engeström</term>
+               <term xml:id="bezbl">Beziehungen zu Berlin - Leute</term>
+               <term xml:id="vkgvb">Verhältnis Karl Gustav von Brinckmann</term>
+            </keywords>
+         </textClass>
+         <textDesc>
+            <channel>manuscript</channel>
+            <constitution type="single"/>
+            <derivation type="original"/>
+            <domain type="private"/>
+            <factuality type="fact"/>
+            <interaction type="partial"/>
+            <preparedness type="prepared"/>
+            <purpose type="inform"/>
+         </textDesc>
+         <particDesc>
+            <listPerson>
+               <!-- Sender und Adressat -->
+               <person role="sender" xml:id="Gen">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/118538489"/>
+                     <forename>Friedrich von</forename>
+                     <surname>Gentz</surname>
+                  </persName>
+               </person>
+               <person role="receiver" xml:id="KGvB">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/116519770"/>
+                     <forename>Carl Gustav von</forename>
+                     <surname>Brinckmann</surname>
+                  </persName>
+               </person>
+               <!-- erwähnte Personen -->
+               <person role="named" xml:id="RDCh">
+                  <persName>
+                     <ref />
+                     <forename>Rozalia</forename>
+                     <surname>Drya-Chlapowska</surname>
+                  </persName>
+               </person>
+               <person role="named" xml:id="JFG">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/136428983"/>
+                     <forename>Johann Friedrich</forename>
+                     <surname>Gentze</surname>
+                  </persName>
+               </person>
+               <person role="named" xml:id="EGrv">
+                  <persName>
+                     <ref />
+                     <forename>Elizabeth</forename>
+                     <surname>Grenville</surname>
+                  </persName>
+               </person>
+               <person role="named" xml:id="WLHvS">
+                  <persName>
+                     <ref />
+                     <forename>Wilhelmine Louise Henriette von</forename>
+                     <surname>Saldern</surname>
+                  </persName>
+               </person>
+               <person role="named" xml:id="FCor">
+                  <persName>
+                     <ref />
+                     <forename>Fernando</forename>
+                     <surname>Correa</surname>
+                  </persName>
+               </person>
+               <person role="named" xml:id="EvSchw">
+                  <persName>
+                     <ref />
+                     <forename>Ernst von</forename>
+                     <surname>Schweinitz</surname>
+                  </persName>
+               </person>
+               <person role="named" xml:id="JKvT">
+                  <persName>
+                     <ref />
+                     <forename>Johanna Katharina von</forename>
+                     <surname>Tauentzien</surname>
+                  </persName>
+               </person>
+               <person role="named" xml:id="CFrvB">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/116129654"/>
+                     <forename>Caroline Friederike von</forename>
+                     <surname>Berg</surname>
+                  </persName>
+               </person>
+            </listPerson>
+         </particDesc>
+         <settingDesc>
+            <listPlace>
+               <!-- Start- und Zielort -->
+               <place type="sender" xml:id="plSb">
+                  <country>
+                     <ref target="http://d-nb.info/gnd/4047194-9"/>
+                     <placeName>Preußen</placeName>
+                  </country>
+                  <settlement>
+                     <ref target="http://d-nb.info/gnd/116944-0"/>
+                     <placeName>Schöneberg</placeName>
+                  </settlement>
+               </place>
+               <place type="receiver" xml:id="plBe">
+                  <country>
+                     <ref target="http://d-nb.info/gnd/4047194-9"/>
+                     <placeName>Preußen</placeName>
+                  </country>
+                  <settlement>
+                     <ref target="http://d-nb.info/gnd/4005728-8"/>
+                     <placeName>Berlin</placeName>
+                  </settlement>
+               </place>
+               <!-- erwähnte Orte -->
+            </listPlace>
+         </settingDesc>
+      </profileDesc>
+      <revisionDesc>
+         <change xml:id="init" when-iso="2018-03-08" who="#edAG">Erstauszeichnung und Normierung des Dokumentes im Rahmen der Masterarbeit der Matrikelnummer 5584124</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div n="1" corresp="#kengs">
+            <p>
+               Ich habe <date when-iso="1801-07-02">gestern Abend</date> der 
+               <rs type="person" ref="#RDCh">Frau von Engeström</rs> gesagt, daß ich ihr heute Abend meine Aufwartung machen 
+               würde; ich wußte damals aber nicht, daß <rs type="person" ref="#JFG">mein Vater</rs> beschlossen hatte, mich 
+               heute in <rs type="place" ref="#plSb">Schöneberg</rs> zu besuchen. Da dies eins von den Hindernissen ist, denen 
+               ich nicht füglich Widerstand leisten kan, so muß ich auf jenen Plan, so äußerst lockend er auch war, Verzicht 
+               leisten; und sollte sich Ihre Kanzlerin pp noch daran erinnern, so bitte ich Sie, liebster Freund, ihr meine 
+               Entschuldigung und zugleich mein lebhaftestes Bedauern, vorzutragen.
+            </p>
+         </div>
+         <div n="2" corresp="#bezbl">
+            <p>
+               Was Sie betrift, so sehe ich nun wol, daß Sie für mich verloren sind. Sie sollten heute mit mir bey 
+               <rs type="person" ref="#EGrv">Lady Carysfort</rs> zu Mittag essen. Sie haben es unter dem falschen Vorwande 
+               abgelehnt daß Sie bei <rs type="person" ref="#WLHvS">Frau von Saldern</rs> gebeten wären, da es doch in der 
+               <span xml:lang="fr">notorité publique</span> beruht, daß die p <rs type="person" ref="#WLHvS">von Saldern</rs> 
+               kein Diner, sondern ein entsetzliches Souper giebt, von dem noch dazu alles, was elegant seyn will, sich mit 
+               Schauder <pb/> zurückzieht. <date when-iso="1801-07-02">Gestern Abend</date> ging ich lediglich und allein 
+               <emph rend="underlined">Ihrentwegen</emph> zu <rs type="person" ref="#FCor">Correa</rs>, da ich mich offenbar bei 
+               <rs type="person" ref="#EvSchw">Schweinitz</rs>, wo ich gebeten war, besser amüsiren konnte. (Denn es gab nur 
+               etwa 10 Menschen bei <rs type="person" ref="#FCor">Correa</rs>: und, wollte man sich mit einem unterhalten, so 
+               <emph rend="underlined">verbot</emph> es die <rs type="person" ref="#JKvT">Gräfin Haugwitz</rs>, wie Ihnen 
+               <rs type="person" ref="#RDCh">Frau von Engeström</rs> attestiren wird) - <emph rend="underlined">Sie</emph> aber 
+               waren weit entfernt.
+            </p>
+         </div>
+         <div n="3" corresp="#vkgvb">
+            <p>
+               Das einzige, was mich tröstet, ist, daß ich immer mehr und mehr glaube, daß es <del rend="stroked">xxx</del> 
+               diesmal weder <emph rend="underlined">Juden</emph> noch <emph rend="underlined">Gelehrte</emph> sind, die 
+               <del rend="stroked">Sie</del> mir Ihren Umgang entziehen. Ich glaube, daß ich 
+               <emph rend="underlined">diesmal</emph> Personen nachstehen muß, denen ich gern und willig weiche, deren 
+               Liebenswürdigkeit groß und entschieden ist, die von den <emph rend="underlined">Juden</emph> nichts, und von den 
+               <emph rend="underlined">Gelehrten</emph> nur das an sich haben, was diesen eigentlich ihren Werth 
+               <del rend="stroked">ge</del>geben würde, wenn es sich in ihnen je in seiner Reinigkeit entwickeln könnte. Daß Sie 
+               <pb/> mich <emph rend="stroked">solcher</emph> Personen wegen vernachläßigen, das muß ich Ihnen verzeihen, und 
+               das verzeihe ich Ihnen gern, so hart es auch immer für mich bleibt. Erfahre ich aber je, daß Sie in Ihre alten 
+               Verirrungen zurücksinken, mich schlechter Gesellschaft aufopfern, und an Juden und Judengenossen verschwenden, 
+               was ich ganz anders zu schätzen wißen würde, dann ereilt Sie meine Rache gewiß.
+            </p>
+            <p>
+               Sollten Sie <emph rend="underlined">zufälliger Weise</emph> die <rs type="person" ref="#CFrvB">Frau von Berg</rs> 
+               sehen, so haben Sie doch die Güte, ihr zu sagen, daß ich <date when-iso="1801-06-26">Freitag</date> in ihrem 
+               Hause gewesen bin, um ihr meinen Respekt zu versichern. Und, wenn Sie mich denn gar nicht mehr sehen wollen, so 
+               schreiben Sie mir doch einmal ein Paar Zeilen, und leben Sie wol !
+            </p>
+         </div>
+         <closer>
+            <signed rend="right">Gentz.</signed>
+            <dateline rend="left"><rs type="place" ref="#plSb">Schöneb.</rs> den <date when-iso="1801-07-03">3<span rend="sup">ten</span> July 1801</date></dateline>
+         </closer>
+      </body>
+   </text>
+</TEI>

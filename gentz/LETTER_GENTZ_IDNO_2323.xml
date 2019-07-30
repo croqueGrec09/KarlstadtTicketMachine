@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc xml:id="LETTER_GENTZ_2323">
+         <titleStmt>
+            <title>Friedrich von Gentz an Hugh Elliot, 27. September 1802</title>
+            <editor xml:id="edAG">Andreas Gálffy</editor>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <name>Forschungsstelle "Universitätssammlung Friedrich von Gentz"</name>
+               <link target="http://gentz-digital.ub.uni-koeln.de http://www.ub.uni-koeln.de/cdm/singleitem/collection/gentz/id/2322/"/>
+            </publisher>
+            <pubPlace>Cologne</pubPlace>
+            <idno type="Gentz-Edition-Number" n="2323"/>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <country>United Kingdom</country>
+                  <settlement>Edinburgh</settlement>
+                  <institution>The National Library of Scotland</institution>
+                  <repository>Manuscript Division</repository>
+                  <collection>M. S. 12998</collection>
+                  <idno>Bl. 5-5v</idno>
+               </msIdentifier>
+               <msContents>
+                  <summary>
+                     Einen großen Berg anstehender Briefe, 32 an der Zahl, muss Gentz in den nächsten Tagen abwickeln. Er kündigt 
+                     zudem seine Reise nach London an, und dass er seine 68 écus bald bezahlen wird.
+                  </summary>
+               </msContents>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Masterarbeit zu Matrikelnummer 5584124</p>
+         </projectDesc>
+      </encodingDesc>
+      <profileDesc>
+         <creation>
+            <date when-iso="1802-09-27">27. September 1802</date>
+         </creation>
+        <langUsage>
+           <language ident="f">französisch</language>
+        </langUsage>
+         <textClass>
+            <keywords scheme="internal"><!-- internal: innerhalb des besagten Briefs -->
+               <term>Brief</term>
+               <term>Reise</term>
+               <term>London</term>
+               <term>Schulden</term>
+            </keywords>
+            <keywords scheme="categorisation"><!-- Sinnabschnittseinteilung - relevant für den Fahrkartenautomaten! -->
+               <term xml:id="brb">Bruch mit Berlin</term>
+               <term xml:id="rs">Reise von 1802</term>
+               <term xml:id="gprl">Gentz - p(r)ekuniäre Lage</term>
+            </keywords>
+         </textClass>
+         <textDesc>
+            <channel>manuscript</channel>
+            <constitution type="single"/>
+            <derivation type="original"/>
+            <domain type="private"/>
+            <factuality type="fact"/>
+            <interaction type="partial"/>
+            <preparedness type="prepared"/>
+            <purpose type="inform"/>
+         </textDesc>
+         <particDesc>
+            <listPerson>
+               <!-- Sender und Adressat -->
+               <person role="sender" xml:id="Gen">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/118538489"/>
+                     <forename>Friedrich von</forename>
+                     <surname>Gentz</surname>
+                  </persName>
+               </person>
+               <person role="receiver" xml:id="HEl">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/1075473756"/>
+                     <forename>Hugh</forename>
+                     <surname>Elliot</surname>
+                  </persName>
+               </person>
+               <!-- erwähnte Personen -->
+            </listPerson>
+         </particDesc>
+         <settingDesc>
+            <listPlace>
+               <!-- Start- und Zielort -->
+               <place type="sender" xml:id="plDd">
+                  <country>
+                     <ref target="http://d-nb.info/gnd/4051176-5"/>
+                     <placeName>Sachsen</placeName> 
+                  </country>
+                  <settlement>
+                     <ref target="http://d-nb.info/gnd/4012995-0"/>
+                     <placeName>Dresden</placeName>
+                  </settlement>
+               </place>
+               <!-- erwähnte Orte -->
+               <place type="named" xml:id="plWi">
+                  <country>
+                     <ref target="http://d-nb.info/gnd/4075601-4"/>
+                     <placeName>Erzherzogtum Österreich</placeName>
+                  </country>
+                  <settlement>
+                     <ref target="http://d-nb.info/gnd/4066009-6"/>
+                     <placeName>Wien</placeName>
+                  </settlement>
+               </place>
+               <place type="named" xml:id="plBe">
+                  <country>
+                     <ref target="http://d-nb.info/gnd/4047194-9"/>
+                     <placeName>Preußen</placeName>
+                  </country>
+                  <settlement>
+                     <ref target="http://d-nb.info/gnd/4005728-8"/>
+                     <placeName>Berlin</placeName>
+                  </settlement>
+               </place>
+               <place type="named" xml:id="plLo">
+                  <country>
+                     <ref target="http://d-nb.info/gnd/4022153-2"/>
+                     <placeName>Vereinigtes Königreich</placeName>                
+                  </country>
+                  <settlement>
+                     <ref target="http://d-nb.info/gnd/4074335-4"/>
+                     <placeName>London</placeName>
+                  </settlement>
+               </place>
+               <place type="named" xml:id="plEn">
+                  <country>
+                     <ref target="http://d-nb.info/gnd/4014770-8"/>
+                     <placeName>England</placeName>
+                  </country>
+               </place>
+            </listPlace>
+         </settingDesc>
+      </profileDesc>
+      <revisionDesc>
+         <change xml:id="init" when-iso="2018-03-11" who="#edAG">Erstauszeichnung und Normierung des Dokumentes im Rahmen der Masterarbeit der Matrikelnummer 5584124</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div n="1" corresp="#brb">
+            <p>
+               Bon jour, bon jour, Monsieur Elliot ! - Vous me voyez de nouveau devant Vous, poussé, tourmenté, rongé par toutes les 
+               inquiétudes. Savez-Vous, qu'ayant à présent fait mon calcul, je vois que j'ai 
+               <emph rend="underlined">32 lettres</emph> à écrire tant à <rs type="place" ref="#plWi">Vienne</rs> que surtout à 
+               <rs type="place" ref="#plBe">Berlin</rs>, qui toutes doivent être prêtes avant notre départ. Quelle affreuse idée que 
+               de les écrire à pure perte; et pourtant si je ne commence pas <del rend="stroked">par</del> au plus tard 
+               <date when-iso="1802-09-28"><emph rend="underlined">demain matin</emph></date>, je ne les finirai jamais.
+            </p>
+         </div>
+         <div n="2" corresp="#rs">
+            <p>
+               Permettez moi donc de Vous prier, de Vous conjurer encore une fois, de ne plus Vous écarter de Votre plan 
+               d'<date when-iso="1802-09-26">hier</date> et de me donner la pleine et entière assurance, que 
+               <emph rend="underlined"><date when-iso="1802-10-02">Samedi matin</date> à 8 heures</emph> nous monterons dans la 
+               voiture, s'il ne Vous arrive pas des obstacles <emph rend="underlined">imprévus</emph>, <pb/> mais dont aucun ne 
+               pourra naitre de <rs type="place" ref="#plDd"><emph rend="underlined">Dresde</emph></rs>. Dès que Vous me donnez 
+               Votre parole, ainsi conçue et modifiée je serai tranquille et heureux.
+            </p>
+         </div>
+         <div n="3" corresp="#gprl">
+            <p>
+               Pour ce qui est des 68 écus que je Vous dois, je Vous les payerai demain á l'arrivée de la poste de 
+               <rs type="place" ref="#plBe">Berlin</rs> qui m'apportera quelques centaines d'écus. J'espère commencer le voyage avec 
+               300 ducats; je trouverai à <rs type="place" ref="#plLo">Londres</rs> ce qui m'en faudra d'avantage.
+            </p>
+         </div>
+         <closer>
+            <salute rend="right">Bon jour, Madame Elliot !</salute>
+            <signed rend="right">Gentz.</signed>
+         </closer>
+      </body>
+      <back>
+         <p>
+            A Monsieur
+            Monsieur Elliot pp
+            Ministre d'<rs type="place" ref="#plEn">Angleterre</rs>
+         </p>
+      </back>
+      <note xml:id="r2323-1">Adresse auf Seite x</note>
+   </text>
+</TEI>

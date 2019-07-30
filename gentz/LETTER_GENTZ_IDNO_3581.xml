@@ -1,0 +1,361 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc xml:id="LETTER_GENTZ_3581">
+         <titleStmt>
+            <title>Friedrich von Gentz an Johann Wilhelm von Archenholtz, 10. März 1796</title>
+            <editor xml:id="edAG">Andreas Gálffy</editor>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <name>Forschungsstelle "Universitätssammlung Friedrich von Gentz"</name>
+               <link target="http://gentz-digital.ub.uni-koeln.de http://www.ub.uni-koeln.de/cdm/singleitem/collection/gentz/id/3580/"/>
+            </publisher>
+            <pubPlace>Cologne</pubPlace>
+            <idno type="Gentz-Edition-Number" n="3581"/>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <country>Germany</country>
+                  <settlement>Berlin</settlement>
+                  <institution>Staatsbibliothek zu Berlin, Preußischer Kulturbesitz</institution>
+                  <repository>Handschriftenabteilung / Literaturarchiv</repository>
+                  <collection>Sammlung Autografia</collection>
+                  <idno>Gen 12</idno>
+               </msIdentifier>
+               <msContents>
+                  <summary>
+                     François d'Ivernois versorgt Gentz, für ihn unerklärlicherweise, mit allen möglichen Artikeln - so auch eines, 
+                     das eine Replik auf die Schrift "Tableau de l'Europe en Novembre 1795" von Calonne und diese Schrift von 
+                     Calonne erbittet sich Gentz über Archenholtz. Er soll sie an Vieweg schicken. Im Postscript kritisiert Gentz 
+                     das Mémoire de la Duchesse de Polignac.
+                  </summary>
+               </msContents>
+            </msDesc>
+            <listBibl type="defRep">
+               <biblStruct xml:id="p3581-1" corresp="HtT-0000">
+                  <monogr>
+                     <author>
+                        <persName>
+                           <ref target="http://d-nb.info/gnd/100297676"/>
+                           <forename>Francis d'</forename>
+                           <surname>Ivernois</surname>
+                        </persName>
+                     </author>
+                     <title>État des finances et des ressources de la République Française au 1er Janvier, 1796</title>
+                     <imprint>
+                        <pubPlace>London</pubPlace>
+                        <publisher>P. Elmsley, J. Debrett, J. De Boffe, J. Sewell</publisher>
+                        <date>25 Janvier, 1796</date>
+                     </imprint>
+                  </monogr>
+               <ptr target="https://babel.hathitrust.org/cgi/pt?id=ien.35556009780552;view=1up;seq=5"/></biblStruct>
+               <biblStruct xml:id="p3581-2" corresp="HtT-0001">
+                  <monogr>
+                     <author>
+                        <persName>
+                           <ref target="http://d-nb.info/gnd/118675362"/>
+                           <forename>Charles Alexandre de</forename>
+                           <surname>Calonne</surname>
+                        </persName>
+                     </author>
+                     <title>Tableau de l'europe en novembre 1795</title>
+                     <imprint>
+                        <pubPlace>London</pubPlace>
+                        <publisher>J. de Boffe</publisher>
+                        <date>1795</date>
+                     </imprint>
+                  </monogr>
+               <ptr target="https://babel.hathitrust.org/cgi/pt?id=njp.32101059970457;view=1up;seq=7"/></biblStruct>
+               <biblStruct xml:id="p3581-3" corresp="GBk-0030">
+                  <monogr>
+                     <title>Europäische Annalen</title>
+                     <imprint>
+                        <pubPlace>Tübingen</pubPlace>
+                        <publisher>J. G. Cotta</publisher>
+                        <date>1796</date>
+                     </imprint>
+                     <biblScope unit="volume" n="1">
+                        Erster Band
+                     </biblScope>
+                  </monogr>
+               <ptr target="https://books.google.de/books?id=zrJJAAAAcAAJ"/></biblStruct>
+               <biblStruct xml:id="p3581-4" corresp="GBk-0030">
+                  <analytic>
+                     <author>
+                        <persName>
+                           <ref target="http://d-nb.info/gnd/104314699"/>
+                           <forename>Ernst Ludwig</forename>
+                           <surname>Posselt</surname>
+                        </persName>
+                     </author>
+                     <title>Uiber die jezige Regierung in Frankreich und deren Festigkeit</title>
+                  </analytic>
+                  <monogr>
+                     <author>
+                        <persName>
+                           <ref target="http://d-nb.info/gnd/104314699"/>
+                           <forename>Ernst Ludwig</forename>
+                           <surname>Posselt</surname>
+                        </persName>
+                     </author>
+                     <title>Europäische Annalen</title>
+                     <imprint>
+                        <pubPlace>Tübingen</pubPlace>
+                        <publisher>J. G. Cotta</publisher>
+                        <date>1796</date>
+                     </imprint>
+                     <biblScope unit="volume" n="1">
+                        Erster Band
+                     </biblScope>
+                     <biblScope unit="page" from="113" to="134">
+                        S. 113-134
+                     </biblScope>
+                  </monogr>
+               <ptr target="https://books.google.de/books?id=zrJJAAAAcAAJ"/></biblStruct>
+               <biblStruct xml:id="p3581-5" corresp="Arc-0004">
+                  <monogr>
+                     <author>
+                        <persName>
+                           <ref target="http://d-nb.info/gnd/1018548289"/>
+                           <forename>Diane de</forename>
+                           <surname>Polignac</surname>
+                        </persName>
+                     </author>
+                     <title>Mémoires sur la vie et le caractere de Mme la duchesse de Polignac</title>
+                     <imprint>
+                        <pubPlace>London</pubPlace>
+                        <publisher>J. Debrett</publisher>
+                        <date>1796</date>
+                     </imprint>
+                  </monogr>
+               <ptr target="https://archive.org/details/mmoiressurlaviee00poli"/></biblStruct>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Masterarbeit zu Matrikelnummer 5584124</p>
+         </projectDesc>
+      </encodingDesc>
+      <profileDesc>
+         <creation>
+            <date when-iso="1796-03-10">10. März 1796</date>
+         </creation>
+        <langUsage>
+           <language ident="d">deutsch</language>
+        </langUsage>
+         <textClass>
+            <keywords scheme="internal"><!-- internal: innerhalb des besagten Briefs -->
+               <term>Brief</term>
+               <term>François d'Ivernois</term>
+               <term>Calonne</term>
+               <term>Büchersendung</term>
+            </keywords>
+            <keywords scheme="categorisation"><!-- Sinnabschnittseinteilung - relevant für den Fahrkartenautomaten! -->
+               <term xml:id="vfdi">Verhältnis François d'Ivernois</term>
+               <term xml:id="frv">Französische Revolution</term>
+               <term xml:id="lvm">Literatur vermischt</term>
+            </keywords>
+         </textClass>
+         <textDesc>
+            <channel>manuscript</channel>
+            <constitution type="frags"/>
+            <derivation type="original"/>
+            <domain type="private"/>
+            <factuality type="fact"/>
+            <interaction type="partial"/>
+            <preparedness type="prepared"/>
+            <purpose type="inform"/>
+         </textDesc>
+         <particDesc>
+            <listPerson>
+               <!-- Sender und Adressat -->
+               <person role="sender" xml:id="Gen">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/118538489"/>
+                     <forename>Friedrich von</forename>
+                     <surname>Gentz</surname>
+                  </persName>
+               </person>
+               <person role="receiver" xml:id="JWvA">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/118503839"/>
+                     <forename>Johann Wilhelm von</forename>
+                     <surname>Archenholz</surname>
+                  </persName>
+               </person>
+               <!-- erwähnte Personen -->
+               <person role="named" xml:id="FdI">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/100297676"/>
+                     <forename>Francis d'</forename>
+                     <surname>Ivernois</surname>
+                  </persName>
+               </person>
+               <person role="named" xml:id="Cal">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/118675362"/>
+                     <forename>Charles Alexandre de</forename>
+                     <surname>Calonne</surname>
+                  </persName>
+               </person>
+               <person role="named" xml:id="Pos">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/104314699"/>
+                     <forename>Ernst Ludwig</forename>
+                     <surname>Posselt</surname>
+                  </persName>
+               </person>
+               <person role="named" xml:id="Fch">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/1037541707"/>
+                     <forename>Pierre François</forename>
+                     <surname>Fauche</surname>
+                  </persName>
+               </person>
+               <person role="named" xml:id="Hfm">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/116950781"/>
+                     <forename>Benjamin Gottlob</forename>
+                     <surname>Hoffmann</surname>
+                  </persName>
+               </person>
+               <person role="named" xml:id="FVW">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/119049546"/>
+                     <forename>Friedrich</forename>
+                     <surname>Vieweg</surname>
+                  </persName>
+               </person>
+               <person role="named" xml:id="DdP">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/100088961"/>
+                     <forename>Yolande-Martine-Gabrielle de Polastron de</forename>
+                     <surname>Polignac</surname>
+                     <roleName type="office">Herzogin</roleName>
+                  </persName>
+               </person>
+            </listPerson>
+         </particDesc>
+         <settingDesc>
+            <listPlace>
+               <!-- Start- und Zielort -->
+               <place type="sender" xml:id="plBe">
+                  <country>
+                     <ref target="http://d-nb.info/gnd/4047194-9"/>
+                     <placeName>Preußen</placeName>
+                  </country>
+                  <settlement>
+                     <ref target="http://d-nb.info/gnd/4005728-8"/>
+                     <placeName>Berlin</placeName>
+                  </settlement>
+               </place>
+               <place type="receiver" xml:id="plHa">
+                  <country>
+                     <ref target="http://d-nb.info/gnd/4023118-5"/>
+                     <placeName>Hamburg</placeName>
+                  </country>
+                  <settlement>
+                     <ref target="http://d-nb.info/gnd/4023118-5"/>
+                     <placeName>Hamburg</placeName>
+                  </settlement>
+               </place>
+               <!-- erwähnte Orte -->
+               <place type="named" xml:id="plLo">
+                  <country>
+                     <ref target="http://d-nb.info/gnd/4022153-2"/>
+                     <placeName>Vereinigtes Königreich</placeName>                
+                  </country>
+                  <settlement>
+                     <ref target="http://d-nb.info/gnd/4074335-4"/>
+                     <placeName>London</placeName>
+                  </settlement>
+               </place>
+               <place type="named" xml:id="plFr">
+                  <country>
+                     <ref target="http://d-nb.info/gnd/4018145-5"/>
+                     <placeName>Frankreich</placeName>  
+                  </country>
+               </place>
+               <place type="named" xml:id="plGf">
+                  <country>
+                     <ref target="http://d-nb.info/gnd/1085175626"/>
+                     <placeName>Schweiz</placeName>  
+                  </country>
+                  <settlement>
+                     <ref target="http://d-nb.info/gnd/4020137-5"/>
+                     <placeName>Genf</placeName>
+                  </settlement>
+               </place>
+            </listPlace>
+         </settingDesc>
+      </profileDesc>
+      <revisionDesc>
+         <change xml:id="init" when-iso="2018-02-18" who="#edAG">Erstauszeichnung und Normierung des Dokumentes im Rahmen der Masterarbeit der Matrikelnummer 5584124</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div n="1" corresp="#vfdi">
+            <p>
+               Wenn Sie meine vielfältige Anfragen und Bitten noch nicht satt sind - 
+               <span xml:lang="lat">ecce iterum Crispinus</span> ! -
+            </p>
+            <p>
+               Der durch ältre und neuere Schriften Ihnen gewiß hinlänglich bekannte <rs type="person" ref="#FdI">D'Ivernois</rs> in 
+               <rs type="place" ref="#plLo">London</rs> ist seit einiger Zeit auf den Gedanken gekommen, mir alles was er über 
+               Politik ppp schreibt, zu übersenden, ohne daß ich mir auf irgend eine Art den Grund dieser Höflichkeit erklären, oder 
+               auch nur begreifen könnte, woher er, der so viel ich erfahren, nicht einmal deutsch versteht, 
+               <add place="above">von</add> meinem Nahmen und meiner Existenz etwas weiß.
+            </p>
+         </div>
+         <div n="2" corresp="#frv">
+            <p>
+               Das Faktum ist indessen, daß ich auf diese Weise in Zeit von einem Jahre 6 mit großer Eleganz gedruckte, übrigens, 
+               obgleich oft einseitige, doch keinesweges uninteressante, und durchgehends vortreflich geschriebne Piecen über 
+               <rs type="place" ref="#plFr">Frankreich</rs> und <rs type="place" ref="#plGf">Genf</rs> von ihm erhalten habe. Die 
+               letzte die ich vor ungefähr 14 Tagen erhielt, heißt 
+               <rs type="citation" ref="#p3581-1">Etat des Finances de la Republique Francaise. Au 1er Janvier 1796</rs> - und ist 
+               eine Replik auf einen Angriff von <rs type="person" ref="#Cal">Calonne</rs>, der Anfangs im Courier de <pb/> Londres 
+               gestanden hat, nachher aber unter dem Titel: 
+               <rs type="citation" ref="#p3581-2"><emph rend="underlined">Tableau de l'Europe en Novembre 1795</emph></rs> besonders 
+               erschienen ist. Diese letztre Schrift (wahrscheinlich dieselbe, woraus <rs type="person" ref="#Pos">Posselt</rs> in 
+               <rs type="citation" ref="#p3581-3">seinen Annalen</rs> das 
+               <rs type="citation" ref="#p3581-4">wichtige Stück über die Assignate</rs> geliefert hat) wünschte ich nun äußerst, zu 
+               haben. Ich wage es aber nicht geradezu an einen Buchhändler zu schreiben, weil 
+               <rs type="person" ref="#Fch">Fauche</rs> unter eben diesem Titel <emph rend="underlined">mehrere</emph> Schriften 
+               angekündigt hat, und ich also sehr leicht jede andre eher als die von <rs type="person" ref="#Cal">Calonne</rs> die 
+               ich gerade haben will, erhalten mögte.
+            </p>
+            <p>
+               Meine ergebenste Bitte ist also die, daß Sie Sich erkundigen mögten, ob die 
+               <rs type="person" ref="#Cal">Calonne</rs>sche <rs type="citation" ref="#p3581-2">Schrift</rs> in 
+               <rs type="place" ref="#plHa">Hamburg</rs> zu haben ist, und <span xml:lang="lat">in casu quod sic</span> nur gleich 
+               <rs type="person" ref="#Hfm">Herrn Buchhändler Hoffmann</rs> bäten, daß er Sie mit nächster Gelegenheit (nicht etwa 
+               durch die <emph rend="underlined">Megse</emph>, sondern allenfalls mit der fahrenden Post) an 
+               <rs type="person" ref="#FVW">Vieweg</rs> alhier für mich absendete.
+            </p>
+            <p>
+               Verzeihung und fortdauernde Gewogenheit
+            </p>
+         </div>
+         <closer>
+            <salute rend="right">Ihrem</salute>
+            <dateline rend="left"><rs type="person" ref="#plBe">Berlin</rs> den <date when-iso="1796-03-10">10<span rend="sup">ten</span> März</date></dateline>
+            <dateline rend="left"><date when-iso="1796-03-10">1796</date>.</dateline>
+            <signed rend="right">Gentz.</signed>
+         </closer>
+         <postscript corresp="#lvm">
+            <p>
+               Von den <span xml:lang="fr"><rs type="citation" ref="#p3581-5">Memoires</rs> de la <rs type="person" ref="#DdP">Duchesse de Polignac</rs></span> 
+               haben Sie mir noch lange nicht genug schlechtes gesagt. Ein solcher Schund ist mir doch auch selten vorgekommen.
+            </p>
+         </postscript>
+      </body>
+   </text>
+</TEI>

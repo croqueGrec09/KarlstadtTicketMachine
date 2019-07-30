@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc xml:id="LETTER_GENTZ_0763">
+         <titleStmt>
+            <title>Friedrich von Gentz an William Pitt, 12. Dezember 1802</title>
+            <editor xml:id="edAG">Andreas Gálffy</editor>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <name>Forschungsstelle "Universitätssammlung Friedrich von Gentz"</name>
+               <link target="http://gentz-digital.ub.uni-koeln.de http://www.ub.uni-koeln.de/cdm/singleitem/collection/gentz/id/762/"/>
+            </publisher>
+            <pubPlace>Cologne</pubPlace>
+            <idno type="Gentz-Edition-Number" n="0763"/>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <country>unknown</country>
+                  <idno>private property</idno>
+               </msIdentifier>
+               <msContents>
+                  <summary>
+                     Am vorherigen Freitag hat Gentz eine Rede zu der aufstrebenden (finanziellen) Lage Großbritanniens gehört. Die 
+                     Aussicht, dass durch die Größe Englands der Friede und das Gleichgewicht Europas bewahrt werden könne, berührt 
+                     Gentz zutiefst. Da bedauert er es, dass er Pitt eine persönliche Angelegenheit zuträgt, die er jedoch nicht 
+                     weiter erörtert.
+                  </summary>
+               </msContents>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Masterarbeit zu Matrikelnummer 5584124</p>
+         </projectDesc>
+      </encodingDesc>
+      <profileDesc>
+         <creation>
+            <date when-iso="1802-12-12">12. Dezember 1802</date>
+         </creation>
+        <langUsage>
+           <language ident="f">französisch</language>
+        </langUsage>
+         <textClass>
+            <keywords scheme="internal"><!-- internal: innerhalb des besagten Briefs -->
+               <term>Brief</term>
+               <term>Pitt</term>
+               <term>Rede</term>
+               <term>Finanzen</term>
+            </keywords>
+            <keywords scheme="categorisation"><!-- Sinnabschnittseinteilung - relevant für den Fahrkartenautomaten! -->
+               <term xml:id="keng">England</term>
+               <term xml:id="bezl">Beziehungen zu London</term>
+            </keywords>
+         </textClass>
+         <textDesc>
+            <channel>manuscript</channel>
+            <constitution type="single"/>
+            <derivation type="original"/>
+            <domain type="private"/>
+            <factuality type="fact"/>
+            <interaction type="partial"/>
+            <preparedness type="prepared"/>
+            <purpose type="inform"/>
+         </textDesc>
+         <particDesc>
+            <listPerson>
+               <!-- Sender und Adressat -->
+               <person role="sender" xml:id="Gen">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/118538489"/>
+                     <forename>Friedrich von</forename>
+                     <surname>Gentz</surname>
+                  </persName>
+               </person>
+               <person role="receiver" xml:id="Pitt">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/118792393"/>
+                     <forename>William</forename>
+                     <surname>Pitt</surname>
+                  </persName>
+               </person>
+               <!-- erwähnte Personen -->
+               <person role="named" xml:id="HAS">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/116007362"/>
+                     <forename>Henry Addington</forename>
+                     <surname>Sidmouth</surname>
+                  </persName>
+               </person>
+            </listPerson>
+         </particDesc>
+         <settingDesc>
+            <listPlace>
+               <!-- Start- und Zielort -->
+               <place type="sender" xml:id="plLo">
+                  <country>
+                     <ref target="http://d-nb.info/gnd/4022153-2"/>
+                     <placeName>Vereinigtes Königreich</placeName>                
+                  </country>
+                  <settlement>
+                     <ref target="http://d-nb.info/gnd/4074335-4"/>
+                     <placeName>London</placeName>
+                  </settlement>
+               </place>
+               <!-- erwähnte Orte -->
+               <place type="named" xml:id="plEu">
+                  <geogName type="continent">
+                     <ref target="http://d-nb.info/gnd/4015701-5"/>
+                     <placeName>Europa</placeName>
+                  </geogName>
+               </place>
+               <place type="named" xml:id="plEn">
+                  <country>
+                     <ref target="http://d-nb.info/gnd/4022153-2"/>
+                     <placeName>England</placeName>
+                  </country>
+               </place>
+            </listPlace>
+         </settingDesc>
+      </profileDesc>
+      <revisionDesc>
+         <change xml:id="init" when-iso="2018-03-11" who="#edAG">Erstauszeichnung und Normierung des Dokumentes im Rahmen der Masterarbeit der Matrikelnummer 5584124</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div n="1" corresp="#keng">
+            <p>
+               La nouvelle de l'effet étonnant que le discours de <date when-iso="1802-12-10">Vendredi</date> a produit sur l'état 
+               des fonds publics a complété l'impression profonde que ce discours avoit faite sur moi. D'avoir assisté à la 
+               proclamation solemnelle d'une si haute et ravissante prospérité - d'avoir senti directement - et je m'enhardirois 
+               presque jusqu'à dire - d'avoir senti comme réprésentant dans cette auguste séance ce qu'il y a encore de principes de 
+               bon sens et de loyauté sur le continent de <rs type="place" ref="#plEu">l'Europe</rs> - d'avoir saisi et senti comme 
+               tel les réflexions que <rs type="person" ref="#HAS">Monsieur Addington</rs> a faites sur la liaison intime entre la 
+               grandeur croissante de <rs type="place" ref="#plEn">l'Angleterre</rs> et les intérèts bien entendus de toutes les 
+               nations - d'avoir été dans cette même séance, et par l'homme même qui, malgré sa respectable modestie, a une part si 
+               grande et si glorieuse à tous ces beaux résultats, favorisé de tout ce qui pouvoit me faciliter les moyens d'en tirer 
+               profit pour mon instruction et pour celle de mes contemporains - d'avoir été enfin admis au diner qui a fini cette 
+               belle journée - voilà, Monsieur, des circonstances, qui graveront <pb/> bien profondément dans mon coeur la mémoire 
+               d'un des jours les plus remarquables de ma vie; et quand je pense, combien le récit de cette mémorable séance 
+               rélévera dans toute les parties de la terre les éspérances, le courage, et la confiance des amis de 
+               <rs type="place" ref="#plEn">l'Angleterre</rs> et du bien; <del rend="stroked">xxx</del> qu'en ranimant les forces 
+               éteintes, et rafraichissant les esprits fatigués, le tableau de la force et de la prospérité de ce pays contribuera 
+               cependant plus que toutes les armées et de <rs type="place" ref="#plEu">l'Europe</rs> à maintenir la paix, et à 
+               contenir <add place="above">les</add> dévastateurs de la terre - quand je réunis tout cela dans mes pensées et dans 
+               mes sentimens - car je puis dire avec vérité que <del rend="stroked">je</del> j'en suis encore plus 
+               <emph rend="underlined">touché</emph>, qu'<emph rend="underlined">étonné</emph> - il me semble que je ne puis pas 
+               trouver des termes pour Vous exprimer toute la reconnoissance qui m'a inspirée la bonté et la bienveillance si 
+               distinguée que Vous m'avez accordée.
+            </p>
+         </div>
+         <div n="2" corresp="#bezl">
+            <p>
+               Après avoir parti de ces grands objets, j'ai honte de traiter un instant a ce qui m'est personnel, et je rejetterois 
+               loins, très-loin de moi tout ce qui y a rapport, si les circonstances particulieres dans lesquelles je me trouve - 
+               ces mêmes circonstances qui hélàs ! - m'arrachent à ce séjour heureux, - ne me forcoient à désirer le dénouement de 
+               mes affaires dans le plus court espace de tems possible. Je m'en rends à Vous avec la confiance illimitée avec 
+               laquelle je ne cesserai d'être
+            </p>
+         </div>
+         <closer>
+            <salute rend="right">Monsieur</salute>
+            <salute rend="right">Votre très-dévoué</salute>
+            <salute rend="right">serviteur</salute>
+            <dateline rend="left">Ce <date when-iso="1802-12-12">Dimanche 12 Decembre 1802</date></dateline>
+            <signed rend="right">Gentz.</signed>
+         </closer>
+      </body>
+   </text>
+</TEI>

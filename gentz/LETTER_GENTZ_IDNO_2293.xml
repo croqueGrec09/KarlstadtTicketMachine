@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc xml:id="LETTER_GENTZ_2293">
+         <titleStmt>
+            <title>Friedrich von Gentz an Karl Gustav von Brinckmann, 17. Oktober 1801</title>
+            <editor xml:id="edAG">Andreas Gálffy</editor>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <name>Forschungsstelle "Universitätssammlung Friedrich von Gentz"</name>
+               <link target="http://gentz-digital.ub.uni-koeln.de http://www.ub.uni-koeln.de/cdm/singleitem/collection/gentz/id/2292/"/>
+            </publisher>
+            <pubPlace>Cologne</pubPlace>
+            <idno type="Gentz-Edition-Number" n="2293"/>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <country>Sweden</country>
+                  <settlement>Trolle-Ljungby</settlement>
+                  <institution>Archiv des Grafen Wachtmeister</institution>
+                  <repository>Nachlaß Brinckmann, Ausländ. Briefwechsel</repository>
+                  <collection>2. Teil</collection>
+                  <idno>Bl. 153</idno>
+               </msIdentifier>
+               <msContents>
+                  <summary>
+                     Am Abend möchte Gentz mit Brinckmann zu Levy gehen und Frau von Arnstein sehen. Brinckmann soll dies nicht 
+                     abschlagen, wie die Leihe des Rammlers. Gentz möchte zudem wissen, ob er am folgenden Abend bei Brinckmann 
+                     gebeten ist.
+                  </summary>
+               </msContents>
+            </msDesc>
+            <listBibl type="defRep">
+               <biblStruct xml:id="p2293-1" corresp="GBk-0070">
+                  <monogr>
+                     <author>
+                        <persName>
+                           <ref target="http://d-nb.info/gnd/119059614"/>
+                           <forename>Karl Wilhelm</forename>
+                           <surname>Ramler</surname>
+                        </persName>
+                     </author>
+                     <title>Lyrische Gedichte</title>
+                     <imprint>
+                        <pubPlace>Berlin</pubPlace>
+                        <publisher>Johann Thomas Edlen von Trattnern</publisher>
+                        <date>1783</date>
+                     </imprint>
+                  </monogr>
+                  <ptr target="https://books.google.de/books?id=imMWAQAAMAAJ"/>
+               </biblStruct>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Masterarbeit zu Matrikelnummer 5584124</p>
+         </projectDesc>
+      </encodingDesc>
+      <profileDesc>
+         <creation>
+            <date when-iso="1801-10-17">17. Oktober 1801</date>
+         </creation>
+        <langUsage>
+           <language ident="d">deutsch</language>
+        </langUsage>
+         <textClass>
+            <keywords scheme="internal"><!-- internal: innerhalb des besagten Briefs -->
+               <term>Billet</term>
+               <term>Rammler</term>
+               <term>Treffen</term>
+            </keywords>
+            <keywords scheme="categorisation"><!-- Sinnabschnittseinteilung - relevant für den Fahrkartenautomaten! -->
+               <term xml:id="bezbl">Beziehungen zu Berlin - Leute</term>
+               <term xml:id="kram">Rammler</term>
+               <term xml:id="vkgvb">Verhältnis Karl Gustav von Brinckmann</term>
+            </keywords>
+         </textClass>
+         <textDesc>
+            <channel>manuscript</channel>
+            <constitution type="single"/>
+            <derivation type="original"/>
+            <domain type="private"/>
+            <factuality type="fact"/>
+            <interaction type="partial"/>
+            <preparedness type="prepared"/>
+            <purpose type="inform"/>
+         </textDesc>
+         <particDesc>
+            <listPerson>
+               <!-- Sender und Adressat -->
+               <person role="sender" xml:id="Gen">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/118538489"/>
+                     <forename>Friedrich von</forename>
+                     <surname>Gentz</surname>
+                  </persName>
+               </person>
+               <person role="receiver" xml:id="KGvB">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/116519770"/>
+                     <forename>Carl Gustav von</forename>
+                     <surname>Brinckmann</surname>
+                  </persName>
+               </person>
+               <!-- erwähnte Personen -->
+               <person role="named" xml:id="RVh">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/118626175"/>
+                     <forename>Rahel</forename>
+                     <surname>Varnhagen</surname>
+                  </persName>
+               </person>
+               <person role="named" xml:id="FvA">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/118504347" />
+                     <forename>Fanny von</forename>
+                     <surname>Arnstein</surname>
+                  </persName>
+               </person>
+            </listPerson>
+         </particDesc>
+         <settingDesc>
+            <listPlace>
+               <!-- Start- und Zielort -->
+               <place type="sender" xml:id="plBe">
+                  <country>
+                     <ref target="http://d-nb.info/gnd/4047194-9"/>
+                     <placeName>Preußen</placeName>
+                  </country>
+                  <settlement>
+                     <ref target="http://d-nb.info/gnd/4005728-8"/>
+                     <placeName>Berlin</placeName>
+                  </settlement>
+               </place>
+               <!-- erwähnte Orte -->
+            </listPlace>
+         </settingDesc>
+      </profileDesc>
+      <revisionDesc>
+         <change xml:id="init" when-iso="2018-03-09" who="#edAG">Erstauszeichnung und Normierung des Dokumentes im Rahmen der Masterarbeit der Matrikelnummer 5584124</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div n="1" corresp="#bezbl">
+            <p>
+               Ich mögte wohl heute Abend <emph rend="underlined">mit Ihnen</emph> zu 
+               <rs type="person" ref="#RVh">Madame Levy</rs> gehen, um die <rs type="person" ref="#FvA">Frau von Arnstein</rs> 
+               einmal zu sehen. Wollen Sie dies auch, so komme ich zu Wagen Sie abholen, und zwar so gegen 7 Uhr; denn länger 
+               als bis gegen 9 Uhr kan ich nicht bleiben.
+            </p>
+         </div>
+         <div n="2" corresp="#kram">
+            <p>
+               Schlagen Sie mir es nicht ab, wie den 
+               <rs type="citation" ref="#p2293-1"><emph rend="underlined">Rammler</emph></rs>, den Sie mir nicht leihen wollen.
+            </p>
+         </div>
+         <div n="3" corresp="#vkgvb">
+            <p>
+               Auch mögte ich wißen, ob ich <date when-iso="1801-10-18">morgen Abend</date> bei Ihnen gebeten bin oder nicht; 
+               denn, da ich höre, daß morgen nur ein engrer Ausschuß sich versammelt, so wünschte ich bestimmte Autorisation.
+            </p>
+         </div>
+         <closer>
+            <signed rend="right">Gentz</signed>
+            <dateline rend="right">den <date when-iso="1801-10-17">17 8bre 1801</date></dateline>
+         </closer>
+      </body>
+   </text>
+</TEI>

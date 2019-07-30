@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc xml:id="LETTER_GENTZ_2725">
+         <titleStmt>
+            <title>Friedrich von Gentz an Friedrich Vieweg, 10. Januar 1799</title>
+            <editor xml:id="edAG">Andreas Gálffy</editor>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <name>Forschungsstelle "Universitätssammlung Friedrich von Gentz"</name>
+               <link target="http://gentz-digital.ub.uni-koeln.de http://www.ub.uni-koeln.de/cdm/singleitem/collection/gentz/id/2724/"/>
+            </publisher>
+            <pubPlace>Cologne</pubPlace>
+            <idno type="Gentz-Edition-Number" n="2725"/>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <country>Germany</country>
+                  <settlement>Wiesbaden</settlement>
+                  <institution>Vieweg-Verlagsarchiv</institution>
+                  <repository>Briefsammlung 311 G: Gentz-Briefe</repository>
+                  <idno>Nr. 91</idno>
+               </msIdentifier>
+               <msContents>
+                  <summary>
+                     Sobald die Anweisung angekommen ist, wird Gentz sie sofort erstatten. Gentz schickt den Rest der ersten Hälfte 
+                     der Februarausgabe, kann aber unmöglich bis Samstag weiter liefern. Spätestens zum 20. Januar 1799 will er das 
+                     ganze Manuskript des am 1. Februar erscheinenden Stückes einreichen. Im Postscript eine Erinnerung an die 
+                     Zeitungen.
+                  </summary>
+               </msContents>
+            </msDesc>
+            <listBibl type="defRep">
+               <biblStruct xml:id="p2725-1" corresp="GBk-0042">
+                  <monogr>
+                     <editor>
+                        <persName>
+                           <ref target="http://d-nb.info/gnd/118538489"/>
+                           <forename>Friedrich von</forename>
+                           <surname>Gentz</surname>
+                        </persName>
+                     </editor>
+                     <title>Historisches Journal</title>
+                     <imprint>
+                        <publisher>Friedrich Vieweg dem ältern</publisher>
+                        <pubPlace>Berlin</pubPlace>
+                        <date>1799</date>
+                     </imprint>
+                  </monogr>
+                  <ptr target="https://books.google.de/books?id=YU5BAAAAcAAJ"/>
+               </biblStruct>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Masterarbeit zu Matrikelnummer 5584124</p>
+         </projectDesc>
+      </encodingDesc>
+      <profileDesc>
+         <creation>
+            <date when-iso="1799-01-10">10. Januar 1799</date>
+         </creation>
+        <langUsage>
+           <language ident="d">deutsch</language>
+        </langUsage>
+         <textClass>
+            <keywords scheme="internal"><!-- internal: innerhalb des besagten Briefs -->
+               <term>Billet</term>
+               <term>Journal historique</term>
+               <term>Manuskript</term>
+               <term>Zeitungen</term>
+            </keywords>
+            <keywords scheme="categorisation"><!-- Sinnabschnittseinteilung - relevant für den Fahrkartenautomaten! -->
+               <term xml:id="gprl">Gentz - p(r)ekuniäre Lage</term>
+               <term xml:id="jrnh">Historisches Journal</term>
+               <term xml:id="bibl">Bibliothek</term>
+            </keywords>
+         </textClass>
+         <textDesc>
+            <channel>manuscript</channel>
+            <constitution type="single"/>
+            <derivation type="original"/>
+            <domain type="private"/>
+            <factuality type="fact"/>
+            <interaction type="partial"/>
+            <preparedness type="unprepared"/>
+            <purpose type="inform"/>
+         </textDesc>
+         <particDesc>
+            <listPerson>
+               <!-- Sender und Adressat -->
+               <person role="sender" xml:id="Gen">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/118538489"/>
+                     <forename>Friedrich von</forename>
+                     <surname>Gentz</surname>
+                  </persName>
+               </person>
+               <person role="receiver" xml:id="FVW">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/119049546"/>
+                     <forename>Friedrich</forename>
+                     <surname>Vieweg</surname>
+                  </persName>
+               </person>
+               <!-- erwähnte Personen -->
+            </listPerson>
+         </particDesc>
+         <settingDesc>
+            <listPlace>
+               <!-- Start- und Zielort -->
+               <place type="sender" xml:id="plBe">
+                  <country>
+                     <ref target="http://d-nb.info/gnd/4047194-9"/>
+                     <placeName>Preußen</placeName>
+                  </country>
+                  <settlement>
+                     <ref target="http://d-nb.info/gnd/4005728-8"/>
+                     <placeName>Berlin</placeName>
+                  </settlement>
+               </place>
+               <!-- erwähnte Orte -->
+            </listPlace>
+         </settingDesc>
+      </profileDesc>
+      <revisionDesc>
+         <change xml:id="init" when-iso="2018-03-03" who="#edAG">Erstauszeichnung und Normierung des Dokumentes im Rahmen der Masterarbeit der Matrikelnummer 5584124</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div n="1" corresp="#gprl">
+            <p>
+               Ad 1, bemerke ich ergebenst, daß ich die Assignation die mir gestern oder heute zugeschickt werden sollte, noch nicht 
+               erhalten habe. Sie können aber mit der größten Sicherheit darauf rechnen, daß ich Sie, sobald solches geschehen ist, 
+               augenblicklich remboursiren werde.
+            </p>
+         </div>
+         <div n="2" corresp="#jrnh">
+            <p>
+               Ad 2, erfolgt hiebei das Manuscript, welches nun der Rest der ersten Hälfte des Februar-Stücks ist.
+            </p>
+            <p>
+               Ad 3, ist es mir, wenn ich <add place="above">nicht</add> meinem ganzen Plane untreu werden soll, absolut unmöglich 
+               Manuscript von heute bis zum <date when-iso="1799-01-12">Sonnabend</date> zu liefern. Sie wißen, liebster Freund, 
+               daß ich die erste Abhandlung fortsetzen will, nur dies ist eine Arbeit die mit Ruhe und Verstand behandelt werden 
+               muß. - Mein Vorschlag ist daher folgender: Laßen Sie in Gottes Nahmen die Setzer auf 8, und allenfalls 10 und 12 
+               Tage von dem <rs type="citation" ref="#p2725-1">Journal</rs> abgehen. Ich liefre Ihnen spätstens zum 
+               <date when-iso="1799-01-20">20<span rend="sup">ten</span> d. M.</date> das <emph rend="underlined">ganze</emph> 
+               Manuscript des (halben) Stücks, welches auf den 
+               <date when-iso="1799-02-01">1<span rend="sup">ten</span> Februar</date> erscheinen soll, auf <pb/> einmal; und da 
+               dies Manuscript in keinem Falle mehr als 3, höchstens 3 1/2 Bogen betragen soll, so ist es ja klar, daß wir von 
+               <date when-iso="1799-01-21"><emph rend="underlined">Montag</emph> den 21<span rend="sup">ten</span> Januar</date> 
+               bis den andern 
+               <date when-iso="1799-02-01"><emph rend="underlined">Freitag</emph> als 1<span rend="sup">ten</span> Februar</date> 
+               über und über fertig werden. Dieser Plan vereinigt meines Erachtens die Vortheile aller Parteyen; 
+               <emph rend="underlined">mir</emph> ist er, in Rücksicht auf die Vollkommenheit der Arbeit, die doch immer der erste 
+               aller Zwecke seyn muß, überaus wichtig, und ich bitte Sie daher recht herzlich, ihm beizutreten.
+            </p>
+         </div>
+         <closer>
+            <signed rend="right">Gentz.</signed>
+            <dateline rend="right">den <date when-iso="1799-01-10">10<span rend="sup">ten</span> Januar 99</date>.</dateline>
+         </closer>
+         <postscript corresp="#bibl">
+            <p>
+               Vergessen Sie die <emph rend="underlined">Zeitungen</emph> nicht.
+            </p>
+         </postscript>
+      </body>
+   </text>
+</TEI>

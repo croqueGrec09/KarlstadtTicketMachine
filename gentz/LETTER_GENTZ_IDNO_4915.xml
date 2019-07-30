@@ -1,0 +1,282 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc xml:id="LETTER_GENTZ_4915">
+         <titleStmt>
+            <title>Friedrich von Gentz an Karl Gustav von Brinckmann, September 1797</title>
+            <editor xml:id="edAG">Andreas Gálffy</editor>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <name>Forschungsstelle "Universitätssammlung Friedrich von Gentz"</name>
+               <link target="http://gentz-digital.ub.uni-koeln.de http://www.ub.uni-koeln.de/cdm/singleitem/collection/gentz/id/4914/"/>
+            </publisher>
+            <pubPlace>Cologne</pubPlace>
+            <idno type="Gentz-Edition-Number" n="4915"/>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <country>Sweden</country>
+                  <settlement>Trolle-Ljungby</settlement>
+                  <institution>Archiv des Grafen Wachtmeister</institution>
+                  <repository>Nachlaß Brinckmann, Ausländ. Briefwechsel, Gentz an Brinckmann</repository>
+                  <idno>G 5</idno>
+               </msIdentifier>
+               <msContents>
+                  <summary>
+                     Brinckmann hat mit dem Wert einer wertlosen Tat geprahlt und Gentz möchte dafür Bücher: die History of the 
+                     revolution von Wollstonecraft. Sobald Brinckmann seine Zinsen zahlt, kriegt er ein Titelblatt von Jehnisch. 
+                     Den Rymer bietet Gentz für fünf Friedrichsd'or und den Wollstonecraft. Der Teil des Bouquet soll für acht 
+                     Reichstaler abgehen. Gentz klärt die widersprüchliche Denkweise der Freunde der Republik auf und äußert seine 
+                     Kritik an den Ereignissen in Paris. Gentz lässt "aus Versehen" einen leeren Briefbogen im Umschlag. Im 
+                     Postscript hofft Gentz, dass Graf d'Antraigues ein Dokument hat, um einen Küster zu überführen.
+                  </summary>
+               </msContents>
+            </msDesc>
+            <listBibl type="preprints">
+               <biblStruct>
+                  <monogr>
+                     <editor>
+                        <persName>
+                           <ref target="http://d-nb.info/gnd/130953075"/>
+                           <forename>Friedrich Carl</forename>
+                           <surname>Wittichen</surname>
+                        </persName>
+                        <persName>
+                           <ref /> <!-- kein GND-Eintrag -->
+                           <forename>Ernst</forename>
+                           <surname>Salzer</surname>
+                        </persName>
+                     </editor>
+                     <title>Briefe von und an Friedrich von Gentz, 4 Bde.</title>
+                     <imprint>
+                        <publisher>Oldenbourg</publisher>
+                        <pubPlace>München, Berlin</pubPlace>
+                        <date>1909-1913</date>
+                     </imprint>
+                     <biblScope unit="volume" n="2">
+                        II
+                     </biblScope>
+                     <biblScope unit="page" from="56" to="57">
+                        Nr. 63 (tlw.)
+                     </biblScope>
+                  </monogr>
+               </biblStruct>
+            </listBibl>
+            <listBibl type="alludedWorks">
+               <bibl xml:id="a4915-1" corresp="#LETTER_GENTZ_NNNN">nicht näher benanntes Werk von Thomas Rymer</bibl>
+               <bibl xml:id="a4915-2" corresp="#LETTER_GENTZ_NNNN">nicht näher benanntes Werk von Bouquet</bibl>
+            </listBibl>
+            <listBibl type="defRep">
+               <biblStruct xml:id="p4915-1" corresp="Ltf-0000">
+                  <monogr>
+                     <author>
+                        <persName>
+                           <ref target="http://d-nb.info/gnd/118639285"/>
+                           <forename>Mary</forename>
+                           <surname>Wollstonecraft</surname>
+                        </persName>
+                     </author>
+                     <title>An Historical and Moral View of the Origin and Progress of the French Revolution and the Effect it has produced in Europe</title>
+                     <imprint>
+                        <pubPlace>London</pubPlace>
+                        <publisher>J. Johnson</publisher>
+                        <date>1795</date>
+                     </imprint>
+                  </monogr>
+                  <ptr target="http://oll.libertyfund.org/titles/wollstonecraft-an-historical-and-moral-view-of-the-origin-and-progress-of-the-french-revolution"/>
+               </biblStruct>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Masterarbeit zu Matrikelnummer 5584124</p>
+         </projectDesc>
+      </encodingDesc>
+      <profileDesc>
+         <creation>
+            <date when-iso="1797-09-00">September 1797</date>
+         </creation>
+        <langUsage>
+           <language ident="d">deutsch</language>
+        </langUsage>
+         <textClass>
+            <keywords scheme="internal"><!-- internal: innerhalb des besagten Briefs -->
+               <term>Brief</term>
+               <term>Fünf-Friedrichsdor-Tat</term>
+               <term>Jehnisch</term>
+               <term>Französische Revolution</term>
+               <term>Bibliothek</term>
+               <term>Zinsen</term>
+               <term>Küster</term>
+            </keywords>
+            <keywords scheme="categorisation"><!-- Sinnabschnittseinteilung - relevant für den Fahrkartenautomaten! -->
+               <term xml:id="bibl">Bibliothek</term>
+               <term xml:id="frv">Französische Revolution</term>
+               <term xml:id="vglheda">Verhältnis Graf Louis Henri Emmanuel d'Antraigues</term>
+            </keywords>
+         </textClass>
+         <textDesc>
+            <channel>manuscript</channel>
+            <constitution type="single"/>
+            <derivation type="original"/>
+            <domain type="private"/>
+            <factuality type="fact"/>
+            <interaction type="partial"/>
+            <preparedness type="prepared"/>
+            <purpose type="inform"/>
+         </textDesc>
+         <particDesc>
+            <listPerson>
+               <!-- Sender und Adressat -->
+               <person role="sender" xml:id="Gen">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/118538489"/>
+                     <forename>Friedrich von</forename>
+                     <surname>Gentz</surname>
+                  </persName>
+               </person>
+               <person role="receiver" xml:id="KGvB">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/116519770"/>
+                     <forename>Carl Gustav von</forename>
+                     <surname>Brinckmann</surname>
+                  </persName>
+               </person>
+               <!-- erwähnte Personen -->
+               <person role="named" xml:id="WCf">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/118639285"/>
+                     <forename>Mary</forename>
+                     <surname>Wollstonecraft</surname>
+                  </persName>
+               </person>
+               <person role="named" xml:id="Jeh">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/100790100"/>
+                     <forename>Daniel</forename>
+                     <surname>Jehnisch</surname>
+                  </persName>
+               </person>
+               <person role="named" xml:id="KKu">
+                  <persName>
+                     <ref />
+                     <forename/>
+                     <surname>Küster</surname>
+                     <roleName type="office">Kriegsrat</roleName>
+                  </persName>
+               </person>
+               <person role="named" xml:id="Ant">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/1087764955"/>
+                     <forename>Emmanuel Louis Henri Alexandre d'</forename>
+                     <surname>Antraigues</surname>
+                  </persName>
+               </person>
+            </listPerson>
+         </particDesc>
+         <settingDesc>
+            <listPlace>
+               <!-- Start- und Zielort -->
+               <place type="sender" xml:id="plBe">
+                  <country>
+                     <ref target="http://d-nb.info/gnd/4047194-9"/>
+                     <placeName>Preußen</placeName>
+                  </country>
+                  <settlement>
+                     <ref target="http://d-nb.info/gnd/4005728-8"/>
+                     <placeName>Berlin</placeName>
+                  </settlement>
+               </place>
+               <!-- erwähnte Orte -->
+               <place type="named" xml:id="plPa">
+                  <country>
+                     <ref target="http://d-nb.info/gnd/4018145-5"/>
+                     <placeName>Frankreich</placeName>  
+                  </country>
+                  <settlement>
+                     <ref target="http://d-nb.info/gnd/4044660-8"/>
+                     <placeName>Paris</placeName>
+                  </settlement>
+               </place>
+            </listPlace>
+         </settingDesc>
+      </profileDesc>
+      <revisionDesc>
+         <change xml:id="init" when-iso="2018-02-26" who="#edAG">Erstauszeichnung und Normierung des Dokumentes im Rahmen der Masterarbeit der Matrikelnummer 5584124</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div n="1" corresp="#bibl">
+            <p>
+               Der Werth einer <emph rend="underlined">ganz unwillkührlichen</emph> Handlung - wie die, einem 
+               <emph rend="underlined">durchgegangnen</emph> Schuldner die Schuld zu erlaßen - ist bekanntlich = 0. Mit dem Werth 
+               einer werthlosen Handlung zu prahlen ist offenbar <emph rend="underlined">unmoralisch</emph> = - A. Also hat Ihre 
+               neuste 5 Friedrichs dor-That nur <emph rend="underlined">negative</emph> Größe. Nach Ihrer Theorie müßen Sie 
+               <emph rend="underlined">mir</emph> also für diese That <emph rend="underlined">Bücher herausgeben</emph>. Ich 
+               verlange dafür die <rs type="citation" ref="#p4915-1">History of the revolution</rs> von der, doch immer verdächtigen 
+               <rs type="person" ref="#WCf">Wollstonecraft</rs>.
+            </p>
+            <p>
+               Die <emph rend="underlined">Zinsen</emph>, deren Sie erwähnen, sind allerdings etwas 
+               <emph rend="underlined">positives</emph>. Sobald Sie mir selbige zahlen werden, sollen Sie dafür ein über completes 
+               Titelblatt von <rs type="person" ref="#Jeh">Jenisch</rs>ens Kunst schlecht zu schreiben erhalten.
+            </p>
+            <p>
+               Den <rs type="citation" ref="#a4915-1">Rymer</rs> und <rs type="citation" ref="#a4915-2">Bouquet</rs> betreffend - so 
+               trage ich fürs erste auf die Division des Artikels an. Sie können nicht in einer Thesi abgehandelt werden.
+            </p>
+            <p>
+               1. Damit Sie die Größe meiner honnêteté in ihrem Glanze sehen, so melde ich Ihnen, daß ich den 
+               <rs type="citation" ref="#a4915-1">Rymer</rs> für 5 Friedrichs dor + dem obbemeldeten 
+               <rs type="citation" ref="#p4915-1">Buche</rs> der <rs type="person" ref="#WCf">Wollstonecraft</rs> so fort ablaße. 
+               Das ist doch wahrhaftig mehr als Sie erwarten durften !
+            </p>
+            <p>
+               2. Ueber den <rs type="citation" ref="#a4915-2">Bouquet</rs> erkläre ich mich noch nicht <pb/> bestimmt. Ich 
+               <emph rend="underlined">vermuthe</emph> aber, daß ich ihn nie anders als - den Theil zu 8 Reichsthaler in Golde, 
+               losschlagen werde.
+            </p>
+            <p>
+               Wenn Sie <emph rend="underlined">bestimmte Instructionen</emph> Ihres Hofes aufweisen werden, alsdann, aber nicht 
+               eher, soll ein Ultimatum erfolgen. Unter den Präliminar Artikeln werde ich jedoch noch 
+               <emph rend="underlined">ein Buch</emph> stipuliren.
+            </p>
+         </div>
+         <div n="2" corresp="#frv">
+            <p>
+               Was <emph rend="underlined">ich</emph> über die Begebenheiten in <rs type="place" ref="#plPa">Paris</rs> denke, weiß 
+               ich wohl: es ist aber viel zu gelehrt, und die Menschen sind viel zu dumm, als daß ich sie würdigte, es zu sagen. 
+               Diejenigen, welche <emph rend="underlined">noch immer</emph> Freunde der Republik bleiben, werde ich also bloß mit 
+               folgendem Dilemma abzufertigen suchen: Entweder es ist wahr, daß der respectabelste republikanische General, und 60 
+               der respektabelsten Repräsentanten Verräther waren: oder es ist nicht wahr. Im ersten Falle, was soll man von einer 
+               <emph rend="underlined">Republik</emph> denken, in welcher das die <emph rend="underlined">respektabelsten</emph> 
+               seyn konnten ? Im letzten, was von einem Staate, in welchem ein Theil der Regierung, die Edelsten im Lande und seine 
+               <emph rend="underlined">Vorgesetzte</emph>, so behandeln darf ?
+            </p>
+            <p>
+               Ich schreibe noch mehr, theuerster Freund; aber ich kan es nicht wagen, ohne ein leeres Blatt von Ihm zu erscheinen. 
+               Deshalb mache ich auch ein eignes <emph rend="underlined">Couvert</emph> um diesen 
+               <emph rend="underlined">Brief</emph>, und laße, <emph rend="underlined">aus Versehen</emph> einen Briefbogen darin 
+               liegen.
+            </p>
+         </div>
+         <closer>
+            <signed rend="right">G.</signed>
+         </closer>
+         <postscript corresp="#vglheda">
+            <p>
+               <rs type="person" ref="#KKu">Küster</rs> soll Morgen verhört werden. Ich verzweifle aber. Vielleicht findet sich in 
+               der Brieftasche des <rs type="person" ref="#Ant">Grafen Entraigues</rs> ein gutes 
+               <emph rend="underlined">Document</emph>, um ihn zu überführen.
+            </p>
+         </postscript>
+      </body>
+   </text>
+</TEI>

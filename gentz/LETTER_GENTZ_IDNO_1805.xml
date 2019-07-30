@@ -1,0 +1,331 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc xml:id="LETTER_GENTZ_1805">
+         <titleStmt>
+            <title>Friedrich von Gentz an Karl August Böttiger, 13. Oktober 1801</title>
+            <editor xml:id="edAG">Andreas Gálffy</editor>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <name>Forschungsstelle "Universitätssammlung Friedrich von Gentz"</name>
+               <link target="http://gentz-digital.ub.uni-koeln.de http://www.ub.uni-koeln.de/cdm/singleitem/collection/gentz/id/1804/"/>
+            </publisher>
+            <pubPlace>Cologne</pubPlace>
+            <idno type="Gentz-Edition-Number" n="1805"/>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <country>Germany</country>
+                  <settlement>Dresden</settlement>
+                  <institution>Sächsische Landesbibliothek</institution>
+                  <repository>Handschriftensammlung, Nachlaß Böttiger</repository>
+                  <collection>Mscr. Dresd. h 37, Bd. 54 (4°)</collection>
+                  <idno>Nr. 22</idno>
+               </msIdentifier>
+               <msContents>
+                  <summary>
+                     Die lange Beziehung, in welcher Böttiger nicht nur einmal Gentz in seinen Werken beigestanden hat, 
+                     veranlasst Gentz dazu, erneut seinen Rat zu suchen. Das Werk "Über den politischen Zustand Europas vor und 
+                     nach der Französischen Revolution" hat so manchen Beifall geerntet und wurden nach einigen Mühen auch 
+                     vortrefflich ins Französische übersetzt. Böttiger soll Gentz einen Buchhändler vermitteln, der dieses Werk 
+                     im Ausland verlegt. Er nennt auch die Bedingungen des Drucks: 50 Friedrichsd'or Honorar, wovon zehn an die 
+                     Anfertigung einer Abschrift gehen und 40 an den Übersetzer. Gentz beteuert dafür seine Hilfe zu jeder 
+                     Gelegenheit.
+                  </summary>
+               </msContents>
+            </msDesc>
+            <listBibl type="preprints">
+               <biblStruct>
+                  <monogr>
+                     <editor>
+                        <persName>
+                           <ref target="http://d-nb.info/gnd/130953075"/>
+                           <forename>Friedrich Carl</forename>
+                           <surname>Wittichen</surname>
+                        </persName>
+                        <persName>
+                           <ref/> <!-- kein GND-Eintrag -->
+                           <forename>Ernst</forename>
+                           <surname>Salzer</surname>
+                        </persName>
+                     </editor>
+                     <title>Briefe von und an Friedrich von Gentz, 4 Bde.</title>
+                     <imprint>
+                        <publisher>Oldenbourg</publisher>
+                        <pubPlace>München, Berlin</pubPlace>
+                        <date>1909-1913</date>
+                     </imprint>
+                     <biblScope unit="volume" n="1">
+                        I
+                     </biblScope>
+                     <biblScope unit="page" from="257" to="259">
+                        Nr. 65
+                     </biblScope>
+                  </monogr>
+               </biblStruct>
+            </listBibl>
+            <listBibl type="defRep">
+               <biblStruct xml:id="p1805-1" corresp="BSB-0017">
+                  <monogr>
+                     <author>
+                        <persName>
+                           <ref target="http://d-nb.info/gnd/118538489"/>
+                           <forename>Friedrich von</forename>
+                           <surname>Gentz</surname>
+                        </persName>
+                     </author>
+                     <title>Von dem Politischen Zustande von Europa vor und nach der Französischen Revolution</title>
+                     <imprint>
+                        <pubPlace>Berlin</pubPlace>
+                        <publisher>Heinrich Frölich</publisher>
+                        <date>1801</date>
+                     </imprint>
+                  </monogr>
+                  <ptr target="http://www.mdz-nbn-resolving.de/urn/resolver.pl?urn=urn:nbn:de:bvb:12-bsb10556396-8"/>
+               </biblStruct>
+               <biblStruct xml:id="p1805-2" corresp="Arc-0014">
+                  <monogr>
+                     <author>
+                        <persName>
+                           <ref target="http://d-nb.info/gnd/118538489"/>
+                           <forename>Friedrich von</forename>
+                           <surname>Gentz</surname>
+                        </persName>
+                     </author>
+                     <editor resp="translator">
+                        <persName>
+                           <ref target="http://d-nb.info/gnd/159705665"/>
+                           <forename>John Charles</forename>
+                           <surname>Herries</surname>
+                        </persName>
+                     </editor>
+                     <title>On the state of Europe before and after the French revolution : being an answer to l'Etat de la France à la Fin de l'An VIII.</title>
+                     <imprint>
+                        <pubPlace>London</pubPlace>
+                        <publisher>J. Hatchard</publisher>
+                        <date>1801</date>
+                     </imprint>
+                  </monogr>
+                  <ptr target="https://archive.org/details/onstateofeurope00gent"/>
+               </biblStruct>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Masterarbeit zu Matrikelnummer 5584124</p>
+         </projectDesc>
+      </encodingDesc>
+      <profileDesc>
+         <creation>
+            <date when-iso="1801-10-13">13. Oktober 1801</date>
+         </creation>
+        <langUsage>
+           <language ident="d">deutsch</language>
+        </langUsage>
+         <textClass>
+            <keywords scheme="internal"><!-- internal: innerhalb des besagten Briefs -->
+               <term>Brief</term>
+               <term>Posselt</term>
+               <term>Französische Revolution</term>
+            </keywords>
+            <keywords scheme="categorisation"><!-- Sinnabschnittseinteilung - relevant für den Fahrkartenautomaten! -->
+               <term xml:id="vpze">Von dem Politischen Zustande von Europa vor und nach der Französischen Revolution</term>
+               <term xml:id="vkab">Verhältnis Karl August Böttiger</term>
+            </keywords>
+         </textClass>
+         <textDesc>
+            <channel>manuscript</channel>
+            <constitution type="single"/>
+            <derivation type="original"/>
+            <domain type="private"/>
+            <factuality type="fact"/>
+            <interaction type="partial"/>
+            <preparedness type="prepared"/>
+            <purpose type="inform"/>
+         </textDesc>
+         <particDesc>
+            <listPerson>
+               <!-- Sender und Adressat -->
+               <person role="sender" xml:id="Gen">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/118538489"/>
+                     <forename>Friedrich von</forename>
+                     <surname>Gentz</surname>
+                  </persName>
+               </person>
+               <person role="receiver" xml:id="KAB">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/118824775"/>
+                     <forename>Carl August</forename>
+                     <surname>Böttiger</surname>
+                  </persName>
+               </person>
+               <!-- erwähnte Personen -->
+               <person role="named" xml:id="AMBdLndH">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/100525113"/>
+                     <forename>Alexandre Maurice Blanc de LaNautte d'</forename>
+                     <surname>Hauterive</surname>
+                  </persName>
+               </person>
+               <person role="named" xml:id="JChH">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/159705665"/>
+                     <forename>John Charles</forename>
+                     <surname>Herries</surname>
+                  </persName>
+               </person>
+            </listPerson>
+         </particDesc>
+         <settingDesc>
+            <listPlace>
+               <!-- Start- und Zielort -->
+               <place type="sender" xml:id="plBe">
+                  <country>
+                     <ref target="http://d-nb.info/gnd/4047194-9"/>
+                     <placeName>Preußen</placeName>
+                  </country>
+                  <settlement>
+                     <ref target="http://d-nb.info/gnd/4005728-8"/>
+                     <placeName>Berlin</placeName>
+                  </settlement>
+               </place>
+               <place type="receiver" xml:id="plWe">
+                  <country>
+                     <ref target="http://d-nb.info/gnd/4051194-7"/>
+                     <placeName>Sachsen-Weimar-Eisenach</placeName>
+                  </country>
+                  <settlement>
+                     <ref target="http://d-nb.info/gnd/4065105-8"/>
+                     <placeName>Weimar</placeName>
+                  </settlement>
+               </place>
+               <!-- erwähnte Orte -->
+               <place type="named" xml:id="plBs">
+                  <country>
+                     <ref target="http://d-nb.info/gnd/4089993-7"/>
+                     <placeName>Staat Wolfenbüttel</placeName>
+                  </country>
+                  <settlement>
+                     <ref target="http://d-nb.info/gnd/4008065-1"/>
+                     <placeName>Braunschweig</placeName>
+                  </settlement>
+               </place>
+               <place type="named" xml:id="plFr">
+                  <country>
+                     <ref target="http://d-nb.info/gnd/4018145-5"/>
+                     <placeName>Frankreich</placeName>  
+                  </country>
+               </place>
+               <place type="named" xml:id="plEn">
+                  <country>
+                     <ref target="http://d-nb.info/gnd/4022153-2"/>
+                     <placeName>England</placeName>
+                  </country>
+               </place>
+            </listPlace>
+         </settingDesc>
+      </profileDesc>
+      <revisionDesc>
+         <change xml:id="init" when-iso="2018-03-09" who="#edAG">Erstauszeichnung und Normierung des Dokumentes im Rahmen der Masterarbeit der Matrikelnummer 5584124</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div n="1" corresp="#vpze">
+            <p>
+               Die wohlwollenden Gesinungen, hochgeschätzter Freund, die Sie mir bei so mancher frühern Gelegenheit geäußert 
+               haben, und Ihre weltbekannte, eben so thätige als aufgeklärte Dienstfertigkeit gegen alle, die das Glück in eine 
+               nähere Verbindung mit Ihnen führt, geben mir den Muth ein, Sie in einer, für mich nichts weniger als 
+               uninteressante litterärischen Angelegenheit, um Rath und sogar um Beistand zu bitten.
+            </p>
+            <p>
+               Ich habe vor kurzem die <rs type="citation" ref="#p1805-1">beiden Hefte</rs> publizirt, die ich mir die Freiheit 
+               nehme, Ihnen hiebei zu übersenden. Sie machen ungefähr die Hälfte eines Buches aus, worin ich die ganze Sphäre 
+               der großen politischen Verhältnisse durchlaufen mußte, welches, unter kritischen Umständen begonnen, unter 
+               ruhigern, aber gerade deshalb vielleicht (für mich) noch kritischern vollführt werden muß, und welches 
+               wahrscheinlich für einige Zeit das Ziel meiner schriftstellerischen Arbeiten seyn wird. Die <pb/> ersten Hefte 
+               sind mir nicht ganz mißrathen; der lebendige Beifall, den einige der ausgezeichnetsten praktischen Köpfe und 
+               Staatsmänner ihnen schenkten, bürgt mir dafür, und schlägt alle meine furchtsamen Skrupel danieder.
+            </p>
+            <p>
+               Da dieses Werk einen Gegenstand von ganz allgemeinem Interesse behandelt, da es überdies die Widerlegung eines 
+               <rs type="person" ref="#AMBdLndH">französischen Schrifstellers</rs>, wenn gleich nicht zum eigentlichen, doch zum 
+               ostensibeln Haupt-Zweck hat, und da endlich mein Nahme durch verschiedne meiner frühern Schriften in andern 
+               Ländern einigermaßen bekannt worden ist, so war es von Anfang an mein Wunsch, dieses Buch zugleich in einer 
+               Französischen Uebersetzung erscheinen zu laßen. Ich machte mehrere Versuche; ich machte deren nahmentlich zwei in 
+               <rs type="place" ref="#plBs">Braunschweig</rs>, wo mir von Hoher Hand einige Männer nahmhaft gemacht wurden, 
+               <pb/> die alle dazu erforderliche Fähigkeiten besitzen sollten; aber diese Versuche fielen sämmtlich fruchtlos 
+               aus. Ich konnte die Uebersetzungen nicht brauchen - - das Original wurde indessen fertig; mit einer 
+               <emph rend="underlined">Englischen</emph> <rs type="citation" ref="#p1805-2">Uebersetzung</rs> war ich 
+               glücklicher; ich <emph rend="underlined">glaube</emph> wenigstens mit gutem Grunde, daß diese in 
+               <rs type="person" ref="#JChH">tüchtige Hände</rs> gefallen ist. Doch muß der Erfolg erst darüber absprechen.
+            </p>
+            <p>
+               Nachdem die beiden Hefte ausgegeben waren, so entdeckte ich erst, daß das, was ich in der Ferne gesucht hatte, in 
+               meiner Nähe lag. Ein Mann, den ich täglich in den Diplomatischen Häusern sah, dem ich aber nicht die tiefe 
+               Kenntniß <add place="above">in</add> der deutschen Sprache zutraute, die er in der Französischen unleugbar besaß, 
+               überraschte mich mit der Nachricht, daß er mein Buch übersetzen wollte, und daß er sogar mehrere Bogen desselben 
+               wirklich schon übersetzt hätte. Ich las sie mit ihm, und ich überzeugte mich mit freudigem Erstaunen, daß diese 
+               Ueber<pb/>setzung das Non Plus ultra war, welches sich in einer so unendlich schwierigen Aufgabe als eine 
+               Uebersetzung aus dem Deutschen ins Französische ist, nur irgend erreichen und denken läßt. Sie wißen, was das 
+               Urteil sagen will, wenn es der, immer viel-verlangende, und nimmer-zufriedne Verfasser der Original-Schrift, von 
+               seinem eignen Uebersetzer fällt !
+            </p>
+            <p>
+               Dieser Uebersetzung fehlt nun weiter nichts, als daß sie gedruckt werde. Das Werk wird, wenn mich nicht alles 
+               trügt, einen großen und ausgebreiteten Debit im Auslande finden. Das Kunststück ist nur, es dahin zu bringen.
+            </p>
+            <p>
+               In <rs type="place" ref="#plFr">Frankreich</rs> kan und mag ich es nicht drucken laßen; es ist auch beinahe 
+               gewiß, daß man es dort nicht dulden würde. <rs type="place" ref="#plEn">England</rs> ist mir zu weit, und für 
+               Französische Bücher auch der rechte Boden nicht. Ich dachte mir daher, <pb/> ob es nicht ds Beste wäre, sich mit 
+               einem der deutschen Buchhändler, die Verbindungen im Auslande haben, in Unterhandlung einzulaßen. Alle hiesigen, 
+               mithin alle die ich kenne, sind dazu völlig ungeschickt.
+            </p>
+         </div>
+         <div n="2" corresp="#vkab">
+            <p>
+               Ich weiß, theuerster Freund, daß Sie große Connexionen in der buchhändlerischen Welt besitzen. Ich bitte Sie 
+               daher, mir einen Rath zu geben, oder, wenn Sie die Sache dazu geeignet, und die damit verknüpfte Beschwerde nicht 
+               zu groß finden, gleich selbst in meinem Nahmen eine Negoziation anzuknüpfen, wozu ich Ihnen solchenfalls, hiemit 
+               unbegränzte Vollmacht ertheilen will.
+            </p>
+            <p>
+               Meine Bedingungen würden folgende seyn: 1, 50 Friedrichsdor Honorar, wovon 10 zur Anfertigung einer correkten, 
+               und netten Abschrift bestimmt sind, und 40 dem Uebersetzer (einem Mann von großen Verdiensten den seine jetzige 
+               Lage in den Fall setzt, <pb/> sich Unterstützungen auf anständigen Wegen <del rend="stroked">zu</del> 
+               verschaffen zu müßen) zu Theil werden sollen. 2, ein correkter Druck auf gutem weißen Papier. 3, und einige 
+               Frei-Exemplare. Alles übrige besorgt der Verleger, wie er will. Doch müßte das Honorar nothwendig 
+               <emph rend="underlined">gleich</emph> bezahlt werden; der dritte Theil des Manuskripts wird gleich fertig 
+               geliefert; und da der Uebersetzer ununterbrochen fortarbeitet, so ist es gewiß, daß auch der schnellste Druck ihn 
+               nicht mehr einholen wird. Wenn nachher das dritte und vierte Heft erscheint, so soll nach Verhältniß der beiden 
+               jetzt vorhandnen, aufs neue contrahirt werden.
+            </p>
+            <p>
+               Ich fühle, daß in diesem Antrage eine große Unbescheidenheit liegt; Sie sind so überhäuft mit Arbeiten aller Art, 
+               daß man sich schämen sollte, Ihnen neue aufzubürden, oder auch nur einen Augenblick Ihrer <pb/> kostbaren Zeit in 
+               Beschlag zu nehmen. Aber meine Hülflosigkeit und Unbehülflichkeit in solchen Dingen ist immer noch so groß, daß 
+               ich ohne den Beistand eines Freundes nicht vorwärts komme. Wird Ihnen die Sache zu beschwerlich, oder finden Sie 
+               sie gleich beim ersten Anblick nicht praktikabel, so schreiben Sie es mir ohne alle Umstände; nur um baldige 
+               Antwort bitte ich in jedem Falle.
+            </p>
+            <p>
+               Ich würde mich herzlich freuen, wenn je eine Gelegenheit einträte, wo Sie über mich disponiren könnten und 
+               wollten. Ich werde sie mit Freuden ergreifen; und benutze die gegenwärtige nur noch, um Ihnen die Versicherung 
+               meiner treusten und ehrerbietigsten Ergebenheit zu erneuern.
+            </p>
+         </div>
+         <closer>
+            <dateline rend="left"><rs type="place" ref="#plBe">Berlin</rs> den <date when-iso="1801-10-13">13 Oktober 1801</date>.</dateline>
+            <signed rend="right">Gentz.</signed>
+         </closer>
+      </body>
+   </text>
+</TEI>

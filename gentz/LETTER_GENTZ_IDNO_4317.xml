@@ -1,0 +1,350 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc xml:id="LETTER_GENTZ_4317">
+         <titleStmt>
+            <title>Friedrich von Gentz an Karl August Böttiger, 21./22. Dezember 1796</title>
+            <editor xml:id="edAG">Andreas Gálffy</editor>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <name>Forschungsstelle "Universitätssammlung Friedrich von Gentz"</name>
+               <link target="http://gentz-digital.ub.uni-koeln.de http://www.ub.uni-koeln.de/cdm/singleitem/collection/gentz/id/4316/"/>
+            </publisher>
+            <pubPlace>Cologne</pubPlace>
+            <idno type="Gentz-Edition-Number" n="4317"/>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <country>Germany</country>
+                  <settlement>Dresden</settlement>
+                  <institution>Sächsiche Landesbibliothek</institution>
+                  <repository>Handschriftensammlung, Nachlaß Böttiger</repository>
+                  <collection>Mscr. Dresd. h 37, Bd. 54 (4°)</collection>
+                  <idno>Nr. 5</idno>
+               </msIdentifier>
+               <msContents>
+                  <summary>
+                     Das Verzeichnis der Weimarer Bibliothek ist für Gentz sehr hilfreich. Er bedankt sich lebhaft dafür und bittet, 
+                     dass Bücher sobald wie möglich durch die Post zu Gentz geschickt werden. Gentz widerlegt Böttigers Vermutung, 
+                     er würde Burkes neueste Schrift übersetzen. Die Schrift gefiele ihm sehr. Dennoch will er sie nicht überstzen, 
+                     weil er erstens eine größere Arbeit abbrechen müsse, zweitens denkte er, dass es in Deutschland (Preußen) nicht 
+                     die Beachtung bekäme, die es verdiene, mithin der Lächerlichkeit perisgegeben werden würde. Gentz schreibt 
+                     seine Geschichte der Revolution viel allgemeiner. Im Postscript kündigt Gentz den Kalender für Vieweg und die 
+                     Geschichte der Maria Stuart an. Gentz wird Böttigers Urteil erwarten.
+                  </summary>
+               </msContents>
+            </msDesc>
+            <listBibl type="preprints">
+               <biblStruct>
+                  <monogr>
+                     <editor>
+                        <persName>
+                           <ref target="http://d-nb.info/gnd/130953075"/>
+                           <forename>Friedrich Carl</forename>
+                           <surname>Wittichen</surname>
+                        </persName>
+                        <persName>
+                           <ref/> <!-- kein GND-Eintrag -->
+                           <forename>Ernst</forename>
+                           <surname>Salzer</surname>
+                        </persName>
+                     </editor>
+                     <title>Briefe von und an Friedrich von Gentz, 4 Bde.</title>
+                     <imprint>
+                        <publisher>Oldenbourg</publisher>
+                        <pubPlace>München, Berlin</pubPlace>
+                        <date>1909-1913</date>
+                     </imprint>
+                     <biblScope unit="volume" n="1">
+                        I
+                     </biblScope>
+                     <biblScope unit="page" from="223" to="225">
+                        Nr. 50
+                     </biblScope>
+                  </monogr>
+               </biblStruct>
+            </listBibl>
+            <listBibl type="letterReferenced">
+               <bibl xml:id="c4317-1" corresp="#LETTER_GENTZ_1793">Friedrich von Gentz an Karl August Böttiger, 2. Juli 1796</bibl>
+               <bibl xml:id="c4317-2" corresp="#LETTER_GENTZ_NNNN">nicht bekannter Brief von Karl August Böttiger an Friedrich Vieweg</bibl>
+            </listBibl>
+            <listBibl type="defRep">
+               <biblStruct xml:id="p4317-1" corresp="GBk-0023">
+                  <monogr>
+                     <author>
+                        <persName>
+                           <ref target="http://d-nb.info/gnd/118517708"/>
+                           <forename>Edmund</forename>
+                           <surname>Burke</surname>
+                        </persName>
+                     </author>
+                     <title>Thoughts on the Prospect of a Regicide Peace,: In a Series of Letters</title>
+                     <imprint>
+                        <pubPlace>London</pubPlace>
+                        <publisher>J. Owen</publisher>
+                        <date>1796</date>
+                     </imprint>
+                  </monogr>
+                  <ptr target="https://books.google.de/books?id=fXpbAAAAQAAJ"/>
+               </biblStruct>
+               <biblStruct xml:id="p4317-2" corresp="#LETTER_GENTZ_NNNN">
+                  <monogr>
+                     <author>
+                        <persName>
+                           <ref target="http://d-nb.info/gnd/118538489"/>
+                           <forename>Friedrich von</forename>
+                           <surname>Gentz</surname>
+                        </persName>
+                     </author>
+                     <title>Betrachtungen über den Ursprung, den Fortgang und den Charakter der Französischen Revolution</title>
+                     <imprint>
+                        <pubPlace>Berlin</pubPlace>
+                        <date>1801</date>
+                     </imprint>
+                  </monogr>
+                  <ptr target="#LETTER_GENTZ_NNNN"/>
+               </biblStruct>
+               <biblStruct xml:id="p4317-3" corresp="#LETTER_GENTZ_NNNN">
+                  <monogr>
+                     <author>
+                        <persName>
+                           <ref target="http://d-nb.info/gnd/118538489"/>
+                           <forename>Friedrich von</forename>
+                           <surname>Gentz</surname>
+                        </persName>
+                     </author>
+                     <title>Taschenbuch für 1799. Maria Stuart von Friedrich Gentz. Die Rache von August Lafontaine.</title>
+                     <imprint>
+                        <pubPlace>Berlin</pubPlace>
+                        <publisher>Friedrich Vieweg der Ältere</publisher>
+                        <date>1798</date>
+                     </imprint>
+                  </monogr>
+                  <ptr target="#LETTER_GENTZ_NNNN"/>
+               </biblStruct>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Masterarbeit zu Matrikelnummer 5584124</p>
+         </projectDesc>
+      </encodingDesc>
+      <profileDesc>
+         <creation>
+            <date when-iso="1796-12-21">21. Dezember 1796</date>
+         </creation>
+        <langUsage>
+           <language ident="d">deutsch</language>
+        </langUsage>
+         <textClass>
+            <keywords scheme="internal"><!-- internal: innerhalb des besagten Briefs -->
+               <term>Brief</term>
+               <term>Literatur</term>
+               <term>Bibliothek</term>
+               <term>Französische Revolution</term>
+            </keywords>
+            <keywords scheme="categorisation"><!-- Sinnabschnittseinteilung - relevant für den Fahrkartenautomaten! -->
+               <term xml:id="budcff">Betrachtungen über den Ursprung, den Charakter und den Fortgang der Französischen Revolution</term>
+               <term xml:id="kbur">Burke</term>
+               <term xml:id="vwkms">Vieweg - Kalender / Maria Stuart</term>
+            </keywords>
+         </textClass>
+         <textDesc>
+            <channel>manuscript</channel>
+            <constitution type="single"/>
+            <derivation type="original"/>
+            <domain type="private"/>
+            <factuality type="fact"/>
+            <interaction type="partial"/>
+            <preparedness type="prepared"/>
+            <purpose type="inform"/>
+         </textDesc>
+         <particDesc>
+            <listPerson>
+               <!-- Sender und Adressat -->
+               <person role="sender" xml:id="Gen">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/118538489"/>
+                     <forename>Friedrich von</forename>
+                     <surname>Gentz</surname>
+                  </persName>
+               </person>
+               <person role="receiver" xml:id="KAB">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/118824775"/>
+                     <forename>Carl August</forename>
+                     <surname>Böttiger</surname>
+                  </persName>
+               </person>
+               <!-- erwähnte Personen -->
+               <person role="named" xml:id="Hum">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/118554727"/>
+                     <forename>Wilhelm von</forename>
+                     <surname>Humboldt</surname>
+                  </persName>
+               </person>
+               <person role="named" xml:id="JWvG">
+                  <persName>
+                     <ref target="https://d-nb.info/gnd/118540238"/>
+                     <forename>Johann Wolfgang von</forename>
+                     <surname>Goethe</surname>
+                  </persName>
+               </person>
+               <person role="named" xml:id="Bur">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/118517708"/>
+                     <forename>Edmund</forename>
+                     <surname>Burke</surname>
+                  </persName>
+               </person>
+               <person role="named" xml:id="FVW">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/119049546"/>
+                     <forename>Friedrich</forename>
+                     <surname>Vieweg</surname>
+                  </persName>
+               </person>
+            </listPerson>
+         </particDesc>
+         <settingDesc>
+            <listPlace>
+               <!-- Start- und Zielort -->
+               <place type="sender" xml:id="plBe">
+                  <country>
+                     <ref target="http://d-nb.info/gnd/4047194-9"/>
+                     <placeName>Preußen</placeName>
+                  </country>
+                  <settlement>
+                     <ref target="http://d-nb.info/gnd/4005728-8"/>
+                     <placeName>Berlin</placeName>
+                  </settlement>
+               </place>
+               <place type="receiver" xml:id="plWe">
+                  <country>
+                     <ref target="http://d-nb.info/gnd/4051194-7"/>
+                     <placeName>Sachsen-Weimar-Eisenach</placeName>
+                  </country>
+                  <settlement>
+                     <ref target="http://d-nb.info/gnd/4065105-8"/>
+                     <placeName>Weimar</placeName>
+                  </settlement>
+               </place>
+               <!-- erwähnte Orte -->
+               <place type="named" xml:id="plJe">
+                  <country>
+                     <ref target="http://d-nb.info/gnd/4051194-7"/>
+                     <placeName>Sachsen-Weimar-Eisenach</placeName>
+                  </country>
+                  <settlement>
+                     <ref target="http://d-nb.info/gnd/4028557-1"/>
+                     <placeName>Jena</placeName>
+                  </settlement>
+               </place>
+            </listPlace>
+         </settingDesc>
+      </profileDesc>
+      <revisionDesc>
+         <change xml:id="init" when-iso="2018-02-19" who="#edAG">Erstauszeichnung und Normierung des Dokumentes im Rahmen der Masterarbeit der Matrikelnummer 5584124</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <opener>
+            <dateline rend="right"><rs type="place" ref="#plBe">Berlin</rs> den <date when-iso="1796-12-21">21<span rend="sup">ten</span> December 1796</date></dateline>
+         </opener>
+         <div n="1" corresp="#budcff">
+            <p>
+               Das Verzeichniß der in der <rs type="place" ref="#plWe">Weimar</rs>schen Bibliothek befindlichen Schriften über die 
+               Revolution, <ref target="#r4317-1">das ich Ihrer Güte, Hochgeschätzter Herr Consistorial-Rath, verdanke</ref>, soll 
+               mir nunmehr wesentliche Dienste leisten. <rs type="person" ref="#Hum">Humboldt</rs> hat mit 
+               <rs type="person" ref="#JWvG">Göthe</rs> über die Sache gesprochen: man will mir das, was ich brauche, anvertrauen, 
+               und ich habe schon mit voriger Post einen Auszug jenes Verzeichnisses, worin ich die Schriften, die ich zu haben 
+               wünschte bemerkt hatte, nach <rs type="place" ref="#plJe">Jena</rs> geschickt.
+            </p>
+            <p>
+               Jetzt muß ich noch einmal zu Ihnen meine Zuflucht nehmen. Ich bin so frei gewesen, <del rend="stroked">xxx</del> 
+               <rs type="person" ref="#Hum">Humboldt</rs> geradesweges an Sie, in Rücksicht der Sorge wegen Absendung der Bücher von 
+               <rs type="place" ref="#plWe">Weimar</rs>, zu verweisen. Da mir nun außerordentlich viel daran liegt, die Sachen 
+               baldmöglichst zu erhalten, weil man mir überdies einen kurzen Termin zur Zurücksendung vorgeschrieben hat, so bitte 
+               ich Sie angelegentlich, sobald die Sache durch <rs type="person" ref="#JWvG">Herrn von Göthe</rs> so weit gediehen 
+               ist, daß mir die Bücher verabfolgt werden können, solche gleich <emph rend="underlined">durch die Post</emph> an mich 
+               abgehen zu laßen. Es versteht sich von selbst, daß <add place="above">ich</add> die Kosten 
+               <add place="above">die</add> durch das Emballiren und so fort veranlaßt <del rend="stroked">werden</del>, und die Sie 
+               gewiß für mich auslegen <pb/> werden, sogleich erstatte. Bis es mir vergönnt ist, Ihnen gegenseitig meine 
+               Bereitwilligkeit zu dienen, auf eine thätige Art zu beweisen, bleibe ich für alle Güte die Sie mir hiebey erzeigt 
+               haben, und noch erzeigen werden, Ihr dankbarer Schuldner.
+            </p>
+         </div>
+         <div n="2" corresp="#kbur">
+            <p>
+               Sie haben in <rs type="citation" ref="#c4317-2">einem Briefe</rs> an <rs type="person" ref="#FVW">Vieweg</rs> die 
+               Vermuthung geäußert, daß ich die <rs type="citation" ref="#p4317-1">neuste Schrift</rs> von 
+               <rs type="person" ref="#Bur"><emph rend="underlined">Burke</emph></rs> übersetzen würde, auch interessante 
+               Nachrichten über diese Schrift im Merkur versprochen. Auf die letztern freue ich mich: eine Uebersetzung werde ich 
+               aber nicht liefern. Ich könnte es nicht füglich, ohne mich in meiner größern Arbeit zu unterbrechen. Aufrichtig 
+               gesagt aber, wenn ich es könnte, würde ich es nicht wollen. Ich gestehe, daß diese Schrift auf mich, obgleich manches 
+               darin ist was ich nicht würde geschrieben haben, wenn ich auch im Stande wäre so zu schreiben, einen großen und 
+               überwältigenden Eindruck gemacht hat. Ich erkläre Ihnen geradehin, daß sie mir besser als alle 
+               <del rend="stroked">seine</del> andre Schriften des Verfassers über die Französische Revolution selbst die erste 
+               nicht ausgenommen, gefallen hat, daß ich eine Größe und Tiefe des Geistes darin gefunden habe, die ich bei allen 
+               andern politischen Schriftstellern dieser Zeit, <pb/> wenn sie auch <emph rend="underlined">Burke</emph> in hundert 
+               Rücksichten übertreffen mögen, umsonst suche, kurz, daß <del rend="stroked">ich</del> mich die Schrift in einem 
+               Grade, wie ich es sehr selten erlebe, entzückt hat. Nun weiß ich aber zum voraus, daß die ganze Welt anders drüber 
+               urtheilen wird als ich, und daß ich in einem Augenblick, 
+               <span xml:lang="en">where the tide runs too high against this side of question</span> - Niemanden für meine Ansichten, 
+               Gefühle, und Meinungen bekehren werde. Wenn ich mich also mit Persius frage: 
+               <span xml:lang="lat">Quis leget haec ?</span> - so müßte ich mit Persius im 
+               <emph rend="underlined">eigentlichsten</emph> Verstande antworten: <span xml:lang="lat">Vel duo vel nemo.</span> - 
+               Warum soll ich also ein Produkt, <del rend="stroked">daß</del> welches ich mit allen Kräften meines Gemüths bewundre 
+               und verehre, ohne Noth, der Verachtung oder gar dem Hohngelächter Preis geben ? Warum soll ich nicht lieber die 
+               Empfindungen die mir dieses Produkt eingeflößt, und die Gedankenreihe, die es veranlaßt hat, in mich verschließen ? 
+               Die Menschen dieser Zeit besitzen nicht Unbefangenheit genug zu begreifen, oder auch nur blindlings zu glauben, daß 
+               man <rs type="person" ref="#Bur">Burke</rs> übersetzen, commentiren und loben kan, ohne in jeder Zeile dessen was er 
+               sagt, wörtlich mit ihm überein<add place="above">zu</add>stimmen. Die Liberalität des Geistes, die nun vollends dazu 
+               gehört, mit einem Schriftsteller <emph rend="underlined">ganz</emph> zu <pb/> dissentiren, und ihn doch, wegen 
+               erhabner Talente, bis zum höchsten Enthusiasmus zu bewundern - vermisse ich allenthalben. Ich würde also, wenn ich 
+               <rs type="person" ref="#Bur">Burke</rs>'s <rs type="citation" ref="#p4317-1">Schrift</rs> übersetzte, da ich mich 
+               doch unmöglich enthalten könnte, sie nach meiner Ueberzeugung zu würdigen, die abgeschmackte Idee, daß ich ein 
+               eingefleischter Aristokrat sey, nur befestigen, ohne <rs type="person" ref="#Bur">Burke</rs> 
+               <del rend="stroked">xxx</del> einen einzigen neuen Verehrer, oder mir einen einzigen neuen Freund zuzuwenden.
+            </p>
+         </div>
+         <div n="3" corresp="#budcff">
+            <p>
+               <rs type="citation" ref="#p4317-2">Meine Geschichte der Revolution</rs> bearbeite ich aus allgemeinern 
+               Gesichtspunkten, wo der politische Partey-Geist, wenn <add place="above">er</add> gleich nicht ganz zu verbannen 
+               <add place="above">ist</add>, mir doch weit weniger Schaden thun soll. Ganz unparteyisch war noch nie ein 
+               Sterblicher. Ich <emph rend="underlined">will</emph> es auch nicht seyn !
+            </p>
+            <p>
+               Erhalten Sie mir Ihre schätzbare Gewogenheit, und nehmen Sie mit Güte die Versicherung meiner unbegränzten 
+               Hochachtung an, von
+            </p>
+         </div>
+         <closer>
+            <salute rend="right">Ihren innigstergebnen</salute>
+            <signed rend="right">Gentz.</signed>
+         </closer>
+         <postscript corresp="#vwkms">
+            <opener>
+               <dateline rend="left"><rs type="place" ref="#plBe">Berlin</rs> den <date when-iso="1796-12-22">22<span rend="sup">ten</span> Decbr: 1796</date></dateline>
+            </opener>
+            <p>
+               Ich habe mit einem Fleiße, den ich noch nie auf die <emph rend="underlined">Ausarbeitung</emph> irgend einer Sache 
+               wendete, für einen Calender von <rs type="person" ref="#FVW">Vieweg</rs>, der mit großer äußrer Eleganz gedruckt 
+               wird, eine <rs type="citation" ref="#p4317-3">Geschichte der <emph rend="underlined">Maria Stuart</emph></rs> 
+               geschrieben. Ich <emph rend="underlined">höre</emph>, er wird Ihnen die Bogen davon überschicken, und bin auf Ihr 
+               Urtheil sehr begierig.
+            </p>
+         </postscript>
+      </body>
+      <note resp="#edAG" xml:id="r4317-1">Vgl. den <rs type="citation" ref="#c4317-1">Brief vom 2. Juli 1796</rs></note>
+   </text>
+</TEI>

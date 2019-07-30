@@ -1,0 +1,227 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc xml:id="LETTER_GENTZ_0501">
+         <titleStmt>
+            <title>Friedrich von Gentz an Johann Wilhelm von Archenholtz, 13. Mai 1798</title>
+            <editor xml:id="edAG">Andreas Gálffy</editor>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <name>Forschungsstelle "Universitätssammlung Friedrich von Gentz"</name>
+               <link target="http://gentz-digital.ub.uni-koeln.de http://www.ub.uni-koeln.de/cdm/singleitem/collection/gentz/id/500/"/>
+            </publisher>
+            <pubPlace>Cologne</pubPlace>
+            <idno type="Gentz-Edition-Number" n="0501"/>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <country>Germany</country>
+                  <settlement>Frankfurt</settlement>
+                  <institution>Freies Deutsches Hochstift, Goethe-Museum</institution>
+                  <repository>Handschriftenabteilung</repository>
+                  <idno>Inv.-Nr. 3461</idno>
+               </msIdentifier>
+               <msContents>
+                  <summary>
+                     Ein Aufsatz hat Gentz sehr gefallen. Er bemerkt, dass Archenholtz sehr zutreffend über die Beurteiler der Ereignisse der 
+                     letzten zehn Jahre und die oberflächlichen Beobachter geäußert. Ebenso stimmt Gentz mit den geäußerten Zweifeln und mit 
+                     der Behandlung des englischen Handels zu. Besonders letzteres erfreut ihn sehr, da er als erstes diese Meinung geäußert 
+                     hat und nur wenige sie teilen. Dabei berichtigt Gentz, dass die Anmerkungen Böttigers eigentlich von ihm seien.
+                  </summary>
+               </msContents>
+            </msDesc>
+            <listBibl type="letterReferenced">
+               <bibl xml:id="c0501-1" corresp="#LETTER_GENTZ_4589">Friedrich von Gentz an Karl August Böttiger, 13. März 1798</bibl>
+            </listBibl>
+            <listBibl type="defExpr">
+               <biblStruct xml:id="e0501-1" corresp="UBi-0031">
+                  <monogr>
+                     <author>
+                        <persName>
+                           <ref target="http://d-nb.info/gnd/118503839"/>
+                           <forename>Johann Wilhelm von</forename>
+                           <surname>Archenholz</surname>
+                        </persName>
+                     </author>
+                     <title>Miverva. Ein Journal historischen und politischen inhalts</title>
+                     <imprint>
+                        <publisher>B. C. Hoffmann</publisher>
+                        <pubPlace>Hamburg</pubPlace>
+                        <date>1798</date>
+                     </imprint>
+                  </monogr>
+                  <ptr target="http://ds.ub.uni-bielefeld.de/viewer/image/1958318_026/5/"/>
+               </biblStruct>
+               <biblStruct xml:id="e0501-2" corresp="UBi-0029">
+                  <monogr>
+                     <editor>
+                        <persName>
+                           <ref target="http://d-nb.info/gnd/118632477"/>
+                           <forename>Christian Martin</forename>
+                           <surname>Wieland</surname>
+                        </persName>
+                     </editor>
+                     <title>Der Neue Teutsche Merkur</title>
+                     <imprint>
+                        <date>1790-1810</date>
+                     </imprint>
+                  </monogr>
+                  <ptr target="http://ds.ub.uni-bielefeld.de/viewer/image/2238508_025/3/"/>
+               </biblStruct>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Masterarbeit zu Matrikelnummer 5584124</p>
+         </projectDesc>
+      </encodingDesc>
+      <profileDesc>
+         <creation>
+            <date when-iso="1798-05-13">13. Mai 1798</date>
+         </creation>
+        <langUsage>
+           <language ident="d">deutsch</language>
+        </langUsage>
+         <textClass>
+            <keywords scheme="internal"><!-- internal: innerhalb des besagten Briefs -->
+               <term>Brief</term>
+               <term>Merkur</term>
+               <term>Minerva</term>
+               <term>englischer Handel</term>
+            </keywords>
+            <keywords scheme="categorisation"><!-- Sinnabschnittseinteilung - relevant für den Fahrkartenautomaten! -->
+               <term xml:id="frv">Französische Revolution</term>
+               <term xml:id="ehdl">englischer Handel</term>
+            </keywords>
+         </textClass>
+         <textDesc>
+            <channel>manuscript</channel>
+            <constitution type="frags"/>
+            <derivation type="original"/>
+            <domain type="private"/>
+            <factuality type="fact"/>
+            <interaction type="partial"/>
+            <preparedness type="prepared"/>
+            <purpose type="inform"/>
+         </textDesc>
+         <particDesc>
+            <listPerson>
+               <!-- Sender und Adressat -->
+               <person role="sender" xml:id="Gen">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/118538489"/>
+                     <forename>Friedrich von</forename>
+                     <surname>Gentz</surname>
+                  </persName>
+               </person>
+               <person role="receiver" xml:id="JWvA">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/118503839"/>
+                     <forename>Johann Wilhelm von</forename>
+                     <surname>Archenholz</surname>
+                  </persName>
+               </person>
+               <!-- erwähnte Personen -->
+               <person role="named" xml:id="KAB">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/118824775"/>
+                     <forename>Carl August</forename>
+                     <surname>Böttiger</surname>
+                  </persName>
+               </person>
+               <!--<person role="named" xml:id="Hoy">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/117028568"/>
+                     <forename>Karl Georg Heinrich von</forename>
+                     <surname>Hoym</surname>
+                  </persName>
+               </person>
+               <person role="named" xml:id="CJo">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/117177040"/>
+                     <forename>Camille de</forename>
+                     <surname>Jordan</surname>
+                  </persName>
+               </person>
+               <person role="named" xml:id="RGL">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/12889430X"/>
+                     <forename>Roland Gaspard</forename>
+                     <surname>Lemerer</surname>
+                  </persName>
+               </person>-->
+            </listPerson>
+         </particDesc>
+         <settingDesc>
+            <listPlace>
+               <!-- Start- und Zielort -->
+               <place type="sender" xml:id="plBe">
+                  <country>
+                     <ref target="http://d-nb.info/gnd/4047194-9"/>
+                     <placeName>Preußen</placeName>
+                  </country>
+                  <settlement>
+                     <ref target="http://d-nb.info/gnd/4005728-8"/>
+                     <placeName>Berlin</placeName>
+                  </settlement>
+               </place>
+               <place type="receiver" xml:id="plHa">
+                  <country>
+                     <ref target="http://d-nb.info/gnd/4023118-5"/>
+                     <placeName>Hamburg</placeName>
+                  </country>
+                  <settlement>
+                     <ref target="http://d-nb.info/gnd/4023118-5"/>
+                     <placeName>Hamburg</placeName>
+                  </settlement>
+               </place>
+               <!-- erwähnte Orte -->
+            </listPlace>
+         </settingDesc>
+      </profileDesc>
+      <revisionDesc>
+         <change xml:id="init" when-iso="2018-03-02" who="#edAG">Erstauszeichnung und Normierung des Dokumentes im Rahmen der Masterarbeit der Matrikelnummer 5584124</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <opener>
+            <dateline rend="right"><rs type="person" ref="#plBe">Berlin</rs> den <date when-iso="1798-05-13">13<span rend="sup">ten</span> Mai 1798</date></dateline>
+         </opener>
+         <div n="1" corresp="#frv">
+            <p>
+               Ich habe zwar nicht die Zeit, Ihnen einen langen Brief zu schreiben; aber ich muß Ihnen wenigstens mit ein Paar Worten für das Vergnügen danken, 
+               welches mir <rs type="citation" ref="#e0501-1">das Aprilstück Ihrer Minerva</rs> gewährt hat. Ihr treflicher Aufsatz, der dieses Stück eröfnet, 
+               enthält große Wahrheiten und reichen Stoff zum Nachdenken. Aeußerst richtig haben Sie entwickelt warum es so wenige competente Beurtheiler der 
+               Begebenheiten der letzten 10 Jahre geben <emph rend="underlined">kan</emph>, äußerst treffend bemerkt, daß die große Masse der oberflächlichen 
+               Beobachter die Veränderungen, die sich während dieser Zeit zu getragen haben, nie bedeutend genug anschlägt: Die 
+               <emph rend="underlined">Zweifel</emph>, welche den Aufsatz beschließen, theile ich alle Ohne Ausnahme mit Ihnen.
+            </p>
+         </div>
+         <div n="2" corresp="#ehdl">
+            <p>
+               Was mich aber am tiefsten erfreut hat, ist Ihre Aeußerung über die Folgen der Vernichtung des Englischen Handels: was mich stolz macht, ist daß 
+               Sie über einen Gegenstand, der gewiß sehr oft der Gegenstand Ihres Nachdenkens war, und über den Sie Niemand der Parteilichkeit 
+               <emph rend="underlined">für</emph> die Englische Regierung beschuldigen wird, die Grundsätze von denen ich ausgehe, für die Ihrigen erklären, 
+               und einen Gesichtspunkt billigen, aus dem vielleicht tausend aufgeklärte Menschen die Sache betrachten, den ich <del rend="stroked">xxx</del> 
+               aber zuerst laut angegeben zu haben, mir mit einigem Rechte schmeicheln darf. Denn die Bemerkungen im 
+               <rs type="person" ref="#e0501-2">März-Stück des Deutschen Merkur</rs>, denen Sie wiederholentlich Ihren Beifall zusichern, sind eigentlich 
+               nicht von meinem Freunde <rs type="person" ref="#KAB">Böttiger</rs>, sondern von mir. Ich bin aber sehr damit zufrieden gewesen, daß er sie in 
+               <ref target="#r0501-1">seinem Nahmen vortrug</ref>, und schreibe Ihnen dies nur, weil es mir zu viel Freude macht, eine Uebereinstimmung unsrer 
+               Ideen da wahrzunehmen wo wir uns einander näherten ohne uns einmal zu kennen. Denken Sie zuweilen mit Wohlwollen an
+            </p>
+         </div>
+         <closer>
+            <salute rend="right">Ihren sehr ergebnen</salute>
+            <signed rend="right">Gentz.</signed>
+         </closer>
+      </body>
+      <note resp="#edAG" xml:id="r0501-1">Vgl. den <rs type="citation" ref="#c0501-1">Brief an Karl August Böttiger vom 13. März 1798</rs></note>
+   </text>
+</TEI>

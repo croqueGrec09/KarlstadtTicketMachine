@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc xml:id="LETTER_GENTZ_4063">
+         <titleStmt>
+            <title>Friedrich von Gentz an Friedrich Schiller, 9. Dezember 1797</title>
+            <editor xml:id="edAG">Andreas Gálffy</editor>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <name>Forschungsstelle "Universitätssammlung Friedrich von Gentz"</name>
+               <link target="http://gentz-digital.ub.uni-koeln.de http://www.ub.uni-koeln.de/cdm/singleitem/collection/gentz/id/4062/"/>
+            </publisher>
+            <pubPlace>Cologne</pubPlace>
+            <idno type="Gentz-Edition-Number" n="4063"/>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <country>Germany</country>
+                  <settlement>Hannover</settlement>
+                  <institution>Stadtarchiv Hannover</institution>
+                  <repository>Autografensammlung (ehem. Kestner-Museum)</repository>
+                  <idno>583</idno>
+               </msIdentifier>
+               <msContents>
+                  <summary>
+                     Aus dem Drang, weiter Kontakt mit Schiller zu halten, schickt Gentz ein Werk zur Begutachtung.
+                  </summary>
+               </msContents>
+            </msDesc>
+            <listBibl type="preprints">
+               <biblStruct>
+                  <monogr>
+                     <editor>
+                        <persName>
+                           <ref />
+                           <forename>Norbert</forename>
+                           <surname>Oellers</surname>
+                        </persName>
+                        <persName>
+                           <ref />
+                           <forename>Frithjof</forename>
+                           <surname>Stock</surname>
+                        </persName>
+                     </editor>
+                     <title>Schillers Werke, Nationalausgabe</title>
+                     <imprint>
+                        <pubPlace>Weimar</pubPlace>
+                        <date>1964</date>
+                     </imprint>
+                     <biblScope unit="volume" n="37">
+                        37. Bd., Briefe an Schiller 1.4.1797-31.10.1798
+                     </biblScope>
+                     <biblScope unit="page" from="199" to="200">
+                        Nr. 180, 199-200
+                     </biblScope>
+                  </monogr>
+               </biblStruct>
+            </listBibl>
+            <listBibl type="defRep">
+               <biblStruct xml:id="p4063-1" corresp="GBk-0034">
+                  <monogr>
+                     <author>
+                        <persName>
+                           <ref target="http://d-nb.info/gnd/118538489"/>
+                           <forename>Friedrich von</forename>
+                           <surname>Gentz</surname>
+                        </persName>
+                     </author>
+                     <title>Sendschreiben</title>
+                     <imprint>
+                        <publisher>Friedrich Vieweg der Ältere</publisher>
+                        <pubPlace>Berlin</pubPlace>
+                        <date>1797</date>
+                     </imprint>
+                  </monogr>
+                  <ptr target="https://books.google.de/books?id=QLdhAAAAcAAJ" />
+               </biblStruct>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Masterarbeit zu Matrikelnummer 5584124</p>
+         </projectDesc>
+      </encodingDesc>
+      <profileDesc>
+         <creation>
+            <date when-iso="1797-12-09">9. Dezember 1797</date>
+         </creation>
+        <langUsage>
+           <language ident="d">deutsch</language>
+        </langUsage>
+         <textClass>
+            <keywords scheme="internal"><!-- internal: innerhalb des besagten Briefs -->
+               <term>Brief</term>
+               <term>Begleitschreiben</term>
+               <term>Sendschreiben</term>
+            </keywords>
+            <keywords scheme="categorisation"><!-- Sinnabschnittseinteilung - relevant für den Fahrkartenautomaten! -->
+               <term xml:id="vfs">Verhältnis Friedrich Schiller</term>
+            </keywords>
+         </textClass>
+         <textDesc>
+            <channel>manuscript</channel>
+            <constitution type="single"/>
+            <derivation type="original"/>
+            <domain type="private"/>
+            <factuality type="fact"/>
+            <interaction type="partial"/>
+            <preparedness type="prepared"/>
+            <purpose type="inform"/>
+         </textDesc>
+         <particDesc>
+            <listPerson>
+               <!-- Sender und Adressat -->
+               <person role="sender" xml:id="Gen">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/118538489"/>
+                     <forename>Friedrich von</forename>
+                     <surname>Gentz</surname>
+                  </persName>
+               </person>
+               <person role="receiver" xml:id="Sch">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/118607626"/>
+                     <forename>Friedrich</forename>
+                     <surname>Schiller</surname>
+                  </persName>
+               </person>
+               <!-- erwähnte Personen -->
+               <person role="named" xml:id="Hum">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/118554727"/>
+                     <forename>Wilhelm von</forename>
+                     <surname>Humboldt</surname>
+                  </persName>
+               </person>
+            </listPerson>
+         </particDesc>
+         <settingDesc>
+            <listPlace>
+               <!-- Start- und Zielort -->
+               <place type="sender" xml:id="plBe">
+                  <country>
+                     <ref target="http://d-nb.info/gnd/4047194-9"/>
+                     <placeName>Preußen</placeName>
+                  </country>
+                  <settlement>
+                     <ref target="http://d-nb.info/gnd/4005728-8"/>
+                     <placeName>Berlin</placeName>
+                  </settlement>
+               </place>
+               <!-- erwähnte Orte -->
+            </listPlace>
+         </settingDesc>
+      </profileDesc>
+      <revisionDesc>
+         <change xml:id="init" when-iso="2018-02-27" who="#edAG">Erstauszeichnung und Normierung des Dokumentes im Rahmen der Masterarbeit der Matrikelnummer 5584124</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div n="1" corresp="#vfs">
+            <p>
+               Nicht der entfernteste Gedanke eines innern Verdienstes das groß genug wäre, um Ihre Aufmerksamkeit an sich zu 
+               ziehen, nicht einmal die Hoffnung, durch die 
+               <rs type="citation" ref="#p4063-1">beiliegende Schrift</rs><span rend="sup">1</span> die vortheilhafte Idee die Sie 
+               Sich vielleicht von mir gebildet haben<span rend="sup">2</span>, zu verstärken, leitete mich bei dem Schritte, Ihnen, 
+               verehrungswürdiger Mann, dies kleine Produkt zu überreichen. Es war einzig und allein der Wunsch, mich auf irgend 
+               einem Wege zu Ihnen zu drängen, irgend eine Verbindung, sey es auch nur die vorübergehende, die ein Brief und eine 
+               Antwort stiften, unter uns zu schaffen, mir wieder einmal sagen zu können, daß etwas, das von meinem Geiste ausging, 
+               einen so außerordentlichen Geist, als der Ihrige, auf einige Augenblicke beschäftigte.
+            </p>
+            <p>
+               Aus diesem, und nur aus diesem Gesichtspunkte bitte ich Sie, dieses Schreiben zu beurtheilen. Wenn der einzige 
+               Mensch, der eine Mittelsperson zwischen Ihnen und mir abgeben konnte, wenn 
+               <rs type="person" ref="#Hum">Humboldt</rs><span rend="sup">3</span> Ihnen je gesagt hat, in welchem Grade ich es 
+               fühle, was Sie unserm Vaterlande sind, und durch dieses der Menschheit einst seyn werden, so müßen Sie wenigstens 
+               überzeugt seyn, daß es Niemanden so wohl ansteht, als mir, mich mit voller Wahrheit zu nennen
+            </p>
+         </div>
+         <closer>
+            <salute rend="right">Ihren treuen und dankbaren</salute>
+            <salute rend="right">Verehrer</salute>
+            <dateline rend="left"><rs type="place" ref="#plBe">Berlin</rs> den <date when-iso="1797-12-09">9<span rend="sup">ten</span> December 1797</date></dateline>
+            <signed rend="right">Gentz</signed>
+         </closer>
+      </body>
+   </text>
+</TEI>

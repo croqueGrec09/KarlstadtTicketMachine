@@ -1,0 +1,318 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader type="text">
+      <fileDesc xml:id="LETTER_GENTZ_2315">
+         <titleStmt>
+            <title>Friedrich von Gentz an Friedrich Vieweg, 25. Juli 1795</title>
+            <editor xml:id="edAG">Andreas Gálffy</editor>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <name>Forschungsstelle "Universitätssammlung Friedrich von Gentz"</name>
+               <link target="http://gentz-digital.ub.uni-koeln.de http://www.ub.uni-koeln.de/cdm/singleitem/collection/gentz/id/2314/"/>
+            </publisher>
+            <pubPlace>Cologne</pubPlace>
+            <idno type="Gentz-Edition-Number" n="2315"/>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <country>Germany</country>
+                  <settlement>Wiesbaden</settlement>
+                  <institution>Vieweg-Verlagsarchiv</institution>
+                  <repository>Briefsammlung 311 G, Gentz-Briefe</repository>
+                  <idno>Nr. 22</idno>
+               </msIdentifier>
+               <msContents>
+                  <summary>
+                     Am vorigen Tag fühlte sich Gentz unwohl, seit einem Jahr fühlte er kein Fieber mehr, jetzt zum ersten Mal 
+                     wieder. Gentz erklärt, warum er den Amerika-Ausatz nicht geschickt hat: er möchte ihn komplett in einer Ausgabe 
+                     bringen, während in der nächsten schon kein Platz mehr ist, zumindest nicht, ohne den Artikel teilen zu müssen. 
+                     Stattdessen sieht Gentz vor, den Artikel in der nachfolgenden Ausgabe groß aufzuhängen. Er hofft, dass das 
+                     Fieber Gentz nicht von einem Besuch abhalten wird.
+                  </summary>
+               </msContents>
+            </msDesc>
+            <listBibl type="defRep">
+               <biblStruct xml:id="p2315-1" corresp="UBi-0008">
+                  <analytic>
+                     <author>
+                        <persName>
+                           <ref target="http://d-nb.info/gnd/118538489"/>
+                           <forename>Friedrich von</forename>
+                           <surname>Gentz</surname>
+                        </persName>
+                     </author>
+                     <title>Ueber den Einfluß der Entdeckung von Amerika auf den Wohlstand und die Cultur des menschlichen Geschlechts.</title>
+                  </analytic>
+                  <monogr>
+                     <author>
+                        <persName>
+                           <ref target="http://d-nb.info/gnd/118538489"/>
+                           <forename>Friedrich von</forename>
+                           <surname>Gentz</surname>
+                        </persName>
+                     </author>
+                     <title>Neue Deutsche Monatsschrift</title>
+                     <imprint>
+                        <pubPlace>Berlin</pubPlace>
+                        <publisher>Friedrich Vieweg der Ältere</publisher>
+                        <date>1795</date>
+                     </imprint>
+                     <biblScope unit="volume" n="2">
+                        Zweiter Band.
+                     </biblScope>
+                     <biblScope unit="issue">
+                        1795. August.
+                     </biblScope>
+                     <biblScope unit="page" from="269" to="320">
+                        S. 269-320
+                     </biblScope>
+                  </monogr>
+               <ptr target="http://ds.ub.uni-bielefeld.de/viewer/image/1938308_002/276/"/></biblStruct>
+               <biblStruct xml:id="p2315-2" corresp="UBi-0012">
+                  <analytic>
+                     <author>
+                        <persName>
+                           <ref target="http://d-nb.info/gnd/118824775"/>
+                           <forename>Carl August</forename>
+                           <surname>Böttiger</surname>
+                        </persName>
+                     </author>
+                     <title>Amerikanische Briefe</title>
+                  </analytic>
+                  <monogr>
+                     <author>
+                        <persName>
+                           <ref target="http://d-nb.info/gnd/118538489"/>
+                           <forename>Friedrich von</forename>
+                           <surname>Gentz</surname>
+                        </persName>
+                     </author>
+                     <title>Neue Deutsche Monatsschrift</title>
+                     <imprint>
+                        <pubPlace>Berlin</pubPlace>
+                        <publisher>Friedrich Vieweg der Ältere</publisher>
+                        <date>1795</date>
+                     </imprint>
+                     <biblScope unit="volume" n="3">
+                        Dritter Band.
+                     </biblScope>
+                     <biblScope unit="issue">
+                        1795. September.
+                     </biblScope>
+                     <biblScope unit="page" from="30" to="39">
+                        S. 30-39
+                     </biblScope>
+                  </monogr>
+               <ptr target="http://ds.ub.uni-bielefeld.de/viewer/image/1938308_003/31/"/></biblStruct>
+               <biblStruct xml:id="p2315-3" corresp="UBi-0005">
+                  <monogr>
+                     <author>
+                        <persName>
+                           <ref target="http://d-nb.info/gnd/118538489"/>
+                           <forename>Friedrich von</forename>
+                           <surname>Gentz</surname>
+                        </persName>
+                     </author>
+                     <title>Neue Deutsche Monatsschrift</title>
+                     <imprint>
+                        <pubPlace>Berlin</pubPlace>
+                        <publisher>Friedrich Vieweg der Ältere</publisher>
+                        <date>1795</date>
+                     </imprint>
+                     <biblScope unit="volume" n="2">
+                        Zweiter Band.
+                     </biblScope>
+                     <biblScope unit="issue">
+                        1795. July.
+                     </biblScope>
+                  </monogr>
+               <ptr target="http://ds.ub.uni-bielefeld.de/viewer/image/1938308_002/186/LOG_0016/"/></biblStruct>
+            </listBibl>
+            <listBibl type="edRef">
+               <biblStruct xml:id="f2315-1" corresp="UBi-0007">
+                  <analytic>
+                     <author>
+                        <persName>
+                           <ref target="http://d-nb.info/gnd/118824775"/>
+                           <forename>Carl August</forename>
+                           <surname>Böttiger</surname>
+                        </persName>
+                     </author>
+                     <title>Neue Amerikanische Briefe</title>
+                  </analytic>
+                  <monogr>
+                     <author>
+                        <persName>
+                           <ref target="http://d-nb.info/gnd/118538489"/>
+                           <forename>Friedrich von</forename>
+                           <surname>Gentz</surname>
+                        </persName>
+                     </author>
+                     <title>Neue Deutsche Monatsschrift</title>
+                     <imprint>
+                        <pubPlace>Berlin</pubPlace>
+                        <publisher>Friedrich Vieweg der Ältere</publisher>
+                        <date>1795</date>
+                     </imprint>
+                     <biblScope unit="volume" n="2">
+                        Zweiter Band.
+                     </biblScope>
+                     <biblScope unit="issue">
+                        1795. July.
+                     </biblScope>
+                     <biblScope unit="page" from="241" to="266">
+                        S. 241-266
+                     </biblScope>
+                  </monogr>
+               <ptr target="http://ds.ub.uni-bielefeld.de/viewer/image/1938308_002/246/"/></biblStruct>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Masterarbeit zu Matrikelnummer 5584124</p>
+         </projectDesc>
+      </encodingDesc>
+      <profileDesc>
+         <creation>
+            <date when-iso="1795-07-25">25. Juli 1795</date>
+         </creation>
+        <langUsage>
+           <language ident="d">deutsch</language>
+        </langUsage>
+         <textClass>
+            <keywords scheme="internal"><!-- internal: innerhalb des besagten Briefs -->
+               <term>Brief</term>
+               <term>Monatsschrift</term>
+               <term>Amerikanische Briefe</term>
+               <term>Böttiger</term>
+               <term>Plattitüde</term>
+               <term>An die Duldung</term>
+            </keywords>
+            <keywords scheme="categorisation"><!-- Sinnabschnittseinteilung - relevant für den Fahrkartenautomaten! -->
+               <term xml:id="gg">Gentz - Gesundheit</term>
+               <term xml:id="abf">Amerikanische Briefe</term>
+               <term xml:id="vwf">Vieweg - Freundschaft</term>
+            </keywords>
+         </textClass>
+         <textDesc>
+            <channel>manuscript</channel>
+            <constitution type="single"/>
+            <derivation type="original"/>
+            <domain type="private"/>
+            <factuality type="fact"/>
+            <interaction type="partial"/>
+            <preparedness type="unprepared"/>
+            <purpose type="inform"/>
+         </textDesc>
+         <particDesc>
+            <listPerson>
+               <!-- Sender und Adressat -->
+               <person role="sender" xml:id="Gen">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/118538489"/>
+                     <forename>Friedrich von</forename>
+                     <surname>Gentz</surname>
+                  </persName>
+               </person>
+               <person role="receiver" xml:id="FVW">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/119049546"/>
+                     <forename>Friedrich</forename>
+                     <surname>Vieweg</surname>
+                  </persName>
+               </person>
+               <!-- erwähnte Personen -->
+               <person role="named" xml:id="KAB">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/118824775"/>
+                     <forename>Carl August</forename>
+                     <surname>Böttiger</surname>
+                  </persName>
+               </person>
+            </listPerson>
+         </particDesc>
+         <settingDesc>
+            <listPlace>
+               <!-- Start- und Zielort -->
+               <place type="sender" xml:id="plBe">
+                  <country>
+                     <ref target="http://d-nb.info/gnd/4047194-9"/>
+                     <placeName>Preußen</placeName>
+                  </country>
+                  <settlement>
+                     <ref target="http://d-nb.info/gnd/4005728-8"/>
+                     <placeName>Berlin</placeName>
+                  </settlement>
+               </place>
+               <!-- erwähnte Orte -->
+            </listPlace>
+         </settingDesc>
+      </profileDesc>
+      <revisionDesc>
+         <change xml:id="init" when-iso="2018-02-17" who="#edAG">Erstauszeichnung und Normierung des Dokumentes im Rahmen der Masterarbeit der Matrikelnummer 5584124</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div n="1" corresp="#gg">
+            <p>
+               Ich bin <date when-iso="1795-07-24">gestern</date> nicht erschienen, weil ich 
+               <date when-iso="1795-07-23">vorgestern Abend</date> eine Anwandlung, die dem Fieber nicht unähnlich war, verspürte. 
+               Eine Arzney, die ich mir <date when-iso="1795-07-24">gestern</date> gleich holen ließ, scheint zu wirken. Noch aber 
+               ist es gar nicht entschieden, ob ich nicht ans Fieber werde glauben müssen. Es ist gerade ein Jahr her, daß ich es 
+               zum erstenmale bekam.
+            </p>
+         </div>
+         <div n="2" corresp="#abf">
+            <p>
+               Ich muß Ihnen jetzt vor allen Dingen erklären, woher es kömmt, daß ich den versprochnen 
+               <rs type="citation" ref="#p2315-1">Aufsatz</rs> <emph rend="underlined">über Amerika</emph> 
+               <ref target="#r2315-2">nicht geschickt</ref> habe, und, wenn Sie meiner Meinung sind, auch nicht schicken werde. 
+               Wenn <del rend="stroked">ich</del> außer den jetzt schon abgedruckten 4 Sachen noch die 
+               <rs type="citation" ref="#p2315-2">beiden Briefe</rs> von <rs type="person" ref="#KAB">Bötticher</rs> abgedruckt 
+               werden, so hat das <rs type="citation" ref="#p2315-3">July-Stück</rs> seine volle Bogenzahl. Mein Aufsatz ist dadurch, daß ich nicht, 
+               (wie ich erst wollte) bey der Entdeckung von Amerika stehen geblieben, sondern auf allgemeinere Verhältnisse, den 
+               Einfluß des <emph rend="underlined">Handels</emph>, den Gang der menschlichen Cultur überhaupt u.s.f. übergegangen 
+               bin, <pb/> so angewachsen, daß er vielleicht 3, gewiß 2 bis 2 1/2 Bogen einnimmt. Er müste also in jedem Fall 
+               abgebrochen werden, und würde vielleicht, da er überdies ganz hinten stünde nicht einmal recht bemerkt. Ich dächte 
+               also, wir ließen diesen Aufsatz ganz, und fingen das folgende Stück damit recht preislich an. Ich habe überdies noch 
+               manche gute Idee die ich dann, wenn ich ihn noch einige Wochen ruhen lassen kan, einweben oder erweitern würde. Und 
+               die <rs type="citation" ref="#p2315-2"><emph rend="underlined">Amerikanischen Briefe</emph></rs> sind nun 
+               <del rend="stroked">xxx</del> eine gute Vorbereitung zu 
+               <rs type="citation" ref="#p2315-1">jenem größern Aufsatze</rs>.
+            </p>
+         </div>
+         <div n="3" corresp="#vwf">
+            <p>
+               Bey diesen Umständen werden Sie mir hoffentlich Recht geben. Uebrigens habe ich, wenn ich 
+               <emph rend="underlined">nicht</emph> das Fieber bekomme, auf alle Fälle <date when-iso="1795-07-28">Dienstag</date> 
+               das Vergnügen sie zu sehen. Bekomme ich es, so hoffe ich, Sie werden mich nicht ganz in meinem Elend verlassen.
+            </p>
+            <p>
+               Einige Kleinigkeiten die ich zu haben wünsche, habe ich auf einem besondern Zettel notirt, der Ihren Leuten 
+               zugestellt werden soll. Gott gebe Ihnen viel Freude !
+            </p>
+         </div>
+         <closer>
+            <signed rend="right">Gentz.</signed>
+         </closer>
+      </body>
+      <back>
+         <p>
+            Herrn
+            Buchhändler Vieweg
+            Wohlgebohren;
+         </p>
+         <p resp="#FVW">
+            <rs type="place" ref="#plBe">Berlin</rs> d <date when-iso="1795-07-25">25. Jul 1795</date>.
+            H K. R. Gentz
+            Dato
+         </p>
+      </back>
+      <note xml:id="r2315-1">Seite 4 von Viewegs Hand</note>
+      <note resp="#edAG" xml:id="r2315-2">Sowohl im <rs type="citation" ref="#f2315-1">Juli</rs>, als auch im <rs type="citation" ref="#p2315-1">September 1795</rs> finden sich Aufsätze über amerikanische Briefe von Böttiger</note>
+   </text>
+</TEI>

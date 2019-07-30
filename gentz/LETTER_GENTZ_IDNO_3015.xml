@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc xml:id="LETTER_GENTZ_3015">
+         <titleStmt>
+            <title>Friedrich von Gentz an Friedrich Vieweg, 13. Mai 1800</title>
+            <editor xml:id="edAG">Andreas Gálffy</editor>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <name>Forschungsstelle "Universitätssammlung Friedrich von Gentz"</name>
+               <link target="http://gentz-digital.ub.uni-koeln.de http://www.ub.uni-koeln.de/cdm/singleitem/collection/gentz/id/3014/"/>
+            </publisher>
+            <pubPlace>Cologne</pubPlace>
+            <idno type="Gentz-Edition-Number" n="3015"/>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <country>Germany</country>
+                  <settlement>Wiesbaden</settlement>
+                  <institution>Vieweg-Verlagsarchiv</institution>
+                  <repository>Briefsammlung G 311: Gentz-Brief</repository>
+                  <idno>Nr. 100</idno>
+               </msIdentifier>
+               <msContents>
+                  <summary>
+                     In diesem eher privat gehaltenen Brief äußert Gentz den Wunsch, die alte Freundschaft wiederherzustellen. 
+                     Zugleich aber präsentiert er eine neue Forderung über 50 Reichstaler, die an G. A. Reimer zu entrichten sind.
+                  </summary>
+               </msContents>
+            </msDesc>
+            <listBibl type="letterReferenced">
+               <bibl xml:id="c3015-1" corresp="#LETTER_GENTZ_1695">Friedrich von Gentz an Friedrich Vieweg, 10. Mai 1800</bibl>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Masterarbeit zu Matrikelnummer 5584124</p>
+         </projectDesc>
+      </encodingDesc>
+      <profileDesc>
+         <creation>
+            <date when-iso="1800-05-13">13. Mai 1800</date>
+         </creation>
+        <langUsage>
+           <language ident="d">deutsch</language>
+        </langUsage>
+         <textClass>
+            <keywords scheme="internal"><!-- internal: innerhalb des besagten Briefs -->
+               <term>Brief</term>
+               <term>Bettelbrief</term>
+               <term>alte Freundschaft</term>
+               <term>Frölich</term>
+            </keywords>
+            <keywords scheme="categorisation"><!-- Sinnabschnittseinteilung - relevant für den Fahrkartenautomaten! -->
+               <term xml:id="vwf">Vieweg - Freundschaft</term>
+               <term xml:id="gprl">Gentz - p(r)ekuniäre Lage</term>
+            </keywords>
+         </textClass>
+         <textDesc>
+            <channel>manuscript</channel>
+            <constitution type="single"/>
+            <derivation type="original"/>
+            <domain type="private"/>
+            <factuality type="fact"/>
+            <interaction type="partial"/>
+            <preparedness type="prepared"/>
+            <purpose type="inform"/>
+         </textDesc>
+         <particDesc>
+            <listPerson>
+               <!-- Sender und Adressat -->
+               <person role="sender" xml:id="Gen">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/118538489"/>
+                     <forename>Friedrich von</forename>
+                     <surname>Gentz</surname>
+                  </persName>
+               </person>
+               <person role="receiver" xml:id="FVW">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/119049546"/>
+                     <forename>Friedrich</forename>
+                     <surname>Vieweg</surname>
+                  </persName>
+               </person>
+               <!-- erwähnte Personen -->
+               <person role="named" xml:id="Fro">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/1073351068"/>
+                     <forename>Heinrich</forename>
+                     <surname>Frölich</surname>
+                  </persName>
+               </person>
+               <person role="named" xml:id="GAnR">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/118831194"/>
+                     <forename>Georg Andreas</forename>
+                     <surname>Reimer</surname>
+                  </persName>
+               </person>
+            </listPerson>
+         </particDesc>
+         <settingDesc>
+            <listPlace>
+               <!-- Start- und Zielort -->
+               <place type="sender" xml:id="plBe">
+                  <country>
+                     <ref target="http://d-nb.info/gnd/4047194-9"/>
+                     <placeName>Preußen</placeName>
+                  </country>
+                  <settlement>
+                     <ref target="http://d-nb.info/gnd/4005728-8"/>
+                     <placeName>Berlin</placeName>
+                  </settlement>
+               </place>
+               <place type="receiver" xml:id="plLp">
+                  <country>
+                     <ref target="http://d-nb.info/gnd/4051176-5"/>
+                     <placeName>Sachsen</placeName>
+                  </country>
+                  <settlement>
+                     <ref target="http://d-nb.info/gnd/4035206-7"/>
+                     <placeName>Leipzig</placeName>
+                  </settlement>
+               </place>
+               <!-- erwähnte Orte -->
+            </listPlace>
+         </settingDesc>
+      </profileDesc>
+      <revisionDesc>
+         <change xml:id="init" when-iso="2018-03-05" who="#edAG">Erstauszeichnung und Normierung des Dokumentes im Rahmen der Masterarbeit der Matrikelnummer 5584124</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div n="1" corresp="#vwf">
+            <p>
+               Ich habe Ihnen durch <rs type="person" ref="#Fro">Frölich</rs> nur einige meiner dringendsten Bedürfnisse angezeigt: 
+               was ich aber in <rs type="citation" ref="#c3015-1">jenem Briefe</rs> nicht sagen mogte, und doch mit wenig Worten 
+               sagen muß, das ist: daß mich die Idee mit Ihnen in einem gespannten und unfreundlichen Verhältnisse zu leben, äußerst 
+               schmerzt, daß ich Sehnlich wünsche, unsre alte gute Harmonie vollständig wieder hergestellt zu sehen, und daß der 
+               Zeitpunkt, wo diese Harmonie uns beiden angenehm seyn wird, vielleicht näher ist, als Sie es glauben. Schreiben Sie 
+               mir also ein Paar Worte im alten Tone, und laßen Sie uns, ich bitte Sie darum, auf immer vergessen, daß ein andrer 
+               auch nur einen Augenblick unter uns geherrscht hat.
+            </p>
+         </div>
+         <div n="2" corresp="#gprl">
+            <p>
+               Es wird Ihnen wahrscheinlich noch eine kleine Anweisung von 50 Reichsthaler die ich in einer sonst nicht zu hebenden 
+               Verlegenheit einem gewissen <rs type="person" ref="#GAnR">Reimer</rs> habe ausstellen müßen, präsentirt werden. 
+               Glauben Sie, daß Sie selbige noch bezahlen können, so acceptieren Sie, sey es auch nur in 4 oder 6 Wochen die Zahlung 
+               zu leisten. Geht es nicht an, so sagen Sie dem Menschen, die Sache sey schon anderweitig arrangirt, und richten es 
+               wenigstens so ein, daß ich nicht Verdruß und unnütze Demüthigung erleide.
+            </p>
+         </div>
+         <div n="3" corresp="#vwf">
+            <p>
+               Vor allen Dingen aber laßen Sie meine Bitte um völlige Wiederherstellung unsrer Freundschaft Statt finden, und 
+               glauben Sie, daß der Brief, worin Sie mir die Erfüllung derselben ankündigen, eine angenehme Stunde verschaffen wird
+            </p>
+         </div>
+         <closer>
+            <salute rend="right">Ihrem unverändert-</salute>
+            <dateline rend="left"><rs type="place" ref="#plBe">Berlin</rs> <date when-iso="1800-05-13">13 Mai 1800</date></dateline>
+            <salute rend="right">ergebnen</salute>
+            <signed rend="right">Gentz.</signed>
+         </closer>
+      </body>
+      <back resp="otherHand">
+         <p>
+            An
+            des Herrn Buchhändler Vieweg Wohlgebohren
+            <rs type="place" ref="#plLp"><emph rend="underlined">Leipzig</emph></rs>
+            <emph rend="underlined">Frey</emph>.
+         </p>
+      </back>
+      <note xml:id="r3015-1">Seite 4: Siegelreste</note>
+   </text>
+</TEI>

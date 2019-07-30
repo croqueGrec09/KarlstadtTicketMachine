@@ -1,0 +1,277 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc xml:id="LETTER_GENTZ_3177">
+         <titleStmt>
+            <title>Friedrich von Gentz an Karl August Böttiger, 20. April 1797</title>
+            <editor xml:id="edAG">Andreas Gálffy</editor>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <name>Forschungsstelle "Universitätssammlung Friedrich von Gentz"</name>
+               <link target="http://gentz-digital.ub.uni-koeln.de http://www.ub.uni-koeln.de/cdm/singleitem/collection/gentz/id/3176/"/>
+            </publisher>
+            <pubPlace>Cologne</pubPlace>
+            <idno type="Gentz-Edition-Number" n="3177"/>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <country>Germany</country>
+                  <settlement>Dresden</settlement>
+                  <institution>Sächsiche Landesbibliothek</institution>
+                  <repository>Handschriftensammlung, Nachlaß Böttiger</repository>
+                  <collection>Mscr. Dresd. h 37, Bd. 54 (4°)</collection>
+                  <idno>Nr. 7</idno>
+               </msIdentifier>
+               <msContents>
+                  <summary>
+                     Gentz' Schwager Gilly kommt auf einige Tage nach Weimar und möchte Böttiger kennenlernen. Gentz liefert dazu 
+                     umfangreiche Referenzen, so auch, dass Gilly den Rang des ersten Archtiekten im preußischen Staat bekleidet. 
+                     Da Gilly nach Paris zieht, soll Böttiger ihn bei seiner Vorbereitung unterstützen. Indessen kam eine Absage 
+                     aus Weimar. Für Gentz ist es völlig unbegreiflich, dass man ihn so vor dem Kopf stößt, obwohl seine Tätigkeit 
+                     bekannt ist. Selbst angesehene Bürgen reichen nicht. Da ist es für Gentz ein Trost, wenn er aus einem Brief an 
+                     Vieweg eine gütige Erklärung Böttigers findet.
+                  </summary>
+               </msContents>
+            </msDesc>
+            <listBibl type="preprints">
+               <biblStruct>
+                  <monogr>
+                     <editor>
+                        <persName>
+                           <ref target="http://d-nb.info/gnd/130953075"/>
+                           <forename>Friedrich Carl</forename>
+                           <surname>Wittichen</surname>
+                        </persName>
+                        <persName>
+                           <ref/> <!-- kein GND-Eintrag -->
+                           <forename>Ernst</forename>
+                           <surname>Salzer</surname>
+                        </persName>
+                     </editor>
+                     <title>Briefe von und an Friedrich von Gentz, 4 Bde.</title>
+                     <imprint>
+                        <publisher>Oldenbourg</publisher>
+                        <pubPlace>München, Berlin</pubPlace>
+                        <date>1909-1913</date>
+                     </imprint>
+                     <biblScope unit="volume" n="1">
+                        I
+                     </biblScope>
+                     <biblScope unit="page" from="226" to="227">
+                        Nr. 52
+                     </biblScope>
+                  </monogr>
+               </biblStruct>
+            </listBibl>
+            <listBibl type="letterReferenced">
+               <bibl xml:id="c3177-1" corresp="#LETTER_GENTZ_1209">Friedrich von Gentz an Karl August Böttiger, 4. März 1797</bibl>
+               <bibl xml:id="c3177-2" corresp="#LETTER_GENTZ_NNNN">nicht bekannter Brief von Karl August Böttiger an Friedrich von Gentz</bibl>
+               <bibl xml:id="c3177-3" corresp="#LETTER_GENTZ_NNNN">nicht bekannter Brief von Karl August Böttiger an Friedrich Vieweg</bibl>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Masterarbeit zu Matrikelnummer 5584124</p>
+         </projectDesc>
+      </encodingDesc>
+      <profileDesc>
+         <creation>
+            <date when-iso="1797-04-20">20. April 1797</date>
+         </creation>
+        <langUsage>
+           <language ident="d">deutsch</language>
+        </langUsage>
+         <textClass>
+            <keywords scheme="internal"><!-- internal: innerhalb des besagten Briefs -->
+               <term>Brief</term>
+               <term>Literatur</term>
+               <term>Bibliothek</term>
+               <term>Französische Revolution</term>
+            </keywords>
+            <keywords scheme="categorisation"><!-- Sinnabschnittseinteilung - relevant für den Fahrkartenautomaten! -->
+               <term xml:id="kgil">Gilly</term>
+               <term xml:id="budcff">Betrachtungen über den Ursprung, den Charakter und den Fortgang der Französischen Revolution</term>
+               <term xml:id="vkab">Verhältnis Karl August Böttiger</term>
+            </keywords>
+         </textClass>
+         <textDesc>
+            <channel>manuscript</channel>
+            <constitution type="single"/>
+            <derivation type="original"/>
+            <domain type="private"/>
+            <factuality type="fact"/>
+            <interaction type="partial"/>
+            <preparedness type="prepared"/>
+            <purpose type="inform"/>
+         </textDesc>
+         <particDesc>
+            <listPerson>
+               <!-- Sender und Adressat -->
+               <person role="sender" xml:id="Gen">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/118538489"/>
+                     <forename>Friedrich von</forename>
+                     <surname>Gentz</surname>
+                  </persName>
+               </person>
+               <person role="receiver" xml:id="KAB">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/118824775"/>
+                     <forename>Carl August</forename>
+                     <surname>Böttiger</surname>
+                  </persName>
+               </person>
+               <!-- erwähnte Personen -->
+               <person role="named" xml:id="FGil">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/118539345"/>
+                     <forename>Friedrich</forename>
+                     <surname>Gilly</surname>
+                  </persName>
+               </person>
+               <person role="named" xml:id="Hum">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/118554727"/>
+                     <forename>Wilhelm von</forename>
+                     <surname>Humboldt</surname>
+                  </persName>
+               </person>
+               <person role="named" xml:id="JWvG">
+                  <persName>
+                     <ref target="https://d-nb.info/gnd/118540238"/>
+                     <forename>Johann Wolfgang von</forename>
+                     <surname>Goethe</surname>
+                  </persName>
+               </person>
+               <person role="named" xml:id="JGH">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/118549553"/>
+                     <forename>Johann Gottfried von</forename>
+                     <surname>Herder</surname>
+                  </persName>
+               </person>
+               <person role="named" xml:id="FVW">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/119049546"/>
+                     <forename>Friedrich</forename>
+                     <surname>Vieweg</surname>
+                  </persName>
+               </person>
+            </listPerson>
+         </particDesc>
+         <settingDesc>
+            <listPlace>
+               <!-- Start- und Zielort -->
+               <place type="sender" xml:id="plBe">
+                  <country>
+                     <ref target="http://d-nb.info/gnd/4047194-9"/>
+                     <placeName>Preußen</placeName>
+                  </country>
+                  <settlement>
+                     <ref target="http://d-nb.info/gnd/4005728-8"/>
+                     <placeName>Berlin</placeName>
+                  </settlement>
+               </place>
+               <place type="receiver" xml:id="plWe">
+                  <country>
+                     <ref target="http://d-nb.info/gnd/4051194-7"/>
+                     <placeName>Sachsen-Weimar-Eisenach</placeName>
+                  </country>
+                  <settlement>
+                     <ref target="http://d-nb.info/gnd/4065105-8"/>
+                     <placeName>Weimar</placeName>
+                  </settlement>
+               </place>
+               <!-- erwähnte Orte -->
+               <place type="named" xml:id="plPa">
+                  <country>
+                     <ref target="http://d-nb.info/gnd/4018145-5"/>
+                     <placeName>Frankreich</placeName>  
+                  </country>
+                  <settlement>
+                     <ref target="http://d-nb.info/gnd/4044660-8"/>
+                     <placeName>Paris</placeName>
+                  </settlement>
+               </place>
+            </listPlace>
+         </settingDesc>
+      </profileDesc>
+      <revisionDesc>
+         <change xml:id="init" when-iso="2018-02-26" who="#edAG">Erstauszeichnung und Normierung des Dokumentes im Rahmen der Masterarbeit der Matrikelnummer 5584124</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div n="1" corresp="#kgil">
+            <p>
+               Der Hauptzweck des gegenwärtigen Schreibens, Hochgeschätzter Herr Consistorial-Rath, ist die Empfehlung dessen, der 
+               es Ihnen überreichen wird. <rs type="person" ref="#FGil">Mein Schwager Gilly</rs> will einige Tage in 
+               <rs type="place" ref="#plWe">Weimar</rs> zubringen: Ihre Bekanntschaft zu machen, war seine vorzüglichste Absicht, 
+               als er sich entschloß seine Reise auf diese Gegend zu richten. Daß er ein Mensch von großer Wißbegierde und von 
+               nicht gemeinen Kenntnissen in seinem Fache, daß er überdies ein liebenswürdiger Mensch im besten Sinne des Worts ist, 
+               das alles könnte ich ganz mit Stillschweigen übergehen, weil ich dreist darauf rechnen darf, daß Sie es sehr bald, 
+               auch wenn er Ihnen durch Niemand empfohlen wäre, bemerkt haben würden. Aber was ich Ihnen sagen muß, weil dies in 
+               eine Sphäre gehört, die außerhalb der Gränzen eines vorübergehenden Umganges liegt, und was mich nicht etwa bloß 
+               persönliche Liebe sagen heißt, ist, daß <add place="above">in</add> diesem jungen Manne eins der <pb/> ersten 
+               Kunst-Genies wohnt, die unser Vaterland in diesem Zeitalter hervorgebracht hat. Es bezeichnet den Umfang seiner 
+               Talente noch lange nicht genug, ob es gleich immer schon viel für ihn sagt, daß alle Sachverständige ohne Ausnahme, 
+               ihm in seinem 24<span rend="sup">ten</span> Jahre den unstreitigen Rang des ersten Architekten im Preußischen Staate 
+               einräumten; so wie man ihm überhaupt keine Gerechtigkeit widerfahren läßt, wenn man ihn, der in jeder bildenden 
+               Kunst die höchste Stufe zu erreichen bestimmt war, bloß als einen Architekten betrachtet. - Ich bitte Sie, dies 
+               allenfalls als den Text zu Ihren eignen Beobachtungen über ihn, anzusehen. Ihnen wird es nicht lange entgehen, was 
+               für einen außerordentlichen Jüngling ich Ihnen empfahl: und ich verlaße mich mit großer Zuverläßigkeit darauf, daß 
+               Sie nicht einen einzigen Zug meiner Schilderung übertrieben finden werden. - Er geht nach 
+               <rs type="place" ref="#plPa">Paris</rs>, <pb/> wo er einige Jahre zubringen wird. Können Sie ihm zur Benutzung seines 
+               dortigen Aufenthalts, wozu er freilich so vorbereitet, wie <add place="above">es</add> wohl unter zehntausenden nicht 
+               einer war, hingeht, noch einen oder den andern guten Rath ertheilen, so werde ich es als eine überaus wesentliche 
+               Probe Ihrer Freundschaft und Ihres Wohlwollens gegen mich annehmen.
+            </p>
+         </div>
+         <div n="2" corresp="#budcff">
+            <p>
+               Die <rs type="citation" ref="#c3177-2">Nachricht</rs> von <del rend="stroked">meinem</del> dem 
+               <ref target="#r3177-1">Fehlschlagen meines Versuchs am Weimarschen Hofe</ref> ist mir nicht bloß der Sache selbst, 
+               sondern auch der Nebenbetrachtungen wegen, welche sie bey mir veranlaßte, unangenehm gewesen. Wenn einer von den 
+               Höfen, die man für die gebildetsten und humansten hält, einem Schriftsteller von dem noch dazu der Ruf sagt, daß er 
+               in dieser <emph rend="underlined">kritischen</emph> Zeit die sinkende Sache der alten Regierungen gegen die 
+               Revolutionistischen Systeme verteidigt, eine so unbedeutende Gefälligkeit versagen kann - - was soll man da von 
+               Fürsten und Höfen <emph rend="underlined">überhaupt</emph> denken. Ich muß <add place="above">es</add> Ihnen 
+               wirklich gestehen: <del rend="stroked">xxx</del> ich habe <pb/> kaum an die 
+               <emph rend="underlined">Möglichkeit</emph>, mit einem solchen Gesuche abgewiesen zu werden, geglaubt. Und das Objekt 
+               was man aufs Spiel setzte, war an Gelde ungefähr 15 Thaler werth ! Und 
+               <rs type="person" ref="#Hum"><emph rend="underlined">Humboldt</emph></rs>, und 
+               <rs type="person" ref="#JWvG">Herr <emph rend="underlined">von Göthe</emph></rs>, und 
+               <emph rend="underlined">Sie</emph>, und <rs type="person" ref="#JGH"><emph rend="underlined">Herder</emph></rs>, und 
+               Gott weis wer noch, wollten meine Bürgen werden !!
+            </p>
+         </div>
+         <div n="3" corresp="#vkab">
+            <p>
+               Desto angenehmer ist mir die gütige Erklärung gewesen, die Sie in 
+               <rs type="citation" ref="#c3177-2">Ihrem letzten Schreiben</rs> jener unangenehmen Nachricht beygefügt, und in einem 
+               <rs type="citation" ref="#c3177-3">Briefe</rs> an <rs type="person" ref="#FVW">Vieweg</rs> von neuem angedeutet 
+               haben. Ich wünsche sehnlichst daß Sie mir darüber recht bald etwas näheres zukommen laßen mögten, und danke vorläufig 
+               mit ganzem, vollem Herzen, für diese ausgezeichnete, schmeichelhafte, und von meiner Seite noch ganz unverdiente 
+               Güte. Daß Sie Sich übrigens <del rend="stroked">auf meine</del> uneingeschränkt auf meine Discretion und äußerste 
+               Pünktlichkeit verlaßen können, werde ich Ihnen zu seiner Zeit noch wärmer und bestimmter versichern, als ich es 
+               jetzt vorläufig thue.
+            </p>
+            <p>
+               Ich verharre mit großer, wahrer und schuldiger Hochachtung
+            </p>
+         </div>
+         <closer>
+            <salute rend="right">Ihr ganz ergebenster</salute>
+            <dateline rend="left"><rs type="place" ref="#plBe">Berlin</rs> den <date when-iso="1797-04-20">20<span rend="sup">ten</span> April 1797</date>:</dateline>
+            <signed rend="right">Gentz.</signed>
+         </closer>
+      </body>
+      <note resp="#edAG" xml:id="r3177-1">Vgl. den <rs type="citation" ref="#c3177-1">Brief vom 4. März 1797 an Böttiger</rs></note>
+   </text>
+</TEI>

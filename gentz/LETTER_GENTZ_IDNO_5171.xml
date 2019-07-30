@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc xml:id="LETTER_GENTZ_5171">
+         <titleStmt>
+            <title>Friedrich von Gentz an N. N., 5. November 1799</title>
+            <editor xml:id="edAG">Andreas Gálffy</editor>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <name>Forschungsstelle "Universitätssammlung Friedrich von Gentz"</name>
+               <link target="http://gentz-digital.ub.uni-koeln.de http://www.ub.uni-koeln.de/cdm/singleitem/collection/gentz/id/5170/"/>
+            </publisher>
+            <pubPlace>Cologne</pubPlace>
+            <idno type="Gentz-Edition-Number" n="5171"/>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <country>unknown</country>
+                  <collection>autograph catalog</collection>
+                  <idno>not retraced</idno>
+               </msIdentifier>
+               <msContents>
+                  <summary>
+                     Es wird vermutet, dass der Brief an Metternich ging. Gentz bittet im Brief um Schutz für das Journal.
+                  </summary>
+               </msContents>
+            </msDesc>
+            <biblStruct type="catEntry">
+               <monogr>
+                  <author>
+                     <persName>
+                        <ref />
+                        <forename>Heinrich</forename>
+                        <surname>Hinterberger</surname>
+                     </persName>
+                  </author>
+                  <title>Katalog II, Autographen und Historische Dokumente</title>
+                  <imprint>
+                     <pubPlace>Wien</pubPlace>
+                  </imprint>
+                  <biblScope unit="page" from="11" to="11">
+                     Nr. 78
+                  </biblScope>
+               </monogr>
+            </biblStruct>
+            <listBibl type="defRep">
+               <biblStruct xml:id="p5171-1" corresp="GBk-0042">
+                  <monogr>
+                     <editor>
+                        <persName>
+                           <ref target="http://d-nb.info/gnd/118538489"/>
+                           <forename>Friedrich von</forename>
+                           <surname>Gentz</surname>
+                        </persName>
+                     </editor>
+                     <title>Historisches Journal</title>
+                     <imprint>
+                        <publisher>Friedrich Vieweg dem ältern</publisher>
+                        <pubPlace>Berlin</pubPlace>
+                        <date>1799</date>
+                     </imprint>
+                  </monogr>
+                  <ptr target="https://books.google.de/books?id=YU5BAAAAcAAJ"/>
+               </biblStruct>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Masterarbeit zu Matrikelnummer 5584124</p>
+         </projectDesc>
+      </encodingDesc>
+      <profileDesc>
+         <creation>
+            <date when-iso="1799-11-05">5. November 1799</date>
+         </creation>
+        <langUsage>
+           <language ident="d">deutsch</language>
+        </langUsage>
+         <textClass>
+            <keywords scheme="internal"><!-- internal: innerhalb des besagten Briefs -->
+               <term>Brief</term>
+               <term>Bittschreiben</term>
+               <term>Historisches Journal</term>
+            </keywords>
+            <keywords scheme="categorisation"><!-- Sinnabschnittseinteilung - relevant für den Fahrkartenautomaten! -->
+               <term xml:id="kpd">Briefspuren - Polizey Karlstadt</term>
+               <term xml:id="jrnh">Historisches Journal</term>
+            </keywords>
+         </textClass>
+         <textDesc>
+            <channel>manuscript</channel>
+            <constitution type="single"/>
+            <derivation type="original"/>
+            <domain type="private"/>
+            <factuality type="fact"/>
+            <interaction type="partial"/>
+            <preparedness type="prepared"/>
+            <purpose type="inform"/>
+         </textDesc>
+         <particDesc>
+            <listPerson>
+               <!-- Sender und Adressat -->
+               <person role="sender" xml:id="Gen">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/118538489"/>
+                     <forename>Friedrich von</forename>
+                     <surname>Gentz</surname>
+                  </persName>
+               </person>
+               <!-- erwähnte Personen -->
+               <person role="named" xml:id="Me">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/118581465"/>
+                     <forename>Klemens Wenzel Nepomuk Lothar von</forename>
+                     <surname>Metternich</surname>
+                  </persName>
+               </person>
+               <person role="named" xml:id="Fr">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/118534955"/>
+                     <forename>Franz II.</forename>
+                     <surname>Heiliges Römisches Reich</surname>
+                     <roleName type="office">Kaiser</roleName>
+                  </persName>
+               </person>
+            </listPerson>
+         </particDesc>
+         <settingDesc>
+            <listPlace>
+               <!-- Start- und Zielort -->
+               <place type="sender" xml:id="plBe">
+                  <country>
+                     <ref target="http://d-nb.info/gnd/4047194-9"/>
+                     <placeName>Preußen</placeName>
+                  </country>
+                  <settlement>
+                     <ref target="http://d-nb.info/gnd/4005728-8"/>
+                     <placeName>Berlin</placeName>
+                  </settlement>
+               </place>
+               <!-- erwähnte Orte -->
+            </listPlace>
+         </settingDesc>
+      </profileDesc>
+      <revisionDesc>
+         <change xml:id="init" when-iso="2018-03-04" who="#edAG">Erstauszeichnung und Normierung des Dokumentes im Rahmen der Masterarbeit der Matrikelnummer 5584124</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div n="1" corresp="#kpd">
+            <p>
+               <span xml:lang="fr">Lettre autographe signée</span>. <rs type="person" ref="#plBe">Berlin</rs>, 
+               <date when-iso="1799-11-05">5. November 1799</date>. 3 SS. 4°. <emph rend="underlined">Selten</emph>.
+            </p>
+         </div>
+         <div n="2" corresp="#jrnh">
+            <p>
+               Interessanter Brief an eine Excellenz (vielleicht <rs type="person" ref="#Me">Metternich</rs>). Gentz ist erfreut, 
+               daß ihm der <rs type="person" ref="#Fr">Kaiser</rs> mit einem Beifallsschreiben wegen seines 
+               "<rs type="citation" ref="#p5171-1">Journals</rs>" beehrte und bittet den Minister um Protektion für das genannte 
+               <rs type="citation" ref="#p5171-1">Journal</rs>.
+            </p>
+         </div>
+      </body>
+   </text>
+</TEI>

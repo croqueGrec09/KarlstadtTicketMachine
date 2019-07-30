@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc xml:id="LETTER_GENTZ_0537">
+         <titleStmt>
+            <title>Friedrich von Gentz an Otto von Voß, 4. April 1799</title>
+            <editor xml:id="edAG">Andreas Gálffy</editor>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <name>Forschungsstelle "Universitätssammlung Friedrich von Gentz"</name>
+               <link target="http://gentz-digital.ub.uni-koeln.de http://www.ub.uni-koeln.de/cdm/singleitem/collection/gentz/id/536/"/>
+            </publisher>
+            <pubPlace>Cologne</pubPlace>
+            <idno type="Gentz-Edition-Number" n="0537"/>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <country>Germany</country>
+                  <settlement>Berlin</settlement>
+                  <institution>Geheimes Staatsarchiv Preußsischer Kulturbesitz</institution>
+                  <repository>II. HA, Generaldirektorium, Südpreußen</repository>
+                  <collection>Abt. I, Lit E, Nr. 370</collection>
+                  <idno>Bl. 67-67v</idno>
+               </msIdentifier>
+               <msContents>
+                  <summary>
+                     Da sich der bisherige Verleger aus Berlin verabschiedet hat, muss Gentz selbst den Verlag des Historischen 
+                     Journals übernehmen. Hierzu bittet er Voß, das zum 1. Juni 1799 fällige Gehalt sofort auszuzahlen.
+                  </summary>
+               </msContents>
+            </msDesc>
+            <listBibl type="defRep">
+               <biblStruct xml:id="p0537-1" corresp="GBk-0048">
+                  <monogr>
+                     <editor>
+                        <persName>
+                           <ref target="http://d-nb.info/gnd/118538489"/>
+                           <forename>Friedrich von</forename>
+                           <surname>Gentz</surname>
+                        </persName>
+                     </editor>
+                     <title>Historisches Journal</title>
+                     <imprint>
+                        <publisher>Friedrich Vieweg dem ältern</publisher>
+                        <pubPlace>Berlin</pubPlace>
+                        <date>1799</date>
+                     </imprint>
+                  </monogr>
+                  <ptr target="https://books.google.de/books?id=Zk5BAAAAcAAJ"/>
+               </biblStruct>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Masterarbeit zu Matrikelnummer 5584124</p>
+         </projectDesc>
+      </encodingDesc>
+      <profileDesc>
+         <creation>
+            <date when-iso="1799-04-04">4. April 1799</date>
+         </creation>
+        <langUsage>
+           <language ident="d">deutsch</language>
+        </langUsage>
+         <textClass>
+            <keywords scheme="internal"><!-- internal: innerhalb des besagten Briefs -->
+               <term>Brief</term>
+               <term>Bittschreiben</term>
+               <term>Verlag</term>
+            </keywords>
+            <keywords scheme="categorisation"><!-- Sinnabschnittseinteilung - relevant für den Fahrkartenautomaten! -->
+               <term xml:id="jrnh">Historisches Journal</term>
+            </keywords>
+         </textClass>
+         <textDesc>
+            <channel>manuscript</channel>
+            <constitution type="single"/>
+            <derivation type="original"/>
+            <domain type="private"/>
+            <factuality type="fact"/>
+            <interaction type="partial"/>
+            <preparedness type="prepared"/>
+            <purpose type="inform"/>
+         </textDesc>
+         <particDesc>
+            <listPerson>
+               <!-- Sender und Adressat -->
+               <person role="sender" xml:id="Gen">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/118538489"/>
+                     <forename>Friedrich von</forename>
+                     <surname>Gentz</surname>
+                  </persName>
+               </person>
+               <person role="receiver" xml:id="OvV">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/103098291"/>
+                     <forename>Otto</forename>
+                     <surname>von Voß</surname>
+                  </persName>
+               </person>
+               <!-- erwähnte Personen -->
+               <person role="named" xml:id="FVW">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/119049546"/>
+                     <forename>Friedrich</forename>
+                     <surname>Vieweg</surname>
+                  </persName>
+               </person>
+            </listPerson>
+         </particDesc>
+         <settingDesc>
+            <listPlace>
+               <!-- Start- und Zielort -->
+               <place type="sender" xml:id="plBe">
+                  <country>
+                     <ref target="http://d-nb.info/gnd/4047194-9"/>
+                     <placeName>Preußen</placeName>
+                  </country>
+                  <settlement>
+                     <ref target="http://d-nb.info/gnd/4005728-8"/>
+                     <placeName>Berlin</placeName>
+                  </settlement>
+               </place>
+               <!-- erwähnte Orte -->
+            </listPlace>
+         </settingDesc>
+      </profileDesc>
+      <revisionDesc>
+         <change xml:id="init" when-iso="2018-03-03" who="#edAG">Erstauszeichnung und Normierung des Dokumentes im Rahmen der Masterarbeit der Matrikelnummer 5584124</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <opener>
+            <salute rend="left">HochWürdiger HochWohlgebohrner Freyherr !</salute>
+            <salute rend="left">Hochgebietender Herr Geheimer Staats-Minister !</salute>
+            <salute rend="left">Gnädiger Herr !</salute>
+         </opener>
+         <div n="1" corresp="#bezbt">
+            <p>
+               Die Entfernung des <rs type="person" ref="#FVW">bisherigen Verlegers</rs> 
+               <rs type="citation" ref="#p0537-1">meines Journals</rs> von <rs type="place" ref="#plBe">Berlin</rs>, hat mich 
+               veranlaßt, den Verlag desselben künftig selbst zu übernehmen. Da dieser Entschluß mit großen Auslagen verknüpft ist, 
+               so unterstehe ich mich, Ew. Hochfreyherrlichen Excellentz so ehrfurchtsvoll als angelegentlich zu bitten,
+            </p>
+            <lg>
+               <l>daß Hochdieselben der Südpreußischen Haupt-Casse</l>
+               <l>in Gnaden zu befehlen geruhen mögten, mir das auf den</l>
+               <l><date when-iso="1799-06-01">1<span rend="sup">ten</span> Juny</date> fällige Quartal meines Gehalts jetzt gleich aus-</l>
+               <l>zuzahlen.</l>
+            </lg>
+            <p>
+               Die vielfältigen Proben von Ewr. Excellentz Huld und Gnade die ich zu allen Zeiten erfahren habe, laßen mich hoffen, 
+               daß Hochdieselben dieser untertänigen Bitte, da der Vorschuß ohnehin nur auf einen so kurzen Termin geht, in Gnaden 
+               zu deferiren geruhen werden. Die huldreiche Bewilligung dieser Bitte wird das tiefe Dankgefühl, welches mein Herz 
+               gegen Ewr. Excellentz beseelt, wo möglich, noch verstärken, und <pb/> dieses Gefühl ist <del rend="stroked">xxx</del> 
+               nur allein der innigen und unwandelbaren Ehrfurcht gleich, mit welcher ich verharre
+            </p>
+         </div>
+         <closer>
+            <salute rend="right">Ewr Hochfreyherrlichen Excellentz</salute>
+            <salute rend="right">untertänigster treu gehorsamster</salute>
+            <dateline rend="left"><rs type="place" ref="#plBe">Berlin</rs> den <date when-iso="1799-04-04">4<span rend="sup">ten</span> April 1799</date>.</dateline>
+            <signed rend="right">Gentz</signed>
+         </closer>
+      </body>
+   </text>
+</TEI>

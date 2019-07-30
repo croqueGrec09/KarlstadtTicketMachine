@@ -1,0 +1,246 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc xml:id="LETTER_GENTZ_2687">
+         <titleStmt>
+            <title>Franz Joseph Graf von Saurau an Friedrich von Gentz, 15. Oktober 1799</title>
+            <editor xml:id="edAG">Andreas Gálffy</editor>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <name>Forschungsstelle "Universitätssammlung Friedrich von Gentz"</name>
+               <link target="http://gentz-digital.ub.uni-koeln.de http://www.ub.uni-koeln.de/cdm/singleitem/collection/gentz/id/2686/"/>
+            </publisher>
+            <pubPlace>Cologne</pubPlace>
+            <idno type="Gentz-Edition-Number" n="2687"/>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <country>Austria</country>
+                  <settlement>Vienna</settlement>
+                  <institution>Haus-, Hof- und Staatsbibliothek</institution>
+                  <repository>Staatskanzlei, Interiora</repository>
+                  <collection>Karton 78, Fasz.: "Gentz: Kaiser Franz, Thugut, Saurau, Cobenzl Ludwig, 1793-1805"</collection>
+                  <idno>Bl. 7</idno>
+               </msIdentifier>
+               <msContents>
+                  <summary>
+                     Graf von Saurau richtet den aufrichtigen Dank und Freude des Kaisers und Königs aus und mit diesem Brief 
+                     erfolgt auch eine Kleinigkeit als Beweis der Achtung. Gentz wird für seine Talente gelobt und das Historische 
+                     Journal rette die Mitbürger aus dem Verderben. Der Kaiser und König las das Journal mit Freunde.
+                  </summary>
+               </msContents>
+            </msDesc>
+            <listBibl type="preprints">
+               <biblStruct>
+                  <analytic>
+                     <title>Schreiben aus Berlin, vom 11. November.</title>
+                  </analytic>
+                  <monogr>
+                     <title>HUC</title>
+                     <imprint>
+                        <date>1799</date>
+                     </imprint>
+                     <biblScope unit="issue" n="183">
+                        Nr. 183, Fr. 15. November 1799
+                     </biblScope>
+                  </monogr>
+               </biblStruct>
+               <biblStruct>
+                  <analytic>
+                     <title>Oesterreichische Staaten. Brief des Staats-Ministers, Fr. v. Saurau an den Kriegsrath Genz.</title>
+                  </analytic>
+                  <monogr>
+                     <title>National-Zeitung der Teutschen</title>
+                     <imprint>
+                        <date>1799</date>
+                     </imprint>
+                     <biblScope unit="issue" n="48">
+                        48. Stück, 28. November 1799, 1059-1060
+                     </biblScope>
+                  </monogr>
+               </biblStruct>
+               <biblStruct>
+                  <analytic>
+                     <title>Gentziana. Actenstücke die ersten Beziehungen Friedrichs v. Gentz zu Oesterreich betreffend. Originale und Concepte</title>
+                  </analytic>
+                  <monogr>
+                     <editor>
+                        <persName>
+                           <ref />
+                           <forename>Dr. J. v.</forename>
+                           <surname>Zahn</surname>
+                        </persName>
+                     </editor>
+                     <title>Steiermärkische Geschichtsblätter</title>
+                     <imprint>
+                        <date>1880</date>
+                     </imprint>
+                     <biblScope unit="issue" n="1">
+                        I
+                     </biblScope>
+                     <biblScope unit="page" from="106" to="106">
+                        106
+                     </biblScope>
+                  </monogr>
+               </biblStruct>
+            </listBibl>
+            <listBibl type="defRep">
+               <biblStruct xml:id="p2687-1" corresp="GBk-0042">
+                  <monogr>
+                     <editor>
+                        <persName>
+                           <ref target="http://d-nb.info/gnd/118538489"/>
+                           <forename>Friedrich von</forename>
+                           <surname>Gentz</surname>
+                        </persName>
+                     </editor>
+                     <title>Historisches Journal</title>
+                     <imprint>
+                        <publisher>Friedrich Vieweg dem ältern</publisher>
+                        <pubPlace>Berlin</pubPlace>
+                        <date>1799</date>
+                     </imprint>
+                  </monogr>
+                  <ptr target="https://books.google.de/books?id=YU5BAAAAcAAJ"/>
+               </biblStruct>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Masterarbeit zu Matrikelnummer 5584124</p>
+         </projectDesc>
+      </encodingDesc>
+      <profileDesc>
+         <creation>
+            <date when-iso="1799-10-15">15. Oktober 1799</date>
+         </creation>
+        <langUsage>
+           <language ident="d">deutsch</language>
+        </langUsage>
+         <textClass>
+            <keywords scheme="internal"><!-- internal: innerhalb des besagten Briefs -->
+               <term>Brief</term>
+               <term>Dankschreiben</term>
+               <term>Journal historique</term>
+               <term>Kleinigkeit</term>
+            </keywords>
+            <keywords scheme="categorisation"><!-- Sinnabschnittseinteilung - relevant für den Fahrkartenautomaten! -->
+               <term xml:id="jrnh">Historisches Journal</term>
+               <term xml:id="bezw">Beziehungen zu Wien</term>
+            </keywords>
+         </textClass>
+         <textDesc>
+            <channel>manuscript</channel>
+            <constitution type="single"/>
+            <derivation type="original"/>
+            <domain type="private"/>
+            <factuality type="fact"/>
+            <interaction type="partial"/>
+            <preparedness type="prepared"/>
+            <purpose type="inform"/>
+         </textDesc>
+         <particDesc>
+            <listPerson>
+               <!-- Sender und Adressat -->
+               <person role="sender" xml:id="FJvS">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/117019496"/>
+                     <forename>Franz Joseph von</forename>
+                     <surname>Saurau</surname>
+                  </persName>
+               </person>
+               <person role="receiver" xml:id="Gen">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/118538489"/>
+                     <forename>Friedrich von</forename>
+                     <surname>Gentz</surname>
+                  </persName>
+               </person>
+               <!-- erwähnte Personen -->
+               <person role="named" xml:id="Fr">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/118534955"/>
+                     <forename>Franz II.</forename>
+                     <surname>Heiliges Römisches Reich</surname>
+                     <roleName type="office">Kaiser</roleName>
+                  </persName>
+               </person>
+            </listPerson>
+         </particDesc>
+         <settingDesc>
+            <listPlace>
+               <!-- Start- und Zielort -->
+               <place type="sender" xml:id="plWi">
+                  <country>
+                     <ref target="http://d-nb.info/gnd/4075601-4"/>
+                     <placeName>Erzherzogtum Österreich</placeName>
+                  </country>
+                  <settlement>
+                     <ref target="http://d-nb.info/gnd/4066009-6"/>
+                     <placeName>Wien</placeName>
+                  </settlement>
+               </place>
+               <place type="receiver" xml:id="plBe">
+                  <country>
+                     <ref target="http://d-nb.info/gnd/4047194-9"/>
+                     <placeName>Preußen</placeName>
+                  </country>
+                  <settlement>
+                     <ref target="http://d-nb.info/gnd/4005728-8"/>
+                     <placeName>Berlin</placeName>
+                  </settlement>
+               </place>
+               <!-- erwähnte Orte -->
+            </listPlace>
+         </settingDesc>
+      </profileDesc>
+      <revisionDesc>
+         <change xml:id="init" when-iso="2018-03-04" who="#edAG">Erstauszeichnung und Normierung des Dokumentes im Rahmen der Masterarbeit der Matrikelnummer 5584124</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div n="1" corresp="#jrnh">
+            <p>
+               Der edle Geist <del rend="stroked">welcher</del> <add place="above">der</add> in Ihren Schriften 
+               <add place="above">herrscht</add>, die lichtvolle Darstellung ächter Grundsätze und die lobenswürdige Bemühung mit 
+               der Sie Ihre Mitbürger vor <del rend="stroked">dem</del> <add place="above">jenen</add> <del rend="stroked">xxx</del> 
+               <add place="above">Täuschungen</add> warnen die mehrere, <del rend="stroked">wobey</del> 
+               <add place="above">einst</add> glückliche Völker in das Verderben <del rend="stroked">gestürzt hat</del> 
+               <add place="above">stürzten</add>, <add place="above">ehren eben so sehr Ihre Talente als Ihr Herz, und sichern</add> 
+               Ihnen <del rend="stroked">für</del> den Dank aller Gutdenkenden <del rend="stroked">xxx</del>.
+            </p>
+            <p>
+               <rs type="person" ref="#Fr">Seine Majestät der Kaiser und König</rs>, mein allergnädigster Herr, hat mit 
+               <del rend="stroked">vielem</del> Vergnügen <add place="above">und Beifall</add> 
+               <rs type="citation" ref="#p2687-1">Ihr Journal</rs> gelesen und mir den schmeichelhaften Auftrag ertheilt, Ihnen die 
+               <del rend="stroked">hier</del> beiliegende Kleinigkeit als einen Beweis seiner Achtung zu übersenden. 
+               <del rend="stroked">xxx</del> <rs type="person" ref="#Fr">Seine Majestät</rs> halten Sich überzeugt, daß die 
+               Fortsetzung Ihrer so rühmlich betrettenen litterarischen Laufbahn <del rend="stroked">vollends den Nebel</del> den 
+               Nebel vollends <del rend="stroked">wird</del> <add place="above">zertheilen wird</add>, 
+               <del rend="stroked">verschwinden machen</del>, der <del rend="stroked">noch hier und da</del> selbst 
+               <del rend="stroked">xxx</del> in Deutschland <add place="above">noch</add> vor manchen Auge schwebt.
+            </p>
+         </div>
+         <div n="2" corresp="#bezw">
+            <p>
+               Indem ich diese <add place="above">erwünschte</add> Gelegenheit benütze Ihnen <del rend="stroked">auch</del> im Namen 
+               aller wohldenkenden <del rend="stroked">Menschen</del> <add place="above">Deutschen</add> für Ihren 
+               menschenfreundlichen Eifer zu danken <add place="above">und mich mit Ihnen über den Ruhm zu erfreuen den 
+               <del rend="stroked">Ihnen jeder</del> Sie sich mit dem <del rend="stroked">xxx</del> giltigsten Rechte erworben,
+               </add> bitte ich Sie zugleich die Versicherung der ausgezeichneten Hochachtung anzunehmen mit der ich bin
+            </p>
+         </div>
+         <closer>
+            <dateline rend="left">den <date when-iso="1799-10-15">15<span rend="sup">ten</span> Oct. 1799</date></dateline>
+            <signed rend="right">Comte Saurau</signed>
+         </closer>
+      </body>
+   </text>
+</TEI>

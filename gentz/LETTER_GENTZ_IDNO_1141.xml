@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc xml:id="LETTER_GENTZ_1141">
+         <titleStmt>
+            <title>Friedrich von Gentz an Friedrich Vieweg, 17. Januar 1799</title>
+            <editor xml:id="edAG">Andreas Gálffy</editor>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <name>Forschungsstelle "Universitätssammlung Friedrich von Gentz"</name>
+               <link target="http://gentz-digital.ub.uni-koeln.de http://www.ub.uni-koeln.de/cdm/singleitem/collection/gentz/id/1140/"/>
+            </publisher>
+            <pubPlace>Cologne</pubPlace>
+            <idno type="Gentz-Edition-Number" n="1141"/>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <country>Austria</country>
+                  <settlement>Vienna</settlement>
+                  <institution>Haus- Hof- und Staatsarchiv</institution>
+                  <repository>Staatskanzlei, Interiora</repository>
+                  <collection>Karton 78, Fasz. "Relicta Schlitter"</collection>
+                  <idno>Bl. 50-50v</idno>
+               </msIdentifier>
+               <msContents>
+                  <summary>
+                     In der Hamburgischen Zeitung stehen Gentz' Anzeige des Journal historique und die Anzeige von Ungers Annalen 
+                     gegenüber. Gentz findet Ungers Annalen aufgrund seiner Länge lächerlich und den Vergleich Woltmanns mit Gibbon 
+                     unverschämt. Um Verwirrungen zu vermeiden, soll Vieweg in den Donnerstagszeitungen verkünden, dass die 
+                     zweite Hälfte am 1. Februar 1799 ausgegeben wird und der Tag der Publikation soll mit genannt werden.
+                  </summary>
+               </msContents>
+            </msDesc>
+            <listBibl type="defRep">
+               <biblStruct xml:id="p1141-1" corresp="GBk-0042">
+                  <monogr>
+                     <editor>
+                        <persName>
+                           <ref target="http://d-nb.info/gnd/118538489"/>
+                           <forename>Friedrich von</forename>
+                           <surname>Gentz</surname>
+                        </persName>
+                     </editor>
+                     <title>Historisches Journal</title>
+                     <imprint>
+                        <publisher>Friedrich Vieweg dem ältern</publisher>
+                        <pubPlace>Berlin</pubPlace>
+                        <date>1799</date>
+                     </imprint>
+                  </monogr>
+                  <ptr target="https://books.google.de/books?id=YU5BAAAAcAAJ"/>
+               </biblStruct>
+               <biblStruct xml:id="p1141-2" corresp="GBk-0043">
+                  <monogr>
+                     <title>Jahrbücher der preußischen Monarchie unter der Regierung Friedrich Wilhelms des Dritten.</title>
+                     <imprint>
+                        <pubPlace>Berlin</pubPlace>
+                        <publisher>Johann Friedrich Unger</publisher>
+                        <date>1799</date>
+                     </imprint>
+                     <biblScope unit="volume" n="1">
+                        Erster Band. Januar. Februar. März. April.
+                     </biblScope>
+                  </monogr>
+                  <ptr target="https://books.google.de/books?id=pMhfAAAAcAAJ"/>
+               </biblStruct>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Masterarbeit zu Matrikelnummer 5584124</p>
+         </projectDesc>
+      </encodingDesc>
+      <profileDesc>
+         <creation>
+            <date when-iso="1799-01-17">17. Januar 1799</date>
+         </creation>
+        <langUsage>
+           <language ident="d">deutsch</language>
+        </langUsage>
+         <textClass>
+            <keywords scheme="internal"><!-- internal: innerhalb des besagten Briefs -->
+               <term>Billet</term>
+               <term>Journal historique</term>
+               <term>Manuskript</term>
+               <term>Zeitungen</term>
+            </keywords>
+            <keywords scheme="categorisation"><!-- Sinnabschnittseinteilung - relevant für den Fahrkartenautomaten! -->
+               <term xml:id="gprl">Gentz - p(r)ekuniäre Lage</term>
+               <term xml:id="jrnh">Historisches Journal</term>
+               <term xml:id="bibl">Bibliothek</term>
+            </keywords>
+         </textClass>
+         <textDesc>
+            <channel>manuscript</channel>
+            <constitution type="single"/>
+            <derivation type="original"/>
+            <domain type="private"/>
+            <factuality type="fact"/>
+            <interaction type="partial"/>
+            <preparedness type="unprepared"/>
+            <purpose type="inform"/>
+         </textDesc>
+         <particDesc>
+            <listPerson>
+               <!-- Sender und Adressat -->
+               <person role="sender" xml:id="Gen">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/118538489"/>
+                     <forename>Friedrich von</forename>
+                     <surname>Gentz</surname>
+                  </persName>
+               </person>
+               <person role="receiver" xml:id="FVW">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/119049546"/>
+                     <forename>Friedrich</forename>
+                     <surname>Vieweg</surname>
+                  </persName>
+               </person>
+               <!-- erwähnte Personen -->
+               <person role="named" xml:id="KLvW">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/117435007"/>
+                     <forename>Karl Ludwig von</forename>
+                     <surname>Woltmann</surname>
+                  </persName>
+               </person>
+               <person role="named" xml:id="Gib">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/118717286"/>
+                     <forename>Edward</forename>
+                     <surname>Gibbon</surname>
+                  </persName>
+               </person>
+            </listPerson>
+         </particDesc>
+         <settingDesc>
+            <listPlace>
+               <!-- Start- und Zielort -->
+               <place type="sender" xml:id="plBe">
+                  <country>
+                     <ref target="http://d-nb.info/gnd/4047194-9"/>
+                     <placeName>Preußen</placeName>
+                  </country>
+                  <settlement>
+                     <ref target="http://d-nb.info/gnd/4005728-8"/>
+                     <placeName>Berlin</placeName>
+                  </settlement>
+               </place>
+               <!-- erwähnte Orte -->
+            </listPlace>
+         </settingDesc>
+      </profileDesc>
+      <revisionDesc>
+         <change xml:id="init" when-iso="2018-03-03" who="#edAG">Erstauszeichnung und Normierung des Dokumentes im Rahmen der Masterarbeit der Matrikelnummer 5584124</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div n="1" corresp="#gprl">
+            <p>
+               Ich habe nicht leicht einen glücklichern Contrast gesehen, und mich lange über keinen Zufall so gefreut, als über 
+               die beiden Anzeigen (von <rs type="citation" ref="#p1141-1">meinem Journal</rs> und 
+               <rs type="citation" ref="#p1141-2">Ungers Annalen</rs>) die heute neben einander in der 
+               <emph rend="underlined">Hamburgischen Zeitung</emph> stehen. Ich weiß nicht, wem ich dieses Glück verdanke: aber es 
+               ist in der That unbezahlbar. Jenes so kurz und stolz ! und dieses so lang und so empörend-eitel. Es ist doch 
+               wahrlich der höchste Triumph der Unverschämtheit 
+               <rs type="person" ref="#KLvW"><emph rend="underlined">Woltmann</emph></rs> schlechthin 
+               <emph rend="underlined">den Deutschen <rs type="person" ref="#Gib">Gibbon</rs></emph> zu nennen ! Aber eben weil es 
+               so sehr toll ist, wird es lächerlich !
+            </p>
+         </div>
+         <div n="2" corresp="#jrnh">
+            <p>
+               Gerade jetzt wurde ich gefragt ob es nicht ein Irrthum sey, daß das in der heutigen Zeitung angezeigte Stück des 
+               <rs type="citation" ref="#p1141-1">Journals</rs> das <emph rend="underlined">Februarstück</emph> heißt. - Ich sehe 
+               zum Voraus, daß mehrere in Verwirrung darüber gerathen werden, und dächte daher unmaßgeblich, Sie ließen in die 
+               <emph rend="underlined">Donners</emph><pb/><emph rend="underlined">tags-Zeitungen</emph> die Anzeige mit dem Zusatz 
+               wiederholen, "daß die Zweite Hälfte dieses Stücks, welche das Februar-Heft vollendete, den 
+               <date when-iso="1799-02-01">1<span rend="sup">ten</span> Februar</date> ausgegeben würde." - Dabei fällt mir ein, 
+               was ich Ihnen schon längst sagen wollte, und nun doch vergessen habe, daß es sehr nötig ist, auf den Umschlag jedes 
+               Stücks <emph rend="underlined">den Tag der Publikazion</emph> zu setzen, welches wir künftig nie unterlaßen wollen.
+            </p>
+         </div>
+         <closer>
+            <signed rend="right">Gentz.</signed>
+         </closer>
+      </body>
+   </text>
+</TEI>

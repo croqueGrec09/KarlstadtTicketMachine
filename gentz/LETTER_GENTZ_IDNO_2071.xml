@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader type="text">
+      <fileDesc xml:id="LETTER_GENTZ_2071">
+         <titleStmt>
+            <title>Friedrich von Gentz an Karl Gustav von Brinckmann, 30. April 1797</title>
+            <editor xml:id="edAG">Andreas Gálffy</editor>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <name>Forschungsstelle "Universitätssammlung Friedrich von Gentz"</name>
+               <link target="http://gentz-digital.ub.uni-koeln.de http://www.ub.uni-koeln.de/cdm/singleitem/collection/gentz/id/2070/"/>
+            </publisher>
+            <pubPlace>Cologne</pubPlace>
+            <idno type="Gentz-Edition-Number" n="2071"/>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <country>Sweden</country>
+                  <settlement>Trolle-Ljungby</settlement>
+                  <institution>Archiv des Grafen Wachtmeister</institution>
+                  <repository>Nachlaß Brinckmann, Ausländ. Briefwechsel, Gentz an Brinckmann</repository>
+                  <idno>G 3</idno>
+               </msIdentifier>
+               <msContents>
+                  <summary>
+                     Da Gentz Geld gebrauchen kann, möchte er den ganzen Rapin und Tindal, Miltons Works und Bouglant histoire etc. 
+                     für zehn Friedrichsd'or an Brinckmann überlassen.
+                  </summary>
+               </msContents>
+            </msDesc>
+            <listBibl type="alludedWorks">
+               <bibl xml:id="a2071-1" corresp="#LETTER_GENTZ_NNNN">nicht näher benanntes Werk von Paul Rapin de Thoyras</bibl>
+               <bibl xml:id="a2071-2" corresp="#LETTER_GENTZ_NNNN">nicht näher benanntes Werk von Tindal</bibl>
+               <bibl xml:id="a2071-3" corresp="#LETTER_GENTZ_NNNN">nicht näher benanntes Werk eines Bouglant</bibl>
+            </listBibl>
+            <listBibl type="defRep">
+               <biblStruct xml:id="p2071-1" corresp="BSB-0010">
+                  <monogr>
+                     <author>
+                        <persName>
+                           <ref target="http://d-nb.info/gnd/118582607"/>
+                           <forename>John</forename>
+                           <surname>Milton</surname>
+                        </persName>
+                     </author>
+                     <title>The poetical works of John Milton. From the text of Dr. Newton.</title>
+                     <imprint>
+                        <pubPlace>London</pubPlace>
+                        <publisher>C. Cooke</publisher>
+                     </imprint>
+                  </monogr>
+                  <ptr target="http://www.mdz-nbn-resolving.de/urn/resolver.pl?urn=urn:nbn:de:bvb:12-bsb11257855-7"/>
+               </biblStruct>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Masterarbeit zu Matrikelnummer 5584124</p>
+         </projectDesc>
+      </encodingDesc>
+      <profileDesc>
+         <creation>
+            <date when-iso="1797-04-30">30. April 1797</date>
+         </creation>
+        <langUsage>
+           <language ident="d">deutsch</language>
+        </langUsage>
+         <textClass>
+            <keywords scheme="internal"><!-- internal: innerhalb des besagten Briefs -->
+               <term>Billet</term>
+               <term>Rapin</term>
+               <term>Bibliothek</term>
+            </keywords>
+            <keywords scheme="categorisation"><!-- Sinnabschnittseinteilung - relevant für den Fahrkartenautomaten! -->
+               <term xml:id="bibl">Bibliothek</term>
+            </keywords>
+         </textClass>
+         <textDesc>
+            <channel>manuscript</channel>
+            <constitution type="single"/>
+            <derivation type="original"/>
+            <domain type="private"/>
+            <factuality type="fact"/>
+            <interaction type="partial"/>
+            <preparedness type="unprepared"/>
+            <purpose type="inform"/>
+         </textDesc>
+         <particDesc>
+            <listPerson>
+               <!-- Sender und Adressat -->
+               <person role="sender" xml:id="Gen">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/118538489"/>
+                     <forename>Friedrich von</forename>
+                     <surname>Gentz</surname>
+                  </persName>
+               </person>
+               <person role="receiver" xml:id="KGvB">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/116519770"/>
+                     <forename>Carl Gustav von</forename>
+                     <surname>Brinckmann</surname>
+                  </persName>
+               </person>
+               <!-- erwähnte Personen -->
+               <person role="named" xml:id="RpT">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/124725988"/>
+                     <forename>Paul</forename>
+                     <surname>Rapin de Thoyras</surname>
+                  </persName>
+               </person>
+               <person role="named" xml:id="JMi">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/118582607"/>
+                     <forename>John</forename>
+                     <surname>Milton</surname>
+                  </persName>
+               </person>
+               <person role="named" xml:id="DoB">
+                  <persName>
+                     <ref />
+                     <forename>John</forename>
+                     <surname>Russel</surname>
+                     <roleName type="office">6th Duke of Bedford</roleName>
+                  </persName>
+               </person>
+            </listPerson>
+         </particDesc>
+         <settingDesc>
+            <listPlace>
+               <!-- Start- und Zielort -->
+               <place type="sender" xml:id="plBe">
+                  <country>
+                     <ref target="http://d-nb.info/gnd/4047194-9"/>
+                     <placeName>Preußen</placeName>
+                  </country>
+                  <settlement>
+                     <ref target="http://d-nb.info/gnd/4005728-8"/>
+                     <placeName>Berlin</placeName>
+                  </settlement>
+               </place>
+               <!-- erwähnte Orte -->
+            </listPlace>
+         </settingDesc>
+      </profileDesc>
+      <revisionDesc>
+         <change xml:id="init" when-iso="2018-02-26" who="#edAG">Erstauszeichnung und Normierung des Dokumentes im Rahmen der Masterarbeit der Matrikelnummer 5584124</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>     
+      <body>
+         <div n="1" corresp="#bibl">
+            <p>
+               Da jetzt einer der Zeitpunkte ist, wo mir <emph rend="underlined">bis auf einen gewißen Grad</emph> Geld lieber als 
+               Bücher, überdies an Rivalisiren mit Ihnen, ehe ich nicht die Schätze des 
+               <rs type="person" ref="#DoB">Herzogs von Bedford</rs> finde, nie mehr zu denken ist, so will ich Ihnen ein äußerst 
+               honettes Anerbieten thun, <emph rend="bold-underlined">Nehmlich</emph>:
+            </p>
+            <lg>
+               <l>Ich will Ihnen.</l>
+               <l>1. den ganzen <rs type="citation" ref="#a2071-1">Rapin</rs> und <rs type="citation" ref="#a2071-2">Tindal</rs></l>
+               <l>2. <rs type="person" ref="#JMi">Milton</rs>s <emph rend="bold-underlined">Works</emph></l>
+               <l>3. <rs type="person" ref="#a2071-3">Bouglant histoire et.</rs></l>
+               <l>zusammen für <emph rend="bold">Zehn Friedrich'dor</emph></l>
+            </lg>
+            <p>
+               ablaßen, und erwarte baldmöglichst Ihren Entschluß.
+            </p>
+         </div>
+         <closer>
+            <salute rend="right" xml:lang="lat">vale et fave</salute>
+            <signed rend="right">Gentz.</signed>
+            <dateline rend="left">den <date when-iso="1797-04-30">30<span rend="sup">ten</span> April 97</date></dateline>
+         </closer>
+      </body>
+   </text>
+</TEI>

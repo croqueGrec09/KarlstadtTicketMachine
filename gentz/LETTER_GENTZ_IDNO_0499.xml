@@ -1,0 +1,531 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc xml:id="LETTER_GENTZ_0499">
+         <titleStmt>
+            <title>Friedrich von Gentz an Jacques Mallet du Pan, 25. Mai 1799</title>
+            <editor xml:id="edAG">Andreas Gálffy</editor>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <name>Forschungsstelle "Universitätssammlung Friedrich von Gentz"</name>
+               <link target="http://gentz-digital.ub.uni-koeln.de http://www.ub.uni-koeln.de/cdm/singleitem/collection/gentz/id/498/"/>
+            </publisher>
+            <pubPlace>Cologne</pubPlace>
+            <idno type="Gentz-Edition-Number" n="0499"/>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <country>Switzerland</country>
+                  <settlement>Genf</settlement>
+                  <institution>Bibliothèque publique et universitaire</institution>
+                  <repository>Département des manuscrits</repository>
+                  <collection>Dossier Ouvert: Gentz à Mallet du Pan, autographe</collection>
+                  <idno>2</idno>
+               </msIdentifier>
+               <msContents>
+                  <summary>
+                     Die Vorstellungen Gentz' sind übertroffen worden. Bereits die freundliche Annahme von Gentz' Werken ist für ihn 
+                     ein Ansporn, aber Mallet du Pan betrachtet Gentz zusätzlich noch als Verbündeten. Da bedauert Gentz seine 
+                     derzeitige Lage. Gentz kann nicht direkt dem Feind entgegentreten, wie es Mallet du Pan tun kann. Daher 
+                     unterstützt Gentz ihn mit Informationen über die preußische Regierung. Es ist noch nicht mit letzter Sicherheit 
+                     festgelegt, welche Haltung gegenüber Frankreich eingenommen werden wird. Der Graf Haugwitz ist unentschlossen, 
+                     obwohl er weiß, was er will. Der König aber kann keine klare Stellung nehmen. Er möchte die Neutralität aus 
+                     drei Gründen wahren: erstens traut er sich zu keiner gefährlichen großen Aktion, zweitens möchte er den 
+                     Haushalt nicht gefährtden, drittens fürchtet er (laut Gentz zurecht) den Aufschrei derer, die einen Entscheid 
+                     zugunsten der Allianz nicht mögen. Gentz kündigt ein Werk über den letzten Punkt an und sichert Mallet du Pan 
+                     die Zulieferung exakter Angaben über die Verfügungen zu. Der Abgang Sieyes ist eine durchaus positive 
+                     Begebenheit, da sie womöglich zur Koalition hinführt. Für die Neutralität wird Preußen womöglich bestraft. 
+                     Leider aber hat sich das Ereignis von Rastatt ebenfalls auf den König ausgewirkt und der Verzicht des 
+                     Erzherzoges Karl auf die Führung der Truppen trägt nicht unbedingt positiv dazu bei. Die vereinigte Armee 
+                     Russlands und Österreichs ist bei Turin und die Franzosen haben die Orte an der Ostgrenze Piémonts evakuiert. 
+                     Gentz dankt für die Ehre, die Mallet du Pan dem Historischen Journal erwiesen hat und die ausgezeichnete 
+                     Übersetzung von Gentz' Schriften ehrt ihn zusätzlich.
+                  </summary>
+               </msContents>
+            </msDesc>
+            <listBibl type="preprints">
+               <biblStruct>
+                  <monogr>
+                     <editor>
+                        <persName>
+                           <ref target="http://d-nb.info/gnd/130953075"/>
+                           <forename>Friedrich Carl</forename>
+                           <surname>Wittichen</surname>
+                        </persName>
+                        <persName>
+                           <ref /> <!-- kein GND-Eintrag -->
+                           <forename>Ernst</forename>
+                           <surname>Salzer</surname>
+                        </persName>
+                     </editor>
+                     <title>Briefe von und an Friedrich von Gentz, 4 Bde.</title>
+                     <imprint>
+                        <publisher>Oldenbourg</publisher>
+                        <pubPlace>München, Berlin</pubPlace>
+                        <date>1909-1913</date>
+                     </imprint>
+                     <biblScope unit="volume" n="1">
+                        I
+                     </biblScope>
+                     <biblScope unit="page" from="331" to="334">
+                        Nr. 111
+                     </biblScope>
+                  </monogr>
+               </biblStruct>
+            </listBibl>
+            <listBibl type="letterReferenced">
+               <bibl xml:id="c0499-1" corresp="#LETTER_GENTZ_NNNN">nicht bekannter Brief von Jacques Mallet du Pan an Friedrich von Gentz</bibl>
+            </listBibl>
+            <listBibl type="alludedWorks">
+               <bibl xml:id="a0499-1" corresp="#LETTER_GENTZ_NNNN">nicht näher benannte Übersetzung eines Werkes von Friedrich von Gentz</bibl>
+            </listBibl>
+            <listBibl type="defRep">
+               <biblStruct xml:id="p0499-1" corresp="GBk-0042">
+                  <monogr>
+                     <editor>
+                        <persName>
+                           <ref target="http://d-nb.info/gnd/118538489"/>
+                           <forename>Friedrich von</forename>
+                           <surname>Gentz</surname>
+                        </persName>
+                     </editor>
+                     <title>Historisches Journal</title>
+                     <imprint>
+                        <publisher>Friedrich Vieweg dem ältern</publisher>
+                        <pubPlace>Berlin</pubPlace>
+                        <date>1799</date>
+                     </imprint>
+                  </monogr>
+                  <ptr target="https://books.google.de/books?id=YU5BAAAAcAAJ"/>
+               </biblStruct>
+               <biblStruct xml:id="p0499-2" corresp="GBk-0048">
+                  <monogr>
+                     <editor>
+                        <persName>
+                           <ref target="http://d-nb.info/gnd/118538489"/>
+                           <forename>Friedrich von</forename>
+                           <surname>Gentz</surname>
+                        </persName>
+                     </editor>
+                     <title>Historisches Journal</title>
+                     <imprint>
+                        <publisher>Friedrich Vieweg dem ältern</publisher>
+                        <pubPlace>Berlin</pubPlace>
+                        <date>1799</date>
+                     </imprint>
+                  </monogr>
+                  <ptr target="https://books.google.de/books?id=Zk5BAAAAcAAJ"/>
+               </biblStruct>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Masterarbeit zu Matrikelnummer 5584124</p>
+         </projectDesc>
+      </encodingDesc>
+      <profileDesc>
+         <creation>
+            <date when-iso="1799-05-25">25. Mai 1799</date>
+         </creation>
+        <langUsage>
+           <language ident="f">französisch</language>
+        </langUsage>
+         <textClass>
+            <keywords scheme="internal"><!-- internal: innerhalb des besagten Briefs -->
+               <term>Brief</term>
+               <term>Journal historique</term>
+               <term>preußsische Regierung</term>
+               <term>Invasion</term>
+               <term>Infiltration</term>
+               <term>Koalition</term>
+               <term>Krieg</term>
+               <term>Russland</term>
+            </keywords>
+            <keywords scheme="categorisation"><!-- Sinnabschnittseinteilung - relevant für den Fahrkartenautomaten! -->
+               <term xml:id="vjmdp">Verhältnis Jacques Mallet du Pan</term>
+               <term xml:id="prr">preußische Regierung</term>
+               <term xml:id="napinv">Napoleonische Invasion</term>
+               <term xml:id="jrnh">Historisches Journal</term>
+            </keywords>
+         </textClass>
+         <textDesc>
+            <channel>manuscript</channel>
+            <constitution type="single"/>
+            <derivation type="original"/>
+            <domain type="private"/>
+            <factuality type="fact"/>
+            <interaction type="partial"/>
+            <preparedness type="prepared"/>
+            <purpose type="inform"/>
+         </textDesc>
+         <particDesc>
+            <listPerson>
+               <!-- Sender und Adressat -->
+               <person role="sender" xml:id="Gen">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/118538489"/>
+                     <forename>Friedrich von</forename>
+                     <surname>Gentz</surname>
+                  </persName>
+               </person>
+               <person role="receiver" xml:id="MdP">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/119483947"/>
+                     <forename>Jacques</forename>
+                     <surname>Mallet du Pan</surname>
+                  </persName>
+               </person>
+               <!-- erwähnte Personen -->
+               <person role="named" xml:id="CHCvH">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/116527080"/>
+                     <forename>Christian Heinrich Curt von</forename>
+                     <surname>Haugwitz</surname>
+                  </persName>
+               </person>
+               <person role="named" xml:id="KFWIII">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/118535986"/>
+                     <forename>Friedrich Wilhelm III.</forename>
+                     <surname>von Preußen</surname>
+                     <roleName type="office">König</roleName>
+                  </persName>
+               </person>
+               <person role="named" xml:id="EJS">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/11879714X"/>
+                     <forename>Emmanuel Joseph</forename>
+                     <surname>Sieyès</surname>
+                  </persName>
+               </person>
+               <person role="named" xml:id="KEvO">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/118723049"/>
+                     <forename>Karl</forename>
+                     <surname/>
+                     <roleName type="office">Erzherzog von Österreich</roleName>
+                  </persName>
+               </person>
+               <person role="named" xml:id="FvHtz">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/118707256"/>
+                     <forename>Friedrich von</forename>
+                     <surname>Hotze</surname>
+                  </persName>
+               </person>
+               <person role="named" xml:id="HvBgr">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/116114614"/>
+                     <forename>Heinrich von</forename>
+                     <surname>Bellegarde</surname>
+                  </persName>
+               </person>
+            </listPerson>
+         </particDesc>
+         <settingDesc>
+            <listPlace>
+               <!-- Start- und Zielort -->
+               <place type="sender" xml:id="plBe">
+                  <country>
+                     <ref target="http://d-nb.info/gnd/4047194-9"/>
+                     <placeName>Preußen</placeName>
+                  </country>
+                  <settlement>
+                     <ref target="http://d-nb.info/gnd/4005728-8"/>
+                     <placeName>Berlin</placeName>
+                  </settlement>
+               </place>
+               <place type="receiver" xml:id="plLo">
+                  <country>
+                     <ref target="http://d-nb.info/gnd/4022153-2"/>
+                     <placeName>Vereinigtes Königreich</placeName>                
+                  </country>
+                  <settlement>
+                     <ref target="http://d-nb.info/gnd/4074335-4"/>
+                     <placeName>London</placeName>
+                  </settlement>
+               </place>
+               <!-- erwähnte Orte -->
+               <place type="named" xml:id="plEu">
+                  <geogName type="continent">
+                     <ref target="http://d-nb.info/gnd/4015701-5"/>
+                     <placeName>Europa</placeName>
+                  </geogName>
+               </place>
+               <place type="named" xml:id="plFr">
+                  <country>
+                     <ref target="http://d-nb.info/gnd/4018145-5"/>
+                     <placeName>Frankreich</placeName>  
+                  </country>
+               </place>
+               <place type="named" xml:id="plPr">
+                  <country>
+                     <ref target="http://d-nb.info/gnd/4047194-9"/>
+                     <placeName>Preußen</placeName>
+                  </country>
+               </place>
+               <place type="named" xml:id="plRa">
+                  <country>
+                     <ref target="http://d-nb.info/gnd/4069065-9"/>
+                     <placeName>Baden</placeName>
+                  </country>
+                  <settlement>
+                     <ref target="http://d-nb.info/gnd/4048445-2"/>
+                     <placeName>Rastatt</placeName>
+                  </settlement>
+               </place>
+               <place type="named" xml:id="plWi">
+                  <country>
+                     <ref target="http://d-nb.info/gnd/4075601-4"/>
+                     <placeName>Erzherzogtum Österreich</placeName>  
+                  </country>
+                  <settlement>
+                     <ref target="http://d-nb.info/gnd/4066009-6"/>
+                     <placeName>Wien</placeName>
+                  </settlement>
+               </place>
+               <place type="named" xml:id="plTu">
+                  <country>
+                     <ref target="http://d-nb.info/gnd/4046039-3"/>
+                     <placeName>Piemontesische Republik</placeName>  
+                  </country>
+                  <settlement>
+                     <ref target="http://d-nb.info/gnd/4061245-4"/>
+                     <placeName>Turin</placeName>
+                  </settlement>
+               </place>
+               <place type="named" xml:id="plNv">
+                  <country>
+                     <ref target="http://d-nb.info/gnd/4046039-3"/>
+                     <placeName>Piemontesische Republik</placeName>  
+                  </country>
+                  <settlement>
+                     <ref />
+                     <placeName>Novare</placeName>
+                  </settlement>
+               </place>
+               <place type="named" xml:id="plTo">
+                  <country>
+                     <ref target="http://d-nb.info/gnd/4046039-3"/>
+                     <placeName>Piemontesische Republik</placeName>  
+                  </country>
+                  <settlement>
+                     <ref />
+                     <placeName>Tortone</placeName>
+                  </settlement>
+               </place>
+               <place type="named" xml:id="plVr">
+                  <country>
+                     <ref target="http://d-nb.info/gnd/4046039-3"/>
+                     <placeName>Piemontesische Republik</placeName>  
+                  </country>
+                  <settlement>
+                     <ref target="http://d-nb.info/gnd/4119399-4"/>
+                     <placeName>Vercelli</placeName>
+                  </settlement>
+               </place>
+               <place type="named" xml:id="plPm">
+                  <country>
+                     <ref target="http://d-nb.info/gnd/4046039-3"/>
+                     <placeName>Piemontesische Republik</placeName>  
+                  </country>
+               </place>
+               <place type="named" xml:id="plPz">
+                  <country>
+                     <ref target="http://d-nb.info/gnd/4051687-8"/>
+                     <placeName>Königreich Sardinien</placeName>  
+                  </country>
+                  <settlement>
+                     <ref target="http://d-nb.info/gnd/4804642-5"/>
+                     <placeName>Pizzighettone</placeName>
+                  </settlement>
+               </place>
+               <place type="named" xml:id="plCm">
+                  <country>
+                     <ref target="http://d-nb.info/gnd/4051687-8"/>
+                     <placeName>Königreich Sardinien</placeName>  
+                  </country>
+                  <geogName type="lake">
+                     <ref target="http://d-nb.info/gnd/4090516-0"/>
+                     <placeName>Comer See</placeName>
+                  </geogName>
+               </place>
+               <place type="named" xml:id="plFoFu">
+                  <country>
+                     <ref target="http://d-nb.info/gnd/4051687-8"/>
+                     <placeName>Königreich Sardinien</placeName>  
+                  </country>
+                  <geogName type="fortress">
+                     <ref target="http://d-nb.info/gnd/4757493-8"/>
+                     <placeName>Forte Fuentes</placeName>
+                  </geogName>
+               </place>
+               <place type="named" xml:id="plGrb">
+                  <country>
+                     <ref target="http://d-nb.info/gnd/1085175626"/>
+                     <placeName>Schweiz</placeName>  
+                  </country>
+                  <region>
+                     <ref target="http://d-nb.info/gnd/4021881-8"/>
+                     <placeName>Graubünden</placeName>
+                  </region>
+               </place>
+               <place type="named" xml:id="plVl">
+                  <country>
+                     <ref target="http://d-nb.info/gnd/4482801-9"/>
+                     <placeName>Cisalpinische Republik</placeName>  
+                  </country>
+                  <region>
+                     <ref target="http://d-nb.info/gnd/814571-4"/>
+                     <placeName>Veltlin</placeName>
+                  </region>
+               </place>
+               <place type="named" xml:id="plRsF">
+                  <country>
+                     <ref target="http://d-nb.info/gnd/1085175626"/>
+                     <placeName>Schweiz</placeName>  
+                  </country>
+                  <geogName type="river">
+                     <ref target="http://d-nb.info/gnd/4049494-9"/>
+                     <placeName>Reuss (Fluss)</placeName>
+                  </geogName>
+               </place>
+            </listPlace>
+         </settingDesc>
+      </profileDesc>
+      <revisionDesc>
+         <change xml:id="init" when-iso="2018-03-04" who="#edAG">Erstauszeichnung und Normierung des Dokumentes im Rahmen der Masterarbeit der Matrikelnummer 5584124</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <opener>
+            <salute rend="left">Monsieur !</salute>
+         </opener>
+         <div n="1" corresp="#vjmdp">
+            <p>
+               Le moment où j'ai reçu <rs type="citation" ref="#c0499-1">votre lettre</rs> a été pour moi un des plus délicieux dont 
+               j'ai joui dépuis longtems. Je désirois avec tant d'ardeur d'approcher d'un homme dont j'admirois passionnément le 
+               génie et les travaux: et me voilà non seulement au but, mais bien au delà du but de mes espérances. Vous ne vous 
+               contentez pas, d'accueillir avec bonté l'hommage que je vous présente; vous daignez même me regarder comme votre 
+               associé dans une carriére que Vous avez si noblement parcourue depuis dix ans, et dans laquelle vous brillez 
+               maintenant d'un nouveau lustre que nul autre ne partagera jamais avec Vous. Je sais trop bien m'assigner la place qui 
+               me convient; mais votre opinion, Monsieur, malgré tout ce que j'en dois à votre indulgence et à votre zéle pour la 
+               cause commune sera pour moi un encouragement de la prémiére force. Votre suffrage me garantit celui de toute la 
+               partie saine du public; il me consoleroit de l'indifférence de <rs type="place" ref="#plEu">l'Europe entière</rs>.
+            </p>
+            <p>
+               Il existe malheureusement, outre la différence qui se trouve entre vos talents et les miens, une différence tout 
+               aussi essentielle entre votre situation et la mienne. - Vous pouvez attaquer de front le monstre que nous combattons; 
+               je suis condamné à me tenir dans un <pb/> certain éloignement, à lui porter des coups moins directs et moins hardis, 
+               à garder le silence sur bien des choses qui me déchirent le coeur. L'effet de cette situation pénible ne vous 
+               échappera pas en lisant mes cahiers: votre pénétration en dévinera aisément la cause. Vous vous trouvez 
+               <span xml:lang="lat"><emph rend="underlined">in ecclesia triumphante</emph></span>, moi 
+               <span xml:lang="lat"><emph rend="underlined">in ecclesia militante</emph></span>. Un an plutôt 
+               <rs type="citation" ref="#p0499-1">mon Journal</rs> n'auroit pas même ôsé parôitre à 
+               <rs type="place" ref="#plBe">Berlin</rs>: sans compromettre la précieuse protection dont je jouis dans ce moment je 
+               ne saurois transgresser les bornes qui m'ont été prescrites; et je dois surtout m'abstenir rigoureusement de parler 
+               des rapports politiques de notre cour, <emph rend="underlined">tant que le système actuel aura le dessus</emph>.
+            </p>
+         </div>
+         <div n="2" corresp="#prr">
+            <p>
+               Pour vous mettre dans le cas de juger, quel dégré de vraisemblance il y a de voir subsister plus long-tems ce systême 
+               d'irrésolution et de foiblesse je m'étois proposé de Vous fournir dans cette lettre quelques renseignemens fidéles 
+               sur le caractère et les principes de ceux qui gouvernent dans ce moment la monarchie prussienne; mais en remplissant 
+               cette tâche je me suis bientôt appercu, que ce seroit un mémoire, et non pas une lettre, que j'aurois à vous 
+               adresser. Cependant ce mémoire est à moitié fait, et vous pouvez compter, Monsieur, qu'il vous parviendra dans quinze 
+               jours. Tout ce que je dois vous dire aujourd'hui en général, c'est, qu'à l'heure <pb/> où nous sommes, le parti que 
+               nous prendrons par rapport aux affaires de la <rs type="place" ref="#plFr">France</rs>, n'est pas encore, et bien 
+               s'en faut, définitivement arrêté, que, malgré toutes les difficultés qu'opposent à une résolution vigoureuse, et le 
+               caractére personel du monarque, et la façon de penser de <del rend="stroked">xxx</del> plusieurs personnes qui 
+               l'entourent, et l'opinion publique prononcée d'une maniére bien funeste contre tout ce qui tend à nous unir plus 
+               étroitement à la cause commune, l'espoir de voir la <rs type="place" ref="#plPr">Prusse</rs> associée aux puissances 
+               coalisées n'est point du tout évanoui, et que vraisemblablement quelques succés de plus de la part de ces puissances 
+               mettront fin à nos incertitudes. Je dois même vous le dire: - en supposant toutefois que ceci s'écrit absolument 
+               <emph rend="underlined">pour vous</emph> - <del rend="stroked">xxx</del> le Ministére et particuliérement, le Comte 
+               de <del rend="stroked">xxx</del> <rs type="person" ref="#CHCvH">Haugwitz</rs> est bien décidé sur le rôle que nous 
+               avons à jouer dans les circonstances actuelles, <del rend="stroked">que</del> l'indécision qu'il manifeste, n'est 
+               qu'apparente; <del rend="stroked">et que</del> elle se fonde uniquement sur la difficulté extrème d'engager 
+               <rs type="person" ref="#KFWIII"><emph rend="underlined">le roi</emph></rs> à se prononcer; cette difficulté une fois 
+               surmontée, rien ne nous arrêtera. L'attachement du <rs type="person" ref="#KFWIII">roi</rs> pour le systême de la 
+               neutralité tient à trois causes principales: 1, à son aversion pour toute entreprise tant soi peu vaste et hazardée 
+               2, à son desir extrême de mettre l'ordre dans les finances et retablir son trésor, désir qui le dégoute naturellement 
+               de la seule idée d'une guerre dispendieuse 3, à la crainte (trop fondée) de voir s'élever de toutes parts les 
+               clameurs les plus violentes contre une décision favorable aux puissances alliées. Je ferois un livre uniquement en 
+               developpant ce dernier point, en vous entretenant sur les dispositions générales de notre <pb/> public avec toute 
+               l'exactitude que mérite un sujet aussi important et aussi funeste; mais je prens la liberté de Vous renvoyer au 
+               mémoire que je vous ai annoncé.
+            </p>
+            <p>
+               Le départ de <rs type="person" ref="#EJS">Sieyes</rs> dans la crise présente est une circonstance très favorable pour 
+               les partisans des mesures vigoureuses. D'un côté il nous délivre d'un observateur importun; de l'autre côte la 
+               certitude, que cet homme orgueilleux, atrabilaire, et (quoiqu'on vous dise du contraire) extrêmement maltraité 
+               pendant son séjour à <rs type="place" ref="#plBe">Berlin</rs>, ne sera jamais que l'ennemi secret de la 
+               <rs type="place" ref="#plPr">Prusse</rs>, achevera peut-être, dans l'esprit même du roi, la conviction, qu'il n'y a 
+               point de <del rend="stroked">la</del> salut hors de la cause commune, et que le Directoire vainqueur nous puniroit de 
+               notre neutralité <add place="above">suspecte</add>, tout comme la coalition victorieuse nous punira un jour de notre 
+               inaction. - 
+            </p>
+         </div>
+         <div n="3" corresp="#napinv">
+            <p>
+               Malheureusement cette circonstance favorable se trouve contre-balancé par le facheux effet que l'évènement de 
+               <rs type="place" ref="#plRa">Rastadt</rs> vient de faire sur <rs type="person" ref="#KFWIII">le roi</rs>, et par la 
+               nouvelle plus facheuse encore qui s'accrédite de plus en plus, que 
+               <rs type="person" ref="#KEvO">l'Archiduc Charles</rs> se démettra du commandement; faute essentielle, dont le Cabinet 
+               de <rs type="place" ref="#plWi">Vienne</rs> se repentira peut être longtems.
+            </p>
+            <p>
+               L'armée combinée des Russes et des Autrichiens est aux portes de <rs type="place" ref="#plTu">Turin</rs>. Les 
+               Francois ont évacué, sans coup ferir, <rs type="place" ref="#plNv">Novare</rs>, 
+               <rs type="place" ref="#plTo">Tortone</rs>, <rs type="place" ref="#plVr">Vercelli</rs>, toutes les places de la 
+               frontiére orientale du <rs type="place" ref="#plPm">Piémont</rs>. Les Alliés sont maitres de 
+               <rs type="place" ref="#plPz">Pizzighettone</rs>, du <rs type="place" ref="#plCm">Lac de Come</rs> et du 
+               <rs type="place" ref="#plFoFu">Fort de Fuentes</rs>. <rs type="person" ref="#FvHtz">Hotze</rs> et 
+               <rs type="person" ref="#HvBgr">Bellegarde</rs> ont fait leur jonction dans 
+               <rs type="place" ref="#plGrb">le pays des Grisons</rs>, et les François, chassés de ce pays et de la 
+               <rs type="place" ref="#plVl">Valteline</rs> sont reduits à la ligne de la <rs type="place" ref="#plRsF">Reuss</rs>. 
+               Quels évènemens dans six semaines ! Combien vous avez eu raison de dire dans votre dernier cahier, que les 
+               Autrichiens avoient eu bien tort, de désespérer de leurs forces ! <pb/>
+            </p>
+         </div>
+         <div n="4" corresp="#jrnh">
+            <p>
+               Il faut finir pour cette fois. Je <del rend="stroked">xxx</del> vous dois des remercimens particuliers de la maniére 
+               infiniment flatteuse pour moi, dont vous avez parlé de <rs type="citation" ref="#p0499-1">mon Journal</rs>. La 
+               traduction dont <rs type="citation" ref="#a0499-1">un de mes morceaux</rs> vient d'être honorée, est véritablement un 
+               chef d'oeuvre, qu'on ne <del rend="stroked">se</del> peut apprécier dignement qu'en connoissant la difficulté extrême 
+               de l'entreprise (vu la grande différence du génie des deux langues) et dont peut-être l'auteur lui-même est seul en 
+               état de sentir <emph rend="underlined">tout</emph> le prix. En joignant à cette lettre 
+               <rs type="citation" ref="#p0499-2">les cahiers suivans</rs> de ce Journal je désire ardemment que vous y trouviez 
+               quelque chose qui reponde à l'idée favorable, que vous avez eu la bonté de vous former du plan de cet ouvrage, et des 
+               principes de l'auteur.
+            </p>
+         </div>
+         <div n="5" corresp="#vjmdp">
+            <p>
+               Je crois ne plus avoir besoin de vous demander votre bienveillance. Les rapports intéressans qui existent entre nous, 
+               me la garantissent, et j'espére, pour toujours. Je vous prie seulement d'accepter avec bonté l'assurance renouvellée 
+               d'un attachement profond, fondé sur tout ce <add place="above">qui</add> peut lier les hommes par les noeuds les plus 
+               durables, une confiance illimitée, <del rend="stroked">une</del> le respect que commande l'admiration, et 
+               <del rend="stroked">xxx</del> reconnoissance la plus sincére. C'est avec ces sentimens que je ne cesserai de me 
+               nommer
+            </p>
+         </div>
+         <closer>
+            <salute rend="right">Monsieur !</salute>
+            <salute rend="right">Votre très humble et</salute>
+            <dateline rend="left"><rs type="place" ref="#plBe">Berlin</rs> ce <date when-iso="1799-05-25">25 Mai 1799</date>:</dateline>
+            <salute rend="right">très devoué serviteur</salute>
+            <signed rend="right">Gentz.</signed>
+         </closer>
+      </body>
+   </text>
+</TEI>

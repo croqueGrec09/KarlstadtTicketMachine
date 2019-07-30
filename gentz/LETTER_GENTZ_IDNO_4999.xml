@@ -1,0 +1,226 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader type="text">
+      <fileDesc xml:id="LETTER_GENTZ_4999">
+         <titleStmt>
+            <title>Friedrich von Gentz an Karl Gustav von Brinckmann, 10. November 1792</title>
+            <editor xml:id="edAG">Andreas Gálffy</editor>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <name>Forschungsstelle "Universitätssammlung Friedrich von Gentz"</name>
+               <link target="http://gentz-digital.ub.uni-koeln.de http://www.ub.uni-koeln.de/cdm/singleitem/collection/gentz/id/4998/"/>
+            </publisher>
+            <pubPlace>Cologne</pubPlace>
+            <idno type="Gentz-Edition-Number" n="4999"/>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <country>Sweden</country>
+                  <settlement>Trolle-Ljungby</settlement>
+                  <institution>Archiv des Grafen Wachtmeister</institution>
+                  <repository>Nachlaß Brinckmann, Ausländ. Briefwechsel, Gentz an Brinckmann</repository>
+                  <idno>G 3</idno>
+               </msIdentifier>
+               <msContents>
+                  <summary>
+                     Hier bahnt sich ein Verkauf an: für zwei Friedrichsd'or kann Brinckmann den Harrington und Hutcheson behalten. 
+                     Wenn Brinckmann ein Friedrichsd'or vier Reichstaler zusätzlich bezahlt, kann er den Harrington, den Sallust 
+                     von Gordon, den Davila und den Hutcheson behalten. Zu dem Geld müsste er noch den Tom Jones noch mit 
+                     überlassen. Das Ganze würde dann drei Friedrichsd'or für Gentz einbringen.
+                  </summary>
+               </msContents>
+            </msDesc>
+            <listBibl type="letterReferenced">
+               <bibl xml:id="c4999-1" corresp="#LETTER_GENTZ_1075">Friedrich von Gentz an Karl Gustav von Brinckmann, 9. November 1792</bibl>
+            </listBibl>
+            <listBibl type="alludedWorks">
+               <bibl xml:id="a4999-1" corresp="#LETTER_GENTZ_NNNN">nicht näher benanntes Werk von Robert Harrington</bibl>
+               <bibl xml:id="a4999-2" corresp="#LETTER_GENTZ_NNNN">nicht näher benanntes Werk von Francis Hutcheson</bibl>
+               <bibl xml:id="a4999-3" corresp="#LETTER_GENTZ_NNNN">nicht näher benannte Werke von Henry St. John Bolingbroke</bibl>
+            </listBibl>
+            <listBibl type="defExpr">
+               <biblStruct xml:id="e4999-1" corresp="GBk-0010">
+                  <monogr>
+                     <author>
+                        <persName>
+                           <ref target="http://d-nb.info/gnd/119004925"/>
+                           <forename>Thomas</forename>
+                           <surname>Gordon</surname>
+                        </persName>
+                     </author>
+                     <title>The Works of Sallust</title>
+                     <imprint>
+                        <pubPlace>Glasgow</pubPlace>
+                        <publisher>Robert Urie</publisher>
+                        <date>1762</date>
+                     </imprint>
+                  </monogr>
+               <ptr target="https://books.google.de/books?id=CcFXAAAAcAAJ"/></biblStruct>
+               <biblStruct xml:id="e4999-2" corresp="GBk-0011">
+                  <monogr>
+                     <author>
+                        <persName>
+                           <ref target="http://d-nb.info/gnd/123943817"/>
+                           <forename>Arrigo Caterino</forename>
+                           <surname>Davila</surname>
+                        </persName>
+                     </author>
+                     <title>Historia delle guerre civili di Francia</title>
+                     <imprint>
+                        <pubPlace>Paris</pubPlace>
+                        <publisher>Stamperia Reale</publisher>
+                        <date>1644</date>
+                     </imprint>
+                  </monogr>
+               <ptr target="https://books.google.de/books?id=hyj5puEWFM0C"/></biblStruct>
+               <biblStruct xml:id="e4999-3" corresp="Hdl-0000">
+                  <monogr>
+                     <author>
+                        <persName>
+                           <ref target="http://d-nb.info/gnd/1014122686"/>
+                           <forename>Henry</forename>
+                           <surname>Fielding</surname>
+                        </persName>
+                     </author>
+                     <title>The history of Tom Jones : a foundling.--</title>
+                     <imprint>
+                        <pubPlace>London</pubPlace>
+                        <publisher>C. Cooke</publisher>
+                        <date>1792</date>
+                     </imprint>
+                  </monogr>
+               <ptr target="https://hdl.handle.net/2027/njp.32101067567865"/></biblStruct>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Masterarbeit zu Matrikelnummer 5584124</p>
+         </projectDesc>
+      </encodingDesc>
+      <profileDesc>
+         <creation>
+            <date when-iso="1792-11-10">10. November 1792</date>
+         </creation>
+        <langUsage>
+           <language ident="d">deutsch</language>
+        </langUsage>
+         <textClass>
+            <keywords scheme="internal"><!-- internal: innerhalb des besagten Briefs -->
+               <term>Billet</term>
+               <term>Harrington</term>
+               <term>Davila</term>
+               <term>Hutcheson</term>
+               <term>Handel</term>
+            </keywords>
+            <keywords scheme="categorisation"><!-- Sinnabschnittseinteilung - relevant für den Fahrkartenautomaten! -->
+               <term xml:id="bibl">Bibliothek</term>
+            </keywords>
+         </textClass>
+         <textDesc>
+            <channel>manuscript</channel>
+            <constitution type="single"/>
+            <derivation type="original"/>
+            <domain type="private"/>
+            <factuality type="fact"/>
+            <interaction type="partial"/>
+            <preparedness type="unprepared"/>
+            <purpose type="inform"/>
+         </textDesc>
+         <particDesc>
+            <listPerson>
+               <!-- Sender und Adressat -->
+               <person role="sender" xml:id="Gen">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/118538489"/>
+                     <forename>Friedrich von</forename>
+                     <surname>Gentz</surname>
+                  </persName>
+               </person>
+               <person role="receiver" xml:id="KGvB">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/116519770"/>
+                     <forename>Carl Gustav von</forename>
+                     <surname>Brinckmann</surname>
+                  </persName>
+               </person>
+               <!-- erwähnte Personen -->
+            </listPerson>
+         </particDesc>
+         <settingDesc>
+            <listPlace>
+               <!-- Start- und Zielort -->
+               <place type="sender" xml:id="plBe">
+                  <country>
+                     <ref target="http://d-nb.info/gnd/4047194-9"/>
+                     <placeName>Preußen</placeName>
+                  </country>
+                  <settlement>
+                     <ref target="http://d-nb.info/gnd/4005728-8"/>
+                     <placeName>Berlin</placeName>
+                  </settlement>
+               </place>
+               <!-- erwähnte Orte -->
+               <place type="named" xml:id="plMh">
+                  <country>
+                     <ref target="http://d-nb.info/gnd/4047194-9"/>
+                     <placeName>Preußen</placeName>
+                  </country>
+                  <geogName type="locality">
+                     <ref/>
+                     <placeName>Mohrenbrücke</placeName>
+                  </geogName>
+               </place>
+            </listPlace>
+         </settingDesc>
+      </profileDesc>
+      <revisionDesc>
+         <change xml:id="init" when-iso="2018-02-12" who="#edAG">Erstauszeichnung und Normierung des Dokumentes im Rahmen der Masterarbeit der Matrikelnummer 5584124</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>     
+      <body>
+         <opener resp="#KGvB">
+            <dateline rend="right">den <date when-iso="1792-11-10">10. Novbr 1792</date>.</dateline>
+         </opener>
+         <div n="1" corresp="#bibl">
+            <p>
+               Ich schicke Ihnen hier
+            </p>
+            <list>
+               <item>1) <rs type="citation" ref="#a4999-1">den Harrington</rs></item>
+               <item>2) <rs type="citation" ref="#e4999-1">Gordon's Sallust</rs></item>
+               <item>3) <rs type="citation" ref="#e4999-2">den Davila</rs></item>
+            </list>
+            <p>
+               1. Wenn Sie für den <rs type="citation" ref="#a4999-1">Harrington</rs> und 
+               <rs type="citation" ref="#a4999-2">Hutcheson</rs> zusammen die gebotnen 2 Friedrichs d'or geben, so können Sie 
+               dieselben behalten.
+            </p>
+            <p>
+               2. Ein gleiches findet in Ansatz der beyden andern Statt, wenn Sie dafür <emph rend="underlined">einen</emph> 
+               Friedrichs d'or und 4 Reichstaler als soviel der <rs type="citation" ref="#e4999-3">Tom Jones</rs> den Sie mir 
+               gestern mitbrachten kosten soll, geben wollen.
+            </p>
+            <p>
+               Sie können also, mit einem Wort, alle 4 Bücher gleich einrangiren, wenn Sie die folgenden äußerst honetten 
+               Bedingungen eingehen
+            </p>
+            <list>
+               <item>1) mir dafür 3 Friedrichs d'or zu schicken; und</item>
+               <item>2) dem Kerl auf der <rs type="place" ref="#plMh">Mohrenbrücke</rs> den Tom Jones zu bezahlen.</item>
+            </list>
+            <p>
+               Auf jeden Fall schicken Sie mir die <rs type="citation" ref="#a4999-3">Bolingbrokiana</rs> worüber wir abgesondert 
+               handeln wollen. Vale
+            </p>
+         </div>
+         <closer>
+            <signed rend="right">Gentz</signed>
+         </closer>
+         <note resp="#edAG" xml:id="r4999-1">Vgl. den <rs type="citation" ref="#c4999-1">Brief vom 9. November 1792</rs>.</note>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader type="text">
+      <fileDesc xml:id="LETTER_GENTZ_1151">
+         <titleStmt>
+            <title>Friedrich von Gentz an Friedrich Vieweg, 22. Juli 1795</title>
+            <editor xml:id="edAG">Andreas Gálffy</editor>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <name>Forschungsstelle "Universitätssammlung Friedrich von Gentz"</name>
+               <link target="http://gentz-digital.ub.uni-koeln.de http://www.ub.uni-koeln.de/cdm/singleitem/collection/gentz/id/1150/"/>
+            </publisher>
+            <pubPlace>Cologne</pubPlace>
+            <idno type="Gentz-Edition-Number" n="1151"/>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <country>Germany</country>
+                  <settlement>Wiesbaden</settlement>
+                  <institution>Vieweg-Verlagsarchiv</institution>
+                  <repository>Gentz-Materialien</repository>
+                  <idno>I, 7</idno>
+               </msIdentifier>
+               <msContents>
+                  <summary>
+                     Ein Schuldschein über 1000 Reichstaler Friedrichsd'or. Der am 22. Juli 1795 ausgestellte Schein wird, nach 
+                     Erledigung des Geschäftes mit Beguelin, durch einen Wechsel ausgetauscht. Am 9. September 1795 wurde von 
+                     Vieweg bescheinigt, dass der Wechsel von Beguelin mitgezeichnet wurde.
+                  </summary>
+               </msContents>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Masterarbeit zu Matrikelnummer 5584124</p>
+         </projectDesc>
+      </encodingDesc>
+      <profileDesc>
+         <creation>
+            <date when-iso="1795-07-22">22. Juli 1795</date>
+         </creation>
+        <langUsage>
+           <language ident="d">deutsch</language>
+        </langUsage>
+         <textClass>
+            <keywords scheme="internal"><!-- internal: innerhalb des besagten Briefs -->
+               <term>Brief</term>
+               <term>Schuldschein</term>
+               <term>Geld</term>
+            </keywords>
+            <keywords scheme="categorisation"><!-- Sinnabschnittseinteilung - relevant für den Fahrkartenautomaten! -->
+               <term xml:id="gprl">Gentz - p(r)ekuniäre Lage</term>
+            </keywords>
+         </textClass>
+         <textDesc>
+            <channel>manuscript</channel>
+            <constitution type="single"/>
+            <derivation type="original"/>
+            <domain type="private"/>
+            <factuality type="fact"/>
+            <interaction type="partial"/>
+            <preparedness type="prepared"/>
+            <purpose type="inform"/>
+         </textDesc>
+         <particDesc>
+            <listPerson>
+               <!-- Sender und Adressat -->
+               <person role="sender" xml:id="Gen">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/118538489"/>
+                     <forename>Friedrich von</forename>
+                     <surname>Gentz</surname>
+                  </persName>
+               </person>
+               <person role="receiver" xml:id="FVW">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/119049546"/>
+                     <forename>Friedrich</forename>
+                     <surname>Vieweg</surname>
+                  </persName>
+               </person>
+               <!-- erwähnte Personen -->
+               <person role="receiver" xml:id="Beg">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/118068296"/>
+                     <forename>Heinrich von</forename>
+                     <surname>Beguelin</surname>
+                  </persName>
+               </person>
+            </listPerson>
+         </particDesc>
+         <settingDesc>
+            <listPlace>
+               <!-- Start- und Zielort -->
+               <place type="sender" xml:id="plBe">
+                  <country>
+                     <ref target="http://d-nb.info/gnd/4047194-9"/>
+                     <placeName>Preußen</placeName>
+                  </country>
+                  <settlement>
+                     <ref target="http://d-nb.info/gnd/4005728-8"/>
+                     <placeName>Berlin</placeName>
+                  </settlement>
+               </place>
+               <!-- erwähnte Orte -->
+            </listPlace>
+         </settingDesc>
+      </profileDesc>
+      <revisionDesc>
+         <change xml:id="init" when-iso="2018-02-16" who="#edAG">Erstauszeichnung und Normierung des Dokumentes im Rahmen der Masterarbeit der Matrikelnummer 5584124</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>     
+      <body>
+         <div n="1" resp="#FVW" corresp="#gprl">
+            <p>
+               Daß ich von <rs type="person" ref="#FVW">Herrn Friedrich Vieweg dem älteren</rs> Dato Ein Tausend Reichsthaler in 
+               Friedrichsd'or à 5 Reichsthaler als ein Darlehn empfangen, bescheinige ich hiedurch und verspreche diesen 
+               Interims-Schein gegen einen Wechsel auszutauschen, so bald das mit 
+               <rs type="person" ref="#Beg">Herrn Geheim Rath von Beguelin</rs> verabredete Geschäft in Ordnung gebracht ist. 
+               <rs type="place" ref="#plBe">Berlin</rs> am 
+               <date when-iso="1795-07-22">22<span rend="sup">ten</span> July 1795</date>.
+            </p>
+         </div>
+         <closer>
+            <signed rend="right">Fridrich Gentz.</signed>
+            <signed rend="right">Königlicher Krieges-Rath</signed>
+            <signed rend="right">bey dem General-Directorio.</signed>
+         </closer>
+         <postscript resp="#FVW" corresp="#gprl">
+            <head>= 1000 Reichsthaler in Friedrichsd'or à 5 Reichsthaler</head>
+            <p>
+               Daß ich die Bürgschaft, für die, von dem <rs type="person" ref="#Beg">Herrn Geheim Rath von Beguelin</rs>, an den 
+               Herrn Kriegsrath Gentz zu leihenden Ein Tausend Reichsthaler in Friedrichsd'or à 5 Reichsthaler übernommen und, wenn 
+               es geschehen, den Gentzeschen Wechsel mit unterschreiben werde, dies bescheinige ich hiedurch.
+            </p>
+            <closer>
+               <dateline rend="left"><rs type="place" ref="#plBe">Berlin</rs> am <date when-iso="1795-09-09">9<span rend="sup">ten</span> Sept<span rend="sup">r</span> 1795</date>.</dateline>
+               <signed rend="right">Friedrich Vieweg</signed>
+               <signed rend="right">den ältern</signed>
+            </closer>
+         </postscript>
+      </body>
+      <back resp="#FVW">
+         <p>
+            <rs type="place" ref="#plBe">Berlin</rs> d <date when-iso="1795-07-22">22<span rend="sup">ten</span> July 1795</date>.
+            H Kr. Rth Gentz
+            pro 1000 Reichsthaler Friedrichsd' or à 5 Reichsthaler. 
+         </p>
+      </back>
+      <note xml:id="r1151-1">Seite 4 von Viewegs Hand</note>
+   </text>
+</TEI>

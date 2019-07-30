@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader type="text">
+      <fileDesc xml:id="LETTER_GENTZ_1303">
+         <titleStmt>
+            <title>Friedrich von Gentz an Karl Gustav von Brinckmann, 14. November 1795</title>
+            <editor xml:id="edAG">Andreas Gálffy</editor>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <name>Forschungsstelle "Universitätssammlung Friedrich von Gentz"</name>
+               <link target="http://gentz-digital.ub.uni-koeln.de http://www.ub.uni-koeln.de/cdm/singleitem/collection/gentz/id/1302/"/>
+            </publisher>
+            <pubPlace>Cologne</pubPlace>
+            <idno type="Gentz-Edition-Number" n="1303"/>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <country>Sweden</country>
+                  <settlement>Trolle-Ljungby</settlement>
+                  <institution>Archiv des Grafen Wachtmeister</institution>
+                  <repository>Nachlaß Brinckmann, Ausländ. Briefwechsel, Gentz an von Brinckmann</repository>
+                  <idno>G 3</idno>
+               </msIdentifier>
+               <msContents>
+                  <summary>
+                     Gentz ist sehr beschäftigt und kann daher seine Frau nicht sehen. Er möchte für sie ein wenig Lektüre besorgen; 
+                     diese soll Brinckmann bringen. Am folgenden Abend erwartet er Brinckmann und übermittelt Grüße der Ehefrau. Im 
+                     Postscript schreibt Gentz noch, dass Brinckmann die Bücher auch spät schicken kann.
+                  </summary>
+               </msContents>
+            </msDesc>
+            <listBibl type="defExpr">
+               <biblStruct xml:id="e1303-1" corresp="zen-0000">
+                  <monogr>
+                     <author>
+                        <persName>
+                           <ref target="http://d-nb.info/gnd/118540084"/>
+                           <forename>Leopold Friedrich Günther von</forename>
+                           <surname>Goeckingk</surname>
+                        </persName>
+                     </author>
+                     <title>Gedichte</title>
+                     <imprint>
+                        <date>1772-1782</date>
+                     </imprint>
+                  </monogr>
+               <ptr target="http://www.zeno.org/Literatur/M/Goeckingk,+Leopold+Friedrich+G%C3%BCnther+von/Gedichte"/></biblStruct>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Masterarbeit zu Matrikelnummer 5584124</p>
+         </projectDesc>
+      </encodingDesc>
+      <profileDesc>
+         <creation>
+            <date when-iso="1795-11-14">14. November 1795</date>
+         </creation>
+        <langUsage>
+           <language ident="d">deutsch</language>
+        </langUsage>
+         <textClass>
+            <keywords scheme="internal"><!-- internal: innerhalb des besagten Briefs -->
+               <term>Billet</term>
+               <term>Göckingk</term>
+               <term>Gedichte</term>
+            </keywords>
+            <keywords scheme="categorisation"><!-- Sinnabschnittseinteilung - relevant für den Fahrkartenautomaten! -->
+               <term xml:id="bibl">Bibliothek</term>
+               <term xml:id="vkgvb">Verhältnis Karl Gustav von Brinckmann</term>
+            </keywords>
+         </textClass>
+         <textDesc>
+            <channel>manuscript</channel>
+            <constitution type="single"/>
+            <derivation type="original"/>
+            <domain type="private"/>
+            <factuality type="fact"/>
+            <interaction type="partial"/>
+            <preparedness type="unprepared"/>
+            <purpose type="inform"/>
+         </textDesc>
+         <particDesc>
+            <listPerson>
+               <!-- Sender und Adressat -->
+               <person role="sender" xml:id="Gen">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/118538489"/>
+                     <forename>Friedrich von</forename>
+                     <surname>Gentz</surname>
+                  </persName>
+               </person>
+               <person role="receiver" xml:id="KGvB">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/116519770"/>
+                     <forename>Carl Gustav von</forename>
+                     <surname>Brinckmann</surname>
+                  </persName>
+               </person>
+               <!-- erwähnte Personen -->
+               <person role="named" xml:id="Min">
+                  <persName>
+                     <ref/>
+                     <forename>Wilhelmine</forename>
+                     <surname>Gilly</surname>
+                  </persName>
+               </person>
+               <person role="named" xml:id="Gck">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/118540084"/>
+                     <forename>Leopold Friedrich Günther von</forename>
+                     <surname>Goeckingk</surname>
+                  </persName>
+               </person>
+            </listPerson>
+         </particDesc>
+         <settingDesc>
+            <listPlace>
+               <!-- Start- und Zielort -->
+               <place type="sender" xml:id="plBe">
+                  <country>
+                     <ref target="http://d-nb.info/gnd/4047194-9"/>
+                     <placeName>Preußen</placeName>
+                  </country>
+                  <settlement>
+                     <ref target="http://d-nb.info/gnd/4005728-8"/>
+                     <placeName>Berlin</placeName>
+                  </settlement>
+               </place>
+               <!-- erwähnte Orte -->
+            </listPlace>
+         </settingDesc>
+      </profileDesc>
+      <revisionDesc>
+         <change xml:id="init" when-iso="2018-02-17" who="#edAG">Erstauszeichnung und Normierung des Dokumentes im Rahmen der Masterarbeit der Matrikelnummer 5584124</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <opener resp="#KGvB">
+            <dateline rend="right"><date when-iso="1795-11-14">14 Novbr 1795</date>.</dateline>
+         </opener>
+         <div n="1" corresp="#bibl">
+            <p>
+               Ich bin <date when-iso="1795-11-14">heute</date> so vergraben in Arbeit, daß ich nicht einmal mit 
+               <rs type="person" ref="#Min">meiner Frau</rs> ein Wörtchen sprechen kan, und sie hat keine Zeile zu lesen. Thun Sie 
+               mir die Freundschaft, ihr was zu schicken: z. B. <rs type="person" ref="#Gck">Gökingk</rs>s 
+               <rs type="citation" ref="#e1303-1">Gedichte</rs>, und <emph rend="underlined">mehrere</emph> Sachen. Sie sollen 
+               alles bald wieder haben. 
+            </p>
+         </div>
+         <div n="2" corresp="#vkgvb">
+            <p>
+               <date when-iso="1795-11-15">Morgen Abend</date> erwarte ich Sie doch ? - <rs type="person" ref="#Min">Minna</rs> 
+               grüßt Sie bestens.
+            </p>
+         </div>
+         <closer>
+            <signed rend="right">Gentz</signed>
+         </closer>
+         <postscript corresp="#vkgvb">
+            <p>
+               Wenn Sie nicht zu Hause sind, so schicken Sie die Bücher, sobald Sie kommen, wäre es auch spät: denn wir bleiben 
+               <date when-iso="1795-11-14">heute</date> lange auf.
+            </p>
+         </postscript>
+      </body>
+   </text>
+</TEI>

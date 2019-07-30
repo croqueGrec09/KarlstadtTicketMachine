@@ -1,0 +1,251 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc xml:id="LETTER_GENTZ_3815">
+         <titleStmt>
+            <title>Friedrich von Gentz an Friedrich Vieweg, 11. Juli 1796</title>
+            <editor xml:id="edAG">Andreas Gálffy</editor>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <name>Forschungsstelle "Universitätssammlung Friedrich von Gentz"</name>
+               <link target="http://gentz-digital.ub.uni-koeln.de http://www.ub.uni-koeln.de/cdm/singleitem/collection/gentz/id/3814/"/>
+            </publisher>
+            <pubPlace>Cologne</pubPlace>
+            <idno type="Gentz-Edition-Number" n="3815"/>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <country>Germany</country>
+                  <settlement>Wiesbaden</settlement>
+                  <institution>Vieweg-Verlagsarchiv</institution>
+                  <repository>Briefsammlung 311 G, Gentz-Briefe</repository>
+                  <idno>Nr. 52</idno>
+               </msIdentifier>
+               <msContents>
+                  <summary>
+                     Am kommenden Mittwoch Nachmittag oder Abend soll Vieweg und seine Frau bei Gentz Gesellschaft leisten. Gentz 
+                     verspricht, ihren Aufenthalt angenehm zu machen.
+                     Gentz schuldet Remnant 22 Reichstaler und acht Groschen in Louisd'or und Archenholtz 32 Reichstaler und vier 
+                     Groschen in Louisd'or und bittet Vieweg, den Betrag zuzuschießen und an 250 Reichstaler anzurechnen, die für 
+                     ein anderes Geschäft ausgegeben werden. Er möchte die Regelung bald an Archenholtz melden. 
+                     Folgendes Buch soll Vieweg für Gentz besorgen: Recueil des principaux Actes publiés sur les relations de la 
+                     France et de l'Italie. Im Postscript vermeldet Gentz einen großen, nicht näher bestimmten Arbeitsfortschritt.
+                  </summary>
+               </msContents>
+            </msDesc>
+            <listBibl type="defRep">
+               <biblStruct xml:id="p3815-1" corresp="#LETTER_GENTZ_NNNN">
+                  <monogr>
+                     <author>
+                        <persName>
+                           <ref target="http://d-nb.info/gnd/119118807"/>
+                           <forename>Joachim von</forename>
+                           <surname>Schwarzkopf</surname>
+                        </persName>
+                     </author>
+                     <title>Recueil des principaux Actes publics sur les relations politiques de la France avec les états d'Italie depuis l'année 1787 jusqu'au mois de May 1796.</title>
+                     <imprint>
+                        <pubPlace>Frankfurt</pubPlace>
+                        <publisher>Varentrapp und Wenner</publisher>
+                        <date>1796</date>
+                     </imprint>
+                  </monogr>
+               <ptr target="#LETTER_GENTZ_NNNN"/></biblStruct>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Masterarbeit zu Matrikelnummer 5584124</p>
+         </projectDesc>
+      </encodingDesc>
+      <profileDesc>
+         <creation>
+            <date when-iso="1796-07-11">11. Juli 1796</date>
+         </creation>
+        <langUsage>
+           <language ident="d">deutsch</language>
+        </langUsage>
+         <textClass>
+            <keywords scheme="internal"><!-- internal: innerhalb des besagten Briefs -->
+               <term>Billet</term>
+               <term>Treffen</term>
+               <term>Hainchelins</term>
+               <term>Archenholtz</term>
+            </keywords>
+            <keywords scheme="categorisation"><!-- Sinnabschnittseinteilung - relevant für den Fahrkartenautomaten! -->
+               <term xml:id="vwf">Vieweg - Freundschaft</term>
+               <term xml:id="gprl">Gentz - p(r)ekuniäre Lage</term>
+               <term xml:id="bibl">Bibliothek</term>
+            </keywords>
+         </textClass>
+         <textDesc>
+            <channel>manuscript</channel>
+            <constitution type="single"/>
+            <derivation type="original"/>
+            <domain type="private"/>
+            <factuality type="fact"/>
+            <interaction type="partial"/>
+            <preparedness type="unprepared"/>
+            <purpose type="inform"/>
+         </textDesc>
+         <particDesc>
+            <listPerson>
+               <!-- Sender und Adressat -->
+               <person role="sender" xml:id="Gen">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/118538489"/>
+                     <forename>Friedrich von</forename>
+                     <surname>Gentz</surname>
+                  </persName>
+               </person>
+               <person role="receiver" xml:id="FVW">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/119049546"/>
+                     <forename>Friedrich</forename>
+                     <surname>Vieweg</surname>
+                  </persName>
+               </person>
+               <!-- erwähnte Personen -->
+               <person role="named" xml:id="CCm">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/136187250"/>
+                     <forename>Charlotte</forename>
+                     <surname>Campe</surname>
+                  </persName>
+               </person>
+               <person role="named" xml:id="WRm">
+                  <persName>
+                     <ref/>
+                     <forename>William</forename>
+                     <surname>Remnant</surname>
+                  </persName>
+               </person>
+               <person role="named" xml:id="JWvA">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/118503839"/>
+                     <forename>Johann Wilhelm von</forename>
+                     <surname>Archenholz</surname>
+                  </persName>
+               </person>
+               <person role="named" xml:id="Hfm">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/116950781"/>
+                     <forename>Benjamin Gottlob</forename>
+                     <surname>Hoffmann</surname>
+                  </persName>
+               </person>
+            </listPerson>
+         </particDesc>
+         <settingDesc>
+            <listPlace>
+               <!-- Start- und Zielort -->
+               <place type="sender" xml:id="plSb">
+                  <country>
+                     <ref target="http://d-nb.info/gnd/4047194-9"/>
+                     <placeName>Preußen</placeName>
+                  </country>
+                  <settlement>
+                     <ref target="http://d-nb.info/gnd/116944-0"/>
+                     <placeName>Schöneberg</placeName>
+                  </settlement>
+               </place>
+               <place type="receiver" xml:id="plBe">
+                  <country>
+                     <ref target="http://d-nb.info/gnd/4047194-9"/>
+                     <placeName>Preußen</placeName>
+                  </country>
+                  <settlement>
+                     <ref target="http://d-nb.info/gnd/4005728-8"/>
+                     <placeName>Berlin</placeName>
+                  </settlement>
+               </place>
+               <!-- erwähnte Orte -->
+               <place type="named" xml:id="plHa">
+                  <country>
+                     <ref target="http://d-nb.info/gnd/4023118-5"/>
+                     <placeName>Hamburg</placeName>
+                  </country>
+                  <settlement>
+                     <ref target="http://d-nb.info/gnd/4023118-5"/>
+                     <placeName>Hamburg</placeName>
+                  </settlement>
+               </place>
+               <place type="named" xml:id="plFfm">
+                  <country>
+                     <ref target="http://d-nb.info/gnd/4018118-2"/>
+                     <placeName>Frankfurt</placeName>
+                  </country>
+                  <settlement>
+                     <ref target="http://d-nb.info/gnd/4018118-2"/>
+                     <placeName>Frankfurt</placeName>
+                  </settlement>
+               </place>
+            </listPlace>
+         </settingDesc>
+      </profileDesc>
+      <revisionDesc>
+         <change xml:id="init" when-iso="2018-02-18" who="#edAG">Erstauszeichnung und Normierung des Dokumentes im Rahmen der Masterarbeit der Matrikelnummer 5584124</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div n="1" corresp="#vwf">
+            <p>
+               Nach Verabredungen mit Hainchelins pp ist jetzt beschlossen, lieber Vieweg, Sie und 
+               <rs type="person" ref="#CCm">Ihre Frau Gemahlin</rs> zu bitten, uns 
+               <date when-iso="1796-07-13"><emph rend="underlined">Mittwoch</emph> Nachmittag und Abend</date> das Vergnügen Ihrer 
+               Gegenwart in <rs type="place" ref="#plSb">Schöneberg</rs> zu gönnen. Ich bitte mir hierüber von Ihnen eine bestimmte, 
+               aber versteht sich, bejahende Antwort aus, und freue mich herzlich auf diesen Tag, den wir Ihnen, so viel in unsern 
+               Kräften stehen wird, angenehm zu machen suchen wollen.
+            </p>
+         </div>
+         <div n="2" corresp="#gprl">
+            <p>
+               Ich habe noch an <rs type="person" ref="#WRm">Remnant</rs> für Englische Sachen von langer Zeit her 
+               <emph rend="underlined">22 Reichstaler 8 Groschen in Louisdor à 5 Reichstaler</emph>, und an 
+               <rs type="person" ref="#JWvA">Archenholtz</rs> die beiliegende Rechnung von 
+               <emph rend="underlined">32 Reichstaler 4 Groschen dito</emph> zu bezahlen. Diese Posten machen einen Theil der 300 
+               Reichstaler aus, die ich als Miscellanea auf der bewusten bösen Liste aufgeführt habe. Könnten Sie mir vielleicht 
+               durch 2 Assignationen auf <rs type="person" ref="#Hfm">Hoffmann</rs> oder einen andern Ihrer 
+               <rs type="place" ref="#plHa">Hamburg</rs>ischen Bekannten, die Mittel zur Abmachung dieser beiden Rechnungen an die 
+               Hand geben; und den Betrag zu den 250 Reichstalern in Gold setzen, die Sie außer den alten großen Vorschüsen, schon 
+               auf das jetzige Arrangement hergegeben haben ? - Dieses wünsche ich sehr. Ich würde als dann mit morgender Post, da 
+               ich ohnehin an <rs type="person" ref="#JWvA">Archenholtz</rs> gern schreiben mögte, diese Sache berichtigen können, 
+               wenn Sie mir entweder die Assignationen zuschickten, oder mich auch nur benachrichtigten, daß und wo die Zahlung 
+               dort erfolgen könnte.
+            </p>
+         </div>
+         <div n="3" corresp="#bibl">
+            <p>
+               Endlich bitte ich Sie noch, mir folgendes neulich erschienenes, für mich sehr wichtiges Buch zu verschaffen: 
+               <rs type="citation" ref="#p3815-1">Recueil des principaux Actes publiés sur les relations de la France et de l'Italie</rs>. 
+               <rs type="place" ref="#Ffm"><emph rend="underlined">Francfort</emph></rs>. chez 
+               <emph rend="underlined">Varentrapp</emph> et <emph rend="underlined">Werner</emph>. Bleiben Sie mir gewogen.
+            </p>
+         </div>
+         <closer>
+            <signed rend="right">Gentz</signed>
+            <dateline rend="right"><date when-iso="1796-07-11">11 July 1796</date></dateline>
+         </closer>
+         <postscript corresp="#vwf">
+            <p>
+               Meine Arbeiten gehen jetzt mit Riesenschritten vorwärts. Sie werden Sich wundern, wenn Sie hieher kommen werden.
+            </p>
+         </postscript>
+      </body>
+      <back>
+         <p>
+            Herrn
+            Buchhändler Vieweg
+            Wohlgebohren.
+         </p>
+      </back>
+      <note xml:id="r3814-1">Seite 4: Adresse</note>
+   </text>
+</TEI>

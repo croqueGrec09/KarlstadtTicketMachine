@@ -1,0 +1,565 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader type="text">
+      <fileDesc xml:id="LETTER_GENTZ_5183">
+         <titleStmt>
+            <title>Friedrich von Gentz an Christian Garve, 24. Oktober 1789</title>
+            <editor xml:id="edAG">Andreas Gálffy</editor>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <name>Forschungsstelle "Universitätssammlung Friedrich von Gentz"</name>
+               <link target="http://gentz-digital.ub.uni-koeln.de http://www.ub.uni-koeln.de/cdm/singleitem/collection/gentz/id/5182/"/>
+            </publisher>
+            <pubPlace>Cologne</pubPlace>
+            <idno type="Gentz-Edition-Number" n="5183"/>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <settlement>unknown</settlement>
+                  <idno>destroyed</idno><!-- Manuskript wurde durch Kriegseinwirkungen zerstört -->
+               </msIdentifier>
+               <msContents>
+                  <summary>
+                     Der erste Brief hat direkt die Zensur Garves passieren müssen, was Gentz' Perfektionismus arg widerstrebt. Zwei 
+                     Briefe hat Gentz weitergeleitet: an Herrn Boje und Graf Zinzendorff. Letzterer hat eine Übersetzung von Garves 
+                     Buch "Über die Verbindung der Moral mit der Politik" angefertigt, von dem im Brief auch weiter die Rede sein 
+                     wird. Gentz befindet die Übersetzung nämlich für allgemein gut, hat aber einige Punkte bei näherer Betrachtung 
+                     auszusetzen. Da heißt es im letzten Teil: Alle diese Mittel etc. Der Übersetzer hat, so Gentz, einen Bezug 
+                     verkannt, da er es mit "tout ce que nous venons de rapporter" wiedergegeben hat, was sich auf den Inhalt der 
+                     gesamten Abhandlung bezogen hätte. Was aber Gentz nicht so sieht; er sieht mit den Worten "alle diese Dinge" 
+                     nur den Staat gemeint, der im Satz davor genannt wurde. Auch merkt Gentz an, dass an einer anderen Stelle 
+                     ein falscher Wert dem Wort "muss" zuerkannt wurde. Trotz dieser Fehler rechnet Gentz den Wert dieser Arbeit 
+                     sehr hoch an. Auch die Abhandlung eines Herrn klein hat Gentz zu einigen Anmerkungen verleitet, die im 
+                     folgenden Teil des Briefes ausgeführt werden.
+                     Zuerst sah Gentz keinen roten Faden in seiner Abhandlung. Dann führt er Einwände Kleins gegen Garve aus. Die 
+                     Frage der Zwangspflichten beantwortet Getz so, dass es bereits bei Zustandekommen einer Verabredung zu einem 
+                     Recht und einer Pflicht kommt, so es bereits bei der allerersten Form der Gesellschaft Zwangspflichten gegeben 
+                     haben muss, da es dort schon Rechte gab.
+                     Die zweite Frage bejaht Gentz in dem Sinne, dass Regenten durchaus ihre Rechte - aber auch ihre daraus 
+                     resultierenden Pflichten haben. Dies begründet er damit, indem er den Regenten den ersten Diener des Staates 
+                     nennt. Das Recht des Stärkeren verneint er. Physische Übermacht räumt nicht gleichzeitig mehr Recht ein. 
+                     Nichtsdestotrotz war dies ein Gegenstand, der bei Gentz Zweifel über Kants Theorien aufkommen ließ. Der 
+                     Verleger hat Garves Schrift dem König vorgelegt - Gentz meinte, in den Händen des Kronprinzen wäre sie besser 
+                     aufgehoben.
+                  </summary>
+               </msContents>
+            </msDesc>
+            <listBibl type="preprints">
+               <biblStruct>
+                  <monogr>
+                     <editor>
+                        <persName>
+                           <ref target="http://d-nb.info/gnd/130953075"/>
+                           <forename>Friedrich Carl</forename>
+                           <surname>Wittichen</surname>
+                        </persName>
+                        <persName>
+                           <ref/> <!-- kein GND-Eintrag -->
+                           <forename>Ernst</forename>
+                           <surname>Salzer</surname>
+                        </persName>
+                     </editor>
+                     <title>Briefe von und an Friedrich von Gentz, 4 Bde.</title>
+                     <imprint>
+                        <publisher>Oldenbourg</publisher>
+                        <pubPlace>München, Berlin</pubPlace>
+                        <date>1909-1913</date>
+                     </imprint>
+                     <biblScope unit="volume" n="2">
+                        II
+                     </biblScope>
+                     <biblScope unit="page" from="146" to="153">
+                        Nr. 36
+                     </biblScope>
+                  </monogr>
+               </biblStruct>
+               <biblStruct>
+                  <monogr>
+                     <editor>
+                        <persName>
+                           <ref/>
+                           <forename>Carl G.</forename>
+                           <surname>Schönborn</surname>
+                        </persName>
+                     </editor>
+                     <title>Friedrich von Gentz. Briefe an Christian Garve. (1789-1798.)</title>
+                     <imprint>
+                        <pubPlace>Breslau</pubPlace>
+                        <date>1857</date>
+                     </imprint>
+                     <biblScope unit="page" from="7" to="21">
+                        Nr. II
+                     </biblScope>
+                  </monogr>
+               </biblStruct>
+            </listBibl>
+            <listBibl type="letterReferenced">
+               <bibl xml:id="c5183-1" corresp="#LETTER_GENTZ_4991">Friedrich von Gentz an Christian Garve, 6. Oktober 1789</bibl>
+               <bibl xml:id="c5183-2" corresp="#LETTER_GENTZ_NNNN">nicht bekannter Brief von Christian Garve an Herrn Boje</bibl>
+               <bibl xml:id="c5183-3" corresp="#LETTER_GENTZ_NNNN">nicht bekannter Brief von Chrsitian Garve an Graf von Zinzendorff</bibl>
+            </listBibl>
+            <listBibl type="alludedWorks">
+               <bibl xml:id="a5183-1" corresp="#LETTER_GENTZ_NNNN">nicht näher benannte Schrift eines Herrn Klein</bibl>
+            </listBibl>
+            <listBibl type="defExpr">
+               <biblStruct xml:id="e5183-1" corresp="BSB-0000">
+                  <monogr>
+                     <author>
+                        <persName>
+                           <ref target="http://d-nb.info/gnd/118537636"/>
+                           <forename>Christian</forename>
+                           <surname>Garve</surname>
+                        </persName>
+                     </author>
+                     <title>Abhandlung über die Verbindung der Moral mit der Politik oder einige Betrachtungen über die Frage, in wiefern es möglich sey, die Moral des Privatlebens bey der Regierung der Staaten zu beobachten.</title>
+                     <imprint>
+                        <publisher>Wilhelm Gottlieb Korn</publisher>
+                        <pubPlace>Breslau</pubPlace>
+                        <date>1788</date>
+                     </imprint>
+                  </monogr>
+               <ptr target="http://reader.digitale-sammlungen.de/de/fs1/object/display/bsb10040572_00005.html"/></biblStruct>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Masterarbeit zu Matrikelnummer 5584124</p>
+         </projectDesc>
+      </encodingDesc>
+      <profileDesc>
+         <creation>
+            <date when-iso="1789-10-24">24. Oktober 1789</date>
+         </creation>
+        <langUsage>
+           <language ident="d">deutsch</language>
+        </langUsage>
+         <textClass>
+            <keywords scheme="internal"><!-- internal: innerhalb des besagten Briefs -->
+               <term>Brief</term>
+               <term>Ehrbrief</term>
+               <term>Kant</term>
+               <term>Studien</term>
+               <term>Zensur</term>
+               <term>Philosophie</term>
+               <term>Werke</term>
+               <term>Recht</term>
+               <term>Zinzendorff</term>
+               <term>Klein</term>
+            </keywords>
+            <keywords scheme="categorisation"><!-- Sinnabschnittseinteilung - relevant für den Fahrkartenautomaten! -->
+               <term xml:id="vcg">Verhältnis Christian Garve</term>
+               <term xml:id="kvmp">Über die Verbindung der Moral mit der Politik</term>
+               <term xml:id="phipf">Philosophie - Pflicht</term>
+               <term xml:id="phisnr">Philosophie - Stand der Natur bei Regenten</term>
+               <term xml:id="kant">Kant</term>
+            </keywords>
+         </textClass>
+         <textDesc>
+            <channel>manuscript</channel>
+            <constitution type="single"/>
+            <derivation type="original"/>
+            <domain type="private"/>
+            <factuality type="fact"/>
+            <interaction type="partial"/>
+            <preparedness type="prepared"/>
+            <purpose type="inform"/>
+         </textDesc>
+         <particDesc>
+            <listPerson>
+               <!-- Sender und Adressat -->
+               <person role="sender" xml:id="Gen">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/118538489"/>
+                     <forename>Friedrich von</forename>
+                     <surname>Gentz</surname>
+                  </persName>
+               </person>
+               <person role="receiver" xml:id="Gar">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/118537636"/>
+                     <forename>Christian</forename>
+                     <surname>Garve</surname>
+                  </persName>
+               </person>
+               <!-- erwähnte Personen -->
+               <person role="named" xml:id="Boj">
+                  <persName>
+                     <ref/>
+                     <forename/>
+                     <surname>Boje</surname>
+                  </persName>
+               </person>
+               <person role="named" xml:id="GZin">
+                  <persName>
+                     <ref/>
+                     <forename>von</forename>
+                     <surname>Zinzendorff</surname>
+                     <roleName type="office">Graf</roleName>
+                  </persName>
+               </person>
+               <person role="named" xml:id="Mer">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/172811724"/>
+                     <forename>Johann Bernhard</forename>
+                     <surname>Merian</surname>
+                  </persName>
+               </person>
+               <person role="named" xml:id="Kle">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/116211148"/>
+                     <forename>Ernst Ferdinand</forename>
+                     <surname>Klein</surname>
+                  </persName>
+               </person>
+               <person role="named" xml:id="Kant">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/118559796"/>
+                     <forename>Immanuel</forename>
+                     <surname>Kant</surname>
+                  </persName>
+               </person>
+               <person role="named" xml:id="Dec">
+                  <persName>
+                     <ref/>
+                     <forename/>
+                     <surname>Decker</surname>
+                  </persName>
+               </person>
+               <person role="named" xml:id="MGar">
+                  <persName>
+                     <ref/>
+                     <forename/>
+                     <surname>Garve</surname>
+                     <roleName type="family">Mutter von Christian Garve</roleName>
+                  </persName>
+               </person>
+            </listPerson>
+         </particDesc>
+         <settingDesc>
+            <listPlace>
+               <!-- Start- und Zielort -->
+               <place type="sender" xml:id="plBe">
+                  <country>
+                     <ref target="http://d-nb.info/gnd/4047194-9"/>
+                     <placeName>Preußen</placeName>
+                  </country>
+                  <settlement>
+                     <ref target="http://d-nb.info/gnd/4005728-8"/>
+                     <placeName>Berlin</placeName>
+                  </settlement>
+               </place>
+               <place type="receiver" xml:id="plBr">
+                  <country>
+                     <ref target="http://d-nb.info/gnd/4047194-9"/>
+                     <placeName>Preußen</placeName>
+                  </country>
+                  <settlement>
+                     <ref target="http://d-nb.info/gnd/4008216-7"/>
+                     <placeName>Breslau</placeName>
+                  </settlement>
+               </place>
+               <!-- erwähnte Orte -->
+            </listPlace>
+         </settingDesc>
+      </profileDesc>
+      <revisionDesc>
+         <change xml:id="init" when-iso="2018-01-28" who="#edAG">Erstauszeichnung und Normierung des Dokumentes im Rahmen der Masterarbeit der Matrikelnummer 5584124</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>     
+      <body>
+         <opener>
+            <dateline><rs type="place" ref="#plBe">Berlin</rs>, den <date when-iso="1789-10-24">24. Oktober 1789</date>.</dateline>
+         </opener>
+         <div n="1" corresp="#vcg">
+            <p>
+               Ich bin zwar sehr unzufrieden, bester <rs type="person" ref="#Gar">Herr Professor</rs>, daß gerade 
+               <rs type="citation" ref="#c5183-1">der erste Brief</rs>, den ich an Sie geschrieben habe, Ihre freundschaftliche 
+               Zensur auf sich ziehen mußte: indessen, wie der Mensch so gern das, was seinen Wünschen schmeichelt, unter allen 
+               Gestalten finden mag, tröste ich mich mit dem Gedanken, daß Sie mich nicht getadelt haben würden, wenn ich Ihnen 
+               gleichgültig gewesen wäre. Und ob ich gleich die Fülle meiner Empfindungen über diesen Punkt freilich nicht gegen 
+               Sie hätte auslassen sollen, so bekenne ich doch, daß niemand in der Welt, und auch Sie selbst nicht imstande wären 
+               mich zu überzeugen, daß im vorseienden Falle die Gefahr einer Veränderung in mir, die Sie mir androhen, wirklich 
+               vorhanden wäre.
+            </p>
+            <p>
+               Die beiden Briefe, mit deren Bestellung Sie mich beehrt haben, habe ich ohne Verzug an die Örter ihrer Bestimmung 
+               gelangen lassen. <rs type="person" ref="#Boj">Herr Boje</rs> ist, wie Sie glaubten, Stiftsamtmann in Maldorff in der 
+               Grafschaft Dithmarsen: ich habe diesen Titel seinem Namen beigefügt, und alsdann 
+               <rs type="citation" ref="#c5183-2">den Brief</rs> auf die Hamburgische Post gegeben. 
+               <rs type="citation" ref="#c5183-3">Den Brief</rs> an den <rs type="person" ref="#GZin">Grafen Zinzendorff</rs> habe 
+               ich im Augenblick, da ich ihn empfing, selbst in sein Haus gebracht, und mich von der sichern Bestellung desselben 
+               überzeugt.
+            </p>
+         </div>
+         <div n="2" corresp="#kvmp">
+            <p>
+               Dieser letzte Brief bringt mich ganz natürlich auf das, was vermutlich einen Teil seines Inhalts ausmacht. Ich weiß, 
+               daß der <rs type="person" ref="#GZin">Graf Zinzendorff</rs> der Übersetzer Ihres vortrefflichen Buchs: 
+               <rs type="citation" ref="#e5183-1">Über die Verbindung der Moral mit der Politik</rs>, ins Französische ist. Schon 
+               der bloße Entschluß, diese Schrift zu übersetzen, hat mir den Mann sehr schätzbar gemacht. Die Übersetzung selbst 
+               habe ich gelesen, und mit dem Original durchgängig verglichen, eine Beschäftigung, der ich einige sehr angenehme 
+               Stunden zu danken habe.
+            </p>
+            <p>
+               <rs type="person" ref="#Mer">Herr Merian</rs> und verschiedne andre hiesige Gelehrte, die beider Sprachen 
+               hinlänglich mächtig sind, haben dieser Übersetzung schon ihren <pb/> völligen Beifall gegeben. Wenn ich nach ihnen 
+               noch mein Urteil darüber sagen darf, so muß ich gestehen, daß auch ich sie im ganzen sehr gut finde, aber doch bei 
+               näherer Aufmerksamkeit einige Fehler bemerkt zu haben glaube, die ich weggewünscht hätte, weil sie der 
+               Verständlichkeit schaden, und den vollkommnen Zusammenhang unter den Ideen des Originals, undeutlich machen. Von 
+               dieser Art ist, um nur ein Beispiel anzuführen, folgende Stelle aus der weit über mein Lob erhabnen Schlußapostrophe 
+               Ihres Buchs: 
+               <cit corresp="#e5183-1">
+                  <quote>
+                     Aber Staat als ein idealisches Wesen, heißt es in der Urschrift, als konzentriert in deiner Person, in deinen 
+                     Armeen, in deiner Schatzkammer, in deiner und deiner Familie Ehre, ist nicht ein ebenso hoher Gegenstand und 
+                     so fort. - - - Alle diese genannte Sachen sind nur Mittel; diese müssen geprüft werden etc.
+                  </quote>
+               </cit>
+               Den Zusammenhang zwischen diesen beiden Perioden scheint der Übersetzer ganz übersehen zu haben: sonst hätte er 
+               nicht die letzte so geben können: 
+               <span xml:lang="fr">Tout ce que nous venons de rapporter n'expose que des moyens</span> - wo man nach dem 
+               Französischen durchaus glauben muß, daß von allem was in der ganzen Anrede gesagt worden, die Rede sei, da doch 
+               unter dem Ausdruck "alle diese genannte Sachen" offenbar bloß jene eingeschränkte und falsche Bestimmungen des Worts 
+               <emph rend="underlined">Staat</emph> verstanden werden sollten. <span xml:lang="fr">Il importe</span>, fährt der 
+               Übersetzer fort, 
+               <span xml:lang="fr">d'examiner jusqu'où ils contribuent au bien-être de tes sujets, de quel nombre etc.</span>, und 
+               gleich darauf folgt: 
+               <span xml:lang="fr">Mais de ces êtres de raison il faut passer souvent aux êtres réels.</span> Diese Stelle hat in 
+               der Übersetzung nicht den geringsten Sinn. Denn das <span xml:lang="fr">ces êtres de raison</span> bezieht sich, 
+               <emph rend="underlined">wegen der falschen Übersetzung des vorigen Absatzes</emph>, entweder auf nichts, oder es 
+               müßte sich gar auf <span xml:lang="fr">bien-être des sujets</span> aus der nächstvorhergehenden Periode beziehen, 
+               welches doch unmöglich ist. Den Zusammenhang mit <span xml:lang="fr">votre personne, vos armées, vos trésors</span> 
+               etc. aber hat das: <span xml:lang="fr">Tout ce que nous venons de rapporter</span> etc. längst unterbrochen und 
+               vergessen gemacht.
+            </p>
+            <p>
+               So ist die Stelle in der Mitte des Buchs, wo der Graf in der Note sagt: er habe sie beibehalten, ohne ihren 
+               Zusammenhang einzusehen, bloß dadurch unverständlich geworden, daß er in der Phrase: 
+               <cit corresp="#e5183-1">
+                  <quote>
+                     Allen großen Revolutionen muß die Vorsehung vorgearbeitet haben
+                  </quote>
+               </cit>
+               den eigentlichen Wert (<span xml:lang="fr">valeur</span>) des Worts <emph rend="underlined">muß</emph> übersah, und 
+               daher ganz unrichtig übersetzte: La providence selon nous 
+               <span xml:lang="fr"><emph rend="underlined">a préparé</emph> de loin toute grande réforme</span>. <pb/>
+            </p>
+            <p>
+               Ich komme übrigens nochmals darauf zurück, daß schon das Unternehmen dieser Übersetzung selbst so löblich war, und 
+               dabei die reizende äußerliche Form, unter welcher man sie erscheinen ließ, so sehr den Dank eines jeden Deutschen 
+               verdient, dem daran gelegen ist, seine große Schriftsteller auch von andern Nationen gelesen zu wissen, daß ich sehr 
+               zufrieden sein wollte, wenn nur alles, was Sie geschrieben haben, so ins Französische übersetzt wäre, als dieses Buch.
+            </p>
+         </div>
+         <div n="3" corresp="#phipf">
+            <p>
+               Ich habe auch die <rs type="citation" ref="#a5183-1">Schrift</rs> des <rs type="person" ref="#Kle">Herrn Klein</rs> 
+               gelesen. Und da ich einmal so dreist geworden bin, über Gegenstände, die Sie so nahe angehen, Urteile zu fällen, so 
+               erlauben Sie mir, daß ich einige Bemerkungen, die die Vergleichung dieser Schrift mit der Ihrigen bei mir 
+               hervorgebracht hat, Ihrer bessern Einsicht unterwerfe.
+            </p>
+            <p>   
+               Zuvörderst habe ich im allgemeinen in der Schrift des <rs type="person" ref="#Kle">Herrn Klein</rs> keinen 
+               durchgängigen Zusammenhang, wenigstens keine durchgängig sichtbare Verbindung des Raisonnements gefunden, und leite 
+               es aus diesem Mangel, daß er sich größtenteils bei Nebenideen aufgehalten hat, die zwar an sich selbst von großer 
+               Wichtigkeit sein mochten, hier aber eigentlich nicht ausführlich abgehandelt werden mußten.
+            </p>
+            <p>
+               Mich dünkt, das Wesentliche der Einwendungen, die man aus dem Gesichtspunkt des 
+               <rs type="person" ref="#Kle">Herrn Klein</rs> gegen Ihre Abhandlung hätte machen wollen, müßte ich auf folgende 
+               beide Fragen haben reduzieren lassen:
+            </p>
+            <p>
+               1. Gibt es im Stande der Natur, Zwangspflichten, oder regiert hier bloß das Gewissen ?
+            </p>
+            <p>
+               2. Befinden sich die Regenten, als solche, würklich im Stande der Natur ?
+            </p>
+            <p>
+               Auf die erste Frage würde ich Folgendes antworten:
+            </p>
+            <p>
+               1. Wenn es überhaupt einen Stand der Natur geben kann, und jemals gegeben haben soll, so kann ich nur allein den 
+               dafür erkennen, wo die Menschen ganz isoliert wären, wo auch nicht die allersimpelste Verabredung zwischen ihnen 
+               stattfinden konnte, und wo jeder sich selbst durch die Welt zu helfen suchte, so gut es anging. Daß es je einen 
+               <pb/> solchen Zustand gegeben habe, glaube ich nicht, und halte es sogar für unmöglich. Daher auch die Frage: ob in 
+               diesem Zustand Rechte und Pflichten existierten, und von welcher Art sie waren, vollkommen unnütz ist. Wollte man in 
+               der bloßen Spekulation auf ihre Beantwortung dringen: so würde ich erst fragen: wie es denn einem Menschen, der sich 
+               um keinen andern in der Welt bekümmert, einfallen könnte, irgend etwas von einen andern zu fordern, oder für einen 
+               andern zu tun ?
+            </p>
+            <p>
+               2. Bei der ersten Verabredung, welche Menschen schlossen, bei ihrer ersten Verbindung, und wäre sie auch nur 
+               zwischen zwei Individuen gewesen, hob sich der Zustand des gesellschaftlichen Lebens an, der dem Menschen so 
+               <emph rend="underlined">natürlich</emph> ist, wie das Zellenbauen den Bienen; und dieser Zustand kann ohne einen 
+               Vertrag, wenn er auch noch so roh ist, nicht bestehen. Sobald aber ein Vertrag vorhanden ist, so ist auch ein Recht, 
+               d. i. die moralische (und nicht bloß physische) Möglichkeit, die Freiheit eines andern nach einer Regel 
+               einzuschränken, da: und wo ein Recht ist, da muß schlechterdings auch eine ihm korrespondierende Pflicht sein. Es 
+               gibt also Pflichten gleich beim ersten Aufkeimen einer menschlichen Gesellschaft.
+            </p>
+            <p>
+               3. Die Distinktion der Pflichten in Zwangs- und Gewissenspflichten, deren Realität niemand leugnen kann, und deren 
+               Erklärung doch auf allen Wegen Schwierigkeiten hat, denke ich mir so: Jeder, der nach einer 
+               <emph rend="underlined">Pflicht</emph> handelt, sie sei von welcher Art sie wolle, ist 
+               <emph rend="underlined">genötiget</emph> zu handeln. Sobald ich diese Vorstellung von einer 
+               <emph rend="underlined">moralischen Nötigung</emph> verliere, so verliere ich auch die Idee der Pflicht. Denn wenn 
+               ein Mensch noch so vortrefflich handelt, und dabei irgendeinen andern Bewegungsgrund hat, als den, daß er fühlt: 
+               <emph rend="underlined">du mußt</emph> das tun, weil die Vernunft, die immer das Beste will, dir diese Vorschrift 
+               gibt, so kann er zwar gesetz<emph rend="underlined">mäßig</emph>, aber nie 
+               <emph rend="underlined">aus Pflicht</emph>, und aus Achtung für das Gesetz handeln. Dies gilt für alle Pflichten, 
+               und alle Moralisten, sie mögen auch zum obersten Moralprinzip annehmen, was sie wollen, müssen diese Kennzeichen 
+               annehmen, wenn sie nicht mit dem Wort Pflicht spielen wollen. Nun aber beruht der Unterschied unter den Pflichten, 
+               nach meiner Vorstellung, nicht auf der Art oder dem Grade der moralischen Nötigung, sondern auf der objektiven 
+               Verschiedenheit der Vorschriften. Wenn das, was die Vernunft gebietet, von der Art ist, daß ein andrer ein 
+               <emph rend="underlined">Recht</emph> haben kann, es zu verlangen, so ist eine Zwangspflicht da, und die Fertigkeit 
+               diese Pflicht zu üben, d. i. das zu <pb/> tun, was <emph rend="underlined">recht</emph> ist, heißt nach meinem Sinn 
+               des Worts, <emph rend="underlined">Gerechtigkeit</emph>. Dagegen, wenn das, was die Vernunft fordert, bloß darum von 
+               ihr verlangt, weil es <emph rend="underlined">gut</emph> ist, so ist eine Gewissenspflicht da; und die Fertigkeit in 
+               der Übung dieser Pflicht d. i. die Gewohnheit <emph rend="underlined">gut</emph> zu handeln auch wo kein Recht im 
+               Spiel ist, heißt Wohltätigkeit, Wohlwollen und so fort. Wenn ich diese letztre Pflicht übertrete, so kann ich zwar 
+               vor dem Richtstuhl eines andern nie strafbar werden, aber ich verliere in der Achtung, die ich für mich selbst haben 
+               muß, und vergehe mich an dem Tribunal meiner Vernunft, deren Aussprüche mir, sobald ich sie nur kenne, alle gleich 
+               heilig sein sollen. Denn die Idee des <emph rend="underlined">Besten</emph> liegt ihnen allen zum Grunde: die Idee 
+               des Rechts ist nur eine Modifikation der ersten Idee bei <emph rend="underlined">einigen</emph>.
+            </p>
+            <p>
+               4. Da also in dem allerersten Zustande der Gesellschaft schon Rechte vorhanden sind, so gibt es in demselben nicht 
+               nur Pflichten, sondern auch Zwangspflichten. Wären diese nicht, so wäre das Recht selbst eine Chimäre. Ich habe mich 
+               nie überzeugen können, daß der Ausdruck: <emph rend="underlined">Recht des Stärkeren</emph> in einer andern 
+               Rücksicht als zum Spott erfunden sei. Es ist fast unmöglich: daß je ein Philosoph oder ein Jurist (so wenig auch 
+               diese beide Benennungen synonymisch sein mögen) im Ernst darauf verfallen wäre: daß eine physische Übermacht ein 
+               Recht erteilen könne. Wenn dieses droit du plus fort irgendwo das Regiment geführt hat, so haben beide Teile, der 
+               Unterdrücker, der dabei gewann, sowie der Unterdrückte, der dadurch verlor, sicherlich gefühlt, wenn sie anders Lust 
+               hatten, ihr innres Gefühl zu Rate zu ziehen, daß der Zustand, worin sie sich befanden, kein von der Vernunft 
+               gebilligter, kein rechtmäßiger Zustand sei.
+            </p>
+         </div>
+         <div n="4" corresp="#phisnr">
+            <p>
+               Wende ich diese Grundsätze auf die Staaten an, so finde ich:
+            </p>
+            <p>
+               1. Daß es auch unter Staaten keinen eigentlichen Stand der Natur gibt. Denn entweder sind zwei Staaten durch ihre 
+               Lage so getrennt, daß sie auch nicht in einer einzigen Konnexion mit einander stehen: alsdann aber sind sie einander 
+               nichts: oder sie sind in irgendeine Verbindung getreten, sie sei so einseitig, so wenig umfassend als man will: 
+               sogleich entstehen Verabredungen, Verträge und Rechte.
+            </p>
+            <p>
+               2. Die Staaten haben also auch ihre Verbindlichkeiten gegeneinander. Der Unterschied zwischen ganzen Nationen als 
+               moralischen Personen und einzelnen Menschen aber ist der, daß diese in der bürgerlichen Gesellschaft, wenn die 
+               Rechte anfangen, streitig zu werden, Richter <pb/> finden, jene aber im gleichen Fall ihre eigne Richter sein müssen. 
+               Und hier tritt denn eigentlich die Anwendbarkeit aller der herrlichen Grundsätze ein, die Sie in Ihrem Buche 
+               aufgestellt haben.
+            </p>
+            <p>
+               3. Dieser Unterschied geht aber bloß den Staat und die Nation selbst an. Ein Regent findet sich, nach meinen 
+               Grundsätzen so wenig in dem Fall, sein Recht selbst durchsetzen zu dürfen, als ein Privatmann. Denn was soll denn 
+               der Regent eigentlich sein ? Der erste Diener des Staats. Seine Pflichten sind also sowohl gegen seine Untertanen, 
+               die doch eigentlich seine Konstituenten sind, als gegen auswärtige Staaten, mit denen er nur im Namen seines Herrn 
+               d. i. des Ganzen traktieren kann, sehr bestimmt und festgesetzt. Der Richter seiner Handlungen ist die Stimme des 
+               Volkes: dieses kann recht oder unrecht handeln: er selbst kann nur treu oder untreu der Ausführer dieser Handlungen 
+               sein. So wenig ein Minister im Namen des Königs eigenmächtig verfahren darf, so wenig darf ein König im Namen des 
+               Staats, den er vorstellt, eigenmächtig Schritte tun, die von wichtigen Folgen sein können.
+            </p>
+            <p>
+               Derjenige Regent aber, der durch die Schwachheit und Unwissenheit derer, die er beherrscht, oder durch seine oder 
+               seiner Vorfahren List oder Anmaßungen dahin gekommen ist, daß er die Nation als sein Eigentum ansieht, und handelt, 
+               als wenn er keine Rechenschaft schuldig wäre, ist ein Usurpator, dessen Rechte ich gar nicht bestimmen kann, weil er 
+               eigentlich gar keine hat, und weil es eine gemeine Rechtsregel ist: daß aus einem unrechtmäßigen Besitzstande keine 
+               Rechte hergeleitet werden können. Er wird sich freilich gegen seine Nebenregenten, die vielleicht so wie er 
+               vergessen haben, was sie eigentlich sind, und sein sollten, als frei und unumschränkt ansehen: er wird sich zeitig 
+               genung einbilden, daß <emph rend="underlined">er</emph> handeln könne, daß <emph rend="underlined">er</emph> 
+               gewinne, und daß <emph rend="underlined">er</emph> verliere: aber nichts desto weniger wird der Ausspruch der 
+               aufgeklärten Rechtsbestimmung immer gegen seine unrechtmäßige Autorität streiten.
+            </p>
+            <p>
+               Ich weiß wohl, daß man selbst in unsern glücklichen Zeiten, wo alles, selbst die geheiligten Anmaßungen der Throne, 
+               sich der strengen Prüfung einer rastlosen Vernunft, die sich nie halb befriedigen läßt, unterwerfen muß, doch noch 
+               nicht so ganz , wenigstens nicht allenthalben mit der Behauptung, daß die Regenten für sich bloß das Recht einer 
+               einzelnen, wenngleich der höchsten Person haben, heraustreten will. Höchst ehrwürdig und schätzbar war es mir daher, 
+               Sie in Ihrer Schrift so klar und so frei über die eigentlichen Pflichten eines Königs reden zu hören. <pb/> Nur 
+               hätten Sie, meiner Meinung nach - und dies ist der einzige Hauptpunkt, worin ich mit 
+               <rs type="person" ref="#Kle">Herrn Klein</rs>, wenn gleich nicht aus <emph rend="underlined">seinen</emph> Gründen, 
+               zusammenstimme - dem Regenten, den gefährlichen Vorzug, auch nur in einem einzigen Falle sein eigner Richter zu 
+               sein, oder nach der unsichern Leitung des Wohlwollens, welches bei ihm sehr mißverstanden sein kann, sich zu 
+               bestimmen, gänzlich absprechen sollen, da hier bloß von Recht die Rede war. Denn die weisen und vortrefflichen 
+               Einschränkungen seiner Macht, die Sie ihm vorgelegt haben, sind, als ein guter Rat, das Brauchbarste, was sich für 
+               einen Fürsten denken läßt, aber als Regel des Rechts nicht verbindend genung, sobald der Regent nicht beständig mit 
+               größter Sorgfalt vom Staat unterschieden wird.
+            </p>
+            <p>
+               4. In dem, was <rs type="person" ref="#Kle">Herr Klein</rs> über das Recht des Stärkern sagt, insofern es von Staat 
+               auf Staat gelten soll, scheint er Ihnen hin und wieder unrecht getan zu haben. So aufmerksam ich auch gelesen habe, 
+               so ist mir doch in Ihrer ganzen Schrift nicht ein Wort aufgestoßen, welches auch nur die Vermutung rechtfertigen 
+               könnte, als hätten Sie wirklich gemeint: ein Staat könne durch seine physische Übermacht über einen andern 
+               berechtigt werden, zum Nachteil des letztern zu handeln. Dies würde ich unter Staaten so widersprechend finden, als 
+               unter einzelnen Personen. Aber daß eine Gesellschaft von 20 Millionen nicht eine größere Summe moralischer 
+               Befugnisse zusammen aufstellen d. h. <emph rend="underlined">mehr Recht</emph> besitzen sollte, als eine 
+               Gesellschaft von tausend, das wird <rs type="person" ref="#Kle">Herr Klein</rs> selbst nicht leugnen können. Und mit 
+               den Einschränkungen, die Sie dem Rechte eines größern Staats in Kollisionsfällen mit dem Vorteil eines beträchtlich 
+               kleinern beigesellt haben, wird aus der Befugnis des erstern (welche überdies in unsern Zeiten fast durchgängig 
+               durch Verträge beschränkt ist, die auch in Ihrem System über alles gelten müssen) so wenig Gefahr entstehen, daß 
+               selbst der französische Übersetzer seiner bescheidnen Bedenklichkeiten über diesen Punkt, die er in einer eignen 
+               Note vorträgt, hätte überhoben sein können.
+            </p>
+         </div>
+         <div n="5" corresp="#kant">
+            <p>
+               Übrigens habe ich im ganzen an <rs type="person" ref="#Kle">Herrn Kleins</rs> Abhandlung auch das noch auszusetzen, 
+               daß er den eigentlichen Fragepunkt größtenteils aus den Augen verliert, und sich mit dem Verhältnis zwischen dem 
+               Staat oder Regenten und dessen Untertanen zu sehr beschäftigt, da doch in Ihrer Abhandlung eigentlich vom Verhältnis 
+               eines Staats zum andern die Rede, und dies auch nur der Gegenstand der Politik im engern Sinn des Worts ist. <pb/>
+            </p>
+            <p>
+               Gewundert habe ich mich indessen nicht wenig, den <rs type="person" ref="#Kle">Herrn Klein</rs> so sehr in den Ideen 
+               des <rs type="person" ref="#Kant">Herrn Kant</rs> in Ansehung der ersten Gründe der Moral zu finden, weil ich mich 
+               erinnerte, daß er in einer Unterredung, die ich vor einigen Jahren mit ihm hatte, der erste gewesen ist, der mich 
+               auf die Schwierigkeiten in <rs type="person" ref="#Kant">Kants</rs> praktischen System geführt, und mir über die 
+               Möglichkeit eines kategorischen Imperativs, und einer Triebfeder ohne Triebfeder, wenn ich mich so ausdrücken darf, 
+               Skrupel beigebracht hat, die noch heute nicht in mir gehoben sind. Wenn <rs type="person" ref="#Kle">Herr Klein</rs> 
+               jetzt wirklich der <rs type="person" ref="#Kant">Kant</rs>schen Philosophie zugetan ist, so ist dies keine der 
+               unbeträchtlichsten Eroberungen, die sie hier gemacht hat.
+            </p>
+         </div>
+         <div n="6" corresp="#kvmp">
+            <p>
+               Ehe ich diesen ungeheuren Brief, vor dessen Länge ich mich recht ernstlich schäme, schließen kann, muß ich Ihnen nur 
+               noch erzählen, daß <rs type="person" ref="#Dec">Herr Decker</rs>, der Verleger der französischen Übersetzung Ihres 
+               Buchs dieselbe dem Könige zugeschickt, und, wie mir der ehrliche Mann recht naiv versicherte, 
+               <emph rend="underlined">sehr empfohlen</emph> hat. Ich war so frei, ihm zu erwidern: 
+               <quote corresp="#Gen">
+                  Empfehlen Sie doch diese Schrift lieber dem Kronprinzen, wenn es tunlich ist. Sie sind Gärtner, und wissen ja, 
+                  was bei dem Pfropfen auf alte Bäume herauskommt.
+               </quote>
+               - Diese Schrift in den Händen und im Herzen eines jungen Königs ! Welche ein erfreulicher Gedanke !
+            </p>
+         </div>
+         <div n="7" corresp="#vcg">
+            <p>
+               Verzeihen Sie mir, teurer Lehrer und Freund, meine Dreistigkeit, meine Irrtümer, und vor allen Dingen - meine 
+               Weitschweifigkeit. Von Ihnen belehrt zu werden, ist mein einziger Wunsch, und bitte Sie um Ihre Leitung. Möchte ich 
+               doch nur, wenn auch meine Bemühungen, die Wahrheit zu finden, nicht immer gelingen, Ihrer Freundschaft beständig 
+               wert bleiben !
+            </p>
+            <p>
+               Wenn Sie wieder einmal die Gefälligkeit haben, an mich zu schreiben, so vergessen Sie doch ja nicht mich vom 
+               Zustande Ihrer Gesundheit zu benachrichtigen und dabei des kleinen Schadens am Auge zu erwähnen, der doch 
+               hoffentlich, im Wege der Besserung bleibt. Meine Eltern danken aufs verbindlichste für Ihr geneigtes Andenken: mich 
+               bitte ich auch <rs type="person" ref="#MGar">Ihrer Frau Mutter</rs> aufs herzlichste zu empfehlen, und mich nie 
+               zu vergessen.
+            </p>
+            <p>
+               Es ist das reinste Gefühl von Hochachtung und Liebe, womit ich mich am Schluß dieses Briefes wie immer nenne
+            </p>
+         </div>
+         <closer>
+            <salute rend="right">Ihren ganz ergebensten</salute>
+            <signed rend="right">Gentz.</signed>
+         </closer>
+      </body>
+   </text>
+</TEI>

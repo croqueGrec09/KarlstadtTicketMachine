@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+
+<html xmlns:th="http://www.thymeleaf.org">
+
+<head>
+
+<title>Sehenswürdigkeiten Karlstadts</title>
+
+<!-- JQuery -->
+<script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+<!-- Bootstrap CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" />
+<!-- Bootstrap JavaScript -->
+<script type="text/javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+<!-- DataTables CSS -->
+<link rel="stylesheet" href="https://cdn.datatables.net/v/bs4/dt-1.10.16/datatables.min.css" />
+<!-- DataTables JavaScript -->
+<script type="text/javascript" src="https://cdn.datatables.net/v/bs4/dt-1.10.16/datatables.min.js"></script>
+<script type="text/javascript" src="/js/gentzList.js"></script>
+<link rel="stylesheet" href="/css/gentzStyle.css" />
+
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+
+</head>
+<body>
+	<nav th:include="gentzNav :: gentzNav">...</nav>
+	<div class="container">
+		<ul class="nav nav-tabs" role="tablist">
+			<li class="nav-item">
+				<a class="nav-link active" id="workTab" data-toggle="tab" href="#worksList" role="tab" aria-controls="worksList" aria-selected="true">Werke in Gentz' Briefen</a>
+			</li>
+			<li class="nav-item">
+				<a class="nav-link" id="personTab" data-toggle="tab" href="#personList" role="tab" aria-controls="personList" aria-selected="false">vorkommende Personen</a>
+			</li>
+			<li class="nav-item">
+				<a class="nav-link" id="placeTab" data-toggle="tab" href="#placeList" role="tab" aria-controls="placeList" aria-selected="false">vorkommende Orte</a>
+			</li>
+		</ul>
+		<div class="tab-content" id="listTableWrapper">
+			<div class="tab-pane fade show active" id="worksList" role="tabpanel" aria-labelledby="workTab">
+				<table id="worksTable" class="table dataTable">
+					<thead>
+						<tr>
+							<th>
+								Autor
+							</th>
+							<th>
+								Herausgeber
+							</th>
+							<th>
+								Übersetzer
+							</th>
+							<th>
+								Titel
+							</th>
+							<th>
+								Verlag
+							</th>
+							<th>
+								Ort
+							</th>
+							<th>
+								Jahr
+							</th>
+							<th>
+								Vorkommnis
+							</th>
+							<th>
+								Leseprobe
+							</th>
+						</tr>
+					</thead>
+					<tbody>
+						<tr th:each="work: ${works}" th:if="${work.value.link != null}">
+						<!-- in case of an analytic work: the monograph has to be written in small under the actual text -->
+							<td th:if="${!work.value.authorAnaly.empty}">
+								<span th:text="${work.value.printEntityList('authorAnaly')}">Autoren eines unselbstständigen Werkes</span>
+								<p th:if="${!work.value.authors.empty}" th:text="${work.value.printEntityList('authors')}" class="analytic">Autoren des dazugehörigen selbstständigen Werkes</p>
+							</td>
+							<td th:if="${!work.value.authors.empty and work.value.authorAnaly.empty}" th:text="${work.value.printEntityList('authors')}">
+								Autoren einer Monografie
+							</td>
+							<td th:if="${work.value.authors.empty and work.value.authorAnaly.empty}">
+								
+							</td>
+							<td th:if="${!work.value.editorAnaly.empty}">
+								<span th:text="${work.value.printEntityList('editorAnaly')}">Herausgeber eines unselbstständigen Werkes</span>
+								<p th:if="${!work.value.editors.empty}" th:text="${work.value.printEntityList('editors')}" class="analytic">Herausgeber des dazugehörigen selbstständigen Werkes</p>
+							</td>
+							<td th:if="${!work.value.editors.empty and work.value.editorAnaly.empty}" th:text="${work.value.printEntityList('editors')}">
+								Herausgeber
+							</td>
+							<td th:if="${work.value.editors.empty and work.value.editorAnaly.empty}">
+								
+							</td>
+							<td th:if="${!work.value.translatorAnaly.empty}">
+								<span th:text="${work.value.printEntityList('translatorAnaly')}">Übersetzer eines unselbstständigen Werkes</span>
+								<p th:if="${!work.value.translators.empty}" th:text="${work.value.printEntityList('translators')}" class="analytic">Übersetzer des dazugehörigen selbstständigen Werkes</p>
+							</td>
+							<td th:if="${!work.value.translators.empty and work.value.translatorAnaly.empty}" th:text="${work.value.printEntityList('translators')}">
+								Übersetzer
+							</td>
+							<td th:if="${work.value.translators.empty and work.value.translatorAnaly.empty}">
+								
+							</td>
+							<td th:if="${work.value.titleAnaly != null}">
+								<span th:text="${work.value.titleAnaly}">Titel eines unselbstständigen Werkes</span>
+								<p th:text="${work.value.workTitle}" class="analytic">Titel der dazugehörigen Monografie</p>
+							</td>
+							<td th:if="${work.value.titleAnaly == null}" th:text="${work.value.workTitle}">
+								Titel
+							</td>
+							<td th:text="${work.value.publisher}">
+								Verlag
+							</td>
+							<td th:text="${work.value.pubPlace}">
+								Ort
+							</td>
+							<td th:text="${work.value.date}">
+								Jahr
+							</td>
+							<td>
+								<a class="letterLink" th:each="letter: ${workIndex.get(work.key)}" th:href="@{/KtM/letter/{id}/(id=${letter})}" th:text="${corpus.get(letter).getTitle()}">Vorkommnis</a><br/>
+							</td>
+							<td>
+								<a th:href="${work.value.link}">Leseprobe</a>
+							</td>
+						</tr>
+					</tbody>
+				</table>
+			</div>
+			<!-- divs for person and place -->
+			<div class="tab-pane fade" id="personList" role="tabpanel" aria-labelledby="personTab">
+				<table id="personTable" class="table dataTable">
+					<thead>
+						<tr>
+							<th>
+								Vorname
+							</th>
+							<th>
+								Nachname
+							</th>
+							<th>
+								Rollen-/Amts-/Familienbezeichnung oder Adelstitel
+							</th>
+							<th>
+								GND-Link
+							</th>
+							<th>
+								Vorkommnis
+							</th>
+						</tr>
+					</thead>
+					<tbody>
+						<tr th:each="person: ${persons}">
+							<td th:text="${person.value.forename}">
+								Vorname
+							</td>
+							<td th:text="${person.value.surname}">
+								Nachname
+							</td>
+							<td th:if="${person.value.roleName != null}" th:text="${person.value.roleName}">
+								Rollen-/Amts-/Familienbezeichnung oder Adelstitel
+							</td>
+							<td th:if="${person.value.roleName == null}">
+							
+							</td>
+							<td th:if="${person.value.gndKey != null}">
+								<a th:href="${person.value.gndKey}" th:text="GND-Link"></a>
+							</td>
+							<td th:if="${person.value.gndKey == null}">
+								
+							</td>
+							<td>
+								<a class="letterLink" th:each="letter: ${personIndex.get(person.key)}" th:href="@{/KtM/letter/{id}/(id=${letter})}" th:text="${corpus.get(letter).getTitle()}">Vorkommnis</a><br/>
+							</td>
+						</tr>
+					</tbody>
+				</table>
+			</div>
+			<div class="tab-pane fade" id="placeList" role="tabpanel" aria-labelledby="placeTab">
+				<table id="placeTable" class="table dataTable">
+					<thead>
+						<tr>
+							<th>
+								Ortsname
+							</th>
+							<th>
+								Ortstyp
+							</th>
+							<th>
+								Landeszugehörigkeit (zum Zeitpunkt der spätesten Nennung)
+							</th>
+							<th>
+								GND-Link Ort
+							</th>
+							<th>
+								GND-Link Land
+							</th>
+							<th>
+								Vorkommnis
+							</th>
+						</tr>
+					</thead>
+					<tbody>
+						<tr th:each="place: ${places}">
+							<td th:text="${place.value.placeName}">
+								Ortsname
+							</td>
+							<td th:text="${place.value.printPlaceType('ger')}">
+								Ortstyp
+							</td>
+							<td th:if="${place.value.country != null}" th:text="${place.value.country.placeName}">
+								Landeszugehörigkeit (zum Zeitpunkt der spätesten Nennung)
+							</td>
+							<td th:if="${place.value.country == null}">
+							
+							</td>
+							<td th:if="${place.value.gndKey != null}">
+								<a th:href="${place.value.gndKey}" th:text="${'GND-Link Ort'}"></a>
+							</td>
+							<td th:if="${place.value.gndKey == null}">
+								
+							</td>
+							<td th:if="${place.value.country != null}">
+								<a th:href="${place.value.country.gndKey}" th:text="${'GND-Link Land'}"></a>
+							</td>
+							<td th:if="${place.value.country == null}">
+							
+							</td>
+							<td>
+								<a class="letterLink" th:each="letter: ${placeIndex.get(place.key)}" th:href="@{/KtM/letter/{id}/(id=${letter})}" th:text="${corpus.get(letter).getTitle()}">Vorkommnis</a><br/>
+							</td>
+						</tr>
+					</tbody>
+				</table>
+			</div>
+		</div>
+	</div>
+</body>
+</html>

@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc xml:id="LETTER_GENTZ_2389">
+         <titleStmt>
+            <title>Friedrich von Gentz an Christian Friedrich Moeck, 11. Januar 1801 [bis 25. Juni 1803]</title>
+            <editor xml:id="edAG">Andreas Gálffy</editor>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <name>Forschungsstelle "Universitätssammlung Friedrich von Gentz"</name>
+               <link target="http://gentz-digital.ub.uni-koeln.de http://www.ub.uni-koeln.de/cdm/singleitem/collection/gentz/id/2388/"/>
+            </publisher>
+            <pubPlace>Cologne</pubPlace>
+            <idno type="Gentz-Edition-Number" n="2389"/>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <country>Germany</country>
+                  <settlement>Berlin</settlement>
+                  <institution>Geheimes Staatsarchiv Preußischer Kulturbesitz</institution>
+                  <repository>I. HA Rep 11: Ministerium der Auswärtigen Angelegenheiten</repository>
+                  <collection>Nr. 279, Fasz. 464</collection>
+                  <idno>Bl. 3-4</idno>
+               </msIdentifier>
+               <msContents>
+                  <summary>
+                     Ein Schuldschein über 44 Reichstaler zehn Groschen, fällig am 8. März 1801. Diese Forderung wird am 3. 
+                     September 1801 an Rendant Brüder abgetreten, der es seinerseits wieder am 20. Januar 1802 zurücktritt. Am 
+                     6. April 1802 wird der Schuldschein an Geheimsekretär Rumpelt abgetreten. Zehn Reichstaler werden davon am 
+                     24. April 1802 bezahlt, weitere zehn Reichstaler folgen am 30. April 1802. Der Schuldschein wird am 
+                     25. Juni 1803 an Moeck zurückgetreten.
+                  </summary>
+               </msContents>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Masterarbeit zu Matrikelnummer 5584124</p>
+         </projectDesc>
+      </encodingDesc>
+      <profileDesc>
+         <creation>
+            <date when-iso="1801-01-11">11. Januar 1801</date>
+         </creation>
+        <langUsage>
+           <language ident="d">deutsch</language>
+        </langUsage>
+         <textClass>
+            <keywords scheme="internal"><!-- internal: innerhalb des besagten Briefs -->
+               <term>Schuldschein</term>
+               <term>Moeck</term>
+               <term>Rendant Brüder</term>
+            </keywords>
+            <keywords scheme="categorisation"><!-- Sinnabschnittseinteilung - relevant für den Fahrkartenautomaten! -->
+               <term xml:id="gprl">Gentz - p(r)ekuniäre Lage</term>
+            </keywords>
+         </textClass>
+         <textDesc>
+            <channel>manuscript</channel>
+            <constitution type="single"/>
+            <derivation type="original"/>
+            <domain type="private"/>
+            <factuality type="fact"/>
+            <interaction type="partial"/>
+            <preparedness type="unprepared"/>
+            <purpose type="inform"/>
+         </textDesc>
+         <particDesc>
+            <listPerson>
+               <!-- Sender und Adressat -->
+               <person role="sender" xml:id="Gen">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/118538489"/>
+                     <forename>Friedrich von</forename>
+                     <surname>Gentz</surname>
+                  </persName>
+               </person>
+               <person role="receiver" xml:id="CFMck">
+                  <persName>
+                     <ref/>
+                     <forename>Christian Friedrich</forename>
+                     <surname>Moeck</surname>
+                  </persName>
+               </person>
+               <!-- erwähnte Personen -->
+               <person role="named" xml:id="JhB">
+                  <persName>
+                     <ref/>
+                     <forename>Johann</forename>
+                     <surname>Bauer</surname>
+                  </persName>
+               </person>
+               <person role="named" xml:id="RdB">
+                  <persName>
+                     <ref/>
+                     <forename>Rendant</forename>
+                     <surname>Brüder</surname>
+                  </persName>
+               </person>
+               <person role="named" xml:id="GehSRum">
+                  <persName>
+                     <ref/>
+                     <forename>Heinrich Moritz</forename>
+                     <surname>Rumpelt</surname>
+                     <roleName type="office">Geheimsekretär</roleName>
+                  </persName>
+               </person>
+            </listPerson>
+         </particDesc>
+         <settingDesc>
+            <listPlace>
+               <!-- Start- und Zielort -->
+               <place type="sender" xml:id="plBe">
+                  <country>
+                     <ref target="http://d-nb.info/gnd/4047194-9"/>
+                     <placeName>Preußen</placeName>
+                  </country>
+                  <settlement>
+                     <ref target="http://d-nb.info/gnd/4005728-8"/>
+                     <placeName>Berlin</placeName>
+                  </settlement>
+               </place>
+               <!-- erwähnte Orte -->
+            </listPlace>
+         </settingDesc>
+      </profileDesc>
+      <revisionDesc>
+         <change xml:id="init" when-iso="2018-03-07" who="#edAG">Erstauszeichnung und Normierung des Dokumentes im Rahmen der Masterarbeit der Matrikelnummer 5584124</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>     
+      <body>
+         <div n="1" corresp="#gprl">
+            <p>
+               Daß ich dem <rs type="person" ref="#CFMck">Herrn Destillateur Moeck</rs> für Rechnung des 
+               <rs type="person" ref="#JhB">Herrn Bauer</rs>, die Summe von 44 Reichsthaler 10 Groschen a dato binnen Acht Wochen zu 
+               bezahlen, verspreche und bescheinige ich hiemit
+            </p>
+            <dateline rend="left"><rs type="place" ref="#plBe">Berlin</rs> den <date when-iso="1801-01-11">11<span rend="sup">ten</span> Januar 1801</date></dateline>
+            <signed rend="right">Friedrich Gentz</signed>
+            <pb/>
+         </div>
+         <div n="2" corresp="#gprl">
+            <p>
+               Vorstehende Forderung cedire ich an den <rs type="person" ref="#RdB">Herrn Rendant Brüder</rs> 
+               den <date when-iso="1801-09-03">3. September 1801</date>
+            </p>
+            <signed rend="right">Christian Friedrich Moeck</signed>
+         </div>
+         <div n="3" corresp="#gprl">
+            <p>
+               Umstehender mir cedirten Schuldschein cedire ich hier mit wiederum an 
+               <rs type="person" ref="#CFMck">Herrn Christian Friedrich Moeck</rs> zurük.
+            </p>
+            <dateline rend="left"><rs type="place" ref="#plBe">Berlin</rs> <date when-iso="1802-01-20">20 Januar 1802</date></dateline>
+            <signed rend="right">H. Brüder</signed>
+            <signed rend="right">Rendant.</signed>
+         </div>
+         <div n="4" corresp="#gprl">
+            <p>
+               Umstehenden Schuldschein cedire ich Endes eigenhändig Unterschriebener hiermit an den 
+               <rs type="person" ref="#GehSRum">Herrn Sekretaire Rumpelt</rs>, und bekenne von demselben die darin bemerkte Valuta 
+               baar und richtig erhalten zu haben.
+            </p>
+            <dateline rend="left"><rs type="place" ref="#plBe">Berlin</rs> den <date when-iso="1802-04-06">6: April 1802</date></dateline>
+            <signed rend="right">Christian Friedrich Moeck</signed>
+            <pb/>
+         </div>
+         <div n="5" corresp="#gprl">
+            <p>
+               Zehen Thaler, sage 10 Reichsthaler sind mir dato von dem Herrn Kriegesrath Gentz Wohlgeboren auf die in umstehenden 
+               Schuldschein verschriebenen 44 Reichsthaler 10 Groschen baar und richtig ausgezahlet worden, über deren Empfang 
+               hiermit quittiret wird.
+            </p>
+            <dateline rend="left"><rs type="place" ref="#plBe">Berlin</rs> den <date when-iso="1802-04-24">24. April 1802</date>.</dateline>
+            <signed rend="right"><unclear>Name unleserlich</unclear></signed>
+         </div>
+         <div n="6" corresp="#gprl">
+            <p>
+               Hierauf sind dato <del rend="stroked">auch</del> 10 Reichsthaler bezahlt, der Ueberrest von 35 Reichsthaler aber ist 
+               mit gemeinschaftlicher Baar-Anzeige auf 3 Monat prolongirt worden.
+            </p>
+            <dateline rend="left"><rs type="place" ref="#plBe">Berlin</rs> den <date when-iso="1802-04-30">30 April 1802</date></dateline>
+            <signed rend="right">Friedrich Gentz</signed>
+         </div>
+         <div n="7" corresp="#gprl">
+            <p>
+               Den mir unterm <date when-iso="1802-04-06">6. April 1802</date> cedirten umstehend befindlichen Schuldschein vom 
+               <date when-iso="1801-01-11">11. Januar 1801.</date> cedire ich hiermit an den 
+               <rs type="person" ref="#CFMck">Herrn Christian Friedrich Moeck</rs> wiederum zurück und bekenne von demselben die 
+               Valuta baar und richtig erhalten zu haben.
+            </p>
+            <dateline rend="left"><rs type="place" ref="#plBe">Berlin</rs> den <date when-iso="1803-06-25">25. Juny 1803</date></dateline>
+            <signed rend="right">Heinrich Moriz Jumpelt</signed>
+         </div>
+      </body>
+   </text>
+</TEI>

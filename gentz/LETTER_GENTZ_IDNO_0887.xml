@@ -1,0 +1,249 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc xml:id="LETTER_GENTZ_0887">
+         <titleStmt>
+            <title>Friedrich von Gentz an Otto von Voß, 25. Mai 1802</title>
+            <editor xml:id="edAG">Andreas Gálffy</editor>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <name>Forschungsstelle "Universitätssammlung Friedrich von Gentz"</name>
+               <link target="http://gentz-digital.ub.uni-koeln.de http://www.ub.uni-koeln.de/cdm/singleitem/collection/gentz/id/886/"/>
+            </publisher>
+            <pubPlace>Cologne</pubPlace>
+            <idno type="Gentz-Edition-Number" n="0887"/>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <country>Germany</country>
+                  <settlement>Berlin</settlement>
+                  <institution>Geheimes Staatsarchiv Preußsischer Kulturbesitz</institution>
+                  <repository>II. HA, Generaldirektorium, Südpreußen</repository>
+                  <collection>Abt. I, Lit E, Nr. 370</collection>
+                  <idno>Bl. 131-132</idno>
+               </msIdentifier>
+               <msContents>
+                  <summary>
+                     Der Antrag wurde abgelehnt, mit der Begründung, Gentz habe keinen Dienst für das Südpreußische Department 
+                     erwiesen. Gentz dachte, dass, nachdem er seine Arbeiten erledigt hatte, er eine neue Aufforderung erhalten 
+                     würde. Er bittet für diesen Irrtum um Nachsicht. Dennoch erneuert er sein Gesuch nach einem dreimonatigen 
+                     Urlaub, der auch dem Dienst zugute kommen soll.
+                  </summary>
+               </msContents>
+            </msDesc>
+            <listBibl type="preprints">
+               <biblStruct>
+                  <analytic>
+                     <author>
+                        <persName>
+                           <ref />
+                           <forename>Paul</forename>
+                           <surname>Bailleu</surname>
+                        </persName>
+                     </author>
+                     <title>Die Verabschiedung des Kriegsrats Gentz 1802</title>
+                  </analytic>
+                  <monogr>
+                     <title>Forschungen zur brandenburgischen und preußischen Geschichte. Festschrift zu Gustav Schmollers 70. Geburtstag.</title>
+                     <imprint>
+                        <pubPlace>Leipzig</pubPlace>
+                        <date>1908</date>
+                     </imprint>
+                     <biblScope unit="page" from="241" to="242">
+                        241-242
+                     </biblScope>
+                  </monogr>
+               </biblStruct>
+            </listBibl>
+            <listBibl type="letterReferenced">
+               <bibl xml:id="c0887-1" corresp="#LETTER_GENTZ_4487">Friedrich von Gentz an Otto von Voß, 28. April 1802</bibl>
+               <bibl xml:id="c0887-2" corresp="#LETTER_GENTZ_NNNN">Otto von Voß an Friedrich von Gentz, 4. Mai 1802</bibl>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Masterarbeit zu Matrikelnummer 5584124</p>
+         </projectDesc>
+      </encodingDesc>
+      <profileDesc>
+         <creation>
+            <date when-iso="1802-05-25">25. Mai 1802</date>
+         </creation>
+        <langUsage>
+           <language ident="d">deutsch</language>
+        </langUsage>
+         <textClass>
+            <keywords scheme="internal"><!-- internal: innerhalb des besagten Briefs -->
+               <term>Brief</term>
+               <term>Bittschreiben</term>
+               <term>Arbeiten</term>
+            </keywords>
+            <keywords scheme="categorisation"><!-- Sinnabschnittseinteilung - relevant für den Fahrkartenautomaten! -->
+               <term xml:id="bezbt">Beziehungen zu Berlin - Beamtentätigkeit</term>
+               <term xml:id="rs">Reise von 1802</term>
+            </keywords>
+         </textClass>
+         <textDesc>
+            <channel>manuscript</channel>
+            <constitution type="single"/>
+            <derivation type="original"/>
+            <domain type="private"/>
+            <factuality type="fact"/>
+            <interaction type="partial"/>
+            <preparedness type="prepared"/>
+            <purpose type="inform"/>
+         </textDesc>
+         <particDesc>
+            <listPerson>
+               <!-- Sender und Adressat -->
+               <person role="sender" xml:id="Gen">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/118538489"/>
+                     <forename>Friedrich von</forename>
+                     <surname>Gentz</surname>
+                  </persName>
+               </person>
+               <person role="receiver" xml:id="OvV">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/103098291"/>
+                     <forename>Otto</forename>
+                     <surname>von Voß</surname>
+                  </persName>
+               </person>
+               <!-- erwähnte Personen -->
+               <person role="named" xml:id="KFWIII">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/118535986"/>
+                     <forename>Friedrich Wilhelm III.</forename>
+                     <surname>von Preußen</surname>
+                     <roleName type="office">König</roleName>
+                  </persName>
+               </person>
+            </listPerson>
+         </particDesc>
+         <settingDesc>
+            <listPlace>
+               <!-- Start- und Zielort -->
+               <place type="sender" xml:id="plBe">
+                  <country>
+                     <ref target="http://d-nb.info/gnd/4047194-9"/>
+                     <placeName>Preußen</placeName>
+                  </country>
+                  <settlement>
+                     <ref target="http://d-nb.info/gnd/4005728-8"/>
+                     <placeName>Berlin</placeName>
+                  </settlement>
+               </place>
+               <!-- erwähnte Orte -->
+               <place type="named" xml:id="plWe">
+                  <country>
+                     <ref target="http://d-nb.info/gnd/4051194-7"/>
+                     <placeName>Sachsen-Weimar-Eisenach</placeName>
+                  </country>
+                  <settlement>
+                     <ref target="http://d-nb.info/gnd/4065105-8"/>
+                     <placeName>Weimar</placeName>
+                  </settlement>
+               </place>
+               <place type="named" xml:id="plDd">
+                  <country>
+                     <ref target="http://d-nb.info/gnd/4051176-5"/>
+                     <placeName>Sachsen</placeName>
+                  </country>
+                  <settlement>
+                     <ref target="http://d-nb.info/gnd/4012995-0"/>
+                     <placeName>Dresden</placeName>
+                  </settlement>
+               </place>
+               <place type="named" xml:id="plKb">
+                  <country>
+                     <ref target="http://d-nb.info/gnd/4007467-5"/>
+                     <placeName>Böhmen</placeName>
+                  </country>
+                  <settlement>
+                     <ref target="http://d-nb.info/gnd/4029705-6"/>
+                     <placeName>Karlsbad</placeName>
+                  </settlement>
+               </place>
+            </listPlace>
+         </settingDesc>
+      </profileDesc>
+      <revisionDesc>
+         <change xml:id="init" when-iso="2018-03-11" who="#edAG">Erstauszeichnung und Normierung des Dokumentes im Rahmen der Masterarbeit der Matrikelnummer 5584124</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <opener>
+            <salute rend="left">Hochwürdiger HochWohlgebohrner Freyherr !</salute>
+            <salute rend="left">Hochgebietender Herr Geheimer Staats-Minister !</salute>
+         </opener>
+         <div n="1" corresp="#bezbt">
+            <p>
+               Ewr Hochfreyherrliche Excellentz haben in der auf 
+               <rs type="citation" ref="#c0887-1">mein untertänigstes Schreiben</rs> wegen eines dreimonatlichen Urlaubes, unterm 
+               <date when-iso="1802-05-04">4<span rend="sup">ten</span> d. M.</date> mir ertheilten 
+               <rs type="citation" ref="#c0887-2">Antwort</rs>, den Umstand, daß ich in der letzten Zeit dem Südpreußischen 
+               Departement keinen Nutzen gestiftet hätte, als ein Hinderniß der Erfüllung meiner Bitte, anzuführen geruht. Erlauben 
+               EwrExcellentz, daß ich mich hierüber mit wenig Worten erkläre.
+            </p>
+            <p>
+               Als die von <rs type="person" ref="#KFWIII">des Königs Majestät</rs> zum Behuf eines außerordentlichen, ganz 
+               außerhalb der Sphäre der Dienst-Arbeiten liegenden Geschäftes, mir bewilligte Dispensation von den currenten Arbeiten 
+               ein Ende nahm, setzte ich stillschweigend voraus, daß das Departement, sobald es für nötig halten mögte, mich wieder 
+               ganz in meine vorigen Verhältnisse zurücktreten zu sehen, mir dieserhalb eine Aufforderung zukommen laßen würde. Im 
+               Ganzen glaube ich, daß diese Voraussetzung, wenn sie auch wirklich auf einem Irrthum beruhte, doch zu meiner 
+               Entschuldigung beitragen kan. Da aber EwrExcellentz meine fortdauernde Entfernung von den Dienstgeschäften dadurch 
+               nicht für gerechtfertigt halten, so ist es meine Pflicht, mich der Ansicht, von welcher Hochdieselben bei Beurteilung 
+               meines jetzigen Verhältnisses ausgehen, ehrfurchtsvoll zu submittiren; und es bleibt mir nichts <pb/> übrig, als von 
+               EwrExcellentz Huld und Gnade, wegen des Irrthums, der mir Hochdero Unzufriedenheit zugezogen zu haben scheint, 
+               Verzeihung und Nachsicht zu erwarten. Indem ich mir diese von EwrExcellentz untertänigst erbitte, versichre ich 
+               zugleich, daß mein künftiges Betragen im Dienst einzig und ausschließend darauf gerichtet seyn soll, mir den Beifall 
+               des Departements, und Ewr Excellentz Zufriedenheit und Gnade zu erwerben, und zu allen Zeiten ungestört zu erhalten.
+            </p>
+         </div>
+         <div n="2" corresp="#rs">
+            <p>
+               Dagegen unterstehe ich mich aufs neue, meine alleruntertänigste Bitte um Urlaub, angelegentlich zu wiederholen. Ich 
+               kan EwrExcellentz heilig versichern, daß außer den in <rs type="citation" ref="#c0887-1">meinem ersten Schreiben</rs> 
+               erwähnten, auf litterärische Verhältnisse Bezug habende Motiven, und andern sehr erheblichen, aber freilich für den 
+               Königlichen Dienst gleichgültigen Gründen, auch der Wunsch, zur Befestigung meiner Gesundheit wirksame Maßregeln zu 
+               ergreifen, einen sehr wesentlichen Antheil an jener Bitte hat.
+            </p>
+            <p>
+               Mit Bezug auf obige Erklärung, und in der frohen Hoffnung, daß diese mir für die Zukunft EwExcellentz unschätzbares 
+               Wohlwollen wieder zuwenden werde, bitte ich also abermals
+            </p>
+            <lg>
+               <l>ob EwrExcellentz nicht in Gnaden geruhen wollen, mir bei des</l>
+               <l><rs type="person" ref="#KFWIII">Königs Majestät</rs> einen dreimonatlichen Urlaub, zu einer Reise nach</l>
+               <l><rs type="place" ref="#plWe">Weimar</rs>,</l>
+            </lg>
+            <pb/>
+            <lg>
+               <l>und von da nach <rs type="place" ref="#plDd">Dresden</rs> und <rs type="place" ref="#plKb">Karlsbad</rs>, theils zur Wieder-</l>
+               <l>herstellung und Befestigung meiner Gesundheit, und theils zur Be-</l>
+               <l>richtigung verschiedner mit meinen ehmaligen litterärischen Geschäf-</l>
+               <l>ten verknüpften, für mich sehr wichtigen Verhältnisse, huldreichst aus-</l>
+               <l>zuwirken.</l>
+            </lg>
+            <p>
+               Ich überlaße mich ganz der erfreulichen Erwartung, diesmal keine Fehlbitte gethan zu haben, und verharre in tiefster 
+               Ehrfurcht,
+            </p>
+         </div>
+         <closer>
+            <salute rend="right">Ewr. Hochfreyherrlicher Excellentz</salute>
+            <salute rend="right">untertänigster treu-gehorsamster</salute>
+            <dateline rend="left"><rs type="place" ref="#plBe">Berlin</rs> den <date when-iso="1802-05-25">25<span rend="sup">ten</span> Mai 1802</date>.</dateline>
+            <signed rend="right">Gentz.</signed>
+         </closer>
+      </body>
+   </text>
+</TEI>

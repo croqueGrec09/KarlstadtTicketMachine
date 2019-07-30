@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc xml:id="LETTER_GENTZ_4129">
+         <titleStmt>
+            <title>Friedrich von Gentz an Girolamo Lucchesini, 11. August 1800</title>
+            <editor xml:id="edAG">Andreas Gálffy</editor>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <name>Forschungsstelle "Universitätssammlung Friedrich von Gentz"</name>
+               <link target="http://gentz-digital.ub.uni-koeln.de http://www.ub.uni-koeln.de/cdm/singleitem/collection/gentz/id/4129/"/>
+            </publisher>
+            <pubPlace>Cologne</pubPlace>
+            <idno type="Gentz-Edition-Number" n="4129"/>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <country>Germany</country>
+                  <settlement>Berlin</settlement>
+                  <institution>Geheimes Staatsarchiv Preußischer Kulturbesitz</institution>
+                  <repository>I. HA, Rep 92</repository>
+                  <collection>Nachlaß Lucchesini, Nr. 27</collection>
+                  <idno>Bl. 31</idno>
+               </msIdentifier>
+               <msContents>
+                  <summary>
+                     Gentz wollte einen Bericht über die generelle Lage der Dinge abfassen, verschiebt diese Arbeit aber auf den 
+                     kommenden Donnerstag. In einigen Worten schildert er den Verlauf von Verhandlungen.
+                  </summary>
+               </msContents>
+            </msDesc>
+            <listBibl type="alludedWorks">
+               <bibl xml:id="a4129-1" corresp="#LETTER_GENTZ_NNNN">nicht näher benannte Ausgabe einer Hamburger Zeitung</bibl>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Masterarbeit zu Matrikelnummer 5584124</p>
+         </projectDesc>
+      </encodingDesc>
+      <profileDesc>
+         <creation>
+            <date when-iso="1800-08-11">11. August 1800</date>
+         </creation>
+        <langUsage>
+           <language ident="f">französisch</language>
+        </langUsage>
+         <textClass>
+            <keywords scheme="internal"><!-- internal: innerhalb des besagten Briefs -->
+               <term>Brief</term>
+               <term>Lagebericht</term>
+               <term>Invasion</term>
+               <term>Napoleon</term>
+               <term>Verhandlungen</term>
+            </keywords>
+            <keywords scheme="categorisation"><!-- Sinnabschnittseinteilung - relevant für den Fahrkartenautomaten! -->
+               <term xml:id="bezbt">Beziehungen zu Berlin - Beamtentätigkeit</term>
+               <term xml:id="napinv">Napoleonische Invasion</term>
+            </keywords>
+         </textClass>
+         <textDesc>
+            <channel>manuscript</channel>
+            <constitution type="single"/>
+            <derivation type="original"/>
+            <domain type="private"/>
+            <factuality type="fact"/>
+            <interaction type="partial"/>
+            <preparedness type="prepared"/>
+            <purpose type="inform"/>
+         </textDesc>
+         <particDesc>
+            <listPerson>
+               <!-- Sender und Adressat -->
+               <person role="sender" xml:id="Gen">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/118538489"/>
+                     <forename>Friedrich von</forename>
+                     <surname>Gentz</surname>
+                  </persName>
+               </person>
+               <person role="receiver" xml:id="GirL">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/118780670"/>
+                     <forename>Girolamo</forename>
+                     <surname>Lucchesini</surname>
+                  </persName>
+               </person>
+               <!-- erwähnte Personen -->
+               <person role="named" xml:id="FXvSJ">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/1139659405" />
+                     <forename>Franz Xaver von</forename>
+                     <surname>Saint-Julien</surname>
+                  </persName>
+               </person>
+               <person role="named" xml:id="GCMD">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/116256729"/>
+                     <forename>Gerard Christophe Michel</forename>
+                     <surname>Duroc</surname>
+                  </persName>
+               </person>
+            </listPerson>
+         </particDesc>
+         <settingDesc>
+            <listPlace>
+               <!-- Start- und Zielort -->
+               <place type="sender" xml:id="plBe">
+                  <country>
+                     <ref target="http://d-nb.info/gnd/4047194-9"/>
+                     <placeName>Preußen</placeName>
+                  </country>
+                  <settlement>
+                     <ref target="http://d-nb.info/gnd/4005728-8"/>
+                     <placeName>Berlin</placeName>
+                  </settlement>
+               </place>
+               <place type="receiver" xml:id="plMs">
+                  <country>
+                     <ref target="http://d-nb.info/gnd/4047194-9"/>
+                     <placeName>Preußen</placeName>
+                  </country>
+                  <region>
+                     <ref target="http://d-nb.info/gnd/4399096-4"/>
+                     <placeName>Kreis Meseritz</placeName>
+                  </region>
+               </place>
+               <!-- erwähnte Orte -->
+               <place type="named" xml:id="plDh">
+                  <country>
+                     <ref target="http://d-nb.info/gnd/5245326-1"/>
+                     <placeName>Holland</placeName>
+                  </country>
+                  <settlement>
+                     <ref target="http://d-nb.info/gnd/4011446-6"/>
+                     <placeName>Den Haag</placeName>
+                  </settlement>
+               </place>
+            </listPlace>
+         </settingDesc>
+      </profileDesc>
+      <revisionDesc>
+         <change xml:id="init" when-iso="2018-03-06" who="#edAG">Erstauszeichnung und Normierung des Dokumentes im Rahmen der Masterarbeit der Matrikelnummer 5584124</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <opener>
+            <salute rend="left">Monsieur le Marquis !</salute>
+         </opener>
+         <div n="1" corresp="#bezbt">
+            <p>
+               Je m'étois proposé <del rend="stroked">en env</del> de soumettre à Votre Excellence en lui envoyant les papiers 
+               d'aujourd'hui quelques observations sur l'état général des affaires. Mais une occupation inattendue qui me retient 
+               depuis avant-hier, m'en empeche absolument, et je dois remettre à <date when-iso="1800-08-14">Jeudi</date> ce travail 
+               agréable.
+            </p>
+         </div>
+         <div n="2" corresp="#napinv">
+            <p>
+               Je me borne à confirmer à Votre Excellence ce qu'Elle aura apperçue et jugé sans moi, que, malgré le ton positif qui 
+               regne dans l'article de <rs type="place" ref="#plDh">la Haye</rs> de la 
+               <rs type="citation" ref="#a4129-1">Gazette de Hamburg</rs>, la signature des préliminaires n'a point eu lieu. 
+               <date when-iso="1800-08-08">Vendredi 8 de ce mois</date> notre Ministère n'en avoit pas encore la moindre nouvelle; 
+               et elle auroit du se faire, <del rend="stroked">pour</del> <date when-iso="1800-07-30">le plus tard le 30</date>, 
+               pour que la nouvelle en arrivât <date when-iso="1800-08-01">le 1</date> à <rs type="place" ref="#plDh">la Haye</rs>. 
+               Cependant le départ de <rs type="person" ref="#FXvSJ">Monsieur de St. Julien</rs> avec 
+               <rs type="person" ref="#GCMD"><emph rend="underlined">Duroc</emph></rs> paroit être un signe avant-coureur peu 
+               équivoque de quelque grand événement. Les Anglois mêmes y sont préparés, et résignés.
+            </p>
+            <p>
+               Avec la permission de Votre Excellence je reviendrai sur cet objet dans ma prochaine lettre; je ne fais que réitérer 
+               aujourd'hui l'hommage du profond respect avec lequel je suis
+            </p>
+         </div>
+         <closer>
+            <salute rend="right">De Votre Excellence</salute>
+            <salute rend="right">le très-humble et très-</salute>
+            <salute rend="right">fidèle serviteur</salute>
+            <dateline rend="left"><rs type="place" ref="#plBe">Berlin</rs> <date when-iso="1800-08-11">11 Aout 1800</date></dateline>
+            <signed rend="right">Gentz</signed>
+         </closer>
+      </body>
+   </text>
+</TEI>

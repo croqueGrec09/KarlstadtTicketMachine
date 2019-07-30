@@ -1,0 +1,217 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc xml:id="LETTER_GENTZ_4445">
+         <titleStmt>
+            <title>Friedrich von Gentz an John Joshua Proby, 3. Dezember 1800</title>
+            <editor xml:id="edAG">Andreas Gálffy</editor>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <name>Forschungsstelle "Universitätssammlung Friedrich von Gentz"</name>
+               <link target="http://gentz-digital.ub.uni-koeln.de http://www.ub.uni-koeln.de/cdm/singleitem/collection/gentz/id/4444/"/>
+            </publisher>
+            <pubPlace>Cologne</pubPlace>
+            <idno type="Gentz-Edition-Number" n="4445"/>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <country>United Kingdom</country>
+                  <settlement>London</settlement>
+                  <institution>British Library</institution>
+                  <repository>Manuscript Department</repository>
+                  <collection>Dropmore Papers, Add. 58891</collection>
+                  <idno>Bl. 192, 193</idno>
+               </msIdentifier>
+               <msContents>
+                  <summary>
+                     Dies ist ein Begleitschreiben mit Inhaltsverzeichnis eines Pro Memoria.
+                  </summary>
+               </msContents>
+            </msDesc>
+            <listBibl type="letterReferenced">
+               <bibl xml:id="c4445-1" corresp="#LETTER_GENTZ_0607">Friedrich von Gentz an John Joshua Proby, 3. November 1800</bibl>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Masterarbeit zu Matrikelnummer 5584124</p>
+         </projectDesc>
+      </encodingDesc>
+      <profileDesc>
+         <creation>
+            <date when-iso="1800-12-03">3. Dezember 1800</date>
+         </creation>
+        <langUsage>
+           <language ident="f">französisch</language>
+        </langUsage>
+         <textClass>
+            <keywords scheme="internal"><!-- internal: innerhalb des besagten Briefs -->
+               <term>Brief</term>
+               <term>Belgeitschreiben</term>
+               <term>Pro Memoria</term>
+               <term>Historisches Journal</term>
+            </keywords>
+            <keywords scheme="categorisation"><!-- Sinnabschnittseinteilung - relevant für den Fahrkartenautomaten! -->
+               <term xml:id="gprl">Gentz - p(r)ekuniäre Lage</term>
+               <term xml:id="jrnh">Historisches Journal</term>
+            </keywords>
+         </textClass>
+         <textDesc>
+            <channel>manuscript</channel>
+            <constitution type="single"/>
+            <derivation type="original"/>
+            <domain type="private"/>
+            <factuality type="fact"/>
+            <interaction type="partial"/>
+            <preparedness type="prepared"/>
+            <purpose type="inform"/>
+         </textDesc>
+         <particDesc>
+            <listPerson>
+               <!-- Sender und Adressat -->
+               <person role="sender" xml:id="Gen">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/118538489"/>
+                     <forename>Friedrich von</forename>
+                     <surname>Gentz</surname>
+                  </persName>
+               </person>
+               <person role="receiver" xml:id="JJPLC">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/159696496"/>
+                     <forename>John Joshua Proby</forename>
+                     <surname>Carysfort</surname>
+                  </persName>
+               </person>
+               <!-- erwähnte Personen -->
+            </listPerson>
+         </particDesc>
+         <settingDesc>
+            <listPlace>
+               <!-- Start- und Zielort -->
+               <place type="sender" xml:id="plBe">
+                  <country>
+                     <ref target="http://d-nb.info/gnd/4047194-9"/>
+                     <placeName>Preußen</placeName>
+                  </country>
+                  <settlement>
+                     <ref target="http://d-nb.info/gnd/4005728-8"/>
+                     <placeName>Berlin</placeName>
+                  </settlement>
+               </place>
+               <place type="receiver" xml:id="plLo">
+                  <country>
+                     <ref target="http://d-nb.info/gnd/4022153-2"/>
+                     <placeName>Vereinigtes Königreich</placeName>                
+                  </country>
+                  <settlement>
+                     <ref target="http://d-nb.info/gnd/4074335-4"/>
+                     <placeName>London</placeName>
+                  </settlement>
+               </place>
+               <!-- erwähnte Orte -->
+               <place type="named" xml:id="plEu">
+                  <geogName type="continent">
+                     <ref target="http://d-nb.info/gnd/4015701-5"/>
+                     <placeName>Europa</placeName>
+                  </geogName>
+               </place>
+               <place type="named" xml:id="plEn">
+                  <country>
+                     <ref target="http://d-nb.info/gnd/4022153-2"/>
+                     <placeName>England</placeName>
+                  </country>
+               </place>
+               <place type="named" xml:id="plPa">
+                  <country>
+                     <ref target="http://d-nb.info/gnd/4018145-5"/>
+                     <placeName>Frankreich</placeName>  
+                  </country>
+                  <settlement>
+                     <ref target="http://d-nb.info/gnd/4044660-8"/>
+                     <placeName>Paris</placeName>
+                  </settlement>
+               </place>
+               <place type="named" xml:id="plLl">
+                  <country>
+                     <ref target="http://d-nb.info/gnd/4018145-5" />
+                     <placeName>Frankreich</placeName>
+                  </country>
+                  <settlement>
+                     <ref target="http://d-nb.info/gnd/4114418-1"/>
+                     <placeName>Lille</placeName>
+                  </settlement>
+               </place>
+            </listPlace>
+         </settingDesc>
+      </profileDesc>
+      <revisionDesc>
+         <change xml:id="init" when-iso="2018-03-07" who="#edAG">Erstauszeichnung und Normierung des Dokumentes im Rahmen der Masterarbeit der Matrikelnummer 5584124</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <opener>
+            <salute rend="left">My Lord !</salute>
+         </opener>
+         <div n="1" corresp="#vjjp">
+            <p>
+               J'ai l'honneur de Vous remettre ci-joint les papiers que Vous avez daigné me confier; je Vous présente en même tems 
+               le tableau des matières que je traiterai dans <ref target="#r4445-1">l'ouvrage en question</ref> qui sera bientot 
+               imprimé.
+            </p>
+            <p>
+               Agreez l'hommage de mon dévouement respectueux
+            </p>
+         </div>
+         <closer>
+            <signed rend="right">Gentz.</signed>
+            <dateline rend="right">ce <date when-iso="1800-12-03">3 Xbre 1800</date></dateline>
+         </closer>
+         <postscript corresp="#jrnh">
+            <p>
+               <emph rend="underlined">Introduction</emph>. Nécessité d'éclaircir l'opinion publique sur les erreurs dans lesquelles 
+               elle est tombée relativement à l'origine et aux progrès de la guerre actuelle.
+            </p>
+            <p>
+               <emph rend="underlined">Section I</emph>. Sur <emph rend="underlined">l'origine</emph> de la guerre.
+            </p>
+            <p>
+               <emph rend="underlined">Chapitre 1</emph>. Les puissances de <rs type="place" ref="#plEu">l'Europe</rs> avoient-elles 
+               le droit de former une coalition contre la révolution Françoise ?
+            </p>
+            <p>
+               <emph rend="underlined">Chapitre 2</emph>. Une coalition pareille a-t-elle été la premiere cause de la guerre ?
+            </p>
+            <p>
+               <emph rend="underlined">Chapitre 3</emph>. Quelle part <rs type="place" ref="#plEn">l'Angleterre</rs> a-t-elle eu à 
+               cette coalition ?
+            </p>
+            <p>
+               <emph rend="underlined">Section II</emph>. Sur les diverses tentatives de 
+               <rs type="place" ref="#plEn">l'Angleterre</rs> de finir la guerre par des négociations.
+            </p>
+            <p>
+               1. Négociations de <rs type="place" ref="#plPa">Paris</rs>.
+            </p>
+            <p>
+               2. Negociations de <rs type="place" ref="#plLl">Lille</rs>
+            </p>
+            <p>
+               3. Negociations sur l'armistice maritime.
+            </p>
+            <p>
+               <emph rend="underlined">Section III</emph>. <rs type="place" ref="#plEn">L'Angleterre</rs> est-elle réellement 
+               interessée à prolonger la guerre ?
+            </p>
+         </postscript>
+      </body>
+      <note resp="#edAG" xml:id="r4445-1">Vgl. hierzu das <rs type="citation" ref="#c4445-1">Pro-Memoria vom 3. November 1800</rs></note>
+   </text>
+</TEI>

@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc xml:id="LETTER_GENTZ_2025">
+         <titleStmt>
+            <title>Friedrich von Gentz an Karl Georg Heinrich Graf von Hoym, 5. November 1795</title>
+            <editor xml:id="edAG">Andreas Gálffy</editor>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <name>Forschungsstelle "Universitätssammlung Friedrich von Gentz"</name>
+               <link target="http://gentz-digital.ub.uni-koeln.de http://www.ub.uni-koeln.de/cdm/singleitem/collection/gentz/id/2024/"/>
+            </publisher>
+            <pubPlace>Cologne</pubPlace>
+            <idno type="Gentz-Edition-Number" n="2025"/>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <country>unknown</country>
+                  <collection>autograph catalog</collection>
+                  <idno>not retraced</idno>
+               </msIdentifier>
+               <msContents>
+                  <summary>
+                     Die Spur eines Briefes, die besagt, dass aus Wien eine Tafel im Wert von 1000 Reichstaler für das Historische 
+                     Journal vermacht wurde und dass Gentz auf den Schutz zählt für den Vertrieb des Journals in Schlesien und im 
+                     ganzen Reich im Jahre 1800.
+                  </summary>
+               </msContents>
+            </msDesc>
+            <biblStruct type="catEntry">
+               <monogr>
+                  <title>Catalogue d'une precieuse Collection de Lettres Autographes et de Pièces Historiques... dont la vente aura lieu...le Venredi 12 Mai 1882</title>
+                  <imprint>
+                     <pubPlace>Paris et Londres</pubPlace>
+                     <date>1882</date>
+                  </imprint>
+                  <biblScope unit="page" from="25" to="26">
+                     Nr. 115
+                  </biblScope>
+               </monogr>
+            </biblStruct>
+            <listBibl type="defRep">
+               <biblStruct xml:id="p2025-1" corresp="GBk-0042">
+                  <monogr>
+                     <editor>
+                        <persName>
+                           <ref target="http://d-nb.info/gnd/118538489"/>
+                           <forename>Friedrich von</forename>
+                           <surname>Gentz</surname>
+                        </persName>
+                     </editor>
+                     <title>Historisches Journal</title>
+                     <imprint>
+                        <publisher>Friedrich Vieweg dem ältern</publisher>
+                        <pubPlace>Berlin</pubPlace>
+                        <date>1799</date>
+                     </imprint>
+                  </monogr>
+                  <ptr target="https://books.google.de/books?id=YU5BAAAAcAAJ"/>
+               </biblStruct>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Masterarbeit zu Matrikelnummer 5584124</p>
+         </projectDesc>
+      </encodingDesc>
+      <profileDesc>
+         <creation>
+            <date when-iso="1799-11-05">5. November 1799</date>
+         </creation>
+        <langUsage>
+           <language ident="f">französisch</language>
+        </langUsage>
+         <textClass>
+            <keywords scheme="internal"><!-- internal: innerhalb des besagten Briefs -->
+               <term>Brief</term>
+               <term>Dankschreiben</term>
+               <term>Breslau</term>
+            </keywords>
+            <keywords scheme="categorisation"><!-- Sinnabschnittseinteilung - relevant für den Fahrkartenautomaten! -->
+               <term xml:id="kpd">Briefspuren - Polizey Karlstadt</term>
+               <term xml:id="jrnh">Historisches Journal</term>
+            </keywords>
+         </textClass>
+         <textDesc>
+            <channel>manuscript</channel>
+            <constitution type="single"/>
+            <derivation type="original"/>
+            <domain type="private"/>
+            <factuality type="fact"/>
+            <interaction type="partial"/>
+            <preparedness type="prepared"/>
+            <purpose type="inform"/>
+         </textDesc>
+         <particDesc>
+            <listPerson>
+               <!-- Sender und Adressat -->
+               <person role="sender" xml:id="Gen">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/118538489"/>
+                     <forename>Friedrich von</forename>
+                     <surname>Gentz</surname>
+                  </persName>
+               </person>
+               <person role="receiver" xml:id="Hoy">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/117028568"/>
+                     <forename>Karl Georg Heinrich von</forename>
+                     <surname>Hoym</surname>
+                  </persName>
+               </person>
+               <!-- erwähnte Personen -->
+               <person role="named" xml:id="Fr">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/118534955"/>
+                     <forename>Franz II.</forename>
+                     <surname>Heiliges Römisches Reich</surname>
+                     <roleName type="office">Kaiser</roleName>
+                  </persName>
+               </person>
+            </listPerson>
+         </particDesc>
+         <settingDesc>
+            <listPlace>
+               <!-- Start- und Zielort -->
+               <place type="sender" xml:id="plBe">
+                  <country>
+                     <ref target="http://d-nb.info/gnd/4047194-9"/>
+                     <placeName>Preußen</placeName>
+                  </country>
+                  <settlement>
+                     <ref target="http://d-nb.info/gnd/4005728-8"/>
+                     <placeName>Berlin</placeName>
+                  </settlement>
+               </place>
+               <!-- erwähnte Orte -->
+               <place type="named" xml:id="plSc">
+                  <country>
+                     <ref target="http://d-nb.info/gnd/4047194-9"/>
+                     <placeName>Preußen</placeName>
+                  </country>
+                  <region>
+                     <ref target="http://d-nb.info/gnd/4052678-1"/>
+                     <placeName>Schlesien</placeName>
+                  </region>
+               </place>
+               <place type="named" xml:id="plDe">
+                  <country>
+                     <ref target="http://d-nb.info/gnd/2035457-5"/>
+                     <placeName>Deutschland</placeName>  
+                  </country>
+               </place>
+            </listPlace>
+         </settingDesc>
+      </profileDesc>
+      <revisionDesc>
+         <change xml:id="init" when-iso="2018-03-04" who="#edAG">Erstauszeichnung und Normierung des Dokumentes im Rahmen der Masterarbeit der Matrikelnummer 5584124</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div n="1" corresp="#kpd">
+            <p>
+               L.a.s. au ministre de <rs type="person" ref="#Hoy">Hoym</rs>; <rs type="place" ref="#plBe">Berlin</rs>, 
+               <date when-iso="1799-11-05">5 nov. 1799</date>, 3 p. in-4. Avec traduction française.
+            </p>
+         </div>
+         <div n="2" corresp="#jrnh">
+            <p>
+               Très curieuse lettre toute relative à son <rs type="citation" ref="#p2025-1">Journal historique</rs>, qui a un grand 
+               succès. <rs type="person" ref="#Fr">L'empereur d'Autriche</rs> lui a fait part de sa satisfaction et lui a donné en 
+               cadeau une tabatière ornée de son chiffre et garnie de brillants de la valeur de 1000 rixdalers. Il espère pouvoir 
+               compter, pour l'année 1800, sur la protection dont il l'a honoré jusqu'à ce jour, pour la circulation de son ouvrage 
+               en <rs type="place" ref="#plSc">Silésie</rs> et dans <rs type="place" ref="#plDe">tout l'Empire</rs>.
+            </p>
+         </div>
+         <note xml:id="r2025-1">Auszug aus einem Autographenkatalog</note>
+         <note xml:id="r2025-2">Original: 1780.</note>
+      </body>
+   </text>
+</TEI>

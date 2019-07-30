@@ -1,0 +1,252 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader type="text">
+      <fileDesc xml:id="LETTER_GENTZ_4359">
+         <titleStmt>
+            <title>Friedrich von Gentz an Karl Gustav von Brinckmann, 14. Juni 1793</title>
+            <editor xml:id="edAG">Andreas Gálffy</editor>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <name>Forschungsstelle "Universitätssammlung Friedrich von Gentz"</name>
+               <link target="http://gentz-digital.ub.uni-koeln.de http://www.ub.uni-koeln.de/cdm/singleitem/collection/gentz/id/4358/"/>
+            </publisher>
+            <pubPlace>Cologne</pubPlace>
+            <idno type="Gentz-Edition-Number" n="4359"/>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <country>Sweden</country>
+                  <settlement>Trolle-Ljungby</settlement>
+                  <institution>Archiv des Grafen Wachtmeister</institution>
+                  <repository>Nachlaß Brinckmann, Ausländ. Briefwechsel, Gentz an Brinckmann</repository>
+                  <idno>G 3</idno>
+               </msIdentifier>
+               <msContents>
+                  <summary>
+                     Drei namen wollte Gentz im Bayle nachschlagen, aber vergebens. Selbst Beda und Alcuin waren nicht darunter. 
+                     Deshalb scheltet Gentz den Bayle, aber auch Brinckmann, da er den Bayle offensichtlich gar nicht besitzen 
+                     dürfte, da er der königlichen Bibliothek gehört. Für einen Louisd'or oder den Sidney würde Gentz jedoch das 
+                     Risiko des Besitzes auf sich nehmen. Gentz will den englischen Katalog - und im Postscript geschrieben - den 
+                     Moreri zurück. Letzterer sei viel besser, als der Bayle.
+                  </summary>
+               </msContents>
+            </msDesc>
+            <listBibl type="preprints">
+               <biblStruct>
+                  <monogr>
+                     <editor>
+                        <persName>
+                           <ref target="http://d-nb.info/gnd/130953075"/>
+                           <forename>Friedrich Carl</forename>
+                           <surname>Wittichen</surname>
+                        </persName>
+                        <persName>
+                           <ref/> <!-- kein GND-Eintrag -->
+                           <forename>Ernst</forename>
+                           <surname>Salzer</surname>
+                        </persName>
+                     </editor>
+                     <title>Briefe von und an Friedrich von Gentz. 4 Bde.</title>
+                     <imprint>
+                        <publisher>Oldenbourg</publisher>
+                        <pubPlace>München, Berlin</pubPlace>
+                        <date>1909-1913</date>
+                     </imprint>
+                     <biblScope unit="volume" n="2">
+                        II
+                     </biblScope>
+                     <biblScope unit="page" from="38" to="38">
+                        Nr. 28
+                     </biblScope>
+                  </monogr>
+               </biblStruct>
+            </listBibl>
+            <listBibl type="alludedWorks">
+               <bibl xml:id="a4359-1" corresp="#LETTER_GENTZ_NNNN">nicht näher benanntes Werk von Algernon Sydney</bibl>
+               <bibl xml:id="a4359-2" corresp="#LETTER_GENTZ_NNNN">englischer Katalog nicht genannten Namens</bibl>
+            </listBibl>
+            <listBibl type="defRep">
+               <biblStruct xml:id="p4359-1" corresp="GBk-0027">
+                  <monogr>
+                     <author>
+                        <persName>
+                           <ref target="http://d-nb.info/gnd/11850777X"/>
+                           <forename>Pierre</forename>
+                           <surname>Bayle</surname>
+                        </persName>
+                     </author>
+                     <editor resp="translator">
+                        <persName>
+                           <ref target="http://d-nb.info/gnd/118541013"/>
+                           <forename>Johann Christoph</forename>
+                           <surname>Gottsched</surname>
+                        </persName>
+                     </editor>
+                     <title>Historisches und Critisches Wörterbuch</title>
+                     <imprint>
+                        <pubPlace>Leipzig</pubPlace>
+                        <publisher>Bernhard Christoph Breitkopf</publisher>
+                        <date>1741</date>
+                     </imprint>
+                  </monogr>
+               <ptr target="https://books.google.de/books?id=qodaAAAAYAAJ"/></biblStruct>
+               <biblStruct xml:id="p4359-2" corresp="GBk-0016">
+                  <monogr>
+                     <author>
+                        <persName>
+                           <ref target="http://d-nb.info/gnd/121142655"/>
+                           <forename>Louis</forename>
+                           <surname>Moréri</surname>
+                        </persName>
+                     </author>
+                     <title>Le grand dictionaire, ou le mêlange curieux de l'histoire sacrée et profane</title>
+                     <imprint>
+                        <pubPlace>Amsterdam, Leïden, La Haïe, Utrecht</pubPlace>
+                        <publisher>P. Brunel, S Luchtmans &amp; C. Haak, O. Gosse, E. Néaulme</publisher>
+                        <date>1740</date>
+                     </imprint>
+                  </monogr>
+               <ptr target="https://books.google.de/books?id=JwQ_AAAAcAAJ"/></biblStruct>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Masterarbeit zu Matrikelnummer 5584124</p>
+         </projectDesc>
+      </encodingDesc>
+      <profileDesc>
+         <creation>
+            <date when-iso="1793-06-14">14. Juni 1793</date>
+         </creation>
+        <langUsage>
+           <language ident="d">deutsch</language>
+        </langUsage>
+         <textClass>
+            <keywords scheme="internal"><!-- internal: innerhalb des besagten Briefs -->
+               <term>Billet</term>
+               <term>Bayle</term>
+               <term>Lakington</term>
+               <term>englischer Katalog</term>
+            </keywords>
+            <keywords scheme="categorisation"><!-- Sinnabschnittseinteilung - relevant für den Fahrkartenautomaten! -->
+               <term xml:id="kbay">Bayle</term>
+               <term xml:id="ekg">englischer Katalog</term>
+            </keywords>
+         </textClass>
+         <textDesc>
+            <channel>manuscript</channel>
+            <constitution type="single"/>
+            <derivation type="original"/>
+            <domain type="private"/>
+            <factuality type="fact"/>
+            <interaction type="partial"/>
+            <preparedness type="unprepared"/>
+            <purpose type="inform"/>
+         </textDesc>
+         <particDesc>
+            <listPerson>
+               <!-- Sender und Adressat -->
+               <person role="sender" xml:id="Gen">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/118538489"/>
+                     <forename>Friedrich von</forename>
+                     <surname>Gentz</surname>
+                  </persName>
+               </person>
+               <person role="receiver" xml:id="KGvB">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/116519770"/>
+                     <forename>Carl Gustav von</forename>
+                     <surname>Brinckmann</surname>
+                  </persName>
+               </person>
+               <!-- erwähnte Personen -->
+               <person role="receiver" xml:id="Bed">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/118508237"/>
+                     <forename>Beda</forename>
+                     <surname>Venerabilis</surname>
+                  </persName>
+               </person>
+               <person role="receiver" xml:id="Alc">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/118502026"/>
+                     <forename>Flaccus</forename>
+                     <surname>Alcuinus</surname>
+                  </persName>
+               </person>
+            </listPerson>
+         </particDesc>
+         <settingDesc>
+            <listPlace>
+               <!-- Start- und Zielort -->
+               <place type="sender" xml:id="plBe">
+                  <country>
+                     <ref target="http://d-nb.info/gnd/4047194-9"/>
+                     <placeName>Preußen</placeName>
+                  </country>
+                  <settlement>
+                     <ref target="http://d-nb.info/gnd/4005728-8"/>
+                     <placeName>Berlin</placeName>
+                  </settlement>
+               </place>
+               <!-- erwähnte Orte -->
+               <place type="named" xml:id="plKBb">
+                  <country>
+                     <ref target="http://d-nb.info/gnd/4047194-9"/>
+                     <placeName>Preußen</placeName>
+                  </country>
+                  <geogName type="locality">
+                     <ref target="http://d-nb.info/gnd/37101-4"/>
+                     <placeName>Königliche Bibliothek zu Berlin</placeName>
+                  </geogName>
+               </place>
+            </listPlace>
+         </settingDesc>
+      </profileDesc>
+      <revisionDesc>
+         <change xml:id="init" when-iso="2018-02-13" who="#edAG">Erstauszeichnung und Normierung des Dokumentes im Rahmen der Masterarbeit der Matrikelnummer 5584124</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>     
+      <body>
+         <opener resp="#KGvB">
+            <dateline rend="right"><date when-iso="1793-06-14">14. Jun 1793</date></dateline>
+         </opener>
+         <div n="1" corresp="#kbay">
+            <p>
+               Drey Nahmen habe ich im <rs type="citation" ref="#p4359-1">Bayle</rs> nachgesucht - und darunter waren doch 
+               <rs type="person" ref="#Bed"><emph rend="underlined">Beda</emph></rs> und 
+               <rs type="person" ref="#Alc"><emph rend="underlined">Alcuin</emph></rs> - aber nichts gefunden. Es bleibt also 
+               bey dem, was ich immer gesagt habe, daß der <rs type="citation" ref="#p4359-1">Bayle</rs> eins der elendsten Bücher 
+               ist. <emph rend="underlined">Ihr</emph> <rs type="citation" ref="#p4359-1">Bayle</rs> ist nun freylich noch um so 
+               weniger beneidenswerth, als er sichtbarlich der <rs type="place" ref="#plKBb">hiesigen Königlichen Bibliothek</rs> 
+               gestohlen ist, welche ihr Eigenthum, <del rend="stroked">allen</del> nach einem besondern Gesetze, allenthalben auf 
+               bloße Aussage vindiciren kan, und es bis ans Ende der Welt verfolgt. Daher rathe ich Ihnen ernstlich, sich dieses 
+               Buchs je eher je lieber zu entschlagen. Wenn sie <emph rend="underlined">mir</emph> einen Louisdor geben, oder den 
+               <rs type="citation" ref="#a4359-1">Sidney</rs> zurück den ich <emph rend="underlined">beynahe</emph> auf so hoch 
+               taxire, so will ich aus Freundschaft für Sie das Risico übernehmen, und den 
+               <rs type="citation" ref="#p4359-1">Bayle</rs> behalten.
+            </p>
+         </div>
+         <div n="2" corresp="#ekg">
+            <p>
+               Schicken Sie mir ja Morgen früh den <rs type="citation" ref="#a4359-2">Catalog</rs> wieder.
+            </p>
+         </div>
+         <closer>
+            <signed rend="right">Gentz.</signed>
+         </closer>
+         <postscript corresp="#kbay">
+            <p>
+               Schicken Sie mir doch nur auch den <rs type="citation" ref="#p4359-2"><emph rend="underlined">Moreri</emph></rs> 
+               wieder. Denn 1) wird ihn doch Niemand kaufen 2) ängstigt mich die Lücke 3) ist er doch 
+               <emph rend="underlined">viel</emph> besser als der <rs type="citation" ref="#p4359-1">Bayle</rs>.
+            </p>
+         </postscript>
+      </body>
+   </text>
+</TEI>

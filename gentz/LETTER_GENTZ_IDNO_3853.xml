@@ -1,0 +1,499 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader type="text">
+      <fileDesc xml:id="LETTER_GENTZ_3853">
+         <titleStmt>
+            <title>Friedrich von Gentz an Friedrich Vieweg, 19. November 1795</title>
+            <editor xml:id="edAG">Andreas Gálffy</editor>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <name>Forschungsstelle "Universitätssammlung Friedrich von Gentz"</name>
+               <link target="http://gentz-digital.ub.uni-koeln.de http://www.ub.uni-koeln.de/cdm/singleitem/collection/gentz/id/3852/"/>
+            </publisher>
+            <pubPlace>Cologne</pubPlace>
+            <idno type="Gentz-Edition-Number" n="3853"/>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <country>Germany</country>
+                  <settlement>Wiesbaden</settlement>
+                  <institution>Vieweg-Verlagsarchiv</institution>
+                  <repository>Briefsammlung 311 G, Gentz-Briefe</repository>
+                  <idno>Nr. 24</idno>
+               </msIdentifier>
+               <msContents>
+                  <summary>
+                     Vieweg hat geheiratet und Gentz wünscht ihm alles Gute zu seinem Eheglück.
+                     Dann kommt Gentz zu seinem eigentlichen Anliegen. Die Halberstädter werden die Monatsschrift übernehmen. Auch 
+                     sind die Absatzzahlen eingebrochen, weswegen sich das Journal kaum selbst tragen kann. Gentz möchte keine 
+                     Arbeit umsonst tun und Artikel ins Leere schreiben. Zudem sind die Arbeiten, von Garve und Böttiger abgesehen, 
+                     so schlecht, dass Gentz extreme Mühen hat, sie umzuarbeiten. Die Qualität hat also stark abgenommen. Des 
+                     Weiteren bedeutet diese umständliche Redaktion einen großen Zeitaufwand, den Gentz kaum erbringen kann. Er ist 
+                     daher mit der Redaktion stark hinterher. Dann muss er sich auch der Zensur unterwerfen. Manuskripte müssten wie 
+                     Manna vom Himmel fallen, um diese Verspätung einzuholen. Oder Übersichten erstellen, wie hundert andere Leute. 
+                     Deshalb gibt Gentz die weitere Redaktion der Monatsschrift auf.
+                  </summary>
+               </msContents>
+            </msDesc>
+            <listBibl type="defExpr">
+               <biblStruct xml:id="e3853-1" corresp="UBi-0025">
+                  <monogr>
+                     <author>
+                        <persName>
+                           <ref target="http://d-nb.info/gnd/118538489"/>
+                           <forename>Friedrich von</forename>
+                           <surname>Gentz</surname>
+                        </persName>
+                     </author>
+                     <title>Neue Deutsche Monatsschrift</title>
+                     <imprint>
+                        <pubPlace>Berlin</pubPlace>
+                        <publisher>Friedrich Vieweg der Ältere</publisher>
+                        <date>1795</date>
+                     </imprint>
+                  </monogr>
+               <ptr target="http://ds.ub.uni-bielefeld.de/viewer/toc/1938308/1/"/></biblStruct>
+               <biblStruct xml:id="e3853-2" corresp="UBi-0027">
+                  <monogr>
+                     <title>Deutsche Monathsschrift</title>
+                     <imprint>
+                        <pubPlace>Halberstadt</pubPlace>
+                        <publisher>Buchhandlung der Großschen Erben</publisher>
+                        <date>1790-1799</date>
+                     </imprint>
+                  </monogr>
+               <ptr target="http://ds.ub.uni-bielefeld.de/viewer/toc/1921388/1/LOG_0000/"/></biblStruct>
+               <biblStruct xml:id="e3853-3" corresp="UBi-0010">
+                  <monogr>
+                     <author>
+                        <persName>
+                           <ref target="http://d-nb.info/gnd/118538489"/>
+                           <forename>Friedrich von</forename>
+                           <surname>Gentz</surname>
+                        </persName>
+                     </author>
+                     <title>Neue Deutsche Monatsschrift</title>
+                     <imprint>
+                        <pubPlace>Berlin</pubPlace>
+                        <publisher>Friedrich Vieweg der Ältere</publisher>
+                        <date>1795</date>
+                     </imprint>
+                     <biblScope unit="volume" n="3">
+                        Dritter Band.
+                     </biblScope>
+                     <biblScope unit="issue">
+                        1795. November.
+                     </biblScope>
+                  </monogr>
+               <ptr target="http://ds.ub.uni-bielefeld.de/viewer/image/1938308_003/172/"/></biblStruct>
+            </listBibl>
+            <listBibl type="defRep">
+               <biblStruct xml:id="p3853-1" corresp="UBi-0013">
+                  <analytic>
+                     <author>
+                        <persName>
+                           <ref target="http://d-nb.info/gnd/11874559X"/>
+                           <forename>Friedrich Eberhard von</forename>
+                           <surname>Rochow</surname>
+                        </persName>
+                     </author>
+                     <title>Ueber die Nothwendigkeit einer zweckmäßigen Einrichtung der niedern Stadt- und Land-Schulen, in Rücksicht auf die Armen-Anstalten</title>
+                  </analytic>
+                  <monogr>
+                     <author>
+                        <persName>
+                           <ref target="http://d-nb.info/gnd/118538489"/>
+                           <forename>Friedrich von</forename>
+                           <surname>Gentz</surname>
+                        </persName>
+                     </author>
+                     <title>Neue Deutsche Monatsschrift</title>
+                     <imprint>
+                        <pubPlace>Berlin</pubPlace>
+                        <publisher>Friedrich Vieweg der Ältere</publisher>
+                        <date>1795</date>
+                     </imprint>
+                     <biblScope unit="volume" n="3">
+                        Dritter Band.
+                     </biblScope>
+                     <biblScope unit="issue">
+                        1795. September.
+                     </biblScope>
+                     <biblScope unit="page" from="3" to="14">
+                        S. 3-14
+                     </biblScope>
+                  </monogr>
+               <ptr target="http://ds.ub.uni-bielefeld.de/viewer/image/1938308_003/4/"/></biblStruct>
+               <biblStruct xml:id="p3853-2" corresp="UBi-0015">
+                  <analytic>
+                     <author>
+                        <persName>
+                           <ref target="http://d-nb.info/gnd/118538489"/>
+                           <forename>Friedrich von</forename>
+                           <surname>Gentz</surname>
+                        </persName>
+                     </author>
+                     <title>Darstellung und Vergleichung einiger politischen Constitutions-Systeme die von dem Grundlage der Theilung der Macht ausgehen.</title>
+                  </analytic>
+                  <monogr>
+                     <author>
+                        <persName>
+                           <ref target="http://d-nb.info/gnd/118538489"/>
+                           <forename>Friedrich von</forename>
+                           <surname>Gentz</surname>
+                        </persName>
+                     </author>
+                     <title>Neue Deutsche Monatsschrift</title>
+                     <imprint>
+                        <pubPlace>Berlin</pubPlace>
+                        <publisher>Friedrich Vieweg der Ältere</publisher>
+                        <date>1795</date>
+                     </imprint>
+                     <biblScope unit="volume" n="3">
+                        Dritter Band.
+                     </biblScope>
+                     <biblScope unit="issue">
+                        1795. Oktober.
+                     </biblScope>
+                     <biblScope unit="page" from="81" to="158">
+                        S. 81-158
+                     </biblScope>
+                  </monogr>
+               <ptr target="http://ds.ub.uni-bielefeld.de/viewer/image/1938308_003/78/"/></biblStruct>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Masterarbeit zu Matrikelnummer 5584124</p>
+         </projectDesc>
+      </encodingDesc>
+      <profileDesc>
+         <creation>
+            <date when-iso="1795-11-19">19. November 1795</date>
+         </creation>
+        <langUsage>
+           <language ident="d">deutsch</language>
+        </langUsage>
+         <textClass>
+            <keywords scheme="internal"><!-- internal: innerhalb des besagten Briefs -->
+               <term>Brief</term>
+               <term>Monatsschrift</term>
+               <term>Amerikanische Briefe</term>
+               <term>Böttiger</term>
+               <term>Garve</term>
+               <term>Redaktion</term>
+               <term>Plattitüde</term>
+               <term>Zeitaufwand</term>
+               <term>Aufgabe</term>
+               <term>Manuskriptregen</term>
+            </keywords>
+            <keywords scheme="categorisation"><!-- Sinnabschnittseinteilung - relevant für den Fahrkartenautomaten! -->
+               <term xml:id="vwf">Vieweg - Freundschaft</term>
+               <term xml:id="mss">Monatsschrift</term>
+            </keywords>
+         </textClass>
+         <textDesc>
+            <channel>manuscript</channel>
+            <constitution type="single"/>
+            <derivation type="original"/>
+            <domain type="private"/>
+            <factuality type="fact"/>
+            <interaction type="partial"/>
+            <preparedness type="prepared"/>
+            <purpose type="inform"/>
+         </textDesc>
+         <particDesc>
+            <listPerson>
+               <!-- Sender und Adressat -->
+               <person role="sender" xml:id="Gen">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/118538489"/>
+                     <forename>Friedrich von</forename>
+                     <surname>Gentz</surname>
+                  </persName>
+               </person>
+               <person role="receiver" xml:id="FVW">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/119049546"/>
+                     <forename>Friedrich</forename>
+                     <surname>Vieweg</surname>
+                  </persName>
+               </person>
+               <!-- erwähnte Personen -->
+               <person role="named" xml:id="Gar">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/118537636"/>
+                     <forename>Christian</forename>
+                     <surname>Garve</surname>
+                  </persName>
+               </person>
+               <person role="named" xml:id="KAB">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/118824775"/>
+                     <forename>Carl August</forename>
+                     <surname>Böttiger</surname>
+                  </persName>
+               </person>
+               <person role="named" xml:id="Rch">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/11874559X"/>
+                     <forename>Friedrich Eberhard von</forename>
+                     <surname>Rochow</surname>
+                  </persName>
+               </person>
+               <person role="named" xml:id="Zoe">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/172475104"/>
+                     <forename>Johann Friedrich</forename>
+                     <surname>Zöllner</surname>
+                  </persName>
+               </person>
+               <person role="named" xml:id="Spa">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/117480088"/>
+                     <forename>Georg Ludwig</forename>
+                     <surname>Spalding</surname>
+                  </persName>
+               </person>
+               <person role="named" xml:id="Bar">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/100023185"/>
+                     <forename>Georg Wilhelm</forename>
+                     <surname>Bartholdy</surname>
+                  </persName>
+               </person>
+               <person role="named" xml:id="FRch">
+                  <persName>
+                     <ref/>
+                     <forename>Fritz</forename>
+                     <surname>Reichardt</surname>
+                  </persName>
+               </person>
+               <person role="named" xml:id="JWvA">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/118503839"/>
+                     <forename>Johann Wilhelm von</forename>
+                     <surname>Archenholz</surname>
+                  </persName>
+               </person>
+               <person role="named" xml:id="Pos">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/104314699"/>
+                     <forename>Ernst Ludwig</forename>
+                     <surname>Posselt</surname>
+                  </persName>
+               </person>
+               <person role="named" xml:id="CCm">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/136187250"/>
+                     <forename>Charlotte</forename>
+                     <surname>Campe</surname>
+                  </persName>
+               </person>
+               <person role="named" xml:id="Min">
+                  <persName>
+                     <ref/>
+                     <forename>Wilhelmine</forename>
+                     <surname>Gilly</surname>
+                  </persName>
+               </person>
+            </listPerson>
+         </particDesc>
+         <settingDesc>
+            <listPlace>
+               <!-- Start- und Zielort -->
+               <place type="sender" xml:id="plBe">
+                  <country>
+                     <ref target="http://d-nb.info/gnd/4047194-9"/>
+                     <placeName>Preußen</placeName>
+                  </country>
+                  <settlement>
+                     <ref target="http://d-nb.info/gnd/4005728-8"/>
+                     <placeName>Berlin</placeName>
+                  </settlement>
+               </place>
+               <!-- erwähnte Orte -->
+               <place type="named" xml:id="plBs">
+                  <country>
+                     <ref target="http://d-nb.info/gnd/4089993-7"/>
+                     <placeName>Staat Wolfenbüttel</placeName>
+                  </country>
+                  <settlement>
+                     <ref target="http://d-nb.info/gnd/4008065-1"/>
+                     <placeName>Braunschweig</placeName>
+                  </settlement>
+               </place>
+            </listPlace>
+         </settingDesc>
+      </profileDesc>
+      <revisionDesc>
+         <change xml:id="init" when-iso="2018-02-18" who="#edAG">Erstauszeichnung und Normierung des Dokumentes im Rahmen der Masterarbeit der Matrikelnummer 5584124</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div n="1" corresp="#vwf">
+            <p>
+               Zuvörderst, theurer Freund, meinen herzlichsten, innigsten Glückwunsch zum <ref target="#r3853-1">Ehestande</ref> ! 
+               - Möge er eine reiche unversiegbare Quelle von Glückseligkeit für Sie seyn ! Ich freue mich, wie ich mich auf wenig 
+               Dinge gefreut habe, bald, hoffentlich recht bald einen Augenzeugen Ihres Glücks abgeben zu können.
+            </p>
+            <p>
+               Daß Sie mir in Ihrer ganzen Abwesenheit nicht einmal schrieben, mag Ihnen Gott vergeben, und die Liebe 
+               rechtfertigen ! Im Grunde erwartete ich es auch nicht. Wenn mir gleich die Zeit, daß ich Sie nicht gesehen habe, 
+               eine Ewigkeit dünkt, so kan ich mir doch sehr gut vorstellen, daß sie Ihnen wie ein Tag vorkommen muß.
+            </p>
+         </div>
+         <div n="2" corresp="#mss">
+            <p>
+               Der eigentliche nächste Endzweck dieses meines Schreibens ist, Ihnen eine Sache vorzutragen, davon ich aus zwei 
+               Ursachen die erste Eröfnung lieber schriftlich als mündlich thun mag. Einmal, weil sie von einer gewissen Seite 
+               unter die unangenehmen Sachen gehört, die sich schriftlich ohne Ausnahme besser verhandeln. Und dann, weil sich auf 
+               diesem Wege die Hauptgründe eines Entschlusses vollständiger und doch zugleich kürzer entwickeln laßen. In dieser 
+               Rücksicht werden Sie es mir verzeihen, bester Vieweg, daß ich die letzten Tage Ihres Aufenthalts in 
+               <rs type="place" ref="#plBs">Braunschweig</rs> durch eine Ihnen vielleicht eben so unerwartete als verdrießliche 
+               Neuerung störe.
+            </p>
+            <p>
+               Wenn ich überzeugt wäre, daß die <rs type="citation" ref="#e3853-1">Monatschrift</rs> einen für Sie wichtiger 
+               Verlags-Artikel ausmachte, wenn ich mit der Fortsetzung dieses Journals einen sichern und nahmhaften Vortheil für Sie 
+               verknüpft sähe, so würde ich alles was bey diesem Unternehmen <emph rend="underlined">auf mich</emph> Bezug hat, 
+               vergessen, und wenigstens ewig verschweigen.
+            </p>
+            <p>
+               Nun bin ich aber vom geraden Gegentheil überzeugt. Ich weiß, daß das Journal durch die Fatalität, daß die 
+               <ref target="#r3853-2">Halberstädter</ref> die <rs type="citation" ref="#e3853-2">alte MonatsSchrift</rs> fortsetzten 
+               vielleicht auch durch Ursachen, die ihm eigenthümlicher sind, und die vielleicht in mir selbst liegen, von seinem 
+               Absatz unendlich verloren hat: ich weiß, daß Ihnen von den ersten Monaten größre Quantitäten auf dem Halse liegen, 
+               als es bey der ehmaligen der Fall war: ich weiß, daß es Ihnen kaum so viel einbringt, als die Kosten ausmachen: ich 
+               weiß endlich, daß Sie bloß auf Risico noch einen Jahrgang wagen, und dies nicht thun würden, wenn Sie nicht immer 
+               noch hofften daß der Absatz steigen würde.
+            </p>
+            <p>
+               Nun wird aber der Absatz gewiß nicht merklich steigen: - Dies ist ein Satz, den ich Ihnen beinahe mathematisch 
+               beweisen wollte: Sie werden abermals ein Jahrlang leeres Stroh dreschen, und am Ende dieses Jahres gezwungen seyn, 
+               das zu thun, was Sie nach meiner reifen, wohlgegründeten, innigsten Ueberzeugung, ohne sich einen Augenblick zu 
+               bedenken, am Ende des jetzigen thun sollten.
+            </p>
+            <p>
+               So weit, was <emph rend="underlined">Sie</emph> betrift: nun ein Wort von <emph rend="underlined">mir</emph>, lieber 
+               Freund !
+            </p>
+            <p>
+               Daß es mir, wenn ich auch recht dazu geboren wäre, Redacteur einer Zeitschrift zu seyn, nie ein angenehmes Geschäft 
+               bleiben kan, ein Journal herauszugeben, das erbärmlichen Abgang hat, werden Sie begreifen. Bei einem Buche tröstet 
+               sich die Eigenliebe des Verfassers zuweilen über ein solches Schicksal, und überdies ist es, wenn einem Buch dies 
+               widerfährt immer schon zu spät, etwas dagegen zu thun. Aber ein Journal, wo ich mir jeden Monat sagen muß: Abermals 
+               viel saure Mühe für Maculatur ! - Das, Freund, könnte der determinirteste Journalist nicht aushalten.
+            </p>
+            <p>
+               Nun betrachten Sie mich, wie Sie mich kennen. Aus Freundschaft, aus wahrem herzlichen Eifer, Ihnen zu dienen, 
+               übernahm ich dies Geschäft: ich erwog wahrhaftig nicht, was ich mir auf meine Schultern wälzte. Ich bin der Mann 
+               nicht , der ein Journal dieser Art aufrecht halten kan: ich bin es in keiner Rücksicht. Ich bin viel zu kritisch von 
+               einer Seite, viel zu unthätig, oder besser, zu wenig zudringlich und intrigant von der andern. Ich gehöre zu keiner 
+               gelehrten Clique, und der wenige Umgang den ich mit andern Gelehrten pflege, trift, wie Sie wissen, fast durchgehends 
+               solche Subjekte, die so isolirt leben, denken, und <emph rend="underlined">urtheilen</emph>, als ich. - Wo soll ich 
+               also die Materialien hernehmen ? Woher besonders solche Materialien die <emph rend="underlined">mich</emph> 
+               befriedigen, oder die mich nur nicht geradezu aneckeln ? -
+            </p>
+            <p>
+               Was ist also mein Schicksal gewesen ? - Die größre Hälfte des Jahrganges habe ich mit eigner Hand geschrieben: die 
+               meisten übrigen Aufsätze (wenn ich die von <rs type="person" ref="#Gar"><emph rend="underlined">Garve</emph></rs> 
+               und <rs type="person" ref="#KAB"><emph rend="underlined">Böttiger</emph></rs> ausnehme) habe ich mit unsäglicher 
+               Mühe - nicht corrigiren sondern - umarbeiten müssen: noch im Septemberstück ist dies mein Amt mit sämmtlichen 
+               Stücken und besonders auch in Ansehung eines <rs type="citation" ref="#p3853-1">elenden Gewäsches</rs> von 
+               <rs type="person" ref="#Rch"><emph rend="underlined">Rochow</emph></rs> über die Land-Armen-Anstalten gewesen: und 
+               noch hat mich dieses Gewäsch des Zusatzes halber, wodurch ich es zu heben suchte, in eine, Ihnen noch ganz 
+               unbekannte, sehr ernsthafte Verlegenheit verwickelt die mich vielleicht noch manchen Bogen Schreiberey kosten wird. 
+               <rs type="person" ref="#Zoe"><emph rend="underlined">Zöllner</emph></rs>, 
+               <rs type="person" ref="#Spa"><emph rend="underlined">Spalding</emph></rs> etc. mehrere meiner Bekannten haben mir 
+               Aufsätze versprochen: sie halten nicht Wort: was kan ich thun, als sie erinnern ? - Ich müste alle Tage mündlich und 
+               schriftlich betteln, und am Ende führte es denn doch zu nichts.
+            </p>
+            <p>
+               Nun weiter. Das Jahre 95 geht zum Schluß, und ich habe es über der Monatschrift - verloren. Verloren ist das wahre 
+               Wort. Von allem, was ich in die MonatsSchrift geliefert habe, ist nur ein einziger Aufsatz von reeller, und wenn ich 
+               es sagen darf, von bleibender Wichtigkeit. Es ist <rs type="citation" ref="#p3853-2">der im Oktober-Stück</rs>. Ihn 
+               geschrieben zu haben, wird mich nie gereuen: denn er ist ein entscheidender Schritt in einer sehr wichtigen Theorie. 
+               Aber ich hätte ihm unendlich lieber die Form einer eignen kleinen Schrift gegeben, die mir unter allen, die denken 
+               können, schlechterdings hätte Ehre bringen müssen. - Alles andre erkläre ich, wenn ich mit mir selbst aufrichtig zu 
+               Werke gehe, für <emph rend="underlined">Geschreibsel</emph>; können Sie es selbst wohl billigen, daß ein Mensch, der 
+               etwas wesentlich Gutes produziren kan, seine Kräfte verschwenden soll, um eine Zeitschrift 
+               <emph rend="underlined">voll zu machen</emph> ?
+            </p>
+            <p>
+               Und können Sie dies gar billigen, wenn selbst das <emph rend="underlined">Interesse</emph> auf eben die Seite tritt, 
+               wo die Neigung und der Beruf sich befinden ? - Ich frage Sie, lieber Vieweg ! Wenn ich Ihnen im Laufe dieses Jahres 
+               von meinen Annalen der französischen Revolution 2 Bände geliefert hätte - würden Sie nicht besser gefahren seyn, als 
+               beym Absatz der MonatsSchrift ? - Mir scheint dies so klar, daß es gar keiner Erörterung bedarf.
+            </p>
+            <p>
+               Jetzt kan ich Ihnen auch noch nicht Einen Band liefern, weil ich nie 14 Tage 
+               <emph rend="underlined">hintereinander</emph> an diesem Werke arbeiten konnte. Warum das ? - werfen Sie Ihre Augen 
+               auf August, September und Oktober der MonatsSchrift. Sie werden eine befriedigende Antwort finden.
+            </p>
+            <p>
+               Also meine Ehre, der wahre Vortheil des Publikums, in so fern dies bey meinen unvollkommnen Arbeiten überhaupt 
+               interessirt ist, meine Glückseligkeit, <emph rend="underlined">Ihr</emph> evidenter Vortheil, 
+               <emph rend="underlined">mein</emph> Vortheil, - alles concurrirt, um den Wunsch, die Redaction los zu seyn, zu einem 
+               der wärmsten zu machen, die je in meinem Herzen Platz gegriffen haben.
+            </p>
+            <p>
+               Sie wünschen, 3 Stücke der Monatschrift auf einmal zu haben: ich versichre Ihnen auf Ehre und Reputation, daß ich in 
+               diesem Augenblick, da schon der Druck des <rs type="citation" ref="#e3853-3">Novemberstücks</rs> anfängt, noch nicht 
+               weiß, womit ich <emph rend="underlined">dieses ausfüllen</emph> soll. Urtheilen Sie weiter.
+            </p>
+            <p>
+               Wenn ich mir denke, daß die einzige Ressource auf den Fall der Fortsetzung wieder eine Uebersicht des verflossnen 
+               Jahres seyn würde, daß diese Uebersicht jetzt, da <rs type="person" ref="#Bar">Bartoldy</rs>, 
+               <rs type="person" ref="#FRch">Reichardt</rs>, <rs type="person" ref="#JWvA">Archenholz</rs>, 
+               <rs type="person" ref="#Pos">Posselt</rs> und hundert andre nichts thun, als solche Uebersichten schreiben, ein 
+               kläglicher Behelf ist, und daß <emph rend="underlined">ich</emph> sie liefern soll, so stehen mir alle Haare zu Berge.
+            </p>
+            <p>
+               Nun kömmt zu dem allen noch, daß nach der allerneusten Verordnung die Censur aller Zeitschriften - dem 
+               <emph rend="underlined">Polizey-Directorio !</emph> beigelegt ist. - Ich - der Censur des Polizey-Directorii das 
+               heißt etc. etc......mich unterwerfen.
+            </p>
+            <p>
+               Ich bitte Sie also um unsrer Freundschaft, um meiner Glückseligkeit, um Ihres Vortheils willen - spannen Sie mich 
+               aus einem Joche, das ich länger zu tragen nicht vermag ! - In 4 oder 6 Monaten sollen Sie es inne werden, was es 
+               hieß, mir meine Freiheit wieder geschenkt zu haben. Versagen Sie mir meine Bitte, so ist das künftige Jahr, der 
+               Himmel müßte sich denn aufthun, und Manuscripte, wie ehmals Manna in der Wüste, regnen lassen, wieder ohne Erbarmen 
+               für mich verloren, und einer stümperhaften Unternehmung Preis gegeben, die Ihnen das Papier kaum bezahlt, und mich 
+               zu einem Exercitien Corrector und zu einem Phrasenmacher herabwürdigt.
+            </p>
+            <p>
+               Ich weiß recht gut, daß Sie Selbst meine Gründe triftig finden werden. Ich weiß aber auch was in Ihnen lauter als 
+               alles dagegen sprechen wird: der <span xml:lang="fr">point d'honneur</span>, dem Nebenbuhler das Feld nicht zu 
+               überlaßen. Ich glaube diesen Einwurf heben zu können, wenn auch der Art und Weise, mit der ich es thue eine gewiße 
+               Ruhmredigkeit zum Grund zu liegen scheint. Aber ich behaupte, daß den meisten Menschen die von dem Aufhören dieses 
+               Journals Notiz nehmen der Grund, daß <emph rend="underlined">ich</emph> es aufgäbe, weil es mich von andern und 
+               bessern Arbeiten abhält, ein einleuchtender, und befriedigender Grund seyn wird.
+            </p>
+            <p>
+               Ich schließe diesen langen Brief mit der Versicherung, daß Sie mir kein froheres und reicheres Geschenk von Ihren 
+               Reisen mitbringen können, als den Entschluß, meiner Bitte zu willfahren. Meine Kräfte sind wirklich am Ende. Sonst 
+               hätte ich gern länger getragen.
+            </p>
+         </div>
+         <div n="3" corresp="#vwf">
+            <p>
+               Empfehlen Sie mich vorläufig <rs type="person" ref="#CCm">Ihrer Gattin</rs>, aufs allerverbindlichste, und sorgen 
+               Sie dafür, daß wir dieser liebenswürdigen Frau bald mündlich unsre Ergebenheit versichern können. 
+               <rs type="person" ref="#Min">Meine Frau</rs> stimmt hier von ganzem Herzen mit ein. Erhalten Sie Ihre Freundschaft
+            </p>
+         </div>
+         <closer>
+            <salute rend="right">Ihrem ganz ergebnen</salute>
+            <dateline rend="left"><rs type="citation" ref="#plBe">Berlin</rs> den <date when-iso="1795-11-19">19<span rend="sup">ten</span> Nov 95</date>.</dateline>
+            <signed rend="right">Gentz.</signed>
+         </closer>
+      </body>
+      <note resp="#edAG" xml:id="r3853-1">Die Hochzeit Friedrich Viewegs des Älteren fand am 17. Oktober 1795 statt</note>
+      <note resp="#edAG" xml:id="r3853-2">Die Deutsche Monatsschrift wurde durch die Buchhandlung der Großschen Erben<ptr target="http://d-nb.info/gnd/6147110-0"/> in Halberstadt ausgegeben.</note>
+   </text>
+</TEI>

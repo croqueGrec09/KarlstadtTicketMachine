@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc xml:id="LETTER_GENTZ_3035">
+         <titleStmt>
+            <title>Friedrich von Gentz an Erzherzog Karl von Österreich, 10. September 1802</title>
+            <editor xml:id="edAG">Andreas Gálffy</editor>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <name>Forschungsstelle "Universitätssammlung Friedrich von Gentz"</name>
+               <link target="http://gentz-digital.ub.uni-koeln.de http://www.ub.uni-koeln.de/cdm/singleitem/collection/gentz/id/3034/"/>
+            </publisher>
+            <pubPlace>Cologne</pubPlace>
+            <idno type="Gentz-Edition-Number" n="3035"/>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <country>Austria</country>
+                  <settlement>Vienna</settlement>
+                  <institution>Haus-, Hof- und Staatsarchiv</institution>
+                  <repository>Kabinettsarchiv, Faßbenderakten</repository>
+                  <collection>Fasz. XXVIII</collection>
+                  <idno>Bl. 460-460v</idno>
+               </msIdentifier>
+               <msContents>
+                  <summary>
+                     Gentz zeigt sich sehr dankbar für die Aufnahme in die Dienste des österreichischen Hofes. Er versichert, dass 
+                     er mit ganzer Imbrunst diesen Dienst verrichten werde.
+                  </summary>
+               </msContents>
+            </msDesc>
+            <listBibl type="preprints">
+               <biblStruct>
+                  <analytic>
+                     <author>
+                        <persName>
+                           <ref />
+                           <forename>Major</forename>
+                           <surname>Jacubenz</surname>
+                        </persName>
+                     </author>
+                     <title>Gentz und Fasbender. Ungedruckte Briefe aus der Zeit von 1802 bis 1808</title>
+                  </analytic>
+                  <monogr>
+                     <title>Mittelungen des k.k. Kriegsarchivs 3.</title>
+                     <imprint>
+                        <date>1911</date>
+                     </imprint>
+                     <biblScope unit="issue" n="7">
+                        Folge 7
+                     </biblScope>
+                     <biblScope unit="page" from="66" to="66">
+                        S. 66
+                     </biblScope>
+                  </monogr>
+               </biblStruct>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Masterarbeit zu Matrikelnummer 5584124</p>
+         </projectDesc>
+      </encodingDesc>
+      <profileDesc>
+         <creation>
+            <date when-iso="1802-09-10">10. September 1802</date>
+         </creation>
+        <langUsage>
+           <language ident="d">deutsch</language>
+        </langUsage>
+         <textClass>
+            <keywords scheme="internal"><!-- internal: innerhalb des besagten Briefs -->
+               <term>Brief</term>
+               <term>Ehrbrief</term>
+               <term>Arbeiten</term>
+            </keywords>
+            <keywords scheme="categorisation"><!-- Sinnabschnittseinteilung - relevant für den Fahrkartenautomaten! -->
+               <term xml:id="bezw">Beziehungen zu Wien</term>
+            </keywords>
+         </textClass>
+         <textDesc>
+            <channel>manuscript</channel>
+            <constitution type="single"/>
+            <derivation type="original"/>
+            <domain type="private"/>
+            <factuality type="fact"/>
+            <interaction type="partial"/>
+            <preparedness type="prepared"/>
+            <purpose type="inform"/>
+         </textDesc>
+         <particDesc>
+            <listPerson>
+               <!-- Sender und Adressat -->
+               <person role="sender" xml:id="Gen">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/118538489"/>
+                     <forename>Friedrich von</forename>
+                     <surname>Gentz</surname>
+                  </persName>
+               </person>
+               <person role="receiver" xml:id="KEvO">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/118723049"/>
+                     <forename>Karl</forename>
+                     <surname/>
+                     <roleName type="office">Erzherzog von Österreich</roleName>
+                  </persName>
+               </person>
+               <!-- erwähnte Personen -->
+               <person role="named" xml:id="Fr">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/118534955"/>
+                     <forename>Franz II.</forename>
+                     <surname>Heiliges Römisches Reich</surname>
+                     <roleName type="office">Kaiser</roleName>
+                  </persName>
+               </person>
+            </listPerson>
+         </particDesc>
+         <settingDesc>
+            <listPlace>
+               <!-- Start- und Zielort -->
+               <place type="sender" xml:id="plWi">
+                  <country>
+                     <ref target="http://d-nb.info/gnd/4075601-4"/>
+                     <placeName>Erzherzogtum Österreich</placeName>  
+                  </country>
+                  <settlement>
+                     <ref target="http://d-nb.info/gnd/4066009-6"/>
+                     <placeName>Wien</placeName>
+                  </settlement>
+               </place>
+               <!-- erwähnte Orte -->
+            </listPlace>
+         </settingDesc>
+      </profileDesc>
+      <revisionDesc>
+         <change xml:id="init" when-iso="2018-03-11" who="#edAG">Erstauszeichnung und Normierung des Dokumentes im Rahmen der Masterarbeit der Matrikelnummer 5584124</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <opener>
+            <salute rend="left">Durchlauchtigster Erzherzog !</salute>
+            <salute rend="left">Gnädigster Prinz und Herr !</salute>
+         </opener>
+         <div n="1" corresp="#bezw">
+            <p>
+               Ewr. Königlichen Hoheit huldreiche Verwendung hat die Folge gehabt, daß 
+               <rs type="person" ref="#Fr">des Kaysers Majestät</rs> mich unter Bedingungen, die ich ehrenvoll und vortheilhaft 
+               nennen kan, in Allerhöchstdero Dienste aufgenommen haben. Ich statte Ewr. Königlichen Hoheit für die mir bei dieser 
+               Gelegenheit erwiesne unschätzbare Gnade, meinen tiefsten und ehrfurchtsvollsten Dank ab: aber ich unterstehe mich, 
+               ihn mit der Versicherung zu begleiten, daß es mein einziges und ausschließendes Bestreben seyn soll, die gute Meinung 
+               welche Ewr. Königliche Hoheit von mir zu fassen geruhet, auf jede nur mögliche Art zu rechtfertigen. Auf diesen Punkt 
+               sind, wie ich Ewr. Königlichen Hoheit dreist versichern <pb/> darf, alle meine Gedanken gerichtet: mich treibt, indem 
+               ich die gnädigen Anerbietungen <rs type="person" ref="#Fr">Seiner Majestät des Kaysers</rs> annehme, durchaus kein 
+               andres Motiv, als die Hoffnung, dieser großen, dieser ehrwürdigen, dieser interessanten Monarchie, mit deren 
+               Erhaltung und Flor, in den jetzigen trüben und kritischen Zeiten, so viel schätzbares, großes und heiliges auf Erden 
+               zusammenhängt, durch die äußerste Anstrengung aller meiner Kräfte, einige nützliche Dienste leisten zu können. Nur in 
+               so fern als dies mir gelingt, bitte ich EwrKönigliche Hoheit mir Ihren Allerhöchsten Beifall und Ihre allesbelebende 
+               Gnade zu verheißen, bis dahin aber mit huldreichem Wohlwollen die guten Vorsätze, die ich Allerhöchstdenselben zu 
+               sFüßen lege, und den Ausdruck des tiefsten Respekts aufzunehmen, in welchem ich verharre
+            </p>
+         </div>
+         <closer>
+            <salute rend="right">Ewr. Königlichen Hoheit</salute>
+            <salute rend="right">untertänigster treu-gehorsamster</salute>
+            <dateline rend="left"><rs type="place" ref="#plWi">Wien</rs> den <date when-iso="1802-09-10">10<span rend="sup">ten</span> September 1802</date>.</dateline>
+            <signed rend="right">Gentz.</signed>
+         </closer>
+      </body>
+   </text>
+</TEI>

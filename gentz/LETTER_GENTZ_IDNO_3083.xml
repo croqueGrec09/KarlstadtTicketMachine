@@ -1,0 +1,280 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader type="text">
+      <fileDesc xml:id="LETTER_GENTZ_3083">
+         <titleStmt>
+            <title>Friedrich von Gentz an Elisabeth Graun, 8. März 1788</title>
+            <editor xml:id="edAG">Andreas Gálffy</editor>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <name>Forschungsstelle "Universitätssammlung Friedrich von Gentz"</name>
+               <link target="http://gentz-digital.ub.uni-koeln.de http://www.ub.uni-koeln.de/cdm/singleitem/collection/gentz/id/3082/"/>
+            </publisher>
+            <pubPlace>Cologne</pubPlace>
+            <idno type="Gentz-Edition-Number" n="3083"/>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <country>Poland</country>
+                  <settlement>Cracow</settlement>
+                  <institution>Biblioteka Jagiellońska</institution>
+                  <repository>Handschriftenabtelung</repository>
+                  <collection>Varnhagensammlung der ehemaligen Preußischen Bibliothek</collection>
+                  <idno>Karton 66</idno>
+               </msIdentifier>
+               <msContents>
+                  <summary>
+                     Ein Schreiben der Frau Graun hat Gentz in Aufruhr versetzt, vor allem, da er nicht direkt an ihn, sondern über 
+                     Umwege zu ihm gelangt ist. Die Verzögerung hat Gentz zutiefst getroffen und beleidigt. Der Grund des Scheiterns 
+                     waren Gerüchte; Gentz stellt klar, dass keine Gerüchte für ihn auch nur die geringste bedeutung hätten. Die 
+                     Vergangenheit sei vergessen, Frau Graun ist Gentz' Lebensglück. In diesem Sinne möchte er das Band zwischen den 
+                     beiden erneuern. Dies ist - mit Stand Januar 2018 - der letzte Brief in Gentz digital, den Gentz mit "Gentze" 
+                     signiert hat.
+                  </summary>
+               </msContents>
+            </msDesc>
+            <listBibl type="preprints">
+               <biblStruct>
+                  <monogr>
+                     <editor>
+                        <persName>
+                           <ref target="http://d-nb.info/gnd/130953075"/>
+                           <forename>Friedrich Carl</forename>
+                           <surname>Wittichen</surname>
+                        </persName>
+                        <persName>
+                           <ref/> <!-- kein GND-Eintrag -->
+                           <forename>Ernst</forename>
+                           <surname>Salzer</surname>
+                        </persName>
+                     </editor>
+                     <title>Briefe von und an Friedrich von Gentz. 4 Bde.</title>
+                     <imprint>
+                        <publisher>Oldenbourg</publisher>
+                        <pubPlace>München, Berlin</pubPlace>
+                        <date>1909-1913</date>
+                     </imprint>
+                     <biblScope unit="volume" n="1">
+                        I
+                     </biblScope>
+                     <biblScope unit="page" from="108" to="110">
+                        Nr. 26 (falsche Datierung)
+                     </biblScope>
+                  </monogr>
+               </biblStruct>
+            </listBibl>
+            <listBibl type="letterReferenced">
+               <bibl xml:id="c3083-1" corresp="#LETTER_GENTZ_NNNN">nicht bekannter Brief von Elisabeth Graun an Friedrich von Gentz, 13. Februar 1788</bibl>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Masterarbeit zu Matrikelnummer 5584124</p>
+         </projectDesc>
+      </encodingDesc>
+      <profileDesc>
+         <creation>
+            <date when-iso="1788-03-08">8. März 1788</date>
+         </creation>
+        <langUsage>
+           <language ident="d">deutsch</language>
+        </langUsage>
+         <textClass>
+            <keywords scheme="internal"><!-- internal: innerhalb des besagten Briefs -->
+               <term>Brief</term>
+               <term>Graun</term>
+               <term>Sehnsucht</term>
+               <term>Gerüchte</term>
+            </keywords>
+            <keywords scheme="categorisation"><!-- Sinnabschnittseinteilung - relevant für den Fahrkartenautomaten! -->
+               <term xml:id="veg">Verhältnis Elisabeth Graun</term>
+               <term xml:id="krrg">Regierungsrat Graun</term>
+            </keywords>
+         </textClass>
+         <textDesc>
+            <channel>manuscript</channel>
+            <constitution type="single"/>
+            <derivation type="original"/>
+            <domain type="private"/>
+            <factuality type="fact"/>
+            <interaction type="partial"/>
+            <preparedness type="prepared"/>
+            <purpose type="inform"/>
+         </textDesc>
+         <particDesc>
+            <listPerson>
+               <!-- Sender und Adressat -->
+               <person role="sender" xml:id="Gen">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/118538489"/>
+                     <forename>Friedrich von</forename>
+                     <surname>Gentz</surname>
+                  </persName>
+               </person>
+               <person role="receiver" xml:id="Gra">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/123518733"/>
+                     <forename>Elisabeth</forename>
+                     <surname>Graun</surname>
+                  </persName>
+               </person>
+               <!-- erwähnte Personen -->
+               <person role="named" xml:id="Geo">
+                  <persName>
+                     <ref/>
+                     <forename/>
+                     <surname>George</surname>
+                  </persName>
+               </person>
+               <person role="named" xml:id="RHa">
+                  <persName>
+                     <ref/>
+                     <forename>Regina</forename>
+                     <surname>geb. Hartung</surname>
+                  </persName>
+               </person>
+               <person role="named" xml:id="Hgr">
+                  <persName>
+                     <ref/>
+                     <forename>Hannchen</forename>
+                     <surname>Graun</surname>
+                     <roleName type="family">Schwiegermutter der Elisabeth Graun</roleName>
+                  </persName>
+               </person>
+               <person role="named" xml:id="RRGra">
+                  <persName>
+                     <ref/><!-- kein GND-Eintrag -->
+                     <forename>Karl Heinrich</forename>
+                     <surname>Graun</surname>
+                     <roleName type="office">Regierungsrat</roleName>
+                  </persName>
+               </person>
+               <person role="named" xml:id="crl">
+                  <persName>
+                     <ref/><!-- kein GND-Eintrag -->
+                     <forename>Carl</forename>
+                     <surname/>
+                     <roleName type="family">Bruder von Elisabeth Graun</roleName>
+                  </persName>
+               </person>
+            </listPerson>
+         </particDesc>
+         <settingDesc>
+            <listPlace>
+               <!-- Start- und Zielort -->
+               <place type="sender" xml:id="plBe">
+                  <country>
+                     <ref target="http://d-nb.info/gnd/4047194-9"/>
+                     <placeName>Preußen</placeName>  
+                  </country>
+                  <settlement>
+                     <ref target="http://d-nb.info/gnd/4005728-8"/>
+                     <placeName>Berlin</placeName>
+                  </settlement>
+               </place>
+               <place type="receiver" xml:id="plKo">
+                  <country>
+                     <ref target="http://d-nb.info/gnd/4047194-9"/>
+                     <placeName>Preußen</placeName>  
+                  </country>
+                  <settlement>
+                     <ref target="http://d-nb.info/gnd/4031541-1"/>
+                     <placeName>Königsberg</placeName>
+                  </settlement>
+               </place>
+               <!-- erwähnte Orte -->
+            </listPlace>
+         </settingDesc>
+      </profileDesc>
+      <revisionDesc>
+         <change xml:id="init" when-iso="2018-01-28" who="#edAG">Erstauszeichnung und Normierung des Dokumentes im Rahmen der Masterarbeit der Matrikelnummer 5584124</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div n="1" corresp="#veg">
+            <p>
+               Mit einer unbeschreiblichen Bewegung, theure, liebe Freundinn ! o Sie ! meine Zuflucht und mein Trost in allen 
+               Situationen meines Lebens - mit einer unbeschreiblichen Bewegung lese ich in diesem Augenblick, die wenigen Zeilen, 
+               die Ihre Hand mir endlich einmal wieder schenkte, und bin außer mir vor Freude, daß Sie jetzt schon meinen Brief in 
+               Händen haben, der alle Ihre unglückliche Zweifel zerstreuen wird.
+            </p>
+            <p>
+               Ich weis nicht, wie lange <rs type="citation" ref="#c3083-1">dieser kleine Brief von Ihnen</rs> schon in 
+               <rs type="place" ref="#plBe">Berlin</rs> ist. Er ist vom <date when-iso="1788-02-13">13ten Februar</date>, und 
+               dies giebt mir den Verdacht, daß <rs type="person" ref="#crl">Ihr nachläßiger Bruder Carl</rs>, mich eine ganze 
+               Zeit lang schon darum gebracht hat. <date when-iso="1788-03-07">Gestern</date> traf ich ihn bey 
+               <rs type="person" ref="#RRGra">Ihrem Mann</rs>; er gestand, daß er schon, 
+               <emph rend="underlined">seit einigen Tagen</emph>, für mich 
+               <rs type="citation" ref="#c3083-1">einen Brief von Ihnen</rs> hätte, er hätte ihn aber vergeßen mitzubringen. 
+               Gott ! was ich zusammenfuhr ! ich hätte den kleinen Menschen gern zerknirschen mögen, über seine schändliche 
+               Gleichgültigkeit. <date when-iso="1788-03-08">Heute</date> schicke ich denn in aller Frühe zu ihm, und eben jetzt 
+               erhalte ich <rs type="citation" ref="#c3083-1">Ihren Brief</rs>, der bey ihm zum allerwenigsten, 
+               <date when-iso="1788-02-29">über 8 Tage</date> gelegen hat. Schreiben Sie mir doch, ums Himmels willen, nie mehr auf 
+               diesem langweiligen Wege ! Warum adressiren Sie nicht lieber Ihren Brief geradezu an mich ? <pb/>
+            </p>
+            <p>
+               Ist es aber nicht sehr sonderbar, daß ich, ohne zu wißen daß ein Brief von Ihnen an mich unterwegens war, gerade zu 
+               derselben Zeit an Sie schreibe ? daß unsre Herzen, die so lange ganz todt für einander zu seyn schienen, sich auf 
+               einmal in <emph rend="underlined">einer</emph> Zeit, gleich als wenn <emph rend="underlined">eine</emph> geheime 
+               Ahndung, <emph rend="underlined">ein</emph> wohlthätiger Geist sie belebte, so mächtig, so reich, gegen einander 
+               öfnen. O Gott ! diese wenige Zeilen ziehe ich fast allen Ihren andern Briefen vor. Glücklich seyn, ist noch nichts: 
+               aber aus einer langen Reihe unglücklicher, wilder, fremder Begebenheiten, wie aus einem unruhigen Kranken-Schlafe zu 
+               erwachen, und sich dann wieder glücklich zu fühlen, das ist unendlich viel, und das empfinde ich jetzt.
+            </p>
+            <p>
+               Nein ! Nein ! ich habe nichts, gar nichts verlohren, da ich Ihre Freundschaft noch besitze. - O ! meine Freundinn ! 
+               mit größrer Empfindung habe ich nie an Sie gedacht, nie an Sie geschrieben: die Thränen benehmen mir alle Gedanken: 
+               es ist mir, als wenn ich Sie nach dem Tode wieder fände. -
+            </p>
+            <p>
+               Aber ich will leben, von neuem leben, da ich wieder mit Ihnen - o laßen Sie mich doch im Gefühl meiner 
+               Glückseeligkeit, was ich so lange entbehrt habe, hinzusetzen für Sie leben darf. Einzige Freundinn ! die Welt <pb/> 
+               hatte nur eine wahre Freude für mich. Sie haben sie mir wieder geschenkt; nur Einen Sonnenstrahl in aller dieser 
+               matten Dämmerung abgeschmackter Vergnügungen, und unbefriedigender Gefühle, nur einen Sonnenstrahl: o Himmel ! und 
+               der erleuchtet jetzt wieder meine Seele.
+            </p>
+            <p>
+               Was sprechen Sie von Demüthigung: Reine, erhabne Frau ! glauben Sie, daß in meinen Augen, irgend ein böses Gerücht, 
+               was Sie angeht, die geringste Realität hat ? Was sprechen Sie von: <emph rend="underlined">Parthie nehmen</emph>: 
+               meynen Sie denn, daß in der unbegränzten Verehrung, die jeder der es vor mir wagt, Ihren Nahmen zu nennen, in meiner 
+               Mien lesen, im Ton meiner Stimme hören, in jedem meiner Worte erkennen muß, nicht alles das liegt, was jeden 
+               Verläumder augenblicklich verstummen laßen muß ? In meiner Gegenwart, hat man es nur ein einziges Mal gewagt, Sie 
+               anzugreifen: zum Trost für Sie; daß Ihnen dieser Angriff unschädlich war, und 
+               <emph rend="underlined">höchst gleichgültig</emph> seyn kan: Aber weh mir ! weh <emph rend="underlined">mir</emph>, 
+               daß ich ihn anhören mußte, - und - daß ich Sie nicht vertheidigen durfte - Dies traurige Räthsel gehört nicht für 
+               die Entwicklung eines Briefes - am wenigsten für den gegenwärtigen.
+            </p>
+            <p>
+               Vergeßen sey die Vergangenheit, wie sie verschwunden ist ! Laßen Sie uns für die Zukunft leben, und glücklich <pb/> 
+               leben. Ich kan nie ganz unglücklich werden, so lange ich Sie noch in der Welt weis: kan ich durch die Anspannung 
+               meiner letzten Kräfte zu Ihrer Glückseeligkeit beytragen, so wollte ich sie daran wagen. O laßen Sie mich 
+               hinzusetzen, was ich, selbst im heftigsten Rausch der Liebe nie gesagt habe, um den Schein übertriebner 
+               Leidenschaften zu vermeiden: Ich könnte sterben für Sie, wenn ich Sie glücklich zu machen wüste.
+            </p>
+            <p>
+               Hier sey also aufs neue stärker, lebhafter als jemals, in aller frischen Schönheit ihrer ersten Entstehung, unsre 
+               unvergängliche Freundschaft beschworen. Aus den wenigen Zeilen Ihrer Hand die hier vor mir liegen, sehe ich schon, 
+               daß Sie dies neue Bündniß eingehen werden. Und nun - nun soll es auch, wenigstens in meiner Brust, blos dem Tode 
+               weichen. Den Schluß Ihres Briefes: 
+               <cit corresp="#c3083-1">
+                  <quote>
+                     <emph rend="italic">auch wenn Sie es nicht mehr, wie sonst, wünschten,</emph>
+                  </quote>
+               </cit>
+               - vergebe ich Ihnen. Ich selbst habe ihn durch mein Betragen diktirt: ich allein bin die Ursach, ich allein trage 
+               die ganze Schuld, der gewaltigen Trennung, die zwischen uns entstanden war. Ich will sie mein ganzes Leben hindurch 
+               auszubüßen suchen. Schreiben Sie mir bald, und laßen Sie die glücklichen Empfindungen, die Sie in mir aufs neue 
+               angezündet haben, nicht erkalten. O Gott ! wie wäre das aber möglich ?
+            </p>
+         </div>
+         <closer>
+            <signed rend="right">Gentze.</signed>
+            <dateline rend="right"><rs type="place" ref="#plBe">Berlin</rs> den <date when-iso="1788-03-08">8<span rend="sup">ten</span> Märtz. 1788.</date></dateline>
+         </closer>
+      </body>
+   </text>
+</TEI>

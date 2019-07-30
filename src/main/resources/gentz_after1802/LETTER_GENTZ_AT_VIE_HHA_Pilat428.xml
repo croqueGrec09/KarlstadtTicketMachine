@@ -1,0 +1,584 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc xml:id="LETTER_GENTZ_18221026">
+            <titleStmt>
+                <title>An Joseph Anton von Pilat, 25./26. Oktober 1822</title>
+                <editor xml:id="edSB">Sarah Boll</editor>
+                <editor xml:id="edAS">Anna Schulz</editor>
+                <editor xml:id="edAG">Andreas Gálffy</editor>
+                <editor xml:id="edMS">Max Supplieth</editor>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>Team der neuen Gentz-Edition</publisher>
+                <pubPlace>Cologne</pubPlace>
+                <distributor>Universität zu Köln</distributor>
+                <idno type="Gentz-Edition-Number" n="1234a"/>
+                <availability>
+                    <licence>CC-BY-SA</licence>
+                </availability>
+                <date when="2013-11-13">13. November 2013</date> <!-- Offizielles Publikationsdatum -->
+            </publicationStmt>
+            <sourceDesc n="original">
+                <msDesc>
+                    <msIdentifier>
+                        <country>Austria</country>
+                        <settlement>Vienna</settlement>
+                        <institution>Haus-, Hof- und Staatsarchiv</institution>
+                        <repository>Nachlaß Pilat</repository>
+                        <collection>Bündel 1822-1825</collection>
+                        <idno>428</idno>
+                    </msIdentifier>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <creation>
+                <date when-iso="1822-10-26">26. Oktober 1822</date>
+            </creation>
+            <langUsage>
+                <language ident="d">deutsch</language>
+            </langUsage>
+            <textClass>
+                <keywords scheme="">
+                    <term>Meldung</term>
+                    <term>Bericht</term>
+                    <term>Türkei</term>
+                    <term>Kongress</term>
+                    <term>Verona</term>
+                    <term>Flötenspieler</term>
+                    <term>Luxus-Gesetz</term>
+                    <term>Wirtschaftsblockade</term>
+                </keywords>
+            </textClass>
+            <textDesc n="letter">
+                <channel mode="w">manuscript</channel> <!-- medium -->
+                <constitution type="single"/> <!-- vollständig oder nicht vollständig oder ungewiss -->
+                <derivation type="original"/> <!-- text ist original -->
+                <domain type="private"/> <!-- privater Text oder öffentlicher Text -->
+                <factuality type="fact"/> <!-- fictional oder non-fictional -->
+                <interaction type="partial"/> <!-- findet eine Interaktion statt?  -->
+                <preparedness type="unprepared"/>  <!-- spontaner Brief  -->
+                <purpose type="inform"/> <!--Funktion des Textes  -->
+            </textDesc>
+            <settingDesc>
+                <listPlace>
+                    <!-- Start- und Zielort -->
+                    <place type="sender" xml:id="plVe">
+                        <country>
+                            <placeName>
+                                <ref target="http://d-nb.info/gnd/4027833-5">
+                                    Italien
+                                </ref>
+                            </placeName>
+                        </country>
+                        <settlement>
+                            <placeName>
+                                <ref target="http://d-nb.info/gnd/4063110-2">
+                                    Verona
+                                </ref>
+                            </placeName>   
+                        </settlement>
+                    </place>
+                    <place type="receiver" xml:id="plWi">
+                        <country>
+                            <placeName>
+                                <ref target="http://d-nb.info/gnd/4075613-0">
+                                    Österreich-Ungarn
+                                </ref>
+                            </placeName>
+                        </country>
+                        <settlement>
+                            <placeName>
+                                <ref target="http://d-nb.info/gnd/4066009-6">
+                                    Wien
+                                </ref>
+                            </placeName>
+                        </settlement>
+                    </place>
+                    <!-- erwähnte Orte -->
+                    <place type="named" xml:id="plMo">
+                        <country>
+                            <placeName>
+                                <ref target="http://d-nb.info/gnd/4075720-1">
+                                    Osmanisches Reich
+                                </ref>
+                            </placeName>
+                        </country>
+                        <settlement>
+                            <placeName>
+                                <ref target="http://d-nb.info/gnd/4045064-8">
+                                    Peloponnes
+                                </ref>
+                            </placeName>
+                        </settlement>
+                    </place>
+                    <!-- keine GND-Daten
+                    der Schul-Atlas der alten Welt von Johann Heinrich Möller, 1841, S. 10 schreibt Kisil-Hissar an den Ort Themisonium zu. 
+                    Die Wikipedia schreibt Themisonion in der Tat nach Phrygien, was in der Tat zum damaligen Osmanischen Reich gehörte und 
+                    somit örtlich der Kontext passt. -->
+                    <place type="named" xml:id="plKh">
+                        <country>
+                            <placeName>
+                                <ref target="http://d-nb.info/gnd/4075720-1">
+                                    Osmanisches Reich
+                                </ref>
+                            </placeName>
+                        </country>
+                        <settlement>
+                            <placeName>
+                                <ref>
+                                    Festung Kisil-Hissar, Themisonium, Phrygien
+                                </ref>
+                            </placeName>
+                        </settlement>
+                    </place>
+                    <!-- auch hier liegen keine GND-Daten vor.
+                    Die Wikipedia schreibt diesen Ort anderswo (Euböa) hin.
+                    Demnach kann er nicht die Festung Kisil-Hissar beinhalten! -->
+                    <place type="named" xml:id="plNe">
+                        <country>
+                            <placeName>
+                                <ref target="http://d-nb.info/gnd/4075720-1">
+                                    Osmanisches Reich
+                                </ref>
+                            </placeName>
+                        </country>
+                        <region>
+                            <placeName>
+                                <ref>
+                                    Negropont
+                                </ref>
+                            </placeName>
+                        </region>
+                    </place>
+                    <place type="named" xml:id="plEp">
+                        <country>
+                            <placeName>
+                                <ref target="http://d-nb.info/gnd/4075720-1">
+                                    Osmanisches Reich
+                                </ref>
+                            </placeName>
+                        </country>
+                        <region>
+                            <placeName>
+                                <ref target="http://d-nb.info/gnd/4091841-5">
+                                    Epirus
+                                </ref>
+                            </placeName>
+                        </region>
+                    </place>
+                    <place type="named" xml:id="plZa">
+                        <country>
+                            <placeName>
+                                <ref target="http://d-nb.info/gnd/4075720-1">
+                                    Osmanisches Reich
+                                </ref>
+                            </placeName>
+                        </country>
+                        <region>
+                            <placeName>
+                                <ref target="http://d-nb.info/gnd/4076964-1">
+                                    Zante
+                                </ref>
+                            </placeName>
+                        </region>
+                    </place>
+                    <!-- auch zu diesen zwei Orten gibt es keine GND-Einträge! -->
+                    <place type="named" xml:id="plAh">
+                        <country>
+                            <placeName>
+                                <ref target="http://d-nb.info/gnd/4075720-1">
+                                    Osmanisches Reich
+                                </ref>
+                            </placeName>
+                        </country>
+                        <region>
+                            <placeName>
+                                <ref>
+                                    Ahiska
+                                </ref>
+                            </placeName>                            
+                        </region>
+                    </place>
+                    <place type="named" xml:id="plAl">
+                        <country>
+                            <placeName>
+                                <ref target="http://d-nb.info/gnd/4075720-1">
+                                    Osmanisches Reich
+                                </ref>
+                            </placeName>
+                        </country>
+                        <region>
+                            <placeName>
+                                <ref>
+                                    Alkadzize
+                                </ref>
+                            </placeName>
+                        </region>
+                    </place>
+                    <place type="named" xml:id="plEr">
+                        <country>
+                            <placeName>
+                                <ref target="http://d-nb.info/gnd/4075720-1">
+                                    Osmanisches Reich
+                                </ref>
+                            </placeName>
+                        </country>
+                        <settlement>
+                            <placeName>
+                                <ref target="http://d-nb.info/gnd/4098059-5">
+                                    Erivan
+                                </ref>
+                            </placeName>
+                        </settlement>
+                    </place>
+                    <place type="named" xml:id="plRu">
+                        <country>
+                            <placeName>
+                                <ref target="http://d-nb.info/gnd/4076899-5">
+                                    Russland
+                                </ref>
+                            </placeName>
+                        </country>
+                    </place>
+                    <place type="named" xml:id="plEn">
+                        <country>
+                            <placeName>
+                                <ref target="http://d-nb.info/gnd/4022153-2">
+                                    England
+                                </ref>
+                            </placeName>
+                        </country>
+                    </place>
+                    <place type="named" xml:id="plTu">
+                        <country>
+                            <placeName>
+                                <ref target="http://d-nb.info/gnd/4075720-1">
+                                    Türkei
+                                </ref>
+                            </placeName>
+                        </country>
+                    </place>
+                    <place type="named" xml:id="plIn">
+                        <country>
+                            <placeName>
+                                <ref target="http://d-nb.info/gnd/4026722-2">
+                                    Indien
+                                </ref>
+                            </placeName>
+                        </country>
+                    </place>
+                    <place type="named" xml:id="plKo">
+                        <country>
+                            <placeName>
+                                <ref target="http://d-nb.info/gnd/4075720-1">
+                                    Osmanisches Reich
+                                </ref>
+                            </placeName>
+                        </country>
+                        <settlement>
+                            <placeName>
+                                <ref target="http://d-nb.info/gnd/4073697-0">
+                                    Konstantinopel
+                                </ref>
+                            </placeName>
+                        </settlement>
+                    </place>
+                </listPlace>
+            </settingDesc>
+            <particDesc>
+                <!-- Sender und Adressat -->
+                <person role="sender" xml:id="Gen">
+                    <persName>
+                        <ref target="http://d-nb.info/gnd/118538489">
+                            <forename>Friedrich von</forename>
+                            <surname>Gentz</surname>
+                        </ref>
+                    </persName>
+                </person>
+                <person role="receiver" xml:id="Pi">
+                    <persName>
+                        <ref target="http://d-nb.info/gnd/119432617">
+                            <forename>Joseph Anton von</forename>
+                            <surname>Pilat</surname>
+                        </ref>
+                    </persName>
+                </person>
+                <!-- im Brief erwähnte Menschen -->
+                <person role="named" xml:id="Kr">
+                    <persName>
+                        <ref target="http://d-nb.info/gnd/136414516">
+                            <forename>Karl</forename>
+                            <surname>Kreß von Kressenstein</surname>
+                        </ref>
+                    </persName>
+                </person>
+                <person role="named" xml:id="Se">
+                    <persName>
+                        <ref target="http://d-nb.info/gnd/130150630">
+                            <forename>Josef von</forename>
+                            <surname>Sedlintzky-Choltic</surname>
+                        </ref>
+                    </persName>
+                </person>
+                <person role="named" xml:id="We">
+                    <persName>
+                        <ref>
+                            <forename>Werner</forename>
+                        </ref>
+                    </persName>
+                </person>
+                <person role="named" xml:id="Me">
+                    <persName>
+                        <ref target="http://d-nb.info/gnd/118581465">
+                            <forename>Klemens Wenzel Nepomuk Lothar von</forename>
+                            <surname>Metternich</surname>
+                        </ref>
+                    </persName>
+                </person>
+                <person role="named" xml:id="Be">
+                    <persName>
+                        <ref target="http://d-nb.info/gnd/116147601">
+                            <forename>Albrecht von</forename>
+                            <surname>Bernstorff</surname>
+                        </ref>
+                    </persName>
+                </person>
+                <person role="named" xml:id="Str">
+                    <persName>
+                        <ref target="http://d-nb.info/gnd/100782639">
+                            <forename>Percy Clinton Sydney Smythe</forename>
+                            <surname>Strangford</surname>
+                        </ref>
+                    </persName>
+                </person>
+                <!-- lt. Wikipedia erhielt der hier referenzierte Herr 1816 das Beylik von Maina. Dementsprechend war 
+                er der Bey von Maina. Ggfs. bessere Referenz suchen! -->
+                <person role="named" xml:id="Bey">
+                    <persName>
+                        <ref>
+                            <forename>Petros</forename>
+                            <surname>Mavromichalis</surname>
+                        </ref>
+                    </persName>
+                </person>
+                <!-- Zit. nach: Die Begebenheiten des Jahres 1822, 1823 und 1824: 5 -->
+                <person role="named" xml:id="Yl">
+                    <persName>
+                        <ref>
+                            <forename>Elias</forename>
+                            <surname>Mavromichalis</surname>
+                        </ref>
+                    </persName>
+                </person>
+            </particDesc>
+        </profileDesc>
+        <revisionDesc>
+            <change when-iso="2016-08-07" who="#edAG #edMS">Normierung und weitere Auszeichnung des Dokumentes im Rahmen der Übung "WebApps und Textmining" im Hinblick auf die 
+                zukünftige Masterarbeit von Matrikelnummer 5584124</change>
+        </revisionDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic url="00000052.jpg" xml:id="seite1"/>
+        <graphic url="00000053.jpg" xml:id="seite2"/>
+        <graphic url="00000054.jpg" xml:id="seite3"/>
+        <graphic url="00000055.jpg" xml:id="seite4"/>
+        <graphic url="00000056.jpg" xml:id="seite5"/>
+        <graphic url="00000057.jpg" xml:id="seite6"/>
+        <graphic url="00000058.jpg" xml:id="seite7"/>
+    </facsimile>
+    <text>
+        <body>
+            <div>
+                <opener>
+                    <pb facs="#seite1"/>
+                    <dateline>Verona <date when-iso="1822-10-25">Freytag den 25.</date>Abends<lb/>
+                    um 8 Uhr.</dateline>
+                </opener>
+                <p>
+                    Ich schreibe Ihnen diesen Abend, weil ich nicht <lb/>
+                    weiß, ob ich morgen vor Abgang der Post irgend <lb/> 
+                    Zeit dazu finden würde. Viel habe ich Ihnen ohnehin <lb/>
+                    nicht zu sagen; indessen rechne ich mir zur Pflicht, <lb/>
+                    Ihnen wenigstens alle <choice><orig>zwey</orig><reg>zwei</reg></choice> Tage zu schreiben, damit <lb/>
+                    mein Stillschweigen Sie nicht beunruhige.<lb/>
+                </p>
+                <p>
+                    Ich habe diesen Morgen Ihre Sendung vom <lb/>
+                    <date when-iso="1822-10-17">17ten</date> durch <rs type="person" ref="#Kr">Kreß</rs> erhalten, <choice><orig>so daß</orig><reg>sodass</reg></choice> ich jetzt bis zum <date when-iso="1822-10-18">18ten</date> <lb/>
+                    <choice><abbr>incl.</abbr><expan>inclusiv</expan></choice> alles, was Sie mir zugeschickt, vollständig besitze.
+                </p>
+                <p>
+                    Etwas aufgefallen ist es mir allerdings, <lb/>
+                    mit welcher Zuversicht nicht nur Sie, sondern auch <lb/>
+                    <rs type="person" ref="#Se">Graf Sedlnitzky</rs> erwarteten, "<choice><orig>daß</orig><reg>dass</reg></choice> ein Artikel über <lb/> <!-- F. Fischer oder P. Sahle fragen! -->
+                    die letzten militärischen Ereignisse in <rs type="place" ref="#plMo">Morea</rs> schon <lb/>
+                    <choice><orig>unterwegens</orig><reg>unterwegs</reg></choice> <choice><orig>seyn</orig><reg>sein</reg></choice> <choice><orig>müßte</orig><reg>müsste</reg></choice>." Da die Berichte, aus welchen <lb/>
+                    ein solcher Artikel <choice><orig>fabrizirt</orig><reg>fabriziert</reg></choice> werden <choice><orig>mußte</orig><reg>musste</reg></choice>, <choice><orig>sämmtlich</orig><reg>sämtlich</reg></choice> <lb/>
+                    durch des <rs type="person" ref="#Se">Grafen <choice><abbr>Sedl.</abbr><expan>Sedlnitzkys</expan></choice></rs> Hände gegangen sind, so <choice><orig>mögte</orig><reg>möchte</reg></choice> <lb/>
+                    ich <choice><orig>wißen</orig><reg>wissen</reg></choice>, wo Er darin <emph rend="underlined">den Stoff</emph> zu einem solchen <lb/>
+                    Artikel gefunden hat. Wenn ich, trotz der Dürftigkeit <lb/>
+                    meiner Materialien einen Artikel dieser Art wirklich <lb/>
+                    geliefert habe, so war er die Frucht der größten An-<lb/>
+                    strengung, die man mir je <choice><orig>zumuthen</orig><reg>zumuten</reg></choice> konnte, oder besser, <lb/>
+                    die ich selbst mir je <choice><orig>zugemuthet</orig><reg>zugemutet</reg></choice> habe; ihn zu erwarten <pb facs="#seite2"/>
+                    hatte man in der <choice><orig>That</orig><reg>Tat</reg></choice> kein Recht; ob der von mir <lb/>
+                    eingesendete Sie <choice><orig>befriediget</orig><reg>befriedigt</reg></choice> haben wird, weiß ich nicht. <lb/>
+                    Ich aber habe sicher <choice><orig>gethan</orig><reg>getan</reg></choice>, was in meiner hiesigen Lage, <lb/>
+                    ohne den geringsten <choice><orig>Beystand</orig><reg>Beistand</reg></choice>, oder die geringste Ermunterung <lb/>
+                    (denn außer mir dachte ja Niemand an Türkische Artikel) <lb/>
+                    nur wahrer Eifer für die Sache, und beständige Rücksicht <lb/>
+                    auf das, was <emph rend="underlined">hinter</emph> uns zu beachten ist, möglich machen <lb/>
+                    konnte. 
+                </p>
+                <p>
+                    Ich schicke Ihnen hier einen von <rs type="person" ref="#Str">Strangford</rs> <emph rend="underlined">mir</emph> <lb/>
+                    <choice><orig>mitgetheilten</orig><reg>mitgeteilten</reg></choice> Bericht, immer noch vom <date when-iso="1822-09-25">25 <choice><abbr>Septbr</abbr><expan>Septembre</expan></choice></date> - woraus <lb/>
+                    Sie sehen werden, wie wenig sich über den gegenwärtigen <lb/>
+                    Stand der Dinge zwischen Türken und Griechen sagen <choice><orig>läßt</orig><reg>lässt</reg></choice>; <lb/>
+                    die Erklärung der Unfälle in <rs type="place" ref="#plMo">Morea</rs>, die in diesem <lb/>
+                    Bericht gegeben wird, ist wahrscheinlich die richtige; aber <lb/>
+                    dürfen <emph rend="underlined">wir</emph> sie dem Publikum vorsetzen ? Die Maßregeln <lb/>
+                    zur Wiederherstellung der Sache sind, wie es scheint, ganz <lb/>
+                    zweckmäßig; sollen <emph rend="underlined">wir</emph> aber auch nur Erwähnung <lb/>
+                    davon <choice><orig>thun</orig><reg>tun</reg></choice>, da <choice><orig>unsre</orig><reg>unsere</reg></choice> Feinde keinen <choice><orig>andern</orig><reg>anderen</reg></choice> <choice><orig>Schluß</orig><reg>Schluss</reg></choice> daraus <lb/>
+                    ziehen würden, als <choice><orig>daß</orig><reg>dass</reg></choice> es heute wenigstens mit den <lb/>
+                    Türken in <rs type="place" ref="#plMo">Morea</rs> sehr mittelmäßig steht ? Wir <choice><orig>müßen</orig><reg>müssen</reg></choice> <lb/>
+                    schweigen, und ich fürchte, wir werden jetzt ziemlich <lb/>
+                    lange schweigen <choice><orig>müßen</orig><reg>müssen</reg></choice>, es <choice><orig>müßte</orig><reg>müsste</reg></choice> denn die Post vom <lb/>
+                    <date when-iso="1822-10-10">10ten Oktober</date> ganz unerwartete Aufschlüsse bringen. <pb facs="#seite3"/>
+                </p>
+                <p>
+                    Sie bitten mich, ich soll Ihnen so viel als möglich <emph rend="underlined">vom <lb/>
+                    <choice><orig>Congreß</orig><reg>Kongress</reg></choice></emph> zuwenden. Es ist Ihr und mein Interesse, über diesen <lb/>
+                    Punkt alle falsche Hoffnungen zu beseitigen. Es wäre <choice><orig>thörigt</orig><reg>töricht</reg></choice>, von <lb/>
+                    den letzten Resultaten dieses <choice><orig>Congresses</orig><reg>Kongresses</reg></choice> jetzt sprechen zu wollen; <lb/>
+                    aber der Gang, den er nimmt, ist ein solcher, <choice><orig>daß</orig><reg>dass</reg></choice> an öffentliche <lb/>
+                    <choice><orig>Mittheilungen</orig><reg>Mitteilungen</reg></choice> sicher sobald nicht zu denken zu <choice><orig>sein</orig><reg>seyn</reg></choice> wird. <lb/>
+                    Sie <choice><orig>müßen</orig><reg>müssen</reg></choice> Sich die hiesigen <choice><orig>Conferenzen</orig><reg>Konferenzen</reg></choice> nicht anders vorstellen <lb/>
+                    als die welche in <rs type="place" ref="#plWi">Wien</rs> am Ahorn-Tische in dem Arbeits-Zimmer <lb/>
+                    des Fürsten <choice><orig>Statt fanden</orig><reg>stattfanden</reg></choice>. Das Unglück ist, <choice><orig>daß</orig><reg>dass</reg></choice>, Dank <choice><orig>sey</orig><reg>sei</reg></choice> es <lb/>
+                    der Unzahl der hier zusammen gepackten großen und kleinen <lb/>
+                    Diplomaten, <choice><orig>vermuthlich</orig><reg>vermutlich</reg></choice> nächstens grundfalsche Gerüchte über <lb/>
+                    die Verhandlungen in <rs type="place" ref="#plVe">Verona</rs> in Umlauf kommen werden. <lb/>
+                    Diesem Unglück ist aber <emph rend="underlined">vorher</emph> nicht zu begegnen; ob, und <lb/>
+                    wie man ihm zu seiner Zeit wird abhelfen können, das <choice><orig>muß</orig><reg>muss</reg></choice> <lb/>
+                    sich in der Folge ergeben. Die Lage der Geschäfte ist von der Art, <lb/>
+                    <choice><orig>daß</orig><reg>dass</reg></choice> sie zu gewagten <choice><orig>Conjekturen</orig><reg>Schlussfolgerungen</reg></choice> reichlichen Stoff darbieten <lb/>
+                    wird. Sie, und <choice><orig>andre</orig><reg>andere</reg></choice> vernünftige Leute, werden sich hoffentlich <lb/>
+                    zu übereilten Urteilen nicht hinreißen <choice><orig>laßen</orig><reg>lassen</reg></choice>. Mehr <choice><orig>kan</orig><reg>kann</reg></choice> ich <lb/>
+                    Ihnen wahrlich für jetzt nicht sagen. 
+                </p>
+                <p>
+                    Indem ich die Augen auf meinen Voluten-<lb/>
+                    Zettel werfe, bemerke ich, <choice><orig>daß</orig><reg>dass</reg></choice> der <emph rend="underlined">Ferman wider <lb/>
+                    den Luxus</emph> darauf steht. Diese Verordnung zu geben, halte <lb/>
+                    ich, schon ihrer bestialischen <choice><orig>Redaction</orig><reg>Redaktion</reg></choice> wegen, für ganz <choice><orig>unzuläßig</orig><reg>unzulässig</reg></choice>; <pb facs="#seite4"/>
+                    ich werde Ihnen aber, mit meinem nächsten Briefe, und <lb/>
+                    vielleicht (wenn es mir gelingt) noch mit diesem, einige kurze, <lb/>
+                    und nicht uninteressante Bemerkungen darüber <choice><orig>mittheilen</orig><reg>mitteilen</reg></choice>. <lb/>
+                    Ich habe die Piece nicht hier, will jedoch gleich <choice><orig>Morgen</orig><reg>morgen</reg></choice> früh <lb/>
+                    zu <rs type="person" ref="#We">Werner</rs> schicken, damit er sie mir schaffe. Sie sehen <lb/>
+                    wenigstens, <choice><orig>daß</orig><reg>dass</reg></choice> meine Bereitwilligkeit sich nie verleugnet. 
+                </p>
+                <p>
+                    Wie können Sie <emph rend="underlined">mir</emph> einen Flötenspieler <choice><orig>adressiren</orig><reg>adressieren</reg></choice> ? <lb/>
+                    Was <choice><orig>kan</orig><reg>kann</reg></choice> <emph rend="underlined">ich</emph> für einen Menschen dieser Art <choice><orig>thun</orig><reg>tun</reg></choice> ? - <rs type="person" ref="#Me">Der Fürst</rs> <lb/>
+                    will auch nicht viel von ihm hören, hat jedoch versprochen, im <lb/>
+                    Fall er ein <choice><orig>Conzert</orig><reg>Konzert</reg></choice> geben wollte - ihm <choice><orig>beyzustehen</orig><reg>beizustehen</reg></choice>.
+                </p>
+                <p>
+                    Diesen Abend ist die erste große <choice><orig>Soiree</orig><reg>Soirée</reg></choice> <choice><orig>beym</orig><reg>beim</reg></choice> <lb/>
+                    <rs type="person" ref="#Me">Fürsten</rs>, mit Musik und Gesang. Die halbe Stadt fährt <lb/>
+                    eben unter meinen Fenstern <choice><orig>vorbey</orig><reg>vorbei</reg></choice>. Ich habe heute einen schweren <lb/>
+                    Tag gehabt, den <rs type="person" ref="#Me">Fürsten</rs> erst kurz vor 8 Uhr <choice><orig>verlaßen</orig><reg>verlassen</reg></choice>, und <lb/>
+                    nicht die entfernteste Neigung an der Soirée <choice><orig>Theil zu nehmen</orig><reg>teilzunehmen</reg></choice>. <lb/>
+                    Ich war einige Tage sehr leidend an meinen Gliedern; seit <lb/>
+                    gestern wieder weniger; und Appetit und Schlaf bleiben, <lb/>
+                    Gottlob, <choice><orig>vortreflich</orig><reg>vortrefflich</reg></choice>. Meine einzige <choice><orig>Cur</orig><reg>Kur</reg></choice> ist, mich vor aller <lb/>
+                    <emph rend="underlined"><choice><orig>äußern</orig><reg>äußeren</reg></choice></emph> Bewegung und Agitation möglichst zu bewahren, des <lb/>
+                    Abends nie auszugehen, und sehr früh zu Bette. Von dem ganzen <lb/>
+                    Schwall der hier versammelten Menschen sind <rs type="person" ref="#Be">Bernstorff</rs> und <lb/>
+                    <rs type="person" ref="#Str">Strangford</rs>, <add place="above">ohnehin</add> die einzigen, die ich suchen würde, wenn sie nicht <lb/>
+                    die Güte hätten, zu mir zu kommen. Da ich aber einen großen <lb/>
+                    <choice><orig>Theil</orig><reg>Teil</reg></choice> des Tages <choice><orig>beym</orig><reg>beim</reg></choice> <rs type="person" ref="#Me">Fürsten</rs> zubringe, so sehe ich dort <choice><orig>freylich</orig><reg>freilich</reg></choice> <lb/>
+                    alles, was ich, gern oder nicht gern, ehen mag. 
+                </p>
+                <closer>
+                    <choice><orig><date when-iso="1822-09-26">26 <choice><abbr>Septbr</abbr><expan>Septembre</expan></choice>.</date></orig><corr><date when-iso="1822-10-26">26 <choice><abbr>Octbr</abbr><expan>Octobre</expan></choice>.</date></corr></choice>
+                </closer>
+                <postscript>
+                    <p>
+                        Ich habe gestern <lb/>
+                        richtig vorausgesehen, daß ich heute nichts mehr würde schreiben <lb/>
+                        können. Es bleibt mir nichts übrig als diesen Brief schnell <lb/>
+                        zumachen zu <choice><orig>laßen</orig><reg>lassen</reg></choice>. 
+                    </p>
+                    <signed rend="right">G.</signed>
+                </postscript>
+                <epigraph>
+                    <p>
+                        <emph rend="underlined">Turcica</emph>
+                        1. Der Kopf des Sohnes des <rs type="person" ref="#Bey">Bey von <lb/>
+                        Maina</rs>, <emph rend="underlined"><rs type="person" ref="#Yl">Ylia</rs></emph> wurde auf dem Serail <lb/>
+                        ausgesteckt, mit einem Yafta, woraus <lb/>
+                        ergeht, "<choice><orig>daß</orig><reg>dass</reg></choice> er mit 4 bis 5000 Mann <lb/>
+                        die <rs type="place" ref="#plKh">Festung Kisil-Hissar</rs> in <rs type="place" ref="#plNe">Negropont</rs> <lb/>
+                        <choice><orig>blockirt</orig><reg>blockiert</reg></choice> hatte, von dem Gouver-<lb/>
+                        neur derselben aber <add place="above">total</add> geschlagen, gefangen, <lb/>
+                        und enthauptet worden (NB. Ist zu <lb/>
+                        vergleichen mit dem, was von <lb/>
+                        einem Sohne desselben <rs type="person" ref="#Bey">Beys von Maina</rs> <lb/>
+                        der in <rs type="place" ref="#plEp">Epirus</rs> geblieben, in <rs type="place" ref="#plZa">Zante</rs> <lb/>
+                        <emph rend="underlined">begraben</emph> <choice><orig>seyn</orig><reg>sein</reg></choice> sollte, gesagt worden <lb/>
+                        ist. Der <rs type="person" ref="#Bey">Bey</rs> <choice><orig>kan</orig><reg>kann</reg></choice> <emph rend="underlined">mehrere</emph> Söhne <lb/>
+                        gehabt haben).
+                    </p>
+                    <p>
+                        2. Während die Türken von den Persern <lb/>
+                        viel gelitten, hat doch der Gouverneur von <emph rend="underlined"><rs type="place" ref="#plAh">Ahiska</rs></emph> (wahrscheinlicher <rs type="place" ref="#plAl">Alkadzize</rs> <lb/>
+                        oder so etwas an der Russisch-Persischen <pb facs="#seite5"/>
+                        Gränze) die Festung <emph rend="underlined"><rs type="place" ref="#plEr">Erivan</rs></emph> <lb/>
+                        eingenommen, die bekanntlich <lb/>
+                        fast ganz von <rs type="place" ref="#plRu">Russischem <lb/>
+                        Gebiet</rs> umschlossen ist. 
+                    </p>
+                    <p>
+                        3. Sollte nicht etwas über das neue <emph rend="underlined">Luxus-<lb/>
+                        Gesetz</emph> gesagt werden ? <lb/>
+                        Der Ferman selbst ist zu <lb/>
+                        bestialisch <choice><orig>stylisirt</orig><reg>verfasst</reg></choice>, als <choice><orig>daß</orig><reg>dass</reg></choice> <lb/>
+                        man ihn abdrucken könnte. <lb/>
+                        Aber die Sache ist höchst merk-<lb/>
+                        würdig. Das Haupt-Verbot ist <lb/>
+                        gegen <emph rend="underlined">Pelzwerke</emph> <rs type="place" ref="#plRu">(Rußland)</rs> - <lb/>
+                        und <emph rend="underlined">Shawls</emph> <rs type="place" ref="#plEn">(England)</rs> gerichtet, <lb/>
+                        und <choice><orig>bey</orig><reg>bei</reg></choice> dieser Gelegenheit <pb facs="#seite6"/>
+                        <choice><orig>ergiebt</orig><reg>ergibt</reg></choice> sich das sonderbare <lb/>
+                        Faktum <choice><orig>daß</orig><reg>dass</reg></choice> in der <rs type="place" ref="#plTu"><choice><orig>Türkey</orig><reg>Türkei</reg></choice></rs>- d. i. in <lb/>
+                        dem Lande aus welchem wir <choice><orig>andern</orig><reg>anderen</reg></choice> <lb/>
+                        unsre besten Shawls kommen <choice><orig>laßen</orig><reg>lassen</reg></choice> <lb/>
+                        - 7/8 aller Shawls von <rs type="place" ref="#plEn">Englischer</rs> <lb/>
+                        Fabrik sind; denn während die <lb/>
+                        <rs type="place" ref="#plTu">Türkischen</rs> und <rs type="place" ref="#plIn">Indischen</rs> Shawls <lb/>
+                        auch dort viel Geld kosten <lb/>
+                        liefern sie die <rs type="place" ref="#plEn">Engländer</rs> in <lb/>
+                        ungeheuren Quantitäten, das <lb/>
+                        Stück im Durchschnitt zu 36 Shilling. <lb/>
+                        - Man glaubt übrigens, <choice><orig>daß</orig><reg>dass</reg></choice> <lb/> 
+                        dieses Luxus-Gesetz von keiner <lb/>
+                        langen Dauer <choice><orig>seyn</orig><reg>sein</reg></choice> wird. Die <lb/>
+                        <choice><orig>Consternation</orig><reg>Bestürzung</reg></choice> die darüber in <rs type="place" ref="#plKo"><choice><abbr>Constant.</abbr><expan><choice><orig>Constantinopel</orig><reg>Konstantinopel</reg></choice></expan></choice></rs> <lb/>
+                        herrscht, ist nicht zu beschreiben.
+                    </p>
+                </epigraph>
+            </div>
+        </body>
+    </text>
+</TEI>
+
+

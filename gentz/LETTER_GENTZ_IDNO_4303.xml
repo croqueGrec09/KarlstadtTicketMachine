@@ -1,0 +1,355 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc xml:id="LETTER_GENTZ_4303">
+         <titleStmt>
+            <title>Friedrich von Gentz an Girolamo Lucchesini, 25. August 1800</title>
+            <editor xml:id="edAG">Andreas Gálffy</editor>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <name>Forschungsstelle "Universitätssammlung Friedrich von Gentz"</name>
+               <link target="http://gentz-digital.ub.uni-koeln.de http://www.ub.uni-koeln.de/cdm/singleitem/collection/gentz/id/4302/"/>
+            </publisher>
+            <pubPlace>Cologne</pubPlace>
+            <idno type="Gentz-Edition-Number" n="4303"/>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <country>Germany</country>
+                  <settlement>Berlin</settlement>
+                  <institution>Geheimes Staatsarchiv Preußischer Kulturbesitz</institution>
+                  <repository>I. HA, Rep 92</repository>
+                  <collection>Nachlaß Lucchesini, Nr. 27</collection>
+                  <idno>Bl. 43-44</idno>
+               </msIdentifier>
+               <msContents>
+                  <summary>
+                     Viel Arbeit mit Berechnungen beklagt Gentz am Anfang dieses Briefes; er hofft aber am kommenden Freitag, 
+                     Lucchesini etwas vorweisen zu können. Dann vermeldet Gentz interessante Neuigkeiten über die französischen 
+                     Finanzen. Am 23. August 1800 hat Gentz einen Brief erhalten, wonach eine Neuauflage seines Essays über die 
+                     englischen Finanzen in Paris veröffentlicht werden soll. Zum Abschluss wird der plötzliche und für Preußen 
+                     gravierende Tod Herrn Schülers vermeldet.
+                  </summary>
+               </msContents>
+            </msDesc>
+            <listBibl type="alludedWorks">
+               <bibl xml:id="a4303-1" corresp="#LETTER_GENTZ_NNNN">nicht näher benannte Ausgabe der Zeitung "Journal de Paris", keine Leseprobe</bibl>
+            </listBibl>
+            <listBibl type="defRep">
+               <biblStruct xml:id="p4303-1" corresp="GBk-0063">
+                  <analytic>
+                     <author>
+                        <persName>
+                           <ref target="http://d-nb.info/gnd/118538489"/>
+                           <forename>Friedrich von</forename>
+                           <surname>Gentz</surname>
+                        </persName>
+                     </author>
+                     <title>Uebersicht der Brittischen Finanzen im Jahre 1800.</title>
+                  </analytic>
+                  <monogr>
+                     <editor>
+                        <persName>
+                           <ref target="http://d-nb.info/gnd/118538489"/>
+                           <forename>Friedrich von</forename>
+                           <surname>Gentz</surname>
+                        </persName>
+                     </editor>
+                     <title>Historisches Journal</title>
+                     <imprint>
+                        <pubPlace>Berlin</pubPlace>
+                        <publisher>Heinrich Frölich</publisher>
+                        <date>1800</date>
+                     </imprint>
+                     <biblScope unit="volume" n="3">
+                        Dritter Band. September bis December
+                     </biblScope>
+                     <biblScope unit="page" from="408" to="492">
+                        S. 408-492
+                     </biblScope>
+                  </monogr>
+                  <ptr target="https://books.google.de/books?id=0k5BAAAAcAAJ"/>
+               </biblStruct>
+               <biblStruct xml:id="p4303-2" corresp="BSB-0016">
+                  <monogr>
+                     <author>
+                        <persName>
+                           <ref target="http://d-nb.info/gnd/118538489"/>
+                           <forename>Friedrich von</forename>
+                           <surname>Gentz</surname>
+                        </persName>
+                     </author>
+                     <title>Situation de la France et de l'Angleterre à la fin du 18.me siècle et réfutation de l'Essai sur les finances de la Grande Bretagne</title>
+                     <imprint>
+                        <pubPlace>Paris</pubPlace>
+                        <publisher>Libraires et Marchands de Nouveautés</publisher>
+                        <date>1800</date>
+                     </imprint>
+                  </monogr>
+                  <ptr target="http://www.mdz-nbn-resolving.de/urn/resolver.pl?urn=urn:nbn:de:bvb:12-bsb10405788-4"/>
+               </biblStruct>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Masterarbeit zu Matrikelnummer 5584124</p>
+         </projectDesc>
+      </encodingDesc>
+      <profileDesc>
+         <creation>
+            <date when-iso="1800-08-25">25. August 1800</date>
+         </creation>
+        <langUsage>
+           <language ident="f">französisch</language>
+        </langUsage>
+         <textClass>
+            <keywords scheme="internal"><!-- internal: innerhalb des besagten Briefs -->
+               <term>Brief</term>
+               <term>Finanzen</term>
+               <term>England</term>
+               <term>Essay</term>
+               <term>Neuauflage</term>
+            </keywords>
+            <keywords scheme="categorisation"><!-- Sinnabschnittseinteilung - relevant für den Fahrkartenautomaten! -->
+               <term xml:id="vgl">Verhältnis Girolamo Lucchesini</term>
+               <term xml:id="efgb">Essay über die Finanzen Großbritanniens</term>
+               <term xml:id="kpr">Preußen</term>
+            </keywords>
+         </textClass>
+         <textDesc>
+            <channel>manuscript</channel>
+            <constitution type="single"/>
+            <derivation type="original"/>
+            <domain type="private"/>
+            <factuality type="fact"/>
+            <interaction type="partial"/>
+            <preparedness type="prepared"/>
+            <purpose type="inform"/>
+         </textDesc>
+         <particDesc>
+            <listPerson>
+               <!-- Sender und Adressat -->
+               <person role="sender" xml:id="Gen">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/118538489"/>
+                     <forename>Friedrich von</forename>
+                     <surname>Gentz</surname>
+                  </persName>
+               </person>
+               <person role="receiver" xml:id="GirL">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/118780670"/>
+                     <forename>Girolamo</forename>
+                     <surname>Lucchesini</surname>
+                  </persName>
+               </person>
+               <!-- erwähnte Personen -->
+               <person role="named" xml:id="JJPLC">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/159696496"/>
+                     <forename>John Joshua Proby</forename>
+                     <surname>Carysfort</surname>
+                  </persName>
+               </person>
+               <person role="named" xml:id="FNRdPdC">
+                  <persName>
+                     <ref />
+                     <forename>François-Nicolas-René de</forename>
+                     <surname>Pérusse des Cars</surname>
+                  </persName>
+               </person>
+               <person role="named" xml:id="FCP">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/118790471"/>
+                     <forename>Friedrich Christoph</forename>
+                     <surname>Perthes</surname>
+                  </persName>
+               </person>
+               <person role="named" xml:id="PLRoe">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/119016486"/>
+                     <forename>Pierre-Louis</forename>
+                     <surname>Roederer</surname>
+                  </persName>
+               </person>
+               <person role="named" xml:id="CSA">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/101522835"/>
+                     <forename>Camille</forename>
+                     <surname>Saint-Aubin</surname>
+                  </persName>
+               </person>
+               <person role="named" xml:id="AMA">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/100017231" />
+                     <forename>Ambroise Marie</forename>
+                     <surname>Arnould</surname>
+                  </persName>
+               </person>
+               <person role="named" xml:id="Schue">
+                  <persName>
+                     <ref />
+                     <forename/>
+                     <surname>Schüler</surname>
+                  </persName>
+               </person>
+               <person role="named" xml:id="CvT">
+                  <persName>
+                     <ref />
+                     <forename>Charlotte von</forename>
+                     <surname>Tarrach</surname>
+                  </persName>
+               </person>
+               <person role="named" xml:id="FDdRdM">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/104275561"/>
+                     <forename>François Dominique de Reynaud de</forename>
+                     <surname>Montlosier</surname>
+                  </persName>
+               </person>
+            </listPerson>
+         </particDesc>
+         <settingDesc>
+            <listPlace>
+               <!-- Start- und Zielort -->
+               <place type="sender" xml:id="plBe">
+                  <country>
+                     <ref target="http://d-nb.info/gnd/4047194-9"/>
+                     <placeName>Preußen</placeName>
+                  </country>
+                  <settlement>
+                     <ref target="http://d-nb.info/gnd/4005728-8"/>
+                     <placeName>Berlin</placeName>
+                  </settlement>
+               </place>
+               <place type="receiver" xml:id="plMs">
+                  <country>
+                     <ref target="http://d-nb.info/gnd/4047194-9"/>
+                     <placeName>Preußen</placeName>
+                  </country>
+                  <region>
+                     <ref target="http://d-nb.info/gnd/4399096-4"/>
+                     <placeName>Kreis Meseritz</placeName>
+                  </region>
+               </place>
+               <!-- erwähnte Orte -->
+               <place type="named" xml:id="plEn">
+                  <country>
+                     <ref target="http://d-nb.info/gnd/4022153-2"/>
+                     <placeName>England</placeName>
+                  </country>
+               </place>
+               <place type="named" xml:id="plSb">
+                  <country>
+                     <ref target="http://d-nb.info/gnd/4047194-9"/>
+                     <placeName>Preußen</placeName>
+                  </country>
+                  <settlement>
+                     <ref target="http://d-nb.info/gnd/116944-0"/>
+                     <placeName>Schöneberg</placeName>
+                  </settlement>
+               </place>
+               <place type="named" xml:id="plPa">
+                  <country>
+                     <ref target="http://d-nb.info/gnd/4018145-5"/>
+                     <placeName>Frankreich</placeName>  
+                  </country>
+                  <settlement>
+                     <ref target="http://d-nb.info/gnd/4044660-8"/>
+                     <placeName>Paris</placeName>
+                  </settlement>
+               </place>
+               <place type="named" xml:id="plFr">
+                  <country>
+                     <ref target="http://d-nb.info/gnd/4018145-5"/>
+                     <placeName>Frankreich</placeName>  
+                  </country>
+               </place>
+            </listPlace>
+         </settingDesc>
+      </profileDesc>
+      <revisionDesc>
+         <change xml:id="init" when-iso="2018-03-06" who="#edAG">Erstauszeichnung und Normierung des Dokumentes im Rahmen der Masterarbeit der Matrikelnummer 5584124</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <opener>
+            <salute rend="left">Monsieur le Marquis !</salute>
+         </opener>
+         <div n="1" corresp="#vgl">
+            <p>
+               Je ne saurois cette fois-ci accompagner les papiers d'aucune réflexion particulière: cloué à mon bureau depuis trois 
+               jours, et entouré de <emph rend="underlined">chiffres</emph> (pour calculer l'état des finances de 
+               <rs type="place" ref="#plEn">l'Angleterre</rs> en 1800, sujet de 
+               <rs type="citation" ref="#p4303-1">mon cahier prochain</rs>) je n'ai pas été en ville depuis 
+               <date when-iso="1800-08-22">Vendredi</date>, où j'ai diné chez <rs type="person" ref="#JJPLC">Lord Carysfort</rs>, 
+               qui m'a assuré, que jusques-là rien ne paroissoit être changé. Je ne sais pas si le courier d'hier a apporté quelque 
+               nouvelle intéressante <add place="above">de Vienne</add>: mais je ne le crois pas, parce que 
+               <rs type="person" ref="#FNRdPdC">Monsieur d'Escars</rs> que j'ai vu un moment à 
+               <rs type="place" ref="#plSb">Schöneberg</rs>, et qui est toujours assez bien instruit, n'en savoit rien. Peut-être 
+               que <date when-iso="1800-08-29">Vendredi prochain</date> il y aura de quoi présenter à Votre Excellence quelques 
+               données ou quelques conjectures.
+            </p>
+         </div>
+         <div n="2" corresp="#efgb">
+            <p>
+               Les papiers François sont sur-tout remarquables par les nouvelles rigueurs contre les émigrés, et par la promesse de 
+               payer les rentes <emph rend="underlined">en numéraire</emph> dès le 
+               <date when-iso="1800-12-22">22 Décembre 1800</date>. J'espère éclaircir bientôt le <pb/> 
+               <emph rend="underlined">fonds</emph> de cette dernière mesure, qui, pour le coup, ne me ramenera pas encore à des 
+               estimations plus brillantes de leurs moyens de finance. - Au reste, je me trouverai bientôt engagé dans une guerre 
+               directe avec les financiers françois. Avant-hier j'ai reçu une lettre du 
+               <rs type="person" ref="#FCP">libraire Perthes</rs>, qui m'annonce <del rend="stroked">xxx</del> qu'on va publier à 
+               <rs type="place" ref="#plPa"><emph rend="underlined">Paris</emph></rs> une nouvelle édition de mon 
+               <rs type="citation" ref="#p4303-2"><emph rend="underlined">Essai sur les finances d'Angleterre</emph></rs>, 
+               acompagnée de notes de Messieurs <rs type="person" ref="#PLRoe"><emph rend="underlined">Röderer</emph></rs>, 
+               <rs type="person" ref="#CSA"><emph rend="underlined">St. Aubin</emph></rs>, et 
+               <rs type="person" ref="#AMA"><emph rend="underlined">Arnould</emph></rs> (les trois colonnes de l'économie politique 
+               en France). Aujourd'hui je vois cette nouvelle pleinement confirmée par le 
+               <rs type="citation" ref="#a4303-1"><emph rend="underlined">Journal de Paris</emph></rs>. Cependant malgré les combats 
+               <del rend="stroked">qui</del> qu'ils me livreront, je prévois, qu'en-général je serai extrêmement bien-traité; car 
+               Vous ne sauriez croire, Monsieur, avec quels égards, et dans quel ton ils ont parlé dans six feuilles du 
+               <rs type="citation" ref="#a4303-1">Journal de Paris</rs>, d'un ouvrage qui certainement ne devoit pas s'attendre à 
+               une reception aussi honorable, <emph rend="underlined">en <rs type="place" ref="#plFr">France</rs>!</emph>
+            </p>
+         </div>
+         <div n="3" corresp="#kpr">
+            <p>
+               Une nouvelle domestique qui a beaucoup effrayée est affligée <rs type="place" ref="#plBe">Berlin</rs>, et qui 
+               n'effrayera <pb/> pas moins Votre Excellence, est celle de la mort subite de 
+               <rs type="person" ref="#Schue">Monsieur <emph rend="underlined">Schüler</emph></rs>. 
+               <date when-iso="1800-08-21">Jeudi</date> passé après un diner qu'il a donné chez lui, <del rend="stroked">xxx</del> 
+               il a eu a 7 heures du soir, sans aucun symptome préalable, une attaque d'apoplexie, qui l'a tué sur le champ. C'est 
+               sous bien des rapports une perte très-grande.
+            </p>
+         </div>
+         <div n="4" corresp="#vgl">
+            <p>
+               Veuillez la grace présenter mes respects à <rs type="person" ref="#CvT">Madame la Marquise</rs>, et l'expression de 
+               la plus tendre amitié à Messieurs vos fils, et agréer favorablement l'hommage du dévouement sans bornes avec lequel 
+               je suis
+            </p>
+         </div>
+         <closer>
+            <salute rend="right">De Votre Excellence</salute>
+            <salute rend="right">le très-humble et très-</salute>
+            <salute rend="right">fidèle serviteur</salute>
+            <dateline rend="left"><rs type="place" ref="#plBe">Berlin</rs> <date when-iso="1800-08-25">25 Aout 1800</date>.</dateline>
+            <signed rend="right">Gentz.</signed>
+         </closer>
+         <postscript corresp="#vgl">
+            <p>
+               P.S. Je prie Votre Excellence de vouloir bien me renvoyer séparément, et avec la première lettre dont Elle m'honorera 
+               la feuille ci-jointe de <rs type="person" ref="#FDdRdM">Montlosier</rs>.
+            </p>
+         </postscript>
+      </body>
+   </text>
+</TEI>

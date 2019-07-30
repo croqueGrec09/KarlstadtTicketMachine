@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc xml:id="LETTER_GENTZ_0175">
+         <titleStmt>
+            <title>Friedrich von Gentz an Adam Müller, Juli 1801</title>
+            <editor xml:id="edAG">Andreas Gálffy</editor>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <name>Forschungsstelle "Universitätssammlung Friedrich von Gentz"</name>
+               <link target="http://gentz-digital.ub.uni-koeln.de http://www.ub.uni-koeln.de/cdm/singleitem/collection/gentz/id/174/"/>
+            </publisher>
+            <pubPlace>Cologne</pubPlace>
+            <idno type="Gentz-Edition-Number" n="0175"/>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <country>Germany</country>
+                  <settlement>Marbach am Neckar</settlement>
+                  <institution>Schiller-Nationalmuseum / Deutsches Literaturarchiv</institution>
+                  <repository>Sammlung Hauff-Kölle</repository>
+                  <idno>Nr. 34771</idno>
+               </msIdentifier>
+               <msContents>
+                  <summary>
+                     Müller kann Imhofs Genealogia Brittanica und Germanica erhalten und soll die Druckfehleranzeige schicken. 
+                     Nach seinem Essen wird sich Gentz bei Müller einfinden.
+                  </summary>
+               </msContents>
+            </msDesc>
+            <listBibl type="defExpr">
+               <bibl xml:id="e0155-1" corresp="#LETTER_GENTZ_NNNN">John Imhofs Genealogia Brittanica, keine Leseprobe</bibl>
+               <bibl xml:id="e0175-2" corresp="#LETTER_GENTZ_NNNN">John Imhofs Genealogia Germanica, keine Leseprobe</bibl>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Masterarbeit zu Matrikelnummer 5584124</p>
+         </projectDesc>
+      </encodingDesc>
+      <profileDesc>
+         <creation>
+            <date when-iso="1801-07-00">Juli 1801</date>
+         </creation>
+        <langUsage>
+           <language ident="d">deutsch</language>
+        </langUsage>
+         <textClass>
+            <keywords scheme="internal"><!-- internal: innerhalb des besagten Briefs -->
+               <term>Billet</term>
+               <term>Druckfehler</term>
+               <term>Treffen</term>
+               <term>Werk</term>
+            </keywords>
+            <keywords scheme="categorisation"><!-- Sinnabschnittseinteilung - relevant für den Fahrkartenautomaten! -->
+               <term xml:id="bibl">Bibliothek</term>
+               <term xml:id="lvm">Literatur vermischt</term>
+               <term xml:id="vam">Verhältnis Adam Müller</term>
+            </keywords>
+         </textClass>
+         <textDesc>
+            <channel>manuscript</channel>
+            <constitution type="single"/>
+            <derivation type="original"/>
+            <domain type="private"/>
+            <factuality type="fact"/>
+            <interaction type="partial"/>
+            <preparedness type="unprepared"/>
+            <purpose type="inform"/>
+         </textDesc>
+         <particDesc>
+            <listPerson>
+               <!-- Sender und Adressat -->
+               <person role="sender" xml:id="Gen">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/118538489"/>
+                     <forename>Friedrich von</forename>
+                     <surname>Gentz</surname>
+                  </persName>
+               </person>
+               <person role="receiver" xml:id="AHM">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/118584790"/>
+                     <forename>Adam Heinrich</forename>
+                     <surname>Müller</surname>
+                  </persName>
+               </person>
+               <!-- erwähnte Personen -->
+               <person role="named" xml:id="JIm">
+                  <persName>
+                     <ref />
+                     <forename>John</forename>
+                     <surname>Imhof</surname>
+                  </persName>
+               </person>
+            </listPerson>
+         </particDesc>
+         <settingDesc>
+            <listPlace>
+               <!-- Start- und Zielort -->
+               <place type="sender" xml:id="plBe">
+                  <country>
+                     <ref target="http://d-nb.info/gnd/4047194-9"/>
+                     <placeName>Preußen</placeName>
+                  </country>
+                  <settlement>
+                     <ref target="http://d-nb.info/gnd/4005728-8"/>
+                     <placeName>Berlin</placeName>
+                  </settlement>
+               </place>
+               <!-- erwähnte Orte -->
+               <place type="named" xml:id="plSb">
+                  <country>
+                     <ref target="http://d-nb.info/gnd/4047194-9"/>
+                     <placeName>Preußen</placeName>
+                  </country>
+                  <settlement>
+                     <ref target="http://d-nb.info/gnd/116944-0"/>
+                     <placeName>Schöneberg</placeName>
+                  </settlement>
+               </place>
+            </listPlace>
+         </settingDesc>
+      </profileDesc>
+      <revisionDesc>
+         <change xml:id="init" when-iso="2018-03-08" who="#edAG">Erstauszeichnung und Normierung des Dokumentes im Rahmen der Masterarbeit der Matrikelnummer 5584124</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div n="1" corresp="#bibl">
+            <p>
+               Sie können jetzt, wenn Sie zu mir schicken wollen, <rs type="person" ref="#JIm">Imhof</rs>s 
+               <rs type="citation" ref="#e0175-1">Genealogia <emph rend="underlined">Brittanica</emph></rs> und 
+               <rs type="citation" ref="#e0175-2"><emph rend="underlined">Germanica</emph></rs> erhalten.
+            </p>
+         </div>
+         <div n="2" corresp="#lvm">
+            <p>
+               Wäre es irgend möglich, daß ich die Druckfehler-Anzeige noch vor 1 erhielte ?
+            </p>
+         </div>
+         <div n="3" corresp="#vam">
+            <p>
+               Noch bin ich nicht in <rs type="place" ref="#pLSb">Schöneberg</rs>, laße Ihnen aber Bescheid sagen, wenn ich 
+               herausgehe. Wahrscheinlich esse ich in Ihrer Nachbarschaft, und dann käme ich sogleich nach Tische zu Ihnen.
+            </p>
+         </div>
+         <closer>
+            <signed rend="right">Gentz</signed>
+         </closer>
+      </body>
+      <note xml:id="r0175-1">Adresse auf Seite 4</note>
+      <note xml:id="r0175-2">Seite 3: Siegelabdruck</note>
+   </text>
+</TEI>

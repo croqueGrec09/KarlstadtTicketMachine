@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc xml:id="LETTER_GENTZ_2917">
+         <titleStmt>
+            <title>Friedrich von Gentz an Karl Gustav von Brinckmann, 21. Oktober 1801</title>
+            <editor xml:id="edAG">Andreas Gálffy</editor>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <name>Forschungsstelle "Universitätssammlung Friedrich von Gentz"</name>
+               <link target="http://gentz-digital.ub.uni-koeln.de http://www.ub.uni-koeln.de/cdm/singleitem/collection/gentz/id/2916/"/>
+            </publisher>
+            <pubPlace>Cologne</pubPlace>
+            <idno type="Gentz-Edition-Number" n="2917"/>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <country>Sweden</country>
+                  <settlement>Trolle-Ljungby</settlement>
+                  <institution>Archiv des Grafen Wachtmeister</institution>
+                  <repository>Nachlaß Brinckmann, Ausländ. Briefwechsel, Gentz an von Brinckmann</repository>
+                  <idno>G 3</idno>
+               </msIdentifier>
+               <msContents>
+                  <summary>
+                     Das Mädchen von Orléans, geliehen von Fräulein Arnsteiner, und Rammlers Oden erbittet sich Gentz. Er fragt 
+                     auch, ob er am nächsten Tag bei dem schwedischen Gesandten zu Mittag essen dürfe.
+                  </summary>
+               </msContents>
+            </msDesc>
+            <listBibl type="defExpr">
+               <biblStruct xml:id="e2917-1" corresp="Gtb-0000">
+                  <monogr>
+                     <author>
+                        <persName>
+                           <ref target="http://d-nb.info/gnd/118607626"/>
+                           <forename>Friedrich</forename>
+                           <surname>Schiller</surname>
+                        </persName>
+                     </author>
+                     <title>Das Mädchen von Orléans</title>
+                     <imprint>
+                        <date>1801</date>
+                     </imprint>
+                  </monogr>
+               </biblStruct>
+            </listBibl>
+            <listBibl type="defRep">
+               <biblStruct xml:id="p2917-1" corresp="GBk-0070">
+                  <monogr>
+                     <author>
+                        <persName>
+                           <ref target="http://d-nb.info/gnd/119059614"/>
+                           <forename>Karl Wilhelm</forename>
+                           <surname>Ramler</surname>
+                        </persName>
+                     </author>
+                     <title>Lyrische Gedichte</title>
+                     <imprint>
+                        <pubPlace>Berlin</pubPlace>
+                        <publisher>Johann Thomas Edlen von Trattnern</publisher>
+                        <date>1783</date>
+                     </imprint>
+                  </monogr>
+                  <ptr target="https://books.google.de/books?id=imMWAQAAMAAJ"/>
+               </biblStruct>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Masterarbeit zu Matrikelnummer 5584124</p>
+         </projectDesc>
+      </encodingDesc>
+      <profileDesc>
+         <creation>
+            <date when-iso="1801-10-21">21. Oktober 1801</date>
+         </creation>
+        <langUsage>
+           <language ident="d">deutsch</language>
+        </langUsage>
+         <textClass>
+            <keywords scheme="internal"><!-- internal: innerhalb des besagten Briefs -->
+               <term>Billet</term>
+               <term>Arnsteiner</term>
+               <term>Rammler</term>
+               <term>Mittagessen</term>
+               <term>Treffen</term>
+            </keywords>
+            <keywords scheme="categorisation"><!-- Sinnabschnittseinteilung - relevant für den Fahrkartenautomaten! -->
+               <term xml:id="bibl">Bibliothek</term>
+               <term xml:id="kram">Rammler</term>
+               <term xml:id="bezbl">Beziehungen zu Berlin - Leute</term>
+            </keywords>
+         </textClass>
+         <textDesc>
+            <channel>manuscript</channel>
+            <constitution type="single"/>
+            <derivation type="original"/>
+            <domain type="private"/>
+            <factuality type="fact"/>
+            <interaction type="partial"/>
+            <preparedness type="prepared"/>
+            <purpose type="inform"/>
+         </textDesc>
+         <particDesc>
+            <listPerson>
+               <!-- Sender und Adressat -->
+               <person role="sender" xml:id="Gen">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/118538489"/>
+                     <forename>Friedrich von</forename>
+                     <surname>Gentz</surname>
+                  </persName>
+               </person>
+               <person role="receiver" xml:id="KGvB">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/116519770"/>
+                     <forename>Carl Gustav von</forename>
+                     <surname>Brinckmann</surname>
+                  </persName>
+               </person>
+               <!-- erwähnte Personen -->
+               <person role="named" xml:id="RVh">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/118626175"/>
+                     <forename>Rahel</forename>
+                     <surname>Varnhagen</surname>
+                  </persName>
+               </person>
+               <person role="named" xml:id="FvA">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/118504347" />
+                     <forename>Fanny von</forename>
+                     <surname>Arnstein</surname>
+                  </persName>
+               </person>
+               <person role="named" xml:id="LvEng">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/116504021"/>
+                     <forename>Lars von</forename>
+                     <surname>Engeström</surname>
+                  </persName>
+               </person>
+            </listPerson>
+         </particDesc>
+         <settingDesc>
+            <listPlace>
+               <!-- Start- und Zielort -->
+               <place type="sender" xml:id="plBe">
+                  <country>
+                     <ref target="http://d-nb.info/gnd/4047194-9"/>
+                     <placeName>Preußen</placeName>
+                  </country>
+                  <settlement>
+                     <ref target="http://d-nb.info/gnd/4005728-8"/>
+                     <placeName>Berlin</placeName>
+                  </settlement>
+               </place>
+               <!-- erwähnte Orte -->
+            </listPlace>
+         </settingDesc>
+      </profileDesc>
+      <revisionDesc>
+         <change xml:id="init" when-iso="2018-03-09" who="#edAG">Erstauszeichnung und Normierung des Dokumentes im Rahmen der Masterarbeit der Matrikelnummer 5584124</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div n="1" corresp="#bibl">
+            <p>
+               <rs type="person" ref="#FvA">Mlle. d'Arnsteiner</rs> versprach neulich, Ihnen und mir 
+               <rs type="citation" ref="#e2917-1"><emph rend="underlined">das Mädchen von Orleans</emph></rs> zu leihen. Können 
+               Sie nicht die Realisirung dieses Versprechens bewirken ?
+            </p>
+         </div>
+         <div n="2" corresp="#kram">
+            <p>
+               <rs type="citation" ref="#p2917-1">Ramlers Oden</rs> sind mir ganz unumgänglich nötig. Könnten Sie mir sie heute 
+               nicht <emph rend="underlined">auf eine Viertelstunde</emph> leihen ?
+            </p>
+         </div>
+         <div n="3" corresp="#bezbl">
+            <p>
+               Ich habe lange nicht bei dem <rs type="person" ref="#LvEng">Schwedischen Gesandten</rs> zu Mittag gegessen. 
+               Könnte ich dieses heute nicht thun ?
+            </p>
+         </div>
+         <closer>
+            <signed rend="right">Gentz.</signed>
+            <dateline rend="right"><date when-iso="1801-10-21">21 Octob. 801</date></dateline>
+         </closer>
+      </body>
+   </text>
+</TEI>

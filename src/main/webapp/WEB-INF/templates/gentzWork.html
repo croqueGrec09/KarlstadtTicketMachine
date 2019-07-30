@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+
+<html xmlns:th="http://www.thymeleaf.org">
+
+<head>
+
+<!-- JQuery -->
+<script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+<!-- Bootstrap CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" />
+<!-- Bootstrap JavaScript -->
+<script type="text/javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+<!-- DataTables CSS -->
+<link rel="stylesheet" href="https://cdn.datatables.net/v/bs4/dt-1.10.16/datatables.min.css" />
+<!-- DataTables JavaScript -->
+<script type="text/javascript" src="https://cdn.datatables.net/v/bs4/dt-1.10.16/datatables.min.js"></script>
+<script type="text/javascript" src="/js/gentzList.js"></script>
+<link rel="stylesheet" href="/css/gentzStyle.css" />
+<title>Werksansicht</title>
+
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+
+
+</head>
+<body>
+	<nav th:include="gentzNav :: gentzNav">...</nav>
+	<div class="container">
+		<div class="row">
+			<!-- alluded works -->
+			<div class="col-md-12" th:if="${work.bibl} != null">
+				<h1>angedeututes Werk</h1>
+				<h2 th:text="${work.bibl}">hinterlegter Eintrag</h2>
+			</div>
+			<!-- monographs -->
+			<div class="col-md-12" th:if="${work.bibl == null and work.titleAnaly == null and work.workTitle != null}">
+				<h1>Werksansicht</h1>
+				<h3 th:if="${!work.authors.empty}" th:text="${work.printEntityList('authors')}">Autoren des Werks</h3>
+				<h3 th:if="${!work.editors.empty}" th:text="${work.printEntityList('editors')}">Herausgeber des Werks</h3>
+				<h3 th:if="${!work.translators.empty}" th:text="${work.printEntityList('translators')}">Übersetzer des Werks</h3>
+				<h2 th:text="${work.workTitle}">Titel des Werks</h2>
+				<h4>Veröffentlicht:
+					<span th:if="${work.pubPlace != null and work.pubPlace != ''}" th:text="${work.pubPlace + ', '}"></span>
+					<span th:if="${work.publisher != null and work.publisher != ''}" th:text="${work.publisher + ', '}"></span>
+					<span th:if="${work.date != null and work.date != ''}" th:text="${work.date}"></span>
+				</h4>
+				<a th:href="${work.link}">Link zur Leseprobe</a>
+			</div>
+			<!-- analytic -->
+			<div class="col-md-12" th:if="${work.bibl == null and work.titleAnaly != null and work.workTitle != null}">
+				<h1>Teilwerksansicht</h1>
+				<h3 th:if="${!work.authorAnaly.empty}" th:text="${work.printEntityList('authorAnaly')}">Autoren des unselbstständigen Werks</h3>
+				<h3 th:if="${!work.editorAnaly.empty}" th:text="${work.printEntityList('editorAnaly')}">Herausgeber des unselbstständigen Werks</h3>
+				<h3 th:if="${!work.translatorAnaly.empty}" th:text="${work.printEntityList('translatorAnaly')}">Übersetzer des unselbstständigen Werks</h3>
+				<h2 th:text="${work.titleAnaly}">Titel des unselbstständigen Werks</h2>
+				<h4>Veröffentlicht:
+					<span th:if="${work.pubPlace != null and work.pubPlace != ''}" th:text="${work.pubPlace + ', '}"></span>
+					<span th:if="${work.publisher != null and work.publisher != ''}" th:text="${work.publisher + ', '}"></span>
+					<span th:if="${work.date != null and work.date != ''}" th:text="${work.date}"></span>
+				</h4>
+				<p>Veröffentlicht in:
+					<span th:if="${!work.authors.empty}" th:text="${work.printEntityList('authors')}">Autoren des selbstständigen Werks</span>
+					<span th:if="${!work.editors.empty}" th:text="${work.printEntityList('editors')}">Herausgeber des selbstständigen Werks</span>
+					<span th:if="${!work.translators.empty}" th:text="${work.printEntityList('translators')}">Übersetzer des selbstständigen Werks</span>
+					<span th:text="${work.workTitle}">Titel des selbstständigen Werks</span>
+					<span th:if="${work.volume != null and work.volume != ''}" th:text="${'Band ' + work.volume + ', '}">Band</span>
+					<span th:if="${work.issue != null and work.issue != ''}" th:text="${'Ausgabe ' + work.issue + ', '}">Ausgabe</span>
+					<span th:if="${work.pageRange[0] != null and work.pageRange[0] != ''}" th:text="${'S.' + work.pageRange[0] + '-' + work.pageRange[1]}">Seitenbereich</span>
+				</p>
+				<a th:href="${work.link}">Link zur Leseprobe</a>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-md-12">
+				<h2>Briefe, in denen auf dieses Werk verwiesen wird:</h2>
+				<table id="letterListTable">
+					<thead>
+						<tr>
+							<th>
+								Sender
+							</th>
+							<th>
+								Empfänger
+							</th>
+							<th>
+								Datum
+							</th>
+							<th>
+								Zusammenfassung
+							</th>
+						</tr>
+					</thead>
+					<tbody>
+						<tr th:each="letter: ${letters}" th:id="${letter.id}" th:include="letterListTableFragment :: letterListTable">
+							...
+						</tr>
+					</tbody>
+				</table>
+			</div>
+		</div>
+	</div>
+</body>
+</html>

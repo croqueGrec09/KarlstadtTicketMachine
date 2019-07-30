@@ -1,0 +1,506 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc xml:id="LETTER_GENTZ_4145">
+         <titleStmt>
+            <title>Friedrich von Gentz an Johann Matthias von Faßbender, 30. September 1802</title>
+            <editor xml:id="edAG">Andreas Gálffy</editor>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <name>Forschungsstelle "Universitätssammlung Friedrich von Gentz"</name>
+               <link target="http://gentz-digital.ub.uni-koeln.de http://www.ub.uni-koeln.de/cdm/singleitem/collection/gentz/id/4144/"/>
+            </publisher>
+            <pubPlace>Cologne</pubPlace>
+            <idno type="Gentz-Edition-Number" n="4145"/>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <country>Austria</country>
+                  <settlement>Vienna</settlement>
+                  <institution>Haus-, Hof- und Staatsarchiv</institution>
+                  <repository>Kabinettsarchiv, Faßbenderakten</repository>
+                  <collection>Fasz. XXVIII</collection>
+                  <idno>Bl. 456-459v</idno>
+               </msIdentifier>
+               <msContents>
+                  <summary>
+                     Das Abgehen Gentz' wurde in Berlin sehr bedauert. Um der kollektiven Bestürzung zu entgehen, trat Gentz seine 
+                     Rückreise langsam an. Zugleich mit der Schilderung bedankt sich für das Wohlwollen, das von Faßbender ihm 
+                     zugute kommen ließ. Er fährt fort mit der Beschreibung seiner bevorstehenden Reise nach London, zu der er von 
+                     Elliot eingeladen wurde. Diese Reise sieht er als Weg, seine finanzielle Lage in den Griff zu bekommen. Gentz 
+                     hat von diesem Vorhaben nur wenigen Leuten geschrieben und hofft, spätestens im Dezember wieder in Dresden zu 
+                     sein. Bedauerlicherweise konnte er den Erzherzog Karl nicht mehr antreffen.
+                  </summary>
+               </msContents>
+            </msDesc>
+            <listBibl type="preprints">
+               <biblStruct>
+                  <analytic>
+                     <author>
+                        <persName>
+                           <ref />
+                           <forename>Major</forename>
+                           <surname>Jacubenz</surname>
+                        </persName>
+                     </author>
+                     <title>Gentz und Fasbender. Ungedruckte Briefe aus der Zeit von 1802 bis 1808</title>
+                  </analytic>
+                  <monogr>
+                     <title>Mittelungen des k.k. Kriegsarchivs 3.</title>
+                     <imprint>
+                        <date>1911</date>
+                     </imprint>
+                     <biblScope unit="issue" n="7">
+                        Folge 7
+                     </biblScope>
+                     <biblScope unit="page" from="70" to="74">
+                        S. 70-74
+                     </biblScope>
+                  </monogr>
+               </biblStruct>
+            </listBibl>
+            <listBibl type="letterReferenced">
+               <bibl xml:id="c4145-1" corresp="#LETTER_GENTZ_1223">Friedrich von Gentz an Karl Gustav von Brinckmann, 11. August 1802</bibl>
+               <bibl xml:id="c4145-2" corresp="#LETTER_GENTZ_1605">Friedrich von Gentz an Johannes von Müller, 14. August 1802</bibl>
+               <bibl xml:id="c4145-3" corresp="#LETTER_GENTZ_3035">Friedrich von Gentz an Erzherzog Karl von Österreich, 10. September 1802</bibl>
+               <bibl xml:id="c4145-4" corresp="#LETTER_GENTZ_3347">Ludwig Graf von Cobentzl an Friedrich von Gentz, 10. September 1802</bibl>
+               <bibl xml:id="c4145-5" corresp="#LETTER_GENTZ_2279">Friedrich von Gentz an König Friedrich Wilhelm III. von Preußen, 26. September 1802</bibl>
+               <bibl xml:id="c4145-6" corresp="#LETTER_GENTZ_2323">Friedrich von Gentz an Hugh Elliot, 27. September 1802</bibl>
+               <bibl xml:id="c4145-7" corresp="#LETTER_GENTZ_2005">Friedrich von Gentz an Hugh Elliot, 27. September 1802A</bibl>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Masterarbeit zu Matrikelnummer 5584124</p>
+         </projectDesc>
+      </encodingDesc>
+      <profileDesc>
+         <creation>
+            <date when-iso="1802-09-10">10. September 1802</date>
+         </creation>
+        <langUsage>
+           <language ident="d">deutsch</language>
+        </langUsage>
+         <textClass>
+            <keywords scheme="internal"><!-- internal: innerhalb des besagten Briefs -->
+               <term>Brief</term>
+               <term>Ehrbrief</term>
+               <term>Arbeiten</term>
+            </keywords>
+            <keywords scheme="categorisation"><!-- Sinnabschnittseinteilung - relevant für den Fahrkartenautomaten! -->
+               <term xml:id="rs">Reise von 1802</term>
+               <term xml:id="brb">Bruch mit Berlin</term>
+               <term xml:id="bezl">Beziehungen zu London</term>
+               <term xml:id="gprl">Gentz - p(r)ekuniäre Lage</term>
+               <term xml:id="bezw">Beziehungen zu Wien</term>
+               <term xml:id="vjmvf">Johann Matthias von Faßbender</term>
+            </keywords>
+         </textClass>
+         <textDesc>
+            <channel>manuscript</channel>
+            <constitution type="single"/>
+            <derivation type="original"/>
+            <domain type="private"/>
+            <factuality type="fact"/>
+            <interaction type="partial"/>
+            <preparedness type="prepared"/>
+            <purpose type="inform"/>
+         </textDesc>
+         <particDesc>
+            <listPerson>
+               <!-- Sender und Adressat -->
+               <person role="sender" xml:id="Gen">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/118538489"/>
+                     <forename>Friedrich von</forename>
+                     <surname>Gentz</surname>
+                  </persName>
+               </person>
+               <person role="receiver" xml:id="JMvF">
+                  <persName>
+                     <ref />
+                     <forename>Johann Matthias von</forename>
+                     <surname>Faßbender</surname>
+                  </persName>
+               </person>
+               <!-- erwähnte Personen -->
+               <person role="named" xml:id="KCvBr">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/116553022"/>
+                     <forename>Karl Christian von</forename>
+                     <surname>Brockhausen</surname>
+                  </persName>
+               </person>
+               <person role="named" xml:id="HEl">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/1075473756"/>
+                     <forename>Hugh</forename>
+                     <surname>Elliot</surname>
+                  </persName>
+               </person>
+               <person role="named" xml:id="LvC">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/11769164X"/>
+                     <forename>Ludwig von</forename>
+                     <surname>Cobenzl</surname>
+                  </persName>
+               </person>
+               <person role="named" xml:id="LvSt">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/117216542"/>
+                     <forename>Ludwig von</forename>
+                     <surname>Starhemberg</surname>
+                  </persName>
+               </person>
+               <person role="named" xml:id="Mtj">
+                  <persName>
+                     <ref />
+                     <forename/>
+                     <surname>Montjoie-Froberg</surname>
+                     <roleName type="office">Graf</roleName>
+                  </persName>
+               </person>
+               <person role="named" xml:id="KEvO">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/118723049"/>
+                     <forename>Karl</forename>
+                     <surname/>
+                     <roleName type="office">Erzherzog von Österreich</roleName>
+                  </persName>
+               </person>
+               <person role="named" xml:id="Clry">
+                  <persName>
+                     <ref />
+                     <forename/>
+                     <surname>Clary</surname>
+                     <roleName type="office">Fürst</roleName>
+                  </persName>
+               </person>
+               <person role="named" xml:id="BFrnk">
+                  <persName>
+                     <ref />
+                     <forename/>
+                     <surname>Frank</surname>
+                     <roleName type="office">Baron</roleName>
+                  </persName>
+               </person>
+               <person role="named" xml:id="FBFrnk">
+                  <persName>
+                     <ref />
+                     <forename/>
+                     <surname>Frank</surname>
+                     <roleName type="family">Frau des Barons Frank</roleName>
+                  </persName>
+               </person>
+               <person role="named" xml:id="Flr">
+                  <persName>
+                     <ref />
+                     <forename/>
+                     <surname>Floret</surname>
+                  </persName>
+               </person>
+            </listPerson>
+         </particDesc>
+         <settingDesc>
+            <listPlace>
+               <!-- Start- und Zielort -->
+               <place type="sender" xml:id="plDd">
+                  <country>
+                     <ref target="http://d-nb.info/gnd/4051176-5"/>
+                     <placeName>Sachsen</placeName> 
+                  </country>
+                  <settlement>
+                     <ref target="http://d-nb.info/gnd/4012995-0"/>
+                     <placeName>Dresden</placeName>
+                  </settlement>
+               </place>
+               <place type="receiver" xml:id="plWi">
+                  <country>
+                     <ref target="http://d-nb.info/gnd/4075601-4"/>
+                     <placeName>Erzherzogtum Österreich</placeName>  
+                  </country>
+                  <settlement>
+                     <ref target="http://d-nb.info/gnd/4066009-6"/>
+                     <placeName>Wien</placeName>
+                  </settlement>
+               </place>
+               <!-- erwähnte Orte -->
+               <place type="named" xml:id="plPg">
+                  <country>
+                     <ref target="http://d-nb.info/gnd/4007467-5"/>
+                     <placeName>Böhmen</placeName>
+                  </country>
+                  <settlement>
+                     <ref target="http://d-nb.info/gnd/4076310-9"/>
+                     <placeName>Prag</placeName>
+                  </settlement>
+               </place>
+               <place type="named" xml:id="plTp">
+                  <country>
+                     <ref target="http://d-nb.info/gnd/4007467-5"/>
+                     <placeName>Böhmen</placeName>
+                  </country>
+                  <settlement>
+                     <ref target="http://d-nb.info/gnd/4059481-6"/>
+                     <placeName>Teplitz</placeName>
+                  </settlement>
+               </place>
+               <place type="named" xml:id="plBe">
+                  <country>
+                     <ref target="http://d-nb.info/gnd/4047194-9"/>
+                     <placeName>Preußen</placeName>
+                  </country>
+                  <settlement>
+                     <ref target="http://d-nb.info/gnd/4005728-8"/>
+                     <placeName>Berlin</placeName>
+                  </settlement>
+               </place>
+               <place type="named" xml:id="plEn">
+                  <country>
+                     <ref target="http://d-nb.info/gnd/4014770-8"/>
+                     <placeName>England</placeName>
+                  </country>
+               </place>
+               <place type="named" xml:id="plBoh">
+                  <country>
+                     <ref target="http://d-nb.info/gnd/4007467-5"/>
+                     <placeName>Böhmen</placeName>
+                  </country>
+               </place>
+               <place type="named" xml:id="plLo">
+                  <country>
+                     <ref target="http://d-nb.info/gnd/4014770-8"/>
+                     <placeName>England</placeName>
+                  </country>
+                  <settlement>
+                     <ref target="http://d-nb.info/gnd/4074335-4"/>
+                     <placeName>London</placeName>
+                  </settlement>
+               </place>
+               <place type="named" xml:id="plPr">
+                  <country>
+                     <ref target="http://d-nb.info/gnd/4047194-9"/>
+                     <placeName>Preußen</placeName>
+                  </country>
+               </place>
+               <place type="named" xml:id="plLp">
+                  <country>
+                     <ref target="http://d-nb.info/gnd/4051176-5"/>
+                     <placeName>Sachsen</placeName>
+                  </country>
+                  <settlement>
+                     <ref target="http://d-nb.info/gnd/4035206-7"/>
+                     <placeName>Leipzig</placeName>
+                  </settlement>
+               </place>
+               <place type="named" xml:id="plWe">
+                  <country>
+                     <ref target="http://d-nb.info/gnd/4051194-7"/>
+                     <placeName>Sachsen-Weimar-Eisenach</placeName>
+                  </country>
+                  <settlement>
+                     <ref target="http://d-nb.info/gnd/4065105-8"/>
+                     <placeName>Weimar</placeName>
+                  </settlement>
+               </place>
+               <place type="named" xml:id="plFfm">
+                  <country>
+                     <ref target="http://d-nb.info/gnd/4018118-2"/>
+                     <placeName>Frankfurt</placeName>
+                  </country>
+                  <settlement>
+                     <ref target="http://d-nb.info/gnd/4018118-2"/>
+                     <placeName>Frankfurt</placeName>
+                  </settlement>
+               </place>
+               <place type="named" xml:id="plRh">
+                  <country>
+                     <ref target="http://d-nb.info/gnd/4018145-5" />
+                     <placeName>Frankreich</placeName>
+                  </country>
+                  <geogName type="river">
+                     <ref target="http://d-nb.info/gnd/4049739-2" />
+                     <placeName>Rhein</placeName>
+                  </geogName>
+               </place>
+               <place type="named" xml:id="plHo">
+                  <country>
+                     <ref target="http://d-nb.info/gnd/5245326-1"/>
+                     <placeName>Holland</placeName>
+                  </country>
+               </place>
+               <place type="named" xml:id="plHll">
+                  <country>
+                     <ref target="http://d-nb.info/gnd/5245326-1"/>
+                     <placeName>Holland</placeName>
+                  </country>
+                  <settlement>
+                     <ref target="http://d-nb.info/gnd/4491687-5"/>
+                     <placeName>Hellevoetsluis</placeName>
+                  </settlement>
+               </place>
+            </listPlace>
+         </settingDesc>
+      </profileDesc>
+      <revisionDesc>
+         <change xml:id="init" when-iso="2018-03-11" who="#edAG">Erstauszeichnung und Normierung des Dokumentes im Rahmen der Masterarbeit der Matrikelnummer 5584124</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <opener>
+            <salute rend="left">Durchlauchtigster Erzherzog !</salute>
+         </opener>
+         <div n="1" corresp="#rs">
+            <p>
+               haben Sich während meines Aufenthalts in <rs type="place" ref="#plWi">Wien</rs> mit einem so ausgezeichneten 
+               Wohlwollen meiner angenommen, und mir so viel schmeichelhafte Beweise von Ihrer Freundschaft gegeben, daß ich nie 
+               ohne Rührung daran zurückdenken kan. Ueberdies habe ich mit Ihnen die interessantesten Stunden verlebt, die mir in 
+               <rs type="place" ref="#plWi">Wien</rs> zu Theil worden sind. Wie sollte nach diesem allen Ihr Nahme nicht auf einer 
+               der hervorragendsten Stellen meiner Seele eingeschrieben seyn !
+            </p>
+            <p>
+               Ich habe meine Reise langsam zurückgelegt, das heißt, ich habe mich vier Tage in 
+               <rs type="place" ref="#plPg">Prag</rs> und zwei in <rs type="place" ref="#plTp">Töplitz</rs> aufgehalten, weil ich 
+               durchaus nicht zur Zeit des Lagers in <rs type="place" ref="#plDd">Dresden</rs> ankommen wollte, wo ich den 
+               Preußischen Hof, oder wenigstens eine Menge Menschen aus <rs type="place" ref="#plBe">Berlin</rs>, und unter ihnen 
+               eine Menge unnützer und beschwerlicher Frager anzutreffen fürchtete. <pb/>
+            </p>
+         </div>
+         <div n="2" corresp="#brb">
+            <p>
+               Ich bin also erst am <date when-iso="1802-09-22">22<span rend="sup">ten</span></date> hier angelangt, und habe mein 
+               <rs type="citation" ref="#c4145-5">Abschieds-Gesuch</rs> nicht eher als am 
+               <date when-iso="1802-09-26">26<span rend="sup">ten</span></date> nach <rs type="place" ref="#plBe">Berlin</rs> 
+               geschickt. Unterdessen konnte ich theils aus Briefen, die ich hier vorfand, theils aus den Reden derjenigen Berliner, 
+               die sich noch in <rs type="place" ref="#plDd">Dresden</rs> <del rend="stroked">xxx</del> aufhielten, theils, und 
+               vorzüglich aus den Aeußerungen des hiesigen Preußischen Gesandten schließen, daß man in 
+               <rs type="place" ref="#plBe">Berlin</rs> - nicht <emph rend="underlined">aufgebracht</emph>, aber 
+               <emph rend="underlined">betreten</emph> (das war der Ausdruck des 
+               <rs type="person" ref="#KCvBr">Herrn von Brockhausen</rs>) über mein Vorhaben sey. Er ging sogar noch weiter und ließ 
+               sich mit mir in eine Art von freundschaftlicher Remonstration ein, worin er mich zu <del rend="stroked">xxx</del> 
+               überzeugen suchte, daß der Hof gewiß die lange Vernachläßigung, die er sich in Ansehung meiner hätte zu Schulden 
+               kommen laßen, auf alle Weise wieder gut <add place="above">zu</add> machen suchen würde. Ich erklärte ihm freimüthig, 
+               daß dies jetzt alles zu spät wäre, und daß ich Gründe zum Abgang aus dem Preußischen Staate hätte, die durch keine 
+               Maßregel der Regierung umgestoßen oder auch nur <pb/> entkräftet werden könnten.
+            </p>
+         </div>
+         <div n="3" corresp="#bezl">
+            <p>
+               Inzwischen hatte mich diese (aller menschlichen Wahrscheinlichkeit nach von <rs type="place" ref="#plBe">Berlin</rs> 
+               aus veranstaltete) Unterredung, verbunden mit einer Menge andrer unverkennbarer Umstände, und dem Rath meiner 
+               solidesten und verständigsten hiesigen Freunde, in dem Vorsatz, den Ausgang meiner Sache außerhalb 
+               <rs type="place" ref="#plBe">Berlin</rs> abzuwarten, befestiget; und ich würde mich unbedenklich auf einige Monate in 
+               <rs type="place" ref="#plDd">Dresden</rs> niedergelaßen haben, wenn nicht ein 
+               <ref target="r4145-2">unvorhergesehner Antrag</ref> mich plötzlich für einen andern Plan determinirt hätte, der, so 
+               abentheuerlich er auch auf den ersten Anblick scheinen mag, doch bei weitem der vernünftigste ist, der sich in meiner 
+               jetzigen Lage nur irgend für mich ausdenken ließ.
+            </p>
+            <p>
+               <rs type="person" ref="#HEl">Elliot</rs> reiset auf vier Wochen nach <rs type="place" ref="#plEn">England</rs>, und 
+               kehrt unverzüglich und unmittelbar nach <rs type="place" ref="#plDd">Dresden</rs> zurück; er hat mir angeboten, ihn 
+               zu begleiten, und ich thue es. Sie können Sich leicht vorstellen, daß, wenn die Neugierde, 
+               <rs type="place" ref="#plEn">England</rs> zu sehen, das einzige oder auch nur das herrschende Motiv dieser Reise 
+               wäre, die Betrachtung, daß ein Aufenthalt von <emph rend="underlined">vier Wochen</emph> in jenem Lande so gut wie 
+               nichts ist, <pb/> diesem Motiv zumal bei meiner Bequemlichkeitsliebe hinlänglich das Gegengewicht gehalten haben 
+               würde.
+            </p>
+         </div>
+         <div n="4" corresp="#gprl">
+            <p>
+               Aber zwei Ursachen von ganz andrer Art bestimmen mich dafür. Erstlich; diese Reise ist das kürzeste und sicherste 
+               Mittel, meine Geld-Angelegenheiten zu arrangiren; ich habe in <rs type="place" ref="#plEn">England</rs> aus einer 
+               litterärischen Entreprise, noch eine für mich sehr beträchtliche Summe zu fordern und zu erwarten; ich hätte sie 
+               jetzt vielleicht in Händen, wenn nicht durch ein, bis jetzt noch unerklärliches Mißgeschick, ein Brief den ich im 
+               <emph rend="underlined">Monat July</emph> auf meiner Reise durch <rs type="place" ref="#plBoh">Böhmen</rs> nach 
+               <rs type="place" ref="#plEn">England</rs> schrieb, und nebst vielen andren Sachen an 
+               <rs type="person" ref="#HEl">Herrn Elliot</rs> in <rs type="place" ref="#plDd">Dresden</rs> adressirte, gänzlich aus 
+               der Welt verschwunden wäre. Ich müßte also von hier aus eine neue Correspondenz anfangen, die mich nicht schneller, 
+               und nicht sichrer zum Zweck führen kan, als meine Reise.
+            </p>
+         </div>
+         <div n="5" corresp="#brb">
+            <p>
+               Zweitens, gewinne ich dabei, daß ich auf einige Monate ganz aus der Nähe von <rs type="place" ref="#plBe">Berlin</rs> 
+               komme, allen Gesprächen, Nachforschungen und Kabalen von <rs type="place" ref="#plDd">Dresden</rs> entgehe, und den 
+               ersten Lärm, der sich über meinen Entschluß, aus <rs type="place" ref="#plPr">Preußen</rs> zu gehen, natürlich 
+               erheben muß, verdampfen laße. <pb/>
+            </p>
+            <p>
+               Ich gestehe Ihnen wohl, daß ich eine Zeitlang von dem Gedanken beunruhigt worden bin, daß dieser Schritt mir in 
+               <rs type="place" ref="#plWi">Wien</rs> übel ausgelegt werden könnte. Bei weiterm Nachdenken habe ich aber diese ganze 
+               Besorgniß für schimärisch erklärt. Man hat mir zwei bis drei Monate Zeit gegeben, um meine Angelegenheiten in 
+               <rs type="place" ref="#plBe">Berlin</rs> zu arrangiren. Diese Zeit gehört mir, und ich kan darüber nach meiner besten 
+               Ueberzeugung disponiren. Ob ich sie in <rs type="place" ref="#plBe">Berlin</rs>, 
+               <rs type="place" ref="#plDd">Dresden</rs>, oder auf einer Reise zubringe, ist an und für sich Ihrer Regierung 
+               gleichgültig; ja, was noch mehr ist, diejenige Anwendung dieser Monate, die mich am weitsten von 
+               <rs type="place" ref="#plBe">Berlin</rs> entfernt hält, muß man, dünkt mich, caeteris paribus in 
+               <rs type="place" ref="#plWi">Wien</rs> für die angenehmste erklären. Wenn ich nun aber vollends mit Grunde der 
+               Wahrheit versichern kan, daß das zuverläßigste, das kürzeste, vielleicht gar das einzige Mittel, zum Zweck den ich 
+               mir vorbehielt - nehmlich zum Arrangement meiner Privat-Angelegenheiten - zu gelangen, diese Reise ist, so glaube ich 
+               nicht, daß man <pb/> mir, ohne die gröste Inconsequenz, einen Vorwurf daraus machen kan.
+            </p>
+         </div>
+         <div n="6" corresp="#bezw">
+            <p>
+               In jedem Falle empfehle ich diesen Schritt, Ihrer Protection, Ihrer günstigen Erklärung, Ihrem Wohlwollen, Ihrer 
+               Freundschaft für mich. Ich <del rend="stroked">habe</del> schreibe an Niemanden in 
+               <rs type="place" ref="#plWi">Wien</rs> darüber, als an den <rs type="person" ref="#LvC">Graf Cobentzl</rs>, den 
+               <rs type="person" ref="#LvSt">Graf Stahremberg</rs>, und meinen Freund <rs type="person" ref="#Mtj">Froberg</rs>. 
+               <date when-iso="1802-10-01">Morgen</date> früh gehe ich über <rs type="place" ref="#plLp">Leipzig</rs> nach 
+               <rs type="place" ref="#plWe">Weimar</rs>; dort erwarte ich <rs type="person" ref="#HEl">Elliot</rs>, mit dem ich 
+               nachher schnell nach <rs type="place" ref="#plFfm">Frankfurt</rs> reise; ist die Witterung dort noch günstig, so 
+               schiffen wir uns auf dem <rs type="place" ref="#plRh">Rhein</rs> ein; wo nicht, gehen wir zu Lande nach 
+               <rs type="place" ref="#plHo">Holland</rs>; die Ueberfahrt geschieht in jedem Falle von 
+               <rs type="place" ref="#plHll">Helvoetsluis</rs> aus.
+            </p>
+            <p>
+               Ich bin spätstens den <date when-iso="1802-12-01">1<span rend="sup">ten</span> Dezember</date>, was mir auch begegnen 
+               mag, wieder in <rs type="place" ref="#plDd">Dresden</rs>, und dann gewiß vierzehn Tage später in 
+               <rs type="place" ref="#plWi">Wien</rs>. Ich freue mich unendlich, Sie wieder zu sehen, freue mich des neuen Lebens, 
+               der Thätigkeit, der Gespräche, der großen Ideen, der fruchtbaren <pb/> praktischen Ansichten, die sich in Ihrem 
+               lehrreichen Umgange für mich entwickeln werden. Möge nur bis dahin ein gnädiges Geschick über der Erhaltung, über dem 
+               Wohl der Oesterreichischen Monarchie wachen, die, wie ich Ihnen aus dem Grunde meiner Seele versichern kan, jetzt das 
+               Ziel aller meiner Bestrebungen, aller meiner Combinazionen, aller meiner Reflexionen, und der erste und letzte meiner 
+               Gedanken ist.
+            </p>
+            <p>
+               Ich hatte die Hoffnung, den <rs type="person" ref="#KEvO">Erzherzog Karl</rs> 
+               <date when-iso="1802-09-28">vorigen Dienstag</date> in <rs type="place" ref="#plTp">Teplitz</rs> zu sehen; ich hatte 
+               dem <rs type="person" ref="#Clry">Fürst Clary</rs><span rend="sup">p</span> ausdrücklich versprochen, in den Tagen, 
+               die Er daselbst zubringen würde, hin zu kommen, und ich kan sagen, daß ich mich nicht wenig über dieses kleine 
+               Projekt freute. Aber am Tage vor der Ausführung kam hier die Nachricht an, daß der 
+               <rs type="person" ref="#KEvO">Erzherzog</rs> wieder krank geworden war, und nicht nach 
+               <rs type="place" ref="#plTp">Teplitz</rs> gehen würde. Gebe Gott, daß es von keinen Folgen sey ! Wenn Sie diesen 
+               treflichen Prinzen wieder gesund in <rs type="place" ref="#plWi">Wien</rs> haben werden, so seyn Sie so gütig, mich 
+               in Sein gnädiges <pb/> Andenken zurück zu rufen und ihm die Versicherung meiner tiefen, ehrfurchtsvollen, 
+               unbegränzten Ergebenheit darzubringen.
+            </p>
+         </div>
+         <div n="7" corresp="#vjmvf">
+            <p>
+               Empfehlen Sie mich, wenn ich gehorsamst bitten darf, dem braven <rs type="person" ref="#BFrnk">Baron Frank</rs> und 
+               <rs type="person" ref="#FBFrnk">seiner Frau</rs>, auch dem redlichen <rs type="person" ref="#Flr">Floret</rs>, wenn 
+               Sie diesen sehen sollten; und nehmen Sie mit einiger Güte den Ausdruck aller der unzerstörbaren Empfindungen von 
+               Hochachtung, Vertrauen, und Liebe an, die Sie auf immer <del rend="stroked">xxx</del> in mir gestiftet haben, und mit 
+               denen ich, ohne irgend eine Möglichkeit eines Wechsels verharre,
+            </p>
+         </div>
+         <closer>
+            <salute rend="right">Ihr gehorsamster</salute>
+            <salute rend="right">und treuster Diener</salute>
+            <dateline rend="left"><rs type="place" ref="#plDd">Dresden</rs> den <date when-iso="1802-09-30">30 September 1802</date>.</dateline>
+            <signed rend="right">Gentz.</signed>
+         </closer>
+      </body>
+      <note resp="#edAG" xml:id="r4145-1">Hierüber legen die Briefe Gentz' vom <rs type="citation" ref="#c4145-1">11. an Karl Gustav von Brinckmann</rs> und <rs type="citation" ref="#c4145-2">14. August an Johannes von Müller</rs> sowie vom <rs type="citation" ref="#c4145-3">10. September an den Erzherzog Karl</rs> und <rs type="citation" ref="#c4145-4">von Ludwig Graf von Cobentzl</rs> Zeugnis ab</note>
+      <note resp="#edAG" xml:id="r4145-2">Vgl. die <rs type="citation" ref="#c4145-6">Briefe an Elliot</rs> vom <rs type="citation" ref="#c4145-7">27. September 1802</rs></note>
+      <note resp="#edAG" xml:id="r4145-3">Die Fußnote "p" ist in Gentz digital nicht aufgeschlüsselt</note>
+   </text>
+</TEI>

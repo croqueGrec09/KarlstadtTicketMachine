@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader type="text">
+      <fileDesc xml:id="LETTER_GENTZ_1391">
+         <titleStmt>
+            <title>Friedrich von Gentz an Friedrich Vieweg, 23. August 1796</title>
+            <editor xml:id="edAG">Andreas Gálffy</editor>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <name>Forschungsstelle "Universitätssammlung Friedrich von Gentz"</name>
+               <link target="http://gentz-digital.ub.uni-koeln.de http://www.ub.uni-koeln.de/cdm/singleitem/collection/gentz/id/1390/"/>
+            </publisher>
+            <pubPlace>Cologne</pubPlace>
+            <idno type="Gentz-Edition-Number" n="1391"/>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <country>Germany</country>
+                  <settlement>Wiesbaden</settlement>
+                  <institution>Vieweg-Verlagsarchiv</institution>
+                  <repository>Briefsammlung 311 G: Gentz-Brief</repository>
+                  <idno>Nr. 64</idno>
+               </msIdentifier>
+               <msContents>
+                  <summary>
+                     Das Gehalt von 600 Reichstaler Courant sowie 200 Reichstaler Friedrichsd'or à fünf Reichstaler soll vom 
+                     Dezember 1796 bis September 1798 an Vieweg abgetreten werden, um die Schulden zu tilgen. Im Postscript erkennen 
+                     Zeugen an, dass die Erklärung mehrmals nur dem Notar vorgelesen, dieser eigenhändig unterschrieben und den 
+                     Inhalt anerkannt hat.
+                  </summary>
+               </msContents>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Masterarbeit zu Matrikelnummer 5584124</p>
+         </projectDesc>
+      </encodingDesc>
+      <profileDesc>
+         <creation>
+            <date when-iso="1796-08-23">23. August 1796</date>
+         </creation>
+        <langUsage>
+           <language ident="d">deutsch</language>
+        </langUsage>
+         <textClass>
+            <keywords scheme="internal"><!-- internal: innerhalb des besagten Briefs -->
+               <term>Brief</term>
+               <term>Gehaltsabtretung</term>
+               <term>Notar</term>
+            </keywords>
+            <keywords scheme="categorisation"><!-- Sinnabschnittseinteilung - relevant für den Fahrkartenautomaten! -->
+               <term xml:id="gprl">Gentz - p(r)ekuniäre Lage</term>
+            </keywords>
+         </textClass>
+         <textDesc>
+            <channel>manuscript</channel>
+            <constitution type="single"/>
+            <derivation type="original"/>
+            <domain type="private"/>
+            <factuality type="fact"/>
+            <interaction type="partial"/>
+            <preparedness type="prepared"/>
+            <purpose type="inform"/>
+         </textDesc>
+         <particDesc>
+            <listPerson>
+               <!-- Sender und Adressat -->
+               <person role="sender" xml:id="Gen">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/118538489"/>
+                     <forename>Friedrich von</forename>
+                     <surname>Gentz</surname>
+                  </persName>
+               </person>
+               <person role="receiver" xml:id="FVW">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/119049546"/>
+                     <forename>Friedrich</forename>
+                     <surname>Vieweg</surname>
+                  </persName>
+               </person>
+               <!-- erwähnte Personen -->
+               <person role="named" xml:id="Sad">
+                  <persName>
+                     <ref/>
+                     <forename>Johann Friedrich</forename>
+                     <surname>Sadewasser</surname>
+                  </persName>
+               </person>
+               <person role="named" xml:id="JMa">
+                  <persName>
+                     <ref/>
+                     <forename>Jean</forename>
+                     <surname>Mauran</surname>
+                  </persName>
+               </person>
+               <person role="named" xml:id="CFF">
+                  <persName>
+                     <ref/>
+                     <forename>Christian Friedrich</forename>
+                     <surname>Fehringer</surname>
+                  </persName>
+               </person>
+            </listPerson>
+         </particDesc>
+         <settingDesc>
+            <listPlace>
+               <!-- Start- und Zielort -->
+               <place type="sender" xml:id="plBe">
+                  <country>
+                     <ref target="http://d-nb.info/gnd/4047194-9"/>
+                     <placeName>Preußen</placeName>
+                  </country>
+                  <settlement>
+                     <ref target="http://d-nb.info/gnd/4005728-8"/>
+                     <placeName>Berlin</placeName>
+                  </settlement>
+               </place>
+               <!-- erwähnte Orte -->
+            </listPlace>
+         </settingDesc>
+      </profileDesc>
+      <revisionDesc>
+         <change xml:id="init" when-iso="2018-02-19" who="#edAG">Erstauszeichnung und Normierung des Dokumentes im Rahmen der Masterarbeit der Matrikelnummer 5584124</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <figure rend="left">
+         <desc>Stempel</desc>
+      </figure>
+      <figure rend="right">
+         <desc>Stempel</desc>
+      </figure>
+      <body>
+         <div n="1" corresp="#gprl">
+            <p>
+               Nachdem der hiesige Buchhändler, Herr Friedrich Vieweg der Aeltre, die Freundschaft für mich gehabt, das Arrangement 
+               meines Credit-Wesens, und die Bezahlung der Zinsen, von den, zu diesem Behuf, theils jetzt, theils vorher schon 
+               aufgenommnen Capitalien, so wie auch, wenn es diese Zinsen, oder die Einnahme gestatten, der Capitalien selbst 
+               übernommen: so cedire, und übereigne ich hiedurch dagegen, dem Herrn Vieweg dem Aeltern, mein von der 
+               Extraordinarien-Casse zu hebendes jährliches Gehalt, von Sechs Hundert Reichsthaler in Courant, und Zwey Hundert 
+               Reichsthaler in Friedrichsd'or à 5 Reichsthaler; zu welchem Ende ich auch bereits demselben auf Zwey Jahre, nehmlich 
+               vom <date when-iso="1796-12-00">December dieses Jahres</date> bis <date when-iso="1798-09-00">September 1798</date>, 
+               die darüber ausgestellten Gehalts-Quittungen eingehändiget; gleichergestalt aber verpflichte ich mich hiedurch,
+            </p>
+            <p>
+               1, daß diese Cession meines obenerwähnten Gehalts, auch nach Ablauf der Zwey Jahre, und zwar, so lange es die 
+               Bezahlung der Zinsen oder Capitalien, welche zum Arrangement meines Credit-Wesens gehören, nothwendig macht, 
+               fortdauern, und von unumstößlicher Kraft und Gültigkeit seyn soll;
+            </p>
+            <p>
+               2, daß im Fall sich meine bisheriges Gehalt vermehren oder Einkünfte für mich auf irgend eine Art entstehen sollten, 
+               ich diese dem Herrn Vieweg getreulich anzeigen, und zum Besten meiner Creditoren durch ihn verwenden laßen will. <pb/>
+            </p>
+            <p>
+               Zu welchem Ende ich dieses Cessions- und fernerweite Versicherungs-Instrument eigenhändig niedergeschrieben und 
+               unter Entsagung aller dagegen zu machenden Einwendungen und Ausflüchte, mit meiner Nahmens Unterschrift vollzogen 
+               habe. So Geschehen. <rs type="place" ref="#plBe">Berlin</rs> den 
+               <date when-iso="1796-08-23">23<span rend="sup">ten</span> August 1796</date>:
+            </p>
+         </div>
+         <closer>
+            <signed rend="right">Friedrich Gentz</signed>
+            <signed rend="right">Krieges-Rath bey dem</signed>
+            <signed rend="right">Königlichen General-Directorio</signed>
+         </closer>
+         <postscript corresp="#gprl">
+            <p>
+               Daß der mir dem Unterschriebenen Notario, so wie denen Zeugen von Person sehr wohl bekanndte Königliche Krieges Rath 
+               Herr Friedrich Gentz vorstehendes Cessions und Versicherungs Instrument, in unserer Gegenwart als eigenhändig 
+               niedergeschrieben anerkannt, und nachdem Ihm man nur dem Notario solches mehrmalls vorgelesen, sich zu dem ganzen 
+               Innhallte deßellben bekannt, und hierauf eigenhändig unterschrieben habe; solches wird hierdurch auf den Grund des 
+               darüber besonders aufgenommenen Protocolls von mir dem Notario unter Beydruckung des mir anvertrauten öffentlichen 
+               Siegells pflichtmäßig von denen Zeugen aber durch ihren Nahmens Unterschrift glaubhaft attestiret. So geschehen zu 
+               <rs type="place" ref="#plBe">Berlin</rs> den 
+               <date when-iso="1796-08-23">23<span rend="sup">ten</span> August 1796</date>.
+            </p>
+            <closer>
+               <figure rend="left">
+                  <desc>Dienstsiegel</desc>
+               </figure>
+               <signed rend="right">Johann Friedrich Sadewasser</signed>
+               <signed rend="right">Königlicher Justiz Commissarius und</signed>
+               <signed rend="right">Notarius im Departement des</signed>
+               <signed rend="right">Königlichen Cammergerichts.</signed>
+               <figure rend="left">
+                  <desc>Siegel</desc>
+               </figure>
+               <signed rend="right">Jean Mauran als Zeuge</signed>
+               <figure rend="left">
+                  <desc>Siegel</desc>
+               </figure>
+               <signed rend="right">Christoph Friedrich Fehringer, als Zeuge</signed>
+            </closer>
+         </postscript>
+      </body>
+   </text>
+</TEI>

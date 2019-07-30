@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc xml:id="LETTER_GENTZ_4433">
+         <titleStmt>
+            <title>Friedrich von Gentz an König Friedrich Wilhelm III von Preußen, 6. Dezember 1797</title>
+            <editor xml:id="edAG">Andreas Gálffy</editor>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <name>Forschungsstelle "Universitätssammlung Friedrich von Gentz"</name>
+               <link target="http://gentz-digital.ub.uni-koeln.de http://www.ub.uni-koeln.de/cdm/singleitem/collection/gentz/id/4432/"/>
+            </publisher>
+            <pubPlace>Cologne</pubPlace>
+            <idno type="Gentz-Edition-Number" n="4433"/>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <country>Germany</country>
+                  <settlement>Berlin</settlement>
+                  <institution>Geheimes Staatsarchiv Preußischer Kulturbesitz</institution>
+                  <repository>I. HA, Rep 96 A</repository>
+                  <collection>Geheimes Zivilkabinett 1797-1806, Tit. 10.B.19.</collection>
+                  <idno>Br. 26-26v</idno>
+               </msIdentifier>
+               <msContents>
+                  <summary>
+                     Da Gentz sich seit Beginn der Einnahme Südpreußens sich für die Angelegenheiten dort eingesetzt hat und dafür 
+                     auch von zwei Ministern der Spitze des Departements und von der Immediatkommission anerkannt wurde, erbittet 
+                     sich Gentz aus den ehemaligen starosteilichen Gütern einen Besitz. König Friedrich Wilhelm soll dies Grafen 
+                     von Hoym weiterleiten.
+                  </summary>
+               </msContents>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Masterarbeit zu Matrikelnummer 5584124</p>
+         </projectDesc>
+      </encodingDesc>
+      <profileDesc>
+         <creation>
+            <date when-iso="1797-12-06">6. Dezember 1797</date>
+         </creation>
+        <langUsage>
+           <language ident="d">deutsch</language>
+        </langUsage>
+         <textClass>
+            <keywords scheme="internal"><!-- internal: innerhalb des besagten Briefs -->
+               <term>Brief</term>
+               <term>Südpreußen</term>
+               <term>Starosteilicher Besitz</term>
+            </keywords>
+            <keywords scheme="categorisation"><!-- Sinnabschnittseinteilung - relevant für den Fahrkartenautomaten! -->
+               <term xml:id="bezbt">Beziehungen zu Berlin - Beamtentätigkeit</term>
+            </keywords>
+         </textClass>
+         <textDesc>
+            <channel>manuscript</channel>
+            <constitution type="single"/>
+            <derivation type="original"/>
+            <domain type="private"/>
+            <factuality type="fact"/>
+            <interaction type="partial"/>
+            <preparedness type="prepared"/>
+            <purpose type="inform"/>
+         </textDesc>
+         <particDesc>
+            <listPerson>
+               <!-- Sender und Adressat -->
+               <person role="sender" xml:id="Gen">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/118538489"/>
+                     <forename>Friedrich von</forename>
+                     <surname>Gentz</surname>
+                  </persName>
+               </person>
+               <person role="receiver" xml:id="KFWIII">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/118535986"/>
+                     <forename>Friedrich Wilhelm III.</forename>
+                     <surname>von Preußen</surname>
+                     <roleName type="office">König</roleName>
+                  </persName>
+               </person>
+               <!-- erwähnte Personen -->
+               <person role="named" xml:id="Hoy">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/117028568"/>
+                     <forename>Karl Georg Heinrich von</forename>
+                     <surname>Hoym</surname>
+                  </persName>
+               </person>
+            </listPerson>
+         </particDesc>
+         <settingDesc>
+            <listPlace>
+               <!-- Start- und Zielort -->
+               <place type="sender" xml:id="plBe">
+                  <country>
+                     <ref target="http://d-nb.info/gnd/4047194-9"/>
+                     <placeName>Preußen</placeName>
+                  </country>
+                  <settlement>
+                     <ref target="http://d-nb.info/gnd/4005728-8"/>
+                     <placeName>Berlin</placeName>
+                  </settlement>
+               </place>
+               <!-- erwähnte Orte -->
+               <place type="named" xml:id="plSd">
+                  <country>
+                     <ref target="http://d-nb.info/gnd/4047194-9"/>
+                     <placeName>Preußen</placeName>
+                  </country>
+                  <region>
+                     <ref target="http://d-nb.info/gnd/4058452-5"/>
+                     <placeName>Südpreußen</placeName>
+                  </region>
+               </place>
+            </listPlace>
+         </settingDesc>
+      </profileDesc>
+      <revisionDesc>
+         <change xml:id="init" when-iso="2018-02-27" who="#edAG">Erstauszeichnung und Normierung des Dokumentes im Rahmen der Masterarbeit der Matrikelnummer 5584124</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <figure rend="left">
+         <desc>Stempel</desc>
+      </figure>
+      <figure rend="right">
+         <desc>Stempel</desc>
+      </figure>
+      <body>
+         <opener>
+            <salute rend="left">Allerdurchlauchtigster Großmächtigster König !</salute>
+            <salute rend="left">Allergnädigster König und Herr !</salute>
+         </opener>
+         <div n="1" corresp="#bezbt">
+            <p>
+               Ich habe vom ersten Augenblick der Occupation, von <rs type="place" ref="#plSd">Süd-Preußen</rs> an, in den 
+               Geschäften, welche die erste Einrichtung und Administration dieser Provinz betrafen, mit Fleiß und Anstrengung, auch, 
+               wie ich mir schmeicheln darf, mit dem Beifall der beiden Minister, die nach einander an der Spitze dieses 
+               Departements gestanden haben, besonders aber bey der wichtigen Immediat-Commission, welche des Höchstseligen Königes 
+               Majestät im Anfange dieses Jahres, zur Organisierung der neuen Provinzen ernannten, mit einem für mich 
+               schmeichelhaften Erfolge gearbeitet. Aus diesem Grunde glaubte ich es, vor manchem andern wagen zu dürfen, unter der 
+               vorigen Regierung um die Verleihung eines der in Südpreußen belegnen, zu einem größern Arrondissement sich nicht 
+               qualificirenden, ehmaligen Starosteylichen Güter in Erbpacht zu bitten, und des Höchstseligen Königes Majestät, 
+               welche mir ohnehin in mehrern Cabinets-Ordres versprochen hatten, mir bei vorkommender Gelegenheit thätige Beweise 
+               Ihrer Gnade zu geben, geruhten dieses Gesuch dem Staats-Minister Grafen von Hoym zur Berichts-Erstattung zufertigen 
+               zu laßen. Durch die bald darauf eingetretne letzte Krankheit Ewr Majestät in Gott ruhenden Herrn Vaters, ist diese 
+               für mich so wichtige Sache ins Stocken gerathen; da ich nun aber einmal die gegründete, und in Rücksicht auf meine 
+               Dienst-Verhältnisse vielleicht nicht unbillige Hoffnung, in diesem Gesuch zu reussiren, so lange Zeit genährt habe, 
+               so unterstehe ich mich, Ewr. Königlichen Majestät allerunterthänigst zu bitten,
+            </p>
+            <lg>
+               <l>Dem Etats-Minister <rs type="person" ref="#Hoy">Grafen von Hoym</rs> in höchsten Gnaden</l>
+               <l>aufzugeben, daß er nunmehr seinen Bericht über die Zuläßig-</l>
+               <l>keit meines Gesuchs, und die Art und Weise, demselben zu</l>
+               <l>deferiren, ungesäumt erstatte, nach Eingang dieses Berichts</l>
+               <l>aber weiter allergnädigste Rücksicht auf dieses Gesuch zu neh-</l>
+               <l>men.</l>
+            </lg>
+            <p>
+               Ich ersterbe in tiefster Devotion
+            </p>
+         </div>
+         <closer>
+            <salute rend="right">Ewr. Königlichen Majestät</salute>
+            <salute rend="right">allerunterthänigster treu</salute>
+            <salute rend="right">gehorsamster</salute>
+            <dateline rend="left"><rs type="place" ref="#plBe">Berlin</rs> den <date when-iso="1797-12-06">6<span rend="sup">ten</span> December 1797</date>.</dateline>
+            <signed rend="right">Gentz</signed>
+            <signed rend="right">Krieges-Rath bey dem General-Directorio.</signed>
+         </closer>
+      </body>
+   </text>
+</TEI>

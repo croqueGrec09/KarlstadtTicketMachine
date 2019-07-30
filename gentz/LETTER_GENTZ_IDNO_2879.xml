@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader type="text">
+      <fileDesc xml:id="LETTER_GENTZ_2879">
+         <titleStmt>
+            <title>Friedrich von Gentz an König Friedrich Wilhelm II. von Preußen, 24. Dezember 1792</title>
+            <editor xml:id="edAG">Andreas Gálffy</editor>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <name>Forschungsstelle "Universitätssammlung Friedrich von Gentz"</name>
+               <link target="http://gentz-digital.ub.uni-koeln.de http://www.ub.uni-koeln.de/cdm/singleitem/collection/gentz/id/2878/"/>
+            </publisher>
+            <pubPlace>Cologne</pubPlace>
+            <idno type="Gentz-Edition-Number" n="2879"/>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <country>unknown</country>
+                  <idno>not retraced</idno>
+               </msIdentifier>
+               <msContents>
+                  <summary>
+                     Hier handelt es sich um die Adresse aus Gentz' Betrachtungen über die französische Revolution. Zugleich ist es 
+                     eine Beschreibung seiner Haltung, das Gleichgewicht wiederherzustellen, in welchem Sinne Gentz die Arbeit nun 
+                     dem König vorlegt.
+                  </summary>
+               </msContents>
+            </msDesc>
+            <listBibl type="preprints">
+               <biblStruct>
+                  <monogr>
+                     <author>
+                        <persName>
+                           <ref target="http://d-nb.info/gnd/118538489"/>
+                           <forename>Friedrich von</forename>
+                           <surname>Gentz</surname>
+                        </persName>
+                     </author>
+                     <title>Betrachtungen über die französische Revolution. Nach dem Englischen des Herrn Burke neu-bearbeitet mit einer Einleitung, Anmerkungen, politischen Abhandlungen und einem critischen Verzeichniß der in England über diese Revolution erschienenen Schriften, Zwei Theile</title>
+                     <imprint>
+                        <publisher>Friedrich Vieweg der Ältere</publisher>
+                        <pubPlace>Berlin</pubPlace>
+                        <date>1793</date>
+                     </imprint>
+                     <biblScope unit="volume" n="1">Erster Theil</biblScope>
+                     <biblScope unit="page" from="5" to="6">
+                        V-VI
+                     </biblScope>
+                  </monogr>
+               </biblStruct>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Masterarbeit zu Matrikelnummer 5584124</p>
+         </projectDesc>
+      </encodingDesc>
+      <profileDesc>
+         <creation>
+            <date when-iso="1792-12-24">24. Dezember 1792</date>
+         </creation>
+        <langUsage>
+           <language ident="d">deutsch</language>
+        </langUsage>
+         <textClass>
+            <keywords scheme="internal"><!-- internal: innerhalb des besagten Briefs -->
+               <term>Brief</term>
+               <term>Begleitschreiben</term>
+               <term>Burke</term>
+            </keywords>
+            <keywords scheme="categorisation"><!-- Sinnabschnittseinteilung - relevant für den Fahrkartenautomaten! -->
+               <term xml:id="kbur">Burke</term>
+               <term xml:id="gprl">Gentz - p(r)ekuniäre Lage</term>
+            </keywords>
+         </textClass>
+         <textDesc>
+            <channel>manuscript</channel>
+            <constitution type="single"/>
+            <derivation type="original"/>
+            <domain type="private"/>
+            <factuality type="fact"/>
+            <interaction type="partial"/>
+            <preparedness type="unprepared"/>
+            <purpose type="inform"/>
+         </textDesc>
+         <particDesc>
+            <listPerson>
+               <!-- Sender und Adressat -->
+               <person role="sender" xml:id="Gen">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/118538489"/>
+                     <forename>Friedrich von</forename>
+                     <surname>Gentz</surname>
+                  </persName>
+               </person>
+               <person role="receiver" xml:id="KFWII">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/11869362X"/>
+                     <forename>Friedrich Wilhelm II.</forename>
+                     <surname>von Preußen</surname>
+                     <roleName type="office">König von Preußen</roleName>
+                  </persName>
+               </person>
+               <!-- erwähnte Personen -->
+            </listPerson>
+         </particDesc>
+         <settingDesc>
+            <listPlace>
+               <!-- Start- und Zielort -->
+               <place type="sender" xml:id="plBe">
+                  <country>
+                     <ref target="http://d-nb.info/gnd/4047194-9"/>
+                     <placeName>Preußen</placeName>
+                  </country>
+                  <settlement>
+                     <ref target="http://d-nb.info/gnd/4005728-8"/>
+                     <placeName>Berlin</placeName>
+                  </settlement>
+               </place>
+               <!-- erwähnte Orte -->
+            </listPlace>
+         </settingDesc>
+      </profileDesc>
+      <revisionDesc>
+         <change xml:id="init" when-iso="2018-02-12" who="#edAG">Erstauszeichnung und Normierung des Dokumentes im Rahmen der Masterarbeit der Matrikelnummer 5584124</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <opener>
+            <salute rend="left">Allerdurchlauchtigster, Großmächtigster König !</salute>
+            <salute rend="left">Allergnädigster König und Herr !</salute>
+         </opener>
+         <div n="1" corresp="#kbur">
+            <p>
+               In Zeiten, wie die gegenwärtigen, wo Verwirrung in den Grundsätzen und Schwärmerey in den Empfindungen, ein 
+               politisches System ausbrüten, welches die Ruhe und Sicherheit aller Nationen bedroht, ist es vielleicht Pflicht 
+               eines Jeden, der über politische Materien anhaltend nachgedacht hat, zur Herstellung des Gleichgewichts unter den 
+               Ideen und unter den Gefühlen nach dem Maß seiner Kräfte beyzutragen. Heiliger wird diese Pflicht für den, der Bürger 
+               eines glücklichen Staats, und Unterthan eines guten Fürsten ist. <pb/>
+            </p>
+            <p>
+               In dieser Rücksicht habe ich die nachstehenden Arbeiten unternommen; nur in dieser Rücksicht konnte ich es wagen, 
+               sie <rs type="person" ref="#KFWII">Ew. Königlichen Majestät</rs> vorzulegen; und nur in dieser Rücksicht kan ich die 
+               Hoffnung nähren, daß <rs type="person" ref="#KFWII">Allerhöchst-Dieselben</rs> sie mit einem huldreichen Blick 
+               begnadigen werden, den ich als meine höchste Belohnung ansehe.
+            </p>
+            <p>
+               Ich verharre in tiefster Devotion
+            </p>
+         </div>
+         <closer>
+            <salute rend="right">Ewr. Königlichen Majestät</salute>
+            <dateline rend="left"><rs type="place" ref="#plBe">Berlin</rs></dateline>
+            <salute rend="right">allerunterthänigster</salute>
+            <dateline rend="left">den <date when-iso="1792-12-24">24<span rend="sup">sten</span> December</date></dateline>
+            <signed rend="right">Friedrich Gentz</signed>
+            <dateline rend="left"><date when-iso="1792-12-24">1792.</date></dateline>
+         </closer>
+      </body>
+   </text>
+</TEI>

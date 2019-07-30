@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+
+<html xmlns:th="http://www.thymeleaf.org">
+
+<head>
+
+<!-- JQuery -->
+<script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+<!-- Bootstrap CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" />
+<!-- Bootstrap JavaScript -->
+<script type="text/javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+
+<link rel="stylesheet" href="/css/gentzStyle.css" />
+
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+
+</head>
+
+<body>
+	<tbody>
+		<tr th:fragment="letterListTable">
+			<td th:text='${letter.getPersonEnumeration("sender")}'>
+				Sender fehlt!
+			</td>
+			<td th:text='${letter.getPersonEnumeration("receiver")}'>
+				Empfänger ist unbekannt
+			</td>
+			<td th:attr="data-search=${letter.dateString},data-order=${letter.date}" th:text="${letter.dateString}">
+				Datum fehlt!
+			</td>
+			<td th:text="${letter.summary}">
+				Zusammenfassung fehlt!
+			</td>
+		</tr>
+		<tr th:fragment="ingameLetterListTable">
+			<td th:text='${letter.getPersonEnumeration("sender")}'>
+				Sender fehlt!
+			</td>
+			<td th:text='${letter.getPersonEnumeration("receiver")}'>
+				Empfänger ist unbekannt
+			</td>
+			<td th:attr="data-search=${letter.dateString},data-order=${letter.date}" th:text="${letter.dateString}">
+				Datum fehlt!
+			</td>
+			<td class="navLink loadFulltext" th:attr="data-letter=${letter.id}" th:text="${letter.summary}">
+				Zusammenfassung fehlt!
+			</td>
+			<td>
+				<ul>
+					<li class="navLink loadCategory" th:each="category: ${letter.categories.keySet()}" th:attr="data-catRef=${category}" th:text="${letter.categories.get(category)}">Keine Sinnabschnitte!</li>
+				</ul>
+			</td>
+		</tr>
+	</tbody>
+</body>
+
+</html>

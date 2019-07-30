@@ -1,0 +1,216 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc xml:id="LETTER_GENTZ_3403">
+         <titleStmt>
+            <title>Friedrich von Gentz an Johann Wilhelm von Archenholtz, 27. Februar 1798</title>
+            <editor xml:id="edAG">Andreas Gálffy</editor>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <name>Forschungsstelle "Universitätssammlung Friedrich von Gentz"</name>
+               <link target="http://gentz-digital.ub.uni-koeln.de http://www.ub.uni-koeln.de/cdm/singleitem/collection/gentz/id/3402/"/>
+            </publisher>
+            <pubPlace>Cologne</pubPlace>
+            <idno type="Gentz-Edition-Number" n="3403"/>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <country>Germany</country>
+                  <settlement>Berlin</settlement>
+                  <institution>Staatsbibliothek zu Berlin, Preußischer Kulturbesitz, Haus 2</institution>
+                  <repository>Handschriftenabteilung</repository>
+                  <idno>2 h 1799 (4)</idno>
+               </msIdentifier>
+               <msContents>
+                  <summary>
+                     Seine Übersetzungstätigkeit des Camille Jordan bereut Gentz. Archenholtz hatte ihn noch darüber gescholten. 
+                     Gentz hatte sich aber dadurch eine bessere, tiefere Einsicht in die Gründe der Revolution erhalten, die er aber 
+                     für sich behält, weil sie der gemeinen Meinung widerstrebt. Zudem hat er viel Arbeit. Entgegen Archenholtz' 
+                     Urteil, der sowieso nicht mit Gentz übereinstimmt, hält dieser den Jordan für ein gelungenes Werk. Gentz 
+                     bedankt sich für einen Kredit, den er mit einer Anweisung über 29 Reichstaler sechs Groschen tilgen will. Da 
+                     diese nicht auf Gold gestellt ist, möchte Gentz auch den Nachschuss noch zahlen.
+                  </summary>
+               </msContents>
+            </msDesc>
+            <listBibl type="letterReferenced">
+               <bibl xml:id="c3403-1" corresp="#LETTER_GENTZ_NNNN">nicht bekannter Brief von Johann Wilhelm von Archenholtz an Friedrich von Gentz</bibl>
+            </listBibl>
+            <listBibl type="alludedWorks">
+               <bibl xml:id="a3403-1" corresp="#LETTER_GENTZ_NNNN">nicht näher genannte Schrift von Camille Jordan</bibl>
+               <bibl xml:id="a3403-2" corresp="#LETTER_GENTZ_NNNN">nicht näher genannte Schrift von Roland Gaspard Lemerer</bibl>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Masterarbeit zu Matrikelnummer 5584124</p>
+         </projectDesc>
+      </encodingDesc>
+      <profileDesc>
+         <creation>
+            <date when-iso="1798-02-27">27. Februar 1798</date>
+         </creation>
+        <langUsage>
+           <language ident="d">deutsch</language>
+        </langUsage>
+         <textClass>
+            <keywords scheme="internal"><!-- internal: innerhalb des besagten Briefs -->
+               <term>Brief</term>
+               <term>Camille Jordan</term>
+               <term>Schulden</term>
+            </keywords>
+            <keywords scheme="categorisation"><!-- Sinnabschnittseinteilung - relevant für den Fahrkartenautomaten! -->
+               <term xml:id="kcjo">Camille Jordan</term>
+               <term xml:id="gprl">Gentz - p(r)ekuniäre Lage</term>
+            </keywords>
+         </textClass>
+         <textDesc>
+            <channel>manuscript</channel>
+            <constitution type="frags"/>
+            <derivation type="original"/>
+            <domain type="private"/>
+            <factuality type="fact"/>
+            <interaction type="partial"/>
+            <preparedness type="prepared"/>
+            <purpose type="inform"/>
+         </textDesc>
+         <particDesc>
+            <listPerson>
+               <!-- Sender und Adressat -->
+               <person role="sender" xml:id="Gen">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/118538489"/>
+                     <forename>Friedrich von</forename>
+                     <surname>Gentz</surname>
+                  </persName>
+               </person>
+               <person role="receiver" xml:id="JWvA">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/118503839"/>
+                     <forename>Johann Wilhelm von</forename>
+                     <surname>Archenholz</surname>
+                  </persName>
+               </person>
+               <!-- erwähnte Personen -->
+               <person role="named" xml:id="Hoy">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/117028568"/>
+                     <forename>Karl Georg Heinrich von</forename>
+                     <surname>Hoym</surname>
+                  </persName>
+               </person>
+               <person role="named" xml:id="CJo">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/117177040"/>
+                     <forename>Camille de</forename>
+                     <surname>Jordan</surname>
+                  </persName>
+               </person>
+               <person role="named" xml:id="RGL">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/12889430X"/>
+                     <forename>Roland Gaspard</forename>
+                     <surname>Lemerer</surname>
+                  </persName>
+               </person>
+            </listPerson>
+         </particDesc>
+         <settingDesc>
+            <listPlace>
+               <!-- Start- und Zielort -->
+               <place type="sender" xml:id="plBe">
+                  <country>
+                     <ref target="http://d-nb.info/gnd/4047194-9"/>
+                     <placeName>Preußen</placeName>
+                  </country>
+                  <settlement>
+                     <ref target="http://d-nb.info/gnd/4005728-8"/>
+                     <placeName>Berlin</placeName>
+                  </settlement>
+               </place>
+               <place type="receiver" xml:id="plHa">
+                  <country>
+                     <ref target="http://d-nb.info/gnd/4023118-5"/>
+                     <placeName>Hamburg</placeName>
+                  </country>
+                  <settlement>
+                     <ref target="http://d-nb.info/gnd/4023118-5"/>
+                     <placeName>Hamburg</placeName>
+                  </settlement>
+               </place>
+               <!-- erwähnte Orte -->
+            </listPlace>
+         </settingDesc>
+      </profileDesc>
+      <revisionDesc>
+         <change xml:id="init" when-iso="2018-02-28" who="#edAG">Erstauszeichnung und Normierung des Dokumentes im Rahmen der Masterarbeit der Matrikelnummer 5584124</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div n="1" corresp="#kcjo">
+            <p>
+               Es thut mir leid, hochgeschätzter Freund, daß Sie Sich in 
+               <rs type="citation" ref="#c3403-1">Ihrem letzten Schreiben</rs> die wohlmeinende Mühe gegeben haben, mir meine 
+               intendirte Uebersetzung des <rs type="citation" ref="#a3403-1">Camille Jordan</rs> aus Gründen, deren Richtigkeit ich 
+               völlig anerkenne, und für deren freimüthige Darlegung ich Ihnen recht aufrichtig danke, zu vereckeln. Es thut mir 
+               leid, sage ich, weil es vergeblich war: ich hatte den Plan, schon 3 Tage, nachdem er zu meinem Verdruß in die 
+               Zeitungen paradirte, wieder aufgegeben. Die Hälfte der Uebersetzung war vollendet, als es mich auf einmal, aus 
+               tausend Ursachen, gereute, sie angefangen zu haben. - Im Ganzen ist es mir lieb, <add place="above">daß ich</add> mir 
+               bei dieser Gelegenheit eine noch gründlichere Einsicht in die Veranlaßungen zu der Revolution vom 
+               <date when-iso="1797-09-04">18 Fructidor</date> erwarb: ich werde aber meine Resultate weißlich für mich behalten. 
+               Heut zu Tage bekehrt man Niemanden: und gegen populäre Meinungen <del rend="stroked">an</del> zu kämpfen, ziemt sich 
+               wohl für <emph rend="underlined">geschichtsmäßige</emph> aber nicht für Broschüren-artige Behandlung eines 
+               Gegenstandes. Für jene also, wenn je mein guter Genius mich so weit hebt, möge alles, was ich <pb/> über diese 
+               merkwürdige Begebenheit gedacht, gesammelt, zusammen gestellt, und - nach <emph rend="underlined">meiner</emph> Idee 
+               - aufs Reine gebracht habe, aufbewahrt bleiben. - Dringendere Geschäfte, <add place="above">theils</add> durch eine 
+               neue Finanz-Commission, theils durch die Anwesenheit des <rs type="person" ref="#Hoy">Schlesischen Ministers</rs> in 
+               <rs type="place" ref="#plBe">Berlin</rs>, veranlaßt, halten mich ohnedies jetzt von schriftstellerischen Arbeiten ab: 
+               und diesmal segne ich sie dafür; denn die ganze Unternehmung mit dem 
+               <rs type="citation" ref="#a3403-1">Camille Jordan</rs> würde mir nichts als Verdruß gemacht haben.
+            </p>
+            <p>
+               Wie wenig ich mit Ihnen über <emph rend="underlined">diese</emph> Sache harmoniren kan, sehe ich aufs neue, aus Ihrem 
+               - gewiß nicht wenig unerwarteten - Urtheil über den relativen Werth der Schriften von 
+               <rs type="person" ref="#CJo">Jordan</rs> und <rs type="person" ref="#RGL">Lemerer</rs>. 
+               <emph rend="underlined">Mir</emph> schien die letztre ein leidenschaftliches, declamatorisches Bruchstück zu seyn, 
+               das Werk eines Menschen, der nicht bloß diejenigen welche die Constitution umwerfen, sondern die Constitution selbst 
+               mit in sein hartes, ungemessnes Verdammungsurtheil reißt. Dagegen schien mir die Schrift von 
+               <rs type="person" ref="#CJo"><emph rend="underlined">Jordan</emph></rs> eins der <pb/> vollendetsten Meisterstücke, 
+               von fast unüberwindlicher Logik, <del rend="stroked">einer</del> von bewundernswürdiger Ordnung, Stärke und Kunst, in 
+               einem fast durchaus vortreflichen Style, und - was das edelste und zugleich das siegreichste ist - durchaus auf 
+               <emph rend="underlined">constitutionellem</emph> Boden erbaut. Die <rs type="citation" ref="#a3403-2">Schrift</rs> 
+               von <rs type="person" ref="#RGL"><emph rend="underlined">Lemerer</emph></rs> scheint mir 
+               <emph rend="underlined">für</emph> das Directorium zu sprechen: aber der Fructidorianer soll mir aufstehen, der 
+               <rs type="person" ref="#CJo"><emph rend="underlined">Jordan</emph></rs> gründlich widerlegt. - So schien es 
+               <emph rend="underlined">mir</emph>: Ihnen anders. Dies ist aber eine der Erscheinungen, die man in Zeiten wie die 
+               unsrigen gewohnt werden muß, und die mir darum gar nicht die Hoffnung raubt, in andern wesentlichen Punkten die 
+               genauste Uebereinstimmung zwischen Ihrer und meiner Denkungsart anzutreffen, so wie es mehr als einmal schon wirklich 
+               der Fall gewesen ist.
+            </p>
+         </div>
+         <div n="2" corresp="#gprl">
+            <p>
+               Ich nehme mir die Freiheit, Ihnen hiebey eine Assignation auf 29 Reichsthaler 6 Groschen zu schicken. So eben bemerke 
+               ich aber den Fehler, daß diese Assignation nicht auf <emph rend="underlined">Gold</emph> gestellt ist. Haben Sie doch 
+               die Güte, mir bei erster Gelegenheit <pb/> zu melden, wieviel der Nachschuß beträgt, und ob ich nicht diese 
+               Kleinigkeit hier an Jemanden <span xml:lang="lat">brevi manu</span> bezahlen kan. Tausend Dank für den langen, 
+               unbescheiden-benutzten Credit. Mögte ich Ihnen doch auch einmal einen wesentlichen Dienst leisten können ! Bis dahin 
+               bitte ich Sie, Sich mit der Versicherung einer unbegränzten Hochachtung und Ergebenheit zu begnügen, in welcher ich 
+               unabläßig verharren werde,
+            </p>
+         </div>
+         <closer>
+            <salute rend="right">Von ganzen Herzen</salute>
+            <salute rend="right">der Ihrige</salute>
+            <dateline rend="left"><rs type="person" ref="#plBe">Berl</rs>: den <date when-iso="1798-02-27">27 Februar 98</date>.</dateline>
+            <signed rend="right">Gentz.</signed>
+         </closer>
+      </body>
+   </text>
+</TEI>

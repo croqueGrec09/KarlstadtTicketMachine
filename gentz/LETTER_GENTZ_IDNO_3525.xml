@@ -1,0 +1,236 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader type="text">
+      <fileDesc xml:id="LETTER_GENTZ_3525">
+         <titleStmt>
+            <title>Friedrich von Gentz an Karl Gustav von Brinckmann, Mai 1794</title>
+            <editor xml:id="edAG">Andreas Gálffy</editor>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <name>Forschungsstelle "Universitätssammlung Friedrich von Gentz"</name>
+               <link target="http://gentz-digital.ub.uni-koeln.de http://www.ub.uni-koeln.de/cdm/singleitem/collection/gentz/id/3524/"/>
+            </publisher>
+            <pubPlace>Cologne</pubPlace>
+            <idno type="Gentz-Edition-Number" n="3525"/>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <country>Sweden</country>
+                  <settlement>Trolle-Ljungby</settlement>
+                  <institution>Archiv des Grafen Wachtmeister</institution>
+                  <repository>Ausländ. Briefwechsel, 1. Teil</repository>
+                  <idno>Bl. 32</idno>
+               </msIdentifier>
+               <msContents>
+                  <summary>
+                     Ein merkwürdiges Gedicht schickt Gentz zurück. Dem Verfasser hätte er diese Leistung nicht zugetraut. Dennoch 
+                     hätte er lieber Brinckmann an diesem Werk gesehen. Gentz empfiehlt Brinckmann das Buch Mardi-Gras für die 
+                     Neufranken. Humboldt hat einen Sohn und Gentz richtet dies Brinckmann aus. Er vermisst ihn, da er wohl gar 
+                     nicht kommt. Im Postscript schreibt Gentz von der Rezension des Fichte, wozu er ein Dankschreiben von dem 
+                     Herausgebern der Literatur-Zeitung erhalten hat.
+                  </summary>
+               </msContents>
+            </msDesc>
+            <listBibl type="alludedWorks">
+               <bibl xml:id="a3525-1" corresp="#LETTER_GENTZ_NNNN">nicht näher benanntes Gedicht eines nicht weiter benannten Dichters</bibl>
+               <bibl xml:id="a3525-2" corresp="#LETTER_GENTZ_NNNN">Rezension von Friedrich von Gentz zu einem Werk von Johann Gottlieb Fichte in der Allgemeinen Literatur-Zeitung</bibl>
+            </listBibl>
+            <listBibl type="defExpr">
+               <biblStruct xml:id="e3525-1" corresp="UJn-0001">
+                  <monogr>
+                     <title>Allgemeine Literatur-Zeitung</title>
+                     <imprint>
+                        <publisher>Churfürstl. Sächsische Zeitungsexpedition</publisher>
+                        <pubPlace>Jena, Leipzig</pubPlace>
+                        <date>1785-1849</date>
+                     </imprint>
+                  </monogr>
+               <ptr target="http://zs.thulb.uni-jena.de/receive/jportal_jpjournal_00000005?XSL.vol.start=0"/></biblStruct>
+            </listBibl>
+            <listBibl type="defRep">
+               <biblStruct xml:id="p3525-1" corresp="BSB-0008">
+                  <monogr>
+                     <author>
+                        Verfasser der Preussischen Bravourlieder
+                     </author>
+                     <title>Mardi-gras für die Neufranken-Pairs und Barons</title>
+                     <imprint>
+                        <publisher>Friedrich Maurer</publisher>
+                        <pubPlace>Berlin</pubPlace>
+                        <date>1793</date>
+                     </imprint>
+                  </monogr>
+               <ptr target="http://www.mdz-nbn-resolving.de/urn/resolver.pl?urn=urn:nbn:de:bvb:12-bsb10578165-1"/></biblStruct>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Masterarbeit zu Matrikelnummer 5584124</p>
+         </projectDesc>
+      </encodingDesc>
+      <profileDesc>
+         <creation>
+            <date when-iso="1794-05-00">Mai 1794</date>
+         </creation>
+        <langUsage>
+           <language ident="d">deutsch</language>
+        </langUsage>
+         <textClass>
+            <keywords scheme="internal"><!-- internal: innerhalb des besagten Briefs -->
+               <term>Billet</term>
+               <term>Gedicht</term>
+               <term>Literatur</term>
+               <term>Humboldt</term>
+               <term>Treffen</term>
+               <term>Literatur-Zeitung</term>
+            </keywords>
+            <keywords scheme="categorisation"><!-- Sinnabschnittseinteilung - relevant für den Fahrkartenautomaten! -->
+               <term xml:id="lvm">Literatur vermischt</term>
+               <term xml:id="khum">Humboldt</term>
+               <term xml:id="vkgvb">Verhältnis Karl Gustav von Brinckmann</term>
+            </keywords>
+         </textClass>
+         <textDesc>
+            <channel>manuscript</channel>
+            <constitution type="single"/>
+            <derivation type="original"/>
+            <domain type="private"/>
+            <factuality type="fact"/>
+            <interaction type="partial"/>
+            <preparedness type="unprepared"/>
+            <purpose type="inform"/>
+         </textDesc>
+         <particDesc>
+            <listPerson>
+               <!-- Sender und Adressat -->
+               <person role="sender" xml:id="Gen">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/118538489"/>
+                     <forename>Friedrich von</forename>
+                     <surname>Gentz</surname>
+                  </persName>
+               </person>
+               <person role="receiver" xml:id="KGvB">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/116519770"/>
+                     <forename>Carl Gustav von</forename>
+                     <surname>Brinckmann</surname>
+                  </persName>
+               </person>
+               <!-- erwähnte Personen -->
+               <person role="named" xml:id="Hum">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/118554727"/>
+                     <forename>Wilhelm von</forename>
+                     <surname>Humboldt</surname>
+                  </persName>
+               </person>
+               <person role="named" xml:id="Fic">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/118532847"/>
+                     <forename>Johann Gottlieb</forename>
+                     <surname>Fichte</surname>
+                  </persName>
+               </person>
+               <person role="named" xml:id="Rhd">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/118599410"/>
+                     <forename>Karl Leonhard</forename>
+                     <surname>Reinhold</surname>
+                  </persName>
+               </person>
+            </listPerson>
+         </particDesc>
+         <settingDesc>
+            <listPlace>
+               <!-- Start- und Zielort -->
+               <place type="sender" xml:id="plFf">
+                  <country>
+                     <ref target="http://d-nb.info/gnd/4047194-9"/>
+                     <placeName>Preußen</placeName>
+                  </country>
+                  <region>
+                     <ref target="http://d-nb.info/gnd/4394762-1"/>
+                     <placeName>Friedrichsfelde</placeName>
+                  </region>
+               </place>
+               <place type="receiver" xml:id="plBe">
+                  <country>
+                     <ref target="http://d-nb.info/gnd/4047194-9"/>
+                     <placeName>Preußen</placeName>
+                  </country>
+                  <settlement>
+                     <ref target="http://d-nb.info/gnd/4005728-8"/>
+                     <placeName>Berlin</placeName>
+                  </settlement>
+               </place>
+               <!-- erwähnte Orte -->
+               <place type="named" xml:id="plJe">
+                  <country>
+                     <ref target="http://d-nb.info/gnd/4051194-7"/>
+                     <placeName>Sachsen-Weimar-Eisenach</placeName>
+                  </country>
+                  <settlement>
+                     <ref target="http://d-nb.info/gnd/4028557-1"/>
+                     <placeName>Jena</placeName>
+                  </settlement>
+               </place>
+            </listPlace>
+         </settingDesc>
+      </profileDesc>
+      <revisionDesc>
+         <change xml:id="init" when-iso="2018-02-14" who="#edAG">Erstauszeichnung und Normierung des Dokumentes im Rahmen der Masterarbeit der Matrikelnummer 5584124</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div n="1" corresp="#lvm">
+            <p>
+               Ich remittire schon hier mit dem grösten Dank das merkwürdige Gedicht. <emph rend="underlined">Dies</emph> Talent 
+               hatte ich an dem Verfasser nie gekannt. Es sind überaus glückliche Ideen darin. Freilich wünschte ich, daß er die 
+               Einkleidung und Versification lieber Ihnen überlassen hätte: so wäre ein vollkommneres Ganzes entstanden, doch auch, 
+               wie es ist, verdient es alle Achtung.
+            </p>
+            <p>
+               Wenn Sie ein Buch welches
+            </p>
+            <lg>
+               <l><rs type="citation" ref="#p3525-1"><emph rend="underlined">Mardi-gras für die Neufranken. Berlin. Maurer</emph></rs></l>
+            </lg>
+            <p>
+               heißt, noch nicht kennen, so bitte ich Sie inständigst lassen Sie es gleich aus dem Buchladen holen. Ich versichre, 
+               daß es Sie <add place="above">nicht</add> gereuen wird. Darin lernen Sie den 
+               <emph rend="underlined">ersten Dichter</emph> unsers Vaterlandes kennen. Die werden mir danken.
+            </p>
+         </div>
+         <div n="2" corresp="#khum">
+            <p>
+               Sie wissen doch, daß Humboldt einen Sohn hat ?
+            </p>
+         </div>
+         <div n="3" corresp="#vkgvb">
+            <p>
+               Ich komme Freitag in die Stadt, und werde Sie, wenn es irgend möglich ist, auf ein halb Stündchen besuchen. Warum 
+               kommen Sie aber gar nicht zu uns ? Ist Ihre Krankheit Schuld ? Das wolle der Himmel nicht ! - Man sagt doch, Sie 
+               gingen aus. Kommen Sie doch !
+            </p>
+         </div>
+         <closer>
+            <signed rend="right">Gentz</signed>
+         </closer>
+         <postscript corresp="#lvm">
+            <p>
+               Für die <rs type="citation" ref="#a3525-2">Recension</rs> des <rs type="person" ref="#Fic">Fichte</rs> habe ich ein 
+               besondres Danksagungs-Schreiben von den Herausgebern der <rs type="citation" ref="#e3525-1">Litteratur Zeitung</rs> 
+               erhalten - Ein Faktum, welches deshalb nicht unmerkwürdig ist, weil <rs type="person" ref="#Fic">Fichte</rs> an 
+               <rs type="person" ref="#Rhd">Reinhold</rs>s Stelle nach 
+               <rs type="place" ref="#plJe"><emph rend="underlined">Jena</emph></rs> kömmt ! - Aber die 
+               <emph rend="underlined">Antikritik</emph>, die ich wahrlich nicht fürchte, wird auch nicht lange ausbleiben.
+            </p>
+         </postscript>
+      </body>
+   </text>
+</TEI>

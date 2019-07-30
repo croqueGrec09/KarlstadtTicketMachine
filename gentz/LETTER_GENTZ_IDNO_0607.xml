@@ -1,0 +1,532 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc xml:id="LETTER_GENTZ_0607">
+         <titleStmt>
+            <title>Friedrich von Gentz an John Joshua Proby, 3. November 1800</title>
+            <editor xml:id="edAG">Andreas Gálffy</editor>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <name>Forschungsstelle "Universitätssammlung Friedrich von Gentz"</name>
+               <link target="http://gentz-digital.ub.uni-koeln.de http://www.ub.uni-koeln.de/cdm/singleitem/collection/gentz/id/606/"/>
+            </publisher>
+            <pubPlace>Cologne</pubPlace>
+            <idno type="Gentz-Edition-Number" n="0607"/>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <country>United Kingdom</country>
+                  <settlement>London</settlement>
+                  <institution>British Library</institution>
+                  <repository>Manuscript Department</repository>
+                  <collection>Dropmore Papers, Add. 58891</collection>
+                  <idno>Bl. 1</idno>
+               </msIdentifier>
+               <msContents>
+                  <summary>
+                     Dies ist ein Pro Memoria über die Isolation Englands gegenüber dem Kontinent. Der Enthusiasmus der 
+                     französischen Revolution ist verflogen und geblieben sind nur noch Hass, Terror, Verbrechen. In diesem Chaos, 
+                     in welchem Europa jetzt zu versinken droht, scheint England für Gentz ein Rettungsring zu sein. Mehr noch; 
+                     England hat sich verhasst gemacht in diesem Sturm, und Gentz führt hinzu folgende Gründe an: 
+                     1. Die wirtschaftliche Größe Englands fuße auf der Schwäche der anderen Nationen. Dieser Irrglaube sei 
+                     Gemeinplatz in allen Ländern.
+                     2. Die vornehme Haltung Englands im Kriege
+                     Deshalb habe, so Gentz weiter, die englische Regierung außerhalb ihrer Grenzen kaum Freunde. Gentz schlägt 
+                     weiterhin konkrete Maßnahmen zur Verbesserung des Ansehens in der Welt vor:
+                     1. die öffentliche Meinung darf nie mit Gleichgültigkeit betrachtet werden,
+                     2. wird diese öffentliche Meinung schlimmer, wenn über die Massen hinaus auch Schriftsteller und Politiker mit 
+                     erfasst werden.
+                     Dagegen muss man mit Gegenströmen halten; mit allem, was an aufgeklärten Leuten aufzubieten ist. Wenn nicht, 
+                     dann diese bekämpfen. Im Folgenden wird über Herrn Mallet du Pan berichtet, der genau diese Aufklärung habe. Im 
+                     besonderen Pro Memoria fährt Gentz fort, über seine Erfahrungen mit eben dieser Meinung umzugehen und nennt 
+                     dabei Graf Schulenburg als den einzigen Helfershelfer in dieser Zeit. Gentz möchte zu der weiteren Aufklärung 
+                     eine Zeitung herausbringen, braucht dazu aber finanzielle Unterstützung. Im Gegenzug liefert Gentz Artikel zur 
+                     Redaktion. Die Themen erläutert Gentz im folgenden Abschnitt:
+                     1. Überzeugung Europas, dass die Interessen der Insel und des Kontinents untrennbar seien
+                     2. Analyse der Doktrin zur Souveränität des Volkes (sic!) - wie diese sich zu Schande entwickelt hat für die 
+                     aufgeklärte Schicht
+                     3. Erforschung der echten Gründe des aktuellen Krieges
+                  </summary>
+               </msContents>
+            </msDesc>
+            <listBibl type="alludedWorks">
+               <bibl xml:id="a0607-1" corresp="#LETTER_GENTZ_NNNN">nicht näher benanntes Werk von Jacques Mallet du Pan über die englischen Finanzen</bibl>
+            </listBibl>
+            <listBibl type="defExpr">
+               <biblStruct xml:id="e0607-1" corresp="Grg-0016">
+                  <monogr>
+                     <author>
+                        <persName>
+                           <ref target="http://d-nb.info/gnd/119483947"/>
+                           <forename>Jacques</forename>
+                           <surname>Mallet du Pan</surname>
+                        </persName>
+                     </author>
+                     <title>Mercure britannique</title>
+                     <imprint>
+                        <date>1798-1799</date>
+                     </imprint>
+                  </monogr>
+                  <ptr target="http://gazetier-revolutionnaire.gazettes18e.fr/periodique/mercure-britannique-1798-1799"/>
+               </biblStruct>
+               <biblStruct xml:id="e0607-2" corresp="GBk-0063">
+                  <monogr>
+                     <editor>
+                        <persName>
+                           <ref target="http://d-nb.info/gnd/118538489"/>
+                           <forename>Friedrich von</forename>
+                           <surname>Gentz</surname>
+                        </persName>
+                     </editor>
+                     <title>Historisches Journal</title>
+                     <imprint>
+                        <pubPlace>Berlin</pubPlace>
+                        <publisher>Heinrich Frölich</publisher>
+                        <date>1800</date>
+                     </imprint>
+                  </monogr>
+                  <ref target="https://books.google.de/books?id=0k5BAAAAcAAJ"/>
+               </biblStruct>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Masterarbeit zu Matrikelnummer 5584124</p>
+         </projectDesc>
+      </encodingDesc>
+      <profileDesc>
+         <creation>
+            <date when-iso="1800-11-03">3. November 1800</date>
+         </creation>
+        <langUsage>
+           <language ident="f">französisch</language>
+        </langUsage>
+         <textClass>
+            <keywords scheme="internal"><!-- internal: innerhalb des besagten Briefs -->
+               <term>Pro Memoria</term>
+               <term>Ereignis</term>
+               <term>England</term>
+               <term>Eroberung</term>
+               <term>Frieden</term>
+               <term>Bericht</term>
+               <term>Historisches Journal</term>
+            </keywords>
+            <keywords scheme="categorisation"><!-- Sinnabschnittseinteilung - relevant für den Fahrkartenautomaten! -->
+               <term xml:id="frv">Französische Revolution</term>
+               <term xml:id="ehdl">englischer Handel</term>
+               <term xml:id="keng">England</term>
+               <term xml:id="vjmdp">Verhältnis Jacques Mallet du Pan</term>
+               <term xml:id="jrnh">Historisches Journal</term>
+               <term xml:id="gprl">Gentz - p(r)ekuniäre Lage</term>
+               <term xml:id="vjjp">Verhältnis John Joshua Proby</term>
+            </keywords>
+         </textClass>
+         <textDesc>
+            <channel>manuscript</channel>
+            <constitution type="single"/>
+            <derivation type="original"/>
+            <domain type="private"/>
+            <factuality type="fact"/>
+            <interaction type="partial"/>
+            <preparedness type="prepared"/>
+            <purpose type="inform"/>
+         </textDesc>
+         <particDesc>
+            <listPerson>
+               <!-- Sender und Adressat -->
+               <person role="sender" xml:id="Gen">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/118538489"/>
+                     <forename>Friedrich von</forename>
+                     <surname>Gentz</surname>
+                  </persName>
+               </person>
+               <person role="receiver" xml:id="JJPLC">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/159696496"/>
+                     <forename>John Joshua Proby</forename>
+                     <surname>Carysfort</surname>
+                  </persName>
+               </person>
+               <!-- erwähnte Personen -->
+               <person role="named" xml:id="MdP">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/119483947"/>
+                     <forename>Jacques</forename>
+                     <surname>Mallet du Pan</surname>
+                  </persName>
+               </person>
+               <person role="named" xml:id="FWvdSK">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/118611275"/>
+                     <forename>Friedrich Wilhelm von der</forename>
+                     <surname>Schulenburg-Kehnert</surname>
+                  </persName>
+               </person>
+               <person role="named" xml:id="KFWIII">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/118535986"/>
+                     <forename>Friedrich Wilhelm III.</forename>
+                     <surname>von Preußen</surname>
+                     <roleName type="office">König</roleName>
+                  </persName>
+               </person>
+            </listPerson>
+         </particDesc>
+         <settingDesc>
+            <listPlace>
+               <!-- Start- und Zielort -->
+               <place type="sender" xml:id="plBe">
+                  <country>
+                     <ref target="http://d-nb.info/gnd/4047194-9"/>
+                     <placeName>Preußen</placeName>
+                  </country>
+                  <settlement>
+                     <ref target="http://d-nb.info/gnd/4005728-8"/>
+                     <placeName>Berlin</placeName>
+                  </settlement>
+               </place>
+               <place type="receiver" xml:id="plLo">
+                  <country>
+                     <ref target="http://d-nb.info/gnd/4022153-2"/>
+                     <placeName>Vereinigtes Königreich</placeName>                
+                  </country>
+                  <settlement>
+                     <ref target="http://d-nb.info/gnd/4074335-4"/>
+                     <placeName>London</placeName>
+                  </settlement>
+               </place>
+               <!-- erwähnte Orte -->
+               <place type="named" xml:id="plEu">
+                  <geogName type="continent">
+                     <ref target="http://d-nb.info/gnd/4015701-5"/>
+                     <placeName>Europa</placeName>
+                  </geogName>
+               </place>
+               <place type="named" xml:id="plEn">
+                  <country>
+                     <ref target="http://d-nb.info/gnd/4022153-2"/>
+                     <placeName>England</placeName>
+                  </country>
+               </place>
+               <place type="named" xml:id="plFr">
+                  <country>
+                     <ref target="http://d-nb.info/gnd/4018145-5" />
+                     <placeName>Frankreich</placeName>
+                  </country>
+               </place>
+               <place type="named" xml:id="plDe">
+                  <country>
+                     <ref target="http://d-nb.info/gnd/2035457-5"/>
+                     <placeName>Deutschland</placeName>  
+                  </country>
+               </place>
+            </listPlace>
+         </settingDesc>
+      </profileDesc>
+      <revisionDesc>
+         <change xml:id="init" when-iso="2018-03-07" who="#edAG">Erstauszeichnung und Normierung des Dokumentes im Rahmen der Masterarbeit der Matrikelnummer 5584124</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <head><emph rend="underlined">Mémoire</emph></head>
+         <div n="1" corresp="#frv">
+            <p>
+               Le principe dominant de la politique de <rs type="place" ref="#plEu">l'Europe</rs>, et le principe dominant de tous 
+               les raisonneurs et écrivains politiques, est dans le moment actuel - 
+               <emph rend="underlined">la jalousie de la puissance Brittannique</emph>.
+            </p>
+            <p>
+               Il ne faut plus se le dissimuler: l'enthousiasme que les principes de la révolution Françoise avoient inspiré à tous 
+               les peuples de <rs type="place" ref="#plEu">l'Europe</rs>, s'éteint de plus en plus: la terreur que les forfaits et 
+               les armes de cette révolution avoient imprimée partout s'est dissipée de même. Ceux qui aimoient le système 
+               révolutionaire avec passion, quoiqu'ils ne cesseront jamais de l'aimer, l'aiment avec froideur; ceux qui le 
+               combattoient avec énergie, ne le combattent plus qu'avec indifférence. L'usurpation qui a couronné cette révolution, 
+               est consommée. Chacun cherche aujourd'hui l'attitude qu'il doit prendre dans le nouvel état de choses que cette 
+               usurpation a amené. On verra <del rend="stroked">tomber</del> peut-être avec plaisir tomber l'usurpateur; mais on le 
+               voit règner paisiblement. Le sentiment du juste et de l'injuste, l'horreur du crime, le besoin d'une vengeance 
+               légitime, le respect pour ce qui a été longtems sacré parmi les hommes, la loyauté, la pudeur - toutes les nobles 
+               émotions du coeur <pb/> humain sont disparues. Il n'y a pas jusqu'à l'ardeur révolutionaire elle même, qui n'ait été 
+               engloutie dans le tombeau de toutes les passions fortes, de tous les mouvemens prononcés. L'enthousiasme avoit créé 
+               la révolution: c'est la lâcheté et l'égoisme qui l'ont consacrée et perpétuée.
+            </p>
+         </div>
+         <div n="2" corresp="#ehdl">
+            <p>
+               Il ne reste donc plus aux grandes puissances que le soin de s'affermir sur leurs bases, en calculant et capitulant 
+               avec ce bouleversement <emph rend="underlined">désormais irréparable</emph>, et se prémunir de longue main contre les 
+               germes de nouveaux déchiremens et de nouveaux malheurs, qui les menacent. 
+               <rs type="place" ref="#plEn">L'angleterre</rs> est la dernière ressource de 
+               <rs type="place" ref="#plEu">l'Europe</rs>; et c'est précisément contre 
+               <rs type="place" ref="#plEn">l'Angleterre</rs> que se tourne à présent le torrent dévastateur d'une opinion publique, 
+               fruit de l'aveuglement des uns et de la méchanceté inépuisable des autres.
+            </p>
+            <p>
+               La haine contre <rs type="place" ref="#plEn">l'Angleterre</rs> découle principalement de deux sources
+            </p>
+            <p>
+               1, Des absurdes préjugés en matière d'économie publique, qui font croire au public 
+               <emph rend="underlined">de tous les pays sans exception</emph>, que la grandeur d'un pays <pb/> doit nécessairement 
+               etre la foiblesse et la perte des autres, que ce qui constitue la richesse de 
+               <rs type="place" ref="#plEn">l'Angleterre</rs>, constitue la pauvrete du reste de 
+               <rs type="place" ref="#plEu">l'Europe</rs>, que la prépondérance aussi 
+               <emph>juste qu'inevitable</emph> que donnent à une nation son industrie, son caractère, et la sagesse de son 
+               gouvernement, est un monopole odieux par lequel <add place="above">elle</add> opprime toutes les autres nations; 
+               enfin - ce qui est le comble du délire, mais en même tems une conséquence naturelle des erreurs fondamentales - que 
+               la décadence et même la déstruction de <rs type="place" ref="#plEn">l'angleterre</rs> seroit l'evenement le plus 
+               heureux qui pourroit arriver au reste du monde.
+            </p>
+         </div>
+         <div n="3" corresp="#frv">
+            <p>
+               Cette haine découle
+            </p>
+            <p>
+               2, De la part à jamais honorable que <rs type="place" ref="#plEn">l'angleterre</rs> a prise dans la guerre contre la 
+               révolution, et de la noble et salutaire énergie qu'elle a déployée dans cette crise terrible. C'est un crime 
+               irrémissible, que les nombreux partisans du système révolutionaire ne lui pardonneront jamais.
+            </p>
+         </div>
+         <div n="4" corresp="#keng">
+            <p>
+               Par ces deux causes réunies nous en sommes enfin parvenus au point, que le gouvernement Anglois - il faut le dire 
+               avec vérité et même avec force - n'a presque plus d'amis hors le sein de son pays. Ceux qui se sont plus ou moins 
+               déclarés pour la <pb/> révolution, sont les ennemis nés de ce gouvernement; et ceux même qui n'aiment pas la 
+               révolution, voient dans <rs type="place" ref="#plEn">l'Angleterre</rs> le fléau de la prospérité publique de 
+               <rs type="place" ref="#plEu">l'Europe</rs>. Que l'on consulte l'esprit public d'une extrémité du continent à l'autre: 
+               on retrouvera par-tout les mêmes dispositions.
+            </p>
+            <p>
+               Il est vrai qu'un gouvernement fort de sa justice et de sa sagesse, peut se mettre longtems au-dessus des vaines 
+               clameurs de l'ignorance, et des intrigues infatigables de la perfidie. Mais il arrive un moment, où, sous peine de 
+               sacrifier les intérèts les plus <del rend="stroked">sacrifier</del> sacrés, on ne peut, et on ne doit plus rester 
+               indifférent à cette réunion de haines sincères et de haines artificielles; et ce moment paroit être arrivé pour 
+               <rs type="place" ref="#plEn">l'Angleterre</rs>. Car
+            </p>
+            <p>
+               1, L'opinion publique, quelque pervertie, quelque détestable que puisse être sa direction, n'est jamais une chose 
+               indifférente. Elle pourroit l'être encore pour un gouvernement fondé exclusivement sur la violence et la terreur, 
+               auquel tous les moyens paroissent également bons et permis, et dont la maxime suprême seroit: 
+               <span xml:lang="lat">Oderint dum metuant</span>. <pb/> Mais un état, dont la constitution même exclut l'abus de la 
+               force, qui ne veut et qui ne peut se permettre que ce qui est juste et bon en soi, qui règne par la loyauté et non 
+               par l'oppression, doit nécessairement compter avec l'opinion publique, la diriger, si elle est pervertie, la 
+               combattre, si elle s'arme contre lui.
+            </p>
+            <p>
+               2, Cette opinion publique devient plus grave, lorsqu'elle entraine dans ses torrents, non seulement la multitude 
+               aveugle, et les écrivains factieux, mais même les hommes d'état les plus influens par leur position et par leur 
+               pouvoir. Or il est indubitable, que ce qui a donné sa véritable force au systême politique du moment, ce qui a 
+               entrainé tant de souverains dans les idées d'opposition systématique, de mesures concertées, de ligue générale 
+               contre <rs type="place" ref="#plEn">l'angleterre</rs>, ce qui a été la base de tout ce qui se prépare et se trame 
+               maintenant contre cette puissance - c'est l'aveuglement de la plupart des hommes d'état, ministres dirigeans, envoyés 
+               des cours, publicistes d'un ordre supérieur, enfin de la plupart de ceux qui dominent l'opinion elle-même; 
+               aveuglement, dont les progrès sont plus grands et plus terribles, que ne sauroient jamais le croire et le concevoir 
+               <pb/> ceux qui n'ont pas eu l'occasion d'observer de près ce qui se passe sur le continent.
+            </p>
+            <p>
+               On peut en appeller hardiment à tous les ministres instruits et attentifs de 
+               <rs type="place" ref="#plEn">l'angleterre</rs> dans les diverses parties de 
+               <rs type="place" ref="#plEu">l'Europe</rs>, si l'exagération et la terreur panique ont la moindre part à ce tableau 
+               affligeant, si ce n'est pas là l'état réel des choses, s'il n'y a pas de grands pays, et des villes 
+               <del rend="stroked">xxx</del> qui passent pour être en possession de toutes les lumières, ou il seroit difficile, de 
+               trouver <emph rend="underlined">dix</emph>, je dis, <emph rend="underlined">dix</emph> véritables et sincères amis du 
+               gouvernement Anglois, ou seulement dix personnes, qui sentissent, quel coup mortel l'affoiblissement de 
+               <rs type="place" ref="#plEn">l'angleterre</rs> porteroit à la prospérité et à l'existence même de 
+               <rs type="place" ref="#plEu">l'Europe</rs>.
+            </p>
+            <p>
+               Je sais très-bien, que les efforts de quelques écrivains n'arrêteront pas tout-à-coup ce torrent dévastateur; mais il 
+               n'en est pas moins vrai, qu'au delà de ses propres moyens de conservation, (qui sont certainement infiniment 
+               respectables, et qui, si la providence ne nous a <pb/> pas absolument voués à la destruction générale, nous 
+               soutiendront longtems, en dépit de nos propres fureurs) il ne reste plus au gouvernement anglois pour ramener 
+               peu-à-peu l'opinion à des principes plus sains, que la résolution, de mettre à profit tout ce qu'il y a encore en 
+               <rs type="place" ref="#plEu">Europe</rs> de lumières et de talens, et tout ce que la corruption effrénée du siécle a 
+               encore laissé intact de ces lumieres et ces talens, pour l'employer, pour le concentrer dans sa cause. Le public, 
+               tout gangrené qu'il soit, n'est pas devenu entièrement sourd à la voix de la vérité, lorsqu'elle se présente avec 
+               force, avec courage, et avec éclat.
+            </p>
+         </div>
+         <div n="5" corresp="#vjmdp">
+            <p>
+               <rs type="citation" ref="#e0607-1">Le Mercure Brittannique</rs> de 
+               <rs type="person" ref="#MdP">Monsieur Mallet Dupan</rs> a été une digue plus salutaire, que ne l'imaginent peut-être 
+               les ministres éclairés eux-mêmes qui lui avoient accordé leur protection; et le rédacteur du présent mémoire, éloigné 
+               autant qu'on peut l'être, de toute présomption ridicule, habitué même à se défier continuellement de ses foibles 
+               moyens, ne sauroit cependant se dissimuler, que par les morceaux qu'il a publiés de tems en tems, il n'ait influé 
+               plus ou moins sur l'opinion du public, sur-tout dans les classes supérieures, pour lesquelles le danger de la 
+               séduction est <pb/> malheureusement aussi grand aujourd'hui, qu'il l'etoit naguères pour les classes moyennes de la 
+               société. <rs type="citation" ref="#a0607-1">Son ouvrage</rs> sur les Finances de 
+               <rs type="place" ref="#plEn">l'Angleterre</rs> quelqu'imparfait qu'il soit, en a été une preuve remarquable. On l'a 
+               maltraité, insulté de toutes les manières: mais il n'en est pas moins avéré et incontestable, que cet ouvrage a fait 
+               <emph rend="underlined">en <rs type="place" ref="#plFr">France</rs> même</emph>, une très-forte impression, et qu'il 
+               a forcé à respecter l'angleterre ceux même qui étoient les plus éloignés de l'aimer.
+            </p>
+         </div>
+         <div n="6" corresp="#keng">
+            <p>
+               Quand on ne peut pas maitriser l'opinion, c'est déjà beaucoup, que de l'entraver et de la battre sans relâche. 
+               L'abandonner à elle-même seroit la plus grave de toutes les fautes. Dans ce moment-ci, ce n'est plus l'absurde 
+               fanatisme de la révolution seul, c'est encore la haine insensée contre le gouvernement Anglois, qu'il faut attaquer 
+               de toutes les forces qui nous restent. Heureux ceux, qui en se chargeant de cette tâche noble et nécessaire, pourront 
+               se dire qu'ils ont contribué à maintenir ce qu'il y avoit de plus grand et de plus respectable parmi les hommes, et à 
+               detourner de <rs type="place" ref="#plEu">l'Europe</rs> des calamités qui feroient presqu'oublier celles dont nous 
+               avons été les témoins et les victimes.
+            </p>
+         </div>
+         <div n="7" corresp="#jrnh">
+            <head><emph rend="underlined">Mémoire particulier</emph></head>
+            <p>
+               Vous m'avez permis de Vous présenter quelques idées sur la nécessité urgente, d'agir sur la direction de l'opinion 
+               publique. Vous m'avez permis encore d'y ajouter quelques mots sur la manière dont je pourrois concourir moi-même a ce 
+               but salutaire. J'ai fait l'un dans le mémoire joint à cette lettre, mémoire qui ne contient rien, que Vous ne 
+               confirmeriez Vous-même d'après tout ce que Vous avez vu et entendu autour de Vous. Je ferai l'autre par l'exposition 
+               sincère, que Vous allez lire ici.
+            </p>
+            <p>
+               J'ai commencé <rs type="citation" ref="#e0607-2">mon journal</rs> sous les auspices du seul homme qui 
+               <add place="above">parmi nous</add> avoit parfaitement vû et senti l'état dans lequel se trouve 
+               <rs type="place" ref="#plEu">l'Europe</rs>. Vous savez quel est l'esprit malheureux qui dirige les conseils de ce 
+               pays. Vous comprendrez donc sans peine, qu'une entreprise de ce genre devoit trouver mille obstacles au lieu d'un 
+               seul encouragement. La conjuration de la faire avorter a été générale et terrible. 
+               <rs type="person" ref="#FWvdSK">Le Comte Schulenburg</rs> m'a seul soutenu. Heureusement qu'alors son crédit étoit 
+               encore assez grand, pour balancer tout ce qu'on avoit fait pour empêcher le roi de me protéger. Hereusement que les 
+               moyens de me protéger efficacement étoient tous entre ses mains.
+            </p>
+            <p>
+               L'état de notre librairie, et l'indolence et le mauvais esprit du public de 
+               <rs type="place" ref="#plDe">l'Allemagne</rs>, auroit rendu cette entreprise impossible à un homme qui ne s'en seroit 
+               jamais chargé <pb/> sans être sûr de remplir sa tâche avec un certain dégré de succès. Les travaux qu'un ouvrage de 
+               cette nature exige, les frais très-considérables de livres, brochures, gazettes etc. qu'il suppose, ne pouvoient 
+               absolument être soutenus, que par le concours généreux de la part du gouvernement. 
+               <rs type="person" ref="#FWvdSK">Le Comte Schulemburg</rs>, aux instances particulières duquel 
+               <rs type="citation" ref="#e0607-1">mon journal</rs> a du son existence, en a fait les honneurs sous tous les 
+               rapports. 
+            </p>
+         </div>
+         <div n="8" corresp="#gprl">
+            <p>
+               Il a déterminé <rs type="person" ref="#KFWIII">le roi</rs> 1, à me dispenser de la plus grande partie des 
+               travaux attachés aux fonctions de ma place. 2, à consacrer une somme annuelle de 2000 écus à la rédaction de 
+               <rs type="citation" ref="#e0607-1">mon journal</rs>. La moitié de cette somme m'a été payée comme gratification pour 
+               mon travail, l'autre moitié à titre de dedommagement pour les dépenses que ce travail entrainoit; et je puis Vous 
+               assurer sur mon honneur, que bien plus que cette moitie, que les trois quarts au moins de toute la somme ont été 
+               absorbés par ces dépenses.
+            </p>
+            <p>
+               Ce payement m'a été continué régulierement, quartier par quartier, pendant les deux années 1799 et 1800. Je savois 
+               depuis longtems qu'il cesseroit à la fin de celle-ci. <rs type="person" ref="#FWvdSK">Le Comte Schulemburg</rs> avoit 
+               déjà fait l'impossible. L'influence et le crédit du parti opposé avoit tellement augmenté, que la discrètion 
+               m'engageoit moi-même à prier ce Ministre de ne plus se sacrifier pour cette entreprise. <pb/>
+            </p>
+         </div>
+         <div n="9" corresp="#jrnh">
+            <p>
+               Comme je Vous dois à présent toute la vérité, j'aurai l'honneur de Vous dire, qu'elle alloit cesser 
+               <del rend="stroked">xxx</del> entièrement, si Vous ne m'aviez pas ouvert une nouvelle perspective. La promesse, de 
+               lui donner une autre forme, et de continuer <rs type="citation" ref="#a0607-1">le journal</rs>, comme ouvrage 
+               périodique paroissant par quartier, n'étoit qu'un prétexte pour masquer au public le changement qui s'étoit fait dans 
+               ma position. <rs type="person" ref="#FWvdSK">Le Comte Schulemburg</rs>, qui m'avoit du moins procuré pour l'année 
+               prochaine la continuation de ma dispensation du travail de département, désiroit lui-meme que je ne me retirasse pas 
+               brusquement, et que j'en imposasse pour ainsi dire au public, qui n'a jamais été dans le véritable secret de 
+               l'entreprise. Je prévoyois, et je prévois encore qu'il m'est impossible de la soutenir par mes forces.
+            </p>
+            <p>
+               Cependant, comme Vous croyez Vous-même que la continuation de mes travaux ne seroit pas sans intérèt pour 
+               <rs type="place" ref="#plEn">l'angleterre</rs>, comme Vous connoissez assez l'état des choses, pour savoir, que même 
+               la publication non-interrompue de mes écrits 
+               <emph rend="underlined">en <rs type="place" ref="#plDe">Allemagne</rs></emph>, ne seroit pas un objet entièrement 
+               indifférent à Votre pays, et qu'ensuite une traduction regulière dans Votre langue pourroit faire quelque bien en 
+               <rs type="place" ref="#plEn">Angleterre</rs>, je Vous présenterai mon plan, en Vous laissant le soin, d'en disposer 
+               de la manière que Vous jugerez la plus convenable.
+            </p>
+            <p>
+               La seule condition que je fais pour moi, doit nécessairement être celle de rester du moins dans l'état où je me suis 
+               trouvé jusqu'ici. - <pb/>
+            </p>
+            <p>
+               Je suis persuadé qu'il ne s'agiroit que d'ouvrir une souscription en <rs type="place" ref="#plEn">Angleterre</rs>; et 
+               comme les cahiers qui forment une année, peuvent très-bien d'après leur volume, être vendus a 2 guinées d''abonnement 
+               (ce qui étoit le prix de <rs type="citation" ref="#e0607-1">l'ouvrage</rs> de 
+               <rs type="person" ref="#MdP">Mallet Dupan</rs>) je crois que le gouvernement couvriroit aisément cette dépense. Mais, 
+               comme il me seroit impossible de traiter directement avec un libraire de <rs type="place" ref="#plLo">Londres</rs>, 
+               et qu'en général les tracasseries pécuniaires ne s'accordent pas avec le travail soutenu qu'exige un ouvrage de ce 
+               genre, je demanderois comme condition préliminaire, ou comme grace particulière, de n'entrer pour rien dans les 
+               détails de cet arrangement, mais d'etre simplement assuré de percevoir quartier par quartier la somme en question, 
+               sans m'inquièter de toute autre affaire relative à l'argent.
+            </p>
+            <p>
+               Si cet objet peut se règler, je Vous promets, de Vous fournir régulièrement ce qu'il faudra pour publier en Anglois 
+               les morceaux que je composerois en Allemand. J'ai pris la liberté de Vous désigner un homme à 
+               <rs type="person" ref="#plLo">Londres</rs> qui réunit toutes les qualités que cette traduction exige. Si on insiste à 
+               ce que l'ouvrage soit publié <emph rend="underlined">par mois</emph>, je m'arrangerai en conséquence. <pb/> Cependant 
+               je Vous répète encore ce que je Vous ai déjà observé, c'est, que, comme je m'abstiendrai presque toujours de traiter 
+               les nouvelles du moment, comme tout mon plan est basé sur des morceaux d'une très-grande étendue, comme il me seroit 
+               infiniment plus favorable de donner à ces morceaux, tout le tems et toute la suite, que leur perfection demanderoit, 
+               et comme d'ailleurs la communication avec <rs type="place" ref="#plEn">l'angleterre</rs> est sujetté à trop de 
+               difficultés pour pouvoir s'engager à <del rend="stroked">xxx</del> y envoyer chaque mois les matériaux d'un cahier, 
+               je préfererois infiniment, et pour moi-même, et pour l'avantage du public et de la chose, de ne faire paroitre que 
+               tous les deux ou trois mois un petit volume. Je Vous prie de proposer cette idée aux personnes, auxquelles Vous ferez 
+               part de ma proposition; et je serois bien charmé si elles la regardoient du même point-de-vue.
+            </p>
+            <p>
+               Si mon plan est accepté, je n'ai pas besoin de Vous dire que je m'attacherai principalement à traiter les objets qui 
+               peuvent avoir un intérèt particulier pour <rs type="place" ref="#plEn">l'angleterre</rs>, et pour ses intérèts sur le 
+               continent. Je Vous présenterai ici quelques-uns de ces objets, qui m'occuperoient sur-tout dans le travail de l'année 
+               prochaine:
+            </p>
+            <p>
+               1, Développement des principes qui tendroient à convaincre <rs type="place" ref="#plEu">l'Europe</rs>, que son 
+               intérèt <emph rend="underlined">bien-entendu</emph> ne sauroit jamais être séparé de l'intérèt de la 
+               <rs type="place" ref="#plEn">Grande Bretagne</rs>, de la conservation de sa précieuse industrie, de son commerce etc. 
+               et à detruire <pb/> toutes les fausses idées qu'on s'est faites de <del rend="stroked">xxx</del> ce qu'on appelle si 
+               mal-à-propos son monopole.
+            </p>
+            <p>
+               2, Analyse de la doctrine de la souveraineté du peuple, dans laquelle je remonterois à l'origine de ce faux principe, 
+               dans laquelle je montrerois, quel mal il a fait à <rs type="place" ref="#plEn">l'Angleterre</rs> depuis le siècle 
+               passé, comment il a été propagé dans toute <rs type="place" ref="#plEu">l'Europe</rs>, comment il a engendré la 
+               revolution de <rs type="place" ref="#plFr">France</rs> (que les badauds regardent comme fondée sur des principes 
+               <emph rend="underlined">inconnus</emph> jusqu'à nos jours) et comment il a fait que même sous la meilleure des 
+               constitutions, il a toujours subsisté un levain révolutionaire, seule cause de la conduite plus qu'étrange qu'un 
+               certain parti a tenu parmi vous, et dont il scandalise encore aujourd'hui la majorité éclairée de votre nation, et le 
+               petit nombre d'hommes - rari nantes in gurgite vaste - qui sont encore dignes d'entendre la vérité dans les autres 
+               pays de <rs type="place" ref="#plEu">l'Europe</rs>.
+            </p>
+            <p>
+               3, Recherches sur les véritables causes de la guerre actuelle et sur celles de sa durée, dans lesquelles je 
+               m'attacherois sur-tout à laver une fois pour toutes votre gouvernement de tous les reproches absurdes, dont on 
+               l'accable. Je suis pour l'objet de cet article en possession de faits précieux et d'excellens documens, dont je ne 
+               pourrois pas faire <emph rend="underlined">chez nous</emph> tout l'usage que je <pb/> désirerois en faire, vu notre 
+               manière de penser et les principes de ce gouvernement-ci.
+            </p>
+         </div>
+         <div n="10" corresp="#vjjp">
+            <p>
+               Au reste Vous connoissez assez ma manière d'ecrire et sur-tout ma façon de penser, pour que j'aie besoin de vous 
+               entretenir longtems sur l'esprit dans lequel tous ces morceaux seroient rédigée. Vous savez, que je ne suis pas fait 
+               pour écrire jamais contre ma conscience, que tout l'or du monde ne m'y engageroit pas, que tout ce que je dis, part 
+               de la conviction la plus intime, et que par un véritable zêle pour la bonne cause, j'ai consacré ma vie aux objets 
+               qui devroient occuper exclusivement dans ce terrible moment, les pensées de tous les hommes d'état, et de toutes les 
+               bonnes têtes qui n'ont pas oublié que nous sommes encore loin, très-loin de la fin des malheurs publics.
+            </p>
+            <p>
+               Je n'ajoute plus qu'un mot. La fin de cette année approche à grands pas, et Vous sentez, combien je dois désirer de 
+               savoir le plutôt possible le résultat de cette démarche. Je Vous prie donc instamment, de vouloir bien engager ceux 
+               avec lesquels Vous traiterez cette affaire, de me faire parvenir, 
+               <emph rend="underlined">sans le moindre délai</emph>, leurs intentions et les assurances, que je Vous ai demandées. 
+            </p>
+         </div>
+         <closer>
+            <dateline rend="right"><rs type="place" ref="#plBe">Berlin</rs> ce <date when-iso="1800-11-03">3 Novembre 1800</date></dateline>
+            <signed rend="right">Gentz.</signed>
+         </closer>
+      </body>
+   </text>
+</TEI>

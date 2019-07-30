@@ -1,0 +1,392 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc xml:id="LETTER_GENTZ_2659">
+         <titleStmt>
+            <title>Friedrich von Gentz an Girolamo Lucchesini, 4. August 1800</title>
+            <editor xml:id="edAG">Andreas Gálffy</editor>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <name>Forschungsstelle "Universitätssammlung Friedrich von Gentz"</name>
+               <link target="http://gentz-digital.ub.uni-koeln.de http://www.ub.uni-koeln.de/cdm/singleitem/collection/gentz/id/2658/"/>
+            </publisher>
+            <pubPlace>Cologne</pubPlace>
+            <idno type="Gentz-Edition-Number" n="2659"/>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <country>Germany</country>
+                  <settlement>Berlin</settlement>
+                  <institution>Geheimes Staatsarchiv Preußischer Kulturbesitz</institution>
+                  <repository>I. HA, Rep 92</repository>
+                  <collection>Nachlaß Lucchesini, Nr. 27</collection>
+                  <idno>Bl. 27-28v</idno>
+               </msIdentifier>
+               <msContents>
+                  <summary>
+                     In den ersten Sinnabschnitten übermittelt Gentz Neuigkeiten über die Situation in Piémont und in Italien: es 
+                     werden rigorose Maßnahmen durchgesetzt und General Jourdan wurde zum außerordentlichen Minister von Piemont 
+                     ernannt. Dies beunruhigt Gentz dahingehend, dass ein Aufleben der Jakobinerpartei entstehen könnte. Im 
+                     Folgenden beschreibt Gentz die Verhandlungen zwischen Österreich und Russland; nach Ansicht des russischen 
+                     Hofes muss Österreich die betriebenen Maßnahmen sogar in noch größerem Maße betreiben. Gentz erhofft sich 
+                     daraus ein Erwachen aus der Lethargie. Am Schluss des Briefes wird über das Eintreffen Lord Carysforts und ein 
+                     Dîner der Königin berichtet.
+                  </summary>
+               </msContents>
+            </msDesc>
+            <listBibl type="letterReferenced">
+               <bibl xml:id="c2659-1" corresp="#LETTER_GENTZ_NNNN">nicht bekannter Brief von Girolamo Lucchesini an Friedrich von Gentz</bibl>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Masterarbeit zu Matrikelnummer 5584124</p>
+         </projectDesc>
+      </encodingDesc>
+      <profileDesc>
+         <creation>
+            <date when-iso="1800-08-04">4. August 1800</date>
+         </creation>
+        <langUsage>
+           <language ident="f">französisch</language>
+        </langUsage>
+         <textClass>
+            <keywords scheme="internal"><!-- internal: innerhalb des besagten Briefs -->
+               <term>Brief</term>
+               <term>Reise</term>
+               <term>Meseritz</term>
+               <term>Invasion</term>
+               <term>Napoleon</term>
+               <term>Jourdan</term>
+            </keywords>
+            <keywords scheme="categorisation"><!-- Sinnabschnittseinteilung - relevant für den Fahrkartenautomaten! -->
+               <term xml:id="vgl">Verhältnis Girolamo Lucchesini</term>
+               <term xml:id="napinv">Napoleonische Invasion</term>
+               <term xml:id="frv">Französische Revolution</term>
+               <term xml:id="oestrus">Österreich - Russland</term>
+               <term xml:id="bezbl">Beziehungen zu Berlin - Leute</term>
+            </keywords>
+         </textClass>
+         <textDesc>
+            <channel>manuscript</channel>
+            <constitution type="single"/>
+            <derivation type="original"/>
+            <domain type="private"/>
+            <factuality type="fact"/>
+            <interaction type="partial"/>
+            <preparedness type="prepared"/>
+            <purpose type="inform"/>
+         </textDesc>
+         <particDesc>
+            <listPerson>
+               <!-- Sender und Adressat -->
+               <person role="sender" xml:id="Gen">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/118538489"/>
+                     <forename>Friedrich von</forename>
+                     <surname>Gentz</surname>
+                  </persName>
+               </person>
+               <person role="receiver" xml:id="GirL">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/118780670"/>
+                     <forename>Girolamo</forename>
+                     <surname>Lucchesini</surname>
+                  </persName>
+               </person>
+               <!-- erwähnte Personen -->
+               <person role="named" xml:id="AMs">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/116835818" />
+                     <forename>André</forename>
+                     <surname>Masséna</surname>
+                  </persName>
+               </person>
+               <person role="named" xml:id="JBJ">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/119024284"/>
+                     <forename>Jean-Baptiste</forename>
+                     <surname>Jourdan</surname>
+                  </persName>
+               </person>
+               <person role="named" xml:id="NBon">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/118586408"/>
+                     <forename>Napoleon I.</forename>
+                     <surname/>
+                     <roleName type="office">Kaiser</roleName>
+                  </persName>
+               </person>
+               <person role="named" xml:id="KKEIV">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/133035689"/>
+                     <forename>Karl Emanuel IV.</forename>
+                     <surname/>
+                     <roleName type="office">König von Sardinien</roleName>
+                  </persName>
+               </person>
+               <person role="named" xml:id="ZPI">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/118739549"/>
+                     <forename>Paul I.</forename>
+                     <surname>Romanow</surname>
+                     <roleName type="office">Zar von Russland</roleName>
+                  </persName>
+               </person>
+               <person role="named" xml:id="SpvL">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/13789175X"/>
+                     <forename>Spiridon von</forename>
+                     <surname>Lusi</surname>
+                  </persName>
+               </person>
+               <person role="named" xml:id="NPP">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/117684465"/>
+                     <forename>Nikita Petrowitsch</forename>
+                     <surname>Panin</surname>
+                  </persName>
+               </person>
+               <person role="named" xml:id="JJPLC">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/159696496"/>
+                     <forename>John Joshua Proby</forename>
+                     <surname>Carysfort</surname>
+                  </persName>
+               </person>
+               <person role="named" xml:id="Glk">
+                  <persName>
+                     <ref />
+                     <forename/>
+                     <surname>Garlike</surname>
+                  </persName>
+               </person>
+               <person role="named" xml:id="KFWIII">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/118535986"/>
+                     <forename>Friedrich Wilhelm III.</forename>
+                     <surname>von Preußen</surname>
+                     <roleName type="office">König</roleName>
+                  </persName>
+               </person>
+               <person role="named" xml:id="KLP">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/118575155"/>
+                     <forename>Luise Auguste Wilhelmine Amalie</forename>
+                     <surname/>
+                     <roleName type="office">Königin von Preußen</roleName>
+                  </persName>
+               </person>
+               <person role="named" xml:id="WJHvM">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/117081051"/>
+                     <forename>Wichard Joachim Heinrich von</forename>
+                     <surname>Möllendorff</surname>
+                  </persName>
+               </person>
+               <person role="named" xml:id="FWvdSK">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/118611275"/>
+                     <forename>Friedrich Wilhelm von der</forename>
+                     <surname>Schulenburg-Kehnert</surname>
+                  </persName>
+               </person>
+               <person role="named" xml:id="PKvA">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/11629633X"/>
+                     <forename>Philipp Karl von</forename>
+                     <surname>Alvensleben</surname>
+                  </persName>
+               </person>
+               <person role="named" xml:id="CHCvH">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/116527080"/>
+                     <forename>Christian Heinrich Curt von</forename>
+                     <surname>Haugwitz</surname>
+                  </persName>
+               </person>
+               <person role="named" xml:id="CvT">
+                  <persName>
+                     <ref />
+                     <forename>Charlotte von</forename>
+                     <surname>Tarrach</surname>
+                  </persName>
+               </person>
+            </listPerson>
+         </particDesc>
+         <settingDesc>
+            <listPlace>
+               <!-- Start- und Zielort -->
+               <place type="sender" xml:id="plSb">
+                  <country>
+                     <ref target="http://d-nb.info/gnd/4047194-9"/>
+                     <placeName>Preußen</placeName>
+                  </country>
+                  <settlement>
+                     <ref target="http://d-nb.info/gnd/116944-0"/>
+                     <placeName>Schöneberg</placeName>
+                  </settlement>
+               </place>
+               <place type="receiver" xml:id="plMs">
+                  <country>
+                     <ref target="http://d-nb.info/gnd/4047194-9"/>
+                     <placeName>Preußen</placeName>
+                  </country>
+                  <region>
+                     <ref target="http://d-nb.info/gnd/4399096-4"/>
+                     <placeName>Kreis Meseritz</placeName>
+                  </region>
+               </place>
+               <!-- erwähnte Orte -->
+               <place type="named" xml:id="plPos">
+                  <country>
+                     <ref target="http://d-nb.info/gnd/4047194-9"/>
+                     <placeName>Preußen</placeName>
+                  </country>
+                  <region>
+                     <ref target="http://d-nb.info/gnd/4046868-9"/>
+                     <placeName>Posen</placeName>
+                  </region>
+               </place>
+               <place type="named" xml:id="plCr">
+                  <country>
+                     <ref target="http://d-nb.info/gnd/4482801-9"/>
+                     <placeName>Cisalpinische Republik</placeName>  
+                  </country>
+               </place>
+               <place type="named" xml:id="plPm">
+                  <country>
+                     <ref target="http://d-nb.info/gnd/4046039-3"/>
+                     <placeName>Piemontesische Republik</placeName>  
+                  </country>
+               </place>
+               <place type="named" xml:id="plPa">
+                  <country>
+                     <ref target="http://d-nb.info/gnd/4018145-5"/>
+                     <placeName>Frankreich</placeName>  
+                  </country>
+                  <settlement>
+                     <ref target="http://d-nb.info/gnd/4044660-8"/>
+                     <placeName>Paris</placeName>
+                  </settlement>
+               </place>
+               <place type="named" xml:id="plPe">
+                  <country>
+                     <ref target="http://d-nb.info/gnd/4076899-5"/>
+                     <placeName>Russland</placeName>
+                  </country>
+                  <settlement>
+                     <ref target="http://d-nb.info/gnd/4267026-3"/>
+                     <placeName>Petersburg</placeName>
+                  </settlement>
+               </place>
+               <place type="named" xml:id="plRu">
+                  <country>
+                     <ref target="http://d-nb.info/gnd/4076899-5"/>
+                     <placeName>Russland</placeName>
+                  </country>
+               </place>
+            </listPlace>
+         </settingDesc>
+      </profileDesc>
+      <revisionDesc>
+         <change xml:id="init" when-iso="2018-03-06" who="#edAG">Erstauszeichnung und Normierung des Dokumentes im Rahmen der Masterarbeit der Matrikelnummer 5584124</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <opener>
+            <salute rend="left">Monsieur le Marquis !</salute>
+         </opener>
+         <div n="1" corresp="#vgl">
+            <p>
+               Je vois par la lettre dont Votre Excellence vient de m'honorer, que le voyage de 
+               <rs type="place" ref="#plPos">Posen</rs> a eu lieu au commencement de ce mois. Cependant j'ai cru ne pas devoir 
+               interrompre le cours de la correspondance, et d'autant moins, que le moment où la présente arrivera à 
+               <rs type="place" ref="#plMs">Meseritz</rs> ne sauroit être fort éloigné de celui de Votre retour.
+            </p>
+         </div>
+         <div n="2" corresp="#napinv">
+            <p>
+               Votre Excellence trouvera dans les papiers d'aujourd'hui la triste nouvelle des rigueurs de 
+               <rs type="person" corresp="#AMs">Massena</rs> contre <rs type="place" ref="#plCr">Votre pauvre patrie</rs>. Quoique 
+               je ne puisse que plaindre le sort de ceux que cette exaction infame atteindra, de l'autre coté, et dans mes sentimens 
+               particuliers, je les félicite du motif honorable qu'on a assigné à cette mesure. Il est ridicule, de les accuser 
+               d'avoir <emph rend="underlined">outragé</emph> le gouvernement François; mais il est toujours beau d'être fortement 
+               soupçonné de le <emph rend="underlined">hair</emph>.
+            </p>
+         </div>
+         <div n="3" corresp="#frv">
+            <p>
+               Parmi les autres nouvelles, il n'y en a pas, à mon avis, de plus remarquable que celle de la nomination du 
+               <rs type="person" ref="#JBJ">Général Jourdan</rs> à la place de ministre extraordinaire en 
+               <rs type="place" ref="#plPm">Piémont</rs>. Les dernieres mesures de <rs type="person" ref="#NBon">Bonaparte</rs> 
+               contre les Emigrés, qu'il avoit jusques lors ouvertement protégés, me firent déjà naitre la crainte, que le parti 
+               Jacobin ne recommençat à gagner quelque crédit; car il me paroissoit <pb/> évident, que 
+               <rs type="person" ref="#NBon">Bonaparte</rs> n'avoit pu souscrire à ces arrêtés si contraires a sa manière de penser 
+               et d'agir, que par déference pour cette faction. Mais la nomination de <rs type="person" ref="#JBJ">Jourdan</rs> m'en 
+               paroit être une preuve bien autrement alarmante. Ce personnage s'étoit rendu si extrêmement odieux et méprisable par 
+               ses discours, ses propositions et ses démarches après le <date when-iso="1800-06-19">30 Prairial</date>, et encore en 
+               dernier lieu par sa fameuse motion de déclarer la patrie en danger, et par sa conduite à l'epoque du 
+               <date when-iso="1799-11-09">18 Brumaire</date>, qu'on ne pouvoit guères s'attendre à le voir reparoitre sur la scène, 
+               et encore moins dans une place si importante et si délicate. J'avoue à Votre Excellence, que je commence à trembler 
+               pour <rs type="person" ref="#NBon">Bonaparte</rs>. Dès qu'il n'a plus la force de résister constamment aux Jacobins, 
+               et qu'il s'abaisse à les flatter, je le crois perdu. Et d'ailleurs, aura-t-il jamais le courage de rétablir 
+               <rs type="person" ref="#KKEIV">le roi de Sardaigne</rs>, s'il n'a pas même celui de conserver l'autorité provisoire à 
+               un homme modéré ?
+            </p>
+         </div>
+         <div n="4" corresp="#oestrus">
+            <p>
+               Votre Excellence a sans doute appris, que dans le tems de l'envoi du dernier courier à 
+               <rs type="place" ref="#plPa">Paris</rs>, le Ministère avoit instruit par un autre courier la cour de 
+               <rs type="place" ref="#plPe">Petersburg</rs> de la manière dont il avoit proposé la médiation. A présent la réponse 
+               de <rs type="person" ref="#ZPI">l'empereur</rs> de <pb/> <rs type="place" ref="#plRu">Russie</rs> est arrivée, et 
+               elle n'approuve pas seulement la démarche faite par notre ministère, mais elle nous presse vivement de donner une 
+               plus grande étendue à cette démarche, et de la soutenir avec toute l'énergie possible. Je ne sais pas si cette 
+               conduite qui me paroit très-sage de la part du cabinet de <rs type="place" ref="#plPe">Petersburg</rs>, nous fera 
+               sortir de notre létargie; ce qui est sûr, c'est qu'elle fortifiera les dispositions amicales qui ont regné depuis 
+               quelque tems entre les deux cours, et dont <rs type="person" ref="#ZPI">l'empereur de Russie</rs> vient de nous 
+               donner une nouvelle preuve. Après la reception uniforme que tous les ministres étrangers récemment arrivés à 
+               <rs type="place" ref="#plPe">Pétersburg</rs> y ont trouvée, tout le monde avoit présagé au 
+               <rs type="person" ref="#SpvL">Général Lusi</rs> le même sort, celui d'être adressé au 
+               <rs type="person" ref="#NPP">Comte Panin</rs> sans être admis à l'audience du souverain. Cependant, au grand 
+               étonnement de tous ceux qui s'y étoient attendus, le contraire a eu lieu; l'audience lui a été accordée sur le champ; 
+               et quoique jusqu'ici on n'en connoisse pas le résultat, vû que la dernière dépêche de 
+               <rs type="person" ref="#SpvL">Monsieur Lusi</rs> est partie au moment ou il a reçu l'annonce préliminaire de 
+               l'audience, on ne doute pas qu'elle sera très-gracieuse.
+            </p>
+         </div>
+         <div n="5" corresp="#bezbl">
+            <p>
+               <rs type="person" ref="#JJPLC">Lord Carysfort</rs> est arrivé <date when-iso="1800-08-01">Vendredi soir</date>; il se 
+               contente pour le moment de la maison ou <rs type="person" ref="#Glk">Monsieur Garlike</rs> est logé; mais il occupera 
+               ensuite l'hotel de la Landgrave défunte. - <date when-iso="1800-08-03">Le jour de naissance du roi</date>, qui est 
+               aujourd'hui <del rend="stroked">a été</del> s'est <pb/> passé sans la moindre cérémonie; 
+               <rs type="person" ref="#KFWIII">le roi</rs> s'est refusé à tout. <rs type="person" ref="#KLP">La reine</rs> a 
+               seulement donné un petit diner, auquel, hors la famille royale, n'ont assisté, que Messieurs de 
+               <rs type="person" ref="#WJHvM">Möllendorff</rs>, <rs type="person" ref="#FWvdSK">Schulenburg</rs>, 
+               <rs type="person" ref="#PKvA">Alvensleben</rs> et <rs type="person" ref="#CHCvH">Haugwitz</rs>.
+            </p>
+            <p>
+               Je prie Votre Excellence de vouloir bien assurer <rs type="person" ref="#CvT">Madame la Marquise</rs> de tous les 
+               sentimens respectueux que je Lui dois, et Messieurs Vos fils de ma tendre amitié; c'est avec un dévouement 
+               inviolable, que j'ai l'honneur d'être
+            </p>
+         </div>
+         <closer>
+            <salute rend="right">De Votre Excellence</salute>
+            <salute rend="right">le très-humble et très-</salute>
+            <salute rend="right">fidèle serviteur</salute>
+            <dateline rend="left"><rs type="place" ref="#plSb">Schöneberg</rs> ce <date when-iso="1800-08-04">4 Aout 1800</date>:</dateline>
+            <signed rend="right">Gentz.</signed>
+         </closer>
+      </body>
+   </text>
+</TEI>

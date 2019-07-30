@@ -1,0 +1,246 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc xml:id="LETTER_GENTZ_3477">
+         <titleStmt>
+            <title>Friedrich von Gentz an Karl Gustav von Brinckmann, 31. Januar 1798</title>
+            <editor xml:id="edAG">Andreas Gálffy</editor>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <name>Forschungsstelle "Universitätssammlung Friedrich von Gentz"</name>
+               <link target="http://gentz-digital.ub.uni-koeln.de http://www.ub.uni-koeln.de/cdm/singleitem/collection/gentz/id/3476/"/>
+            </publisher>
+            <pubPlace>Cologne</pubPlace>
+            <idno type="Gentz-Edition-Number" n="3477"/>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <country>Sweden</country>
+                  <settlement>Trolle-Ljungby</settlement>
+                  <institution>Archiv des Grafen Wachtmeister</institution>
+                  <repository>Nachlaß Brinckmann, Ausländ. Briefwechsel</repository>
+                  <idno>G 3</idno>
+               </msIdentifier>
+               <msContents>
+                  <summary>
+                     Beschämt über den "Feldzug" der Brinckmann'schen Bibliothek schickt Gentz den Shakespeare, außer zweier Bände, 
+                     die bei Gentz' Bruder sind. Auch schickt Gentz ein kommentiertes Stück der Unger'schen Annalen, damit 
+                     Brinckmann sich amüsieren kann.
+                  </summary>
+               </msContents>
+            </msDesc>
+            <listBibl type="preprints">
+               <biblStruct>
+                  <monogr>
+                     <editor>
+                        <persName>
+                           <ref target="http://d-nb.info/gnd/130953075"/>
+                           <forename>Friedrich Carl</forename>
+                           <surname>Wittichen</surname>
+                        </persName>
+                        <persName>
+                           <ref /> <!-- kein GND-Eintrag -->
+                           <forename>Ernst</forename>
+                           <surname>Salzer</surname>
+                        </persName>
+                     </editor>
+                     <title>Briefe von und an Friedrich von Gentz, 4 Bde.</title>
+                     <imprint>
+                        <publisher>Oldenbourg</publisher>
+                        <pubPlace>München, Berlin</pubPlace>
+                        <date>1909-1913</date>
+                     </imprint>
+                     <biblScope unit="volume" n="2">
+                        II
+                     </biblScope>
+                     <biblScope unit="page" from="62" to="62">
+                        Nr. 71
+                     </biblScope>
+                  </monogr>
+               </biblStruct>
+            </listBibl>
+            <listBibl type="letterReferenced">
+               <bibl xml:id="c3477-1" corresp="#LETTER_GENTZ_2075">Friedrich von Gentz an Friedrich Vieweg, Ende Januar 1798</bibl>
+            </listBibl>
+            <listBibl type="alludedWorks">
+               <bibl xml:id="a3477-1" corresp="#LETTER_GENTZ_NNNN">nicht näher benanntes mehrbändiges Werk von William Shakespeare</bibl>
+            </listBibl>
+            <listBibl type="defRep">
+               <biblStruct xml:id="p3477-1" corresp="GBk-0037">
+                  <monogr>
+                     <title>Jahrbücher der preußischen Monarchie unter der Regierung Friedrich Wilhelms des Dritten.</title>
+                     <imprint>
+                        <pubPlace>Berlin</pubPlace>
+                        <publisher>Johann Friedrich Unger</publisher>
+                        <date>1798</date>
+                     </imprint>
+                     <biblScope unit="volume" n="1">
+                        Erster Band. Januar. Februar. März. April.
+                     </biblScope>
+                  </monogr>
+                  <ptr target="https://books.google.de/books?id=I7wpAAAAYAAJ"/>
+               </biblStruct>
+               <biblStruct xml:id="p3477-2" corresp="GBk-0038">
+                  <analytic>
+                     <title>Ansicht von Europa, am 16. November 1797</title>
+                  </analytic>
+                  <monogr>
+                     <title>Jahrbücher der preußischen Monarchie unter der Regierung Friedrich Wilhelms des Dritten.</title>
+                     <imprint>
+                        <pubPlace>Berlin</pubPlace>
+                        <publisher>Johann Friedrich Unger</publisher>
+                        <date>1798</date>
+                     </imprint>
+                     <biblScope unit="volume" n="1">
+                        Erster Band. Januar. Februar. März. April.
+                     </biblScope>
+                     <biblScope unit="page" from="24" to="36">
+                        S. 24-36
+                     </biblScope>
+                  </monogr>
+                  <ptr target="https://books.google.de/books?id=I7wpAAAAYAAJ"/>
+               </biblStruct>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Masterarbeit zu Matrikelnummer 5584124</p>
+         </projectDesc>
+      </encodingDesc>
+      <profileDesc>
+         <creation>
+            <date when-iso="1798-01-31">31. Januar 1798</date>
+         </creation>
+        <langUsage>
+           <language ident="d">deutsch</language>
+        </langUsage>
+         <textClass>
+            <keywords scheme="internal"><!-- internal: innerhalb des besagten Briefs -->
+               <term>Billet</term>
+               <term>Bibliothek</term>
+               <term>Shakespeare</term>
+               <term>Vieweg</term>
+            </keywords>
+            <keywords scheme="categorisation"><!-- Sinnabschnittseinteilung - relevant für den Fahrkartenautomaten! -->
+               <term xml:id="bibl">Bibliothek</term>
+               <term xml:id="unan">Ungersche Annalen</term>
+            </keywords>
+         </textClass>
+         <textDesc>
+            <channel>manuscript</channel>
+            <constitution type="single"/>
+            <derivation type="original"/>
+            <domain type="private"/>
+            <factuality type="fact"/>
+            <interaction type="partial"/>
+            <preparedness type="prepared"/>
+            <purpose type="inform"/>
+         </textDesc>
+         <particDesc>
+            <listPerson>
+               <!-- Sender und Adressat -->
+               <person role="sender" xml:id="Gen">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/118538489"/>
+                     <forename>Friedrich von</forename>
+                     <surname>Gentz</surname>
+                  </persName>
+               </person>
+               <person role="receiver" xml:id="KGvB">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/116519770"/>
+                     <forename>Carl Gustav von</forename>
+                     <surname>Brinckmann</surname>
+                  </persName>
+               </person>
+               <!-- erwähnte Personen -->
+               <person role="named" xml:id="HGen">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/11900738X"/>
+                     <forename>Heinrich</forename>
+                     <surname>Gentz</surname>
+                  </persName>
+               </person>
+               <person role="named" xml:id="JFGU">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/11729327X"/>
+                     <forename>Johann Friedrich Gottlieb</forename>
+                     <surname>Unger</surname>
+                  </persName>
+               </person>
+               <person role="named" xml:id="FVW">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/119049546"/>
+                     <forename>Friedrich</forename>
+                     <surname>Vieweg</surname>
+                  </persName>
+               </person>
+            </listPerson>
+         </particDesc>
+         <settingDesc>
+            <listPlace>
+               <!-- Start- und Zielort -->
+               <place type="sender" xml:id="plBe">
+                  <country>
+                     <ref target="http://d-nb.info/gnd/4047194-9"/>
+                     <placeName>Preußen</placeName>
+                  </country>
+                  <settlement>
+                     <ref target="http://d-nb.info/gnd/4005728-8"/>
+                     <placeName>Berlin</placeName>
+                  </settlement>
+               </place>
+               <!-- erwähnte Orte -->
+               <place type="named" xml:id="plPa">
+                  <country>
+                     <ref target="http://d-nb.info/gnd/4018145-5"/>
+                     <placeName>Frankreich</placeName>  
+                  </country>
+                  <settlement>
+                     <ref target="http://d-nb.info/gnd/4044660-8"/>
+                     <placeName>Paris</placeName>
+                  </settlement>
+               </place>
+            </listPlace>
+         </settingDesc>
+      </profileDesc>
+      <revisionDesc>
+         <change xml:id="init" when-iso="2018-02-28" who="#edAG">Erstauszeichnung und Normierung des Dokumentes im Rahmen der Masterarbeit der Matrikelnummer 5584124</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div n="1" corresp="#bibl">
+            <p>
+               Ihre Sprache ist noch immer die des Französischen Directoriums. Kein Wunder ! Sie haben alles erobert, und 
+               verschlingen nun das Wenige, was sich noch unabhängig neben Ihnen erhielt, mit Insolenz. - Hier haben Sie 
+               <rs type="citation" ref="#a3477-1">den Shakespeare</rs>. Die zwei fehlende Bände hat 
+               <rs type="person" ref="#HGen"><emph rend="underlined">mein Bruder</emph></rs>: also wird es mit deren Herbeyschaffung 
+               wenigstens keine große Schwierigkeiten haben. Meine demüthige Bereitwilligkeit wird Sie zur Scham und Reue 
+               hoffentlich zurückführen.
+            </p>
+         </div>
+         <div n="2" corresp="#unan">
+            <p>
+               Zugleich schicke ich Ihnen hier das erste Stück von <rs type="person" ref="#JFGU">Unger</rs>s 
+               <emph rend="underlined">unglaublichen</emph> <rs type="place" ref="#p3477-1">Annalen</rs>. Sie müßen es doch 
+               durchsehen. Zeigen Sie aber dies Stück Niemanden, wegen meiner <emph rend="underlined">rothen Noten</emph>, die ich 
+               hauptsächlich gemacht habe, um <rs type="person" ref="#FVW">Vieweg</rs> in <rs type="place" ref="#plPa">Paris</rs>, 
+               dem ich das Ding <del rend="stroked">,</del> zuschicke, damit zu belustigen. Verwischen Sie mir auch diese Noten 
+               nicht: und schicken Sie sie mir nebst dem göttlichen Texte - besonders empfehle ich Ihnen die 
+               <rs type="citation" ref="#p3477-2"><emph rend="underlined">Ansicht von Europa</emph></rs> - recht bald zurück
+            </p>
+         </div>
+         <closer>
+            <salute rend="right">Gentz</salute>
+            <dateline rend="right"><date when-iso="1798-01-31">31 Jan 98</date>.</dateline>
+         </closer>
+      </body>
+   </text>
+</TEI>

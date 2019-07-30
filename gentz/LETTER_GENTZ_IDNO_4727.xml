@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader type="text">
+      <fileDesc xml:id="LETTER_GENTZ_4727">
+         <titleStmt>
+            <title>Friedrich von Gentz an Carl Czechtitzky, 2. Juni 1796</title>
+            <editor xml:id="edAG">Andreas Gálffy</editor>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <name>Forschungsstelle "Universitätssammlung Friedrich von Gentz"</name>
+               <link target="http://gentz-digital.ub.uni-koeln.de http://www.ub.uni-koeln.de/cdm/singleitem/collection/gentz/id/4726/"/>
+            </publisher>
+            <pubPlace>Cologne</pubPlace>
+            <idno type="Gentz-Edition-Number" n="4727"/>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <country>Germany</country>
+                  <settlement>Wiesbaden</settlement>
+                  <institution>Vieweg-Verlagsarchiv</institution>
+                  <repository>Gentz-Materialien</repository>
+                  <idno>I, 11</idno>
+               </msIdentifier>
+               <msContents>
+                  <summary>
+                     Ein Wechsel über 550 Reichstaler in Friedrichsd'or à fünf Reichstaler fällig am 10. Juni 1796.
+                  </summary>
+               </msContents>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Masterarbeit zu Matrikelnummer 5584124</p>
+         </projectDesc>
+      </encodingDesc>
+      <profileDesc>
+         <creation>
+            <date when-iso="1796-06-02">2. Juni 1796</date>
+         </creation>
+        <langUsage>
+           <language ident="d">deutsch</language>
+        </langUsage>
+         <textClass>
+            <keywords scheme="internal"><!-- internal: innerhalb des besagten Briefs -->
+               <term>Wechsel</term>
+               <term>Czechtitzky</term>
+               <term>Schulden</term>
+            </keywords>
+            <keywords scheme="categorisation"><!-- Sinnabschnittseinteilung - relevant für den Fahrkartenautomaten! -->
+               <term xml:id="gprl">Gentz - p(r)ekuniäre Lage</term>
+            </keywords>
+         </textClass>
+         <textDesc>
+            <channel>manuscript</channel>
+            <constitution type="single"/>
+            <derivation type="original"/>
+            <domain type="private"/>
+            <factuality type="fact"/>
+            <interaction type="partial"/>
+            <preparedness type="prepared"/>
+            <purpose type="inform"/>
+         </textDesc>
+         <particDesc>
+            <listPerson>
+               <!-- Sender und Adressat -->
+               <person role="sender" xml:id="Gen">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/118538489"/>
+                     <forename>Friedrich von</forename>
+                     <surname>Gentz</surname>
+                  </persName>
+               </person>
+               <person role="receiver" xml:id="CCz">
+                  <persName>
+                     <ref/>
+                     <forename>Carl</forename>
+                     <surname>Czechtitzky</surname>
+                  </persName>
+               </person>
+               <!-- erwähnte Personen -->
+               <person role="receiver" xml:id="FVW">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/119049546"/>
+                     <forename>Friedrich</forename>
+                     <surname>Vieweg</surname>
+                  </persName>
+               </person>
+            </listPerson>
+         </particDesc>
+         <settingDesc>
+            <listPlace>
+               <!-- Start- und Zielort -->
+               <place type="sender" xml:id="plBe">
+                  <country>
+                     <ref target="http://d-nb.info/gnd/4047194-9"/>
+                     <placeName>Preußen</placeName>
+                  </country>
+                  <settlement>
+                     <ref target="http://d-nb.info/gnd/4005728-8"/>
+                     <placeName>Berlin</placeName>
+                  </settlement>
+               </place>
+               <!-- erwähnte Orte -->
+            </listPlace>
+         </settingDesc>
+      </profileDesc>
+      <revisionDesc>
+         <change xml:id="init" when-iso="2018-02-18" who="#edAG">Erstauszeichnung und Normierung des Dokumentes im Rahmen der Masterarbeit der Matrikelnummer 5584124</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <opener>
+            <dateline rend="right"><rs type="place" ref="#plBe">Berlin</rs> den <date when-iso="1796-06-02">2<span rend="sup">ten</span> Juny 1796</date>:</dateline>
+         </opener>
+         <div n="1" corresp="#gprl">
+            <head>550 Reichsthaler in Friedrichsdor à 5 Reichsthaler das Stück nebst 6 proCent Zinsen.</head>
+            <p>
+               <date when-iso="1796-06.10">A dato binnen 8 Tagen</date> zahle ich Endes-Unterschriebner gegen diesen meinen 
+               Sola-Wechsel an den <rs type="person" ref="#CCz">Herrn Carl Czechtitzky</rs> oder dessen Ordre die Summa von 550 
+               Reichsthaler Schreibe Fünf Hundert Fünfzig Reichsthaler in Friedrichsdor à 5 Reichsthaler das Stück nebst 6 proCent 
+               Zinsen. Valuta habe ich von demselben baar und richtig erhalten, und leiste zur Verfallzeit promte Zahlung nach 
+               Wechselrecht.
+            </p>
+            <lg type="signatureBox">
+               <l rend="left">Auf mich selbst</l><l rend="right">Friedrich Gentz</l>
+               <l rend="left">aller Orten zahlbar</l><l rend="right">Krieges-Rath bey</l>
+               <l rend="left">Friedrich Gentz.</l><l rend="right">dem General-Directorio</l>
+            </lg>
+         </div>
+      </body>
+      <back resp="#FVW">
+         <p>
+            <date when-iso="1796-06-28">1796. Juny 28.</date>-
+            Czechtizky
+            550 Reichstaler Friedrichsd'or.
+         </p>
+      </back>
+   </text>
+</TEI>

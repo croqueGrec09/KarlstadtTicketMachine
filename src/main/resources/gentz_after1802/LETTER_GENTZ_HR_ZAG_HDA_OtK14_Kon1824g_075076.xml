@@ -1,0 +1,250 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc xml:id="LETTER_GENTZ_18240505">
+      <titleStmt>
+        <title>Nr.  000  An Franz von Ottenfels-Gschwind in Konstantinopel</title>
+        <editor xml:id="edDA">Dima Albrecht</editor>
+        <editor xml:id="edPH">P. Helling</editor>
+        <editor xml:id="edAG">Andreas Gálffy</editor>
+        <editor xml:id="edMS">Max Supplieth</editor>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>Team der neuen Gentz-Edition</publisher>
+        <pubPlace>Cologne</pubPlace>
+        <distributor>University of Cologne</distributor>
+        <idno type="Gentz-Edition-Number" n="0000"/>
+        <availability>
+          <licence>CC-BY-SA</licence>
+        </availability>
+        <date when="2013-11-13">13. November 2013</date>
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier>
+            <country>Croatia</country>
+            <settlement>Zagreb</settlement>
+            <repository>Hrvatski državni arhiv</repository>
+            <collection>FA Ottenfels</collection>
+            <idno>box 14, convolute 1824.g., leaves 75-76</idno>
+          </msIdentifier>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <creation>
+        <date when-iso="1824-05-05">5. Mai 1824</date>
+      </creation>
+      <langUsage>
+        <language ident="d">deutsch</language>
+      </langUsage>
+      <textClass>
+        <keywords scheme="">
+          <term>Brief</term>
+          <term>Dokument</term>
+          <term>Übergabe</term>
+          <term>Ärger</term>
+          <term>Strangford</term>
+          <term>England</term>
+          <term>Kabinett</term>
+        </keywords>
+      </textClass>
+      <textDesc>
+        <channel mode="w">manuscript</channel>
+        <constitution type="single"/>
+        <derivation type="original"/>
+        <domain type="private"/>
+        <factuality type="fact"/>
+        <interaction type="partial"/>
+        <preparedness type="unprepared"/>
+        <purpose type="inform"/>
+      </textDesc>
+      <settingDesc>
+        <listPlace>
+          <!-- Start- und Zielort -->
+          <place type="sender" xml:id="plWi">
+            <placeName>
+              <country>Österreich-Ungarn</country>
+              <settlement>Wien</settlement>
+            </placeName>
+          </place>
+          <place type="receiver" xml:id="plKo">
+            <placeName>
+              <country>Osmanisches Reich</country>
+              <settlement>Konstantinopel</settlement>
+            </placeName>
+          </place>
+          <!-- erwähnte Orte -->
+          <place type="named" xml:id="plLo">
+            <country>
+              <placeName>
+                <ref target="http://d-nb.info/gnd/4014770-8">
+                  England
+                </ref>
+              </placeName>
+            </country>
+            <settlement>
+              <placeName>
+                <ref target="http://d-nb.info/gnd/4074335-4">
+                  London
+                </ref>
+              </placeName>
+            </settlement>
+          </place>
+        </listPlace>
+      </settingDesc>
+      <particDesc>
+        <listPerson>
+          <!-- Sender und Adressat -->
+          <person role="sender" xml:id="Ge">
+            <persName>
+              <ref target="http://d-nb.info/gnd/118538489">
+                <forename>Friedrich von</forename>
+                <surname>Gentz</surname>
+              </ref>
+            </persName>
+          </person>
+          <person role="receiver" xml:id="Ot">
+            <persName>
+              <ref target="http://d-nb.info/gnd/117170615">
+                <forename>Franz Xaver von</forename>
+                <surname>Ottenfels-Gschwind</surname>
+              </ref>
+            </persName>
+          </person>
+          <!-- im Brief erwähnte Personen -->
+          <person role="named" xml:id="We">
+            <persName>
+              <ref target="http://d-nb.info/gnd/116706198">
+                <forename>Cowley Henry</forename>
+                <surname>Wellesley</surname>
+              </ref>
+            </persName>
+          </person>
+          <person role="named" xml:id="Str">
+            <persName>
+              <ref target="http://d-nb.info/gnd/100782639">
+                <forename>Percy Clinton Sydney Smythe</forename>
+                <surname>Strangford</surname>
+              </ref>
+            </persName>
+          </person>
+          <person role="named" xml:id="Sta">
+            <persName>
+              <ref target="http://d-nb.info/gnd/121290077">
+                <forename>Leicester Fitzgerald Charles</forename>
+                <surname>Stanhope</surname>
+              </ref>
+            </persName>
+          </person>
+          <person role="named" xml:id="Ca">
+            <persName>
+              <ref target="http://d-nb.info/gnd/117672181">
+                <forename>Stratford</forename>
+                <surname>Canning</surname>
+              </ref>
+            </persName>
+          </person>
+          <person role="named" xml:id="Me">
+            <persName>
+              <ref target="http://d-nb.info/gnd/118581465">
+                <forename>Klemens Wenzel Nepomuk Lothar von</forename>
+                <surname>Metternich</surname>
+              </ref>
+            </persName>
+          </person>
+          <person role="named" xml:id="Gu">
+            <persName>
+              <ref target="http://d-nb.info/gnd/116921900">
+                <forename>Armand Charles</forename>
+                <surname>Guilleminot</surname>
+              </ref>
+            </persName>
+          </person>
+        </listPerson>
+      </particDesc>
+    </profileDesc>
+    <revisionDesc>
+      <change when-iso="2016-08-07" who="#edAG #edMS">Normierung und weitere Auszeichnung des Dokumentes im Rahmen der Übung "WebApps und Textmining" im Hinblick auf die 
+        zukünftige Masterarbeit von Matrikelnummer 5584124</change>
+    </revisionDesc>
+  </teiHeader>
+  <facsimile>
+    <graphic url="00000072.jpg" xml:id="seite1"/>
+    <graphic url="00000073.jpg" xml:id="seite2"/>
+    <graphic url="00000074.jpg" xml:id="seite3"/>    
+  </facsimile>
+  <text>     
+    <body>
+      <div>
+        <pb facs="#seite1"/>
+        <opener>
+          <dateline><rs type="place" ref="#plWi">Wien</rs> den <date when-iso="1824-05-05">5<hi rend="superscript">ten</hi> Mai 1824</date></dateline>
+        </opener>
+        <p>
+          <rs type="person" ref="#We">Sir Henry Wellsley</rs> schickt die heute <lb/>
+          aus <rs type="place" ref="#plLo">London</rs> erhaltnen <choice><orig>depeschen</orig><reg>Depeschen</reg></choice> durch einen <lb/>
+          <choice><orig>eignen</orig><reg>eigenen</reg></choice> <choice><orig>Courier</orig><reg>Kurier</reg></choice> nach <rs type="place" ref="#plKo"><choice><orig>Constantinopel</orig><reg>Konstantinopel</reg></choice></rs>. Ich war <lb/>
+          einen Augenblick versucht, <rs type="person" ref="#Ot">Mein <choice><orig>Theuerster</orig><reg>Teuerster</reg></choice> <lb/>
+          Freund</rs>, Ihnen mein heutiges - <emph rend="underlined">sehr starkes</emph> <lb/>
+          Paket durch diese Gelegenheit zu übermachen, <lb/>
+          <del rend="stroked">Noch</del> da natürlich der Englische <choice><orig>Courier</orig><reg>Kurier</reg></choice> <lb/>
+          dem gewöhnlichen um mehrere Tage zuvor laufen <lb/>
+          wird. Nach näherer <choice><orig>Ueberlegung</orig><reg>Überlegung</reg></choice> aber habe <lb/>
+          ich dies Verfahren wieder aufgegeben, und mich <lb/>
+          aus mehreren guten Gründen entschlossen, dem alten <lb/>
+          erprobten <choice><orig>Communications</orig><reg>Kommunikations</reg></choice>-Wege nicht untreu <lb/>
+          zu werden. Dagegen benutze ich den Englischen <lb/>
+          <choice><orig>Courier</orig><reg>Kurier</reg></choice>, um <rs type="person" ref="#Str">Lord Strangford</rs> auf einen gestern von <lb/>
+          ihm <choice><orig>erhaltnen</orig><reg>erhaltenen</reg></choice> höchst interessanten Brief zu antworten.
+        </p>
+        <p>
+          Unter <choice><orig>andern</orig><reg>anderem</reg></choice> habe ich ihn gebeten, <lb/>
+          sich von Ihnen ein kleines kurzes Aktenstück, <lb/>
+          welches Sie unter dem Titel: <title xml:lang="fr">Esquisse des <lb/>
+          operations necessaires pour amener la pacification <pb facs="#seite2"/>
+          de la Grèce</title> in meinem Paket finden werden, <lb/>
+          auszubitten. Da er dies vielleicht früher <choice><orig>thun</orig><reg>tun</reg></choice> könnte, <lb/>
+          als Sie Selbst das Papier empfangen hatten, so <lb/>
+          will ich Sie hiermit davon <choice><orig>benachrichtiget</orig><reg>benachrichtigt</reg></choice> haben.
+        </p>
+        <p>
+          Die <choice><orig>Instructionen</orig><reg>Instruktionen</reg></choice> aus <rs type="place" ref="#plLo">London</rs> werden <lb/>
+          <rs type="person" ref="#Str"><choice><abbr>L.</abbr><expan>Lord</expan></choice> Strangford's</rs> Stellung nicht sonderlich verbessern. <lb/>
+          Mir scheinen sie unzureichend, kalt, und verlegen. <lb/>
+          Außer der Zurückberufung des <rs type="person" ref="#Sta">Obersten Stanhope</rs> <lb/>
+          dessen Mitwirklung denn doch auch eine gar <lb/>
+          zu flagrante Verletztung des Völker-Rechtes war, <lb/>
+          (der es aber vielleicht darauf ankommen <choice><orig>laßen</orig><reg>lassen</reg></choice> wird, <lb/>
+          aus der Armee-Liste gestrichen zu werden) - <lb/>
+          und außer einigen kahlen Entschuldigungen - <lb/>
+          ist in dien <choice><orig>Instructionen</orig><reg>Instruktionen</reg></choice> nichts befriedigendes <lb/>
+          für die Pforte. Vielleicht wirken <rs type="person" ref="#Str"><choice><abbr>L.</abbr><expan>Lord</expan></choice> Strangford's</rs> <lb/>
+          <emph rend="underlined">letzte</emph> Berichte, unter welchen besonderen einer <lb/>
+          sich durch großen <choice><orig>Muth</orig><reg>Mut</reg></choice> und kraftvoll ausgesprochene <lb/>
+          Wahrheiten sehr auszeichnet, stärker auf das <lb/>
+          Englische <choice><orig>Cabinet</orig><reg>Kabinett</reg></choice>. <!-- hier vielleicht ein Verweis auf die damalige Zusammensetzung des Englischen Kabinettes - Unter/Oberhaus? -->Ich verspreche mir aber wenig. <lb/>
+          Sie dürfen nur die Parlaments-Debatten der <lb/>
+          letzten Monate lesen, um zu sehen, wie <pb facs="#seite3"/>
+          sehr das System der <choice><orig>Condescendenz</orig><reg>Kondeszendenz</reg></choice>, der <choice><orig>Schmeicheleyen</orig><reg>Schmeicheleien</reg></choice>, <lb/>
+          und der <choice><orig>Crassen</orig><reg>Krassen</reg></choice> gegen die Oppositions-<choice><orig>Partey</orig><reg>Partei</reg></choice> <lb/>
+          <choice><orig>bey</orig><reg>bei</reg></choice> den Ministern die Oberhand gewonnen hat. <lb/>
+          <emph rend="underlined">Wie</emph> <rs type="person" ref="#Ca">Canning</rs> sich früher oder später aus der <lb/>
+          Griechischen Verwicklung zu ziehen gedenkt, <lb/>
+          davon habe ich noch keine Vorstellung.</p>
+        <p>Der <rs type="person" ref="#Me">Fürst</rs> war gestern Willens Ihnen <lb/>
+          zu schreiben, hauptsächlich auch wegen des <lb/>
+          anrückenden <rs type="person" ref="#Gu">Guilleminot</rs>. Heute war aber <lb/>
+          ein so unruhiger Tag, <choice><orig>daß</orig><reg>dass</reg></choice> er <choice><orig>gewiß</orig><reg>gewiss</reg></choice> nicht <lb/>
+          dazu gekommen ist, er <choice><orig>müßte</orig><reg>müsste</reg></choice> denn den <lb/>
+          Courier bis Morgen Mittag aufhalten können.</p>
+        <p>Leben Sie wohl, und bleiben <lb/>
+          Sie mir gewogen !</p>
+      </div>
+      <closer><signed>Gentz</signed></closer>
+    </body>
+  </text>
+</TEI>

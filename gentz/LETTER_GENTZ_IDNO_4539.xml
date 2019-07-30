@@ -1,0 +1,343 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc xml:id="LETTER_GENTZ_4539">
+         <titleStmt>
+            <title>Friedrich von Gentz an François d'Ivernois, 8. August 1800</title>
+            <editor xml:id="edAG">Andreas Gálffy</editor>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <name>Forschungsstelle "Universitätssammlung Friedrich von Gentz"</name>
+               <link target="http://gentz-digital.ub.uni-koeln.de http://www.ub.uni-koeln.de/cdm/singleitem/collection/gentz/id/4538/"/>
+            </publisher>
+            <pubPlace>Cologne</pubPlace>
+            <idno type="Gentz-Edition-Number" n="4539"/>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <country>Switzerland</country>
+                  <settlement>Genf</settlement>
+                  <institution>Bibliothèque publique et universitaire</institution>
+                  <repository>Département des manuscrits</repository>
+                  <collection>Ms. suppl. 976</collection>
+                  <idno>Bl. 182-184v</idno>
+               </msIdentifier>
+               <msContents>
+                  <summary>
+                     Gentz wirft d'Ivernois vor, die Begierde nach dem Brief und den Büchern nicht gestillt zu haben, als Lord 
+                     Carysfort nichts gebracht hatte. Er erinnert ihn daran, die versprochene Sendung alsbald als möglich zu 
+                     schicken. Während er wartet, schickt Gentz seine Aufzeichnungen, in welchen er den zustand der französischen 
+                     Finanzen seit dem 9. November 1799 (18 Brumaire VII) abgehandelt hat. Er stellt dabei heraus, dass man sich in 
+                     Zukunft mit zwei zentralen Fragen befassen müsse:
+                     1. Unterhaltung des Militärs ohne innere Ressourcen
+                     2. Wachstum des Militärs ohne innere Mittel und Verwaltung
+                     Er führt dann fort mit der Weissagung einer dunklen Zeit für Europa und beschwört die Verantwortlichen zur 
+                     Bekämpfung der Gefahr. Zum Abschied wünscht sich Gentz noch mehr Zeit zum persönlichen Gespräch mit d'Ivernois. 
+                     Im Postscript soll d'Ivernois Herrn Balan gute Worte zur Genesung überbringen.
+                  </summary>
+               </msContents>
+            </msDesc>
+            <listBibl type="preprints">
+               <biblStruct>
+                  <analytic>
+                     <editor>
+                        <persName>
+                           <ref target="http://d-nb.info/gnd/116055812"/>
+                           <forename>Karmin</forename>
+                           <surname>Otto</surname>
+                        </persName>
+                     </editor>
+                     <title>Lettres inédites de Frédéric Gentz à Sir Francis d'Ivernois (1798-1803)</title>
+                  </analytic>
+                  <monogr>
+                     <editor>
+                        <persName>
+                           <ref target="http://d-nb.info/gnd/117369020"/>
+                           <forename>Charles</forename>
+                           <surname>Vellay</surname>
+                        </persName>
+                     </editor>
+                     <title>Revue historique de la Révolution française et de l'Empire</title>
+                     <imprint>
+                        <publisher>Revue historique de la Révolution Française</publisher>
+                        <pubPlace>Paris</pubPlace>
+                        <date>1913</date>
+                     </imprint>
+                     <biblScope unit="volume" n="4">
+                        Tome quatrième
+                     </biblScope>
+                     <biblScope unit="page" from="34" to="37">
+                        Nr. VIII
+                     </biblScope>
+                  </monogr>
+               </biblStruct>
+            </listBibl>
+            <listBibl type="letterReferenced">
+               <bibl xml:id="c4539-1" corresp="#LETTER_GENTZ_NNNN">nicht bekannter Brief von François d'Ivernois an Friedrich von Gentz</bibl>
+            </listBibl>
+            <listBibl type="defRep">
+               <biblStruct xml:id="p4539-1" corresp="BSB-0015">
+                  <monogr>
+                     <author>
+                        <persName>
+                           <ref target="http://d-nb.info/gnd/100297676"/>
+                           <forename>Francis d'</forename>
+                           <surname>Ivernois</surname>
+                        </persName>
+                     </author>
+                     <title>Des causes qui ont amené l'usurpation du Général Bonaparte et qui préparent sa chute</title>
+                     <imprint>
+                        <date>1800</date>
+                     </imprint>
+                  </monogr>
+                  <ptr target="http://www.mdz-nbn-resolving.de/urn/resolver.pl?urn=urn:nbn:de:bvb:12-bsb10421247-2"/>
+               </biblStruct>
+               <biblStruct xml:id="p4539-2" corresp="GBk-0062">
+                  <monogr>
+                     <editor>
+                        <persName>
+                           <ref target="http://d-nb.info/gnd/118538489"/>
+                           <forename>Friedrich von</forename>
+                           <surname>Gentz</surname>
+                        </persName>
+                     </editor>
+                     <title>Historisches Journal</title>
+                     <imprint>
+                        <pubPlace>Berlin</pubPlace>
+                        <publisher>Heinrich Frölich</publisher>
+                        <date>1800</date>
+                     </imprint>
+                  </monogr>
+                  <ptr target="https://books.google.de/books?id=u05BAAAAcAAJ"/>
+               </biblStruct>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Masterarbeit zu Matrikelnummer 5584124</p>
+         </projectDesc>
+      </encodingDesc>
+      <profileDesc>
+         <creation>
+            <date when-iso="1800-08-08">8. August 1800</date>
+         </creation>
+        <langUsage>
+           <language ident="f">französisch</language>
+        </langUsage>
+         <textClass>
+            <keywords scheme="internal"><!-- internal: innerhalb des besagten Briefs -->
+               <term>Brief</term>
+               <term>d'Ivernois</term>
+               <term>Revolution</term>
+               <term>Finanzen</term>
+               <term>Artikel</term>
+            </keywords>
+            <keywords scheme="categorisation"><!-- Sinnabschnittseinteilung - relevant für den Fahrkartenautomaten! -->
+               <term xml:id="vfdi">Verhältnis François d'Ivernois</term>
+               <term xml:id="napinv">Napoleonische Invasion</term>
+               <term xml:id="frv">Französische Revolution</term>
+            </keywords>
+         </textClass>
+         <textDesc>
+            <channel>manuscript</channel>
+            <constitution type="single"/>
+            <derivation type="original"/>
+            <domain type="private"/>
+            <factuality type="fact"/>
+            <interaction type="partial"/>
+            <preparedness type="prepared"/>
+            <purpose type="inform"/>
+         </textDesc>
+         <particDesc>
+            <listPerson>
+               <!-- Sender und Adressat -->
+               <person role="sender" xml:id="Gen">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/118538489"/>
+                     <forename>Friedrich von</forename>
+                     <surname>Gentz</surname>
+                  </persName>
+               </person>
+               <person role="receiver" xml:id="FdI">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/100297676"/>
+                     <forename>Francis d'</forename>
+                     <surname>Ivernois</surname>
+                  </persName>
+               </person>
+               <!-- erwähnte Personen -->
+               <person role="named" xml:id="JJPLC">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/159696496"/>
+                     <forename>John Joshua Proby</forename>
+                     <surname>Carysfort</surname>
+                  </persName>
+               </person>
+               <person role="named" xml:id="JWB">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/135854105"/>
+                     <forename>Joseph Wilhelm</forename>
+                     <surname>Balan</surname>
+                  </persName>
+               </person>
+            </listPerson>
+         </particDesc>
+         <settingDesc>
+            <listPlace>
+               <!-- Start- und Zielort -->
+               <place type="sender" xml:id="plBe">
+                  <country>
+                     <ref target="http://d-nb.info/gnd/4047194-9"/>
+                     <placeName>Preußen</placeName>
+                  </country>
+                  <settlement>
+                     <ref target="http://d-nb.info/gnd/4005728-8"/>
+                     <placeName>Berlin</placeName>
+                  </settlement>
+               </place>
+               <place type="receiver" xml:id="plLo">
+                  <country>
+                     <ref target="http://d-nb.info/gnd/4022153-2"/>
+                     <placeName>Vereinigtes Königreich</placeName>                
+                  </country>
+                  <settlement>
+                     <ref target="http://d-nb.info/gnd/4074335-4"/>
+                     <placeName>London</placeName>
+                  </settlement>
+               </place>
+               <!-- erwähnte Orte -->
+               <place type="named" xml:id="plFr">
+                  <country>
+                     <ref target="http://d-nb.info/gnd/4018145-5"/>
+                     <placeName>Frankreich</placeName>  
+                  </country>
+               </place>
+               <place type="named" xml:id="plEu">
+                  <geogName type="continent">
+                     <ref target="http://d-nb.info/gnd/4015701-5"/>
+                     <placeName>Europa</placeName>
+                  </geogName>
+               </place>
+            </listPlace>
+         </settingDesc>
+      </profileDesc>
+      <revisionDesc>
+         <change xml:id="init" when-iso="2018-03-06" who="#edAG">Erstauszeichnung und Normierung des Dokumentes im Rahmen der Masterarbeit der Matrikelnummer 5584124</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <front>
+         <p>
+            Mr Gentz <date when-iso="1800-08-08">8 Aout 1800</date>
+            rep <date when-iso="1800-09-27">28 7bre</date>
+         </p>
+      </front>
+      <body>
+         <opener>
+            <salute rend="left">Monsieur !</salute>
+         </opener>
+         <div n="1" corresp="#vfdi">
+            <p>
+               J'ai attendu avec la plus grande impatience <rs type="citation" ref="#c4539-1">la lettre</rs> que Vous avez eu la 
+               complaisance de m'annoncer sous <date when-iso="1800-05-20">le 20 Mai</date>, et les livres qui doivent 
+               l'accompagner. Mais Vous avez pu être, je dirois presque, asssez cruel, pour ne pas satisfaire au desir si naturel et 
+               si vif, que vous aviez fait naitre. Jusqu'ici je ne vous en ai point adressé des reproches, parce que je croyois 
+               fermement, que l'arrivée de <rs type="person" ref="#JJPLC">Lord Carysfort</rs> à 
+               <rs type="place" ref="#plBe">Berlin</rs> seroit enfin le moment qui réaliseroit ce que j'avois espéré si longtems: 
+               mais <rs type="person" ref="#JJPLC">Lord Carysfort</rs> - et ce fut vraiment la premiere question que je lui 
+               adressai - ne m'a rien apporté. Permettez-moi donc, Monsieur, de vous faire parvenir à la fin les plaintes amères, 
+               que m'inspire naturellement un retard si facheux du plaisir dont je comptois jouir d'une semaine à l'autre. Veuillez 
+               seulement considérer, que je n'ai pas encore <emph rend="underlined">vu</emph> 
+               <rs type="citation" ref="#p4539-1">votre dernier ouvrage</rs>, publié depuis quatre ou cinq mois; et si tout ne 
+               conjure pas contre <pb/> nous, saisissez, je vous prie en grace, la première occasion pour exécuter ce que vous avez 
+               eu la bonté de me promettre.
+            </p>
+         </div>
+         <div n="2" corresp="#napinv">
+            <p>
+               En attendant je Vous présente ci-joints <rs type="citation" ref="#p4539-2">les derniers cahiers de mon journal</rs>, 
+               dans lesquels j'ai traité 
+               <emph rend="underlined">l'état des finances françoises depuis le <date when-iso="1799-11-09">18 Brumaire</date></emph>. 
+               Je dois m'être rencontré nécessairement avec Vous sur bien des points, et j'en suis d'autant plus curieux de lire et 
+               d'étudier <rs type="citation" ref="#p4539-1">votre dernier ouvrage</rs>. Mais ce qui m'intéresse particulièrement 
+               c'est de savoir ce que Vous direz du morceau par lequel j'ai terminé mes calculs. Je crois que nous sommes enfin 
+               arrivés au moment, où au lieu de calculer le dégré de confusion et de nullité dans les bases administratives de la 
+               <rs type="place" ref="#plFr">France</rs>, il faudra s'occuper exclusivement des deux questions suivantes: 1. Jusqu'à 
+               quel point un état peut-il entretenir une puissance militaire formidable sans fonder cette 
+               <del rend="stroked">ressour</del> puissance sur aucune des ressources intérieures qu'on a regardé <pb/> jusqu'à 
+               présent comme conditions indispensables de la force publique ? 2, Jusqu'à quel point un état peut-il subsister, et 
+               même - s'il n'y a pas de la témérité à prononcer ce mot - fleurir, sans richesse nationale, sans principes 
+               administratifs, et sans finance ? - J'ai <emph rend="underlined">commencé</emph> à discuter ces questions terribles, 
+               déséspérantes pour tous ceux qui savent apprécier les intérèts réels de la société civilisée. Je vous invite, je vous 
+               conjure, de les traiter avec moi. Quelque soit le résultat de cette recherche, il faut l'entamer. Le sort de 
+               <rs type="place" ref="#plEu">l'Europe</rs> me paroit renfermé dans ces questions.
+            </p>
+         </div>
+         <div n="3" corresp="#frv">
+            <p>
+               Vous savez, Monsieur, combien de fois on nous a reproché - car j'ai eu l'honneur de <del rend="stroked">Vou</del> 
+               vous être associé toutes les fois qu'on Vous a intenté le procés, et certes, je ne m'en dédirai pas - combien on nous 
+               a blamé d'avoir voulu prédire la chute du gouvernement révolutionaire, par les calculs que nous avons fait sur le 
+               dépérissement toujours croissant de ses finances. Eh bien ! quand même on seroit forcé de répondre aux deux questions 
+               que je viens de poser, de la manière la plus favorable aux voeux des maitres de la 
+               <rs type="place" ref="#plFr">France</rs>, les <emph rend="underlined">principes</emph>, que <pb/> nous avons défendu, 
+               n'en triompheront pas moins à la fin, et la postérité nous vengera. Mais 
+               <emph rend="underlined">pour le moment actuel</emph>, je crois, qu'il seroit dangereux de fermer les ieux sur les 
+               <emph rend="underlined">exceptions</emph> affligeantes de ces principes, qu'une triste expérience nous forcera 
+               bientôt d'admettre. Il se prépare pour la société entière une époque terrible, qui bouleversera, je le crains 
+               beaucoup, avec toutes les institutions existantes, tous les principes qui leur servoient de base. Ces principes 
+               renaitront, <emph rend="underlined">il faut</emph> le croire, ce seroit le comble de la folie, et j'ajouterai, du 
+               crime, que de ne pas l'espérer avec l'assurance la plus inebranlable. Mais la génération actuelle sera engloutie dans 
+               l'abime des maux que la révolution a ouvert, qui n'a encore devoré que ses premières victimes, qui en demande et qui 
+               en obtiendra une infinité d'autres. Je crois qu'il faut être préparé à cette crise effroyable, et qu'au lieu d'en 
+               <del rend="stroked">xxx</del> atténuer la grandeur, en nourrissant l'espérance de la prévenir par des moyens 
+               ordinaires, il faut se frayer, il faut frayer du moins à la postérité <pb/> le chemin d'en sortir, en combattant le 
+               monstre par les armes que lui-même nous a fourni. En un mot, s'il est vrai que la France subjuguera, qu'elle a déja 
+               subjugué le monde par la <emph rend="underlined">force aveugle</emph>, et par des moyens inexplicables par les 
+               principes et en contradiction avec tous les principes, il faut jeter un voile sur les principes - sans cependant y 
+               renoncer un seul moment - attaquer la force par la force, et dire de ce système bienfaisant, qui 
+               <del rend="stroked">commencoit si</del> avoit commencé si heureusement d'organiser 
+               <rs type="place" ref="#plEu">l'Europe</rs> au vrai bonheur social, par le travail, par l'ordre, par le commerce, par 
+               une administration savante, ce que le poete disoit de la liberté de sa patrie, <del rend="stroked">laquelle</del> 
+               prête à expirer
+            </p>
+            <lg xml:lang="lat">
+               <l>non ante revellar</l>
+               <l><emph rend="underlined">Examinem</emph> quam te complectar....tuumque</l>
+               <l>Nomen....et inanem prosequar umbram.</l>
+            </lg>
+         </div>
+         <div n="4" corresp="#vfdi">
+            <p>
+               Voila le triste résultat de tout ce que j'ai pensé depuis six mois sur l'état où nous nous trouvons. Si vous me 
+               croyez dans l'erreur, Monsieur, ne me refusez pas vos lumières; je serois heureux, infiniment heureux si je pouvois 
+               passer avec Vous quelques semaines pour <pb/> discuter tant de choses, que des lettres et des livres ne sauroient 
+               jamais traiter que foiblement et imparfaitement. Mais comme enfin la correspondance est la seule consolation qui nous 
+               reste, ne me privez plus pour si longtems que Vous l'avez fait cette fois-ci, d'un si précieux dédommagement; 
+               conservez-moi la bienveillance dont vous avez paru m'honorer jusqu'à présent, et croyez aux sentimens distingués et 
+               au dévouement inviolable avec lequel je serai toujours
+            </p>
+         </div>
+         <closer>
+            <salute rend="right">Votre très-humble, très-</salute>
+            <salute rend="right">obéissant et très-fidèle</salute>
+            <salute rend="right">serviteur</salute>
+            <dateline rend="right"><rs type="place" ref="#plBe"><emph rend="underlined">Berlin</emph></rs> ce <date when-iso="1800-08-08">8 August 1800</date>.</dateline>
+            <signed rend="right">Gentz.</signed>
+         </closer>
+         <postscript corresp="#vfdi">
+            <p>
+               P.S. Je vous prie de dire bien des choses de ma part à <rs type="person" ref="#JWB">Monsieur Balan</rs>. J'ai appris 
+               avec un regret bien sincère, qu'il a été malade pendant quelque tems. J'espère que Vous aurez la bonté de me rassurer 
+               sur l'état actuel de sa santé.
+            </p>
+         </postscript>
+      </body>
+   </text>
+</TEI>

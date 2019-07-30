@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader type="text">
+      <fileDesc xml:id="LETTER_GENTZ_0789">
+         <titleStmt>
+            <title>Friedrich von Gentz an Wulff Strelitz, 20./25. April 1795</title>
+            <editor xml:id="edAG">Andreas Gálffy</editor>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <name>Forschungsstelle "Universitätssammlung Friedrich von Gentz"</name>
+               <link target="http://gentz-digital.ub.uni-koeln.de http://www.ub.uni-koeln.de/cdm/singleitem/collection/gentz/id/788/"/>
+            </publisher>
+            <pubPlace>Cologne</pubPlace>
+            <idno type="Gentz-Edition-Number" n="0789"/>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <country>Germany</country>
+                  <settlement>Wiesbaden</settlement>
+                  <institution>Vieweg-Verlagsarchiv</institution>
+                  <repository>Gentz-Materialien</repository>
+                  <idno>I, 4</idno>
+               </msIdentifier>
+               <msContents>
+                  <summary>
+                     Ein Wechsel über 1500 Reichstaler in Friedrichsd'or zu sechs Prozent Zinsen, fällig am 20. April 1796. Drei 
+                     Leute unterzeichneten ihn; ein Name wurde herausgetrennt. Im Postscript vom 25. April erkennen Ludwig und 
+                     Friedrich Gentz den Wechsel an. Von fremder Hand wurde ein Zusatz gemacht, der die Erhaltung eines Gegenwertes 
+                     bescheinigt, mit Datum 6. Mai 1795. Das Datum auf der vierten Seite wurde vom 23. Mai 1796 auf den 6. Mai 1795 
+                     korrigiert.
+                  </summary>
+               </msContents>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Masterarbeit zu Matrikelnummer 5584124</p>
+         </projectDesc>
+      </encodingDesc>
+      <profileDesc>
+         <creation>
+            <date when-iso="1795-04-20">20./25. April 1795</date>
+         </creation>
+        <langUsage>
+           <language ident="d">deutsch</language>
+        </langUsage>
+         <textClass>
+            <keywords scheme="internal"><!-- internal: innerhalb des besagten Briefs -->
+               <term>Wechsel</term>
+               <term>Wulff Strelitz</term>
+               <term>Schulden</term>
+               <term>Ludwig Gentz</term>
+            </keywords>
+            <keywords scheme="categorisation"><!-- Sinnabschnittseinteilung - relevant für den Fahrkartenautomaten! -->
+               <term xml:id="gprl">Gentz - p(r)ekuniäre Lage</term>
+            </keywords>
+         </textClass>
+         <textDesc>
+            <channel>manuscript</channel>
+            <constitution type="single"/>
+            <derivation type="original"/>
+            <domain type="private"/>
+            <factuality type="fact"/>
+            <interaction type="partial"/>
+            <preparedness type="unprepared"/>
+            <purpose type="inform"/>
+         </textDesc>
+         <particDesc>
+            <listPerson>
+               <!-- Sender und Adressat -->
+               <person role="sender" xml:id="Gen">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/118538489"/>
+                     <forename>Friedrich von</forename>
+                     <surname>Gentz</surname>
+                  </persName>
+               </person>
+               <person role="receiver" xml:id="WSt">
+                  <persName>
+                     <ref/>
+                     <forename>Wulff</forename>
+                     <surname>Strelitz</surname>
+                  </persName>
+               </person>
+               <!-- erwähnte Personen -->
+               <person role="named" xml:id="LGen">
+                  <persName>
+                     <ref/>
+                     <forename>Ludwig</forename>
+                     <surname>Gentz</surname>
+                  </persName>
+               </person>
+               <person role="named" xml:id="MHM">
+                  <persName>
+                     <ref/>
+                     <forename>Michael Hirsch</forename>
+                     <surname>Mendel</surname>
+                  </persName>
+               </person>
+               <person role="named" xml:id="FVW">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/119049546"/>
+                     <forename>Friedrich</forename>
+                     <surname>Vieweg</surname>
+                  </persName>
+               </person>
+            </listPerson>
+         </particDesc>
+         <settingDesc>
+            <listPlace>
+               <!-- Start- und Zielort -->
+               <place type="sender" xml:id="plBe">
+                  <country>
+                     <ref target="http://d-nb.info/gnd/4047194-9"/>
+                     <placeName>Preußen</placeName>
+                  </country>
+                  <settlement>
+                     <ref target="http://d-nb.info/gnd/4005728-8"/>
+                     <placeName>Berlin</placeName>
+                  </settlement>
+               </place>
+               <!-- erwähnte Orte -->
+            </listPlace>
+         </settingDesc>
+      </profileDesc>
+      <revisionDesc>
+         <change xml:id="init" when-iso="2018-02-16" who="#edAG">Erstauszeichnung und Normierung des Dokumentes im Rahmen der Masterarbeit der Matrikelnummer 5584124</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <figure rend="left">
+         <desc>Stempel</desc>
+      </figure>
+      <figure rend="right">
+         <desc>Stempel</desc>
+      </figure>
+      <body>
+         <opener>
+            <dateline rend="right"><rs type="place" ref="#plBe">Berlin</rs> den <date when-iso="1795-04-20">20<span rend="sup">ten</span> April 1795</date>:</dateline>
+         </opener>
+         <div n="1" corresp="#gprl">
+            <head>1500 Reichsthaler in Friedrichs d'or à 5 Reichsthaler das Stück</head>
+            <head>nebst 6 pro Cent jährlicher Zinsen.</head>
+            <p>
+               <date when-iso="1796-04-20">A dato Ein Jahr</date> zahlen wir Endesunterschriebne gegen diesen unsern 
+               Sola-Wechsel-Brief, Einer für drey und drey für Einen, mithin <span xml:lang="lat">in solidum</span>, und jeder für 
+               die ganze Summe an die Ordre des <rs type="person" ref="#WSt">Herrn Wulff-Strelitz</rs> die Summe von Fünfzehn 
+               Hundert Reichsthaler in Friedrichs d'or das Stück à 5 Reichsthaler nebst 6 pro Cent jährlichen Zinsen. Valuta haben 
+               wir von demselben in baar und richtig erhalten, und leisten daher zur Verfallzeit promte Zahlung nach Wechsel-Recht.
+            </p>
+            <lg type="signatureBox">
+               <l rend="left">Auf uns selbst aller</l>
+               <l rend="left">Orten zahlbar.</l><l rend="right">Friedrich Gentz.</l>
+               <l rend="left">Friedrich Gentz.</l><l rend="right">Krieges-Rath bey dem</l>
+               <l rend="left"><unclear>H(?)</unclear><del rend="ripped">Name herausgerissen</del></l><l><del rend="ripped">mehrere Wörter und Siegel herausgerissen</del> Departement</l><l rend="right">General-Directorio</l>
+               <l rend="right"><figure><desc>Gentz-Siegel</desc></figure></l>
+               <l rend="right">Ludwig Gentz</l>
+               <l rend="right">Geh Exped Secretair</l>
+               <l rend="right">beym General Accise</l>
+               <l rend="right">u Zoll Departement</l>
+            </lg>
+         </div>
+         <div n="2" corresp="#gprl">
+            <p>
+               Wir agnosciren obigen Wechsel von 1500 Reichsthaler Friedrichs d'or für richtig. Valuta baar erhalten zu haben, und 
+               leisten zur Verfallzeit an jeden Inhaber promte Zahlung nach Wechsel-Recht.
+            </p>
+            <dateline rend="right"><rs type="place" ref="#plBe">Berlin</rs> den <date when-iso="1795-04-25">25<span rend="sup">ten</span> April 1795</date>.</dateline>
+            <signed rend="right"><unclear>H(?)</unclear> Friedrich Gentz. Ludwig Gentz.</signed><pb/>
+         </div>
+         <div n="3" corresp="#gprl" resp="otherHand">
+            <p>
+               Für mich an die Ordre <rs type="person" ref="#MHM">Herrn Michael Hirsch Mendel</rs>s Valuta baar erhalten.
+            </p>
+            <dateline rend="right"><rs type="place" ref="#plBe">Berlin</rs> den <date when-iso="1795-06-05">6<span rend="sup">ten</span> May 1795</date>.</dateline>
+            <span resp="#WSt">Demnach Ohne Gewehrleistuung</span>
+            <signed rend="right">Wulff Strelitz.</signed>
+         </div>
+      </body>
+      <back resp="#FVW">
+         <p>
+            <date when-iso="1796-05-23">1796 May 23.</date><date resp="otherHand" when-iso="1795-05-06">1795 May 6.</date>
+            <rs type="person" ref="#WSt">Wolff Strelitz</rs>
+            pro 1605 Reichsthaler Friedrichsd'or.
+         </p>
+      </back>
+      <note xml:id="r0789-1">Das Datum auf Seite 4 ist von unbekannter hand mit Bleistift geändert worden</note>
+      <note xml:id="r0789-2">Seite 4 von der Hand Viewegs</note>
+   </text>
+</TEI>

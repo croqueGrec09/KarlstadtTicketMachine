@@ -1,0 +1,228 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc xml:id="LETTER_GENTZ_2303">
+         <titleStmt>
+            <title>Friedrich von Gentz an Heinrich Frölich, 6. März 1801</title>
+            <editor xml:id="edAG">Andreas Gálffy</editor>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <name>Forschungsstelle "Universitätssammlung Friedrich von Gentz"</name>
+               <link target="http://gentz-digital.ub.uni-koeln.de http://www.ub.uni-koeln.de/cdm/singleitem/collection/gentz/id/2302/"/>
+            </publisher>
+            <pubPlace>Cologne</pubPlace>
+            <idno type="Gentz-Edition-Number" n="2303"/>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <country>Germany</country>
+                  <settlement>Berlin</settlement>
+                  <institution>Geheimes Staatsarchiv Preußischer Kulturbesitz</institution>
+                  <repository>I. HA Rep 94: Kleine Erwerbungen</repository>
+                  <collection>IV.N.b.2</collection>
+                  <idno>Bl. 18-18v, 22-22v</idno>
+               </msIdentifier>
+               <msContents>
+                  <summary>
+                     Der Titel eines Werkes wird festgelegt. Erst an diesem Tag fährt Gentz nach Schöneberg und er verspricht, dass 
+                     er dort fleißig sein wird. Er klärt weiter ein Missverständnis über zwei Arbeiten auf, die nur Übersetzungen 
+                     waren; es liegt ihm nichts daran, öffentlich etwas über die Beziehung zwischen England und Preußen zu 
+                     vermelden.
+                  </summary>
+               </msContents>
+            </msDesc>
+            <listBibl type="alludedWorks">
+               <bibl xml:id="a2303-1" corresp="#LETTER_GENTZ_NNNN">nicht näher benanntes Auftragswerk von Friedrich von Gentz</bibl>
+            </listBibl>
+            <listBibl type="defRep">
+               <biblStruct xml:id="p2303-1" corresp="#LETTER_GENTZ_NNNN">
+                  <monogr>
+                     <author>
+                        <persName>
+                           <ref target="http://d-nb.info/gnd/118538489"/>
+                           <forename>Friedrich von</forename>
+                           <surname>Gentz</surname>
+                        </persName>
+                     </author>
+                     <title>Betrachtungen über den Ursprung, den Fortgang und den Charakter der Französischen Revolution</title>
+                     <imprint>
+                        <pubPlace>Berlin</pubPlace>
+                        <date>1801</date>
+                     </imprint>
+                  </monogr>
+                  <ptr target="#LETTER_GENTZ_NNNN"/>
+               </biblStruct>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Masterarbeit zu Matrikelnummer 5584124</p>
+         </projectDesc>
+      </encodingDesc>
+      <profileDesc>
+         <creation>
+            <date when-iso="1801-03-06">6. März 1801</date>
+         </creation>
+        <langUsage>
+           <language ident="d">deutsch</language>
+        </langUsage>
+         <textClass>
+            <keywords scheme="internal"><!-- internal: innerhalb des besagten Briefs -->
+               <term>Brief</term>
+               <term>Aufsatz</term>
+               <term>Haugwitz</term>
+               <term>England</term>
+               <term>Preußen</term>
+            </keywords>
+            <keywords scheme="categorisation"><!-- Sinnabschnittseinteilung - relevant für den Fahrkartenautomaten! -->
+               <term xml:id="budcff">Betrachtungen über den Ursprung, den Charakter und den Fortgang der Französischen Revolution</term>
+               <term xml:id="bezbt">Beziehungen zu Berlin - Beamtentätigkeit</term>
+               <term xml:id="vhf">Verhältnis Heinrich Frölich</term>
+            </keywords>
+         </textClass>
+         <textDesc>
+            <channel>manuscript</channel>
+            <constitution type="single"/>
+            <derivation type="original"/>
+            <domain type="private"/>
+            <factuality type="fact"/>
+            <interaction type="partial"/>
+            <preparedness type="unprepared"/>
+            <purpose type="inform"/>
+         </textDesc>
+         <particDesc>
+            <listPerson>
+               <!-- Sender und Adressat -->
+               <person role="sender" xml:id="Gen">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/118538489"/>
+                     <forename>Friedrich von</forename>
+                     <surname>Gentz</surname>
+                  </persName>
+               </person>
+               <person role="receiver" xml:id="Fro">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/1073351068"/>
+                     <forename>Heinrich</forename>
+                     <surname>Frölich</surname>
+                  </persName>
+               </person>
+               <!-- erwähnte Personen -->
+               <person role="named" xml:id="CHCvH">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/116527080"/>
+                     <forename>Christian Heinrich Curt von</forename>
+                     <surname>Haugwitz</surname>
+                  </persName>
+               </person>
+               <person role="named" xml:id="JJPLC">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/159696496"/>
+                     <forename>John Joshua Proby</forename>
+                     <surname>Carysfort</surname>
+                  </persName>
+               </person>
+            </listPerson>
+         </particDesc>
+         <settingDesc>
+            <listPlace>
+               <!-- Start- und Zielort -->
+               <place type="sender" xml:id="plBe">
+                  <country>
+                     <ref target="http://d-nb.info/gnd/4047194-9"/>
+                     <placeName>Preußen</placeName>
+                  </country>
+                  <settlement>
+                     <ref target="http://d-nb.info/gnd/4005728-8"/>
+                     <placeName>Berlin</placeName>
+                  </settlement>
+               </place>
+               <!-- erwähnte Orte -->
+               <place type="named" xml:id="plSb">
+                  <country>
+                     <ref target="http://d-nb.info/gnd/4047194-9"/>
+                     <placeName>Preußen</placeName>
+                  </country>
+                  <settlement>
+                     <ref target="http://d-nb.info/gnd/116944-0"/>
+                     <placeName>Schöneberg</placeName>
+                  </settlement>
+               </place>
+               <place type="named" xml:id="plEn">
+                  <country>
+                     <ref target="http://d-nb.info/gnd/4022153-2"/>
+                     <placeName>England</placeName>
+                  </country>
+               </place>
+               <place type="named" xml:id="plPr">
+                  <country>
+                     <ref target="http://d-nb.info/gnd/4047194-9"/>
+                     <placeName>Preußen</placeName>
+                  </country>
+               </place>
+            </listPlace>
+         </settingDesc>
+      </profileDesc>
+      <revisionDesc>
+         <change xml:id="init" when-iso="2018-03-07" who="#edAG">Erstauszeichnung und Normierung des Dokumentes im Rahmen der Masterarbeit der Matrikelnummer 5584124</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div n="1" corresp="#budcff">
+            <p>
+               Der <rs type="citation" ref="#p2303-1">Titel</rs> wird heißen:
+            </p>
+            <lg>
+               <l>Betrachtungen über den Ursprung, den Fortgang und den</l>
+               <l>Charakter des Französischen Revolutions-Krieges.</l>
+            </lg>
+         </div>
+         <div n="2" corresp="#bezbt">
+            <p>
+               Meinen Plan nach <rs type="place" ref="#plSb">Schöneberg</rs> zu ziehen, bringe ich erst heute zur Execution. Ich 
+               werde in wenig Tagen dort größre Fortschritte machen, als hier, wo Minister, Gesandten und Prinzen mir nicht eine 
+               Minute Ruhe laßen, in 4 Wochen; und Sie sollen bald <emph rend="underlined">mehr</emph> als zufrieden seyn.
+            </p>
+         </div>
+         <div n="3" corresp="#vhf">
+            <p>
+               Was Sie von einer <rs type="citation" ref="#a2303-1">Schrift</rs>, die ich drucken ließe, sagen, ist bloßes 
+               Mißverständniß. Ich laße nichts drucken, als was Sie kennen. Das Gerücht ist aber wahrscheinlich auf folgende Weise 
+               entstanden. <rs type="person" ref="#CHCvH">Graf Haugwitz</rs> will seine Correspondenz mit dem 
+               <rs type="person" ref="#JJPLC">Englischen Gesandten</rs> öffentlich bekannt machen, und hat mich vor 8 Tagen gebeten, 
+               ihm eine <rs type="citation" ref="#a2303-1">Uebersetzung der Haupt-Note</rs> zu verfertigen. Dies habe ich gethan. 
+               Zwei Tage darauf hat er mich gebeten, ihm zwei andre Noten zu übersetzen. Ebenfalls gethan. Hier hat aber meine Rolle 
+               als Autor ein Ende. - Was <emph rend="underlined">Er</emph> nun weiter über die Sache beschließt, geht mich nichts 
+               an. Vermuthlich aber wird er in diesen Tagen die Noten publiziren laßen; die bloß mechanische Arbeit die ich dabei 
+               übernommen habe, übernahm ich lediglich <emph rend="underlined">für</emph> den 
+               <rs type="person" ref="#CHCvH">Graf Haugwitz</rs>, und erscheint irgend etwas anders als 
+               <emph rend="underlined">diese</emph> im Publikum, so versichre ich Ihnen zum voraus, und 
+               <span xml:lang="fr">foi d'honnête homme</span>, daß ich keinen Theil daran habe. Ueberdies wißen Sie besser als ich 
+               es Ihnen sagen kan, daß <emph rend="underlined">ich</emph> wohl nicht täglich über die jetzigen Verhältnisse zwischen 
+               <rs type="place" ref="#plEn"><emph rend="underlined">England</emph></rs> und 
+               <rs type="place" ref="#plPr"><emph rend="underlined">Preußen</emph></rs> etwas öffentliches von mir geben 
+               <emph rend="underlined">könnte</emph>.
+            </p>
+         </div>
+         <closer>
+            <signed rend="right">Gentz</signed>
+            <dateline rend="right">den <date when-iso="1801-03-06">6 März 1801</date>.</dateline>
+         </closer>
+      </body>
+      <back>
+         <p>
+            Herrn
+            Buchhändler Frölich
+            Wohlgebohren.
+         </p>
+      </back>
+      <note xml:id="r2303-1">Adresse auf Seite 4</note>
+   </text>
+</TEI>

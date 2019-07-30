@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc xml:id="LETTER_GENTZ_3347">
+         <titleStmt>
+            <title>Ludwig Graf von Cobentzl an Friedrich von Gentz, 10. September 1802</title>
+            <editor xml:id="edAG">Andreas Gálffy</editor>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <name>Forschungsstelle "Universitätssammlung Friedrich von Gentz"</name>
+               <link target="http://gentz-digital.ub.uni-koeln.de http://www.ub.uni-koeln.de/cdm/singleitem/collection/gentz/id/3346/"/>
+            </publisher>
+            <pubPlace>Cologne</pubPlace>
+            <idno type="Gentz-Edition-Number" n="3347"/>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <country>Austria</country>
+                  <settlement>Vienna</settlement>
+                  <institution>Haus-, Hof- und Staatsarchiv</institution>
+                  <repository>Staatskanzlei, Interiora</repository>
+                  <collection>Karton 78, Fasz.: "Gentz: Kaiser Franz, Thugut, Saurau, Cobentzl, Ludwig, 1793-1805"</collection>
+                  <idno>Bl. 12</idno>
+               </msIdentifier>
+               <msContents>
+                  <summary>
+                     Cobentzl schreibt an Gentz, dass seine Kaiserliche und Königliche Majestät großen Gefallen an ihn findet und 
+                     den Dienst mit 4000 Gulden jährlich besolden wird.
+                  </summary>
+               </msContents>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Masterarbeit zu Matrikelnummer 5584124</p>
+         </projectDesc>
+      </encodingDesc>
+      <profileDesc>
+         <creation>
+            <date when-iso="1802-09-10">10. September 1802</date>
+         </creation>
+        <langUsage>
+           <language ident="d">deutsch</language>
+        </langUsage>
+         <textClass>
+            <keywords scheme="internal"><!-- internal: innerhalb des besagten Briefs -->
+               <term>Brief</term>
+               <term>Konzept</term>
+               <term>Gehalt</term>
+               <term>Einstellung</term>
+            </keywords>
+            <keywords scheme="categorisation"><!-- Sinnabschnittseinteilung - relevant für den Fahrkartenautomaten! -->
+               <term xml:id="bezw">Beziehungen zu Wien</term>
+               <term xml:id="gprl">Gentz - p(r)ekuniäre Lage</term>
+            </keywords>
+         </textClass>
+         <textDesc>
+            <channel>manuscript</channel>
+            <constitution type="single"/>
+            <derivation type="original"/>
+            <domain type="private"/>
+            <factuality type="fact"/>
+            <interaction type="partial"/>
+            <preparedness type="unprepared"/>
+            <purpose type="inform"/>
+         </textDesc>
+         <particDesc>
+            <listPerson>
+               <!-- Sender und Adressat -->
+               <person role="sender" xml:id="LvC">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/11769164X"/>
+                     <forename>Ludwig von</forename>
+                     <surname>Cobenzl</surname>
+                  </persName>
+               </person>
+               <person role="receiver" xml:id="Gen">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/118538489"/>
+                     <forename>Friedrich von</forename>
+                     <surname>Gentz</surname>
+                  </persName>
+               </person>
+               <!-- erwähnte Personen -->
+               <person role="named" xml:id="Fr">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/118534955"/>
+                     <forename>Franz II.</forename>
+                     <surname>Heiliges Römisches Reich</surname>
+                     <roleName type="office">Kaiser</roleName>
+                  </persName>
+               </person>
+            </listPerson>
+         </particDesc>
+         <settingDesc>
+            <listPlace>
+               <!-- Start- und Zielort -->
+               <place type="sender" xml:id="plWi">
+                  <country>
+                     <ref target="http://d-nb.info/gnd/4075601-4"/>
+                     <placeName>Erzherzogtum Österreich</placeName>
+                  </country>
+                  <settlement>
+                     <ref target="http://d-nb.info/gnd/4066009-6"/>
+                     <placeName>Wien</placeName>
+                  </settlement>
+               </place>
+               <!-- erwähnte Orte -->
+            </listPlace>
+         </settingDesc>
+      </profileDesc>
+      <revisionDesc>
+         <change xml:id="init" when-iso="2018-03-11" who="#edAG">Erstauszeichnung und Normierung des Dokumentes im Rahmen der Masterarbeit der Matrikelnummer 5584124</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div n="1" corresp="#bezw">
+            <p>
+               <rs type="person" ref="#Fr">Seine K. K. Majestät</rs> wird es angenehm seyn, einem Schriftsteller, wie Ihnen, deßen 
+               seltne Einsichten und Geschicklichkeit, <del rend="stroked">mit</del> von dem rührigsten Eifer für die Erhaltung der 
+               Regierungen, Sitten und Ordnung begleitet werden, in Ihren Staaten auf dem Fall zu behalten, daß Sie 
+               <del rend="stroked">Ihre</del> <add place="above">die</add> Entlaßung von Ihrer dermaligen Dienstleistung 
+               <add place="above">überkommen</add>.
+            </p>
+         </div>
+         <div n="2" corresp="#gprl">
+            <p>
+               Ich habe das Vergnügen Ihnen zu melden das Seine Majestät auf solchem Falle den <del rend="stroked">Titel</del> 
+               <add place="above">Karakter</add> eines K. K. Raths mit jährlichen 4000 Gulden allergnädigst beschlossen habe. Fahren 
+               Sie dort, Ihre dem Wohl unsers deutschen Vaterlandes gewidmete Schriften, die den <del rend="stroked">Ihrer</del> 
+               Zeitgenoßen und der Nachwelt zu verdienen; und empfangen Sie die Versicherung der vollkommnen Hochachtung mit der 
+               ich stets verbleiben werde
+            </p>
+         </div>
+         <note xml:id="r3347-1">Konzept</note>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,296 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Offizieller Spickzettel des Text-Encoding Consortiums. Muß nicht valide sein (kann es auch gar nicht). -->
+<snippets>
+    <!-- Autographen- oder sonstige Kataloge -->
+    <biblStruct type="catEntry">
+        
+    </biblStruct>
+    <!-- Frühdrucke -->
+    <listBibl type="preprints">
+        <!-- Wittichen/Salzer -->
+        <biblStruct>
+            <monogr>
+                <editor>
+                    <persName>
+                        <ref target="http://d-nb.info/gnd/130953075"/>
+                        <forename>Friedrich Carl</forename>
+                        <surname>Wittichen</surname>
+                    </persName>
+                    <persName>
+                        <ref /> <!-- kein GND-Eintrag -->
+                        <forename>Ernst</forename>
+                        <surname>Salzer</surname>
+                    </persName>
+                </editor>
+                <title>Briefe von und an Friedrich von Gentz, 4 Bde.</title>
+                <imprint>
+                    <publisher>Oldenbourg</publisher>
+                    <pubPlace>München, Berlin</pubPlace>
+                    <date>1909-1913</date>
+                </imprint>
+                <biblScope unit="volume" n="2">
+                    II
+                </biblScope>
+                <biblScope unit="page" from="80" to="81">
+                    Nr. 91 (teilweise)
+                </biblScope>
+            </monogr>
+        </biblStruct>
+        <!-- Schlesier, Schriften -->
+        <biblStruct>
+            <monogr>
+                <editor>
+                    <persName>
+                        <ref target="http://d-nb.info/gnd/117325791"/>
+                        <forename>Gustav</forename>
+                        <surname>Schlesier</surname>
+                    </persName>
+                </editor>
+                <title>Schriften von Friedrich von Gentz. Ein Denkmal. 5 Bde.</title>
+                <imprint>
+                    <publisher>Verlag von Heinrich Wolff</publisher>
+                    <pubPlace>Mannheim</pubPlace>
+                    <date>1838-1840</date>
+                </imprint>
+                <biblScope unit="volume" n="4">
+                    IV
+                </biblScope>
+                <biblScope unit="page" from="304" to="306">
+                    S. 304-306
+                </biblScope>
+            </monogr>
+        </biblStruct>
+        <!-- Schönborn, Briefe -->
+        <biblStruct>
+            <monogr>
+                <editor>
+                    <persName>
+                        <ref />
+                        <forename>Carl G.</forename>
+                        <surname>Schönborn</surname>
+                    </persName>
+                </editor>
+                <title>Friedrich von Gentz. Briefe an Christian Garve. (1789-1798.)</title>
+                <imprint>
+                    <pubPlace>Breslau</pubPlace>
+                    <date>1857</date>
+                </imprint>
+                <biblScope unit="page" from="32" to="36">
+                    Nr. IV
+                </biblScope>
+            </monogr>
+        </biblStruct>
+        <!-- Wieland-Briefwechsel -->
+        <biblStruct>
+            <monogr>
+                <editor>
+                    <persName>
+                        <ref target="http://d-nb.info/gnd/105706175"/>
+                        <forename>Klaus</forename>
+                        <surname>Gerlach</surname>
+                    </persName>
+                </editor>
+                <title>Wielands Briefwechsel</title>
+                <imprint>
+                    <pubPlace>Berlin</pubPlace>
+                    <date>1993</date>
+                </imprint>
+                <biblScope unit="volume" n="12">
+                    12. Bd. (Juli 1793-Juni 1795) 1. Teil: Text.
+                </biblScope>
+                <biblScope unit="page" from="159" to="159">
+                    Nr. 167
+                </biblScope>
+            </monogr>
+        </biblStruct>
+        <!-- Maurer-Constant, Briefe -->
+        <biblStruct>
+            <monogr>
+                <editor>
+                    <persName>
+                        <ref target="http://d-nb.info/gnd/104268913"/>
+                        <forename>Johann Konrad</forename>
+                        <surname>Maurer-Constant</surname>
+                    </persName>
+                </editor>
+                <title>Briefe an Johann von Müller (Supplement zu dessen sämtlichen Werken)</title>
+                <imprint>
+                    <pubPlace>Schaffhausen</pubPlace>
+                    <date>1839</date>
+                </imprint>
+                <biblScope unit="volume" n="1">
+                    Bd. 1
+                </biblScope>
+                <biblScope unit="page" from="5" to="8">
+                    Nr. 2
+                </biblScope>
+            </monogr>
+        </biblStruct>
+        <!-- Baxa, Lebenszeugnisse -->
+        <biblStruct>
+            <monogr>
+                <editor>
+                    <persName>
+                        <ref target="http://d-nb.info/gnd/11609673X"/>
+                        <forename>Jakob</forename>
+                        <surname>Baxa</surname>
+                    </persName>
+                </editor>
+                <title>Adam Müllers Lebenszeugnisse. 2 Bde.</title>
+                <imprint>
+                    <pubPlace>München u.a.</pubPlace>
+                    <date>1966</date>
+                </imprint>
+                <biblScope unit="volume" n="2">
+                    II
+                </biblScope>
+                <biblScope unit="page" from="15" to="18">
+                    Nr. 8
+                </biblScope>
+            </monogr>
+        </biblStruct>
+        <!-- Briefwechsel Gentz-Müller -->
+        <biblStruct>
+            <monogr>
+                <editor>
+                    <persName>
+                        <ref />
+                        <forename>Cäcilie von</forename>
+                        <surname>Endlicher</surname>
+                    </persName>
+                </editor>
+                <title>Briefwechsel zwischen Friedrich Gentz und Adam Heinrich Müller. 1800-1829</title>
+                <imprint>
+                    <pubPlace>Stuttgart</pubPlace>
+                    <date>1857</date>
+                </imprint>
+                <biblScope unit="page" from="2" to="2">
+                    Nr. 3
+                </biblScope>
+            </monogr>
+        </biblStruct>
+    </listBibl>
+    <!-- referenzierte Briefe, Briefverweise -->
+    <listBibl type="letterReferenced">
+        <bibl xml:id="cIDNO_GENTZ_UB-CIT_NR" corresp="#LETTER_GENTZ_IDNO">
+            angedeuete Brieftitel. Corresp: LETTER_GENTZ_ + vierstellige Idno (bei unbekannter Nummer NNNN)
+            Hinweise können entweder explizit im Brief oder implizit durch sinnliche Beziehung gegeben werden.
+        </bibl>
+    </listBibl>
+    <listBibl type="alludedWorks">
+        <bibl>
+            angedeutete Werke, Angaben sind hier in aller Regel unpräzise und es sind keine Leseproben verfügbar.
+            Liegen genügend Angaben vor, sodaß eine Leseprobe angegeben werden kann, muß der Eintrag unter defExpr
+            erfolgen!
+        </bibl>
+    </listBibl>
+    <listBibl type="defExpr">
+        <biblStruct xml:id="eIDNO_GENTZ_UB-CIT_NR">
+            definedExpression - genannte Werkstitel ohne genaue Übersetzer- oder Verlagsangabe.
+            Leseproben müssen nicht zeitgenössisch sein, sie müssen lediglich das Werk beinhalten.
+            ACHTUNG! Es gibt auch ANONYME WERKE!
+        </biblStruct>
+    </listBibl>
+    <listBibl type="defRep">
+        <biblStruct xml:id="pIDNO_GENTZ_UB-CIT_NR">
+            definedRepresentation - genau beannte Ausgabe, Edition oder Übersetzung.
+            Leseproben müssen exakt die Ausgabe wiedergeben.
+            ACHTUNG! Es gibt auch ANONYME WERKE!
+        </biblStruct>
+    </listBibl>
+    <listBibl type="edRef">
+        <biblStruct xml:id="fIDNO_GENTZ_UB-CIT_NR">
+            editorialReference - weiterführende Literaturangabe eines Editors
+            ACHTUNG! Es gibt auch ANONYME WERKE!
+        </biblStruct>
+    </listBibl>
+    <!-- Personenschnipsel -->
+    <!-- Sender und Adressat -->
+    <person role="sender" xml:id="Gen">
+        <persName>
+            <ref target="http://d-nb.info/gnd/118538489"/>
+            <forename>Friedrich von</forename>
+            <surname>Gentz</surname>
+        </persName>
+    </person>
+    <person role="receiver" xml:id="Gar">
+        <persName>
+            <ref target="http://d-nb.info/gnd/118537636"/>
+            <forename>Christian</forename>
+            <surname>Garve</surname>
+        </persName>
+    </person>
+    <!-- erwähnte Personen -->
+    <person role="named" xml:id="JFG">
+        <persName>
+            <ref target="http://d-nb.info/gnd/136428983"/>
+            <forename>Johann Friedrich</forename>
+            <surname>Gentze</surname>
+            <roleName>optional</roleName>
+        </persName>
+    </person>
+    <person role="named" xml:id="lnt">
+        <persName>
+            <ref/>
+            <forename/>
+            <surname>Le Notre</surname>
+        </persName>
+        <certainty locus="name">
+            <desc>Es ist unklar, ob es sich hier um einen Verschreiber handelt und eigentlich Le Noble gemeint war.</desc>
+        </certainty>
+        <alt type="persName" corresp="#lno"/>
+    </person>
+    <person role="named" xml:id="Buf">
+        <persName>
+            <ref target="http://d-nb.info/gnd/118517252"/>
+            <forename>Georges Louis Le Clerc de</forename>
+            <surname>Buffon</surname>
+        </persName>
+    </person>
+    <!-- Ortsschnipsel -->
+    <!-- Start- und Zielort -->
+    <place type="sender" xml:id="plKo">
+        <country>
+            <ref target="http://d-nb.info/gnd/4047194-9"/>
+            <placeName>Preußen</placeName>  
+        </country>
+        <settlement>
+            <ref target="http://d-nb.info/gnd/4031541-1"/>
+            <placeName>Königsberg</placeName>
+        </settlement>
+    </place>
+    <!-- erwähnte Orte -->
+    <place type="named" xml:id="plBr">
+        <country>
+            <ref target="http://d-nb.info/gnd/4047194-9"/>
+            <placeName>Preußen</placeName>
+        </country>
+        <settlement>
+            <ref target="http://d-nb.info/gnd/4008216-7"/>
+            <placeName>Breslau</placeName>
+        </settlement>
+    </place>
+    <place type="named" xml:id="plBra">
+        <country>
+            <ref target="http://d-nb.info/gnd/4047194-9"/>
+            <placeName>Preußen</placeName>
+        </country>
+        <settlement>
+            <ref target="http://d-nb.info/gnd/4089990-1"/>
+            <placeName>BresBraunsberglau</placeName>
+        </settlement>
+    </place>
+    <emph rend="underlined">unterstrichener Text</emph>
+    <del rend="stroked">durchgestrichener Text</del>
+    <app place="above">eingefügter Text</app>
+    <span rend="sup">hochgestellter Text (N-ten z.B.)</span>
+    <ex>Ergänzung einer Abkürzung von Herterich</ex>
+    <quote corresp="optional, falls Verweis auf zitierte Person eindeutig gegeben werden kann">direktes Zitat</quote>
+    <cit corresp="Verweis auf listBibl-Eintrag">
+        <quote>indirektes Zitat, etwa aus einem anderen Werk</quote>
+    </cit>
+    <note>Notiz/Anmerkung von Herterich</note>
+    <note resp="#edAG">Notiz/Anmerkung des Transkribenden (in diesem Falle Andreas Gálffy)</note>
+    <ptr target="Zitations-ID"/><!-- In der Kategorie "Literatur vermischt" verpflichtend! -->
+    <div n="Abschnittsnummer" corresp="#Verweis auf Eintrag unter keyword@type='categorisation'" resp="Handverweis, wenn nicht bekannt, dann otherHand"></div>
+</snippets>

@@ -1,0 +1,282 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader type="text">
+      <fileDesc xml:id="LETTER_GENTZ_5249">
+         <titleStmt>
+            <title>Friedrich von Gentz an Friedrich Vieweg, 9. Mai 1795</title>
+            <editor xml:id="edAG">Andreas Gálffy</editor>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <name>Forschungsstelle "Universitätssammlung Friedrich von Gentz"</name>
+               <link target="http://gentz-digital.ub.uni-koeln.de http://www.ub.uni-koeln.de/cdm/singleitem/collection/gentz/id/5248/"/>
+            </publisher>
+            <pubPlace>Cologne</pubPlace>
+            <idno type="Gentz-Edition-Number" n="5249"/>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <country>Germany</country>
+                  <settlement>Wiesbaden</settlement>
+                  <institution>Vieweg-Verlagsarchiv</institution>
+                  <repository>Briefsammlung 311 G: Gentz-Briefe</repository>
+                  <idno>Nr. 13</idno>
+               </msIdentifier>
+               <msContents>
+                  <summary>
+                     Mit guten Wünschen nach Freude und Zufriedenheit sowie viel Glück zur Messe verabschiedet Gentz Vieweg nach 
+                     Leipzig. Gentz bittet um Entschuldigung bei der Verzögerung des Druckes bei der Monatsschrift und schreibt, 
+                     dass er jetzt beim Minister Heinitz eingesetzt, von jeder Sorge bezüglich einer Versetzung befreit ist und 
+                     200 Reichstaler Zulage bekommen hat. Allerdings hat er jetzt auch mehr Arbeit, als bisher. In acht Tagen will 
+                     Gentz Vieweg wiedersehen.
+                  </summary>
+               </msContents>
+            </msDesc>
+            <listBibl type="defRep">
+               <biblStruct xml:id="p5249-1" corresp="UBi-0003">
+                  <monogr>
+                     <author>
+                        <persName>
+                           <ref target="http://d-nb.info/gnd/118538489"/>
+                           <forename>Friedrich von</forename>
+                           <surname>Gentz</surname>
+                        </persName>
+                     </author>
+                     <title>Neue Deutsche Monatsschrift</title>
+                     <imprint>
+                        <pubPlace>Berlin</pubPlace>
+                        <publisher>Friedrich Vieweg der Ältere</publisher>
+                        <date>1795</date>
+                     </imprint>
+                     <biblScope unit="volume" n="1">
+                        Erster Band.
+                     </biblScope>
+                  </monogr>
+               <ptr target="http://ds.ub.uni-bielefeld.de/viewer/image/1938308_001/2/"/></biblStruct>
+               <biblStruct xml:id="p5249-2" corresp="UBi-0006">
+                  <monogr>
+                     <author>
+                        <persName>
+                           <ref target="http://d-nb.info/gnd/118538489"/>
+                           <forename>Friedrich von</forename>
+                           <surname>Gentz</surname>
+                        </persName>
+                     </author>
+                     <title>Neue Deutsche Monatsschrift</title>
+                     <imprint>
+                        <pubPlace>Berlin</pubPlace>
+                        <publisher>Friedrich Vieweg der Ältere</publisher>
+                        <date>1795</date>
+                     </imprint>
+                     <biblScope unit="volume" n="2">
+                        Zweiter Band.
+                     </biblScope>
+                  </monogr>
+               <ptr target="http://ds.ub.uni-bielefeld.de/viewer/image/1938308_002/2/"/></biblStruct>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Masterarbeit zu Matrikelnummer 5584124</p>
+         </projectDesc>
+      </encodingDesc>
+      <profileDesc>
+         <creation>
+            <date when-iso="1795-05-09">9. Mai 1795</date>
+         </creation>
+        <langUsage>
+           <language ident="d">deutsch</language>
+        </langUsage>
+         <textClass>
+            <keywords scheme="internal"><!-- internal: innerhalb des besagten Briefs -->
+               <term>Monatsschrift</term>
+               <term>Leipzig</term>
+               <term>Messe</term>
+            </keywords>
+            <keywords scheme="categorisation"><!-- Sinnabschnittseinteilung - relevant für den Fahrkartenautomaten! -->
+               <term xml:id="vwf">Vieweg - Freundschaft</term>
+               <term xml:id="mss">Monatsschrift</term>
+               <term xml:id="bezbt">Beziehungen zu Berlin - Beamtentätigkeit</term>
+            </keywords>
+         </textClass>
+         <textDesc>
+            <channel>manuscript</channel>
+            <constitution type="single"/>
+            <derivation type="original"/>
+            <domain type="private"/>
+            <factuality type="fact"/>
+            <interaction type="partial"/>
+            <preparedness type="prepared"/>
+            <purpose type="inform"/>
+         </textDesc>
+         <particDesc>
+            <listPerson>
+               <!-- Sender und Adressat -->
+               <person role="sender" xml:id="Gen">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/118538489"/>
+                     <forename>Friedrich von</forename>
+                     <surname>Gentz</surname>
+                  </persName>
+               </person>
+               <person role="receiver" xml:id="FVW">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/119049546"/>
+                     <forename>Friedrich</forename>
+                     <surname>Vieweg</surname>
+                  </persName>
+               </person>
+               <!-- erwähnte Personen -->
+               <person role="named" xml:id="Lgh">
+                  <persName>
+                     <ref/>
+                     <forename/>
+                     <surname>Langhoff</surname>
+                  </persName>
+               </person>
+               <person role="named" xml:id="Min">
+                  <persName>
+                     <ref/>
+                     <forename>Wilhelmine</forename>
+                     <surname>Gilly</surname>
+                  </persName>
+               </person>
+               <person role="named" xml:id="Pal">
+                  <persName>
+                     <ref/>
+                     <forename/>
+                     <surname>Palm</surname>
+                     <roleName type="office">Geheimer Finanzrat</roleName>
+                  </persName>
+               </person>
+               <person role="named" xml:id="Hnz">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/118550756"/>
+                     <forename>Friedrich Anton von</forename>
+                     <surname>Heinitz</surname>
+                  </persName>
+               </person>
+            </listPerson>
+         </particDesc>
+         <settingDesc>
+            <listPlace>
+               <!-- Start- und Zielort -->
+               <place type="sender" xml:id="plBe">
+                  <country>
+                     <ref target="http://d-nb.info/gnd/4047194-9"/>
+                     <placeName>Preußen</placeName>
+                  </country>
+                  <settlement>
+                     <ref target="http://d-nb.info/gnd/4005728-8"/>
+                     <placeName>Berlin</placeName>
+                  </settlement>
+               </place>
+               <!-- erwähnte Orte -->
+               <place type="named" xml:id="plLp">
+                  <country>
+                     <ref target="http://d-nb.info/gnd/4051176-5"/>
+                     <placeName>Sachsen</placeName>
+                  </country>
+                  <settlement>
+                     <ref target="http://d-nb.info/gnd/4035206-7"/>
+                     <placeName>Leipzig</placeName>
+                  </settlement>
+               </place>
+               <place type="named" xml:id="plBr">
+                  <country>
+                     <ref target="http://d-nb.info/gnd/4047194-9"/>
+                     <placeName>Preußen</placeName>
+                  </country>
+                  <settlement>
+                     <ref target="http://d-nb.info/gnd/4008216-7"/>
+                     <placeName>Breslau</placeName>
+                  </settlement>
+               </place>
+               <place type="named" xml:id="plPo">
+                  <country>
+                     <ref target="http://d-nb.info/gnd/4047194-9"/>
+                     <placeName>Preußen</placeName>
+                  </country>
+                  <settlement>
+                     <ref target="http://d-nb.info/gnd/4046868-9"/>
+                     <placeName>Posen</placeName>
+                  </settlement>
+               </place>
+               <place type="named" xml:id="plWs">
+                  <country>
+                     <ref target="http://d-nb.info/gnd/4047194-9"/>
+                     <placeName>Preußen</placeName>
+                  </country>
+                  <settlement>
+                     <ref target="http://d-nb.info/gnd/4079048-4"/>
+                     <placeName>Warschau</placeName>
+                  </settlement>
+               </place>
+            </listPlace>
+         </settingDesc>
+      </profileDesc>
+      <revisionDesc>
+         <change xml:id="init" when-iso="2018-02-16" who="#edAG">Erstauszeichnung und Normierung des Dokumentes im Rahmen der Masterarbeit der Matrikelnummer 5584124</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div n="1" corresp="#vwf">
+            <p>
+               Viel Glück zur Messe. Und soviel Freude und Zufriedenheit als sich in <rs type="place" ref="#plLp">Leipzig</rs> 
+               finden läßt !
+            </p>
+            <p>
+               Auf beiliegendem Zettel habe ich einige Sachen notirt; die ich wohl zu haben, wenigstens zu sehen wünschte. Nehmen 
+               Sie doch darauf gütigst Rücksicht. Wenn Sie sonst etwas finden, das in meinen Kram dient, so lassen Sie es nicht 
+               gehen.
+            </p>
+         </div>
+         <div n="2" corresp="#mss">
+            <p>
+               Daß Sie die <rs type="citation" ref="#p5249-1">Monatschrift</rs> nicht früher bekommen haben, liegt keinesweges an 
+               mir: Ich habe unendlich getrieben, bin zweimal jeden Tag bey <rs type="person" ref="#Lgh">Langhoff</rs> gewesen, und 
+               habe Ihre <span xml:lang="fr">vices</span> gut vertreten. Es ging indessen nicht. Jetzt habe ich es so weit gebracht, 
+               daß der erste Bogen vom <rs type="citation" ref="#p5249-2">May</rs> <emph rend="underlined">gesetzt</emph> ist: zum 
+               Druck wollte aber <rs type="person" ref="#Lgh">Langhoff</rs> nicht schreiten, weil er noch einen Auftrag von Ihnen 
+               erwartete, der, wie ich vermuthe, die Stärke des Auftrags betreffen wird.
+            </p>
+         </div>
+         <div n="3" corresp="#bezbt">
+            <p>
+               Bey mir ist alles wohl. Auch <rs type="person" ref="#Min">meine Frau</rs> befindet sich erträglich. Mit mir selbst 
+               ist eine Veränderung vorgefallen: ich bin statt des zum Geheimen Finanz-Rath avancirten 
+               <rs type="person" ref="#Pal">Palm</rs> bey dem Westphälischen Departement <pb/> des 
+               <rs type="person" ref="#Hnz">Minister Heinitz</rs> eingesetzt, eine Veränderung die mich von aller Sorge einer 
+               Wanderschaft nach <rs type="place" ref="#plBr">Breßlau</rs>, <rs type="place" ref="#plPo">Posen</rs> oder 
+               <rs type="place" ref="#plWs">Warschau</rs> für immer befreit, und mir zugleich eine Zulage von 200 Reichsthaler 
+               verschafft. Freylich wird nun die <emph rend="underlined">absolute</emph> Muße, die ich bisher genoß, aufhören: aber 
+               der Arbeit bey diesem Departement ist wenig: und der Arbeiter sind viel. Also wird es sich wohl aushalten lassen.
+            </p>
+         </div>
+         <div n="4" corresp="#vwf">
+            <p>
+               Ich hoffe, lieber Freund, Sie <date when-iso="1795-05-17">heute über 8 Tage</date> wieder zu sehen, und freue mich 
+               herzlich darauf. Behalten Sie mich lieb. Ich bleibe in Leben und Tod
+            </p>
+            <salute rend="right">Ihr unveränderlich</salute>
+            <dateline rend="left"><rs type="place" ref="#plBe">Berlin</rs> den <date when-iso="1795-05-09">9<span rend="sup">ten</span> May 1795</date>.</dateline>
+            <salute rend="right">ergebenster</salute>
+            <signed rend="right">Gentz.</signed>
+         </div>
+      </body>
+      <back>
+         <p>
+            An
+            <rs type="person" ref="#VWF">Herrn Friedrich Vieweg</rs>
+            in
+            <rs type="place" ref="#plLp"><emph rend="underlined">Leipzig</emph></rs>
+         </p>
+         <figure>
+            <desc>Siegelrest</desc>
+         </figure>
+      </back>
+   </text>
+</TEI>

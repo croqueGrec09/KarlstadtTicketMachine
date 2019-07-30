@@ -1,0 +1,294 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc xml:id="LETTER_GENTZ_4721">
+         <titleStmt>
+            <title>Friedrich von Gentz an Johannes von Müller, 8. Juni 1799</title>
+            <editor xml:id="edAG">Andreas Gálffy</editor>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <name>Forschungsstelle "Universitätssammlung Friedrich von Gentz"</name>
+               <link target="http://gentz-digital.ub.uni-koeln.de http://www.ub.uni-koeln.de/cdm/singleitem/collection/gentz/id/4720/"/>
+            </publisher>
+            <pubPlace>Cologne</pubPlace>
+            <idno type="Gentz-Edition-Number" n="4721"/>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <country>Switzerland</country>
+                  <settlement>Schaffhausen</settlement>
+                  <institution>Stadtbibliothek</institution>
+                  <repository>Nachlaß Johannes von Müller</repository>
+                  <collection>Msc. Müller</collection>
+                  <idno>149/3</idno>
+               </msIdentifier>
+               <msContents>
+                  <summary>
+                     Gentz ist von seiner Aufnahme bei Müller sehr geehrt. Er bekundet an dieser Stelle seine Freude über den 
+                     Triumph Österreichs und dass er nie den Erbhass gegenüber Österreich gefühlt hat. Er schickt die letzten drei 
+                     Stücke des Journals und meint, dass sich alle zusammentun müssten, um den gemeinsamen Feind - Frankreich - zu 
+                     bezwingen. Die öffentluche Meinung ist gar zu sehr in die Irre geführt.
+                  </summary>
+               </msContents>
+            </msDesc>
+            <listBibl type="preprints">
+               <biblStruct>
+                  <monogr>
+                     <editor>
+                        <persName>
+                           <ref target="http://d-nb.info/gnd/104268913"/>
+                           <forename>Johann Konrad</forename>
+                           <surname>Maurer-Constant</surname>
+                        </persName>
+                     </editor>
+                     <title>Briefe an Johann von Müller (Supplement zu dessen sämtlichen Werken)</title>
+                     <imprint>
+                        <pubPlace>Schaffhausen</pubPlace>
+                        <date>1839</date>
+                     </imprint>
+                     <biblScope unit="volume" n="1">
+                        Bd. 1
+                     </biblScope>
+                     <biblScope unit="page" from="11" to="14">
+                        Nr. 4
+                     </biblScope>
+                  </monogr>
+               </biblStruct>
+               <biblStruct>
+                  <monogr>
+                     <editor>
+                        <persName>
+                           <ref target="http://d-nb.info/gnd/117325791"/>
+                           <forename>Gustav</forename>
+                           <surname>Schlesier</surname>
+                        </persName>
+                     </editor>
+                     <title>Schriften von Friedrich von Gentz. Ein Denkmal. 5 Bde.</title>
+                     <imprint>
+                        <publisher>Verlag von Heinrich Wolff</publisher>
+                        <pubPlace>Mannheim</pubPlace>
+                        <date>1838-1840</date>
+                     </imprint>
+                     <biblScope unit="volume" n="4">
+                        IV
+                     </biblScope>
+                     <biblScope unit="page" from="5" to="8">
+                        Nr. 2
+                     </biblScope>
+                  </monogr>
+               </biblStruct>
+            </listBibl>
+            <listBibl type="letterReferenced">
+               <bibl xml:id="c4721-1" corresp="#LETTER_GENTZ_4465">Friedrich von Gentz an Johannes von Müller, 4. März 1799</bibl>
+            </listBibl>
+            <listBibl type="defRep">
+               <biblStruct xml:id="p4721-1" corresp="GBk-0042">
+                  <monogr>
+                     <editor>
+                        <persName>
+                           <ref target="http://d-nb.info/gnd/118538489"/>
+                           <forename>Friedrich von</forename>
+                           <surname>Gentz</surname>
+                        </persName>
+                     </editor>
+                     <title>Historisches Journal</title>
+                     <imprint>
+                        <publisher>Friedrich Vieweg dem ältern</publisher>
+                        <pubPlace>Berlin</pubPlace>
+                        <date>1799</date>
+                     </imprint>
+                  </monogr>
+                  <ptr target="https://books.google.de/books?id=YU5BAAAAcAAJ"/>
+               </biblStruct>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Masterarbeit zu Matrikelnummer 5584124</p>
+         </projectDesc>
+      </encodingDesc>
+      <profileDesc>
+         <creation>
+            <date when-iso="1799-06-08">8. Juni 1799</date>
+         </creation>
+        <langUsage>
+           <language ident="d">deutsch</language>
+        </langUsage>
+         <textClass>
+            <keywords scheme="internal"><!-- internal: innerhalb des besagten Briefs -->
+               <term>Brief</term>
+               <term>Journal historique</term>
+            </keywords>
+            <keywords scheme="categorisation"><!-- Sinnabschnittseinteilung - relevant für den Fahrkartenautomaten! -->
+               <term xml:id="vjvm">Verhältnis Johannes von Müller</term>
+               <term xml:id="napinv">Napoleonische Invasion</term>
+               <term xml:id="jrnh">Historisches Journal</term>
+               <term xml:id="kost">Österreich</term>
+            </keywords>
+         </textClass>
+         <textDesc>
+            <channel>manuscript</channel>
+            <constitution type="single"/>
+            <derivation type="original"/>
+            <domain type="private"/>
+            <factuality type="fact"/>
+            <interaction type="partial"/>
+            <preparedness type="prepared"/>
+            <purpose type="inform"/>
+         </textDesc>
+         <particDesc>
+            <listPerson>
+               <!-- Sender und Adressat -->
+               <person role="sender" xml:id="Gen">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/118538489"/>
+                     <forename>Friedrich von</forename>
+                     <surname>Gentz</surname>
+                  </persName>
+               </person>
+               <person role="receiver" xml:id="JvM">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/118585045"/>
+                     <forename>Johannes von</forename>
+                     <surname>Müller</surname>
+                  </persName>
+               </person>
+               <!-- erwähnte Personen -->
+               <person role="named" xml:id="JKvH">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/135902274"/>
+                     <forename>Johann Karl von</forename>
+                     <surname>Hertzberg</surname>
+                  </persName>
+               </person>
+               <person role="named" xml:id="KGAIV">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/122651634"/>
+                     <forename>Gustav IV. Adolf</forename>
+                     <surname>Schweden</surname>
+                     <roleName type="office">König</roleName>
+                  </persName>
+               </person>
+            </listPerson>
+         </particDesc>
+         <settingDesc>
+            <listPlace>
+               <!-- Start- und Zielort -->
+               <place type="sender" xml:id="plBe">
+                  <country>
+                     <ref target="http://d-nb.info/gnd/4047194-9"/>
+                     <placeName>Preußen</placeName>
+                  </country>
+                  <settlement>
+                     <ref target="http://d-nb.info/gnd/4005728-8"/>
+                     <placeName>Berlin</placeName>
+                  </settlement>
+               </place>
+               <place type="receiver" xml:id="plWi">
+                  <country>
+                     <ref target="http://d-nb.info/gnd/4075601-4"/>
+                     <placeName>Erzherzogtum Österreich</placeName>
+                  </country>
+                  <settlement>
+                     <ref target="http://d-nb.info/gnd/4066009-6"/>
+                     <placeName>Wien</placeName>
+                  </settlement>
+               </place>
+               <!-- erwähnte Orte -->
+               <place type="named" xml:id="plPr">
+                  <country>
+                     <ref target="http://d-nb.info/gnd/4047194-9"/>
+                     <placeName>Preußen</placeName>
+                  </country>
+               </place>
+               <place type="named" xml:id="plOe">
+                  <country>
+                     <ref target="http://d-nb.info/gnd/4075601-4"/>
+                     <placeName>Erzherzogtum Österreich</placeName>  
+                  </country>
+               </place>
+            </listPlace>
+         </settingDesc>
+      </profileDesc>
+      <revisionDesc>
+         <change xml:id="init" when-iso="2018-03-04" who="#edAG">Erstauszeichnung und Normierung des Dokumentes im Rahmen der Masterarbeit der Matrikelnummer 5584124</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div n="1" corresp="#vjvm">
+            <p>
+               Ich kan Ihnen, Verehrungswürdiger Mann, für die Güte, womit Sie 
+               <rs type="citation" ref="#c4721-1">mein erstes Schreiben</rs> aufgenommen haben, und für die freundschaftlichen und 
+               wohlwollenden Aeußerungen, welche das Ihrige enthält, nicht lebhaft genug danken. Ihr Anerbieten, wechselseitiges 
+               Vertrauen unter uns Statt finden zu laßen, ist mir eben so erwünscht, als schmeichelhaft. So überzeugt ich bin, daß 
+               nähere persönliche Bekanntschaft die Ehrfurcht, die ich längst Ihren Talenten und Verdiensten widmete, noch 
+               beträchtlich vermehren würde, so bestimmt bin ich mir doch auch bewußt, daß ich Ihre gute Meinung von mir, wenigstens 
+               in so fern als sie sich auf die Voraussetzung eines freien, redlichen, durch nichts bestochnen oder zu bestechenden 
+               Strebens nach Wahrheit gründet, selbst bei dem genausten Umgange zu erhalten wißen würde. 
+            </p>
+         </div>
+         <div n="2" corresp="#napinv">
+            <p>
+               Wohl uns übrigens, daß die Gestalt der Dinge <add place="above">aus</add> den düstern Wolken die den Anfang unsrer 
+               Verbindung noch umschwebten in so kurzer Zeit so glorreich hervorgetreten ist, <pb/> daß wir uns wenigstens nicht 
+               <emph rend="underlined">bloß</emph> mehr von gegenwärtigen Schrecknissen, und trüben Ahndungen für die Zukunft zu 
+               unterhalten haben, und daß, - wenn gleich noch mancher saure Weg zu wandeln seyn wird - doch nun endlich die 
+               Möglichkeit einer Auflösung, die Möglichkeit, das Glück, die Ruhe, und die wahre Freiheit der Europäischen Völker 
+               wiederherzustellen, und die unterbrochnen Fortschritte in der Bildung des menschlichen Geschlechts wieder 
+               anzuknüpfen, vorhanden ist ! - Ich glaube nicht, daß in der ganzen Oesterreichischen Monarchie irgend Jemand, das 
+               Glück der Oesterreichischen Waffen sehnlicher gewünscht, und sie auf der glänzenden Laufbahn ihrer Siege mit wärmerer 
+               Theilnahme begleitet haben kan, als ich. Ich habe überhaupt den sogenannten Erbhaß der 
+               <rs type="place" ref="#plPr">Preußen</rs> gegen das Haus <rs type="place" ref="#plOe">Oesterreich</rs> nie gefühlt: 
+               hätte ich <del rend="stroked">xxx</del> mir aber die ganze Portion dieses Hasses, die z. B. der verstorbne 
+               <rs type="person" ref="#JKvH">Herzberg</rs> besaß einhauchen <pb/> laßen, so würde dennoch mein erster und 
+               unerschütterlichster Grundsatz gewesen seyn, für jetzt, 
+               <emph rend="underlined">da es nur Eine Sache und nur Einen Feind giebt</emph> alle andre Gefühle, Systeme, und 
+               Maximen zu vertagen, bis jene große Sache ausgefochten, dieser Feind bekämpft ist. Wenn alle deutsche Fürsten so 
+               gedacht und so gesprochen hätten, wie der <rs type="person" ref="#KGAIV">König von Schweden</rs>, vielleicht wären 
+               wir schon um ein Großes weiter !
+            </p>
+         </div>
+         <div n="3" corresp="#jrnh">
+            <p>
+               Ich übersende Ihnen hier die drei letzten Stücke <rs type="citation" ref="#p4721-1">meines Journals</rs>. Ich 
+               wünsche, daß der Aufsatz am Schlusse des letzten Ihren Beifall finden möge.
+            </p>
+         </div>
+         <div n="4" corresp="#kost">
+            <p>
+               Aber laßen Sie mich Ihnen über den Gegenstand desselben ein freimüthiges Wort sagen. Kein guter Kopf in der 
+               Oesterreichschen Monarchie sollte über diese Begebenheit schweigen ! Es ist umsonst, zu glauben - wie ich selbst in 
+               den ersten 14 Tagen glaubte - es sey der Mühe nicht werth, es sey wohl gar unter der Würde der bessern 
+               Schriftsteller, die Oesterreichische Regierung zu verteidigen. Die öffentliche Meinung ist diesmal gar zu schrecklich 
+               irre geführt: die Guten müßen <pb/> sich alle vereinigen, um der Bosheit der französischen Unholde entgegen zu 
+               wirken. Ich halte dafür, daß das Unternehmen selbst Ihres Genies nicht unwürdig wäre, und ich fordre Sie, im Nahmen 
+               aller Edeln auf, Ihre Stimme in dieser Angelegenheit zu erheben: sie wird von großem Gewicht seyn !
+            </p>
+         </div>
+         <div n="5" corresp="#napinv">
+            <p>
+               Es ist überhaupt ausgemacht, daß wir den Franzosen viel zu wenig Kraft und Kunst des Wortes entgegen setzen. 
+               Allerdings können respektable Regierungen sich nicht darauf einlaßen, unaufhörlich mit Gaukelspielern zu kämpfen, 
+               <del rend="stroked">xxx</del> deren ganze Weisheit im Deklamiren besteht. Aber wir reden gar zu wenig, und geben die 
+               verführte Welt den schändlichsten Lügen, und den rasendsten Ausschweifungen ihrer immer bereiten Schreiber Preis. 
+               Sie haben tief genug beobachtet, um meine Anmerkung nicht ganz ungegründet zu finden.
+            </p>
+            <p>
+               Mit ausgezeichneter und unbegränzter Hochachtung verharre ich
+            </p>
+         </div>
+         <closer>
+            <salute rend="right">Ihr sehr ergebner</salute>
+            <dateline rend="left"><rs type="place" ref="#plBe">Berlin</rs> den <date when-iso="1799-06-08">8 Juny 1799</date>.</dateline>
+            <signed rend="right">Gentz.</signed>
+         </closer>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,220 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc xml:id="LETTER_GENTZ_2183">
+         <titleStmt>
+            <title>Friedrich von Gentz an Karl August Böttiger, 1. Dezember 1801</title>
+            <editor xml:id="edAG">Andreas Gálffy</editor>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <name>Forschungsstelle "Universitätssammlung Friedrich von Gentz"</name>
+               <link target="http://gentz-digital.ub.uni-koeln.de http://www.ub.uni-koeln.de/cdm/singleitem/collection/gentz/id/2182/"/>
+            </publisher>
+            <pubPlace>Cologne</pubPlace>
+            <idno type="Gentz-Edition-Number" n="2183"/>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <country>Germany</country>
+                  <settlement>Dresden</settlement>
+                  <institution>Sächsische Landesbibliothek</institution>
+                  <repository>Handschriftensammlung, Nachlaß Böttiger</repository>
+                  <collection>Mscr. Dresd. h 37, Bd. 54 (4°)</collection>
+                  <idno>Nr. 26b</idno>
+               </msIdentifier>
+               <msContents>
+                  <summary>
+                     Der Aufenthalt zu Weimar nimmt sein Ende. Gentz will später am Tag noch zu Böttiger gehen und sich bei ihm 
+                     für alles bedanken. Er bittet ihn, ein Paket zu bestellen, und hofft, dass der Briefwechsel bald 
+                     weiterginge.
+                  </summary>
+               </msContents>
+            </msDesc>
+            <listBibl type="preprints">
+               <!-- Wittichen/Salzer -->
+               <biblStruct>
+                  <monogr>
+                     <editor>
+                        <persName>
+                           <ref target="http://d-nb.info/gnd/130953075"/>
+                           <forename>Friedrich Carl</forename>
+                           <surname>Wittichen</surname>
+                        </persName>
+                        <persName>
+                           <ref /> <!-- kein GND-Eintrag -->
+                           <forename>Ernst</forename>
+                           <surname>Salzer</surname>
+                        </persName>
+                     </editor>
+                     <title>Briefe von und an Friedrich von Gentz, 4 Bde.</title>
+                     <imprint>
+                        <publisher>Oldenbourg</publisher>
+                        <pubPlace>München, Berlin</pubPlace>
+                        <date>1909-1913</date>
+                     </imprint>
+                     <biblScope unit="volume" n="1">
+                        I
+                     </biblScope>
+                     <biblScope unit="page" from="261" to="261">
+                        Nr. 69
+                     </biblScope>
+                  </monogr>
+               </biblStruct>
+            </listBibl>
+            <listBibl type="letterReferenced">
+               <bibl xml:id="c2183-1">nicht bekannter Brief von Dr. Grapengiesser an Herrn Lohder</bibl>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Masterarbeit zu Matrikelnummer 5584124</p>
+         </projectDesc>
+      </encodingDesc>
+      <profileDesc>
+         <creation>
+            <date when-iso="1801-12-01">1. Dezember 1801</date>
+         </creation>
+        <langUsage>
+           <language ident="d">deutsch</language>
+        </langUsage>
+         <textClass>
+            <keywords scheme="internal"><!-- internal: innerhalb des besagten Briefs -->
+               <term>Brief</term>
+               <term>Abschied</term>
+               <term>Jena</term>
+            </keywords>
+            <keywords scheme="categorisation"><!-- Sinnabschnittseinteilung - relevant für den Fahrkartenautomaten! -->
+               <term xml:id="vkab">Verhältnis Karl August Böttiger</term>
+            </keywords>
+         </textClass>
+         <textDesc>
+            <channel>manuscript</channel>
+            <constitution type="single"/>
+            <derivation type="original"/>
+            <domain type="private"/>
+            <factuality type="fact"/>
+            <interaction type="partial"/>
+            <preparedness type="prepared"/>
+            <purpose type="inform"/>
+         </textDesc>
+         <particDesc>
+            <listPerson>
+               <!-- Sender und Adressat -->
+               <person role="sender" xml:id="Gen">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/118538489"/>
+                     <forename>Friedrich von</forename>
+                     <surname>Gentz</surname>
+                  </persName>
+               </person>
+               <person role="receiver" xml:id="KAB">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/118824775"/>
+                     <forename>Carl August</forename>
+                     <surname>Böttiger</surname>
+                  </persName>
+               </person>
+               <!-- erwähnte Personen -->
+               <person role="named" xml:id="Grpg">
+                  <persName>
+                     <ref />
+                     <forename/>
+                     <surname>Grapengiesser</surname>
+                  </persName>
+               </person>
+               <person role="named" xml:id="Lhd">
+                  <persName>
+                     <ref/>
+                     <forename/>
+                     <surname>Lohder</surname>
+                  </persName>
+               </person>
+            </listPerson>
+         </particDesc>
+         <settingDesc>
+            <listPlace>
+               <!-- Start- und Zielort -->
+               <place type="sender" xml:id="plWe">
+                  <country>
+                     <ref target="http://d-nb.info/gnd/4051194-7"/>
+                     <placeName>Sachsen-Weimar-Eisenach</placeName>
+                  </country>
+                  <settlement>
+                     <ref target="http://d-nb.info/gnd/4065105-8"/>
+                     <placeName>Weimar</placeName>
+                  </settlement>
+               </place>
+               <!-- erwähnte Orte -->
+               <place type="named" xml:id="plJe">
+                  <country>
+                     <ref target="http://d-nb.info/gnd/4051194-7"/>
+                     <placeName>Sachsen-Weimar-Eisenach</placeName>
+                  </country>
+                  <settlement>
+                     <ref target="http://d-nb.info/gnd/4028557-1"/>
+                     <placeName>Jena</placeName>
+                  </settlement>
+               </place>
+               <place type="named" xml:id="plBe">
+                  <country>
+                     <ref target="http://d-nb.info/gnd/4047194-9"/>
+                     <placeName>Preußen</placeName>
+                  </country>
+                  <settlement>
+                     <ref target="http://d-nb.info/gnd/4005728-8"/>
+                     <placeName>Berlin</placeName>
+                  </settlement>
+               </place>
+            </listPlace>
+         </settingDesc>
+      </profileDesc>
+      <revisionDesc>
+         <change xml:id="init" when-iso="2018-03-09" who="#edAG">Erstauszeichnung und Normierung des Dokumentes im Rahmen der Masterarbeit der Matrikelnummer 5584124</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div n="1" corresp="#ezg">
+            <p>
+               Alles in dieser Welt muß sein Ende erreichen; und so gehe ich denn <date when-iso="1801-12-02">Morgen</date> ganz 
+               sicher von <rs type="place">Weimar</rs> ab. Ich hatte mir von diesem Aufenthalt viel Gutes versprochen; aber es 
+               ist nur nüchterne Gerechtigkeit, wenn ich Ihnen sage, daß ich unendlich viel mehr gefunden habe, als ich hoffte, 
+               daß ich in den 14 Tagen, die ich in Ihren Mauern zubrachte, wirklich recht glücklich gewesen bin.
+            </p>
+            <p>
+               Ich werde diesen Nachmittag oder gegen Abend noch bei Ihnen ansprechen, hochgeschätzter Freund, um für das, was 
+               Sie zu meinem Wohlseyn redlich beigetragen haben, Ihnen meinen herzlichen Dank zu sagen. <pb/>
+            </p>
+            <p>
+               Unterdessen muß ich Sie noch mit einem kleinen Auftrage beschweren. Da ich nun nicht nach 
+               <rs type="place" ref="#plJe">Jena</rs> komme, so kan ich nicht selbst das beiliegende Paket bestellen, welches 
+               mir <rs type="person" ref="#Grpg">Dr. Grapengiesser</rs> aus <rs type="place" ref="#plBe">Berlin</rs> für 
+               <rs type="person" ref="#Lhd">Herrn Lohder</rs> mitgegeben hatte. Würden Sie wohl, da hier so oft Gelegenheit nach 
+               <rs type="place" ref="#plJe">Jena</rs> ist, dieses Paket baldmöglichst dahin besorgen laßen ?
+            </p>
+            <p>
+               Zeitung und Briefe die ich von Ihnen hatte, sind, meines Wissens, sämtlich zurückgegeben. Mögte ich bald wieder 
+               in diesen <emph rend="underlined">nahen</emph> Schriftwechsel mit Ihnen gerathen !
+            </p>
+         </div>
+         <closer>
+            <signed rend="right">Gentz</signed>
+            <dateline rend="right"><date when-iso="1801-12-01">d 1 Xbr</date></dateline>
+         </closer>
+      </body>
+      <back>
+         <p>
+            Herrn
+            Ober Consistorial Rath
+            Böttiger
+         </p>
+      </back>
+      <note xml:id="r2183-1">Adresse auf Seite 4</note>
+   </text>
+</TEI>

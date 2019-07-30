@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc xml:id="LETTER_GENTZ_0149">
+         <titleStmt>
+            <title>Friedrich von Gentz an Friedrich Vieweg, 4. Juni 1798</title>
+            <editor xml:id="edAG">Andreas Gálffy</editor>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <name>Forschungsstelle "Universitätssammlung Friedrich von Gentz"</name>
+               <link target="http://gentz-digital.ub.uni-koeln.de http://www.ub.uni-koeln.de/cdm/singleitem/collection/gentz/id/148/"/>
+            </publisher>
+            <pubPlace>Cologne</pubPlace>
+            <idno type="Gentz-Edition-Number" n="0149"/>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <country>Germany</country>
+                  <settlement>Wiesbaden</settlement>
+                  <institution>Vieweg-Verlagsarchiv</institution>
+                  <repository>Briefsammlung 311 G, Gentz-Briefe</repository>
+                  <idno>Nr. 82</idno>
+               </msIdentifier>
+               <msContents>
+                  <summary>
+                     Für Gentz' Vater soll ein bestand für das vorige Jahr abgetreten werden. Vieweg will Abzüge machen, die nicht 
+                     abgesprochen waren, wogegen Gentz sich stellt. Ihm ist das nicht lieb, dass er nicht so viele Schulden wie 
+                     möglich tilgen kann, aber er muss auf die Absprache bestehen. Allerdings ist er bereit, zu mitteln und bittet 
+                     so 50-60 Reichstaler, um zumindest einen Teil zu begleichen.
+                  </summary>
+               </msContents>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Masterarbeit zu Matrikelnummer 5584124</p>
+         </projectDesc>
+      </encodingDesc>
+      <profileDesc>
+         <creation>
+            <date when-iso="1798-06-04">4. Juni 1798</date>
+         </creation>
+        <langUsage>
+           <language ident="d">deutsch</language>
+        </langUsage>
+         <textClass>
+            <keywords scheme="internal"><!-- internal: innerhalb des besagten Briefs -->
+               <term>Brief</term>
+               <term>Schulden</term>
+            </keywords>
+            <keywords scheme="categorisation"><!-- Sinnabschnittseinteilung - relevant für den Fahrkartenautomaten! -->
+               <term xml:id="gprl">Gentz - p(r)ekuniäre Lage</term>
+            </keywords>
+         </textClass>
+         <textDesc>
+            <channel>manuscript</channel>
+            <constitution type="single"/>
+            <derivation type="original"/>
+            <domain type="private"/>
+            <factuality type="fact"/>
+            <interaction type="partial"/>
+            <preparedness type="prepared"/>
+            <purpose type="inform"/>
+         </textDesc>
+         <particDesc>
+            <listPerson>
+               <!-- Sender und Adressat -->
+               <person role="sender" xml:id="Gen">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/118538489"/>
+                     <forename>Friedrich von</forename>
+                     <surname>Gentz</surname>
+                  </persName>
+               </person>
+               <person role="receiver" xml:id="FVW">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/119049546"/>
+                     <forename>Friedrich</forename>
+                     <surname>Vieweg</surname>
+                  </persName>
+               </person>
+               <!-- erwähnte Personen -->
+               <person role="named" xml:id="JFG">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/136428983"/>
+                     <forename>Johann Friedrich</forename>
+                     <surname>Gentze</surname>
+                  </persName>
+               </person>
+               <person role="named" xml:id="Oel">
+                  <persName>
+                     <ref />
+                     <forename/>
+                     <surname>Oelrichs</surname>
+                  </persName>
+               </person>
+               <person role="named" xml:id="KFWIII">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/118535986"/>
+                     <forename>Friedrich Wilhelm III.</forename>
+                     <surname>von Preußen</surname>
+                     <roleName type="office">König</roleName>
+                  </persName>
+               </person>
+            </listPerson>
+         </particDesc>
+         <settingDesc>
+            <listPlace>
+               <!-- Start- und Zielort -->
+               <place type="sender" xml:id="plSb">
+                  <country>
+                     <ref target="http://d-nb.info/gnd/4047194-9"/>
+                     <placeName>Preußen</placeName>
+                  </country>
+                  <settlement>
+                     <ref target="http://d-nb.info/gnd/116944-0"/>
+                     <placeName>Schöneberg</placeName>
+                  </settlement>
+               </place>
+               <place type="receiver" xml:id="plBe">
+                  <country>
+                     <ref target="http://d-nb.info/gnd/4047194-9"/>
+                     <placeName>Preußen</placeName>
+                  </country>
+                  <settlement>
+                     <ref target="http://d-nb.info/gnd/4005728-8"/>
+                     <placeName>Berlin</placeName>
+                  </settlement>
+               </place>
+               <!-- erwähnte Orte -->
+            </listPlace>
+         </settingDesc>
+      </profileDesc>
+      <revisionDesc>
+         <change xml:id="init" when-iso="2018-03-02" who="#edAG">Erstauszeichnung und Normierung des Dokumentes im Rahmen der Masterarbeit der Matrikelnummer 5584124</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div n="1" corresp="#gprl">
+            <p>
+               Ich habe mich gestern mit <rs type="person" ref="#JFG">meinem Vater</rs>, sowohl wegen der jetzt fälligen, bereits 
+               eingezognen, als wegen der künftigen Gehalts-Zahlungen berechnet und arrangirt, dabey aber von ihm gehört, daß Sie, 
+               mein hochgeschätzter Freund, ihm gemeldet hätten, Sie wollten ihm den Bestand für das vorige Jahr, nach Abzug des 
+               Betrages einiger Rechnungen für französische Bücher, zustellen.
+            </p>
+            <p>
+               Sie können leicht denken, daß <emph rend="underlined">mir</emph> kein größrer Dienst geschähe, und daß 
+               <emph rend="underlined">ich</emph> nichts sehnlicher wünschte, als daß der ganze Bestand Ihnen verbliebe, um einen 
+               Theil meiner Schuld bey Ihnen zu tilgen. Sie wißen aber, wie <rs type="person" ref="#JFG">mein Vater</rs> ist: Sie 
+               wißen, daß dieser Bestand ihm förmlich cedirt worden, und was noch mehr ist, Sie haben selbst gegen ihn anerkannt, 
+               daß Sie ihm solchen, bloß nach Abzug der Auslagen an <rs type="person" ref="#Oel">Oelrichs</rs> pp baar bezahlen 
+               müßten und wollten.
+            </p>
+            <p>
+               Sie sehen also klar genug, in welche Verlegenheit Sie mich setzten, wenn Sie ihm jetzt Abzüge anrechnen wollten, die 
+               nicht aus seinen Dispositionen herrührten, und daß Sie Sich am Ende mit ihm selbst <pb/> darüber in Streitigkeiten 
+               verwickeln würden ! Dies mußte ich Ihnen sagen: Sie sind nun Herr und Meister zu handeln. Geht es nach meinem Rath, 
+               so machen Sie einen Versuch ihm etwa 50 oder 60 Reichsthaler in Anrechnung zu bringen: den Einwendungen darüber will 
+               ich allenfalls durch Güte zu begegnen suchen: ein Mehreres aber würde uns gewiß beiden keinen Vortheil und Frieden 
+               stiften.
+            </p>
+            <p>
+               Bei dieser Gelegenheit muß ich bemerken, mein theurer Freund, daß es nicht <emph rend="underlined">meine</emph> 
+               Schuld ist, wenn die zwischen uns noch schwebenden Geld-Geschäfte nicht wenigstens festgesetzt, regulirt, und in 
+               eine gewiße Ordnung eingeleitet worden sind. Ich habe Sie mehrmals darum gebeten, die Einleitung zu machen: bisher 
+               haben Sie mir aber diese Bitte nicht gewährt.
+            </p>
+            <p>
+               Wenn Sie <emph rend="underlined">einen Theil</emph> der letzten Bücher-Rechnung durch 
+               <rs type="person" ref="#JFG">meinen Vater</rs> tilgen laßen, so versichre ich Ihnen hiermit aufs feyerlichste daß 
+               ich Ihnen nach der Rückkehr des <rs type="person" ref="#KFWIII">Königes</rs> und der Minister die ich begleiten, 
+               sofort den Ueberrest bezahlen werde, und danke Ihnen verbindlichst für die trefliche Besorgung.
+            </p>
+         </div>
+         <closer>
+            <signed rend="right">Gentz</signed>
+            <dateline rend="right"><rs type="place" ref="#plSb">Schöneberg</rs> den <date when-iso="1798-06-04">4 Juny 98</date></dateline>
+         </closer>
+      </body>
+      <back>
+         <p>
+            Des
+            Herrn Buchhändler Vieweg
+            Wohlgebohren
+         </p>
+         <p resp="#FVW">
+            <rs type="place" ref="#plBe">Berlin</rs> d <date when-iso="1798-06-04">4 Jun. 1798</date>.
+            H K. R. Gentz
+            eod
+         </p>
+      </back>
+      <note xml:id="r0149-1">S. 4: Adr.</note>
+      <note xml:id="r0149-2">S. 4: Pr.-Vm. v. Viewegs Hand</note>
+      <note xml:id="r0149-3">S. 4: Reste eines Siegels der Kön. Preußischen Immediat-Finantz-Commission</note>
+   </text>
+</TEI>

@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc xml:id="LETTER_GENTZ_2039">
+         <titleStmt>
+            <title>Friedrich von Gentz an Friedrich Vieweg, 2. Juni 1798</title>
+            <editor xml:id="edAG">Andreas Gálffy</editor>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <name>Forschungsstelle "Universitätssammlung Friedrich von Gentz"</name>
+               <link target="http://gentz-digital.ub.uni-koeln.de http://www.ub.uni-koeln.de/cdm/singleitem/collection/gentz/id/2038/"/>
+            </publisher>
+            <pubPlace>Cologne</pubPlace>
+            <idno type="Gentz-Edition-Number" n="2039"/>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <country>Germany</country>
+                  <settlement>Wiesbaden</settlement>
+                  <institution>Vieweg-Verlagsarchiv</institution>
+                  <repository>Briefsammlung 311 G, Gentz-Briefe</repository>
+                  <idno>Nr. 82</idno>
+               </msIdentifier>
+               <msContents>
+                  <summary>
+                     Der Schluss der Berlepschen Schrift kommt mit diesem Brief. Gentz bittet Vieweg, die Zitation im §31 
+                     auszufüllen. Die Härte der Übersetzung ist nicht Gentz' Fehler, sondern die Wiedergabe des Originals, 
+                     rechtfertigt sich Gentz.
+                  </summary>
+               </msContents>
+            </msDesc>
+            <listBibl type="alludedWorks">
+               <bibl xml:id="a2039-1" corresp="#LETTER_GENTZ_NNNN">nicht näher benannte Berlepsche Schrift</bibl>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Masterarbeit zu Matrikelnummer 5584124</p>
+         </projectDesc>
+      </encodingDesc>
+      <profileDesc>
+         <creation>
+            <date when-iso="1798-06-02">2. Juni 1798</date>
+         </creation>
+        <langUsage>
+           <language ident="d">deutsch</language>
+        </langUsage>
+         <textClass>
+            <keywords scheme="internal"><!-- internal: innerhalb des besagten Briefs -->
+               <term>Billet</term>
+               <term>Berlepsch</term>
+               <term>Übersetzung</term>
+            </keywords>
+            <keywords scheme="categorisation"><!-- Sinnabschnittseinteilung - relevant für den Fahrkartenautomaten! -->
+               <term xml:id="lvm">Literatur vermischt</term>
+            </keywords>
+         </textClass>
+         <textDesc>
+            <channel>manuscript</channel>
+            <constitution type="single"/>
+            <derivation type="original"/>
+            <domain type="private"/>
+            <factuality type="fact"/>
+            <interaction type="partial"/>
+            <preparedness type="prepared"/>
+            <purpose type="inform"/>
+         </textDesc>
+         <particDesc>
+            <listPerson>
+               <!-- Sender und Adressat -->
+               <person role="sender" xml:id="Gen">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/118538489"/>
+                     <forename>Friedrich von</forename>
+                     <surname>Gentz</surname>
+                  </persName>
+               </person>
+               <person role="receiver" xml:id="FVW">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/119049546"/>
+                     <forename>Friedrich</forename>
+                     <surname>Vieweg</surname>
+                  </persName>
+               </person>
+               <!-- erwähnte Personen -->
+               <person role="named" xml:id="AGvB">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/116519770"/>
+                     <forename>August Gottlieb von</forename>
+                     <surname>Berlepsch</surname>
+                  </persName>
+               </person>
+            </listPerson>
+         </particDesc>
+         <settingDesc>
+            <listPlace>
+               <!-- Start- und Zielort -->
+               <place type="sender" xml:id="plBe">
+                  <country>
+                     <ref target="http://d-nb.info/gnd/4047194-9"/>
+                     <placeName>Preußen</placeName>
+                  </country>
+                  <settlement>
+                     <ref target="http://d-nb.info/gnd/4005728-8"/>
+                     <placeName>Berlin</placeName>
+                  </settlement>
+               </place>
+               <!-- erwähnte Orte -->
+            </listPlace>
+         </settingDesc>
+      </profileDesc>
+      <revisionDesc>
+         <change xml:id="init" when-iso="2018-03-02" who="#edAG">Erstauszeichnung und Normierung des Dokumentes im Rahmen der Masterarbeit der Matrikelnummer 5584124</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div n="1" corresp="#lvm">
+            <p>
+               Ich schicke Ihnen hier, werthester Freund den Schluß der <rs type="citation" ref="#a2039-1">Berlepschen Schrift</rs>, 
+               muß Sie aber bitten, die Citation bey dem § XXXI auszufüllen, weil ich nicht weiß, ob die dort angeführte Schrift 
+               fanzösisch oder deutsch erschienen ist, und weil Sie im letztern Falle wohl den eigentlichen Titel wissen werden.
+            </p>
+            <p>
+               Schreiben Sie übrigens nicht mir die Härten aller Art zu, die den Styl der Uebersetzung entstellen. Hier kam doch 
+               alles auf eine sehr getreue Nachbildung des Originals an; und dieses hat an Barbarei der Französischen Schreibart 
+               schwerlich seines Gleichen. Ein recht eckelhaftes Stück Arbeit, <pb/> ganz dem Eindruck harmonisch, den der Inhalt 
+               und die charakteristischen Züge dieser fatalen Schrift, den die ganze unverantwortliche Maßregel dieser 
+               ächt-factionistischen Adresse, den das ganze unwürdige Benehmen des 
+               <rs type="person" ref="#AGvB">Herrn von Berlepsch</rs> hoffentlich auf jedes noch nicht durchaus verdorbne deutsche 
+               Gemüth machen, und den kein <emph rend="underlined">Erskine-Häberlin</emph> wie er hier <del rend="stroked">S</del> 
+               genannt wird, wenigstens bei mir wieder verlöschen wird.
+            </p>
+         </div>
+         <closer>
+            <signed rend="right">Gentz</signed>
+            <dateline rend="right">den <date when-iso="1798-06-02">2 Juny 98</date></dateline>
+         </closer>
+      </body>
+      <back resp="#FVW">
+         <p>
+            <rs type="place" ref="#plBe">Berlin</rs>
+            d <date when-iso="1798-06-02">2<span rend="sup">ten</span> Juny 98</date>
+         </p>
+      </back>
+      <note xml:id="r2039-1">S. 1: Präsenz-Vermerk von der Hand Viewegs</note>
+   </text>
+</TEI>

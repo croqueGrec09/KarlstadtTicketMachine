@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader type="text">
+      <fileDesc xml:id="LETTER_GENTZ_1283">
+         <titleStmt>
+            <title>Friedrich von Gentz an Elisabeth Graun, 31. März 1785</title>
+            <editor xml:id="edAG">Andreas Gálffy</editor>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <name>Forschungsstelle "Universitätssammlung Friedrich von Gentz"</name>
+               <link target="http://gentz-digital.ub.uni-koeln.de http://www.ub.uni-koeln.de/cdm/singleitem/collection/gentz/id/1282/"/>
+            </publisher>
+            <pubPlace>Cologne</pubPlace>
+            <idno type="Gentz-Edition-Number" n="1283"/>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <country>Poland</country>
+                  <settlement>Cracow</settlement>
+                  <institution>Biblioteka Jagiellońska</institution>
+                  <repository>Handschriftenabtelung</repository>
+                  <collection>Varnhagensammlung der ehemaligen Preußischen Bibliothek</collection>
+                  <idno>Karton 66</idno>
+               </msIdentifier>
+               <msContents>
+                  <summary>
+                     Le Noble hat einen Brief von Schwink übermittelt, der sehr süß klingt und aufbewahrt werden müsse. Gentz hat 
+                     den Brief verlegt und bittet Elisabeth Graun ebenfalls, ihn zu suchen. Er will ihr den Inhalt desselben laut 
+                     vorlesen. Le Noble würde sich nicht über diesen Inahlt freuen. Coelestinen ist in einer seeligen Situation. 
+                     Dieses Glück wünscht Gentz auch Elisabeth Graun.
+                  </summary>
+               </msContents>
+            </msDesc>
+            <listBibl type="preprints">
+               <biblStruct>
+                  <monogr>
+                     <editor>
+                        <persName>
+                           <ref target="http://d-nb.info/gnd/130953075"/>
+                           <forename>Friedrich Carl</forename>
+                           <surname>Wittichen</surname>
+                        </persName>
+                        <persName>
+                           <ref/> <!-- kein GND-Eintrag -->
+                           <forename>Ernst</forename>
+                           <surname>Salzer</surname>
+                        </persName>
+                     </editor>
+                     <title>Briefe von und an Friedrich von Gentz. 4 Bde.</title>
+                     <imprint>
+                        <publisher>Oldenbourg</publisher>
+                        <pubPlace>München, Berlin</pubPlace>
+                        <date>1909-1913</date>
+                     </imprint>
+                     <biblScope unit="volume" n="1">
+                        I
+                     </biblScope>
+                     <biblScope unit="page" from="18" to="19">
+                        Nr. 5
+                     </biblScope>
+                  </monogr>
+               </biblStruct>
+            </listBibl>
+            <listBibl type="letterReferences">
+               <bibl xml:id="c1283-1" corresp="#LETTER_GENTZ_NNNN">nicht bekannter Brief von Coelestine Schwink an Friedrich Gentz</bibl>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Masterarbeit zu Matrikelnummer 5584124</p>
+         </projectDesc>
+      </encodingDesc>
+      <profileDesc>
+         <creation>
+            <date when-iso="1785-03-31">31. März 1785</date>
+         </creation>
+        <langUsage>
+           <language ident="d">deutsch</language>
+        </langUsage>
+         <textClass>
+            <keywords scheme="internal"><!-- internal: innerhalb des besagten Briefs -->
+               <term>Brief</term>
+               <term>Graun</term>
+               <term>Coelestinen</term>
+               <term>Le Noble</term>
+            </keywords>
+            <keywords scheme="categorisation"><!-- Sinnabschnittseinteilung - relevant für den Fahrkartenautomaten! -->
+               <term xml:id="kschw">Schwink</term>
+               <term xml:id="kcoe">Coelestinen</term>
+               <term xml:id="veg">Verhältnis Elisabeth Graun</term>
+            </keywords>
+         </textClass>
+         <textDesc>
+            <channel>manuscript</channel>
+            <constitution type="single"/>
+            <derivation type="original"/>
+            <domain type="private"/>
+            <factuality type="fact"/>
+            <interaction type="partial"/>
+            <preparedness type="prepared"/>
+            <purpose type="inform"/>
+         </textDesc>
+         <particDesc>
+            <listPerson>
+               <!-- Sender und Adressat -->
+               <person role="sender" xml:id="Gen">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/118538489"/>
+                     <forename>Friedrich von</forename>
+                     <surname>Gentz</surname>
+                  </persName>
+               </person>
+               <person role="receiver" xml:id="Gra">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/123518733"/>
+                     <forename>Elisabeth</forename>
+                     <surname>Graun</surname>
+                  </persName>
+               </person>
+               <!-- erwähnte Personen -->
+               <person role="named" xml:id="lno">
+                  <persName>
+                     <ref/>
+                     <forename>David oder Jeremias</forename>
+                     <surname>Le Noble</surname>
+                     <certainty locus="name">
+                        <desc>ist unklar! Entnommen aus: Gause, Fritz. Friedrich Gentz in Königsberg. In: Jahrbuch der Schlesischen Friedrich-Wilhelms-Universität zu Breslau, Band XVIII. 1973. Berlin: Duncker &amp; Humblot. S. 325</desc>
+                     </certainty>
+                  </persName>
+               </person>
+               <person role="named" xml:id="coe">
+                  <persName>
+                     <ref/><!-- kein GND-Eintrag -->
+                     <forename>Coelestine</forename>
+                     <surname>Schwinck</surname>
+                     <roleName type="address">Mademoiselle</roleName>
+                  </persName>
+               </person>
+            </listPerson>
+         </particDesc>
+         <settingDesc>
+            <listPlace>
+               <!-- Start- und Zielort -->
+               <place type="sender" xml:id="plKo">
+                  <country>
+                     <ref target="http://d-nb.info/gnd/4047194-9"/>
+                     <placeName>Preußen</placeName>  
+                  </country>
+                  <settlement>
+                     <ref target="http://d-nb.info/gnd/4031541-1"/>
+                     <placeName>Königsberg</placeName>
+                  </settlement>
+               </place>
+            </listPlace>
+         </settingDesc>
+      </profileDesc>
+      <revisionDesc>
+         <change xml:id="init" when-iso="2018-01-27" who="#edAG">Erstauszeichnung und Normierung des Dokumentes im Rahmen der Masterarbeit der Matrikelnummer 5584124</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <front>
+         <p>
+            <emph rend="underlined">An die Frau Regierungs-Räthinn</emph>
+            <emph rend="underlined">Graun</emph>
+         </p>
+         <figure>
+            <desc>Seite 3: Siegelrest</desc>
+         </figure>
+         <figure>
+            <desc>Blatt 2: Siegelausriß</desc>
+         </figure>
+      </front>
+      <body>
+         <div n="1" corresp="#kschw">
+            <p>
+               Ich habe gestern bey Ihnen den Brief von <rs type="person" ref="#lno">leNoble</rs>, den mir 
+               <rs type="person" ref="#coe">meine liebe Schwinken</rs> geschikt hatte, den ich Ihnen auch selbst zu lesen 
+               gegeben habe, liegen laßen; wenigstens kan ich ihn weder in meiner Brief-Tasche, noch sonst irgendwo finden. Seyn 
+               Sie doch so gütig, und suchen Sie recht sorgfältig danach; denn mir ist blos darum soviel daran gelegen, weil sie 
+               mir ausdrüklich schreibt: 
+               <cit>
+                  <quote corresp="#c1283-1">
+                     Nicht zum süßen Andenken, sondern zur Warnung für die Zukunft will ich diesen 
+                     allerliebsten Brief, über den ich mich jetzt nicht ärgre, sondern schäme, aufheben, vergeßen Sie also nicht mir 
+                     ihn zurückzugeben.
+                  </quote>
+               </cit> -
+            </p>
+            <p>
+               <rs type="citation" ref="#c1283-1">Das ganze Billet</rs>, was sie mir <date when-iso="1785-03-30">gestern</date> 
+               geschrieben hat, behalte ich mir vor, Ihnen vorzulesen; es ist mir in mehr als Einer Rüksicht aeußerst wichtig und 
+               merkwürdig; <del rend="stroked">die</del> wenn <rs type="person" ref="#lno">leNoble</rs> es lesen sollte, er 
+               würde freylich nicht so zufrieden damit seyn, als ich es bin; aber, ob er es auch jetzt noch fühlen würde, wenn 
+               <rs type="person" ref="#coe">Coelestine</rs> - das Wort will ich nicht ausschreiben; 
+               <del rend="stroked">ich</del> noch friert es zu stark.
+            </p>
+         </div>
+         <div n="2" corresp="#kcoe">
+            <p>
+               Daß ich über alle meine Wünsche, über alle meine kühnste Hoffnungen glüklich bin, nichts mehr begehren nichts mehr 
+               wünschen kan, als Dauer dieser seeligen Situation, das könnten Sie, wenn Sie es noch nicht so ganz wüßten und 
+               fühlten, aus <rs type="person" ref="#coe">Coelestinens</rs> 
+               <rs type="citation" ref="#c1283-1">gestrigen Billet</rs> lernen und sehen -
+            </p>
+         </div>
+         <div n="3" corresp="#veg">
+            <p>
+               Daß ich Ihnen Glük und Zufriedenheit eben so herzlich wünsche, und Alles was in meinen Kräften steht zur Erreichung 
+               dieses Zweks beytragen würde, das wißen Sie eben so gut; und es gehört mit in die große Harmonie meiner 
+               Glükseeligkeiten, daß Sie es wißen.
+            </p>
+         </div>
+         <closer>
+            <dateline rend="left">den <date when-iso="1785-03-31">31. t. Märtz. 1785.</date></dateline>
+            <signed rend="right">Gentze.</signed>
+         </closer>
+      </body>
+   </text>
+</TEI>

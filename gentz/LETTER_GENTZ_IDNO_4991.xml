@@ -1,0 +1,304 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader type="text">
+      <fileDesc xml:id="LETTER_GENTZ_4991">
+         <titleStmt>
+            <title>Friedrich von Gentz an Christian Garve, 6. Oktober 1789</title>
+            <editor xml:id="edAG">Andreas Gálffy</editor>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <name>Forschungsstelle "Universitätssammlung Friedrich von Gentz"</name>
+               <link target="http://gentz-digital.ub.uni-koeln.de http://www.ub.uni-koeln.de/cdm/singleitem/collection/gentz/id/4990/"/>
+            </publisher>
+            <pubPlace>Cologne</pubPlace>
+            <idno type="Gentz-Edition-Number" n="4991"/>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <settlement>unknown</settlement>
+                  <idno>destroyed</idno><!-- Manuskript wurde durch Kriegseinwirkungen zerstört -->
+               </msIdentifier>
+               <msContents>
+                  <summary>
+                     Ein Aufenthalt in Breslau, wo Gentz eine sehr angenehme Zeit mit Herrn Garve zugebracht hat, geht zu Ende. Er 
+                     bedauert es daher, nur mit einiger Verzögerung antworten zu können. Die Zeit, die Gentz in diesem Beisein 
+                     verlebte, war mehr, als lehrreich: seine Erwartungen sind bei Weitem übertroffen. Er schreibt, dass seine 
+                     Gefahr, sich bei der Größe des Schriftstellers zu irren, nicht bestätigt hat, im Gegenteil: die Zusammenkunft 
+                     bedeutete ihm die erste Quelle eines unbeschreiblichen Wohlgefallens. Daher war für ihn der Abschied eine 
+                     traurige Angelegenheit. Weiter führt Gentz aus, dass er verwaist und fehlerhaft sei und daher unbedingt eines 
+                     Mentors bedarf. Diesen sieht er in Garve, da er von ihm gelehrt werden will. Eine förmliche Bitte nach 
+                     Fortdauer der Korrespondenz wagt Gentz nicht zu stellen; lediglich die Bitte, die gütigen Gesinnungen 
+                     fortzusetzen.
+                  </summary>
+               </msContents>
+            </msDesc>
+            <listBibl type="preprints">
+               <biblStruct>
+                  <monogr>
+                     <editor>
+                        <persName>
+                           <ref target="http://d-nb.info/gnd/130953075"/>
+                           <forename>Friedrich Carl</forename>
+                           <surname>Wittichen</surname>
+                        </persName>
+                        <persName>
+                           <ref/> <!-- kein GND-Eintrag -->
+                           <forename>Ernst</forename>
+                           <surname>Salzer</surname>
+                        </persName>
+                     </editor>
+                     <title>Briefe von und an Friedrich von Gentz, 4 Bde.</title>
+                     <imprint>
+                        <publisher>Oldenbourg</publisher>
+                        <pubPlace>München, Berlin</pubPlace>
+                        <date>1909-1913</date>
+                     </imprint>
+                     <biblScope unit="volume" n="2">
+                        II
+                     </biblScope>
+                     <biblScope unit="page" from="142" to="145">
+                        Nr. 35
+                     </biblScope>
+                  </monogr>
+               </biblStruct>
+               <biblStruct>
+                  <monogr>
+                     <editor>
+                        <persName>
+                           <forename>Carl G.</forename>
+                           <surname>Schönborn</surname>
+                        </persName>
+                     </editor>
+                     <title>Friedrich von Gentz. Briefe an Christian Garve. (1789-1798.)</title>
+                     <imprint>
+                        <pubPlace>Breslau</pubPlace>
+                        <date>1857</date>
+                     </imprint>
+                     <biblScope unit="page" from="1" to="7">
+                        Nr. I
+                     </biblScope>
+                  </monogr>
+               </biblStruct>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Masterarbeit zu Matrikelnummer 5584124</p>
+         </projectDesc>
+      </encodingDesc>
+      <profileDesc>
+         <creation>
+            <date when-iso="1789-10-06">6. Oktober 1789</date>
+         </creation>
+        <langUsage>
+           <language ident="d">deutsch</language>
+        </langUsage>
+         <textClass>
+            <keywords scheme="internal"><!-- internal: innerhalb des besagten Briefs -->
+               <term>Brief</term>
+               <term>Ehrbrief</term>
+               <term>Studien</term>
+               <term>Philosophie</term>
+               <term>Korrespondenz</term>
+            </keywords>
+            <keywords scheme="categorisation"><!-- Sinnabschnittseinteilung - relevant für den Fahrkartenautomaten! -->
+               <term xml:id="vcg">Verhältnis Christian Garve</term>
+               <term xml:id="philw">Philosophie - Lebenswege</term>
+            </keywords>
+         </textClass>
+         <textDesc>
+            <channel>manuscript</channel>
+            <constitution type="single"/>
+            <derivation type="original"/>
+            <domain type="private"/>
+            <factuality type="fact"/>
+            <interaction type="partial"/>
+            <preparedness type="prepared"/>
+            <purpose type="inform"/>
+         </textDesc>
+         <particDesc>
+            <listPerson>
+               <!-- Sender und Adressat -->
+               <person role="sender" xml:id="Gen">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/118538489"/>
+                     <forename>Friedrich von</forename>
+                     <surname>Gentz</surname>
+                  </persName>
+               </person>
+               <person role="receiver" xml:id="Gar">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/118537636"/>
+                     <forename>Christian</forename>
+                     <surname>Garve</surname>
+                  </persName>
+               </person>
+               <!-- erwähnte Personen -->
+               <person role="named" xml:id="Spa">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/117480088"/><!-- ... zu viele Spaldings ... weder Mann noch Zimmermann geben Auskunft. Ist wie bei den Rothschilds anno 1822 ... am wahrscheinlichsten dieser hier. -->
+                     <forename>Georg Ludwig</forename>
+                     <surname>Spalding</surname>
+                  </persName>
+               </person>
+               <person role="named" xml:id="MGar">
+                  <persName>
+                     <ref/>
+                     <forename/>
+                     <surname>Garve</surname>
+                     <roleName type="family">Mutter von Christian Garve</roleName>
+                  </persName>
+               </person>
+            </listPerson>
+         </particDesc>
+         <settingDesc>
+            <listPlace>
+               <!-- Start- und Zielort -->
+               <place type="sender" xml:id="plBe">
+                  <country>
+                     <ref target="http://d-nb.info/gnd/4047194-9"/>
+                     <placeName>Preußen</placeName>
+                  </country>
+                  <settlement>
+                     <ref target="http://d-nb.info/gnd/4005728-8"/>
+                     <placeName>Berlin</placeName>
+                  </settlement>
+               </place>
+               <place type="receiver" xml:id="plBr">
+                  <country>
+                     <ref target="http://d-nb.info/gnd/4047194-9"/>
+                     <placeName>Preußen</placeName>
+                  </country>
+                  <settlement>
+                     <ref target="http://d-nb.info/gnd/4008216-7"/>
+                     <placeName>Breslau</placeName>
+                  </settlement>
+               </place>
+               <!-- erwähnte Orte -->
+            </listPlace>
+         </settingDesc>
+      </profileDesc>
+      <revisionDesc>
+         <change xml:id="init" when-iso="2018-01-28" who="#edAG">Erstauszeichnung und Normierung des Dokumentes im Rahmen der Masterarbeit der Matrikelnummer 5584124</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>     
+      <body>
+         <opener>
+            <dateline><rs type="place" ref="#plBe">Berlin</rs>, den <date when-iso="1789-10-06">6. Oktober 1789</date>.</dateline>
+         </opener>
+         <div n="1" corresp="#vcg">
+            <p>
+               Eine Reihe unvermuteter, dringender, zum Teil verdrießlicher Geschäfte hat mich in den ersten Wochen nach meiner 
+               Zurückkunft so fest gehalten, und zugleich so stumpf gemacht, daß ich es für strafbar gehalten hätte, an Sie, 
+               unschätzbarer, vortrefflicher Mann, den mein Geist mit so tiefer Ehrfurcht seinen Lehrer nennt, und den mein Herz 
+               so gern seinen Freund möchte nennen dürfen, auch nur wenige Zeilen zu schreiben. Jetzt habe ich seit 14 Tagen 
+               erträgliche Muße, und hätte mich nicht ein Antrag der <rs type="person" ref="#Spa">Herren Spaldings</rs>, die 
+               mir einige Briefe zur Einlage an Sie geben wollten, hernach aber ihr Vorhaben geändert haben, aufgehalten, so hätte 
+               ich längst einen Teil dessen, wovon meine ganze Seele voll ist, gegen Sie laut werden lassen.
+            </p>
+            <p>
+               Mein Aufenthalt in <rs type="person" ref="#Spa">Breslau</rs> hat, so kurz er auch war, doch einen sehr lebhaften, 
+               und, wie ich jetzt bemerke, auch sehr dauernden Eindruck auf mich gemacht. Noch, dünkt mich, wandle ich in diesen 
+               Straßen, die ein alter dunkler, und ein neuer sehr erklärbarer Reiz mir doppelt wert machten, umher, noch sehe ich 
+               den Ausdruck der Freundschaft und des <pb/> Wohlwollens auf den Gesichtern so mancher liebenswürdigen Personen, 
+               deren Bekanntschaft ich dort gemacht, oder erneuert habe: noch höre ich Ihre unvergeßliche Stimme, und die Tränen, 
+               die ich erstickte, als ich nach jener letzten wohltätigen Unterredung mit Ihnen, den Garten verließ, dringen jetzt 
+               mit gedoppelter Kraft hervor, und lassen mich recht ernsthaft fühlen, was ich verloren habe.
+            </p>
+            <p>
+               O ! daß ich es nur sagen dürfte, in welchem Grade mir die Stunden, die ich in Ihrem Umgange zubrachte, kostbar 
+               waren ! Daß ich es doch nur einmal ausdrücken könnte, welch eine herrliche Empfindung von Beruhigung und innrer 
+               Selbstzufriedenheit, der Gedanke, von Ihnen gekannt, und nicht ganz von Ihnen gemißbilligt zu sein, in mir erregte ! 
+               Daß ich es Ihnen nur lebhaft genung beschreiben dürfte, was mir Ihre Gesellschaft war - ach ! und was sie mir sein 
+               würde, wenn ich sie beständig genießen könnte !
+            </p>
+            <p>
+               Zum Glück für mich sind Sie von der Wahrheit meiner Empfindungen und von der Übereinstimmung derselben mit meinen 
+               Reden - wenn es ein Verdienst wäre, das einzige, was ich zu besitzen glaube - überzeugt: und dies ist in einem Fall, 
+               wo die höchste Achtung sogar das Protestieren gegen den Verdacht der Übertreibung oder Schmeichelei als unschicklich 
+               ausschließt, ein nicht geringer Gewinn. Lassen Sie mich also ein für allemal, zur Erleichterung meines Herzens, 
+               Ihnen sagen, was mich eigentlich so glücklich machte, da es mir vergönnt war, mit Ihnen umzugehen, und was ich 
+               entbehre, da ich Sie entbehren muß.
+            </p>
+            <p>
+               Ich kannte Sie längst auf die ehrenvolle Art, wie jeder Deutsche, der denken und lesen kann, Sie kennt. Auch sogar 
+               den moralischen Charakter des Schriftstellers, den tausend Bücher gar nicht verraten, und den wir aus den wenigen, 
+               welche ihn hervorschimmern lassen, nur so unsicher und mit so großer Gefahr zu irren, bestimmen können, auch sogar 
+               den moralischen Charakter des Schriftstellers entwarf und vollendete ich mir aus Ihren Schriften, und war dreist 
+               genung zu glauben, daß ich mich schlechterdings nicht irren könnte. Daß ich, als ich mit Ihnen zusammenkam, fand, 
+               was ich nach dieser Abstraktion vermutet hatte, das war die erste Quelle eines unbeschreiblichen Wohlgefallens für 
+               mich. Daß hernach dieser Mann, den ich von der Seite des Verstandes so bewunderte, von der Seite des Charakters so 
+               verehrte, sich mir näherte, daß ich es wagen durfte, mir zu sagen: du bist ihm nicht ganz gleichgültig, das war es, 
+               was so ganz mein Herz zu Ihnen zog, <pb/> und was mich in den beiden letzten Tagen meines Aufenthalts in 
+               <rs type="place" ref="#plBr">Breslau</rs>, nachdem ich von Ihnen Abschied genommen hatte, fast bei keinem andern 
+               Gedanken mehr verweilen ließ, als bei dem traurigen: du hast ihn gesehen, und siehst ihn nicht mehr.
+            </p>
+         </div>
+         <div n="2" corresp="#philw">
+            <p>
+               Ich bin einsamer und verwaiseter, als Sie glauben mögen. Für mich ist es ein wahres Bedürfnis, ein Bedürfnis der 
+               Schwachheit, mit <emph rend="underlined">vortrefflichen</emph> Menschen umzugehen. Ich bin jung, und habe viele 
+               Fehler. Wenn ich immer mit mir selbst zufrieden sein und immer so handeln sollte, wie man zu diesem Zweck handeln 
+               muß, so müßte ich einen Mann, wie Sie, oft vor mir haben, und oft hören können. Die gewöhnlichen Menschen um mich 
+               her, sind mir von der Seite der Theorie nicht immer gewachsen genung: die Gründe, die man mir in bedenklichen oder 
+               wichtigen Fällen vorlegen möchte, um gut zu handeln, sind für meinen raisonnierenden Geist und für meinen 
+               sophistischen Kopf größtenteils zu schwach, und schlechte Gründe können bei mir der guten Sache oft so sehr 
+               schaden, daß ich sogar die Lust verliere, auf die echten Gründe, die ich in meinen Prinzipien finde, zu hören, 
+               und daher aus einem eigensinnigen und tadelhaften Stolz, nicht aus Torheit oder Irrtum gut zu sein, fehle. Ein 
+               Muster vor Augen zu haben, welches mich oft und lebhaft daran erinnerte: daß die ehrwürdigen und herrlichen 
+               Grundsätze der Moral nicht bloß kalt bewundert, sondern auch ausgeführt werden können, daß man mit dem größten und 
+               hellsten Kopfe der Tugend und der Pflicht ebenso strenge und gewissenhaft anhängen kann, als man ihr zuweilen aus 
+               frommer Eingeschränktheit, und abergläubischer Schwärmerei anhängt: und daß die beste Philosophie am Ende auch, 
+               wenn sie praktisch wird, die reinsten und schönsten Früchte hervorbringt: das wäre ein unschätzbarer Vorteil für 
+               mich, und darum behaupte ich, daß ich für meine Besserung ebensoviel gewinnen würde, als für meine Erleuchtung und 
+               Belehrung, wenn ich bei Ihnen beständig sein könnte.
+            </p>
+         </div>
+         <div n="3" corresp="#vcg">
+            <p>
+               Jetzt muß ich mich begnügen, aus der Erinnerung den Trost zu schöpfen, den ich nicht um mich und neben mir haben 
+               soll, und einzelne Strahlen dieser wohltätigen belebenden Klarheit aufzufangen, an der ich eine Zeitlang meine 
+               Begriffe läutern, und meine Handlungen prüfen konnte. Gönnen Sie mir, unvergeßlicher Mann, eine Stelle in Ihrem 
+               Herzen, und in Ihrer Freundschaft. Lassen Sie mich von Ihnen lernen, da ich nicht mit Ihnen leben darf. Erlauben Sie 
+               mir, daß ich Ihnen zuweilen die Resultate meiner wissenschaftlichen Beschäftigungen, meines <pb/> Lesens und meines 
+               Denkens vorlege, daß ich Sie um Rat bitte, wenn ich einen neuen Weg betreten will, und Ihre Leitung auffordre, wenn 
+               ich auf der gebahnten wandle.
+            </p>
+            <p>   
+               Wäre nicht dieser Brief schon so lang, daß ich in Unbescheidenheit verfiele, wenn ich ihn ausdehnte, so würde ich 
+               die Freiheit, die ich mir erbat, sogleich gebrauchen, um über einige Gegenstände, die schon in den Unterredungen, 
+               deren Sie mich würdigten, vorkamen, meine Gedanken Ihnen vorzulegen. Aber ich verschiebe es.
+            </p>
+            <p>
+               Ich verlange nicht, was man eine förmliche Korrespondenz nennt, mit Ihnen zu errichten: ich 
+               <emph rend="underlined">darf</emph> es nicht verlangen. Nur die einzige, herzliche Bitte habe ich, daß Sie mir in 
+               wenigen Zeilen, nach denen ich mich äußerst sehne, Ihr Andenken und die Fortdauer der gütigen Gesinnung versprechen, 
+               die mir mehr als alles andre meinen breslauischen Aufenthalt so sehr versüßt hat. Diese Bitte werden Sie mir 
+               gewähren, ich fühle es: und gibt es sonst etwas, was ich Ihnen in Berlin ausrichten kann, irgendeinen Auftrag, zu 
+               dem meine Kräfte hinreichen, so hoffe ich, Sie werden mich lieb genung haben, um mir keine Gelegenheit zu beneiden, 
+               bei der ich Ihnen meine Dankbarkeit, meine innigste Hochachtung, meine reinste Freundschaft an den Tag legen kann.            
+            </p>
+            <p>
+               Empfehlen Sie mich doch <rs type="person" ref="#MGar">Ihrer würdigen Frau Mutter</rs> aufs angelegentlichste, und 
+               versichern Sie diese treffliche Frau, die freilich an die Achtung so vieler schätzbaren Menschen längst gewöhnt ist, 
+               die aber auch meinen kleinen Tribut nicht verschmähen wird, von meiner unbegrenzten Verehrung und Ergebenheit.
+            </p>
+            <p>
+               Meine Eltern empfehlen sich ihr, und Ihnen. Sie sind zufrieden mit ihrem Sohne, und zufriedner als jemals, weil sie 
+               sich schmeicheln, daß er Ihren Beifall zu verdienen suchen, und vielleicht bei fortgesetzten Bemühungen verdienen 
+               wird. O wäre doch diese ihre Hoffnung, die zugleich die größte aller meinigen ist, gegründet ! Wenn das Herz Ihre 
+               Freundschaft verdienen kann, so können Sie sie dem nicht versagen, der mit einer ganzen Seele voll Hochachtung und 
+               zugleich voll warmer Zärtlichkeit unaufhörlich sein und bleiben will
+            </p>
+         </div>
+         <closer>
+            <salute rend="right">Ihr ganz ergebenster und aufrichtigster Verehrer, Freund und Diener</salute>
+            <signed rend="right">Gentz.</signed>
+         </closer>
+      </body>
+   </text>
+</TEI>

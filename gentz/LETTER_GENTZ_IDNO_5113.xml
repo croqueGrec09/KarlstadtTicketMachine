@@ -1,0 +1,612 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc xml:id="LETTER_GENTZ_5113">
+         <titleStmt>
+            <title>Friedrich von Gentz an François d'Ivernois, 18. Oktober 1799</title>
+            <editor xml:id="edAG">Andreas Gálffy</editor>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <name>Forschungsstelle "Universitätssammlung Friedrich von Gentz"</name>
+               <link target="http://gentz-digital.ub.uni-koeln.de http://www.ub.uni-koeln.de/cdm/singleitem/collection/gentz/id/5112/"/>
+            </publisher>
+            <pubPlace>Cologne</pubPlace>
+            <idno type="Gentz-Edition-Number" n="5113"/>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <country>Switzerland</country>
+                  <settlement>Genf</settlement>
+                  <institution>Bibliothèque publique et universitaire</institution>
+                  <repository>Département des manuscrits</repository>
+                  <collection>Ms. suppl. 976</collection>
+                  <idno>Bl. 167-170</idno>
+               </msIdentifier>
+               <msContents>
+                  <summary>
+                     Es folgt die Fortsetzung des Artikels über die nationalen Schulden, in welcher Gentz weiter von d'Ivernois' 
+                     Ansicht abweicht. So betrachtet er manche Umstände als notwendig, die d'Ivernois als zufällig sieht. Dennoch 
+                     hat Gentz viel von d'Ivernois genutzt. Der Aufsatz über die Banken geht in die nächste Ausgabe des Historischen 
+                     Journals und nicht in die Oktoberausgabe. M. Ancillon besorgt die Übersetzung ins Französische. Über drei 
+                     Punkte möchte sich Gentz näher mit d'Ivernmois beraten: erstens über die Verteilung der Gebietseinkünfte, die 
+                     d'Ivernois anders aufteilt, als Gentz. Zweitens bilden 65 Millionen aus Hauseinkünften, öffentlichen Schuldnern 
+                     und unproduktive Arbeitern Ausgaben. Drittens kann er eine Summe nicht nachvollziehen, die Mr. Pitt Gentz von 
+                     den Schulden übermittelt hat. Gentz rechnet acht Millionen weniger. Daher bittet er d'Ivernois um Berichtigung. 
+                     Mr. du Roveray kommt nach Berlin und verbringt dort den Winter. Gespräche haben Gentz nicht befriedigt, er 
+                     scheint nicht so bewandert zu ein, wie er es in manchen Schriften zu erkennen gibt, und weiter sind sie nicht 
+                     einer Meinung, weil Roveray mit den Autoren die französische Revolution rechtfertigt. Gentz denkt aber, dass 
+                     sein urteil womöglich verichtigt werden wird. Mit dem Brief gehen zwei Exeplare des Historischen Journals mit, 
+                     eines für Mallet du Pan, dessen Antwort Gentz ungeduldig erwartet. Seit zwei Monaten bleibt sie aus. Im 
+                     Postscript bittet Gentz d'Ivernois um Erlaubnis, ihm das Essay zu widmen.
+                  </summary>
+               </msContents>
+            </msDesc>
+            <listBibl type="preprints">
+               <biblStruct>
+                  <analytic>
+                     <editor>
+                        <persName>
+                           <ref target="http://d-nb.info/gnd/116055812"/>
+                           <forename>Karmin</forename>
+                           <surname>Otto</surname>
+                        </persName>
+                     </editor>
+                     <title>Lettres inédites de Frédéric Gentz à Sir Francis d'Ivernois (1798-1803)</title>
+                  </analytic>
+                  <monogr>
+                     <editor>
+                        <persName>
+                           <ref target="http://d-nb.info/gnd/117369020"/>
+                           <forename>Charles</forename>
+                           <surname>Vellay</surname>
+                        </persName>
+                     </editor>
+                     <title>Revue historique de la Révolution française et de l'Empire</title>
+                     <imprint>
+                        <publisher>Revue historique de la Révolution Française</publisher>
+                        <pubPlace>Paris</pubPlace>
+                        <date>1913</date>
+                     </imprint>
+                     <biblScope unit="volume" n="4">
+                        Tome quatrième
+                     </biblScope>
+                     <biblScope unit="page" from="25" to="31">
+                        Nr. V
+                     </biblScope>
+                  </monogr>
+               </biblStruct>
+            </listBibl>
+            <listBibl type="alludedWorks">
+               <bibl xml:id="a5113-1" corresp="#LETTER_GENTZ_NNNN">Zeitschrift "Parliamentary chronicle", ohne Leseprobe</bibl>
+            </listBibl>
+            <listBibl type="defRep">
+               <biblStruct xml:id="p5113-1" corresp="GBk-0052">
+                  <analytic>
+                     <author>
+                        <persName>
+                           <ref target="http://d-nb.info/gnd/118538489"/>
+                           <forename>Friedrich von</forename>
+                           <surname>Gentz</surname>
+                        </persName>
+                     </author>
+                     <title>Ueber den jetzigen Zustand der Finanz-Administration und des Nazional-Reichthums von Großbrittannien. (Beschluß.)</title>
+                  </analytic>
+                  <monogr>
+                     <editor>
+                        <persName>
+                           <ref target="http://d-nb.info/gnd/118538489"/>
+                           <forename>Friedrich von</forename>
+                           <surname>Gentz</surname>
+                        </persName>
+                     </editor>
+                     <title>Historisches Journal</title>
+                     <imprint>
+                        <publisher>Friedrich Vieweg dem ältern</publisher>
+                        <pubPlace>Berlin</pubPlace>
+                        <date>1799</date>
+                     </imprint>
+                     <biblScope unit="page" from="143" to="246">
+                        S. 143-246
+                     </biblScope>
+                  </monogr>
+                  <ptr target="https://books.google.de/books?id=ohR5B41qdy4C"/>
+               </biblStruct>
+               <biblStruct xml:id="p5113-2" corresp="GBk-0051">
+                  <analytic>
+                     <author>
+                        <persName>
+                           <ref target="http://d-nb.info/gnd/118538489"/>
+                           <forename>Friedrich von</forename>
+                           <surname>Gentz</surname>
+                        </persName>
+                     </author>
+                     <title>Ueber den jetzigen Zustand der Finanz-Administration und des Nazional-Reichthums von Großbrittannien</title>
+                  </analytic>
+                  <monogr>
+                     <editor>
+                        <persName>
+                           <ref target="http://d-nb.info/gnd/118538489"/>
+                           <forename>Friedrich von</forename>
+                           <surname>Gentz</surname>
+                        </persName>
+                     </editor>
+                     <title>Historisches Journal</title>
+                     <imprint>
+                        <publisher>Friedrich Vieweg dem ältern</publisher>
+                        <pubPlace>Berlin</pubPlace>
+                        <date>1799</date>
+                     </imprint>
+                     <biblScope unit="page" from="1" to="107">
+                        S. 1-107
+                     </biblScope>
+                  </monogr>
+                  <ptr target="https://books.google.de/books?id=ohR5B41qdy4C"/>
+               </biblStruct>
+               <biblStruct xml:id="p5113-3" corresp="GBk-0057">
+                  <analytic>
+                     <author>
+                        <persName>
+                           <ref target="http://d-nb.info/gnd/118538489"/>
+                           <forename>Friedrich von</forename>
+                           <surname>Gentz</surname>
+                        </persName>
+                     </author>
+                     <title>Ueber den Zustand der Englischen Bank und das Verhältniß derselben zur Regierung.</title>
+                  </analytic>
+                  <monogr>
+                     <editor>
+                        <persName>
+                           <ref target="http://d-nb.info/gnd/118538489"/>
+                           <forename>Friedrich von</forename>
+                           <surname>Gentz</surname>
+                        </persName>
+                     </editor>
+                     <title>Historisches Journal</title>
+                     <imprint>
+                        <publisher>Friedrich Vieweg dem ältern</publisher>
+                        <pubPlace>Berlin</pubPlace>
+                        <date>1799</date>
+                     </imprint>
+                     <biblScope unit="page" from="313" to="381">
+                        S. 313-381
+                     </biblScope>
+                  </monogr>
+                  <ptr target="https://books.google.de/books?id=ohR5B41qdy4C"/>
+               </biblStruct>
+               <biblStruct xml:id="p5113-4" corresp="GBk-0055">
+                  <monogr>
+                     <author>
+                        <persName>
+                           <ref target="http://d-nb.info/gnd/100297676"/>
+                           <forename>Francis d'</forename>
+                           <surname>Ivernois</surname>
+                        </persName>
+                     </author>
+                     <title>Tableau historique et politique des pertes que la Révolution et la guerre ont causées au peuple français dans sa population, son agriculture, ses colonies, ses manufactures et son commerce.</title>
+                     <imprint>
+                        <pubPlace>London</pubPlace>
+                        <publisher>P. Elmsley et al.</publisher>
+                        <date>1799</date>
+                     </imprint>
+                  </monogr>
+                  <ptr target="https://books.google.de/books?id=16HGopL9P8cC"/>
+               </biblStruct>
+               <biblStruct xml:id="p5113-5" corresp="#LETTER_GENTZ_NNNN">
+                  <monogr>
+                     <editor>
+                        <persName>
+                           <ref target="http://d-nb.info/gnd/136405959"/>
+                           <forename>James</forename>
+                           <surname>Perry</surname>
+                        </persName>
+                     </editor>
+                     <title>The Morning Chronicle</title>
+                     <imprint>
+                        <pubPlace>London</pubPlace>
+                        <date>1769-1851</date>
+                     </imprint>
+                  </monogr>
+                  <ptr target="#LETTER_GENTZ_NNNN"/>
+               </biblStruct>
+               <biblStruct xml:id="p5113-6" corresp="GBk-0050">
+                  <monogr>
+                     <editor>
+                        <persName>
+                           <ref target="http://d-nb.info/gnd/118538489"/>
+                           <forename>Friedrich von</forename>
+                           <surname>Gentz</surname>
+                        </persName>
+                     </editor>
+                     <title>Historisches Journal</title>
+                     <imprint>
+                        <publisher>Friedrich Vieweg dem ältern</publisher>
+                        <pubPlace>Berlin</pubPlace>
+                        <date>1799</date>
+                     </imprint>
+                  </monogr>
+                  <ptr target="https://books.google.de/books?id=ohR5B41qdy4C"/>
+               </biblStruct>
+            </listBibl>
+            <listBibl type="edRef">
+               <biblStruct xml:id="f5113-1" corresp="GBk-0058">
+                  <monogr>
+                     <author>
+                        <persName>
+                           <ref target="http://d-nb.info/gnd/102234736"/>
+                           <forename>Eugène</forename>
+                           <surname>Daire</surname>
+                        </persName>
+                     </author>
+                     <title>Physiocrates : Quesnay, Dupont de Nemours, Mercier de la Rivière, l'Abbé Baudeau, Le Trosne</title>
+                     <imprint>
+                        <publisher>Librairie de Guillaumin</publisher>
+                        <pubPlace>Paris</pubPlace>
+                        <date>1846</date>
+                     </imprint>
+                  </monogr>
+                  <ptr target="https://books.google.de/books?id=rRUdp6N3eMcC"/>
+               </biblStruct>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Masterarbeit zu Matrikelnummer 5584124</p>
+         </projectDesc>
+      </encodingDesc>
+      <profileDesc>
+         <creation>
+            <date when-iso="1799-10-18">18. Oktober 1799</date>
+         </creation>
+        <langUsage>
+           <language ident="f">französisch</language>
+        </langUsage>
+         <textClass>
+            <keywords scheme="internal"><!-- internal: innerhalb des besagten Briefs -->
+               <term>Brief</term>
+               <term>d'Ivernois</term>
+               <term>Revolution</term>
+               <term>Finanzen</term>
+               <term>Napoleon</term>
+               <term>Untätigkeit</term>
+               <term>Übersetzungen</term>
+            </keywords>
+            <keywords scheme="categorisation"><!-- Sinnabschnittseinteilung - relevant für den Fahrkartenautomaten! -->
+               <term xml:id="efgb">Essay über die Finanzen Großbritanniens</term>
+               <term xml:id="jrnh">Historisches Journal</term>
+               <term xml:id="frf">französische Finanzen</term>
+               <term xml:id="ehdl">englischer Handel</term>
+               <term xml:id="bezl">Beziehungen zu London</term>
+               <term xml:id="vjmdp">Verhältnis Jacques Mallet du Pan</term>
+            </keywords>
+         </textClass>
+         <textDesc>
+            <channel>manuscript</channel>
+            <constitution type="single"/>
+            <derivation type="original"/>
+            <domain type="private"/>
+            <factuality type="fact"/>
+            <interaction type="partial"/>
+            <preparedness type="prepared"/>
+            <purpose type="inform"/>
+         </textDesc>
+         <particDesc>
+            <listPerson>
+               <!-- Sender und Adressat -->
+               <person role="sender" xml:id="Gen">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/118538489"/>
+                     <forename>Friedrich von</forename>
+                     <surname>Gentz</surname>
+                  </persName>
+               </person>
+               <person role="receiver" xml:id="FdI">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/100297676"/>
+                     <forename>Francis d'</forename>
+                     <surname>Ivernois</surname>
+                  </persName>
+               </person>
+               <!-- erwähnte Personen -->
+               <person role="named" xml:id="AdS">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/118615033"/>
+                     <forename>Adam</forename>
+                     <surname>Smith</surname>
+                  </persName>
+               </person>
+               <person role="named" xml:id="Anc">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/118645110"/>
+                     <forename>Johann Peter Friedrich</forename>
+                     <surname>Ancillon</surname>
+                  </persName>
+               </person>
+               <person role="named" xml:id="Pitt">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/118792393"/>
+                     <forename>William</forename>
+                     <surname>Pitt</surname>
+                  </persName>
+               </person>
+               <person role="named" xml:id="CGdLR">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/117595268"/>
+                     <forename>Charles Gaspard de</forename>
+                     <surname>La Rive</surname>
+                  </persName>
+               </person>
+               <person role="named" xml:id="JADR">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/140547517"/>
+                     <forename>Jacques-Antoine</forename>
+                     <surname>Du Roveray</surname>
+                  </persName>
+               </person>
+               <person role="named" xml:id="MdP">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/119483947"/>
+                     <forename>Jacques</forename>
+                     <surname>Mallet du Pan</surname>
+                  </persName>
+               </person>
+               <person role="named" xml:id="Fch">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/1037541707"/>
+                     <forename>Pierre François</forename>
+                     <surname>Fauche</surname>
+                  </persName>
+               </person>
+            </listPerson>
+         </particDesc>
+         <settingDesc>
+            <listPlace>
+               <!-- Start- und Zielort -->
+               <place type="sender" xml:id="plBe">
+                  <country>
+                     <ref target="http://d-nb.info/gnd/4047194-9"/>
+                     <placeName>Preußen</placeName>
+                  </country>
+                  <settlement>
+                     <ref target="http://d-nb.info/gnd/4005728-8"/>
+                     <placeName>Berlin</placeName>
+                  </settlement>
+               </place>
+               <place type="receiver" xml:id="plLo">
+                  <country>
+                     <ref target="http://d-nb.info/gnd/4022153-2"/>
+                     <placeName>Vereinigtes Königreich</placeName>                
+                  </country>
+                  <settlement>
+                     <ref target="http://d-nb.info/gnd/4074335-4"/>
+                     <placeName>London</placeName>
+                  </settlement>
+               </place>
+               <!-- erwähnte Orte -->
+               <place type="named" xml:id="plHa">
+                  <country>
+                     <ref target="http://d-nb.info/gnd/4023118-5"/>
+                     <placeName>Hamburg</placeName>
+                  </country>
+                  <settlement>
+                     <ref target="http://d-nb.info/gnd/4023118-5"/>
+                     <placeName>Hamburg</placeName>
+                  </settlement>
+               </place>
+               <place type="named" xml:id="plEn">
+                  <country>
+                     <ref target="http://d-nb.info/gnd/4022153-2"/>
+                     <placeName>England</placeName>
+                  </country>
+               </place>
+               <place type="named" xml:id="plSc">
+                  <country>
+                     <ref target="http://d-nb.info/gnd/4022153-2"/>
+                     <placeName>Vereinigtes Königreich</placeName>
+                  </country>
+                  <region>
+                     <ref target="http://d-nb.info/gnd/4053233-1"/>
+                     <placeName>Schottland</placeName>
+                  </region>
+               </place>
+               <place type="named" xml:id="plGf">
+                  <country>
+                     <ref target="http://d-nb.info/gnd/4018145-5"/>
+                     <placeName>Frankreich</placeName>  
+                  </country>
+                  <settlement>
+                     <ref target="http://d-nb.info/gnd/4020137-5"/>
+                     <placeName>Genf</placeName>
+                  </settlement>
+               </place>
+            </listPlace>
+         </settingDesc>
+      </profileDesc>
+      <revisionDesc>
+         <change xml:id="init" when-iso="2018-03-04" who="#edAG">Erstauszeichnung und Normierung des Dokumentes im Rahmen der Masterarbeit der Matrikelnummer 5584124</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <opener>
+            <salute rend="left">Monsieur !</salute>
+         </opener>
+         <div n="1" corresp="#efgb">
+            <p>
+               Voici la continuation de <rs type="citation" ref="#p5113-1">l'écrit</rs>, dont j'ai eu l'honneur de vous envoyer les 
+               <rs type="citation" ref="#p5113-2">prémières feuilles</rs>. J'attends avec impatience quel jugement vous en porterez.
+            </p>
+            <p>
+               C'est surtout dans le cahier ci-joint que je me suis éloigné dans certains points de vos idées sur les dettes 
+               nationales. Tout bien considéré, je crois <del rend="stroked">xxx</del> que ce n'est pas le principe général, mais un 
+               point de vue particulier quoique bien essentiel, qui nous divise. Je crois que nous aurions été d'accord sur tous les 
+               points, si vous n'eussiez pas regardé comme une circonstance <emph rend="underlined">accidentelle</emph>, ce que je 
+               regarde comme <emph rend="underlined">essentiel</emph> et <emph rend="underlined">necessaire</emph> dans toutes les 
+               dettes publiques, savoir l'emploi du capital emprunté, qui se consume entiérement en travaux 
+               <emph rend="underlined">improductifs</emph>. Vous verrez bientôt que je suis loin de me servir de cette expression 
+               dans le sens des <rs type="citation" ref="#f5113-1">Physiocrates</rs>; je l'adopte exclusivement dans le sens de 
+               <rs type="person" ref="#AdS"><emph rend="underlined">Adam Smith</emph></rs>, qui à mes yeux, peut-être aussi aux 
+               votres, est, malgré quelques erreurs particuliéres le premier genie en economie politique de tous les siécles.
+            </p>
+            <p>
+               Cette différence mise de coté, je n'ai pas besoin de vous dire, Monsieur, combien j'ai de nouveau profité de votre 
+               précieux <del rend="stroked">xxx</del> <emph rend="underlined">Imprimé-Manuscrit</emph>, en composant cette seconde 
+               partie de mon ouvrage. Vous vous retrouverez à chaque page, et quelquefois j'ai été sur le point de vous citer; et je 
+               l'aurois fait cent fois si l'indiscretion n'avoit <pb/> pas été trop grande, vu la confiance particuliére à laquelle 
+               je dois la communication de votre écrit.
+            </p>
+         </div>
+         <div n="2" corresp="#jrnh">
+            <p>
+               J'ai été obligé de renvoyer au cahier suivant de mon Journal 
+               <rs type="citation" ref="#p5113-3">le morceau sur les banques</rs> que je m'étois proposé de donner dans celui 
+               d'Octobre. - Un des hommes les plus distingués de <rs type="place" ref="#plBe">Berlin</rs>, 
+               <rs type="person" ref="#Anc">Monsieur Ancillon</rs>, Professeur à l'academie militaire et le premier prédicateur 
+               François, s'est chargé d'une traduction Francoise de mon travail, qui sera imprimée avec toute la célérité possible, 
+               et qu'un des libraires de <rs type="place" ref="#plHa">Hamburg</rs> tâchera d'introduire en 
+               <rs type="place" ref="#plEn">Angleterre</rs>. Je la recommanderai particulièrement 
+               <span xml:lang="en"><emph rend="underlined">to your patronage</emph></span>.
+            </p>
+         </div>
+         <div n="3" corresp="#frf">
+            <p>
+               Il y a trois points essentiels, sur lesquels je serois infiniment heureux de pouvoir m'entretenir avec vous, pour 
+               donner à cette traduction quelque dégré de perfection de plus que l'original <del rend="stroked">xxx</del> n'en 
+               posséde. Je vais ls soumettre à votre bienveillance.
+            </p>
+            <p>
+               1, Dans une des notes de <rs type="citation" ref="#p5113-4">votre dernier ouvrage</rs> sur la 
+               <rs type="place" ref="#plFr">France</rs> vous avez dit quelque part, 
+               <cit corresp="#p5113-4">
+                  <quote>
+                     que dans l'estimation des revenus d'<emph rend="underlined">une nation</emph>, on n'oseroit mettre en ligne 
+                     de compte les revenus des <emph rend="underlined">ouvriers</emph> proprement dits.
+                  </quote>
+               </cit>
+               - J'ai cru au contraire, que <add place="above">dans</add> tout ce qu'on peut appeler 
+               <emph rend="underlined">travaux productifs</emph>, le salaire de l'ouvrier compose une partie très-distincte des 
+               revenus nationaux. Vous <del rend="stroked">avez de</del> remarquez vous même, que pour le 
+               <emph rend="underlined">revenu territorial</emph>, on le partageoit ordinairement en quatre parties, dont l'une pour 
+               les <pb/> propriétaires, la seconde pour les fermiers, et les deux autres pour la 
+               <emph rend="underlined">main d'oeuvre</emph>, et les avances necessaires pour la culture ultérieure. Vous admettez 
+               donc nécessairement que le revenu du laboureur est une partie essentiellement separée de toutes les autres. Je crois 
+               qu'il en est de même pour tous les travaux productifs. Après avoir longtems médité sur cet objet, je ne crains pas 
+               qu'aucun argument sauroit ébranler mon systême; et je le crains d'autant moins que le peu de mots que vous avez dit 
+               en passant dans une note ne suffit <del rend="stroked">xxx</del> pas pour connoitre le vôtre. Cependant je désirerois 
+               bien que vous eussiez la bonté de me dire votre avis sur ce point
+            </p>
+         </div>
+         <div n="4" corresp="#ehdl">
+            <p>
+               2, Après avoir une fois séparé - et avec beaucoup de raison, si je ne me trompe entiérement - les revenus des travaux 
+               productifs, de ceux des travaux improductifs, j'aurois dû, fidele à mon système, et sans me laisser séduire par 
+               l'autorité imposante des Financiers Anglois rejeter absolument du tableau des revenus, tous les revenus de la 
+               dérniére classe. Je vous avoue que je m'en fais des reproches, et que je suis resolu - à moins que des argumens 
+               <del rend="stroked">xxx</del> invincibles de votre part ne m'en detournassent - de changer dans la traduction 
+               Francoise le tableau général que j'ai donné au <rs type="citation" ref="#p5113-2">mois de Septembre</rs> 
+               <add place="above">(page 87)</add>. Il est vrai que l'état des revenus en seroit diminué de toute la somme de 
+               65,000,000, que composent les revenus des maisons, des créanciers publics, et des ouvriers improductifs; mais je suis 
+               trop fortement persuadé, que tous ces revenus, partie intégrante du produit de tous les travaux productifs, doivent - 
+               sous un point de vue général et national - etre <pb/> classés parmi les dépenses et non parmi les revenues 
+               <emph rend="underlined">nationaux</emph>. D'ailleurs le rapport entre <del rend="stroked">les</del> ces derniers et 
+               les impôts, ce rapport qui est le point essentiel dans toutes les recherches de ce genre, ne sera pas absolument 
+               dérangé par la perte de ces 65 millions; je suis persuadé que dans toutes les suppositions la somme de 200 millions 
+               sera toujours celle à laquelle on pourra fixer les revenus de la <rs type="place" ref="#plEn">Grande Bretagne</rs>. 
+               De l'autre côté j'ai evidemment exagéré, et même trop pour une simple hypothese les depenses 
+               <emph rend="underlined">permanentes</emph>, qui en aucun cas <del rend="stroked">xxx</del> n'excedéront après la 
+               guerre les 25 à 26 millions dont l'opposition elle-même s'est contentée. Ainsi le rapport de 1 à 7, soit 1 à 6, que 
+               j'ai cru établir restera malgré le retranchement de ce que je crois indispensable de retrancher. - Vous m'obligeriez 
+               infiniment, si le tems et d'autres occupations vous permettoient de me faire parvenir quelques unes de vos idées sur 
+               cet objet; si vous vous hâtiez peut-être <add place="above">en</add> pourrois-je encore faire usage pour la 
+               traduction françoise.
+            </p>
+            <p>
+               3. Le dernier article est peu important en lui-même; mais je serois pourtant bien aise d'avoir quelques 
+               éclaircissemens, que peut-être vous pourrez me procurer sans difficulté. Vous verrez, qu'à la page 237 du Cahier 
+               d'octobre je trouve par rapport au montant actuel de la dette permanente une différence d'á peu près 8 millions entre 
+               le calcul de <rs type="person" ref="#Pitt">Monsieur <emph rend="underlined">Pitt</emph></rs> et le mien; c'est à 
+               dire, <del rend="stroked">que</del> qu'ayant calculé sur les bases et données qu'il m'a suggerées lui-meme, je 
+               n'arrive jamais à la somme de 386,902,000 <pb/> et ne trouve que 379,027,269. Si vous vouliez vous donner la peine de 
+               suivre mon calcul; je suis persuadé, que vous arriverez au même resultat. Cependant dans un objet de cette importance 
+               on ne suppose guéres <del rend="stroked">de</del> une erreur de calcul considérable <del rend="stroked">et</del> 
+               ainsi il faut nécessairement que l'un ou l'autre de mes élémens ait été erroné; je les ai pris de deux sources 1, du 
+               <rs type="citation" ref="#p5113-5"><emph rend="underlined">Morning Chronicle</emph></rs> du 2 Juillet, 2, du 
+               <rs type="citation" ref="#a5113-1"><emph rend="underlined">Parliamentary chronicle</emph></rs>, qui tous les deux 
+               s'accordent, en rapportant le discours de <rs type="person" ref="#Pitt">Monsieur Pitt</rs>, sur toutes les données. 
+               Pardonnez, Monsieur, l'indiscretion de vous charger encore du travail de rectifier ce calcul. Vous êtes si près de la 
+               prémiere source, que votre bonté ne me le refusera pas.
+            </p>
+         </div>
+         <div n="5" corresp="#bezl">
+            <p>
+               Je vous ai bien de l'obligation d'avoir voulu m'adresser <rs type="person" ref="#CGdLR">Monsieur de la Rive</rs>, 
+               dont la conversation m'a beaucoup interessée, et a qui je dois plusieurs renseignemens précieux sur l'etat des 
+               sciences et de la littérature en <rs type="place" ref="#plEn">Angleterre</rs> et en 
+               <rs type="place" ref="#plSc">Ecosse</rs>. A la meme époque est arrivé chez nous un autre de vos compatriotes, qui 
+               m'a fait l'honneur de <add place="above">venir</add> me voir quelquefois pendant son sejour. C'est 
+               <rs type="person" ref="#JADR">Monsieur Du Roveray</rs>, un homme que j'étois très-curieux de connoitre 
+               personnellement, surtout après la brochure vraiment intéressante qu'il a publiée en 94 ou 95 sur les affaires de 
+               <rs type="place" ref="#plGf">Genêve</rs>. Je vous avouerai, Monsieur, avec une franchise qui vous étonnera peutetre 
+               de la part d'un homme, qui n'a pas l'avantage d'etre avec vous dans une liaison intime, <del rend="stroked">xxx</del> 
+               et qui ne sait pas même jusqu'a quel point vous pourriez être lié avec 
+               <rs type="person" ref="#JADR">Monsieur Du Roveray</rs>, qu'il n'a pas rempli l'attente que j'avois de lui. Je rends 
+               justice à son esprit et à ses lumiéres, et comme il <pb/> reviendra à <rs type="place" ref="#plBe">Berlin</rs> pour 
+               passer l'hiver ici, il se peut que le jugement précoce que je porte dans ce moment soit beaucoup modifié et corrigé. 
+               Mais les prémieres conversations que j'ai <del rend="stroked">xxx</del> eu avec lui, m'ont un peu découragé. Il ne me 
+               paroit pas assez fort dans les principes généraux et fondamentaux du droit social pour être aussi décisif et aussi 
+               opinâtre que je l'ai trouvé sur plusieurs points; et, ce qui m'a surtout un peu choqué, il incline à composer avec 
+               les premiers auteurs des <del rend="stroked">la</del> malheurs de la révolution, auxquels, dans mon systeme, il est 
+               permis de <emph rend="underlined">pardonner</emph>, mais qu'on ne peut <del rend="stroked">et</del> ni 
+               <add place="above">ne</add> doit jamais <emph rend="underlined">justifier</emph>. - Je vous prie en grace, Monsieur, 
+               de mettre tout ceci sur le compte de la confiance extrême que vous m'avez inspirée, et de ne pas me taxer d'une 
+               légérete coupable, pour vous avoir dit ce que je n'aurois pas le courage de dire à d'autres. Je ne voudrois pas pour 
+               tout au monde nuire à la bonne cause, en attaquant, ne fut ce que de loin, un homme aussi précieux pour cette cause 
+               que, malgré toutes mes reflexions, <rs type="person" ref="#JADR">Monsieur Du Roveray</rs> me paroit etre.
+            </p>
+         </div>
+         <div n="6" corresp="#vjmdp">
+            <p>
+               Je joins à cette lettre deux <del rend="stroked">xxx</del> 
+               <rs type="citation" ref="#p5113-6">exemplaires de l'Octobre de mon Journal</rs>, en vous priant de vouloir bien 
+               donner l'autre à <rs type="person" ref="#MdP">Monsieur Mallet Dupan</rs>. Je n'ai pas eu le tems de lui écrire 
+               directement; d'ailleurs je lui ai ecrit plusieurs fois sans avoir eu le bonheur d'une <pb/> réponse, que j'attens 
+               avec impatience, et dont au reste je ne lui impute nullement le retard; je sais à présent ce que c'est que de se 
+               condamner à un travail périodique. Mais d'ou vient le grand et facheux intervalle que 
+               <rs type="person" ref="#MdP">Monsieur Mallet</rs> nous fait éprouver depuis près de deux mois ? Seroit-ce la faute de 
+               <rs type="person" ref="#Fch">Fauche</rs> ? Ou donnera-t-il plusieurs numeros ensemble ?
+            </p>
+            <p>
+               Je vous prie, Monsieur, de ne pas me faire attendre longtems une lettre de votre part, par laquelle vous me 
+               préparerez une heure bien delicieuse, et de croire toujours à la pureté et <add place="above">à</add> la force des 
+               sentimens distingués avec lesquels je ne cesserai d'etre,
+            </p>
+         </div>
+         <closer>
+            <salute rend="right">Votre très-humble et très-devoué</salute>
+            <salute rend="right">serviteur</salute>
+            <dateline rend="left"><rs type="place" ref="#plBe">Berlin</rs> ce <date when-iso="1799-10-18">18 Octobre 1799</date>.</dateline>
+            <signed rend="right">Gentz.</signed>
+         </closer>
+         <postscript corresp="#efgb">
+            <p>
+               Je Vous ai marqué au commencement de cette lettre que je vous recommanderois particuliérement la traduction francoise 
+               de mon écrit. Je crois de mon devoir d'ajouter que j'ai le dessein de vous la dédier publiquement. J'ai voulu le 
+               faire sans vous en demander la permission; mais comme il y a quelquefois des circonstances particuliéres, qui peuvent 
+               s'opposer à la démarche la plus innocente, j'aime mieux vous <del rend="stroked">en</del> demander formellement cette 
+               permission. J'espere qu'à moins de quelque objection majeure, vous ne me la refuserez pas.
+            </p>
+         </postscript>
+      </body>
+      <back resp="#FdI">
+         <p>
+            M<span rend="sup">r</span> Gentz. <rs type="place" ref="#plBe">Berlin</rs> <date when-iso="1799-10-18">18 Oct. 99</date>.
+         </p>
+      </back>
+      <note xml:id="r5113-1">Auf Bl. 4v</note>
+   </text>
+</TEI>

@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc xml:id="LETTER_GENTZ_0243">
+         <titleStmt>
+            <title>Friedrich von Gentz an Heinrich Frölich, 16. Juni 1802</title>
+            <editor xml:id="edAG">Andreas Gálffy</editor>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <name>Forschungsstelle "Universitätssammlung Friedrich von Gentz"</name>
+               <link target="http://gentz-digital.ub.uni-koeln.de http://www.ub.uni-koeln.de/cdm/singleitem/collection/gentz/id/242/"/>
+            </publisher>
+            <pubPlace>Cologne</pubPlace>
+            <idno type="Gentz-Edition-Number" n="0243"/>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <country>Germany</country>
+                  <settlement>Berlin</settlement>
+                  <institution>Geheimes Staatsarchiv Preußischer Kulturbesitz</institution>
+                  <repository>I. HA Rep 94: Kleine Erwerbungen</repository>
+                  <collection>IV.N.b.2</collection>
+                  <idno>Bl. 40-41</idno>
+               </msIdentifier>
+               <msContents>
+                  <summary>
+                     Nicht nur finanziell, auch anderweitig steht Gentz bei Frölich in Schuld. Er schlägt vor, ein bald 
+                     erscheinendes Werk von Chateaubriand ins Deutsche zu übersetzen. Am Schluss bittet Gentz und Entschuldigung 
+                     dafür, dass er den Schriftweg dem Gespräch vorzieht.
+                  </summary>
+               </msContents>
+            </msDesc>
+            <listBibl type="defRep">
+               <biblStruct xml:id="p0243-1" corresp="BnF-0009">
+                  <monogr>
+                     <author>
+                        <persName>
+                           <ref target="http://d-nb.info/gnd/118520237"/>
+                           <forename>François-René de</forename>
+                           <surname>Chateaubriand</surname>
+                        </persName>
+                     </author>
+                     <title>Génie du christianisme ou Beautés de la religion chrétienne</title>
+                     <imprint>
+                        <pubPlace>Paris</pubPlace>
+                        <publisher>Migneret</publisher>
+                        <date>1803</date>
+                     </imprint>
+                  </monogr>
+                  <ptr target="http://gallica.bnf.fr/ark:/12148/bpt6k103262f"/>
+               </biblStruct>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Masterarbeit zu Matrikelnummer 5584124</p>
+         </projectDesc>
+      </encodingDesc>
+      <profileDesc>
+         <creation>
+            <date when-iso="1802-06-16">16. Juni 1802</date>
+         </creation>
+        <langUsage>
+           <language ident="d">deutsch</language>
+        </langUsage>
+         <textClass>
+            <keywords scheme="internal"><!-- internal: innerhalb des besagten Briefs -->
+               <term>Billet</term>
+               <term>Treffen</term>
+               <term>Chateaubriand</term>
+               <term>Übersetzung</term>
+            </keywords>
+            <keywords scheme="categorisation"><!-- Sinnabschnittseinteilung - relevant für den Fahrkartenautomaten! -->
+               <term xml:id="gprl">Gentz - p(r)ekuniäre Lage</term>
+               <term xml:id="lvm">Literatur vermischt</term>
+               <term xml:id="vhf">Verhältnis Heinrich Frölich</term>
+            </keywords>
+         </textClass>
+         <textDesc>
+            <channel>manuscript</channel>
+            <constitution type="single"/>
+            <derivation type="original"/>
+            <domain type="private"/>
+            <factuality type="fact"/>
+            <interaction type="partial"/>
+            <preparedness type="unprepared"/>
+            <purpose type="inform"/>
+         </textDesc>
+         <particDesc>
+            <listPerson>
+               <!-- Sender und Adressat -->
+               <person role="sender" xml:id="Gen">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/118538489"/>
+                     <forename>Friedrich von</forename>
+                     <surname>Gentz</surname>
+                  </persName>
+               </person>
+               <person role="receiver" xml:id="Fro">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/1073351068"/>
+                     <forename>Heinrich</forename>
+                     <surname>Frölich</surname>
+                  </persName>
+               </person>
+               <!-- erwähnte Personen -->
+               <person role="named" xml:id="Ch">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/118520237"/>
+                     <forename>François-René de</forename>
+                     <surname>Chateaubriand</surname>
+                  </persName>
+               </person>
+            </listPerson>
+         </particDesc>
+         <settingDesc>
+            <listPlace>
+               <!-- Start- und Zielort -->
+               <place type="sender" xml:id="plBe">
+                  <country>
+                     <ref target="http://d-nb.info/gnd/4047194-9"/>
+                     <placeName>Preußen</placeName>
+                  </country>
+                  <settlement>
+                     <ref target="http://d-nb.info/gnd/4005728-8"/>
+                     <placeName>Berlin</placeName>
+                  </settlement>
+               </place>
+               <!-- erwähnte Orte -->
+               <place type="named" xml:id="plDd">
+                  <country>
+                     <ref target="http://d-nb.info/gnd/4051176-5"/>
+                     <placeName>Sachsen</placeName>
+                  </country>
+                  <settlement>
+                     <ref target="http://d-nb.info/gnd/4012995-0"/>
+                     <placeName>Dresden</placeName>
+                  </settlement>
+               </place>
+               <place type="named" xml:id="plFr">
+                  <country>
+                     <ref target="http://d-nb.info/gnd/4018145-5"/>
+                     <placeName>Frankreich</placeName>  
+                  </country>
+               </place>
+            </listPlace>
+         </settingDesc>
+      </profileDesc>
+      <revisionDesc>
+         <change xml:id="init" when-iso="2018-03-11" who="#edAG">Erstauszeichnung und Normierung des Dokumentes im Rahmen der Masterarbeit der Matrikelnummer 5584124</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div n="1" corresp="#gprl">
+            <p>
+               Sie haben mir Dienste geleistet, die ich nie vergessen werde. Ich sehe mich nicht bloß als Ihren Geld-Schuldner an: 
+               Sie haben mir Verbindlichkeiten andrer Art aufgelegt, und ich werde sie abtragen. Verlieren sollen Sie nie, und unter 
+               keiner Bedingung, das Geringste durch mich. Ich hoffe in kurzem alle Vorschüsse die Sie mir leisteten, baar 
+               berichtigen zu können; und wenn irgend eine nicht zu berechnende Fatalität diese Hoffnung zerstörte, so bleibt mir 
+               noch meine Hand und mein Kopf übrig. - 
+            </p>
+         </div>
+         <div n="2" corresp="#lvm">
+            <p>
+               Ich reise in wenig Tagen nach <rs type="place" ref="#plDd">Dresden</rs>, vielleicht noch weiter, und bleibe ungefähr 
+               2 Monate von <rs type="place" ref="#plBe">Berlin</rs> entfernt. Den Aufsatz über die Fronde schon zu 
+               <date when-iso="1802-09-29">Michaelis</date> zu versprechen, wäre unter diesen Umständen strafbar. Ich will Ihnen 
+               eine Proposition machen, die vielleicht Ihren Beifall findet. Es ist vor kurzem in 
+               <rs type="place" ref="#plFr">Frankreich</rs> das längst-<pb/>erwartete Werk von 
+               <rs type="person" ref="#Ch">Chateaubriand</rs>, <rs type="citation" ref="#p0243-1">Génie du Christianisme</rs> in 5 
+               Bänden erschienen, und macht ungeheure Sensation. Ich habe besondre Gründe, dies Buch ins Deutsche zu übersetzen, bin 
+               aber noch nicht schlüßig, ob ganz, oder nur im Auszuge. Erst unterwegens kan ich mich hierüber bestimmen. Wäre dies 
+               ein Artikel für Sie ? - Schon der Sonderbarkeit wegen, (daß ich mich in die Theologie werfe) würde diese Uebersetzung 
+               vielleicht Glück machen. Das Buch ist überdies ein <span xml:id="fr">chef-d'oeuvre d'éloquence</span>. - Schreiben 
+               Sie mir Ihre Meinung; dann melde ich Ihnen gleich von <rs type="place" ref="#plDd">Dresden</rs> aus, auf welche Weise 
+               ich meinen Zweifel aufgelöset habe.
+            </p>
+         </div>
+         <div n="3" corresp="#vhf">
+            <p>
+               Vergeben Sie mir, mein lieber Frölich, wenn ich den Weg der Correspondenz dem einer <pb/> mündlichen Unterhaltung 
+               diesmal vorziehe. Ich bin so unruhig und auf so mancherlei Art bewegt, daß es so am besten ist. Rechnen Sie stets, 
+               ich bitte Sie darum, auf meine Rechtlichkeit, auf meine Dankbarkeit, und auf meine Freundschaft. Die letztre ist 
+               Ihnen auf immer erworben: kehren Sie Sich an keinem äußern Schein; in mir ändert sich nichts im Leben und Tod.
+            </p>
+         </div>
+         <closer>
+            <signed rend="right">Gentz</signed>
+            <dateline rend="right">den <date when-iso="1802-06-16">16 Juny 1802</date></dateline>
+         </closer>
+      </body>
+      <back resp="#Fro">
+         <p>
+            <date when-iso="1802-06-16">1802 d 16 Jun.</date>
+            Gentz.
+         </p>
+      </back>
+      <note xml:id="r0243-1">Seite 4 Empfangsvermerk von der Hand Frölichs</note>
+   </text>
+</TEI>

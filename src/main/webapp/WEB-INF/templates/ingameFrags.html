@@ -1,0 +1,753 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+	<head>
+		<title>Ingame Output Fragments</title>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+	</head>
+	<body>
+		<div id="main">
+			<table id="mainScreen" th:fragment="mainTable">
+				<thead>
+					<tr>
+						<th colspan="2">Herzlich willkommen beim Wegweiser!</th>
+					</tr>
+				</thead>
+				<tbody>
+					<tr>
+						<td id="list" class="link">Verzeichnis aller zur Zeit eingetragenen Briefe</td>
+						<td id="entity" class="link">Liste aller Werke, Personen und Orte</td>
+					</tr>
+					<tr>
+						<td id="searchForm" class="link">Suche nach Brief</td>
+						<td id="loadCatList" class="link">Liste aller Kategorien und Haltestellenverzeichnis</td>
+					</tr>
+				</tbody>
+				<tfoot>
+					<tr>
+						<td colspan="2"><a href="http://gentz-digital.ub.uni-koeln.de/" target="_blank">zur Sammlung Herterich der Universitäts- und Stadtbibliothek Köln</a></td>
+					</tr>
+				</tfoot>
+			</table>
+			<div class="tableWrapper" th:fragment="catList">
+				<table id="nav">
+					<tr>
+						<td id="index" class="navLink">Zurück</td>
+						<td id="searchForm" class="navLink">Brief suchen</td>
+					</tr>
+					<tr>
+						<td class="tab" data-show="catList">Kategorienverzeichnis</td>
+						<td class="tab" data-show="statList">Haltestellenverzeichnis</td>
+					</tr>
+				</table>
+				<table id="catList" class="dataTable">
+					<thead>
+						<tr>
+							<th>Kategorie</th>
+							<th>Haltestellen</th>
+						</tr>
+					</thead>
+					<tbody>
+						<tr th:each="category: ${categories}">
+							<td th:text="${catNames.get(category.key)}">Kategorie</td>
+							<td>
+								<ul>
+									<li th:each="valStat: ${category.value}" th:text="${statNames.get(valStat).name}">Haltestelle mit weiterführenden Hinweisen</li>
+								</ul>
+							</td>
+						</tr>
+					</tbody>
+					<!--<tfoot>
+						<tr>
+							<td><a href="http://gentz-digital.ub.uni-koeln.de/" target="_blank">zur Sammlung Herterich der Universitäts- und Stadtbibliothek Köln</a></td>
+						</tr>
+					</tfoot>-->
+				</table>
+				<table id="statList" class="dataTable hidden">
+					<thead>
+						<tr>
+							<th>Haltestelle</th>
+							<th>Kategorien</th>
+						</tr>
+					</thead>
+					<tbody>
+						<tr th:each="station: ${stations}">
+							<td th:text="${statNames.get(station.key).name}">Haltestelle</td>
+							<td>
+								<ul>
+									<li th:each="valCat: ${station.value}" th:text="${catNames.get(valCat)}">Kategorien, die an dieser Haltestelle zu finden sind</li>
+								</ul>
+							</td>
+						</tr>
+					</tbody>
+					<!--<tfoot>
+						<tr>
+							<td><a href="http://gentz-digital.ub.uni-koeln.de/" target="_blank">zur Sammlung Herterich der Universitäts- und Stadtbibliothek Köln</a></td>
+							<td id="index" class="link">Hauptmenü</td>
+							<td id="searchForm" class="link">Brief suchen</td>
+						</tr>
+					</tfoot>-->
+				</table>
+			</div>
+			<div class="tableWrapper" th:fragment="catListSingle">
+				<table id="nav">
+					<tr>
+						<td id="index" class="navLink">Zurück</td>
+						<td id="searchForm" class="navLink">Brief suchen</td>
+					</tr>
+					<tr>
+						<td class="tab" data-show="catList">Kategorienverzeichnis</td>
+						<td class="tab" data-show="statList">Haltestellenverzeichnis</td>
+					</tr>
+				</table>
+				<div id="subWrapper">
+					<table id="catList" class="dataTable">
+						<thead>
+							<tr>
+								<th>Kategorie</th>
+								<th>Haltestellen</th>
+							</tr>
+						</thead>
+						<tbody>
+							<tr>
+								<td th:text="${category}">Kategorie</td>
+								<td>
+									<ul>
+										<li th:each="valStat: ${stations}" th:text="${statNames.get(valStat).name}">Haltestelle mit weiterführenden Hinweisen</li>
+									</ul>
+								</td>
+							</tr>
+						</tbody>
+					</table>
+					<table id="statList" class="dataTable hidden">
+						<thead>
+							<tr>
+								<th>Haltestelle</th>
+								<th>Kategorien</th>
+							</tr>
+						</thead>
+						<tbody>
+							<tr th:each="invStation: ${inverseStatCat.keySet()}">
+								<td th:text="${statNames.get(invStation).name}">Haltestelle</td>
+								<td>
+									<ul>
+										<li th:each="invCategory: ${inverseStatCat.get(invStation)}" th:text="${catNames.get(invCategory)}">Kategorien, die an dieser Haltestelle zu finden sind</li>
+									</ul>
+								</td>
+							</tr>
+						</tbody>
+					</table>
+					<table id="letterListTable">
+						<thead>
+							<tr>
+								<th>
+									Sender
+								</th>
+								<th>
+									Empfänger
+								</th>
+								<th>
+									Datum
+								</th>
+								<th>
+									Zusammenfassung (Zum Volltext hier klicken)
+								</th>
+								<th>
+									Kategorien (Zur Auflistung von Haltestellen hier klicken)
+								</th>
+							</tr>
+						</thead>
+						<tbody>
+							<tr th:each="letter: ${letters}" th:attr="data-letter=${letter.id}" th:include="letterListTableFragment :: ingameLetterListTable">
+								...
+							</tr>
+						</tbody>
+					</table>
+				</div>
+			</div>
+			<div class="tableWrapper" th:fragment="letterListTable">
+				<table id="nav">
+					<tr>
+						<td id="index" class="navLink">Zurück</td>
+						<td id="searchForm" class="navLink">Brief suchen</td>
+					</tr>
+				</table>
+				<table id="letterListTable" class="dataTable">
+					<thead>
+						<tr>
+							<th>
+								Sender
+							</th>
+							<th>
+								Empfänger
+							</th>
+							<th>
+								Datum
+							</th>
+							<th>
+								Zusammenfassung (Zum Volltext hier klicken)
+							</th>
+							<th>
+								Kategorien (Zur Auflistung von Haltestellen hier klicken)
+							</th>
+						</tr>
+					</thead>
+					<tbody>
+						<tr th:each="letter: ${letters}" th:attr="data-letter=${letter.id}" th:include="letterListTableFragment :: ingameLetterListTable">
+							...
+						</tr>
+					</tbody>
+				</table>
+			</div>
+			<div id="singleLetter" th:fragment="singleLetter">
+				<table id="nav">
+					<tr>
+						<td id="index" class="navLink">Zurück</td>
+						<td id="searchForm" class="navLink">Brief suchen</td>
+					</tr>
+				</table>
+				<table>
+					<caption th:text="${letter.title}">...</caption>
+					<thead>
+						<tr>
+							<td colspan="3">
+								Forschungsstelle Gentz idno: <span th:text="${letter.idnoGentzUB}"></span>
+							</td>
+							<td colspan="4">
+								link to original transcription: <a th:href="${letter.originalCitationLink}">to Forschungsstelle Gentz</a>
+							</td>
+						</tr>
+						<tr>
+							<th colspan="7">manuscript identifier metadata</th>
+						</tr>
+						<tr>
+							<td>
+								country: <span th:text="${letter.country}"></span>
+							</td>
+							<td>
+								settlement: <span th:text="${letter.settlement}"></span>
+							</td>
+							<td>
+								institution: <span th:text="${letter.institution}"></span>
+							</td>
+							<td colspan="2">
+								repository: <span th:text="${letter.repository}"></span>
+							</td>
+							<td>
+								collection: <span th:text="${letter.collection}"></span>
+							</td>
+							<td>
+								idno of manuscript: <span th:text="${letter.msIdno}"></span>
+							</td>
+						</tr>
+						<tr th:if="${!letter.preprints.isEmpty()}">
+							<th colspan="7">printing places</th>
+						</tr>
+						<tr th:if="${!letter.preprints.isEmpty()}">
+							<td colspan="7">
+								<ul>
+									<li th:each="preprint: ${letter.preprints}" th:text="${preprint.toString()}">
+									
+									</li>
+								</ul>
+							</td>
+						</tr>
+						<tr th:if="${!letter.letterReferenced.isEmpty() or !letter.alludedWorks.isEmpty() or !letter.defExpr.isEmpty() or !letter.defRep.isEmpty() or !letter.edRef.isEmpty()}">
+							<th colspan="7">further lecture references</th>
+						</tr>
+						<tr th:if="${!letter.letterReferenced.isEmpty()}">
+							<td colspan="7">
+								<ul>
+									<h3>references in the letter:</h3>
+									<li th:each="referenced: ${letter.letterReferenced}" th:switch="${referenced.id}">
+										<span th:case="'no link'" th:text="${referenced.toString()}"></span>
+										<span class="navLink loadFulltext" th:case="*" th:attr="data-letter=${referenced.id}" th:text="${referenced.toString()}"></span>
+									</li>
+								</ul>
+							</td>
+						</tr>
+						<tr th:if="${!letter.alludedWorks.isEmpty()}">
+							<td colspan="7">
+								<ul>
+									<h3>works alluded in the letter:</h3>
+									<li th:each="alluded: ${letter.alludedWorks}" th:switch="${alluded.id}">
+										<span th:case="'no link'" th:text="${alluded.toString()}"></span>
+										<span class="navLink loadWork" th:case="*" th:attr="data-work=${alluded.id}" th:text="${alluded.toString()}"></span>
+									</li>
+								</ul>
+							</td>
+						</tr>
+						<tr th:if="${!letter.defExpr.isEmpty()}">
+							<td colspan="7">
+								<ul>
+									<h3>works or journals named in the letter:</h3>
+									<li th:each="expression: ${letter.defExpr}" th:switch="${expression.id}">
+										<span th:case="'no link'" th:text="${expression.toString()}"></span>
+										<span class="navLink loadWork" th:case="*" th:attr="data-work=${expression.id}" th:text="${expression.toString()}"></span>
+									</li>
+								</ul>
+							</td>
+						</tr>
+						<tr th:if="${!letter.defRep.isEmpty()}">
+							<td colspan="7">
+								<ul>
+									<h3>books or editions named in the letter:</h3>
+									<li th:each="representation: ${letter.defRep}" th:switch="${representation.id}">
+										<span th:case="'no link'" th:text="${representation.toString()}"></span>
+										<span class="navLink loadWork" th:case="*" th:attr="data-work=${representation.id}" th:text="${representation.toString()}"></span>
+									</li>
+								</ul>
+							</td>
+						</tr>
+						<tr th:if="${!letter.edRef.isEmpty()}">
+							<td colspan="7">
+								<ul>
+									<h3>further lectures given by an editor:</h3>
+									<li th:each="editorial: ${letter.edRef}" th:switch="${editorial.id}">
+										<span th:case="'no link'" th:text="${editorial.toString()}"></span>
+										<span class="navLink loadWork" th:case="*" th:attr="data-work=${editorial.id}" th:text="${editorial.toString()}"></span>
+									</li>
+								</ul>
+							</td>
+						</tr>
+					</thead>
+					<!-- markup generation will be done on demand! -->
+					<tbody th:utext="${content}" id="content">
+						Briefkörper
+					</tbody>
+					<tfoot>
+						<tr>
+							<td colspan="7" th:utext="${notes}">
+						
+							</td>
+						</tr>
+					</tfoot>
+				</table>
+			</div>
+			<div id="entityList" th:fragment="entityList">
+				<table id="nav">
+					<tr>
+						<td id="index" class="navLink">Zurück</td>
+						<td id="searchForm" class="navLink" colspan="2">Brief suchen</td>
+					</tr>
+					<tr>
+						<td class="tab" data-show="worksTable">
+							Werke in Gentz' Briefen
+						</td>
+						<td class="tab" data-show="personTable">
+							vorkommende Personen
+						</td>
+						<td class="tab" data-show="placeTable">
+							vorkommende Orte
+						</td>
+					</tr>
+				</table>
+				<table id="worksTable" class="dataTable">
+					<thead>
+						<tr>
+							<th>
+								Autor
+							</th>
+							<th>
+								Herausgeber
+							</th>
+							<th>
+								Übersetzer
+							</th>
+							<th>
+								Titel
+							</th>
+							<th>
+								Verlag
+							</th>
+							<th>
+								Ort
+							</th>
+							<th>
+								Jahr
+							</th>
+							<th>
+								Vorkommnis
+							</th>
+							<th>
+								Leseprobe
+							</th>
+						</tr>
+					</thead>
+					<tbody>
+						<tr th:each="work: ${works}" th:if="${work.value.link != null}">
+						<!-- in case of an analytic work: the monograph has to be written in small under the actual text -->
+							<td th:if="${!work.value.authorAnaly.empty}">
+								<span th:text="${work.value.printEntityList('authorAnaly')}">Autoren eines unselbstständigen Werkes</span>
+								<p th:if="${!work.value.authors.empty}" th:text="${work.value.printEntityList('authors')}" class="analytic">Autoren des dazugehörigen selbstständigen Werkes</p>
+							</td>
+							<td th:if="${!work.value.authors.empty and work.value.authorAnaly.empty}" th:text="${work.value.printEntityList('authors')}">
+								Autoren einer Monografie
+							</td>
+							<td th:if="${work.value.authors.empty and work.value.authorAnaly.empty}">
+								
+							</td>
+							<td th:if="${!work.value.editorAnaly.empty}">
+								<span th:text="${work.value.printEntityList('editorAnaly')}">Herausgeber eines unselbstständigen Werkes</span>
+								<p th:if="${!work.value.editors.empty}" th:text="${work.value.printEntityList('editors')}" class="analytic">Herausgeber des dazugehörigen selbstständigen Werkes</p>
+							</td>
+							<td th:if="${!work.value.editors.empty and work.value.editorAnaly.empty}" th:text="${work.value.printEntityList('editors')}">
+								Herausgeber
+							</td>
+							<td th:if="${work.value.editors.empty and work.value.editorAnaly.empty}">
+								
+							</td>
+							<td th:if="${!work.value.translatorAnaly.empty}">
+								<span th:text="${work.value.printEntityList('translatorAnaly')}">Übersetzer eines unselbstständigen Werkes</span>
+								<p th:if="${!work.value.translators.empty}" th:text="${work.value.printEntityList('translators')}" class="analytic">Übersetzer des dazugehörigen selbstständigen Werkes</p>
+							</td>
+							<td th:if="${!work.value.translators.empty and work.value.translatorAnaly.empty}" th:text="${work.value.printEntityList('translators')}">
+								Übersetzer
+							</td>
+							<td th:if="${work.value.translators.empty and work.value.translatorAnaly.empty}">
+								
+							</td>
+							<td th:if="${work.value.titleAnaly != null}">
+								<span th:text="${work.value.titleAnaly}">Titel eines unselbstständigen Werkes</span>
+								<p th:text="${work.value.workTitle}" class="analytic">Titel der dazugehörigen Monografie</p>
+							</td>
+							<td th:if="${work.value.titleAnaly == null}" th:text="${work.value.workTitle}">
+								Titel
+							</td>
+							<td th:text="${work.value.publisher}">
+								Verlag
+							</td>
+							<td th:text="${work.value.pubPlace}">
+								Ort
+							</td>
+							<td th:text="${work.value.date}">
+								Jahr
+							</td>
+							<td>
+								<ul>
+									<li class="navLink loadFulltext" th:each="letter: ${workIndex.get(work.key)}" th:attr="data-letter=${letter}" th:text="${corpus.get(letter).getTitle()}">Vorkommnis</li>
+								</ul>
+							</td>
+							<td>
+								<a th:href="${work.value.link}" target="_blank">Leseprobe</a>
+							</td>
+						</tr>
+					</tbody>
+				</table>
+				<table id="personTable" class="dataTable hidden">
+					<thead>
+						<tr>
+							<th>
+								Vorname
+							</th>
+							<th>
+								Nachname
+							</th>
+							<th>
+								Rollen-/Amts-/Familienbezeichnung oder Adelstitel
+							</th>
+							<th>
+								GND-Link
+							</th>
+							<th>
+								Vorkommnis
+							</th>
+						</tr>
+					</thead>
+					<tbody>
+						<tr th:each="person: ${persons}">
+							<td th:text="${person.value.forename}">
+								Vorname
+							</td>
+							<td th:text="${person.value.surname}">
+								Nachname
+							</td>
+							<td th:if="${person.value.roleName != null}" th:text="${person.value.roleName}">
+								Rollen-/Amts-/Familienbezeichnung oder Adelstitel
+							</td>
+							<td th:if="${person.value.roleName == null}">
+							
+							</td>
+							<td th:if="${person.value.gndKey != null}">
+								<a th:href="${person.value.gndKey}" th:text="GND-Link" target="_blank"></a>
+							</td>
+							<td th:if="${person.value.gndKey == null}">
+								
+							</td>
+							<td>
+								<ul>
+									<li class="navLink loadFulltext" th:each="letter: ${personIndex.get(person.key)}" th:attr="data-letter=${letter}" th:text="${corpus.get(letter).getTitle()}">Vorkommnis</li>
+								</ul>
+							</td>
+						</tr>
+					</tbody>
+				</table>
+				<table id="placeTable" class="dataTable hidden">
+					<thead>
+						<tr>
+							<th>
+								Ortsname
+							</th>
+							<th>
+								Ortstyp
+							</th>
+							<th>
+								Landeszugehörigkeit (zum Zeitpunkt der spätesten Nennung)
+							</th>
+							<th>
+								GND-Link Ort
+							</th>
+							<th>
+								GND-Link Land
+							</th>
+							<th>
+								Vorkommnis
+							</th>
+						</tr>
+					</thead>
+					<tbody>
+						<tr th:each="place: ${places}">
+							<td th:text="${place.value.placeName}">
+								Ortsname
+							</td>
+							<td th:text="${place.value.printPlaceType('ger')}">
+								Ortstyp
+							</td>
+							<td th:if="${place.value.country != null}" th:text="${place.value.country.placeName}">
+								Landeszugehörigkeit (zum Zeitpunkt der spätesten Nennung)
+							</td>
+							<td th:if="${place.value.country == null}">
+							
+							</td>
+							<td th:if="${place.value.gndKey != null}">
+								<a th:href="${place.value.gndKey}" th:text="${'GND-Link Ort'}"></a>
+							</td>
+							<td th:if="${place.value.gndKey == null}">
+								
+							</td>
+							<td th:if="${place.value.country != null}">
+								<a th:href="${place.value.country.gndKey}" th:text="${'GND-Link Land'}"></a>
+							</td>
+							<td th:if="${place.value.country == null}">
+							
+							</td>
+							<td>
+								<a class="navLink loadFulltext" th:each="letter: ${placeIndex.get(place.key)}" th:attr="data-letter=${letter}" th:text="${corpus.get(letter).getTitle()}">Vorkommnis</a><br/>
+							</td>
+						</tr>
+					</tbody>
+				</table>
+			</div>
+			<div id="searchWrapper" th:fragment="search">
+				<table id="nav">
+					<tr>
+						<td id="index" class="navLink">Zurück</td>
+						<td id="searchForm" class="navLink">Formular zurücksetzen</td>
+					</tr>
+				</table>
+				<form id="search">
+					<table id="searchFormTable">
+						<thead>
+							<tr>
+								<th colspan="2">Suchformular</th>
+							</tr>
+						</thead>
+						<tbody>
+							<tr>
+								<td>
+									<label for="sender">Absender:</label>
+								</td>
+								<td>
+									<input type="text" id="sender" name="sender" placeholder="nach Absender"/>
+								</td>
+							</tr>
+							<tr>
+								<td>
+									<label for="receiver">Empfänger</label>
+								</td>
+								<td>
+									<input type="text" id="receiver" name="receiver" placeholder="nach Empfänger"/>
+								</td>
+							</tr>
+							<tr>
+								<td>
+									<label for="person">Person</label>
+								</td>
+								<td>
+									<input type="text" id="person" name="person" placeholder="nach Person"/>
+									<small id="personHelp">Personen, die in einem Brief erwähnt worden sind</small>
+								</td>
+							</tr>
+							<tr>
+								<td>
+									<label for="place">Ort</label>
+								</td>
+								<td>
+									<input type="text" id="place" name="place" placeholder="nach Ort"/>
+									<small id="placeHelp">Dieses Feld schließt Absende-, Empfangs- und erwähnte Orte ein</small>
+								</td>
+							</tr>
+							<tr>
+								<td>
+									<label for="content">Text im Brief</label>
+								</td>
+								<td>
+									<input type="text" id="content" name="content" placeholder="nach Inhalt"/>
+								</td>
+							</tr>
+							<tr>
+								<td>
+									<label for="dateFrom">Eingrenzen auf Datumsbereich</label>
+								</td>
+								<td>
+									<input type="text" id="dateFrom" name="dateFrom" placeholder="von"/>
+									 - 
+									<input type="text" id="dateTo" name="dateTo" placeholder="bis"/>
+								</td>
+							</tr>
+							<tr>
+								<th>Begrenzen auf Kategorien:</th>
+								<td>
+									<span class="categoryCloud inactive" th:each="category : ${categories}" th:id="${category.key}" th:text="${category.value}">
+										Kategorienwolke
+									</span>
+								</td>
+							</tr>
+						</tbody>
+						<tfoot>
+							<tr>
+								<td colspan="2" id="submit">Absenden</td>
+							</tr>
+						</tfoot>
+					</table>
+				</form>
+			</div>
+			<div id="worksWrapper" th:fragment="worksView">
+				<table id="nav">
+					<tr>
+						<td id="index" class="navLink">Zurück</td>
+						<td id="searchForm" class="navLink">Brief suchen</td>
+					</tr>
+				</table>
+				<table id="letterListTable" class="dataTable">
+					<caption th:if="${work.bibl} != null">
+						<h1>angedeututes Werk</h1>
+						<h2 th:text="${work.bibl}">hinterlegter Eintrag</h2>
+					</caption>
+					<!-- monographs -->
+					<caption th:if="${work.bibl == null and work.titleAnaly == null and work.workTitle != null}">
+						<h1>Werksansicht</h1>
+						<h3 th:if="${!work.authors.empty}" th:text="${work.printEntityList('authors')}">Autoren des Werks</h3>
+						<h3 th:if="${!work.editors.empty}" th:text="${work.printEntityList('editors')}">Herausgeber des Werks</h3>
+						<h3 th:if="${!work.translators.empty}" th:text="${work.printEntityList('translators')}">Übersetzer des Werks</h3>
+						<h2 th:text="${work.workTitle}">Titel des Werks</h2>
+						<h4>Veröffentlicht:
+							<span th:if="${work.pubPlace != null and work.pubPlace != ''}" th:text="${work.pubPlace + ', '}"></span>
+							<span th:if="${work.publisher != null and work.publisher != ''}" th:text="${work.publisher + ', '}"></span>
+							<span th:if="${work.date != null and work.date != ''}" th:text="${work.date}"></span>
+						</h4>
+						<a th:href="${work.link}" target="_blank">Link zur Leseprobe</a>
+					</caption>
+					<!-- analytic -->
+					<caption th:if="${work.bibl == null and work.titleAnaly != null and work.workTitle != null}">
+						<h1>Teilwerksansicht</h1>
+						<h3 th:if="${!work.authorAnaly.empty}" th:text="${work.printEntityList('authorAnaly')}">Autoren des unselbstständigen Werks</h3>
+						<h3 th:if="${!work.editorAnaly.empty}" th:text="${work.printEntityList('editorAnaly')}">Herausgeber des unselbstständigen Werks</h3>
+						<h3 th:if="${!work.translatorAnaly.empty}" th:text="${work.printEntityList('translatorAnaly')}">Übersetzer des unselbstständigen Werks</h3>
+						<h2 th:text="${work.titleAnaly}">Titel des unselbstständigen Werks</h2>
+						<h4>Veröffentlicht:
+							<span th:if="${work.pubPlace != null and work.pubPlace != ''}" th:text="${work.pubPlace + ', '}"></span>
+							<span th:if="${work.publisher != null and work.publisher != ''}" th:text="${work.publisher + ', '}"></span>
+							<span th:if="${work.date != null and work.date != ''}" th:text="${work.date}"></span>
+						</h4>
+						<p>Veröffentlicht in:
+							<span th:if="${!work.authors.empty}" th:text="${work.printEntityList('authors')}">Autoren des selbstständigen Werks</span>
+							<span th:if="${!work.editors.empty}" th:text="${work.printEntityList('editors')}">Herausgeber des selbstständigen Werks</span>
+							<span th:if="${!work.translators.empty}" th:text="${work.printEntityList('translators')}">Übersetzer des selbstständigen Werks</span>
+							<span th:text="${work.workTitle}">Titel des selbstständigen Werks</span>
+							<span th:if="${work.volume != null and work.volume != ''}" th:text="${'Band ' + work.volume + ', '}">Band</span>
+							<span th:if="${work.issue != null and work.issue != ''}" th:text="${'Ausgabe ' + work.issue + ', '}">Ausgabe</span>
+							<span th:if="${work.pageRange[0] != null and work.pageRange[0] != ''}" th:text="${'S.' + work.pageRange[0] + '-' + work.pageRange[1]}">Seitenbereich</span>
+						</p>
+						<a th:href="${work.link}">Link zur Leseprobe</a>
+					</caption>
+					<thead>
+						<tr>
+							<th>
+								Sender
+							</th>
+							<th>
+								Empfänger
+							</th>
+							<th>
+								Datum
+							</th>
+							<th>
+								Zusammenfassung (Zum Volltext hier klicken)
+							</th>
+							<th>
+								Kategorien (Zur Auflistung von Haltestellen hier klicken)
+							</th>
+						</tr>
+					</thead>
+					<tbody>
+						<tr th:each="letter: ${letters}" th:attr="data-letter=${letter.id}" th:include="letterListTableFragment :: ingameLetterListTable">
+							...
+						</tr>
+					</tbody>
+				</table>
+			</div>
+			<div id="entityWrapper" th:fragment="entityView">
+				<table id="nav">
+					<tr>
+						<td id="index" class="navLink">Zurück</td>
+						<td id="searchForm" class="navLink">Brief suchen</td>
+					</tr>
+				</table>
+				<table id="letterListTable" class="dataTable">
+					<!-- person -->
+					<caption th:if="${person != null}">
+						<h1 th:text="${person.getFullName(true)}">Name der Person</h1>
+						<h3 th:if="${person.roleName != null}" th:text="${person.roleName}">Bezeichnung</h3>
+						<h3 th:if="${person.gndKey != null}"><a th:href="${person.gndKey}" th:text="GND-Link">GND-Link zur Person</a></h3>
+						<h2>Erwähnung in Briefen:</h2>
+					</caption>
+					<!-- place -->
+					<caption th:if="${place != null}">
+						<h1 th:text="${place.placeName}">Name des Ortes</h1>
+						<h3 th:text="${place.printPlaceType('ger')}"></h3>
+						<a th:href="${place.gndKey}" th:text="GND-Link">GND-Link des Ortes</a>
+						<h3 th:if="${place.country != null}">
+							<span th:text="${'gehörte zur spätesten Briefnennung zu '+place.country.placeName}">Landeszugehörigkeit</span>
+							<a th:href="${place.country.gndKey}" th:text="${'(GND-Link des Landes)'}">GND-Link des Landes</a>
+						</h3>
+						<h2>Erwähnung in Briefen:</h2>
+					</caption>
+					<thead>
+						<tr>
+							<th>
+								Sender
+							</th>
+							<th>
+								Empfänger
+							</th>
+							<th>
+								Datum
+							</th>
+							<th>
+								Zusammenfassung
+							</th>
+							<th>
+								Kategorien (Zur Auflistung von Haltestellen hier klicken)
+							</th>
+						</tr>
+					</thead>
+					<tbody>
+						<tr th:each="letter: ${letters}" th:attr="data-letter=${letter.id}" th:include="letterListTableFragment :: ingameLetterListTable">
+							...
+						</tr>
+					</tbody>
+				</table>
+			</div>
+		</div>
+	</body>
+</html>

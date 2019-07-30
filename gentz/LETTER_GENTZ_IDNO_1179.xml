@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc xml:id="LETTER_GENTZ_1179">
+         <titleStmt>
+            <title>Friedrich von Gentz an Karl Gustav von Brinckmann, 4. Oktober 1801</title>
+            <editor xml:id="edAG">Andreas Gálffy</editor>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <name>Forschungsstelle "Universitätssammlung Friedrich von Gentz"</name>
+               <link target="http://gentz-digital.ub.uni-koeln.de http://www.ub.uni-koeln.de/cdm/singleitem/collection/gentz/id/1178/"/>
+            </publisher>
+            <pubPlace>Cologne</pubPlace>
+            <idno type="Gentz-Edition-Number" n="1179"/>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <country>Sweden</country>
+                  <settlement>Trolle-Ljungby</settlement>
+                  <institution>Archiv des Grafen Wachtmeister</institution>
+                  <repository>Nachlaß Brinckmann, Ausländ. Briefwechsel, Gentz an Brinckmann</repository>
+                  <idno>G 3</idno>
+               </msIdentifier>
+               <msContents>
+                  <summary>
+                     Die Anträge Gentz' sind ignoriert worden. Um die Krise abzuwenden, möchte Gentz ein neues Projekt, das er 
+                     persönlich besprechen will. Dazu fragt er, wann die Gesellschaft bei ihm sein wird und ob die Gräfin Voss 
+                     ins französische Schauspiel geht. Sollte sie dies nicht tun, wird Gentz einen Besuch bei ihm abstatten.
+                  </summary>
+               </msContents>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Masterarbeit zu Matrikelnummer 5584124</p>
+         </projectDesc>
+      </encodingDesc>
+      <profileDesc>
+         <creation>
+            <date when-iso="1801-10-04">4. Oktober 1801</date>
+         </creation>
+        <langUsage>
+           <language ident="d">deutsch</language>
+        </langUsage>
+         <textClass>
+            <keywords scheme="internal"><!-- internal: innerhalb des besagten Briefs -->
+               <term>Billet</term>
+               <term>Bibliothek</term>
+               <term>Gräfin Voss</term>
+            </keywords>
+            <keywords scheme="categorisation"><!-- Sinnabschnittseinteilung - relevant für den Fahrkartenautomaten! -->
+               <term xml:id="vkgvb">Verhältnis Karl Gustav von Brinckmann</term>
+               <term xml:id="gfvs">Gräfin Voss</term>
+            </keywords>
+         </textClass>
+         <textDesc>
+            <channel>manuscript</channel>
+            <constitution type="single"/>
+            <derivation type="original"/>
+            <domain type="private"/>
+            <factuality type="fact"/>
+            <interaction type="partial"/>
+            <preparedness type="prepared"/>
+            <purpose type="inform"/>
+         </textDesc>
+         <particDesc>
+            <listPerson>
+               <!-- Sender und Adressat -->
+               <person role="sender" xml:id="Gen">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/118538489"/>
+                     <forename>Friedrich von</forename>
+                     <surname>Gentz</surname>
+                  </persName>
+               </person>
+               <person role="receiver" xml:id="KGvB">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/116519770"/>
+                     <forename>Carl Gustav von</forename>
+                     <surname>Brinckmann</surname>
+                  </persName>
+               </person>
+               <!-- erwähnte Personen -->
+               <person role="named" xml:id="LvV">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/117746185" />
+                     <forename>Luise von</forename>
+                     <surname>Voss</surname>
+                  </persName>
+               </person>
+            </listPerson>
+         </particDesc>
+         <settingDesc>
+            <listPlace>
+               <!-- Start- und Zielort -->
+               <place type="sender" xml:id="plBe">
+                  <country>
+                     <ref target="http://d-nb.info/gnd/4047194-9"/>
+                     <placeName>Preußen</placeName>
+                  </country>
+                  <settlement>
+                     <ref target="http://d-nb.info/gnd/4005728-8"/>
+                     <placeName>Berlin</placeName>
+                  </settlement>
+               </place>
+               <!-- erwähnte Orte -->
+            </listPlace>
+         </settingDesc>
+      </profileDesc>
+      <revisionDesc>
+         <change xml:id="init" when-iso="2018-03-09" who="#edAG">Erstauszeichnung und Normierung des Dokumentes im Rahmen der Masterarbeit der Matrikelnummer 5584124</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div n="1" corresp="#vkgvb">
+            <p>
+               Das Stillschweigen der Verachtung, womit Sie meine wohlgemeinten Anträge beantworten, kränkt mich aufs 
+               schmerzlichste. Bei dem freundschaftlichen Vernehmen, welches bisher zwischen unsern beiden Höfen - trotz so 
+               mancher zweideut<add place="above">igen</add> Maßregel des Ihrigen - obgewaltet 
+               hat<add place="above">, is</add>t mir eine solche Aufnahme einer Note von erster Wichtigkeit unbegreiflich. Um 
+               Ihnen indessen einen Beweis von der Reinigkeit und Großmuth unsrer Gesinungen zu geben, und den 
+               <emph rend="underlined">Friedens-Bruch</emph>, der bei fortgesetzter Geringschätzung unausbleiblich erfolgen 
+               müßte, noch möglichst abzuwenden, übergebe ich Ihnen hier, ohne allen weitern Commentar, ein neues Projekt zu 
+               einem Freundschafts- und Handels-Traktat, dessen unendliche und ganz unerhörte Billigkeit Ihnen auf den ersten 
+               Anblick in die Augen springen wird.
+            </p>
+            <p>
+               Hierüber bitte ich mir vor Ablauf des heutigen Tages, über folgende dringendern Fragen <pb/> aber auf jeden Fall 
+               <emph rend="underlined">vor 5 Uhr</emph>, und zwar durch einen eignen Courier, Antwort aus:
+            </p>
+            <p>
+               1. Zu welcher Stunde wird denn heute die Gesellschaft in Ihrem Hause angehen, da das Französische Schauspiel doch 
+               wahrscheinlich von allen besucht wird ?
+            </p>
+            <p>
+               2. Geht die <rs type="person" ref="#LvV">Gräfin Voss</rs> in dieses französische Schauspiel ? - Da ich sie lange 
+               nicht gesehen, so würde ich auf den Fall daß sie <emph rend="underlined">nicht</emph> hinginge, 
+               heu<add place="above">te</add> Abend einen Besuch bei ihr machen. Hätten Sie vielleicht gleiche Projekte ?
+            </p>
+            <p>
+               Versäumen Sie nicht mir hierauf vor 5 Uhr zu antworten.
+            </p>
+         </div>
+         <closer>
+            <signed rend="right">Gentz.</signed>
+            <dateline rend="right">Den<date when-iso="1801-10-04">4 Oktobr 1801</date></dateline>
+         </closer>
+      </body>
+   </text>
+</TEI>

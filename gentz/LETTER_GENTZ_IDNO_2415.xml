@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader type="text">
+      <fileDesc xml:id="LETTER_GENTZ_2415">
+         <titleStmt>
+            <title>Friedrich von Gentz an Friedrich Philipp Rosenstiel, 23. Februar 1794</title>
+            <editor xml:id="edAG">Andreas Gálffy</editor>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <name>Forschungsstelle "Universitätssammlung Friedrich von Gentz"</name>
+               <link target="http://gentz-digital.ub.uni-koeln.de http://www.ub.uni-koeln.de/cdm/singleitem/collection/gentz/id/2414/"/>
+            </publisher>
+            <pubPlace>Cologne</pubPlace>
+            <idno type="Gentz-Edition-Number" n="2415"/>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <country>Germany</country>
+                  <settlement>Nuremberg</settlement>
+                  <institution>Germanisches Nationalmuseum</institution>
+                  <repository>Handschriftenabteilung, II. Politik</repository>
+                  <collection>Kapsel 48</collection>
+                  <idno>Z. R. No. 6268</idno>
+               </msIdentifier>
+               <msContents>
+                  <summary>
+                     Friedrich Philipp Rosenstiel wandte sich im Namen Voss' an Gentz, damit dieser eine Übersetzung eines Werkes 
+                     vornehme. Er tut dies unter drei Bedingungen: erstens will er anonym bleiben, da er mit den Gedanken des Werkes 
+                     noicht einverstanden ist. Zweitens möchte er seinen Verdienst erfahren, drittens will er mehr Zeit, als bis zur 
+                     Ostermesse. Am Rand merkt Rosenstiel an, das er gerne mittelt.
+                  </summary>
+               </msContents>
+            </msDesc>
+            <listBibl type="letterReferenced">
+               <bibl xml:id="c2415-1" corresp="#LETTER_GENTZ_NNNN">nicht bekanntes Billet von Friedrich Philipp Rosenstiel an Friedrich von Gentz, 22. Februar 1794</bibl>
+            </listBibl>
+            <listBibl type="alludedWorks">
+               <bibl xml:id="a2415-1" corresp="#LETTER_GENTZ_NNNN">nicht näher benanntes Buch von einem unbekannten Autor</bibl>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Masterarbeit zu Matrikelnummer 5584124</p>
+         </projectDesc>
+      </encodingDesc>
+      <profileDesc>
+         <creation>
+            <date when-iso="1794-02-23">23. Februar 1794</date>
+         </creation>
+        <langUsage>
+           <language ident="d">deutsch</language>
+        </langUsage>
+         <textClass>
+            <keywords scheme="internal"><!-- internal: innerhalb des besagten Briefs -->
+               <term>Brief</term>
+               <term>Übersetzung</term>
+               <term>Christian Voß</term>
+            </keywords>
+            <keywords scheme="categorisation"><!-- Sinnabschnittseinteilung - relevant für den Fahrkartenautomaten! -->
+               <term xml:id="frv">Französische Revolution</term>
+               <term xml:id="vfpr">Verhältnis Friedrich Philipp Rosenstiel</term>
+               <term xml:id="vcfv">Verhältnis Christian Friedrich Voß</term>
+            </keywords>
+         </textClass>
+         <textDesc>
+            <channel>manuscript</channel>
+            <constitution type="single"/>
+            <derivation type="original"/>
+            <domain type="private"/>
+            <factuality type="fact"/>
+            <interaction type="partial"/>
+            <preparedness type="unprepared"/>
+            <purpose type="inform"/>
+         </textDesc>
+         <particDesc>
+            <listPerson>
+               <!-- Sender und Adressat -->
+               <person role="sender" xml:id="Gen">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/118538489"/>
+                     <forename>Friedrich von</forename>
+                     <surname>Gentz</surname>
+                  </persName>
+               </person>
+               <person role="receiver" xml:id="FPR">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/116625155"/>
+                     <forename>Friedrich Philipp</forename>
+                     <surname>Rosenstiel</surname>
+                  </persName>
+               </person>
+               <!-- erwähnte Personen -->
+               <person role="named" xml:id="CFV">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/117495301"/>
+                     <forename>Christian Friedrich</forename>
+                     <surname>Voß</surname>
+                  </persName>
+               </person>
+            </listPerson>
+         </particDesc>
+         <settingDesc>
+            <listPlace>
+               <!-- Start- und Zielort -->
+               <place type="sender" xml:id="plBe">
+                  <country>
+                     <ref target="http://d-nb.info/gnd/4047194-9"/>
+                     <placeName>Preußen</placeName>
+                  </country>
+                  <settlement>
+                     <ref target="http://d-nb.info/gnd/4005728-8"/>
+                     <placeName>Berlin</placeName>
+                  </settlement>
+               </place>
+               <!-- erwähnte Orte -->
+            </listPlace>
+         </settingDesc>
+      </profileDesc>
+      <revisionDesc>
+         <change xml:id="init" when-iso="2018-02-14" who="#edAG">Erstauszeichnung und Normierung des Dokumentes im Rahmen der Masterarbeit der Matrikelnummer 5584124</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div n="1" corresp="#frv">
+            <p>
+               Da ich mit <rs type="person" ref="#CFV">Herrn Voss</rs> nicht näher bekannt bin, so nehme ich mir die Freiheit, 
+               meine Erklärung an Sie abzugeben.
+            </p>
+            <p>
+               1. Die Conditio sine qua non unter welcher ich die Uebersetzung unternehme, ist, daß mein 
+               <emph rend="underlined">Nahme</emph> nicht dabey gedruckt erscheine. Das Buch ist nicht in den Principien 
+               geschrieben, zu denen ich mich bekenne und öffentlich bekannt habe: es ist überdies weit entfernt gründlich und exact 
+               zu seyn. Ich will es also zwar mit Treue und Fleiß verdeutschen, aber keinesweges adoptiren: daher kan ich meinen 
+               Nahmen dazu nicht <emph rend="underlined">förmlich</emph> hergeben.
+            </p>
+            <p>
+               2. Da Sie aus dieser Bedingung schon ersehen, daß nicht Lust an dem <rs type="person" ref="#a2415-1">Buche</rs> und 
+               innrer Drang mich zu dieser Arbeit führen würden, sondern, daß ich solche <add place="above">bloß</add>, um etwas 
+               zu verdienen, <del rend="stroked">xxx</del> übernehmen könnte, so müßte ich, um mich definitiv zu erklären, erst 
+               wissen, wieviel <rs type="person" ref="#CFV">Herr Voss</rs> daran zu wenden gedenkt, d. i. wie theuer er den Bogen 
+               bezahlen will. <pb/>
+            </p>
+            <p>
+               3. Das Wort <emph rend="underlined">Ostermesse</emph> ist <ref target="#r2414-1">schrecklich</ref>. Auf jeden Fall 
+               würde ich mir eine bestimmte Epoche, eine bestimmte Anzahl von Wochen in welchen die Uebersetzung fertig seyn muß, 
+               ausbitten. Denn <emph rend="underlined">unter</emph> 6 Wochen ist es glatt unmöglich, den ersten Theil zu vollenden, 
+               wenn nicht Sudeley das Resultat seyn soll.
+            </p>
+            <p>
+               Läßt sich also <rs type="person" ref="#CFV">Herr Voss</rs> den Punkt ad 1. gefallen, so 
+               <del rend="stroked">bitt</del> erwarte ich über 2, und 3, seine fernere Bestimmung, und werde dann unverzüglich mit 
+               <emph rend="underlined">Ja</emph> oder <emph rend="underlined">Nein</emph> angeben, ob ich den Antrag annehmen kan. 
+               Ich will mich auch in der Zwischenzeit auf den Fall, daß ich es ablehnen müste auf einen andern der Sache gewachsnen 
+               Mann mit möglichstem Fleiß besinnen.
+            </p>
+         </div>
+         <closer>
+            <signed rend="right">Gentz</signed>
+            <dateline rend="right">den <date when-iso="1794-02-23">23<span rend="sup">ten</span> Febr 1794</date>.</dateline>
+         </closer>
+         <postscript corresp="#vfpr">
+            <p>
+               P.S. In Rücksicht auf den Gegenstand Ihres <emph rend="underlined">ersten</emph> 
+               <rs type="citation" ref="#c2415-1">gestrigen Billets</rs> werde ich vor Ablauf dieser Woche sicher bey Ihnen 
+               erscheinen.
+            </p>   
+         </postscript>
+         <note place="margin" corresp="#vcfv">
+            <p>
+               Ich habe die Ehre, hier die Erklärung des Herrn Kriegs-Raths Gentz zu schicken, und werde, wenn Sie's für nöthig 
+               halten, der fernere Mittelsmann mit Vergnügen seyn. Rosenstiel.
+            </p>
+         </note>
+         <note resp="#edAG" xml:id="r2414-1">Demnach war das Fälligkeitsdatum der <date when-iso="1794-04-20">20. April 1794</date> gewesen, was eine Gesamtdauer von acht Wochen bedeutet hätte</note>
+         <note xml:id="r2414-2">Seite 3 eigenhändiger Vermerk von Rosenstiel an Voss</note>
+      </body>
+   </text>
+</TEI>

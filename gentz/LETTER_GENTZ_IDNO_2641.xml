@@ -1,0 +1,401 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc xml:id="LETTER_GENTZ_2641">
+         <titleStmt>
+            <title>Friedrich von Gentz an Adam Müller, 7. Oktober 1800</title>
+            <editor xml:id="edAG">Andreas Gálffy</editor>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <name>Forschungsstelle "Universitätssammlung Friedrich von Gentz"</name>
+               <link target="http://gentz-digital.ub.uni-koeln.de http://www.ub.uni-koeln.de/cdm/singleitem/collection/gentz/id/2640/"/>
+            </publisher>
+            <pubPlace>Cologne</pubPlace>
+            <idno type="Gentz-Edition-Number" n="2641"/>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <country>Sweden</country>
+                  <settlement>Trolle-Ljungby</settlement>
+                  <institution>Archiv des Grafen Wachtmeister</institution>
+                  <repository>Nachlaß Brinckmann, Gentziana</repository>
+               </msIdentifier>
+               <msContents>
+                  <summary>
+                     Adam Müller schwärmt auf eine laut Gentz jugendliche Weise für die Philosophie und besonders für Goethe. 
+                     Deshalb kam der letzte Brief verworren bei Gentz rüber. Er schreibt, dass er selbst einige Zeit brauchte, um 
+                     über eine gewisse Kurzsichtigkeit hinwegzukommen. Diese Kurzsichtigkeit äußert sich dadurch, dass A. Müller 
+                     Goethe idealisiert und seine Fehler weginterpretiert. Dann solgt ein kurzer Abschnitt zu anderen 
+                     Schriftstellern und über Gentz' Erlebnisse im Sommer. Die Lage Müllers in Göttigen ermögliche ihn, Lord 
+                     Stamfort kennen zu lernen und Gentz bittet Müller direkt darum, ihm einen Brief nach Braunschweig zu 
+                     übermitteln. Im Ratifizierenden Postscript wird der Brief an Stamfort erläutert sowie die neueste Ausgabe des 
+                     Historischen Journals angekündigt.
+                  </summary>
+               </msContents>
+            </msDesc>
+            <listBibl type="preprints">
+               <biblStruct>
+                  <monogr>
+                     <editor>
+                        <persName>
+                           <ref target="http://d-nb.info/gnd/130953075"/>
+                           <forename>Friedrich Carl</forename>
+                           <surname>Wittichen</surname>
+                        </persName>
+                        <persName>
+                           <ref /> <!-- kein GND-Eintrag -->
+                           <forename>Ernst</forename>
+                           <surname>Salzer</surname>
+                        </persName>
+                     </editor>
+                     <title>Briefe von und an Friedrich von Gentz, 4 Bde.</title>
+                     <imprint>
+                        <publisher>Oldenbourg</publisher>
+                        <pubPlace>München, Berlin</pubPlace>
+                        <date>1909-1913</date>
+                     </imprint>
+                     <biblScope unit="volume" n="2">
+                        II
+                     </biblScope>
+                     <biblScope unit="page" from="360" to="362">
+                        Nr. 190 (teilweise)
+                     </biblScope>
+                  </monogr>
+               </biblStruct>
+               <biblStruct>
+                  <monogr>
+                     <editor>
+                        <persName>
+                           <ref target="http://d-nb.info/gnd/11609673X"/>
+                           <forename>Jakob</forename>
+                           <surname>Baxa</surname>
+                        </persName>
+                     </editor>
+                     <title>Adam Müllers Lebenszeugnisse. 2 Bde.</title>
+                     <imprint>
+                        <pubPlace>München u.a.</pubPlace>
+                        <date>1966</date>
+                     </imprint>
+                     <biblScope unit="volume" n="2">
+                        II
+                     </biblScope>
+                     <biblScope unit="page" from="15" to="18">
+                        Nr. 8
+                     </biblScope>
+                  </monogr>
+               </biblStruct>
+            </listBibl>
+            <listBibl type="letterReferenced">
+               <bibl xml:id="c2641-1" corresp="#LETTER_GENTZ_NNNN">nicht bekannter Brief von Adam Müller an Friedrich von Gentz</bibl>
+               <bibl xml:id="c2641-2" corresp="#LETTER_GENTZ_5354">Friedrich von Gentz an Girolamo Lucchesini, 24. Juli 1800</bibl>
+               <bibl xml:id="c2641-3" corresp="#LETTER_GENTZ_NNNN">nicht bekannter Brief von Friedrich von Gentz an Heinrich Wilhelm von Stamfort</bibl>
+            </listBibl>
+            <listBibl type="defRep">
+               <biblStruct xml:id="p2641-1" corresp="GBk-0063">
+                  <monogr>
+                     <editor>
+                        <persName>
+                           <ref target="http://d-nb.info/gnd/118538489"/>
+                           <forename>Friedrich von</forename>
+                           <surname>Gentz</surname>
+                        </persName>
+                     </editor>
+                     <title>Historisches Journal</title>
+                     <imprint>
+                        <pubPlace>Berlin</pubPlace>
+                        <publisher>Heinrich Frölich</publisher>
+                        <date>1800</date>
+                     </imprint>
+                  </monogr>
+                  <ref target="https://books.google.de/books?id=0k5BAAAAcAAJ"/>
+               </biblStruct>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Masterarbeit zu Matrikelnummer 5584124</p>
+         </projectDesc>
+      </encodingDesc>
+      <profileDesc>
+         <creation>
+            <date when-iso="1800-10-07">7. Oktober 1800</date>
+         </creation>
+        <langUsage>
+           <language ident="d">deutsch</language>
+        </langUsage>
+         <textClass>
+            <keywords scheme="internal"><!-- internal: innerhalb des besagten Briefs -->
+               <term>Brief</term>
+               <term>Philosophie</term>
+               <term>Goethe</term>
+               <term>Stamford</term>
+            </keywords>
+            <keywords scheme="categorisation"><!-- Sinnabschnittseinteilung - relevant für den Fahrkartenautomaten! -->
+               <term xml:id="vam">Verhältnis Adam Müller</term>
+               <term xml:id="vjwvg">Verhältnis Johann Wolfgang von Goethe</term>
+               <term xml:id="lvm">Literatur vermischt</term>
+               <term xml:id="bezbl">Beziehungen zu Berlin - Leute</term>
+               <term xml:id="jrnh">Historisches Journal</term>
+            </keywords>
+         </textClass>
+         <textDesc>
+            <channel>manuscript</channel>
+            <constitution type="single"/>
+            <derivation type="original"/>
+            <domain type="private"/>
+            <factuality type="fact"/>
+            <interaction type="partial"/>
+            <preparedness type="prepared"/>
+            <purpose type="inform"/>
+         </textDesc>
+         <particDesc>
+            <listPerson>
+               <!-- Sender und Adressat -->
+               <person role="sender" xml:id="Gen">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/118538489"/>
+                     <forename>Friedrich von</forename>
+                     <surname>Gentz</surname>
+                  </persName>
+               </person>
+               <person role="receiver" xml:id="AHM">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/118584790"/>
+                     <forename>Adam Heinrich</forename>
+                     <surname>Müller</surname>
+                  </persName>
+               </person>
+               <!-- erwähnte Personen -->
+               <person role="named" xml:id="AdS">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/118615033"/>
+                     <forename>Adam</forename>
+                     <surname>Smith</surname>
+                  </persName>
+               </person>
+               <person role="named" xml:id="JWvG">
+                  <persName>
+                     <ref target="https://d-nb.info/gnd/118540238"/>
+                     <forename>Johann Wolfgang von</forename>
+                     <surname>Goethe</surname>
+                  </persName>
+               </person>
+               <person role="named" xml:id="vdV">
+                  <persName>
+                     <ref />
+                     <forename/>
+                     <surname>van de Vioere</surname>
+                  </persName>
+               </person>
+               <person role="named" xml:id="Stmf">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/117206881"/>
+                     <forename>Heinrich Wilhelm von</forename>
+                     <surname>Stamfort</surname>
+                  </persName>
+               </person>
+               <person role="named" xml:id="JFJB">
+                  <persName>
+                     <ref />
+                     <forename>Joseph François</forename>
+                     <surname>Joubert-Bonnaire</surname>
+                  </persName>
+               </person>
+               <person role="named" xml:id="NPP">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/117684465"/>
+                     <forename>Nikita Petrowitsch</forename>
+                     <surname>Panin</surname>
+                  </persName>
+               </person>
+               <person role="named" xml:id="BvK">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/136535526"/>
+                     <forename>Burchard von</forename>
+                     <surname>Krüdener</surname>
+                  </persName>
+               </person>
+               <person role="named" xml:id="FGil">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/118539345"/>
+                     <forename>Friedrich</forename>
+                     <surname>Gilly</surname>
+                  </persName>
+               </person>
+               <person role="named" xml:id="GirL">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/118780670"/>
+                     <forename>Girolamo</forename>
+                     <surname>Lucchesini</surname>
+                  </persName>
+               </person>
+               <person role="named" xml:id="JJPLC">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/159696496"/>
+                     <forename>John Joshua Proby</forename>
+                     <surname>Carysfort</surname>
+                  </persName>
+               </person>
+            </listPerson>
+         </particDesc>
+         <settingDesc>
+            <listPlace>
+               <!-- Start- und Zielort -->
+               <place type="sender" xml:id="plBe">
+                  <country>
+                     <ref target="http://d-nb.info/gnd/4047194-9"/>
+                     <placeName>Preußen</placeName>
+                  </country>
+                  <settlement>
+                     <ref target="http://d-nb.info/gnd/4005728-8"/>
+                     <placeName>Berlin</placeName>
+                  </settlement>
+               </place>
+               <place type="receiver" xml:id="plGt">
+                  <country>
+                     <ref target="http://d-nb.info/gnd/4094703-8"/>
+                     <placeName>Staat Hannover</placeName>
+                  </country>
+                  <settlement>
+                     <ref target="http://d-nb.info/gnd/4021477-1"/>
+                     <placeName>Göttingen</placeName>
+                  </settlement>
+               </place>
+               <!-- erwähnte Orte -->
+               <place type="named" xml:id="plBs">
+                  <country>
+                     <ref target="http://d-nb.info/gnd/4089993-7"/>
+                     <placeName>Staat Wolfenbüttel</placeName>
+                  </country>
+                  <settlement>
+                     <ref target="http://d-nb.info/gnd/4008065-1"/>
+                     <placeName>Braunschweig</placeName>
+                  </settlement>
+               </place>
+            </listPlace>
+         </settingDesc>
+      </profileDesc>
+      <revisionDesc>
+         <change xml:id="init" when-iso="2018-03-07" who="#edAG">Erstauszeichnung und Normierung des Dokumentes im Rahmen der Masterarbeit der Matrikelnummer 5584124</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div n="1" corresp="#vam">
+            <p>
+               <rs type="citation" ref="#c2641-1">Ihr Brief</rs>, liebster Müller, hat mir viel Vergnügen gemacht, und ich danke 
+               Ihnen sehr dafür: Ich gestehe Ihnen zwar offenherzig, daß ich einen Haupt-Theil desselben, nehmlich das Projekt zu 
+               einer Umarbeitung des <rs type="person" ref="#AdS">Smith</rs> nicht recht verstanden habe; und, ob ich gleich jetzt 
+               nicht die Zeit habe, mit Ihnen in eine nähere Erörterung Ihrer Ideen einzugehen, so muß ich mir 
+               <add place="above">doch</add> die Bemerkung, die Sie der Freundschaft, und meiner wahren Achtung für Sie, zu Gute 
+               halten werden, erlauben, daß mir Ihre Philosophie oft noch zu sehr in die verworrnen Farben einer gewißen 
+               jugendlichen Schwärmerei getaucht zu seyn scheint. Sie wißen wohl, daß ich von allem thörigten Stolze weit entfernt 
+               bin: aber sollte es Ihnen nicht Selbst hin und wieder Mißtrauen gegen Ihre Raisonnements einflößen, wenn ich Ihnen 
+               ganz einfach versichre - daß <emph rend="underlined">ich</emph> sie nicht <emph rend="underlined">verstehe</emph> ? 
+               Ihr Enthusiasmus für <rs type="person" ref="#JWvG">Göthe</rs> beruht - <span xml:lang="lat">experto crede</span> - 
+               gewiß nicht immer auf einer klaren, ich sage nicht einmal, deutlichen Vorstellung des Gegenstandes, und die Art wie 
+               Sie diesen Enthusiasmus <pb/> mit Ihrem Wohlwollen gegen mich, und mit Ihrer Liebe zu einigen meiner Produkte, oft 
+               etwas willkührlich, und ich mögte fast sagen, phantastisch paaren, giebt mir den gerechten Verdacht, daß Sie mit Sich 
+               Selbst noch nicht ganz aufs Reine gekommen sind. Hätte ich nicht so große, und so gerechte Hoffnungen auf Sie gebaut, 
+               so würde ich mich wohl hüten, Ihnen dergleichen Dinge zu sagen: aber Sie sind schon zu treflich, um nicht die letzten 
+               Feuer-Proben durchzugehen. Ich werde es nie vergessen, daß ich - fast 30 Jahr alt war, als ich zuerst zum klaren 
+               Bewustseyn meiner selbst und der Welt gelangte, und daß ich diesen glücklichen Standpunkt nicht durch mich selbst, 
+               sondern durch andre erreichte. Was mir geschehen ist, möge, und soll, und wird auch Ihnen geschehen. Erwarten Sie 
+               also in mir stets einen strengen und unerbittlichen Censor; und so oft Ihnen von mir das Wort: Ich verstehe Sie 
+               nicht, entgegen <pb/> tönt, <emph rend="red-underlined">so suchen Sie immer</emph>
+               <add place="margin" resp="#AHM">Ist nicht geschehn.</add> den Grund, wenn er auch gelegentlich in mir liegen sollte, 
+               in der Unvollständigkeit der Entwicklung Ihrer Begriffe auf.
+            </p>
+         </div>
+         <div n="2" corresp="#vjwvg">
+            <p>
+               Laßen Sie Sich, ich beschwöre Sie, Freund, <emph rend="underlined">die göttliche Klarheit des Bewustseyns</emph>, die 
+               höchste aller intellektuellen Höhen, durch den Mystizismus eines sich selbst überfliegenden Zeitalters nicht rauben ! 
+               Ich merkte schon bei Ihrem letzten Aufenthalte in <rs type="place" ref="#plBe">Berlin</rs>, daß Sie dieser Klippe 
+               nicht ganz entgangen sind, und <rs type="citation" ref="#c2641-1">Ihr Brief</rs>, so äußerst schätzbar und 
+               interessant er mir war, bestätigte die Besorgniß. Das Bestreben, an einem einzigen Individuum, wie Sie an 
+               <rs type="person" ref="#JWvG">Göthe</rs>, 
+               <emph rend="red-underlined">den ganzen Umkreis menschlicher Vollkommenheit</emph> fixiren zu wollen, mithin - wie Sie 
+               es denn recht wacker thun - diesem Idol <emph rend="red-underlined">alle die Eigenschaften</emph>
+               <add place="margin" resp="#AHM">Natürlich war davon nie die Rede.</add>, die ihm fehlen, anzudichten, und alle die 
+               schwachen Seiten, die er so gut wie jeder Sterbliche hat, durch geschraubte Hypothesen abzuraisonniren - ist reiner 
+               Mystizismus. Leben und denken Sie in Sich Selbst: Sie sind zu gut, um nur durch 
+               <rs type="person" ref="#JWvG">Göthe</rs> zu existiren; eine Einseitigkeit, <pb/> die sich nur dadurch vor sich selbst 
+               verbirgt, daß sie Vielseitigkeit in eigensinnigen und willkührlichen Combinazionen erkünstelt, ist doch nicht mehr 
+               und nicht weniger als Einseitigkeit.
+            </p>
+         </div>
+         <div n="3" corresp="#lvm">
+            <p>
+               Was Sie mir von <rs type="person" ref="#vdV">Herrn van de Vioere</rs> schreiben, interessirt mich sehr. Ich bitte 
+               Sie, ihn unbekannter Weise meiner Hochachtung zu versichern. Die Schrift des 
+               <rs type="person" ref="#JFJB">Herrn de Bonnaire</rs> kenne ich nicht. Daß er eine Antwort 
+               <emph rend="underlined">durch die Zeitung</emph> erhalten sollte, ist mir unwahrscheinlich. Hätten Sie mich von 
+               seinem Schritt benachrichtigen können, ehe er geschah, so würde ich ihm durch meine Verbindungen mit dem 
+               <rs type="person" ref="#NPP">Grafen Panin</rs>, und dem <rs type="person" ref="#BvK">Baron Krüdener</rs>, vielleicht 
+               einen Weg eröfnet haben, auf dem er sichrer als jetzt gegangen wäre.
+            </p>
+         </div>
+         <div n="4" corresp="#bezbl">
+            <p>
+               Obgleich der verfloßne Sommer durch den Tod unsers guten <rs type="person" ref="#FGil">Gilly</rs> mir eine Zeitlang 
+               sehr getrübt worden ist, so war er doch im Ganzen einer der angenehmsten meines Lebens. 
+               <ref target="#r2641-1">Mein Aufenthalt</ref> bei 
+               <rs type="person" ref="#GirL">Lucchesini</rs> entsprach der Erwartung aufs vollkommenste. <pb/> Der bevorstehende 
+               Winter wird, wenn kein unerwartetes Uebel meine Hoffnung vernichtet, nicht weniger angenehm seyn. Ich lebe und webe in 
+               der großen politischen Sphäre, und genieße des, in meiner Lage gewiß beneidenswerthen Glücks, über das 
+               <emph rend="underlined">Innre</emph> der großen Angelegenheiten unaufhörlich so unterrichtet zu seyn, wie vielleicht 
+               nicht viele unsrer Zeitgenossen es sind. An <rs type="person" ref="#JJPLC">Lord Carysfort</rs> habe ich eine neue, 
+               vortrefliche Quelle, und einen wahren Freund gefunden: 
+               <emph rend="underlined">in <rs type="place" ref="#plBe">Berlin</rs></emph> bleibt mir fast nichts zu wünschen mehr 
+               übrig.
+            </p>
+         </div>
+         <div n="5" corresp="#vam">
+            <p>
+               Ich will Ihnen nun noch einen Vorschlag thun. <rs type="person" ref="#Stmf">General Stamfort</rs> ist in 
+               <rs type="place" ref="#plBs">Braunschweig</rs>, und bleibt, nach den letzten Nachrichten, noch etwa 8 Tage daselbst. 
+               Wenn Sie Lust haben, ihn kennen zu lernen, so schicken Sie ihm gleich 
+               <rs type="citation" ref="#c2641-3">beikommenden Brief</rs>, und gehen Sie unmittelbar nachher zu ihm. Er wird Sie gut 
+               aufnehmen. Da ich Sie aber keinesweges geniren will, und Ihre dortigen Verhältnisse <pb/> nicht kenne, so dient Ihnen 
+               zur Nachricht, daß falls Sie <emph rend="underlined">nicht</emph> Lust hätten, diesen Besuch zu machen, der 
+               <rs type="citation" ref="#c2641-3">Brief</rs> unbestellt bleiben kan: er enthält nichts als eine Empfehlung. 
+               Schreiben Sie mir noch einmal von <rs type="place" ref="#plBs">Braunschweig</rs> aus; und je öfter Sie es von 
+               <rs type="place" ref="#plGt">Göttingen</rs> thun werden, desto lieber wird es seyn
+            </p>
+         </div>
+         <closer>
+            <salute rend="right">Ihrem sehr ergebnen Freunde</salute>
+            <dateline rend="left"><rs type="place" ref="#plBe">Berlin</rs> <date when-iso="1800-10-07">7<span rend="sup">ten</span> Oktober 1800</date>.</dateline>
+            <signed rend="right">Gentz.</signed>
+         </closer>
+         <postscript corresp="#vam">
+            <head><emph rend="underlined">Ratifizirendes Postscript</emph></head>
+            <p>
+               Ich schicke Ihnen den <rs type="citation" ref="#c2641-3">Brief</rs> an <rs type="person" ref="#Stmf">Stamfort</rs> 
+               offen, damit Sie ihn lesen können, und bitte, ihn nachher mit einem Oblat zuzumachen. In jedem Falle wäre es mir 
+               <add place="above">doch</add> lieb, wenn Sie ihn abgeben ließen, selbst wenn Sie <emph rend="underlined">nicht</emph> 
+               zu ihm gehen wollten. Sie werden ja in diesem Falle leicht eine schriftliche Entschuldigung finden. Uebrigens spricht 
+               <rs type="person" ref="#Stmf">Stamfort</rs> eben so gern <emph rend="underlined">deutsch</emph> als französisch. 
+               <pb/>
+            </p>
+         </postscript>
+         <postscript corresp="#jrnh">
+            <p>
+               So eben fällt mir noch ein, daß ich Ihnen doch das letzte Stück 
+               <rs type="citation" ref="#p2641-1">meines Journals</rs> schicken will, weil Sie es vielleicht sonst nur spät erhalten 
+               würden. Es enthält eine Arbeit, auf die ich deshalb einigen Werth lege, weil sie mir mehr Zeit und Mühe gekostet hat, 
+               als <del rend="stroked">fast</del> irgend eine ohne Ausnahme, die ich noch bisher in 
+               <rs type="citation" ref="#p2641-1">dieser Zeitschrift</rs> geliefert habe. Ich wünsche daß sie Ihnen gefallen möge.
+            </p>
+         </postscript>
+      </body>
+      <note resp="#edAG" xml:id="r2641-1">Vgl. die Kategorie "Reise nach Meseritz", v.a. im <rs type="citation" ref="#c2641-2">Brief vom 24. Juli 1800 an Lucchesini</rs></note>
+   </text>
+</TEI>

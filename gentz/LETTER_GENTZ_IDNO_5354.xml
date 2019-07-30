@@ -1,0 +1,266 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc xml:id="LETTER_GENTZ_5354">
+         <titleStmt>
+            <title>Friedrich von Gentz an Girolamo Lucchesini, 24. Juli 1800</title>
+            <editor xml:id="edAG">Andreas Gálffy</editor>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <name>Forschungsstelle "Universitätssammlung Friedrich von Gentz"</name>
+               <link target="http://gentz-digital.ub.uni-koeln.de http://www.ub.uni-koeln.de/cdm/singleitem/collection/gentz/id/5353/"/>
+            </publisher>
+            <pubPlace>Cologne</pubPlace>
+            <idno type="Gentz-Edition-Number" n="5354"/>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <country>Germany</country>
+                  <settlement>Berlin</settlement>
+                  <institution>Geheimes Staatsarchiv Preußischer Kulturbesitz</institution>
+                  <repository>I. HA, Rep 92</repository>
+                  <collection>Nachlaß Lucchesini, Nr. 27</collection>
+                  <idno>Bl. 17-18v</idno>
+               </msIdentifier>
+               <msContents>
+                  <summary>
+                     Nach seiner Reise nach Meseritz ist Gentz immer noch voller Empathie über die dort verlebten Tage. Ganz 
+                     besonders freut er sich über die mit der Familie Lucchesini verbrachte Zeit. Danach gibt er ein Resumé über 
+                     mehrere Ereignisse, die für ihn "nicht untinteressant" sein sollten. Sie folgen in einem beiliegenden Blatt. 
+                     Darüber hinaus informiert Gentz über weitere Begebenheiten: Gentz hatte ein längeres Gespräch mit Herrn 
+                     Hudelist geführt. Dieser erkundigte sich, ob die Komplimente von Wien Lucchesini überbracht worden seien. Gentz 
+                     erwiderte, dass dies erfolgt sei. Lucchesini soll überbracht werden, dass Herr Thugut ihm nichts mehr nachtrage 
+                     hinsichtlich des Bruches mit Wien. Gentz ist überrrascht, dass niemand im österreichischen Kabinett Lucchesini 
+                     misstraut.
+                  </summary>
+               </msContents>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Masterarbeit zu Matrikelnummer 5584124</p>
+         </projectDesc>
+      </encodingDesc>
+      <profileDesc>
+         <creation>
+            <date when-iso="1800-07-24">24. Juli 1800</date>
+         </creation>
+        <langUsage>
+           <language ident="f">französisch</language>
+        </langUsage>
+         <textClass>
+            <keywords scheme="internal"><!-- internal: innerhalb des besagten Briefs -->
+               <term>Brief</term>
+               <term>Reise</term>
+               <term>Meseritz</term>
+               <term>Thugut</term>
+               <term>Wien</term>
+            </keywords>
+            <keywords scheme="categorisation"><!-- Sinnabschnittseinteilung - relevant für den Fahrkartenautomaten! -->
+               <term xml:id="rmr">Reise nach Meseritz</term>
+               <term xml:id="vgl">Verhältnis Girolamo Lucchesini</term>
+               <term xml:id="bezw">Beziehungen zu Wien</term>
+            </keywords>
+         </textClass>
+         <textDesc>
+            <channel>manuscript</channel>
+            <constitution type="single"/>
+            <derivation type="original"/>
+            <domain type="private"/>
+            <factuality type="fact"/>
+            <interaction type="partial"/>
+            <preparedness type="prepared"/>
+            <purpose type="inform"/>
+         </textDesc>
+         <particDesc>
+            <listPerson>
+               <!-- Sender und Adressat -->
+               <person role="sender" xml:id="Gen">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/118538489"/>
+                     <forename>Friedrich von</forename>
+                     <surname>Gentz</surname>
+                  </persName>
+               </person>
+               <person role="receiver" xml:id="GirL">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/118780670"/>
+                     <forename>Girolamo</forename>
+                     <surname>Lucchesini</surname>
+                  </persName>
+               </person>
+               <!-- erwähnte Personen -->
+               <person role="named" xml:id="FGil">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/118539345"/>
+                     <forename>Friedrich</forename>
+                     <surname>Gilly</surname>
+                  </persName>
+               </person>
+               <person role="named" xml:id="CvT">
+                  <persName>
+                     <ref />
+                     <forename>Charlotte von</forename>
+                     <surname>Tarrach</surname>
+                  </persName>
+               </person>
+               <person role="named" xml:id="JvHd">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/137639449"/>
+                     <forename>Josef von</forename>
+                     <surname>Hudelist</surname>
+                  </persName>
+               </person>
+               <person role="named" xml:id="JAFdPvT">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/118622390"/>
+                     <forename>Johann Amadeus Franz de Paula von</forename>
+                     <surname>Thugut</surname>
+                  </persName>
+               </person>
+            </listPerson>
+         </particDesc>
+         <settingDesc>
+            <listPlace>
+               <!-- Start- und Zielort -->
+               <place type="sender" xml:id="plBe">
+                  <country>
+                     <ref target="http://d-nb.info/gnd/4047194-9"/>
+                     <placeName>Preußen</placeName>
+                  </country>
+                  <settlement>
+                     <ref target="http://d-nb.info/gnd/4005728-8"/>
+                     <placeName>Berlin</placeName>
+                  </settlement>
+               </place>
+               <!-- erwähnte Orte -->
+               <place type="named" xml:id="plKb">
+                  <country>
+                     <ref target="http://d-nb.info/gnd/4007467-5"/>
+                     <placeName>Böhmen</placeName>
+                  </country>
+                  <settlement>
+                     <ref target="http://d-nb.info/gnd/4029705-6"/>
+                     <placeName>Karlsbad</placeName>
+                  </settlement>
+               </place>
+               <place type="named" xml:id="plMs">
+                  <country>
+                     <ref target="http://d-nb.info/gnd/4047194-9"/>
+                     <placeName>Preußen</placeName>
+                  </country>
+                  <region>
+                     <ref target="http://d-nb.info/gnd/4399096-4"/>
+                     <placeName>Kreis Meseritz</placeName>
+                  </region>
+               </place>
+               <place type="named" xml:id="plWi">
+                  <country>
+                     <ref target="http://d-nb.info/gnd/4075601-4"/>
+                     <placeName>Erzherzogtum Österreich</placeName>
+                  </country>
+                  <settlement>
+                     <ref target="http://d-nb.info/gnd/4066009-6"/>
+                     <placeName>Wien</placeName>
+                  </settlement>
+               </place>
+            </listPlace>
+         </settingDesc>
+      </profileDesc>
+      <revisionDesc>
+         <change xml:id="init" when-iso="2018-03-05" who="#edAG">Erstauszeichnung und Normierung des Dokumentes im Rahmen der Masterarbeit der Matrikelnummer 5584124</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <opener>
+            <salute rend="left">Monsieur le Marquis !</salute>
+         </opener>
+         <div n="1" corresp="#rmr">
+            <p>
+               Je suis heureusement arrivé à <rs type="place" ref="#plBe">Berlin</rs>, et les inquiétudes qui m'avoient tourmenté 
+               pendant les derniers jours de mon absence se sont trouvées être sans fondement: les lettres ne m'avoient manqué que 
+               par de simples méprises: <rs type="person" ref="#FGil">mon pauvre beau-frère</rs> étoit parti pour 
+               <rs type="place" ref="#plKb">Carlsbad</rs>, et on avoit même eu au moment de son départ quelque foible lueur 
+               d'espérance.
+            </p>
+            <p>
+               Combien de choses je m'étois proposé de dire aujourd'hui à Votre Excellence sur le séjour heureux, qu'Elle m'a 
+               permis de faire à <rs type="place" ref="#plMs">Meseritz</rs> ! Mais que je me sens peu de forces pour en exprimer la 
+               moindre partie ! Le bonheur seul, de pouvoir passer une suite de jours avec l'homme, dont je me suis dit si souvent, 
+               de l'entendre discuter les objets qui m'intéressent au delà de tous les autres, de m'instruire continuellement dans 
+               Sa société, ce bonheur seul auroit été pour moi d'un prix infini ! Et voilà que j'en ai joui dans des circonstances 
+               qui en rehaussoient encore si considérablement la jouissance ! entouré de tous les agrémens que devoit fournir la 
+               société <pb/> de la famille la plus aimable du monde, comblé de bontés de toute espèce. Le souvenir de ces jours 
+               délicieux ne s'effacera jamais de mon ame. Je prie Votre Excellence d'agréer l'expression foible mais sincère d'une 
+               reconnoissance éternelle, et de présenter l'hommage de cette reconnoissance dans les termes du plus respectueux 
+               dévouement à <rs type="person" ref="#CvT">Madame la Marquise</rs>, et de la plus tendre amitié à Messieurs ses fils. 
+               Je tacherai du moins d'être toujours digne par les sentimens que je porterai à Votre Excellence et son illustre 
+               maison, des faveurs dont Elle m'a honoré jusqu'a présent.
+            </p>
+         </div>
+         <div n="2" corresp="#vgl">
+            <p>
+               Je suis assez heureux pour pouvoir Vous communiquer, Monsieur le Marquis, avec cette lettre, quelques nouvelles qui 
+               ne seront pas sans intérèt pour Votre Excellence. Je les ai réunis dans les feuilles ci-jointes, auxquelles j'ai 
+               donné la forme plus simple et plus libre d'un bulletin. Il est vrai que Votre Excellence pourroit en avoir appris 
+               quelques-unes par d'autres voies: mais pour ne rien manquer, j'ai écrit dans la supposition du contraire; et je le 
+               ferai toujours, si Vous m'en donnez la permission, parce qu'il vaut peut-être <pb/> mieux de lire deux fois la même 
+               nouvelle, que de ne pas en être instruit, parce que l'un des correspondans s'en est remis à l'autre.
+            </p>
+         </div>
+         <div n="3" corresp="#bezw">
+            <p>
+               Outre ce que ce bulletin contient, j'ai encore a présenter à Votre Excellence un objet, qui La regarde particulièrement. 
+               C'est un des résultats d'une conversation très-longue, très-animée, et quelquefois très-piquante, que j'ai eu hier avec 
+               <rs type="person" ref="#JvHd">Monsieur Hudelist</rs>. Il m'a demandé d'abord avec un empressement, qui m'a frappé, si je 
+               m'étois acquitté des complimens dont il m'avoit chargé pour Votre Excellence. Je lui ai dit, ce que Votre Excellence 
+               m'avoit ordonné de lui dire, et puis nous sommes entré en matière. Je me suis bientot apperçu qu'il affectoit de ramener 
+               toujours la conversation (dans laquelle d'ailleurs il se piqua d'une franchise peu commune) à Votre Excellence: il 
+               commença lui-même à regretter les <del rend="stroked">xxx</del> malheureuses différences d'opinion qui avoient amené 
+               Votre eloignement de <rs type="place" ref="#plWi">Vienne</rs>; enfin il me dit en propres termes, 
+               <quote corresp="#JvHd">
+                  qu'il étoit <emph rend="underlined">autorisé</emph> par <rs type="person" ref="#JAFdPvT">Monsieur de Thugut</rs> 
+                  de faire disparoitre entièrement de l'esprit de Monsieur le Marquis de Lucchesini l'idée, que Lui 
+                  (<rs type="person" ref="#JAFdPvT">Monsieur de Thugut</rs>) auroit encore conservé la moindre amertume, ou même le 
+                  moindre souvenir de ce qui s'étoit passé alors; qu'il saisiroit la premiere occasion qui se présenteroit pour 
+                  s'acquitter lui-même de cette commission de <rs type="person" ref="#JAFdPvT">Monsieur de Thugut</rs>; qu'en 
+                  attendant il me permettoit,
+               </quote>
+               <pb/>
+               <quote>
+                   il me <emph rend="underlined">prioit</emph> même d'en parler préalablement à Votre Excellence
+               </quote> - Je repète verbalement, ce qu'il m'a dit; je ne <add place="above">me</add> permets aucun jugement, ni sur 
+               la manière singulière, avec laquelle cette espèce de déclaration a été adressée à moi, pauvre et insignifiant 
+               individu, ni sur la sincérité de ces protestations, ni sur le motif secret, qui a tout-à-coup ramené 
+               <rs type="person" ref="#JAFdPvT">Monsieur de Thugut</rs> à cette apparence de justice et de loyauté. Mais quoiqu'il 
+               en soit, la chose me paroit remarquable, et j'ai cru de mon devoir de la présenter à Votre Excellence telle qu'elle 
+               s'est passée. Au reste je me suis conduit dans cette conversation, comme j'ai cru qu'il convenoit à ma situation. Je 
+               lui ai dit, que je n'avois jamais connu les causes de la méfiance de 
+               <rs type="person" ref="#JAFdPvT">Monsieur de Thugut</rs> contre Votre Excellence, mais que 
+               <add place="above">je</add> croyois Vous connoitre assez, pour être intimément convaincu, qu'il étoit impossible, et 
+               impossible dans toute la force du terme, que Vous eussiez jamais pu donner <add place="above">xxx</add> au 
+               Ministère Autrichien le moindre sujet de mécontentement <emph rend="underlined">réel</emph>; j'ai ajouté, que comme 
+               je savois, que Votre Excellence aimoit à vivre en paix avec tout le monde, je ne doutois pas, que les sentimens de 
+               <rs type="person" ref="#JAFdPvT">Monsieur de Thugut</rs> dont il ma parloit, ne Vous fussent agréables. J'espère que 
+               Votre Excellence ne <del rend="stroked">xxx</del> désapprouvera pas cette réponse.
+            </p>
+            <p>
+               Recevez, Monsieur le Marquis, avec la bonté à laquelle Vous avez bien voulu m'accoutumer l'assurance renouvellée du 
+               profond respect avec lequel je suis
+            </p>
+         </div>
+         <closer>
+            <salute rend="right">De Votre Excellence</salute>
+            <salute rend="right">le très-humble et très fidèle</salute>
+            <signed rend="right">Gentz.</signed>
+         </closer>
+      </body>
+   </text>
+</TEI>

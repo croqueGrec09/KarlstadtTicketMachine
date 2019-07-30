@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader type="text">
+      <fileDesc xml:id="LETTER_GENTZ_0889">
+         <titleStmt>
+            <title>Friedrich von Gentz an Friedrich Vieweg, 20. Mai 1796</title>
+            <editor xml:id="edAG">Andreas Gálffy</editor>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <name>Forschungsstelle "Universitätssammlung Friedrich von Gentz"</name>
+               <link target="http://gentz-digital.ub.uni-koeln.de http://www.ub.uni-koeln.de/cdm/singleitem/collection/gentz/id/888/"/>
+            </publisher>
+            <pubPlace>Cologne</pubPlace>
+            <idno type="Gentz-Edition-Number" n="0889"/>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <country>Germany</country>
+                  <settlement>Hamburg</settlement>
+                  <institution>Staats- und Universitätsbibliothek Hamburg Carl von Ossietzky</institution>
+                  <repository>Handschriftenabteilung</repository>
+                  <collection>Campe-Sammlung 5</collection>
+               </msIdentifier>
+               <msContents>
+                  <summary>
+                     Schlesinger soll bis zur Neujahrsmesse vertröstet werden und Gentz bittet Vieweg um eine förmliche Erklärung. 
+                     Gentz hat viel Arbeit und meldet sich in zwölf bis 14 Tagen erneut.
+                  </summary>
+               </msContents>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Masterarbeit zu Matrikelnummer 5584124</p>
+         </projectDesc>
+      </encodingDesc>
+      <profileDesc>
+         <creation>
+            <date when-iso="1796-05-20">20. Mai 1796</date>
+         </creation>
+        <langUsage>
+           <language ident="d">deutsch</language>
+        </langUsage>
+         <textClass>
+            <keywords scheme="internal"><!-- internal: innerhalb des besagten Briefs -->
+               <term>Billet</term>
+               <term>Schulden</term>
+               <term>Schlesinger</term>
+            </keywords>
+            <keywords scheme="categorisation"><!-- Sinnabschnittseinteilung - relevant für den Fahrkartenautomaten! -->
+               <term xml:id="gprl">Gentz - p(r)ekuniäre Lage</term>
+               <term xml:id="vwf">Vieweg - Freundschaft</term>
+            </keywords>
+         </textClass>
+         <textDesc>
+            <channel>manuscript</channel>
+            <constitution type="single"/>
+            <derivation type="original"/>
+            <domain type="private"/>
+            <factuality type="fact"/>
+            <interaction type="partial"/>
+            <preparedness type="unprepared"/>
+            <purpose type="inform"/>
+         </textDesc>
+         <particDesc>
+            <listPerson>
+               <!-- Sender und Adressat -->
+               <person role="sender" xml:id="Gen">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/118538489"/>
+                     <forename>Friedrich von</forename>
+                     <surname>Gentz</surname>
+                  </persName>
+               </person>
+               <person role="receiver" xml:id="FVW">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/119049546"/>
+                     <forename>Friedrich</forename>
+                     <surname>Vieweg</surname>
+                  </persName>
+               </person>
+               <!-- erwähnte Personen -->
+               <person role="named" xml:id="JAS">
+                  <persName>
+                     <ref/>
+                     <forename>Jacob Abraham</forename>
+                     <surname>Schlesinger</surname>
+                  </persName>
+               </person>
+            </listPerson>
+         </particDesc>
+         <settingDesc>
+            <listPlace>
+               <!-- Start- und Zielort -->
+               <place type="sender" xml:id="plBe">
+                  <country>
+                     <ref target="http://d-nb.info/gnd/4047194-9"/>
+                     <placeName>Preußen</placeName>
+                  </country>
+                  <settlement>
+                     <ref target="http://d-nb.info/gnd/4005728-8"/>
+                     <placeName>Berlin</placeName>
+                  </settlement>
+               </place>
+               <!-- erwähnte Orte -->
+            </listPlace>
+         </settingDesc>
+      </profileDesc>
+      <revisionDesc>
+         <change xml:id="init" when-iso="2018-02-18" who="#edAG">Erstauszeichnung und Normierung des Dokumentes im Rahmen der Masterarbeit der Matrikelnummer 5584124</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div n="1" corresp="#gprl">
+            <p>
+               Ich danke Ihnen vorläufig aufs verbindlichste, mein lieber Freund, für Ihre jetzige Zusicherung, sowohl in Ansehung 
+               des Geldes als des Papiers. Indessen muß ich wegen des erstern noch einmal lästig werden. 
+               <rs type="person" ref="#JAS">Schlesinger</rs> ist ein Jude: mehr bedarf es nicht, um sie zu überzeugen, daß 
+               <emph rend="underlined">ich</emph> mir Ihre Erklärung gern gefallen ließe. <emph rend="underlined">Er</emph> braucht 
+               mehr Förmlichkeit. Ich habe ihn zwar disponirt, <emph rend="underlined">bestimmt</emph> bis zur 
+               <date when-iso="1797-01-01">Neujahrs Messe</date> zu warten: aber er verlangt wenigstens für diese Epoche eine 
+               acceptirte Anweisung; und da Sie Selbst dies als den spätsten Termin angegeben hatten, so durfte ich um so weniger 
+               diese Anweisung verweigern. Haben Sie nun schon, um mir diese Sache vom Halse zu schaffen, die Güte für mich, diese 
+               zu acceptiren; eine Verweigerung würde den Menschen ohne Noth stutzig machen, und mir Verdruß zuziehen. Ich rechne 
+               also auf Ihre Gefälligkeit.
+            </p>
+         </div>
+         <div n="2" corresp="#vwf">
+            <p>
+               In 12 oder 14 Tagen von hier sollen Sie mehr und bessres von mir hören. Heute sitze ich so tief in der Arbeit, daß 
+               ich bloß die Bitte um die Fortsetzung Ihres gütigen Andenkens hinzufüge.
+            </p>
+         </div>
+         <closer>
+            <signed rend="right">Gentz</signed>
+            <dateline rend="right"><rs type="place" ref="#plBe">Berlin</rs> den <date when-iso="1796-05-20">20<span rend="sup">ten</span> May 1796</date></dateline>
+         </closer>
+      </body>
+   </text>
+</TEI>

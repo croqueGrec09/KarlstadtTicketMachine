@@ -1,0 +1,242 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc xml:id="LETTER_GENTZ_1605">
+         <titleStmt>
+            <title>Friedrich von Gentz an Johannes von Müller, 14. August 1802</title>
+            <editor xml:id="edAG">Andreas Gálffy</editor>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <name>Forschungsstelle "Universitätssammlung Friedrich von Gentz"</name>
+               <link target="http://gentz-digital.ub.uni-koeln.de http://www.ub.uni-koeln.de/cdm/singleitem/collection/gentz/id/4720/"/>
+            </publisher>
+            <pubPlace>Cologne</pubPlace>
+            <idno type="Gentz-Edition-Number" n="1605"/>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <country>Switzerland</country>
+                  <settlement>Schaffhausen</settlement>
+                  <institution>Stadtbibliothek</institution>
+                  <repository>Nachlaß Johannes von Müller</repository>
+                  <collection>Msc. Müller</collection>
+                  <idno>149/4</idno>
+               </msIdentifier>
+               <msContents>
+                  <summary>
+                     Die Briefe eines jungen Gelehrten haben Gentz entzückt. Er findet keine Worte, um sein Vergnügen zu 
+                     beschreiben. Dafür aber wünscht er sich von Müllers Schweizer-Geschichte, um darin nachschlagen zu können. Er 
+                     konnte ihn nicht persönlich aufsuchen.
+                  </summary>
+               </msContents>
+            </msDesc>
+            <listBibl type="preprints">
+               <biblStruct>
+                  <monogr>
+                     <editor>
+                        <persName>
+                           <ref target="http://d-nb.info/gnd/104268913"/>
+                           <forename>Johann Konrad</forename>
+                           <surname>Maurer-Constant</surname>
+                        </persName>
+                     </editor>
+                     <title>Briefe an Johann von Müller (Supplement zu dessen sämtlichen Werken)</title>
+                     <imprint>
+                        <pubPlace>Schaffhausen</pubPlace>
+                        <date>1839</date>
+                     </imprint>
+                     <biblScope unit="volume" n="1">
+                        Bd. 1
+                     </biblScope>
+                     <biblScope unit="page" from="14" to="15">
+                        Nr. 5
+                     </biblScope>
+                  </monogr>
+               </biblStruct>
+               <biblStruct>
+                  <monogr>
+                     <editor>
+                        <persName>
+                           <ref target="http://d-nb.info/gnd/117325791"/>
+                           <forename>Gustav</forename>
+                           <surname>Schlesier</surname>
+                        </persName>
+                     </editor>
+                     <title>Schriften von Friedrich von Gentz. Ein Denkmal. 5 Bde.</title>
+                     <imprint>
+                        <publisher>Verlag von Heinrich Wolff</publisher>
+                        <pubPlace>Mannheim</pubPlace>
+                        <date>1838-1840</date>
+                     </imprint>
+                     <biblScope unit="volume" n="4">
+                        IV
+                     </biblScope>
+                     <biblScope unit="page" from="8" to="9">
+                        Nr. 3
+                     </biblScope>
+                  </monogr>
+               </biblStruct>
+            </listBibl>
+            <listBibl type="defRep">
+               <biblStruct xml:id="p1605-1" corresp="BSB-0021">
+                  <monogr>
+                     <author>
+                        <persName>
+                           <ref target="http://d-nb.info/gnd/118585045"/>
+                           <forename>Johannes von</forename>
+                           <surname>Müller</surname>
+                        </persName>
+                     </author>
+                     <title>Briefe eines jungen Gelehrten an seinen Freund</title>
+                     <imprint>
+                        <publisher>J. G. Cotta</publisher>
+                        <pubPlace>Tübingen</pubPlace>
+                        <date>1802</date>
+                     </imprint>
+                  </monogr>
+                  <ptr target="http://www.mdz-nbn-resolving.de/urn/resolver.pl?urn=urn:nbn:de:bvb:12-bsb10403513-0"/>
+               </biblStruct>
+               <biblStruct xml:id="p1605-2" corresp="GBk-0074">
+                  <monogr>
+                     <author>
+                        <persName>
+                           <ref target="http://d-nb.info/gnd/118585045"/>
+                           <forename>Johannes von</forename>
+                           <surname>Müller</surname>
+                        </persName>
+                     </author>
+                     <title>Der Geschichten schweizerischer Eidgenossenschaft</title>
+                     <imprint>
+                        <publisher>M. G. Weidmanns Erben und Reich</publisher>
+                        <pubPlace>Leipzig</pubPlace>
+                        <date>1786</date>
+                     </imprint>
+                  </monogr>
+                  <ptr target="https://books.google.de/books?id=qEcPAAAAQAAJ"/>
+               </biblStruct>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Masterarbeit zu Matrikelnummer 5584124</p>
+         </projectDesc>
+      </encodingDesc>
+      <profileDesc>
+         <creation>
+            <date when-iso="1802-08-14">14. August 1802</date>
+         </creation>
+        <langUsage>
+           <language ident="d">deutsch</language>
+        </langUsage>
+         <textClass>
+            <keywords scheme="internal"><!-- internal: innerhalb des besagten Briefs -->
+               <term>Brief</term>
+               <term>Journal historique</term>
+            </keywords>
+            <keywords scheme="categorisation"><!-- Sinnabschnittseinteilung - relevant für den Fahrkartenautomaten! -->
+               <term xml:id="lvm">Literatur vermischt</term>
+               <term xml:id="bibl">Bibliothek</term>
+               <term xml:id="vjvm">Verhältnis Johannes von Müller</term>
+            </keywords>
+         </textClass>
+         <textDesc>
+            <channel>manuscript</channel>
+            <constitution type="single"/>
+            <derivation type="original"/>
+            <domain type="private"/>
+            <factuality type="fact"/>
+            <interaction type="partial"/>
+            <preparedness type="prepared"/>
+            <purpose type="inform"/>
+         </textDesc>
+         <particDesc>
+            <listPerson>
+               <!-- Sender und Adressat -->
+               <person role="sender" xml:id="Gen">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/118538489"/>
+                     <forename>Friedrich von</forename>
+                     <surname>Gentz</surname>
+                  </persName>
+               </person>
+               <person role="receiver" xml:id="JvM">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/118585045"/>
+                     <forename>Johannes von</forename>
+                     <surname>Müller</surname>
+                  </persName>
+               </person>
+               <!-- erwähnte Personen -->
+            </listPerson>
+         </particDesc>
+         <settingDesc>
+            <listPlace>
+               <!-- Start- und Zielort -->
+               <place type="sender" xml:id="plWi">
+                  <country>
+                     <ref target="http://d-nb.info/gnd/4075601-4"/>
+                     <placeName>Erzherzogtum Österreich</placeName>
+                  </country>
+                  <settlement>
+                     <ref target="http://d-nb.info/gnd/4066009-6"/>
+                     <placeName>Wien</placeName>
+                  </settlement>
+               </place>
+               <!-- erwähnte Orte -->
+               <place type="named" xml:id="plCh">
+                  <country>
+                     <ref target="http://d-nb.info/gnd/1085175626"/>
+                     <placeName>Schweiz</placeName>  
+                  </country>
+               </place>
+            </listPlace>
+         </settingDesc>
+      </profileDesc>
+      <revisionDesc>
+         <change xml:id="init" when-iso="2018-03-11" who="#edAG">Erstauszeichnung und Normierung des Dokumentes im Rahmen der Masterarbeit der Matrikelnummer 5584124</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div n="1" corresp="#lvm">
+            <p>
+               Ich lese die "<rs type="citation" ref="#p1605-1"><emph rend="underlined">Briefe eines jungen Gelehrten</emph></rs>" 
+               pppp mit einem Vergnügen, das ich Ihnen nicht groß und lebhaft genug schildern kan. Diese Lektüre hat mich aus einem 
+               Irrthum gezogen. Ich hatte immer geglaubt daß, wenn man einmal die Geschichte der 
+               <rs type="place" ref="#plCh">Schweitz</rs> gelesen habe, die Achtung, die man aus diesem Werke, für den Geist und die 
+               Talente seines Verfassers schöpft, nicht mehr höher steigen könne. Jene Briefe haben mich eines andern belehrt. Die 
+               Geschichte lieferte mir nur das Produkt, das reine Produkt der Arbeiten eines außerordentlichen Kopfes: die 
+               Correspondenz führt mich gleichsam in die Werkstätte, und macht mich mit den Materialien und Werkzeugen, besonders 
+               aber mit der bewundernswürdigen Art, wie der Künstler beide zu benutzen wußte, bekannt. - 
+            </p>
+         </div>
+         <div n="2" corresp="#bibl">
+            <p>
+               Es entstand bei dieser Lektüre sehr oft der Wunsch, Ihre 
+               <rs type="citation" ref="#p1605-2">Schweitzer-Geschichte</rs> neben mir zu haben, und gewiße Artikel nachzuschlagen. 
+               Würden Sie wohl, verehrungswürdiger Freund, diesen Wunsch realisiren wollen ? Würden Sie mir wohl auf einige Tage die 
+               bisher erschienene Bände jenes treflichen Werkes leihen ?
+            </p>
+         </div>
+         <div n="3" corresp="#vjvm">
+            <p>
+               Ich bin durch mancherlei Verbindungen und Engagements, zum Theil wohl auch durch die drückende <pb/> Hitze der 
+               letzten Tage gehindert worden, Sie aufzusuchen. Aber, es soll nicht immer so seyn. Ich will 
+               <rs type="place" ref="#plWi">Wien</rs> gewiß nicht verlaßen, ohne mich noch mehr als einmal an Ihrem Geiste ergötzt, 
+               und in Ihrer angenehmen Gesellschaft gestärkt und erheitert zu haben. Nehmen Sie unterdessen mit einigem Wohlwollen 
+               die Versicherung meiner unbegränzten Hochachtung und Ergebenheit an.
+            </p>
+         </div>
+         <closer>
+            <dateline rend="left"><rs type="place" ref="#plWi">Wien</rs> den <date when-iso="1802-08-14">14 Aug: 1802</date>.</dateline>
+            <signed rend="right">Gentz.</signed>
+         </closer>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,411 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc xml:id="LETTER_GENTZ_4905">
+         <titleStmt>
+            <title>Friedrich von Gentz an Karl August Böttiger, 26. November 1801</title>
+            <editor xml:id="edAG">Andreas Gálffy</editor>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <name>Forschungsstelle "Universitätssammlung Friedrich von Gentz"</name>
+               <link target="http://gentz-digital.ub.uni-koeln.de http://www.ub.uni-koeln.de/cdm/singleitem/collection/gentz/id/4904/"/>
+            </publisher>
+            <pubPlace>Cologne</pubPlace>
+            <idno type="Gentz-Edition-Number" n="4905"/>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <country>Germany</country>
+                  <settlement>Dresden</settlement>
+                  <institution>Sächsische Landesbibliothek</institution>
+                  <repository>Handschriftensammlung, Nachlaß Böttiger</repository>
+                  <collection>Mscr. Dresd. h 37, Bd. 54 (4°)</collection>
+                  <altIdentifier>
+                     <country>Germany</country>
+                     <settlement>Nuremberg</settlement>
+                     <institution>Germanisches Nationalmuseum</institution>
+                     <repository>Handschriftenabteilung, Sammlung Böttiger</repository>
+                     <collection>Kapsel 8</collection>
+                     <idno>Nr. 4</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <msContents>
+                  <summary>
+                     Ein Begleitschreiben zu Bemerkungen über die englischen Debatten, in welchem Gentz sich mit Böttiger 
+                     verabredet. Aus den Zeitungen liest sich kaum, was tatsächlich in den Reden gesprochen wurde, allerdings 
+                     lassen sie sich gut erschließen. Hawkesbury und Addington vergleicht Gentz mit Mencken hinsichtlich ihrer 
+                     Beredsamkeit. Die Welt scheint durch ein widersinniges Prinzip regiert werden zu müssen. Windhams Reden 
+                     wurden in der Zeitung verstümmelt. Es folgt eine Stellungnahme zum Frieden zwischen England und Frankreich. 
+                     Englands Würde sei das Einzige, was Europa die Unabhängigkeit von Frankreich noch gewähren könne. Aber 
+                     diese Würde hat England verkannt und so seinen Charakter bei den Verhandlungen verloren. Das war die 
+                     Quintessenz aus Windhams Reden, die niemand richtig gesehen haben soll. Im zweiten Postscript schreibt 
+                     Gentz sogar von einer Verleumdung Windhams in der Allgemeinen Zeitung.
+                  </summary>
+               </msContents>
+            </msDesc>
+            <listBibl type="preprints">
+               <biblStruct>
+                  <monogr>
+                     <editor>
+                        <persName>
+                           <ref target="http://d-nb.info/gnd/130953075"/>
+                           <forename>Friedrich Carl</forename>
+                           <surname>Wittichen</surname>
+                        </persName>
+                        <persName>
+                           <ref /> <!-- kein GND-Eintrag -->
+                           <forename>Ernst</forename>
+                           <surname>Salzer</surname>
+                        </persName>
+                     </editor>
+                     <title>Briefe von und an Friedrich von Gentz, 4 Bde.</title>
+                     <imprint>
+                        <publisher>Oldenbourg</publisher>
+                        <pubPlace>München, Berlin</pubPlace>
+                        <date>1909-1913</date>
+                     </imprint>
+                     <biblScope unit="volume" n="1">
+                        I
+                     </biblScope>
+                     <biblScope unit="page" from="261" to="261">
+                        Nr. 68
+                     </biblScope>
+                  </monogr>
+               </biblStruct>
+            </listBibl>
+            <listBibl type="alludedWorks">
+               <bibl xml:id="a4905-1">nicht näher benannte Ausgabe der Zeitung "St. James Chronicle", keine Leseprobe</bibl>
+            </listBibl>
+            <listBibl type="defExpr">
+               <biblStruct xml:id="e4905-1" corresp="GBk-0071">
+                  <monogr>
+                     <author>
+                        <persName>
+                           <ref target="http://d-nb.info/gnd/11852240X"/>
+                           <forename>Johann Friedrich von</forename>
+                           <surname>Cotta</surname>
+                        </persName>
+                     </author>
+                     <title>Allgemeine Zeitung</title>
+                     <imprint>
+                        <pubPlace>München</pubPlace>
+                        <publisher>Allgemeine Zeitung</publisher>
+                        <date>1801</date>
+                     </imprint>
+                  </monogr>
+                  <ptr target="https://books.google.de/books?id=8ORDAAAAcAAJ"/>
+               </biblStruct>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Masterarbeit zu Matrikelnummer 5584124</p>
+         </projectDesc>
+      </encodingDesc>
+      <profileDesc>
+         <creation>
+            <date when-iso="1801-11-26">26. November 1801</date>
+         </creation>
+        <langUsage>
+           <language ident="d">deutsch</language>
+        </langUsage>
+         <textClass>
+            <keywords scheme="internal"><!-- internal: innerhalb des besagten Briefs -->
+               <term>Billet</term>
+               <term>Zeitungen</term>
+            </keywords>
+            <keywords scheme="categorisation"><!-- Sinnabschnittseinteilung - relevant für den Fahrkartenautomaten! -->
+               <term xml:id="vkab">Verhältnis Karl August Böttiger</term>
+               <term xml:id="ekb">englisches Kabinett</term>
+               <term xml:id="napinv">Napoleonische Invasion</term>
+               <term xml:id="allgz">Allgemeine Zeitung</term>
+            </keywords>
+         </textClass>
+         <textDesc>
+            <channel>manuscript</channel>
+            <constitution type="single"/>
+            <derivation type="original"/>
+            <domain type="private"/>
+            <factuality type="fact"/>
+            <interaction type="partial"/>
+            <preparedness type="prepared"/>
+            <purpose type="inform"/>
+         </textDesc>
+         <particDesc>
+            <listPerson>
+               <!-- Sender und Adressat -->
+               <person role="sender" xml:id="Gen">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/118538489"/>
+                     <forename>Friedrich von</forename>
+                     <surname>Gentz</surname>
+                  </persName>
+               </person>
+               <person role="receiver" xml:id="KAB">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/118824775"/>
+                     <forename>Carl August</forename>
+                     <surname>Böttiger</surname>
+                  </persName>
+               </person>
+               <!-- erwähnte Personen -->
+               <person role="named" xml:id="WWG">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/119098903"/>
+                     <forename>William Wyndham</forename>
+                     <surname>Grenville</surname>
+                  </persName>
+               </person>
+               <person role="named" xml:id="CJFx">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/118684353"/>
+                     <forename>Charles James</forename>
+                     <surname>Fox</surname>
+                  </persName>
+               </person>
+               <person role="named" xml:id="WWi">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/135866219"/>
+                     <forename>William</forename>
+                     <surname>Windham</surname>
+                  </persName>
+               </person>
+               <person role="named" xml:id="ChGr">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/122782259"/>
+                     <forename>Charles</forename>
+                     <surname>Gore</surname>
+                  </persName>
+               </person>
+               <person role="named" xml:id="Je">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/133739791"/>
+                     <forename>Robert Banks</forename>
+                     <surname>Jenkinson</surname>
+                  </persName>
+               </person>
+               <person role="named" xml:id="HAS">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/116007362"/>
+                     <forename>Henry Addington</forename>
+                     <surname>Sidmouth</surname>
+                  </persName>
+               </person>
+               <person role="named" xml:id="Mck">
+                  <persName>
+                     <ref />
+                     <forename/>
+                     <surname>Mencke</surname>
+                  </persName>
+               </person>
+               <person role="named" xml:id="ZAI">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/118501852"/>
+                     <forename>Aleksandr I.</forename>
+                     <surname>Romanow</surname>
+                  </persName>
+               </person>
+            </listPerson>
+         </particDesc>
+         <settingDesc>
+            <listPlace>
+               <!-- Start- und Zielort -->
+               <place type="sender" xml:id="plWe">
+                  <country>
+                     <ref target="http://d-nb.info/gnd/4051194-7"/>
+                     <placeName>Sachsen-Weimar-Eisenach</placeName>
+                  </country>
+                  <settlement>
+                     <ref target="http://d-nb.info/gnd/4065105-8"/>
+                     <placeName>Weimar</placeName>
+                  </settlement>
+               </place>
+               <!-- erwähnte Orte -->
+               <place type="named" xml:id="plLo">
+                  <country>
+                     <ref target="http://d-nb.info/gnd/4022153-2"/>
+                     <placeName>Vereinigtes Königreich</placeName>                
+                  </country>
+                  <settlement>
+                     <ref target="http://d-nb.info/gnd/4074335-4"/>
+                     <placeName>London</placeName>
+                  </settlement>
+               </place>
+               <place type="named" xml:id="plEn">
+                  <country>
+                     <ref target="http://d-nb.info/gnd/4022153-2"/>
+                     <placeName>England</placeName>
+                  </country>
+               </place>
+               <place type="named" xml:id="plFr">
+                  <country>
+                     <ref target="http://d-nb.info/gnd/4018145-5" />
+                     <placeName>Frankreich</placeName>
+                  </country>
+               </place>
+               <place type="named" xml:id="plEu">
+                  <geogName type="continent">
+                     <ref target="http://d-nb.info/gnd/4015701-5"/>
+                     <placeName>Europa</placeName>
+                  </geogName>
+               </place>
+               <place type="named" xml:id="plHo">
+                  <country>
+                     <ref target="http://d-nb.info/gnd/5245326-1"/>
+                     <placeName>Holland</placeName>
+                  </country>
+               </place>
+               <place type="named" xml:id="plDe">
+                  <country>
+                     <ref target="http://d-nb.info/gnd/2035457-5"/>
+                     <placeName>Deutschland</placeName>  
+                  </country>
+               </place>
+               <place type="named" xml:id="plCh">
+                  <country>
+                     <ref target="http://d-nb.info/gnd/1085175626"/>
+                     <placeName>Schweiz</placeName>  
+                  </country>
+               </place>
+               <place type="named" xml:id="plCr">
+                  <country>
+                     <ref target="http://d-nb.info/gnd/4482801-9"/>
+                     <placeName>Cisalpinische Republik</placeName>  
+                  </country>
+               </place>
+            </listPlace>
+         </settingDesc>
+      </profileDesc>
+      <revisionDesc>
+         <change xml:id="init" when-iso="2018-03-09" who="#edAG">Erstauszeichnung und Normierung des Dokumentes im Rahmen der Masterarbeit der Matrikelnummer 5584124</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <opener>
+            <dateline rend="right"><rs type="place" ref="#plWe">Weimar</rs> den <date when-iso="1801-11-26">26 November 1801</date></dateline>
+         </opener>
+         <div n="1" corresp="#vkab">
+            <p>
+               Von halb 1 Uhr an bin ich sicher zu Hause. Wollen Sie mich also vor dem Mittagessen im Klub, dem ich beiwohnen 
+               werde, besuchen, so soll es mir sehr angenehm sein.
+            </p>
+            <p>
+               Meine Bemerkungen über die englischen Debatten erfolgen hiebei auf einem besonders Blatte.
+            </p>
+            <signed rend="right">Gentz.</signed>
+         </div>
+         <div n="2" corresp="#ekb">
+            <p>
+               Es hält immer schwer, aus den in den Zeitungen gelieferten Auszügen, den wahren Sinn und Gang der 
+               Parlaments-Reden zu fassen; ich bemerke aber, daß in dieser Rücksicht, das 
+               <rs type="citation" ref="#a4905-1">St. James Chronicle</rs> noch schlechter als manche andre Zeitung ist; man kan 
+               kaum errathen, was eigentlich gesagt worden seyn mag. Die Sitzungen vom 
+               <date when-iso="1801-11-03">3<span rend="sup">ten</span></date> und <date when-iso="1801-11-04">4 November</date> 
+               besonders die Reden von <rs type="person" ref="#WWG">Lord Grenville</rs>, <rs type="person" ref="#CJFx">Fox</rs>, 
+               und <rs type="person" ref="#WWi">Windham</rs> geben ein merkwürdiges Beispiel davon.
+            </p>
+            <p>
+               Indessen muß man vorlieb nehmen, mit dem was <add place="above">man</add> hat. Neue Aufschlüsse über die 
+               Friedensbedingungen, wie Ihr <rs type="person" ref="#ChGr">Freund Gore</rs> sie hoffte, ich hingegen weit 
+               entfernt war, sie zu erwarten, hat uns die Debatte nicht gegeben. Sie scheint auch eben nicht an neuen Ansichten 
+               des Gegenstands sonderlich reich gewesen zu seyn. Die Wahrheit ist, daß Jemand, der über die Lage der Dinge in 
+               <rs type="place" ref="#plEn">England</rs>, erträglich instruirt war, fast alle für und wider den Frieden 
+               ausgesprochne Reden ungefähr zum voraus construiren konnte. So wenig neues, frappantes und belehrendes liegt 
+               darin.
+            </p>
+            <p>
+               <rs type="person" ref="#Je">Hawkesbury</rs> und besonders <rs type="person" ref="#HAS">Addington</rs>, haben ganz 
+               so gesprochen, wie die, welche man heutiges Tages <emph rend="underlined">redliche</emph> Staatsmänner nennt, zu 
+               sprechen pflegen; ungefähr wie die ehmaligen Cabinets-Ordres von 
+               <rs type="person" ref="#Mck"><emph rend="underlined">Menken</emph></rs>, und die heutigen vom 
+               <rs type="person" ref="#ZAI"><emph rend="underlined">Kayser Alexander</emph></rs>. Die Welt scheint einmal dazu 
+               verdammt, immer durch ein widersinniges Prinzip regiert zu werden. In jenen Zeiten, wo Mäßigung und Tugend ein 
+               wohlthätiges Gegengewicht gewesen seyn würden, setzten die Regenten und Staatsmänner ihren Ruhm darein, 
+               <add place="above">nur</add> kühn und schlau zu seyn, und allen moralischen Maximen Hohn zu sprechen. Jetzt, wo 
+               Kraft allein, und nichts als Kraft die Welt zusammen <pb/> halten kan, wo ich mir die Regierung 
+               <del rend="stroked">des Teu-</del> (oder Diktatur, um es zu mildern) des Teufels gefallen laßen würde, wenn sie 
+               nur dem zerstörenden Geiste, den ich als den obersten der Teufel betrachte, mit Energie entgegen arbeitete - 
+               jetzt fällt es ihnen allen bei, recht moralisch und tugendhaft zu werden !
+            </p>
+            <p>
+               Die Rede von <rs type="person" ref="#WWi">Windham</rs> ist in der Zeitung gewiß unaussprechlich verstümmelt. In 
+               einigen Stellen finde ich, selbst ich, sie zu leidenschaftlich; aber ich sage mir auch mit Recht, daß in einer 
+               solchen Rede, wie in den Theater-Decorazionen, manches auf Effekt berechnet ist. Wie dem auch sey, das Schönste, 
+               was in dieser ganzen Sitzung, und seit dem Abgange des alten Ministeriums überhaupt im Parlamant gesagt worden 
+               ist, steht in dieser Rede. Es ist folgende Stelle: 
+               <quote corresp="#WWi">
+                  Eben so gut könnte man ein Gemälde von Rubens mit der Staffelei auf welcher es <del rend="stroked">jener</del> 
+                  verfertigt wurde, in Parallele stellen, als den <emph rend="underlined">Charakter</emph> einer Nazion, mit irgend 
+                  etwas, das Waare, Geld und Gut, oder Besitzthum heißt.
+               </quote>
+            </p>
+         </div>
+         <div n="3" corresp="#napinv">
+            <p>
+               Hier liegt der eigentliche Standpunkt, von welchem alles ächte Urtheil über den Frieden zwischen 
+               <rs type="place" ref="#plFr">Frankreich</rs> und <rs type="place" ref="#plEn">England</rs> ausgehen muß. Dieser 
+               Standpunkt ist in der Debatte fast ganz verfehlt, <del rend="stroked">xxx</del> ich mögte sagen, von Freunden und 
+               Gegnern <pb/> auf gleiche Art vernachläßigt worden. Der Besitz alles dessen, was 
+               <rs type="place" ref="#plEn">England</rs> im Frieden herausgegeben hat, hätte 
+               <rs type="place" ref="#plEn">England</rs> nicht reicher und mächtiger <add place="above">gemacht</add>, und, - 
+               ich will noch weiter im Sinne der Advokaten des Friedens gehen - hätte 
+               <rs type="place" ref="#plFr">Frankreich</rs> <del rend="stroked">nichts</del> wenig oder nichts von seiner 
+               Uebergewalt entzogen. Aber von unendlicher Wichtigkeit für den letzten Zweck des Krieges - nehmlich für die 
+               Behauptung der <emph rend="underlined">Würde</emph> <rs type="place" ref="#plEn">England</rs>s, als der einzigen 
+               noch übrigen Garantie der Unabhängigkeit <rs type="place" ref="#plEu">Europa</rs>s gegen 
+               <rs type="place" ref="#plFr">Frankreich</rs> - wäre es gewesen, die Unterhandlung schlechterdings nicht anders, 
+               als <emph rend="underlined">auf dem Fuß der Gleichheit</emph> zu führen, und 
+               <rs type="place" ref="#plFr">Frankreich</rs> und seinen Alliirten durchaus nichts heraus zu geben, ohne ein 
+               Aequivalent <del rend="stroked">zu ver</del> (nicht zu <rs type="place" ref="#plEn">England</rs>s Privatnutzen 
+               sondern bloß für das Interesse des Gleichgewichts, in den <rs type="place" ref="#plHo">Niederlanden</rs>, in 
+               <rs type="place" ref="#plDe">Deutschland</rs> in der <rs type="place" ref="#plCh">Schweitz</rs>, und 
+               <rs type="place" ref="#plCr">Italien</rs> pp) dafür zu verlangen. <del rend="stroked">xxx</del> Hätte man eine 
+               solche Maxime zur Basis der Friedens-Unterhandlung angenommen, so würde <rs type="place" ref="#plEn">England</rs> 
+               selbst gefühlt, <rs type="place" ref="#plFr">Frankreich</rs> anerkannt, und 
+               <rs type="place" ref="#plEu">Europa</rs> <del rend="stroked">ges</del> deutlich gesehen haben, daß noch etwas 
+               einem Gegengewichte Aehnliches existirt, wodurch jetzt und künftig die Alleinherrschaft der Französischen 
+               Regierung beschränkt werden konnte. Auf diese Weise hätte die Englische Nazion ihren 
+               <emph rend="underlined">Charakter</emph> behauptet: jetzt <pb/> hat sie ihn evident verloren; denn, indem sie 
+               ohne Aequivalent, und ohne Bedingung, im Augenblicke des grösten Vortheils sogar, alles herausgab, verrieth sie 
+               offenbar das <emph rend="underlined">innre Bewustseyn</emph> der Inferiorität; sie räumte stillschweigend ein, 
+               daß nur der Zufall ihr diese Vortheile in die Hände gegeben habe, und daß sie, 
+               <emph rend="underlined">trotz</emph> dieser Vortheile, vor <rs type="place" ref="#plFr">Frankreich</rs> die 
+               Seegel streichen muste.
+            </p>
+            <p>
+               Dies liegt eigentlich in <rs type="person" ref="#WWi">Winham</rs>'s Reden; wer dies nicht darin gesehen hat, der 
+               versteht sie gar nicht (ein Fall, worin sich gewiß weit mehr Leser befinden, als man gemeinhin glaubt), wer es 
+               faßte, der wird doch sich wenigstens sagen müßen:
+            </p>
+            <lg xml:lang="en">
+               <l>If this is madness, there is order in it !</l>
+            </lg>
+            <p>
+               Eine zweite Frage, die man ihm, und folglich auch mir, thun wird, ist nun die: <emph rend="underlined">ob</emph>, 
+               und <emph rend="underlined">wie</emph> es denn wohl möglich gewesen wäre, jene Maxime der Gleichheit in der 
+               Unterhandlung zu behaupten, ohne den Krieg zu verewigen, das Land zu ruiniren pppppppp. Ich glaube, nicht bloß 
+               Windham; sondern sogar ich wäre im Stande, diese Fragen befriedigend zu beantworten; aber für eine 
+               Frühstücks-Lectüre habe ich schon viel zu viel geschrieben.
+            </p>
+         </div>
+         <closer>
+            <signed rend="right">Gentz.</signed>
+         </closer>
+         <postscript corresp="#allgz">
+            <p>
+               N.S. Machen Sie doch den Herren Redactors der <rs type="citation" ref="#e4905-1">Allgemeinen Zeitung</rs> 
+               bemerklich, daß sie (page 1295) <rs type="person" ref="#WWi">Windham</rs> offenbar verleumdet haben. Sehen Sie 
+               der Englischen Zeitung nach; Sie werden finden, daß er <emph rend="underlined">gerade das Gegentheil</emph> 
+               sagte.
+            </p>
+         </postscript>
+      </body>
+   </text>
+</TEI>

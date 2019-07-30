@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc xml:id="LETTER_GENTZ_3777">
+         <titleStmt>
+            <title>Friedrich von Gentz an Amalie von Imhof, 4./5. Dezember 1801</title>
+            <editor xml:id="edAG">Andreas Gálffy</editor>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <name>Forschungsstelle "Universitätssammlung Friedrich von Gentz"</name>
+               <link target="http://gentz-digital.ub.uni-koeln.de http://www.ub.uni-koeln.de/cdm/singleitem/collection/gentz/id/3776/"/>
+            </publisher>
+            <pubPlace>Cologne</pubPlace>
+            <idno type="Gentz-Edition-Number" n="3777"/>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <country>unknown</country>
+                  <collection>diary entry</collection>
+                  <idno>not retraced</idno>
+               </msIdentifier>
+               <msContents>
+                  <summary>
+                     Die Spur aus dem Tagebuch Gentz' führt zuerst nach Weißensfels. Dort in einer Herberge angekommen, hat Gentz 
+                     vier Bögen an Fräulein von Imhof geschrieben. In Leipzig setzte er den Brief mit zwei Bögen fort und beendete 
+                     den Brief am 5. Dezember 1801.
+                  </summary>
+               </msContents>
+            </msDesc>
+            <listBibl type="preprints">
+               <biblStruct>
+                  <monogr>
+                     <editor>
+                        <persName>
+                           <ref target="http://d-nb.info/gnd/119376377"/>
+                           <forename>Ludmilla</forename>
+                           <surname>Assing</surname>
+                        </persName>
+                     </editor>
+                     <title>Aus dem Nachlaß Varnhagen's von Ense. Tagebücher von Friedrich von Gentz. 5 Bde.</title>
+                     <imprint>
+                        <pubPlace>Leipzig</pubPlace>
+                        <date>1873-1874</date>
+                     </imprint>
+                     <biblScope unit="volume" n="1">
+                        I
+                     </biblScope>
+                     <biblScope unit="page" from="15" to="15">
+                        15
+                     </biblScope>
+                  </monogr>
+               </biblStruct>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Masterarbeit zu Matrikelnummer 5584124</p>
+         </projectDesc>
+      </encodingDesc>
+      <profileDesc>
+         <creation>
+            <date when-iso="1801-12-05">5. Dezember 1801</date>
+         </creation>
+        <langUsage>
+           <language ident="f">französisch</language>
+        </langUsage>
+         <textClass>
+            <keywords scheme="internal"><!-- internal: innerhalb des besagten Briefs -->
+               <term>Brief</term>
+               <term>Spur</term>
+               <term>Tagebuch</term>
+            </keywords>
+            <keywords scheme="categorisation"><!-- Sinnabschnittseinteilung - relevant für den Fahrkartenautomaten! -->
+               <term xml:id="vai">Verhältnis Amalie von Imhof</term>
+            </keywords>
+         </textClass>
+         <textDesc>
+            <channel>manuscript</channel>
+            <constitution type="single"/>
+            <derivation type="original"/>
+            <domain type="private"/>
+            <factuality type="fact"/>
+            <interaction type="partial"/>
+            <preparedness type="unprepared"/>
+            <purpose type="inform"/>
+         </textDesc>
+         <particDesc>
+            <listPerson>
+               <!-- Sender und Adressat -->
+               <person role="sender" xml:id="Gen">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/118538489"/>
+                     <forename>Friedrich von</forename>
+                     <surname>Gentz</surname>
+                  </persName>
+               </person>
+               <person role="receiver" xml:id="AvHv">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/118549006"/>
+                     <forename>Amalie von</forename>
+                     <surname>Helvig</surname>
+                  </persName>
+               </person>
+               <!-- erwähnte Personen -->
+            </listPerson>
+         </particDesc>
+         <settingDesc>
+            <listPlace>
+               <!-- Start- und Zielort -->
+               <place type="sender" xml:id="plWsf">
+                  <country>
+                     <ref target="http://d-nb.info/gnd/4051176-5"/>
+                     <placeName>Sachsen</placeName>
+                  </country>
+                  <settlement>
+                     <ref target="http://d-nb.info/gnd/4065247-6"/>
+                     <placeName>Weißenfels</placeName>
+                  </settlement>
+               </place>
+               <place type="receiver" xml:id="plBe">
+                  <country>
+                     <ref target="http://d-nb.info/gnd/4047194-9"/>
+                     <placeName>Preußen</placeName>  
+                  </country>
+                  <settlement>
+                     <ref target="http://d-nb.info/gnd/4005728-8"/>
+                     <placeName>Berlin</placeName>
+                  </settlement>
+               </place>
+               <!-- erwähnte Orte -->
+               <place type="named" xml:id="plLp">
+                  <country>
+                     <ref target="http://d-nb.info/gnd/4051176-5"/>
+                     <placeName>Sachsen</placeName>
+                  </country>
+                  <settlement>
+                     <ref target="http://d-nb.info/gnd/4035206-7"/>
+                     <placeName>Leipzig</placeName>
+                  </settlement>
+               </place>
+            </listPlace>
+         </settingDesc>
+      </profileDesc>
+      <revisionDesc>
+         <change xml:id="init" when-iso="2018-03-09" who="#edAG">Erstauszeichnung und Normierung des Dokumentes im Rahmen der Masterarbeit der Matrikelnummer 5584124</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div n="1" corresp="#vai">
+            <p>
+               <date when-iso="1801-12-04"><emph rend="bold">Vendredi 4.</emph></date>...Arrivé à 
+               <rs type="place" ref="#plWsf">Weissenfels</rs> vers midi, et descendu à l'excellente auberge de cette ville, je m'y 
+               suis mis à écrire une lettre de quatre feuilles à <rs type="person" ref="#AvHv">Mlle. d'Imhoff</rs>,.......Arrivé à 
+               <rs type="place" ref="#plLp">Leipzig</rs> à 9 heures j'ai encore écrit deux feuilles à 
+               <rs type="person" ref="#AvHv">Amélie</rs> et je me suis couché vers minuit.
+            </p>
+            <p>
+               <date when-iso="1801-12-05"><emph rend="bold">Samedi 5.</emph></date>...De retour chez moi j'ai fini ma lettre à 
+               <rs type="person" ref="#AvHv">Amélie</rs>,...
+            </p>
+         </div>
+      </body>
+      <note xml:id="r3777-1">Auszug aus dem Tagebuch von Gentz</note>
+   </text>
+</TEI>

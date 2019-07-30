@@ -1,0 +1,485 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc xml:id="LETTER_GENTZ_1617">
+         <titleStmt>
+            <title>Friedrich von Gentz an Karl August Böttiger, 30. Dezember 1797</title>
+            <editor xml:id="edAG">Andreas Gálffy</editor>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <name>Forschungsstelle "Universitätssammlung Friedrich von Gentz"</name>
+               <link target="http://gentz-digital.ub.uni-koeln.de http://www.ub.uni-koeln.de/cdm/singleitem/collection/gentz/id/1616/"/>
+            </publisher>
+            <pubPlace>Cologne</pubPlace>
+            <idno type="Gentz-Edition-Number" n="1617"/>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <country>Germany</country>
+                  <settlement>Dresden</settlement>
+                  <institution>Sächsische Landesbibliothek</institution>
+                  <repository>Handschriftensammlung, Nachlaß Böttiger</repository>
+                  <collection>Mscr. Dresd. h 37, Bd. 54 (4°)</collection>
+                  <idno>Nr. 14</idno>
+               </msIdentifier>
+               <msContents>
+                  <summary>
+                     Die Tabakadministration war für Gentz ein langes, mühseliges Geschäft. Daher freute er sich, als er Böttigers 
+                     Brief erhalten hat. Gentz beschreibt ausführlich das neue Kabinett mit den Worten "Bürgen besserer Zeiten". 
+                     Besonders die Wahl Menckens zum Kabinettsrat ist für Gentz ein sehr positives Zeichen. Gentz lobt Menckens 
+                     Talent und seine Persönlichkeit; vor allem eine Schrift, für die Mencke sehr gescholten wurde, preist Gentz 
+                     überaus. Auch freut es Gentz, dass laut einer Ordre wieder alte Verhältnisse in geistlichen Dingen geschaffen 
+                     werden sollen. Ihm selbst war auch eines der angenehmsten Erlebnisse beschert worden. Seine Sendschrift wurde 
+                     dem König vorgelesen - worauf dieser seine vollste Zufriedenheit äußerte. Mounier tadelt er in diesem 
+                     Zusammenhang, das er seine vorzügliche Schrift direkt an den König adressiert hat. Er fürchtet, dass gewisse 
+                     Leute ihm schaden könnten. Nichtsdestotrotz möchte sich Gentz um den Verlag der Schrift kümmern. Böttigers 
+                     Ehrerbietung im Merkur gegenüber Gentz' Schwiegervater und Bruder taten Gentz sehr wohl. Er kündigt 
+                     beichtigende Auskünfte zur Tabakadministration an.
+                  </summary>
+               </msContents>
+            </msDesc>
+            <listBibl type="preprints">
+               <biblStruct>
+                  <monogr>
+                     <editor>
+                        <persName>
+                           <ref target="http://d-nb.info/gnd/130953075"/>
+                           <forename>Friedrich Carl</forename>
+                           <surname>Wittichen</surname>
+                        </persName>
+                        <persName>
+                           <ref/> <!-- kein GND-Eintrag -->
+                           <forename>Ernst</forename>
+                           <surname>Salzer</surname>
+                        </persName>
+                     </editor>
+                     <title>Briefe von und an Friedrich von Gentz, 4 Bde.</title>
+                     <imprint>
+                        <publisher>Oldenbourg</publisher>
+                        <pubPlace>München, Berlin</pubPlace>
+                        <date>1909-1913</date>
+                     </imprint>
+                     <biblScope unit="volume" n="1">
+                        I
+                     </biblScope>
+                     <biblScope unit="page" from="233" to="239">
+                        Nr. 58
+                     </biblScope>
+                  </monogr>
+               </biblStruct>
+            </listBibl>
+            <listBibl type="letterReferenced">
+               <bibl xml:id="c1617-1" corresp="#LETTER_GENTZ_NNNN">nicht bekannter Brief von Karl August Böttiger an Friedrich von Gentz</bibl>
+               <bibl xml:id="c1617-2" corresp="#LETTER_GENTZ_NNNN">nicht bekannter Brief einer Madame H</bibl>
+            </listBibl>
+            <listBibl type="alludedWorks">
+               <bibl xml:id="a1617-1" corresp="#LETTER_GENTZ_NNNN">nicht näher benanntes Werk von Jean Joseph Mounier</bibl>
+            </listBibl>
+            <listBibl type="defRep">
+               <biblStruct xml:id="p1617-1" corresp="GBk-0034">
+                  <monogr>
+                     <author>
+                        <persName>
+                           <ref target="http://d-nb.info/gnd/118538489"/>
+                           <forename>Friedrich von</forename>
+                           <surname>Gentz</surname>
+                        </persName>
+                     </author>
+                     <title>Sendschreiben</title>
+                     <imprint>
+                        <publisher>Friedrich Vieweg der Ältere</publisher>
+                        <pubPlace>Berlin</pubPlace>
+                        <date>1797</date>
+                     </imprint>
+                  </monogr>
+                  <ptr target="https://books.google.de/books?id=QLdhAAAAcAAJ" />
+               </biblStruct>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Masterarbeit zu Matrikelnummer 5584124</p>
+         </projectDesc>
+      </encodingDesc>
+      <profileDesc>
+         <creation>
+            <date when-iso="1797-12-30">30. Dezember 1797</date>
+         </creation>
+        <langUsage>
+           <language ident="d">deutsch</language>
+        </langUsage>
+         <textClass>
+            <keywords scheme="internal"><!-- internal: innerhalb des besagten Briefs -->
+               <term>Billet</term>
+               <term>Begleitschreiben</term>
+               <term>Sendschrift</term>
+            </keywords>
+            <keywords scheme="categorisation"><!-- Sinnabschnittseinteilung - relevant für den Fahrkartenautomaten! -->
+               <term xml:id="tbk">Tabakadministration</term>
+               <term xml:id="prg">preußische Regierung</term>
+               <term xml:id="bezbt">Beziehungen zu Berlin - Beamtentätigkeit</term>
+               <term xml:id="kmou">Mounier</term>
+               <term xml:id="vkab">Verhältnis Karl August Böttiger</term>
+            </keywords>
+         </textClass>
+         <textDesc>
+            <channel>manuscript</channel>
+            <constitution type="single"/>
+            <derivation type="original"/>
+            <domain type="private"/>
+            <factuality type="fact"/>
+            <interaction type="partial"/>
+            <preparedness type="prepared"/>
+            <purpose type="inform"/>
+         </textDesc>
+         <particDesc>
+            <listPerson>
+               <!-- Sender und Adressat -->
+               <person role="sender" xml:id="Gen">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/118538489"/>
+                     <forename>Friedrich von</forename>
+                     <surname>Gentz</surname>
+                  </persName>
+               </person>
+               <person role="receiver" xml:id="KAB">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/118824775"/>
+                     <forename>Carl August</forename>
+                     <surname>Böttiger</surname>
+                  </persName>
+               </person>
+               <!-- erwähnte Personen -->
+               <person role="named" xml:id="KFWIII">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/118535986"/>
+                     <forename>Friedrich Wilhelm III.</forename>
+                     <surname>von Preußen</surname>
+                     <roleName type="office">König</roleName>
+                  </persName>
+               </person>
+               <person role="named" xml:id="Mck">
+                  <persName>
+                     <ref />
+                     <forename/>
+                     <surname>Mencke</surname>
+                  </persName>
+               </person>
+               <person role="named" xml:id="KFWII">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/11869362X"/>
+                     <forename>Friedrich Wilhelm II.</forename>
+                     <surname>von Preußen</surname>
+                     <roleName type="office">König von Preußen</roleName>
+                  </persName>
+               </person>
+               <person role="named" xml:id="KLP">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/118575155"/>
+                     <forename>Luise Auguste Wilhelmine Amalie</forename>
+                     <surname/>
+                     <roleName type="office">Königin von Preußen</roleName>
+                  </persName>
+               </person>
+               <person role="named" xml:id="HfMs">
+                  <persName>
+                     <ref />
+                     <forename/>
+                     <surname>Massow</surname>
+                     <roleName type="office">Hofmarschall</roleName>
+                  </persName>
+               </person>
+               <person role="named" xml:id="KWF">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/11913988X"/>
+                     <forename>Karl Wilhelm Ferdinand</forename>
+                     <surname/>
+                     <roleName type="office">Herzog von Braunschweig-Wolfenbüttel</roleName>
+                  </persName>
+               </person>
+               <person role="named" xml:id="KII">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/104182172"/>
+                     <forename>Karl II.</forename>
+                     <surname/>
+                     <roleName type="office">Herzog von Mecklenburg-Strelitz</roleName>
+                  </persName>
+               </person>
+               <person role="named" xml:id="Mou">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/11878515X"/>
+                     <forename>Jean-Joseph</forename>
+                     <surname>Mounier</surname>
+                  </persName>
+               </person>
+               <person role="named" xml:id="FVW">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/119049546"/>
+                     <forename>Friedrich</forename>
+                     <surname>Vieweg</surname>
+                  </persName>
+               </person>
+               <person role="named" xml:id="FTL">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/141041900"/>
+                     <forename>François Théodore</forename>
+                     <surname>de Lagarde</surname>
+                  </persName>
+               </person>
+               <person role="named" xml:id="Gil">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/118539337"/>
+                     <forename>David</forename>
+                     <surname>Gilly</surname>
+                  </persName>
+               </person>
+               <person role="named" xml:id="HGen">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/11900738X"/>
+                     <forename>Heinrich</forename>
+                     <surname>Gentz</surname>
+                  </persName>
+               </person>
+            </listPerson>
+         </particDesc>
+         <settingDesc>
+            <listPlace>
+               <!-- Start- und Zielort -->
+               <place type="sender" xml:id="plBe">
+                  <country>
+                     <ref target="http://d-nb.info/gnd/4047194-9"/>
+                     <placeName>Preußen</placeName>
+                  </country>
+                  <settlement>
+                     <ref target="http://d-nb.info/gnd/4005728-8"/>
+                     <placeName>Berlin</placeName>
+                  </settlement>
+               </place>
+               <place type="receiver" xml:id="plWe">
+                  <country>
+                     <ref target="http://d-nb.info/gnd/4051194-7"/>
+                     <placeName>Sachsen-Weimar-Eisenach</placeName>
+                  </country>
+                  <settlement>
+                     <ref target="http://d-nb.info/gnd/4065105-8"/>
+                     <placeName>Weimar</placeName>
+                  </settlement>
+               </place>
+               <!-- erwähnte Orte -->
+               <place type="named" xml:id="plPo">
+                  <country>
+                     <ref target="http://d-nb.info/gnd/4047194-9"/>
+                     <placeName>Preußen</placeName>
+                  </country>
+                  <region>
+                     <ref target="http://d-nb.info/gnd/4046948-7"/>
+                     <placeName>Potsdam</placeName>  
+                  </region>
+               </place>
+               <place type="named" xml:id="plPa">
+                  <country>
+                     <ref target="http://d-nb.info/gnd/4018145-5"/>
+                     <placeName>Frankreich</placeName>  
+                  </country>
+                  <settlement>
+                     <ref target="http://d-nb.info/gnd/4044660-8"/>
+                     <placeName>Paris</placeName>
+                  </settlement>
+               </place>
+            </listPlace>
+         </settingDesc>
+      </profileDesc>
+      <revisionDesc>
+         <change xml:id="init" when-iso="2018-02-27" who="#edAG">Erstauszeichnung und Normierung des Dokumentes im Rahmen der Masterarbeit der Matrikelnummer 5584124</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <opener>
+            <dateline rend="right"><date when-iso="1797-12-30">Sonnabend den 30<span rend="sup">ten</span> Decbr. 97</date>.</dateline>
+         </opener>
+         <div n="1" corresp="#tbk">
+            <p>
+               Ich erhalte Ihren schmeichelhaften, Ihren <emph rend="underlined">zu</emph> 
+               <rs type="citation" ref="#c1617-1">schmeichelhaften Brief</rs>, mein theurer Freund, in einem der freysten aber auch 
+               zugleich der heitersten Augenblicke, die ich lange genoß. Seit dem Anfange dieses Monats war ich Mitglied der 
+               Commission, welche die - schon seit 4 Wochen im Stillen beschlossne - Aufhebung des verhaßten Tabacks-Monopols nun 
+               glücklich zu Stande gebracht hat. Selten habe ich ein mühsameres, aber auch selten ein genußreicheres Geschäft 
+               gehabt. Ich wuste, daß die Augen des ganzen Landes auf uns gerichtet waren, und daß man das Resultat mit Ungedult 
+               erwartete. Am <date when-iso="1797-12-24">vorigen Sonntag</date> schrieb ich, in der Stille meines Kabinets, mit 
+               wahrhaft gerührtem Herzen das Declarations-Patent nieder, welches, wie ich nun so zuverläßig vorher wußte, einige 
+               Millionen von Menschen bis zum Entzücken begeistern sollte. Montag wurde es von den beiden Ministern, 
+               <date when-iso="1797-12-28">Donnerstag</date> vom <pb/> <rs type="person" ref="#KFWIII">Könige</rs> genehmiget, und 
+               <date when-iso="1797-12-29">gestern</date> war unsre letzte Sitzung. (Denn das nun noch übrige Detail wird einer 
+               sogenannten Realisirungs-Commission aufgetragen, mit der ich weiter nichts zu thun habe) Und so wäre in wenig Wochen 
+               dieses wichtige Werk vollbracht !
+            </p>
+         </div>
+         <div n="2" corresp="#prg">
+            <p>
+               Sie werden nicht erst von mir hören dürfen, unter welchen glücklichen Auspizien diese Regierung angefangen hat. Ich 
+               habe einen gewißen natürlichen Widerwillen, mich für irgend eine neue Ordnung der Dinge zu enthusiasmiren, weil ich 
+               die Palinodien, die gewöhnlich auf solche frühe Jubellieder folgen, entsetzlich hasse. Aber hier hat der Erfolg 
+               meine Erwartungen zu sehr übertroffen, hier sind die ersten Schritte zu entscheidend, und zu charakteristisch, als 
+               daß ich nicht mit einstimmen sollte. Die Ruhe, die Klarheit, die Mäßigung, die Weisheit, mit der jetzt unsre innre 
+               Angelegenheiten - denn von den auswärtigen schweige ich lieber - betrieben werden, das sind keine Aufwallungen eines 
+               Augenblicks, sondern wirkliche <pb/> Merkmale und Bürgen bessrer Zeiten. Und wie sehr bedürfte diese die Preußische 
+               Monarchie ! - Wenn Sie das Detail unsrer Fehler und unsrer Verlegenheiten, wenn Sie das ganze Labyrint der 
+               verderblichen Operationen, und der unbegreiflichen Schwäche oder Nullität der vorigen Regierung so kennen sollten, 
+               als ich es leider von allen Seiten kenne, so würden Sie begreifen, wie sehr ein aufmerksamer und theilnehmender 
+               Beobachter der öffentlichen Angelegenheiten, sich über <del rend="stroked">die</del> Aspekten, wie die jetzigen sind, 
+               freuen kan und muß.
+            </p>
+            <p>
+               Der wichtigste Entschluß von allen die auf diese glückliche Wendung der Dinge wirkten, war die Wahl eines Mannes, wie 
+               <rs type="person" ref="#Mck">Mencke</rs> zum ersten, und einzigen Cabinets-Rath. Es ist jetzt so klar als die Sonne, 
+               daß bey weitem das Meiste Weise und Gute, welches der <rs type="person" ref="#KFWIII">König</rs> thut, nächst der 
+               glücklichen Disposition dieses jungen Fürsten, den freimüthigen, und immer klugen Rathschlägen dieses 
+               außerordentlichen Mannes verdankt werden muß. Für <pb/> mich ist dies ein persönlicher, und ein bedeutender Triumph. 
+               Mencke war seit mehrern Jahren mein vertrauter Freund. Zurückgesetzt durch die Cabalen der vorigen Regierung, aber 
+               völlig gleichgültig über diese Zurücksetzung, die ihm eine wahrhaft philosophische Seelenstimmung, ein entschiedner 
+               Hang zur Ruhe und ein sehr ansehnliches Vermögen, stets in dem Lichte einer großen Wohlthat zeigte, sah er nur die 
+               kleine Anzahl von Menschen, die es verstand, ihn aufzusuchen. Ich hatte schon vor drey Jahren eine Gelegenheit, mich 
+               von seinen seltnen Talenten zu überzeugen, cultivirte ihn von Stunde an, als einen der wenigen, der vielleicht einst 
+               - <span xml:lang="lat">nobis restitueret rem</span>, und gewann ihn sehr bald von <add place="above">der</add> Seite 
+               seines treflichen Charakters noch weit lieber, als von der seines soliden und viel-umfassenden Verstandes. Kein 
+               Mensch achtete darauf, wenn ich ihn damals als einen unsrer Helden schilderte. Geschäftsmänner, die jetzt vor Scham 
+               nicht wißen, wohin sie sehen sollen, spöttelten über mich, wenn ich mich dieses "Philosophischen Cabinets-Raths", wie 
+               sie ihn verächtlich nannten, annahm. - Am 
+               <date when-iso="1797-01-01">1<span rend="sup">ten</span> <pb/> Januar 1797</date> erschien die Königliche Instruction 
+               zur Organisirung der neuen Provinzen, das erste Meisterstück dieser Art, das je im Nahmen der Preußischen Regierung 
+               ausgefertigt ward. (Sie sollen es nächstens lesen: denn nun wird das abgeschmackte Geheimniß worunter dies herrliche 
+               Stück begraben lag, sich lösen) Es ist eine äußerstmerkwürdige Anekdote daß der verstorbne 
+               <rs type="person" ref="#KFWII">König</rs>, der <rs type="person" ref="#Mck">Mencke</rs>n für einen "Jakobiner" hielt, 
+               als er jene, unvergeßliche Instruction unterschrieb, 
+               <emph rend="underlined">nicht wuste, wer der Verfasser der selben war</emph>. Die Commission, die nach dieser 
+               Instruction operiren sollte, und in deren tiefste - und verderblichste - Geheimnisse ich zu meiner unaussprechlichen 
+               Qual, und zu meiner unbezahlbaren Belehrung, <del rend="stroked">ich</del> eingeweiht wurde, fand für gut, das Werk 
+               vor dem Publikum zu verbergen, und den Meister zu verläumden. Man durfte kaum 
+               <rs type="person" ref="#Mck">Mencke</rs>ns Nahmen aussprechen: ich mußte mich in der Nacht zu ihm schleichen, um ihm 
+               das Resultat der unglaublichen Discussionen mitzutheilen, die <pb/> unter 4 der wichtigsten Minister, über seine 
+               Schrift, von der jede Zeile Goldwerth war, eröfnet wurde; ich lief Gefahr, meinen ganzen Credit zu verlieren, wenn 
+               gewiße Menschen es erfuhren, daß ich mich unterstand, ihn zuweilen in <rs type="place" ref="#plPo">Potsdam</rs> zu 
+               besuchen: und jetzt - Nun, Sie wißen ja, was der Lauf der Welt ist. Zum Glücke für uns alle war dieser Mann der 
+               einzige im alten Kabinet auf den sich der <rs type="person" ref="#KFWIII">jetzige König</rs> fixiren 
+               <emph rend="underlined">konnte</emph>: sein gesunder, richtiger Blick hatte ihm überdies in den Maximen der vorigen 
+               Regierung in Ansehung seiner den kräftigsten Titel der Achtung die <rs type="person" ref="#Mck">Mencke</rs> verdiente 
+               gezeigt. Er übertrug ihm gleich am 3<span rend="sup">ten</span> Tage 
+               <emph rend="underlined">die Direction aller Civil-Angelegenheiten</emph>; und 
+               <rs type="person" ref="#Mck">Mencke</rs> übernahm diesen großen Posten <add place="above">nur</add> 
+               <emph rend="underlined">unter Bedingungen</emph>, die ihm und dem <rs type="person" ref="#KFWIII">Könige</rs> ewige 
+               Ehre machen. So lange er steht - aber, leider macht uns seine Kränklichkeit wenig Hoffnung ihn lange zu behalten - 
+               wird sich der Charakter der jetzigen 000000000Regierung, dafür stehe <emph rend="underlined">ich</emph> Ihnen, nie 
+               verleugnen. - A propos ! Eine der besten und neusten <pb/> Neuigkeiten ! Der 
+               <rs type="person" ref="#KFWIII">König</rs> hat durch eine Cabinets-Ordre an das Ober-Consistorium, befohlen, daß es 
+               in geistlichen Sachen wieder ganz nach der <emph rend="underlined">alten Instruction</emph> gehen soll, eine 
+               Vorschrift, wodurch Religions-Edikte, Examinations-Commissionen, und Privat-Censuren (die letztern beyden sogar in 
+               der Cabinets-Ordre genannt) über den Haufen fallen pp - Ich erzählte Ihnen gern mehr von öffentlichen Dingen, aber 
+               ich muß mich einschränken, um noch ein Wort, von dem was mich unmittelbar angeht, zu sagen.
+            </p>
+         </div>
+         <div n="3" corresp="#bezbt">
+            <p>
+               Der Umstand, daß <rs type="person" ref="#Mck">Mencke</rs> erst am 3<span rend="sup">ten</span> Tage der Regierung zu 
+               seinem jetzigen Posten gelangte, und die gänzliche Ungewißheit, worin ich (der ich doch nicht gerade zu den 
+               Schlecht-Unterrichteten gehörte) über die ersten Personen, die des <rs type="person" ref="#KFWIII">Königes</rs> 
+               Gunst und Vertrauen treffen würde, nothwendig seyn mußte, zwang mich zu dem, im Grunde für mich unangenehmen Schritt 
+               mein Schreiben an den <rs type="person" ref="#KFWIII">König</rs> ganz anonymisch zu übergeben. Ich mußte dies thun, 
+               weil unter denen welche die erste Gunst treffen <emph rend="underlined">konnte</emph>, Menschen waren deren 
+               Grundsätze ich kannte ! - - So vergingen <pb/> fast 8 Tage, ehe der <rs type="person" ref="#KFWIII">König</rs> die 
+               <rs type="citation" ref="#p1617-1">Schrift</rs> las: und so entstand die unangenehme, aber wirklich unvermeidliche 
+               Folge, daß der <rs type="person" ref="#KFWIII">König</rs> mir nicht schriftlich antworten konnte. - Die 
+               <rs type="person" ref="#KLP">Königin</rs> war die erste Person, die ihn auf die (unter einer Last von Papieren 
+               vergrabne) Schrift aufmerksam machte: die ersten Stellen, die der 
+               <rs type="person" ref="#HfMs">Hofmarschall Massow</rs> auf Verlangen der <rs type="person" ref="#KLP">Königin</rs> 
+               ihm vorlas - es waren, denken Sie Sich das, die <emph rend="underlined">über den Krieg</emph>! - frappirten ihn sehr: 
+               er las die <rs type="citation" ref="#p1617-1">Schrift</rs> selbst, und sprach nun mehrere Mittage gegen eine Menge 
+               sichrer und gültiger Zeugen, unter andern gegen den <rs type="place" ref="#KWF">Herzog von Braunschweig</rs>, 
+               <del rend="stroked">xxx</del> den <rs type="person" ref="#KII">Herzog von Mecklenburg-Strelitz</rs>, und einmal in 
+               Gegenwart des ganzen Ferdinandschen Hofes, in Ausdrücken einer unbeschränkten Zufriedenheit davon. Sie können Sich 
+               vorstellen, daß nun nicht 3 Tage vergingen, ehe mein Nahme und die <rs type="citation" ref="#p1617-1">Schrift</rs>, 
+               <rs type="place" ref="#plBe">Berlin</rs> von einem Ende zum andern überzog. Es gereicht mir wirklich zu einer der 
+               angenehmsten Erinnerungen meines Lebens, welche Sensation dieses kleine, und unverdienstliche Produkt hier eine 
+               Zeitlang unter allen <pb/> Ständen gemacht hat. - - Der <rs type="person" ref="#KFWIII">König</rs> hat sich übrigens 
+               bey drei verschiednen Gelegenheiten, wo von mir die Rede seyn mußte, immer wieder aufs neue, und immer wieder mit 
+               Wohlgefallen der <rs type="citation" ref="#p1617-1">Schrift</rs> erinnert. Soviel zur Benatwortung einer Ihrer 
+               Fragen.
+            </p>
+         </div>
+         <div n="4" corresp="#kmou">
+            <p>
+               Nun zu einer andern, die den verehrungswürdigen, den in meinen Augen wahrhaft großen 
+               <rs type="person" ref="#Mou">Mounier</rs> betrift. Daß er <rs type="citation" ref="#p1617-1">meine Schrift</rs> einer 
+               Uebersetzung würdigt, ist das schmeichelhaftste, was mir je widerfahren konnte, und zugleich eine für mich höchst 
+               interessante Neuigkeit, weil bey der Kleinheit dieser Schrift, und dem Interesse welches ihr die Umstände verleihen, 
+               eine Französische Uebersetzung sehr zu vermuthen, und bey der Menge schlechter Uebersetzer eine schlechte so sehr zu 
+               befürchten ist. Für diese Nachricht unbedingten herzlichen Dank. Was aber die 
+               <rs type="citation" ref="#a1617-1">eigne Schrift</rs> <rs type="person" ref="#Mou">Mounier</rs>'s betrift, so werde 
+               ich Ihnen darüber meine aufrichtige Meynung sagen, wovon Sie nun gegen <rs type="person" ref="#Mou">Mounier</rs> 
+               benutzen können, soviel Sie wollen. Niemand ist überzeugter als ich, daß <rs type="person" ref="#Mou">Mounier</rs> 
+               keine Zeile schreibt, die <del rend="stroked">ehe</del> es nicht im grösten <pb/> Umfange des Wortes, verdienen 
+               würde, geehrt, beherziget, befolgt zu werden. Aber - mögte er seine Schrift nicht <emph rend="underlined">an</emph> 
+               den <rs type="person" ref="#KFWIII">König</rs> <emph rend="underlined">adressiren</emph>! Es giebt hier einige, und 
+               zwar nicht unwichtige Menschen - es ist aber <emph rend="underlined">zu</emph> gefährlich, Nahmen zu nennen - die den 
+               Schritt, einem Könige eine freymüthige Anrede zu halten, schon <emph rend="underlined">bey mir</emph> unendlich 
+               getadelt haben. Glücklicherweise konnte sie <emph rend="underlined">mir</emph> nichts schaden 1, weil ich ihnen im 
+               ersten gefährlichen Augenblick durch die Anonymität auswich 2, weil, sogleich als mein Nahme bekannt wurde, auch 
+               schon das Urtheil des <rs type="person" ref="#KFWIII">Königs</rs> über die 
+               <rs type="citation" ref="#p1617-1">Schrift</rs> von Munde zu Munde ging 3, weil sie es nicht wagten, 
+               <rs type="person" ref="#Mck">Mencke</rs>n, dessen Verbindung mit mir bekannt genug war zu beleidigen. - Mit 
+               <rs type="person" ref="#Mou">Mounier</rs> würde das alles ganz anders seyn: gerade die Menschen, welche ich kenne und 
+               meyne würden ihm <emph rend="underlined">unfehlbar</emph> schaden: sie sind dazu ganz vorzüglich geeignet, weil 
+               <rs type="person" ref="#Mou">Mounier</rs> <emph rend="underlined">ein Emigrirter</emph> ist. Deutlicher werde ich 
+               wohl <emph rend="underlined">gegen Sie</emph> nicht sprechen dürfen - - <pb/> Mein Rath ist aber darum nicht etwa, 
+               daß <rs type="person" ref="#Mou">Mounier</rs> den Preußischen Staat und die Welt um eine einzige Zeile seiner gewiß 
+               treflichen Arbeit bringen, auch nicht, daß er sie dem <rs type="person" ref="#KFWIII">Könige</rs> nicht ohne Bedenken 
+               überreichen, sondern bloß - daß er sie nicht in Form eines Sendschreibens an den 
+               <rs type="person" ref="#KFWIII">König</rs> adressiren soll: und dieser Rath beruht auf guten Gründen. Was den Verlag 
+               betrift, so schicken Sie das Manuscript, <emph rend="underlined">an mich</emph>, und schreiben Sie mir dabey, 
+               wieviel Honorar <rs type="person" ref="#Mou">Mounier</rs> verlangt: er soll es ohne Abzug, und ohne Anstand erhalten. 
+               <rs type="person" ref="#FVW">Vieweg</rs> ist heute früh mit <rs type="person" ref="#FTL">La Garde</rs>, Knall und 
+               Fall, nach <rs type="place" ref="#plPa">Paris</rs> gereiset. Aber ich werde Ihnen nichts desto weniger einen sichern 
+               Verleger schaffen, und erwarte Ihre baldige Erklärung hierüber.
+            </p>
+         </div>
+         <div n="5" corresp="#vkab">
+            <p>
+               Die Ehre welche Sie im neusten Stück des Merkur, <rs type="person" ref="#Gil">meinem Schwiegervater</rs> und 
+               <rs type="person" ref="#HGen">Bruder</rs> widerfahren laßen, hat beide, wie Sie wohl denken können, nicht kalt 
+               gelaßen: sie werden Ihnen selbst dafür danken, und von <rs type="person" ref="#HGen">meinem <pb/> Bruder</rs> 
+               erhalten Sie mit nächster Post eine getreue Zeichnung der Hauptsache, die Ihnen, wie er versichert, weit mehr helfen 
+               wird, als die <add place="above">gedruckte und nicht ganz nach seinem Wunsche ausgefallne</add> Beschreibung.
+            </p>
+            <p>
+               Was Sie von mir selbst Gutes sagen, ist süß und belohnend für mich. Es ist weit, weit mehr als mir zukömmt, aber die 
+               Freundschaft schuf das Uebermaß, und ich kan es nicht ohne Wohlgefallen hinnehmen. Sie sind einer der Wenigen, die 
+               ich stets in Gedanken habe, wenn ich schreibe. Dies sey mein Dank. Für die Mittheilung des 
+               <rs type="citation" ref="#c1617-2">herrlichen Briefes</rs> der MadameH Ihnen zu danken, kann ich keine Worte finden. 
+               Möge mein Nahme unter solchen Menschen immer mit einiger Zufriedenheit genannt werden !
+            </p>
+         </div>
+         <div n="6" corresp="#tbk">
+            <p>
+               Alle die Schriften über die Tabaks-Administration deren Sie in Ihrem, <del rend="stroked">sonst</del> durchaus 
+               korrecten (wirklich bis zum Erstaunen korrecten) Artikel von <rs type="place" ref="#plBe">Berlin</rs> erwähnen, sind 
+               elendes, werthloses Geschmier. Ich wollte etwas gründliches darüber schreiben: aber nachher erlaubte es mein 
+               Verhältniß nicht mehr: und jetzt - ist ja ohnehin alles vorbei.
+            </p>
+            <p>
+               Ist dies wohl ein langer Brief ! - Ich fürchte einen ähnlichen erhalten Sie sobald nicht von
+            </p>
+         </div>
+         <closer>
+            <salute rend="right">Ihrige herzlich ergebnen</salute>
+            <dateline rend="left"><rs type="place" ref="#plBe">Berlin</rs> den <date when-iso="1797-12-30">30<span rend="sup">ten</span> Xbre 97</date>:</dateline>
+            <signed rend="right">Gentz.</signed>
+         </closer>
+      </body>
+   </text>
+</TEI>

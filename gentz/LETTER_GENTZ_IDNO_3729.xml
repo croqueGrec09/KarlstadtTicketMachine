@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader type="text">
+      <fileDesc xml:id="LETTER_GENTZ_3729">
+         <titleStmt>
+            <title>Friedrich von Gentz an Johann Wilhelm von Archenholtz, 27. März 1796</title>
+            <editor xml:id="edAG">Andreas Gálffy</editor>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <name>Forschungsstelle "Universitätssammlung Friedrich von Gentz"</name>
+               <link target="http://gentz-digital.ub.uni-koeln.de http://www.ub.uni-koeln.de/cdm/singleitem/collection/gentz/id/3728/"/>
+            </publisher>
+            <pubPlace>Cologne</pubPlace>
+            <idno type="Gentz-Edition-Number" n="3729"/>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <country>Austria</country>
+                  <settlement>Vienna</settlement>
+                  <institution>Haus-, Hof-, und Staatsarchiv</institution>
+                  <idno>Bl. 53-54</idno>
+               </msIdentifier>
+               <msContents>
+                  <summary>
+                     Eine neue Schrift von Burke ist im Erscheinen und Gentz möchte davon eine Übersetzung anfertigen. Daher bittet 
+                     er von Archenholtz, damit er das Original baldestmöglich besorgt. Die beiden Bände von Machpherson und 
+                     Zeitungen ind eingetroffen. Gentz bedankt sich für unzählige Mühen, die Archenholtz für ihn unternommen hat.
+                  </summary>
+               </msContents>
+            </msDesc>
+            <listBibl type="alludedWorks">
+               <bibl xml:id="a3729-1" corresp="#LETTER_GENTZ_NNNN">nicht näher benanntes Werk von Edmund Burke in einer nicht benannten Ausgabe der Morning-Chronicle</bibl>
+               <bibl xml:id="a3729-2" corresp="#LETTER_GENTZ_NNNN">nicht näher benanntes mehrbändiges Werk von James Macpherson</bibl>
+               <bibl xml:id="a3729-3" corresp="#LETTER_GENTZ_NNNN">Gegenschriften zu einem nicht näher benannten Werk von Edmund Burke in einer nicht benannten Ausgabe der Morning-Chronicle</bibl>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Masterarbeit zu Matrikelnummer 5584124</p>
+         </projectDesc>
+      </encodingDesc>
+      <profileDesc>
+         <creation>
+            <date when-iso="1796-03-27">27. März 1796</date>
+         </creation>
+        <langUsage>
+           <language ident="d">deutsch</language>
+        </langUsage>
+         <textClass>
+            <keywords scheme="internal"><!-- internal: innerhalb des besagten Briefs -->
+               <term>Brief</term>
+               <term>Burke</term>
+               <term>Morning-Chronicle</term>
+               <term>Macpherson</term>
+            </keywords>
+            <keywords scheme="categorisation"><!-- Sinnabschnittseinteilung - relevant für den Fahrkartenautomaten! -->
+               <term xml:id="kbur">Burke</term>
+               <term xml:id="bibl">Bibliothek</term>
+            </keywords>
+         </textClass>
+         <textDesc>
+            <channel>manuscript</channel>
+            <constitution type="frags"/>
+            <derivation type="original"/>
+            <domain type="private"/>
+            <factuality type="fact"/>
+            <interaction type="partial"/>
+            <preparedness type="prepared"/>
+            <purpose type="inform"/>
+         </textDesc>
+         <particDesc>
+            <listPerson>
+               <!-- Sender und Adressat -->
+               <person role="sender" xml:id="Gen">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/118538489"/>
+                     <forename>Friedrich von</forename>
+                     <surname>Gentz</surname>
+                  </persName>
+               </person>
+               <person role="receiver" xml:id="JWvA">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/118503839"/>
+                     <forename>Johann Wilhelm von</forename>
+                     <surname>Archenholz</surname>
+                  </persName>
+               </person>
+               <!-- erwähnte Personen -->
+               <person role="named" xml:id="Bur">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/118517708"/>
+                     <forename>Edmund</forename>
+                     <surname>Burke</surname>
+                  </persName>
+               </person>
+               <person role="named" xml:id="Crm">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/100178405"/>
+                     <forename>Carl Friedrich</forename>
+                     <surname>Cramer</surname>
+                  </persName>
+               </person>
+               <person role="named" xml:id="JMph">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/118781154"/>
+                     <forename>James</forename>
+                     <surname>Macpherson</surname>
+                  </persName>
+               </person>
+               <person role="named" xml:id="Hfm">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/116950781"/>
+                     <forename>Benjamin Gottlob</forename>
+                     <surname>Hoffmann</surname>
+                  </persName>
+               </person>
+               <person role="named" xml:id="FVW">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/119049546"/>
+                     <forename>Friedrich</forename>
+                     <surname>Vieweg</surname>
+                  </persName>
+               </person>
+               <person role="named" xml:id="WRm">
+                  <persName>
+                     <ref/>
+                     <forename>William</forename>
+                     <surname>Remnant</surname>
+                  </persName>
+               </person>
+            </listPerson>
+         </particDesc>
+         <settingDesc>
+            <listPlace>
+               <!-- Start- und Zielort -->
+               <place type="sender" xml:id="plBe">
+                  <country>
+                     <ref target="http://d-nb.info/gnd/4047194-9"/>
+                     <placeName>Preußen</placeName>
+                  </country>
+                  <settlement>
+                     <ref target="http://d-nb.info/gnd/4005728-8"/>
+                     <placeName>Berlin</placeName>
+                  </settlement>
+               </place>
+               <place type="receiver" xml:id="plHa">
+                  <country>
+                     <ref target="http://d-nb.info/gnd/4023118-5"/>
+                     <placeName>Hamburg</placeName>
+                  </country>
+                  <settlement>
+                     <ref target="http://d-nb.info/gnd/4023118-5"/>
+                     <placeName>Hamburg</placeName>
+                  </settlement>
+               </place>
+               <!-- erwähnte Orte -->
+               <place type="named" xml:id="plLo">
+                  <country>
+                     <ref target="http://d-nb.info/gnd/4022153-2"/>
+                     <placeName>Vereinigtes Königreich</placeName>                
+                  </country>
+                  <settlement>
+                     <ref target="http://d-nb.info/gnd/4074335-4"/>
+                     <placeName>London</placeName>
+                  </settlement>
+               </place>
+            </listPlace>
+         </settingDesc>
+      </profileDesc>
+      <revisionDesc>
+         <change xml:id="init" when-iso="2018-02-18" who="#edAG">Erstauszeichnung und Normierung des Dokumentes im Rahmen der Masterarbeit der Matrikelnummer 5584124</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div n="1" corresp="#kbur">
+            <p>
+               Jetzt, lieber Herr Hauptmann, komme ich nun gar mit einer stürmenden Bitte angezogen, und muß alle Scham über meine 
+               öftre Zudringlichkeit verstummen heißen. Sie wißen, daß <rs type="person" ref="#Bur">Burke</rs> eine 
+               <rs type="citation" ref="#a3729-1">neue Schrift</rs> herausgegeben hat, die, wie ich aus dem 
+               <ref target="#r3729-1">Morning-Chronicle</ref> ersehe, großes Aufsehen in <rs type="place" ref="#plLo">London</rs> 
+               macht. Ich habe mich anheischig gemacht, eine deutsche Uebersetzung davon zu liefern: und, ob ich nun gleich nicht 
+               (wie <rs type="person" ref="#Crm"><emph rend="underlined">Cramer</emph></rs> der <add place="above">sich</add> ein 
+               <span xml:lang="lat">Jus quaesitum</span> auf das Uebersetzen aller Girondistischen Schriften beylegt) glaube, daß 
+               mir , weil er die erste Gelegenheit gab, mich in die schriftstellerische Welt zu werfen, ausschließend zugehört, so 
+               wünschte ich denn doch der <emph rend="underlined">erste</emph> zu seyn, der ihn liefert, 
+               <del rend="stroked">da es</del> und wo möglich, die Concurrenz mehrerer zu vermeiden. Ich habe also meinen Vorsatz, 
+               die Uebersetzung zu geben, sofort ankündigen laßen: um ihn aber auszuführen, fehlt es mir jetzt an nichts geringerm, 
+               als an dem <rs type="citation" ref="#a3729-1">Original</rs>. Es ist <pb/> ein möglicher Fall, daß Sie es in 
+               <rs type="place" ref="#plHa">Hamburg</rs> schon haben: wäre dies, so bitte ich Sie aufs inständigste, es mir ohne 
+               den geringsten Zeitverlust mit nächster Post zu schicken. Haben Sie es noch nicht, so werden Sie wenigstens besser 
+               als irgend Jemand die Mittel wißen, durch welche man eine solche Sache aufs schleunigste habhaft werden kan. Und 
+               dann würden Sie mich unendlich verbinden, wenn Sie diese Mittel gleich in Bewegung setzten. Der Transport mag 
+               diesmal nun kosten, was er will. Zugleich wünschte ich aber wohl in diesem Falle auch 
+               <rs type="citation" ref="#a3729-3">diejenigen Pamphlets</rs>, die bereits <emph rend="underlined">gegen</emph> das 
+               <rs type="citation" ref="#a3729-1">Burkesche</rs> erschienen sind, mit zu erhalten - Im 
+               <ref target="#r3729-1">Morning Chronicle</ref> waren schon zwey aufgeführt. <pb/>
+            </p>
+         </div>
+         <div n="2" corresp="#bibl">
+            <p>
+               Die <rs type="citation" ref="#a3729-2">beiden Bände</rs> von <rs type="person" ref="#JMph">Macpherson</rs> nebst den 
+               Journalen habe ich durch Ihre Güte erhalten. Ich werde die Rechnung durch <rs type="person" ref="#FVW">Vieweg</rs> 
+               an <rs type="person" ref="#Hfm">Hoffmann</rs> bezahlen laßen. Ich bin Ihnen für Ihre vielfältige gütige Bemühungen 
+               in der That unendlichen Dank schuldig. Wenn ich mich auch wirklich mit <rs type="person" ref="#WRm">Remnant</rs> in 
+               unmittelbare Correspondenz setzen wollte, so würde ich doch, wie ich fest überzeugt bin, die Sachen nicht halb so 
+               promt und regelmäßig erhalten, als es zeither durch Ihre gütige Vermittlung geschehen ist.
+            </p>
+            <p>
+               Ich empfehle mich in Ihre Gewogenheit, lege Ihnen aber meine obige Bitte, aufs angelegentlichste ans Herz.
+            </p>
+         </div>
+         <closer>
+            <signed rend="right">Gentz</signed>
+            <dateline rend="left"><rs type="person" ref="#plBe">Berlin</rs> den <date when-iso="1796-03-27">27<span rend="sup">ten</span> März 1796</date></dateline>
+         </closer>
+      </body>
+      <note resp="#edAG" xml:id="r3729-1">Digitalisate der Morning-Chronicle von vor 1801 liegen zum gegenwärtigen Zeitpunkt nicht vor</note>
+   </text>
+</TEI>

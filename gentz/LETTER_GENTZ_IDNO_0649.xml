@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader type="text">
+      <fileDesc xml:id="LETTER_GENTZ_0649">
+         <titleStmt>
+            <title>Friedrich von Gentz an Christian Friedrich Voß, 29. März 1794</title>
+            <editor xml:id="edAG">Andreas Gálffy</editor>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <name>Forschungsstelle "Universitätssammlung Friedrich von Gentz"</name>
+               <link target="http://gentz-digital.ub.uni-koeln.de http://www.ub.uni-koeln.de/cdm/singleitem/collection/gentz/id/648/"/>
+            </publisher>
+            <pubPlace>Cologne</pubPlace>
+            <idno type="Gentz-Edition-Number" n="0649"/>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <country>Germany</country>
+                  <settlement>Frankfurt</settlement>
+                  <institution>Freies Deutsches Hochstift</institution>
+                  <idno>Handschrift Nr. 3462</idno>
+               </msIdentifier>
+               <msContents>
+                  <summary>
+                     Die Übersetzung ist fertig. Manche Ausdrücke musste Gentz jedoch korrigieren, weil sie beleidigend gegen den 
+                     preußischen Hof seien und deshalb die Zensur nicht passierten. Gentz erwartet weitere Auskunft, ob die 
+                     Änderungen so in Ordnung seien, oder ob Voß die unbearbeitete Fassung haben will. 
+                  </summary>
+               </msContents>
+            </msDesc>
+            <listBibl type="letterReferenced">
+               <bibl xml:id="c0649-1" corresp="#LETTER_GENTZ_2415">Friedrich von Gentz an Friedrich Philipp Rosenstiel, 23. Februar 1794</bibl>
+            </listBibl>
+            <listBibl type="alludedWorks">
+               <bibl xml:id="a0649-1" corresp="#LETTER_GENTZ_NNNN">nicht näher benannte Übersetzung eines nicht näher benannten Buches von einem unbekannten Autor</bibl>
+               <bibl xml:id="a0649-2" corresp="#LETTER_GENTZ_NNNN">nicht näher benanntes Buch von einem unbekannten Autor</bibl>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Masterarbeit zu Matrikelnummer 5584124</p>
+         </projectDesc>
+      </encodingDesc>
+      <profileDesc>
+         <creation>
+            <date when-iso="1794-03-29">29. März 1794</date>
+         </creation>
+        <langUsage>
+           <language ident="d">deutsch</language>
+        </langUsage>
+         <textClass>
+            <keywords scheme="internal"><!-- internal: innerhalb des besagten Briefs -->
+               <term>Brief</term>
+               <term>Übersetzung</term>
+               <term>Zensur</term>
+               <term>preußischer Hof</term>
+            </keywords>
+            <keywords scheme="categorisation"><!-- Sinnabschnittseinteilung - relevant für den Fahrkartenautomaten! -->
+               <term xml:id="frv">Französische Revolution</term>
+            </keywords>
+         </textClass>
+         <textDesc>
+            <channel>manuscript</channel>
+            <constitution type="single"/>
+            <derivation type="original"/>
+            <domain type="private"/>
+            <factuality type="fact"/>
+            <interaction type="partial"/>
+            <preparedness type="unprepared"/>
+            <purpose type="inform"/>
+         </textDesc>
+         <particDesc>
+            <listPerson>
+               <!-- Sender und Adressat -->
+               <person role="sender" xml:id="Gen">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/118538489"/>
+                     <forename>Friedrich von</forename>
+                     <surname>Gentz</surname>
+                  </persName>
+               </person>
+               <person role="receiver" xml:id="CFV">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/117495301"/>
+                     <forename>Christian Friedrich</forename>
+                     <surname>Voß</surname>
+                  </persName>
+               </person>
+               <!-- erwähnte Personen -->
+            </listPerson>
+         </particDesc>
+         <settingDesc>
+            <listPlace>
+               <!-- Start- und Zielort -->
+               <place type="sender" xml:id="plBe">
+                  <country>
+                     <ref target="http://d-nb.info/gnd/4047194-9"/>
+                     <placeName>Preußen</placeName>
+                  </country>
+                  <settlement>
+                     <ref target="http://d-nb.info/gnd/4005728-8"/>
+                     <placeName>Berlin</placeName>
+                  </settlement>
+               </place>
+               <!-- erwähnte Orte -->
+            </listPlace>
+         </settingDesc>
+      </profileDesc>
+      <revisionDesc>
+         <change xml:id="init" when-iso="2018-02-14" who="#edAG">Erstauszeichnung und Normierung des Dokumentes im Rahmen der Masterarbeit der Matrikelnummer 5584124</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <front>
+         <p>
+            Herrn Buchhändler Voß
+            Wohlgebohren
+         </p>
+      </front>
+      <body>
+         <opener>
+            <salute rend="left"><rs type="person" ref="#CFV">Ewr. Wohlgebohren</rs></salute>
+         </opener>
+         <div n="1" corresp="#frv">
+            <p>
+               übersende ich hiebey die <rs type="citation" ref="#c0649-1">letzte Lieferung</rs> des 
+               <rs type="citation" ref="#a0649-1">Manuskripts</rs>, muß dieselbe aber mit einer Anmerkung begleiten, die Ihnen 
+               wahrscheinlich nicht unlieb seyn wird.
+            </p>
+            <p>
+               Den 6ten Abschnitt des <rs type="citation" ref="#a0649-2">Buchs</rs>, enthält eine Menge der anstößigsten und 
+               beleidigsten Aeußerungen gegen die alliirten Mächte, ganz speciell der gegen unsern Hof - Einzelne Worte, einzelne 
+               Wendungen habe ich zu mildern und zu unterdrücken gesucht. Da aber die Entreprise 
+               <rs type="person" ref="#CFV">EwrWohlgebohren</rs> und nicht mir gehört so durfte ich es <del rend="stroke">xxx</del> 
+               ohne dazu autorisirt <add place="above">zu</add> seyn nicht wagen, Haupt 
+               <unclear>zwei oder drei Wörter nicht lesbar</unclear> vorzunehmen, oder gar Stellen von 
+               <unclear>ein oder zwei Wörter nicht lesbar</unclear> Länge auszulassen. Indessen habe ich durch <pb/> die schon 
+               erwähnten kleinen Alterationen es dahin gebracht, daß das eigentliche Anstößige jetzt nur 
+               <del rend="stroked">xxx</del> in eine einzige freylich nicht kurze Stelle concentrirt ist welche Seite 835 des 
+               Manuscripts mit den Worten: <emph rend="underlined">Um den ersten Grund</emph> etc. anfängt, und Seite 844 mit den 
+               Worten: <emph rend="underlined">despotischen Fürsten ankam</emph> endigt. Diese Stelle ist von einer solchen Art, 
+               daß ich stark vermuthe, sie wird die Censur nicht passiren. Sollten 
+               <rs type="person" ref="#CFV">Ewr. Wohlgebohren</rs> dies ebenfalls besorgen, oder sollte es sich wirklich 
+               <gap><desc>1 Wort fehlt</desc></gap> und Sie wünschen alsdann die Stelle umgearbeitet zu haben, so bitte ich, mich 
+               davon <add place="above">zu</add> benachrichtigen, und ich will mich diesem Geschäft sehr gern unterziehen.
+            </p>
+         </div>
+         <closer>
+            <signed rend="right">Gentz</signed>
+            <dateline rend="right">den <date when-iso="1794-03-29">29<span rend="sup">ten</span> März 1794</date></dateline>
+         </closer>
+      </body>
+   </text>
+</TEI>

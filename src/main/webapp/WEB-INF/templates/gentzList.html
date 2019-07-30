@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+
+<html xmlns:th="http://www.thymeleaf.org">
+
+<head>
+
+<!-- JQuery -->
+<script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+<!-- Bootstrap CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" />
+<!-- Bootstrap JavaScript -->
+<script type="text/javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+<!-- DataTables CSS -->
+<link rel="stylesheet" href="https://cdn.datatables.net/v/bs4/dt-1.10.16/datatables.min.css" />
+<!-- DataTables JavaScript -->
+<script type="text/javascript" src="https://cdn.datatables.net/v/bs4/dt-1.10.16/datatables.min.js"></script>
+<link rel="stylesheet" href="/css/gentzStyle.css" />
+<script type="text/javascript" src="/js/gentzList.js"></script>
+<title>Liste von Gentz-Briefen</title>
+
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+
+
+</head>
+<body>
+	<nav th:include="gentzNav :: gentzNav">...</nav>
+	<ul id="listViewChange" class="nav nav-tabs" role="tablist">
+		<li class="nav-item">
+			<a class="nav-link active" id="srvTab" data-toggle="tab" href="#senderReceiverWrapper" role="tab" aria-controls="senderReceiverWrapper" aria-selected="true">Sender-Empfänger-Ansicht</a>
+		</li>
+		<li class="nav-item">
+			<a class="nav-link" id="mdTab" data-toggle="tab" href="#metadataWrapper" role="tab" aria-controls="metadataWrapper" aria-selected="false">Metadatenansicht</a>
+		</li>
+	</ul>
+	<div class="tab-content" id="listTableWrapper">
+		<div class="tab-pane fade show active" id="senderReceiverWrapper" role="tabpanel" aria-labelledby="srvTab">
+			<table id="letterListTable" class="table dataTable">
+				<thead>
+					<tr>
+						<th>
+							Sender
+						</th>
+						<th>
+							Empfänger
+						</th>
+						<th>
+							Datum
+						</th>
+						<th>
+							Zusammenfassung
+						</th>
+					</tr>
+				</thead>
+				<tbody>
+					<tr th:each="letter: ${letters}" th:id="${letter.id}" th:include="letterListTableFragment :: letterListTable">
+						...
+					</tr>
+				</tbody>
+			</table>
+		</div>
+		<div class="tab-pane fade" id="metadataWrapper" role="tabpanel" aria-labelledby="mdTab">
+			<table id="metadataTable" class="table dataTable">
+				<thead>
+					<tr>
+						<th>
+							Land, Stadt
+						</th>
+						<th>
+							Institut, Sammlung
+						</th>
+						<th>
+							Idno
+						</th>
+					</tr>
+				</thead>
+				<tbody>
+					<tr th:each="letter: ${letters}">
+						<td th:text="${letter.country}+', '+${letter.settlement}">
+							...
+						</td>
+						<td th:text="${letter.institution}+', '+${letter.collection}">
+							...
+						</td>
+						<td>
+							<a class="anchor"
+							th:href="@{/KtM/letter/{id}(id=${letter.id})}"
+							th:text="${letter.msIdno}"></a>
+						</td>
+					</tr>
+				</tbody>
+			</table>
+		</div>
+	</div>
+</body>
+</html>

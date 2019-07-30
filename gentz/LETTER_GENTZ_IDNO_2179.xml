@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc xml:id="LETTER_GENTZ_2179">
+         <titleStmt>
+            <title>Friedrich von Gentz an Friedrich Vieweg, 15. Dezember 1798</title>
+            <editor xml:id="edAG">Andreas Gálffy</editor>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <name>Forschungsstelle "Universitätssammlung Friedrich von Gentz"</name>
+               <link target="http://gentz-digital.ub.uni-koeln.de http://www.ub.uni-koeln.de/cdm/singleitem/collection/gentz/id/2178/"/>
+            </publisher>
+            <pubPlace>Cologne</pubPlace>
+            <idno type="Gentz-Edition-Number" n="2179"/>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <country>Germany</country>
+                  <settlement>Wiesbaden</settlement>
+                  <institution>Vieweg-Verlagsarchiv</institution>
+                  <repository>Briefsammlung 311 G: Gentz-Briefe</repository>
+                  <idno>Nr. 87</idno>
+               </msIdentifier>
+               <msContents>
+                  <summary>
+                     Büsch praktischer Briefsteller für Kaufleute und Tabellen über Flächen-Inhalt, Menschenzahl pp. der deutschen 
+                     Reichslande von Lang soll Vieweg zu einer ganz geheimen Unternehmung schicken. In einem Posseltschen Blatt 
+                     paraieren Gentz und Vieweg.
+                  </summary>
+               </msContents>
+            </msDesc>
+            <listBibl type="alludedWorks">
+               <bibl xml:id="a2179-1" corresp="#LETTER_GENTZ_NNNN">nicht näher benanntes Blatt von Posselt</bibl>
+            </listBibl>
+            <listBibl type="defRep">
+               <biblStruct xml:id="p2179-1" corresp="#LETTER_GENTZ_NNNN">
+                  <monogr>
+                     <author>
+                        <persName>
+                           <ref target="http://d-nb.info/gnd/104327952"/>
+                           <forename>Johann Georg</forename>
+                           <surname>Büsch</surname>
+                        </persName>
+                     </author>
+                     <title>Praktischer Briefsteller für Kaufleute</title>
+                     <imprint>
+                        <date>1798</date>
+                     </imprint>
+                  </monogr>
+                  <ptr target="#LETTER_GENTZ_NNNN"/>
+               </biblStruct>
+               <biblStruct xml:id="p2179-2" corresp="#LETTER_GENTZ_NNNN">
+                  <monogr>
+                     <author>
+                        <persName>
+                           <ref/>
+                           <forename>K. H.</forename>
+                           <surname>Lang</surname>
+                        </persName>
+                     </author>
+                     <title>Tabellen über Flächeninhalt, Menschenzahl, Einkünfte und bevorstehenden Verlust der deutschen Reichslande</title>
+                     <imprint>
+                        <publisher>Decker</publisher>
+                        <pubPlace>Basel</pubPlace>
+                        <date>1798</date>
+                     </imprint>
+                  </monogr>
+                  <ptr target="#LETTER_GENTZ_NNNN"/>
+               </biblStruct>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Masterarbeit zu Matrikelnummer 5584124</p>
+         </projectDesc>
+      </encodingDesc>
+      <profileDesc>
+         <creation>
+            <date when-iso="1798-12-15">15. Dezember 1798</date>
+         </creation>
+        <langUsage>
+           <language ident="d">deutsch</language>
+        </langUsage>
+         <textClass>
+            <keywords scheme="internal"><!-- internal: innerhalb des besagten Briefs -->
+               <term>Billet</term>
+               <term>Bibliothek</term>
+               <term>Posselt</term>
+            </keywords>
+            <keywords scheme="categorisation"><!-- Sinnabschnittseinteilung - relevant für den Fahrkartenautomaten! -->
+               <term xml:id="bibl">Bibliothek</term>
+               <term xml:id="kpos">Posselt</term>
+            </keywords>
+         </textClass>
+         <textDesc>
+            <channel>manuscript</channel>
+            <constitution type="single"/>
+            <derivation type="original"/>
+            <domain type="private"/>
+            <factuality type="fact"/>
+            <interaction type="partial"/>
+            <preparedness type="prepared"/>
+            <purpose type="inform"/>
+         </textDesc>
+         <particDesc>
+            <listPerson>
+               <!-- Sender und Adressat -->
+               <person role="sender" xml:id="Gen">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/118538489"/>
+                     <forename>Friedrich von</forename>
+                     <surname>Gentz</surname>
+                  </persName>
+               </person>
+               <person role="receiver" xml:id="FVW">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/119049546"/>
+                     <forename>Friedrich</forename>
+                     <surname>Vieweg</surname>
+                  </persName>
+               </person>
+               <!-- erwähnte Personen -->
+            </listPerson>
+         </particDesc>
+         <settingDesc>
+            <listPlace>
+               <!-- Start- und Zielort -->
+               <place type="sender" xml:id="plBe">
+                  <country>
+                     <ref target="http://d-nb.info/gnd/4047194-9"/>
+                     <placeName>Preußen</placeName>
+                  </country>
+                  <settlement>
+                     <ref target="http://d-nb.info/gnd/4005728-8"/>
+                     <placeName>Berlin</placeName>
+                  </settlement>
+               </place>
+               <!-- erwähnte Orte -->
+            </listPlace>
+         </settingDesc>
+      </profileDesc>
+      <revisionDesc>
+         <change xml:id="init" when-iso="2018-03-02" who="#edAG">Erstauszeichnung und Normierung des Dokumentes im Rahmen der Masterarbeit der Matrikelnummer 5584124</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div n="1" corresp="#bibl">
+            <p>
+               Folgende beide Bücher.
+               1. <rs type="citation" ref="#p2179-1">Büsch praktischer Briefsteller für Kaufleute</rs>.
+               2. <rs type="citation" ref="#p2179-2">Tabellen über Flächen-Inhalt, Menschenzahl pp der deutschen Reichslande</rs> von <emph rend="underlined">Lang</emph>.
+               <emph rend="underlined">Decker Basel</emph>.
+            </p>
+            <p>
+               bitte ich Sie, lieber Freund mir baldigst zu verschaffen. Ueber das erste lachen Sie vielleicht, aber es ist mir zu 
+               gewissen ganz geheimen Unternehmungen sehr nötig.
+            </p>
+         </div>
+         <div n="2" corresp="#kpos">
+            <p>
+               Hiebey das <rs type="citation" ref="#a2179-1">Posseltsche Blatt</rs>, worin wir beide paradiren.
+            </p>
+         </div>
+         <closer>
+            <signed rend="right">Gentz.</signed>
+         </closer>
+      </body>
+      <back>
+         <p>
+            Herrn
+            Buchhändler Vieweg
+            Wohlgebohren
+         </p>
+         <p resp="otherHand">
+            <rs type="place" ref="#plBe">Berlin</rs> <date when-iso="1798-12-15">15. Decbr 1798</date>.
+            H. Kr. R. Gentz
+            R. d. 15. eod.
+         </p>
+      </back>
+      <note xml:id="r2179-1">S. 4: Adr.</note>
+      <note xml:id="r2179-2">S. 4: Pr.-Vm. von Schreiberhand</note>
+      <note xml:id="r2179-3">S. 4: Reste des Privatsiegels von Gentz</note>
+   </text>
+</TEI>

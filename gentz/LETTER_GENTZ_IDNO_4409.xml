@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc xml:id="LETTER_GENTZ_4409">
+         <titleStmt>
+            <title>Ludwig Graf von Cobentzl an Friedrich von Gentz, 9. Oktober 1802</title>
+            <editor xml:id="edAG">Andreas Gálffy</editor>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <name>Forschungsstelle "Universitätssammlung Friedrich von Gentz"</name>
+               <link target="http://gentz-digital.ub.uni-koeln.de http://www.ub.uni-koeln.de/cdm/singleitem/collection/gentz/id/4408/"/>
+            </publisher>
+            <pubPlace>Cologne</pubPlace>
+            <idno type="Gentz-Edition-Number" n="4409"/>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <country>Austria</country>
+                  <settlement>Vienna</settlement>
+                  <institution>Haus-, Hof- und Staatsarchiv</institution>
+                  <repository>Staatskanzlei, Interiora</repository>
+                  <collection>Karton 78, Fasz.: "Gentz: Kaiser Franz, Thugut, Saurau, Cobentzl, Ludwig, 1793-1805"</collection>
+                  <idno>Bl. 13</idno>
+               </msIdentifier>
+               <msContents>
+                  <summary>
+                     Von Cobentzl ist erstaunt über das plötzliche Verschwinden Gentz' und bedauert, dass er nicht den ganzen 
+                     Dienstweg beschritten hat. Er wünscht ihm dennoch alles Gute.
+                  </summary>
+               </msContents>
+            </msDesc>
+            <listBibl type="letterReferenced">
+               <bibl xml:id="c4409-1" corresp="#LETTER_GENTZ_1509">Friedrich von Gentz an Ludwig Graf von Cobentzl, 30. September 1802</bibl>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Masterarbeit zu Matrikelnummer 5584124</p>
+         </projectDesc>
+      </encodingDesc>
+      <profileDesc>
+         <creation>
+            <date when-iso="1802-10-09">9. Oktober 1802</date>
+         </creation>
+        <langUsage>
+           <language ident="f">französisch</language>
+        </langUsage>
+         <textClass>
+            <keywords scheme="internal"><!-- internal: innerhalb des besagten Briefs -->
+               <term>Billet</term>
+               <term>Konzept</term>
+               <term>Reise</term>
+               <term>Überraschung</term>
+            </keywords>
+            <keywords scheme="categorisation"><!-- Sinnabschnittseinteilung - relevant für den Fahrkartenautomaten! -->
+               <term xml:id="rs">Reise von 1802</term>
+            </keywords>
+         </textClass>
+         <textDesc>
+            <channel>manuscript</channel>
+            <constitution type="single"/>
+            <derivation type="original"/>
+            <domain type="private"/>
+            <factuality type="fact"/>
+            <interaction type="partial"/>
+            <preparedness type="unprepared"/>
+            <purpose type="inform"/>
+         </textDesc>
+         <particDesc>
+            <listPerson>
+               <!-- Sender und Adressat -->
+               <person role="sender" xml:id="LvC">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/11769164X"/>
+                     <forename>Ludwig von</forename>
+                     <surname>Cobenzl</surname>
+                  </persName>
+               </person>
+               <person role="receiver" xml:id="Gen">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/118538489"/>
+                     <forename>Friedrich von</forename>
+                     <surname>Gentz</surname>
+                  </persName>
+               </person>
+               <!-- erwähnte Personen -->
+               <person role="named" xml:id="BRgf">
+                  <persName>
+                     <ref />
+                     <forename>von</forename>
+                     <surname>Reigersfeld</surname>
+                     <roleName type="office">Baron</roleName>
+                  </persName>
+               </person>
+            </listPerson>
+         </particDesc>
+         <settingDesc>
+            <listPlace>
+               <!-- Start- und Zielort -->
+               <place type="sender" xml:id="plWi">
+                  <country>
+                     <ref target="http://d-nb.info/gnd/4075601-4"/>
+                     <placeName>Erzherzogtum Österreich</placeName>
+                  </country>
+                  <settlement>
+                     <ref target="http://d-nb.info/gnd/4066009-6"/>
+                     <placeName>Wien</placeName>
+                  </settlement>
+               </place>
+               <!-- erwähnte Orte -->
+               <place type="named" xml:id="plEn">
+                  <country>
+                     <ref target="http://d-nb.info/gnd/4022153-2"/>
+                     <placeName>England</placeName>
+                  </country>
+               </place>
+               <place type="named" xml:id="plDd">
+                  <country>
+                     <ref target="http://d-nb.info/gnd/4051176-5"/>
+                     <placeName>Sachsen</placeName> 
+                  </country>
+                  <settlement>
+                     <ref target="http://d-nb.info/gnd/4012995-0"/>
+                     <placeName>Dresden</placeName>
+                  </settlement>
+               </place>
+               <place type="named" xml:id="plLo">
+                  <country>
+                     <ref target="http://d-nb.info/gnd/4022153-2"/>
+                     <placeName>Vereinigtes Königreich</placeName>                
+                  </country>
+                  <settlement>
+                     <ref target="http://d-nb.info/gnd/4074335-4"/>
+                     <placeName>London</placeName>
+                  </settlement>
+               </place>
+            </listPlace>
+         </settingDesc>
+      </profileDesc>
+      <revisionDesc>
+         <change xml:id="init" when-iso="2018-03-11" who="#edAG">Erstauszeichnung und Normierung des Dokumentes im Rahmen der Masterarbeit der Matrikelnummer 5584124</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <front resp="#LvC" xml:lang="de">
+         <p>
+            unter Einschluß an <ref target="#r4409-2">B. Reigersfeld</ref>
+         </p>
+      </front>
+      <body>
+         <div n="1" corresp="#rs">
+            <p>
+               Je ne puis vous cacher Monsieur que nous avons été étonné de la determination que vous avez prie de partir subitement 
+               pour l'<rs type="place" ref="#plEn">Angleterre</rs>. Quelque plausibles, que soient les motifs d'interets relatifs à 
+               des entreprises litteraires antecedents qui ce trouvent detaillés dans 
+               <rs type="citation" ref="#c4409-1">votre lettre</rs> de <rs type="place" ref="#plDd">Dresde</rs> 
+               <date when-iso="1802-09-30">le 30 Septembre</date>, j'aurois desiré que vous vous fassiez bonne d' à m'en faire part 
+               et attendre si vous ayez obtenu l'agrement du voyage à <rs type="place" ref="#plLo">Londres</rs>.
+            </p>
+            <p>
+               Quoiqu'il en soit j'espère que vous terminerez promptement l'affaire particuliere qui y a amené et que j'aurai 
+               bientôt le plaisir de vous confirmer de bouche la considération avec laquelle je suis
+            </p>
+         </div>
+         <note xml:id="r4409-1">Konzept</note>
+         <note xml:id="r4409-2"><rs type="person" ref="#BRgf">Reigersfeld</rs> war Gesandtschaftsrat bei der österreichischen Gesandtschaft in London.</note>
+      </body>
+   </text>
+</TEI>

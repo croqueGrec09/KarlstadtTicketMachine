@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc xml:id="LETTER_GENTZ_1401">
+         <titleStmt>
+            <title>Friedrich von Gentz an Karl Georg Heinrich Graf von Hoym, 16. Mai 1795</title>
+            <editor xml:id="edAG">Andreas Gálffy</editor>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <name>Forschungsstelle "Universitätssammlung Friedrich von Gentz"</name>
+               <link target="http://gentz-digital.ub.uni-koeln.de http://www.ub.uni-koeln.de/cdm/singleitem/collection/gentz/id/1400/"/>
+            </publisher>
+            <pubPlace>Cologne</pubPlace>
+            <idno type="Gentz-Edition-Number" n="1401"/>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <country>Germany</country>
+                  <settlement>Berlin</settlement>
+                  <institution>Geheimes Staatsarchiv Preußsischer Kulturbesitz</institution>
+                  <repository>II. HA, Generaldirektorium, Südpreußen, Abt. I</repository>
+                  <collection>Lit E, Nr. 370</collection>
+                  <idno>Bl. 25</idno>
+               </msIdentifier>
+               <msContents>
+                  <summary>
+                     Die Anstellung bei dem Westfälischen Departement des General-Direktoiriums hat Gentz sehr geehrt, wofür er in 
+                     diesem Brief dankt.
+                  </summary>
+               </msContents>
+            </msDesc>
+            <listBibl type="letterReferenced">
+               <bibl xml:id="c1401-1" corresp="#LETTER_GENTZ_1089">Friedrich von Gentz an Karl Georg Heinrich Graf von Hoym, 11. Oktober 1794</bibl>
+               <bibl xml:id="c1401-2" corresp="#LETTER_GENTZ_5249">Friedrich von Gentz an Friedrich Vieweg, 9. Mai 1795</bibl>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Masterarbeit zu Matrikelnummer 5584124</p>
+         </projectDesc>
+      </encodingDesc>
+      <profileDesc>
+         <creation>
+            <date when-iso="1795-05-16">16. Mai 1795</date>
+         </creation>
+        <langUsage>
+           <language ident="d">deutsch</language>
+        </langUsage>
+         <textClass>
+            <keywords scheme="internal"><!-- internal: innerhalb des besagten Briefs -->
+               <term>Brief</term>
+               <term>Dankschreiben</term>
+               <term>Breslau</term>
+            </keywords>
+            <keywords scheme="categorisation"><!-- Sinnabschnittseinteilung - relevant für den Fahrkartenautomaten! -->
+               <term xml:id="bezbt">Beziehungen zu Berlin - Beamtentätigkeit</term>
+            </keywords>
+         </textClass>
+         <textDesc>
+            <channel>manuscript</channel>
+            <constitution type="single"/>
+            <derivation type="original"/>
+            <domain type="private"/>
+            <factuality type="fact"/>
+            <interaction type="partial"/>
+            <preparedness type="prepared"/>
+            <purpose type="inform"/>
+         </textDesc>
+         <particDesc>
+            <listPerson>
+               <!-- Sender und Adressat -->
+               <person role="sender" xml:id="Gen">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/118538489"/>
+                     <forename>Friedrich von</forename>
+                     <surname>Gentz</surname>
+                  </persName>
+               </person>
+               <person role="receiver" xml:id="Hoy">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/117028568"/>
+                     <forename>Karl Georg Heinrich von</forename>
+                     <surname>Hoym</surname>
+                  </persName>
+               </person>
+               <!-- erwähnte Personen -->
+            </listPerson>
+         </particDesc>
+         <settingDesc>
+            <listPlace>
+               <!-- Start- und Zielort -->
+               <place type="sender" xml:id="plBe">
+                  <country>
+                     <ref target="http://d-nb.info/gnd/4047194-9"/>
+                     <placeName>Preußen</placeName>
+                  </country>
+                  <settlement>
+                     <ref target="http://d-nb.info/gnd/4005728-8"/>
+                     <placeName>Berlin</placeName>
+                  </settlement>
+               </place>
+               <!-- erwähnte Orte -->
+            </listPlace>
+         </settingDesc>
+      </profileDesc>
+      <revisionDesc>
+         <change xml:id="init" when-iso="2018-02-16" who="#edAG">Erstauszeichnung und Normierung des Dokumentes im Rahmen der Masterarbeit der Matrikelnummer 5584124</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <opener>
+            <salute rend="left">Hochwürdiger, Hochgebohrner Herr Graf !</salute>
+            <salute rend="left">Höchstgebietender Herr wirklicher Geheimer Staats-Minister !</salute>
+            <salute rend="left">Gnädigster Herr !</salute>
+         </opener>
+         <div n="1" corresp="#bezbt">
+            <p>
+               <rs type="person" ref="#Hoy">Ewr. Hochgräfliche Excellentz</rs> haben durch die 
+               <ref target="#r1401-1">gnädige Beystimmung</ref> zu meiner Anstellung bey dem Westphälischen Departement des 
+               General-Directorii und zur vorläufigen Beibehaltung des mir aus dem Südpreußischen Fonds zeither zugeflossnen 
+               Gehalts, die Huld und Gnade, deren mich Hochdieselben in meinem 
+               <ref target="#r1401-2">jetzigen Verhältniß gewürdiget</ref>, aufs allervollkommenste zu krönen geruhet. Erlauben 
+               Ewr. Excellentz, daß ich ohne viele Worte, die meinem Gefühl ohnehin nicht entsprechen dürften, meinen tiefen und 
+               innigen Dank, und zugleich die erneuerte Versicherung jenes unbegränzten, auf die aufrichtigste Bewunderung 
+               gegründeten Respekts submittire, mit welchem ich unwandelbar verharre
+            </p>
+         </div>
+         <closer>
+            <salute rend="right"><rs type="person" ref="#Hoy">Ewr. Hochgräflichen Excellentz</rs></salute>
+            <salute rend="right">ganz unterthänigster Treu-</salute>
+            <salute rend="right">Gehorsamster</salute>
+            <dateline rend="left"><rs type="place" ref="#plBe">Berlin</rs> den <date when-iso="1795-05-16">16 May 1795</date>.</dateline>
+            <signed rend="right">Gentz.</signed>
+         </closer>
+         <note resp="#edAG" xml:id="r1401-1">Vgl. den <rs type="citation" ref="#c1401-1">Brief vom 11. Oktober 1794</rs></note>
+         <note resp="#edAG" xml:id="r1401-2">Vgl. den <rs type="citation" ref="#c1401-2">Brief vom 9. Mai 1795</rs></note>
+      </body>
+   </text>
+</TEI>

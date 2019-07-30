@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+
+<html xmlns:th="http://www.thymeleaf.org">
+
+<head>
+<title>Search</title>
+<meta charset="UTF-8"/>
+<!-- JQuery -->
+<script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+<!-- Bootstrap CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" />
+<!-- Bootstrap JavaScript -->
+<script type="text/javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+<!-- Bootstrap Datepicker -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.8.0/css/bootstrap-datepicker.min.css" />
+<script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.8.0/js/bootstrap-datepicker.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.8.0/locales/bootstrap-datepicker.de.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.8.0/locales/bootstrap-datepicker.en-GB.min.js"></script>
+<link rel="stylesheet" href="/css/gentzStyle.css" />
+<script src="/js/gentzSearch.js"></script>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+
+</head>
+<body>
+	<nav th:include="gentzNav :: gentzNav">...</nav>
+	<div class="container">
+		<div class="row">
+			<div class="col-md-12">
+				Suchformular
+			</div>
+		</div>
+		<form id="search" action="/KtM/search/" accept-charset="UTF-8" method="post">
+			<div class="row">
+				<div class="col-md-4">
+					Begrenzen auf Kategorien:
+					<div class="form-check" th:each="category,iter : ${categories}">
+						<input class="form-check-input" type="checkbox" name="category" th:value="${category.key}" th:id="${category.key + iter}"/>
+						<label class="form-check-label" th:for="${category.key + iter}" th:text="${category.value}">
+							Kategorie
+						</label>
+					</div>
+				</div>
+				<div class="col-md-8">
+					<div class="form-group">
+						<label for="sender">Absender</label>
+						<input type="text" class="form-control" id="sender" name="sender" placeholder="nach Absender"/>
+					</div>
+					<div class="form-group">
+						<label for="receiver">Empfänger</label>
+						<input type="text" class="form-control" id="receiver" name="receiver" placeholder="nach Empfänger"/>
+					</div>
+					<div class="form-group">
+						<label for="person">Person</label>
+						<input type="text" class="form-control" id="person" name="person" aria-describedby="personHelp" placeholder="nach Person"/>
+						<small id="personHelp" class="form-text text-muted">Personen, die in einem Brief erwähnt worden sind</small>
+					</div>
+					<div class="form-group">
+						<label for="place">Ort</label>
+						<input type="text" class="form-control" id="place" name="place" aria-describedby="placeHelp" placeholder="nach Ort"/>
+						<small id="placeHelp" class="form-text text-muted">Dieses Feld schließt Absende-, Empfangs- und erwähnte Orte ein</small>
+					</div>
+					<div class="form-group">
+						<label for="content">Text im Brief</label>
+						<input type="text" class="form-control" id="content" name="content" placeholder="nach Inhalt"/>
+					</div>
+					<div class="form-group">
+						<label for="dateRange">Eingrenzen auf Datumsbereich</label>
+						<div id="dateRange" class="input-group input-daterange">
+							<input type="text" class="form-control" id="dateFrom" name="dateFrom" placeholder="von"/>
+							<div class="input-group-addon"> - </div>
+							<input type="text" class="form-control" id="dateTo" name="dateTo" placeholder="bis"/>
+						</div>
+					</div>
+					<button type="submit" class="btn btn-primary">Absenden</button>
+				</div>
+			</div>
+		</form>
+	</div>
+
+</body>
+</html>

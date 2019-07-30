@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader type="text">
+      <fileDesc xml:id="LETTER_GENTZ_3389">
+         <titleStmt>
+            <title>Friedrich von Gentz an Friedrich Vieweg, 26. Juli 1796</title>
+            <editor xml:id="edAG">Andreas Gálffy</editor>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <name>Forschungsstelle "Universitätssammlung Friedrich von Gentz"</name>
+               <link target="http://gentz-digital.ub.uni-koeln.de http://www.ub.uni-koeln.de/cdm/singleitem/collection/gentz/id/3388/"/>
+            </publisher>
+            <pubPlace>Cologne</pubPlace>
+            <idno type="Gentz-Edition-Number" n="3389"/>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <country>Germany</country>
+                  <settlement>Wiesbaden</settlement>
+                  <institution>Vieweg-Verlagsarchiv</institution>
+                  <repository>Briefsammlung 311 G: Gentz-Briefe</repository>
+                  <idno>Nr. 57</idno>
+               </msIdentifier>
+               <msContents>
+                  <summary>
+                     Schon vor acht Tagen hätte Gentz 26 Reichstaler drei Groschen dem Kammergericht zahlen sollen. Er muss Vieweg 
+                     darum bitten, das Geld sofort zu schicken und Vieweg soll zusätzlich die Sache bei Gentz' Schwiegervater gut 
+                     verkaufen.
+                  </summary>
+               </msContents>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Masterarbeit zu Matrikelnummer 5584124</p>
+         </projectDesc>
+      </encodingDesc>
+      <profileDesc>
+         <creation>
+            <date when-iso="1796-07-26">26. Juli 1796</date>
+         </creation>
+        <langUsage>
+           <language ident="d">deutsch</language>
+        </langUsage>
+         <textClass>
+            <keywords scheme="internal"><!-- internal: innerhalb des besagten Briefs -->
+               <term>Billet</term>
+               <term>Kammergericht</term>
+               <term>Schulden</term>
+            </keywords>
+            <keywords scheme="categorisation"><!-- Sinnabschnittseinteilung - relevant für den Fahrkartenautomaten! -->
+               <term xml:id="gprl">Gentz - p(r)ekuniäre Lage</term>
+               <term xml:id="vwf">Vieweg - Freundschaft</term>
+            </keywords>
+         </textClass>
+         <textDesc>
+            <channel>manuscript</channel>
+            <constitution type="single"/>
+            <derivation type="original"/>
+            <domain type="private"/>
+            <factuality type="fact"/>
+            <interaction type="partial"/>
+            <preparedness type="unprepared"/>
+            <purpose type="inform"/>
+         </textDesc>
+         <particDesc>
+            <listPerson>
+               <!-- Sender und Adressat -->
+               <person role="sender" xml:id="Gen">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/118538489"/>
+                     <forename>Friedrich von</forename>
+                     <surname>Gentz</surname>
+                  </persName>
+               </person>
+               <person role="receiver" xml:id="FVW">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/119049546"/>
+                     <forename>Friedrich</forename>
+                     <surname>Vieweg</surname>
+                  </persName>
+               </person>
+               <!-- erwähnte Personen -->
+               <person role="named" xml:id="Gil">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/118539337"/>
+                     <forename>David</forename>
+                     <surname>Gilly</surname>
+                  </persName>
+               </person>
+            </listPerson>
+         </particDesc>
+         <settingDesc>
+            <listPlace>
+               <!-- Start- und Zielort -->
+               <place type="sender" xml:id="plBe">
+                  <country>
+                     <ref target="http://d-nb.info/gnd/4047194-9"/>
+                     <placeName>Preußen</placeName>
+                  </country>
+                  <settlement>
+                     <ref target="http://d-nb.info/gnd/4005728-8"/>
+                     <placeName>Berlin</placeName>
+                  </settlement>
+               </place>
+               <!-- erwähnte Orte -->
+            </listPlace>
+         </settingDesc>
+      </profileDesc>
+      <revisionDesc>
+         <change xml:id="init" when-iso="2018-02-19" who="#edAG">Erstauszeichnung und Normierung des Dokumentes im Rahmen der Masterarbeit der Matrikelnummer 5584124</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div n="1" corresp="#gprl">
+            <p>
+               Nach der Beylage sollte ich schon vor 8 Tagen 26 Reichstaler 3 Groschen Kosten bezahlen, für die deshalb kein 
+               Aufschub Statt findet, weil hier das Cammergericht selbst mein Creditor ist. Seit gestern inclusive, muß ich für 
+               jeden Tag, wo ich die Zahlung verzögre 12 Groschen Gebühren entrichten, die andern Unannehmlichkeiten nicht zu 
+               gedenken. Mache ich die Sache also nicht auf der Stelle ab, so werde ich um einige Thaler ärmer, ohne zu wißen wie. 
+               Das werden Sie gewiß nicht wollen, theurer Freund und Vormund; und ich bitte Sie daher recht angelegentlich, mir 
+               doch nur dieses Geld noch zu schicken, und die Beylage zum Belag zu behalten. Ich werde mir auf das Mandat selbst, 
+               welches ich in Händen habe, quittiren laßen. Ich würde Sie nicht heute noch mit dieser Sache belästigen, wenn ich 
+               nicht gezwungen wäre, sie selbst abzumachen, wenn ich nicht die Kosten immer steigen laßen will. Denn der Rendant 
+               <pb/> der Sportul-Casse wohnt am Ende der Welt, und nimmt keine Anweisungen an.
+            </p>
+         </div>
+         <div n="2" corresp="#vwf">
+            <p>
+               Wenn Sie <rs type="person" ref="#Gil">meinen Schwiegervater</rs> sprechen, so bitte ich Sie: Stellen Sie ihm meine 
+               Sache in dem vortheilhaftesten Lichte dar, das Ihnen nur irgend Ihre Klugheit und Freundschaft darbietet.
+            </p>
+            <p>
+               Und verlaßen Sie mich nicht !
+            </p>
+         </div>
+         <closer>
+            <signed rend="right">Gentz</signed>
+         </closer>
+      </body>
+      <back>
+         <p>
+            An
+            des Herrn Buchhändler Vieweg
+            Wohlgebohren.
+         </p>
+         <p resp="#FVW">
+            <date when-iso="1796-07-26">1796. Jul 26</date>.
+            K. R. Gentz
+            pro 26 Reichsthaler 3 Groschen Crt.
+         </p>
+      </back>
+      <note xml:id="r3389-1">Seite 4: Adresse</note>
+      <note xml:id="r3389-2">Seite 4: Empfangs und Bearbeitungsvermerk</note>
+      <note xml:id="r3389-3">Seite 4: Gentz-Siegel</note>
+   </text>
+</TEI>

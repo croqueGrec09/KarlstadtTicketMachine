@@ -1,0 +1,461 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc xml:id="LETTER_GENTZ_5169">
+         <titleStmt>
+            <title>Friedrich von Gentz an Christian Garve, 26. April 1798</title>
+            <editor xml:id="edAG">Andreas Gálffy</editor>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <name>Forschungsstelle "Universitätssammlung Friedrich von Gentz"</name>
+               <link target="http://gentz-digital.ub.uni-koeln.de http://www.ub.uni-koeln.de/cdm/singleitem/collection/gentz/id/5168/"/>
+            </publisher>
+            <pubPlace>Cologne</pubPlace>
+            <idno type="Gentz-Edition-Number" n="5169"/>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <settlement>unknown</settlement>
+                  <idno>destroyed</idno><!-- Manuskript wurde durch Kriegseinwirkungen zerstört -->
+               </msIdentifier>
+               <msContents>
+                  <summary>
+                     Mit großer Freude vernimmt Gentz, dass es Garve gut geht und schickt ihm den Aristoteles. Gentz wurde von der 
+                     Lust gepackt, sogleich nach Breslau zu fahren. Er berichtet seinerseits jedoch von einer nicht erfreulichen 
+                     Änderung: Minister Voß hat, anstatt des Ministers Hoym, das südpreußische Departement übernommen und Gentz 
+                     sieht voraus, dass er nicht mehr so entspannt arbeiten kann, wie vorher. Er beschreibt seinen Vorgesetzten als 
+                     unnachgiebig und nicht liebenswürdig. Weiter folgen Berichte über den Fortgang der Invasion, das Schicksal 
+                     Europas hängt an England; dann über Gentz' Literatur und seinen Beziehungen nach Paris und London. Gentz 
+                     schreibt gern mehr über diese Korrespondenzen.
+                  </summary>
+               </msContents>
+            </msDesc>
+            <listBibl type="preprints">
+               <biblStruct>
+                  <monogr>
+                     <editor>
+                        <persName>
+                           <ref />
+                           <forename>Carl G.</forename>
+                           <surname>Schönborn</surname>
+                        </persName>
+                     </editor>
+                     <title>Friedrich von Gentz. Briefe an Christian Garve. (1789-1798.)</title>
+                     <imprint>
+                        <pubPlace>Breslau</pubPlace>
+                        <date>1857</date>
+                     </imprint>
+                     <biblScope unit="page" from="106" to="109">
+                        Nr. XI
+                     </biblScope>
+                  </monogr>
+               </biblStruct>
+               <biblStruct>
+                  <monogr>
+                     <editor>
+                        <persName>
+                           <ref target="http://d-nb.info/gnd/130953075"/>
+                           <forename>Friedrich Carl</forename>
+                           <surname>Wittichen</surname>
+                        </persName>
+                        <persName>
+                           <ref/> <!-- kein GND-Eintrag -->
+                           <forename>Ernst</forename>
+                           <surname>Salzer</surname>
+                        </persName>
+                     </editor>
+                     <title>Briefe von und an Friedrich von Gentz, 4 Bde.</title>
+                     <imprint>
+                        <publisher>Oldenbourg</publisher>
+                        <pubPlace>München, Berlin</pubPlace>
+                        <date>1909-1913</date>
+                     </imprint>
+                     <biblScope unit="volume" n="1">
+                        I
+                     </biblScope>
+                     <biblScope unit="page" from="208" to="211">
+                        Nr. 45
+                     </biblScope>
+                  </monogr>
+               </biblStruct>
+            </listBibl>
+            <listBibl type="letterReferenced">
+               <bibl xml:id="c5169-1" corresp="#LETTER_GENTZ_NNNN">nicht bekannter Brief von Christian Garve an Friedrich von Gentz</bibl>
+               <bibl xml:id="c5169-2" corresp="#LETTER_GENTZ_NNNN">nicht bekannter Brief von Christian Garve an Friedrich von Gentz</bibl>
+            </listBibl>
+            <listBibl>
+               <bibl xml:id="a5169-1" corresp="#LETTER_GENTZ_NNNN">nicht näher benanntes Werk von Aristoteles</bibl>
+            </listBibl>
+            <listBibl type="defRep">
+               <biblStruct xml:id="p5169-1" corresp="GBk-0040">
+                  <monogr>
+                     <author>
+                        <persName>
+                           <ref target="http://d-nb.info/gnd/119156164"/>
+                           <forename>Helen Maria</forename>
+                           <surname>Williams</surname>
+                        </persName>
+                     </author>
+                     <title>A Tour in Switzerland</title>
+                     <imprint>
+                        <pubPlace>London</pubPlace>
+                        <publisher>G. G. and J. Robinson</publisher>
+                        <date>1798</date>
+                     </imprint>
+                     <biblScope unit="volume" n="1">
+                        Vol. I
+                     </biblScope>
+                  </monogr>
+                  <ptr target="https://books.google.de/books?id=5lwOAAAAQAAJ"/>
+               </biblStruct>
+               <biblStruct xml:id="p5169-2" corresp="GBk-0041">
+                  <monogr>
+                     <author>
+                        <persName>
+                           <ref />
+                           <forename>French</forename>
+                           <surname>Laurence</surname>
+                        </persName>
+                        <persName>
+                           <ref />
+                           <forename>Walker</forename>
+                           <surname>King</surname>
+                        </persName>
+                     </author>
+                     <title>The Morning Chronicle</title>
+                     <imprint>
+                        <pubPlace>London</pubPlace>
+                        <date>1769-1851</date>
+                     </imprint>
+                  </monogr>
+                  <ptr target="https://books.google.de/books?id=heU-AQAAMAAJ"/>
+               </biblStruct>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Masterarbeit zu Matrikelnummer 5584124</p>
+         </projectDesc>
+      </encodingDesc>
+      <profileDesc>
+         <creation>
+            <date when-iso="1798-04-26">26. April 1798</date>
+         </creation>
+        <langUsage>
+           <language ident="d">deutsch</language>
+        </langUsage>
+         <textClass>
+            <keywords scheme="internal"><!-- internal: innerhalb des besagten Briefs -->
+               <term>Brief</term>
+               <term>Breslau</term>
+               <term>Versetzung</term>
+               <term>Voß</term>
+               <term>Hoym</term>
+            </keywords>
+            <keywords scheme="categorisation"><!-- Sinnabschnittseinteilung - relevant für den Fahrkartenautomaten! -->
+               <term xml:id="vcg">Verhältnis Christian Garve</term>
+               <term xml:id="bezbt">Beziehungen zu Berlin - Beamtentätigkeit</term>
+               <term xml:id="napinv">Napoleonische Invasion</term>
+               <term xml:id="lvm">Literatur vermischt</term>
+               <term xml:id="bezp">Beziehungen zu Paris</term>
+               <term xml:id="bezl">Beziehungen zu London</term>
+            </keywords>
+         </textClass>
+         <textDesc>
+            <channel>manuscript</channel>
+            <constitution type="single"/>
+            <derivation type="original"/>
+            <domain type="private"/>
+            <factuality type="fact"/>
+            <interaction type="partial"/>
+            <preparedness type="prepared"/>
+            <purpose type="inform"/>
+         </textDesc>
+         <particDesc>
+            <listPerson>
+               <!-- Sender und Adressat -->
+               <person role="sender" xml:id="Gen">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/118538489"/>
+                     <forename>Friedrich von</forename>
+                     <surname>Gentz</surname>
+                  </persName>
+               </person>
+               <person role="receiver" xml:id="Gar">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/118537636"/>
+                     <forename>Christian</forename>
+                     <surname>Garve</surname>
+                  </persName>
+               </person>
+               <!-- erwähnte Personen -->
+               <person role="named" xml:id="Hoy">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/117028568"/>
+                     <forename>Karl Georg Heinrich von</forename>
+                     <surname>Hoym</surname>
+                  </persName>
+               </person>
+               <person role="named" xml:id="OvV">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/103098291"/>
+                     <forename>Otto</forename>
+                     <surname>von Voß</surname>
+                  </persName>
+               </person>
+               <person role="named" xml:id="HMW">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/119156164"/>
+                     <forename>Helen Maria</forename>
+                     <surname>Williams</surname>
+                  </persName>
+               </person>
+               <person role="named" xml:id="GMc">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/11899591X"/>
+                     <forename>George</forename>
+                     <surname>Macartney</surname>
+                  </persName>
+               </person>
+               <person role="named" xml:id="Bur">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/118517708"/>
+                     <forename>Edmund</forename>
+                     <surname>Burke</surname>
+                  </persName>
+               </person>
+               <person role="named" xml:id="KGvB">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/116519770"/>
+                     <forename>Carl Gustav von</forename>
+                     <surname>Brinckmann</surname>
+                  </persName>
+               </person>
+               <person role="named" xml:id="Hum">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/118554727"/>
+                     <forename>Wilhelm von</forename>
+                     <surname>Humboldt</surname>
+                  </persName>
+               </person>
+               <person role="named" xml:id="Crm">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/100178405"/>
+                     <forename>Carl Friedrich</forename>
+                     <surname>Cramer</surname>
+                  </persName>
+               </person>
+               <person role="named" xml:id="Mou">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/11878515X"/>
+                     <forename>Jean-Joseph</forename>
+                     <surname>Mounier</surname>
+                  </persName>
+               </person>
+               <person role="named" xml:id="FdI">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/100297676"/>
+                     <forename>Francis d'</forename>
+                     <surname>Ivernois</surname>
+                  </persName>
+               </person>
+            </listPerson>
+         </particDesc>
+         <settingDesc>
+            <listPlace>
+               <!-- Start- und Zielort -->
+               <place type="sender" xml:id="plBe">
+                  <country>
+                     <ref target="http://d-nb.info/gnd/4047194-9"/>
+                     <placeName>Preußen</placeName>
+                  </country>
+                  <settlement>
+                     <ref target="http://d-nb.info/gnd/4005728-8"/>
+                     <placeName>Berlin</placeName>
+                  </settlement>
+               </place>
+               <place type="receiver" xml:id="plBr">
+                  <country>
+                     <ref target="http://d-nb.info/gnd/4047194-9"/>
+                     <placeName>Preußen</placeName>
+                  </country>
+                  <settlement>
+                     <ref target="http://d-nb.info/gnd/4008216-7"/>
+                     <placeName>Breslau</placeName>
+                  </settlement>
+               </place>
+               <!-- erwähnte Orte -->
+               <place type="named" xml:id="plSb">
+                  <country>
+                     <ref target="http://d-nb.info/gnd/4047194-9"/>
+                     <placeName>Preußen</placeName>
+                  </country>
+                  <settlement>
+                     <ref target="http://d-nb.info/gnd/116944-0"/>
+                     <placeName>Schöneberg</placeName>
+                  </settlement>
+               </place>
+               <place type="named" xml:id="plEn">
+                  <country>
+                     <ref target="http://d-nb.info/gnd/4022153-2"/>
+                     <placeName>Vereinigtes Königreich</placeName>                
+                  </country>
+               </place>
+               <place type="named" xml:id="plEu">
+                  <geogName type="continent">
+                     <ref target="http://d-nb.info/gnd/4015701-5"/>
+                     <placeName>Europa</placeName>
+                  </geogName>
+               </place>
+               <place type="named" xml:id="plCh">
+                  <country>
+                     <ref target="http://d-nb.info/gnd/1085175626"/>
+                     <placeName>Schweiz</placeName>  
+                  </country>
+               </place>
+               <place type="named" xml:id="plCi">
+                  <country>
+                     <ref target="http://d-nb.info/gnd/4009937-4"/>
+                     <placeName>China</placeName>  
+                  </country>
+               </place>
+               <place type="named" xml:id="plWe">
+                  <country>
+                     <ref target="http://d-nb.info/gnd/4051194-7"/>
+                     <placeName>Sachsen-Weimar-Eisenach</placeName>
+                  </country>
+                  <settlement>
+                     <ref target="http://d-nb.info/gnd/4065105-8"/>
+                     <placeName>Weimar</placeName>
+                  </settlement>
+               </place>
+               <place type="named" xml:id="plLo">
+                  <country>
+                     <ref target="http://d-nb.info/gnd/4022153-2"/>
+                     <placeName>Vereinigtes Königreich</placeName>                
+                  </country>
+                  <settlement>
+                     <ref target="http://d-nb.info/gnd/4074335-4"/>
+                     <placeName>London</placeName>
+                  </settlement>
+               </place>
+               <place type="named" xml:id="plPa">
+                  <country>
+                     <ref target="http://d-nb.info/gnd/4018145-5"/>
+                     <placeName>Frankreich</placeName>  
+                  </country>
+                  <settlement>
+                     <ref target="http://d-nb.info/gnd/4044660-8"/>
+                     <placeName>Paris</placeName>
+                  </settlement>
+               </place>
+               <place type="named" xml:id="plFr">
+                  <country>
+                     <ref target="http://d-nb.info/gnd/4018145-5"/>
+                     <placeName>Frankreich</placeName>  
+                  </country>
+               </place>
+            </listPlace>
+         </settingDesc>
+      </profileDesc>
+      <revisionDesc>
+         <change xml:id="init" when-iso="2018-03-02" who="#edAG">Erstauszeichnung und Normierung des Dokumentes im Rahmen der Masterarbeit der Matrikelnummer 5584124</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>     
+      <body>
+         <opener>
+            <dateline><rs type="place" ref="#plBe">Berlin</rs>, den <date when-iso="1798-03-23">23. März 1798</date>.</dateline>
+         </opener>
+         <div n="1" corresp="#vcg">
+            <p>
+               Ich preise mich recht glücklich, teuerster Garve, daß ich Ihrem Wunsche wegen des <rs type="citation" ref="#a5169-1">Aristoteles</rs> zur 
+               Stelle Genüge leisten kann. Sie erhalten ihn hiebei: und möchte doch - mit welcher lebendigen Sehnsucht sage ich es ! - möchte doch Ihr 
+               körperlicher Zustand Ihnen noch oft und <pb/> lange den Genuß desselben, und noch viele ähnliche Genüsse verstatten ! Ihr 
+               <rs type="citation" ref="#c5169-1">vorletzter Brief</rs> hat mich sehr niedergeschlagen: aber in dem 
+               <rs type="citation" ref="#c5169-2">letzten</rs> atmet wieder ein Mut, der mich aufrichtet. Nachdem ich ihn gelesen hatte, ergriff mich das 
+               Verlangen, mit Ihnen in einer Stadt zu leben, Ihnen wenigstens jeden Tage eine halbe Stunde vertreiben zu helfen, die Minuten aufzusuchen, wo 
+               Ihnen der Umgang mit Menschen erfreulich oder doch erleichternd wäre - auf einmal so warm und lebhaft, daß ich nur unabhängig sein dürfte, um, 
+               anstatt dieses Briefes, sogleich mich selbst nach <rs type="place" ref="#plBr">Breslau</rs> zu versetzen.
+            </p>
+         </div>
+         <div n="2" corresp="#bezbt">
+            <p>
+               In meiner äußern Lage hat sich eine höchst unangenehme Veränderung zugetragen. Der <rs type="person" ref="#Hoy">Minister Hoym</rs> hat, wie Sie 
+               wissen, das südpreußische Departement verloren, und es ist dem <rs type="person" ref="#OvV">Minister Voß</rs> zu teil geworden. Diese 
+               Revolution ist in Rücksicht auf meine Freiheit, auf meine Ruhe, auf die Gestalt meiner Dienstverhältnisse, selbst auf meine Einkünfte eine der 
+               fatalsten, die mich treffen konnte. Der <rs type="person" ref="#Hoy">Graf Hoym</rs> hat mich, besonders seit einem Jahre, mit einer Gunst, oder 
+               vielmehr mit einer Freundschaft behandelt, die ich vergebens bei einem andern Minister suchen werde. Es war ein wirkliches persönliches 
+               Attachement, welches zuletzt in unbegrenztes Vertrauen überging. Ich habe ihm einige wesentliche Dienste, besonders unter der jetzigen 
+               Regierung geleistet: er hat mich aber stets mit königlicher Großmut belohnt. Ich verdanke ihm mehr, als irgend jemand ahndet, und ich werde 
+               auch trotz der Departementsveränderung mich immer als seinen Schuldner betrachten, und betragen. Aber hier werde ich nun in ein gehässiges 
+               Joch gespannt: von allem, was ich an <rs type="person" ref="#Hoy">Hoym</rs> liebte, besitzt sein Nachfolger nicht allein nichts, sondern das 
+               Gegenteil: die Jahre, die ich ehemals unter ihm zugebracht habe, sind die unangenehmsten meines Lebens gewesen: viel hat sich freilich seitdem 
+               geändert, aber es bleibt noch Übles genug zurück. Hiezu kömmt, daß selbst meine bisherige Verbindung mit dem 
+               <rs type="person" ref="#Hoy">Minister Hoym</rs>, wenngleich der <rs type="person" ref="#OvV">Herr von Voß</rs> weder den ganzen Umfang, noch 
+               die charakteristischen Umstände dieser Verbindung kennt, nicht dazu beitragen wird, mich bei diesem beliebt zu machen. Doch das alles muß die 
+               Zeit näher entwickeln. Ich habe <pb/> unterdessen den Entschluß gefaßt, meine Sommerwohnung in <rs type="place" ref="#plSb">Schöneberg</rs>, 
+               wohin ich mich sonst noch in drei Wochen nicht begeben hätte, <date when-iso="1798-04-28">übermorgen</date> zu beziehen, damit ich, wenn die 
+               neue Administration anfängt, in possessione dieser Prärogative gefunden werde. So ruhig, wie vorigen Sommer werde ich sie indessen nicht 
+               genießen: unter drei Besuchen in der Stadt möchte ich wohl wöchentlich nicht abkommen.
+            </p>
+         </div>
+         <div n="3" corresp="#napinv">
+            <p>
+               Sonst ist der Gang meiner Beschäftigungen ganz derselbe, den ich Ihnen in frühern Briefen geschildert habe. Die politischen Begebenheiten 
+               fesseln mich wieder ausschließend. Das gegenwärtige Jahr ist, in Rücksicht auf die Entwicklung der (immer noch von der Vollendung weit 
+               entfernten) gesellschaftlichen Revolution, seit 89 das merkwürdigste. Wir haben große Dinge erlebt, aber größre stehen uns bevor: das Schicksal 
+               der Expedition gegen <rs type="person" ref="#plEn">England</rs> entscheidet das Schicksal von <rs type="place" ref="#plEu">Europa</rs>. Gelingt 
+               sie, und es bricht nicht in sechs Monaten ein neuer allgemeiner Landkrieg aus (wozu sich wirklich Annäherungen zeigen), so schreitet die 
+               Revolution, ehe das 18. Jahrhundert zu Ende geht, vom Rhein bis an die Weichsel, und vom Po bis an die Karpathen fort. Die feste Überzeugung 
+               hievon ist das Resultat eines anhaltenden und fleißigen Studiums der jetzigen politischen Lage von <rs type="place" ref="#plEu">Europa</rs>, 
+               und wenigstens als solches nicht ganz zu verachten.
+            </p>
+         </div>
+         <div n="4" corresp="#lvm">
+            <p>
+               Ich habe eine Menge englischer Broschüren: ich glaube aber nicht, daß Ihnen damit gedient sein würde. Kennen Sie die demokratische 
+               <rs type="person" ref="#HMW">Miß Williams</rs> ? Von dieser ist eine <rs type="citation" ref="#p5169-1">ganz neue Reise</rs> in die 
+               <rs type="place" ref="#plCh">Schweiz</rs> erschienen, die ich Ihnen mitteilen kann, wenn Sie sie verlangen. 
+               <rs type="person" ref="#GMc">Macartney</rs>s Reise nach <rs type="place" ref="#plCi">China</rs> habe ich mit großem Interesse gelesen. Von 
+               <rs type="person" ref="#Bur">Burke</rs>s <rs type="citation" ref="#p5169-2">Posthumis</rs> ist nichts weiter erschienen. - In 
+               <rs type="place" ref="#plFr">Frankreich</rs> <pb/> kömmt weder Buch noch Broschüre mehr ans Licht. Der Preßzwang ist so groß, daß er selbst 
+               die Lust zum Schreiben erstickt ! Und durch den unglücklichen Gang des neusten Wahlgeschäfts ist die höllische Tyrannei dieser verfluchten 
+               Regierung wieder auf ein Jahr gegen alle Gefahren gesichert.
+            </p>
+            <p>
+               Den Meßkatalogus habe ich heute zum erstenmal gesehen. Nächstens ein mehreres davon.
+            </p>
+         </div>
+         <div n="5" corresp="#bezp">
+            <p>
+               Vieweg, der von <rs type="place" ref="#plPa">Paris</rs> zurückgekommen ist, hat mir interessante Briefe von 
+               <rs type="person" ref="#Hum">Humboldt</rs>, <rs type="person" ref="#KGvB">Brinkmann</rs> und <rs type="person" ref="#Crm">Cramer</rs> 
+               mitgebracht.
+            </p>
+         </div>
+         <div n="6" corresp="#bezl">
+            <p>
+               Auch stehe ich jetzt in fortwährender politischer Korrespondenz mit <rs type="person" ref="#Mou">Mounier</rs> in 
+               <rs type="place" ref="#plWe">Weimar</rs> und <rs type="person" ref="#FdI">d'Ivernois</rs> in <rs type="place" ref="#plLo">London</rs>.
+            </p>
+         </div>
+         <div n="7" corresp="#vcg">
+            <p>
+               Wenn Sie Lust haben sollten, von diesen verschiednen Korrespondenzen etwas zu lesen, so werde ich herzlich bereit sein. Bald sollen Sie wieder 
+               hören von
+            </p>
+         </div>
+         <closer>
+            <salute rend="right">Ihren treu ergebensten</salute>
+            <signed rend="right">Gentz.</signed>
+         </closer>
+      </body>
+   </text>
+</TEI>

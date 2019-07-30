@@ -1,0 +1,307 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+      <fileDesc xml:id="LETTER_GENTZ_AT_VIE_HHA_Pilat412">
+         <titleStmt>
+            <title>Brief Nr. 412 Friedrich von Gentz an Joseph Anton von Pilat, 15. Oktober 1822</title>
+            <editor xml:id="edCF">Carola Fredebeul</editor>
+            <editor xml:id="edSG">Sabrina Gursch</editor>
+            <editor xml:id="edAG">Andreas Gálffy</editor>
+            <editor xml:id="edMS">Max Supplieth</editor>
+         </titleStmt>
+         
+         <publicationStmt>
+           <publisher>Gentz-Editions-Team</publisher>
+            <pubPlace>Cologne</pubPlace>
+            <idno type="Gentz-Edition-Number" n="123"/>
+            <availability>
+               <licence>CC-BY-SA</licence>
+            </availability>
+            <date when-iso="2013-11-13">13. November 2013</date>
+         </publicationStmt>
+         
+         <sourceDesc n="original">
+            <msDesc>
+               <msIdentifier>
+                  <country>Austria</country>
+                  <settlement>Vienna</settlement>
+                  <institution>Haus-, Hof- und Staatsarchiv</institution>
+                  <repository>Nachlaß Pilat</repository>
+                  <collection>Bündel 1822-1825</collection>
+                  <idno>412</idno>
+               </msIdentifier>
+               <physDesc>
+                    <objectDesc>
+                        <supportDesc>
+                           <extent>4 pages</extent>
+                           <condition><p>Das Papier ist an den Rändern beschädigt.</p></condition>
+                        </supportDesc>
+                      </objectDesc>   
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+         
+         <sourceDesc n="firstprint">
+            <biblStruct>
+               <monogr>
+                  <title>Briefe von Friedrich von Gentz an Pilat</title>
+                  <title>Ein Beitrag zur Geschichte Deutschlands im XlX. Jahrhundert</title>
+                  <imprint>
+                     <biblScope type="vol" n="2">Zweiter Band</biblScope>                
+                     <pubPlace>Leipzig</pubPlace>
+                     <publisher>Dr. Karl Mendelssohn-Bartholdy</publisher>
+                     <date>1868</date>
+                  </imprint>
+               </monogr>
+            </biblStruct>
+         </sourceDesc>
+       
+      </fileDesc>
+     
+         <encodingDesc>
+            <projectDesc>
+               <p change="#init">Erzeugung einer digitalen Edition der Korrespondenzen Gentz</p>
+               <p change="#karlstadt">Erschaffung des KVAG-Fahrkartenautomaten</p>
+            </projectDesc>
+         </encodingDesc>
+        
+         <profileDesc>
+            <creation>
+               <date when-iso="1822-10-15">15. Oktober 1822</date>
+            </creation>
+            <langUsage>
+               <language ident="d">deutsch</language>
+            </langUsage>
+            <textClass>
+               <keywords scheme="">
+                  <term>Brief</term>
+                  <term>Diplomatie</term>
+                  <term>Gentz</term>
+                  <term>Türkische Nachrichten</term>
+                  <term>Corfu</term>
+                  <term>Wien</term>
+                  <term>Zante</term>
+                  <term>Graf Sedlnitzky</term>
+                  <term>Kaiser</term>
+               </keywords>
+            </textClass>
+            <textDesc n="letter">
+               <channel mode="w">manuscript</channel> <!-- medium -->
+               <constitution type="single"/> <!-- vollständig oder nicht vollständig oder ungewiss -->
+               <derivation type="original"/> <!-- text ist original -->
+               <domain type="private"/> <!-- privater Text oder öffentlicher Text -->
+               <factuality type="fact"/> <!-- fictional oder non-fictional -->
+               <interaction type="partial"/> <!-- findet eine Interaktion statt?  -->
+               <preparedness type="unprepared"/>  <!-- spontaner Brief  -->
+               <purpose type="inform"/> <!--Funktion des Textes  -->
+            </textDesc>
+            <settingDesc>
+               <listPlace>
+                  <!-- Start- und Zielort -->
+                  <place type="sender" xml:id="plVe">
+                     <country>
+                        <placeName>
+                           <ref target="http://d-nb.info/gnd/4027833-5">
+                              Italien
+                           </ref>
+                        </placeName>
+                     </country>
+                     <settlement>
+                        <placeName>
+                           <ref target="http://d-nb.info/gnd/4063110-2">
+                              Verona
+                           </ref>
+                        </placeName>   
+                     </settlement>
+                  </place>
+                  <place type="receiver" xml:id="plWi">
+                     <country>
+                        <placeName>
+                           <ref target="http://d-nb.info/gnd/4075613-0">
+                              Österreich-Ungarn
+                           </ref>
+                        </placeName>
+                     </country>
+                     <settlement>
+                        <placeName>
+                           <ref target="http://d-nb.info/gnd/4066009-6">
+                              Wien
+                           </ref>
+                        </placeName>
+                     </settlement>
+                  </place>
+                  <!-- erwähnte Orte -->
+                  <place type="named" xml:id="plZa">
+                     <country>
+                        <placeName>
+                           <ref target="http://d-nb.info/gnd/4075720-1">
+                              Osmanisches Reich
+                           </ref>
+                        </placeName>
+                     </country>
+                     <region>
+                        <placeName>
+                           <ref target="http://d-nb.info/gnd/4076964-1">
+                              Zante
+                           </ref>
+                        </placeName>
+                     </region>
+                  </place>
+                  <place type="named" xml:id="plCo">
+                     <country>
+                        <placeName>
+                           <ref target="http://d-nb.info/gnd/4075720-1">
+                              Osmanisches Reich
+                           </ref>
+                        </placeName>
+                     </country>
+                     <region>
+                        <placeName>
+                           <ref target="http://d-nb.info/gnd/4073728-7">
+                              Corfu
+                           </ref>
+                        </placeName>
+                     </region>
+                  </place>
+                  <place type="named" xml:id="plTu">
+                     <country>
+                        <placeName>
+                           <ref target="http://d-nb.info/gnd/4075720-1">
+                              Türkei
+                           </ref>
+                        </placeName>
+                     </country>
+                  </place>
+               </listPlace>
+            </settingDesc>
+            <particDesc>
+               <listPerson>
+                  <!-- Sender und Adressat -->
+                  <person role="sender" xml:id="Gen">
+                     <persName>
+                        <ref target="http://d-nb.info/gnd/118538489">
+                           <forename>Friedrich von</forename>
+                           <surname>Gentz</surname>
+                        </ref>
+                     </persName>
+                  </person>
+                  <person role="receiver" xml:id="Pi">
+                     <persName>
+                        <ref target="http://d-nb.info/gnd/119432617">
+                           <forename>Joseph Anton von</forename>
+                           <surname>Pilat</surname>
+                        </ref>
+                     </persName>
+                  </person>
+                  <!-- im Brief erwähnte Menschen -->
+                  <person role="named" xml:id="Se">
+                     <persName>
+                        <ref target="http://d-nb.info/gnd/130150630">
+                           <forename>Josef von</forename>
+                           <surname>Sedlintzky-Choltic</surname>
+                        </ref>
+                     </persName>
+                  </person>
+                  <person role="named" xml:id="Fr">
+                     <persName>
+                       <ref target="http://d-nb.info/gnd/118534955">
+                           <forename>Franz II.</forename>
+                           <addName>Heiliges Römisches Reich, Kaiser</addName>
+                        </ref>
+                     </persName>
+                  </person>
+               </listPerson>
+            </particDesc>
+         </profileDesc>
+         
+         <revisionDesc>
+            <change when-iso="2013-12-08" who="#edAG #edMS" status="draft">Weitere Auszeichnung</change>
+            <change when-iso="2016-07-03" who="#edAG" status="draft">Anpassung/Normierung des Dokumentes für Übung "WebApps und Textmining" sowie für die Masterarbeit zu Matrikelnummer #5584124</change>
+         </revisionDesc>
+  </teiHeader>
+   
+   <facsimile>
+      <graphic url="00000006.jpg" xml:id="seite1"/>
+      <graphic url="00000007.jpg" xml:id="seite2"/>
+      <graphic url="00000008.jpg" xml:id="seite3"/>
+      <graphic url="00000009.jpg" xml:id="seite4"/>
+   </facsimile>
+  <text type="letter">
+      <body>
+        <div>
+           <opener>
+              <pb facs="#seite1"/>
+              <dateline rend="right"><rs type="place" ref="#plVe">Verona</rs> <date when-iso="1822-10-15">15. Oktober</date></dateline>
+           </opener>
+           <p>
+              Ich erhalte so eben Ihre <choice><orig>beyden</orig><reg>beiden</reg></choice> <lb/>
+              Schreiben vom <date when-iso="1822-10-10">10</date> und <date when-iso="1822-10-11">11ten</date>; und da <lb/>
+              die Post noch nicht abgegangen <lb/>
+              ist, melde ich Ihnen in der Eil <lb/>
+              Folgendes.
+           </p>
+            <p>
+               Ich weiß nichts von dem <lb/>
+               was die Berichte von <rs type="place" ref="plZa">Zante</rs> vom <lb/>
+               <date when-iso="1822-08-31">31ten August</date> - denn der von mir <lb/>
+               bearbeitete ist vom <date when-iso="1822-09-17">17 September</date> - <lb/>
+               noch, was die Berichte von <rs type="place" ref="plCo">Corfu</rs> <lb/>
+               enthalten; ja, leider, weiß ich <lb/>
+               in diesem Moment nicht einmal <lb/>
+               ob wir sie hier haben. So viel <lb/>
+               steht mir aber fest, und ich <lb/>
+               freue mich aus Ihrem Briefe <lb/>
+               zu sehen, <choice><orig>daß</orig><reg>dass</reg></choice> <rs type="person" ref="#Se">Graf Sedlnitzky</rs> <lb/>
+               derselben <choice><orig>Meynung</orig><reg>Meinung</reg></choice> zu <choice><orig>seyn</orig><reg>sein</reg></choice> scheint: <lb/>
+               So unangenehm auch die Verzögerung <lb/>
+               <choice><orig>seyn</orig><reg>sein</reg></choice> mag - am besten ist es <lb/>
+               immer <choice><orig>daß</orig><reg>dass</reg></choice>, (<emph rend="underlined">in der Regel</emph> wenigstens) <lb/>
+               die Türkischen Artikel <emph rend="underlined">hier</emph> <choice><orig>redigirt</orig><reg>redigiert</reg></choice> <lb/>
+               werden. <choice><orig>Laßen</orig><reg>Lassen</reg></choice> Sie Sich einmal in <lb/>
+               <rs type="place" ref="#plWi">Wien</rs> darauf ein, so ist, da wir <pb facs="#seite2"/>
+               hier nicht <choice><orig>wißen</orig><reg>wissen</reg></choice> können, was Sie dort <lb/>
+               geschrieben haben, die größte <choice><orig>Confusion</orig><reg>Verwirrung</reg></choice> <lb/>
+               zu besorgen. Ich stehe Ihnen dafür, <lb/>
+               <choice><orig>daß</orig><reg>dass</reg></choice> ich immer darauf halten werde, <lb/>
+               der Nachrichten aus der <rs type="place" ref="#plTu"><choice><orig>Türkey</orig><reg>Türkei</reg></choice></rs> ohne <lb/>
+               allen Zeitverlust <del rend="stroked">zu bearbeiten</del><add place="above">habhaft zu werden</add>, und <lb/>
+               ohne allen Zeitverlust - <foreign xml:lang="fr">toute autre <lb/>
+               affaire cessante</foreign> - zu bearbeiten; <lb/>
+               und da, wenn wenigstens erst die <lb/>
+               <choice><orig><abbr>Kayserl.</abbr><expan>Kayserlichen</expan></orig><reg><abbr>kaiserl.</abbr><expan>kaiserlichen</expan></reg></choice> Estaffetten im Gange sind, <lb/>
+               die Sendungen <choice><orig>promter</orig><reg>prompter</reg></choice> gehen werden <lb/>
+               - Ihren Brief vom <date when-iso="1822-10-11">11ten</date> erhielt ich denn <lb/>
+               doch per <foreign xml:lang="fr">estaffette</foreign> am 5ten Tage - auch <lb/>
+               <choice><orig>bey</orig><reg>bei</reg></choice> wichtigen Sachen <choice><orig>Couriere</orig><reg>Kuriere</reg></choice> uns <lb/>
+               zu Gebot stehen, so wird der <lb/>
+               Aufenthalt, den ich übrigens so <lb/>
+               bitter bedaure wie Sie, doch nicht <lb/>
+               übermäßig <choice><orig>seyn</orig><reg>sein</reg></choice>.
+            </p> 
+            <p>
+               Tragen Sie nur das Ihrige <lb/>
+               <choice><orig>bey</orig><reg>bei</reg></choice>, und bitten Sie <rs type="person" ref="#Se"><choice><abbr>S.</abbr><expan>Seine</expan></choice> <choice><abbr>Ex.</abbr><expan>Excellentz</expan></choice> den Grafen Sedlnitzky</rs> <lb/>
+               ausdrücklich, dafür zu sorgen, <choice><orig>daß</orig><reg>dass</reg></choice> die <lb/>
+               in <rs type="place" ref="#plWi">Wien</rs> eingehenden Türkischen Nachrichten <lb/>
+               dort nicht eine Stunde länger als nötig <lb/>
+               ist, zurückgehalten werden.
+            </p>
+            <p>
+               <pb facs="#seite3"/>
+               Hier <choice><orig>muß</orig><reg>muss</reg></choice> ich schließen. Dies <lb/>
+               <choice><abbr>P.S.</abbr><expan>Post-Scriptum</expan></choice> schrieb ich unter dem Geläute <lb/>
+               aller Glocken, welches den Einzug des <lb/>
+               <rs type="person" ref="#Fr"><choice><orig>Kaysers</orig><reg>Kaisers</reg></choice></rs> ankündigt. - So eben fährt er <lb/>
+               unter meinen Fenstern vorbey. 
+            </p>
+            <closer>
+               Adieu 
+               <signed rend="right"><rs type="person" ref="#Gen">GZ</rs></signed>
+            </closer>
+          </div>
+      </body>
+  </text>
+</TEI>

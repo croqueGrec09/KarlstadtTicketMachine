@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader type="text">
+      <fileDesc xml:id="LETTER_GENTZ_1491">
+         <titleStmt>
+            <title>Friedrich von Gentz an Friedrich Vieweg, 21. Februar 1795</title>
+            <editor xml:id="edAG">Andreas Gálffy</editor>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <name>Forschungsstelle "Universitätssammlung Friedrich von Gentz"</name>
+               <link target="http://gentz-digital.ub.uni-koeln.de http://www.ub.uni-koeln.de/cdm/singleitem/collection/gentz/id/1490/"/>
+            </publisher>
+            <pubPlace>Cologne</pubPlace>
+            <idno type="Gentz-Edition-Number" n="1491"/>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <country>Germany</country>
+                  <settlement>Wiesbaden</settlement>
+                  <institution>Vieweg-Verlagsarchiv</institution>
+                  <repository>Briefsammlung, Gentz-Briefe</repository>
+                  <idno>Nr. 12</idno>
+               </msIdentifier>
+               <msContents>
+                  <summary>
+                     Vieweg ist krank und Gentz schickt ihm einen Brief mit Bitten. Erstens hat Garve Kritik an der Neuen Deutschen 
+                     Monatsschrift geäußert. Gentz meint zudem, Garve hat ein falsches Bild von seiner Tätigkeit. Er müsse ihn daher 
+                     berichtigen. Zweitens hat Fiedler kein Honorar in einem soeben erhaltenen Brief geäußert. Gentz bittet 
+                     diesbezüglich um Auskunft. Dann soll Vieweg ihm - unter Geheimhaltung - mit 50 Reichstaler Courant aushelfen.
+                  </summary>
+               </msContents>
+            </msDesc>
+            <listBibl type="alludedWorks">
+               <bibl xml:id="a1491-1" corresp="#LETTER_GENTZ_NNNN">nicht bekannter Brief von Fiedler an Friedrich von Gentz</bibl>
+            </listBibl>
+            <listBibl type="defRep">
+               <biblStruct xml:id="p1491-1" corresp="UBi-0004">
+                  <monogr>
+                     <author>
+                        <persName>
+                           <ref target="http://d-nb.info/gnd/118538489"/>
+                           <forename>Friedrich von</forename>
+                           <surname>Gentz</surname>
+                        </persName>
+                     </author>
+                     <title>Neue Deutsche Monatsschrift</title>
+                     <imprint>
+                        <pubPlace>Berlin</pubPlace>
+                        <publisher>Friedrich Vieweg der Ältere</publisher>
+                        <date>1795</date>
+                     </imprint>
+                     <biblScope unit="volume" n="1">
+                        Erster Band.
+                     </biblScope>
+                  </monogr>
+               <ptr target="http://ds.ub.uni-bielefeld.de/viewer/image/1938308_001/350/LOG_0031/"/></biblStruct>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Masterarbeit zu Matrikelnummer 5584124</p>
+         </projectDesc>
+      </encodingDesc>
+      <profileDesc>
+         <creation>
+            <date when-iso="1795-02-21">21. Februar 1795</date>
+         </creation>
+        <langUsage>
+           <language ident="d">deutsch</language>
+        </langUsage>
+         <textClass>
+            <keywords scheme="internal"><!-- internal: innerhalb des besagten Briefs -->
+               <term>Billet</term>
+               <term>Briefe</term>
+               <term>Garve</term>
+               <term>Fiedler</term>
+               <term>Monatsschrift</term>
+               <term>Geld</term>
+               <term>Minna</term>
+            </keywords>
+            <keywords scheme="categorisation"><!-- Sinnabschnittseinteilung - relevant für den Fahrkartenautomaten! -->
+               <term xml:id="vwf">Vieweg - Freundschaft</term>
+               <term xml:id="vcg">Verhältnis Christian Garve</term>
+               <term xml:id="gprl">Gentz - p(r)ekuniäre Lage</term>
+            </keywords>
+         </textClass>
+         <textDesc>
+            <channel>manuscript</channel>
+            <constitution type="single"/>
+            <derivation type="original"/>
+            <domain type="private"/>
+            <factuality type="fact"/>
+            <interaction type="partial"/>
+            <preparedness type="prepared"/>
+            <purpose type="inform"/>
+         </textDesc>
+         <particDesc>
+            <listPerson>
+               <!-- Sender und Adressat -->
+               <person role="sender" xml:id="Gen">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/118538489"/>
+                     <forename>Friedrich von</forename>
+                     <surname>Gentz</surname>
+                  </persName>
+               </person>
+               <person role="receiver" xml:id="FVW">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/119049546"/>
+                     <forename>Friedrich</forename>
+                     <surname>Vieweg</surname>
+                  </persName>
+               </person>
+               <!-- erwähnte Personen -->
+               <person role="named" xml:id="Gar">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/118537636"/>
+                     <forename>Christian</forename>
+                     <surname>Garve</surname>
+                  </persName>
+               </person>
+               <person role="named" xml:id="Fdl">
+                  <persName>
+                     <ref/>
+                     <forename/>
+                     <surname>Fiedler</surname>
+                  </persName>
+               </person>
+               <person role="named" xml:id="Min">
+                  <persName>
+                     <ref/>
+                     <forename>Wilhelmine</forename>
+                     <surname>Gilly</surname>
+                  </persName>
+               </person>
+            </listPerson>
+         </particDesc>
+         <settingDesc>
+            <listPlace>
+               <!-- Start- und Zielort -->
+               <place type="sender" xml:id="plBe">
+                  <country>
+                     <ref target="http://d-nb.info/gnd/4047194-9"/>
+                     <placeName>Preußen</placeName>
+                  </country>
+                  <settlement>
+                     <ref target="http://d-nb.info/gnd/4005728-8"/>
+                     <placeName>Berlin</placeName>
+                  </settlement>
+               </place>
+               <!-- erwähnte Orte -->
+            </listPlace>
+         </settingDesc>
+      </profileDesc>
+      <revisionDesc>
+         <change xml:id="init" when-iso="2018-02-15" who="#edAG">Erstauszeichnung und Normierung des Dokumentes im Rahmen der Masterarbeit der Matrikelnummer 5584124</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>     
+      <body>
+         <div n="1" corresp="#vwf">
+            <p>
+               Um Sie in Ihrer Krankenstube zu zerstreuen, schicke ich Ihnen hier einige Briefe, lieber Freund ! begleite sie aber 
+               mit Zusätzen und Bitten aller Art.
+            </p>
+         </div>
+         <div n="2" corresp="#vcg">
+            <p>
+               1. <rs type="person" ref="#Gar"><emph rend="underlined">Garve</emph></rs>. - Seine Ermahnungen über die 
+               <emph rend="underlined">Monat</emph>schrift <emph rend="underlined">beunruhigen</emph> mich nicht, aber seine 
+               Zufriedenheit mit dem ersten Stücke und sein Versprechen für die Zukunft freut mich. Sein Urtheil ist durchaus 
+               gründlich und ich unterschreibe es wörtlich. Das Druckfehler-Verzeichniß - seine alte Krankheit - wollen wir nur in 
+               den Schrank verschließen. Von meiner Thätigkeit muß er doch eine falsche Idee haben, wenn er glaubt, ich würde nun 
+               <emph rend="underlined">gar nichts</emph> mehr schreiben können. Ich denke ihm nächstens die Augen zu öfnen.
+            </p>
+         </div>
+         <div n="3" corresp="#gprl">
+            <p>
+               2. <rs type="person" ref="#Fdl"><emph rend="underlined">Fiedler</emph></rs>. So eben erhalte ich 
+               <rs type="citation" ref="#a1491-1">diesen Brief</rs>, in welchem zu meinem nicht geringen Erstaunen des 
+               <emph rend="underlined">Honorars</emph>, welches ich sicher erwartete, nicht einmal 
+               <emph rend="underlined">erwähnt</emph> ist. Was dies heißen soll begreife ich nicht. Lesen Sie doch die Artikel 10 
+               <del rend="stroked">und</del> 11 und 12 des beigehenden Contrakts, und erklären Sie mir dies Räthsel. Ich habe 
+               indessen heute sans facon darüber bey <rs type="person" ref="#Fdl">Fiedler</rs> angefragt.
+            </p>
+            <p>
+               Indessen müssen Sie nun nolens oder volens noch einmal Ihre milde Hand aufthun, und mir, jedoch 
+               <span xml:lang="fr">sub conditione <emph rend="underlined">expressissima</emph></span>, daß Sie es nicht einmal in 
+               Ihre Bücher notiren, sondern als einen bloßen Vorschuß auf jenes Honorar, den ich nach Eingang desselben auf der 
+               Stelle baar berichtige, mit 50 Reichsthaler Courant, wenn es Ihre Casse verstattet, aushelfen. Ich bin ein lästiger 
+               Freund: aber diesmal komme ich unschuldig dazu, Sie zu beschweren, und ich komme gewiß sobald nicht wieder.
+            </p>
+         </div>
+         <div n="4" corresp="#vwf">
+            <p>
+               Den Druckfehlerzettel behalten Sie nur. Die andern Beilagen remittiren Sie mir gefälligst, und wollen Sie, im Fall 
+               der Gewährung meiner Bitte, das Geld dem Bedienten geben, so können Sie auch dies ihm anvertrauen.
+            </p>
+            <p>
+               Ich sehe Sie nicht allein <date when-iso="1795-02-22">morgen Abend</date>, sondern besuche Sie auch 
+               <date when-iso="1795-02-22">morgen Mittag</date> 
+               <emph rend="underlined">mit <rs type="person" ref="#Min">meiner Frau</rs></emph>, die sich Ihnen bestens empfiehlt.
+            </p>
+         </div>
+         <closer>
+            <signed rend="right">Gentz.</signed>
+         </closer>
+      </body>
+   </text>
+</TEI>

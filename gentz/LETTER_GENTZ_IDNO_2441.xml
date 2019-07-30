@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc xml:id="LETTER_GENTZ_2441">
+         <titleStmt>
+            <title>Friedrich von Gentz an Karl Gustav von Brinckmann, 27. Dezember 1797</title>
+            <editor xml:id="edAG">Andreas Gálffy</editor>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <name>Forschungsstelle "Universitätssammlung Friedrich von Gentz"</name>
+               <link target="http://gentz-digital.ub.uni-koeln.de http://www.ub.uni-koeln.de/cdm/singleitem/collection/gentz/id/2440/"/>
+            </publisher>
+            <pubPlace>Cologne</pubPlace>
+            <idno type="Gentz-Edition-Number" n="2441"/>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <country>Sweden</country>
+                  <settlement>Trolle-Ljungby</settlement>
+                  <institution>Archiv des Grafen Wachtmeister</institution>
+                  <repository>Nachlaß Brinckmann, Ausländ. Briefwechsel, Gentz an von Brinckmann</repository>
+                  <idno>G 3</idno>
+               </msIdentifier>
+               <msContents>
+                  <summary>
+                     Zusammen mit Shakespeare folgt auch der Plowden. Den Tausch vergleicht er mit den Verhandlungen Deutschlands 
+                     mit Frankreich. Die Bedingung bezüglich Johnson demütigt Gentz und er verlangt eine Erklärung dazu.
+                  </summary>
+               </msContents>
+            </msDesc>
+            <listBibl type="preprints">
+               <biblStruct>
+                  <monogr>
+                     <editor>
+                        <persName>
+                           <ref target="http://d-nb.info/gnd/130953075"/>
+                           <forename>Friedrich Carl</forename>
+                           <surname>Wittichen</surname>
+                        </persName>
+                        <persName>
+                           <ref /> <!-- kein GND-Eintrag -->
+                           <forename>Ernst</forename>
+                           <surname>Salzer</surname>
+                        </persName>
+                     </editor>
+                     <title>Briefe von und an Friedrich von Gentz, 4 Bde.</title>
+                     <imprint>
+                        <publisher>Oldenbourg</publisher>
+                        <pubPlace>München, Berlin</pubPlace>
+                        <date>1909-1913</date>
+                     </imprint>
+                     <biblScope unit="volume" n="2">
+                        II
+                     </biblScope>
+                     <biblScope unit="page" from="60" to="60">
+                        Nr. 67
+                     </biblScope>
+                  </monogr>
+               </biblStruct>
+            </listBibl>
+            <listBibl type="alludedWorks">
+               <bibl xml:id="a2441-1" corresp="#LETTER_GENTZ_NNNN">nicht näher benanntes Werk von William Shakespeare</bibl>
+               <bibl xml:id="a2441-2" corresp="#LETTER_GENTZ_NNNN">nicht näher benanntes Werk von Plowden</bibl>
+               <bibl xml:id="a2441-3" corresp="#LETTER_GENTZ_NNNN">nicht näher benanntes Werk von Johnson</bibl>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Masterarbeit zu Matrikelnummer 5584124</p>
+         </projectDesc>
+      </encodingDesc>
+      <profileDesc>
+         <creation>
+            <date when-iso="1797-12-27">27. Dezember 1797</date>
+         </creation>
+        <langUsage>
+           <language ident="d">deutsch</language>
+        </langUsage>
+         <textClass>
+            <keywords scheme="internal"><!-- internal: innerhalb des besagten Briefs -->
+               <term>Billet</term>
+               <term>Bibliothek</term>
+               <term>Napoleon</term>
+            </keywords>
+            <keywords scheme="categorisation"><!-- Sinnabschnittseinteilung - relevant für den Fahrkartenautomaten! -->
+               <term xml:id="napinv">Napoleonische Invasion</term>
+               <term xml:id="vkgvb">Verhältnis Karl Gustav von Brinckmann</term>
+            </keywords>
+         </textClass>
+         <textDesc>
+            <channel>manuscript</channel>
+            <constitution type="single"/>
+            <derivation type="original"/>
+            <domain type="private"/>
+            <factuality type="fact"/>
+            <interaction type="partial"/>
+            <preparedness type="unprepared"/>
+            <purpose type="inform"/>
+         </textDesc>
+         <particDesc>
+            <listPerson>
+               <!-- Sender und Adressat -->
+               <person role="sender" xml:id="Gen">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/118538489"/>
+                     <forename>Friedrich von</forename>
+                     <surname>Gentz</surname>
+                  </persName>
+               </person>
+               <person role="receiver" xml:id="KGvB">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/116519770"/>
+                     <forename>Carl Gustav von</forename>
+                     <surname>Brinckmann</surname>
+                  </persName>
+               </person>
+               <!-- erwähnte Personen -->
+               <person role="named" xml:id="Spa">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/117480088"/>
+                     <forename>Georg Ludwig</forename>
+                     <surname>Spalding</surname>
+                  </persName>
+               </person>
+            </listPerson>
+         </particDesc>
+         <settingDesc>
+            <listPlace>
+               <!-- Start- und Zielort -->
+               <place type="sender" xml:id="plBe">
+                  <country>
+                     <ref target="http://d-nb.info/gnd/4047194-9"/>
+                     <placeName>Preußen</placeName>
+                  </country>
+                  <settlement>
+                     <ref target="http://d-nb.info/gnd/4005728-8"/>
+                     <placeName>Berlin</placeName>
+                  </settlement>
+               </place>
+               <!-- erwähnte Orte -->
+               <place type="named" xml:id="plDe">
+                  <country>
+                     <ref target="http://d-nb.info/gnd/2035457-5"/>
+                     <placeName>Deutschland</placeName>  
+                  </country>
+               </place>
+               <place type="named" xml:id="plSr">
+                  <country>
+                     <ref target="http://d-nb.info/gnd/4051687-8"/>
+                     <placeName>Königreich Sardinien</placeName>  
+                  </country>
+               </place>
+            </listPlace>
+         </settingDesc>
+      </profileDesc>
+      <revisionDesc>
+         <change xml:id="init" when-iso="2018-02-27" who="#edAG">Erstauszeichnung und Normierung des Dokumentes im Rahmen der Masterarbeit der Matrikelnummer 5584124</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <head>n°. 1.</head>
+         <div n="1" corresp="#napinv">
+            <p>
+               Hier erfolgt <rs type="citation" ref="#a2441-1">Shakespeare</rs> und auch - 
+               <rs type="citation" ref="#a2441-2">Plowden</rs>. Gott erbarme sich über 
+               <rs type="place" ref="#plDe">Deutschland</rs>, wenn die Franzosen <emph rend="underlined">so</emph> negociiren. Was 
+               die Bedingung der Restitution des <rs type="citation" ref="#a2441-3">Johnson</rs> betrift - diese ist mir 
+               <emph rend="underlined">zu</emph> französisch: sie kömmt mir ganz so vor, wie die Friedens-Artikel, wodurch sich 
+               <rs type="place" ref="#plSr">Sardinien</rs> und andre überwundne Mächte anheischig machen mußten, alle diejenigen, 
+               die um <emph rend="underlined">längst vergangner</emph> Rebellionen Willen gefangen saßen, loszulaßen.
+            </p>
+         </div>
+         <div n="2" corresp="#vkgvb">
+            <p>
+               Eine so demüthigende Bedingung müßen Sie mir wenigstens <emph rend="underlined">erklären</emph>. Wie kommen Sie 
+               dazu ? Was haben Sie mit meiner Moralität, oder mit <rs type="person" ref="#Spa">Spalding</rs>s Integrität zu thun ? 
+               Wollen Sie etwa selbst Ihr Bewustseyn von diesem Verbrechen reinigen ? Oder ist das Ganze nur Französischer Trotz um 
+               mich ganz in den Staub zu beugen ? - Hierüber erbitte ich mir eine baldige und befriedigende Anwort.
+            </p>
+         </div>
+         <closer>
+            <signed rend="right">Gentz.</signed>
+            <dateline rend="right">Den <date when-iso="1797-12-27">27<span rend="sup">ten</span> Xbr: 97</date></dateline>
+         </closer>
+      </body>
+   </text>
+</TEI>

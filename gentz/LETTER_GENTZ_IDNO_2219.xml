@@ -1,0 +1,271 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc xml:id="LETTER_GENTZ_2219">
+         <titleStmt>
+            <title>Friedrich von Gentz an Christoph Martin Wieland, 8. März 1794</title>
+            <editor xml:id="edAG">Andreas Gálffy</editor>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <name>Forschungsstelle "Universitätssammlung Friedrich von Gentz"</name>
+               <link target="http://gentz-digital.ub.uni-koeln.de http://www.ub.uni-koeln.de/cdm/singleitem/collection/gentz/id/2218/"/>
+            </publisher>
+            <pubPlace>Cologne</pubPlace>
+            <idno type="Gentz-Edition-Number" n="2219"/>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <country>Germany</country>
+                  <settlement>Nuremberg</settlement>
+                  <institution>Germanisches Nationalmuseum</institution>
+                  <repository>Handschriftenabteilung, II. Politik</repository>
+                  <collection>Kapsel 28</collection>
+                  <idno>1</idno>
+               </msIdentifier>
+               <msContents>
+                  <summary>
+                     Die Übersetzung des Burke oder das Begleitschreiben hatten Christoph Martin Wieland verstimmt, so Gentz, sodass 
+                     die Antwort ausblieb. Deshalb schreibt Gentz erneut an ihn. Auch schickt er eine Übersetzung von Mallet du Pan, 
+                     den er sehr ehrt. Gentz erhofft sich, von Wieland beachtet zu werden.
+                  </summary>
+               </msContents>
+            </msDesc>
+            <listBibl type="preprints">
+               <biblStruct>
+                  <monogr>
+                     <editor>
+                        <persName>
+                           <ref target="http://d-nb.info/gnd/105706175"/>
+                           <forename>Klaus</forename>
+                           <surname>Gerlach</surname>
+                        </persName>
+                     </editor>
+                     <title>Wielands Briefwechsel</title>
+                     <imprint>
+                        <pubPlace>Berlin</pubPlace>
+                        <date>1993</date>
+                     </imprint>
+                     <biblScope unit="volume" n="12">
+                        12. Bd. (Juli 1793-Juni 1795) 1. Teil: Text.
+                     </biblScope>
+                     <biblScope unit="page" from="159" to="159">
+                        Nr. 167
+                     </biblScope>
+                  </monogr>
+               </biblStruct>
+            </listBibl>
+            <listBibl type="letterReferenced">
+               <bibl xml:id="c2219-1" corresp="#LETTER_GENTZ_NNNN">nicht bekannter Brief von Friedrich von Gentz an Christoph Martin Wieland, 1793</bibl>
+            </listBibl>
+            <listBibl type="defExpr">
+               <biblStruct xml:id="e2219-1" corresp="Arc-0001">
+                  <monogr>
+                     <author>
+                        <persName>
+                           <ref target="http://d-nb.info/gnd/119483947"/>
+                           <forename>Jacques</forename>
+                           <surname>Mallet du Pan</surname>
+                        </persName>
+                     </author>
+                     <title>Considérations sur la nature de la révolution en France : et sur les causes qui en prolongent la durée</title>
+                     <imprint>
+                        <pubPlace>London</pubPlace>
+                        <publisher>The Newberry Library</publisher>
+                        <date>1793</date>
+                     </imprint>
+                  </monogr>
+                  <ptr target="https://archive.org/details/considerationssu00mall_0"/>
+               </biblStruct>
+            </listBibl>
+            <listBibl type="defRep">
+               <biblStruct xml:id="p2219-1" corresp="DBUH-0000">
+                  <monogr>
+                     <author>
+                        <persName>
+                           <ref target="http://d-nb.info/gnd/118538489"/>
+                           <forename>Friedrich von</forename>
+                           <surname>Gentz</surname>
+                        </persName>
+                     </author>
+                     <title>Betrachtungen über die französische Revolution. Nach dem Englischen des Herrn Burke neu-bearbeitet mit einer Einleitung, Anmerkungen, politischen Abhandlungen und einem critischen Verzeichniß der in England über diese Revolution erschienenen Schriften, Zwei Theile</title>
+                     <imprint>
+                        <publisher>Friedrich Vieweg der Ältere</publisher>
+                        <pubPlace>Berlin</pubPlace>
+                        <date>1793</date>
+                     </imprint>
+                  </monogr>
+                  <ptr target="http://digitale.bibliothek.uni-halle.de/vd18/id/9148833"/>
+               </biblStruct>
+               <biblStruct xml:id="p2219-2" corresp="Arc-0007">
+                  <monogr>
+                     <author>
+                        <persName>
+                           <ref target="http://d-nb.info/gnd/118517708"/>
+                           <forename>Edmund</forename>
+                           <surname>Burke</surname>
+                        </persName>
+                     </author>
+                     <title>Reflections on the revolution in France and on the proceedings in certain societies in London relative to that event</title>
+                     <imprint>
+                        <publisher>J. Dodsley</publisher>
+                        <pubPlace>London</pubPlace>
+                        <date>1790</date>
+                     </imprint>
+                  </monogr>
+                  <ptr target="https://archive.org/details/reflectionsonre04burkgoog"/>
+               </biblStruct>
+               <biblStruct xml:id="p2219-3" corresp="UJn-0000">
+                  <monogr>
+                     <author>
+                        <persName>
+                           <ref target="http://d-nb.info/gnd/119483947"/>
+                           <forename>Jacques</forename>
+                           <surname>Mallet du Pan</surname>
+                        </persName>
+                     </author>
+                     <editor resp="translator">
+                        <persName>
+                           <ref target="http://d-nb.info/gnd/118538489"/>
+                           <forename>Friedrich von</forename>
+                           <surname>Gentz</surname>
+                        </persName>
+                     </editor>
+                     <title>Über die französische Revolution und die Ursachen ihrer Dauer</title>
+                     <imprint>
+                        <pubPlace>Berlin</pubPlace>
+                        <publisher>Friedrich Vieweg der Ältere</publisher>
+                        <date>1794</date>
+                     </imprint>
+                  </monogr>
+                  <ptr target="http://zs.thulb.uni-jena.de/receive/jportal_jparticle_00010328"/>
+               </biblStruct>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Masterarbeit zu Matrikelnummer 5584124</p>
+         </projectDesc>
+      </encodingDesc>
+      <profileDesc>
+         <creation>
+            <date when-iso="1794-03-08">8. März 1794</date>
+         </creation>
+        <langUsage>
+           <language ident="d">deutsch</language>
+        </langUsage>
+         <textClass>
+            <keywords scheme="internal"><!-- internal: innerhalb des besagten Briefs -->
+               <term>Brief</term>
+               <term>Übersetzung</term>
+               <term>Christian Voß</term>
+            </keywords>
+            <keywords scheme="categorisation"><!-- Sinnabschnittseinteilung - relevant für den Fahrkartenautomaten! -->
+               <term xml:id="kbur">Burke</term>
+               <term xml:id="vjmdp">Verhältnis Jacques Mallet du Pan</term>
+            </keywords>
+         </textClass>
+         <textDesc>
+            <channel>manuscript</channel>
+            <constitution type="single"/>
+            <derivation type="original"/>
+            <domain type="private"/>
+            <factuality type="fact"/>
+            <interaction type="partial"/>
+            <preparedness type="unprepared"/>
+            <purpose type="inform"/>
+         </textDesc>
+         <particDesc>
+            <listPerson>
+               <!-- Sender und Adressat -->
+               <person role="sender" xml:id="Gen">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/118538489"/>
+                     <forename>Friedrich von</forename>
+                     <surname>Gentz</surname>
+                  </persName>
+               </person>
+               <person role="receiver" xml:id="CMW">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/118632477"/>
+                     <forename>Christoph Martin</forename>
+                     <surname>Wieland</surname>
+                  </persName>
+               </person>
+               <!-- erwähnte Personen -->
+               <person role="named" xml:id="MdP">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/119483947"/>
+                     <forename>Jacques</forename>
+                     <surname>Mallet du Pan</surname>
+                  </persName>
+               </person>
+            </listPerson>
+         </particDesc>
+         <settingDesc>
+            <listPlace>
+               <!-- Start- und Zielort -->
+               <place type="sender" xml:id="plBe">
+                  <country>
+                     <ref target="http://d-nb.info/gnd/4047194-9"/>
+                     <placeName>Preußen</placeName>
+                  </country>
+                  <settlement>
+                     <ref target="http://d-nb.info/gnd/4005728-8"/>
+                     <placeName>Berlin</placeName>
+                  </settlement>
+               </place>
+               <!-- erwähnte Orte -->
+            </listPlace>
+         </settingDesc>
+      </profileDesc>
+      <revisionDesc>
+         <change xml:id="init" when-iso="2018-02-14" who="#edAG">Erstauszeichnung und Normierung des Dokumentes im Rahmen der Masterarbeit der Matrikelnummer 5584124</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <opener>
+            <salute rend="left">Wohlgebohrner Herr !</salute>
+            <salute rend="left">Insonders Hochzuehrender Herr Hofrath !</salute>
+         </opener>
+         <div n="1" corresp="#kbur">
+            <p>
+               Ich nahm mir im <date when-iso="1793-00-00">vergangnen Jahre</date> die Freiheit ein an 
+               <rs type="person" ref="#CMW">Ewr. Wohlgebohren</rs> gesandtes Exemplar 
+               <rs type="citation" ref="#p2219-1">meiner Uebersetzung</rs> des 
+               <rs type="citation" ref="#p2219-2"><emph rend="underlined">Burke</emph></rs> pp mit einem 
+               <rs type="citation" ref="#c2219-1">Briefe</rs> zu begleiten, worin ich Ihnen mit einiger Lebhaftigkeit meinen Wunsch, 
+               Ihr Urtheil über diese Arbeit zu vernehmen, vortrug. Ihr gänzliches Stillschweigen über Brief und Buch hat mich 
+               belehrt, daß eins von beyden, oder beyde Ihren Beyfall nicht gefunden haben müssen.
+            </p>
+         </div>
+         <div n="2" corresp="#vjmdp">
+            <p>
+               Vielleicht gehört es unter die unbescheidnen Zudringlichkeiten, daß ich <del rend="stroked">es</del> dennoch 
+               <del rend="stroked">wage,</del> einen abermaligen Versuch wage, mich 
+               <rs type="person" ref="#CMW">Ewr. Wohlgebohren</rs> zu nähern. Die große Aufmerksamkeit, womit Sie den 
+               <rs type="citation" ref="#e2219-1">Mallet dü Pan</rs> beehrt haben, verschafft vielleicht der 
+               <rs type="citation" ref="#p2219-1">Uebersetzung</rs>, die ich hier die Ehre habe Ihnen zu überreichen, einen 
+               günstigen Eingang, und mir das Glück, mich zu überzeugen, daß ich wenigstens nicht ganz unbemerkt in den Augen eines 
+               Mannes blieb, dessen Beyfall mich stolzer machen würde, als jedes vortheilhafte Urtheil, das jemals über meine <pb/> 
+               Arbeit ausgesprochen werden könnte. Ich weiß, daß Ihre Zeit der Welt und nicht mir gehört: aber ich habe 
+               <del rend="stroked">auch</del> nie mehr als einen Wink verlangt, und werde mich damit auch jetzt begnügen.
+            </p>
+            <p>
+               Ich verharre mit der gränzenlosen Hochachtung, die Ihres Nahmens unzertrennliche Begleiterin ist
+            </p>
+         </div>
+         <closer>
+            <salute rend="left">Ewr Wohlgebohren</salute>
+            <salute rend="left">ganz gehorsamster Diener</salute>
+            <dateline rend="right"><rs type="place" ref="#plBe">Berlin</rs> den <date when-iso="1794-03-08">8<span rend="sup">ten</span> März 1794</date>:</dateline>
+            <signed rend="right">Gentz</signed>
+         </closer>
+      </body>
+   </text>
+</TEI>

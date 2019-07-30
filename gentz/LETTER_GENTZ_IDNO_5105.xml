@@ -1,0 +1,302 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc xml:id="LETTER_GENTZ_5105">
+         <titleStmt>
+            <title>Friedrich von Gentz an Karl Gustav von Brinckmann, 29. Dezember 1801</title>
+            <editor xml:id="edAG">Andreas Gálffy</editor>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <name>Forschungsstelle "Universitätssammlung Friedrich von Gentz"</name>
+               <link target="http://gentz-digital.ub.uni-koeln.de http://www.ub.uni-koeln.de/cdm/singleitem/collection/gentz/id/5104/"/>
+            </publisher>
+            <pubPlace>Cologne</pubPlace>
+            <idno type="Gentz-Edition-Number" n="5105"/>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <country>Sweden</country>
+                  <settlement>Trolle-Ljungby</settlement>
+                  <institution>Archiv des Grafen Wachtmeister</institution>
+                  <repository>Nachlaß Brinckmann, Ausländ. Briefwechsel, Gentz an von Brinckmann</repository>
+                  <idno>G 3</idno>
+               </msIdentifier>
+               <msContents>
+                  <summary>
+                     Gentz bewundert das Gedicht, das er zurückschickt, aufgrund seiner inhaltlichen Tiefe und der Metrik. Statt 
+                     Trochäen Daktylen, das ist originell. Er bittet Brinckmann, den Egmont und die Stelle von Goethe zu schicken, 
+                     da Gentz dort etwas für Amalie von Imhof nachschlagen muss. Im Postscript freut sich Gentz über eine Nachricht 
+                     von Arnstein und fordert zum Gang zur Gräfin auf.
+                  </summary>
+               </msContents>
+            </msDesc>
+            <listBibl type="preprints">
+               <biblStruct>
+                  <monogr>
+                     <editor>
+                        <persName>
+                           <ref target="http://d-nb.info/gnd/130953075"/>
+                           <forename>Friedrich Carl</forename>
+                           <surname>Wittichen</surname>
+                        </persName>
+                        <persName>
+                           <ref /> <!-- kein GND-Eintrag -->
+                           <forename>Ernst</forename>
+                           <surname>Salzer</surname>
+                        </persName>
+                     </editor>
+                     <title>Briefe von und an Friedrich von Gentz, 4 Bde.</title>
+                     <imprint>
+                        <publisher>Oldenbourg</publisher>
+                        <pubPlace>München, Berlin</pubPlace>
+                        <date>1909-1913</date>
+                     </imprint>
+                     <biblScope unit="volume" n="2">
+                        II
+                     </biblScope>
+                     <biblScope unit="page" from="82" to="82">
+                        Nr. 94
+                     </biblScope>
+                  </monogr>
+               </biblStruct>
+            </listBibl>
+            <listBibl type="letterReferenced">
+               <bibl xml:id="c5105-1" corresp="#LETTER_GENTZ_NNNN">nicht bekannter Brief von Amalie von Imhof an Friedrich von Gentz</bibl>
+               <bibl xml:id="c5105-2" corresp="#LETTER_GENTZ_NNNN">nicht bekannter Brief von Fanny von Arnstein an Friedrich von Gentz</bibl>
+            </listBibl>
+            <listBibl type="alludedWorks">
+               <bibl xml:id="a5105-1" corresp="#LETTER_GENTZ_NNNN">nicht näher benanntes Gedicht</bibl>
+            </listBibl>
+            <listBibl type="defExpr">
+               <biblStruct xml:id="e5105-1" corresp="Gtb-0001">
+                  <monogr>
+                     <author>
+                        <persName>
+                           <ref target="https://d-nb.info/gnd/118540238"/>
+                           <forename>Johann Wolfgang von</forename>
+                           <surname>Goethe</surname>
+                        </persName>
+                     </author>
+                     <title>Egmont</title>
+                     <imprint>
+                        <date>1788</date>
+                     </imprint>
+                  </monogr>
+                  <ptr target="http://gutenberg.spiegel.de/buch/egmont-3624/1"/>
+               </biblStruct>
+               <biblStruct xml:id="e5105-2" corresp="Gtb-0002">
+                  <monogr>
+                     <author>
+                        <persName>
+                           <ref target="https://d-nb.info/gnd/118540238"/>
+                           <forename>Johann Wolfgang von</forename>
+                           <surname>Goethe</surname>
+                        </persName>
+                     </author>
+                     <title>Stella</title>
+                     <imprint>
+                        <date>1775</date>
+                     </imprint>
+                  </monogr>
+                  <ptr target="http://gutenberg.spiegel.de/buch/stella-3674/1"/>
+               </biblStruct>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Masterarbeit zu Matrikelnummer 5584124</p>
+         </projectDesc>
+      </encodingDesc>
+      <profileDesc>
+         <creation>
+            <date when-iso="1801-12-29">29. Dezember 1801</date>
+         </creation>
+        <langUsage>
+           <language ident="d">deutsch</language>
+        </langUsage>
+         <textClass>
+            <keywords scheme="internal"><!-- internal: innerhalb des besagten Briefs -->
+               <term>Billet</term>
+               <term>Gedicht</term>
+               <term>Egmont</term>
+            </keywords>
+            <keywords scheme="categorisation"><!-- Sinnabschnittseinteilung - relevant für den Fahrkartenautomaten! -->
+               <term xml:id="lvm">Literatur vermischt</term>
+               <term xml:id="bibl">Bibliothek</term>
+               <term xml:id="karn">Arnstein</term>
+               <term xml:id="gfvs">Gräfin Voss</term>
+            </keywords>
+         </textClass>
+         <textDesc>
+            <channel>manuscript</channel>
+            <constitution type="single"/>
+            <derivation type="original"/>
+            <domain type="private"/>
+            <factuality type="fact"/>
+            <interaction type="partial"/>
+            <preparedness type="prepared"/>
+            <purpose type="inform"/>
+         </textDesc>
+         <particDesc>
+            <listPerson>
+               <!-- Sender und Adressat -->
+               <person role="sender" xml:id="Gen">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/118538489"/>
+                     <forename>Friedrich von</forename>
+                     <surname>Gentz</surname>
+                  </persName>
+               </person>
+               <person role="receiver" xml:id="KGvB">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/116519770"/>
+                     <forename>Carl Gustav von</forename>
+                     <surname>Brinckmann</surname>
+                  </persName>
+               </person>
+               <!-- erwähnte Personen -->
+               <person role="named" xml:id="JHVsz">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/118627910"/>
+                     <forename>Johann Heinrich</forename>
+                     <surname>Voß</surname>
+                  </persName>
+               </person>
+               <person role="named" xml:id="CMW">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/118632477"/>
+                     <forename>Christoph Martin</forename>
+                     <surname>Wieland</surname>
+                  </persName>
+               </person>
+               <person role="named" xml:id="AvHv">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/118549006"/>
+                     <forename>Amalie von</forename>
+                     <surname>Helvig</surname>
+                  </persName>
+               </person>
+               <person role="named" xml:id="JWvG">
+                  <persName>
+                     <ref target="https://d-nb.info/gnd/118540238"/>
+                     <forename>Johann Wolfgang von</forename>
+                     <surname>Goethe</surname>
+                  </persName>
+               </person>
+               <person role="named" xml:id="FvA">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/118504347" />
+                     <forename>Fanny von</forename>
+                     <surname>Arnstein</surname>
+                  </persName>
+               </person>
+               <person role="named" xml:id="LvV">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/117746185" />
+                     <forename>Luise von</forename>
+                     <surname>Voss</surname>
+                  </persName>
+               </person>
+            </listPerson>
+         </particDesc>
+         <settingDesc>
+            <listPlace>
+               <!-- Start- und Zielort -->
+               <place type="sender" xml:id="plBe">
+                  <country>
+                     <ref target="http://d-nb.info/gnd/4047194-9"/>
+                     <placeName>Preußen</placeName>
+                  </country>
+                  <settlement>
+                     <ref target="http://d-nb.info/gnd/4005728-8"/>
+                     <placeName>Berlin</placeName>
+                  </settlement>
+               </place>
+               <!-- erwähnte Orte -->
+               <place type="named" xml:id="plDe">
+                  <country>
+                     <ref target="http://d-nb.info/gnd/2035457-5"/>
+                     <placeName>Deutschland</placeName>  
+                  </country>
+               </place>
+            </listPlace>
+         </settingDesc>
+      </profileDesc>
+      <revisionDesc>
+         <change xml:id="init" when-iso="2018-03-09" who="#edAG">Erstauszeichnung und Normierung des Dokumentes im Rahmen der Masterarbeit der Matrikelnummer 5584124</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <opener resp="#KGvB">
+            <dateline rend="right"><date when-iso="1801-12-28">28. Decbr 1801</date>.</dateline>
+         </opener>
+         <div n="1" corresp="#lvm">
+            <p>
+               Das hier zurück erfolgende <rs type="citation" ref="#a5105-1">Gedicht</rs> habe ich mit 
+               <emph rend="underlined">doppelter</emph> Bewunderung gelesen. Einmal, wegen seines rührenden, tiefen, nach meiner 
+               jetzigen Stimmung recht eigentlich <emph rend="underlined">göttlichen</emph> Inhalts; und dann, als prosodisches 
+               Meisterstück; um den Trochäen zu entrinnen, würde ein andrer mit grausamer Mühe, recht tüchtige Spondäen aufgesucht 
+               haben; Ihnen kamen, vielleicht ohne daß Sie darum wußten, fast nichts als Daktylen in die Feder. Das ist recht 
+               charakteristisch. Uebrigens macht doch wohl solche Verse, wie
+            </p>
+            <lg>
+               <l>Schattengebilde, den Urnen entschlüpft und hinab in die Traumwelt,</l>
+            </lg>
+            <p>
+               und
+            </p>
+            <lg>
+               <l>Denn schwer lastete noch auf dem bang aufathmenden Busen</l>
+            </lg>
+            <p>
+               und <pb/>
+            </p>
+            <lg>
+               <l>Sänftige dich mein Sühnegesang ! Die melodische Wehmut.</l>
+            </lg>
+            <p>
+               außer Ihnen und höchstens <rs type="person" ref="#JHVsz">Voß</rs> kein Mensch in 
+               <rs type="place" ref="#plDe">Deutschland</rs>. Kurz, Sie sind ein ganzer Kerl - würde 
+               <rs type="person" ref="#CMW">Wieland</rs> sagen.
+            </p>
+         </div>
+         <div n="2" corresp="#bibl">
+            <p>
+               Ich habe noch eine Bitte an Sie, die Ihnen grob scheinen würde, wenn ich nicht die Veranlaßung hinzufügte. In einem 
+               <rs type="citation" ref="#c5105-1">Briefe</rs> von <rs type="person" ref="#AvHv">Amalie</rs> den ich soeben bekomme, 
+               steht eine Behauptung - und zwar eine recht ernsthafte - die es mir dringend nötig macht, 
+               <emph rend="underlined">noch heute</emph> etwas im 
+               <rs type="citation" ref="#e5105-1"><emph rend="underlined">Egmont</emph></rs> und in der 
+               <rs type="citation" ref="#e5105-2"><emph rend="underlined">Stelle</emph></rs> von 
+               <rs type="person" ref="#JWvG">Göthe</rs> nachzuschlagen. Ich habe freilich noch 3 Bücher von Ihnen; aber <pb/> wenn 
+               Sie mir <emph rend="underlined">jetzt</emph>, jetzt eben die beiden Theile von 
+               <rs type="person" ref="#JWvG">Göthe</rs> schicken, worin diese Seiten stehen - ja ! ich schenke Ihnen gleich ein 
+               Englisches Buch, welches Sie wollen ! Ich bete Sie an. Sie <emph rend="underlinrd">müßen</emph> es thun, und Sie thun 
+               es.
+            </p>
+         </div>
+         <closer>
+            <salute rend="right">Gute Nacht.</salute>
+            <signed rend="right">Gentz</signed>
+         </closer>
+         <postscript corresp="#karn">
+            <p>
+               Die <rs type="citation" ref="#c5105-2">Nachricht</rs> von der <rs type="person" ref="#FvA">Arnstein</rs> freut mich 
+               sehr. Ich finde sie in der That so interessant, daß ich wünsche, Ihr zu gefallen.
+            </p>
+         </postscript>
+         <postscript corresp="#gfvs">
+            <p>
+               Sodann gehen wir zu der <rs type="person" ref="#LvV">Gräfin</rs> !
+            </p>
+         </postscript>
+      </body>
+   </text>
+</TEI>

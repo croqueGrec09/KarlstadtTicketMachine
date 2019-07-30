@@ -1,0 +1,362 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader type="text">
+      <fileDesc xml:id="LETTER_GENTZ_5037">
+         <titleStmt>
+            <title>Friedrich von Gentz an Elisabeth Graun, 10. April 1785</title>
+            <editor xml:id="edAG">Andreas Gálffy</editor>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <name>Forschungsstelle "Universitätssammlung Friedrich von Gentz"</name>
+               <link target="http://gentz-digital.ub.uni-koeln.de http://www.ub.uni-koeln.de/cdm/singleitem/collection/gentz/id/5036/"/>
+            </publisher>
+            <pubPlace>Cologne</pubPlace>
+            <idno type="Gentz-Edition-Number" n="5037"/>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <country>Poland</country>
+                  <settlement>Cracow</settlement>
+                  <institution>Biblioteka Jagiellońska</institution>
+                  <repository>Handschriftenabtelung</repository>
+                  <collection>Varnhagensammlung der ehemaligen Preußischen Bibliothek</collection>
+                  <idno>Karton 66</idno>
+               </msIdentifier>
+               <msContents>
+                  <summary>
+                     Gentz gratuliert seiner Freundin Elisabeth Graun zum 24. Geburtstag. Dies tut er sehr ausführlich, bei 
+                     mehrfacher Bekundung des Wertes der Freundschaft, den er für Gentz bedeutet. In seinen Glückwünschen führt 
+                     Gentz aus, wie das Leben zu meistern wäre: entweder, man wartet ab, bis man zu seinem Lebensziel "von selbst" 
+                     kommt, oder man ordnet sich seine Wünsche den Trieben des Schicksals unter, trotz dessen, dass viele Wünsche 
+                     dadruch unerfüllt bleiben. Gentz sieht für Elisabeth Graun nur den letzten Weg und rät ihr deshalb, sich selbst 
+                     glücklich zu machen. Zwei Hauptpunkte gäbe es da, so Gentz: erstens, sich über das Unglück mit ihrem Mann 
+                     hinwegzusetzen, zweitens, nach Le Noble nicht nachzutrauern. Zu guter Letzt kündigt Gentz an, dass in Berlin 
+                     die Korrespondenz mit Elisabeth Graun eines der angenehmsten Beschäftigungen sein wird und wiederholt noch 
+                     einmal den Wunsch für sie, wenn irgend möglich, Ruhe und Glück zu finden. Dieses Ziel hat Gentz auch mehrfach 
+                     durch Metaphern erläutert.
+                  </summary>
+               </msContents>
+            </msDesc>
+            <listBibl type="preprints">
+               <biblStruct>
+                  <monogr>
+                     <editor>
+                        <persName>
+                           <ref target="http://d-nb.info/gnd/130953075"/>
+                           <forename>Friedrich Carl</forename>
+                           <surname>Wittichen</surname>
+                        </persName>
+                        <persName>
+                           <ref/> <!-- kein GND-Eintrag -->
+                           <forename>Ernst</forename>
+                           <surname>Salzer</surname>
+                        </persName>
+                     </editor>
+                     <title>Briefe von und an Friedrich von Gentz. 4 Bde.</title>
+                     <imprint>
+                        <publisher>Oldenbourg</publisher>
+                        <pubPlace>München, Berlin</pubPlace>
+                        <date>1909-1913</date>
+                     </imprint>
+                     <biblScope unit="volume" n="1">
+                        I
+                     </biblScope>
+                     <biblScope unit="page" from="19" to="24">
+                        Nr. 7
+                     </biblScope>
+                  </monogr>
+               </biblStruct>
+               <biblStruct>
+                  <monogr>
+                      <editor>
+                          <persName>
+                              <ref target="http://d-nb.info/gnd/117325791"/>
+                              <forename>Gustav</forename>
+                              <surname>Schlesier</surname>
+                          </persName>
+                      </editor>
+                      <title>Schriften von Friedrich von Gentz. Ein Denkmal. 5 Bde.</title>
+                      <imprint>
+                          <publisher>Verlag von Heinrich Wolff</publisher>
+                          <pubPlace>Mannheim</pubPlace>
+                          <date>1838-1840</date>
+                      </imprint>
+                      <biblScope unit="volume" n="1">
+                          I
+                      </biblScope>
+                      <biblScope unit="page" from="26" to="32">
+                          Nr. 4
+                      </biblScope>
+                  </monogr>
+               </biblStruct>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Masterarbeit zu Matrikelnummer 5584124</p>
+         </projectDesc>
+      </encodingDesc>
+      <profileDesc>
+         <creation>
+            <date when-iso="1785-04-10">10. April 1785</date>
+         </creation>
+        <langUsage>
+           <language ident="d">deutsch</language>
+        </langUsage>
+         <textClass>
+            <keywords scheme="internal"><!-- internal: innerhalb des besagten Briefs -->
+               <term>Brief</term>
+               <term>Graun</term>
+               <term>Treffen</term>
+               <term>Philosophie</term>
+               <term>Gleichnis</term>
+               <term>Reise</term>
+            </keywords>
+            <keywords scheme="categorisation"><!-- Sinnabschnittseinteilung - relevant für den Fahrkartenautomaten! -->
+               <term xml:id="veg">Verhältnis Elisabeth Graun</term>
+               <term xml:id="philw">Philosophie - Lebenswege</term>
+               <term xml:id="klno">Le Noble</term>
+            </keywords>
+         </textClass>
+         <textDesc>
+            <channel>manuscript</channel>
+            <constitution type="single"/>
+            <derivation type="original"/>
+            <domain type="private"/>
+            <factuality type="fact"/>
+            <interaction type="partial"/>
+            <preparedness type="prepared"/>
+            <purpose type="inform"/>
+         </textDesc>
+         <particDesc>
+            <listPerson>
+               <!-- Sender und Adressat -->
+               <person role="sender" xml:id="Gen">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/118538489"/>
+                     <forename>Friedrich von</forename>
+                     <surname>Gentz</surname>
+                  </persName>
+               </person>
+               <person role="receiver" xml:id="Gra">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/123518733"/>
+                     <forename>Elisabeth</forename>
+                     <surname>Graun</surname>
+                  </persName>
+               </person>
+               <!-- erwähnte Personen -->
+               <person role="named" xml:id="RRGra">
+                  <persName>
+                     <ref/><!-- kein GND-Eintrag -->
+                     <forename>Karl Heinrich</forename>
+                     <surname>Graun</surname>
+                     <roleName type="office">Regierungsrat</roleName>
+                  </persName>
+               </person>
+               <person role="named" xml:id="lno">
+                  <persName>
+                     <ref/>
+                     <forename>David oder Jeremias</forename>
+                     <surname>Le Noble</surname>
+                     <certainty locus="name">
+                        <desc>ist unklar! Entnommen aus: Gause, Fritz. Friedrich Gentz in Königsberg. In: Jahrbuch der Schlesischen Friedrich-Wilhelms-Universität zu Breslau, Band XVIII. 1973. Berlin: Duncker &amp; Humblot. S. 325</desc>
+                     </certainty>
+                  </persName>
+               </person>
+            </listPerson>
+         </particDesc>
+         <settingDesc>
+            <listPlace>
+               <!-- Start- und Zielort -->
+               <place type="sender" xml:id="plKo">
+                  <country>
+                     <ref target="http://d-nb.info/gnd/4047194-9"/>
+                     <placeName>Preußen</placeName>  
+                  </country>
+                  <settlement>
+                     <ref target="http://d-nb.info/gnd/4031541-1"/>
+                     <placeName>Königsberg</placeName>
+                  </settlement>
+               </place>
+            </listPlace>
+         </settingDesc>
+      </profileDesc>
+      <revisionDesc>
+         <change xml:id="init" when-iso="2018-01-27" who="#edAG">Erstauszeichnung und Normierung des Dokumentes im Rahmen der Masterarbeit der Matrikelnummer 5584124</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div n="1" corresp="#veg">
+            <opener>
+               <salute>Theure, Verehrungswürdige Freundinn !</salute>
+            </opener>
+            <p>
+               Das denke ich nicht mehr Ihnen betheuern und beweisen zu dürfen, daß wenige Menschen in der Welt, an dem, was Sie 
+               und Ihr Schiksal betrift, einen aufrichtigern und herzlichern Antheil nehmen können, als ich. Sie wißen längst, 
+               wie ich gegen Sie denke, wißen längst, daß Ihre Freundschaft Eins der liebsten und kostbarsten Güter ist, womit 
+               ich in dieser Welt prahlen kan, und daß ich nun schon seit geraumer Zeit, Sie für meine erste und würdigste 
+               Freundinn - ich möchte fast sagen für meine einzige -, nicht nur in <rs type="place" ref="#plKo">Königsberg</rs> 
+               sondern auf der Erde überhaupt halte. Denn ich habe nur Eine Geliebte, nur Eine Mutter, nur Einen Freund, und - wol 
+               mir, daß Sie mir das erlauben zu sagen - nun auch nur Eine Freundinn; Gottlob, daß es eine solche ist, an der ich 
+               für mein ganzes Leben genung habe ! -
+            </p>
+            <p>
+               Sie sind heute 24 Jahre alt; und ich fühle, daß Ihr Geburtstag kein gleichgültiger Tag für mich ist; ich habe kaum 
+               5 Feyer:Tage im Jahre - denn Ostern und Pfingsten kan ich immer nicht recht behalten - der heutige glänzt unter 
+               diesen festlichen Tagen; ich freue mich, daß der Tag, der Sie in die Welt brachte, mir nicht unbekannt geblieben 
+               ist, freue mich über den Gedanken, daß man eifriger, wärmer, herzlicher als ich Ihnen den vollsten reichsten Seegen 
+               des Himmels und alles Glük der Erde wünsche, ohnmöglich an diesem Tage für Sie bitten oder wünschen kan.
+            </p>
+            <p>
+               Aber was soll ich Ihnen denn eigentlich wünschen ? Ich könnte bey jeder andern Person leicht antworten: Alles was 
+               Sie Sich Selbst wünschen, bey Ihnen, meine theure Freundinn, geht es nicht an. Und warum nicht ? - weil ich auf die 
+               Frage, was Sie Selbst Sich wünschen mögen, keine andre Antwort geben könnte, als, ich weis es nicht, und sie weis 
+               es vielleicht selbst nicht - Und in der That, wißen Sie wol, was Sie eigentlich noch in der Welt verlangen ? Ich 
+               glaube, Sie würden um ein gut Theil ruhiger seyn, wenn Sie Sich das bestimmt sagen können. Kommen Sie, beste Frau, 
+               laßen Sie uns die Quellen menschlicher Glük<pb/>seeligkeit und menschlichen Elends entdecken, und sehen, was uns 
+               wol auf Erden noch beschieden seyn kan.
+            </p>
+         </div>
+         <div n="2" corresp="#philw">
+            <p>
+               Es giebt offenbar zwey ganz verschiedne Seiten das menschliche Leben zu betrachten, die sich deutlich genung 
+               absondern und angeben laßen. Die Eine zeigt uns wie es unsern Neigungen unsern Wünschen, und wir können oft dreist 
+               hinzusetzen unserm Bestreben und unserm Wohlverhalten nach gehen <emph rend="underlined">sollte</emph>; die andre, 
+               wie es nach dem Laufe der Natur würklich <emph rend="underlined">geht</emph>. Die Menschen bey denen diese beyde 
+               Linien die fast immer Meilen-Weit <emph rend="underlined">von</emph>einander obgleich beständig 
+               <emph rend="underlined">neben</emph>einander fortlaufen, oft zusammentreffen, nennen wir 
+               <emph rend="underlined">glükliche</emph> Menschen. Und es ist Ihnen gewiß so klar als es mir ist, daß es ohnmöglich 
+               mehr als zweyerley Arten und Wege zum Glük giebt, <emph rend="underlined">entweder</emph>, wir müßen unsre Neigungen 
+               und Wünsche erfüllt sehen, das ist, der Lauf der Natur muß sich nach unserm Intereße richten 
+               <emph rend="underlined">oder</emph>, wir müßen es dahin bringen, daß wir unsre Neigungen dem Lauf der Natur 
+               unterwerfen, und alles das, was geschieht, als gut und nöthig annehmen, genießen, und bewundern. Kein Moralist kan 
+               zwischen diesen beyden Wegen einen dritten ausfindig machen.
+            </p>
+            <p>
+               Der erste Weg - Ach ! meine Freundinn ! - Sie wißen was wir von ihm zu halten haben. Sie wißen wie selten es 
+               geschieht, daß die Begebenheiten unsers Lebens, und ihr Zusammenhang, den wir Schiksal nennen, so geordnet wären, 
+               wie wir es wünschen und wollen - das Glük, was ich erfahren habe, ist ein seltnes, ungewöhnliches Glük; Tausende 
+               verschmachten in den Qualen einer unglüklichen Liebe, ehe das Schiksal Einem so zu Hülfe kömmt, wie es mir geholfen 
+               hat. Und: was <emph rend="underlined">wir</emph> denn <del rend="stroked">zu</del> auf diesem Wege zu unserm Glük 
+               <emph rend="underlined">thun</emph> können ? Nichts, Nichts, meine Beste, das wißen Sie. Der Mensch hat keine oder 
+               doch nur eine sehr eingeschränkte Gewalt über die <emph rend="underlined">Umstände</emph>; von der Wiege an hängen 
+               wir von den Launen und Fehlern unsrer Ammen, unsrer Eltern, unsrer Lehrer, unsrer Ehe-Gatten, unsrer Kinder, ab, 
+               die Alle auf unser Schiksal würken, es bestimmen, ohne daß wir entgegen arbeiten können, uns in Regeln zwingen, die 
+               wir gern überschritten, uns Lebens-Arten vorschreiben, die uns verhaßt sind, uns Fehler und selbst Laster bey 
+               bringen, die unsrer Natur sonst nicht anhängen würden uns unsre Neigungen verwünschen, unsre schönsten Plane 
+               zerreißen und - unsre liebsten Wünsche ins Grab werfen heißen - <pb/>
+            </p>
+            <p>
+               Es ist also ausgemacht, daß dieser Weg zum Glük, so sanft und leicht er auch für die ist, die das Schiksal 
+               begünstigt, doch nicht der allgemeinste, oder, um genauer zu reden, der sicherste ist; denn Sie werden mir 
+               zugestehen, daß es nur Ein Einziges giebt, was wir auf diesem Wege zu unserm Glük 
+               <emph rend="underlined">thun</emph> können, und das ist: <emph rend="underlined">Abwarten</emph>. Aber was ist 
+               trostloser und niederschlagender als das ? Ja ! wenn wir nicht sähen, daß Tausende vergeblich warten, daß der 
+               bittre harte Tod, fast Alle übereilt, ehe sie ihre Wünsche erfüllt sehen, daß - Ach ! meine beste, füllen Sie 
+               dies letzte, <emph rend="underlined">daß</emph>, aus, womit Sie wollen, allenfalls, mit - Unmöglichkeit, mit 
+               unübersteiglichen Hindernißen, mit dem - was oft Ihr armes, weiches Herz drükt, und die stille Thräne ins Auge 
+               preßt, die ich oft in unsern einsamen Unterredungen darin glänzen sah ! -
+            </p>
+            <p>
+               Also bleibt uns noch unser zweyter Weg übrig, nehmlich, die Neigungen und Wünsche dem Lauf der Welt zu 
+               subordiniren, zu sagen: Willst du mir folgen, mein Schiksal ? - du willst nicht ? - Wolan ! Dein Wille soll 
+               geschehen. Ob wir hier weiter kommen werden, als auf dem ersten Wege ? - Ja, Ja, meine Theuerste, das werden, das 
+               wißen wir, so lange wir glauben, daß die Tugend kein Possenspiel und keine Chimäre leerer Köpfe sey. Der Mensch kan 
+               selten oder nie die <emph rend="underlined">Umstände ändern</emph>; was bleibt 
+               übrig ? - Er kan <emph rend="underlined">sich selbst ändern</emph>. Er kan durch Aufmerksamkeit auf sich selbst 
+               und durch ernsthaftes und thätiges Bestreben seine übertriebne Neigungen dämpfen das pochende von Leidenschaften 
+               volle Herz besänftigen; kan durch Uebung und Ausdauer, die Beschwerlichkeiten des Lebens erdulden, die Lasten die 
+               seine Neben Menschen , seine Freunde, seine Brüder auf ihn wälzen ertragen, und sich in die traurige Nothwendigkeit 
+               gelaßen ergeben lernen, daß wir oft zu gleicher Zeit unsre kostbarsten Wünsche 
+               <emph rend="underlined">unerfüllt</emph>, und das, was uns zuwider ist, was unsern innersten Neigungen, unser 
+               Denkungs-Art unserm Charakter entgegen ist, uns aufgebürdet sehen. Kurz: durch Tugend kan er, obgleich langsamer 
+               und schwerer, aber wahrlich viel sichrer eben dahin kommen, wohin unter Tausenden Einer durch Umstände und Glück 
+               geführt wird.
+            </p>
+         </div>
+         <div n="3" corresp="#veg">
+            <p>
+               Für Sie, meine werthe Freundinn, ist es mit den Hoffnungen auf günstige Fügungen der Umstände zu einem neuen 
+               glüklichen Leben, wie Sie <pb/> es Sich vielleicht mahlen möchten, so gut, als vorbey. Es ist hart, daß ich das so 
+               uneingeschränkt sage; aber dieselbige Freundschaft die mich in den Falten Ihres Herzens 
+               <del rend="stroked">diese</del> jene geheimen Wünsche lesen ließ, berechtigt mich auch Ihnen zu sagen, was Sie 
+               ohnedies längst wißen, daß sie eitel sind. Ihnen bleibt also, um zur Glükseeligkeit, die doch Ihr Herz wahrhaftig 
+               verdient, zu gelangen, kein andrer Weg mehr übrig, als <del rend="stroked">xxx</del> der Entschluß, Sich Selbst 
+               glüklich zu machen. Können wir das Kleinod, wonach wir in der Welt ringen, nicht erstreben, so laßt uns in uns 
+               selbst ein Andres suchen; Ruhe, Ruhe und Friede in der Seele, ist das nicht das köstlichste Kleinod das uns 
+               bescheert seyn kan ? Können wir den Sturm der über uns tobt, nicht besänftigen, o ! so laßt uns unsre Hütte 
+               zumachen, fest verschließen, uns in dem verborgensten Kämmerchen am ruhigen Kamine gelaßen mit ansehen, wie er gern 
+               die Erde zertrümmern möchte ! -
+            </p>
+            <p>
+               Sie, meine liebe Graunin, haben zur Glükseeligkeit die man auf diesem edeln, glorreichen Wege, auf dem Pfade der 
+               Tugend erlangt, einen herrlichen Grund in sich; Ihre sanfte fühlbare Seele müßte Sie unausbleiblich glüklich 
+               machen, wenn Sie es immer dahin bringen könnten, daß sie mit Ihrem hellen und richtigen Kopfe in 
+               <del rend="stroked">Vor</del> Harmonie stünde. Dadurch, daß Sie stärker empfinden als hundert Andre Menschen sind 
+               Ihnen soviel Andere unbekannte Freuden- Quellen geöfnet, dadurch daß Sie nachdenken können über Menschen und 
+               Begebenheiten, sind Sie schon so sehr von Tausend Andern unterschieden, daß es nur auf einen herzhaften Entschluß 
+               ankäme, um Ruhe und Glükseeligkeit zu erlangen.
+            </p>
+         </div>
+         <div n="4" corresp="#klno">
+            <p>
+               Ich weis recht gut, daß es leicht ist, so zu predigen; weis recht gut, daß Sie mir gegen alle diese Vorschläge 
+               hundert Schwierigkeiten und Hinderniße setzen können; aber ich weis auch eben so gut, daß die Grundsätze zu einem 
+               festen Gebäude von Glükseeligkeit, die ich Ihnen hier angegeben habe durch Nichts in der Welt umgestoßen werden 
+               können; es sind die unwandelbaren Grund Pfeiler der Tugend, nur der, der an der Tugend selbst zweifelt, kan daran 
+               scheitern, wen aber Zweifel an der Tugend selbst beunruhigen, für den ist schlechterdings alle reelle 
+               Glükseeligkeit verlohren und verschwunden. <pb/> Denken Sie Sich den großen Gedanken: Wenn Sie in Zeit von einem 
+               Jahre es blos durch innre Kraft und Anstrengung dahin brächten, daß Sie 
+               <rs type="person" ref="#RRGra">Ihren Mann</rs> mit seinen Fehlern, die er, wie alle andre Menschen hat, 
+               nicht nur immer gern ertragen sondern auch lieben könnten, daß <rs type="person" ref="#lno">leNoble</rs> 
+               Ihnen ein Ihrer Freundschaft und Achtung sehr würdiger, aber in Ansehung Ihres Herzens und der Liebe ganz 
+               gleichgültiger Mensch würde, daß Sie jeden Augenblick, den Sie jetzt auf unnütze Wünsche verwenden für die 
+               Zukunft, lieber gebrauchten um Sich das Leben gegenwärtig zu versüßen, kurz, daß Sie durch Bemühung und 
+               Tugend zu demselbigen Grade von Glükseeligkeit gelangten, zu dem mich in dieser Zeit mein günstiges Schiksal 
+               führt und daß wir, die wir so freundschaftlich und brüderlich unser Unglück zusammengetragen haben, dann uns 
+               am Ziele worauf uns unsre verschiednen Wege führten, in dem Hafen der Glükseeligkeit wieder zusammen träfen - 
+               denken Sie Sich diesen schönen Gedanken, und fühlen Sie mit mir, was uns beyden im Grunde unser Verstand 
+               tausendmal gesagt hat, daß es doch wahrlich der Mühe werth ist, <emph rend="underlined">weise</emph> zu seyn.
+            </p>
+         </div>
+         <div n="5" corresp="#veg">
+            <p>
+               Bleiben Sie meine Freundinn; ich verlöhre zuviel, wenn ich auch jemals nur einen kleinen Theil Ihrer Freundschaft 
+               verlöhre, obgleich die große unverkennbare Harmonie unsrer Seelen mich ziemlich dagegen sichert. Bedenken Sie 
+               immer daß ich ein Mensch bin, der sich eben so gut über jeden Fortschritt den Sie auf dem Wege zum Ziele was 
+               Sie wünschen, machen, herzlich freuen, als über jedes Hinderniß über jeden Irrweg, worauf die Gewalt der 
+               Umstände, oder Ihr zu fühlbares Herz Sie führt, herzlich um Sie trauern kan, daß man Sie nicht genauer kennen, 
+               und <emph rend="underlined">also</emph> - (das werden Sie doch wol für keine Schmeicheley ansehen ? Wie geriethe 
+               die hieher ?) - auch schwerlich mehr lieben kan, als ich Sie liebe.
+            </p>
+            <p>
+               Die Correspondenz, die Sie mir versprochen haben, wird Eins meiner liebsten und intereßantsten Geschäfte in Berlin 
+               seyn, und ich werde mich gewiß herzlich freuen, wenn Sie mir so oft Sie Lust und Trieb dazu 
+               <add place="above">fühlen</add> die Lage Ihrer Seele schildern und an Ihrer Situation <pb/> mich theilnehmen laßen, 
+               da mich weniger Menschen Schiksal so sehr intereßiren kan, als das Ihrige.
+            </p>
+            <p>
+               Beschleunigen Sie den Zeitpunkt der Ihnen Ruhe und Zufriedenheit schenkt, damit Sie ihn noch in den glüklichen 
+               Jahren genießen können, wo alle unsre Kräfte leicht und frey würken, wo die Welt noch schön für uns ist, wo die 
+               Rosen noch frisch um uns her blühen. In diesen Jahren weise seyn, das ist wahre Weisheit. Möchte doch jeder Ihrer 
+               künftigen Geburtstage Sie immer um ein gut Theil glüklicher finden, und jedes Jahr Ihres Lebens mit dem Genuß 
+               dieser immer zunehmenden Glükseeligkeit bezeichnet seyn. Denken Sie dann in jeder frohen Stunde so wie in den 
+               trüben die Ihnen noch begegnen werden, an
+            </p>
+         </div>
+         <closer>
+            <salute rend="right">
+               Ihren aufrichtigsten und theilnehmendsten
+               Freund.
+            </salute>
+            <dateline rend="left">Den <date when-iso="1785-04-10">10ten. April. 1785.</date></dateline>
+            <signed rend="right">Gentze.</signed>
+         </closer>
+      </body>
+   </text>
+</TEI>

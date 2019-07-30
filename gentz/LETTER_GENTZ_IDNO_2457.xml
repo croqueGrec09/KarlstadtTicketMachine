@@ -1,0 +1,218 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc xml:id="LETTER_GENTZ_2457">
+         <titleStmt>
+            <title>Friedrich von Gentz an Friedrich Schiller, 14. März 1802</title>
+            <editor xml:id="edAG">Andreas Gálffy</editor>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <name>Forschungsstelle "Universitätssammlung Friedrich von Gentz"</name>
+               <link target="http://gentz-digital.ub.uni-koeln.de http://www.ub.uni-koeln.de/cdm/singleitem/collection/gentz/id/2456/"/>
+            </publisher>
+            <pubPlace>Cologne</pubPlace>
+            <idno type="Gentz-Edition-Number" n="2457"/>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <country>Germany</country>
+                  <settlement>Hannover</settlement>
+                  <institution>Stadtarchiv</institution>
+                  <repository>Autografensammlung (ehem. Kestner-Museum)</repository>
+                  <idno>584</idno>
+               </msIdentifier>
+               <msContents>
+                  <summary>
+                     Der Justiz-Kommissar Grattenauer aus Berlin hat Geschäfte in Weimar und bei dieser Gelegenheit wird auch dieser 
+                     Brief überbracht. Gentz stellt ein Empfehlungsschreiben über ihn an Schiller aus, weil Grattenauer Schiller 
+                     gerne kennenlernen und treffen würde. Gentz bedauert, dass die Korrespondenz nach dem Brief vom Januar zum 
+                     Erliegen gekommen ist und hofft auf ein Wiedersehen im Mai.
+                  </summary>
+               </msContents>
+            </msDesc>
+            <listBibl type="preprints">
+               <biblStruct>
+                  <monogr>
+                     <editor>
+                        <persName>
+                           <ref />
+                           <forename>Stefan</forename>
+                           <surname>Ormanns</surname>
+                        </persName>
+                     </editor>
+                     <title>Schillers Werke, Nationalausgabe</title>
+                     <imprint>
+                        <pubPlace>Weimar</pubPlace>
+                        <date>1988</date>
+                     </imprint>
+                     <biblScope unit="volume" n="37">
+                        39. Bd. Teil I. Briefwechsel. Briefe an Schiller 1.1.1801-31.12.1802 
+                     </biblScope>
+                     <biblScope unit="page" from="212" to="213">
+                        Nr. 223
+                     </biblScope>
+                  </monogr>
+               </biblStruct>
+            </listBibl>
+            <listBibl type="letterReferenced">
+               <bibl xml:id="c2457-1" corresp="#LETTER_GENTZ_0403">Friedrich von Gentz an Friedrich Schiller, 3. Januar 1802</bibl>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Masterarbeit zu Matrikelnummer 5584124</p>
+         </projectDesc>
+      </encodingDesc>
+      <profileDesc>
+         <creation>
+            <date when-iso="1802-03-14">14. März 1802</date>
+         </creation>
+        <langUsage>
+           <language ident="d">deutsch</language>
+        </langUsage>
+         <textClass>
+            <keywords scheme="internal"><!-- internal: innerhalb des besagten Briefs -->
+               <term>Brief</term>
+               <term>Empfehlungsschreiben</term>
+               <term>Grattenauer</term>
+               <term>Humboldt</term>
+            </keywords>
+            <keywords scheme="categorisation"><!-- Sinnabschnittseinteilung - relevant für den Fahrkartenautomaten! -->
+               <term xml:id="bezbl">Beziehungen zu Berlin - Leute</term>
+               <term xml:id="vfs">Verhältnis Friedrich Schiller</term>
+            </keywords>
+         </textClass>
+         <textDesc>
+            <channel>manuscript</channel>
+            <constitution type="single"/>
+            <derivation type="original"/>
+            <domain type="private"/>
+            <factuality type="fact"/>
+            <interaction type="partial"/>
+            <preparedness type="prepared"/>
+            <purpose type="inform"/>
+         </textDesc>
+         <particDesc>
+            <listPerson>
+               <!-- Sender und Adressat -->
+               <person role="sender" xml:id="Gen">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/118538489"/>
+                     <forename>Friedrich von</forename>
+                     <surname>Gentz</surname>
+                  </persName>
+               </person>
+               <person role="receiver" xml:id="Sch">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/118607626"/>
+                     <forename>Friedrich</forename>
+                     <surname>Schiller</surname>
+                  </persName>
+               </person>
+               <!-- erwähnte Personen -->
+               <person role="named" xml:id="Grtn">
+                  <persName>
+                     <ref />
+                     <forename/>
+                     <surname>Grattenauer</surname>
+                     <roleName type="office">Justizkommissar</roleName>
+                  </persName>
+               </person>
+               <person role="named" xml:id="FSchl">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/118607987" />
+                     <forename>Friedrich von</forename>
+                     <surname>Schlegel</surname>
+                  </persName>
+               </person>
+               <person role="named" xml:id="Hum">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/118554727"/>
+                     <forename>Wilhelm von</forename>
+                     <surname>Humboldt</surname>
+                  </persName>
+               </person>
+            </listPerson>
+         </particDesc>
+         <settingDesc>
+            <listPlace>
+               <!-- Start- und Zielort -->
+               <place type="sender" xml:id="plBe">
+                  <country>
+                     <ref target="http://d-nb.info/gnd/4047194-9"/>
+                     <placeName>Preußen</placeName>
+                  </country>
+                  <settlement>
+                     <ref target="http://d-nb.info/gnd/4005728-8"/>
+                     <placeName>Berlin</placeName>
+                  </settlement>
+               </place>
+               <place type="receiver" xml:id="plWe">
+                  <country>
+                     <ref target="http://d-nb.info/gnd/4051194-7"/>
+                     <placeName>Sachsen-Weimar-Eisenach</placeName>
+                  </country>
+                  <settlement>
+                     <ref target="http://d-nb.info/gnd/4065105-8"/>
+                     <placeName>Weimar</placeName>
+                  </settlement>
+               </place>
+               <!-- erwähnte Orte -->
+            </listPlace>
+         </settingDesc>
+      </profileDesc>
+      <revisionDesc>
+         <change xml:id="init" when-iso="2018-03-10" who="#edAG">Erstauszeichnung und Normierung des Dokumentes im Rahmen der Masterarbeit der Matrikelnummer 5584124</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div n="1" corresp="#bezbl">
+            <p>
+               Der Ueberbringer dieses Briefes ist der <rs type="person" ref="#Grtn">Justitz-Commissarius Grattenauer</rs> aus 
+               <rs type="place" ref="#plBe">Berlin</rs>. Er wird in Geschäften einige Wochen in 
+               <rs type="place" ref="#plWe">Weimar</rs> und der umliegenden Gegend zubringen, und hat mich dringend gebeten, ihm bei 
+               Ihnen, verehrungswürdiger Freund, den Zutritt zu verschaffen. In hundert andern Fällen würde ich solche Bitten 
+               abgelehnt haben: hier aber konnte ich es nicht. Er ist einer meiner ältsten Freunde; er hat stets einen sehr 
+               lebendigen Antheil an Kunst und Wissenschaft genommen; er hat sich diesen Winter, dadurch daß er seine Zimmer zu den 
+               Vorlesungen von <rs type="person" ref="#FSchl">Schlegel</rs> hergab, mit dem litterärischen Interesse 
+               <rs type="place" ref="#plBe">Berlin</rs>s noch in nähere Verbindung gesetzt. Vergeben Sie also, daß ich es wage, mir 
+               eine freundliche Aufnahme für ihn zu erbitten; ich habe ihm auf die Seele gebunden, daß er sie nicht mißbrauchen 
+               soll.
+            </p>
+         </div>
+         <div n="2" corresp="#vfs">
+            <p>
+               <rs type="citation" ref="#c2457-1">Den langen Brief</rs>, den ich Ihnen vor einigen Monaten schrieb, haben Sie 
+               hoffentlich erhalten. Ihr gänzliches Stillschweigen würde mich <pb/> betrüben, wenn ich nicht von 
+               <rs type="person" ref="#Hum">Humboldt</rs> und andern erfahren hätte, daß es sich auf alle Ihre Freunde und sonstige 
+               Correspondenten erstreckt. Auch giebt es noch einen andern Umstand, der mich aufrühret. Höchst wahrscheinlich sehen 
+               Sie mich im Monat Mai wieder in <rs type="place" ref="#plWe">Weimar</rs> ! Dann werde ich Ihnen besser als es je 
+               durch Briefe geschieht, meine Verehrung ausdrücken, dann werde ich anhaltender um Ihre Gunst, um Ihr Wohlwollen, und 
+               um Ihre Freundschaft werben können. Sie wißen schon genug von mir, um zu glauben, daß diese Güter, für mich in die 
+               Classe der unschätzbarsten gehören. Vergessen Sie nicht ganz
+            </p>
+         </div>
+         <closer>
+            <salute rend="right">Ihren tief-ergebnen</salute>
+            <dateline rend="left"><rs type="place" ref="#plBe">Berlin</rs> den <date when-iso="1802-03-14">14 März. 1802</date>.</dateline>
+            <signed rend="right">Gentz.</signed>
+         </closer>
+      </body>
+      <back>
+         <p>
+            An
+            Herrn Hofrath Schiller
+            in
+            <rs type="place" ref="#plWe"><emph rend="underlined">Weimar</emph></rs>
+         </p>
+      </back>
+      <note xml:id="r2457-1">Adresse auf Seite 4</note>
+   </text>
+</TEI>

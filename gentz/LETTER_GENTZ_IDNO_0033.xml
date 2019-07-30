@@ -1,0 +1,451 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader type="text">
+      <fileDesc xml:id="LETTER_GENTZ_0033">
+         <titleStmt>
+            <title>Friedrich von Gentz an Elisabeth Graun, 17. Januar 1786</title>
+            <editor xml:id="edAG">Andreas Gálffy</editor>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <name>Forschungsstelle "Universitätssammlung Friedrich von Gentz"</name>
+               <link target="http://gentz-digital.ub.uni-koeln.de http://www.ub.uni-koeln.de/cdm/singleitem/collection/gentz/id/32/"/>
+            </publisher>
+            <pubPlace>Cologne</pubPlace>
+            <idno type="Gentz-Edition-Number" n="0033"/>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <country>Poland</country>
+                  <settlement>Cracow</settlement>
+                  <institution>Biblioteka Jagiellońska</institution>
+                  <repository>Handschriftenabtelung</repository>
+                  <collection>Varnhagensammlung der ehemaligen Preußischen Bibliothek</collection>
+                  <idno>Karton 66</idno>
+               </msIdentifier>
+               <msContents>
+                  <summary>
+                     Der letzte Brief hat Frau Graun verwundert, was Gentz recht erstaunt. Frau Graun habe sogar den Gedanken 
+                     gehabt, dass Gentz sie irgendwie weniger lieb haben könnte. Diesen Verdacht möchte Gentz zuallererst ausräumen. 
+                     Hierzu führt er an, wie er in Gesellscahften über Elisabeth Graun spricht: "Charmante" und "soll" passen nicht 
+                     für ihn. Die Schwiegermutter soll kalt, trocken, gefühllos sein - das krasse Gegenteil von Frau Graun. Le Noble 
+                     meldet den Tod eines Mendelssohns. Es findet viel Umgang zwischen ihm und Klopstock statt. In diesem 
+                     Zusammenhang erinnert sich Gentz an einen Abend, an dem er aus der Ode "Die Gestirne" zitierte. Er entschuldigt 
+                     sich für das missglückte Reisevorhaben und freut sich über den Umgang der Coelestine. Elisabeth Graun soll 
+                     Gentz alsbald mit einem Brief beehren.
+                  </summary>
+               </msContents>
+            </msDesc>
+            <listBibl type="preprints">
+               <biblStruct>
+                  <monogr>
+                     <editor>
+                        <persName>
+                           <ref target="http://d-nb.info/gnd/130953075"/>
+                           <forename>Friedrich Carl</forename>
+                           <surname>Wittichen</surname>
+                        </persName>
+                        <persName>
+                           <ref/> <!-- kein GND-Eintrag -->
+                           <forename>Ernst</forename>
+                           <surname>Salzer</surname>
+                        </persName>
+                     </editor>
+                     <title>Briefe von und an Friedrich von Gentz. 4 Bde.</title>
+                     <imprint>
+                        <publisher>Oldenbourg</publisher>
+                        <pubPlace>München, Berlin</pubPlace>
+                        <date>1909-1913</date>
+                     </imprint>
+                     <biblScope unit="volume" n="1">
+                        I
+                     </biblScope>
+                     <biblScope unit="page" from="74" to="77">
+                        Nr. 16
+                     </biblScope>
+                  </monogr>
+               </biblStruct>
+               <biblStruct>
+                  <monogr>
+                      <editor>
+                          <persName>
+                              <ref target="http://d-nb.info/gnd/117325791"/>
+                              <forename>Gustav</forename>
+                              <surname>Schlesier</surname>
+                          </persName>
+                      </editor>
+                      <title>Schriften von Friedrich von Gentz. Ein Denkmal. 5 Bde.</title>
+                      <imprint>
+                          <publisher>Verlag von Heinrich Wolff</publisher>
+                          <pubPlace>Mannheim</pubPlace>
+                          <date>1838-1840</date>
+                      </imprint>
+                      <biblScope unit="volume" n="1">
+                          I
+                      </biblScope>
+                      <biblScope unit="page" from="66" to="67">
+                          66-67 (teilweise)
+                      </biblScope>
+                  </monogr>
+               </biblStruct>
+            </listBibl>
+            <listBibl type="letterReferenced">
+               <bibl xml:id="c0033-1" corresp="#LETTER_GENTZ_3069">Friedrich von Gentz an Elisabeth Graun, 31. Dezember 1786</bibl>
+               <bibl xml:id="c0033-2" corresp="#LETTER_GENTZ_NNNN">nicht bekannter Brief von Le Noble an Friedrich von Gentz</bibl>
+               <bibl xml:id="c0033-3" corresp="#LETTER_GENTZ_NNNN">nicht bekannter Brief von Le Noble an Friedrich von Gentz</bibl>
+               <bibl xml:id="c0033-4" corresp="#LETTER_GENTZ_4117">Friedrich von Gentz an Elisabeth Graun, Dezember 1785</bibl>
+            </listBibl>
+            <listBibl type="defExpr">
+               <biblStruct xml:id="e0033-1" corresp="Dnb-0000">
+                  <monogr>
+                     <author>
+                        <persName>
+                           <forename>Moses</forename>
+                           <surname>Mendelssohn</surname>
+                        </persName>
+                     </author>
+                     <title>Phaedon oder über die Unsterblichkeit der Seele, in drey Gesprächen von Moses Mendelssohn</title>
+                     <imprint>
+                        <pubPlace>Frankfurt</pubPlace>
+                        <pubPlace>Leipzig</pubPlace>
+                        <date>1778</date>
+                     </imprint>
+                  </monogr>
+                  <ptr target="http://d-nb.info/999172417"/>
+               </biblStruct>
+               <biblStruct xml:id="e0033-2" corresp="Jal-0000">
+                  <monogr>
+                     <author>
+                        <persName>
+                           <ref target="http://d-nb.info/gnd/118563386"/>
+                           <forename>Friedrich Gottlieb</forename>
+                           <surname>Klopstock</surname>
+                        </persName>
+                     </author>
+                     <title>Die Gestirne</title>
+                     <imprint>
+                        <date>1776</date>
+                     </imprint>
+                  </monogr>
+                  <ptr target="http://www.joergalbrecht.de/es/deutschedichter.de/werk.asp?ID=1453"/>
+               </biblStruct>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Masterarbeit zu Matrikelnummer 5584124</p>
+         </projectDesc>
+      </encodingDesc>
+      <profileDesc>
+         <creation>
+            <date when-iso="1786-01-17">17. Januar 1786</date>
+         </creation>
+        <langUsage>
+           <language ident="d">deutsch</language>
+        </langUsage>
+         <textClass>
+            <keywords scheme="internal"><!-- internal: innerhalb des besagten Briefs -->
+               <term>Brief</term>
+               <term>Graun</term>
+               <term>Coelestine</term>
+               <term>Sehnsucht</term>
+               <term>Liebe</term>
+               <term>Klopstock</term>
+               <term>Königsberg</term>
+               <term>Regierungsrat Graun</term>
+            </keywords>
+            <keywords scheme="categorisation"><!-- Sinnabschnittseinteilung - relevant für den Fahrkartenautomaten! -->
+               <term xml:id="veg">Verhältnis Elisabeth Graun</term>
+               <term xml:id="vege">Elisabeth Graun - Schwiegermutter</term>
+               <term xml:id="klno">Le Noble</term>
+               <term xml:id="bezkg">Beziehungen zu Königsberg</term>
+               <term xml:id="kcoe">Coelestinen</term>
+            </keywords>
+         </textClass>
+         <textDesc>
+            <channel>manuscript</channel>
+            <constitution type="single"/>
+            <derivation type="original"/>
+            <domain type="private"/>
+            <factuality type="fact"/>
+            <interaction type="partial"/>
+            <preparedness type="prepared"/>
+            <purpose type="inform"/>
+         </textDesc>
+         <particDesc>
+            <listPerson>
+               <!-- Sender und Adressat -->
+               <person role="sender" xml:id="Gen">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/118538489"/>
+                     <forename>Friedrich von</forename>
+                     <surname>Gentz</surname>
+                  </persName>
+               </person>
+               <person role="receiver" xml:id="Gra">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/123518733"/>
+                     <forename>Elisabeth</forename>
+                     <surname>Graun</surname>
+                  </persName>
+               </person>
+               <!-- erwähnte Personen -->
+               <person role="named" xml:id="lno">
+                  <persName>
+                     <ref/>
+                     <forename>David oder Jeremias</forename>
+                     <surname>Le Noble</surname>
+                     <certainty locus="name">
+                        <desc>ist unklar! Entnommen aus: Gause, Fritz. Friedrich Gentz in Königsberg. In: Jahrbuch der Schlesischen Friedrich-Wilhelms-Universität zu Breslau, Band XVIII. 1973. Berlin: Duncker &amp; Humblot. S. 325</desc>
+                     </certainty>
+                  </persName>
+               </person>
+               <person role="named" xml:id="coe">
+                  <persName>
+                     <ref/><!-- kein GND-Eintrag -->
+                     <forename>Coelestine</forename>
+                     <surname>Schwinck</surname>
+                     <roleName type="address">Mademoiselle</roleName>
+                  </persName>
+               </person>
+               <person role="named" xml:id="CHG">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/118541706"/>
+                     <forename>Carl Heinrich</forename>
+                     <surname>Graun</surname>
+                  </persName>
+               </person>
+               <person role="named" xml:id="Men">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/118580744"/>
+                     <forename>Moses</forename>
+                     <surname>Mendelssohn</surname>
+                  </persName>
+               </person>
+               <person role="named" xml:id="Hgr">
+                  <persName>
+                     <ref/>
+                     <forename>Hannchen</forename>
+                     <surname>Graun</surname>
+                     <roleName type="family">Schwiegermutter der Elisabeth Graun</roleName>
+                  </persName>
+               </person>
+               <person role="named" xml:id="RRGra">
+                  <persName>
+                     <ref/><!-- kein GND-Eintrag -->
+                     <forename>Karl Heinrich</forename>
+                     <surname>Graun</surname>
+                     <roleName type="office">Regierungsrat</roleName>
+                  </persName>
+               </person>
+               <person role="named" xml:id="Klo">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/118563386"/>
+                     <forename>Friedrich Gottlieb</forename>
+                     <surname>Klopstock</surname>
+                  </persName>
+               </person>
+               <person role="named" xml:id="Sok">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/118615270"/>
+                     <forename>Sokrates</forename>
+                     <surname/>
+                  </persName>
+               </person>
+               <person role="named" xml:id="RHa">
+                  <persName>
+                     <ref/>
+                     <forename>Regina</forename>
+                     <surname>geb. Hartung</surname>
+                  </persName>
+               </person>
+            </listPerson>
+         </particDesc>
+         <settingDesc>
+            <listPlace>
+               <!-- Start- und Zielort -->
+               <place type="sender" xml:id="plBe">
+                  <country>
+                     <ref target="http://d-nb.info/gnd/4047194-9"/>
+                     <placeName>Preußen</placeName>  
+                  </country>
+                  <settlement>
+                     <ref target="http://d-nb.info/gnd/4005728-8"/>
+                     <placeName>Berlin</placeName>
+                  </settlement>
+               </place>
+               <place type="receiver" xml:id="plKo">
+                  <country>
+                     <ref target="http://d-nb.info/gnd/4047194-9"/>
+                     <placeName>Preußen</placeName>  
+                  </country>
+                  <settlement>
+                     <ref target="http://d-nb.info/gnd/4031541-1"/>
+                     <placeName>Königsberg</placeName>
+                  </settlement>
+               </place>
+               <!-- erwähnte Orte -->
+            </listPlace>
+         </settingDesc>
+      </profileDesc>
+      <revisionDesc>
+         <change xml:id="init" when-iso="2018-01-27" who="#edAG">Erstauszeichnung und Normierung des Dokumentes im Rahmen der Masterarbeit der Matrikelnummer 5584124</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div n="1" corresp="#veg">
+            <opener>
+               <salute>Liebe, gute, Freundinn !</salute>
+            </opener>
+            <p>
+               Ich habe eben etwas gelesen, was mich einigermaßen verwundert hat. <rs type="person" ref="#coe">Coelestine</rs> 
+               schreibt mir, daß <rs type="citation" ref="#c0033-1">mein letzter Brief</rs> auf Sie einen so betrübten Eindruck 
+               gemacht hätte, und daß Sie gar auf den - entsetzlichen Gedanken gekommen wären, als ob meine Freundschaft und 
+               Achtung für Sie auch nur im Allermindsten Grade geringer geworden sey. Laßen Sie mich darüber einige Augenblicke 
+               mit Ihnen schwatzen. Denn mich <emph rend="underlined">vertheidigen</emph> - des Worts bediene ich mich nicht gegen 
+               Sie.
+            </p>
+            <p>
+               Ich sinne hin und her und kan doch wirklich mich nicht besinnen, in welcher Stelle 
+               <rs type="citation" ref="#c0033-1">meines letzten Briefs</rs> ein Grund gelegen hätte, der Sie auf jenen mir so 
+               schmerzlichen Irrthum hätte führen können. Was aber auch im <rs type="citation" ref="#c0033-1">Briefe</rs> 
+               stehen mag, so schwöre ich Ihnen bey allem, was mir werth und theuer ist - und deßen ist denn doch Manches in der 
+               Welt - daß in meinem Herzen noch eben daßelbige steht, was Sie in <rs type="place" ref="#plKo">Koenigsberg</rs> 
+               darin lasen.
+            </p>
+            <p>
+               Weil Sie nicht glücklich sind ? weil das Schicksal Ihnen zum sauren Kampf machte, was andern Rosen-Spatziergang 
+               ward ? weil Sie fühlen, daß es Ihnen Mühe kostet, sich gegen Ihre Lage zu streuben ? Darum sollte ich Sie weniger 
+               ehren, lieben, preisen ? Darum sollte ich es weniger lebendig erkennen, wie gut, wie 
+               <emph rend="underlined">gut</emph> Sie sind ? O ! wenn mich auch meine Philosophie einen so groben Fehler machen 
+               ließe, was würde mein Herz sagen ?
+            </p>
+            <p>
+               Darüber beruhigen Sie Sich also gänzlich. Denn ich bin stolz genung zu glauben, daß das im Stande wäre, Ihnen einige 
+               Unruhe zu machen. Ich bewundre Sie: ich bewundre Ihr ganzes Verhalten, ich bewundre Ihre Seele, die so viele Stöße 
+               aushielt, und aus hält; ich preise mich glücklich davon Zeuge gewesen zu seyn. Bekanntschaft mit der 
+               <rs type="person" ref="#Gra">Regierungsräthinn Graun</rs>; das ist ein Titel der ganz forn an steht, in dem 
+               Buche, worin ich die Wohlthaten des Himmels <add place="above">die</add> über mich ausgegoßen wurden, aufzeichne.
+            </p>
+            <p>
+               Und daß Sie das nicht auch in <rs type="citation" ref="#c0033-1">meinem letzten Briefe</rs> gefunden haben 
+               sollten, das begreife ich nicht, ich dächte, es stünde auf allen Blättern.
+            </p>
+            <p>
+               Was ich für eine abgeschmackte Rolle spiele, in meinen eignen Augen, wenn ich hier in Gesellschaften nach Ihnen 
+               gefragt werde. Und das geschieht denn doch, so oft von <rs type="person" ref="#RRGra">Ihrem Manne</rs> die Rede 
+               ist. <quote>Es soll eine charmante Frau seyn ?</quote> - <pb/> 
+               <emph rend="underlined">"Soll" ? - "charmante"? - Neulich fragte mich Jemand, wie mir Ossian gefiele.</emph> - 
+               Das fällt mir denn allemahl ein.
+            </p>
+         </div>
+         <div n="2" corresp="#vege">
+            <p>
+               Was denken Sie zu der Geschichte von <rs type="person" ref="#BRRGra">Ihres Manns Bruder</rs> ? Denn vermuthlich 
+               wißen Sie doch was davon ? - Was ich davon denke, will ich Ihnen wol sagen: Ich danke Gott, daß Sie aller 
+               Wahrscheinlichkeit nach nie mit <rs type="person" ref="#Hgr">Ihrer Frau Schwiegermutter</rs> zusammen leben 
+               werden. Was ist das für eine Frau ! Wie unähnlich, wie schrecklich unähnlich <emph rend="underlined">Ihnen</emph>; 
+               aber - Sie werden den Strich wol verstehen. Eine so kalte, so trockne, so fürchterlich gefühllose Seele können Sie 
+               Sich nicht denken. <rs type="person" ref="#BRRGra">Ihr Schwager</rs> ist ein schwachsinniger Mann, aber 
+               <rs type="person" ref="#Hgr">seine Mutter</rs> stürzt ihn völlig ins Verderben. Seine projektirte Heyrath war 
+               eine alberne, tolle Grille; aber die Begegnungen, die ihn <emph rend="underlined">dazu</emph> verleitet haben, und 
+               die Mittel, die ihn <emph rend="underlined">davon</emph> abhalten sollten, waren aeußerst unmütterlich - Ich habe 
+               die Ehre sehr bey <rs type="person" ref="#Hgr">Ihrer Schwiegermutter</rs> in Gnade zu seyn: es war natürlich, 
+               daß ich ihr von Anfange an, mit ausgesuchter Höflichkeit begegnete: eine weibliche Person, die Ihren Namen führt ! 
+               Schon das war Empfehlung für sie ! Daher hat sie mir denn auch jetzt die ganze Geschichte 
+               <rs type="person" ref="#BRRGra">ihres Sohnes</rs> anvertraut; aber mit einer Gleichgültigkeit mit einem Ton, 
+               als wenn sie von einem ganz fremden Menschen spräche. Wäre nicht der 
+               <rs type="person" ref="#CHG">liebenswürdige, göttliche Capellmeister Graun</rs> ihr Mann gewesen, so möchte ich 
+               beynahe aus-rufen: "<rs type="person" ref="#Hgr">O Hannchen Fischer</rs> ! Sanftes, süßes Mädchen, unter was für 
+               harte Felsen bist du gerathen !"
+            </p>
+            <p>
+               Nein ! das Haus, das sollen Sie einst bewohnen, aber <rs type="person" ref="#Hgr">die jetzige Eigenthümerinn</rs> 
+               muß nicht mehr drin seyn. Dann, liebe Graunin, dann wollen wir anfangen, wo wir aufgehört haben; und so wie man uns 
+               ehmals ein Klee-Blatt nannte, <del rend="stroked">so</del> Sie, <rs type="person" ref="#coe">Coelestine</rs> und 
+               mich, so wollen wir künftig ein wahres Klee-Blatt herzlicher und ewiger Freundschaft bilden. Und dann wollen wir 
+               hübsch im Sommer auf dem Lande wohnen, und alles genießen, was das Leben glücklich macht. Ach ! Das Herz schlägt mir 
+               bey der frohen Aussicht.    
+            </p>
+         </div>
+         <div n="3" corresp="#klno">
+            <p>
+               Von <rs type="person" ref="#lno">leNoble</rs> habe ich <date when-iso="1786-01-17">heute</date> 
+               <rs type="citation" ref="#c0033-2">einen kurzen, und schwermüthigen Brief</rs> erhalten; er klagt am Ende über 
+               <rs type="person" ref="#Men">Mendelssohns</rs> <ref target="#r0033-1">Tod</ref>; das ist ein tiefer, tiefer 
+               Verlust, liebe Graunin, der Tod dieses Manns ! Ein großer, und ein schöner Geist ! <pb/> Unsterblichkeit lehrend, 
+               wie <rs type="person" ref="#Sok">Sokrates</rs>, und unsterblich, wie er. 
+               <rs type="citation" ref="#e0033-1">Das dritte Gespräch seines Phaedons</rs> ist ein hohes Meisterstück 
+               philosophischer Schreib-Art, und glücklicher Gedanken.
+            </p>
+            <p>
+               Lesen Sie denn noch im <rs type="citation" ref="#e0033-2">Klopstock</rs> ? Ich merke, daß 
+               <rs type="person" ref="#lno">leNoble</rs> viel mit <rs type="person" ref="#Klo">ihm</rs> umgeht. Er sagt von 
+               <rs type="person" ref="#Men">Mendelssohn</rs> 
+               <quote corresp="#lno">Ehre sey auch ihm von uns an Gräbern hier.</quote> Er wünscht mir, 
+               <quote corresp="#lno">mit Blumen bestreut das Grab, das auf uns alle harrt</quote>. O ! ich dachte an den Abend, da 
+               ich Ihnen die göttliche, göttliche Stelle vorsagte. Aus 
+               <rs type="citation" ref="#e0033-2">der Ode: <emph rend="underlined">die Gestirne</emph></rs>.
+            </p>
+            <cit>
+               <quote corresp="#e0033-2">
+                  <lg>
+                     <l>Dort schuf sie der Herr; hier dem Staube näher den Mond,</l>
+                     <l>Der, Genoß schweigender kühlender Nacht</l>
+                     <l>Die <emph rend="underlined">Erdulder des Strahls</emph> heitert - - -</l>
+                     <l>Erde, du Grab, das auf uns alle wartet,</l>
+                     <l>Gott hat mit Blumen dich bestreut !</l>
+                  </lg>
+               </quote>
+            </cit>
+            <p>
+               Ich möchte wol wißen, wie <rs type="person" ref="#lno">le Noble</rs> eigentlich zu Muthe seyn mag; er hat mir 
+               <rs type="citation" ref="#c0033-3">einen langen Brief</rs> höchstens <date when-iso="1786-01-31">in 14 Tagen</date> 
+               versprochen, den ich mit Ungeduld erwarte.
+            </p>
+         </div>
+         <div n="4" corresp="#bezkg">
+            <p>
+               Was haben Sie denn zu meinem <ref target="#r0033-2">verunglückten Reise-Projekt</ref> gesagt ? O ! liebe Graunin, 
+               es muß Ihnen durchaus etwas leid gethan haben; wahrhaftig, es gehört mit unter meine Trost-Gründe bey dieser 
+               fehlgeschlagnen Hoffnung, mir vorzustellen daß es Ihnen <emph rend="underlined">recht sehr</emph> leid gethan hat. 
+               Schreiben Sie mir doch nächstens Ihre Meynung darüber.
+            </p>
+         </div>
+         <div n="5" corresp="#kcoe">
+            <p>
+               Ich freue mich sehr, daß Sie mit <rs type="person" ref="#coe">meiner Coelestine</rs> in so guter und vertrauter 
+               Freundschaft leben. Was das für ein vortrefliches Mädchen ist ! Wie sie mich durch ihre Briefe tröstet und 
+               aufheitert ! Wie sie jetzt meine Hoffnungen froh macht, und einst mein Leben glücklich machen wird ! Freut Sie das 
+               nicht ? Hören Sie das nicht recht gern, Wohlthäterinn meines Lebens ? - Denn welch ein beträchtlicher Theil dieser 
+               Glückseeligkeit ist Ihr Werk !
+            </p>
+         </div>
+         <div n="6" corresp="#veg">
+            <p>
+               Ich erwarte einen langen Brief von Ihnen, und bald. Laßen Sie mich nicht lange vergeblich darauf warten. Denn ich 
+               sehe Ihren Briefen entgegen, wie einem abwesenden Freunde, dem man Meilenweit entgegen reisen möchte, wenn er uns 
+               einmal besucht. Bleiben Sie mir gut, und, um des Himmels willen, setzen Sie den Gedanken, daß meine Freundschaft 
+               nur um einen Grad abnehmen könnte, sooft er Ihnen einfällt, ins Reich der Unmöglichkeiten.
+            </p>
+         </div>
+         <closer>
+            <dateline rend="left"><rs type="place" ref="#plBe">Berlin</rs> den <date when-iso="1786-01-17">17<span rend="sup">ten</span> Januar. 1786.</date></dateline>
+            <signed rend="right">Gentze.</signed>
+         </closer>
+         <postscript corresp="#vege">
+            <p>
+               Grüßen Sie alle Ihre Geschwister <rs type="person" ref="#lno">le Noble</rs>, 
+               <add place="above"><rs type="person" ref="#RHa">Ihre Mutter</rs></add>, 
+               Dengels, und - <ref target="#r0033-3"><emph rend="underlined">Ihr Bild</emph>. (Verstehn Sie mich ?)</ref>
+            </p>
+         </postscript>
+         <note resp="#edAG" xml:id="r0033-1">Der Tod Moses Mendelssohns trat am 4. Januar 1786 ein.</note>
+         <note resp="#edAG" xml:id="r0033-2">Vgl. <rs type="citation" ref="#c0033-1">den Brief vom 31. Dezember 1785</rs>.</note>
+         <note resp="#edAG" xml:id="r0033-3">Vgl. <rs type="citation" ref="#c0033-4">den Brief vom Dezember 1785</rs>.</note>
+      </body>
+   </text>
+</TEI>

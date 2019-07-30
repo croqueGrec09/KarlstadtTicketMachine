@@ -1,0 +1,358 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc xml:id="LETTER_GENTZ_3155">
+         <titleStmt>
+            <title>Friedrich von Gentz an François d'Ivernois, 7. März 1800</title>
+            <editor xml:id="edAG">Andreas Gálffy</editor>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <name>Forschungsstelle "Universitätssammlung Friedrich von Gentz"</name>
+               <link target="http://gentz-digital.ub.uni-koeln.de http://www.ub.uni-koeln.de/cdm/singleitem/collection/gentz/id/3154/"/>
+            </publisher>
+            <pubPlace>Cologne</pubPlace>
+            <idno type="Gentz-Edition-Number" n="3155"/>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <country>Switzerland</country>
+                  <settlement>Genf</settlement>
+                  <institution>Bibliothèque publique et universitaire</institution>
+                  <repository>Département des manuscrits</repository>
+                  <collection>Ms. suppl. 976</collection>
+                  <idno>Bl. 179-180</idno>
+               </msIdentifier>
+               <msContents>
+                  <summary>
+                     Wie schon in einem der vorherigen Briefen angekündigt, nennt Gentz d'Ivernois am Kopfe der mittlerweile 
+                     fertigen Übersetzung des Essays über die Finanzen Großbritanniens. Gentz schickt ein Exemplar an d'Ivernois 
+                     und einige weitere lässt er bei Mr. Garlike hinterlegen. Er entschuldigt sich dafür, die Sendung an Mr. Pitt zu 
+                     adressieren, da Gentz ihn am meisten schätzt und sich keiner Indiskretion schuldig machen will. In diesem Sinne 
+                     hofft Gentz auf eine bessere Korrespondenz mit London sobald die Wege wiederhergestellt sind. Im Postskript 
+                     weist er darauf hin, dass der Hamburger Verlag aus marktwirtschaftlichen Gründen unter den Namen "Londres chez 
+                     Debrette" veröffentlicht.
+                  </summary>
+               </msContents>
+            </msDesc>
+            <listBibl type="preprints">
+               <biblStruct>
+                  <analytic>
+                     <editor>
+                        <persName>
+                           <ref target="http://d-nb.info/gnd/116055812"/>
+                           <forename>Karmin</forename>
+                           <surname>Otto</surname>
+                        </persName>
+                     </editor>
+                     <title>Lettres inédites de Frédéric Gentz à Sir Francis d'Ivernois (1798-1803)</title>
+                  </analytic>
+                  <monogr>
+                     <editor>
+                        <persName>
+                           <ref target="http://d-nb.info/gnd/117369020"/>
+                           <forename>Charles</forename>
+                           <surname>Vellay</surname>
+                        </persName>
+                     </editor>
+                     <title>Revue historique de la Révolution française et de l'Empire</title>
+                     <imprint>
+                        <publisher>Revue historique de la Révolution Française</publisher>
+                        <pubPlace>Paris</pubPlace>
+                        <date>1913</date>
+                     </imprint>
+                     <biblScope unit="volume" n="4">
+                        Tome quatrième
+                     </biblScope>
+                     <biblScope unit="page" from="32" to="33">
+                        Nr. VII, Sonderpublikation
+                     </biblScope>
+                  </monogr>
+               </biblStruct>
+            </listBibl>
+            <listBibl type="letterReferenced">
+               <bibl xml:id="c3155-1" corresp="#LETTER_GENTZ_4501">Friedrich von Gentz an François d'Ivernois, 18. Januar 1800</bibl>
+               <bibl xml:id="c3155-2" corresp="#LETTER_GENTZ_NNNN">nicht bekannter Brief von Friedrich von Gentz an William Pitt</bibl>
+               <bibl xml:id="c3155-3" corresp="#LETTER_GENTZ_3741">Friedrich von Gentz an Robert Banks Jenkinson, 8. März 1800</bibl>
+               <bibl xml:id="c3155-4" corresp="#LETTER_GENTZ_3721">Friedrich von Gentz an Willam Eden, 8. März 1800</bibl>
+               <bibl xml:id="c3155-5" corresp="#LETTER_GENTZ_NNNN">nicht bekannter Brief von George Rose an Friedrich von Gentz</bibl>
+            </listBibl>
+            <listBibl type="alludedWorks">
+               <bibl xml:id="a3155-1" corresp="#LETTER_GENTZ_NNNN">nicht näher benanntes Werk von George Eden</bibl>
+            </listBibl>
+            <listBibl type="defRep">
+               <biblStruct xml:id="p3155-1" corresp="GBk-0060">
+                  <monogr>
+                     <author>
+                        <persName>
+                           <ref target="http://d-nb.info/gnd/118538489"/>
+                           <forename>Friedrich von</forename>
+                           <surname>Gentz</surname>
+                        </persName>
+                     </author>
+                     <title>Essai sur l'etat actuel de l'administration des finances et de la richesse nationale de la Grande Bretagne</title>
+                     <imprint>
+                        <pubPlace>London</pubPlace>
+                        <publisher>J. Debrett</publisher>
+                        <date>1800</date>
+                     </imprint>
+                  </monogr>
+                  <ptr target="https://books.google.de/books?id=R_bXZfXXWVoC"/>
+               </biblStruct>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Masterarbeit zu Matrikelnummer 5584124</p>
+         </projectDesc>
+      </encodingDesc>
+      <profileDesc>
+         <creation>
+            <date when-iso="1800-03-07">7. März 1800</date>
+         </creation>
+        <langUsage>
+           <language ident="f">französisch</language>
+        </langUsage>
+         <textClass>
+            <keywords scheme="internal"><!-- internal: innerhalb des besagten Briefs -->
+               <term>Brief</term>
+               <term>d'Ivernois</term>
+               <term>Revolution</term>
+               <term>Finanzen</term>
+               <term>Übersetzungen</term>
+            </keywords>
+            <keywords scheme="categorisation"><!-- Sinnabschnittseinteilung - relevant für den Fahrkartenautomaten! -->
+               <term xml:id="efgb">Essay über die Finanzen Großbritanniens</term>
+            </keywords>
+         </textClass>
+         <textDesc>
+            <channel>manuscript</channel>
+            <constitution type="single"/>
+            <derivation type="original"/>
+            <domain type="private"/>
+            <factuality type="fact"/>
+            <interaction type="partial"/>
+            <preparedness type="prepared"/>
+            <purpose type="inform"/>
+         </textDesc>
+         <particDesc>
+            <listPerson>
+               <!-- Sender und Adressat -->
+               <person role="sender" xml:id="Gen">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/118538489"/>
+                     <forename>Friedrich von</forename>
+                     <surname>Gentz</surname>
+                  </persName>
+               </person>
+               <person role="receiver" xml:id="FdI">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/100297676"/>
+                     <forename>Francis d'</forename>
+                     <surname>Ivernois</surname>
+                  </persName>
+               </person>
+               <!-- erwähnte Personen -->
+               <person role="named" xml:id="Glk">
+                  <persName>
+                     <ref />
+                     <forename/>
+                     <surname>Garlike</surname>
+                  </persName>
+               </person>
+               <person role="named" xml:id="JWB">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/135854105"/>
+                     <forename>Joseph Wilhelm</forename>
+                     <surname>Balan</surname>
+                  </persName>
+               </person>
+               <person role="named" xml:id="Pitt">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/118792393"/>
+                     <forename>William</forename>
+                     <surname>Pitt</surname>
+                  </persName>
+               </person>
+               <person role="named" xml:id="WEd">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/137586418"/>
+                     <forename>William Eden</forename>
+                     <surname>Auckland</surname>
+                  </persName>
+               </person>
+               <person role="named" xml:id="WWG">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/119098903"/>
+                     <forename>William Wyndham</forename>
+                     <surname>Grenville</surname>
+                  </persName>
+               </person>
+               <person role="named" xml:id="Je">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/133739791"/>
+                     <forename>Robert Banks</forename>
+                     <surname>Jenkinson</surname>
+                  </persName>
+               </person>
+               <person role="named" xml:id="GeRo">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/105559860X"/>
+                     <forename>George</forename>
+                     <surname>Rose</surname>
+                  </persName>
+               </person>
+               <person role="named" xml:id="KGeIV">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/118690450"/>
+                     <forename>Georg IV.</forename>
+                     <surname/>
+                     <roleName type="office">König von England</roleName>
+                  </persName>
+               </person>
+               <person role="named" xml:id="KGeIII">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/118716913"/>
+                     <forename>Georg III.</forename>
+                     <surname/>
+                     <roleName type="office">König von England</roleName>
+                  </persName>
+               </person>
+               <person role="named" xml:id="Dbrt">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/1037510097"/>
+                     <forename>John</forename>
+                     <surname>Debrett</surname>
+                  </persName>
+               </person>
+               <person role="named" xml:id="FCP">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/118790471"/>
+                     <forename>Friedrich Christoph</forename>
+                     <surname>Perthes</surname>
+                  </persName>
+               </person>
+            </listPerson>
+         </particDesc>
+         <settingDesc>
+            <listPlace>
+               <!-- Start- und Zielort -->
+               <place type="sender" xml:id="plBe">
+                  <country>
+                     <ref target="http://d-nb.info/gnd/4047194-9"/>
+                     <placeName>Preußen</placeName>
+                  </country>
+                  <settlement>
+                     <ref target="http://d-nb.info/gnd/4005728-8"/>
+                     <placeName>Berlin</placeName>
+                  </settlement>
+               </place>
+               <place type="receiver" xml:id="plLo">
+                  <country>
+                     <ref target="http://d-nb.info/gnd/4022153-2"/>
+                     <placeName>Vereinigtes Königreich</placeName>                
+                  </country>
+                  <settlement>
+                     <ref target="http://d-nb.info/gnd/4074335-4"/>
+                     <placeName>London</placeName>
+                  </settlement>
+               </place>
+               <!-- erwähnte Orte -->
+               <place type="named" xml:id="plEn">
+                  <country>
+                     <ref target="http://d-nb.info/gnd/4022153-2"/>
+                     <placeName>England</placeName>                
+                  </country>
+               </place>
+               <place type="named" xml:id="plHa">
+                  <country>
+                     <ref target="http://d-nb.info/gnd/4023118-5"/>
+                     <placeName>Hamburg</placeName>
+                  </country>
+                  <settlement>
+                     <ref target="http://d-nb.info/gnd/4023118-5"/>
+                     <placeName>Hamburg</placeName>
+                  </settlement>
+               </place>
+            </listPlace>
+         </settingDesc>
+      </profileDesc>
+      <revisionDesc>
+         <change xml:id="init" when-iso="2018-03-05" who="#edAG">Erstauszeichnung und Normierung des Dokumentes im Rahmen der Masterarbeit der Matrikelnummer 5584124</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <opener>
+            <dateline rend="right"><rs type="place" ref="#plBe"><emph rend="underlined">Berlin</emph></rs> ce <date when-iso="1800-03-07">7 Mars 1800</date></dateline>
+            <salute rend="left">Monsieur !</salute>
+         </opener>
+         <div n="1" corresp="#efgb">
+            <p>
+               Voici la traduction dont je vous ai entretenu dans une de 
+               <rs type="citation" ref="#c3155-1">mes dernières lettres</rs>. Comme Vous ne m'aviez pas refusé directement 
+               l'honneur de la faire paroitre sous vos auspices, j'ai pris la liberté de mettre votre nom à la tête de 
+               <rs type="citation" ref="#p3155-1">cet essai</rs>. Je vous le présente avec toute la timidité qui convient au 
+               sentiment profond que m'inspire le contraste entre la grandeur de l'objet et la foiblesse de mes moyens: mais enfin 
+               vous le jugerez avec l'indulgence de l'amitié, et vous accorderez à la bonne intention le suffrage, que vous 
+               n'acoorderiez pas au mérite de l'exécution.
+            </p>
+            <p>
+               Je ne saurois vous en dire d'avantage aujourd'hui parce que je n'ai qu'un moment pour profiter de la bonté de 
+               <rs type="person" ref="#Glk">Monsieur Garlike</rs> qui s'est chargé de vous faire parvenir cette lettre par une 
+               occasion extraordinaire. Par la même raison je ne puis vous envoyer qu'un seul exemplaire, me reservant de vous faire 
+               passer paz une autre voie ceux que j'avois encore destiné, tant à votre disposition, que pour 
+               <rs type="person" ref="#JWB">Monsieur Balan</rs> et quelques autres personnes, qui m'ont fait l'honneur de 
+               s'intéresser pour moi.
+            </p>
+            <p>
+               Mais ce que je ne puis différer plus lomgtems, <pb/> <del rend="stroked">m'est</del> ce que m'impose mon respect 
+               profond pour un des hommes le plus grands, les plus respectables de notre tems, c'est l'objet d'une prière que je 
+               vous <del rend="stroked">adressant</del> fais en ce moment, et que <del rend="stroked">le xxx</del> l'adresse du 
+               paquet ci-joint vous expliquera suffisamment. Je sais qu'il étoit impossible de me savoir d'un meilleur interprète de 
+               mes sentimens pour <rs type="person" ref="#Pitt">Monsieur Pitt</rs>, qu'en confiant à votre amitié le soin de lui 
+               présenter <rs type="citation" ref="#p3155-1">mon ouvrage</rs> et <rs type="citation" ref="#c3155-2">la lettre</rs> qui 
+               <del rend="stroked">xxx</del> l'accompagne; et j'espêre qu'en faveur de cette confiance vous me pardonnerez 
+               l'indiscrétion, dont je me rends coupable.
+            </p>
+            <p>
+               J'ai remis à <rs type="person" ref="#Glk">Monsieur Garlike</rs> 
+               <ref target="#r3155-1">quelques autres exemplaires</ref> pour <rs type="person" ref="#WEd">Lord Aukland</rs>, 
+               <rs type="person" ref="#Je">Lord Liverpool</rs>, <rs type="person" ref="#WWG">Lord Grenville</rs>, et 
+               <rs type="person" ref="#GeRo">Monsieur Rose</rs>, qui a eu la bonté de m'envoyer la nouvelle édition de son 
+               <rs type="citation" ref="#a3155-1">excellent écrit</rs> avec 
+               <rs type="citation" ref="#c3155-5">une lettre infiniment flatteuse</rs> pour moi. 
+               <rs type="person" ref="#KGeIV">Le prince Auguste d'Angleterre</rs>, qui, comme vous savez, habite 
+               <rs type="place" ref="#plBe">Berlin</rs> depuis quelque tems, et qui me comble de bontés de toute espèce, s'est 
+               chargé de faire parvenir ma brochure <rs type="person" ref="#KGeIII">au roi son père</rs>.
+            </p>
+            <p>
+               J'espere que lorsque la communication entre <rs type="place" ref="#plEn">l'angleterre</rs> et le continent sera 
+               entièrement rétablie, notre correspondance reprendra une plus grande activité, et je jouis d'avance de ce <pb/> 
+               bonheur. Agréez les sentimens de la considération aussi sincère que distinguée avec la quelle j'ai l'honneur d'être
+            </p>
+         </div>
+         <closer>
+            <salute rend="right">Votre très-humble et</salute>
+            <salute rend="right">très-obéissant serviteur</salute>
+            <signed rend="right">Gentz.</signed>
+         </closer>
+         <postscript corresp="#efgb">
+            <p>
+               P.S. Vous serez peut-être frappé de trouver les mots: 
+               <emph rend="underlined"><rs type="place" ref="#plLo">Londres</rs> chez <rs type="person" ref="#Dbrt">Debrett</rs></emph> 
+               à la face de <rs type="citation" ref="#p3155-1">cet ouvrage</rs>. C'est que 
+               <rs type="person" ref="#FCP">le libraire</rs> de <rs type="place" ref="#plHa">Hamburg</rs> qui l'a publié, s'est 
+               associé avec le libraire anglois et a cru nécessaire de se servir de cette inscription par des motifs mercantiles 
+               dans lesquels je n'entre pour rien.
+            </p>
+         </postscript>
+      </body>
+      <note resp="#edAG" xml:id="r3155-1">Vgl. entsprechende Briefe an <rs type="citation" ref="#c3155-4">William Eden, 8. März 1800</rs> und an <rs type="citation" ref="#c3155-3">Robert Banks Jenkinson, 8. März 1800</rs></note>
+   </text>
+</TEI>

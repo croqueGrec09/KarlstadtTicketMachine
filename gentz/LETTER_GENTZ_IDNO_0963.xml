@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc xml:id="LETTER_GENTZ_0963">
+         <titleStmt>
+            <title>Friedrich von Gentz an Bernhard von Pelser, 2. November 1802</title>
+            <editor xml:id="edAG">Andreas Gálffy</editor>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <name>Forschungsstelle "Universitätssammlung Friedrich von Gentz"</name>
+               <link target="http://gentz-digital.ub.uni-koeln.de http://www.ub.uni-koeln.de/cdm/singleitem/collection/gentz/id/962/"/>
+            </publisher>
+            <pubPlace>Cologne</pubPlace>
+            <idno type="Gentz-Edition-Number" n="0963"/>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <country>Austria</country>
+                  <settlement>Vienna</settlement>
+                  <institution>Wiener Stadt- und Landesbibliothek</institution>
+                  <repository>Handschriftensammlung</repository>
+                  <idno>6576</idno>
+               </msIdentifier>
+               <msContents>
+                  <summary>
+                     Die Ankunft in London hat am Vorabend stattgefunden; Gentz und Elliot sind wohlbehalten angekommen. Gentz will 
+                     von Pelser unter allen Umständen unverzüglich sehen und gibt mit dem Brief auch seine derzeitige Anschrift 
+                     durch.
+                  </summary>
+               </msContents>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Masterarbeit zu Matrikelnummer 5584124</p>
+         </projectDesc>
+      </encodingDesc>
+      <profileDesc>
+         <creation>
+            <date when-iso="1802-11-02">2. November 1802</date>
+         </creation>
+        <langUsage>
+           <language ident="f">französisch</language>
+        </langUsage>
+         <textClass>
+            <keywords scheme="internal"><!-- internal: innerhalb des besagten Briefs -->
+               <term>Brief</term>
+               <term>Reise</term>
+               <term>London</term>
+               <term>Ankunft</term>
+            </keywords>
+            <keywords scheme="categorisation"><!-- Sinnabschnittseinteilung - relevant für den Fahrkartenautomaten! -->
+               <term xml:id="vbvp">Verhältnis Bernard von Pelser</term>
+            </keywords>
+         </textClass>
+         <textDesc>
+            <channel>manuscript</channel>
+            <constitution type="single"/>
+            <derivation type="original"/>
+            <domain type="private"/>
+            <factuality type="fact"/>
+            <interaction type="partial"/>
+            <preparedness type="prepared"/>
+            <purpose type="inform"/>
+         </textDesc>
+         <particDesc>
+            <listPerson>
+               <!-- Sender und Adressat -->
+               <person role="sender" xml:id="Gen">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/118538489"/>
+                     <forename>Friedrich von</forename>
+                     <surname>Gentz</surname>
+                  </persName>
+               </person>
+               <person role="receiver" xml:id="BvPl">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/1024855864"/>
+                     <forename>Bernhard von</forename>
+                     <surname>Pelser</surname>
+                  </persName>
+               </person>
+               <!-- erwähnte Personen -->
+               <person role="named" xml:id="HEl">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/1075473756"/>
+                     <forename>Hugh</forename>
+                     <surname>Elliot</surname>
+                  </persName>
+               </person>
+            </listPerson>
+         </particDesc>
+         <settingDesc>
+            <listPlace>
+               <!-- Start- und Zielort -->
+               <place type="sender" xml:id="plLo">
+                  <country>
+                     <ref target="http://d-nb.info/gnd/4022153-2"/>
+                     <placeName>Vereinigtes Königreich</placeName>                
+                  </country>
+                  <settlement>
+                     <ref target="http://d-nb.info/gnd/4074335-4"/>
+                     <placeName>London</placeName>
+                  </settlement>
+               </place>
+               <!-- erwähnte Orte -->
+               <place type="named" xml:id="plDd">
+                  <country>
+                     <ref target="http://d-nb.info/gnd/4051176-5"/>
+                     <placeName>Sachsen</placeName> 
+                  </country>
+                  <settlement>
+                     <ref target="http://d-nb.info/gnd/4012995-0"/>
+                     <placeName>Dresden</placeName>
+                  </settlement>
+               </place>
+            </listPlace>
+         </settingDesc>
+      </profileDesc>
+      <revisionDesc>
+         <change xml:id="init" when-iso="2018-03-11" who="#edAG">Erstauszeichnung und Normierung des Dokumentes im Rahmen der Masterarbeit der Matrikelnummer 5584124</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div n="1" corresp="#vbvp">
+            <p>
+               Arrivé <date when-iso="1802-11-01">hier au soir</date> à <rs type="place" ref="#plLo">Londres</rs>, je n'ai rien de 
+               plus pressé ni rien de plus agréable à faire, Monsieur, que de Vous en avertir, de Vous remettre les lettres qu'on 
+               m'a données pour Vous à <rs type="place" ref="#plDd">Dresde</rs>, et de Vous demander la permission de venir Vous 
+               voir incessamment. Nous ne nous sommes rencontrés qu'une seule fois; encore cette entrevue-là étoit-elle trop courte 
+               et trop-passagère; mais je sais que nous nous connoissons et que nous nous entendons depuis longtems. - Si Vous 
+               <del rend="stroked">avez</del> aviez reçu quelque lettre pour moi, je Vous prierois de me l'envoyer par le porteur. - 
+               Soyez persuadé, que j'attends avec impatience le moment, où je pourrai Vous présenter l'hommage des sentimens 
+               distingués, que tous ceux qui m'ont parlé de Vous, m'ont inspirés, et que je serai enchanté de cultiver et de 
+               fortifier dans les momens que Vous pourrez me donner pendant mon séjour à <rs type="place" ref="#plLo">Londres</rs>.
+            </p>
+            <p>
+               Lower Brookstreet. Nro 43.
+               Hotel de Grillon
+            </p>
+         </div>
+         <closer>
+            <signed rend="right">Gentz.</signed>
+            <dateline rend="right">Ce <date when-iso="1802-11-02">2 Novembre. 1802</date>.</dateline>
+         </closer>
+      </body>
+   </text>
+</TEI>

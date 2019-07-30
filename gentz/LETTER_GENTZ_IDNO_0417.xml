@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc xml:id="LETTER_GENTZ_0417">
+         <titleStmt>
+            <title>Friedrich von Gentz an Friedrich Vieweg, 8. September 1799</title>
+            <editor xml:id="edAG">Andreas Gálffy</editor>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <name>Forschungsstelle "Universitätssammlung Friedrich von Gentz"</name>
+               <link target="http://gentz-digital.ub.uni-koeln.de http://www.ub.uni-koeln.de/cdm/singleitem/collection/gentz/id/416/"/>
+            </publisher>
+            <pubPlace>Cologne</pubPlace>
+            <idno type="Gentz-Edition-Number" n="0417"/>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <country>Germany</country>
+                  <settlement>Wolfenbüttel</settlement>
+                  <institution>Herzog-August-Bibliothek</institution>
+                  <repository>Sammlung Mengen</repository>
+                  <collection>Bd. II - VI</collection>
+                  <idno>Nr. 258</idno>
+               </msIdentifier>
+               <msContents>
+                  <summary>
+                     Das Manuskript, das Gentz schickt, ist ein Anfang eines Werkes, das fortgesetzt werden soll, wenn Vieweg damit 
+                     zufrieden ist. Die Geschichte des Krieges der Fronde wird nicht im Kalender behandelt. Das jetzige Thema ist 
+                     improvisiert und knapper behandelt, als die derzeitige Lieferung.
+                  </summary>
+               </msContents>
+            </msDesc>
+            <listBibl type="defRep">
+               <biblStruct xml:id="p0417-1" corresp="#LETTER_GENTZ_NNNN">
+                  <monogr>
+                     <author>
+                        <persName>
+                           <ref target="http://d-nb.info/gnd/118538489"/>
+                           <forename>Friedrich von</forename>
+                           <surname>Gentz</surname>
+                        </persName>
+                     </author>
+                     <title>Taschenbuch für 1799. Maria Stuart von Friedrich Gentz. Die Rache von August Lafontaine.</title>
+                     <imprint>
+                        <pubPlace>Berlin</pubPlace>
+                        <publisher>Friedrich Vieweg der Ältere</publisher>
+                        <date>1798</date>
+                     </imprint>
+                  </monogr>
+                  <ptr target="#LETTER_GENTZ_NNNN"/>
+               </biblStruct>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Masterarbeit zu Matrikelnummer 5584124</p>
+         </projectDesc>
+      </encodingDesc>
+      <profileDesc>
+         <creation>
+            <date when-iso="1799-09-08">8. September 1799</date>
+         </creation>
+        <langUsage>
+           <language ident="d">deutsch</language>
+        </langUsage>
+         <textClass>
+            <keywords scheme="internal"><!-- internal: innerhalb des besagten Briefs -->
+               <term>Billet</term>
+               <term>Manuskript</term>
+               <term>Kalender</term>
+            </keywords>
+            <keywords scheme="categorisation"><!-- Sinnabschnittseinteilung - relevant für den Fahrkartenautomaten! -->
+               <term xml:id="vwkms">Vieweg - Kalender / Maria Stuart</term>
+            </keywords>
+         </textClass>
+         <textDesc>
+            <channel>manuscript</channel>
+            <constitution type="single"/>
+            <derivation type="original"/>
+            <domain type="private"/>
+            <factuality type="fact"/>
+            <interaction type="partial"/>
+            <preparedness type="unprepared"/>
+            <purpose type="inform"/>
+         </textDesc>
+         <particDesc>
+            <listPerson>
+               <!-- Sender und Adressat -->
+               <person role="sender" xml:id="Gen">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/118538489"/>
+                     <forename>Friedrich von</forename>
+                     <surname>Gentz</surname>
+                  </persName>
+               </person>
+               <person role="receiver" xml:id="FVW">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/119049546"/>
+                     <forename>Friedrich</forename>
+                     <surname>Vieweg</surname>
+                  </persName>
+               </person>
+               <!-- erwähnte Personen -->
+            </listPerson>
+         </particDesc>
+         <settingDesc>
+            <listPlace>
+               <!-- Start- und Zielort -->
+               <place type="sender" xml:id="plBe">
+                  <country>
+                     <ref target="http://d-nb.info/gnd/4047194-9"/>
+                     <placeName>Preußen</placeName>
+                  </country>
+                  <settlement>
+                     <ref target="http://d-nb.info/gnd/4005728-8"/>
+                     <placeName>Berlin</placeName>
+                  </settlement>
+               </place>
+               <!-- erwähnte Orte -->
+            </listPlace>
+         </settingDesc>
+      </profileDesc>
+      <revisionDesc>
+         <change xml:id="init" when-iso="2018-03-04" who="#edAG">Erstauszeichnung und Normierung des Dokumentes im Rahmen der Masterarbeit der Matrikelnummer 5584124</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div n="1" corresp="#vwkms">
+            <p>
+               Sie erhalten hier, mein hochgeschätzter Freund, den Anfang eines Manuskripts, dessen Fortsetzung unverzüglich folgen 
+               soll, wenn Sie mit dem Gegenstande zufrieden sind. Sie kennen meine unglückliche Manier, zu arbeiten, und die 
+               übertriebnen Forderungen, die ich an mich selbst mache. Die Hälfte der 
+               <emph rend="underlined">Geschichte des Krieges der Fronde</emph> war fertig, als ich gewahr wurde, daß ich dieses 
+               Werk <emph rend="underlined">für den <rs type="citation" ref="#p0417-1">Kalender</rs></emph> nicht vollenden konnte. 
+               Der Plan war mir zu weitläuftig geworden, der unmittelbare Zweck war verfehlt und so fort. Verloren soll auch diese 
+               Arbeit nicht seyn: in einer oder der andern Gestalt erhalten Sie sie dereinst gewiß.
+            </p>
+            <p>
+               In der größten Noth und Verlegenheit stieß ich endlich auf das jetzige Thema; ich bin mit der Arbeit gröstentheils 
+               fertig; aber die letzte Vollendung kostet mir allemal viel, und ich gebe Ihnen hier das, was ich mich entschließen 
+               <emph rend="underlined">muß</emph>, als vollendet anzusehen. Von der Vollkommenheit ist es weit entfernt. Sehen Sie 
+               es als ein Opfer an, das ich der Pflicht und <pb/> der Freundschaft bringe, und seyn Sie fest überzeugt, daß ich es 
+               gern umsonst bearbeitet haben will, wenn Sie noch etwas finden können, welches den Vorzug verdient. Es wird übrigens 
+               nicht vielmehr als <emph rend="underlined">dreimal</emph> <del rend="stroked">so stärker</del> so stark, wie die 
+               gegenwärtige Lieferung werden. Schreiben Sie mir bald Ihre Meinung darüber, und lieben Sie mich stets als
+            </p>
+         </div>
+         <closer>
+            <salute rend="right">Ihren treu-ergebnen Freund</salute>
+            <dateline rend="left"><rs type="place" ref="#plBe">Berlin</rs> den <date when-iso="1799-09-08">8<span rend="sup">ten</span> Septbre: 1799</date>.</dateline>
+            <signed rend="right">Gentz.</signed>
+         </closer>
+      </body>
+   </text>
+</TEI>

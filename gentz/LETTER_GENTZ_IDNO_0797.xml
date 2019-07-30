@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader type="text">
+      <fileDesc xml:id="LETTER_GENTZ_0797">
+         <titleStmt>
+            <title>Friedrich von Gentz an Karl Gustav von Brinckmann, 13. Juni 1793</title>
+            <editor xml:id="edAG">Andreas Gálffy</editor>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <name>Forschungsstelle "Universitätssammlung Friedrich von Gentz"</name>
+               <link target="http://gentz-digital.ub.uni-koeln.de http://www.ub.uni-koeln.de/cdm/singleitem/collection/gentz/id/796/"/>
+            </publisher>
+            <pubPlace>Cologne</pubPlace>
+            <idno type="Gentz-Edition-Number" n="0797"/>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <country>Sweden</country>
+                  <settlement>Trolle-Ljungby</settlement>
+                  <institution>Archiv des Grafen Wachtmeister</institution>
+                  <repository>Nachlaß Brinckmann, Ausländ. Briefwechsel, Gentz an Brinckmann</repository>
+                  <idno>G 3</idno>
+               </msIdentifier>
+               <msContents>
+                  <summary>
+                     Der englische Katalog, den Gentz an Brinckmann schickt, kann den Lakington zwar nicht in der Zahl, aber in der 
+                     Pracht übertreffen. Gentz erbittet sich den ersten Teil des verworfenen Bayle zurück, um dort etwas 
+                     nachzuschlagen.
+                  </summary>
+               </msContents>
+            </msDesc>
+            <listBibl type="alludedWorks">
+               <bibl xml:id="a0797-1" corresp="#LETTER_GENTZ_NNNN">englischer Katalog nicht genannten Namens</bibl>
+               <bibl xml:id="a0797-2" corresp="#LETTER_GENTZ_NNNN">ein Katalog eines gewissen Lakington</bibl>
+            </listBibl>
+            <listBibl type="defRep">
+               <biblStruct xml:id="p0797-1" corresp="GBk-0027">
+                  <monogr>
+                     <author>
+                        <persName>
+                           <ref target="http://d-nb.info/gnd/11850777X"/>
+                           <forename>Pierre</forename>
+                           <surname>Bayle</surname>
+                        </persName>
+                     </author>
+                     <editor resp="translator">
+                        <persName>
+                           <ref target="http://d-nb.info/gnd/118541013"/>
+                           <forename>Johann Christoph</forename>
+                           <surname>Gottsched</surname>
+                        </persName>
+                     </editor>
+                     <title>Historisches und Critisches Wörterbuch</title>
+                     <imprint>
+                        <pubPlace>Leipzig</pubPlace>
+                        <publisher>Bernhard Christoph Breitkopf</publisher>
+                        <date>1741</date>
+                     </imprint>
+                  </monogr>
+               <ptr target="https://books.google.de/books?id=qodaAAAAYAAJ"/></biblStruct>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Masterarbeit zu Matrikelnummer 5584124</p>
+         </projectDesc>
+      </encodingDesc>
+      <profileDesc>
+         <creation>
+            <date when-iso="1793-06-13">13. Juni 1793</date>
+         </creation>
+        <langUsage>
+           <language ident="d">deutsch</language>
+        </langUsage>
+         <textClass>
+            <keywords scheme="internal"><!-- internal: innerhalb des besagten Briefs -->
+               <term>Billet</term>
+               <term>Bayle</term>
+               <term>Lakington</term>
+               <term>englischer Katalog</term>
+            </keywords>
+            <keywords scheme="categorisation"><!-- Sinnabschnittseinteilung - relevant für den Fahrkartenautomaten! -->
+               <term xml:id="ekg">englischer Katalog</term>
+               <term xml:id="kbay">Bayle</term>
+            </keywords>
+         </textClass>
+         <textDesc>
+            <channel>manuscript</channel>
+            <constitution type="single"/>
+            <derivation type="original"/>
+            <domain type="private"/>
+            <factuality type="fact"/>
+            <interaction type="partial"/>
+            <preparedness type="unprepared"/>
+            <purpose type="inform"/>
+         </textDesc>
+         <particDesc>
+            <listPerson>
+               <!-- Sender und Adressat -->
+               <person role="sender" xml:id="Gen">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/118538489"/>
+                     <forename>Friedrich von</forename>
+                     <surname>Gentz</surname>
+                  </persName>
+               </person>
+               <person role="receiver" xml:id="KGvB">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/116519770"/>
+                     <forename>Carl Gustav von</forename>
+                     <surname>Brinckmann</surname>
+                  </persName>
+               </person>
+               <!-- erwähnte Personen -->
+            </listPerson>
+         </particDesc>
+         <settingDesc>
+            <listPlace>
+               <!-- Start- und Zielort -->
+               <place type="sender" xml:id="plBe">
+                  <country>
+                     <ref target="http://d-nb.info/gnd/4047194-9"/>
+                     <placeName>Preußen</placeName>
+                  </country>
+                  <settlement>
+                     <ref target="http://d-nb.info/gnd/4005728-8"/>
+                     <placeName>Berlin</placeName>
+                  </settlement>
+               </place>
+               <!-- erwähnte Orte -->
+            </listPlace>
+         </settingDesc>
+      </profileDesc>
+      <revisionDesc>
+         <change xml:id="init" when-iso="2018-02-13" who="#edAG">Erstauszeichnung und Normierung des Dokumentes im Rahmen der Masterarbeit der Matrikelnummer 5584124</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>     
+      <body>
+         <opener resp="#KGvB">
+            <dateline rend="right"><date when-iso="1793-06-13">13. Jun. 1793</date></dateline>
+         </opener>
+         <div n="1" corresp="#ekg">
+            <p>
+               Ich schicke Ihnen hier einen <rs type="citation" ref="#a0797-1">Englischen Catalog</rs> von der ersten Größe, 
+               welcher den <rs type="citation" ref="#a0797-2">Lakington</rs> zwar nicht in der Zahl, aber desto mehr in der Pracht 
+               übertrift. <date when-iso="1793-06-14">Morgen früh</date> hätte ich ihn aber sehr gern zurück.
+            </p>
+         </div>
+         <div n="2" corresp="#kbay">
+            <p>
+               Thun Sie mir doch den Gefallen, und schicken mir, nur um etwas nachzuschlagen, den ersten Theil des verworfnen 
+               <rs type="citation" ref="#p0797-1"><emph rend="underlined">Bayle</emph></rs> - Ich wette zum voraus, daß ich nichts 
+               darin finden werde
+            </p>
+         </div>
+         <closer>
+            <signed rend="right">Gentz.</signed>
+         </closer>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,273 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc xml:id="LETTER_GENTZ_4005">
+         <titleStmt>
+            <title>Friedrich von Gentz an Georg Joachim Göschen, 26. November 1801</title>
+            <editor xml:id="edAG">Andreas Gálffy</editor>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <name>Forschungsstelle "Universitätssammlung Friedrich von Gentz"</name>
+               <link target="http://gentz-digital.ub.uni-koeln.de http://www.ub.uni-koeln.de/cdm/singleitem/collection/gentz/id/4004/"/>
+            </publisher>
+            <pubPlace>Cologne</pubPlace>
+            <idno type="Gentz-Edition-Number" n="4005"/>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <country>unknown</country>
+                  <idno>not retraced</idno>
+               </msIdentifier>
+               <msContents>
+                  <summary>
+                     Mit einer ausführlichen Beschreibung zur Entstehung legt Gentz die Betrachtungen zum französischen 
+                     Revolutionskrieg vor. Er möchte dabei das Werk um- und zu einer Geschichte der Revolution von ihrem 
+                     Ausbruch bis zur Auflösung der ersten Nationalversammlung ausbauen. Dabei ehrt Gentz Göschen für seinen 
+                     Sinn für das Gute in jeder Art. Gentz verspricht vier starke Bände, die er zur Ostermesse 1803 liefern 
+                     will. Das Honorar überlässt er ganz Göschen, bittet aber um einen Vorschuss, um ein anderes Werk zu 
+                     vollenden. Er möchte sich die Antwort persönlich in Leipzig abholen; den Reisetermin kündigt er schon an.
+                  </summary>
+               </msContents>
+            </msDesc>
+            <listBibl type="preprints">
+               <biblStruct>
+                  <analytic>
+                     <author>
+                        <persName>
+                           <ref target="http://d-nb.info/gnd/130953075"/>
+                           <forename>Friedrich Carl</forename>
+                           <surname>Wittichen</surname>
+                        </persName>
+                     </author>
+                     <title>Friedrich v. Gentz' ungedrucktes Werk über die Geschichte der französischen Nationalversammlung</title>
+                  </analytic>
+                  <monogr>
+                     <editor>
+                        <persName>
+                           <ref /> <!-- kein GND-Eintrag -->
+                           <forename>Ernst</forename>
+                           <surname>Salzer</surname>
+                        </persName>
+                     </editor>
+                     <title>Historische Vierteljahresschrift</title>
+                     <imprint>
+                        <date>1916/18</date>
+                     </imprint>
+                     <biblScope unit="issue" n="1">
+                        XVIII
+                     </biblScope>
+                     <biblScope unit="page" from="302" to="304">
+                        S. 302-304
+                     </biblScope>
+                  </monogr>
+               </biblStruct>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Masterarbeit zu Matrikelnummer 5584124</p>
+         </projectDesc>
+      </encodingDesc>
+      <profileDesc>
+         <creation>
+            <date when-iso="1801-11-26">26. November 1801</date>
+         </creation>
+        <langUsage>
+           <language ident="d">deutsch</language>
+        </langUsage>
+         <textClass>
+            <keywords scheme="internal"><!-- internal: innerhalb des besagten Briefs -->
+               <term>Billet</term>
+               <term>Zeitungen</term>
+            </keywords>
+            <keywords scheme="categorisation"><!-- Sinnabschnittseinteilung - relevant für den Fahrkartenautomaten! -->
+               <term xml:id="gfrv">Geschichte der französischen Revolution von ihrem Ausbruch bis zur Auflösung der Ersten Nationalversammlung</term>
+               <term xml:id="gprl">Gentz - p(r)ekuniäre Lage</term>
+               <term xml:id="vgjg">Verhältnis Georg Joachim Göschen</term>
+            </keywords>
+         </textClass>
+         <textDesc>
+            <channel>manuscript</channel>
+            <constitution type="single"/>
+            <derivation type="original"/>
+            <domain type="private"/>
+            <factuality type="fact"/>
+            <interaction type="partial"/>
+            <preparedness type="prepared"/>
+            <purpose type="inform"/>
+         </textDesc>
+         <particDesc>
+            <listPerson>
+               <!-- Sender und Adressat -->
+               <person role="sender" xml:id="Gen">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/118538489"/>
+                     <forename>Friedrich von</forename>
+                     <surname>Gentz</surname>
+                  </persName>
+               </person>
+               <person role="receiver" xml:id="GJG">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/118695916"/>
+                     <forename>Georg Joachim</forename>
+                     <surname>Göschen</surname>
+                  </persName>
+               </person>
+               <!-- erwähnte Personen -->
+            </listPerson>
+         </particDesc>
+         <settingDesc>
+            <listPlace>
+               <!-- Start- und Zielort -->
+               <place type="sender" xml:id="plWe">
+                  <country>
+                     <ref target="http://d-nb.info/gnd/4051194-7"/>
+                     <placeName>Sachsen-Weimar-Eisenach</placeName>
+                  </country>
+                  <settlement>
+                     <ref target="http://d-nb.info/gnd/4065105-8"/>
+                     <placeName>Weimar</placeName>
+                  </settlement>
+               </place>
+               <place type="receiver" xml:id="plLp">
+                  <country>
+                     <ref target="http://d-nb.info/gnd/4051176-5"/>
+                     <placeName>Sachsen</placeName>
+                  </country>
+                  <settlement>
+                     <ref target="http://d-nb.info/gnd/4035206-7"/>
+                     <placeName>Leipzig</placeName>
+                  </settlement>
+               </place>
+               <!-- erwähnte Orte -->
+            </listPlace>
+         </settingDesc>
+      </profileDesc>
+      <revisionDesc>
+         <change xml:id="init" when-iso="2018-03-09" who="#edAG">Erstauszeichnung und Normierung des Dokumentes im Rahmen der Masterarbeit der Matrikelnummer 5584124</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div n="1" corresp="#gfrv">
+            <p>
+               Ich ging seit mehreren Jahren beständig mit der Idee um, eine Geschichte der Französischen Revoluzion zu 
+               schreiben. Ich habe den Gegenstand studirt, wie wenige; ich habe darüber gesammelt, zusammengestellt, mehr 
+               vielleicht als irgend ein anderer. Ich hatte sogar die Geschichte der ersten Nazional-Versammlung schon vor zwei 
+               Jahren völlig ausgearbeitet; ein Manuskript von mehr als 100 Druckbogen, das eigentlich jeden Augenblick unter 
+               die Presse wandern könnte und längst diesen Weg gegangen wäre, wenn ich nicht immer gefühlt hätte, daß ich noch 
+               ein höheres Ideal in meiner Brust herumtrage.
+            </p>
+            <p>
+               Tausend Skrupel haben sich von Zeit zu Zeit gegen den Plan überhaupt aufgethürmt, und ihn mehr als einmal beinahe 
+               in mir verdrängt. Mein jetziger Aufenthalt in <rs type="place" ref="#plWe">Weimar</rs> hat, mir selbst 
+               unerwartet, diese Skrupel beseitiget. Der tägliche und stündliche Umgang mit großen und interessanten Menschen, 
+               gegen die ich jede Bedenklichkeit aussprechen, mit denen ich jede Seite der Sache erörtern, und an deren Kraft 
+               ich gleichsam meine eigne messen konnte, hat mich auf einmal zum Entschluß gebracht; und ich habe mir selbst und 
+               denen, die ein Interesse an mir und meinen Produkten nahmen, gelobt, daß ich mich sofort binden, und so fest als 
+               möglich binden wollte.
+            </p>
+            <p>
+               Mit diesem Vorsatz wende ich mich an einen Mann, dem seit langer Zeit meine ganz vorzügliche Hochachtung gewidmet 
+               war. Längst gewohnt, Sie als den einzigen deutschen Buchhändler, der wahren Sinn für das Gute in jeder Art und 
+               wahre Delikatesse in der Behandlung der Menschen besitzt, anzusehen, bin ich nun durch persönliche Bekanntschaft 
+               und durch das einstimmige Urtheil Ihrer hiesigen zahlreichen Freunde in dieser Ansicht auf immer befestigt 
+               worden. Ich denke mir mit wahrem Vergnügen den Gedanken, mit Ihnen in Verbindung zu treten, und frage Sie daher, 
+               ob Ihre Neigung einer Seits, und ob die Umstände andrer Seits Ihnen gestatten, den Verlag eines Werkes von der 
+               vorhin beschriebnen Art, unter den Bedingungen, die ich Ihnen jetzt eröfnen werde, zu übernehmen.
+            </p>
+            <p>
+               Ich mache mich fürs erste zu weiter nichts anheischig, als zu einer 
+               <emph rend="underlined">Geschichte der Revoluzion von Ihrem Ausbruch bis zur Auflösung der ersten Nazional-Versammlung</emph>; 
+               diese erste und nach meiner Überzeugung wichtigste Periode der Geschichte zu behandeln, glaube ich mich 
+               einigermaßen berufen und ausgerüstet; sie formirt ein eignes für sich bestehendes Werk; obgleich, wenn ich in der 
+               Folge Muth und Kräfte in mir fühlen sollte, weiter zu gehen, die Geschichte der späteren Perioden mit jener 
+               ersten immer wieder ein Ganzes ausmachen könnte.
+            </p>
+            <p>
+               Dieses Werk existiert eigentlich schon jetzt in seinem ganzen Umfange; ich werde Ihnen bei meiner Zurückkunft das 
+               letzte Heft, und sogar das schon vollendete Register über das Ganze, in natura vorzeigen. Aber es bedarf, um das 
+               zu werden, was es nach meinen jetzigen Ideen seyn soll, einer nochmaligen Umarbeitung; zu dieser kann ich nicht 
+               füglich eher als mit Anfang des künftigen Jahres schreiten; und da ich sie als ein höchst wichtiges Geschäft 
+               betrachten und behandeln muß, so glaube ich nicht, daß ich sie in weniger als Jahres-Frist zu vollenden im Stande 
+               seyn würde. Das Werk wird überhaupt 4 ziemlich starke Bände ausmachen; die beiden ersten würden Sie in der 
+               <date when-iso="1802-09-29">Michaelis-Messe von 1802</date> und die beiden letzten in der 
+               <date when-iso="1803-04-10">Oster-Messe von 1803</date> liefern können.
+            </p>
+         </div>
+         <div n="2" corresp="#gprl">
+            <p>
+               Das Honorar für dieses Werk zu bestimmen, überlasse ich unbedingt und unbeschränkt - Ihnen. Sie wissen Menschen 
+               und Bücher und Verdienste von Menschen und Bücher<del rend="stroked">n</del> hinreichend zu würdigen. Dies in 
+               meinem eignen Falle selbst zu thun - ist mir rein unmöglich; ich prüfe meinen Mann; und alsdann unterwerfe ich 
+               mich blindlings.
+            </p>
+            <p>
+               Es waltet aber bei der ganzen Sache noch eine eigenthümliche Schwierigkeit ob, die mich beinahe allein 
+               zurückgehalten hätte, sie Ihnen vorzutragen. Bei näherer Überlegung sehe ich indessen nicht ab, weshalb ich einen 
+               mir nun schon lieb gewordenen Plan einem leeren Skrupel der Eitelkeit oder der Delikatesse aufopfern sollte. 
+               Verhindert der Umstand, den ich jetzt berühren will, Ihre Theilnahme an meinem Plan, so ist es doch weiter kein 
+               großes Übel für mich, Sie damit bekannt gemacht zu haben.
+            </p>
+            <p>
+               Ich bin nehmlich im gegenwärtigen Augenblick nicht etwa durch bestimmte Contrakte und Versprechungen, aber doch 
+               durch Verhältnisse, die mir gleich heilig seyn müssen, an die Ausarbeitung eines andern, von dem hier bemeldeten 
+               ganz verschiednen Werkes gebunden. Diese Arbeit widersteht meinem Gemüth und allen meinen Neigungen; und ich 
+               würde mich unendlich gern davon los machen, wenn ich es auf eine anständige Weise bewirken könnte. Das letztre 
+               kann nur geschehen, wenn ich einen ziemlich beträchtlichen Geld-Vorschuß tilgen kann.
+            </p>
+            <p>
+               Die Frage ist also, ob Sie Sich dazu verstehen würden, mir für die ersten beiden Bände des Ihnen offerirten 
+               Werkes das Honorar (nach dem von Ihnen einzig zu bestimmenden Satze) jetzt gleich vorzuschießen. Durch diese 
+               Operation würde ich mir die völlige Freiheit zur Ausarbeitung und Ausführung meines Lieblings-Projektes 
+               verschaffen.
+            </p>
+            <p>
+               Ich kann um so weniger beurtheilen, ob dieser Antrag mit Ihren merkantilischen Verhältnissen und Maximen 
+               zusammenstimmt, als ich im Grunde nicht einmal weiß, ob auch nur überhaupt meine Intention, Ihnen den Verlag 
+               meines historischen Werkes zu übertragen, Ihrer Convenienz angemessen ist oder nicht. Alles, was ich hier sage, 
+               ist also immer nur hypothetisch. Aber, <emph rend="underlined">wenn</emph> Sie die Sache überhaupt praktikabel 
+               finden, in diesem Falle darf ich Ihnen wenigstens die bestimmte Versicherung geben, daß bei dem oberwähnten 
+               Vorschusse keine Art von Gefahr für Sie existieren kann.
+            </p>
+            <p>
+               Denn außer daß ich mich durch einen bestimmten schriftlichen Contrakt gegen Sie verbinden würde, den zu 
+               übertreten oder auch nur übertreten zu wollen, ich unfähig bin, würde ich Ihnen auch zugleich auf den Fall, daß 
+               ich während der Arbeit stürbe, das Manuskript, so wie es jetzt ist, übereignen; und daß Sie Sich durch den 
+               Augenschein überzeugen werden, daß es eígentlich ganz vollendet ist und heute gedruckt werden könnte, wenn ich 
+               nicht, einem höheren Ideal zu Liebe, es noch einmal umwerfen wollte, so wird Ihnen eben dadurch klar werden, daß 
+               Sie im schlimmsten Falle für den geleisteten Vorschuß über und über gedeckt seyn würden.
+            </p>
+         </div>
+         <div n="3" corresp="#vgjg">
+            <p>
+               Dies sind nun die Propositionen, worüber ich mir Ihre gütige Antwort erbitte; und zwar werde ich mir diese in 
+               <rs type="place" ref="#plLp">Leipzig</rs> selbst abholen. Sie sehen aus dem Datum dieses Briefes, daß er schon 
+               drei oder vier Tage früher in Ihren Händen hätte seyn sollen; ich versäumte aber den letzten Posttag, weil ich 
+               über den Abgang der Post von hier richtig instruirt war. Vielleicht bin ich 24 Stunden nach Ankunft dieses 
+               Briefes selbst in <rs type="place" ref="#plLp">Leipzig</rs>; auf jeden Fall aber, und was auch die 
+               schmeichelhafte Güte, mit der man mich hier aufgenommen hat, nun weiter an mir versuchen mag, reise ich 
+               <date when-iso="1801-12-03">Donnerstag</date> von hier ab; so daß ich entweder 
+               <date when-iso="1801-12-03">Donnerstag</date> oder <date when-iso="1801-12-04">Freitag</date> gewiß in 
+               <rs type="place" ref="#plLp">Leipzig</rs> eintreffe.
+            </p>
+            <p>
+               Ich setze nichts weiter hinzu als den Wunsch, daß, wenn Sie auch in meinen Plan nicht eingehen mögen, die 
+               Freimüthigkeit, mit welcher ich mich an Sie gewendet habe, Ihnen ein Beweis der ausgezeichneten und aufrichtigen 
+               Hochachtung seyn möge, die ich Ihnen für immer gewidmet habe, und womit ich mich von ganzem Herzen nenne
+            </p>
+         </div>
+         <closer>
+            <salute rend="right">Ihren sehr ergebnen Diener</salute>
+            <dateline rend="left"><rs type="place" ref="#plWe">Weimar</rs> den <date when-iso="1801-11-30">30. November 1801</date>.</dateline>
+            <signed rend="right">Fr. Gentz.</signed>
+         </closer>
+      </body>
+   </text>
+</TEI>

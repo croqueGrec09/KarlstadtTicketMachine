@@ -1,0 +1,241 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader type="text">
+      <fileDesc xml:id="LETTER_GENTZ_2727">
+         <titleStmt>
+            <title>Friedrich von Gentz an Karl Gustav von Brinckmann, 19. Oktober 1792</title>
+            <editor xml:id="edAG">Andreas Gálffy</editor>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <name>Forschungsstelle "Universitätssammlung Friedrich von Gentz"</name>
+               <link target="http://gentz-digital.ub.uni-koeln.de http://www.ub.uni-koeln.de/cdm/singleitem/collection/gentz/id/2726/"/>
+            </publisher>
+            <pubPlace>Cologne</pubPlace>
+            <idno type="Gentz-Edition-Number" n="2727"/>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <country>Sweden</country>
+                  <settlement>Trolle-Ljungby</settlement>
+                  <institution>Archiv des Grafen Wachtmeister</institution>
+                  <repository>Nachlaß Brinckmann, Ausländ. Briefwechsel, Gentz an Brinckmann</repository>
+                  <idno>G 3</idno>
+               </msIdentifier>
+               <msContents>
+                  <summary>
+                     Der Vorschlag Brinckmanns in bezug auf den Dante nimmt Gentz an. Er selbst kaufte Drydens Essay on dramatik 
+                     poesy für drei Groschen.
+                  </summary>
+               </msContents>
+            </msDesc>
+            <listBibl type="preprints">
+               <biblStruct>
+                  <monogr>
+                     <editor>
+                        <persName>
+                           <ref target="http://d-nb.info/gnd/130953075"/>
+                           <forename>Friedrich Carl</forename>
+                           <surname>Wittichen</surname>
+                        </persName>
+                        <persName>
+                           <ref/> <!-- kein GND-Eintrag -->
+                           <forename>Ernst</forename>
+                           <surname>Salzer</surname>
+                        </persName>
+                     </editor>
+                     <title>Briefe von und an Friedrich von Gentz. 4 Bde.</title>
+                     <imprint>
+                        <publisher>Oldenbourg</publisher>
+                        <pubPlace>München, Berlin</pubPlace>
+                        <date>1909-1913</date>
+                     </imprint>
+                     <biblScope unit="volume" n="2">
+                        II
+                     </biblScope>
+                     <biblScope unit="page" from="27" to="27">
+                        Nr. 15
+                     </biblScope>
+                  </monogr>
+               </biblStruct>
+            </listBibl>
+            <listBibl type="alludedWorks">
+               <bibl xml:id="a2727-1" corresp="#LETTER_GENTZ_NNNN">nicht näher benanntes Werk Dantes</bibl>
+               <bibl xml:id="a2727-2" corresp="#LETTER_GENTZ_NNNN">nicht näher benannte Mémoires</bibl>
+               <bibl xml:id="a2727-3" corresp="#LETTER_GENTZ_NNNN">nicht näher benanntes Werk von Fénelon</bibl>
+            </listBibl>
+            <listBibl type="defExpr">
+               <biblStruct xml:id="e2727-1" corresp="Arc-0003">
+                  <monogr>
+                     <author>
+                        <persName>
+                           <ref target="http://d-nb.info/gnd/127594671"/>
+                           <forename>Samuel</forename>
+                           <surname>Johnson</surname>
+                        </persName>
+                     </author>
+                     <title>The Lives of the most eminent English Poets, in four volumes</title>
+                     <imprint>
+                        <pubPlace>London</pubPlace>
+                        <publisher>C. Hathurst</publisher>
+                        <date>1781</date>
+                     </imprint>
+                  </monogr>
+               <ptr target="https://archive.org/details/livesmosteminen33johngoog"/></biblStruct>
+               <biblStruct xml:id="e2727-2" corresp="Are-0000">
+                  <monogr>
+                     <author>
+                        <persName>
+                           <ref target="http://d-nb.info/gnd/118680897"/>
+                           <forename>John</forename>
+                           <surname>Dryden</surname>
+                        </persName>
+                     </author>
+                     <editor>
+                        <persName>
+                           <ref target="http://d-nb.info/gnd/139111751"/>
+                           <forename>Jack</forename>
+                           <surname>Lynch</surname>
+                        </persName>
+                     </editor>
+                     <title>Of Dramatick Poesie, an Essay</title>
+                     <imprint>
+                        <pubPlace>London</pubPlace>
+                        <publisher>Henry Herringman</publisher>
+                        <date>1668</date>
+                     </imprint>
+                  </monogr>
+                  <ptr target="http://andromeda.rutgers.edu/~jlynch/Texts/drampoet.html"/>
+               </biblStruct>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Masterarbeit zu Matrikelnummer 5584124</p>
+         </projectDesc>
+      </encodingDesc>
+      <profileDesc>
+         <creation>
+            <date when-iso="1792-10-19">19. Oktober 1792</date>
+         </creation>
+        <langUsage>
+           <language ident="d">deutsch</language>
+        </langUsage>
+         <textClass>
+            <keywords scheme="internal"><!-- internal: innerhalb des besagten Briefs -->
+               <term>Billet</term>
+               <term>Literatur</term>
+               <term>Maxime</term>
+               <term>Humboldt</term>
+               <term>Gedicht</term>
+            </keywords>
+            <keywords scheme="categorisation"><!-- Sinnabschnittseinteilung - relevant für den Fahrkartenautomaten! -->
+               <term xml:id="vkgvb">Verhältnis Karl Gustav von Brinckmann</term>
+            </keywords>
+         </textClass>
+         <textDesc>
+            <channel>manuscript</channel>
+            <constitution type="single"/>
+            <derivation type="original"/>
+            <domain type="private"/>
+            <factuality type="fact"/>
+            <interaction type="partial"/>
+            <preparedness type="unprepared"/>
+            <purpose type="inform"/>
+         </textDesc>
+         <particDesc>
+            <listPerson>
+               <!-- Sender und Adressat -->
+               <person role="sender" xml:id="Gen">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/118538489"/>
+                     <forename>Friedrich von</forename>
+                     <surname>Gentz</surname>
+                  </persName>
+               </person>
+               <person role="receiver" xml:id="KGvB">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/116519770"/>
+                     <forename>Carl Gustav von</forename>
+                     <surname>Brinckmann</surname>
+                  </persName>
+               </person>
+               <!-- erwähnte Personen -->
+               <person role="named" xml:id="Dan">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/118523708"/>
+                     <forename>Alighieri</forename>
+                     <surname>Dante</surname>
+                  </persName>
+               </person>
+               <person role="named" xml:id="Jhn">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/127594671"/>
+                     <forename>Samuel</forename>
+                     <surname>Johnson</surname>
+                  </persName>
+               </person>
+               <person role="named" xml:id="Dry">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/118680897"/>
+                     <forename>John</forename>
+                     <surname>Dryden</surname>
+                  </persName>
+               </person>
+               <person role="named" xml:id="Fen">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/118532464"/>
+                     <forename>François de Salignac de La Mothe</forename>
+                     <surname>Fénelon</surname>
+                  </persName>
+               </person>
+            </listPerson>
+         </particDesc>
+         <settingDesc>
+            <listPlace>
+               <!-- Start- und Zielort -->
+               <place type="sender" xml:id="plBe">
+                  <country>
+                     <ref target="http://d-nb.info/gnd/4047194-9"/>
+                     <placeName>Preußen</placeName>
+                  </country>
+                  <settlement>
+                     <ref target="http://d-nb.info/gnd/4005728-8"/>
+                     <placeName>Berlin</placeName>
+                  </settlement>
+               </place>
+               <!-- erwähnte Orte -->
+            </listPlace>
+         </settingDesc>
+      </profileDesc>
+      <revisionDesc>
+         <change xml:id="init" when-iso="2018-02-07" who="#edAG">Erstauszeichnung und Normierung des Dokumentes im Rahmen der Masterarbeit der Matrikelnummer 5584124</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>     
+      <body>
+         <opener resp="#KGvB">
+            <dateline rend="right">den <date when-iso="1792-10-19">19. Oct. 1792</date>.</dateline>
+         </opener>
+         <div n="1" corresp="#vkgvb">
+            <p>
+               Die Proposition wegen des <rs type="citation" ref="#a2727-1"><emph rend="underlined">Dante</emph></rs> nehme ich an, 
+               wenn Sie mir ihn gleich schicken wollen, ob ich gleich daraus sonnenklar sehe, wie 
+               <emph rend="underlined">göttlich</emph> die <rs type="citation" ref="#a2727-2">Memoires</rs> und wie 
+               <emph rend="underlined">unrar</emph> der <rs type="person" ref="#Dan">Dante</rs> seyn muß.
+            </p>
+            <p>
+               Sie werden in <rs type="person" ref="#Jhn">Johnson</rs>'s <rs type="citation" ref="#e2727-1">poets</rs> finden, daß 
+               <rs type="person" ref="#Dry">Dryden</rs>s <emph rend="underlined">Essay on dramatik poesy</emph> eins der ersten und 
+               unvergleichlichsten Bücher ist - Dabey äußerst selten - Ich kaufte es gestern für - 3 Groschen. Wenn Sie den 
+               <rs type="citation" ref="#a2727-3">Fenelon</rs> nicht wollen, hätte ich wohl Lust dazu. Adieu, lieber Freund !
+            </p>
+         </div>
+         <closer>
+            <signed rend="right">Gentz.</signed>
+         </closer>
+      </body>
+   </text>
+</TEI>

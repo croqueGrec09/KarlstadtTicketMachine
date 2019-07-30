@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc xml:id="LETTER_GENTZ_4871">
+         <titleStmt>
+            <title>Friedrich von Gentz an Jean de la Garde, 17. August 1799</title>
+            <editor xml:id="edAG">Andreas Gálffy</editor>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <name>Forschungsstelle "Universitätssammlung Friedrich von Gentz"</name>
+               <link target="http://gentz-digital.ub.uni-koeln.de http://www.ub.uni-koeln.de/cdm/singleitem/collection/gentz/id/4870/"/>
+            </publisher>
+            <pubPlace>Cologne</pubPlace>
+            <idno type="Gentz-Edition-Number" n="4871"/>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <country>Germany</country>
+                  <settlement>Wiesbaden</settlement>
+                  <institution>Vieweg-Verlagsarchiv</institution>
+                  <repository>Briefsammlung 311 G: Gentz-Brief</repository>
+                  <idno>Nr. 74</idno>
+               </msIdentifier>
+               <msContents>
+                  <summary>
+                     Die vergangenen Ausgaben des Historischen Journals sind auf schlechtem Papier erschienen. Gentz fordert den 
+                     jetzigen Repräsentanten und alten Freund de la Garde auf, das Journal ab dem Septemberstück auf besserem 
+                     Papier statt auf "Lösch-Papier" drucken zu lassen.
+                  </summary>
+               </msContents>
+            </msDesc>
+            <listBibl type="defRep">
+               <biblStruct xml:id="p4871-1" corresp="GBk-0050">
+                  <monogr>
+                     <editor>
+                        <persName>
+                           <ref target="http://d-nb.info/gnd/118538489"/>
+                           <forename>Friedrich von</forename>
+                           <surname>Gentz</surname>
+                        </persName>
+                     </editor>
+                     <title>Historisches Journal</title>
+                     <imprint>
+                        <publisher>Friedrich Vieweg dem ältern</publisher>
+                        <pubPlace>Berlin</pubPlace>
+                        <date>1799</date>
+                     </imprint>
+                  </monogr>
+                  <ptr target="https://books.google.de/books?id=ohR5B41qdy4C"/>
+               </biblStruct>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Masterarbeit zu Matrikelnummer 5584124</p>
+         </projectDesc>
+      </encodingDesc>
+      <profileDesc>
+         <creation>
+            <date when-iso="1799-08-17">17. August 1799</date>
+         </creation>
+        <langUsage>
+           <language ident="d">deutsch</language>
+        </langUsage>
+         <textClass>
+            <keywords scheme="internal"><!-- internal: innerhalb des besagten Briefs -->
+               <term>Billet</term>
+               <term>Journal historique</term>
+               <term>Papier</term>
+            </keywords>
+            <keywords scheme="categorisation"><!-- Sinnabschnittseinteilung - relevant für den Fahrkartenautomaten! -->
+               <term xml:id="jrnh">Historisches Journal</term>
+            </keywords>
+         </textClass>
+         <textDesc>
+            <channel>manuscript</channel>
+            <constitution type="single"/>
+            <derivation type="original"/>
+            <domain type="private"/>
+            <factuality type="fact"/>
+            <interaction type="partial"/>
+            <preparedness type="unprepared"/>
+            <purpose type="inform"/>
+         </textDesc>
+         <particDesc>
+            <listPerson>
+               <!-- Sender und Adressat -->
+               <person role="sender" xml:id="Gen">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/118538489"/>
+                     <forename>Friedrich von</forename>
+                     <surname>Gentz</surname>
+                  </persName>
+               </person>
+               <person role="receiver" xml:id="JdlG">
+                  <persName>
+                     <ref />
+                     <forename>Jean de</forename>
+                     <surname>la Garde</surname>
+                  </persName>
+               </person>
+               <!-- erwähnte Personen -->
+               <person role="named" xml:id="FVW">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/119049546"/>
+                     <forename>Friedrich</forename>
+                     <surname>Vieweg</surname>
+                  </persName>
+               </person>
+            </listPerson>
+         </particDesc>
+         <settingDesc>
+            <listPlace>
+               <!-- Start- und Zielort -->
+               <place type="sender" xml:id="plSb">
+                  <country>
+                     <ref target="http://d-nb.info/gnd/4047194-9"/>
+                     <placeName>Preußen</placeName>
+                  </country>
+                  <settlement>
+                     <ref target="http://d-nb.info/gnd/116944-0"/>
+                     <placeName>Schöneberg</placeName>
+                  </settlement>
+               </place>
+               <place type="receiver" xml:id="plBs">
+                  <country>
+                     <ref target="http://d-nb.info/gnd/4089993-7"/>
+                     <placeName>Staat Wolfenbüttel</placeName>
+                  </country>
+                  <settlement>
+                     <ref target="http://d-nb.info/gnd/4008065-1"/>
+                     <placeName>Braunschweig</placeName>
+                  </settlement>
+               </place>
+               <!-- erwähnte Orte -->
+            </listPlace>
+         </settingDesc>
+      </profileDesc>
+      <revisionDesc>
+         <change xml:id="init" when-iso="2018-03-04" who="#edAG">Erstauszeichnung und Normierung des Dokumentes im Rahmen der Masterarbeit der Matrikelnummer 5584124</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div n="1" corresp="#jrnh">
+            <p>
+               Mein Bitte wegen der Exemplare beruhte auf einem Irrthum; ich hatte vergessen, daß ich einige Exemplare in der Stadt 
+               zurückließ. - Die Anzeige in den Zeitungen kan diesmal wohl übergangen werden. - Aber alle meine Kräfte mögte ich 
+               aufbieten, um Ihnen heute einen andern Gegenstand ans Herz zu legen.
+            </p>
+            <p>
+               Mit dem Monat September fängt <rs type="citation" ref="#p4871-1">ein neuer Band</rs> an. Ich habe mich gegen 
+               <rs type="person" ref="#FVW">Vieweg</rs> abermals, und mit aller möglichen Energie über die Schändlichkeit des 
+               Papiers erklärt; er hat mir nicht geantwortet. Vielleicht haben Sie eine Instruction darüber. Ist dieses nicht der 
+               Fall, so glaube ich es dem Publikum und mir selbst schuldig zu seyn, daß ich Sie, als jetzigen Repräsentanten von 
+               <rs type="person" ref="#FVW">Vieweg</rs>, dringend auffordre, und beschwöre, diesem allgemein-anstößigen, das Journal 
+               degradirenden, mir sogar von <emph rend="underlined">höhern</emph> Behörden vorgeworfene Lösch-Papier sofort ein Ende 
+               zu machen. Ich will mit meinem Kopf alles vertreten, was Sie dieserhalb auch ohne 
+               <rs type="person" ref="#FVW">Vieweg</rs>s Instruction beschließen werden; und zugleich werde ich es, ob ich gleich in 
+               der That ein Recht habe auf eine solche Veränderung zu dringen, von Ihrer Seite als die höchste Freundschaft, und den 
+               wesentlichsten Liebes dienst ansehen, den Sie mir jemals erweisen können.
+            </p>
+            <p>
+               Sollte diese meine angelegentliche Bitte nichts fruchten, so werde ich mich wenigstens damit legitimiren können, daß 
+               ich alles that, was in meinen Kräften stand. Erwägen Sie aber, daß, so wie das 
+               <emph rend="underlined">September</emph>stück (wovon ich eben den ersten Correkturbogen erhalten habe) gedruckt wird, 
+               auch die drei folgenden bis <emph rend="underlined">ans Ende des Jahres</emph> erscheinen müßen, und, ob es billig, 
+               ob es gerecht ist, daß wegen einer elenden Knauserei - den dafür werde ich es ewig erklären - Verhältnisse und 
+               Vortheile, die <rs type="person" ref="#FVW">Vieweg</rs> vielleicht nicht taxiren kan, und um die er sich jetzt wenig 
+               zu kümmern scheint, aufgeopfert werden.
+            </p>
+            <p>
+               Ich wiederhole es noch einmal: Als Repräsentanten von <rs type="person" ref="#FVW">Vieweg</rs> muthe ich Ihnen von 
+               Rechts wegen zu, als meinen alten Freund bitte ich Sie recht herzlich darum, meinen Antrag in die sorgfältigste 
+               Erwägung zu ziehen, und einen günstigen Entschluß nicht aufzuschieben.
+            </p>
+         </div>
+         <closer>
+            <signed rend="right">Gentz.</signed>
+            <dateline rend="right"><rs type="place" ref="#plSb">Schöneberg</rs> <date when-iso="1799-08-17">17 August 1799</date>.</dateline>
+         </closer>
+      </body>
+      <back resp="otherHand">
+         <p>
+            An
+            Herrn Buchhändler Vieweg
+            <rs type="place" ref="#plBs">Braunschweig</rs>
+         </p>
+      </back>
+      <note xml:id="r4871-1">Seite 4 von fremder Hand</note>
+   </text>
+</TEI>

@@ -1,0 +1,225 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc xml:id="LETTER_GENTZ_2567">
+         <titleStmt>
+            <title>Friedrich von Gentz an Karl Gustav von Brinckmann, 21. Juli 1801</title>
+            <editor xml:id="edAG">Andreas Gálffy</editor>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <name>Forschungsstelle "Universitätssammlung Friedrich von Gentz"</name>
+               <link target="http://gentz-digital.ub.uni-koeln.de http://www.ub.uni-koeln.de/cdm/singleitem/collection/gentz/id/2566/"/>
+            </publisher>
+            <pubPlace>Cologne</pubPlace>
+            <idno type="Gentz-Edition-Number" n="2567"/>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <country>Sweden</country>
+                  <settlement>Trolle-Ljungby</settlement>
+                  <institution>Archiv des Grafen Wachtmeister</institution>
+                  <repository>Nachlaß Brinckmann, Ausländ. Briefwechsel, Gentz an Brinckmann</repository>
+                  <idno>G 5</idno>
+               </msIdentifier>
+               <msContents>
+                  <summary>
+                     Am Mittag möchte Gentz im Hôtel de Suède speisen. Etwas Disput entstand um das Datum, an welchem Nachmittag er 
+                     bei Frau von Berg gebeten wurde. Dass dort Schlegel erscheint, entrüstet Gentz, da er die mittelbaren Juden für 
+                     schrecklich hält.
+                  </summary>
+               </msContents>
+            </msDesc>
+            <listBibl type="preprints">
+               <biblStruct>
+                  <monogr>
+                     <editor>
+                        <persName>
+                           <ref target="http://d-nb.info/gnd/130953075"/>
+                           <forename>Friedrich Carl</forename>
+                           <surname>Wittichen</surname>
+                        </persName>
+                        <persName>
+                           <ref /> <!-- kein GND-Eintrag -->
+                           <forename>Ernst</forename>
+                           <surname>Salzer</surname>
+                        </persName>
+                     </editor>
+                     <title>Briefe von und an Friedrich von Gentz, 4 Bde.</title>
+                     <imprint>
+                        <publisher>Oldenbourg</publisher>
+                        <pubPlace>München, Berlin</pubPlace>
+                        <date>1909-1913</date>
+                     </imprint>
+                     <biblScope unit="volume" n="2">
+                        II
+                     </biblScope>
+                     <biblScope unit="page" from="75" to="76">
+                        Nr. 84 (teilweise)
+                     </biblScope>
+                  </monogr>
+               </biblStruct>
+            </listBibl>
+            <listBibl type="letterReferenced">
+               <bibl xml:id="c2567-1" corresp="#LETTER_GENTZ_4069">Friedrich von Gentz an Karl Gustav von Brinckmann, 20. Juli 1801</bibl>
+               <bibl xml:id="c2567-2" corresp="#LETTER_GENTZ_NNNN">nicht bekannter Brief von Karl Gustav von Brinckmann an Friedrich von Gentz</bibl>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Masterarbeit zu Matrikelnummer 5584124</p>
+         </projectDesc>
+      </encodingDesc>
+      <profileDesc>
+         <creation>
+            <date when-iso="1801-07-21">21. Juli 1801</date>
+         </creation>
+        <langUsage>
+           <language ident="d">deutsch</language>
+        </langUsage>
+         <textClass>
+            <keywords scheme="internal"><!-- internal: innerhalb des besagten Briefs -->
+               <term>Brief</term>
+               <term>Treffen</term>
+               <term>Krüdener</term>
+            </keywords>
+            <keywords scheme="categorisation"><!-- Sinnabschnittseinteilung - relevant für den Fahrkartenautomaten! -->
+               <term xml:id="vkgvb">Verhältnis Karl Gustav von Brinckmann</term>
+               <term xml:id="bezbl">Beziehungen zu Berlin - Leute</term>
+            </keywords>
+         </textClass>
+         <textDesc>
+            <channel>manuscript</channel>
+            <constitution type="single"/>
+            <derivation type="original"/>
+            <domain type="private"/>
+            <factuality type="fact"/>
+            <interaction type="partial"/>
+            <preparedness type="prepared"/>
+            <purpose type="inform"/>
+         </textDesc>
+         <particDesc>
+            <listPerson>
+               <!-- Sender und Adressat -->
+               <person role="sender" xml:id="Gen">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/118538489"/>
+                     <forename>Friedrich von</forename>
+                     <surname>Gentz</surname>
+                  </persName>
+               </person>
+               <person role="receiver" xml:id="KGvB">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/116519770"/>
+                     <forename>Carl Gustav von</forename>
+                     <surname>Brinckmann</surname>
+                  </persName>
+               </person>
+               <!-- erwähnte Personen -->
+               <person role="named" xml:id="FSchl">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/118607987" />
+                     <forename>Friedrich von</forename>
+                     <surname>Schlegel</surname>
+                  </persName>
+               </person>
+               <person role="named" xml:id="CFrvB">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/116129654"/>
+                     <forename>Caroline Friederike von</forename>
+                     <surname>Berg</surname>
+                  </persName>
+               </person>
+               <person role="named" xml:id="Gual">
+                  <persName>
+                     <ref />
+                     <forename/>
+                     <surname>Gualtery</surname>
+                  </persName>
+               </person>
+               <person role="named" xml:id="LvV">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/117746185" />
+                     <forename>Luise von</forename>
+                     <surname>Voss</surname>
+                  </persName>
+               </person>
+            </listPerson>
+         </particDesc>
+         <settingDesc>
+            <listPlace>
+               <!-- Start- und Zielort -->
+               <place type="sender" xml:id="plSb">
+                  <country>
+                     <ref target="http://d-nb.info/gnd/4047194-9"/>
+                     <placeName>Preußen</placeName>
+                  </country>
+                  <settlement>
+                     <ref target="http://d-nb.info/gnd/116944-0"/>
+                     <placeName>Schöneberg</placeName>
+                  </settlement>
+               </place>
+               <place type="receiver" xml:id="plBe">
+                  <country>
+                     <ref target="http://d-nb.info/gnd/4047194-9"/>
+                     <placeName>Preußen</placeName>
+                  </country>
+                  <settlement>
+                     <ref target="http://d-nb.info/gnd/4005728-8"/>
+                     <placeName>Berlin</placeName>
+                  </settlement>
+               </place>
+               <!-- erwähnte Orte -->
+            </listPlace>
+         </settingDesc>
+      </profileDesc>
+      <revisionDesc>
+         <change xml:id="init" when-iso="2018-03-08" who="#edAG">Erstauszeichnung und Normierung des Dokumentes im Rahmen der Masterarbeit der Matrikelnummer 5584124</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div n="1" corresp="#vkgvb">
+            <p>
+               Wie gut ist manchmal die lumpigste Kritik angebracht. Ich zweifelte keinen Augenblick daran, daß ich zum 
+               <emph rend="underlined">Dienstag</emph>, das ist, zu <emph rend="underlined">heute</emph>, gebeten wäre; und bloß um 
+               Sie zu schikaniren, <rs type="citation" ref="#c2567-1">schrieb</rs> ich, daß Dienstag nicht der 
+               <date when-iso="1801-07-22">22<span rend="sup">te</span></date> ist. Dies hat nun eine so wichtige Real-Berichtigung 
+               herbeigeführt.
+            </p>
+            <p>
+               Ich bin zu <date when-iso="1801-07-22">morgen Mittag</date>, Gottlob, nicht engagirt, und werde also erscheinen. 
+               Unterdessen hatte ich mir einmal vorgenommen, heute Mittag in die Stadt <add place="above">zu</add> fahren, und ein 
+               Mittagessen müßen Sie mir also schaffen. Bei diesen Umständen bleibt nun nichts übrig, als daß Sie mir im Hotel de 
+               Suède die Erlaubniß auswirken, dem Diner beizuwohnen. Ich wünsche dies um so mehr, weil ich Ihre göttliche Kanzlerin 
+               seit ewigen Zeiten nicht gesehen habe, und ich komme auf <pb/> jeden Fall, 
+               <span xml:lang="fr">sauf d'être renvoyé, si la chose ne convient pas</span>.
+            </p>
+         </div>
+         <div n="2" corresp="#bezbl">
+            <p>
+               Es bleibt mir aber, nach <rs type="citation" ref="#c2567-2">Ihrem heutigen Billet</rs>, noch ein schrecklicher Wurm 
+               im Herzen. Was sprechen Sie denn, um des lebendigen Gottes Willen, von dem 
+               <rs type="person" ref="#FSchl">Sonnetten-Schlegel</rs> ? Ist denn dieser bei 
+               <rs type="person" ref="#CFrvB">Frau von Berg</rs> ? Ich dachte, wir wären da durchaus in 
+               <span xml:lang="fr">bonne societé</span> ? - Dies stürzt mich von allen meinen Himmeln ! Sie meinen, 
+               <rs type="person" ref="#Gual">Gualtiery</rs> wäre schrecklicher ? Auf keine Art und Weise ! Nächst 
+               <emph rend="underlined">unmittelbaren</emph> Juden, giebt es nichts schrecklicheres, als diese 
+               <emph rend="underlined">mittelbaren</emph>, der Tirannen der Litteratur. Widerrufen Sie doch dieses grausame Wort, 
+               als einen unschuldigen Spaß ! War es aber Ernst, so bitte ich Sie <emph rend="underlined">ernstlich</emph>, diese 
+               meine Aueßerungen ganz in Sich zu verschließen, und auch nicht einmal der 
+               <rs type="person" ref="#LvV">Gräfin Voss</rs> mitzutheilen. Leben Sie wohl. Ich sehe Sie um 3 Uhr.
+            </p>
+         </div>
+         <closer>
+            <signed rend="right">Gentz</signed>
+            <dateline rend="left"><rs type="place" ref="#plSb">Schöneberg</rs> den <date when-iso="1801-07-21">21 July</date>:</dateline>
+         </closer>
+      </body>
+   </text>
+</TEI>

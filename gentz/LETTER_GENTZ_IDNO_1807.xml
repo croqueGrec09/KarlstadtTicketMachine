@@ -1,0 +1,392 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader type="text">
+      <fileDesc xml:id="LETTER_GENTZ_1807">
+         <titleStmt>
+            <title>Friedrich von Gentz an Karl August Böttiger, 10. November 1795</title>
+            <editor xml:id="edAG">Andreas Gálffy</editor>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <name>Forschungsstelle "Universitätssammlung Friedrich von Gentz"</name>
+               <link target="http://gentz-digital.ub.uni-koeln.de http://www.ub.uni-koeln.de/cdm/singleitem/collection/gentz/id/1806/"/>
+            </publisher>
+            <pubPlace>Cologne</pubPlace>
+            <idno type="Gentz-Edition-Number" n="1807"/>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <country>Germany</country>
+                  <settlement>Dresden</settlement>
+                  <institution>Sächsiche Landesbibliothek</institution>
+                  <repository>Handschriftensammlung, Nachlaß Böttiger</repository>
+                  <collection>Mscr. Dresd. h 37, Bd. 54 (4°)</collection>
+                  <idno>Nr. 1</idno>
+               </msIdentifier>
+               <msContents>
+                  <summary>
+                     Es ist außerordentlich bedauerlich für Gentz, dass er sich für die Beiträge, die Böttiger an die Redaktion 
+                     geschickt hat, nicht bedankt hat. Er hatte zu viel zu tun. Die Fortsetzung des Manuskripts ist jetzt auch 
+                     eingetroffen und soll sogleich in den Druck gehen. Gentz richtet allerdings auch eine Beschwerde eines Herrn 
+                     Philips aus, die Gentz selbst jedoch nicht sehr beschäftigt. So Böttiger auf die Beschwerde reagieren will, 
+                     soll er Gentz eine Note schreiben, die er mit in den Druck nimmt. Gentz bittet um Entschuldigung für einen 
+                     Druckfehler, der aufgrund des späten Drucks unbemerkt geblieben ist.
+                  </summary>
+               </msContents>
+            </msDesc>
+            <listBibl type="preprints">
+               <biblStruct>
+                  <monogr>
+                     <editor>
+                        <persName>
+                           <ref target="http://d-nb.info/gnd/130953075"/>
+                           <forename>Friedrich Carl</forename>
+                           <surname>Wittichen</surname>
+                        </persName>
+                        <persName>
+                           <ref/> <!-- kein GND-Eintrag -->
+                           <forename>Ernst</forename>
+                           <surname>Salzer</surname>
+                        </persName>
+                     </editor>
+                     <title>Briefe von und an Friedrich von Gentz, 4 Bde.</title>
+                     <imprint>
+                        <publisher>Oldenbourg</publisher>
+                        <pubPlace>München, Berlin</pubPlace>
+                        <date>1909-1913</date>
+                     </imprint>
+                     <biblScope unit="volume" n="1">
+                        I
+                     </biblScope>
+                     <biblScope unit="page" from="218" to="219">
+                        Nr. 46
+                     </biblScope>
+                  </monogr>
+               </biblStruct>
+            </listBibl>
+            <listBibl type="defRep">
+               <biblStruct xml:id="p1807-1" corresp="UBi-0007">
+                  <analytic>
+                     <author>
+                        <persName>
+                           <ref target="http://d-nb.info/gnd/118824775"/>
+                           <forename>Carl August</forename>
+                           <surname>Böttiger</surname>
+                        </persName>
+                     </author>
+                     <title>Neue Amerikanische Briefe</title>
+                  </analytic>
+                  <monogr>
+                     <author>
+                        <persName>
+                           <ref target="http://d-nb.info/gnd/118538489"/>
+                           <forename>Friedrich von</forename>
+                           <surname>Gentz</surname>
+                        </persName>
+                     </author>
+                     <title>Neue Deutsche Monatsschrift</title>
+                     <imprint>
+                        <pubPlace>Berlin</pubPlace>
+                        <publisher>Friedrich Vieweg der Ältere</publisher>
+                        <date>1795</date>
+                     </imprint>
+                     <biblScope unit="volume" n="2">
+                        Zweiter Band.
+                     </biblScope>
+                     <biblScope unit="issue">
+                        1795. July.
+                     </biblScope>
+                     <biblScope unit="page" from="241" to="266">
+                        S. 241-266
+                     </biblScope>
+                  </monogr>
+               <ptr target="http://ds.ub.uni-bielefeld.de/viewer/image/1938308_002/246/"/></biblStruct>
+               <biblStruct xml:id="p1807-2" corresp="UBi-0012">
+                  <analytic>
+                     <author>
+                        <persName>
+                           <ref target="http://d-nb.info/gnd/118824775"/>
+                           <forename>Carl August</forename>
+                           <surname>Böttiger</surname>
+                        </persName>
+                     </author>
+                     <title>Amerikanische Briefe</title>
+                  </analytic>
+                  <monogr>
+                     <author>
+                        <persName>
+                           <ref target="http://d-nb.info/gnd/118538489"/>
+                           <forename>Friedrich von</forename>
+                           <surname>Gentz</surname>
+                        </persName>
+                     </author>
+                     <title>Neue Deutsche Monatsschrift</title>
+                     <imprint>
+                        <pubPlace>Berlin</pubPlace>
+                        <publisher>Friedrich Vieweg der Ältere</publisher>
+                        <date>1795</date>
+                     </imprint>
+                     <biblScope unit="volume" n="3">
+                        Dritter Band.
+                     </biblScope>
+                     <biblScope unit="issue">
+                        1795. September.
+                     </biblScope>
+                     <biblScope unit="page" from="30" to="39">
+                        S. 30-39
+                     </biblScope>
+                  </monogr>
+               <ptr target="http://ds.ub.uni-bielefeld.de/viewer/image/1938308_003/31/"/></biblStruct>
+               <biblStruct xml:id="p1807-3" corresp="#LETTER_GENTZ_NNNN">
+                  <monogr>
+                     <title>Spenersche Zeitung</title>
+                     <imprint>
+                        <pubPlace>Berlin</pubPlace>
+                        <publisher>Spener</publisher>
+                        <date>1795</date>
+                     </imprint>
+                  </monogr>
+               <ptr target="#LETTER_GENTZ_NNNN"/></biblStruct>
+               <biblStruct xml:id="p1807-4" corresp="UBi-0009">
+                  <analytic>
+                     <author>
+                        <persName>
+                           <ref target="http://d-nb.info/gnd/118824775"/>
+                           <forename>Carl August</forename>
+                           <surname>Böttiger</surname>
+                        </persName>
+                     </author>
+                     <title>Neueste Kunst- und Naturalieneroberungen der Franzosen.</title>
+                  </analytic>
+                  <monogr>
+                     <author>
+                        <persName>
+                           <ref target="http://d-nb.info/gnd/118538489"/>
+                           <forename>Friedrich von</forename>
+                           <surname>Gentz</surname>
+                        </persName>
+                     </author>
+                     <title>Neue Deutsche Monatsschrift</title>
+                     <imprint>
+                        <pubPlace>Berlin</pubPlace>
+                        <publisher>Friedrich Vieweg der Ältere</publisher>
+                        <date>1795</date>
+                     </imprint>
+                     <biblScope unit="volume" n="3">
+                        Dritter Band.
+                     </biblScope>
+                     <biblScope unit="issue">
+                        1795. Oktober.
+                     </biblScope>
+                     <biblScope unit="page" from="158" to="173">
+                        S. 158-173
+                     </biblScope>
+                  </monogr>
+               <ptr target="http://ds.ub.uni-bielefeld.de/viewer/image/1938308_003/166/"/></biblStruct>
+            </listBibl>
+            <listBibl type="edRef">
+               <biblStruct xml:id="f1807-1" corresp="UBi-0011">
+                  <analytic>
+                     <author>
+                        <persName>
+                           <ref target="http://d-nb.info/gnd/118824775"/>
+                           <forename>Carl August</forename>
+                           <surname>Böttiger</surname>
+                        </persName>
+                     </author>
+                     <title>Amerikanische Briefe</title>
+                  </analytic>
+                  <monogr>
+                     <author>
+                        <persName>
+                           <ref target="http://d-nb.info/gnd/118538489"/>
+                           <forename>Friedrich von</forename>
+                           <surname>Gentz</surname>
+                        </persName>
+                     </author>
+                     <title>Neue Deutsche Monatsschrift</title>
+                     <imprint>
+                        <pubPlace>Berlin</pubPlace>
+                        <publisher>Friedrich Vieweg der Ältere</publisher>
+                        <date>1795</date>
+                     </imprint>
+                     <biblScope unit="volume" n="3">
+                        Dritter Band.
+                     </biblScope>
+                     <biblScope unit="issue">
+                        1795. November.
+                     </biblScope>
+                     <biblScope unit="page" from="209" to="230">
+                        S. 209-230
+                     </biblScope>
+                  </monogr>
+               <ptr target="http://ds.ub.uni-bielefeld.de/viewer/image/1938308_003/208/"/></biblStruct>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Masterarbeit zu Matrikelnummer 5584124</p>
+         </projectDesc>
+      </encodingDesc>
+      <profileDesc>
+         <creation>
+            <date when-iso="1795-11-10">10. November 1795</date>
+         </creation>
+        <langUsage>
+           <language ident="d">deutsch</language>
+        </langUsage>
+         <textClass>
+            <keywords scheme="internal"><!-- internal: innerhalb des besagten Briefs -->
+               <term>Brief</term>
+               <term>Monatsschrift</term>
+               <term>Amerikanische Briefe</term>
+               <term>Morris</term>
+               <term>Philips</term>
+            </keywords>
+            <keywords scheme="categorisation"><!-- Sinnabschnittseinteilung - relevant für den Fahrkartenautomaten! -->
+               <term xml:id="vkab">Verhältnis Karl August Böttiger</term>
+               <term xml:id="abf">Amerikanische Briefe</term>
+            </keywords>
+         </textClass>
+         <textDesc>
+            <channel>manuscript</channel>
+            <constitution type="single"/>
+            <derivation type="original"/>
+            <domain type="private"/>
+            <factuality type="fact"/>
+            <interaction type="partial"/>
+            <preparedness type="prepared"/>
+            <purpose type="inform"/>
+         </textDesc>
+         <particDesc>
+            <listPerson>
+               <!-- Sender und Adressat -->
+               <person role="sender" xml:id="Gen">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/118538489"/>
+                     <forename>Friedrich von</forename>
+                     <surname>Gentz</surname>
+                  </persName>
+               </person>
+               <person role="receiver" xml:id="KAB">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/118824775"/>
+                     <forename>Carl August</forename>
+                     <surname>Böttiger</surname>
+                  </persName>
+               </person>
+               <!-- erwähnte Personen -->
+               <person role="named" xml:id="Phl">
+                  <persName>
+                     <ref/>
+                     <forename/>
+                     <surname>Philips</surname>
+                  </persName>
+               </person>
+               <person role="named" xml:id="Mor">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/119499789"/>
+                     <forename>Robert</forename>
+                     <surname>Morris</surname>
+                  </persName>
+               </person>
+            </listPerson>
+         </particDesc>
+         <settingDesc>
+            <listPlace>
+               <!-- Start- und Zielort -->
+               <place type="sender" xml:id="plBe">
+                  <country>
+                     <ref target="http://d-nb.info/gnd/4047194-9"/>
+                     <placeName>Preußen</placeName>
+                  </country>
+                  <settlement>
+                     <ref target="http://d-nb.info/gnd/4005728-8"/>
+                     <placeName>Berlin</placeName>
+                  </settlement>
+               </place>
+               <place type="receiver" xml:id="plWe">
+                  <country>
+                     <ref target="http://d-nb.info/gnd/4051194-7"/>
+                     <placeName>Sachsen-Weimar-Eisenach</placeName>
+                  </country>
+                  <settlement>
+                     <ref target="http://d-nb.info/gnd/4065105-8"/>
+                     <placeName>Weimar</placeName>
+                  </settlement>
+               </place>
+               <!-- erwähnte Orte -->
+            </listPlace>
+         </settingDesc>
+      </profileDesc>
+      <revisionDesc>
+         <change xml:id="init" when-iso="2018-02-17" who="#edAG">Erstauszeichnung und Normierung des Dokumentes im Rahmen der Masterarbeit der Matrikelnummer 5584124</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <opener>
+            <salute rend="left">Wohlgebohrner !</salute>
+            <salute rend="left">Höchstgeschätzter Herr Ober-Consistorial-Rath !</salute>
+         </opener>
+         <div n="1" corresp="#vkab">
+            <p>
+               Es wäre längst meine Schuldigkeit gewesen, Ewr. Wohlgebohren für die 
+               <rs type="citation" ref="#p1807-1">überaus schätzbaren Beiträge</rs> womit Sie das unter meiner Redaction 
+               herausgekommende <rs type="citation" ref="#p1807-2">Journal</rs> so reichlich beehrt und geziert haben, meinen 
+               allerverbindlichsten Dank abzustatten. Eine oft nur allzu große Last von Geschäften, die einander vielfältig 
+               durchkreutzen, hat es mir unmöglich gemacht: ich schmeichle mir indessen, daß Sie auch einen verspäteten Dank nicht 
+               ungütig aufnehmen, und den Wunsch, die Verbindung, in welche uns die collegialische Arbeit in einem und demselben 
+               Weinberge gebracht hat, fortdauernd und immer enger werden zu sehen, eine günstige Statt finden lassen werden.
+            </p>
+         </div>
+         <div n="2" corresp="#abf">
+            <p>
+               Ich habe vor einigen Tagen das <rs type="citation" ref="#f1807-1">Manuscript der Fortsetzung</rs> Ihrer äußerst 
+               interessanten Amerikanischen Briefe erhalten, und werde keinen Augen<pb/>blick anstehen, es zum Druck zu befördern. 
+               Ehe dies geschieht, bin ich Ihnen aber Nachricht von einer kleinen Begebenheit schuldig, die sich in Rücksicht auf 
+               diese Amerikanischen Briefe zugetragen hat. Es hat nehmlich ein gewisser Herr 
+               <rs type="person" ref="#Phl"><emph rend="underlined">Philips</emph></rs> von dem ich übrigens nichts weiter weiß, in 
+               eins der neusten Stücke der hiesigen Spenerschen Zeitung, <rs type="citation" ref="#p1807-3">das Avertissement</rs>, 
+               welches Sie in der Beilage finden werden, einrücken laßen, und ich bin seitdem verschiedentlich befragt worden, was 
+               es mit dieser Beschwerde eigentlich auf sich habe. EwrWohlgebohren überlaße ich es lediglich, was Sie darauf zu 
+               antworten, oder ob Sie überhaupt davon Notiz zu nehmen belieben wollen. Mir ist die Reclamation völlig gleichgültig, 
+               und sie macht mich auch in meiner Idee von dem Amerikanischen Länderkauf im geringsten nicht irrig. Weil aber gerade 
+               jetzt eine Fortsetzung dieser Briefe, und noch dazu eine, die sich wieder ganz vorzüglich auf denselben Gegenstand 
+               bezieht, <ref target="#r1807-2">erscheinen soll</ref>, so würde <pb/> es Ihnen vielleicht angenehm seyn, 
+               dem Herrn <rs type="citation" ref="#Phl">Philips</rs> in einer Note Bescheid zu sagen. Ist dies der Fall, so bitte 
+               ich Sie gehorsamst, mir diesen Zusatz mit umgehender Post zu schicken, damit der Druck so wenig als möglich 
+               aufgehalten werde. Erhalte ich nichts, so nehme ich es für ein Zeichen, daß Sie die Sache mit Stillschweigen 
+               übergehen wollen, und lasse Ihr Manuscript unverändert abdrucken. Denn <emph rend="underlined">ich</emph> fürchte 
+               weder den Herrn <rs type="person" ref="#Phl"><emph rend="underlined">Philips</emph></rs> noch den Herrn 
+               <rs type="person" ref="#Mor"><emph rend="underlined">Morris</emph></rs>: <del rend="stroked">xxx</del> Ihnen aber 
+               konnte und wollte ich in keiner Art vorgreifen.
+            </p>
+         </div>
+         <div n="3" corresp="#vkab">
+            <p>
+               In dem Aufsatz von EwrWohlgebohren der sich im Oktoberstück befindet, ist 
+               <rs type="citation" ref="#p1807-4">(pagina 169)</rs> ein Druckfehler - Coithäus ! - stehen geblieben, der es 
+               verdient, daß ich Sie ausdrücklich um Verzeihung bitte. Dieses Stück ist aber, weil meine lange Abhandlung etwas 
+               spät fertig geworden war, so rasch gedruckt worden, daß ich mir und dem zweiten Corrector diesmal etwas zu gute 
+               halten muß.
+            </p>
+            <p>
+               Ich bin so frei, mich, ehe ich dieses Schreiben <pb/> schließe, in EwrWohlgebohren Gewogenheit und Freundschaft 
+               angelegentlich zu empfehlen, und verharre mit der aufrichtigsten Ergebenheit und innigsten Hochachtung
+            </p>
+         </div>
+         <closer>
+            <salute rend="right">EwrWohlgebohren</salute>
+            <salute rend="right">Ganz gehorsamster Diener</salute>
+            <dateline rend="left"><rs type="place" ref="#plBe">Berlin</rs> den <date when-iso="1795-11-10">10<span rend="sup">ten</span> November</date></dateline>
+            <dateline rend="left"><date when-iso="1795-11-10">1795</date>:</dateline>
+            <signed rend="right">Gentz.</signed>
+         </closer>
+      </body>
+      <note resp="#edAG" xml:id="r1807-1">Vgl. die Ausgaben vom <rs type="citation" ref="#p1807-1">Juli</rs> und <rs type="citation" ref="#p1807-2">September 1795</rs> der Neuen Deutschen Monatsschrift</note>
+      <note resp="#edAG" xml:id="r1807-2">Die Beschwerde des Philips wurde tatsächlich in der Novemberausgabe gebracht, siehe <rs type="citation" ref="#f1807-1">ab Seite 228 des dritten Bandes</rs></note>
+   </text>
+</TEI>

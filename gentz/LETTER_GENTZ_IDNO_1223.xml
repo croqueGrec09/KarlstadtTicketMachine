@@ -1,0 +1,394 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc xml:id="LETTER_GENTZ_1223">
+         <titleStmt>
+            <title>Friedrich von Gentz an Karl Gustav von Brinckmann, 11. August 1802</title>
+            <editor xml:id="edAG">Andreas Gálffy</editor>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <name>Forschungsstelle "Universitätssammlung Friedrich von Gentz"</name>
+               <link target="http://gentz-digital.ub.uni-koeln.de http://www.ub.uni-koeln.de/cdm/singleitem/collection/gentz/id/1222/"/>
+            </publisher>
+            <pubPlace>Cologne</pubPlace>
+            <idno type="Gentz-Edition-Number" n="1223"/>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <country>Sweden</country>
+                  <settlement>Trolle-Ljungby</settlement>
+                  <institution>Archiv des Grafen Wachtmeister</institution>
+                  <repository>Nachlaß Brinckmann, Ausländ. Briefwechsel, Gentz an von Brinckmann</repository>
+                  <idno>G 3</idno>
+               </msIdentifier>
+               <msContents>
+                  <summary>
+                     Der Aufenthalt in Wien hat Gentz sehr stark betrübt. Deshalb unterließ er es auch, an von Brinckmann zu 
+                     schreiben. Er beschreibt ausführlich, wie eintönig, langweilig und ausgestorben Wien bei Sommer ist. Als 
+                     Gegengewicht dazu erzählt er seine Erlebnisse im Hause Arnstein und seinen Irrtum in der Geringschätzung der 
+                     Juden, die er in Berlin kannte. Ausführlich beschreibt Gentz am Schluss des Briefes seine Empfindungen/Bild 
+                     von der bevorstehenden Hochzeit Henriettes.
+                  </summary>
+               </msContents>
+            </msDesc>
+            <listBibl type="preprints">
+               <biblStruct>
+                  <monogr>
+                     <editor>
+                        <persName>
+                           <ref target="http://d-nb.info/gnd/130953075"/>
+                           <forename>Friedrich Carl</forename>
+                           <surname>Wittichen</surname>
+                        </persName>
+                        <persName>
+                           <ref /> <!-- kein GND-Eintrag -->
+                           <forename>Ernst</forename>
+                           <surname>Salzer</surname>
+                        </persName>
+                     </editor>
+                     <title>Briefe von und an Friedrich von Gentz, 4 Bde.</title>
+                     <imprint>
+                        <publisher>Oldenbourg</publisher>
+                        <pubPlace>München, Berlin</pubPlace>
+                        <date>1909-1913</date>
+                     </imprint>
+                     <biblScope unit="volume" n="2">
+                        II
+                     </biblScope>
+                     <biblScope unit="page" from="96" to="99">
+                        Nr. 121
+                     </biblScope>
+                  </monogr>
+               </biblStruct>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Masterarbeit zu Matrikelnummer 5584124</p>
+         </projectDesc>
+      </encodingDesc>
+      <profileDesc>
+         <creation>
+            <date when-iso="1802-08-11">11. August 1802</date>
+         </creation>
+        <langUsage>
+           <language ident="d">deutsch</language>
+        </langUsage>
+         <textClass>
+            <keywords scheme="internal"><!-- internal: innerhalb des besagten Briefs -->
+               <term>Brief</term>
+               <term>Reise</term>
+               <term>Wien</term>
+               <term>Sommer</term>
+               <term>Arnstein</term>
+               <term>Henriette</term>
+               <term>Hochzeit</term>
+            </keywords>
+            <keywords scheme="categorisation"><!-- Sinnabschnittseinteilung - relevant für den Fahrkartenautomaten! -->
+               <term xml:id="vkgvb">Verhältnis Karl Gustav von Brinckmann</term>
+               <term xml:id="bezw">Beziehungen zu Wien</term>
+               <term xml:id="karn">Arnstein</term>
+               <term xml:id="bezbl">Beziehungen zu Berlin - Leute</term>
+            </keywords>
+         </textClass>
+         <textDesc>
+            <channel>manuscript</channel>
+            <constitution type="single"/>
+            <derivation type="original"/>
+            <domain type="private"/>
+            <factuality type="fact"/>
+            <interaction type="partial"/>
+            <preparedness type="unprepared"/>
+            <purpose type="inform"/>
+         </textDesc>
+         <particDesc>
+            <listPerson>
+               <!-- Sender und Adressat -->
+               <person role="sender" xml:id="Gen">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/118538489"/>
+                     <forename>Friedrich von</forename>
+                     <surname>Gentz</surname>
+                  </persName>
+               </person>
+               <person role="receiver" xml:id="KGvB">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/116519770"/>
+                     <forename>Carl Gustav von</forename>
+                     <surname>Brinckmann</surname>
+                  </persName>
+               </person>
+               <!-- erwähnte Personen -->
+               <person role="named" xml:id="AHM">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/118584790"/>
+                     <forename>Adam Heinrich</forename>
+                     <surname>Müller</surname>
+                  </persName>
+               </person>
+               <person role="named" xml:id="Sgsm">
+                  <persName>
+                     <ref />
+                     <forename>Sigismund</forename>
+                     <surname>Kurnatoswki</surname>
+                  </persName>
+               </person>
+               <person role="named" xml:id="FvA">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/118504347"/>
+                     <forename>Fanny von</forename>
+                     <surname>Arnstein</surname>
+                  </persName>
+               </person>
+               <person role="named" xml:id="HvArn">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/118809695"/>
+                     <forename>Henriette von</forename>
+                     <surname>Arnstein</surname>
+                  </persName>
+               </person>
+               <person role="named" xml:id="ChLv">
+                  <persName>
+                     <ref />
+                     <forename>Chaie</forename>
+                     <surname>Levin</surname>
+                  </persName>
+               </person>
+               <person role="named" xml:id="MmeE">
+                  <persName>
+                     <ref/>
+                     <forename/>
+                     <surname>Ephraim</surname>
+                     <roleName type="address">Madame</roleName>
+                  </persName>
+               </person>
+               <person role="named" xml:id="MmeEs">
+                  <persName>
+                     <ref/>
+                     <forename/>
+                     <surname>Esceles</surname>
+                     <roleName type="address">Madame</roleName>
+                  </persName>
+               </person>
+               <person role="named" xml:id="MFvE">
+                  <persName>
+                     <ref/>
+                     <forename>Marianne Freifrau von</forename>
+                     <surname>Eybenberg</surname>
+                  </persName>
+               </person>
+               <person role="named" xml:id="HvPArn">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/138742243"/>
+                     <forename>Heinrich von</forename>
+                     <surname>Pereira-Arnstein</surname>
+                  </persName>
+               </person>
+               <person role="named" xml:id="RVh">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/118626175"/>
+                     <forename>Rahel</forename>
+                     <surname>Varnhagen</surname>
+                  </persName>
+               </person>
+               <person role="named" xml:id="Sby">
+                  <persName>
+                     <ref/>
+                     <forename></forename>
+                     <surname>Selby</surname>
+                  </persName>
+               </person>
+               <person role="named" xml:id="Ptg">
+                  <persName>
+                     <ref/>
+                     <forename></forename>
+                     <surname>Pitag</surname>
+                  </persName>
+               </person>
+            </listPerson>
+         </particDesc>
+         <settingDesc>
+            <listPlace>
+               <!-- Start- und Zielort -->
+               <place type="sender" xml:id="plWi">
+                  <country>
+                     <ref target="http://d-nb.info/gnd/4075601-4"/>
+                     <placeName>Erzherzogtum Österreich</placeName>  
+                  </country>
+                  <settlement>
+                     <ref target="http://d-nb.info/gnd/4066009-6"/>
+                     <placeName>Wien</placeName>
+                  </settlement>
+               </place>
+               <place type="receiver" xml:id="plBe">
+                  <country>
+                     <ref target="http://d-nb.info/gnd/4047194-9"/>
+                     <placeName>Preußen</placeName>
+                  </country>
+                  <settlement>
+                     <ref target="http://d-nb.info/gnd/4005728-8"/>
+                     <placeName>Berlin</placeName>
+                  </settlement>
+               </place>
+               <!-- erwähnte Orte -->
+               <place type="named" xml:id="plDd">
+                  <country>
+                     <ref target="http://d-nb.info/gnd/4051176-5"/>
+                     <placeName>Sachsen</placeName>
+                  </country>
+                  <settlement>
+                     <ref target="http://d-nb.info/gnd/4012995-0"/>
+                     <placeName>Dresden</placeName>
+                  </settlement>
+               </place>
+               <place type="named" xml:id="plTp">
+                  <country>
+                     <ref target="http://d-nb.info/gnd/4007467-5"/>
+                     <placeName>Böhmen</placeName>
+                  </country>
+                  <settlement>
+                     <ref target="http://d-nb.info/gnd/4059481-6"/>
+                     <placeName>Teplitz</placeName>
+                  </settlement>
+               </place>
+               <place type="named" xml:id="plPg">
+                  <country>
+                     <ref target="http://d-nb.info/gnd/4007467-5"/>
+                     <placeName>Böhmen</placeName>
+                  </country>
+                  <settlement>
+                     <ref target="http://d-nb.info/gnd/4076310-9"/>
+                     <placeName>Prag</placeName>
+                  </settlement>
+               </place>
+            </listPlace>
+         </settingDesc>
+      </profileDesc>
+      <revisionDesc>
+         <change xml:id="init" when-iso="2018-03-11" who="#edAG">Erstauszeichnung und Normierung des Dokumentes im Rahmen der Masterarbeit der Matrikelnummer 5584124</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <opener>
+            <dateline rend="right"><rs type="place" ref="#plWi">Wien</rs> den <date when-iso="1802-08-11">11<span rend="sup">ten</span> August. 1802</date>.</dateline>
+         </opener>
+         <div n="1" corresp="#vkgvb">
+            <p>
+               Ich hoffe, mein lieber Brinkmann, daß Sie während meines Aufenthalts in <rs type="place" ref="#plDd">Dresden</rs>, 
+               <rs type="place" ref="#plTp">Töplitz</rs> und <rs type="place" ref="#plPg">Prag</rs> oft von mir gehört haben werden. 
+               Wenigstens habe ich nie unterlaßen, Grüße und Bestellungen für Sie an <rs type="person" ref="#AHM">Müller</rs> und 
+               <rs type="person" ref="#Sgsm">Kurnatowski</rs>, die mehrere Briefe von mir erhalten haben müßen, gelangen zu laßen. 
+               Wenn Sie aber, seitdem ich in <rs type="place" ref="#plWi"><emph rend="underlined">Wien</emph></rs> bin, nichts von 
+               mir hörten, so schreiben Sie es nur nicht etwa dem Uebermaß von Genuß zu, welches mich gegen alle entferntern 
+               Verhältnisse betäubte, sondern vielmehr einem gewißen tödtlichen <emph rend="underlined">Marasmus</emph>, in welchen 
+               mich - das Uebermaß der <emph rend="underlined">Unzufriedenheit</emph>, der 
+               <emph rend="underlined">Langeweile</emph>, und der <emph rend="underlined">bösen Laune</emph> geworfen hat.
+            </p>
+         </div>
+         <div n="2" corresp="#bezw">
+            <p>
+               Wenn Sie je die Lust anwandeln sollte, nach <rs type="place" ref="#plWi">Wien</rs> zu reisen, so warne ich Sie 
+               nachdrücklichst - reisen Sie nicht im Sommer nach <rs type="place" ref="#plWi">Wien</rs>. Es ist der unangenehmste 
+               Aufenthalt, den es nur irgendwo geben kan. Sie mögen, ausgerüstet mit welchen Empfehlungen es nur immer sey, hier 
+               erscheinen, Sie sind verdammt, vor Langeweile zu Grunde zu gehen. Alle große Häuser sind leer; was nur nicht mit 
+               eisernen Banden an die Stadt gefesselt ist, wohnt auf dem Lande, und großentheils weit, uner<pb/>reichbar weit von 
+               <rs type="place" ref="#plWi">Wien</rs>. Das wenige, was zurückblieb, hält seine Häuser hermetisch verschlossen, und 
+               sieht jeden Besuch, oder besser, Versuch eines Besuches, den ein Fremder tentirt, comme non-avenu an. Kurz, man läßt 
+               Sie mit der drückenden Hitze in dieser engen, klösterlich-verbauten Stadt, mit ihrem permanenten Gestanke, mit ihrem 
+               beispiellosen Staube, mit ihrem schlechten ungenießbaren Essen, mit ihren 800 Fiakers, und ihren 30,000 Badauds mit 
+               dem - nichts weniger als lustigen - Prater und seinen <emph rend="underlined">gebacknen Hähneln</emph>, mit drei oder 
+               vier mittelmäßigen Theatern, bis zum Eckel abscheulichen Caffeehäusern, und etlichen tausend trivialen, grunddummen, 
+               frostigen, durchaus-unbrauchbaren Freudenmädchen - <emph rend="underlined">allein</emph>.
+            </p>
+            <p>
+               Daß dies Gemälde nichts weniger als übertrieben ist, dafür bürge Ihnen - zuvörderst das äußerst günstige Vorurtheil, 
+               mit welchem ich nach <rs type="place" ref="#plWi">Wien</rs> kam - ferner, das besondre und ausgezeichnete Glück, 
+               welches mir (vor tausend andern) eine reinliche, elegante und höchst bequeme Wohnung in der besten Gegend der Stadt, 
+               den beständigen <pb/> Gebrauch einer sehr guten Equipage, und <del rend="stroked">xxx</del> viele andre kleine 
+               häusliche Comforts zuführte - das nicht weniger außerordentliche Glück, welches mich wenigstens 
+               <add place="above">mit</add> allem, was es nur irgend von interessanten <emph rend="underlined">Männern</emph> hier 
+               giebt (denn die Kunst an die <emph rend="underlined">Weiber</emph> zu gelangen, habe ich noch nicht entdecken können) 
+               ohne Schwierigkeit bekannt werden ließ - endlich, und vor allen Dingen, der nicht genug zu preisende Vortheil meiner 
+               Verbindung mit dem Arnsteinerschen Hause. Wenn <emph rend="underlined">ich</emph> <del rend="stroked">Ihnen</del>, 
+               trotz aller dieser glücklichen Conjunkturen, Ihnen sage, daß <rs type="place" ref="#plWi">Wien</rs> im Sommer ein 
+               widriger Aufenthalt ist (meine <emph rend="underlined">Conjekturen</emph> über <rs type="place" ref="#plWi">Wien</rs> 
+               im <emph rend="underlined">Winter</emph> mündlich !) so können Sie glauben, daß es Wahrheit seyn muß.
+            </p>
+         </div>
+         <div n="3" corresp="#karn">
+            <p>
+               Das Arnsteinersche Haus - denn in diesem, und nur in diesem concentrirt sich schlechthin alles, was für mich den 
+               Unannehmlichkeiten <rs type="place" ref="#plWi">Wien</rs>s noch einigermaßen das Gegengewicht hält - das 
+               Arnsteinersche Haus ist die gröste, und gewißermaßen die einzige Ressource aller hier ankommenden Fremden, und eine 
+               unschätzbare für die, welche, wie ich, durch ältre Bekanntschaft, Verbindungen mit 
+               <rs type="place" ref="#plBe">Berlin</rs>, und eben die Juden-Verhältnisse, die wir, mein lieber Brinkmann so oft 
+               geringgeschätzt haben, und die ich jetzt <pb/> täglich im Staube verehre, einen nähern Anspruch auf Dienstleistungen 
+               und Freundschaftsbezeugungen erwerben. Wie wohl war mir, als ich hier auf einem Punkte, außer Ihrer liebenswürdigen 
+               Freundin <rs type="person" ref="#HvArn">Henriette</rs>, und ihrer 
+               <rs type="person" ref="#FvA">treflichen Mutter</rs>, auch noch <rs type="person" ref="#ChLv">Madame Levi</rs>, die 
+               ich immer liebte und schätzte, <rs type="person" ref="#MmeE">Madame Ephraim</rs>, die ich - zu meiner ewigen Schande 
+               gesagt - nie eines Blickes würdigte, und <add place="above">in</add> der ich eine der interessantesten Frauen finde 
+               die ich je gesehen habe, - <rs type="person" ref="#MmeEs">Madame Esceles</rs>, über welche ich 
+               <emph rend="underlined">Sie</emph> oft verspottete, und die ich jetzt zu schätzen weiß - 
+               <rs type="person" ref="#MFvE">Frau von Eybenberg</rs>, die <emph rend="underlined">hier</emph> mein Trost, meine 
+               Freundin, meine Stütze ist, als ich neben allen diesen geistreichen, gutmüthigen, in jeder Rüksicht preiswürdigen 
+               Weibern, noch alles was nur <rs type="place" ref="#plWi">Wien</rs> lebendiges, umgängliches und erträgliches 
+               enthielt, vereinigt erblickte ! Dies Haus ist in mehr als einem Sinne des Wortes eine kleine Welt. Ohne dasselbe wäre 
+               ich schon wieder weit von <rs type="place" ref="#plWi">Wien</rs>; mit demselben kan man, wie fatal auch alles übrige 
+               seyn mag, nicht leicht gänzlich verzagen oder zu Grunde gehen.
+            </p>
+         </div>
+         <div n="4" corresp="#bezbl">
+            <p>
+               Jetzt haben Sie, theuerster Freund, die erste Skizze der Darstellung von <rs type="place" ref="#plWi">Wien</rs>, die 
+               ich Ihnen nach meiner Zurückkunft mit vollständigern Zügen, <pb/> und lebhaftern Farben zu entwerfen gedenke. Ihnen 
+               jetzt ein Mehreres zu sagen, wäre nicht einmal <emph rend="underlined">rathsam</emph>, wenn ich auch die Lust dazu 
+               hätte. Nur über Einen Punkt muß ich noch ein Paar Worte sprechen, weil ich weiß, daß er 
+               <emph rend="underlined">Sie</emph> besonders interessirt: Sie sind gewiß neugierig darauf, was ich von 
+               <rs type="person" ref="#HvArn">Henriette</rs>ns Heirath denke, die übrigens vor Ende dieses Monats 
+               <emph rend="underlined">gewiß</emph> vollzogen wird. Hier haben Sie es. <rs type="person" ref="#HvPArn">Pereyra</rs> 
+               ist ein ganz gewöhnlicher Mensch, eher häßlich als hübsch, eher dumm als klug, und ohne irgend eine hervorstechende 
+               Eigenschaft, es sey der Person, des Gesprächs, oder des Charakters. Dagegen ist er reich, äußerst anständig, und 
+               Gentlemanlike in seinem Wesen, in seinem Betragen, in seiner ganzen Lebensweise, hat durchaus nichts Jüdisches in 
+               Rede und Manier (wohl aber im Gesicht), und besitzt, wie <emph rend="underlined">ich</emph> vollkommen überzeugt bin, 
+               eine sehr große Gutmüthigkeit und Sanftmuth und Gleichheit und Freundlichkeit im nähern Umgange. Eigentlich scheint 
+               mir die ganze Familie mit dieser Heirath, die bloß auf <rs type="person" ref="#HvArn">Henriette</rs>ns freier Wahl 
+               beruht, unzufrieden zu seyn; denn ich habe sie von mehrern bestimmt angreifen, und noch von keinem bestimmt 
+               verteidigen hören. <pb/> Ich glaube aber, daß <rs type="person" ref="#HvArn">Henriette</rs> ihre guten Gründe bei 
+               dieser Wahl gehabt haben muß; Leidenschaft gab sie nicht ein; eine Person von so vielem Verstande, und von so vieler 
+               Vernunft weiß sicher, sobald keine Leidenschaft im Spiele ist, was sie will, und was sie thut; und daher habe ich 
+               mich unbedingt <emph rend="underlined">für</emph> <rs type="person" ref="#HvPArn">Pereyra</rs> erklärt, der mir auch 
+               übrigens gar nicht mißfällt, unter den gewöhnlichen Bewerbern um dies Kleinod gewiß einer der besten, und auf alle 
+               Fälle <emph rend="underlined">viel</emph> besser als <rs type="person" ref="#Sby">Selby</rs> ist. - Aber einen andern 
+               habe ich hier kennen gelernt, von dem ich schwerer begreife, wie sie ihn ausschlagen konnte; von diesem erzähle ich 
+               Ihnen mündlich.
+            </p>
+         </div>
+         <div n="5" corresp="#vkgvb">
+            <p>
+               Ich bleibe wahrscheinlich nicht länger als bis Ende dieses Monats in <rs type="place" ref="#plWi">Wien</rs>, und 
+               halte mich vermuthlich nachher noch 14 Tage in <rs type="place" ref="#plTp">Töplitz</rs> und 
+               <rs type="place" ref="#plDd">Dresden</rs> auf. Wenn Sie mir ein Paar Zeilen schreiben wollen, so laßen Sie sie nur an 
+               <rs type="person" ref="#Ptg">Pitag</rs>, in der Kronenstraße Nro. 36 abgeben. Grüßen Sie Humboldts aufs 
+               freundschaftlichste, herzlichste zärtlichste von mir; auch der <rs type="person" ref="#RVh">kleinen Levi</rs> sagen 
+               Sie, daß ich täglich und stündlich ihrer gedenke, und daß kein Tag vergeht, wo ich nicht 
+               <emph rend="underlined">viel</emph> von ihr spreche.
+            </p>
+            <p>
+               Adieu, lieber Brinkmann; erlauben Sie mir, daß ich fortdauernd und immerwährend, auf Ihre alte, erprobte, und äußerst 
+               theure und werthe Freundschaft rechne
+            </p>
+         </div>
+         <closer>
+            <signed rend="right">Gentz.</signed>
+         </closer>
+      </body>
+   </text>
+</TEI>

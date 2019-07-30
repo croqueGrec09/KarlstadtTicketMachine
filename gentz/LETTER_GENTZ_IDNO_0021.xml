@@ -1,0 +1,246 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc xml:id="LETTER_GENTZ_0021">
+         <titleStmt>
+            <title>Friedrich von Gentz an Friedrich Vieweg, 5. Oktober 1799</title>
+            <editor xml:id="edAG">Andreas Gálffy</editor>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <name>Forschungsstelle "Universitätssammlung Friedrich von Gentz"</name>
+               <link target="http://gentz-digital.ub.uni-koeln.de http://www.ub.uni-koeln.de/cdm/singleitem/collection/gentz/id/20/"/>
+            </publisher>
+            <pubPlace>Cologne</pubPlace>
+            <idno type="Gentz-Edition-Number" n="0021"/>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <country>Germany</country>
+                  <settlement>Wiesbaden</settlement>
+                  <institution>Vieweg-Verlagsarchiv</institution>
+                  <repository>Briefsammlung 311 G: Gentz-Brief</repository>
+                  <idno>Nr. 94</idno>
+               </msIdentifier>
+               <msContents>
+                  <summary>
+                     Das September- und Oktoberstück des Journals hat Gentz viel Arbeit abverlangt. Mit der Oktoberausgabe des 
+                     Historischen Journals kommt auch die Fortsetzung eines Manuskripts. Leider ist Viewegs Rückkehr ungewiss, 
+                     sodass wichtige Besprechungen ausbleiben könnten. Gilly ringt mit dem Tod.
+                  </summary>
+               </msContents>
+            </msDesc>
+            <listBibl type="letterReferenced">
+               <bibl xml:id="c0021-1" corresp="#LETTER_GENTZ_0417">Friedrich von Gentz an Friedrich Vieweg, 8. September 1799</bibl>
+            </listBibl>
+            <listBibl type="defRep">
+               <biblStruct xml:id="p0021-1" corresp="#LETTER_GENTZ_NNNN">
+                  <monogr>
+                     <author>
+                        <persName>
+                           <ref target="http://d-nb.info/gnd/118538489"/>
+                           <forename>Friedrich von</forename>
+                           <surname>Gentz</surname>
+                        </persName>
+                     </author>
+                     <title>Taschenbuch für 1799. Maria Stuart von Friedrich Gentz. Die Rache von August Lafontaine.</title>
+                     <imprint>
+                        <pubPlace>Berlin</pubPlace>
+                        <publisher>Friedrich Vieweg der Ältere</publisher>
+                        <date>1798</date>
+                     </imprint>
+                  </monogr>
+                  <ptr target="#LETTER_GENTZ_NNNN"/>
+               </biblStruct>
+               <biblStruct xml:id="p0021-2" corresp="GBk-0050">
+                  <monogr>
+                     <editor>
+                        <persName>
+                           <ref target="http://d-nb.info/gnd/118538489"/>
+                           <forename>Friedrich von</forename>
+                           <surname>Gentz</surname>
+                        </persName>
+                     </editor>
+                     <title>Historisches Journal</title>
+                     <imprint>
+                        <publisher>Friedrich Vieweg dem ältern</publisher>
+                        <pubPlace>Berlin</pubPlace>
+                        <date>1799</date>
+                     </imprint>
+                  </monogr>
+                  <ptr target="https://books.google.de/books?id=ohR5B41qdy4C"/>
+               </biblStruct>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Masterarbeit zu Matrikelnummer 5584124</p>
+         </projectDesc>
+      </encodingDesc>
+      <profileDesc>
+         <creation>
+            <date when-iso="1799-10-05">5. Oktober 1799</date>
+         </creation>
+        <langUsage>
+           <language ident="d">deutsch</language>
+        </langUsage>
+         <textClass>
+            <keywords scheme="internal"><!-- internal: innerhalb des besagten Briefs -->
+               <term>Brief</term>
+               <term>Journal historique</term>
+               <term>Treffen</term>
+               <term>Gilly</term>
+            </keywords>
+            <keywords scheme="categorisation"><!-- Sinnabschnittseinteilung - relevant für den Fahrkartenautomaten! -->
+               <term xml:id="jrnh">Historisches Journal</term>
+               <term xml:id="vwf">Vieweg - Freundschaft</term>
+               <term xml:id="kgil">Gilly</term>
+            </keywords>
+         </textClass>
+         <textDesc>
+            <channel>manuscript</channel>
+            <constitution type="single"/>
+            <derivation type="original"/>
+            <domain type="private"/>
+            <factuality type="fact"/>
+            <interaction type="partial"/>
+            <preparedness type="unprepared"/>
+            <purpose type="inform"/>
+         </textDesc>
+         <particDesc>
+            <listPerson>
+               <!-- Sender und Adressat -->
+               <person role="sender" xml:id="Gen">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/118538489"/>
+                     <forename>Friedrich von</forename>
+                     <surname>Gentz</surname>
+                  </persName>
+               </person>
+               <person role="receiver" xml:id="FVW">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/119049546"/>
+                     <forename>Friedrich</forename>
+                     <surname>Vieweg</surname>
+                  </persName>
+               </person>
+               <!-- erwähnte Personen -->
+               <person role="receiver" xml:id="JdlG">
+                  <persName>
+                     <ref />
+                     <forename>Jean de</forename>
+                     <surname>la Garde</surname>
+                  </persName>
+               </person>
+               <person role="named" xml:id="FGil">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/118539345"/>
+                     <forename>Friedrich</forename>
+                     <surname>Gilly</surname>
+                  </persName>
+               </person>
+            </listPerson>
+         </particDesc>
+         <settingDesc>
+            <listPlace>
+               <!-- Start- und Zielort -->
+               <place type="sender" xml:id="plSb">
+                  <country>
+                     <ref target="http://d-nb.info/gnd/4047194-9"/>
+                     <placeName>Preußen</placeName>
+                  </country>
+                  <settlement>
+                     <ref target="http://d-nb.info/gnd/116944-0"/>
+                     <placeName>Schöneberg</placeName>
+                  </settlement>
+               </place>
+               <place type="receiver" xml:id="plBs">
+                  <country>
+                     <ref target="http://d-nb.info/gnd/4089993-7"/>
+                     <placeName>Staat Wolfenbüttel</placeName>
+                  </country>
+                  <settlement>
+                     <ref target="http://d-nb.info/gnd/4008065-1"/>
+                     <placeName>Braunschweig</placeName>
+                  </settlement>
+               </place>
+               <!-- erwähnte Orte -->
+               <place type="named" xml:id="plBe">
+                  <country>
+                     <ref target="http://d-nb.info/gnd/4047194-9"/>
+                     <placeName>Preußen</placeName>
+                  </country>
+                  <settlement>
+                     <ref target="http://d-nb.info/gnd/4005728-8"/>
+                     <placeName>Berlin</placeName>
+                  </settlement>
+               </place>
+            </listPlace>
+         </settingDesc>
+      </profileDesc>
+      <revisionDesc>
+         <change xml:id="init" when-iso="2018-03-04" who="#edAG">Erstauszeichnung und Normierung des Dokumentes im Rahmen der Masterarbeit der Matrikelnummer 5584124</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div n="1" corresp="#jrnh">
+            <p>
+               Es versteht sich von selbst, mein theurer Freund, daß ich Sie jetzt nicht mit dem 
+               <rs type="citation" ref="#p0021-1">Kalender</rs> im Stiche laßen werde. Sie erhalten mit dem 
+               <rs type="citation" ref="#p0021-2">Oktober des Journals</rs> die Fortsetzung des 
+               <ref target="#r0021-4">Manuskripts</ref>; und wenn ich Ihnen gleich nicht den <emph rend="underlined">ganzen</emph> 
+               Rest schicke, so erfolgt doch dieser unfehlbar nur 3 oder 4 Tage später: ich gehe nicht wieder von der Arbeit ab. Sie 
+               werden wohl Selbst bemerkt haben, welche Zeit und Mühe mich das September- und Oktober-Stück gekostet haben muß, und 
+               also meine Entschuldigung über das längre Ausbleiben jenes Manuskripts freundschaftlich antizipiren.
+            </p>
+         </div>
+         <div n="2" corresp="#vwf">
+            <p>
+               <rs type="person" ref="#JdlG">Lagarde</rs> macht mir bange, daß Ihre Herkunft nach der Messe noch ungewiß sey. Dies 
+               wäre in der That eine fatale Begebenheit für mich, da ich über viele höchst wichtige, selbst für die Fortsetzung und 
+               den Flor unsrer Unternehmung wichtige Gegenstände mit Ihnen zu sprechen wünsche und nothwendig sprechen muß. Thun Sie 
+               mir, wenn nicht überwiegende Hindernisse vorwalten, ein solches Herzeleid nicht an ! Und in jedem Falle 
+               benachrichtigen Sie mich bald, ob die Besorgniß, Sie nicht in <rs type="place" ref="#plBe">Berlin</rs> zu sehen, 
+               gegründet ist. - 
+            </p>
+         </div>
+         <div n="3" corresp="#kgil">
+            <p>
+               Ich verlaße <date when-iso="1799-10-06">Morgen</date> <rs type="place" ref="#plSb">Schöneberg</rs>, wo ich vielleicht 
+               noch 14 Tage ausgehalten hätte, wenn die Kälte mich nicht vertriebe. In unsrer Familie herrscht seit einiger Zeit 
+               eine dumpfe verschlossne, aber darum nicht weniger reelle Betrübniß, weil wir unsern 
+               <rs type="person" ref="#FGil">Gilly</rs> an einer fatalen chronischen Krankheit laboriren, und, fast mögte ich sagen, 
+               dahin schwinden sehen. Das Uebel scheint seinen Sitz in der Leber zu haben. Sie wißen, wie die bloße Möglichkeit 
+               dieses Schlages auf uns wirken muß. Gott gebe Ihnen frohe Tage ! Sie scheinen aber auch nicht so zufrieden und 
+               glücklich zu seyn, als Sie es sollten und müßten, und als es mit großer und inniger Theilnahme wünscht
+            </p>
+         </div>
+         <closer>
+            <salute rend="right">Ihr treuer Freund</salute>
+            <dateline rend="left">den <date when-iso="1799-10-05">5 Oktober 99</date>.</dateline>
+            <signed rend="right">Gentz.</signed>
+         </closer>
+      </body>
+      <back>
+         <p resp="otherHand">
+            Herrn
+            Buchhändler Vieweg
+            Wohlgebohren.
+         </p>
+         <p resp="#FVW">
+            <rs type="place" ref="#plBe">Berlin</rs> d <date when-iso="1799-10-05">5<span rend="sup">ten</span> Octbr 1799</date>.
+            H Kr. Rth Gentz
+         </p>
+      </back>
+      <note xml:id="r0021-1">Seite 4 von fremder Hand</note>
+      <note xml:id="r0021-2">Seite 4 von Viewegs Hand</note>
+      <note xml:id="r0021-3">Seite 4: Siegelreste</note>
+      <note resp="#edAG" xml:id="r0021-4">Vgl. den <rs type="citation" ref="#c0021-1">Brief vom 8. September 1799</rs></note>
+   </text>
+</TEI>

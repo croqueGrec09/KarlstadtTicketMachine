@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc xml:id="LETTER_GENTZ_4957">
+         <titleStmt>
+            <title>Friedrich von Gentz an Friedrich Vieweg, 22. Juni 1798</title>
+            <editor xml:id="edAG">Andreas Gálffy</editor>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <name>Forschungsstelle "Universitätssammlung Friedrich von Gentz"</name>
+               <link target="http://gentz-digital.ub.uni-koeln.de http://www.ub.uni-koeln.de/cdm/singleitem/collection/gentz/id/4956/"/>
+            </publisher>
+            <pubPlace>Cologne</pubPlace>
+            <idno type="Gentz-Edition-Number" n="4957"/>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <country>Germany</country>
+                  <settlement>Wiesbaden</settlement>
+                  <institution>Vieweg-Verlagsarchiv</institution>
+                  <repository>Briefsammlung 311 G, Gentz-Briefe</repository>
+                  <idno>Nr. 81</idno>
+               </msIdentifier>
+               <msContents>
+                  <summary>
+                     Es geht um Verhandlungen über Zahlungstermine. Gentz hat, um Dinge mit seinem Vater zu klären, Rechnungen 
+                     einbehalten. Das Verhältnis zwischen Vieweg und Gentz ist klar, aber belastet.
+                  </summary>
+               </msContents>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Masterarbeit zu Matrikelnummer 5584124</p>
+         </projectDesc>
+      </encodingDesc>
+      <profileDesc>
+         <creation>
+            <date when-iso="1798-06-22">22. Juni 1798</date>
+         </creation>
+        <langUsage>
+           <language ident="d">deutsch</language>
+        </langUsage>
+         <textClass>
+            <keywords scheme="internal"><!-- internal: innerhalb des besagten Briefs -->
+               <term>Brief</term>
+               <term>Schulden</term>
+            </keywords>
+            <keywords scheme="categorisation"><!-- Sinnabschnittseinteilung - relevant für den Fahrkartenautomaten! -->
+               <term xml:id="gprl">Gentz - p(r)ekuniäre Lage</term>
+            </keywords>
+         </textClass>
+         <textDesc>
+            <channel>manuscript</channel>
+            <constitution type="single"/>
+            <derivation type="original"/>
+            <domain type="private"/>
+            <factuality type="fact"/>
+            <interaction type="partial"/>
+            <preparedness type="prepared"/>
+            <purpose type="inform"/>
+         </textDesc>
+         <particDesc>
+            <listPerson>
+               <!-- Sender und Adressat -->
+               <person role="sender" xml:id="Gen">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/118538489"/>
+                     <forename>Friedrich von</forename>
+                     <surname>Gentz</surname>
+                  </persName>
+               </person>
+               <person role="receiver" xml:id="FVW">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/119049546"/>
+                     <forename>Friedrich</forename>
+                     <surname>Vieweg</surname>
+                  </persName>
+               </person>
+               <!-- erwähnte Personen -->
+               <person role="named" xml:id="JFG">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/136428983"/>
+                     <forename>Johann Friedrich</forename>
+                     <surname>Gentze</surname>
+                  </persName>
+               </person>
+            </listPerson>
+         </particDesc>
+         <settingDesc>
+            <listPlace>
+               <!-- Start- und Zielort -->
+               <place type="sender" xml:id="plSb">
+                  <country>
+                     <ref target="http://d-nb.info/gnd/4047194-9"/>
+                     <placeName>Preußen</placeName>
+                  </country>
+                  <settlement>
+                     <ref target="http://d-nb.info/gnd/116944-0"/>
+                     <placeName>Schöneberg</placeName>
+                  </settlement>
+               </place>
+               <place type="receiver" xml:id="plBe">
+                  <country>
+                     <ref target="http://d-nb.info/gnd/4047194-9"/>
+                     <placeName>Preußen</placeName>
+                  </country>
+                  <settlement>
+                     <ref target="http://d-nb.info/gnd/4005728-8"/>
+                     <placeName>Berlin</placeName>
+                  </settlement>
+               </place>
+               <!-- erwähnte Orte -->
+            </listPlace>
+         </settingDesc>
+      </profileDesc>
+      <revisionDesc>
+         <change xml:id="init" when-iso="2018-03-02" who="#edAG">Erstauszeichnung und Normierung des Dokumentes im Rahmen der Masterarbeit der Matrikelnummer 5584124</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div n="1" corresp="#gprl">
+            <p>
+               Ich habe gegen Ihre Berechnung von meiner Seite nicht das Geringste einzuwenden, so wenig mir auch das Resultat 
+               derselben erfreulich seyn mag, und so sehr <del rend="stroked">ich</del> es mich schmerzt, zugleich mit diesem 
+               Resultat die unangenehme Nachricht zu vernehmen, daß Sie bey allen durch mich veranlaßten Entreprisen beträchtlichen 
+               Schaden leiden.
+            </p>
+            <p>
+               Da Sie mir in Ansehung der Termine zur Abtragung meiner Schuld durchaus keinen Vorschlag gemacht haben, so muß ich 
+               <add place="above">mich</add> darüber mit Ihnen noch besprechen. Vorher aber ist ein andrer Punkt zu berichtigen, 
+               dessen ich neulich schon gegen Sie erwähnte. <rs type="person" ref="#JFG">Mein Vater</rs> hoffte und erwartete, 
+               wenigstens den Betrag der 4 zuletzt erhobnen Quittungen ohne Abzug zu erhalten. Dies ist nach Ihrer Berechnung nicht 
+               der Fall. Um Sie nun nicht einer unangenehmen Correspondenz oder gar mündlichen Verhandlung mit ihm auszusetzen, muß 
+               ich es übernehmen, ihm die Sache vorzutragen. Zu diesem Ende habe ich beide Rechnungen zurück behalten, und werde 
+               Ihnen die für meinen <pb/> <rs type="person" ref="#JFG">Vater</rs> bestimmte nur dann zurück geben, wenn ich vorher 
+               mit ihm alle Bedenklichkeiten aus dem Wege geräumt habe. Dies kan, weil ich <add place="above">in</add> einer äußerst 
+               wichtigen Arbeit begriffen bin, nicht eher als auf den <date when-iso="1798-06-24">nächsten Sonntag</date> geschehen, 
+               an welchem Tage ich unmittelbar von <rs type="person" ref="#JFG">meinem Vater</rs> zu Ihnen kommen, und das Weitre 
+               mit Ihnen verabreden werde. Ich bin übrigens froh, daß ich nun doch mit Ihnen in ein klares, wenn auch nicht für 
+               mich sehr tröstliches Verhältniß trete, und denke, es soll in Zukunft besser gehen.
+            </p>
+         </div>
+         <closer>
+            <signed rend="right">Gentz.</signed>
+            <dateline rend="right"><rs type="place" ref="#plSb">Schöneberg</rs> den <date when-iso="1798-06-22">22<span rend="sup">ten</span> Juny 98</date>.</dateline>
+         </closer>
+      </body>
+      <back>
+         <p>
+            Des
+            Herrn Buchhändler Vieweg
+            Wohlgebohren
+         </p>
+      </back>
+      <note xml:id="r4957-1">Adr. S. 4: </note>
+      <note xml:id="r4957-2">S. 4: Reste des Privatsiegels von Gentz</note>
+   </text>
+</TEI>

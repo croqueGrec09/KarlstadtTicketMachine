@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader type="text">
+      <fileDesc xml:id="LETTER_GENTZ_0875">
+         <titleStmt>
+            <title>Friedrich von Gentz an Heinrich Julius von Goldbeck, 14. Dezember 1796</title>
+            <editor xml:id="edAG">Andreas Gálffy</editor>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <name>Forschungsstelle "Universitätssammlung Friedrich von Gentz"</name>
+               <link target="http://gentz-digital.ub.uni-koeln.de http://www.ub.uni-koeln.de/cdm/singleitem/collection/gentz/id/874/"/>
+            </publisher>
+            <pubPlace>Cologne</pubPlace>
+            <idno type="Gentz-Edition-Number" n="0875"/>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <country>Germany</country>
+                  <settlement>Berlin</settlement>
+                  <institution>Geheimes Staatsarchiv Preußischer Kulturbesitz</institution>
+                  <repository>I. HA, Rep. 9</repository>
+                  <collection>Allgemeine Verwaltung, Y 2, Fasz. Nr. 252</collection>
+                  <idno>Br. 2-2v</idno>
+               </msIdentifier>
+               <msContents>
+                  <summary>
+                     Die Schulden sind erdrückend und es sind viele Zahlungsbefehle ergangen. Manche Schuldner sind kurz davor, 
+                     ebenfalls Exekutionsverfügungen zu besorgen. Gentz bittet darum, alle Verfügungen zu stoppen und keine neuen 
+                     mehr ausstellen zu lassen.
+                  </summary>
+               </msContents>
+            </msDesc>
+            <listBibl type="letterReferenced">
+               <bibl xml:id="c0875-1" corresp="#LETTER_GENTZ_2401">Friedrich von Gentz an Heinrich Julius von Goldbeck, 14. Dezember 1796</bibl>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Masterarbeit zu Matrikelnummer 5584124</p>
+         </projectDesc>
+      </encodingDesc>
+      <profileDesc>
+         <creation>
+            <date when-iso="1796-12-14">14. Dezember 1796</date>
+         </creation>
+        <langUsage>
+           <language ident="d">deutsch</language>
+        </langUsage>
+         <textClass>
+            <keywords scheme="internal"><!-- internal: innerhalb des besagten Briefs -->
+               <term>Brief</term>
+               <term>Offenbarungseid</term>
+               <term>Exekution</term>
+            </keywords>
+            <keywords scheme="categorisation"><!-- Sinnabschnittseinteilung - relevant für den Fahrkartenautomaten! -->
+               <term xml:id="gprl">Gentz - p(r)ekuniäre Lage</term>
+            </keywords>
+         </textClass>
+         <textDesc>
+            <channel>manuscript</channel>
+            <constitution type="single"/>
+            <derivation type="original"/>
+            <domain type="private"/>
+            <factuality type="fact"/>
+            <interaction type="partial"/>
+            <preparedness type="prepared"/>
+            <purpose type="inform"/>
+         </textDesc>
+         <particDesc>
+            <listPerson>
+               <!-- Sender und Adressat -->
+               <person role="sender" xml:id="Gen">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/118538489"/>
+                     <forename>Friedrich von</forename>
+                     <surname>Gentz</surname>
+                  </persName>
+               </person>
+               <person role="receiver" xml:id="HJG">
+                  <persName>
+                     <ref/>
+                     <forename>Heinrich Julius</forename>
+                     <surname>Goldbeck</surname>
+                  </persName>
+               </person>
+               <!-- erwähnte Personen -->
+            </listPerson>
+         </particDesc>
+         <settingDesc>
+            <listPlace>
+               <!-- Start- und Zielort -->
+               <place type="sender" xml:id="plBe">
+                  <country>
+                     <ref target="http://d-nb.info/gnd/4047194-9"/>
+                     <placeName>Preußen</placeName>
+                  </country>
+                  <settlement>
+                     <ref target="http://d-nb.info/gnd/4005728-8"/>
+                     <placeName>Berlin</placeName>
+                  </settlement>
+               </place>
+               <!-- erwähnte Orte -->
+            </listPlace>
+         </settingDesc>
+      </profileDesc>
+      <revisionDesc>
+         <change xml:id="init" when-iso="2018-02-19" who="#edAG">Erstauszeichnung und Normierung des Dokumentes im Rahmen der Masterarbeit der Matrikelnummer 5584124</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <figure rend="left">
+         <desc>Stempel</desc>
+      </figure>
+      <figure rend="right">
+         <desc>Stempel</desc>
+      </figure>
+      <body>
+         <opener>
+            <salute rend="left">Hochwohlgebohrner Herr Freyherr !</salute>
+            <salute rend="left">Höchstgebietender Herr Groß-Kanzler und wirklicher</salute>
+            <salute rend="left">Geheimer Staats- und Justitz-Minister !</salute>
+         </opener>
+         <div n="1" corresp="#gprl">
+            <p>
+               Das Zudringen meiner Gläubiger hat mich in die Nothwendigkeit versetzt, in beyliegender Vorstellung auf die p 
+               Rechtswohlthat der Vermögens-Abtretung bey dem Königlichen Cammer-Gericht anzutragen. Ich glaube, dieses Gesuch 
+               dergestalt begründet zu haben, daß ich im Ganzen auf Bewilligung desselben wohl rechnen darf; nun ist ein Umstand im 
+               Spiele, der mich um den Genuß dieser Wohlthat, und um meine ganze zeitliche Glückseligkeit bringen kan, wenn ich 
+               nicht durch höhere Hülfe aufrecht gehalten werde. Verschiedne meiner Gläubiger haben entweder schon 
+               Executions-Verfügungen wider mich in Händen, oder sind im Stande, sie jeden Augenblick zu extrahiren.
+            </p>
+            <p>
+               Ewr. Hochfreyherrlichen Excellentz Gnade wage ich in dieser mißlichen Lage unterthänigst anzurufen. Nur eine 
+               schleunige Sistirung eller Executions-Verfügungen kan mich auf den Punkt bringen, wo ich die weitre Entwicklung 
+               meiner Verlegenheiten mit Sicherheit erwarten, und ohne Gefahr, Ehre, Amt, und alles einzubüßen, meine Vorschläge 
+               den Gläubigern vorlegen darf. Ewr. Excellentz bitte ich daher in tiefster Unterthänigkeit,
+            </p>
+            <lg>
+               <l>das Königliche Cammer-Gericht gnädigst anzuweisen, nicht nur auf</l>
+               <l>beyliegende Vorstellung mich zur Cessione bonorum ohne Verzug</l>
+               <l>zuzulaßen, sondern auch die bereits ausgewirkten Personale Executionen</l>
+               <l>sogleich zu sistiren, und vor näherer Instruction der Sache keine neue</l>
+               <l>gegen mich zu verfügen.</l>
+            </lg>
+            <p>
+               Ich ersterbe in tiefster Devotion
+            </p>
+         </div>
+         <closer>
+            <salute rend="right">Ewr. Hochfreyherrlichen Excellentz</salute>
+            <salute rend="right">unterthänigster tiefgehorsamster</salute>
+            <dateline rend="left"><rs type="place" ref="#plBe">Berlin</rs> den <date when-iso="1796-12-14">14<span rend="sup">ten</span> December 1796</date>:</dateline>
+            <signed rend="right">Friedrich Gentz</signed>
+            <signed rend="right">Krieges-Rath bey dem</signed>
+            <signed rend="right">General-Directorio</signed>
+         </closer>
+      </body>
+      <note resp="#edAG" xml:id="r0875-1">Dieser Brief ist gleichlautend mit <rs type="citation" ref="#c0875-1">diesem Brief gleichen Datums</rs></note>
+   </text>
+</TEI>

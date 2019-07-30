@@ -1,0 +1,391 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader type="text">
+      <fileDesc xml:id="LETTER_GENTZ_0135">
+         <titleStmt>
+            <title>Friedrich von Gentz an Karl August Böttiger, 19. Dezember 1795</title>
+            <editor xml:id="edAG">Andreas Gálffy</editor>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <name>Forschungsstelle "Universitätssammlung Friedrich von Gentz"</name>
+               <link target="http://gentz-digital.ub.uni-koeln.de http://www.ub.uni-koeln.de/cdm/singleitem/collection/gentz/id/134/"/>
+            </publisher>
+            <pubPlace>Cologne</pubPlace>
+            <idno type="Gentz-Edition-Number" n="0135"/>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <country>Germany</country>
+                  <settlement>Dresden</settlement>
+                  <institution>Sächsiche Landesbibliothek</institution>
+                  <repository>Handschriftensammlung, Nachlaß Böttiger</repository>
+                  <collection>Mscr. Dresd. h 37, Bd. 54 (4°)</collection>
+                  <idno>Nr. 2</idno>
+               </msIdentifier>
+               <msContents>
+                  <summary>
+                     Humboldt hat Gentz auf die Idee gebracht, bei Böttiger bezüglich Quellen zur französischen Revolution 
+                     anzufragen. Gentz bittet also, nach Quellen über die erste Periode der Revolution in Weimar zu erkundigen, 
+                     ebenso nach dem Patriote Français par Brissot, Journal de Paris, Gazette de France und Revolutions de France et 
+                     de Brabant (ab Nummer 17). Gentz besitzt schon vieles, so Aufsätze von Necker, Lally-Toledal, Mounier, Bergasse 
+                     sowie den Moniteur, Courier de Provence, Mercure de France und den Point du Jour bis September 1790. Gentz 
+                     möchte diese zu Publikationen verwenden.
+                  </summary>
+               </msContents>
+            </msDesc>
+            <listBibl type="preprints">
+               <biblStruct>
+                  <monogr>
+                     <editor>
+                        <persName>
+                           <ref target="http://d-nb.info/gnd/130953075"/>
+                           <forename>Friedrich Carl</forename>
+                           <surname>Wittichen</surname>
+                        </persName>
+                        <persName>
+                           <ref/> <!-- kein GND-Eintrag -->
+                           <forename>Ernst</forename>
+                           <surname>Salzer</surname>
+                        </persName>
+                     </editor>
+                     <title>Briefe von und an Friedrich von Gentz, 4 Bde.</title>
+                     <imprint>
+                        <publisher>Oldenbourg</publisher>
+                        <pubPlace>München, Berlin</pubPlace>
+                        <date>1909-1913</date>
+                     </imprint>
+                     <biblScope unit="volume" n="1">
+                        I
+                     </biblScope>
+                     <biblScope unit="page" from="219" to="221">
+                        Nr. 47
+                     </biblScope>
+                  </monogr>
+               </biblStruct>
+            </listBibl>
+            <listBibl type="defExpr">
+               <biblStruct xml:id="e0135-1" corresp="Grg-0000">
+                  <monogr>
+                     <editor>
+                        <persName>
+                           <ref target="http://d-nb.info/gnd/118789422"/>
+                           <forename>Charles Joseph</forename>
+                           <surname>Panckoucke</surname>
+                        </persName>
+                     </editor>
+                     <title>Le Moniteur universel</title>
+                     <imprint>
+                        <pubPlace>Paris</pubPlace>
+                        <date>1789-1901</date>
+                     </imprint>
+                  </monogr>
+                  <ptr target="http://gazetier-revolutionnaire.gazettes18e.fr/periodique/gazette-nationale-ou-moniteur-universel-1789-1799"/>
+               </biblStruct>
+               <biblStruct xml:id="e0135-2" corresp="Grg-0001">
+                  <monogr>
+                     <author>
+                        <persName>
+                           <ref target="http://d-nb.info/gnd/118582682"/>
+                           <forename>Honoré-Gabriel de Riquetti</forename>
+                           <surname>de Mirabeau</surname>
+                        </persName>
+                     </author>
+                     <title>Courrier de Provence</title>
+                     <imprint>
+                        <date>1789-1791</date>
+                     </imprint>
+                  </monogr>
+                  <ptr target="http://gazetier-revolutionnaire.gazettes18e.fr/periodique/courrier-de-provence-1789-1791"/>
+               </biblStruct>
+               <biblStruct xml:id="e0135-3" corresp="Grg-0002">
+                  <monogr>
+                     <editor>
+                        <persName>
+                           <ref target="http://d-nb.info/gnd/119483947"/>
+                           <forename>Jacques</forename>
+                           <surname>Mallet du Pan</surname>
+                        </persName>
+                     </editor>
+                     <title>Mercure de France</title>
+                     <imprint>
+                        <pubPlace>Paris</pubPlace>
+                        <date>1778-1791</date>
+                     </imprint>
+                  </monogr>
+                  <ptr target="http://gazetier-universel.gazettes18e.fr/periodique/mercure-de-france-2-1778-1791"/>
+               </biblStruct>
+               <biblStruct xml:id="e0135-4" corresp="Grg-0011">
+                  <monogr>
+                     <author>
+                        <persName>
+                           <ref target="http://d-nb.info/gnd/118657216"/>
+                           <forename>Bertrand</forename>
+                           <surname>Barère de Vieuzac</surname>
+                        </persName>
+                     </author>
+                     <title>Point du Jour</title>
+                     <imprint>
+                        <pubPlace>Paris, Cussac</pubPlace>
+                        <date>1789-1791</date>
+                     </imprint>
+                  </monogr>
+                  <ptr target="http://gazetier-universel.gazettes18e.fr/periodique/point-du-jour-1789-1791"/>
+               </biblStruct>
+               <biblStruct xml:id="e0135-5" corresp="Grg-0010">
+                  <monogr>
+                     <author>
+                        <persName>
+                           <ref target="http://d-nb.info/gnd/118946269"/>
+                           <forename>Jacques Pierre</forename>
+                           <surname>Brissot de Warwille</surname>
+                        </persName>
+                     </author>
+                     <title>Patriote français</title>
+                     <imprint>
+                        <pubPlace>Paris</pubPlace>
+                        <date>1789-1793</date>
+                     </imprint>
+                  </monogr>
+                  <ptr target="http://gazetier-universel.gazettes18e.fr/periodique/patriote-francais-1789-1793"/>
+               </biblStruct>
+               <biblStruct xml:id="e0135-6" corresp="Grg-0004">
+                  <monogr>
+                     <author>
+                        <persName>
+                           <ref target="http://d-nb.info/gnd/128894733"/>
+                           <forename>Dominique-Joseph</forename>
+                           <surname>Garat</surname>
+                        </persName>
+                     </author>
+                     <title>Journal de Paris</title>
+                     <imprint>
+                        <pubPlace>Paris</pubPlace>
+                        <date>1789-1799</date>
+                     </imprint>
+                  </monogr>
+                  <ptr target="http://gazetier-revolutionnaire.gazettes18e.fr/periodique/journal-de-paris-1799"/>
+               </biblStruct>
+               <biblStruct xml:id="e0135-7" corresp="Grg-0003">
+                  <monogr>
+                     <author>
+                        <persName>
+                           <ref target="http://d-nb.info/gnd/100463401"/>
+                           <forename>Joseph Gaspard</forename>
+                           <surname>Dubois-Fontanelle</surname>
+                        </persName>
+                     </author>
+                     <title>Gazette de France</title>
+                     <imprint>
+                        <date>1789-1792</date>
+                     </imprint>
+                  </monogr>
+                  <ptr target="http://gazetier-revolutionnaire.gazettes18e.fr/periodique/gazette-de-france-1792"/>
+               </biblStruct>
+               <biblStruct xml:id="e0135-8" corresp="Grg-0007">
+                  <monogr>
+                     <author>
+                        <persName>
+                           <ref target="http://d-nb.info/gnd/118677969"/>
+                           <forename>Camille</forename>
+                           <surname>Desmoulins</surname>
+                        </persName>
+                     </author>
+                     <title>Révolutions de France et de Brabant</title>
+                     <imprint>
+                        <date>1789-1791</date>
+                     </imprint>
+                  </monogr>
+               <ptr target="http://gazetier-revolutionnaire.gazettes18e.fr/periodique/revolutions-de-france-et-de-brabant-1789-1791"/></biblStruct>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Masterarbeit zu Matrikelnummer 5584124</p>
+         </projectDesc>
+      </encodingDesc>
+      <profileDesc>
+         <creation>
+            <date when-iso="1795-12-19">19. Dezember 1795</date>
+         </creation>
+        <langUsage>
+           <language ident="d">deutsch</language>
+        </langUsage>
+         <textClass>
+            <keywords scheme="internal"><!-- internal: innerhalb des besagten Briefs -->
+               <term>Brief</term>
+               <term>Literatur</term>
+               <term>Bibliothek</term>
+               <term>Französische Revolution</term>
+            </keywords>
+            <keywords scheme="categorisation"><!-- Sinnabschnittseinteilung - relevant für den Fahrkartenautomaten! -->
+               <term xml:id="budcff">Betrachtungen über den Ursprung, den Charakter und den Fortgang der Französischen Revolution</term>
+               <term xml:id="vkab">Verhältnis Karl August Böttiger</term>
+            </keywords>
+         </textClass>
+         <textDesc>
+            <channel>manuscript</channel>
+            <constitution type="single"/>
+            <derivation type="original"/>
+            <domain type="private"/>
+            <factuality type="fact"/>
+            <interaction type="partial"/>
+            <preparedness type="prepared"/>
+            <purpose type="inform"/>
+         </textDesc>
+         <particDesc>
+            <listPerson>
+               <!-- Sender und Adressat -->
+               <person role="sender" xml:id="Gen">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/118538489"/>
+                     <forename>Friedrich von</forename>
+                     <surname>Gentz</surname>
+                  </persName>
+               </person>
+               <person role="receiver" xml:id="KAB">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/118824775"/>
+                     <forename>Carl August</forename>
+                     <surname>Böttiger</surname>
+                  </persName>
+               </person>
+               <!-- erwähnte Personen -->
+               <person role="named" xml:id="Hum">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/118554727"/>
+                     <forename>Wilhelm von</forename>
+                     <surname>Humboldt</surname>
+                  </persName>
+               </person>
+               <person role="named" xml:id="Nck">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/11878580X"/>
+                     <forename>Jacques</forename>
+                     <surname>Necker</surname>
+                  </persName>
+               </person>
+               <person role="named" xml:id="Lal">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/104197773"/>
+                     <forename>Trophime-Gérard</forename>
+                     <surname>de Lally-Tolendal</surname>
+                  </persName>
+               </person>
+               <person role="named" xml:id="Mou">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/11878515X"/>
+                     <forename>Jean-Joseph</forename>
+                     <surname>Mounier</surname>
+                  </persName>
+               </person>
+               <person role="named" xml:id="Ber">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/124844723"/>
+                     <forename>Nicolas</forename>
+                     <surname>Bergasse</surname>
+                  </persName>
+               </person>
+               <person role="named" xml:id="Brs">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/118946269"/>
+                     <forename>Jacques Pierre</forename>
+                     <surname>Brissot de Warwille</surname>
+                  </persName>
+               </person>
+            </listPerson>
+         </particDesc>
+         <settingDesc>
+            <listPlace>
+               <!-- Start- und Zielort -->
+               <place type="sender" xml:id="plBe">
+                  <country>
+                     <ref target="http://d-nb.info/gnd/4047194-9"/>
+                     <placeName>Preußen</placeName>
+                  </country>
+                  <settlement>
+                     <ref target="http://d-nb.info/gnd/4005728-8"/>
+                     <placeName>Berlin</placeName>
+                  </settlement>
+               </place>
+               <place type="receiver" xml:id="plWe">
+                  <country>
+                     <ref target="http://d-nb.info/gnd/4051194-7"/>
+                     <placeName>Sachsen-Weimar-Eisenach</placeName>
+                  </country>
+                  <settlement>
+                     <ref target="http://d-nb.info/gnd/4065105-8"/>
+                     <placeName>Weimar</placeName>
+                  </settlement>
+               </place>
+               <!-- erwähnte Orte -->
+            </listPlace>
+         </settingDesc>
+      </profileDesc>
+      <revisionDesc>
+         <change xml:id="init" when-iso="2018-02-18" who="#edAG">Erstauszeichnung und Normierung des Dokumentes im Rahmen der Masterarbeit der Matrikelnummer 5584124</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <opener>
+            <dateline rend="right"><rs type="place" ref="#plBe">Berlin</rs> den <date when-iso="1795-12-19">19 December 95</date>:</dateline>
+         </opener>
+         <div n="1" corresp="#budcff">
+            <p>
+               <rs type="person" ref="#Hum">Herr von Humboldt</rs>, der interessantste Freund, den ich jetzt in 
+               <rs type="place" ref="#plBe">Berlin</rs> habe, und der das Vergnügen hat, mit Ewr. Wohlgebohren persönlich bekannt 
+               zu seyn, brachte mich neulich, da er mich um Quellen der Revolutions-Geschichte ängstlich bekümmert fand, auf den 
+               Gedanken, daß ich durch Sie vielleicht zu verschiednen Sachen kommen könnte, die ich in 
+               <rs type="place" ref="#plBe">Berlin</rs> nicht aufzutreiben weiß.
+            </p>
+            <p>
+               Ich muß den Versuch machen. Es kömmt mir jetzt gerade auf Data zu der ersten Periode der Revolutions-Geschichte an. 
+               Ganz arm bin ich keinesweges. Denn ich habe außer allem, was <rs type="person" ref="#Nck">Necker</rs>, 
+               <rs type="person" ref="#Lal">Lally-Toledal</rs>, <rs type="person" ref="#Mou">Mounier</rs>, 
+               <rs type="person" ref="#Ber">Bergasse</rs> und andere in dieser Zeit geschrieben haben, 
+               <rs type="citation" ref="#e0135-1">den ganzen Moniteur</rs>, 
+               <rs type="citation" ref="#e0135-2">den ganzen Courier de Provence</rs>, 
+               <rs type="citation" ref="#e0135-3">den ganzen Mercure de France</rs>, 
+               <rs type="citation" ref="#e0135-4">den Point du Jour</rs> (doch nur bis September: 1790) - Wenn es aber in Ihrer 
+               Macht steht, von folgenden Journalen:
+            </p>
+            <lg>
+               <l><rs type="citation" ref="#e0135-5">Le patriote Francois</rs> par <rs><emph rend="underlined">Brissot</emph></rs></l>
+               <l><rs type="citation" ref="#e0135-6">Journal de Paris</rs></l>
+               <l><rs type="citation" ref="#e0135-7">Gazette de France</rs></l>
+               <l><rs type="citation" ref="#e0135-8">Revolutions de France et de Brabant</rs> (die ich bis Nro. 16 inclusive besitze)</l><pb/>
+            </lg>
+            <p>
+               Jahrgänge, oder irgend aliquote Theile, wie sie auch seyn mögen, oder <del rend="stroked">wenn Sie</del> von 
+               wichtigen einzelnen Piecen über die erste Periode der Revolution in <rs type="place" ref="#plWe">Weimar</rs> etwas 
+               aufzutreiben <del rend="stroked">wissen</del>, oder <add place="above">wenn Sie</add> gar selbst 
+               <add place="above">dergleichen</add> besitzen und mir mittheilen können und wollen, es sey nun käuflich, oder 
+               leihweise, auf kurze oder auf lange Zeit, so werden Sie mich unendlich, und mehr als ich es Ihnen sagen und danken 
+               kan, verbinden. Ich will davon <emph rend="underlined">fürs Publikum</emph> Gebrauch machen, und ich schmeichle mir, 
+               daß das Unternehmen, zu dessen Beförderung ich diese Bitte so ernstlich und angelegentlich thue, dereinst Ihren 
+               Beifall finden wird.
+            </p>
+            <p>
+               Melden Sie mir recht bald, was ich etwa von Ihrer Güte zu hoffen habe. Sollten Sie mir zu Nichts 
+               <emph rend="underlined">in</emph> <rs type="person" ref="#plWe">Weimar</rs> verhelfen können, so sind Ihnen 
+               vielleicht Quellen und Canäle, die ich benutzen könnte, außerhalb bekannt, und jede Nachricht darüber wird mir 
+               äußerst willkommen seyn.
+            </p>
+         </div>
+         <div n="2" corresp="#vkab">
+            <p>
+               Ich verharre mit der gewiß aufrichtigen Versicherung, daß ich gern zu allen gegenseitigen Diensten bereit seyn werde, 
+               und mit der allervorzüglichsten 
+            </p>
+         </div>
+         <closer>
+            <salute rend="right">Ewr Wohlgebohren</salute>
+            <salute rend="right">ganz ergebner</salute>
+            <signed rend="right">Gentz.</signed>
+         </closer>
+      </body>
+   </text>
+</TEI>

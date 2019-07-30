@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc xml:id="LETTER_GENTZ_2721">
+         <titleStmt>
+            <title>Friedrich von Gentz an William Eden, 8. März 1800</title>
+            <editor xml:id="edAG">Andreas Gálffy</editor>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <name>Forschungsstelle "Universitätssammlung Friedrich von Gentz"</name>
+               <link target="http://gentz-digital.ub.uni-koeln.de http://www.ub.uni-koeln.de/cdm/singleitem/collection/gentz/id/2720/"/>
+            </publisher>
+            <pubPlace>Cologne</pubPlace>
+            <idno type="Gentz-Edition-Number" n="2721"/>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <country>United Kingdom</country>
+                  <settlement>London</settlement>
+                  <institution>British Library</institution>
+                  <repository>Manuscript Department</repository>
+                  <collection>Add. MS 34455, Auckland-Papers, Vol. XLIV, Correspondence Oct. 1798 - Dec. 1802</collection>
+                  <idno>Bl. 265-265v</idno>
+               </msIdentifier>
+               <msContents>
+                  <summary>
+                     Gentz stellt ihm sein Essay über die Finanzen Großbritanniens vor. Er führt an, dass viele Angaben aus Eden's 
+                     Schriften stammen und erklärt, dass das Essay den Zweck verfolgt, über Unkenntnis und Vorurteile aufzuklären, 
+                     die sich in den Büchern und Zeitungen wiederfänden.
+                  </summary>
+               </msContents>
+            </msDesc>
+            <listBibl type="defRep">
+               <biblStruct xml:id="p2721-1" corresp="GBk-0060">
+                  <monogr>
+                     <author>
+                        <persName>
+                           <ref target="http://d-nb.info/gnd/118538489"/>
+                           <forename>Friedrich von</forename>
+                           <surname>Gentz</surname>
+                        </persName>
+                     </author>
+                     <title>Essai sur l'etat actuel de l'administration des finances et de la richesse nationale de la Grande Bretagne</title>
+                     <imprint>
+                        <pubPlace>London</pubPlace>
+                        <publisher>J. Debrett</publisher>
+                        <date>1800</date>
+                     </imprint>
+                  </monogr>
+                  <ptr target="https://books.google.de/books?id=R_bXZfXXWVoC"/>
+               </biblStruct>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Masterarbeit zu Matrikelnummer 5584124</p>
+         </projectDesc>
+      </encodingDesc>
+      <profileDesc>
+         <creation>
+            <date when-iso="1800-03-08">8. März 1800</date>
+         </creation>
+        <langUsage>
+           <language ident="f">französisch</language>
+        </langUsage>
+         <textClass>
+            <keywords scheme="internal"><!-- internal: innerhalb des besagten Briefs -->
+               <term>Brief</term>
+               <term>Aufklärung</term>
+               <term>Revolution</term>
+               <term>Finanzen</term>
+               <term>Übersetzungen</term>
+            </keywords>
+            <keywords scheme="categorisation"><!-- Sinnabschnittseinteilung - relevant für den Fahrkartenautomaten! -->
+               <term xml:id="efgb">Essay über die Finanzen Großbritanniens</term>
+            </keywords>
+         </textClass>
+         <textDesc>
+            <channel>manuscript</channel>
+            <constitution type="single"/>
+            <derivation type="original"/>
+            <domain type="private"/>
+            <factuality type="fact"/>
+            <interaction type="partial"/>
+            <preparedness type="prepared"/>
+            <purpose type="inform"/>
+         </textDesc>
+         <particDesc>
+            <listPerson>
+               <!-- Sender und Adressat -->
+               <person role="sender" xml:id="Gen">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/118538489"/>
+                     <forename>Friedrich von</forename>
+                     <surname>Gentz</surname>
+                  </persName>
+               </person>
+               <person role="receiver" xml:id="WEd">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/137586418"/>
+                     <forename>William Eden</forename>
+                     <surname>Auckland</surname>
+                  </persName>
+               </person>
+               <!-- erwähnte Personen -->
+            </listPerson>
+         </particDesc>
+         <settingDesc>
+            <listPlace>
+               <!-- Start- und Zielort -->
+               <place type="sender" xml:id="plBe">
+                  <country>
+                     <ref target="http://d-nb.info/gnd/4047194-9"/>
+                     <placeName>Preußen</placeName>
+                  </country>
+                  <settlement>
+                     <ref target="http://d-nb.info/gnd/4005728-8"/>
+                     <placeName>Berlin</placeName>
+                  </settlement>
+               </place>
+               <place type="receiver" xml:id="plLo">
+                  <country>
+                     <ref target="http://d-nb.info/gnd/4022153-2"/>
+                     <placeName>Vereinigtes Königreich</placeName>                
+                  </country>
+                  <settlement>
+                     <ref target="http://d-nb.info/gnd/4074335-4"/>
+                     <placeName>London</placeName>
+                  </settlement>
+               </place>
+               <!-- erwähnte Orte -->
+               <place type="named" xml:id="plEu">
+                  <geogName type="continent">
+                     <ref target="http://d-nb.info/gnd/4015701-5"/>
+                     <placeName>Europa</placeName>
+                  </geogName>
+               </place>
+               <place type="named" xml:id="plEn">
+                  <country>
+                     <ref target="http://d-nb.info/gnd/4022153-2"/>
+                     <placeName>England</placeName>                
+                  </country>
+               </place>
+            </listPlace>
+         </settingDesc>
+      </profileDesc>
+      <revisionDesc>
+         <change xml:id="init" when-iso="2018-03-05" who="#edAG">Erstauszeichnung und Normierung des Dokumentes im Rahmen der Masterarbeit der Matrikelnummer 5584124</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <opener>
+            <salute rend="left">My Lord !</salute>
+         </opener>
+         <div n="1" corresp="#efgb">
+            <p>
+               En soumettant <rs type="citation" ref="#p2721-1">un foible essai</rs> sur un objet de la première grandeur, à un des 
+               hommes-d'état les plus éclairés et les plus profonds de <rs type="place" ref="#plEu">l'Europe</rs>, je sens que ce 
+               n'est absolument qu'en faveur de la bonté de mes intentions que Vous pouvez faire grace à l'imperfection de 
+               <rs type="place" ref="#p2721-1">mon ouvrage</rs>. Ce qui pourroit encore servir à excuser ma témérité c'est qu'une 
+               grande partie des données et surtout des principes qui forment la base de mon travail a été puisée dans Vos écrits, 
+               My Lord, dans des grands et lumineux discours, par lesquels Vous avez si noblement soutenu la gloire de Votre pays, 
+               et si vigoureusement contribué au salut de tous les autres, dans la crise la plus terrible qui ait encore ebranlé la 
+               société civilisée.
+            </p>
+            <p>
+               Pour concevoir le but, et peut-être l'utilité d'un livre comme celui que je prens la liberté de Vous présenter, il 
+               faudroit, My Lord, que vous connussiez plus particulièrement l'étendu de la force des préjugés et des erreurs que des 
+               écrivains ineptes ou perfides ont répandu parmi mes compatriotes sur <del rend="stroked">la situation</del> 
+               <add place="above">l'état</add> intérieur de <rs type="citation" ref="#plEn">l'Angleterre</rs> et principalement sur 
+               les finances de ce pays. C'est pour nettre à la place de ces déclamations ridicules, dont tous nos livres et journaux 
+               politiques redoutent, quelques notions plus exactes et dignes de la véritable grandeur de l'objet que j'ai entrepris 
+               mon travail: et c'est sous ce seul point-de-vue que je puis me flatter d'être honoré de Votre suffrage.
+            </p>
+            <p>
+               J'ai l'honneur d'être avec la plus haute considération
+            </p>
+         </div>
+         <closer>
+            <salute rend="right">My Lord</salute>
+            <salute rend="right">votre très-humble et très-</salute>
+            <salute rend="right">dévoué serviteur</salute>
+            <dateline rend="right"><rs type="place" ref="#plBe"><emph rend="underlined">Berlin</emph></rs> ce <date when-iso="1800-03-08">8 Mars 1800</date>.</dateline>
+            <signed rend="right">Gentz.</signed>
+         </closer>
+      </body>
+   </text>
+</TEI>

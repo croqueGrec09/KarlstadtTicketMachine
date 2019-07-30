@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc xml:id="LETTER_GENTZ_0525">
+         <titleStmt>
+            <title>Friedrich von Gentz an Christoph Martin Wieland, 10. [?] November 1794</title>
+            <editor xml:id="edAG">Andreas Gálffy</editor>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <name>Forschungsstelle "Universitätssammlung Friedrich von Gentz"</name>
+               <link target="http://gentz-digital.ub.uni-koeln.de http://www.ub.uni-koeln.de/cdm/singleitem/collection/gentz/id/524/"/>
+            </publisher>
+            <pubPlace>Cologne</pubPlace>
+            <idno type="Gentz-Edition-Number" n="0525"/>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <country>Germany</country>
+                  <settlement>Nuremberg</settlement>
+                  <institution>Germanisches Nationalmuseum</institution>
+                  <repository>Handschriftenabteilung, Sammlung Böttiger</repository>
+                  <collection>Kapsel 28</collection>
+                  <idno>2</idno>
+               </msIdentifier>
+               <msContents>
+                  <summary>
+                     Nach einem guten Urteil über andere Einsendungen übersendet jetzt Gentz seine Bearbeitung der Mounier'schen 
+                     Schrift. Er erhofft sich auch hier ein positives Urteil.
+                  </summary>
+               </msContents>
+            </msDesc>
+            <listBibl type="preprints">
+               <biblStruct>
+                  <monogr>
+                     <editor>
+                        <persName>
+                           <ref target="http://d-nb.info/gnd/105706175"/>
+                           <forename>Klaus</forename>
+                           <surname>Gerlach</surname>
+                        </persName>
+                     </editor>
+                     <title>Wielands Briefwechsel</title>
+                     <imprint>
+                        <pubPlace>Berlin</pubPlace>
+                        <date>1993</date>
+                     </imprint>
+                     <biblScope unit="volume" n="12">
+                        12. Bd. (Juli 1793-Juni 1795) 1. Teil: Text.
+                     </biblScope>
+                     <biblScope unit="page" from="349" to="349">
+                        Nr. 347
+                     </biblScope>
+                  </monogr>
+               </biblStruct>
+            </listBibl>
+            <listBibl type="letterReferenced">
+               <bibl xml:id="c0525-1" corresp="#LETTER_GENTZ_2219">Friedrich von Gentz an Christoph Martin Wieland, 8. März 1794</bibl>
+            </listBibl>
+            <listBibl type="alludedWorks">
+               <bibl xml:id="a0525-1" corresp="#LETTER_GENTZ_NNNN">nicht näher benannte Übersetzung einer nicht benannten Schrift von Jean-Joseph Mounier</bibl>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Masterarbeit zu Matrikelnummer 5584124</p>
+         </projectDesc>
+      </encodingDesc>
+      <profileDesc>
+         <creation>
+            <date when-iso="1794-11-10">10. November 1794</date>
+         </creation>
+        <langUsage>
+           <language ident="d">deutsch</language>
+        </langUsage>
+         <textClass>
+            <keywords scheme="internal"><!-- internal: innerhalb des besagten Briefs -->
+               <term>Brief</term>
+               <term>Übersetzung</term>
+               <term>Mounier</term>
+            </keywords>
+            <keywords scheme="categorisation"><!-- Sinnabschnittseinteilung - relevant für den Fahrkartenautomaten! -->
+               <term xml:id="kmou">Mounier</term>
+            </keywords>
+         </textClass>
+         <textDesc>
+            <channel>manuscript</channel>
+            <constitution type="single"/>
+            <derivation type="original"/>
+            <domain type="private"/>
+            <factuality type="fact"/>
+            <interaction type="partial"/>
+            <preparedness type="unprepared"/>
+            <purpose type="inform"/>
+         </textDesc>
+         <particDesc>
+            <listPerson>
+               <!-- Sender und Adressat -->
+               <person role="sender" xml:id="Gen">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/118538489"/>
+                     <forename>Friedrich von</forename>
+                     <surname>Gentz</surname>
+                  </persName>
+               </person>
+               <person role="receiver" xml:id="CMW">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/118632477"/>
+                     <forename>Christoph Martin</forename>
+                     <surname>Wieland</surname>
+                  </persName>
+               </person>
+               <!-- erwähnte Personen -->
+               <person role="named" xml:id="Mou">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/11878515X"/>
+                     <forename>Jean-Joseph</forename>
+                     <surname>Mounier</surname>
+                  </persName>
+               </person>
+            </listPerson>
+         </particDesc>
+         <settingDesc>
+            <listPlace>
+               <!-- Start- und Zielort -->
+               <place type="sender" xml:id="plBe">
+                  <country>
+                     <ref target="http://d-nb.info/gnd/4047194-9"/>
+                     <placeName>Preußen</placeName>
+                  </country>
+                  <settlement>
+                     <ref target="http://d-nb.info/gnd/4005728-8"/>
+                     <placeName>Berlin</placeName>
+                  </settlement>
+               </place>
+               <!-- erwähnte Orte -->
+            </listPlace>
+         </settingDesc>
+      </profileDesc>
+      <revisionDesc>
+         <change xml:id="init" when-iso="2018-02-15" who="#edAG">Erstauszeichnung und Normierung des Dokumentes im Rahmen der Masterarbeit der Matrikelnummer 5584124</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <opener>
+            <salute rend="left">Wohlgebohrner,</salute>
+            <salute rend="left">Höchstgeehrter Herr Hofrath !</salute>
+         </opener>
+         <div n="1" corresp="#kmou">
+            <p>
+               Die ausgezeichnete und schmeichelhafte Güte, mit welcher <rs type="person" ref="#CMW">Ewr. Wohlgebohren</rs> meine 
+               bisherigen litterärischen Produkte <ref>aufgenommen haben</ref>, erregt den Wunsch und die Hoffnung, daß 
+               <del rend="stroked">xxx</del> meine Bearbeitung der <emph rend="underlined">Mounierschen</emph> Schrift, wovon ich 
+               Ihnen hiebey die zwei ersten Theile übersende, eben so glücklich seyn möchte. Daß Ihr Beyfall mir wichtiger als jeder 
+               andre, daß er geradezu entscheidend in meinen Augen seyn müsse, darf ich nicht einmal hinzu setzen.
+            </p>
+            <p>
+               Ich empfehle mich zugleich in Ihre fernere Gewogenheit mit der unbegränzten Verehrung und Ergebenheit, in der ich 
+               unveränderlich verbleibe
+            </p>
+         </div>
+         <closer>
+            <salute rend="left">Ewr. Wohlgebohren</salute>
+            <salute rend="left">Ganz gehorsamster Diener</salute>
+            <dateline rend="right"><rs type="place" ref="#plBe">Berlin</rs> den <date when-iso="1794-11-10">10<span rend="sup">ten</span> November 1794</date>.</dateline>
+            <signed rend="right">Gentz.</signed>
+         </closer>
+         <note xml:id="r0525-1">Datum nicht ganz sicher: 10. oder 11. November. Der Akademie-Druck gibt 11.</note>
+         <note resp="#edAG" xml:id="r0525-2">Vgl. den <rs type="citation" ref="#c0525-1">Brief vom 8. März 1794</rs></note>
+      </body>
+   </text>
+</TEI>

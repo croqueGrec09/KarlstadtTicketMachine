@@ -1,0 +1,307 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc xml:id="LETTER_GENTZ_1571">
+         <titleStmt>
+            <title>Friedrich von Gentz an Karl Gustav von Brinckmann, 30. September 1797</title>
+            <editor xml:id="edAG">Andreas Gálffy</editor>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <name>Forschungsstelle "Universitätssammlung Friedrich von Gentz"</name>
+               <link target="http://gentz-digital.ub.uni-koeln.de http://www.ub.uni-koeln.de/cdm/singleitem/collection/gentz/id/1570/"/>
+            </publisher>
+            <pubPlace>Cologne</pubPlace>
+            <idno type="Gentz-Edition-Number" n="1571"/>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <country>Sweden</country>
+                  <settlement>Trolle-Ljungby</settlement>
+                  <institution>Archiv des Grafen Wachtmeister</institution>
+                  <repository>Nachlaß Brinckmann, Ausländ. Briefwechsel, Gentz an Brinckmann</repository>
+                  <idno>G 3</idno>
+               </msIdentifier>
+               <msContents>
+                  <summary>
+                     Garve schickt ein Exemplar seines neuen Buches an Brinckmann. Dieses aber soll er niemanden zeigen, schon gar 
+                     nicht der Familie Spalding, da das Werk dem alten Spalding gewidmet ist. Zu einer Schrift gegen Garve 
+                     präsentiert Gentz jetzt ein Gegenstück. Garves Urteil ist schwankend, von interessiert bis zutiefst empört und 
+                     ablehnend. Die Griechen und Römer von Schlegel ermüden, aber lehren nicht; setzt Tatsachen voraus, die Garve 
+                     nicht kennt, und preist falsche Tatsachen.
+                     Gentz hat einen Brief aus Barby erhalten, in welchem der Schreiber viele Bücher verlangt. Das hat Gentz' 
+                     Verdacht erregt.
+                  </summary>
+               </msContents>
+            </msDesc>
+            <listBibl type="preprints">
+               <biblStruct>
+                  <monogr>
+                     <editor>
+                        <persName>
+                           <ref target="http://d-nb.info/gnd/130953075"/>
+                           <forename>Friedrich Carl</forename>
+                           <surname>Wittichen</surname>
+                        </persName>
+                        <persName>
+                           <ref /> <!-- kein GND-Eintrag -->
+                           <forename>Ernst</forename>
+                           <surname>Salzer</surname>
+                        </persName>
+                     </editor>
+                     <title>Briefe von und an Friedrich von Gentz, 4 Bde.</title>
+                     <imprint>
+                        <publisher>Oldenbourg</publisher>
+                        <pubPlace>München, Berlin</pubPlace>
+                        <date>1909-1913</date>
+                     </imprint>
+                     <biblScope unit="volume" n="2">
+                        II
+                     </biblScope>
+                     <biblScope unit="page" from="58" to="59">
+                        Nr. 65
+                     </biblScope>
+                  </monogr>
+               </biblStruct>
+            </listBibl>
+            <listBibl type="letterReferenced">
+               <bibl xml:id="c1571-1" corresp="#LETTER_GENTZ_NNNN">nicht bekannter Brief von Christian Garve an Friedrich von Gentz</bibl>
+               <bibl xml:id="c1571-2" corresp="#LETTER_GENTZ_3395">Friedrich von Gentz an Karl Gustav von Brinckmann, 13. September 1797</bibl>
+               <bibl xml:id="c1571-3" corresp="#LETTER_GENTZ_NNNN">nicht bekannter Brief eines nicht näher benannten Absenders aus Barby</bibl>
+            </listBibl>
+            <listBibl type="defRep">
+               <biblStruct xml:id="p1571-1" corresp="BSB-0012">
+                  <monogr>
+                     <author>
+                        <persName>
+                           <ref target="http://d-nb.info/gnd/118537636"/>
+                           <forename>Christian</forename>
+                           <surname>Garve</surname>
+                        </persName>
+                     </author>
+                     <title>Versuche über verschiedene Gegenstände aus der Moral, der Litteratur und dem gesellschaftlichen Leben</title>
+                     <imprint>
+                        <pubPlace>Breslau</pubPlace>
+                        <publisher>Wilhelm Gottlieb Korn</publisher>
+                        <date>1797</date>
+                     </imprint>
+                     <biblScope unit="volume" n="3">
+                        Dritter Theil
+                     </biblScope>
+                  </monogr>
+                  <ptr target="http://www.mdz-nbn-resolving.de/urn/resolver.pl?urn=urn:nbn:de:bvb:12-bsb10603915-8"/>
+               </biblStruct>
+               <biblStruct xml:id="p1571-2" corresp="BSB-0013">
+                  <monogr>
+                     <author>
+                        <persName>
+                           <ref target="http://d-nb.info/gnd/118607987" />
+                           <forename>Friedrich von</forename>
+                           <surname>Schlegel</surname>
+                        </persName>
+                     </author>
+                     <title>Die Griechen und Römer</title>
+                     <imprint>
+                        <pubPlace>Neustrelitz</pubPlace>
+                        <publisher>Michaelis</publisher>
+                        <date>1797</date>
+                     </imprint>
+                     <biblScope unit="volume" n="1">
+                        Erster Band
+                     </biblScope>
+                  </monogr>
+                  <ptr target="http://www.mdz-nbn-resolving.de/urn/resolver.pl?urn=urn:nbn:de:bvb:12-bsb10927143-9"/>
+               </biblStruct>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Masterarbeit zu Matrikelnummer 5584124</p>
+         </projectDesc>
+      </encodingDesc>
+      <profileDesc>
+         <creation>
+            <date when-iso="1797-09-30">30. September 1797</date>
+         </creation>
+        <langUsage>
+           <language ident="d">deutsch</language>
+        </langUsage>
+         <textClass>
+            <keywords scheme="internal"><!-- internal: innerhalb des besagten Briefs -->
+               <term>Brief</term>
+               <term>Garve</term>
+               <term>Bibliothek</term>
+               <term>Schlegel</term>
+            </keywords>
+            <keywords scheme="categorisation"><!-- Sinnabschnittseinteilung - relevant für den Fahrkartenautomaten! -->
+               <term xml:id="vcg">Verhältnis Christian Garve</term>
+               <term xml:id="kschl">Schlegel</term>
+               <term xml:id="vkgvb">Verhältnis Karl Gustav von Brinckmann</term>
+            </keywords>
+         </textClass>
+         <textDesc>
+            <channel>manuscript</channel>
+            <constitution type="single"/>
+            <derivation type="original"/>
+            <domain type="private"/>
+            <factuality type="fact"/>
+            <interaction type="partial"/>
+            <preparedness type="prepared"/>
+            <purpose type="inform"/>
+         </textDesc>
+         <particDesc>
+            <listPerson>
+               <!-- Sender und Adressat -->
+               <person role="sender" xml:id="Gen">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/118538489"/>
+                     <forename>Friedrich von</forename>
+                     <surname>Gentz</surname>
+                  </persName>
+               </person>
+               <person role="receiver" xml:id="KGvB">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/116519770"/>
+                     <forename>Carl Gustav von</forename>
+                     <surname>Brinckmann</surname>
+                  </persName>
+               </person>
+               <!-- erwähnte Personen -->
+               <person role="named" xml:id="Gar">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/118537636"/>
+                     <forename>Christian</forename>
+                     <surname>Garve</surname>
+                  </persName>
+               </person>
+               <person role="named" xml:id="JJSpa">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/118751719"/>
+                     <forename>Johann Joachim</forename>
+                     <surname>Spalding</surname>
+                  </persName>
+               </person>
+               <person role="named" xml:id="FSchl">
+                  <persName>
+                     <ref target="http://d-nb.info/gnd/118607987" />
+                     <forename>Friedrich von</forename>
+                     <surname>Schlegel</surname>
+                  </persName>
+               </person>
+            </listPerson>
+         </particDesc>
+         <settingDesc>
+            <listPlace>
+               <!-- Start- und Zielort -->
+               <place type="sender" xml:id="plSb">
+                  <country>
+                     <ref target="http://d-nb.info/gnd/4047194-9"/>
+                     <placeName>Preußen</placeName>
+                  </country>
+                  <settlement>
+                     <ref target="http://d-nb.info/gnd/116944-0"/>
+                     <placeName>Schöneberg</placeName>
+                  </settlement>
+               </place>
+               <place type="receiver" xml:id="plBe">
+                  <country>
+                     <ref target="http://d-nb.info/gnd/4047194-9"/>
+                     <placeName>Preußen</placeName>
+                  </country>
+                  <settlement>
+                     <ref target="http://d-nb.info/gnd/4005728-8"/>
+                     <placeName>Berlin</placeName>
+                  </settlement>
+               </place>
+               <!-- erwähnte Orte -->
+               <place type="receiver" xml:id="plBy">
+                  <country>
+                     <ref target="http://d-nb.info/gnd/4051176-5"/>
+                     <placeName>Sachsen</placeName>
+                  </country>
+                  <settlement>
+                     <ref target="http://d-nb.info/gnd/5343756-1"/>
+                     <placeName>Barby</placeName>
+                  </settlement>
+               </place>
+            </listPlace>
+         </settingDesc>
+      </profileDesc>
+      <revisionDesc>
+         <change xml:id="init" when-iso="2018-02-27" who="#edAG">Erstauszeichnung und Normierung des Dokumentes im Rahmen der Masterarbeit der Matrikelnummer 5584124</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div n="1" corresp="#vcg">
+            <p>
+               <date when-iso="1797-09-29">Gestern Nachmittag</date> erhi<add place="above">elt</add> ich den beiliegenden 
+               <rs type="citation" ref="#c1571-1">Brief</rs> von <rs type="citation" ref="#Gar">Garve</rs> mit dem Auftrage, Ihnen 
+               dies Exemplar seines neusten <rs type="citation" ref="#p1571-1">Buches</rs> zu überreichen. Einige Exemplare dieses 
+               Buches sind mit dem Titel: <emph rend="underlined">Versuche über verschiedne Gegenstände der Moral</emph> pp 
+               <emph rend="underlined">Dritter Band</emph>, gedruckt. Wenn Sie ein solches lieber haben wollen, so schicken Sie mir 
+               das beikommende zurück.
+            </p>
+            <p>
+               Laßen Sie aber <del rend="stroked">xxx</del> Ihr Exemplar heute noch Niemanden, besonders aber keinen aus der 
+               <emph rend="underlined">Spaldingschen</emph> Familie sehen. Denn ich habe den Auftrag, ehe ich irgend ein andres 
+               ausgebe, das für den <rs type="person" ref="#JJSpa"><emph rend="underlined">alten Spalding</emph></rs>, (dem es 
+               dedizirt ist) bestimmte, abzuliefern. Dies muß ich aber heute erst brochiren laßen.
+            </p>
+         </div>
+         <div n="2" corresp="#kschl">
+            <p>
+               Da Sie mich <rs type="citation" ref="#c1571-2">neulich</rs> mit 
+               <emph rend="underlined"><rs type="person" ref="#FSchl">Schlegel</rs> contra <rs type="person" ref="#Gar">Garve</rs></emph> 
+               traktirt haben, so finde ich mich verpflichtet, Ihnen jetzt etwas 
+               <emph rend="underlined"><rs type="person" ref="#Gar">Garve</rs> contra <rs type="person" ref="#FSchl">Schlegel</rs></emph> 
+               vorzusetzen. Es heißt wie folget:
+            </p>
+            <cit corresp="#c1571-1">
+               <quote>
+                  Ich höre, daß 
+                  <rs type="person" ref="#FSchl"><add place="above">Friedrich</add> <emph rend="underlined">Schlegel</emph></rs> in 
+                  <rs type="place" ref="#plBe">Berlin</rs> ist, und hoffe, durch Sie etwas über ihn zu erfahren. Ueber Niemanden ist 
+                  mein Urtheil so schwankend als über diesen Mann. Von der einen Seite muß sein persönlicher Umgang interessant 
+                  seyn, und er muß ausgezeichnete Talente, und große Gelehrsamkeit besitzen: denn darin stimmen alle, <pb/> welche 
+                  ihn kennen überein. Von der andern Seite sind mir seine Schriften ganz unausstehlich. Ich habe ganz neuerlich 
+                  seine <rs type="citation" ref="#p1571-2"><emph rend="underlined">Griechen und Römer</emph></rs> zu lesen versucht. 
+                  Aber ich habe diese, durch keine Thatsachen unterstützte, in den Begriffen unbestimmte, mich ermüdende und doch 
+                  nicht belehrende Philosophie über die Dichtkunst nicht aushalten können. Ich begreife den Unterschied, welchen er 
+                  zwischen Alten und Neuen annimmt; ich halte ihn für so durchaus falsch; und doch ist er mit einem so dezidirten, 
+                  fast mit einem Geisterseher-Tone geschrieben; er nimmt so wieder als unter vernünftigen Menschen ausgemacht an, 
+                  von dem ich nichts weiß und nicht die mindeste Ueberzeugung habe: daß er meine Eigenliebe aufbringt, indem er 
+                  zugleich mein Wahrheits-Gefühl empört. Wie kan ein Mann, der die Alten kennt, so über sie urtheilen ! Wie kan 
+                  einer, der die Menschen überhaupt als Philosoph kennt, glauben, daß eine Nation aus Wesen so ganz andrer Art als 
+                  die übrigen bestehen könne, wie er dies von den Griechen annimmt !
+               </quote>
+            </cit>
+         </div>
+         <div n="3" corresp="#vkgvb">
+            <p>
+               Schließlich, lieber Brinckmann communicire ich Ihnen noch einen <rs type="citation" ref="#c1571-3">Brief</rs>, den 
+               ich aus <rs type="place" ref="#plBy"><emph rend="underlined">Barby</emph></rs> erhalten <pb/> habe. Da Sie an diesem 
+               Orte ehmals gewohnt haben, so können Sie mir vielleicht einen Aufschluß darüber geben. Auf alle Fälle ist der Brief 
+               merkwürdig genug, um von Ihnen gelesen zu werden. Einen solchen Durst nach Büchern, wenn man in einer solchen Lage 
+               ist, und so lamentabel schreibt, habe ich doch auch noch nicht erlebt. Oder ist der Mensch vielleicht ein verlarvter 
+               <emph rend="underlined">Jude</emph>, der mit Büchern <emph rend="underlined">handelt</emph>, und durch einen 
+               Kunstgriff die Bücher <emph rend="underlined">ganz umsonst</emph> - <emph rend="underlined">Sie</emph> wollen sie 
+               doch nur <emph rend="underlined">halb</emph> umsonst - zu erhalten sucht ?
+            </p>
+            <p>
+               Ich bin <date when-iso="1797-10-01">Morgen Vormittag</date> in <rs type="place" ref="#plBe">Berlin</rs>, und werde 
+               Sie um 10 Uhr besuchen.
+            </p>
+         </div>
+         <closer>
+            <signed rend="right">Gentz.</signed>
+            <dateline rend="right"><rs type="place" ref="#plSb">Sch.</rs> d. <date when-iso="1797-09-30">30 Septb 97</date></dateline>
+         </closer>
+      </body>
+   </text>
+</TEI>

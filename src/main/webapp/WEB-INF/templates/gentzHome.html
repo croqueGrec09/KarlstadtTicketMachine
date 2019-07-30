@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+
+<html xmlns:th="http://www.thymeleaf.org">
+
+<head>
+
+<!-- JQuery -->
+<script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+<!-- Bootstrap CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" />
+<!-- Bootstrap JavaScript -->
+<script type="text/javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+<link rel="stylesheet" href="/css/gentzStyle.css" />
+<title>Home</title>
+
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+
+
+</head>
+<body>
+	<div class="jumbotron container" id="main">
+		<div class="row">
+			<div class="col-md-12">
+				<h1>KVAG-Fahrkarten <img src="/css/img/zdkavv_logo.png" alt="Logo des Zeidel-Karlstädter Verkehrsverbundes"/><img src="/css/img/kvag_logo.png" alt="Logo der Karlstädter Verkehrsactiengesellschaft"/></h1>
+				<h2>Kaufen Sie sich hier Ihre Fahrkarte für die Karlstädter Verkehrsactiengesellschaft (KVAG) und reisen Sie zu Ihrem Gentz-Brief!</h2>				
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-md-12">
+				<h3>Ihr nächster Brief: <a th:href="@{/KtM/letter/{id}(id=${letter.id})}" th:text="${letter.title}">...</a></h3>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-md-6">
+				<a class="btn btn-light btn-xlarge btn-block" role="button" href="/KtM/list">Von Start nach Ziel<br/>komplette Liste der<br/>Fahrtziele</a>
+			</div>
+			<div class="col-md-6">
+				<a class="btn btn-light btn-xlarge btn-block" role="button" href="/KtM/entity">Liste der Personen, <br/>Orte und Werke<br/>Sehenswürdigkeiten<br/>der Stadt</a>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-md-6">
+				<a class="btn btn-light btn-xlarge btn-block" role="button" href="/KtM/searchForm">Suchfeld<br/>direkt zu Ihrem Brief</a>
+			</div>
+			<div class="col-md-6">
+				<a class="btn btn-light btn-xlarge btn-block" role="button" href="http://gentz-digital.ub.uni-koeln.de/portal/home.html?l=de">Zur Sammlung Herterich<br/>der Universitäts- und<br/>Stadtbibliothek<br/>der Universität zu Köln</a>
+			</div>
+		</div>
+	</div>
+	
+</body>
+</html>
