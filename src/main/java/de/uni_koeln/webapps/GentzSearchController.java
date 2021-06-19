@@ -1,12 +1,12 @@
  package de.uni_koeln.webapps;
 
 import java.io.IOException;
+import java.text.ParseException;
 import java.util.HashMap;
 import java.util.HashSet;
 import java.util.Map;
 import java.util.Set;
 
-import org.apache.lucene.queryparser.classic.ParseException;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
@@ -55,7 +55,7 @@ public class GentzSearchController {
 			@RequestParam(value = "dateFrom", required = false) String dateFrom,
 			@RequestParam(value = "dateTo", required = false) String dateTo,
 			Model model){
-		Map<String,String> searchParams = new HashMap<String,String>();
+		Map<String,String> searchParams = new HashMap<>();
 		/*
 		 * check if field is set; put then value and check in GentzSearcherService if 
 		 * mapping is set!
@@ -76,11 +76,11 @@ public class GentzSearchController {
 			String[] dateElements = dateTo.split("\\.");
 			searchParams.put("dateTo",dateElements[2]+"-"+dateElements[1]+"-"+dateElements[0]);
 		}
-		Set<GentzLetter> result = new HashSet<GentzLetter>();
+		Set<GentzLetter> result = new HashSet<>();
 		try {
 			result.addAll(gss.search(searchParams,true));
 		}
-		catch (IOException | ParseException e) {
+		catch (IOException | org.apache.lucene.queryparser.classic.ParseException e) {
 			e.printStackTrace();
 		}
 		model.addAttribute("letters",result);
@@ -96,9 +96,9 @@ public class GentzSearchController {
 	 */
 	@RequestMapping(value = "/quick")
 	public String letterQuickSearch(@RequestParam("what") String what, Model model) {
-		Set<GentzLetter> result = new HashSet<GentzLetter>();
+		Set<GentzLetter> result = new HashSet<>();
 		try {
-			Map<String,String> searchParams = new HashMap<String,String>();
+			Map<String,String> searchParams = new HashMap<>();
 			String[] searchFields = {"sender","receiver","person","place","keyword","category","content"};
 			for(String sf: searchFields) {
 				searchParams.put(sf, what);
@@ -106,7 +106,7 @@ public class GentzSearchController {
 			searchParams.put("dateFrom", "1784-10-08");
 			searchParams.put("dateTo", "1802-12-31");
 			result.addAll(gss.search(searchParams,false));
-		} catch (IOException | ParseException e) {
+		} catch (IOException | org.apache.lucene.queryparser.classic.ParseException e) {
 			e.printStackTrace();
 		}
 		model.addAttribute("letters",result);

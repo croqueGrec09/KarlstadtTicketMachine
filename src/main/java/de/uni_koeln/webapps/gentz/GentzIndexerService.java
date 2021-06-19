@@ -13,7 +13,7 @@ import org.apache.lucene.document.TextField;
 import org.apache.lucene.index.IndexWriter;
 import org.apache.lucene.index.IndexWriterConfig;
 import org.apache.lucene.store.Directory;
-import org.apache.lucene.store.SimpleFSDirectory;
+import org.apache.lucene.store.NIOFSDirectory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
@@ -31,16 +31,15 @@ public class GentzIndexerService {
 
 	@Autowired
 	private GentzTEICorpus gts;
-	private String indexDir = "index";
 	
 	/**
 	 * Builds up the letter index.
-	 * 
-	 * @throws IOException
+	 *
 	 */
 	@PostConstruct
 	public void init() throws IOException{
-		Directory dir = new SimpleFSDirectory(new File(indexDir).toPath());
+		String indexDir = "index";
+		Directory dir = new NIOFSDirectory(new File(indexDir).toPath());
 		IndexWriterConfig writerConfig = new IndexWriterConfig(new StandardAnalyzer());
 		IndexWriter writer = new IndexWriter(dir, writerConfig);
 		writer.deleteAll();
@@ -50,7 +49,7 @@ public class GentzIndexerService {
 			Document doc = convertToLuceneDoc(letter);
 			writer.addDocument(doc);
 		}
-		System.out.println("index size: "+writer.numDocs()+". Not enough.");
+		System.out.println("index size: "+writer+". Not enough.");
 		writer.close();
 	}
 

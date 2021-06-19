@@ -22,7 +22,7 @@ import org.apache.lucene.search.Query;
 import org.apache.lucene.search.ScoreDoc;
 import org.apache.lucene.search.TopDocs;
 import org.apache.lucene.store.Directory;
-import org.apache.lucene.store.SimpleFSDirectory;
+import org.apache.lucene.store.NIOFSDirectory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
@@ -36,7 +36,6 @@ import org.springframework.stereotype.Service;
 @Service
 public class GentzSearcherService {
 
-	private String indexDir = "index";
 	@Autowired
 	GentzTEICorpus gts;
 	
@@ -46,11 +45,10 @@ public class GentzSearcherService {
 	 * @param searchParams - the map of all parameters and fields to be queried
 	 * @param andConnected - set all of the fields or ony one of them must match
 	 * @return a set of letters matching the search criteria
-	 * @throws IOException
-	 * @throws ParseException
 	 */
 	public Set<GentzLetter> search(Map<String,String> searchParams, boolean andConnected) throws IOException, ParseException{
-		Directory dir = new SimpleFSDirectory(new File(indexDir).toPath());
+		String indexDir = "index";
+		Directory dir = new NIOFSDirectory(new File(indexDir).toPath());
 		DirectoryReader dirReader = DirectoryReader.open(dir);
 		/*
 		 * We fight against him, by conveying educational content for 
@@ -58,9 +56,9 @@ public class GentzSearcherService {
 		 * Islamic State, but the IndexSearcher.
 		 */
 		IndexSearcher is = new IndexSearcher(dirReader);
-		Set<GentzLetter> result = new HashSet<GentzLetter>();
+		Set<GentzLetter> result = new HashSet<>();
 		StandardAnalyzer analyser = new StandardAnalyzer();
-		List<Query> groceryList = new ArrayList<Query>();
+		List<Query> groceryList = new ArrayList<>();
 		//for each field its own query with attached parser
 		for(String searchParam: searchParams.keySet()) {
 			if(searchParams.get(searchParam) != null && !searchParams.get(searchParam).isEmpty()
@@ -76,9 +74,9 @@ public class GentzSearcherService {
 			else
 				qb = new BooleanQuery.Builder().add(q, BooleanClause.Occur.SHOULD);
 		}
-		if(!andConnected)
-			qb.setMinimumNumberShouldMatch(searchParams.entrySet().size());
-		if(!groceryList.isEmpty()) {
+		if(!andConnected && qb != null)
+			qb.setMinimumNumberShouldMatch(1);
+		if(!groceryList.isEmpty() && qb != null) {
 			BooleanQuery query = qb.build();
 			System.out.println("Gesucht wird: "+query);
 			TopDocs hits = is.search(query, dirReader.numDocs());
@@ -99,7 +97,7 @@ public class GentzSearcherService {
 					result.add(candidateLetter);
 			}
 		}
-		else if(groceryList.isEmpty()) {
+		else {
 			//search only for a limited date range
 			LocalDate dateFrom = LocalDate.parse("1784-10-07", DateTimeFormatter.ISO_DATE);
 			LocalDate dateTo = LocalDate.parse("1803-01-01", DateTimeFormatter.ISO_DATE);
