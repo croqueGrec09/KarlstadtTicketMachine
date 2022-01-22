@@ -46,7 +46,7 @@ public class TicketMachine {
 	@Autowired
 	GentzTEICorpus gts;
 	private String mappingPath = "gentz/karlstadtLetterMapping.xml";
-	private String townPath = "D:/htdocs/Keleti_pu/analysyscities/karlstadt.xml";
+	private String townPath = "E:/htdocs/Keleti_pu/analysyscities/karlstadt.xml";
 	private String townPrefix;
 	private Map<String,Set<Integer>> mappingCatStat = new TreeMap<String,Set<Integer>>();
 	private Map<Integer,Set<String>> mappingStatCat = new TreeMap<Integer,Set<String>>();
