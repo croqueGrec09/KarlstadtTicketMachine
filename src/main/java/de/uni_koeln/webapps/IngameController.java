@@ -21,7 +21,7 @@ import de.uni_koeln.webapps.gentz.TicketMachine;
 
 /**
  * This class manipulates the Gentz module.
- * This MVC is part of "Power of Data"-the game, soft ware part Karlstadt (detail map X b)
+ * This MVC is part of "Power of Data"-the game, software part Karlstadt (detail map X b)
  * 
  * This controller instance handles requests made *inside* the webapp. Those are done by 
  * AJAX. There is another instance ({@link GentzController}) for the ingame request handling. 
@@ -135,7 +135,7 @@ public class IngameController {
 	 * @param model - containing the object representation, formatted body and notes output, 
 	 * sender and receiver objects.
 	 * @return the single letter fragment
-	 * @see {@link GentzLetter}, {@link GentzEntity}
+	 * @see GentzLetter
 	 */
 	@RequestMapping(value = "/letter/{id}")
 	public String singleLetter(@PathVariable("id") String id,Model model) {
