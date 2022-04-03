@@ -49,7 +49,7 @@ public class GentzIndexerService {
 			Document doc = convertToLuceneDoc(letter);
 			writer.addDocument(doc);
 		}
-		System.out.println("index size: "+writer+". Not enough.");
+		System.out.println("index size: "+letters.size()+". Not enough.");
 		writer.close();
 	}
 

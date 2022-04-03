@@ -12,25 +12,25 @@
 		<dependency>
 			<groupId>org.springframework</groupId>
 			<artifactId>spring-webmvc</artifactId>
-			<version>5.3.15</version>
+			<version>5.3.18</version>
 		</dependency>
 		<!-- http://mvnrepository.com/artifact/org.thymeleaf/thymeleaf -->
 		<dependency>
 			<groupId>org.thymeleaf</groupId>
 			<artifactId>thymeleaf</artifactId>
-			<version>3.0.14.RELEASE</version>
+			<version>3.0.15.RELEASE</version>
 		</dependency>
 		<!-- http://mvnrepository.com/artifact/org.thymeleaf/thymeleaf-spring4 -->
 		<dependency>
 			<groupId>org.thymeleaf</groupId>
 			<artifactId>thymeleaf-spring4</artifactId>
-			<version>3.0.14.RELEASE</version>
+			<version>3.0.15.RELEASE</version>
 		</dependency>
 		<!-- http://mvnrepository.com/artifact/org.apache.lucene/lucene-core -->
 		<dependency>
 			<groupId>org.apache.lucene</groupId>
 			<artifactId>lucene-core</artifactId>
-			<version>9.0.0</version>
+			<version>9.1.0</version>
 		</dependency>
 		<!-- http://mvnrepository.com/artifact/org.apache.lucene/lucene-analyzers-common -->
 		<dependency>
@@ -42,25 +42,25 @@
 		<dependency>
 			<groupId>org.apache.lucene</groupId>
 			<artifactId>lucene-queryparser</artifactId>
-			<version>9.0.0</version>
+			<version>9.1.0</version>
 		</dependency>
 		<!-- https://mvnrepository.com/artifact/org.apache.lucene/lucene-queries -->
 		<dependency>
 		    <groupId>org.apache.lucene</groupId>
 		    <artifactId>lucene-queries</artifactId>
-		    <version>9.0.0</version>
+		    <version>9.1.0</version>
 		</dependency>
 		<!-- https://mvnrepository.com/artifact/org.springframework.data/spring-data-commons -->
 		<dependency>
 			<groupId>org.springframework.data</groupId>
 			<artifactId>spring-data-commons</artifactId>
-			<version>2.6.1</version>
+			<version>2.6.3</version>
 		</dependency>
 		<!-- https://mvnrepository.com/artifact/org.springframework.data/spring-data-mongodb -->
 		<dependency>
 			<groupId>org.springframework.data</groupId>
 			<artifactId>spring-data-mongodb</artifactId>
-			<version>3.3.1</version>
+			<version>3.3.3</version>
 		</dependency>
 		<!-- https://mvnrepository.com/artifact/org.springframework.mobile/spring-mobile-device -->
 		<dependency>
@@ -84,7 +84,7 @@
 		<dependency>
 			<groupId>com.fasterxml.jackson.module</groupId>
 			<artifactId>jackson-module-jaxb-annotations</artifactId>
-			<version>2.13.1</version>
+			<version>2.13.2</version>
 		</dependency>
 		<!-- https://mvnrepository.com/artifact/org.apache.commons/commons-collections4 -->
 		<dependency>
@@ -100,19 +100,19 @@
 			<plugin>
 				<groupId>org.apache.maven.plugins</groupId>
 				<artifactId>maven-war-plugin</artifactId>
-				<version>2.6</version>
+				<version>3.3.2</version>
 			</plugin>
 			<!-- http://mvnrepository.com/artifact/org.eclipse.jetty/jetty-maven-plugin -->
 			<plugin>
 				<groupId>org.eclipse.jetty</groupId>
 				<artifactId>jetty-maven-plugin</artifactId>
-				<version>9.4.44.v20210927</version>
+				<version>10.0.8</version>
 			</plugin>
 			<!-- http://mvnrepository.com/artifact/org.apache.maven.plugins/maven-compiler-plugin -->
 			<plugin>
 				<groupId>org.apache.maven.plugins</groupId>
 				<artifactId>maven-compiler-plugin</artifactId>
-				<version>3.8.1</version>
+				<version>3.10.1</version>
 				<configuration>
 					<release>17</release>
 				</configuration>
