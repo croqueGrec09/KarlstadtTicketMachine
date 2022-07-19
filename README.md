@@ -7,3 +7,5 @@ To make this project running:
 - change the absolute path in TicketMachine.java (this should be a configuration variable anyway)
 - make sure that index is not existing when updating Lucene version
 - if running with Java >= 16, Maven may not cope with the version. Insert then in the VM options the following line: --add-opens java.base/java.util=ALL-UNNAMED --add-opens java.base/java.lang.reflect=ALL-UNNAMED --add-opens java.base/java.text=ALL-UNNAMED --add-opens java.desktop/java.awt.font=ALL-UNNAMED
+
+If Lucene is being updated: delete index dir because of outdated codec leftovers
